@@ -1,11 +1,10 @@
 AC_PREREQ([2.61])
-AC_INIT([dlvhex-stringplugin],[2.0.0],[dlvhex-devel@lists.sourceforge.net])
-AC_CONFIG_SRCDIR([src/stringplugin.cpp])
+AC_INIT([dlvhex-sat-unsatplugin],[2.0.0],[dlvhex-devel@lists.sourceforge.net])
 AC_CONFIG_HEADERS([src/config.h])
 
 # for documentation of the versioning scheme see
 # https://sourceforge.net/apps/trac/dlvhex/wiki/LibraryVersions
-DLVHEX_DEFINE_VERSION([STRINGPLUGIN],[$PACKAGE_VERSION])
+DLVHEX_DEFINE_VERSION([SATUNSATPLUGIN],[$PACKAGE_VERSION])
 DLVHEX_DEFINE_VERSION([DLVHEX_ABI],[7.0.0])
 
 AM_INIT_AUTOMAKE

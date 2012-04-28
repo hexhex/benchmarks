@@ -1,0 +1,21 @@
+% see README for origin of this encoding
+
+% 3CNF we encode here is satisfiable
+% (a v b v c) & (-a v -c v d) & (-d v -b)
+%
+% -> this encoding should not have an answer set
+
+% 1 = p
+% 0 = z
+% -1 = m
+
+xa(z).xb(z).xc(z).xd(z).
+
+xa(p) :- &avg[xa](z). xa(m) :- &avg[xa](z). xa(p) :- w. xa(m) :- w.
+xb(p) :- &avg[xb](z). xb(m) :- &avg[xb](z). xb(p) :- w. xb(m) :- w.
+xc(p) :- &avg[xc](z). xc(m) :- &avg[xc](z). xc(p) :- w. xc(m) :- w.
+xd(p) :- &avg[xd](z). xd(m) :- &avg[xd](z). xd(p) :- w. xd(m) :- w.
+
+w :- xa(p), xb(p), xc(p).
+w :- xa(m), xc(m), xd(p).
+w :- xd(m), xb(m).

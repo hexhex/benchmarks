@@ -1,4 +1,0 @@
-date("2006-04-26").
-year(Y)  :- &split[X,"-",0](Y), date(X).
-month(M) :- &split[X,"-",1](M), date(X).
-day(D)   :- &split[X,"-",2](D), date(X).
