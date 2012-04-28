@@ -1,0 +1,157 @@
+2012-03-11  Peter Schueller  <ps@kr.tuwien.ac.at>
+
+	Release version 2.0.0.
+
+2012-01-19  Peter Schueller  <ps@kr.tuwien.ac.at>
+
+	* configure.ac: Using dlvhex.m4 for configuration.
+	* m4/dlvhex.m4: Likewise.
+	* NEWS: Update.
+	* AUTHORS: Update.
+
+2011-09-23  Sabine Laszakovits  <sabine.laszakovits@gmail.com>
+
+	Porting to dlvhex 2.0.0.
+
+2011-06-13  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* m4/boost.m4: Remove.
+	* bootstrap.sh: Likewise.
+
+2010-06-22  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	Release version 1.7.0.
+
+2010-06-15  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* configure.ac (BOOST_REQUIRE): Require boost >= 1.41.
+
+2010-06-14  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* m4/boost.m4: Updating to version currently used in dlvhex trunk.
+
+	* configure.ac (AC_PREREQ): Require autoconf >= 2.61.
+	(AC_INIT): Bump version to 1.7.0.
+
+2010-04-23  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* src/Makefile.am (AUTOMAKE_OPTIONS): Remove.
+
+2010-04-22  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* src/stringplugin.cpp: Include cstdio for gcc4.4.
+	(ShaAtom::retrieve): Check return value of fgets.
+
+2009-09-23  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* m4/boost.m4: Fix for autoconf 2.64 (see also
+	http://lists.gnu.org/archive/html/bug-autoconf/2009-08/msg00054.html).
+
+2009-08-24  Peter Schueller  <ps@kr.tuwien.ac.at>
+
+	* m4/boost.m4: Updating to version currently used in dlvhex trunk.
+
+	* examples/tests/stringplugintests.test: Adding examples, also used
+	as testcases with the test script which is currently used in dlvhex.
+	* examples/tests/run-dlvhex-tests.sh: Likewise.
+	* configure.ac: Likewise.
+	* Makefile.am: Likewise.
+	* examples/cmp.hex: Likewise.
+	* examples/concat.hex: Likewise.
+	* examples/sha1sum.hex: Likewise.
+	* examples/split.hex: Likewise.
+	* examples/strstr.hex: Likewise.
+	* examples/tests/cmp.out: Likewise.
+	* examples/tests/concat.out: Likewise.
+	* examples/tests/sha1sum.out: Likewise.
+	* examples/tests/split.out: Likewise.
+	* examples/tests/strstr.out: Likewise.
+
+2009-01-29  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* src/stringplugin.cpp (SplitAtom::retrieve): Fix bug if position
+	is bigger then maximum number of string-splits.
+	Optimize string splitting.
+
+2008-02-20  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* configure.ac: Require autoconf >= 2.61.
+
+	* Makefile.am: Require automake >= 1.10.
+
+2008-02-12  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* Makefile.am (AUTOMAKE_OPTIONS): Set to gnu.
+
+	* configure.ac: Integrate new boost searching macros.
+	* src/Makefile.am: Likewise.
+
+	* m4/boost.m4: Use boost.m4 from http://repo.or.cz/w/boost.m4.git.
+
+2008-01-27  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* src/stringplugin.cpp: Set plugin name to PACKAGE_TARNAME.
+
+2008-01-09  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* src/stringplugin.cpp: Adapt to new dlvhex plugin API.
+
+	* configure.ac: Bump version to 0.3.0.
+	Fix boost searching.
+
+	* bootstrap.sh: Use autoreconf.
+
+	* m4/boost.m4: New file.
+
+	* README: New file.
+
+	* NEWS: New file.
+
+	* AUTHORS: New file.
+
+2007-08-27  Axel Polleres  <axel@polleres.net>
+
+        * src/stringplugin.cpp: Generalized '&concat' atom to accept an
+        aribtrary number of input params.
+
+2006-12-01  Roman Schindlauer  <roman@kr.tuwien.ac.at>
+
+	* configure.ac: Bumped version to 0.2.0
+
+2006-12-01  Roman Schindlauer  <roman@kr.tuwien.ac.at>
+
+	* configure.ac: Turn off building of static library.
+
+2006-09-13  Roman Schindlauer  <roman@kr.tuwien.ac.at>
+
+	* configure.ac: Added version number macros.
+
+	* src/stringplugin.cpp (PLUGINIMPORTFUNCTION): Set version number from
+	macros.
+	Update setOptions() parameters.
+
+2006-08-18  Roman Schindlauer  <roman@kr.tuwien.ac.at>
+
+	* src/Makefile.am: Added "-avoid-version -module" to LDFLAGS.
+
+	* src/stringplugin.cpp (PLUGINIMPORTFUNCTION): Set plugin version number.
+
+
+2006-07-17  Roman Schindlauer  <roman@kr.tuwien.ac.at>
+
+	* src/Makefile.am: removed linking with libdlvhexbase.
+
+
+2006-05-13  Roman Schindlauer  <roman@kr.tuwien.ac.at>
+
+	* src/stringplugin.cpp: Renamed 'sha' atom to 'sha1sum'.
+
+
+2006-05-10  Roman Schindlauer  <roman@kr.tuwien.ac.at>
+
+	* src/stringplugin.cpp: Reworked all methods, validating the type of
+	input terms. Allowed integer input for &concat, &strstr, &split, &cmp.
+
+	* ChangeLog: Added.
+
+	Fixes bug: #18.

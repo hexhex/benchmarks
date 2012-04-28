@@ -1,0 +1,4 @@
+phonenumber("+4312345").
+phonenumber("+4912345").
+phonenumber("123+4345").
+austrian_phone(P) :- &strstr[P,"+43"], phonenumber(P).

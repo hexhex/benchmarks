@@ -1,0 +1,5 @@
+stringpair("ab","cd").
+intpair(3,5).
+
+fullstring(Full) :- &concat[P,F](Full), stringpair(P,F).
+fullstring(Full) :- &concat[P,F](Full), intpair(P,F).
