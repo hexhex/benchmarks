@@ -27,10 +27,11 @@ struct SatUnsatPluginCtxData:
 	ID idz;
 	ID idm;
 
-	bool enabled;
+	enum Rewritingmode { DISABLED, SAT, UNSAT };
+	Rewritingmode mode;
 
 	SatUnsatPluginCtxData():
-		enabled(false) {}
+		mode(DISABLED) {}
 };
 
 typedef SatUnsatPluginCtxData PluginCtxData;
@@ -93,6 +94,219 @@ public:
 	}
 };
 
+// base DIMACS parsing functionality
+class InputConverterBase:
+	public PluginConverter
+{
+public:
+  InputConverterBase(PluginCtxData& pcd):
+		pcd(pcd) {}
+  virtual ~InputConverterBase() {}
+
+  virtual void convert(std::istream& i, std::ostream& o);
+
+protected:
+	virtual void rewriteVariable(std::ostream& out, unsigned posidx) = 0;
+	virtual void rewriteClause(std::ostream& out, const std::vector<int>& variables) = 0;
+	virtual void rewriteAdditional(std::ostream& out) = 0;
+
+protected:
+  PluginCtxData& pcd;
+
+	unsigned numvars;
+	unsigned numclauses;
+	std::set<unsigned> variables;
+	std::list<std::vector<int> > clauses;
+};
+
+void InputConverterBase::convert(std::istream& i, std::ostream& o)
+{
+	// parse dimacs from i into variables and clauses
+	DBGLOG(DBG,"parsing dimacs");
+
+	std::string line;
+
+	numvars = 0;
+	numclauses = 0;
+
+	char c;
+	do
+	{
+		i >> c;
+		if( c == 'c' )
+		{
+			std::getline(i, line);
+			DBGLOG(DBG,"skipping comment input line '" << line << "'");
+			continue;
+		}
+		else if( c == 'p' )
+		{
+			std::string str;
+			i >> str;
+			if( str != "cnf" )
+				throw std::runtime_error("can only process 'cnf' dimacs!");
+			i >> numvars >> numclauses;
+			LOG(INFO,"got 'p cnf' with " << numvars << " variables and " << numclauses << " clauses");
+		}
+		else
+			throw std::runtime_error("malformed dimacs input line at beginning!");
+	}
+	while(i.good() && numvars == 0 && numclauses == 0);
+
+	if( !i.good() )
+		throw std::runtime_error("malformed dimacs input! (found no 'p' line)");
+	
+	variables.clear();
+	clauses.clear();
+	unsigned atclause = 1;
+	do
+	{
+		std::vector<int> clause;
+		int var;
+		do
+		{
+			i >> var;
+			if( var != 0 )
+			{
+				clause.push_back(var);
+				if( var < 0 )
+					variables.insert(-var);
+				else
+					variables.insert(var);
+			}
+			else
+				break;
+		}
+		while(i.good());
+		
+		if( i.good() )
+		{
+			clauses.push_back(clause);
+			atclause++;
+		}
+	}
+	while(i.good() && atclause <= numclauses);
+
+	DBGLOG(DBG,"read " << atclause << " clauses");
+
+	// do some minimal verification
+	if( variables.size() != numvars )
+	{
+		LOG(ERROR,"got " << variables.size() << " variables but input said there are " << numvars);
+		throw std::runtime_error("malformed DIMACS input");
+	}
+	if( clauses.size() != numclauses )
+	{
+		LOG(ERROR,"got " << clauses.size() << " clauses but input said there are " << numclauses);
+		throw std::runtime_error("malformed DIMACS input");
+	}
+
+	// rewrite
+	for(auto it = variables.begin(); it != variables.end(); ++it)
+	{
+		rewriteVariable(o, *it);
+	}
+	for(auto it = clauses.begin(); it != clauses.end(); ++it)
+	{
+		rewriteClause(o, *it);
+	}
+	rewriteAdditional(o);
+}
+
+class InputConverterSAT:
+  public InputConverterBase
+{
+public:
+  InputConverterSAT(PluginCtxData& pcd):
+		InputConverterBase(pcd) {}
+
+protected:
+	inline void writevar(std::ostream& out, int var) // final 
+	{
+		if( var < 0 )
+			out << "nx" << -var;
+		else
+			out << "x" << var;
+	}
+
+	virtual void rewriteVariable(std::ostream& out, unsigned posidx)
+	{
+		int idx = posidx;
+		writevar(out, idx);
+		out << " v ";
+		writevar(out, -idx);
+		out << ".\n";
+	}
+
+	virtual void rewriteClause(std::ostream& out, const std::vector<int>& variables)
+	{
+		out << ":- ";
+		auto it = variables.begin();
+		writevar(out, *it);
+		for(;it != variables.end(); ++it)
+		{
+			out << ", ";
+			writevar(out, *it);
+		}
+		out << ".\n";
+	}
+
+	virtual void rewriteAdditional(std::ostream& out)
+	{
+	}
+};
+
+class InputConverterUNSAT:
+  public InputConverterBase
+{
+public:
+  InputConverterUNSAT(PluginCtxData& pcd):
+		InputConverterBase(pcd) {}
+
+protected:
+	inline void writevar(std::ostream& out, int var) // final 
+	{
+		if( var < 0 )
+			out << "x" << -var << "(m)";
+		else
+			out << "x" << var << "(p)";
+	}
+
+	virtual void rewriteVariable(std::ostream& out, unsigned posidx)
+	{
+		std::string vp, vz, vm;
+		{
+			std::stringstream ss;
+			ss << "x" << posidx;
+			vp = ss.str() + "(p)";
+			vz = ss.str() + "(z)";
+			vm = ss.str() + "(m)";
+		}
+		out << vz << ".\n";
+		out << vp << " :- &avg[x" << posidx << "](z).\n";
+		out << vm << " :- &avg[x" << posidx << "](z).\n";
+		out << vp << " :- w.\n";
+		out << vm << " :- w.\n";
+	}
+
+	virtual void rewriteClause(std::ostream& out, const std::vector<int>& variables)
+	{
+		out << "w :- ";
+		auto it = variables.begin();
+		writevar(out, *it);
+		for(;it != variables.end(); ++it)
+		{
+			out << ", ";
+			writevar(out, *it);
+		}
+		out << ".\n";
+	}
+
+	virtual void rewriteAdditional(std::ostream& out)
+	{
+	}
+};
+
 class SatUnsatPlugin : public PluginInterface
 {
 public:
@@ -117,6 +331,16 @@ public:
 		return ret;
 	}
 	
+	// output help message for this plugin
+	virtual void
+	printUsage(std::ostream& o) const
+	{
+		//    123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-
+		o << "     --satunsatmode=<mode>     Enable input rewriting (from DIMACS to <mode>):\n"
+			   "                                sat   trivial satisfiability encoding\n"
+				 "                                unsat unsatisfiability saturation encoding" << std::endl;
+	}
+
 	virtual void 
 	processOptions(std::list<const char*>& pluginOptions, ProgramCtx& ctx)
 	{
@@ -127,12 +351,51 @@ public:
 		pcd.idz = ctx.registry()->storeConstantTerm("z");
 		pcd.idm = ctx.registry()->storeConstantTerm("m");
 
-		// TODO look if enabled and update pcd accordingly
-	
+		// look which mode, if any
+		typedef std::list<const char*>::iterator Iterator;
+		Iterator it;
+		it = pluginOptions.begin();
+		while( it != pluginOptions.end() )
+		{
+			bool processed = false;
+			const std::string str(*it);
+			if( str == "--satunsatmode=sat" )
+			{
+				pcd.mode = SatUnsatPluginCtxData::SAT;
+				processed = true;
+			}
+			else if( str == "--satunsatmode=unsat" )
+			{
+				pcd.mode = SatUnsatPluginCtxData::UNSAT;
+				processed = true;
+			}
+
+			if( processed )
+			{
+				// return value of erase: element after it, maybe end()
+				DBGLOG(DBG,"SatUnsatPlugin successfully processed option " << str);
+				it = pluginOptions.erase(it);
+			}
+			else
+			{
+				it++;
+			}
+		}
 	}
 
-	// TODO input rewriter iff enabled
-	
+	PluginConverterPtr
+	createConverter(ProgramCtx& ctx)
+	{
+		PluginCtxData& pcd = ctx.getPluginData<SatUnsatPlugin>();
+		switch(pcd.mode)
+		{
+		case PluginCtxData::SAT:
+			return PluginConverterPtr(new InputConverterSAT(pcd));
+		case PluginCtxData::UNSAT:
+			return PluginConverterPtr(new InputConverterUNSAT(pcd));
+		}
+		return PluginConverterPtr();
+	}
 };
 
     

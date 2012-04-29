@@ -18,6 +18,7 @@ case $host_os in
      ;;
 esac 
 
+CXXFLAGS="$CXXFLAGS -std=c++0x"
 
 # Checks for programs.
 AC_PROG_CXX

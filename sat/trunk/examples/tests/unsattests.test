@@ -1,2 +1,8 @@
 unsatmode-1-sat.hex no_answerset.out
 unsatmode-2-unsat.hex unsatmode-2-unsat.out
+sat-3cnf-10-45_1.dimacs no_answerset.out --satunsatmode=unsat -n=1
+sat-3cnf-10-45_1.dimacs no_answerset.out --satunsatmode=unsat --solver=genuineii --flpcheck=ucs -n=1
+sat-3cnf-10-45_1.dimacs no_answerset.out --satunsatmode=unsat --solver=genuineii --flpcheck=explicit -n=1
+unsat-3cnf-10-65_1.dimacs unsat-3cnf-10-65_1.out --satunsatmode=unsat -n=1
+unsat-3cnf-10-65_1.dimacs unsat-3cnf-10-65_1.out --satunsatmode=unsat --solver=genuineii --flpcheck=ucs -n=1
+unsat-3cnf-10-65_1.dimacs unsat-3cnf-10-65_1.out --satunsatmode=unsat --solver=genuineii --flpcheck=explicit -n=1
