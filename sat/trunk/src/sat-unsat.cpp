@@ -42,7 +42,7 @@ public:
 
 public:
 	AvgAtom(PluginCtxData& pcd):
-		PluginAtom("avg", 1),
+		PluginAtom("avg", false),
 		pcd(pcd)
 	{
 		addInputPredicate();
