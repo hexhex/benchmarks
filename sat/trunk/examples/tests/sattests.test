@@ -1,10 +1,10 @@
 satmode-1-sat.hex satmode-1-sat.out
 satmode-2-unsat.hex no_answerset.out
-sat-3cnf-10-45_1.dimacs sat-3cnf-10-45_1.out --satunsatmode=sat
-sat-3cnf-10-45_1.dimacs sat-3cnf-10-45_1.out --satunsatmode=sat --solver=genuineii
-unsat-3cnf-10-65_1.dimacs no_answerset.out --satunsatmode=sat
-unsat-3cnf-10-65_1.dimacs no_answerset.out --satunsatmode=sat --solver=genuineii
+#sat-3cnf-10-45_1.dimacs sat-3cnf-10-45_1.out --satunsatmode=sat
+#sat-3cnf-10-45_1.dimacs sat-3cnf-10-45_1.out --satunsatmode=sat --solver=genuinegc
+#unsat-3cnf-10-65_1.dimacs no_answerset.out --satunsatmode=sat
+#unsat-3cnf-10-65_1.dimacs no_answerset.out --satunsatmode=sat --solver=genuinegc
 sat-3cnf-8-65_2.dimacs sat-3cnf-8-65_2.out --satunsatmode=sat
-sat-3cnf-8-65_2.dimacs sat-3cnf-8-65_2.out --satunsatmode=sat --solver=genuineii
+sat-3cnf-8-65_2.dimacs sat-3cnf-8-65_2.out --satunsatmode=sat --solver=genuinegc
 unsat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=sat
-unsat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=sat --solver=genuineii
+unsat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=sat --solver=genuinegc
