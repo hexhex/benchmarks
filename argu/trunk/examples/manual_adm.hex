@@ -3,4 +3,4 @@ att(a,b). att(c,b). att(c,d). att(d,c). att(d,e). att(e,f). att(f,f). att(f,g). 
 
 in(X) v out(X) :- arg(X).
 
-:- not &argSemExt[adm,arg,att,in,unused]().
+:- not &argSemExt[adm,arg,att,in,unused,unused]().
