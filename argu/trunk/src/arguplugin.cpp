@@ -42,7 +42,9 @@ public:
     addInputPredicate();
     // extension candidate/1 \subseteq arguments
     addInputPredicate();
-    // spoil (atom is always true if spoil is true)
+    // pspoil (atom is always true if pspoil is true)
+    addInputPredicate();
+    // nspoil (atom is always false if nspoil is true)
     addInputPredicate();
     
     // output = truth value
@@ -76,11 +78,11 @@ protected:
 void
 ArgSemExtAtom::retrieve(const Query& query, Answer& answer) throw (PluginError)
 {
-  assert(query.input.size() == 5);
+  assert(query.input.size() == 6);
 
   RegistryPtr reg = getRegistry();
 
-  // check if spoil is true
+  // check if pspoil is true
   {
     // id of constant of saturate/spoil predicate
     ID saturate_pred = query.input[4];
@@ -98,6 +100,28 @@ ArgSemExtAtom::retrieve(const Query& query, Answer& answer) throw (PluginError)
     if( saturate )
     {
       answer.get().push_back(Tuple());
+      return;
+    }
+  }
+
+  // check if nspoil is true
+  {
+    // id of constant of saturate/spoil predicate
+    ID saturate_pred = query.input[4];
+
+    // get id of 0-ary atom
+    OrdinaryAtom saturate_oatom(ID::MAINKIND_ATOM | ID::SUBKIND_ATOM_ORDINARYG);
+    saturate_oatom.tuple.push_back(saturate_pred);
+    ID saturate_atom = reg->storeOrdinaryGAtom(saturate_oatom);
+    DBGLOG(DBG,"got saturate_pred=" << saturate_pred << " and saturate_atom=" << saturate_atom);
+
+    // check if atom <saturate_pred> is true in interpretation
+    bool saturate = query.interpretation->getFact(saturate_atom.address);
+    LOG(DBG,"SaturationMetaAtom called with saturate=" << saturate);
+
+    if( saturate )
+    {
+      answer.use();
       return;
     }
   }

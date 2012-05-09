@@ -1,5 +1,4 @@
-%% developed by Peter Schueller
-%% based on prefex.dl from ASPARTIX
+%% encoding based on prefex.dl from ASPARTIX
 %% http://www.dbai.tuwien.ac.at/research/project/argumentation/systempage/Data/prefex.dl
 
 arg(a). arg(b). arg(c). arg(d). arg(e). arg(f). arg(g).
@@ -34,7 +33,7 @@ out(X) :- not in(X), arg(X).
 %:- in(X), not_defended(X).
 
 % hex admissibility check
-:- not &argSemExt[adm,arg,att,in,unused]().
+:- not &argSemExt[adm,arg,att,in,unused,unused]().
 
 %%
 %% in/1 is an admissible candidate
@@ -60,24 +59,29 @@ sup(X) :- not nsup(X), arg(X).
 
 inT(X) v outT(X) :- arg(X).
 
-%% spoil if S \subseteq T then spoil (no need to check preferredness)
+%% if S \subseteq T then spoil (no need to check preferredness)
 %%%% TODO perhaps the "no need" is not true for real ideal semantics, do we use spoil1 and spoil2 or is it necessary to use only one spoil?
 %% Use the sucessor function and check starting from supremum whether
 %% elements in T is also in S. If this is not the case we "stop"
 %% If we reach the supremum we spoil up.
-
 % sInT indicates whether S \subseteq T
-sInT_upto(Y) :- inf(Y), inS(Y), inT(Y).
-sInT_upto(Y) :- inf(Y), outS(Y), outT(Y).
-sInT_upto(Y) :- succ(Z,Y), inS(Y), inT(Y), sInT_upto(Z).
-sInT_upto(Y) :- succ(Z,Y), outS(Y), outT(Y), sInT_upto(Z).
+sInT_upto(Y) :- inf(Y), in(Y), inT(Y).
+sInT_upto(Y) :- inf(Y), out(Y).
+sInT_upto(Y) :- succ(Z,Y), in(Y), inT(Y), sInT_upto(Z).
+sInT_upto(Y) :- succ(Z,Y), out(Y), sInT_upto(Z).
 sInT :- sup(Y), sInT_upto(Y). 
 
-% spoil if S \subseteq T
 spoil :- sInT.
 
 % spoil if T is preferred extension
-spoil :- &argSemExt[pref,arg,att,inT,spoil]().
+tIsNotPref :- not &argSemExt[pref,arg,att,inT,unused,spoil]().
+
+spoil :- tIsNotPref.
+
+inT(X) :- spoil, arg(X).
+outT(X) :- spoil, arg(X).
+sInT :- spoil.
+tIsNotPref :- spoil.
 
 :- not spoil.
 
