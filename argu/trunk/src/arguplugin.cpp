@@ -20,11 +20,25 @@
 
 #include <string>
 #include <sstream>
+#include <fstream>
 #include <cstdio>
 
 
 namespace dlvhex {
 namespace argu {
+
+struct ArguPluginCtxData:
+	public dlvhex::PluginData
+{
+	enum Rewritingmode { DISABLED, IDEAL };
+	Rewritingmode mode;
+
+	ArguPluginCtxData():
+		mode(DISABLED) {}
+};
+
+typedef ArguPluginCtxData PluginCtxData;
+
 
 // Argh!
 class ArgSemExtAtom:
@@ -224,299 +238,47 @@ ArgSemExtAtom::retrieve(const Query& query, Answer& answer) throw (PluginError)
       answer.use();
     }
   }
+}
+    
+class InputConverter:
+	public PluginConverter
+{
+public:
+  InputConverter(PluginCtxData& pcd):
+		pcd(pcd) {}
+  virtual ~InputConverter() {}
+
+  virtual void convert(std::istream& i, std::ostream& o)
+  {
+    switch(pcd.mode)
+    {
+      case PluginCtxData::IDEAL:
+        // just passthrough the input
+        o << i.rdbuf();
+        // add ideal encoding
+        {
+          std::ifstream inf("ideal.hex.encoding");
+          o << inf.rdbuf();
+        }
+        break;
+      default:
+        throw std::runtime_error("input converter error unexpected mode!");
+    }
+  }
+
+protected:
+  PluginCtxData& pcd;
 };
-    
-#if 0
-    
-    class SplitAtom : public PluginAtom
-    {
-		public:
-      
-			SplitAtom() : PluginAtom("split", 1)
-			{
-				//
-				// argu to split
-				//
-				addInputConstant();
-	
-				//
-				// delimiter (argu or int)
-				//
-				addInputConstant();
-	
-				//
-				// which position to return (int)
-				//
-				addInputConstant();
-	
-				setOutputArity(1);
-			}
-      
-			virtual void
-			retrieve(const Query& query, Answer& answer) throw (PluginError)
-			{        
-				Registry &registry = *getRegistry();
-				const Term& t0 = registry.terms.getByID(query.input[0]);
-				ID delimiter = query.input[1];
-				ID position = query.input[2];
 
-				if (!t0.isQuotedString())
-				{
-					throw PluginError("Wrong input type for argument 0");
-				}
-				
-				const std::argu &str = t0.getUnquotedString();
-				
-				std::argustream ss;
-				
-				if (delimiter.isIntegerTerm())
-				{
-					ss << delimiter.address;
-				}
-				else if (delimiter.isConstantTerm())
-				{
-					Term t1 = registry.terms.getByID(delimiter);
-					ss << t1.getUnquotedString();
-				}
-				else
-				{
-					throw PluginError("Wrong input type for argument 1");
-				}
-				
-				std::argu sep(ss.str());
-        
-				Tuple out;
-        
-				std::argu::size_type start = 0;
-				std::argu::size_type end = 0;
-
-				unsigned cnt = 0;
-				
-				if (!position.isIntegerTerm())
-				{
-					throw PluginError("Wrong input type for argument 2");
-				}
-				unsigned pos = position.address;
-	
-				while ((end = str.find(sep, start)) != std::argu::npos)
-				{
-					// the pos'th match is our output tuple
-					if (cnt == pos) 
-					{
-						std::argu s = str.substr(start, end - start);
-						Term term(ID::MAINKIND_TERM | ID::SUBKIND_TERM_CONSTANT, '"' + s + '"');
-						out.push_back(registry.storeTerm(term));
-						break;
-					}
-
-					start = end + sep.size();
-					++cnt;
-				}
-	
-				// if we couldn't find anything, just return input argu
-				if (out.empty() && cnt < pos)
-				{
-					out.push_back(query.input[0]);
-				}
-				else if (out.empty() && cnt == pos) // add the remainder
-				{
-					Term term(ID::MAINKIND_TERM | ID::SUBKIND_TERM_CONSTANT, '"' + str.substr(start) + '"');
-					out.push_back(registry.storeTerm(term));
-				}
-	
-				answer.get().push_back(out);
-			}
-	};
-
-
-	class CmpAtom : public PluginAtom
-	{
-	     public:
-      
-			CmpAtom() : PluginAtom("cmp", 1)
-			{
-				//
-				// first argu or int
-				//
-				addInputConstant();
-	
-				//
-				// second argu or int
-				//
-				addInputConstant();
-	
-				setOutputArity(0);
-			}
-      
-			virtual void
-			retrieve(const Query& query, Answer& answer) throw (PluginError)
-			{	
-				Registry &registry = *getRegistry();
-	
-				ID s1 = query.input[0];
-				ID s2 = query.input[1];
-	
-				bool smaller = false;
-								
-				if (s1.isIntegerTerm() && s2.isIntegerTerm())
-				{
-					smaller = s1.address < s2.address;
-				}
-				else if (s1.isConstantTerm() && s2.isConstantTerm())
-				{
-					const Term& t1 = registry.terms.getByID(s1);
-					const Term& t2 = registry.terms.getByID(s2);
-					
-					smaller = t1.getUnquotedString() < t2.getUnquotedString();
-				}
-				else
-				{
-					throw PluginError("Wrong input argument type");
-				}
-
-				Tuple out;
-	
-				if (smaller)
-				{
-					answer.get().push_back(out);
-				}
-			}
-	};
-
-
-    class ConcatAtom : public PluginAtom
-    {
-		public:
-      
-			ConcatAtom() : PluginAtom("concat", 1)
-			{
-				//
-				// arbitrary list of argus or ints
-				//
-				addInputTuple();
-        
-				setOutputArity(1);
-			}
-      
-			virtual void
-			retrieve(const Query& query, Answer& answer) throw (PluginError)
-			{
-				Registry &registry = *getRegistry(); 
-	
-				int arity = query.input.size();
-	
-				std::argustream concatstream;
-	
-				concatstream << '"';
-				for (int t = 0; t < arity; t++)
-				{
-					ID id = query.input[t];
-					
-					if (id.isConstantTerm())
-					{
-						const Term &term = registry.terms.getByID(id);
-						concatstream << term.getUnquotedString();
-					}
-					else if (id.isIntegerTerm())
-					{
-						concatstream << id.address;
-					}
-					else
-					{
-						throw PluginError("Wrong input argument type");
-					}
-				}
-				concatstream << '"';
-        
-				Tuple out;
-				
-				//
-				// call Term::Term with second argument true to get a quoted argu!
-				//
-				Term term(ID::MAINKIND_TERM | ID::SUBKIND_TERM_CONSTANT, std::argu(concatstream.str()));
-				out.push_back(registry.storeTerm(term));
-				answer.get().push_back(out);
-			}
-	};
-    
-    
-	class strstrAtom : public PluginAtom
-    {
-		public:
-      
-			strstrAtom() : PluginAtom("strstr", 1)
-			{
-				//
-				// haystack
-				// 
-				addInputConstant();
-	
-				//
-				// needle
-				//
-				addInputConstant();
-	
-				setOutputArity(0);
-			}
-      
-			virtual void
-			retrieve(const Query& query, Answer& answer) throw (PluginError)
-			{
-				Registry &registry = *getRegistry();
-
-				std::argu in1;	
-				std::argustream inss;
-	
-				const Term& s1 = registry.terms.getByID(query.input[0]);
-				const Term& s2 = registry.terms.getByID(query.input[1]);
-	
-				if (!s1.isQuotedString())
-				{
-					throw PluginError("Wrong input argument type");
-				}
-
-				in1 = s1.getUnquotedString();
-				
-				int s2intval;
-				
-				if (s2.isQuotedString())
-				{
-					inss << s2.getUnquotedString();
-				}
-				else if ((s2intval = strtol(s2.symbol.c_str(), NULL, 10)) != 0)
-				{
-					inss << s2intval;
-				}
-				else
-				{
-					throw PluginError("Wrong input argument type");
-				}
-
-				std::argu in2(inss.str());
-	
-				std::transform(in1.begin(), in1.end(), in1.begin(), (int(*)(int))std::tolower);
-				std::transform(in2.begin(), in2.end(), in2.begin(), (int(*)(int))std::tolower);
-	
-				Tuple out;
-	
-				std::argu::size_type pos = in1.find(in2, 0);
-	
-				if (pos != std::argu::npos)
-				{
-					answer.get().push_back(out);
-				}
-			}
-	};
-
-#endif
-    
 	//
 	// A plugin must derive from PluginInterface
 	//
 	class ArguPlugin : public PluginInterface
     {
+    public:
+      typedef ArguPluginCtxData CtxData;
+
 		public:
-      
 			ArguPlugin() 
 			{
 				setNameVersion(PACKAGE_TARNAME,ARGUPLUGIN_VERSION_MAJOR,ARGUPLUGIN_VERSION_MINOR,ARGUPLUGIN_VERSION_MICRO);
@@ -533,12 +295,51 @@ ArgSemExtAtom::retrieve(const Query& query, Answer& answer) throw (PluginError)
 			}
       
 			virtual void 
-			processOptions(std::list<const char*>& pluginOptions, ProgramCtx& ctx)
-			{
-			
-			}
-      
+			processOptions(std::list<const char*>& pluginOptions, ProgramCtx& ctx);
+
+      PluginConverterPtr
+      createConverter(ProgramCtx& ctx)
+      {
+        PluginCtxData& pcd = ctx.getPluginData<ArguPlugin>();
+        if( pcd.mode != PluginCtxData::DISABLED )
+        {
+          return PluginConverterPtr(new InputConverter(pcd));
+        }
+        return PluginConverterPtr();
+      }
 	};
+
+void ArguPlugin::processOptions(std::list<const char*>& pluginOptions, ProgramCtx& ctx)
+{
+  PluginCtxData& pcd = ctx.getPluginData<ArguPlugin>();
+
+  // look which mode, if any
+  typedef std::list<const char*>::iterator Iterator;
+  Iterator it;
+  it = pluginOptions.begin();
+  while( it != pluginOptions.end() )
+  {
+    bool processed = false;
+    const std::string str(*it);
+    if( str == "--argumode=ideal" )
+    {
+      pcd.mode = PluginCtxData::IDEAL;
+      processed = true;
+    }
+
+    if( processed )
+    {
+      // return value of erase: element after it, maybe end()
+      DBGLOG(DBG,"ArguPlugin successfully processed option " << str);
+      it = pluginOptions.erase(it);
+    }
+    else
+    {
+      it++;
+    }
+  }
+}
+      
     
     
 //

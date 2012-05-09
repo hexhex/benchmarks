@@ -2,6 +2,11 @@ EXTRA_DIST = \
   run-dlvhex-tests.sh \
   answerset_compare.py
 
+all-local:
+	-ln -s $(top_srcdir)/src/pref.encoding
+	-ln -s $(top_srcdir)/src/adm.encoding
+	-ln -s $(top_srcdir)/src/ideal.hex.encoding
+
 TESTS = run-dlvhex-tests.sh
 
 TESTS_ENVIRONMENT = \
