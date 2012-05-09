@@ -1,0 +1,2 @@
+mailbox("abcde").
+owner(ID) :- &sha1sum[X](ID), mailbox(X).

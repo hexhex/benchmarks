@@ -1,0 +1,9 @@
+smaller(A,B) :- &cmp[A,B](), A = "bar", B = "foo".
+smaller(A,B) :- &cmp[A,B](), A = 1, B = 2.
+smaller(A,B) :- &cmp[A,B](), A = abc, B = abe.
+smaller(A,B) :- &cmp[A,B](), A = "baz", B = "bar".
+smaller(A,B) :- &cmp[A,B](), A = 5, B = 4.
+smaller(A,B) :- &cmp[A,B](), A = may, B = june.
+smaller(A,B) :- &cmp[A,B](), A = "test", B = "test".
+
+
