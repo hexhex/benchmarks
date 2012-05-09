@@ -1,0 +1,6 @@
+arg(a). arg(b). arg(c). arg(d). arg(e). arg(f). arg(g).
+att(a,b). att(c,b). att(c,d). att(d,c). att(d,e). att(e,f). att(f,f). att(f,g). att(g,e).
+
+in(X) v out(X) :- arg(X).
+
+:- not &argSemExt[pref,arg,att,in,unused]().
