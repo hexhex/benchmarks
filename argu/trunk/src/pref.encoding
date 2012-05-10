@@ -84,6 +84,3 @@ outN(X) :- spoil, arg(X).
 %% do the final spoil-thing ...
 :- not spoil.
 
-%% check if ext/1 is an extension
-:- arg(X), ext(X), out(X).
-:- arg(X), not ext(X), in(X).

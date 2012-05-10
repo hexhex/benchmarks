@@ -1,0 +1,86 @@
+%% encoding based on prefex.dl from ASPARTIX
+%% http://www.dbai.tuwien.ac.at/research/project/argumentation/systempage/Data/prefex.dl
+
+arg(a). arg(b). arg(c). arg(d). arg(e). arg(f). arg(g).
+att(a,b). att(c,b). att(c,d). att(d,c). att(d,e). att(e,f). att(f,f). att(f,g). att(g,e).
+
+%% an argument x defeats an argument y if x attacks y
+defeat(X,Y) :- att(X,Y).
+
+%%
+%% Guess a set S \subseteq A
+%%
+
+in(X) :- not out(X), arg(X).
+out(X) :- not in(X), arg(X).
+
+%%
+%% admissibility check
+%%
+
+% original
+
+%% S has to be conflict-free
+%:- in(X), in(Y), defeat(X,Y).
+
+%% The argument x is defeated by the set S
+%defeated(X) :- in(Y), defeat(Y,X).
+
+%% The argument x is not defended by S
+%not_defended(X) :- defeat(Y,X), not defeated(Y).
+
+%% All arguments x \in S need to be defended by S (admissibility)
+%:- in(X), not_defended(X).
+
+% hex admissibility check
+:- not &argSemExt[adm,arg,att,in,unused,unused]().
+
+%%
+%% in/1 is an admissible candidate
+%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% For the remaining part we need to put an order on the domain.
+% Therefore, we define a successor-relation with infinum and supremum 
+% as follows 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+lt(X,Y) :- arg(X),arg(Y), X<Y.
+nsucc(X,Z) :- lt(X,Y), lt(Y,Z).
+succ(X,Y) :- lt(X,Y), not nsucc(X,Y).
+ninf(X) :- lt(Y,X).
+nsup(X) :- lt(X,Y).
+inf(X) :- not ninf(X), arg(X).
+sup(X) :- not nsup(X), arg(X).
+
+%%
+%% Guess T \subseteq A
+%%
+
+inT(X) v outT(X) :- arg(X).
+
+%% if S \subseteq T then spoil (no need to check preferredness)
+%%%% TODO perhaps the "no need" is not true for real ideal semantics, do we use spoil1 and spoil2 or is it necessary to use only one spoil?
+%% Use the sucessor function and check starting from supremum whether
+%% elements in T is also in S. If this is not the case we "stop"
+%% If we reach the supremum we spoil up.
+% sInT indicates whether S \subseteq T
+sInT_upto(Y) :- inf(Y), in(Y), inT(Y).
+sInT_upto(Y) :- inf(Y), out(Y).
+sInT_upto(Y) :- succ(Z,Y), in(Y), inT(Y), sInT_upto(Z).
+sInT_upto(Y) :- succ(Z,Y), out(Y), sInT_upto(Z).
+sInT :- sup(Y), sInT_upto(Y). 
+
+spoil :- sInT.
+
+% spoil if T is preferred extension
+tIsNotPref :- not &argSemExt[pref,arg,att,inT,unused,spoil]().
+
+spoil :- tIsNotPref.
+
+inT(X) :- spoil, arg(X).
+outT(X) :- spoil, arg(X).
+sInT :- spoil.
+tIsNotPref :- spoil.
+
+:- not spoil.

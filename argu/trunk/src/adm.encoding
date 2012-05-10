@@ -20,6 +20,3 @@ not_defended(X) :- defeat(Y,X), not defeated(Y).
 %% All arguments x \in S need to be defended by S
 :- in(X), not_defended(X).
 
-%% check if ext/1 is an extension
-:- arg(X), ext(X), out(X).
-:- arg(X), not ext(X), in(X).

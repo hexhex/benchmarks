@@ -30,7 +30,7 @@ namespace argu {
 struct ArguPluginCtxData:
 	public dlvhex::PluginData
 {
-	enum Rewritingmode { DISABLED, IDEAL };
+	enum Rewritingmode { DISABLED, IDEALSET, IDEAL };
 	Rewritingmode mode;
 
 	ArguPluginCtxData():
@@ -45,8 +45,9 @@ class ArgSemExtAtom:
   public PluginAtom
 {
 public:
-  ArgSemExtAtom():
-    PluginAtom("argSemExt", 0)
+  ArgSemExtAtom(ProgramCtx& ctx):
+    PluginAtom("argSemExt", 0),
+    ctx(ctx)
   {
     // semantics \in \{ adm, pref \}
     addInputConstant();
@@ -69,6 +70,7 @@ public:
   retrieve(const Query& query, Answer& answer) throw (PluginError);
 
 protected:
+  ProgramCtx& ctx;
   std::map<ID, PredicateMaskPtr> predMasks;
 
   PredicateMask& getPredicateMask(ID forID, RegistryPtr reg)
@@ -198,16 +200,22 @@ ArgSemExtAtom::retrieve(const Query& query, Answer& answer) throw (PluginError)
         s << "ext(" << printToString<RawPrinter>(atom.tuple[1], reg) << ").\n";
       }
     }
-  }
 
-  // we use an extra registry for an external program
-  ProgramCtx extctx;
-  extctx.setupRegistry(RegistryPtr(new Registry));
+    // add check
+    s << "%% check if ext/1 is an extension\n"
+         ":- arg(X), ext(X), out(X).\n"
+         ":- arg(X), not ext(X), in(X).\n";
+  }
 
   // build program
   InputProviderPtr input(new InputProvider);
   input->addStringInput(s.str(),"facts_from_predicate_input");
   input->addFileInput(semantics + ".encoding");
+
+  #if 0
+  // we use an extra registry for an external program
+  ProgramCtx extctx;
+  extctx.setupRegistry(RegistryPtr(new Registry));
 
   // parse
   ModuleHexParser parser;
@@ -238,6 +246,36 @@ ArgSemExtAtom::retrieve(const Query& query, Answer& answer) throw (PluginError)
       answer.use();
     }
   }
+  #else
+  ProgramCtx subctx = ctx;
+  subctx.changeRegistry(RegistryPtr(new Registry));
+  subctx.edb.reset(new Interpretation(subctx.registry()));
+
+  subctx.inputProvider = input;
+  input.reset();
+
+  // parse into subctx, but do not call converters
+  if( !subctx.parser )
+  {
+    subctx.parser.reset(new ModuleHexParser);
+  }
+  subctx.parser->parse(subctx.inputProvider, subctx);
+
+  std::vector<InterpretationPtr> subas =
+    ctx.evaluateSubprogram(subctx, false);
+  if( !subas.empty() )
+  {
+    LOG(DBG,"got answer set " << *subas.front());
+    // true
+    answer.get().push_back(Tuple());
+  }
+  else
+  {
+    LOG(DBG,"got no answer set!");
+    // false (-> mark as used)
+    answer.use();
+  }
+  #endif
 }
     
 class InputConverter:
@@ -252,12 +290,21 @@ public:
   {
     switch(pcd.mode)
     {
+      case PluginCtxData::IDEALSET:
+        // just passthrough the input
+        o << i.rdbuf();
+        // add encoding
+        {
+          std::ifstream inf("idealset.encoding");
+          o << inf.rdbuf();
+        }
+        break;
       case PluginCtxData::IDEAL:
         // just passthrough the input
         o << i.rdbuf();
-        // add ideal encoding
+        // add encoding
         {
-          std::ifstream inf("ideal.hex.encoding");
+          std::ifstream inf("ideal.encoding");
           o << inf.rdbuf();
         }
         break;
@@ -289,7 +336,7 @@ protected:
 				std::vector<PluginAtomPtr> ret;
 			
 				// return smart pointer with deleter (i.e., delete code compiled into this plugin)
-				ret.push_back(PluginAtomPtr(new ArgSemExtAtom, PluginPtrDeleter<PluginAtom>()));
+				ret.push_back(PluginAtomPtr(new ArgSemExtAtom(ctx), PluginPtrDeleter<PluginAtom>()));
 			
 				return ret;
 			}
@@ -321,7 +368,12 @@ void ArguPlugin::processOptions(std::list<const char*>& pluginOptions, ProgramCt
   {
     bool processed = false;
     const std::string str(*it);
-    if( str == "--argumode=ideal" )
+    if( str == "--argumode=idealset" )
+    {
+      pcd.mode = PluginCtxData::IDEALSET;
+      processed = true;
+    }
+    else if( str == "--argumode=ideal" )
     {
       pcd.mode = PluginCtxData::IDEAL;
       processed = true;
