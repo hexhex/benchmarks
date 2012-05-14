@@ -9,7 +9,7 @@
 #	echo -ne $s;
 #}
 
-confstr="--solver=genuinegc;--solver=genuinegc --extlearn"
+confstr="--solver=dlv;--solver=genuinegc;--solver=genuinegc --extlearn"
 IFS=';' read -ra confs <<< "$confstr"
 header="#size"
 i=0
@@ -38,16 +38,11 @@ do
 	echo -ne $instance
 #	tab `strlen $instance` $len
 
-	mode="sat";
-	if [[ "$instance" == *"unsat"* ]]; then
-		mode="unsat";
-	fi
-
 	# for all configurations
 	for c in "${confs[@]}"
 	do
 		echo -ne -e " "
-		output=$(timeout 3 time -f %e dlvhex2 $c --plugindir=../src/ --satunsatmode=$mode $instance 2>&1 >/dev/null)
+		output=$(timeout 3 time -f %e dlvhex2 $c --plugindir=../src/ --satunsatmode=unsat $instance 2>&1 >/dev/null)
 		if [[ $? == 124 ]]; then
 			output="---"
 		fi
