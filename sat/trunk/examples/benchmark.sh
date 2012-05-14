@@ -47,6 +47,10 @@ do
 			output="---"
 		fi
 		echo -ne $output
+
+		# make sure that there are no zombies
+		pkill -9 -u $USER dlvhex2
+		pkill -9 -u $USER dlv
 	done
 	echo -e -ne "\n"
 done
