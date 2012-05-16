@@ -1,0 +1,2 @@
+strategic(X1) v strategic(X2) v strategic(X3) v strategic(X4) :- &product["inst3.txt"](P), &producedBy["inst3.txt", P](X1,X2,X3,X4).
+strategic(C) :- &company["inst3.txt"](C), &controlledBy["inst3.txt", C](X1,X2,X3,X4), strategic(X1), strategic(X2), strategic(X3), strategic(X4).

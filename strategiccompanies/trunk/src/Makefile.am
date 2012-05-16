@@ -1,13 +1,13 @@
 #
 # replace 'plugin' on the right side by your plugin's name
 #
-plugin_LTLIBRARIES = libdlvhexplugin-benchmark-sat-unsat.la
+plugin_LTLIBRARIES = libdlvhexplugin-benchmark-strategic.la
 
 #
 # replace 'plugin' on the left side as above and
 # add all sources of your plugin
 #
-libdlvhexplugin_benchmark_sat_unsat_la_SOURCES = sat-unsat.cpp
+libdlvhexplugin_benchmark_strategic_la_SOURCES = strategic.cpp
 
 #
 # extend compiler flags by CFLAGS of other needed libraries
@@ -17,5 +17,5 @@ AM_CPPFLAGS = \
 	$(BOOST_CPPFLAGS) \
 	$(DLVHEX_CFLAGS)
 
-#libdlvhexplugin_benchmark_sat_unsat_la_LDFLAGS = -avoid-version -module
+#libdlvhexplugin_benchmark_strategic_la_LDFLAGS = -avoid-version -module
 
