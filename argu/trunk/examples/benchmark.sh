@@ -11,7 +11,7 @@ done
 echo $header
 
 # for all argu files
-for instance in *.argu
+for instance in argubenchmark/*.argu
 do
 	echo -ne $instance
 
@@ -21,7 +21,7 @@ do
 		echo -ne -e " "
 		dir=$PWD
 		cd ../src
-		output=$(timeout 30 time -f %e /tmp/newinst/bin/dlvhex2 $c --plugindir=. --argumode=idealset $dir/$instance 2>&1 >/dev/null)
+		output=$(timeout 300 time -f %e dlvhex2 $c --plugindir=. --argumode=idealset $dir/$instance 2>&1 >/dev/null)
 		if [[ $? == 124 ]]; then
 			output="---"
 		fi
