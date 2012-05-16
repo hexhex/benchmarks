@@ -111,10 +111,11 @@ ArgSemExtAtom::retrieve(const Query& query, Answer& answer) throw (PluginError)
 
     // check if atom <saturate_pred> is true in interpretation
     bool saturate = query.interpretation->getFact(saturate_atom.address);
-    LOG(DBG,"SaturationMetaAtom called with saturate=" << saturate);
+    LOG(DBG,"ArgSemExtAtom called with pos saturate=" << saturate);
 
     if( saturate )
     {
+      // always return true
       answer.get().push_back(Tuple());
       return;
     }
@@ -123,7 +124,7 @@ ArgSemExtAtom::retrieve(const Query& query, Answer& answer) throw (PluginError)
   // check if nspoil is true
   {
     // id of constant of saturate/spoil predicate
-    ID saturate_pred = query.input[4];
+    ID saturate_pred = query.input[5];
 
     // get id of 0-ary atom
     OrdinaryAtom saturate_oatom(ID::MAINKIND_ATOM | ID::SUBKIND_ATOM_ORDINARYG);
@@ -133,10 +134,11 @@ ArgSemExtAtom::retrieve(const Query& query, Answer& answer) throw (PluginError)
 
     // check if atom <saturate_pred> is true in interpretation
     bool saturate = query.interpretation->getFact(saturate_atom.address);
-    LOG(DBG,"SaturationMetaAtom called with saturate=" << saturate);
+    LOG(DBG,"ArgSemExtAtom called with neg saturate=" << saturate);
 
     if( saturate )
     {
+      // always return false
       answer.use();
       return;
     }
@@ -296,6 +298,8 @@ public:
         // add encoding
         {
           std::ifstream inf("idealset.encoding");
+          if( inf.fail() )
+            throw std::runtime_error("could not open idealset.encoding!");
           o << inf.rdbuf();
         }
         break;
@@ -305,6 +309,8 @@ public:
         // add encoding
         {
           std::ifstream inf("ideal.encoding");
+          if( inf.fail() )
+            throw std::runtime_error("could not open ideal.encoding!");
           o << inf.rdbuf();
         }
         break;
