@@ -13,9 +13,11 @@ all-clean:
 
 TESTS = run-dlvhex-tests.sh
 
+#  --heuristics=asp:$(top_srcdir)/src/evalheur.asp
+
 TESTS_ENVIRONMENT = \
   TOP_SRCDIR=$(top_srcdir) \
-  DLVHEX="$(DLVHEX_BINDIR)/dlvhex2 -s --plugindir=$(top_builddir)/src --solver=genuinegi --flpcheck=ufs --verbose=8 --heuristics=asp:$(top_srcdir)/src/evalheur.asp" \
+  DLVHEX="$(DLVHEX_BINDIR)/dlvhex2 -s --plugindir=$(top_builddir)/src --solver=genuinegc --flpcheck=ufs --verbose=8" \
   EXAMPLESDIR=$(top_srcdir)/examples \
   TESTS=$(top_srcdir)/examples/tests/arguplugin.test \
   OUTDIR=$(top_srcdir)/examples/tests

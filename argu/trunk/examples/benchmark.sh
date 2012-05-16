@@ -1,4 +1,4 @@
-confstr="--solver=genuinegc;--solver=genuinegc --flpcheck=ufs"
+confstr="--solver=genuinegc --flpcheck=explicit;--solver=genuinegc --flpcheck=ufs;--solver=genuinegc --flpcheck=explicit -n=1;--solver=genuinegc --flpcheck=ufs -n=1"
 IFS=';' read -ra confs <<< "$confstr"
 header="#size"
 i=0
@@ -21,7 +21,7 @@ do
 		echo -ne -e " "
 		dir=$PWD
 		cd ../src
-		output=$(timeout 300 time -f %e dlvhex2 $c --plugindir=. --argumode=ideal $dir/$instance 2>&1 >/dev/null)
+		output=$(timeout 30 time -f %e /tmp/newinst/bin/dlvhex2 $c --plugindir=. --argumode=idealset $dir/$instance 2>&1 >/dev/null)
 		if [[ $? == 124 ]]; then
 			output="---"
 		fi
