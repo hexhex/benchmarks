@@ -1,0 +1,32 @@
+unsatmode-1-sat.hex no_answerset.out
+unsatmode-2-unsat.hex unsatmode-2-unsat.out
+#
+#sat-3cnf-10-45_1.dimacs no_answerset.out --satunsatmode=unsat --solver=genuineii --flpcheck=ufs --ufslearn --partial=ver -n=1
+# too slow for make check!
+#sat-3cnf-10-45_1.dimacs no_answerset.out --satunsatmode=unsat -n=1
+# too slow for make check!
+#sat-3cnf-10-45_1.dimacs no_answerset.out --satunsatmode=unsat --solver=genuineii --flpcheck=explicit -n=1
+#
+#unsat-3cnf-10-65_1.dimacs unsat-3cnf-10-65_1.out --satunsatmode=unsat --solver=genuineii --flpcheck=ufs -n=1
+# too slow for make check!
+#unsat-3cnf-10-65_1.dimacs unsat-3cnf-10-65_1.out --satunsatmode=unsat -n=1
+# too slow for make check!
+#unsat-3cnf-10-65_1.dimacs unsat-3cnf-10-65_1.out --satunsatmode=unsat --solver=genuineii --flpcheck=explicit -n=1
+#
+sat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=unsat --solver=genuinegc --flpcheck=ufs -n=1
+sat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=unsat --solver=genuinegc --flpcheck=ufs --ufslearn -n=1
+sat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=unsat --solver=genuinegc --flpcheck=ufs --extlearn -n=1
+sat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=unsat --solver=genuinegc --flpcheck=ufs --ufslearn --extlearn -n=1
+sat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=unsat --solver=genuinegc --flpcheck=explicit -n=1
+sat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=unsat --solver=genuinegc --flpcheck=explicit --extlearn -n=1
+sat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=unsat --solver=dlv --flpcheck=explicit -n=1
+#sat-3cnf-8-65_2.dimacs no_answerset.out --satunsatmode=unsat --solver=dlv --flpcheck=ufs -n=1
+#
+unsat-3cnf-8-65_2.dimacs unsat-3cnf-8-65_2.out --satunsatmode=unsat --solver=genuinegc --flpcheck=ufs -n=1
+unsat-3cnf-8-65_2.dimacs unsat-3cnf-8-65_2.out --satunsatmode=unsat --solver=genuinegc --flpcheck=ufs --ufslearn -n=1
+unsat-3cnf-8-65_2.dimacs unsat-3cnf-8-65_2.out --satunsatmode=unsat --solver=genuinegc --flpcheck=ufs --extlearn -n=1
+unsat-3cnf-8-65_2.dimacs unsat-3cnf-8-65_2.out --satunsatmode=unsat --solver=genuinegc --flpcheck=ufs --ufslearn --extlearn -n=1
+unsat-3cnf-8-65_2.dimacs unsat-3cnf-8-65_2.out --satunsatmode=unsat --solver=genuinegc --flpcheck=explicit -n=1
+unsat-3cnf-8-65_2.dimacs unsat-3cnf-8-65_2.out --satunsatmode=unsat --solver=genuinegc --flpcheck=explicit --extlearn -n=1
+unsat-3cnf-8-65_2.dimacs unsat-3cnf-8-65_2.out --satunsatmode=unsat --solver=dlv --flpcheck=explicit -n=1
+#unsat-3cnf-8-65_2.dimacs unsat-3cnf-8-65_2.out --satunsatmode=unsat --solver=dlv --flpcheck=ufs -n=1
