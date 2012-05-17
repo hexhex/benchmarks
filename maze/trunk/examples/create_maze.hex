@@ -1,0 +1,20 @@
+size(1).
+size(2).
+size(3).
+size(4).
+size(5).
+size(6).
+size(7).
+size(8).
+size(9).
+size(10).
+field(X,Y) :- size(X), size(Y).
+
+conn(10,10,s).
+conn(X,Y,u) v nconn(X,Y,u) :- field(X,Y).
+conn(X,Y,d) v nconn(X,Y,d) :- field(X,Y).
+conn(X,Y,l) v nconn(X,Y,l) :- field(X,Y).
+conn(X,Y,r) v nconn(X,Y,r) :- field(X,Y).
+
+conn(0,0,s) :- not &reachable[conn,1,1](10,10).
+:- conn(0,0,s).

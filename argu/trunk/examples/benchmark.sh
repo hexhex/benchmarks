@@ -1,4 +1,4 @@
-confstr="--solver=genuinegc --flpcheck=explicit;--solver=genuinegc --flpcheck=ufs;--solver=genuinegc --flpcheck=explicit -n=1;--solver=genuinegc --flpcheck=ufs -n=1"
+confstr="--solver=genuinegc;--solver=genuinegc --extlearn"
 IFS=';' read -ra confs <<< "$confstr"
 header="#size"
 i=0

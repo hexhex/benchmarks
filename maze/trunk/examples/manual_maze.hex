@@ -1,0 +1,4 @@
+maze(2,2,s).
+maze(1,1,r).
+
+reachable(X,Y) :- &reachable[maze,1,1](X,Y).
