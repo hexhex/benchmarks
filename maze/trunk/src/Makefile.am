@@ -7,7 +7,7 @@ plugin_LTLIBRARIES = libdlvhexplugin-benchmark-maze.la
 # replace 'plugin' on the left side as above and
 # add all sources of your plugin
 #
-libdlvhexplugin_benchmark_maze_la_SOURCES = strategic.cpp
+libdlvhexplugin_benchmark_maze_la_SOURCES = maze.cpp
 
 #
 # extend compiler flags by CFLAGS of other needed libraries
