@@ -1,4 +1,5 @@
 maze(2,2,s).
-maze(1,1,r).
+maze(2,1,l).
+maze(1,1,r) v maze(1,1,u).
 
-reachable(X,Y) :- &reachable[maze,1,1](X,Y).
+reachable(X,Y) :- &reachable[maze,1,1](X,Y), maze(X,Y,D).
