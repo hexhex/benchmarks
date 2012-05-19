@@ -511,7 +511,7 @@ public:
 					t.push_back(ID::termFromInteger(query.pattern[1].address));
 					reachableNG.insert(NogoodContainer::createLiteral(getOutputAtom(ctx, nogoods, query, t, false)));
 					nogoods->addNogood(reachableNG);
-std::cout << "Reachable: " << reachableNG << std::endl;
+//std::cout << "Reachable: " << reachableNG << std::endl;
 				}else{
 					// find the border between reachable and unreachable fields
 					Nogood unreachableNG;
@@ -546,7 +546,7 @@ std::cout << "Reachable: " << reachableNG << std::endl;
 					t.push_back(ID::termFromInteger(query.pattern[1].address));
 					unreachableNG.insert(NogoodContainer::createLiteral(getOutputAtom(ctx, nogoods, query, t, true)));
 					nogoods->addNogood(unreachableNG);
-std::cout << "Unreachable: " << unreachableNG << std::endl;
+//std::cout << "Unreachable: " << unreachableNG << std::endl;
 //std::cout << unreachableNG.getStringRepresentation(reg) << std::endl;
 //exit(0);
 				}

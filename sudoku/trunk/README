@@ -1,0 +1,12 @@
+This is a plugin for solving SAT instances given in DIMACS format.
+
+There are two modes:
+* sat -> use x v nx for each variable, add constraint for each clause
+  returns all witnesses if satisfiable
+	returns no answer set if unsatisfiable
+* unsat -> use saturation encoding from Wolfgang Faber, LPNMR 2005, "Unfounded Sets ..."
+	returns no answer set if satisfiable
+  returns one witness (spoiled answer set) if unsatisfiable
+
+This plugin is just for benchmarking.
+(Of course we could simply use a SAT-solver to solve SAT instances.)

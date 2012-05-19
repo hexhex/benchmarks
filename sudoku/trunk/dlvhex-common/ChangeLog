@@ -1,0 +1,61 @@
+2012-01-21  Peter Schueller  <ps@kr.tuwien.ac.at>
+
+	* m4/dlvhex.m4: Autoconf m4 macros for dlvhex (these are mainly
+	useful for plugins, but also come in handy for configuring DLVHEX).
+
+2011-11-22  Peter Schueller  <ps@kr.tuwien.ac.at>
+
+	* testsuite/run-dlvhex-tests.sh: Ignore testcases in
+	.tests file that is commented out using #.
+
+2011-09-02  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* README: Add missing bootstrap.sh.
+
+2011-08-04  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* README: Add documentation.
+
+2011-08-03  Peter Schueller  <ps@kr.tuwien.ac.at>
+
+	* testsuite/run-dlvhex-tests.sh: More documentation.
+
+2011-08-03  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* testsuite/run-dlvhex-tests.sh (TESTDIR): Assume that TESTDIR and
+	EXAMPLESDIR are given.
+
+2011-07-13  Peter Schueller  <ps@kr.tuwien.ac.at>
+
+	* testsuite/answerset_compare.py: Added common answer set comparison
+	script for writing testsuites.
+	* testsuite/run-dlvhex-tests.sh: Added common HEX execution tests.
+
+2011-06-13  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* README: Add documentation.
+
+	* bootstrap.sh: autoreconf implicitly calls libtoolize.
+
+	* m4/boost.m4: Sync with rpath_bug branch
+	<https://raw.github.com/tsuna/boost.m4/rpath_bug/build-aux/boost.m4>
+	to fix a macosx linker related bug, see
+	<https://github.com/tsuna/boost.m4/issues/19>.
+
+2011-05-30  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* m4/boost.m4: Sync with newest version of boost.m4 from
+	<https://github.com/tsuna/boost.m4>.
+
+2010-12-18  Thomas Krennwallner  <tkren@kr.tuwien.ac.at>
+
+	* m4/boost.m4: Sync with newest version of boost.m4 from
+	<https://github.com/tsuna/boost.m4>.
+
+	* m4/boost.m4: SVN copy from dlvhex/trunk.
+	* m4/doxygen.m4: Likewise.
+	* bootstrap.sh: Likewise.
+	* doxygen.am: Likewise.
+	* doxygen.cfg: Likewise.
+
+

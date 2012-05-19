@@ -1,4 +1,4 @@
-confstr="--solver=genuinegc --flpcheck=explicit;--solver=genuinegc --flpcheck=ufs"
+confstr="--solver=genuinegc --eaevalheuristics=immediate --heuristics=asp:../src/evalheur.asp --extlearn;--solver=genuinegc --eaevalheuristics=immediate --heuristics=asp:../src/evalheur.asp"
 IFS=';' read -ra confs <<< "$confstr"
 header="#size"
 i=0
@@ -11,7 +11,7 @@ done
 echo $header
 
 # for all argu files
-for instance in argubenchmark/*.argu
+for instance in sudokus/*.hex
 do
 	echo -ne $instance
 
@@ -19,13 +19,11 @@ do
 	for c in "${confs[@]}"
 	do
 		echo -ne -e " "
-		dir=$PWD
-		cd ../src
-		output=$(timeout 300 time -f %e dlvhex2 $c --plugindir=. --argumode=idealset $dir/$instance 2>&1 >/dev/null)
+
+		output=$(timeout 300 time -f %e dlvhex2 $c --plugindir=../src $instance 2>&1 >/dev/null)
 		if [[ $? == 124 ]]; then
 			output="---"
 		fi
-		cd $dir
 		echo -ne $output
 
 		# make sure that there are no zombies
