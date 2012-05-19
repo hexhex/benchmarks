@@ -11,10 +11,27 @@ size(10).
 field(X,Y) :- size(X), size(Y).
 
 conn(10,10,s).
-conn(X,Y,u) v nconn(X,Y,u) :- field(X,Y).
-conn(X,Y,d) v nconn(X,Y,d) :- field(X,Y).
-conn(X,Y,l) v nconn(X,Y,l) :- field(X,Y).
-conn(X,Y,r) v nconn(X,Y,r) :- field(X,Y).
 
-conn(0,0,s) :- not &reachable[conn,1,1](10,10).
-:- conn(0,0,s).
+tile(X,Y, 1) v tile(X,Y, 2) :- field(X,Y).
+
+conn(X,Y,u) :- tile(X,Y, 1).
+conn(X,Y,d) :- tile(X,Y, 1).
+conn(X,Y,l) :- tile(X,Y, 1).
+conn(X,Y,r) :- tile(X,Y, 1).
+
+nconn(X,Y,u) :- tile(X,Y, 2).
+nconn(X,Y,d) :- tile(X,Y, 2).
+nconn(X,Y,l) :- tile(X,Y, 2).
+nconn(X,Y,r) :- tile(X,Y, 2).
+
+%tile(1,1,1).
+%tile(3,3,1).
+%tile(1,5,1).
+%tile(3,8,1).
+
+:- tile(X,Y,1), not &reachable[conn,1,1](X,Y).
+
+:- &reachable[conn,1,1](5,5).
+:- not &reachable[conn,5,5](8,8).
+
+%:- not &reachable[conn,3,8](3,9).
