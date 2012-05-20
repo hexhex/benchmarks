@@ -1,4 +1,4 @@
-confstr="--solver=genuinegc --eaevalheuristics=immediate --heuristics=asp:../src/evalheur.asp --extlearn;--solver=genuinegc --eaevalheuristics=immediate --heuristics=asp:../src/evalheur.asp"
+confstr="--solver=genuinegi --heuristics=asp:../src/evalheur.asp --extlearn;--solver=genuinegc --eaevalheuristics=immediate --heuristics=asp:../src/evalheur.asp"
 IFS=';' read -ra confs <<< "$confstr"
 header="#size"
 i=0

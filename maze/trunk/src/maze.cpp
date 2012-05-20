@@ -622,6 +622,81 @@ public:
 	}
 };
 
+class StraightReachableAtom : public PluginAtom
+{
+public:
+	StraightReachableAtom():
+		PluginAtom("straightreachable", true)
+	{
+		addInputPredicate();
+		addInputConstant();
+		addInputConstant();
+		addInputConstant();
+		addInputConstant();
+		setOutputArity(0);
+	}
+
+	virtual void
+	retrieve(const Query& query, Answer& answer) throw (PluginError)
+	{
+		if (query.input[1].address != query.input[3].address &&
+		    query.input[2].address != query.input[4].address){
+
+			// no straight connection
+			DBGLOG(DBG, "No straight connection");
+			return;
+		}else{
+			// either x or y is aligned: check if there is a block in between
+			bm::bvector<>::enumerator en = query.interpretation->getStorage().first();
+			bm::bvector<>::enumerator en_end = query.interpretation->getStorage().end();
+			while (en < en_end){
+				const OrdinaryAtom& ogatom = getRegistry()->ogatoms.getByAddress(*en);
+				if (ogatom.tuple.size() != 3) throw PluginError("Maze-defining predicate must be of arity 2 if timestamp is given");
+
+				if (query.input[1].address == query.input[3].address){
+					// vertical move
+					if (ogatom.tuple[1].address == query.input[1].address){
+						if (query.input[2].address < query.input[4].address){
+							// move down
+							if (ogatom.tuple[2].address >= query.input[2].address && ogatom.tuple[2].address <= query.input[4].address){
+								DBGLOG(DBG, "Move down impossible");
+								return;
+							}
+						}else{
+							// move up
+							if (ogatom.tuple[2].address >= query.input[4].address && ogatom.tuple[2].address <= query.input[2].address){
+								DBGLOG(DBG, "Move up impossible");
+								return;
+							}
+						}
+					}
+				}else{
+					// horizontal move
+					if (ogatom.tuple[2].address == query.input[2].address){
+						if (query.input[1].address < query.input[3].address){
+							// move right
+							if (ogatom.tuple[1].address >= query.input[1].address && ogatom.tuple[1].address <= query.input[3].address){
+								DBGLOG(DBG, "Move right impossible");
+								return;
+							}
+						}else{
+							// move left
+							if (ogatom.tuple[1].address >= query.input[3].address && ogatom.tuple[1].address <= query.input[1].address){
+								DBGLOG(DBG, "Move left impossible");
+								return;
+							}
+						}
+					}
+				}
+				en++;
+			}
+
+			Tuple out;
+			answer.get().push_back(out); 
+		}
+	}
+};
+
 class MazePlugin : public PluginInterface
 {
 public:
@@ -640,6 +715,9 @@ public:
 		// return smart pointer with deleter (i.e., delete code compiled into this plugin)
 		ret.push_back(PluginAtomPtr(
 					new ReachableAtom(),
+					PluginPtrDeleter<PluginAtom>()));
+		ret.push_back(PluginAtomPtr(
+					new StraightReachableAtom(),
 					PluginPtrDeleter<PluginAtom>()));
 
 		return ret;
