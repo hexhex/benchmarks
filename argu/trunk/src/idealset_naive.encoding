@@ -18,16 +18,19 @@ out(X) :- not in(X), arg(X).
 % original
 
 %% S has to be conflict-free
-:- in(X), in(Y), defeat(X,Y).
+%:- in(X), in(Y), defeat(X,Y).
 
 %% The argument x is defeated by the set S
-defeated(X) :- in(Y), defeat(Y,X).
+%defeated(X) :- in(Y), defeat(Y,X).
 
 %% The argument x is not defended by S
-not_defended(X) :- defeat(Y,X), not defeated(Y).
+%not_defended(X) :- defeat(Y,X), not defeated(Y).
 
 %% All arguments x \in S need to be defended by S (admissibility)
-:- in(X), not_defended(X).
+%:- in(X), not_defended(X).
+
+% hex admissibility check
+:- not &argSemExt[adm,arg,att,in,unused,unused]().
 
 %%
 %% in/1 is an admissible candidate
@@ -53,7 +56,8 @@ sup(X) :- not nsup(X), arg(X).
 
 inT(X) v outT(X) :- arg(X).
 
-%% if S \subseteq T then spoil
+%% if S \subseteq T then spoil (no need to check preferredness)
+%%%% TODO perhaps the "no need" is not true for real ideal semantics, do we use spoil1 and spoil2 or is it necessary to use only one spoil?
 %% Use the sucessor function and check starting from supremum whether
 %% elements in T is also in S. If this is not the case we "stop"
 %% If we reach the supremum we spoil up.

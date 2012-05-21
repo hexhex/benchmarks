@@ -21,7 +21,9 @@ do
 		echo -ne -e " "
 		dir=$PWD
 		cd ../src
-		output=$(timeout 300 time -f %e dlvhex2 $c --plugindir=. --argumode=idealset $dir/$instance 2>&1 >/dev/null)
+		cmd="timeout 120 time -f %e /tmp/newinstrelease/bin/dlvhex2 $c --plugindir=. --argumode=idealset --nocache $dir/$instance"
+    #echo -e "\n$cmd\n"
+		output=$($cmd 2>&1 >/dev/null)
 		if [[ $? == 124 ]]; then
 			output="---"
 		fi
@@ -29,8 +31,8 @@ do
 		echo -ne $output
 
 		# make sure that there are no zombies
-		pkill -9 -u $USER dlvhex2
-		pkill -9 -u $USER dlv
+		#pkill -9 -u $USER dlvhex2
+		#pkill -9 -u $USER dlv
 	done
 	echo -e -ne "\n"
 done

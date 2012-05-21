@@ -1,0 +1,49 @@
+%%
+%% Guess a set S \subseteq A
+%%
+
+in(X) :- not out(X), arg(X).
+out(X) :- not in(X), arg(X).
+
+% S must be an ideal set
+:- not &argSemExt[idealset_naive,arg,att,in,unused,unused]().
+
+% put an order on the domain inf/1, sup/1, succ/2
+lt(X,Y) :- arg(X),arg(Y), X<Y.
+nsucc(X,Z) :- lt(X,Y), lt(Y,Z).
+succ(X,Y) :- lt(X,Y), not nsucc(X,Y).
+ninf(X) :- lt(Y,X).
+nsup(X) :- lt(X,Y).
+inf(X) :- not ninf(X), arg(X).
+sup(X) :- not nsup(X), arg(X).
+
+%%
+%% Guess T \supseteq S
+%%
+
+inT(X) :- in(X).
+inT(X) v outT(X) :- out(X).
+
+%
+% spoil if T = S
+%
+
+eq_upto(Y) :- inf(Y), in(Y), inT(Y).
+eq_upto(Y) :- inf(Y), out(Y), outT(Y).
+eq_upto(Y) :- succ(Z,Y), in(Y), inT(Y), eq_upto(Z).
+eq_upto(Y) :- succ(Z,Y), out(Y), outT(Y), eq_upto(Z).
+eq :- sup(Y), eq_upto(Y). 
+
+%
+% spoil if T is  not an ideal set
+%
+tIsNotIdeal :- not &argSemExt[idealset_naive,arg,att,inT,unused,spoil]().
+
+spoil :- eq.
+spoil :- tIsNotIdeal.
+
+inT(X) :- spoil, arg(X).
+outT(X) :- spoil, arg(X).
+% eq_upto/1, eq/0 automatically spoiled
+
+:- not spoil.

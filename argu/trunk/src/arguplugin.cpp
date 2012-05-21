@@ -30,7 +30,7 @@ namespace argu {
 struct ArguPluginCtxData:
 	public dlvhex::PluginData
 {
-	enum Rewritingmode { DISABLED, IDEALSET, IDEAL };
+	enum Rewritingmode { DISABLED, IDEALSET, IDEAL, IDEALSET_NAIVE, IDEAL_NAIVE };
 	Rewritingmode mode;
 
 	ArguPluginCtxData():
@@ -290,32 +290,25 @@ public:
 
   virtual void convert(std::istream& i, std::ostream& o)
   {
+    std::string encoding;
     switch(pcd.mode)
     {
-      case PluginCtxData::IDEALSET:
-        // just passthrough the input
-        o << i.rdbuf();
-        // add encoding
-        {
-          std::ifstream inf("idealset.encoding");
-          if( inf.fail() )
-            throw std::runtime_error("could not open idealset.encoding!");
-          o << inf.rdbuf();
-        }
-        break;
-      case PluginCtxData::IDEAL:
-        // just passthrough the input
-        o << i.rdbuf();
-        // add encoding
-        {
-          std::ifstream inf("ideal.encoding");
-          if( inf.fail() )
-            throw std::runtime_error("could not open ideal.encoding!");
-          o << inf.rdbuf();
-        }
-        break;
+      case PluginCtxData::IDEALSET: encoding = "idealset.encoding"; break;
+      case PluginCtxData::IDEAL: encoding = "ideal.encoding"; break;
+      case PluginCtxData::IDEALSET_NAIVE: encoding = "idealset_naive.encoding"; break;
+      case PluginCtxData::IDEAL_NAIVE: encoding = "ideal_naive.encoding"; break;
       default:
         throw std::runtime_error("input converter error unexpected mode!");
+    }
+
+    // just passthrough the input
+    o << i.rdbuf();
+    // add encoding
+    {
+      std::ifstream inf(encoding.c_str());
+      if( inf.fail() )
+        throw std::runtime_error("could not open '"+encoding+"'!");
+      o << inf.rdbuf();
     }
   }
 
@@ -382,6 +375,16 @@ void ArguPlugin::processOptions(std::list<const char*>& pluginOptions, ProgramCt
     else if( str == "--argumode=ideal" )
     {
       pcd.mode = PluginCtxData::IDEAL;
+      processed = true;
+    }
+    else if( str == "--argumode=ideal_naive" )
+    {
+      pcd.mode = PluginCtxData::IDEAL_NAIVE;
+      processed = true;
+    }
+    else if( str == "--argumode=idealset_naive" )
+    {
+      pcd.mode = PluginCtxData::IDEALSET_NAIVE;
       processed = true;
     }
 
