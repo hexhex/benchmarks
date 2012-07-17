@@ -11,6 +11,7 @@
 #include <dlvhex2/Term.h>
 #include <dlvhex2/Registry.h>
 #include <dlvhex2/ProgramCtx.h>
+#include <dlvhex2/ExternalLearningHelper.h>
 
 #include <boost/graph/graph_traits.hpp>
 #include <boost/graph/adjacency_list.hpp>
@@ -509,9 +510,8 @@ public:
 					Tuple t;
 					t.push_back(ID::termFromInteger(query.pattern[0].address));
 					t.push_back(ID::termFromInteger(query.pattern[1].address));
-					reachableNG.insert(NogoodContainer::createLiteral(getOutputAtom(ctx, nogoods, query, t, false)));
+					reachableNG.insert(NogoodContainer::createLiteral(ExternalLearningHelper::getOutputAtom(query, t, false)));
 					nogoods->addNogood(reachableNG);
-//std::cout << "Reachable: " << reachableNG << std::endl;
 				}else{
 					// find the border between reachable and unreachable fields
 					Nogood unreachableNG;
@@ -544,80 +544,10 @@ public:
 					Tuple t;
 					t.push_back(ID::termFromInteger(query.pattern[0].address));
 					t.push_back(ID::termFromInteger(query.pattern[1].address));
-					unreachableNG.insert(NogoodContainer::createLiteral(getOutputAtom(ctx, nogoods, query, t, true)));
+					unreachableNG.insert(NogoodContainer::createLiteral(ExternalLearningHelper::getOutputAtom(query, t, true)));
 					nogoods->addNogood(unreachableNG);
-//std::cout << "Unreachable: " << unreachableNG << std::endl;
-//std::cout << unreachableNG.getStringRepresentation(reg) << std::endl;
-//exit(0);
 				}
 			}
-
-/*
-			// for all fields on the border between the reachable and the unreachable area
-			Nogood unreachableNG, reachableNG;
-			for (int x = 1; x <= m.getWidth(); ++x){
-				for (int y = 1; y <= m.getHeight(); ++y){
-					if (m.isBorderField(x, y)){
-						int rx, ry, rl;
-
-						// find a reason why this field is a border field and encode it in the nogood
-						if (x > 1 && !m.isReachable(x - 1, y)){
-							m.getBorderReason(x, y, x - 1, y, &rx, &ry, &rl);
-							unreachableNG.insert(edgeToLiteral(query.input[0], rx, ry, rl, false));
-						}
-						if (x < m.getWidth() && !m.isReachable(x + 1, y)){
-							m.getBorderReason(x, y, x + 1, y, &rx, &ry, &rl);
-							unreachableNG.insert(edgeToLiteral(query.input[0], rx, ry, rl, false));
-						}
-						if (y > 1 && !m.isReachable(x, y - 1)){
-							m.getBorderReason(x, y, x, y - 1, &rx, &ry, &rl);
-							unreachableNG.insert(edgeToLiteral(query.input[0], rx, ry, rl, false));
-						}
-						if (y < m.getHeight() && !m.isReachable(x, y + 1)){
-							m.getBorderReason(x, y, x, y + 1, &rx, &ry, &rl);
-							unreachableNG.insert(edgeToLiteral(query.input[0], rx, ry, rl, false));
-						}
-					}
-				}
-			}
-
-			// for all reachable fields
-			for (int x = 1; x <= m.getWidth(); ++x){
-				for (int y = 1; y <= m.getHeight(); ++y){
-					if (m.isReachable(x, y)){
-						int ue = m.getUsedEdges(x, y);
-						if (ue & Maze::LEFT_MASK) reachableNG.insert(edgeToLiteral(query.input[0], x, y, Maze::LEFT_MASK, true));
-						if (ue & Maze::RIGHT_MASK) reachableNG.insert(edgeToLiteral(query.input[0], x, y, Maze::RIGHT_MASK, true));
-						if (ue & Maze::UP_MASK) reachableNG.insert(edgeToLiteral(query.input[0], x, y, Maze::UP_MASK, true));
-						if (ue & Maze::DOWN_MASK) reachableNG.insert(edgeToLiteral(query.input[0], x, y, Maze::DOWN_MASK, true));
-					}
-				}
-			}
-
-			for (int x = 1; x <= m.getWidth(); ++x){
-				for (int y = 1; y <= m.getHeight(); ++y){
-					// store this border information as justification for all unreachable fields
-					if (!m.isReachable(x, y)){
-						Nogood ng2 = unreachableNG;
-						Tuple t;
-						t.push_back(ID::termFromInteger(x));
-						t.push_back(ID::termFromInteger(y));
-						ng2.insert(NogoodContainer::createLiteral(getOutputAtom(ctx, nogoods, query, t, true)));
-						nogoods->addNogood(ng2);
-					}
-
-					// due to monotonicity the dfs tree is a sufficient justification for all reachable fields
-					if (m.isReachable(x, y)){
-						Nogood ng2 = reachableNG;
-						Tuple t;
-						t.push_back(ID::termFromInteger(x));
-						t.push_back(ID::termFromInteger(y));
-						ng2.insert(NogoodContainer::createLiteral(getOutputAtom(ctx, nogoods, query, t, false)));
-						nogoods->addNogood(ng2);
-					}
-				}
-			}
-*/
 		}
 	}
 };
