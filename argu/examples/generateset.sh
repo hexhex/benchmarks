@@ -7,9 +7,10 @@ do
 			for (( inst=0; inst < $10; inst++ ))
 			do
 				ep=`printf "%03d" ${edgeprop}`
+				bep=`printf "%03d" ${backedgeprop}`
 				ac=`printf "%03d" ${argcount}`
 				in=`printf "%03d" ${inst}`
-				./generate.sh $argcount $edgeprop $backedgeprop > "arguinst_edgeprob_${ep}_argucount_${ac}_inst_${in}.argu"
+				./generate.sh $argcount $edgeprop $backedgeprop > "arguinst_edgeprob_${ep}_backedgeprop_${bep}_argucount_${ac}_inst_${in}.argu"
 			done
 		done
 	done
