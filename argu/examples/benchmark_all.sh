@@ -3,7 +3,7 @@
 if [ $# -le 1 ]; then
 	to=300
 else
-	to=$2
+	to=$1
 fi
 
 cd argubenchmark
