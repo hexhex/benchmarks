@@ -1,11 +1,5 @@
-# $1: confstr
-# $2: timeout
+# $1: timeout
 
-if [ $# -le 0 ]; then
-	confstr="--solver=genuinegc --flpcheck=explicit -n=1;--solver=genuinegc --flpcheck=explicit -n=1 --extlearn"
-else
-	confstr=$1
-fi
 if [ $# -le 1 ]; then
 	to=300
 else
@@ -28,10 +22,10 @@ do
 
 		# queue
 		request_cpus = 1 
-		Arguments = $instance "$confstr" $to
+		Arguments = $instance $to
 		Queue 1
 	     " > p.job
 	condor_submit p.job
-#	./../benchmark_single.sh $instance "$confstr" $to
+#	./../benchmark_single.sh $instance $to
 done
 
