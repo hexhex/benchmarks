@@ -4,7 +4,7 @@ do
 	do
 		for (( backedgeprop=$7; backedgeprop <= $8; backedgeprop+=$9 ))
 		do
-			for (( inst=0; inst < $10; inst++ ))
+			for (( inst=0; inst < ${10}; inst++ ))
 			do
 				ep=`printf "%03d" ${edgeprop}`
 				bep=`printf "%03d" ${backedgeprop}`
