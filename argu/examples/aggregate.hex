@@ -1,0 +1,4 @@
+c(X, in) :- in(X).
+c(X, out) :- out(X).
+%c(X, arg) :- arg(X).
+p(X) :- &testConcatAll[c](X).
