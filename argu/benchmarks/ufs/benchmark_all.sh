@@ -6,7 +6,7 @@ else
 	to=$1
 fi
 
-cd argubenchmark
+cd instances 
 for instance in *.argu
 do
 	echo "
@@ -16,16 +16,15 @@ do
 		error = $instance.error
 		Log = $instance.log
 		Requirements = machine == \"lion.kr.tuwien.ac.at\"
-		request_memory = 4096 
+		request_memory = 8192
 		Initialdir = $PWD
 		notification = never
 
 		# queue
 		request_cpus = 1 
-		Arguments = $instance $to
+		Arguments = $PATH $LD_LIBRARY_PATH $instance $to
 		Queue 1
 	     " > p.job
 	condor_submit p.job
-#	./../benchmark_single.sh $instance $to
 done
 

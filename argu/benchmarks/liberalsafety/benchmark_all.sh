@@ -6,7 +6,7 @@ else
 	to=$1
 fi
 
-cd argubenchmark
+cd instances 
 for instance in *.argu
 do
 	echo "
@@ -22,7 +22,7 @@ do
 
 		# queue
 		request_cpus = 1 
-		Arguments = $instance $to
+		Arguments = $PATH $LD_LIBRARY_PATH $instance $to
 		Queue 1
 	     " > p.job
 	condor_submit p.job
