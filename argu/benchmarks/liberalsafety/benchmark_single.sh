@@ -1,7 +1,7 @@
 # $1: instance
 # $2: timeout
 export PATH=$1
-export LD_LIBRARY_PATH$2
+export LD_LIBRARY_PATH=$2
 instance=$3
 to=$4
 
@@ -28,7 +28,7 @@ do
 	echo -ne -e " "
 	dir=$PWD
 	cd ../../../src
-	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=. --argumode=idealset $dir/$instance --verbose=8"
+	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=.:../../../core/testsuite --argumode=idealset $dir/$instance $dir/../aggregate.hex --verbose=8"
 	output=$($cmd 2>$dir/$instance.verbose.dat >/dev/null)
 
 	ret=$?
