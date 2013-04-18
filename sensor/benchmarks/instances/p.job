@@ -1,0 +1,16 @@
+
+		Executable = ../benchmark_single.sh
+		Universe = vanilla
+		output = patrol_03x04_r2rs_o01_l01_03.asp.out
+		error = patrol_03x04_r2rs_o01_l01_03.asp.error
+		Log = patrol_03x04_r2rs_o01_l01_03.asp.log
+		Requirements = machine == "lion.kr.tuwien.ac.at"
+		request_memory = 4096 
+		Initialdir = /mnt/lion/home/redl/hexhex_dlvhex/benchmarking/sensor/benchmarks/instances/
+		notification = never
+
+		# queue
+		request_cpus = 1 
+		Arguments = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/mnt/lion/home/redl/local/bin:/mnt/lion/home/redl/RacerPro-1-9-0-Linux32-ACL:/mnt/lion/home/redl/local/bin:/mnt/lion/home/redl/RacerPro-1-9-0-Linux32-ACL /mnt/lion/home/redl/local/lib patrol_03x04_r2rs_o01_l01_03.asp 300
+		Queue 1
+	     

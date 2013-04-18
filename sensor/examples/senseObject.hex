@@ -1,0 +1,15 @@
+sensorrange("2.5").
+
+robot(a).
+robot(b).
+
+object(u).
+object(v).
+
+robotX(b,4,0). robotY(b,4,0).
+robotX(a,1,0). robotY(a,1,0).
+
+objectX(u,2). objectY(u,2).
+objectX(v,1). objectY(v,4).
+
+found(O) :- &senseObject[robotX,robotY,objectX,objectY,Range,spoil,object](O), sensorrange(Range).
