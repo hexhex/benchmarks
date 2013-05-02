@@ -21,18 +21,22 @@ done
 echo $header
 
 # do benchmark
-echo -ne "$instance "
+echo -ne "$instance"
 
 # for all configurations
 i=0
 for c in "${confs[@]}"
 do
 	echo -ne -e " "
-	output=$(timeout $to time -f %e dlvhex2 $c --plugindir=../../src ../domain_anyobjectposition.hex $instance 2>&1 >/dev/null)
-	if [[ $? == 124 ]]; then
+	$(timeout $to time -o $instance.time.dat -f %e dlvhex2 $c --plugindir=../../src ../domain_anyobjectposition.hex $instance 2>/dev/null >/dev/null)
+	ret=$?
+	output=$(cat $instance.time.dat)
+	if [[ $ret == 124 ]]; then
 		output="---"
 	fi
 	echo -ne $output
 	let i=i+1
+
+	rm $instance.time.dat
 done
 echo -e -ne "\n"
