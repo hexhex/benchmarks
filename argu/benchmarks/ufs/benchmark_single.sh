@@ -32,13 +32,16 @@ do
 	echo -ne -e " "
 	dir=$PWD
 	cd ../../../src
-	cmd="timeout $to time -f %e dlvhex2 $c --plugindir=. --argumode=idealset $dir/$instance"
-	output=$($cmd 2>&1 >/dev/null)
-	if [[ $? == 124 ]]; then
+	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=. --argumode=idealset $dir/$instance"
+	$($cmd 2>/dev/null >/dev/null)
+	ret=$?
+	output=$(cat $dir/$instance.time.dat)
+	if [[ $ret == 124 ]]; then
 		output="---"
 	fi
 	cd $dir
 	echo -ne $output
+	rm $dir/$instance.time.dat
 	let i=i+1
 done
 echo -e -ne "\n"
