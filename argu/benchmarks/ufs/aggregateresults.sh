@@ -15,7 +15,7 @@ fi
 aggregate="
 library(doBy);
 
-t <- read.table('data2',header=FALSE,as.is=TRUE)
+t <- read.table('stdin',header=FALSE,as.is=TRUE)
 
 # extract odd and even columns
 odd <- c(1,seq(3,ncol(t),2))
