@@ -44,31 +44,32 @@ g <-    function(x){
 mixed <- sapply(seq(1,ncol(merged)), FUN=g)
 merged <- merged[mixed]
 
-# round all values except in column 1
+# round all values in odd columns except in column 1
 output <- merged
-output[,-1] <- round(merged[,-1],2)
+odd <- seq(3,ncol(output),2)
+output[odd] <- round(output[odd],2)
 
-write.table(format(output, digits=2), , , FALSE, , , , , FALSE, FALSE)
+write.table(format(output, nsmall=2, scientific=FALSE), , , FALSE, , , , , FALSE, FALSE)
 "
 
 while read line
 do
 	read -a array <<< "$line"
-	fn=${array[0]}
-	if [ $extrlen -ge 1 ]; then
-		array[0]="${fn:$extrstart:$extrlen} 1"
-	else
-		array[0]="${array[0]} 1"
+	if [[ $line != \#* ]]; then
+		fn=${array[0]}
+		if [ $extrlen -ge 1 ]; then
+			array[0]="${fn:$extrstart:$extrlen} 1"
+		else
+			array[0]="${array[0]} 1"
+		fi
+		line=$(echo ${array[@]} | grep -v "#" | sed "s/\ \([0-9]*\)\.\([0-9]*\)/ \1.\2 0/g" | sed "s/---/$to 1/g")
+		file=$(echo "$file\n$line")
 	fi
-	line=$(echo ${array[@]} | grep -v "#" | sed "s/\ \([0-9]*\)\.\([0-9]*\)/ \1.\2 0/g" | sed "s/---/$to 1/g")
-	file=$(echo "$file\n$line")
 done
 if [ $totex -ge 1 ]; then
-	# 1. remove blanks at beginning of lines
-	# 2. add \\ to end of lines
-	# 3. " INT " --> " (INT) & "
-	# 4. " & \\" -> " \\"
-	echo -e $file | Rscript <(echo "$aggregate") | sed "s/^ *//g" | sed "s/$/ \\\\\\\\/g" | sed "s/ \([0-9][0-9]*\) / (\1) \& /g" | sed "s/\& *\\\\\\\\/\\\\\\\\/g"
+	# 1. encapsulate every second word in () and append &
+	# 2. replace & at the end of the line with \\
+	echo -e $file | Rscript <(echo "$aggregate") | sed "s/ *\(\S*\) *\(\S*\) */ \1 (\2) \& /g" | sed "s/\& *$/\\\\\\\\/g"
 else
 	echo -e $file | Rscript <(echo "$aggregate")
 fi
