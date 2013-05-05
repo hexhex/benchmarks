@@ -32,7 +32,7 @@ do
 	echo -ne -e " "
 	dir=$PWD
 	cd ../../../src
-	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=. --argumode=idealset --claspconfig=\"none\" $dir/$instance"
+	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --claspconfig=none --plugindir=. --argumode=idealset $dir/$instance"
 	$($cmd 2>/dev/null >/dev/null)
 	ret=$?
 	output=$(cat $dir/$instance.time.dat)
