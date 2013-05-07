@@ -30,13 +30,13 @@ do
 	cd ../../../src
 	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=.:../../../core/testsuite --argumode=idealset $dir/$instance $dir/../aggregate.hex --verbose=8"
 	output=$($cmd 2>$dir/$instance.verbose.dat >/dev/null)
-
 	ret=$?
-        output=$(cat $dir/$instance.time.dat)
-	groundertime=$(cat $dir/$instance.verbose.dat | grep -a "HEX grounder time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
-        solvertime=$(cat $dir/$instance.verbose.dat | grep -a "HEX solver time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
 
-    	if [[ $ret == 124 ]]; then
+        if [[ $ret != 0 ]]; then
+		output=$(cat $dir/$instance.time.dat)
+		groundertime=$(cat $dir/$instance.verbose.dat | grep -a "HEX grounder time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
+	        solvertime=$(cat $dir/$instance.verbose.dat | grep -a "HEX solver time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
+	else
         	output="---"
   	        groundertime="---"
 	        solvertime="---"
