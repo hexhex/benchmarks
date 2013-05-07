@@ -1,6 +1,6 @@
 # $1: timeout
 
-if [ $# -le 1 ]; then
+if [ $# -le 0 ]; then
 	to=300
 else
 	to=$1
