@@ -32,7 +32,7 @@ do
 	output=$($cmd 2>$dir/$instance.verbose.dat >/dev/null)
 	ret=$?
 
-        if [[ $ret != 0 ]]; then
+        if [[ $ret == 0 ]]; then
 		output=$(cat $dir/$instance.time.dat)
 		groundertime=$(cat $dir/$instance.verbose.dat | grep -a "HEX grounder time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
 	        solvertime=$(cat $dir/$instance.verbose.dat | grep -a "HEX solver time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
