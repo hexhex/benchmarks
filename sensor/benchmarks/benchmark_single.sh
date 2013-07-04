@@ -28,10 +28,10 @@ i=0
 for c in "${confs[@]}"
 do
 	echo -ne -e " "
-	$(timeout $to time -o $instance.time.dat -f %e dlvhex2 $c --plugindir=../../src ../domain_anyobjectposition.hex $instance 2>/dev/null >/dev/null)
+	$(timeout $to time --quiet -o $instance.time.dat -f %e dlvhex2 $c --plugindir=../../src ../domain_anyobjectposition.hex $instance 2>/dev/null >/dev/null)
 	ret=$?
 	output=$(cat $instance.time.dat)
-	if [[ $ret == 124 ]]; then
+	if [[ $ret != 0 ]]; then
 		output="---"
 	fi
 	echo -ne $output
