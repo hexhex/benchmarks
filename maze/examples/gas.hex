@@ -1,8 +1,18 @@
 start(krems).
 end(wien).
 
-path(X, Y, L) :- needfuel, start(S), &path[map, S, gasstation](X, Y, L).
-path(X, Y, L) :- needfuel, end(E), &path[map, gasstation, E](X, Y, L).
+% if the tour is longer than our limit, then we need more fuel
+needFuel :- &pathLongerThan[path, 50]().
 
-path(X, Y, L) :- not needfuel, start(S), end(E), &path[map, S, E](X, Y, L).
-needfuel :- &longerThan[map, path, 50]().
+% in this case we choose a gas station
+chooseGas(G) v nchooseGas(G) :- needFuel, gasstation(G).
+:- needFuel, chooseGas(G1), chooseGas(G2), G1 != G2.
+chosen :- needFuel, chooseGas(G).
+:- needFuel, not chosen.
+
+% plan a tour which involves the gas station
+path(X, Y, C) :- needFuel, start(S), chooseGas(G), &path[map, S, G](X, Y, C).
+path(X, Y, C) :- needFuel, end(E), chooseGas(G), &path[map, G, E](X, Y, C).
+
+% otherwise plan a tour without gas station
+path(X, Y, C) :- not needFuel, start(S), end(E), &path[map, S, E](X, Y, C).

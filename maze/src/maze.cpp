@@ -382,7 +382,7 @@ public:
 		addInputTuple();
 		setOutputArity(2);
 
-		prop.monotonicInputPredicates.push_back(0);
+		prop.monotonicInputPredicates.insert(0);
 	}
 
 	virtual void
@@ -627,6 +627,131 @@ public:
 	}
 };
 
+class RoutePlanningAtom : public PluginAtom
+{
+protected:
+	typedef adjacency_list < listS, vecS, undirectedS, no_property, property < edge_weight_t, int > > graph_t;
+	typedef graph_traits < graph_t >::vertex_descriptor vertex_descriptor;
+	typedef graph_traits < graph_t >::edge_descriptor edge_descriptor;
+
+	RoutePlanningAtom(char* pred, bool monotonicity):
+		PluginAtom(pred, monotonicity)
+	{
+	}
+
+	graph_t readGraph(const Query& query){
+
+		int startNode = query.input[1].address;
+		int endNode = query.input[2].address;
+
+		// read map
+		int numNodes = 0;
+		if (startNode > numNodes) numNodes = startNode;
+		if (endNode > numNodes) numNodes = endNode;
+		std::vector<std::pair<std::pair<int, int>, int> > edges;
+		bm::bvector<>::enumerator en = query.interpretation->getStorage().first();
+		bm::bvector<>::enumerator en_end = query.interpretation->getStorage().end();
+		while (en < en_end){
+			const OrdinaryAtom& ogatom = getRegistry()->ogatoms.getByAddress(*en);
+			if (ogatom.tuple.size() != 3 && ogatom.tuple.size() != 4) throw PluginError("First parameter of path atom must be a binary or ternary predicate");
+
+			if (query.input[0].address == ogatom.tuple[0].address){
+				int weight = (ogatom.tuple.size() == 4 ? ogatom.tuple[3].address : 1);
+				if (!ogatom.tuple[1].isConstantTerm()) throw PluginError("Can only handle constant terms as nodes");
+				if (!ogatom.tuple[2].isConstantTerm()) throw PluginError("Can only handle constant terms as nodes");
+				edges.push_back(std::pair<std::pair<int, int>, int>(std::pair<int, int>(ogatom.tuple[1].address, ogatom.tuple[2].address), weight));
+				if (ogatom.tuple[1].address > numNodes) numNodes = ogatom.tuple[1].address;
+				if (ogatom.tuple[2].address > numNodes) numNodes = ogatom.tuple[2].address;
+			}
+			en++;
+		}
+		std::pair<int, int>* edgeArray = new std::pair<int, int>[edges.size()];
+		int* weights = new int[edges.size()];
+		for (int i = 0; i < edges.size(); ++i){
+			edgeArray[i] = edges[i].first;
+			weights[i] = edges[i].second;
+		}
+
+		graph_t g(edgeArray, edgeArray + edges.size(), weights, numNodes + 1);
+
+		// cleanup
+		delete []edgeArray;
+		delete []weights;
+
+		return g;
+	}
+};
+
+class PathAtom : public RoutePlanningAtom
+{
+public:
+	PathAtom():
+		RoutePlanningAtom("path", false)
+	{
+		addInputPredicate();
+		addInputConstant();
+		addInputConstant();
+		setOutputArity(3);
+	}
+
+	virtual void
+	retrieve(const Query& query, Answer& answer) throw (PluginError)
+	{
+		int startNode = query.input[1].address;
+		int endNode = query.input[2].address;
+
+		// compute shortest path
+		graph_t g = readGraph(query);
+
+		std::vector<vertex_descriptor> p(num_vertices(g));
+		std::vector<int> d(num_vertices(g));
+
+		dijkstra_shortest_paths(g, startNode, predecessor_map(&p[0]).distance_map(&d[0]));
+
+		// extract answer
+		int n = endNode;
+		while (n != p[n]){
+			Tuple out;
+			out.push_back(ID(ID::MAINKIND_TERM | ID::SUBKIND_TERM_CONSTANT, p[n]));
+			out.push_back(ID(ID::MAINKIND_TERM | ID::SUBKIND_TERM_CONSTANT, n));
+			out.push_back(ID::termFromInteger(d[n] - d[p[n]]));
+			answer.get().push_back(out); 
+			n = p[n];
+		}
+	}
+};
+
+class PathLongerThanAtom : public PluginAtom
+{
+public:
+	PathLongerThanAtom():
+		PluginAtom("pathLongerThan", true)
+	{
+		addInputPredicate();
+		addInputConstant();
+		setOutputArity(0);
+	}
+
+	virtual void
+	retrieve(const Query& query, Answer& answer) throw (PluginError)
+	{
+		if (query.input.size() != 2) throw PluginError("pathLongerThan atom needs exactly two parameters");
+
+		int len = 0;
+		bm::bvector<>::enumerator en = query.interpretation->getStorage().first();
+		bm::bvector<>::enumerator en_end = query.interpretation->getStorage().end();
+		while (en < en_end){
+			const OrdinaryAtom& ogatom = getRegistry()->ogatoms.getByAddress(*en);
+			if (ogatom.tuple.size() != 4) throw PluginError("First parameter of pathLongerThan atom must be a ternary predicate");
+			len += ogatom.tuple[3].address;
+			en++;
+		}
+
+		Tuple out;
+		if (len > query.input[1].address) answer.get().push_back(out); 
+	}
+};
+
 class MazePlugin : public PluginInterface
 {
 public:
@@ -649,12 +774,17 @@ public:
 		ret.push_back(PluginAtomPtr(
 					new StraightReachableAtom(),
 					PluginPtrDeleter<PluginAtom>()));
+		ret.push_back(PluginAtomPtr(
+					new PathAtom(),
+					PluginPtrDeleter<PluginAtom>()));
+		ret.push_back(PluginAtomPtr(
+					new PathLongerThanAtom(),
+					PluginPtrDeleter<PluginAtom>()));
 
 		return ret;
 	}
 };
 
-    
 //
 // now instantiate the plugin
 //
