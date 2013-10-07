@@ -93,7 +93,7 @@ if False:
 
 # for comparing all methods, including multiple instances with random robot starts
 if True:
-	for maxcoo in range(3,9+1):
+	for maxcoo in range(3,16+1):
 	    for instidx in range(1,11):
 	      planlen = max(1,maxcoo/2-1)
 	      # without random object start position

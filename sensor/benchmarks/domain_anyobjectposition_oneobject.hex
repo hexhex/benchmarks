@@ -1,0 +1,122 @@
+%
+% sorts
+%
+
+%{spoil,move(r2,2,3,0),move(r1,1,3,0)}
+%move(r2,2,3,0).move(r1,1,3,0).
+%{spoil,move(r2,2,3,0),move(r1,2,2,0)}
+%{spoil,move(r2,2,3,0),move(r1,1,1,0)}
+%{spoil,move(r1,1,3,0),move(r2,2,1,0)}
+%{spoil,move(r2,2,1,0),move(r1,2,2,0)}
+%{spoil,move(r2,2,1,0),move(r1,1,1,0)}
+%{spoil,move(r1,1,3,0),move(r2,3,2,0)}
+%{spoil,move(r1,1,3,0),move(r2,1,2,0)}
+%{spoil,move(r2,3,2,0),move(r1,2,2,0)}
+%{spoil,move(r1,2,2,0),move(r2,1,2,0)}
+%{spoil,move(r1,1,1,0),move(r2,3,2,0)}
+%{spoil,move(r1,1,1,0),move(r2,1,2,0)}
+
+
+% C+
+%:- sorts
+%  xcoo;
+%  ycoo;
+%  object;
+%  robot.
+%
+%:- objects
+%  1..maxx :: xcoo;
+%  1..maxy :: ycoo;
+%  a,b :: robot;
+%  u,v :: object.
+
+% instance specific sorts
+xcoo(X) :- #int(X), 1 <= X, X <= MX, maxx(MX).
+ycoo(Y) :- #int(Y), 1 <= Y, Y <= MY, maxy(MY).
+
+% fluents
+
+% C+
+%:- constants
+%  objectX(object) :: staticFluent(xcoo);
+%  objectY(object) :: staticFluent(ycoo);
+%  robotX(robot) :: inertialFluent(xcoo);
+%  robotY(robot) :: inertialFluent(ycoo);
+%  found(object) :: inertialFluent.
+
+% time (generic)
+
+step(S) :- #int(S), 0 <= S, S <= LS, laststep(LS).
+astep(S) :- #int(S), 0 <= S, S < LS, laststep(LS).
+nextstep(S,SPrime) :- astep(S), SPrime = S + 1.
+
+% generate all four possible moves
+move(R,X,Y1,T) v nmove(R,X,Y1,T) :- robotX(R,X,T), robotY(R,Y,T), astep(T), Y1=Y+1, ycoo(Y1).
+move(R,X,Y1,T) v nmove(R,X,Y1,T) :- robotX(R,X,T), robotY(R,Y,T), astep(T), Y1=Y-1, ycoo(Y1).
+move(R,X1,Y,T) v nmove(R,X1,Y,T) :- robotX(R,X,T), robotY(R,Y,T), astep(T), X1=X+1, xcoo(X1).
+move(R,X1,Y,T) v nmove(R,X1,Y,T) :- robotX(R,X,T), robotY(R,Y,T), astep(T), X1=X-1, xcoo(X1).
+% disallow moving to multiple places at once
+:- move(R,X1,Y1,T), move(R,X2,Y2,T), X1 < X2.
+:- move(R,X,Y1,T), move(R,X,Y2,T), Y1 < Y2.
+% disallow not moving
+moveexists(R,T) :- move(R,X,Y,T).
+:- astep(T), robot(R), not moveexists(R,T).
+
+% direct effect of moving
+robotX(R,X,TPlus1) :- move(R,X,Y,T), nextstep(T,TPlus1).
+robotY(R,Y,TPlus1) :- move(R,X,Y,T), nextstep(T,TPlus1).
+
+%%%% saturation checking part (the following commented block is our co-np check)
+%%%
+%%%% random initial situation for object position
+%%%objectX(O,X) v -objectX(O,X) :- object(O), xcoo(X).
+%%%objectY(O,Y) v -objectY(O,Y) :- object(O), ycoo(Y).
+%%%% disallow being in multiple places at once
+%%%:- objectX(O,X1), objectX(O,X2), X1 < X2.
+%%%:- objectY(O,Y1), objectY(O,Y2), Y1 < Y2.
+%%%% disallow being nowhere
+%%%objectexists(O) :- objectX(O,X), objectY(O,Y).
+%%%:- object(O), not objectexists(O).
+%%%
+%%%% ramification of moving
+%%%found(O) :- &senseObject[robotX,robotY,objectX,objectY,R](O), sensorrange(R).
+%%%:- object(O), not found(O).
+
+% saturation encoding (see Eiter Polleres "Automated Integration of Guess and Check ...")
+
+% guess (over which we will have head cycles)
+objectX(X) v nobjectX(X) :- xcoo(X).
+objectY(Y) v nobjectY(Y) :- ycoo(Y).
+
+% disallow being in multiple places at once
+spoil :- objectX(X1), objectX(X2), X1 < X2.
+spoil :- objectY(Y1), objectY(Y2), Y1 < Y2.
+
+% disallow object is nowhere
+objectHasNoXUpTo(1) :- nobjectX(1).
+objectHasNoXUpTo(X) :- objectHasNoXUpTo(XPrev), nobjectX(X), X=XPrev+1.
+spoil :- objectHasNoXUpTo(X), maxx(X).
+
+objectHasNoYUpTo(1) :- nobjectY(1).
+objectHasNoYUpTo(Y) :- objectHasNoYUpTo(YPrev), nobjectY(Y), Y=YPrev+1.
+spoil :- objectHasNoYUpTo(Y), maxy(Y).
+
+% spoil if object is sensed
+spoil :- &senseOneObject[robotX,robotY,objectX,objectY,R,spoil](), sensorrange(R).
+
+objectX(X) :- xcoo(X), spoil.
+nobjectX(X) :- xcoo(X), spoil.
+objectY(Y) :- ycoo(Y), spoil.
+nobjectY(Y) :- ycoo(Y), spoil.
+objectHasNoXUpTo(X) :- xcoo(X), spoil.
+objectHasNoYUpTo(Y) :- ycoo(Y), spoil.
+
+% activate this for enforcing saturation
+:- not spoil.
+
+% preset infeasible plan (object at position X=4, Y=1 cannot be seen)
+%move(a,1,2,0).
+%move(b,4,3,0).
+%objectX(u,4).
+%objectY(u,1).
+
