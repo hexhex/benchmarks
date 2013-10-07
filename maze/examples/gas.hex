@@ -1,0 +1,8 @@
+start(krems).
+end(wien).
+
+path(X, Y, L) :- needfuel, start(S), &path[map, S, gasstation](X, Y, L).
+path(X, Y, L) :- needfuel, end(E), &path[map, gasstation, E](X, Y, L).
+
+path(X, Y, L) :- not needfuel, start(S), end(E), &path[map, S, E](X, Y, L).
+needfuel :- &longerThan[map, path, 50]().
