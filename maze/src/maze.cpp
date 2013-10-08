@@ -7,6 +7,8 @@
 #include "config.h"
 #endif /* HAVE_CONFIG_H */
 
+#include <dlvhex2/HexParser.h>
+#include <dlvhex2/InputProvider.h>
 #include <dlvhex2/PluginInterface.h>
 #include <dlvhex2/Term.h>
 #include <dlvhex2/Registry.h>
@@ -639,24 +641,24 @@ protected:
 	{
 	}
 
-	graph_t readGraph(const Query& query){
+	graph_t readGraph(const Query& query, InterpretationConstPtr edb){
 
-		int startNode = query.input[1].address;
-		int endNode = query.input[2].address;
+		int startNode = query.input[2].address;
+		int endNode = query.input[3].address;
 
 		// read map
 		int numNodes = 0;
 		if (startNode > numNodes) numNodes = startNode;
 		if (endNode > numNodes) numNodes = endNode;
 		std::vector<std::pair<std::pair<int, int>, int> > edges;
-		bm::bvector<>::enumerator en = query.interpretation->getStorage().first();
-		bm::bvector<>::enumerator en_end = query.interpretation->getStorage().end();
+		bm::bvector<>::enumerator en = edb->getStorage().first();
+		bm::bvector<>::enumerator en_end = edb->getStorage().end();
 		while (en < en_end){
 			const OrdinaryAtom& ogatom = getRegistry()->ogatoms.getByAddress(*en);
-			if (ogatom.tuple.size() != 3 && ogatom.tuple.size() != 4) throw PluginError("First parameter of path atom must be a binary or ternary predicate");
+			if (query.input[1].address == ogatom.tuple[0].address){
+				if (ogatom.tuple.size() != 3 && ogatom.tuple.size() != 4) throw PluginError("First parameter of path atom must be a binary or ternary predicate");
 
-			if (query.input[0].address == ogatom.tuple[0].address){
-				int weight = (ogatom.tuple.size() == 4 ? ogatom.tuple[3].address : 1);
+				int weight = (ogatom.tuple.size() == 5 ? ogatom.tuple[4].address : 1);
 				if (!ogatom.tuple[1].isConstantTerm()) throw PluginError("Can only handle constant terms as nodes");
 				if (!ogatom.tuple[2].isConstantTerm()) throw PluginError("Can only handle constant terms as nodes");
 				edges.push_back(std::pair<std::pair<int, int>, int>(std::pair<int, int>(ogatom.tuple[1].address, ogatom.tuple[2].address), weight));
@@ -684,11 +686,14 @@ protected:
 
 class PathAtom : public RoutePlanningAtom
 {
+private:
+	std::map<std::string, graph_t> maps;
 public:
 	PathAtom():
-		RoutePlanningAtom("path", false)
+		RoutePlanningAtom("path", true)
 	{
-		addInputPredicate();
+		addInputConstant();
+		addInputConstant();
 		addInputConstant();
 		addInputConstant();
 		setOutputArity(3);
@@ -697,11 +702,29 @@ public:
 	virtual void
 	retrieve(const Query& query, Answer& answer) throw (PluginError)
 	{
-		int startNode = query.input[1].address;
-		int endNode = query.input[2].address;
+		RegistryPtr reg = query.interpretation->getRegistry();
+
+		// read map (if not already in cache)
+		if (maps.find(reg->terms.getByID(query.input[0]).getUnquotedString()) == maps.end()){
+			InputProviderPtr ip(new InputProvider());
+			ip->addFileInput(reg->terms.getByID(query.input[0]).getUnquotedString());
+			ModuleHexParser hp;
+			ProgramCtx program = *query.ctx;
+			program.idb.clear();
+			program.edb = InterpretationPtr(new Interpretation(reg));
+			program.changeRegistry(reg);
+			hp.parse(ip, program);
+
+			// create graph
+			graph_t g = readGraph(query, program.edb);
+			maps[reg->terms.getByID(query.input[0]).getUnquotedString()] = g;
+		}
+
+		graph_t& g = maps[reg->terms.getByID(query.input[0]).getUnquotedString()];
 
 		// compute shortest path
-		graph_t g = readGraph(query);
+		int startNode = query.input[2].address;
+		int endNode = query.input[3].address;
 
 		std::vector<vertex_descriptor> p(num_vertices(g));
 		std::vector<int> d(num_vertices(g));

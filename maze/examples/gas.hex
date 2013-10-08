@@ -1,18 +1,40 @@
-start(krems).
-end(wien).
+#maxint=50.
+
+% define the locations we want to visit
+location(n1).
+location(n10).
+location(n35).
+location(n45).
+location(n55).
+
+% define the available gas stations
+gasstation(n50).
+
+% start and end node of our tour
+sequence(0, n1).
+
+% guess a sequence of locations
+sequence(I, L) v nsequence(I, L) :- location(L), #int(I).
+:- sequence(I1, L), sequence(I2, L), I1 != I2.
+:- sequence(I, L1), sequence(I, L2), L1 != L2.
+haveSequence(L) :- sequence(I, L).
+:- location(L), not haveSequence(L).
+haveLocation(I) :- sequence(I, L).
+:- sequence(I, L), I1 = I - 1, I1 >= 0, not haveLocation(I1).
 
 % if the tour is longer than our limit, then we need more fuel
-needFuel :- &pathLongerThan[path, 50]().
+needFuel v notNeedFuel.
+needFuel :- &pathLongerThan[path, 8]().
+notNeedFuel :- not &pathLongerThan[path, 8]().
 
-% in this case we choose a gas station
+% if we need more fuel we choose a gas station
 chooseGas(G) v nchooseGas(G) :- needFuel, gasstation(G).
 :- needFuel, chooseGas(G1), chooseGas(G2), G1 != G2.
 chosen :- needFuel, chooseGas(G).
 :- needFuel, not chosen.
 
-% plan a tour which involves the gas station
-path(X, Y, C) :- needFuel, start(S), chooseGas(G), &path[map, S, G](X, Y, C).
-path(X, Y, C) :- needFuel, end(E), chooseGas(G), &path[map, G, E](X, Y, C).
+% if we need more fuel: plan a tour which involves the gas station
+location(G) :- needFuel, chooseGas(G).
 
-% otherwise plan a tour without gas station
-path(X, Y, C) :- not needFuel, start(S), end(E), &path[map, S, E](X, Y, C).
+% otherwise: plan a tour without gas station
+path(X, Y, C) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, &path["g4.graph", map, L1, L2](X, Y, C).
