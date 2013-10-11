@@ -1,1 +1,0 @@
-../dlvhex-common/testsuite/run-dlvhex-tests.sh

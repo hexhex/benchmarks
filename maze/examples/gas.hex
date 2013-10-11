@@ -10,6 +10,9 @@ location(n55).
 % define the available gas stations
 gasstation(n50).
 
+% define the reachable distance without getting more fuel
+limit(8).
+
 % start and end node of our tour
 sequence(0, n1).
 
@@ -24,8 +27,8 @@ haveLocation(I) :- sequence(I, L).
 
 % if the tour is longer than our limit, then we need more fuel
 needFuel v notNeedFuel.
-needFuel :- &pathLongerThan[path, 8]().
-notNeedFuel :- not &pathLongerThan[path, 8]().
+needFuel :- limit(L), &pathLongerThan[path, L]().
+notNeedFuel :- limit(L), not &pathLongerThan[path, L]().
 
 % if we need more fuel we choose a gas station
 chooseGas(G) v nchooseGas(G) :- needFuel, gasstation(G).
@@ -37,4 +40,11 @@ chosen :- needFuel, chooseGas(G).
 location(G) :- needFuel, chooseGas(G).
 
 % otherwise: plan a tour without gas station
-path(X, Y, C) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, &path["g4.graph", map, L1, L2](X, Y, C).
+path(X, Y, C) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, &path["g3.graph", map, L1, L2](X, Y, C).
+
+% extract the subroute from the start node to the gas station
+pathToGas(X, Y, C) :- path(X, Y, C), gasstation(Y).
+pathToGas(X, Y, C) :- path(X, Y, C), pathToGas(Y, Z, C2).
+
+% if we need fuel, then this path must not be longer than our limit
+:- needFuel, limit(L), &pathLongerThan[pathToGas, L]().

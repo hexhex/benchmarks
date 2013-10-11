@@ -1,1 +1,0 @@
-../dlvhex-common/m4/dlvhex.m4
