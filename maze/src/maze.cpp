@@ -662,6 +662,7 @@ protected:
 				if (!ogatom.tuple[1].isConstantTerm()) throw PluginError("Can only handle constant terms as nodes");
 				if (!ogatom.tuple[2].isConstantTerm()) throw PluginError("Can only handle constant terms as nodes");
 				edges.push_back(std::pair<std::pair<int, int>, int>(std::pair<int, int>(ogatom.tuple[1].address, ogatom.tuple[2].address), weight));
+				edges.push_back(std::pair<std::pair<int, int>, int>(std::pair<int, int>(ogatom.tuple[2].address, ogatom.tuple[1].address), weight));
 				if (ogatom.tuple[1].address > numNodes) numNodes = ogatom.tuple[1].address;
 				if (ogatom.tuple[2].address > numNodes) numNodes = ogatom.tuple[2].address;
 			}
