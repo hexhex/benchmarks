@@ -753,13 +753,14 @@ public:
 	{
 		addInputPredicate();
 		addInputConstant();
+addInputTuple();
 		setOutputArity(0);
 	}
 
 	virtual void
 	retrieve(const Query& query, Answer& answer) throw (PluginError)
 	{
-		if (query.input.size() != 2) throw PluginError("pathLongerThan atom needs exactly two parameters");
+//		if (query.input.size() != 2) throw PluginError("pathLongerThan atom needs exactly two parameters");
 
 		int len = 0;
 		bm::bvector<>::enumerator en = query.interpretation->getStorage().first();
