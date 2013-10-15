@@ -23,6 +23,7 @@
 #include <sstream>
 #include <fstream>
 #include <cstdio>
+#include <ctime>
 
 using namespace boost;
 
@@ -704,7 +705,11 @@ public:
 	retrieve(const Query& query, Answer& answer) throw (PluginError)
 	{
 		RegistryPtr reg = query.interpretation->getRegistry();
-
+/*
+using namespace std;
+clock_t begin = clock();
+static double sum = 0.0;
+*/
 		// read map (if not already in cache)
 		if (maps.find(reg->terms.getByID(query.input[0]).getUnquotedString()) == maps.end()){
 			InputProviderPtr ip(new InputProvider());
@@ -742,6 +747,12 @@ public:
 			answer.get().push_back(out); 
 			n = p[n];
 		}
+/*
+clock_t end = clock();
+double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
+sum += elapsed_secs;
+std::cerr << sum << std::endl;
+*/
 	}
 };
 
@@ -753,14 +764,13 @@ public:
 	{
 		addInputPredicate();
 		addInputConstant();
-addInputTuple();
 		setOutputArity(0);
 	}
 
 	virtual void
 	retrieve(const Query& query, Answer& answer) throw (PluginError)
 	{
-//		if (query.input.size() != 2) throw PluginError("pathLongerThan atom needs exactly two parameters");
+		if (query.input.size() != 2) throw PluginError("pathLongerThan atom needs exactly two parameters");
 
 		int len = 0;
 		bm::bvector<>::enumerator en = query.interpretation->getStorage().first();

@@ -6,7 +6,7 @@ initlocation(n1467252338).
 initlocation(n2019857689).
 initlocation(n1881727688).
 initlocation(n1690320375).
-initlocation(n1881746181).
+%initlocation(n1881746181).
 
 location(X) :- initlocation(X).
 
@@ -14,11 +14,11 @@ location(X) :- initlocation(X).
 gasstation(n329217141).
 gasstation(n331398037).
 
-% start and end node of our tour
+% start node of our tour
 sequence(0, n1000389410).
 
 % define reachable distance without getting more fuel
-limit(30).
+limit(70).
 
 % guess a sequence of locations
 sequence(I, L) v nsequence(I, L) :- location(L), #int(I), #int(C), C = #count{ N : initlocation(N) }, I < C2, C2 = C + 2.
@@ -40,7 +40,7 @@ chooseGas(G) v nchooseGas(G) :- needFuel, gasstation(G).
 chosen :- needFuel, chooseGas(G).
 :- needFuel, not chosen.
 
-% if we need more fuel: plan a tour which involves the gas station
+% if we need more fuel, then plan a tour which involves the gas station
 location(G) :- needFuel, chooseGas(G).
 
 % plan the tour (with or without gas station)
@@ -54,5 +54,5 @@ pathToGasTmp(S, G) :- pathTmp(S, G, X, Y, C), chooseGas(G).
 pathToGasTmp(T, S) :- pathTmp(T, S, X, Y, C), pathToGasTmp(S, G).
 pathToGas(X, Y, C) :- pathToGasTmp(L1, L2), pathTmp(L1, L2, X, Y, C).
 
-% if we need fuel, then the path to the gas station must not be longer than our limit
+% if we need fuel, then the path from the start node to the gas station must not be longer than our limit
 :- needFuel, limit(L), &pathLongerThan[pathToGas, L]().
