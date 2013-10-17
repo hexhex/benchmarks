@@ -633,7 +633,11 @@ public:
 class RoutePlanningAtom : public PluginAtom
 {
 protected:
-	typedef adjacency_list < listS, vecS, undirectedS, no_property, property < edge_weight_t, int > > graph_t;
+	struct Edge{
+		int weight;
+		ID type;
+	};
+	typedef adjacency_list < listS, vecS, undirectedS, no_property, Edge > graph_t;
 	typedef graph_traits < graph_t >::vertex_descriptor vertex_descriptor;
 	typedef graph_traits < graph_t >::edge_descriptor edge_descriptor;
 
@@ -651,36 +655,39 @@ protected:
 		int numNodes = 0;
 		if (startNode > numNodes) numNodes = startNode;
 		if (endNode > numNodes) numNodes = endNode;
-		std::vector<std::pair<std::pair<int, int>, int> > edges;
+		std::vector<std::pair<std::pair<int, int>, Edge> > edges;
 		bm::bvector<>::enumerator en = edb->getStorage().first();
 		bm::bvector<>::enumerator en_end = edb->getStorage().end();
 		while (en < en_end){
 			const OrdinaryAtom& ogatom = getRegistry()->ogatoms.getByAddress(*en);
 			if (query.input[1].address == ogatom.tuple[0].address){
-				if (ogatom.tuple.size() != 3 && ogatom.tuple.size() != 4) throw PluginError("First parameter of path atom must be a binary or ternary predicate");
+				if (ogatom.tuple.size() < 2) throw PluginError("First parameter of path atom must be a predicate oft arity >= 2");
 
-				int weight = (ogatom.tuple.size() == 5 ? ogatom.tuple[4].address : 1);
+				int weight = (ogatom.tuple.size() >= 3 ? ogatom.tuple[3].address : 1);
 				if (!ogatom.tuple[1].isConstantTerm()) throw PluginError("Can only handle constant terms as nodes");
 				if (!ogatom.tuple[2].isConstantTerm()) throw PluginError("Can only handle constant terms as nodes");
-				edges.push_back(std::pair<std::pair<int, int>, int>(std::pair<int, int>(ogatom.tuple[1].address, ogatom.tuple[2].address), weight));
-				edges.push_back(std::pair<std::pair<int, int>, int>(std::pair<int, int>(ogatom.tuple[2].address, ogatom.tuple[1].address), weight));
+				Edge edge;
+				edge.weight = weight;
+				edge.type = ogatom.tuple.size() > 4 ? ogatom.tuple[4] : ID_FAIL;
+				edges.push_back(std::pair<std::pair<int, int>, Edge>(std::pair<int, int>(ogatom.tuple[1].address, ogatom.tuple[2].address), edge));
+				edges.push_back(std::pair<std::pair<int, int>, Edge>(std::pair<int, int>(ogatom.tuple[2].address, ogatom.tuple[1].address), edge));
 				if (ogatom.tuple[1].address > numNodes) numNodes = ogatom.tuple[1].address;
 				if (ogatom.tuple[2].address > numNodes) numNodes = ogatom.tuple[2].address;
 			}
 			en++;
 		}
 		std::pair<int, int>* edgeArray = new std::pair<int, int>[edges.size()];
-		int* weights = new int[edges.size()];
+		Edge* ed = new Edge[edges.size()];
 		for (int i = 0; i < edges.size(); ++i){
 			edgeArray[i] = edges[i].first;
-			weights[i] = edges[i].second;
+			ed[i] = edges[i].second;
 		}
 
-		graph_t g(edgeArray, edgeArray + edges.size(), weights, numNodes + 1);
+		graph_t g(edgeArray, edgeArray + edges.size(), ed, numNodes + 1);
 
 		// cleanup
 		delete []edgeArray;
-		delete []weights;
+		delete []ed;
 
 		return g;
 	}
@@ -700,7 +707,7 @@ public:
 		addInputConstant();
 		addInputConstant();
 		addInputConstant();
-		setOutputArity(3);
+		setOutputArity(4);
 	}
 
 	virtual void
@@ -734,22 +741,45 @@ static double sum = 0.0;
 		int startNode = query.input[2].address;
 		int endNode = query.input[3].address;
 
-//		// call Dijkstra only if the result is not cached
+		// call Dijkstra only if the result is not cached
 		if (distanceCache.find(startNode) == distanceCache.end()){
 			distanceCache[startNode] = std::vector<int>(num_vertices(g));
 			predecessorCache[startNode] = std::vector<vertex_descriptor>(num_vertices(g));
-			dijkstra_shortest_paths(g, startNode, predecessor_map(&(predecessorCache[startNode])[0]).distance_map(&(distanceCache[startNode])[0]));
-//		}
+
+			auto p_map = boost::make_iterator_property_map(&predecessorCache[startNode][0], boost::get(boost::vertex_index, g));
+			auto d_map = boost::make_iterator_property_map(&distanceCache[startNode][0], boost::get(boost::vertex_index, g));
+			auto w_map = boost::get(&Edge::weight, g);
+			auto l_map = boost::get(&Edge::type, g);
+			boost::dijkstra_shortest_paths(g, startNode,
+				boost::weight_map(w_map).predecessor_map(p_map).distance_map(d_map));
+		}
 		std::vector<vertex_descriptor>& p = predecessorCache[startNode];
 		std::vector<int>& d = distanceCache[startNode];
 
 		// extract answer
 		int n = endNode;
+		ID prevType = ID_FAIL;
 		while (n != p[n]){
 			Tuple out;
 			out.push_back(ID(ID::MAINKIND_TERM | ID::SUBKIND_TERM_CONSTANT, p[n]));
 			out.push_back(ID(ID::MAINKIND_TERM | ID::SUBKIND_TERM_CONSTANT, n));
 			out.push_back(ID::termFromInteger(d[n] - d[p[n]]));
+
+			// find the actual edge: check for all edges p[n] -> n if the weight is correct
+			ID selType = ID_FAIL;
+			graph_t::edge_iterator begin, end;
+			for (std::tie(begin, end) = boost::edges(g); begin != end; ++begin){
+				if (boost::source(*begin, g) == p[n] && boost::target(*begin, g) == n && g[*begin].weight == (d[n] - d[p[n]])){
+					if (selType == prevType) selType = g[*begin].type;	// try to avoid changes
+					if (selType == ID_FAIL) selType = g[*begin].type;
+				}
+			}
+			if (selType == ID_FAIL) selType = ID::termFromInteger(0);
+			out.push_back(selType);
+			prevType = selType;
+
+//int i = g[n].edge_id;
+//boost::get(boost::vertex_index, g)
 			answer.get().push_back(out); 
 			n = p[n];
 		}
@@ -783,7 +813,7 @@ public:
 		bm::bvector<>::enumerator en_end = query.interpretation->getStorage().end();
 		while (en < en_end){
 			const OrdinaryAtom& ogatom = getRegistry()->ogatoms.getByAddress(*en);
-			if (ogatom.tuple.size() != 4) throw PluginError("First parameter of pathLongerThan atom must be a ternary predicate");
+			if (ogatom.tuple.size() < 4) throw PluginError("First parameter of pathLongerThan atom must be a predicate of arity >= 3");
 			len += ogatom.tuple[3].address;
 			en++;
 		}
@@ -846,5 +876,3 @@ void * PLUGINIMPORTFUNCTION()
 {
 	return reinterpret_cast<void*>(& dlvhex::benchmark::theMazePlugin);
 }
-
-
