@@ -690,6 +690,8 @@ class PathAtom : public RoutePlanningAtom
 {
 private:
 	std::map<std::string, graph_t> maps;
+	std::map<int, std::vector<int> > distanceCache;
+	std::map<int, std::vector<vertex_descriptor> > predecessorCache;
 public:
 	PathAtom():
 		RoutePlanningAtom("path", true)
@@ -732,10 +734,14 @@ static double sum = 0.0;
 		int startNode = query.input[2].address;
 		int endNode = query.input[3].address;
 
-		std::vector<vertex_descriptor> p(num_vertices(g));
-		std::vector<int> d(num_vertices(g));
-
-		dijkstra_shortest_paths(g, startNode, predecessor_map(&p[0]).distance_map(&d[0]));
+//		// call Dijkstra only if the result is not cached
+		if (distanceCache.find(startNode) == distanceCache.end()){
+			distanceCache[startNode] = std::vector<int>(num_vertices(g));
+			predecessorCache[startNode] = std::vector<vertex_descriptor>(num_vertices(g));
+			dijkstra_shortest_paths(g, startNode, predecessor_map(&(predecessorCache[startNode])[0]).distance_map(&(distanceCache[startNode])[0]));
+//		}
+		std::vector<vertex_descriptor>& p = predecessorCache[startNode];
+		std::vector<int>& d = distanceCache[startNode];
 
 		// extract answer
 		int n = endNode;
