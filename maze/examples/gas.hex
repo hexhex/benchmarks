@@ -1,12 +1,12 @@
-#maxint=200.
+#maxint=350.
 
 % define the locations we want to visit
-initlocation("Reumannplatz").
-initlocation("Kagran").
-initlocation("Westbahnhof").
+%initlocation("Stadtpark").
+%initlocation("Karlsplatz").
+%initlocation("Taubstummengasse").
+%initlocation("Kagran").
+%initlocation("Hütteldorf").
 %initlocation("Fultonstraße").
-%initlocation("Floridsdorf").
-%initlocation("Siebenhirten").
 
 location(X) :- initlocation(X).
 
@@ -15,10 +15,10 @@ gasstation("Leopoldau").
 gasstation("Karlsplatz").
 
 % start node of our tour
-sequence(0, "Kagran").
+%sequence(0, "Taubstummengasse").
 
 % define reachable distance without getting more fuel
-limit(70).
+limit(200).
 
 % guess a sequence of locations
 sequence(I, L) v nsequence(I, L) :- location(L), #int(I), #int(C), C = #count{ N : initlocation(N) }, I < C2, C2 = C + 2.
@@ -57,5 +57,7 @@ pathToGas(X, Y, C) :- pathToGasTmp(L1, L2), pathTmp(L1, L2, X, Y, C, Type).
 % if we need fuel, then the path from the start node to the gas station must not be longer than our limit
 :- needFuel, limit(L), &pathLongerThan[pathToGas, L]().
 
-orderedpath(0, X, Y, C, Type) :- sequence(0, X), path(X, Y, C, Type).
-orderedpath(S, Y, Z, C2, Type2) :- orderedpath(P, X, Y, C, Type), path(Y, Z, C2, Type2), S = P + 1, #int(S).
+orderedpathTmp(0, L1, L2, X, Y, C, Type) :- sequence(0, X), pathTmp(L1, L2, X, Y, C, Type).
+orderedpathTmp(S, L1, L2, Y, Z, C2, Type2) :- orderedpathTmp(P, L1, L2, X, Y, C, Type), pathTmp(L1, L2, Y, Z, C2, Type2), S = P + 1, #int(S).
+orderedpathTmp(S, Y, L3, Y, Z, C2, Type2) :- orderedpathTmp(P, L1, Y, X, Y, C, Type), pathTmp(Y, L3, Y, Z, C2, Type2), S = P + 1, #int(S).
+orderedpath(S, X, Y, C, Type) :- orderedpathTmp(S, L1, L2, X, Y, C, Type).

@@ -1,14 +1,21 @@
 % platform(ID, LineID, StopID, Direction, Sequence, RBLNr, Area, Platform, Lat, Lon, Date)
 % stop(ID, Type, Diva, Name, District, DistrictID, Lat, Lon, Date)
 % line(ID, Name, Sequence, Realtime, Type, Date)
-edge(StopName1, StopName2, 2, LineName)	:-	platform(ID1, LineID, StopID1, Direction, Sequence, RBLNr1, Area1, Platform1, Lat1, Lon1, Date1),
+edge(StopName1, StopName2, Cost, LineName) :-	platform(ID1, LineID, StopID1, Direction, Sequence, RBLNr1, Area1, Platform1, Lat1, Lon1, Date1),
 						platform(ID2, LineID, StopID2, Direction, SequenceNext, RBLNr2, Area2, Platform2, Lat2, Lon2, Date2),
 						SequenceNext = Sequence + 1,
 						stop(StopID1, StopType1, StopDiva1, StopName1, StopDistrict1, StopDistrictID1, StopLat1, StopLon1, StopDate1),
 						stop(StopID2, StopType2, StopDiva2, StopName2, StopDistrict2, StopDistrictID2, StopLat2, StopLon2, StopDate2),
-						line(LineID, LineName, LineSequence, LineRealTime, LineType, LineDate).
+						line(LineID, LineName, LineSequence, LineRealTime, LineType, LineDate),
+						costsPerLine(LineName, Cost).
 
-edgeline(SL1, SL2, 20, change) :-		edge(StopName1, StopName2, CostA, LineName1),
+costsPerLine(Name, 2)			:-	line(ID, Name, Sequence, Realtime, "ptTrainS", Date).
+costsPerLine(Name, 5)			:-	line(ID, Name, Sequence, Realtime, "ptBusNight", Date).
+costsPerLine(Name, 3)			:-	line(ID, Name, Sequence, Realtime, "ptTram", Date).
+costsPerLine(Name, 1)			:-	line(ID, Name, Sequence, Realtime, "ptMetro", Date).
+costsPerLine(Name, 4)			:-	line(ID, Name, Sequence, Realtime, "ptBusCity", Date).
+
+edgeline(SL1, SL2, 10, change) :-		edge(StopName1, StopName2, CostA, LineName1),
 						edge(StopName2, StopName3, CostB, LineName2),
 						&testConcat[StopName2," (", LineName1, ")"](SL1),
 						&testConcat[StopName2," (", LineName2, ")"](SL2),
@@ -18,8 +25,8 @@ edgeline(SL1, SL2, Cost, LineName) :-		edge(StopName1, StopName2, Cost, LineName
 						&testConcat[StopName1," (", LineName, ")"](SL1),
 						&testConcat[StopName2," (", LineName, ")"](SL2).
 
-edgeline(SL2, StopName2, 1, change) :-		edge(StopName1, StopName2, Cost, LineName),
+edgeline(SL2, StopName2, 10, change) :-		edge(StopName1, StopName2, Cost, LineName),
 						&testConcat[StopName2," (", LineName, ")"](SL2).
 
-edgeline(StopName1, SL1, 1, change) :-		edge(StopName1, StopName2, Cost, LineName),
+edgeline(StopName1, SL1, 10, change) :-		edge(StopName1, StopName2, Cost, LineName),
 						&testConcat[StopName1," (", LineName, ")"](SL1).
