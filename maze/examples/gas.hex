@@ -5,8 +5,8 @@ initlocation("Reumannplatz").
 initlocation("Kagran").
 initlocation("Westbahnhof").
 %initlocation("Fultonstraße").
-initlocation("Floridsdorf").
-initlocation("Siebenhirten").
+%initlocation("Floridsdorf").
+%initlocation("Siebenhirten").
 
 location(X) :- initlocation(X).
 
