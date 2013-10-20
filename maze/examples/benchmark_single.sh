@@ -32,7 +32,7 @@ do
 	echo -ne -e " "
 	dir=$PWD
 	cd ../../src
-	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=. --extlearn --evalall --liberalsafety $dir/$instance"
+	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=. --extlearn --evalall --liberalsafety $dir/../gas.hex $dir/$instance"
 
 	$($cmd 2>/dev/null >/dev/null)
 	ret=$?
