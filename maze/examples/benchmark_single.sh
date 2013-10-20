@@ -31,11 +31,11 @@ for c in "${confs[@]}"
 do
 	echo -ne -e " "
 	dir=$PWD
-	cd ../../src
-	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=. --extlearn --evalall --liberalsafety $dir/../gas.hex $dir/$instance"
-
+	cd ..
+	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=../src --extlearn --evalall --liberalsafety -n=1 gas.hex $dir/$instance"
 	$($cmd 2>/dev/null >/dev/null)
 	ret=$?
+	cd instances
 	output=$(cat $dir/$instance.time.dat)
 	if [[ $ret == 124 ]]; then
 		output="---"
