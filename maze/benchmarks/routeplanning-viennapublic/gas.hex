@@ -1,0 +1,63 @@
+#maxint=350.
+
+% define the locations we want to visit
+%initlocation("Stadtpark").
+%initlocation("Karlsplatz").
+%initlocation("Taubstummengasse").
+%initlocation("Kagran").
+%initlocation("Hütteldorf").
+%initlocation("Fultonstraße").
+
+location(X) :- initlocation(X).
+
+% define the available gas stations
+gasstation("Leopoldau").
+gasstation("Karlsplatz").
+
+% start node of our tour
+%sequence(0, "Taubstummengasse").
+
+% define reachable distance without getting more fuel
+limit(200).
+
+% guess a sequence of locations
+sequence(I, L) v nsequence(I, L) :- location(L), #int(I), #int(C), C = #count{ N : initlocation(N) }, I < C2, C2 = C + 2.
+:- sequence(I1, L), sequence(I2, L), I1 != I2.
+:- sequence(I, L1), sequence(I, L2), L1 != L2.
+haveSequence(L) :- sequence(I, L).
+:- location(L), not haveSequence(L).
+haveLocation(I) :- sequence(I, L).
+:- sequence(I, L), I1 < I, #int(I1), not haveLocation(I1).
+
+% if the tour is longer than our limit, then we need more fuel
+needFuel v notNeedFuel.
+needFuel :- limit(L), &pathLongerThan[path, L]().
+notNeedFuel :- limit(L), not &pathLongerThan[path, L]().
+
+% if we need more fuel we choose a gas station
+chooseGas(G) v nchooseGas(G) :- needFuel, gasstation(G).
+:- needFuel, chooseGas(G1), chooseGas(G2), G1 != G2.
+chosen :- needFuel, chooseGas(G).
+:- needFuel, not chosen.
+
+% if we need more fuel, then plan a tour which involves the gas station
+location(G) :- needFuel, chooseGas(G).
+
+% plan the tour (with or without gas station)
+pathTmp(L1, L2, X, Y, C, Type) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, &path["vienna-publictransport2.hex", edgeline, L1, L2](X, Y, C, Type).
+path(X, Y, C, Type) :- pathTmp(L1, L2, X, Y, C, Type).
+pathExists(L1, L2) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, pathTmp(L1, L2, X, Y, C, Type).
+:- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, not pathExists(L1, L2).
+
+% extract the subroute from the start node to the gas station
+pathToGasTmp(S, G) :- pathTmp(S, G, X, Y, C, Type), chooseGas(G).
+pathToGasTmp(T, S) :- pathTmp(T, S, X, Y, C, Type), pathToGasTmp(S, G).
+pathToGas(X, Y, C) :- pathToGasTmp(L1, L2), pathTmp(L1, L2, X, Y, C, Type).
+
+% if we need fuel, then the path from the start node to the gas station must not be longer than our limit
+:- needFuel, limit(L), &pathLongerThan[pathToGas, L]().
+
+orderedpathTmp(0, L1, L2, X, Y, C, Type) :- sequence(0, X), pathTmp(L1, L2, X, Y, C, Type).
+orderedpathTmp(S, L1, L2, Y, Z, C2, Type2) :- orderedpathTmp(P, L1, L2, X, Y, C, Type), pathTmp(L1, L2, Y, Z, C2, Type2), S = P + 1, #int(S).
+orderedpathTmp(S, Y, L3, Y, Z, C2, Type2) :- orderedpathTmp(P, L1, Y, X, Y, C, Type), pathTmp(Y, L3, Y, Z, C2, Type2), S = P + 1, #int(S).
+orderedpath(S, X, Y, C, Type) :- orderedpathTmp(S, L1, L2, X, Y, C, Type).

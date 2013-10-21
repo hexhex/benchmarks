@@ -1,0 +1,16 @@
+
+		Executable = ../benchmark_single.sh
+		Universe = vanilla
+		output = inst_s010_i010.hex.out
+		error = inst_s010_i010.hex.error
+		Log = inst_s010_i010.hex.log
+		Requirements = machine == "lion.kr.tuwien.ac.at"
+		request_memory = 8192
+		Initialdir = /mnt/lion/home/redl/dlvhex/benchmarks/maze/examples/instances
+		notification = never
+
+		# queue
+		request_cpus = 1 
+		Arguments = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/mnt/lion/home/redl/local/bin:/mnt/lion/home/redl/RacerPro-1-9-0-Linux32-ACL:/mnt/lion/home/redl/local/bin:/mnt/lion/home/redl/RacerPro-1-9-0-Linux32-ACL /mnt/lion/home/redl/local/lib inst_s010_i010.hex 300
+		Queue 1
+	     
