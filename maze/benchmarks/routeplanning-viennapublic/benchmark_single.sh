@@ -32,8 +32,8 @@ do
 	echo -ne -e " "
 	dir=$PWD
 	cd ..
-	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 $dir/$instance --verbose=8"
-	$($cmd 2>/dev/null >/dev/null)
+	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 $dir/$instance --verbose=8"
+	$($cmd 2>$dir/$instance.$i.verbose.dat >/dev/null)
 	ret=$?
 	cd instances
 	output=$(cat $dir/$instance.time.dat)
@@ -50,6 +50,7 @@ do
 
 	cd $dir
 	rm $dir/$instance.time.dat
+	rm $dir/$instance.$i.verbose.dat
 	let i=i+1
 done
 echo -e -ne "\n"
