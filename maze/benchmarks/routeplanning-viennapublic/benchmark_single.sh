@@ -49,7 +49,6 @@ do
 	echo -ne "$output $groundertime $solvertime"
 
 	cd $dir
-	echo -ne $output
 	rm $dir/$instance.time.dat
 	let i=i+1
 done
