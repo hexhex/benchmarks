@@ -5,7 +5,7 @@ export LD_LIBRARY_PATH=$2
 instance=$3
 to=$4
 
-confstr=" "
+confstr="--liberalsafety gas.hex;gas_strongsafety.hex vienna-publictransport2.hex"
 confstr2=$(cat ../conf)
 if [ $? == 0 ]; then
         confstr=$confstr2
@@ -32,14 +32,22 @@ do
 	echo -ne -e " "
 	dir=$PWD
 	cd ..
-	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall --liberalsafety -n=1 gas.hex $dir/$instance"
+	cmd="timeout $to time -o $dir/$instance.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 $dir/$instance --verbose=8"
 	$($cmd 2>/dev/null >/dev/null)
 	ret=$?
 	cd instances
 	output=$(cat $dir/$instance.time.dat)
-	if [[ $ret != 0 ]]; then
-		output="---"
+	if [[ $ret == 0 ]]; then
+		output=$(cat $dir/$instance.$i.time.dat)
+		groundertime=$(cat $dir/$instance.$i.verbose.dat | grep -a "HEX grounder time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
+		solvertime=$(cat $dir/$instance.$i.verbose.dat | grep -a "HEX solver time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
+	else
+        	output="---"
+  	        groundertime="---"
+	        solvertime="---"
 	fi
+	echo -ne "$output $groundertime $solvertime"
+
 	cd $dir
 	echo -ne $output
 	rm $dir/$instance.time.dat
