@@ -58,6 +58,6 @@ pathToGas(X, Y, C) :- pathToGasTmp(L1, L2), pathTmp(L1, L2, X, Y, C, Type).
 :- needFuel, limit(L), &pathLongerThan[pathToGas, L]().
 
 orderedpathTmp(0, L1, L2, X, Y, C, Type) :- sequence(0, X), pathTmp(L1, L2, X, Y, C, Type).
-orderedpathTmp(S, L1, L2, Y, Z, C2, Type2) :- orderedpathTmp(P, L1, L2, X, Y, C, Type), pathTmp(L1, L2, Y, Z, C2, Type2), S = P + 1, #int(S).
-orderedpathTmp(S, Y, L3, Y, Z, C2, Type2) :- orderedpathTmp(P, L1, Y, X, Y, C, Type), pathTmp(Y, L3, Y, Z, C2, Type2), S = P + 1, #int(S).
+orderedpathTmp(S, L1, L2, Y, Z, C2, Type2) :- orderedpathTmp(P, L1, L2, X, Y, C, Type), pathTmp(L1, L2, Y, Z, C2, Type2), S = P + 1, #int(S), &pathLength[path](Len), S <= Len.
+orderedpathTmp(S, Y, L3, Y, Z, C2, Type2) :- orderedpathTmp(P, L1, Y, X, Y, C, Type), pathTmp(Y, L3, Y, Z, C2, Type2), S = P + 1, #int(S), &pathLength[path](Len), S <= Len.
 orderedpath(S, X, Y, C, Type) :- orderedpathTmp(S, L1, L2, X, Y, C, Type).

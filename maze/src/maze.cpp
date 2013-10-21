@@ -823,6 +823,37 @@ public:
 	}
 };
 
+class PathLengthAtom : public PluginAtom
+{
+public:
+	PathLengthAtom():
+		PluginAtom("pathLength", false)
+	{
+		addInputPredicate();
+		setOutputArity(1);
+	}
+
+	virtual void
+	retrieve(const Query& query, Answer& answer) throw (PluginError)
+	{
+		if (query.input.size() != 1) throw PluginError("pathLongerThan atom needs exactly one parameter");
+
+		int len = 0;
+		bm::bvector<>::enumerator en = query.interpretation->getStorage().first();
+		bm::bvector<>::enumerator en_end = query.interpretation->getStorage().end();
+		while (en < en_end){
+			const OrdinaryAtom& ogatom = getRegistry()->ogatoms.getByAddress(*en);
+			if (ogatom.tuple.size() < 4) throw PluginError("First parameter of pathLongerThan atom must be a predicate of arity >= 3");
+			len += ogatom.tuple[3].address;
+			en++;
+		}
+
+		Tuple out;
+		out.push_back(ID::termFromInteger(len));
+		answer.get().push_back(out); 
+	}
+};
+
 class MazePlugin : public PluginInterface
 {
 public:
@@ -850,6 +881,9 @@ public:
 					PluginPtrDeleter<PluginAtom>()));
 		ret.push_back(PluginAtomPtr(
 					new PathLongerThanAtom(),
+					PluginPtrDeleter<PluginAtom>()));
+		ret.push_back(PluginAtomPtr(
+					new PathLengthAtom(),
 					PluginPtrDeleter<PluginAtom>()));
 
 		return ret;
