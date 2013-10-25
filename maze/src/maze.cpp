@@ -830,13 +830,14 @@ public:
 		PluginAtom("pathLength", false)
 	{
 		addInputPredicate();
+		addInputConstant();
 		setOutputArity(1);
 	}
 
 	virtual void
 	retrieve(const Query& query, Answer& answer) throw (PluginError)
 	{
-		if (query.input.size() != 1) throw PluginError("pathLongerThan atom needs exactly one parameter");
+		if (query.input.size() != 1 && query.input.size() != 2) throw PluginError("pathLongerThan atom needs one or two parameter(s)");
 
 		int len = 0;
 		bm::bvector<>::enumerator en = query.interpretation->getStorage().first();
@@ -844,7 +845,12 @@ public:
 		while (en < en_end){
 			const OrdinaryAtom& ogatom = getRegistry()->ogatoms.getByAddress(*en);
 			if (ogatom.tuple.size() < 4) throw PluginError("First parameter of pathLongerThan atom must be a predicate of arity >= 3");
-			len += ogatom.tuple[3].address;
+			if (query.input.size() == 1){
+				len += ogatom.tuple[3].address;
+			}
+			if (query.input.size() == 2 && ogatom.tuple[1] == query.input[1]){
+				len += ogatom.tuple[4].address;
+			}
 			en++;
 		}
 

@@ -1,0 +1,19 @@
+person(1).
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Elisabethwiese").
+initlocation(1,"Eßling Schule").
+initlocation(1,"Triester Straße/Computerstraße").
+sequence(1,0, "Weinhauser Gasse").
+person(2).
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Arztgasse").
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Stadlau").
+sequence(2,0, "Stockholmer Platz").
+possiblemeetinglocations("Benatzkygasse").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Kaiserebersdorf").

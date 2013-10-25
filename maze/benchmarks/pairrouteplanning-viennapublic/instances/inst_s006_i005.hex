@@ -1,0 +1,22 @@
+person(1).
+initlocation(1,"Adolf-Loos-Gasse").
+initlocation(1,"Seestadt").
+initlocation(1,"Lilienthalgasse").
+initlocation(1,"Neubaugasse/Neustiftgasse").
+initlocation(1,"Längenfeldgasse/Flurschützstr").
+initlocation(1,"Ruckergasse/Tivoligasse").
+sequence(1,0, "Adolf-Loos-Gasse").
+person(2).
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Simonsgasse").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Schoeppelgasse").
+initlocation(2,"Großenzersdorf Stadtmauer").
+initlocation(2,"Schreinerweg").
+sequence(2,0, "Verbindungsbahn").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("An den alten Schanzen").
+possiblemeetinglocations("Wehrbrücklstraße/Gernotgasse").
+possiblemeetinglocations("Pensionsversicherungsanstalt").
+possiblemeetinglocations("Purkytgasse").
+possiblemeetinglocations("Töllergasse").

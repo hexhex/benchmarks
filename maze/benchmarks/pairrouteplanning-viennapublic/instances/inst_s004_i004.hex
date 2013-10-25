@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Weihburggasse").
+initlocation(1,"Bettelheimstraße").
+initlocation(1,"Gredlerstraße").
+initlocation(1,"Zeleborgasse").
+sequence(1,0, "Weihburggasse").
+person(2).
+initlocation(2,"Zentaplatz").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Neueßling").
+initlocation(2,"Oberlaaer Straße").
+sequence(2,0, "Zentaplatz").
+possiblemeetinglocations("Mariahilfer Straße/Stiftgasse").
+possiblemeetinglocations("Atzgersdorf Kirchenplatz").
+possiblemeetinglocations("Kefedergrundgasse").
+possiblemeetinglocations("Badgasse").

@@ -1,0 +1,19 @@
+person(1).
+initlocation(1,"Wulzendorfstraße").
+initlocation(1,"Heiligenstädter Brücke").
+initlocation(1,"Taborstraße").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Schwechat Wiener Straße").
+sequence(1,0, "Wulzendorfstraße").
+person(2).
+initlocation(2,"Twarochgasse").
+initlocation(2,"Süßenbr Str/Breitenleer Str").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Genochplatz").
+initlocation(2,"Jungbauerweg").
+sequence(2,0, "Twarochgasse").
+possiblemeetinglocations("Nemethgasse").
+possiblemeetinglocations("Kellermanngasse").
+possiblemeetinglocations("Mayredergasse").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Stadlauer Straße/Ostbahn").

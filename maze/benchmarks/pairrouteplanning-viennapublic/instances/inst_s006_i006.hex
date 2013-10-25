@@ -1,0 +1,22 @@
+person(1).
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Praterkai").
+initlocation(1,"Pfarrwiesenstraße").
+initlocation(1,"Wienerfeldgasse").
+initlocation(1,"Schemmerlstr/Hasenleitengasse").
+initlocation(1,"Rosenbergstraße").
+sequence(1,0, "Hofwiesengasse").
+person(2).
+initlocation(2,"Blumengasse").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Kinskygasse/Rossakgasse").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Saltenstraße").
+sequence(2,0, "Blumengasse").
+possiblemeetinglocations("Margaretenplatz").
+possiblemeetinglocations("Kunerolgasse").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Döblinger Friedhof").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Grinzing").

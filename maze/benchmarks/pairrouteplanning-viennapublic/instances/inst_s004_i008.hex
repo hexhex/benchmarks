@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Mühlsangergasse").
+initlocation(1,"Krausegasse").
+sequence(1,0, "Nestroyplatz").
+person(2).
+initlocation(2,"Spittelbreitengasse").
+initlocation(2,"Korngoldgasse").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Wagner-Schönkirch-Gasse").
+sequence(2,0, "Spittelbreitengasse").
+possiblemeetinglocations("Wagner-Schönkirch-Gasse").
+possiblemeetinglocations("Graf-Seilern-Gasse").
+possiblemeetinglocations("Jägerwaldsiedlung").
+possiblemeetinglocations("Siebeneichengasse").

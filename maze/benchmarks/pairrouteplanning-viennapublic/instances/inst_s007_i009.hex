@@ -1,0 +1,25 @@
+person(1).
+initlocation(1,"Strozzigasse").
+initlocation(1,"Engerthstraße/Traisengasse").
+initlocation(1,"Edelsteingasse").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Hohenbergstraße").
+initlocation(1,"Sonnergasse").
+initlocation(1,"Gloriettegasse").
+sequence(1,0, "Strozzigasse").
+person(2).
+initlocation(2,"Neulandschule").
+initlocation(2,"Linneplatz").
+initlocation(2,"Valiergasse").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Baden Josefsplatz").
+initlocation(2,"Ziehrerplatz").
+initlocation(2,"Otto-Weber-Gasse").
+sequence(2,0, "Neulandschule").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Lichtblaustraße").
+possiblemeetinglocations("An der Bien").
+possiblemeetinglocations("Schipanygasse").
+possiblemeetinglocations("Triester Straße/Rossakgasse").
+possiblemeetinglocations("Percostraße").
+possiblemeetinglocations("Barawitzkagasse").
