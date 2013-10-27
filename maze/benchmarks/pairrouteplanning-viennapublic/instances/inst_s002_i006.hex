@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Deutschordenstraße").
-initlocation(1,"Wachthausgasse").
-sequence(1,0, "Deutschordenstraße").
+initlocation(1,"Schüttaustraße").
+initlocation(1,"Kahlenberg").
+sequence(1,0, "Schüttaustraße").
 person(2).
-initlocation(2,"Eisstoßgasse").
-initlocation(2,"Maria Enzersdorf-Südstadt Bf").
-sequence(2,0, "Eisstoßgasse").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-restaurant("Bisamberg Bahnhof").
-restaurant("Kolbegasse").
+initlocation(2,"Kaiserebersdorf Münnichplatz").
+initlocation(2,"Strandbad Stadlau").
+sequence(2,0, "Kaiserebersdorf Münnichplatz").
+possiblemeetinglocations("Südwestfriedhof 1Tor").
+possiblemeetinglocations("Magdalenenstraße").
+restaurant("Atzgersdorf Kirchenplatz").
+restaurant("Ölhafen").

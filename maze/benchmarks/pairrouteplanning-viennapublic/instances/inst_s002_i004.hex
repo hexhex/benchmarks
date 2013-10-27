@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Meriangasse").
-initlocation(1,"Zieglergasse").
-sequence(1,0, "Meriangasse").
+initlocation(1,"Stadlauer Straße/Ostbahn").
+initlocation(1,"Kirschenallee").
+sequence(1,0, "Stadlauer Straße/Ostbahn").
 person(2).
-initlocation(2,"Sillerplatz").
-initlocation(2,"Richard-Strauss-Straße").
-sequence(2,0, "Sillerplatz").
-possiblemeetinglocations("Christine-Touaillon-Straße").
-possiblemeetinglocations("Hetzgasse").
-restaurant("Kronawettergasse").
-restaurant("Weingartenallee").
+initlocation(2,"Laxenburger Straße/Raxstraße").
+initlocation(2,"Litfaßstraße").
+sequence(2,0, "Laxenburger Straße/Raxstraße").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+restaurant("Haidersberggasse").
+restaurant("Leesdorf Bahnhof").

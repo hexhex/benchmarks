@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Hasnerstraße").
-initlocation(1,"Franz-Sebek-Straße").
-initlocation(1,"Maria Anzbach Bahnhof").
-initlocation(1,"Dopschstraße").
-sequence(1,0, "Hasnerstraße").
+initlocation(1,"Schüttaustraße").
+initlocation(1,"Finsterbuschstraße/Öllager").
+initlocation(1,"Schleifmühlgasse").
+initlocation(1,"Hederichgasse").
+sequence(1,0, "Schüttaustraße").
 person(2).
-initlocation(2,"Dürrwien Bahnhof").
-initlocation(2,"Getzersdorf/Traisen Bahnhof").
-initlocation(2,"Evangelischer Friedhof").
-initlocation(2,"Winkeläckerstraße").
-sequence(2,0, "Dürrwien Bahnhof").
-possiblemeetinglocations("Zschokkegasse").
-possiblemeetinglocations("Linienamt").
-possiblemeetinglocations("Ratzenhofergasse").
-possiblemeetinglocations("Triester Str/Altdorferstraße").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Gredlerstraße").
-restaurant("Edmund-Reim-Gasse").
-restaurant("Mayerhofgasse").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Braillegasse").
+initlocation(2,"Schönbr Str/Kettenbrückengasse").
+initlocation(2,"Schütthäufel").
+sequence(2,0, "Mödling Bahnhof").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Badeteich Hirschstetten").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Eßling Friedhof").
+restaurant("Strasshof Bahnhof").
+restaurant("Dreimarkstein").
+restaurant("Aspern, Oberdorfstraße").
+restaurant("Burgenlandgasse").

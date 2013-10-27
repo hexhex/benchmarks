@@ -1,4 +1,4 @@
-for ((size=3; size <= 10; size++))
+for ((size=1; size <= 15; size++))
 do
 	for ((i=1; i <= 10; i++))
 	do
