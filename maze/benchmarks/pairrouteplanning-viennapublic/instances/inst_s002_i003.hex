@@ -1,0 +1,12 @@
+person(1).
+initlocation(1,"Klimtgasse").
+initlocation(1,"Keylwerthgasse").
+sequence(1,0, "Klimtgasse").
+person(2).
+initlocation(2,"Hauptwerkstätte").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+sequence(2,0, "Hauptwerkstätte").
+possiblemeetinglocations("Zanaschkagasse").
+possiblemeetinglocations("Kahlenberg").
+restaurant("Gymnasiumstraße").
+restaurant("Auspitzgasse").

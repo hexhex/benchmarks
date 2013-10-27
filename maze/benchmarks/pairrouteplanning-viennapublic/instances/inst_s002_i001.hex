@@ -1,0 +1,12 @@
+person(1).
+initlocation(1,"Teichgasse").
+initlocation(1,"Krausegasse").
+sequence(1,0, "Teichgasse").
+person(2).
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Schwechat Wiener Straße").
+sequence(2,0, "Kaiserstraße/Burggasse").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Max-Fleischer-Gasse").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Lerchenfelder Straße").
