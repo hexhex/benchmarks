@@ -32,7 +32,7 @@ do
 	echo -ne -e " "
 	dir=$PWD
 	cd ..
-	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 $dir/$instance --heuristics=easy --verbose=8"
+	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 $dir/$instance --verbose=8"
 	$($cmd 2>$dir/$instance.$i.verbose.dat >/dev/null)
 	ret=$?
 	cd instances
