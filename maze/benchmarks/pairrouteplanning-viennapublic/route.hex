@@ -14,11 +14,11 @@ haveLocation(P,I) :- person(P), sequence(P, I, L).
 % choose a meeting point
 chooseMeeting(L) v nchooseMeeting(L) :- possiblemeetinglocations(L).
 :- chooseMeeting(L1), chooseMeeting(L2), L1 != L2.
-chosen :- chooseMeeting(L).
-:- not chosen.
+meetingChosen :- not anyNeedRestaurant, chooseMeeting(L).
+:- not meetingChosen.
 
 % let all tours include the meeting location
-location(P, L) :- person(P), chooseMeeting(L).
+location(P, L) :- not anyNeedRestaurant, person(P), chooseMeeting(L).
 
 % plan the tours
 pathTmp(P, L1, L2, X, Y, C, Type) :- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2), NrNext = Nr + 1, &path["vienna-publictransport2.hex", edgeline, L1, L2](X, Y, C, Type).
@@ -29,22 +29,18 @@ pathExists(P, L1, L2) :- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2)
 
 
 
-% if the tour is longer than our limit, then we want to stop at a restaurant
-limit(P, 300) :- person(P).
-%limit(1, 100).
-%limit(2, 400).
-needRestaurant(P) v notNeedRestaurant(P) :- person(P).
-needRestaurant(P) :- person(P), limit(P, L), &pathLongerThan[path, L, P]().
-notNeedRestaurant(P) :- person(P), limit(P, L), not &pathLongerThan[path, L, P]().
+% restaurants are possible meeting locations
+possiblemeetinglocations(R) :- restaurant(R).
 
-% if we stop at a restaurant we choose one
-chooseRestaurant(P, R) v nchooseRestaurant(P, R) :- needRestaurant(P), restaurant(R).
-:- needRestaurant(P), chooseRestaurant(P,R1), chooseRestaurant(P,R2), R1 != R2.
-chosen(P) :- needRestaurant(P), chooseRestaurant(P, R).
-:- needRestaurant(P), not chosen(P).
+% if the tour is longer than our limit, then we want to meet at a restaurant
+limit(300).
+needRestaurant v notNeedRestaurant.
+needRestaurant :- person(P), limit(L), &pathLongerThan[path, L, P]().
+notNeedRestaurant :- limit(L), not &pathLongerThan[path, L, 1](), not &pathLongerThan[path, L, 2]().
 
-% if we need to stop at a restaurant, then plan a tour which involves it
-location(P, R) :- chooseRestaurant(P, R).
+% meet at a restaurant only in this case
+:- needRestaurant, chooseMeeting(L), not restaurant(L).
+:- notNeedRestaurant, chooseMeeting(L), restaurant(L).
 
 
 
