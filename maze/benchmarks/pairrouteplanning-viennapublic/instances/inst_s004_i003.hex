@@ -1,21 +1,20 @@
 person(1).
-initlocation(1,"Zanggasse").
-initlocation(1,"Brückengasse").
-initlocation(1,"Landstraße-Wien Mitte").
-initlocation(1,"Nottendorfer Gasse").
-sequence(1,0, "Zanggasse").
+initlocation(1,"Daumegasse").
+initlocation(1,"Auhof").
+initlocation(1,"Martin-Luther-King-Park").
+initlocation(1,"Hütteldorf, Bujattigasse").
+sequence(1,0, "Daumegasse").
 person(2).
-initlocation(2,"Gloriettegasse").
-initlocation(2,"Rainergasse").
-initlocation(2,"Lobaugasse").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-sequence(2,0, "Gloriettegasse").
-possiblemeetinglocations("Maurer Berg").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("Süßenbrunner Straße").
-restaurants("Warneckestraße").
-restaurants("Donaumarina").
-restaurants("Strandbad Stadlau").
-restaurants("Wielandplatz").
+initlocation(2,"Leibenfrostgasse").
+initlocation(2,"Südwestfriedhof 8Tor").
+initlocation(2,"Schöffelplatz").
+initlocation(2,"Augasse").
+sequence(2,0, "Leibenfrostgasse").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Dumreichergasse").
+possiblemeetinglocations("Jubiläumswarte").
+possiblemeetinglocations("Lorenz-Böhler-Unfallkrankenh").
+restaurant("Schütthäufel").
+restaurant("Adolf-Unger-Gasse").
+restaurant("Margaretenstraße").
+restaurant("Stadlauer Friedhof").

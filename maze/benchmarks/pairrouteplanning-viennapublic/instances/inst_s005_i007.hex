@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Guntramsdorf Lokalbahn").
-initlocation(1,"Museumsquartier").
-initlocation(1,"Friedlgasse").
-initlocation(1,"Daphneweg").
-initlocation(1,"Liesing Friedhof").
-sequence(1,0, "Guntramsdorf Lokalbahn").
+initlocation(1,"Jahngasse").
+initlocation(1,"Dampfschiffhaufen").
+initlocation(1,"Ernst-Happel-Stadion").
+initlocation(1,"Mühlwasser").
+initlocation(1,"Landwehrstraße").
+sequence(1,0, "Jahngasse").
 person(2).
-initlocation(2,"Atzgersdorfer Straße").
-initlocation(2,"Jedlersdorfer Straße").
-initlocation(2,"Portnergasse").
-initlocation(2,"Flotowgasse").
-initlocation(2,"Häußlergasse").
-sequence(2,0, "Atzgersdorfer Straße").
-possiblemeetinglocations("Ultzmanngasse/Kirschenallee").
-possiblemeetinglocations("Herbeckstraße").
-possiblemeetinglocations("Süßenbr Str/Breitenleer Str").
-possiblemeetinglocations("Tandelmarktgasse").
-possiblemeetinglocations("Neubaugasse/Neustiftgasse").
-restaurants("Carminweg").
-restaurants("Liesing Friedhof").
-restaurants("Hadersdorfer Hauptstraße").
-restaurants("Haschafeld").
-restaurants("Birostraße").
+initlocation(2,"Oberer Reisenbergweg").
+initlocation(2,"Weidelstraße").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Fickeysstraße").
+sequence(2,0, "Oberer Reisenbergweg").
+possiblemeetinglocations("Linke Wienzeile/Brückengasse").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Schoeppelgasse").
+possiblemeetinglocations("Johanneskapelle").
+restaurant("Nordbrücke").
+restaurant("Sonnergasse").
+restaurant("Eßling Friedhof").
+restaurant("Flotowgasse").
+restaurant("Stallarngasse").

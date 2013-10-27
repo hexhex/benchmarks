@@ -9,5 +9,5 @@ done
 possiblemeetinglocations=$(echo "possiblemeetinglocations(Name) :- stop(ID, Type, Diva, Name, District, DistrictID, Lat, Lon, Date)." | dlvhex2 --silent --filter=possiblemeetinglocations stops.hex -- | sed 's/{//' | sed 's/,possiblemeetinglocations/.\npossiblemeetinglocations/g' | sed 's/}/./' | sort -R | head -n $1)
 echo $possiblemeetinglocations | sed 's/\. /\.\n/g'
 
-restaurants=$(echo "restaurants(Name) :- stop(ID, Type, Diva, Name, District, DistrictID, Lat, Lon, Date)." | dlvhex2 --silent --filter=restaurants stops.hex -- | sed 's/{//' | sed 's/,restaurants/.\nrestaurants/g' | sed 's/}/./' | sort -R | head -n $1)
+restaurants=$(echo "restaurant(Name) :- stop(ID, Type, Diva, Name, District, DistrictID, Lat, Lon, Date)." | dlvhex2 --silent --filter=restaurant stops.hex -- | sed 's/{//' | sed 's/,restaurant/.\nrestaurant/g' | sed 's/}/./' | sort -R | head -n $1)
 echo $restaurants | sed 's/\. /\.\n/g'

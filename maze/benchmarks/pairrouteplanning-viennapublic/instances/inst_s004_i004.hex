@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Lukschgasse").
-initlocation(1,"Max-Fleischer-Gasse").
-initlocation(1,"Pretschgasse").
-initlocation(1,"Verbindungsbahn").
-sequence(1,0, "Lukschgasse").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Franzosenweg").
+initlocation(1,"Oswald-Redlich-Straße").
+initlocation(1,"Percostraße").
+sequence(1,0, "Frättingsdorf Bahnhof").
 person(2).
-initlocation(2,"Redtenbachergasse").
-initlocation(2,"Vösendorf-Siebenhirten").
-initlocation(2,"Strebersdorf").
-initlocation(2,"Schottenring").
-sequence(2,0, "Redtenbachergasse").
-possiblemeetinglocations("Raffineriestr/Biberhaufenweg").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Simoningplatz").
-possiblemeetinglocations("Im Gestockert").
-restaurants("Kärntner Ring/Oper").
-restaurants("Adam-Betz-Gasse").
-restaurants("Hermann-Gebauer-Straße").
-restaurants("Gerasdorfer Str/Ruthnergasse").
+initlocation(2,"Ameisbachzeile").
+initlocation(2,"Forchheimergasse").
+initlocation(2,"Rothenburgstraße").
+initlocation(2,"Ludwig-Reindl-Gasse").
+sequence(2,0, "Ameisbachzeile").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Schrebergasse").
+possiblemeetinglocations("Zippererstraße").
+restaurant("Hütteldorfer Straße/Johnstraße").
+restaurant("Pötzleinsdorf").
+restaurant("Daumegasse").
+restaurant("Alsegger Straße").

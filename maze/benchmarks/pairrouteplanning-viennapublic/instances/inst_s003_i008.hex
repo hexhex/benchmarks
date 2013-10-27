@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Klosterneuburger Straße").
-initlocation(1,"Wilhelminenstraße/Wattgasse").
-initlocation(1,"Unter St Veit, Hummelgasse").
-sequence(1,0, "Klosterneuburger Straße").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Ultzmanngasse/Kirschenallee").
+sequence(1,0, "Ulrichskirchen Bahnhof").
 person(2).
-initlocation(2,"Kieslerweg").
-initlocation(2,"Lichtentaler Gasse").
-initlocation(2,"Rochusgasse").
-sequence(2,0, "Kieslerweg").
-possiblemeetinglocations("Ramperstorffergasse").
-possiblemeetinglocations("Marienbrücke").
-possiblemeetinglocations("Zanaschkagasse").
-restaurants("Margaretengürtel/Arbeitergasse").
-restaurants("Absberggasse").
-restaurants("Gusenleithnergasse").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Mannswörth Bahnhof").
+sequence(2,0, "Siebenhirten").
+possiblemeetinglocations("Hasnerstraße").
+possiblemeetinglocations("Molkereistraße").
+possiblemeetinglocations("Friedensbrücke").
+restaurant("Weidelstraße").
+restaurant("Niklas-Eslarn-Straße").
+restaurant("Königsklostergasse").

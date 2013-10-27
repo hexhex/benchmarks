@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Gasometer").
-initlocation(1,"Sechskrügelgasse").
-initlocation(1,"Ernst-Melchior-Gasse").
-sequence(1,0, "Gasometer").
+initlocation(1,"Bibernellweg").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Längenfeldgasse").
+sequence(1,0, "Bibernellweg").
 person(2).
-initlocation(2,"Unter Sankt Veit").
-initlocation(2,"Glockengasse").
-initlocation(2,"Kagraner Brücke").
-sequence(2,0, "Unter Sankt Veit").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Baumgasse").
-possiblemeetinglocations("Sillerplatz").
-restaurants("Obere Augartenstraße").
-restaurants("Pötzleinsdorf").
-restaurants("Lindenbauergasse").
+initlocation(2,"Mariahilfer Straße/Stiftgasse").
+initlocation(2,"Korbgasse").
+initlocation(2,"Sechshauser Gürtel").
+sequence(2,0, "Mariahilfer Straße/Stiftgasse").
+possiblemeetinglocations("Südportalstraße").
+possiblemeetinglocations("In der Au").
+possiblemeetinglocations("Wiedgasse").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Kolpingstraße").
+restaurant("Breitensee").

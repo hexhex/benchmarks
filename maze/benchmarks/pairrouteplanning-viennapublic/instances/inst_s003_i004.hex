@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Hörtengasse").
-initlocation(1,"Oberer Reisenbergweg").
-initlocation(1,"Widholzgasse").
-sequence(1,0, "Hörtengasse").
+initlocation(1,"Fabergasse").
+initlocation(1,"Kolpingstraße").
+initlocation(1,"Weidlingau Bahnhof").
+sequence(1,0, "Fabergasse").
 person(2).
-initlocation(2,"Mariahilfer Gürtel").
-initlocation(2,"Huflattichweg").
-initlocation(2,"Wiethestraße/Kirschenallee").
-sequence(2,0, "Mariahilfer Gürtel").
-possiblemeetinglocations("Artariastraße").
-possiblemeetinglocations("Rueppgasse").
-possiblemeetinglocations("Am Krautgarten").
-restaurants("Elisabethwiese").
-restaurants("Lavantgasse/Schule").
-restaurants("Agavenweg").
+initlocation(2,"Hetmanekgasse").
+initlocation(2,"Dammstraße").
+initlocation(2,"Am Krautgarten").
+sequence(2,0, "Hetmanekgasse").
+possiblemeetinglocations("Hollergasse").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Mehlführergasse").
+restaurant("Friedensgasse").
+restaurant("Schwanngasse").
+restaurant("Fuchsenzeile").

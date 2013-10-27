@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Bubergasse").
-initlocation(1,"Koppstraße/Thaliastraße").
-initlocation(1,"Brigittaplatz").
-sequence(1,0, "Bubergasse").
+initlocation(1,"Sindinggasse").
+initlocation(1,"Gredlerstraße").
+initlocation(1,"Baden Viadukt").
+sequence(1,0, "Sindinggasse").
 person(2).
-initlocation(2,"Geusaugasse").
-initlocation(2,"Huflattichweg").
-initlocation(2,"Jochbergengasse").
-sequence(2,0, "Geusaugasse").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Fasangasse").
-possiblemeetinglocations("Aignerstraße").
-restaurants("Elderschplatz").
-restaurants("Am Europlatz").
-restaurants("Eßling Friedhof").
+initlocation(2,"Gewerbepark Stadlau Süd").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Gänserndorf Bahnhof").
+sequence(2,0, "Gewerbepark Stadlau Süd").
+possiblemeetinglocations("Petrusgasse").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+restaurant("Alser Straße").
+restaurant("Bunsengasse").
+restaurant("Küniglberg/ORF-Zentrum").

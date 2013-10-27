@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Artillerieplatz").
-initlocation(1,"Lisztstraße").
-initlocation(1,"Wattmanngasse").
-initlocation(1,"Wr Neustadt Nord").
-sequence(1,0, "Artillerieplatz").
+initlocation(1,"Neustifter Friedhof 2Tor").
+initlocation(1,"Herbeckstraße").
+initlocation(1,"Gersthofer Str/Scheibenbergstr").
+initlocation(1,"Schwechat Plankenwehrstraße").
+sequence(1,0, "Neustifter Friedhof 2Tor").
 person(2).
-initlocation(2,"Rodaun").
-initlocation(2,"Stockholmer Platz").
-initlocation(2,"Tillmanngasse").
-initlocation(2,"Waldgasse").
-sequence(2,0, "Rodaun").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Herzmanskystraße").
-possiblemeetinglocations("Schüttelstraße").
-possiblemeetinglocations("Stammhausstraße").
-restaurants("Maria Anzbach Bahnhof").
-restaurants("Amtshaus Muthgasse").
-restaurants("Karl-Bednarik-Gasse").
-restaurants("Urselbrunnengasse").
+initlocation(2,"Haspingerplatz").
+initlocation(2,"Friedensgasse").
+initlocation(2,"Gaßmannstraße").
+initlocation(2,"Slamastraße").
+sequence(2,0, "Haspingerplatz").
+possiblemeetinglocations("Henriettenplatz").
+possiblemeetinglocations("Gadnergasse/Hasenleitengasse").
+possiblemeetinglocations("Schillwasserweg").
+possiblemeetinglocations("Taglieberstraße").
+restaurant("Sahulkastraße").
+restaurant("Kieslerweg").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Tiefer Graben").

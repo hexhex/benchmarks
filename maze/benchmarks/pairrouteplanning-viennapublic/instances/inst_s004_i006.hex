@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Kammerergasse").
-initlocation(1,"Hetzendorfer Straße").
-initlocation(1,"Weihburggasse").
-initlocation(1,"Franzosenweg").
-sequence(1,0, "Kammerergasse").
+initlocation(1,"Marschallplatz").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+initlocation(1,"Stockholmer Platz").
+sequence(1,0, "Marschallplatz").
 person(2).
-initlocation(2,"Wulzendorfstraße").
-initlocation(2,"Weißenböckstraße").
-initlocation(2,"Frauengasse").
-initlocation(2,"Campingplatzweg").
-sequence(2,0, "Wulzendorfstraße").
-possiblemeetinglocations("Lainz, Wolkersbergenstraße").
-possiblemeetinglocations("Ludwig-Koeßler-Platz").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Jägerwaldsiedlung").
-restaurants("Döblinger Friedhof").
-restaurants("Friedjunggasse").
-restaurants("Seybelgasse").
-restaurants("Schwenkgasse").
+initlocation(2,"Flotowgasse").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Hetmanekgasse").
+initlocation(2,"Hopfengasse").
+sequence(2,0, "Flotowgasse").
+possiblemeetinglocations("Leopold-Moses-Gasse").
+possiblemeetinglocations("Löschniggasse").
+possiblemeetinglocations("Eichbachgasse").
+possiblemeetinglocations("Brigittaplatz").
+restaurant("Arsenal Objekt 5").
+restaurant("Laxenburger Str/Heizwerkstr").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Neusteinhof").

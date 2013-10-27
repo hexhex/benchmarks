@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Lainz, Wolkersbergenstraße").
-initlocation(1,"Eitnergasse").
-initlocation(1,"Baden Bahnhof").
-sequence(1,0, "Lainz, Wolkersbergenstraße").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Thaliastraße/Haberlgasse").
+initlocation(1,"Kellermanngasse").
+sequence(1,0, "Rochusgasse").
 person(2).
-initlocation(2,"Radetzkyplatz").
-initlocation(2,"Sieveringer Straße").
-initlocation(2,"Giefinggasse").
-sequence(2,0, "Radetzkyplatz").
-possiblemeetinglocations("Dattlergasse").
-possiblemeetinglocations("Laimgrubengasse").
-possiblemeetinglocations("Marx-Meidlinger-Straße").
-restaurants("Gattergasse").
-restaurants("Gewerbepark Kagran").
-restaurants("Hasnerstraße").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Pensionsversicherungsanstalt").
+initlocation(2,"Fuchsenzeile").
+sequence(2,0, "Mariahilfer Gürtel").
+possiblemeetinglocations("Berresgasse").
+possiblemeetinglocations("Kappgasse").
+possiblemeetinglocations("Dietmayrgasse").
+restaurant("Lobau").
+restaurant("Landesgerichtsstraße").
+restaurant("Eibesbrunnergasse").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Orchisgasse").
-initlocation(1,"Mühlwasser").
-initlocation(1,"Stadlauer Straße/Ostbahn").
-initlocation(1,"Königsklostergasse").
-sequence(1,0, "Orchisgasse").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Petrusgasse").
+initlocation(1,"Stallarngasse").
+initlocation(1,"Höchstädtplatz").
+sequence(1,0, "Schmerlingplatz").
 person(2).
-initlocation(2,"Johannes-von-Gott-Platz").
-initlocation(2,"Braillegasse").
-initlocation(2,"Naufahrtbrücke").
-initlocation(2,"Prater, Hauptallee").
-sequence(2,0, "Johannes-von-Gott-Platz").
-possiblemeetinglocations("Luzegasse").
-possiblemeetinglocations("Rasumofskygasse").
-possiblemeetinglocations("Afritschgasse").
-possiblemeetinglocations("Eckpergasse").
-restaurants("Esterhazygasse").
-restaurants("Kerbelgasse").
-restaurants("Bahnsteggasse").
-restaurants("Süßenbrunner Straße").
+initlocation(2,"Engerthstraße/Traisengasse").
+initlocation(2,"Obere Waldandacht").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Vivariumstraße").
+sequence(2,0, "Engerthstraße/Traisengasse").
+possiblemeetinglocations("Häußlergasse").
+possiblemeetinglocations("Schippergasse").
+possiblemeetinglocations("Rodlergasse").
+possiblemeetinglocations("Kornblumenweg").
+restaurant("Schillwasserweg").
+restaurant("Hans-Mandl-Berufsschule").
+restaurant("Wagenwiese").
+restaurant("Saarplatz").
