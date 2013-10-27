@@ -1,4 +1,4 @@
-#maxint=350.
+#maxint=500.
 
 location(P, X) :- initlocation(P, X).
 
@@ -26,15 +26,30 @@ path(P, X, Y, C, Type) :- person(P), pathTmp(P, L1, L2, X, Y, C, Type).
 pathExists(P, L1, L2) :- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2), NrNext = Nr + 1, pathTmp(P, L1, L2, X, Y, C, Type).
 :- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2), NrNext = Nr + 1, not pathExists(P, L1, L2).
 
-% extract the subroute from the start node to the meeting point
-%pathToMeetingTmp(P, S, G) :- person(P), pathTmp(P, S, G, X, Y, C, Type), chooseMeeting(G).
-%pathToMeetingTmp(P, T, S) :- person(P), pathTmp(P, T, S, X, Y, C, Type), pathToMeetingTmp(P, S, G).
-%pathToMeeting(P, X, Y, C) :- person(P), pathToGasTmp(P, L1, L2), pathTmp(P, L1, L2, X, Y, C, Type).
 
-% if we need fuel, then the path from the start node to the gas station must not be longer than our limit
-%:- limit(L), &pathLongerThan[pathToMeeting, L]().
 
-%len(Len) :- &pathLength[path, 1](Len).
+
+% if the tour is longer than our limit, then we want to stop at a restaurant
+limit(P, 300) :- person(P).
+%limit(1, 100).
+%limit(2, 400).
+needRestaurant(P) v notNeedRestaurant(P) :- person(P).
+needRestaurant(P) :- person(P), limit(P, L), &pathLongerThan[path, L, P]().
+notNeedRestaurant(P) :- person(P), limit(P, L), not &pathLongerThan[path, L, P]().
+
+% if we stop at a restaurant we choose one
+chooseRestaurant(P, R) v nchooseRestaurant(P, R) :- needRestaurant(P), restaurant(R).
+:- needRestaurant(P), chooseRestaurant(P,R1), chooseRestaurant(P,R2), R1 != R2.
+chosen(P) :- needRestaurant(P), chooseRestaurant(P, R).
+:- needRestaurant(P), not chosen(P).
+
+% if we need to stop at a restaurant, then plan a tour which involves it
+location(P, R) :- chooseRestaurant(P, R).
+
+
+
+
+
 
 orderedpathTmp(1, 0, L1, L2, X, Y, C, Type) :- person(P), sequence(1, 0, X), pathTmp(1, L1, L2, X, Y, C, Type).
 orderedpathTmp(1, S, L1, L2, Y, Z, C2, Type2) :- person(1), orderedpathTmp(1, P, L1, L2, X, Y, C, Type), pathTmp(1, L1, L2, Y, Z, C2, Type2), S = P + 1, #int(S), &pathLength[path, 1](Len), S <= Len.

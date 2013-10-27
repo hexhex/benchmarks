@@ -35,13 +35,13 @@ needRestaurant :- limit(L), &pathLongerThan[path, L]().
 notNeedRestaurant :- limit(L), not &pathLongerThan[path, L]().
 
 % if we stop at a restaurant we choose one
-chooseRestaurant(G) v nchooseRestaurant(G) :- needRestaurant, restaurant(G).
-:- needRestaurant, chooseRestaurant(G1), chooseRestaurant(G2), G1 != G2.
-chosen :- needRestaurant, chooseRestaurant(G).
+chooseRestaurant(R) v nchooseRestaurant(R) :- needRestaurant, restaurant(R).
+:- needRestaurant, chooseRestaurant(R1), chooseRestaurant(R2), R1 != R2.
+chosen :- needRestaurant, chooseRestaurant(R).
 :- needRestaurant, not chosen.
 
 % if we need to stop at a restaurant, then plan a tour which involves it
-location(G) :- needRestaurant, chooseRestaurant(G).
+location(R) :- needRestaurant, chooseRestaurant(R).
 
 % plan the tour (with or without restaurant)
 pathTmp(L1, L2, X, Y, C, Type) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, &path["vienna-publictransport2.hex", edgeline, L1, L2](X, Y, C, Type), edgeline(X, Y, C, Type).
@@ -50,8 +50,8 @@ pathExists(L1, L2) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, p
 :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, not pathExists(L1, L2).
 
 % extract the subroute from the start node to the restaurant
-pathToRestaurantTmp(S, G) :- pathTmp(S, G, X, Y, C, Type), chooseRestaurant(G).
-pathToRestaurantTmp(T, S) :- pathTmp(T, S, X, Y, C, Type), pathToRestaurantTmp(S, G).
+pathToRestaurantTmp(S, R) :- pathTmp(S, R, X, Y, C, Type), chooseRestaurant(R).
+pathToRestaurantTmp(T, S) :- pathTmp(T, S, X, Y, C, Type), pathToRestaurantTmp(S, R).
 pathToRestaurant(X, Y, C) :- pathToRestaurantTmp(L1, L2), pathTmp(L1, L2, X, Y, C, Type).
 
 % if we go for lunch, then the path from the start node to the restaurant must not be longer than our limit
