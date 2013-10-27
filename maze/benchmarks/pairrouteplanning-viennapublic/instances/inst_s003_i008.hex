@@ -1,13 +1,16 @@
 person(1).
-initlocation(1,"Kappgasse").
-initlocation(1,"Vösendorf-Siebenhirten").
-initlocation(1,"Elterleinplatz").
-sequence(1,0, "Kappgasse").
+initlocation(1,"Klosterneuburger Straße").
+initlocation(1,"Wilhelminenstraße/Wattgasse").
+initlocation(1,"Unter St Veit, Hummelgasse").
+sequence(1,0, "Klosterneuburger Straße").
 person(2).
-initlocation(2,"Wolkersdorf Bahnhof").
-initlocation(2,"Korbergasse").
-initlocation(2,"An den alten Schanzen").
-sequence(2,0, "Wolkersdorf Bahnhof").
-possiblemeetinglocations("Aichholzgasse/Ratschkygasse").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Breitensee").
+initlocation(2,"Kieslerweg").
+initlocation(2,"Lichtentaler Gasse").
+initlocation(2,"Rochusgasse").
+sequence(2,0, "Kieslerweg").
+possiblemeetinglocations("Ramperstorffergasse").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Zanaschkagasse").
+restaurants("Margaretengürtel/Arbeitergasse").
+restaurants("Absberggasse").
+restaurants("Gusenleithnergasse").

@@ -1,19 +1,24 @@
 person(1).
-initlocation(1,"Sitzenberg-Reidling Bahnhof").
-initlocation(1,"Englisch-Feld-Gasse").
-initlocation(1,"Feuerwache Grinzing").
-initlocation(1,"Arminenstraße").
-initlocation(1,"Holbeingasse").
-sequence(1,0, "Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Heinrich-Drimmel-Platz").
+initlocation(1,"Pfenninggeldgasse").
+initlocation(1,"Sevcikgasse").
+initlocation(1,"Freiheitsplatz").
+initlocation(1,"Haidersberggasse").
+sequence(1,0, "Heinrich-Drimmel-Platz").
 person(2).
-initlocation(2,"Kurzbauergasse").
-initlocation(2,"Arnikaweg/Breitenleer Straße").
-initlocation(2,"Zouvalgasse").
-initlocation(2,"Schöpfwerk").
-initlocation(2,"Greinzgasse").
-sequence(2,0, "Kurzbauergasse").
-possiblemeetinglocations("Van-Swieten-Kaserne").
-possiblemeetinglocations("Hildebrandgasse").
-possiblemeetinglocations("Campingplatz Wien-Süd").
-possiblemeetinglocations("Schöffelgasse").
-possiblemeetinglocations("Guntramsdorf-Thallern").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Knotzenbachgasse").
+initlocation(2,"Rautenweg/Hermann-Gebauer-Str").
+initlocation(2,"Sommarugagasse").
+sequence(2,0, "Aspern Nord").
+possiblemeetinglocations("Theodor-Kramer-Straße").
+possiblemeetinglocations("Steinhagegasse").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("An der Niederhaid").
+possiblemeetinglocations("Vinzenzgasse").
+restaurants("Gärtnerstraße").
+restaurants("Unter Kritzendorf Bahnhof").
+restaurants("Neuwaldegg").
+restaurants("Griegstraße").
+restaurants("Glockengasse").

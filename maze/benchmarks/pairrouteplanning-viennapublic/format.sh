@@ -5,6 +5,7 @@ do
 	echo -e "$persons" | while read person
 	do
 		echo "Route for person $person"
-		echo -e "$out" | grep "^$person" | sed "s/$person,//" | sort -n | sed 's/[0-9]*,//' | sed 's/\"//g' | sed 's/\([^,]*\),\([^,]*\),\([^,]*\),change/[\3] Change from \1 to \2/' | sed 's/\([^,]*\),\([^,]*\),\([^,]*\),\([^,]*\)/[\3] Go \1 ---> \2 by \4/'
+		# sed 's/\(\w\),\([[:space:]]\)/\1\2/g'
+		echo -e "$out" | grep "^$person" | sed "s/$person,//" | sed 's/, / /g' | sort -n | sed 's/[0-9]*,\"//' | sed 's/\"//g' | sed 's/\([^,]*\),\([^,]*\),\([^,]*\),change/[\3] Change from \1 to \2/' | sed 's/\([^,]*\),\([^,]*\),\([^,]*\),\([^,]*\)/[\3] Go \1 ---> \2 by \4/'
 	done
 done

@@ -1,19 +1,24 @@
 person(1).
-initlocation(1,"Weinhauser Gasse").
-initlocation(1,"Frättingsdorf Bahnhof").
-initlocation(1,"Elisabethwiese").
-initlocation(1,"Eßling Schule").
-initlocation(1,"Triester Straße/Computerstraße").
-sequence(1,0, "Weinhauser Gasse").
+initlocation(1,"Pensionsversicherungsanstalt").
+initlocation(1,"Gatterburggasse").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Trappweg").
+initlocation(1,"Gutheil-Schoder-Gasse").
+sequence(1,0, "Pensionsversicherungsanstalt").
 person(2).
-initlocation(2,"Stockholmer Platz").
-initlocation(2,"Arztgasse").
-initlocation(2,"Langobardenstraße").
-initlocation(2,"Atzenbrugg Bahnhof").
-initlocation(2,"Stadlau").
-sequence(2,0, "Stockholmer Platz").
-possiblemeetinglocations("Benatzkygasse").
-possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Schuhmeierplatz").
-possiblemeetinglocations("Kaiserebersdorf").
+initlocation(2,"Anzengruberstraße").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Lichtentaler Gasse").
+initlocation(2,"Spittelau").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(2,0, "Anzengruberstraße").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Matschgasse").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Podlahagasse").
+possiblemeetinglocations("Rampengasse").
+restaurants("Kohlgasse").
+restaurants("Simmering/Kaiserebersd Str").
+restaurants("Anzengruberstraße").
+restaurants("Oberlaaer Platz").
+restaurants("Koloniestraße").

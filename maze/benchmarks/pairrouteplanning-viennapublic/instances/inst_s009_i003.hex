@@ -1,31 +1,40 @@
 person(1).
-initlocation(1,"Ernst-Happel-Stadion").
-initlocation(1,"Donaustadtstraße").
-initlocation(1,"Wendstattgasse").
-initlocation(1,"Gutheil-Schoder-Gasse").
-initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
-initlocation(1,"Krieau").
-initlocation(1,"Graffgasse").
-initlocation(1,"Lichtentaler Gasse").
-initlocation(1,"Knödelhüttenstraße").
-sequence(1,0, "Ernst-Happel-Stadion").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Schlachthammerstraße").
+initlocation(1,"Josef-Ressel-Straße").
+initlocation(1,"Wienerfeld").
+initlocation(1,"Sievering").
+initlocation(1,"Gewerbepark Stadlau Süd").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Hirschengasse").
+initlocation(1,"Schwertgasse").
+sequence(1,0, "Tulln Bahnhof").
 person(2).
-initlocation(2,"Waidäckergasse").
-initlocation(2,"Laxenburger Straße/Troststraße").
-initlocation(2,"Florian-Geyer-Gasse").
-initlocation(2,"Stockerau Bahnhof").
-initlocation(2,"Rosenhügelstraße").
-initlocation(2,"Moschingergasse").
-initlocation(2,"Kohlgasse").
-initlocation(2,"Berggasse").
-initlocation(2,"Binsenweg").
-sequence(2,0, "Waidäckergasse").
-possiblemeetinglocations("Seiseneggergasse").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Zouvalgasse").
-possiblemeetinglocations("Goldhammergasse").
-possiblemeetinglocations("Am Bahnhof").
-possiblemeetinglocations("Schüttaustraße").
-possiblemeetinglocations("Isbarygasse").
-possiblemeetinglocations("Gatterhölzl").
-possiblemeetinglocations("Kainachgasse").
+initlocation(2,"Jägermaiszufahrt").
+initlocation(2,"Mühlwasserstraße").
+initlocation(2,"Wolfgang-Pauli-Gasse").
+initlocation(2,"Schwertgasse").
+initlocation(2,"Inzersdorfer Str/Ettenreichg").
+initlocation(2,"Zschokkegasse").
+initlocation(2,"Kammerergasse").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Döblerhofstraße").
+sequence(2,0, "Jägermaiszufahrt").
+possiblemeetinglocations("Gregor-Mendel-Straße").
+possiblemeetinglocations("Valentingasse").
+possiblemeetinglocations("Am Rosenhügel").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Jägerwaldsiedlung").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Hauptwerkstätte").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+restaurants("Untertullnerbach Bahnhof").
+restaurants("Ebreichsdorf Bahnhof").
+restaurants("Wagramer Straße/Ostbahn").
+restaurants("Pellmanngasse").
+restaurants("Albert-Schweitzer-Gasse").
+restaurants("Triester Straße/Computerstraße").
+restaurants("Agrarweg").
+restaurants("Gredlerstraße").
+restaurants("Südwestfriedhof 2Tor").

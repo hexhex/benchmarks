@@ -1,16 +1,20 @@
 person(1).
-initlocation(1,"Nestroyplatz").
-initlocation(1,"Oberzellergasse").
-initlocation(1,"Mühlsangergasse").
-initlocation(1,"Krausegasse").
-sequence(1,0, "Nestroyplatz").
+initlocation(1,"Kapellergasse").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+sequence(1,0, "Kapellergasse").
 person(2).
-initlocation(2,"Spittelbreitengasse").
-initlocation(2,"Korngoldgasse").
-initlocation(2,"Penzinger Straße").
-initlocation(2,"Wagner-Schönkirch-Gasse").
-sequence(2,0, "Spittelbreitengasse").
-possiblemeetinglocations("Wagner-Schönkirch-Gasse").
-possiblemeetinglocations("Graf-Seilern-Gasse").
-possiblemeetinglocations("Jägerwaldsiedlung").
-possiblemeetinglocations("Siebeneichengasse").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Ruthnergasse").
+initlocation(2,"Neulandschule").
+initlocation(2,"Erndtgasse").
+sequence(2,0, "Zellerndorf Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Boschstraße/Halteraugasse").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Bischofgasse").
+restaurants("Rathaus").
+restaurants("Argentinierstraße").
+restaurants("Stadlauer Brücke").
+restaurants("Zieglergasse/Neustiftgasse").

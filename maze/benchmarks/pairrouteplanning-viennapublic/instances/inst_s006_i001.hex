@@ -1,22 +1,28 @@
 person(1).
-initlocation(1,"Erndtgasse").
-initlocation(1,"Schlachthammerstraße").
-initlocation(1,"Attemsgasse").
-initlocation(1,"Campingplatz Wien-West 2").
-initlocation(1,"Blechturmgasse").
-initlocation(1,"Leopoldau/Möllplatz").
-sequence(1,0, "Erndtgasse").
+initlocation(1,"Herziggasse").
+initlocation(1,"Aspern, Oberdorfstraße").
+initlocation(1,"Vösendorf-Siebenhirten").
+initlocation(1,"Teichgasse").
+initlocation(1,"Wolfganggasse").
+initlocation(1,"Portnergasse").
+sequence(1,0, "Herziggasse").
 person(2).
-initlocation(2,"Winkeläckerstraße").
-initlocation(2,"Inzersd Str/Bernhardtstalgasse").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Schloss Neugebäude").
-initlocation(2,"Spitalgasse/Währinger Straße").
-initlocation(2,"Praterbrücke").
-sequence(2,0, "Winkeläckerstraße").
-possiblemeetinglocations("Pfarrgasse").
-possiblemeetinglocations("Gußriegelstraße").
-possiblemeetinglocations("Gatterburggasse").
-possiblemeetinglocations("An der Bien").
-possiblemeetinglocations("Wulzendorfstraße").
-possiblemeetinglocations("Campingplatz Wien-West 2").
+initlocation(2,"Liesing Bad").
+initlocation(2,"Stavangergasse").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+initlocation(2,"Engerthstraße/Innstraße").
+initlocation(2,"Guntramsdorf-Thallern").
+sequence(2,0, "Liesing Bad").
+possiblemeetinglocations("Franz-Josef-Spital").
+possiblemeetinglocations("Pretschgasse").
+possiblemeetinglocations("Hänischgasse").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Bahnhofstraße").
+possiblemeetinglocations("Kerbelgasse").
+restaurants("Badeteich Hirschstetten").
+restaurants("Spargelfeldstraße/Rautenweg").
+restaurants("Morelligasse").
+restaurants("Waidhausenstraße").
+restaurants("Am Rosenhügel").
+restaurants("Twarochgasse").

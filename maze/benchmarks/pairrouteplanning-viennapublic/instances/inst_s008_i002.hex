@@ -1,28 +1,36 @@
 person(1).
-initlocation(1,"Deutschordenstraße").
-initlocation(1,"Bösendorferstraße").
-initlocation(1,"Langobardenstraße").
-initlocation(1,"Brandstätte").
-initlocation(1,"Wulzendorfstraße").
-initlocation(1,"Asparagusweg").
-initlocation(1,"Siedlung Sonnheim").
-initlocation(1,"Linzer Straße/Lützowgasse").
-sequence(1,0, "Deutschordenstraße").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Breitenfurter St/Altmannsd Str").
+initlocation(1,"Fuchsienweg").
+initlocation(1,"Inzersdorf Friedhof").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Marenabrücke").
+initlocation(1,"Leidlweg").
+initlocation(1,"Winkeläckerstraße").
+sequence(1,0, "Ameisgasse").
 person(2).
-initlocation(2,"Erndtgasse").
-initlocation(2,"Pantucekgasse/Widholzgasse").
-initlocation(2,"Tesarekplatz").
-initlocation(2,"Inzersdorf, Zetschegasse").
-initlocation(2,"Am Himmelreich").
-initlocation(2,"Rebhanngasse").
-initlocation(2,"Schöffelgasse").
-initlocation(2,"Plößlgasse").
-sequence(2,0, "Erndtgasse").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Anton-Schall-Gasse").
-possiblemeetinglocations("Traviatagasse").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Koppstraße/Panikengasse").
-possiblemeetinglocations("Ulmenstraße").
+initlocation(2,"Leopoldau").
+initlocation(2,"Orchisgasse").
+initlocation(2,"Sternwartestraße").
+initlocation(2,"Am Europlatz").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Alte Donau").
+initlocation(2,"Vösendorf-SCS").
+initlocation(2,"Tullnerfeld Bahnhof").
+sequence(2,0, "Leopoldau").
+possiblemeetinglocations("Triester Str/Altdorferstraße").
+possiblemeetinglocations("Willergasse/Schule").
+possiblemeetinglocations("Evangelischer Friedhof").
+possiblemeetinglocations("Vivariumstraße").
+possiblemeetinglocations("Kahlergasse").
+possiblemeetinglocations("Sechshauser Gürtel").
+possiblemeetinglocations("Zschokkegasse").
+possiblemeetinglocations("Hetmanekgasse").
+restaurants("Absdorf-Hippersdorf Bahnhof").
+restaurants("Enzersdorf bei Staatz Bahnhof").
+restaurants("Cobenzl Parkplatz").
+restaurants("Rodaun").
+restaurants("Rainergasse").
+restaurants("Langenlebarn Bahnhof").
+restaurants("Khevenhüllerstraße").
+restaurants("Brünnlbadgasse").

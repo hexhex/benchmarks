@@ -1,19 +1,24 @@
 person(1).
-initlocation(1,"Seidelbastgasse").
-initlocation(1,"Sahulkastraße").
-initlocation(1,"Lechnerstraße").
-initlocation(1,"Mitterhofergasse").
-initlocation(1,"Bad Vöslau Bahnhof").
-sequence(1,0, "Seidelbastgasse").
+initlocation(1,"Dahliengasse").
+initlocation(1,"Ettenreichgasse/Schulzentrum").
+initlocation(1,"Reglergasse").
+initlocation(1,"Kirchfeldgasse").
+initlocation(1,"Landesgerichtsstraße").
+sequence(1,0, "Dahliengasse").
 person(2).
-initlocation(2,"Richard-Tauber-Gasse").
-initlocation(2,"Marchfeldkanal").
-initlocation(2,"Johanneskapelle").
-initlocation(2,"Freiheitsplatz").
-initlocation(2,"Ultzmanngasse/Kirschenallee").
-sequence(2,0, "Richard-Tauber-Gasse").
-possiblemeetinglocations("Mayerweckstraße").
-possiblemeetinglocations("Schottenwald").
-possiblemeetinglocations("Flötzersteig").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Theater in der Josefstadt").
+initlocation(2,"Daumegasse").
+initlocation(2,"Obere Waldandacht").
+initlocation(2,"Allerheiligengasse").
+initlocation(2,"Hans-Mandl-Berufsschule").
+initlocation(2,"Hillerstraße").
+sequence(2,0, "Daumegasse").
+possiblemeetinglocations("Beschußamt").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Jüptnergasse").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Hederichgasse").
+restaurants("Obere Waldandacht").
+restaurants("Münchendorf Bahnhof").
+restaurants("Gunoldstraße").
+restaurants("Hauptbahnhof Ost").
+restaurants("Breitenfurter Str/Liesingbr").

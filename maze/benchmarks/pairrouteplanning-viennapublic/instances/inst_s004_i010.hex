@@ -1,16 +1,20 @@
 person(1).
-initlocation(1,"Stefan-Fadinger-Platz").
-initlocation(1,"Erzherzog-Karl-Straße").
-initlocation(1,"Krottenbachstraße").
-initlocation(1,"Percostraße/Wagramer Straße").
-sequence(1,0, "Stefan-Fadinger-Platz").
+initlocation(1,"Valiergasse").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Löschniggasse").
+initlocation(1,"Breitenlee, Rautenweg").
+sequence(1,0, "Valiergasse").
 person(2).
-initlocation(2,"Dückegasse").
-initlocation(2,"Rekawinkel Bahnhof").
-initlocation(2,"Breitenlee Friedhof").
-initlocation(2,"Quellenplatz").
-sequence(2,0, "Dückegasse").
-possiblemeetinglocations("Valiergasse").
-possiblemeetinglocations("Helferstorferstraße").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Viehofen Bahnhof").
+initlocation(2,"Korbergasse").
+initlocation(2,"Kagraner Friedhof").
+initlocation(2,"Steinhagegasse").
+initlocation(2,"Quartier Belvedere").
+sequence(2,0, "Korbergasse").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Mayerweckstraße").
+restaurants("Schmelzbrücke").
+restaurants("Spittelau").
+restaurants("Scalagasse").
+restaurants("Jakob-Bindel-Platz").

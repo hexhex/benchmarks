@@ -1,25 +1,32 @@
 person(1).
-initlocation(1,"Strozzigasse").
-initlocation(1,"Engerthstraße/Traisengasse").
-initlocation(1,"Edelsteingasse").
-initlocation(1,"Hardtgasse").
-initlocation(1,"Hohenbergstraße").
-initlocation(1,"Sonnergasse").
-initlocation(1,"Gloriettegasse").
-sequence(1,0, "Strozzigasse").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Graben/Petersplatz").
+initlocation(1,"Hausfeldstr/Ostbahnbegleitstr").
+initlocation(1,"Schipanygasse").
+initlocation(1,"Piaristengasse").
+initlocation(1,"Perntergasse").
+initlocation(1,"Alberner Hafen").
+sequence(1,0, "Höflein an der Donau Bahnhof").
 person(2).
-initlocation(2,"Neulandschule").
-initlocation(2,"Linneplatz").
-initlocation(2,"Valiergasse").
-initlocation(2,"St Pölten Hauptbahnhof").
-initlocation(2,"Baden Josefsplatz").
-initlocation(2,"Ziehrerplatz").
-initlocation(2,"Otto-Weber-Gasse").
-sequence(2,0, "Neulandschule").
-possiblemeetinglocations("Thaliastraße/Maroltingergasse").
-possiblemeetinglocations("Lichtblaustraße").
-possiblemeetinglocations("An der Bien").
-possiblemeetinglocations("Schipanygasse").
-possiblemeetinglocations("Triester Straße/Rossakgasse").
-possiblemeetinglocations("Percostraße").
-possiblemeetinglocations("Barawitzkagasse").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Margaretenstraße").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Albertgasse").
+initlocation(2,"Laxenburger Str/Heizwerkstr").
+initlocation(2,"Jedlersdorfer Str/Hanreiterg").
+initlocation(2,"Kranzgasse").
+sequence(2,0, "Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Kugelmanngasse").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Auspitzgasse").
+possiblemeetinglocations("Gernotgasse").
+possiblemeetinglocations("Breitenleer Str/Ziegelhofstr").
+restaurants("Unter Kritzendorf Bahnhof").
+restaurants("Eipeldauer Str/A-Sattler-Gasse").
+restaurants("Schillwasserweg").
+restaurants("Hofstatt Bahnhof").
+restaurants("Niedermoserstraße").
+restaurants("Neustifter Friedhof 2Tor").
+restaurants("Marienbrücke").

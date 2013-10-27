@@ -1,13 +1,16 @@
 person(1).
-initlocation(1,"Kreilplatz").
-initlocation(1,"Richard-Strauss-Straße").
-initlocation(1,"Kundmanngasse").
-sequence(1,0, "Kreilplatz").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Stavangergasse").
+initlocation(1,"Illgasse").
+sequence(1,0, "Wr Neustadt Nord").
 person(2).
-initlocation(2,"Lukschgasse").
-initlocation(2,"Fickeysstraße").
-initlocation(2,"Maculangasse").
-sequence(2,0, "Lukschgasse").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Hofwiesengasse").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Breitenft Str/Hetzendorfer Str").
+initlocation(2,"Van-Swieten-Kaserne").
+sequence(2,0, "Dresdner Straße").
+possiblemeetinglocations("Kainachgasse").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Guntherstraße").
+restaurants("Breitenlee Schule").
+restaurants("Atzenbrugg Bahnhof").
+restaurants("Badgasse").

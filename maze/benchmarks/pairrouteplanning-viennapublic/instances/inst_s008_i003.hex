@@ -1,28 +1,36 @@
 person(1).
-initlocation(1,"Hetzgasse").
-initlocation(1,"Glockengasse").
-initlocation(1,"Sevcikgasse").
-initlocation(1,"Laimgrubengasse").
-initlocation(1,"Linzer Straße/Johnstraße").
-initlocation(1,"Tribuswinkel-Josefsthal Bf").
-initlocation(1,"Mooslackengasse").
-initlocation(1,"Guntramsdorf-Thallern").
-sequence(1,0, "Hetzgasse").
+initlocation(1,"Cottagegasse").
+initlocation(1,"Sechshauser Gürtel").
+initlocation(1,"Wachthausgasse").
+initlocation(1,"Schüttauplatz").
+initlocation(1,"Dostgasse").
+initlocation(1,"Greinzgasse").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Hämmerlegasse").
+sequence(1,0, "Cottagegasse").
 person(2).
-initlocation(2,"Liesinger-Flur-Gasse").
-initlocation(2,"Hardtgasse").
-initlocation(2,"Enzersdorf bei Staatz Bahnhof").
-initlocation(2,"Hintere Zollamtsstraße").
-initlocation(2,"Weinheimergasse").
-initlocation(2,"Zellerndorf Bahnhof").
-initlocation(2,"Laa an der Thaya Bahnhof").
-initlocation(2,"Fernsprechamt Heiligenstadt").
-sequence(2,0, "Liesinger-Flur-Gasse").
-possiblemeetinglocations("Praterbrücke").
-possiblemeetinglocations("Gymnasiumstraße").
-possiblemeetinglocations("Hugo-Wolf-Park").
-possiblemeetinglocations("Haspelmeistergasse").
-possiblemeetinglocations("Rosenbergstraße").
-possiblemeetinglocations("Ginsterweg").
-possiblemeetinglocations("Klebindergraben").
-possiblemeetinglocations("Twarochgasse").
+initlocation(2,"Anton-Stilling-Platz").
+initlocation(2,"Südrandstraße/Heizwerkstraße").
+initlocation(2,"Wiethestraße").
+initlocation(2,"Wilhelm-Kreß-Platz").
+initlocation(2,"Antonsplatz").
+initlocation(2,"Seiseneggergasse").
+initlocation(2,"Sauerburggasse").
+initlocation(2,"Henckellgasse").
+sequence(2,0, "Anton-Stilling-Platz").
+possiblemeetinglocations("Sternwartestraße").
+possiblemeetinglocations("Henckellgasse").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Schöffelplatz").
+possiblemeetinglocations("Stallarngasse").
+possiblemeetinglocations("Wienerfeld").
+possiblemeetinglocations("Hackinger Straße").
+possiblemeetinglocations("Michelhausen Bahnhof").
+restaurants("Wattmanngasse/Elisabethallee").
+restaurants("Nemethgasse").
+restaurants("Spengergasse").
+restaurants("Linke Wienzeile/Brückengasse").
+restaurants("Molkereistraße").
+restaurants("Gewerbepark Stadlau Mitte").
+restaurants("Burgenlandgasse").
+restaurants("Hüttelberg").

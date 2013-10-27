@@ -1,16 +1,20 @@
 person(1).
-initlocation(1,"Richard-Tauber-Gasse").
-initlocation(1,"Koloniestraße").
-initlocation(1,"Gruschaplatz").
-initlocation(1,"Elsbeergasse").
-sequence(1,0, "Richard-Tauber-Gasse").
+initlocation(1,"Satzingerweg").
+initlocation(1,"Dreherstraße/Hoefftgasse").
+initlocation(1,"Rotenturmstraße").
+initlocation(1,"Kohlgasse").
+sequence(1,0, "Satzingerweg").
 person(2).
-initlocation(2,"Theodor-Kramer-Straße").
-initlocation(2,"Salzgries").
-initlocation(2,"Weidlingau Bahnhof").
-initlocation(2,"Bärenmühldurchgang").
-sequence(2,0, "Theodor-Kramer-Straße").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Spinnerin am Kreuz").
-possiblemeetinglocations("Am Himmelreich").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
+initlocation(2,"Siedlung Blumental").
+initlocation(2,"Thonetgasse").
+initlocation(2,"Johann-Friedl-Gasse").
+initlocation(2,"Czartoryskigasse").
+sequence(2,0, "Siedlung Blumental").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Wiethestraße").
+possiblemeetinglocations("Aspernstraße").
+restaurants("Marathonweg").
+restaurants("Sahulkastraße").
+restaurants("Leobendorf-Burg Kreuzenstn Bf").
+restaurants("Armbrustergasse").

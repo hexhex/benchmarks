@@ -1,16 +1,20 @@
 person(1).
-initlocation(1,"Bacherplatz").
-initlocation(1,"Zinnergasse/Kaserne").
-initlocation(1,"Rothenburgstraße").
-initlocation(1,"Habsburgergasse").
-sequence(1,0, "Bacherplatz").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Wattmanngasse").
+sequence(1,0, "Aspern Nord").
 person(2).
-initlocation(2,"Nordbahnstraße").
-initlocation(2,"Ginsterweg").
-initlocation(2,"Himberger Straße").
-initlocation(2,"Forchheimergasse").
-sequence(2,0, "Nordbahnstraße").
-possiblemeetinglocations("Schütthäufel").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Herzmanskystraße").
+initlocation(2,"Anton-Krieger-Gasse").
+initlocation(2,"Rodauner Straße").
+initlocation(2,"Steigenteschgasse").
+initlocation(2,"Harkortstraße").
+sequence(2,0, "Anton-Krieger-Gasse").
+possiblemeetinglocations("Skraupstraße").
+possiblemeetinglocations("Dietmayrgasse").
+possiblemeetinglocations("Hetzendorfer Straße").
+possiblemeetinglocations("Montecuccoliplatz").
+restaurants("Laxenburger Str/Sahulkastraße").
+restaurants("Gymnasiumstraße").
+restaurants("Strandbad Stadlau").
+restaurants("Günselgasse").

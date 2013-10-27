@@ -1,19 +1,24 @@
 person(1).
-initlocation(1,"Mühlhäufelweg").
-initlocation(1,"Ludwig-Koeßler-Platz").
-initlocation(1,"Alsegger Straße").
-initlocation(1,"Maireckergasse").
-initlocation(1,"Pfaffstätten Rennplatz").
-sequence(1,0, "Mühlhäufelweg").
+initlocation(1,"Rathausplatz/Burgtheater").
+initlocation(1,"Josef-Enslein-Platz").
+initlocation(1,"Klimschgasse").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Fabianistraße").
+sequence(1,0, "Rathausplatz/Burgtheater").
 person(2).
-initlocation(2,"Willergasse/Schule").
-initlocation(2,"1 Haidequerstraße Süd").
-initlocation(2,"Wassermanngasse").
-initlocation(2,"Kärntner Ring/Oper").
-initlocation(2,"Triester Straße/Computerstraße").
-sequence(2,0, "Willergasse/Schule").
-possiblemeetinglocations("Fünfhausgasse").
-possiblemeetinglocations("Josef-Ressel-Straße").
-possiblemeetinglocations("Leberweg").
-possiblemeetinglocations("Hardtgasse").
-possiblemeetinglocations("Sommarugagasse").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Lannesstraße").
+initlocation(2,"Richard-Neutra-Gasse").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Dobrowskygasse").
+sequence(2,0, "Bad Vöslau Bahnhof").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Martin-Gaunersdorfer-Gasse").
+possiblemeetinglocations("Zschokkegasse").
+possiblemeetinglocations("Oleandergasse").
+restaurants("Im Gestockert").
+restaurants("Arndtstraße").
+restaurants("Leopoldauer Platz").
+restaurants("Kollarzgasse").
+restaurants("Wulzendorfstraße/Kapellenweg").

@@ -1,16 +1,20 @@
 person(1).
-initlocation(1,"Mühlwasser").
-initlocation(1,"Liesing").
-initlocation(1,"Aderklaaer Straße").
-initlocation(1,"Haslau an der Donau Bahnhof").
-sequence(1,0, "Mühlwasser").
+initlocation(1,"Obere Donaustraße").
+initlocation(1,"Schwenkgasse").
+initlocation(1,"Badeteich Hirschstetten").
+initlocation(1,"Jägerstraße").
+sequence(1,0, "Obere Donaustraße").
 person(2).
-initlocation(2,"Johann-Strauß-Gasse").
-initlocation(2,"Krottenbachstraße").
-initlocation(2,"Meriangasse").
-initlocation(2,"Lavantgasse").
-sequence(2,0, "Johann-Strauß-Gasse").
-possiblemeetinglocations("Kornauthgasse").
-possiblemeetinglocations("Siebenbrunnenfeldgasse").
-possiblemeetinglocations("Linzer Straße/Flötzersteig").
-possiblemeetinglocations("Triester Straße/Rossakgasse").
+initlocation(2,"Glossystraße").
+initlocation(2,"Strandbad Stadlau").
+initlocation(2,"Heiligenstadt, 12-Februar-Pl").
+initlocation(2,"Spengergasse").
+sequence(2,0, "Glossystraße").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Kronfußgasse").
+possiblemeetinglocations("Neubreitenlee").
+possiblemeetinglocations("Perfektastraße").
+restaurants("Spengergasse").
+restaurants("Wilhelm-Kreß-Platz").
+restaurants("Castelligasse").
+restaurants("Gutraterplatz").

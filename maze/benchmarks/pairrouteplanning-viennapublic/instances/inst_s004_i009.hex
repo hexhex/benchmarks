@@ -1,16 +1,20 @@
 person(1).
+initlocation(1,"Orchisgasse").
+initlocation(1,"Mühlwasser").
+initlocation(1,"Stadlauer Straße/Ostbahn").
 initlocation(1,"Königsklostergasse").
-initlocation(1,"Plattensteinergasse").
-initlocation(1,"Himberg Bahnhof").
-initlocation(1,"Grohnergasse").
-sequence(1,0, "Königsklostergasse").
+sequence(1,0, "Orchisgasse").
 person(2).
-initlocation(2,"Patrizigasse").
-initlocation(2,"Bernreiterplatz").
-initlocation(2,"In der Au").
-initlocation(2,"Friedrich-Engels-Platz").
-sequence(2,0, "Patrizigasse").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Daringergasse").
-possiblemeetinglocations("Blaasstraße").
+initlocation(2,"Johannes-von-Gott-Platz").
+initlocation(2,"Braillegasse").
+initlocation(2,"Naufahrtbrücke").
+initlocation(2,"Prater, Hauptallee").
+sequence(2,0, "Johannes-von-Gott-Platz").
+possiblemeetinglocations("Luzegasse").
+possiblemeetinglocations("Rasumofskygasse").
+possiblemeetinglocations("Afritschgasse").
+possiblemeetinglocations("Eckpergasse").
+restaurants("Esterhazygasse").
+restaurants("Kerbelgasse").
+restaurants("Bahnsteggasse").
+restaurants("Süßenbrunner Straße").

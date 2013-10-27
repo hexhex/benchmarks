@@ -1,13 +1,16 @@
 person(1).
-initlocation(1,"Kornblumenweg").
-initlocation(1,"Neulerchenfelder Str/Brunneng").
-initlocation(1,"Business-Park Vienna").
-sequence(1,0, "Kornblumenweg").
+initlocation(1,"Bubergasse").
+initlocation(1,"Koppstraße/Thaliastraße").
+initlocation(1,"Brigittaplatz").
+sequence(1,0, "Bubergasse").
 person(2).
-initlocation(2,"Ulmenstraße").
-initlocation(2,"Artillerieplatz").
-initlocation(2,"Wolfgang-Pauli-Gasse").
-sequence(2,0, "Ulmenstraße").
-possiblemeetinglocations("Reglergasse").
-possiblemeetinglocations("Pumgasse").
-possiblemeetinglocations("Aspern Sportplatz").
+initlocation(2,"Geusaugasse").
+initlocation(2,"Huflattichweg").
+initlocation(2,"Jochbergengasse").
+sequence(2,0, "Geusaugasse").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Aignerstraße").
+restaurants("Elderschplatz").
+restaurants("Am Europlatz").
+restaurants("Eßling Friedhof").

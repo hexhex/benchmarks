@@ -1,25 +1,32 @@
 person(1).
-initlocation(1,"Anschützgasse").
-initlocation(1,"Michaelerplatz").
-initlocation(1,"Hernalser Friedhof").
-initlocation(1,"Plattensteinergasse").
-initlocation(1,"Schleifmühlgasse").
-initlocation(1,"Schönthalergasse").
-initlocation(1,"Schwechat Ehrenbrunngasse").
-sequence(1,0, "Anschützgasse").
+initlocation(1,"Schmelzbrücke").
+initlocation(1,"Wattmanngasse/Elisabethallee").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Maireckergasse").
+initlocation(1,"Neugebauerweg").
+initlocation(1,"Im Gestockert").
+initlocation(1,"Anton-Stilling-Platz").
+sequence(1,0, "Schmelzbrücke").
 person(2).
-initlocation(2,"Erlafstraße").
-initlocation(2,"Schüttaustraße").
-initlocation(2,"Flötzersteig/Wilhelminenspital").
-initlocation(2,"Marderweg").
-initlocation(2,"Margaretenstraße").
-initlocation(2,"Wiedgasse").
-initlocation(2,"Kölblgasse").
-sequence(2,0, "Erlafstraße").
-possiblemeetinglocations("Grohnergasse").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Johnstraße/Märzstraße").
-possiblemeetinglocations("Redtenbachergasse").
-possiblemeetinglocations("Belvederegasse").
-possiblemeetinglocations("Aspern, Oberdorfstraße").
-possiblemeetinglocations("Aspern Sportplatz").
+initlocation(2,"Hüttenbrennergasse").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Martinstraße").
+initlocation(2,"Himmelstraße").
+initlocation(2,"Südwestfriedhof 7Tor").
+initlocation(2,"Otto-Weber-Gasse").
+initlocation(2,"Neu Guntramsdorf Haltestelle").
+sequence(2,0, "Hüttenbrennergasse").
+possiblemeetinglocations("Gadnergasse/Hasenleitengasse").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Hirschstetten Ort").
+possiblemeetinglocations("Heustadelgasse").
+possiblemeetinglocations("Industriestraße/Lange Allee").
+possiblemeetinglocations("Laxenburger Str/Heizwerkstr").
+possiblemeetinglocations("Königsklostergasse").
+restaurants("Maria Enzersdorf-Südstadt Bf").
+restaurants("Frödenplatz").
+restaurants("Neubaugasse/Westbahnstraße").
+restaurants("Muckendorf-Wipfing Bahnhof").
+restaurants("Klebindergraben").
+restaurants("Königsklostergasse").
+restaurants("Mergenthalerplatz").

@@ -1,16 +1,20 @@
 person(1).
-initlocation(1,"Weihburggasse").
-initlocation(1,"Bettelheimstraße").
-initlocation(1,"Gredlerstraße").
-initlocation(1,"Zeleborgasse").
-sequence(1,0, "Weihburggasse").
+initlocation(1,"Lukschgasse").
+initlocation(1,"Max-Fleischer-Gasse").
+initlocation(1,"Pretschgasse").
+initlocation(1,"Verbindungsbahn").
+sequence(1,0, "Lukschgasse").
 person(2).
-initlocation(2,"Zentaplatz").
-initlocation(2,"Mariahilfer Gürtel").
-initlocation(2,"Neueßling").
-initlocation(2,"Oberlaaer Straße").
-sequence(2,0, "Zentaplatz").
-possiblemeetinglocations("Mariahilfer Straße/Stiftgasse").
-possiblemeetinglocations("Atzgersdorf Kirchenplatz").
-possiblemeetinglocations("Kefedergrundgasse").
-possiblemeetinglocations("Badgasse").
+initlocation(2,"Redtenbachergasse").
+initlocation(2,"Vösendorf-Siebenhirten").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Schottenring").
+sequence(2,0, "Redtenbachergasse").
+possiblemeetinglocations("Raffineriestr/Biberhaufenweg").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Simoningplatz").
+possiblemeetinglocations("Im Gestockert").
+restaurants("Kärntner Ring/Oper").
+restaurants("Adam-Betz-Gasse").
+restaurants("Hermann-Gebauer-Straße").
+restaurants("Gerasdorfer Str/Ruthnergasse").

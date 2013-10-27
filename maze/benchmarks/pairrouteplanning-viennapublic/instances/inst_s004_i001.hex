@@ -1,16 +1,20 @@
 person(1).
-initlocation(1,"Soldanellenweg").
-initlocation(1,"Yppengasse").
-initlocation(1,"Dückegasse").
-initlocation(1,"Campingplatz Wien-Süd").
-sequence(1,0, "Soldanellenweg").
+initlocation(1,"Artillerieplatz").
+initlocation(1,"Lisztstraße").
+initlocation(1,"Wattmanngasse").
+initlocation(1,"Wr Neustadt Nord").
+sequence(1,0, "Artillerieplatz").
 person(2).
-initlocation(2,"Spittelau").
-initlocation(2,"Jungstraße").
-initlocation(2,"Schwechat Hauptplatz").
-initlocation(2,"St Pölten Hauptbahnhof").
-sequence(2,0, "Spittelau").
+initlocation(2,"Rodaun").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Tillmanngasse").
+initlocation(2,"Waldgasse").
+sequence(2,0, "Rodaun").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
 possiblemeetinglocations("Herzmanskystraße").
-possiblemeetinglocations("Geringergasse").
-possiblemeetinglocations("Pumgasse").
-possiblemeetinglocations("Engerthstraße/Innstraße").
+possiblemeetinglocations("Schüttelstraße").
+possiblemeetinglocations("Stammhausstraße").
+restaurants("Maria Anzbach Bahnhof").
+restaurants("Amtshaus Muthgasse").
+restaurants("Karl-Bednarik-Gasse").
+restaurants("Urselbrunnengasse").

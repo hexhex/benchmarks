@@ -1,13 +1,16 @@
 person(1).
-initlocation(1,"Konstanziagasse").
-initlocation(1,"Hintere Zollamtsstraße").
-initlocation(1,"An den Steinfeldern").
-sequence(1,0, "Konstanziagasse").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Knollergasse").
+initlocation(1,"Orchisgasse").
+sequence(1,0, "Regelsbrunn Bahnhof").
 person(2).
-initlocation(2,"Wr Neustadt Civitas Nova").
-initlocation(2,"Am Tabor").
-initlocation(2,"Breiteneckergasse").
-sequence(2,0, "Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Mannswörther Straße").
-possiblemeetinglocations("Hernalser Friedhof").
-possiblemeetinglocations("Bacherplatz").
+initlocation(2,"Volkstheater").
+initlocation(2,"Daphneweg").
+initlocation(2,"Belgradplatz").
+sequence(2,0, "Volkstheater").
+possiblemeetinglocations("Burgersteingasse").
+possiblemeetinglocations("Wehrbrücklstraße").
+possiblemeetinglocations("Hüttelberg").
+restaurants("Grinzing").
+restaurants("Neulerchenfelder Str/Brunneng").
+restaurants("Frauengasse").

@@ -1,13 +1,16 @@
 person(1).
-initlocation(1,"Helferstorferstraße").
-initlocation(1,"Leibenfrostgasse").
-initlocation(1,"Orthopädisches Krankenhaus").
-sequence(1,0, "Helferstorferstraße").
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Friedjunggasse").
+sequence(1,0, "Neilreichgasse").
 person(2).
-initlocation(2,"Carabelligasse/Ruthnergasse").
-initlocation(2,"Moosbierbaum-Heiligeneich Bf").
-initlocation(2,"Schwenkgasse").
-sequence(2,0, "Carabelligasse/Ruthnergasse").
-possiblemeetinglocations("Leopoldau/Möllplatz").
-possiblemeetinglocations("Thaliastraße/Maroltingergasse").
-possiblemeetinglocations("Inzersdorf Friedhof").
+initlocation(2,"Hetzendorf S/Altmannsd Str").
+initlocation(2,"Stadlauer Brücke").
+initlocation(2,"Erdbergstraße/Gaswerk").
+sequence(2,0, "Hetzendorf S/Altmannsd Str").
+possiblemeetinglocations("Bettelheimstraße").
+possiblemeetinglocations("Veterinärmed Universität").
+possiblemeetinglocations("Althanstraße").
+restaurants("Kagraner Friedhof").
+restaurants("Franz-Josef-Spital").
+restaurants("Getreidemarkt").

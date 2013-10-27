@@ -1,19 +1,24 @@
 person(1).
-initlocation(1,"Mittleres Hausfeld").
-initlocation(1,"Troststraße/Neilreichgasse").
-initlocation(1,"Resselgasse").
-initlocation(1,"Haengasse").
-initlocation(1,"Saarplatz").
-sequence(1,0, "Mittleres Hausfeld").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Franz-Eduard-Matras-Gasse").
+initlocation(1,"Sportpark Süßenbrunn").
+initlocation(1,"Laxenburger Str/Heizwerkstr").
+initlocation(1,"Römergasse").
+sequence(1,0, "Retz Bahnhof").
 person(2).
-initlocation(2,"Preyergasse/Speising").
-initlocation(2,"Bezirksamt Donaustadt").
-initlocation(2,"Petronell-Carnuntum Bahnhof").
-initlocation(2,"Burgring").
-initlocation(2,"Sevcikgasse").
-sequence(2,0, "Preyergasse/Speising").
-possiblemeetinglocations("Hernalser Gürtel").
-possiblemeetinglocations("Liesinger-Flur-Gasse").
-possiblemeetinglocations("Schottenwald").
-possiblemeetinglocations("Fernkorngasse").
-possiblemeetinglocations("Neubaugasse/Neustiftgasse").
+initlocation(2,"Stavangergasse").
+initlocation(2,"Jungstraße").
+initlocation(2,"Kürschnergasse").
+initlocation(2,"Franz-Sebek-Straße").
+initlocation(2,"Götzendorf Bahnhof").
+sequence(2,0, "Stavangergasse").
+possiblemeetinglocations("Herziggasse").
+possiblemeetinglocations("Computerstr/Gutheil-Schoder-G").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Neustifter Friedhof 3Tor").
+possiblemeetinglocations("Hartlebengasse").
+restaurants("Praterstern").
+restaurants("Ludwig-Reindl-Gasse").
+restaurants("Himmelstraße").
+restaurants("Emil-Behring-Weg").
+restaurants("Mondweg").

@@ -1,13 +1,16 @@
 person(1).
-initlocation(1,"Oberfeld").
-initlocation(1,"Guneschgasse").
-initlocation(1,"Liesinger-Flur-Gasse").
-sequence(1,0, "Oberfeld").
+initlocation(1,"Lainz, Wolkersbergenstraße").
+initlocation(1,"Eitnergasse").
+initlocation(1,"Baden Bahnhof").
+sequence(1,0, "Lainz, Wolkersbergenstraße").
 person(2).
-initlocation(2,"Wilhelm-Kreß-Platz").
-initlocation(2,"Breitenft Str/Hetzendorfer Str").
-initlocation(2,"Unfallkrankenhaus Meidling").
-sequence(2,0, "Wilhelm-Kreß-Platz").
-possiblemeetinglocations("Bacherplatz").
-possiblemeetinglocations("Mühlbreiten").
-possiblemeetinglocations("Paasdorf Bahnhof").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Giefinggasse").
+sequence(2,0, "Radetzkyplatz").
+possiblemeetinglocations("Dattlergasse").
+possiblemeetinglocations("Laimgrubengasse").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+restaurants("Gattergasse").
+restaurants("Gewerbepark Kagran").
+restaurants("Hasnerstraße").

@@ -1,25 +1,32 @@
 person(1).
-initlocation(1,"Graffgasse").
-initlocation(1,"Kottingneusiedl Bahnhof").
-initlocation(1,"Prater, Hauptallee").
-initlocation(1,"Steinergasse").
+initlocation(1,"Johnstraße/Märzstraße").
+initlocation(1,"Alberner Hafen").
+initlocation(1,"Kirschenallee").
+initlocation(1,"Mitterhofergasse").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Ährengrubenweg").
 initlocation(1,"Viehmarktgasse").
-initlocation(1,"Geiereckstraße").
-initlocation(1,"Kornauthgasse").
-sequence(1,0, "Graffgasse").
+sequence(1,0, "Johnstraße/Märzstraße").
 person(2).
+initlocation(2,"Kirchfeldgasse").
+initlocation(2,"Josef-Österreicher-Gasse").
+initlocation(2,"Spittelau").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Skraupstraße").
+initlocation(2,"Siedlung Sonnheim").
 initlocation(2,"Margeritenweg").
-initlocation(2,"Sternwartestraße").
-initlocation(2,"Stiegengasse").
-initlocation(2,"Wilhelminenstraße/Wattgasse").
-initlocation(2,"Stadlauer Friedhof").
-initlocation(2,"Geiselbergstraße").
-initlocation(2,"Hawlicekgasse").
-sequence(2,0, "Margeritenweg").
-possiblemeetinglocations("Anzengruberstraße").
-possiblemeetinglocations("Auhof").
-possiblemeetinglocations("Fischergrund").
-possiblemeetinglocations("Oberdorfstraße/Aspernstraße").
-possiblemeetinglocations("Ehrenpreisgasse").
-possiblemeetinglocations("Tandelmarktgasse").
-possiblemeetinglocations("Czartoryskigasse").
+sequence(2,0, "Kirchfeldgasse").
+possiblemeetinglocations("Kaiserebersdorf Münnichplatz").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Atzgersdorf Friedhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Pasettistraße").
+possiblemeetinglocations("Martin-Gaunersdorfer-Gasse").
+possiblemeetinglocations("Geringergasse").
+restaurants("Campingplatz Wien-West 1").
+restaurants("Mühlsangergasse").
+restaurants("Erndtgasse").
+restaurants("Sturgasse").
+restaurants("Zieglergasse/Burggasse").
+restaurants("Reinprechtsd Str/Arbeitergasse").
+restaurants("Zinnergasse").

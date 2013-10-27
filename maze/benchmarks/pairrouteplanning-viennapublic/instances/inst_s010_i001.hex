@@ -1,34 +1,44 @@
 person(1).
-initlocation(1,"Rohrhofergasse").
-initlocation(1,"Häußlergasse").
-initlocation(1,"Troststraße/Neilreichgasse").
-initlocation(1,"Michaelerplatz").
-initlocation(1,"Richard-Tauber-Gasse").
-initlocation(1,"Sankt Marx").
-initlocation(1,"Montleartstraße").
-initlocation(1,"Waidäckergasse").
-initlocation(1,"Ottakringer Bad").
-initlocation(1,"Anton-Schall-Gasse").
-sequence(1,0, "Rohrhofergasse").
+initlocation(1,"Eßling Friedhof").
+initlocation(1,"Illgasse").
+initlocation(1,"Beingasse").
+initlocation(1,"Nordbahnstraße").
+initlocation(1,"Max-Mauermann-Gasse").
+initlocation(1,"Kanalstraße").
+initlocation(1,"Tenschertstraße").
+initlocation(1,"Wienflußaufsicht").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Justgasse").
+sequence(1,0, "Eßling Friedhof").
 person(2).
-initlocation(2,"Rudolf-Hausner-Gasse").
-initlocation(2,"Redtenbachergasse").
-initlocation(2,"Benjowskigasse").
-initlocation(2,"Jochbergengasse").
-initlocation(2,"Resselgasse").
-initlocation(2,"Belvederegasse").
-initlocation(2,"Götzendorf Bahnhof").
-initlocation(2,"Schöberweg").
-initlocation(2,"Blumental").
-initlocation(2,"Breitenlee, Rautenweg").
-sequence(2,0, "Rudolf-Hausner-Gasse").
-possiblemeetinglocations("Dobrowskygasse").
-possiblemeetinglocations("Rosensteingasse").
-possiblemeetinglocations("Kefedergrundgasse").
-possiblemeetinglocations("Badeteich Süßenbrunn").
-possiblemeetinglocations("Franzosengraben").
-possiblemeetinglocations("Sportpark Süßenbrunn").
-possiblemeetinglocations("Donaustadtbrücke").
+initlocation(2,"Harrachgasse").
+initlocation(2,"Pellmanngasse").
+initlocation(2,"Ferdinand-Frey-Weg").
+initlocation(2,"Marenabrücke").
+initlocation(2,"Engerthstraße/Traisengasse").
+initlocation(2,"Neuwaldegg").
+initlocation(2,"Deindorfstraße").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Hüttergasse").
+initlocation(2,"Marx-Meidlinger-Straße").
+sequence(2,0, "Harrachgasse").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Dückegasse").
+possiblemeetinglocations("Engerthstraße/Traisengasse").
+possiblemeetinglocations("Fernkorngasse").
+possiblemeetinglocations("Maria Enzersdorf-Südstadt Bf").
+possiblemeetinglocations("Zinnergasse").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
 possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("1 Haidequerstraße Mitte").
-possiblemeetinglocations("Kirchfeldgasse").
+possiblemeetinglocations("Theodor-Körner-Gasse").
+possiblemeetinglocations("Siriusweg").
+restaurants("Brunn-Maria Enzersdorf Bahnhof").
+restaurants("Marathonweg").
+restaurants("Simonsgasse").
+restaurants("Burgring").
+restaurants("Wehrbrücklstraße/Gernotgasse").
+restaurants("Pantucekgasse").
+restaurants("Hernalser Gürtel").
+restaurants("Tanbruckgasse").
+restaurants("Kranzgasse").
+restaurants("Grillgasse").

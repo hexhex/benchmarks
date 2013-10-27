@@ -1,13 +1,16 @@
 person(1).
-initlocation(1,"Aßmayergasse").
-initlocation(1,"Panozzalacke").
-initlocation(1,"Niederkreuzstetten Bahnhof").
-sequence(1,0, "Aßmayergasse").
+initlocation(1,"Iberisweg").
+initlocation(1,"Schloss Hetzendorf").
+initlocation(1,"Martin-Gaunersdorfer-Gasse").
+sequence(1,0, "Iberisweg").
 person(2).
-initlocation(2,"Kiefernplatz").
-initlocation(2,"Hüttelberg").
-initlocation(2,"Ruckergasse/Tivoligasse").
-sequence(2,0, "Kiefernplatz").
-possiblemeetinglocations("Hänischgasse").
-possiblemeetinglocations("Matschgasse").
-possiblemeetinglocations("Roßauer Lände").
+initlocation(2,"Am Rain").
+initlocation(2,"An der Bien").
+initlocation(2,"Breitenleer Str/Spargelfeldstr").
+sequence(2,0, "Am Rain").
+possiblemeetinglocations("Richard-Strauss-Straße").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Weidlingau Bahnhof").
+restaurants("Pilgramgasse").
+restaurants("Svetelskystraße").
+restaurants("Schottenring").

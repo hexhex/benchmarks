@@ -1,28 +1,36 @@
 person(1).
-initlocation(1,"Rustenschacherallee").
-initlocation(1,"Fabianistraße").
-initlocation(1,"Allerheiligenplatz").
-initlocation(1,"An der Niederhaid").
-initlocation(1,"Reinlgasse/Märzstraße").
-initlocation(1,"Wulzendorfstraße/Kapellenweg").
-initlocation(1,"Strebersdorf").
-initlocation(1,"Speditionsstraße").
-sequence(1,0, "Rustenschacherallee").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Siedlung Sonnheim").
+initlocation(1,"Rallenweg").
+initlocation(1,"Laurenzgasse").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Schillwasserweg").
+initlocation(1,"Laurentiusplatz").
+initlocation(1,"Migerkastraße").
+sequence(1,0, "Rauscherstraße").
 person(2).
-initlocation(2,"Oberolberndorf Bahnhof").
-initlocation(2,"7 Haidequerstraße").
-initlocation(2,"Alberner Hafen").
-initlocation(2,"KGV Alsrückenweg").
-initlocation(2,"Siriusweg").
-initlocation(2,"Doeltergasse").
-initlocation(2,"Zentralfriedhof 3Tor").
-initlocation(2,"Richard-Strauss-Straße").
-sequence(2,0, "Oberolberndorf Bahnhof").
-possiblemeetinglocations("Zentaplatz").
-possiblemeetinglocations("Marderweg").
-possiblemeetinglocations("Himmelmutterweg").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Neue Donau Mitte").
-possiblemeetinglocations("Schrebergasse").
-possiblemeetinglocations("Wattmanngasse").
-possiblemeetinglocations("Löschniggasse").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Nußdorf").
+initlocation(2,"Lieglerstraße").
+initlocation(2,"Sulzengasse").
+initlocation(2,"Penzing").
+initlocation(2,"Barichgasse").
+initlocation(2,"Dostgasse").
+initlocation(2,"1 Haidequerstraße Süd").
+sequence(2,0, "Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Am Himmelreich").
+possiblemeetinglocations("Reichmanngasse").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Lichtensterngasse").
+possiblemeetinglocations("Lieblgasse").
+possiblemeetinglocations("Valentingasse").
+restaurants("Nußdorfer Straße").
+restaurants("Sonnenuhrgasse").
+restaurants("Schwenkgasse/Tivoligasse").
+restaurants("Zeiselmauer-Königstetten Bf").
+restaurants("Dörfelstraße/Wilhelmstraße").
+restaurants("Rosenhügelstraße").
+restaurants("Pumgasse").
+restaurants("Biomull-Werk").

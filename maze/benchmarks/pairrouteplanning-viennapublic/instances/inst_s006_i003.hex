@@ -1,22 +1,28 @@
 person(1).
-initlocation(1,"Süßenbrunner Platz").
-initlocation(1,"Marienbrücke").
-initlocation(1,"Liesing Schulzentrum").
-initlocation(1,"Johanneskapelle").
-initlocation(1,"Rautenweg/Hermann-Gebauer-Str").
-initlocation(1,"Marco-Polo-Promenade").
-sequence(1,0, "Süßenbrunner Platz").
+initlocation(1,"Badeteich Süßenbrunn").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Töllergasse").
+initlocation(1,"Schwechat Ehrenbrunngasse").
+initlocation(1,"Ernanigasse").
+initlocation(1,"Canisiusgasse").
+sequence(1,0, "Badeteich Süßenbrunn").
 person(2).
-initlocation(2,"Schüttauplatz").
-initlocation(2,"Am Heidjöchl/Hausfeldstraße").
-initlocation(2,"Gusenleithnergasse").
-initlocation(2,"Migerkastraße").
-initlocation(2,"Jakob-Bindel-Platz").
-initlocation(2,"Siemensstr/H-von-Buol-Gasse").
-sequence(2,0, "Schüttauplatz").
-possiblemeetinglocations("Südwestfriedhof 3Tor").
-possiblemeetinglocations("Gesundheitszentrum Süd").
-possiblemeetinglocations("Niedermoserstraße").
-possiblemeetinglocations("Samptwandnergasse").
-possiblemeetinglocations("Rautenweg").
-possiblemeetinglocations("Mühlhäufel").
+initlocation(2,"Niedermoserstraße").
+initlocation(2,"Franz-Eduard-Matras-Gasse").
+initlocation(2,"Staglgasse").
+initlocation(2,"Schrekergasse").
+initlocation(2,"Dückegasse").
+initlocation(2,"Liesingbachbrücke").
+sequence(2,0, "Niedermoserstraße").
+possiblemeetinglocations("Goldregengasse").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Mergenthalerplatz").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Kornauthgasse").
+possiblemeetinglocations("Theodor-Kramer-Straße").
+restaurants("Hernalser Hauptstr/Wattgasse").
+restaurants("Triester Straße/Rossakgasse").
+restaurants("Bischoffgasse").
+restaurants("Wolfsthal Bahnhof").
+restaurants("Lohwaggasse").
+restaurants("Gotthelfgasse").

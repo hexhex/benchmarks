@@ -1,31 +1,40 @@
 person(1).
-initlocation(1,"Rennweg").
-initlocation(1,"Baumgasse").
-initlocation(1,"Getzersdorf/Traisen Bahnhof").
-initlocation(1,"Erlaaer Spitz").
-initlocation(1,"Heiligenstädter Brücke").
-initlocation(1,"Donaumarina").
-initlocation(1,"Trasdorf Bahnhof").
-initlocation(1,"Gatterhölzl").
-initlocation(1,"Wr Neustadt Civitas Nova").
-sequence(1,0, "Rennweg").
+initlocation(1,"Merkurweg").
+initlocation(1,"Schödlbergergasse").
+initlocation(1,"Pellmanngasse").
+initlocation(1,"Kellermanngasse").
+initlocation(1,"Pogrelzstraße").
+initlocation(1,"Gewerbepark Stadlau Nord").
+initlocation(1,"Laxenburger Straße/Raxstraße").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Obersteinergasse").
+sequence(1,0, "Merkurweg").
 person(2).
-initlocation(2,"Daringergasse").
-initlocation(2,"Kirchengasse/Neubaugasse").
-initlocation(2,"Pensionisten-Wohnhaus Prater").
-initlocation(2,"Chimanistraße").
-initlocation(2,"Magdalenenstraße").
-initlocation(2,"Bahnsteggasse").
-initlocation(2,"Hildebrandgasse").
-initlocation(2,"Theodor-Körner-Gasse").
-initlocation(2,"Döblinger Friedhof").
-sequence(2,0, "Daringergasse").
-possiblemeetinglocations("Hasenleitengasse").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Landwehrstraße").
-possiblemeetinglocations("Edelsinnstraße").
-possiblemeetinglocations("Tinterstraße").
-possiblemeetinglocations("Lohwaggasse").
-possiblemeetinglocations("Ernanigasse").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Bleibtreustraße").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Theater in der Josefstadt").
+initlocation(2,"Simonygasse").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Knollergasse").
+initlocation(2,"Kieslerweg").
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Nußdorf, Beethovengang").
+initlocation(2,"Allissen").
+sequence(2,0, "Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Benjowskigasse").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Klebindergraben").
+possiblemeetinglocations("Theodor-Sickel-Gasse").
+possiblemeetinglocations("Leopoldsberg").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Halterlacken").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Unter der Kirche").
+restaurants("Schwechat Brauerei").
+restaurants("Königsklostergasse").
+restaurants("Eichbachgasse").
+restaurants("Höchstädtplatz").
+restaurants("Oriongasse").
+restaurants("Asparagusweg").
+restaurants("Michelbeuern-AKH").
+restaurants("Schwechat Wiener Straße").
+restaurants("Himmelstraße").

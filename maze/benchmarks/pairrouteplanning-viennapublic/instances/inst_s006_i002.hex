@@ -1,22 +1,28 @@
 person(1).
-initlocation(1,"Korbergasse").
-initlocation(1,"Stallarngasse").
-initlocation(1,"Quellenstraße/Knöllgasse").
-initlocation(1,"Lorenz-Böhler-Unfallkrankenh").
-initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
-initlocation(1,"Beingasse").
-sequence(1,0, "Korbergasse").
+initlocation(1,"Oberfeld").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Taborstraße").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Autokaderstraße").
+initlocation(1,"Billgasse").
+sequence(1,0, "Oberfeld").
 person(2).
-initlocation(2,"Laxenburger Str/Sahulkastraße").
-initlocation(2,"Ettenreichgasse/Schulzentrum").
-initlocation(2,"Mitterfeldgasse").
-initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(2,"Linzer Straße/Johnstraße").
-initlocation(2,"Taubstummengasse").
-sequence(2,0, "Laxenburger Str/Sahulkastraße").
-possiblemeetinglocations("Gaßmannstraße").
-possiblemeetinglocations("Lokomotivgasse").
-possiblemeetinglocations("Ehrenpreisgasse").
-possiblemeetinglocations("Otto-Probst-Straße").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Kellermanngasse").
+initlocation(2,"Auhof Umspannwerk").
+initlocation(2,"Albern Sendnergasse").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Holubstraße").
+initlocation(2,"Amongasse").
+sequence(2,0, "Auhof Umspannwerk").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Attemsgasse").
+possiblemeetinglocations("Knödelhüttenstraße").
+possiblemeetinglocations("Dörfelstraße/Wilhelmstraße").
+possiblemeetinglocations("Adalbert-Stifter-Str/Jägerstr").
+possiblemeetinglocations("Schüttauplatz").
+restaurants("Unter der Kirche").
+restaurants("Gerasdorfer Str/Ruthnergasse").
+restaurants("Wiedgasse").
+restaurants("Anschützgasse").
+restaurants("Maurer Lange Gasse").
+restaurants("Dattlergasse").

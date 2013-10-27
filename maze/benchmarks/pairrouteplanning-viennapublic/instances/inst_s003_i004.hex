@@ -1,13 +1,16 @@
 person(1).
-initlocation(1,"Margaretenplatz").
-initlocation(1,"Montecuccoliplatz").
-initlocation(1,"Klaschkaweg").
-sequence(1,0, "Margaretenplatz").
+initlocation(1,"Hörtengasse").
+initlocation(1,"Oberer Reisenbergweg").
+initlocation(1,"Widholzgasse").
+sequence(1,0, "Hörtengasse").
 person(2).
-initlocation(2,"Elisabethwiese").
-initlocation(2,"Satzberggasse").
-initlocation(2,"Baumgartner Höhe").
-sequence(2,0, "Elisabethwiese").
-possiblemeetinglocations("Finsterbuschstraße Nord").
-possiblemeetinglocations("Klosterneuburger Straße").
-possiblemeetinglocations("Genochplatz").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Huflattichweg").
+initlocation(2,"Wiethestraße/Kirschenallee").
+sequence(2,0, "Mariahilfer Gürtel").
+possiblemeetinglocations("Artariastraße").
+possiblemeetinglocations("Rueppgasse").
+possiblemeetinglocations("Am Krautgarten").
+restaurants("Elisabethwiese").
+restaurants("Lavantgasse/Schule").
+restaurants("Agavenweg").

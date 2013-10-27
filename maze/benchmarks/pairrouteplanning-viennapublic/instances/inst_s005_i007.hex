@@ -1,19 +1,24 @@
 person(1).
-initlocation(1,"Bischofgasse").
-initlocation(1,"Gunoldstraße").
-initlocation(1,"Neusteinhof").
-initlocation(1,"Fasangasse").
-initlocation(1,"Flötzersteig").
-sequence(1,0, "Bischofgasse").
+initlocation(1,"Guntramsdorf Lokalbahn").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Friedlgasse").
+initlocation(1,"Daphneweg").
+initlocation(1,"Liesing Friedhof").
+sequence(1,0, "Guntramsdorf Lokalbahn").
 person(2).
-initlocation(2,"Gersthofer Friedhof").
-initlocation(2,"Dornbach, Güpferlingstraße").
-initlocation(2,"Haspelmeistergasse").
-initlocation(2,"Am Heumarkt").
-initlocation(2,"Südwestfriedhof 8Tor").
-sequence(2,0, "Gersthofer Friedhof").
-possiblemeetinglocations("Aurikelweg").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
-possiblemeetinglocations("Lechnerstraße").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Jedlersdorfer Straße").
+initlocation(2,"Portnergasse").
+initlocation(2,"Flotowgasse").
+initlocation(2,"Häußlergasse").
+sequence(2,0, "Atzgersdorfer Straße").
+possiblemeetinglocations("Ultzmanngasse/Kirschenallee").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Süßenbr Str/Breitenleer Str").
+possiblemeetinglocations("Tandelmarktgasse").
+possiblemeetinglocations("Neubaugasse/Neustiftgasse").
+restaurants("Carminweg").
+restaurants("Liesing Friedhof").
+restaurants("Hadersdorfer Hauptstraße").
+restaurants("Haschafeld").
+restaurants("Birostraße").

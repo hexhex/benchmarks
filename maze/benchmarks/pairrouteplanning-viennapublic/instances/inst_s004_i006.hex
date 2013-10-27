@@ -1,16 +1,20 @@
 person(1).
-initlocation(1,"Sulzwiese").
-initlocation(1,"Dänenstraße").
-initlocation(1,"Dattlergasse").
-initlocation(1,"Kieslerweg").
-sequence(1,0, "Sulzwiese").
+initlocation(1,"Kammerergasse").
+initlocation(1,"Hetzendorfer Straße").
+initlocation(1,"Weihburggasse").
+initlocation(1,"Franzosenweg").
+sequence(1,0, "Kammerergasse").
 person(2).
-initlocation(2,"Mariabrunn Kirche").
-initlocation(2,"Grillgasse").
-initlocation(2,"Schukowitzgasse").
-initlocation(2,"Königsklostergasse").
-sequence(2,0, "Mariabrunn Kirche").
-possiblemeetinglocations("Wulzendorfstraße").
-possiblemeetinglocations("Nauheimergasse").
-possiblemeetinglocations("Schwechat Plankenwehrstraße").
-possiblemeetinglocations("Enkplatz").
+initlocation(2,"Wulzendorfstraße").
+initlocation(2,"Weißenböckstraße").
+initlocation(2,"Frauengasse").
+initlocation(2,"Campingplatzweg").
+sequence(2,0, "Wulzendorfstraße").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Ludwig-Koeßler-Platz").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Jägerwaldsiedlung").
+restaurants("Döblinger Friedhof").
+restaurants("Friedjunggasse").
+restaurants("Seybelgasse").
+restaurants("Schwenkgasse").
