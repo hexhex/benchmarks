@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Alaudagasse").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Daphneweg").
+sequence(1,0, "Alaudagasse").
+person(2).
+initlocation(2,"Erdbergstr/Schlachthausgasse").
+initlocation(2,"Boschstraße/Halteraugasse").
+initlocation(2,"Guntramsdorf-Thallern").
+sequence(2,0, "Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Koppstraße/Thaliastraße").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Sagedergasse").
+restaurant("Fuchsenzeile").
+restaurant("Süßenbrunner Straße").
+restaurant("Donauspital").

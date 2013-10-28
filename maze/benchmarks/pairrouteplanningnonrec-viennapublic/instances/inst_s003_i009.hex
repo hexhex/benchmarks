@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Hüttergasse").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Lobgrundstraße").
+sequence(1,0, "Hüttergasse").
+person(2).
+initlocation(2,"Lavantgasse/Schule").
+initlocation(2,"Campingplatzweg").
+initlocation(2,"Hirschengasse").
+sequence(2,0, "Lavantgasse/Schule").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Wulzendorfstraße").
+possiblemeetinglocations("Donauzentrum").
+restaurant("Serpentingasse").
+restaurant("Hirschstetten").
+restaurant("Lieblgasse").

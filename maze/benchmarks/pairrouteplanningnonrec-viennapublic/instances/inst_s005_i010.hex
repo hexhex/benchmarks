@@ -1,0 +1,24 @@
+person(1).
+initlocation(1,"Flotowgasse").
+initlocation(1,"Hetmanekgasse").
+initlocation(1,"Bahnhofstraße").
+initlocation(1,"Hütteldorf, Bujattigasse").
+initlocation(1,"Lamezanstraße").
+sequence(1,0, "Flotowgasse").
+person(2).
+initlocation(2,"Kefedergrundgasse").
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Johanneskapelle").
+initlocation(2,"Antonsplatz").
+sequence(2,0, "Kefedergrundgasse").
+possiblemeetinglocations("Pfenninggeldgasse").
+possiblemeetinglocations("Lindenbauergasse").
+possiblemeetinglocations("Breitenleer Str/Ziegelhofstr").
+possiblemeetinglocations("Arsenal").
+possiblemeetinglocations("Oberdöbling").
+restaurant("Donaustadtstraße/Lange Allee").
+restaurant("Grasbergergasse").
+restaurant("Franz-Eduard-Matras-Gasse").
+restaurant("Jochen-Rindt-Straße").
+restaurant("Rosensteingasse").

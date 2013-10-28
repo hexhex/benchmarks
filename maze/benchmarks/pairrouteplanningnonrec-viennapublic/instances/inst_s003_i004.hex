@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Gärtnerstraße").
+initlocation(1,"Eichbachgasse").
+initlocation(1,"Mayerweckstraße").
+sequence(1,0, "Gärtnerstraße").
+person(2).
+initlocation(2,"Jubiläumswarte").
+initlocation(2,"Steigenteschgasse").
+initlocation(2,"Graben/Petersplatz").
+sequence(2,0, "Jubiläumswarte").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Jura-Soyfer-Gasse").
+restaurant("Wolfganggasse/Steinbauergasse").
+restaurant("Jedlersdorfer Str/Hanreiterg").
+restaurant("Ährengrubenweg").

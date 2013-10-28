@@ -1,0 +1,42 @@
+#maxint=500.
+
+location(P, X) :- initlocation(P, X).
+
+% guess a sequence of locations for all persons
+sequence(P, I, L) v nsequence(P, I, L) :- person(P), location(P, L), #int(I), #int(C), C = #count{ N : initlocation(P, N) }, I < C2, C2 = C + 2.
+:- person(P), sequence(P, I1, L), sequence(P, I2, L), I1 != I2.
+:- person(P), sequence(P, I, L1), sequence(P, I, L2), L1 != L2.
+haveSequence(P, L) :- person(P), sequence(P, I, L).
+:- person(P), location(P,L), not haveSequence(P, L).
+haveLocation(P,I) :- person(P), sequence(P, I, L).
+:- person(P), sequence(P, I, L), I1 < I, #int(I1), not haveLocation(P, I1).
+
+% choose a meeting point
+chooseMeeting(L) v nchooseMeeting(L) :- possiblemeetinglocations(L).
+:- chooseMeeting(L1), chooseMeeting(L2), L1 != L2.
+meetingChosen :- not anyNeedRestaurant, chooseMeeting(L).
+:- not meetingChosen.
+
+% let all tours include the meeting location
+location(P, L) :- not anyNeedRestaurant, person(P), chooseMeeting(L).
+
+% plan the tours
+pathTmp(P, L1, L2, X, Y, C, Type) :- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2), NrNext = Nr + 1, &path["vienna-publictransport2.hex", edgeline, L1, L2](X, Y, C, Type), edgeline(X, Y, C, Type).
+path(P, X, Y, C, Type) :- person(P), pathTmp(P, L1, L2, X, Y, C, Type).
+pathExists(P, L1, L2) :- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2), NrNext = Nr + 1, pathTmp(P, L1, L2, X, Y, C, Type).
+:- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2), NrNext = Nr + 1, not pathExists(P, L1, L2).
+
+orderedpathTmp(1, 0, L1, L2, X, Y, C, Type) :- person(P), sequence(1, 0, X), pathTmp(1, L1, L2, X, Y, C, Type).
+orderedpathTmp(1, S, L1, L2, Y, Z, C2, Type2) :- person(1), orderedpathTmp(1, P, L1, L2, X, Y, C, Type), pathTmp(1, L1, L2, Y, Z, C2, Type2), S = P + 1, #int(S), &pathLength[path, 1](Len), S <= Len.
+orderedpathTmp(1, S, Y, L3, Y, Z, C2, Type2) :- person(1), orderedpathTmp(1, P, L1, Y, X, Y, C, Type), pathTmp(1, Y, L3, Y, Z, C2, Type2), S = P + 1, #int(S), &pathLength[path, 1](Len), S <= Len.
+orderedpath(1, S, X, Y, C, Type) :- person(P), orderedpathTmp(1, S, L1, L2, X, Y, C, Type).
+
+orderedpathTmp(2, 0, L1, L2, X, Y, C, Type) :- person(P), sequence(2, 0, X), pathTmp(2, L1, L2, X, Y, C, Type).
+orderedpathTmp(2, S, L1, L2, Y, Z, C2, Type2) :- person(2), orderedpathTmp(2, P, L1, L2, X, Y, C, Type), pathTmp(2, L1, L2, Y, Z, C2, Type2), S = P + 1, #int(S), &pathLength[path, 2](Len), S <= Len.
+orderedpathTmp(2, S, Y, L3, Y, Z, C2, Type2) :- person(2), orderedpathTmp(2, P, L1, Y, X, Y, C, Type), pathTmp(2, Y, L3, Y, Z, C2, Type2), S = P + 1, #int(S), &pathLength[path, 2](Len), S <= Len.
+orderedpath(2, S, X, Y, C, Type) :- person(P), orderedpathTmp(2, S, L1, L2, X, Y, C, Type).
+
+%orderedpathTmp(Person, 0, L1, L2, X, Y, C, Type) :- person(P), sequence(Person, 0, X), pathTmp(Person, L1, L2, X, Y, C, Type).
+%orderedpathTmp(Person, S, L1, L2, Y, Z, C2, Type2) :- person(Person), orderedpathTmp(Person, P, L1, L2, X, Y, C, Type), pathTmp(Person, L1, L2, Y, Z, C2, Type2), S = P + 1, #int(S), &pathLength[path, %Person](Len), S <= Len.
+%orderedpathTmp(Person, S, Y, L3, Y, Z, C2, Type2) :- person(Person), orderedpathTmp(Person, P, L1, Y, X, Y, C, Type), pathTmp(Person, Y, L3, Y, Z, C2, Type2), S = P + 1, #int(S), &pathLength[path, Person](Len), S <= Len.
+%orderedpath(Person, S, X, Y, C, Type) :- person(P), orderedpathTmp(Person, S, L1, L2, X, Y, C, Type).

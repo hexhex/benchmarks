@@ -1,0 +1,24 @@
+person(1).
+initlocation(1,"Gladiolenweg").
+initlocation(1,"Allerheiligengasse").
+initlocation(1,"Auerspergstraße").
+initlocation(1,"Währinger Park").
+initlocation(1,"Haus des Meeres").
+sequence(1,0, "Gladiolenweg").
+person(2).
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Allerheiligengasse").
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Moeringgasse").
+initlocation(2,"Ultzmanngasse/Kirschenallee").
+sequence(2,0, "Gerhardusgasse").
+possiblemeetinglocations("Hagedornweg").
+possiblemeetinglocations("Engerthstraße/Traisengasse").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Shuttleworthstraße").
+possiblemeetinglocations("Esterhazygasse").
+restaurant("Herrengasse").
+restaurant("Starhemberg-Kaserne").
+restaurant("Adalbert-Stifter-Str/Jägerstr").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Invalidensiedlung").

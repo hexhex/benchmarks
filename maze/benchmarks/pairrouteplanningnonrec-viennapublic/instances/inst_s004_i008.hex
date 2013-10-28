@@ -1,0 +1,20 @@
+person(1).
+initlocation(1,"Margetinstraße").
+initlocation(1,"Kalmusweg").
+initlocation(1,"Taglieberstraße").
+initlocation(1,"Engerthstraße/Traisengasse").
+sequence(1,0, "Margetinstraße").
+person(2).
+initlocation(2,"Litfaßstraße").
+initlocation(2,"Neueßling").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"An den Steinfeldern").
+sequence(2,0, "Litfaßstraße").
+possiblemeetinglocations("Henriettenplatz").
+possiblemeetinglocations("Samptwandnergasse").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Gladiolenweg").
+restaurant("Matthäus-Jiszda-Straße").
+restaurant("Kölblgasse").
+restaurant("Anton-Sattler-Gasse").
+restaurant("Hasnerstraße").

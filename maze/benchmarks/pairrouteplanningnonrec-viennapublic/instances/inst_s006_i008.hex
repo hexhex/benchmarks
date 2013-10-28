@@ -1,0 +1,28 @@
+person(1).
+initlocation(1,"Bischofgasse").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Kirchfeldgasse").
+initlocation(1,"Castelligasse").
+initlocation(1,"Iselgasse").
+initlocation(1,"Heizwerkstraße").
+sequence(1,0, "Bischofgasse").
+person(2).
+initlocation(2,"Speditionsstraße").
+initlocation(2,"Valentingasse").
+initlocation(2,"Gruschaplatz").
+initlocation(2,"Schödlbergergasse").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+sequence(2,0, "Speditionsstraße").
+possiblemeetinglocations("Possingergasse").
+possiblemeetinglocations("Binsenweg").
+possiblemeetinglocations("Niedermoserstraße").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Hans-Mandl-Berufsschule").
+restaurant("Keplerplatz").
+restaurant("Saikogasse").
+restaurant("Wr Neudorf Griesfeld").
+restaurant("Stadion").
+restaurant("Kellermanngasse").
+restaurant("Am Heidjöchl").

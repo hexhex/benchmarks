@@ -1,0 +1,24 @@
+person(1).
+initlocation(1,"Lorystraße").
+initlocation(1,"Liebknechtgasse").
+initlocation(1,"Volkertplatz").
+initlocation(1,"Lichtblaustraße").
+initlocation(1,"Isbarygasse").
+sequence(1,0, "Lorystraße").
+person(2).
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Hanslteich").
+initlocation(2,"Am Rain").
+initlocation(2,"Finsterbuschstraße Nord").
+initlocation(2,"Malzgasse").
+sequence(2,0, "Bad Vöslau Bahnhof").
+possiblemeetinglocations("Steinhagegasse").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Kirchstetterngasse").
+possiblemeetinglocations("Carlbergergasse").
+restaurant("Freihofsiedlung").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Hubert-Gsur-Gasse").
+restaurant("Seyring Bahnhof").

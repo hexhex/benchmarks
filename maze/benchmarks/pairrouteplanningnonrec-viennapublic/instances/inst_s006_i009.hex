@@ -1,0 +1,28 @@
+person(1).
+initlocation(1,"Silbergasse").
+initlocation(1,"Agrarweg").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+initlocation(1,"Bettelheimstraße").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Kinskygasse/Rossakgasse").
+sequence(1,0, "Silbergasse").
+person(2).
+initlocation(2,"Schippergasse").
+initlocation(2,"Scalagasse").
+initlocation(2,"Arndtstraße").
+initlocation(2,"Bacherplatz").
+initlocation(2,"Volkstheater").
+initlocation(2,"Stadion").
+sequence(2,0, "Schippergasse").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Freyenthurmgasse").
+possiblemeetinglocations("Pasettistraße").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Bergmillergasse").
+possiblemeetinglocations("Hernalser Friedhof").
+restaurant("Rudolf-Zeller-Gasse").
+restaurant("Obersdorf Bahnhof").
+restaurant("Maurer Berg").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Schöberweg").

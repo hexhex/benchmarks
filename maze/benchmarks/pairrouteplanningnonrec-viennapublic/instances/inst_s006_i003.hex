@@ -1,0 +1,28 @@
+person(1).
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+initlocation(1,"Leibenfrostgasse").
+initlocation(1,"Hänflingweg").
+sequence(1,0, "Pottendorf-Landegg Bahnhof").
+person(2).
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Glockengasse").
+initlocation(2,"Portnergasse").
+initlocation(2,"Korianderweg").
+initlocation(2,"Morelligasse").
+sequence(2,0, "Kutschkergasse").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Gersthofer Friedhof").
+possiblemeetinglocations("Volkertplatz").
+possiblemeetinglocations("Mooslackengasse").
+possiblemeetinglocations("Wiethestraße/Kirschenallee").
+possiblemeetinglocations("Grenzgasse").
+restaurant("Gersthof").
+restaurant("Häußlergasse").
+restaurant("Kleine Stadtgutgasse").
+restaurant("Taubstummengasse").
+restaurant("Währinger Park").
+restaurant("Zentralfriedhof 1Tor").

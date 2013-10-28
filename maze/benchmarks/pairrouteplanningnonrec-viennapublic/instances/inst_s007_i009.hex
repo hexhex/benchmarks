@@ -1,0 +1,32 @@
+person(1).
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Stadlauer Brücke").
+initlocation(1,"Dirmhirngasse").
+initlocation(1,"Edmund-Reim-Gasse").
+initlocation(1,"Melkergründe").
+initlocation(1,"Taborstraße").
+initlocation(1,"Oberfeld").
+sequence(1,0, "Pressbaum Bahnhof").
+person(2).
+initlocation(2,"Weihburggasse").
+initlocation(2,"Schönthalergasse").
+initlocation(2,"Praterstern/Lassallestraße").
+initlocation(2,"Kastanienallee").
+initlocation(2,"Riemergasse").
+initlocation(2,"Antonigasse").
+initlocation(2,"Schemmerlstraße").
+sequence(2,0, "Weihburggasse").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Pantucekgasse").
+possiblemeetinglocations("Speditionsstraße").
+possiblemeetinglocations("Währinger Park").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Dirmhirngasse").
+possiblemeetinglocations("Jura-Soyfer-Gasse").
+restaurant("Schloss Belvedere").
+restaurant("Achau Bahnhof").
+restaurant("Gutraterplatz").
+restaurant("Rotenturmstraße").
+restaurant("Smolagasse").
+restaurant("Linke Wienzeile/Brückengasse").
+restaurant("Mauthausgasse").
