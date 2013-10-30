@@ -43,6 +43,8 @@ do
 		solvertime=$(cat $dir/$instance.$i.verbose.dat | grep -a "HEX solver time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
 		pathlen=$(cat $dir/$instance.$i.out.dat | sed 's/),/),\n/g' | grep -roh "path(" | grep "^path" | wc -w)
 		changes=$(cat $dir/$instance.$i.out.dat | sed 's/),/),\n/g' | grep "^path(" | grep "change" | wc -l)
+		pathlen=$(echo "$pathlen.00")
+		changes=$(echo "$changes.00")
 	else
         	output="---"
   	        groundertime="---"
