@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Stallarngasse").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Auspitzgasse").
+sequence(1,0, "Stallarngasse").
+person(2).
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Memlinggasse").
+initlocation(2,"Anton-Stilling-Platz").
+sequence(2,0, "Geiereckstraße").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Hagedornweg").
+possiblemeetinglocations("Diesterweggasse").
+restaurant("Michelhausen Bahnhof").
+restaurant("Berlepschgasse").
+restaurant("Göllersdorf Bahnhof").

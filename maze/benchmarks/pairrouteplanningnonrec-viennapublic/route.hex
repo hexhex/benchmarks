@@ -21,7 +21,7 @@ meetingChosen :- not anyNeedRestaurant, chooseMeeting(L).
 location(P, L) :- not anyNeedRestaurant, person(P), chooseMeeting(L).
 
 % plan the tours
-pathTmp(P, L1, L2, X, Y, C, Type) :- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2), NrNext = Nr + 1, &path["vienna-publictransport2.hex", edgeline, L1, L2](X, Y, C, Type).
+pathTmp(P, L1, L2, X, Y, C, Type) :- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2), NrNext = Nr + 1, &path["vienna-publictransport.hex", edgeline, L1, L2](X, Y, C, Type).
 path(P, X, Y, C, Type) :- person(P), pathTmp(P, L1, L2, X, Y, C, Type).
 pathExists(P, L1, L2) :- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2), NrNext = Nr + 1, pathTmp(P, L1, L2, X, Y, C, Type).
 :- person(P), sequence(P, Nr, L1), sequence(P, NrNext, L2), NrNext = Nr + 1, not pathExists(P, L1, L2).

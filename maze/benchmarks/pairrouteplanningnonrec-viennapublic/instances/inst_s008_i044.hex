@@ -1,0 +1,36 @@
+person(1).
+initlocation(1,"Herrengasse").
+initlocation(1,"Römergasse").
+initlocation(1,"Krankenanstalt Rudolfstiftung").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Siedlung Kordon").
+initlocation(1,"Zanggasse").
+initlocation(1,"Albertgasse").
+initlocation(1,"Spitalgasse/Währinger Straße").
+sequence(1,0, "Herrengasse").
+person(2).
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Sagedergasse").
+initlocation(2,"Marathonweg").
+initlocation(2,"Vivariumstraße").
+initlocation(2,"Sibeliusstraße").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Inzersdorfer Str/Ettenreichg").
+initlocation(2,"Gramatneusiedl Bahnhof").
+sequence(2,0, "Stadiongasse/Parlament").
+possiblemeetinglocations("Sauerburggasse").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Schloss Neugebäude").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Stadionbad").
+restaurant("Marathonweg").
+restaurant("Holubstraße").
+restaurant("Gadnergasse/Hasenleitengasse").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Agavenweg").
+restaurant("Hauptbahnhof Ost").
+restaurant("Leopoldigasse").
+restaurant("Percostraße").

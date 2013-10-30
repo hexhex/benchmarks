@@ -44,7 +44,7 @@ chosen :- needRestaurant, chooseRestaurant(R).
 location(R) :- needRestaurant, chooseRestaurant(R).
 
 % plan the tour (with or without restaurant)
-pathTmp(L1, L2, X, Y, C, Type) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, &path["vienna-publictransport2.hex", edgeline, L1, L2](X, Y, C, Type).
+pathTmp(L1, L2, X, Y, C, Type) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, &path["vienna-publictransport.hex", edgeline, L1, L2](X, Y, C, Type).
 path(X, Y, C, Type) :- pathTmp(L1, L2, X, Y, C, Type).
 pathExists(L1, L2) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, pathTmp(L1, L2, X, Y, C, Type).
 :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, not pathExists(L1, L2).

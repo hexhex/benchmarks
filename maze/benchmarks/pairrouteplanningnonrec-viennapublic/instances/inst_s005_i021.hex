@@ -1,0 +1,24 @@
+person(1).
+initlocation(1,"Rosenbergstraße").
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Fendigasse").
+initlocation(1,"Rampengasse").
+initlocation(1,"Oleandergasse").
+sequence(1,0, "Rosenbergstraße").
+person(2).
+initlocation(2,"Siedlung Einigkeit").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Pohlgasse").
+initlocation(2,"Nordbrücke").
+initlocation(2,"Aspern, Oberdorfstraße").
+sequence(2,0, "Siedlung Einigkeit").
+possiblemeetinglocations("Binsenweg/Am Mühlwasser").
+possiblemeetinglocations("Höhenstraße/Marswiese").
+possiblemeetinglocations("Pötzleinsdorfer Friedhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Weihburggasse").
+restaurant("Hänflingweg").
+restaurant("Klebindergraben").
+restaurant("Podlahagasse").
+restaurant("Wenzgasse").
+restaurant("Dörmanngasse").

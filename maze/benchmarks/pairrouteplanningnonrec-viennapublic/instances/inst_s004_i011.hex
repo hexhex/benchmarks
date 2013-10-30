@@ -1,0 +1,20 @@
+person(1).
+initlocation(1,"Messe-Prater").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Ziegelofengasse").
+initlocation(1,"Simonygasse").
+sequence(1,0, "Messe-Prater").
+person(2).
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Lindenbauergasse").
+initlocation(2,"Hetzendorf").
+sequence(2,0, "Purkersdorf Sanatorium").
+possiblemeetinglocations("Breitenleer Str/Ziegelhofstr").
+possiblemeetinglocations("Erlachplatz").
+possiblemeetinglocations("Sebaldgasse").
+possiblemeetinglocations("Hüttergasse").
+restaurant("Erdberg").
+restaurant("Warneckestraße").
+restaurant("Häußlergasse").
+restaurant("Anschützgasse").

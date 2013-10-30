@@ -1,0 +1,20 @@
+person(1).
+initlocation(1,"Hardeggasse").
+initlocation(1,"Gymnasiumstraße").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Kaiserebersdorf").
+sequence(1,0, "Hardeggasse").
+person(2).
+initlocation(2,"Triester Str/Altdorferstraße").
+initlocation(2,"Florianigasse").
+initlocation(2,"Haberlandtgasse").
+initlocation(2,"Bahnhof Meidling").
+sequence(2,0, "Triester Str/Altdorferstraße").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Redtenbachergasse").
+possiblemeetinglocations("Thaliastraße").
+restaurant("Preyergasse/Speising").
+restaurant("Stephansplatz").
+restaurant("Bärenmühldurchgang").
+restaurant("Lokomotivgasse").

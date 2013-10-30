@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Schwarzspanierstraße").
-initlocation(1,"Sankt-Ulrichs-Platz").
-initlocation(1,"Mayssengasse").
-initlocation(1,"Kundratstraße").
-initlocation(1,"Paulanergasse").
-initlocation(1,"Wenzgasse").
-sequence(1,0, "Schwarzspanierstraße").
+initlocation(1,"Pfarrgasse").
+initlocation(1,"Kaisermühlenstraße").
+initlocation(1,"Adamovichgasse").
+initlocation(1,"1 Haidequerstraße Süd").
+initlocation(1,"Blindengasse").
+initlocation(1,"Lokomotivgasse").
+sequence(1,0, "Pfarrgasse").
 person(2).
-initlocation(2,"Bruck/Leitha Bahnhof").
-initlocation(2,"Moritz-Dreger-Gasse").
-initlocation(2,"Peter-Jordan-Straße").
-initlocation(2,"Akademietheater").
-initlocation(2,"Lainz, Wolkersbergenstraße").
-initlocation(2,"Breitenlee Schule").
-sequence(2,0, "Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Baumgartner Höhe").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("1 Haidequerstraße Mitte").
-possiblemeetinglocations("Slamastraße").
-possiblemeetinglocations("Hetzendorf S/Altmannsd Str").
-possiblemeetinglocations("Fultonstraße").
-restaurant("Thaliastraße").
-restaurant("Edmund-Reim-Gasse").
-restaurant("Linzer Straße/Reinlgasse").
-restaurant("Flughafen Wien (VIE).
-Bahnhof").
-restaurant("Nordwestbahnstraße").
-restaurant("Samptwandnergasse").
+initlocation(2,"Südportalstraße").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Edelsinnstraße").
+initlocation(2,"Liesing").
+initlocation(2,"Laxenburger Straße/Troststraße").
+initlocation(2,"Rudolf-Zeller-Gasse").
+sequence(2,0, "Südportalstraße").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Breitenft Str/Hetzendorfer Str").
+possiblemeetinglocations("Borkowskigasse").
+possiblemeetinglocations("Inzersdorfer Str/Ettenreichg").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Campingplatz Wien-West 2").
+restaurant("Ruthnergasse").
+restaurant("Mühlau").
+restaurant("Südrandstraße").
+restaurant("Himmelmutterweg").
+restaurant("Atzgersdorf").
+restaurant("Wagner-Schönkirch-Gasse").

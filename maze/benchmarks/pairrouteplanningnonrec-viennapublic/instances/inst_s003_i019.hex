@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Kaisermühlenstraße").
+initlocation(1,"Halteraugasse").
+initlocation(1,"Theergasse").
+sequence(1,0, "Kaisermühlenstraße").
+person(2).
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Taglieberstraße").
+sequence(2,0, "Burggasse-Stadthalle").
+possiblemeetinglocations("Gregorygasse").
+possiblemeetinglocations("Hirschengasse").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+restaurant("Rallenweg").
+restaurant("Nordwestbahnstraße").
+restaurant("Kinskygasse/Rossakgasse").

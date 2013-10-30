@@ -1,0 +1,20 @@
+person(1).
+initlocation(1,"Max-Winter-Platz").
+initlocation(1,"Scheffelstraße").
+initlocation(1,"Preßgasse").
+initlocation(1,"Hintzerstraße").
+sequence(1,0, "Max-Winter-Platz").
+person(2).
+initlocation(2,"Doeltergasse").
+initlocation(2,"Am Bahnhof").
+initlocation(2,"Aspern Sportplatz").
+initlocation(2,"Tulln Bahnhof").
+sequence(2,0, "Doeltergasse").
+possiblemeetinglocations("Linke Wienzeile/Brückengasse").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Langfeldgasse").
+restaurant("Unter Sankt Veit").
+restaurant("Nemethgasse").
+restaurant("Fabianistraße").
+restaurant("Eslarngasse").

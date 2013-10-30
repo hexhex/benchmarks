@@ -1,0 +1,24 @@
+person(1).
+initlocation(1,"Staglgasse").
+initlocation(1,"Windtenstraße").
+initlocation(1,"Gutheil-Schoder-Gasse").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Wienerflurgasse").
+sequence(1,0, "Staglgasse").
+person(2).
+initlocation(2,"Dänenstraße").
+initlocation(2,"Erlafstraße").
+initlocation(2,"Ehrenpreisgasse").
+initlocation(2,"Krenngasse").
+initlocation(2,"Gregor-Mendel-Straße").
+sequence(2,0, "Dänenstraße").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Concordiaplatz").
+possiblemeetinglocations("Glossystraße").
+possiblemeetinglocations("Am Europlatz").
+restaurant("Lackenjöchelgasse").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Harkortstraße").
+restaurant("Mitterhofergasse").
+restaurant("Fernsprechamt Heiligenstadt").

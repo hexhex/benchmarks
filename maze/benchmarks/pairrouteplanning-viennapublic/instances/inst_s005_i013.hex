@@ -1,0 +1,24 @@
+person(1).
+initlocation(1,"Lannesstraße").
+initlocation(1,"Knotzenbachgasse").
+initlocation(1,"Migerkastraße").
+initlocation(1,"Edenstraße").
+initlocation(1,"Ammerweg").
+sequence(1,0, "Lannesstraße").
+person(2).
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Höhenstraße/Marswiese").
+initlocation(2,"Gruschaplatz").
+initlocation(2,"Stollgasse").
+initlocation(2,"Geistingergasse").
+sequence(2,0, "Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Leopoldauer Platz").
+possiblemeetinglocations("Oberlaaer Platz").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Hofmannsthalgasse").
+possiblemeetinglocations("Daringergasse").
+restaurant("Promenadeweg").
+restaurant("Edenstraße").
+restaurant("Unterlaaer Straße").
+restaurant("Iselgasse").
+restaurant("Kurt-Tichy-Gasse").

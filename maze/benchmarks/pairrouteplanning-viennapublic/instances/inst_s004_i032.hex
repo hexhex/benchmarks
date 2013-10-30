@@ -1,0 +1,20 @@
+person(1).
+initlocation(1,"Hänischgasse").
+initlocation(1,"Römergasse").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Plankengasse").
+sequence(1,0, "Hänischgasse").
+person(2).
+initlocation(2,"Svetelskystraße").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Schemmerlstraße").
+initlocation(2,"Am Krautgarten").
+sequence(2,0, "Svetelskystraße").
+possiblemeetinglocations("Klaschkaweg").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Schafberg/Werfelstraße").
+possiblemeetinglocations("Biomull-Werk").
+restaurant("Zeleborgasse").
+restaurant("Burggasse-Stadthalle").
+restaurant("Haspelmeistergasse").
+restaurant("Korbgasse").

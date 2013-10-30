@@ -1,0 +1,36 @@
+person(1).
+initlocation(1,"Lichtblaustraße").
+initlocation(1,"Liesing Bad").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Lindauergasse").
+initlocation(1,"Industriestraße/Lange Allee").
+initlocation(1,"Engerthstraße/Traisengasse").
+initlocation(1,"Donauspital").
+initlocation(1,"Dörmanngasse").
+sequence(1,0, "Lichtblaustraße").
+person(2).
+initlocation(2,"Mantlergasse").
+initlocation(2,"Halteraugasse").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Holubstraße").
+initlocation(2,"Attemsgasse").
+initlocation(2,"Zinnergasse").
+initlocation(2,"Otto-Probst-Straße").
+initlocation(2,"Habsburgergasse").
+sequence(2,0, "Mantlergasse").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Badgasse").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Kornblumenweg").
+possiblemeetinglocations("Floridsdorfer Brücke").
+possiblemeetinglocations("Purkytgasse").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+restaurant("Schüttauplatz").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Lorystraße").
+restaurant("Marxergasse").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Berresgasse").
+restaurant("Schloss Schönbrunn").

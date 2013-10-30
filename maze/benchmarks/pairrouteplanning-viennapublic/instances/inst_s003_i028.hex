@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Stadlauer Straße/Ostbahn").
+sequence(1,0, "Atzenbrugg Bahnhof").
+person(2).
+initlocation(2,"Donauspital").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Ameisgasse").
+sequence(2,0, "Donauspital").
+possiblemeetinglocations("Siebensterngasse").
+possiblemeetinglocations("Hasnerstraße").
+possiblemeetinglocations("Jungbauerweg").
+restaurant("Zentralfriedhof 3Tor").
+restaurant("Kollarzgasse").
+restaurant("Stephansplatz").

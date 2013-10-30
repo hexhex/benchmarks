@@ -1,0 +1,24 @@
+person(1).
+initlocation(1,"Strozzigasse").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Ernanigasse").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+initlocation(1,"Linzer Straße/Johnstraße").
+sequence(1,0, "Strozzigasse").
+person(2).
+initlocation(2,"Im Gestockert").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Zieglergasse/Neustiftgasse").
+initlocation(2,"Iselgasse").
+initlocation(2,"Langsulzgasse").
+sequence(2,0, "Im Gestockert").
+possiblemeetinglocations("Harkortstraße").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Corvinusgasse").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+restaurant("Großmarktstraße").
+restaurant("Adalbert-Stifter-Str/Jägerstr").
+restaurant("Laurentiusplatz").
+restaurant("Donaustadtstraße/Deinleingasse").
+restaurant("St Pölten Hauptbahnhof").

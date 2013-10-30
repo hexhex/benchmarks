@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Edelsinnstraße/Schwenkgasse").
-initlocation(1,"Ruckergasse/Pohlgasse").
-initlocation(1,"Molitorgasse").
-initlocation(1,"Brigittagasse").
-sequence(1,0, "Edelsinnstraße/Schwenkgasse").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Hertha-Firnberg-Straße").
+initlocation(1,"Anschützgasse").
+initlocation(1,"Berresgasse").
+sequence(1,0, "Koppstraße/Panikengasse").
 person(2).
-initlocation(2,"Triester Straße/Computerstraße").
-initlocation(2,"Weidlingau Bahnhof").
-initlocation(2,"Mariabrunn Kirche").
-initlocation(2,"Dornbach, Güpferlingstraße").
-sequence(2,0, "Triester Straße/Computerstraße").
-possiblemeetinglocations("Neulandschule").
-possiblemeetinglocations("Triester Straße/Computerstraße").
-possiblemeetinglocations("Berggasse").
-possiblemeetinglocations("Khevenhüllerstraße").
-restaurant("Sturgasse").
-restaurant("Luzegasse").
-restaurant("Leesdorf Bahnhof").
-restaurant("Zimbagasse").
+initlocation(2,"Rodlergasse").
+initlocation(2,"Hütteldorfer Str/Lützowgasse").
+initlocation(2,"Magdalenenstraße").
+initlocation(2,"Bellgasse").
+sequence(2,0, "Rodlergasse").
+possiblemeetinglocations("Kunerolgasse").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Lichtblaustraße").
+restaurant("Guntherstraße").
+restaurant("Lobau").
+restaurant("Höhenstraße/Rohrerwiese").
+restaurant("Mariabrunn Kirche").

@@ -1,0 +1,20 @@
+person(1).
+initlocation(1,"Skraupstraße/Justgasse").
+initlocation(1,"Maurer Berg").
+initlocation(1,"Mariahilfer Str/Arnsteingasse").
+initlocation(1,"Mühlfeldgasse").
+sequence(1,0, "Skraupstraße/Justgasse").
+person(2).
+initlocation(2,"Rodaun").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Praterbrücke").
+sequence(2,0, "Rodaun").
+possiblemeetinglocations("Hohenbergstraße").
+possiblemeetinglocations("Wallrißstraße").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Weißenthurngasse").
+restaurant("Süßenbr Str/Breitenleer Str").
+restaurant("Gadnergasse").
+restaurant("Salzgries").
+restaurant("Markomannenstraße").

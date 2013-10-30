@@ -1,0 +1,20 @@
+person(1).
+initlocation(1,"Margaretenplatz").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Trondheimgasse").
+sequence(1,0, "Margaretenplatz").
+person(2).
+initlocation(2,"Leberberg").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Stollgasse").
+initlocation(2,"Kundmanngasse").
+sequence(2,0, "Leberberg").
+possiblemeetinglocations("Saarplatz").
+possiblemeetinglocations("Pfarrwiesenstraße").
+possiblemeetinglocations("Elderschplatz").
+possiblemeetinglocations("Erndtgasse").
+restaurant("Kapellergasse").
+restaurant("Thonetgasse").
+restaurant("Starhemberg-Kaserne").
+restaurant("Magdalenenstraße").

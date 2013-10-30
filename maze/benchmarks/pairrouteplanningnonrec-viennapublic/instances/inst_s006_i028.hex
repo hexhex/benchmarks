@@ -1,0 +1,28 @@
+person(1).
+initlocation(1,"Arztgasse").
+initlocation(1,"Reglergasse").
+initlocation(1,"Sahulkastraße").
+initlocation(1,"Weitlofgasse").
+initlocation(1,"Samptwandnergasse").
+initlocation(1,"Rudolf-Zeller-Gasse").
+sequence(1,0, "Arztgasse").
+person(2).
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Steigenteschgasse").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Lebingergasse").
+initlocation(2,"Fickeysstraße").
+initlocation(2,"Weidelstraße").
+sequence(2,0, "Hausleiten Bahnhof").
+possiblemeetinglocations("Theodor-Kramer-Straße").
+possiblemeetinglocations("Eduard-Kittenberger-Gasse").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Oskar-Simony-Straße").
+possiblemeetinglocations("Ferdinand-Frey-Weg").
+possiblemeetinglocations("Atzgersdorf").
+restaurant("Kohlgasse").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Neulengbach Bahnhof").
+restaurant("Mühlweg").
+restaurant("Berlepschgasse").
+restaurant("Museumsquartier").

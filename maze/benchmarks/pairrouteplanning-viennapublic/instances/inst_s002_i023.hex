@@ -1,0 +1,12 @@
+person(1).
+initlocation(1,"Oberfeldgasse/Spargelfeldstr").
+initlocation(1,"Dörmanngasse").
+sequence(1,0, "Oberfeldgasse/Spargelfeldstr").
+person(2).
+initlocation(2,"Sobotagasse").
+initlocation(2,"Alser Straße").
+sequence(2,0, "Sobotagasse").
+possiblemeetinglocations("Schöpfwerk").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+restaurant("Wienerflurgasse").
+restaurant("Liesing Friedhof").

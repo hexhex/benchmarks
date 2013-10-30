@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Alberner Straße").
+initlocation(1,"Sternwartestraße").
+initlocation(1,"Hoher Markt").
+sequence(1,0, "Alberner Straße").
+person(2).
+initlocation(2,"Liesinger-Flur-Gasse").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Bacherplatz").
+sequence(2,0, "Liesinger-Flur-Gasse").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Aurikelweg").
+possiblemeetinglocations("Kranzgasse").
+restaurant("Campingplatz Wien-West 2").
+restaurant("Dampfkraftwerk Donaustadt").
+restaurant("Brückengasse").

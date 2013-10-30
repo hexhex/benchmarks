@@ -1,0 +1,12 @@
+person(1).
+initlocation(1,"Kohlgasse").
+initlocation(1,"Riedstraße").
+sequence(1,0, "Kohlgasse").
+person(2).
+initlocation(2,"Zeleborgasse").
+initlocation(2,"Strebersdorf").
+sequence(2,0, "Zeleborgasse").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Karmeliterplatz").
+restaurant("Möllersdorf Haltestelle").
+restaurant("Hohe Warte").

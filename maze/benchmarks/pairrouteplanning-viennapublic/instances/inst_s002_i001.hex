@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Dommayergasse").
-initlocation(1,"Hanusch-Krankenhaus").
-sequence(1,0, "Dommayergasse").
+initlocation(1,"Krenngasse").
+initlocation(1,"Memlinggasse").
+sequence(1,0, "Krenngasse").
 person(2).
-initlocation(2,"Hütteldorfer Straße/Johnstraße").
-initlocation(2,"Florian-Hedorfer-Straße").
-sequence(2,0, "Hütteldorfer Straße/Johnstraße").
-possiblemeetinglocations("Tamariskengasse").
-possiblemeetinglocations("Schottenring").
-restaurant("Pantucekgasse").
-restaurant("Stadlergasse").
+initlocation(2,"Bellevuestraße").
+initlocation(2,"Am Krautgarten").
+sequence(2,0, "Bellevuestraße").
+possiblemeetinglocations("Justgasse").
+possiblemeetinglocations("Am Schöpfwerk").
+restaurant("Teiläckergasse").
+restaurant("Schmerlingplatz").

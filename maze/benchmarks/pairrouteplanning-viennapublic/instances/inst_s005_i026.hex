@@ -1,0 +1,24 @@
+person(1).
+initlocation(1,"Warneckestraße").
+initlocation(1,"Himmelmutterweg").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Schottenring").
+initlocation(1,"Jüptnergasse").
+sequence(1,0, "Warneckestraße").
+person(2).
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Graffgasse").
+initlocation(2,"Neustift am Walde").
+initlocation(2,"Günselgasse").
+initlocation(2,"Siedlung Sonnheim").
+sequence(2,0, "Atzenbrugg Bahnhof").
+possiblemeetinglocations("Auhof").
+possiblemeetinglocations("Hütteldorfer Straße/Johnstraße").
+possiblemeetinglocations("Alaudagasse").
+possiblemeetinglocations("Jedlersdorfer Straße").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+restaurant("Marenabrücke").
+restaurant("Liesing Friedhof").
+restaurant("Dänenstraße").
+restaurant("Marderweg").
+restaurant("Altes Landgut").

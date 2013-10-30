@@ -1,0 +1,24 @@
+person(1).
+initlocation(1,"Swatoschgasse").
+initlocation(1,"Beingasse").
+initlocation(1,"Donauspital").
+initlocation(1,"Windtenstraße").
+initlocation(1,"Bahnhofstraße").
+sequence(1,0, "Swatoschgasse").
+person(2).
+initlocation(2,"Josef-Flandorfer-Straße").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Marx-Meidlinger-Straße").
+initlocation(2,"Stipcakgasse").
+initlocation(2,"Lichtensterngasse").
+sequence(2,0, "Josef-Flandorfer-Straße").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Sonnleithnergasse").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Leidlweg").
+restaurant("Swatoschgasse").
+restaurant("Steinsee").
+restaurant("Schöffelplatz").
+restaurant("Nestroyplatz/Praterstraße").
+restaurant("Pokornygasse").

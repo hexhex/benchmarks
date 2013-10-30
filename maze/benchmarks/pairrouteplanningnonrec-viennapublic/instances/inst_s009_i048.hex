@@ -1,0 +1,40 @@
+person(1).
+initlocation(1,"Kranzgasse").
+initlocation(1,"Kefedergrundgasse").
+initlocation(1,"Zifferergasse").
+initlocation(1,"Eibesbrunnergasse").
+initlocation(1,"Praterkai").
+initlocation(1,"Kleistgasse").
+initlocation(1,"Panozzalacke").
+initlocation(1,"Anzengruberstraße").
+initlocation(1,"Jungstraße").
+sequence(1,0, "Kranzgasse").
+person(2).
+initlocation(2,"Wachthausgasse").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Glatzgasse").
+initlocation(2,"Siebeneichengasse").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Saikogasse").
+initlocation(2,"Zinnergasse/Kaserne").
+initlocation(2,"Winckelmannstraße").
+sequence(2,0, "Wachthausgasse").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Kaiserebersdorf Münnichplatz").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Bettelheimstraße").
+possiblemeetinglocations("Hubermanngasse").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Auhof Umspannwerk").
+restaurant("Reichsbrücke").
+restaurant("Neulandschule").
+restaurant("Leopoldau/Möllplatz").
+restaurant("Hollergasse").
+restaurant("Neubaugasse").
+restaurant("Heustadelgasse/Schule").
+restaurant("Hugo-Wolf-Park").

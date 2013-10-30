@@ -1,0 +1,28 @@
+person(1).
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Siegesplatz").
+initlocation(1,"Spengergasse").
+initlocation(1,"Stavangergasse").
+initlocation(1,"Herzmanskystraße").
+sequence(1,0, "Liechtenwerder Platz").
+person(2).
+initlocation(2,"Seestadt").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Hochmuthgasse").
+initlocation(2,"Apostelgasse").
+initlocation(2,"Wienerberg City").
+initlocation(2,"Kledering Bahnhof").
+sequence(2,0, "Seestadt").
+possiblemeetinglocations("Seybelgasse").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Wehrbrücklstraße/Gernotgasse").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Mehlführergasse").
+possiblemeetinglocations("Geistingergasse").
+restaurant("Mühlau").
+restaurant("Stadlauer Friedhof").
+restaurant("Roßauer Lände").
+restaurant("Baumgartner Höhe").
+restaurant("Am Kanal/Hasenleitengasse").
+restaurant("Thaliastraße/Feßtgasse").

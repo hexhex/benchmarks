@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Burgenlandgasse").
+initlocation(1,"Winkeläckerstraße").
+sequence(1,0, "Schlachthausgasse").
+person(2).
+initlocation(2,"Rustengasse").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Staatz Bahnhof").
+sequence(2,0, "Rustengasse").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+restaurant("Max-Mauermann-Gasse").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Mannswörth Bahnhof").

@@ -1,0 +1,16 @@
+person(1).
+initlocation(1,"Geiereckstraße").
+initlocation(1,"Polgarstraße").
+initlocation(1,"Winckelmannstraße").
+sequence(1,0, "Geiereckstraße").
+person(2).
+initlocation(2,"Skraupstraße").
+initlocation(2,"Schöberweg").
+initlocation(2,"Gußriegelstraße").
+sequence(2,0, "Skraupstraße").
+possiblemeetinglocations("Arztgasse").
+possiblemeetinglocations("Wassermanngasse").
+possiblemeetinglocations("Trabrennstraße").
+restaurant("Häußlergasse").
+restaurant("Winkeläckerstraße").
+restaurant("Lannesstraße").

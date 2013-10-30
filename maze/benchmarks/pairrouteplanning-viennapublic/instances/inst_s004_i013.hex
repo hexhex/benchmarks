@@ -1,0 +1,20 @@
+person(1).
+initlocation(1,"Hoechlegasse").
+initlocation(1,"Korbgasse").
+initlocation(1,"Serpentingasse").
+initlocation(1,"Paradisgasse").
+sequence(1,0, "Hoechlegasse").
+person(2).
+initlocation(2,"Maria Enzersdorf-Südstadt Bf").
+initlocation(2,"Michaelerplatz").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Pelargonienweg").
+sequence(2,0, "Maria Enzersdorf-Südstadt Bf").
+possiblemeetinglocations("Hirschstetten Ort").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Wolfganggasse/Steinbauergasse").
+possiblemeetinglocations("Eisenstadtplatz").
+restaurant("Wolfganggasse/Steinbauergasse").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Kanalstraße").
+restaurant("Penzinger Straße").

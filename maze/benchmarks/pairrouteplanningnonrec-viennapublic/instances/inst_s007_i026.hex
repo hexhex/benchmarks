@@ -1,0 +1,32 @@
+person(1).
+initlocation(1,"Gregorygasse").
+initlocation(1,"Ährengrubenweg").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Dampfschiffhaufen").
+initlocation(1,"Kolpingstraße").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Wildungsmauer Bahnhof").
+sequence(1,0, "Gregorygasse").
+person(2).
+initlocation(2,"Am Rain").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Großmarktstraße").
+initlocation(2,"Sankt Marx/Leberstraße").
+initlocation(2,"Maurer Berg").
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Thaliastraße/Haberlgasse").
+sequence(2,0, "Am Rain").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf, Sängergasse").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Häußlergasse").
+possiblemeetinglocations("Koppstraße/Thaliastraße").
+possiblemeetinglocations("Schlachthausgasse").
+restaurant("Geiereckstraße").
+restaurant("Wiethestraße").
+restaurant("Mooslackengasse").
+restaurant("Mühlwasserstraße").
+restaurant("Mariabrunn Kirche").
+restaurant("Ziegelofengasse").
+restaurant("Eigenheimsiedlung Haltestelle").

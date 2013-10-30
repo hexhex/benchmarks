@@ -1,0 +1,32 @@
+person(1).
+initlocation(1,"Gusenleithnergasse").
+initlocation(1,"Gasometer").
+initlocation(1,"Petrusgasse").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Valentingasse").
+initlocation(1,"Johnstraße/Märzstraße").
+initlocation(1,"Jedlersdorf").
+sequence(1,0, "Gusenleithnergasse").
+person(2).
+initlocation(2,"Draugasse").
+initlocation(2,"Lieblgasse").
+initlocation(2,"Schütthäufel").
+initlocation(2,"Theater in der Josefstadt").
+initlocation(2,"Vogelweidplatz/Stadthalle").
+initlocation(2,"Krautackergasse").
+initlocation(2,"Kellermanngasse").
+sequence(2,0, "Draugasse").
+possiblemeetinglocations("Stranitzkygasse").
+possiblemeetinglocations("Rotenmühlgasse").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Laxenburger Str/Sahulkastraße").
+possiblemeetinglocations("Freesienweg").
+possiblemeetinglocations("Schüttaustraße").
+restaurant("Siedlung Einigkeit").
+restaurant("Weiglgasse").
+restaurant("Schöffelplatz").
+restaurant("Kaiserstraße/Burggasse").
+restaurant("Guntramsdorf Lokalbahn").
+restaurant("Rueppgasse").
+restaurant("Lavantgasse/Schule").
