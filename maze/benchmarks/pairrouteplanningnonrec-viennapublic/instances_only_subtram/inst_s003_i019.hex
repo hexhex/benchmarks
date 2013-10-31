@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Absdorf-Hippersdorf Bahnhof").
-initlocation(1,"Thaliastraße/Maroltingergasse").
-initlocation(1,"Maria Anzbach Bahnhof").
-sequence(1,0, "Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Anton-Krieger-Gasse").
+initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation($p,"Thaliastraße/Haberlgasse").
+initlocation($p,"Anton-Krieger-Gasse").
 person(2).
-initlocation(2,"Winckelmannstraße").
-initlocation(2,"Hausleiten Bahnhof").
-initlocation(2,"Franzensbrücke").
-sequence(2,0, "Winckelmannstraße").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Troststraße/Neilreichgasse").
-possiblemeetinglocations("Anton-Schall-Gasse").
-restaurant("Prandaugasse").
-restaurant("Bahnsteggasse").
-restaurant("Versorgungsheimplatz").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Hohe Warte").
+initlocation($p,"Schlachthausgasse").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Leopoldau").
+restaurant("Oberzellergasse").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Untereggendorf Bahnhof").

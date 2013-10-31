@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Hainburg/Donau Personenbhf").
-initlocation(1,"Alte Donau").
-initlocation(1,"Herrengasse").
-initlocation(1,"Herzogenburg Stadt").
-initlocation(1,"Pressbaum Bahnhof").
-initlocation(1,"Taborstraße").
-sequence(1,0, "Hainburg/Donau Personenbhf").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Felixdorf Bahnhof").
 person(2).
-initlocation(2,"Strasshof Bahnhof").
-initlocation(2,"Kapellerfeld Bahnhof").
-initlocation(2,"Maria Anzbach Bahnhof").
-initlocation(2,"Nußdorfer Straße").
-initlocation(2,"Kottingneusiedl Bahnhof").
-initlocation(2,"Hirschstetten").
-sequence(2,0, "Strasshof Bahnhof").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-restaurant("Schwedenplatz".
-restaurant("Hütteldorfer Straße".
-restaurant("Süßenbrunn".
-restaurant("Erdberg".
-restaurant("Maria Anzbach Bahnhof".
-restaurant("Weidlingau Bahnhof").
+initlocation($p,"Donauinsel").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Seestadt").
+initlocation($p,"Simmering").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Donauinsel").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Schlachthausgasse").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Mistelbach Bahnhof").
+restaurant("Schleinbach Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").

@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Bad Vöslau Bahnhof").
-initlocation(1,"Schönbrunn").
-initlocation(1,"Stadlau").
-initlocation(1,"Quartier Belvedere").
-initlocation(1,"Unterradlberg Bahnhof").
-initlocation(1,"Geiselbergstraße").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-sequence(1,0, "Bad Vöslau Bahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Hernals").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
 person(2).
-initlocation(2,"Sankt Marx").
-initlocation(2,"Donauspital").
-initlocation(2,"Staatz Bahnhof").
-initlocation(2,"Bad Vöslau Bahnhof").
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-initlocation(2,"Untereggendorf Bahnhof").
-initlocation(2,"Hainburg/Donau Personenbhf").
-sequence(2,0, "Sankt Marx").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Tulln Bahnhof").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Ottakring").
-restaurant("Theresienfeld Bahnhof".
-restaurant("Wampersdorf Bahnhof".
-restaurant("Braunschweiggasse".
-restaurant("Keplerplatz".
-restaurant("Hütteldorf".
-restaurant("Hennersdorf Bahnhof".
-restaurant("Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Kaiserebersdorf").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Bisamberg Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Siemensstraße").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Erlaaer Straße").
+restaurant("Gaisruck Bahnhof").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Viehofen Bahnhof").

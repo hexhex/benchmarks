@@ -1,56 +1,56 @@
 person(1).
-initlocation(1,"Himberg Bahnhof").
-initlocation(1,"Eichgraben-Altlengbach Bahnhof").
-initlocation(1,"Hintere Zollamtsstraße").
-initlocation(1,"Jägerstraße").
-initlocation(1,"Pötzleinsdorf").
-initlocation(1,"Stadlergasse").
-initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(1,"Leobersdorf Bahnhof").
-initlocation(1,"Praterstern").
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Penzinger Straße").
-initlocation(1,"Kaiserebersdorf").
-initlocation(1,"Stollgasse").
-sequence(1,0, "Himberg Bahnhof").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Spitalgasse/Währinger Straße").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Beingasse").
+initlocation($p,"Huglgasse").
+initlocation($p,"Fichtnergasse").
+initlocation($p,"Sillerplatz").
+initlocation($p,"Pantucekgasse/Widholzgasse").
+initlocation($p,"Mayssengasse").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Hietzing").
+initlocation($p,"Anton-Schall-Gasse").
+initlocation($p,"Gottschalkgasse/Enkplatz").
+initlocation($p,"Süßenbrunn").
 person(2).
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Julius-Raab-Platz").
-initlocation(2,"Blumengasse").
-initlocation(2,"Hintere Zollamtsstraße").
-initlocation(2,"Gramatneusiedl Bahnhof").
-initlocation(2,"Margaretengürtel").
-initlocation(2,"Kagran").
-initlocation(2,"Martinstraße").
-initlocation(2,"Wittelsbachstraße").
-initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(2,"Radetzkyplatz").
-initlocation(2,"Pfaffstätten Bahnhof").
-initlocation(2,"Breitenfurter St/Altmannsd Str").
-sequence(2,0, "Breitenwaida Bahnhof").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Floridsdorfer Brücke").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Skodagasse").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-possiblemeetinglocations("Vinzenzgasse").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Gatterburggasse").
-restaurant("Autokaderstraße").
-restaurant("Hoßplatz").
-restaurant("Blumengasse").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Nußdorf, Beethovengang").
-restaurant("Guntherstraße").
-restaurant("Bösendorferstraße").
-restaurant("Kaisermühlen-VIC").
-restaurant("Prinzgasse").
-restaurant("Unter St Veit, Hummelgasse").
-restaurant("Alser Straße").
-restaurant("Rosenhügelstraße").
-restaurant("Herrengasse").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Obere Donaustraße").
+initlocation($p,"Krieau").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Kaiserstraße").
+initlocation($p,"Praterkai").
+initlocation($p,"Hildebrandgasse").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Rustengasse").
+initlocation($p,"Stadlau").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation($p,"Frättingsdorf Bahnhof").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Jagdschloßgasse").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Baumgarten").
+restaurant("Franzensbrücke").
+restaurant("Sensengasse").
+restaurant("Ottakring").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Karmeliterplatz").
+restaurant("Silberwald Bahnhof").
+restaurant("Gusenleithnergasse").
+restaurant("Prandaugasse").
+restaurant("Dommayergasse").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Dr-Karl-Renner-Ring").

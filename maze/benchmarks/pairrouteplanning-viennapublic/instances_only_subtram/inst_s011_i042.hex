@@ -1,48 +1,48 @@
 person(1).
-initlocation(1,"Haidestraße").
-initlocation(1,"Camillo-Sitte-Gasse").
-initlocation(1,"Schlickgasse").
-initlocation(1,"Paulanergasse").
-initlocation(1,"Siebertgasse").
-initlocation(1,"Teichgasse").
-initlocation(1,"Hopfengasse").
-initlocation(1,"Heiligenstadt, 12-Februar-Pl").
-initlocation(1,"Bisamberg Bahnhof").
-initlocation(1,"Kagraner Platz").
-initlocation(1,"Wildgansplatz").
-sequence(1,0, "Haidestraße").
+initlocation($p,"Otto-Probst-Straße").
+initlocation($p,"Donaumarina").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Fichtnergasse").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Rennweg").
+initlocation($p,"Mayerhofgasse").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Wilhelminenstr/Sandleitengasse").
+initlocation($p,"Döblinger Hauptstr/Gatterburgg").
+initlocation($p,"Svetelskystraße").
+initlocation($p,"Otto-Probst-Straße").
 person(2).
-initlocation(2,"Wilhelminenstr/Sandleitengasse").
-initlocation(2,"Anton-Schall-Gasse").
-initlocation(2,"Herzogenburg Stadt").
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Mayssengasse").
-initlocation(2,"Korneuburg Bahnhof").
-initlocation(2,"Siebertgasse").
-initlocation(2,"Perfektastraße").
-initlocation(2,"Mühlfeldgasse").
-initlocation(2,"Am Heidjöchl").
-initlocation(2,"Mistelbach Bahnhof").
-sequence(2,0, "Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Gredlerstraße").
-possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Zentralfriedhof 3Tor").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Gußhausstraße").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Brigittaplatz").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Schloss Schönbrunn").
-possiblemeetinglocations("Molitorgasse").
-restaurant("Gerstnerstraße/Westbhf").
-restaurant("Donauinsel").
-restaurant("Marienbrücke").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Winckelmannstraße").
-restaurant("Linzer Straße/Johnstraße").
-restaurant("Migerkastraße").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Rothneusiedl").
-restaurant("Herzogenburg Stadt").
+initlocation($p,"Rathausplatz/Burgtheater").
+initlocation($p,"Augasse").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Taborstraße").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Leyserstraße").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Bahnhofstraße").
+initlocation($p,"Gutraterplatz").
+initlocation($p,"Klosterneub Str/Wallensteinstr").
+initlocation($p,"Columbusplatz").
+initlocation($p,"Rathausplatz/Burgtheater").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Volkstheater").
+restaurant("Lange Gasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Schottentor").
+restaurant("Museumsquartier").
+restaurant("Brünner Straße").
+restaurant("Polgarstraße").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Niederhofstraße").
+restaurant("Stadtpark").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Windtenstraße").

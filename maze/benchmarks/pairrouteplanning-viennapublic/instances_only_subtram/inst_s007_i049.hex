@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Hofstatt Bahnhof").
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Hausfeldstraße").
-initlocation(1,"Wolkersdorf Bahnhof").
-initlocation(1,"Am Heidjöchl/Hausfeldstraße").
-initlocation(1,"Albertgasse").
-initlocation(1,"Bruck/Leitha Bahnhof").
-sequence(1,0, "Hofstatt Bahnhof").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Gellertplatz").
+initlocation($p,"Obere Donaustraße").
+initlocation($p,"Schuhmeierplatz").
+initlocation($p,"Forstnergasse").
+initlocation($p,"Verbindungsbahn").
+initlocation($p,"Quellenplatz").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
 person(2).
-initlocation(2,"Floridsdorfer Markt").
-initlocation(2,"Reumannplatz").
-initlocation(2,"Erdberg").
-initlocation(2,"Winkeläckerstraße").
-initlocation(2,"Hildebrandgasse").
-initlocation(2,"Maria Ellend Bahnhof").
-initlocation(2,"Satzberggasse").
-sequence(2,0, "Floridsdorfer Markt").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
-possiblemeetinglocations("Wexstraße").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Grinzinger Straße").
-possiblemeetinglocations("Floridsdorf").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Heinrich-Drimmel-Platz").
-restaurant("Grillgasse").
-restaurant("Maurer Hauptplatz").
-restaurant("Kritzendorf Bahnhof").
-restaurant("Mistelbach Bahnhof").
-restaurant("Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Linzer Straße/Hochsatzengasse").
+initlocation($p,"Stadion").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Hütteldorfer Str/Hochsatzeng").
+initlocation($p,"Seestadt").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Rochusgasse").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Diesterweggasse").
+restaurant("Seyring Bahnhof").
+restaurant("Schweglerstraße").
+restaurant("Burgring").
+restaurant("Sonnergasse").
+restaurant("Leberberg").

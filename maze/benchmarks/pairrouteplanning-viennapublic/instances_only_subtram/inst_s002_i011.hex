@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Wallensteinplatz").
-initlocation(1,"Elterleinplatz").
-sequence(1,0, "Wallensteinplatz").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Parndorf Ort Bahnhof").
 person(2).
-initlocation(2,"Rothneusiedl").
-initlocation(2,"Sickenberggasse").
-sequence(2,0, "Rothneusiedl").
-possiblemeetinglocations("Römergasse").
-possiblemeetinglocations("Mistelbach Bahnhof").
-restaurant("Pantucekgasse/Widholzgasse").
-restaurant("Weihburggasse").
+initlocation($p,"Grillgasse").
+initlocation($p,"Stollgasse").
+initlocation($p,"Grillgasse").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Marxergasse").
+restaurant("Meidling Hauptstraße").
+restaurant("Spillern Bahnhof").

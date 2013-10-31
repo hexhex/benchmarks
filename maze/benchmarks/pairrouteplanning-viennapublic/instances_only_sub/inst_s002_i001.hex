@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Gumpendorfer Straße").
-initlocation(1,"Klosterneuburg-Kierling Bf").
-sequence(1,0, "Gumpendorfer Straße").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Westbahnhof").
 person(2).
-initlocation(2,"Frättingsdorf Bahnhof").
-initlocation(2,"Theresienfeld Bahnhof").
-sequence(2,0, "Frättingsdorf Bahnhof").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Viehofen Bahnhof").
-restaurant("Hainburg/Donau Personenbhf".
-restaurant("Mannswörth Bahnhof").
+initlocation($p,"Donaumarina").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Donaumarina").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Herrengasse").

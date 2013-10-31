@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Krottenbachstraße").
-initlocation(1,"Aderklaaer Straße").
-initlocation(1,"Laa an der Thaya Bahnhof").
-sequence(1,0, "Krottenbachstraße").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Neue Donau").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Meidling Hauptstraße").
 person(2).
-initlocation(2,"Sarasdorf Bahnhof").
-initlocation(2,"Jägerstraße").
-initlocation(2,"Simmering").
-sequence(2,0, "Sarasdorf Bahnhof").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Wr Neustadt Nord").
-restaurant("Hofstatt Bahnhof".
-restaurant("Neulengbach Bahnhof".
-restaurant("Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+restaurant("Kagraner Platz").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Untereggendorf Bahnhof").

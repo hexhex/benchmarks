@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Viehmarktgasse").
-initlocation(1,"Untereggendorf Bahnhof").
-initlocation(1,"Neubaugasse/Westbahnstraße").
-initlocation(1,"Taborstraße/Heinestraße").
-initlocation(1,"Schleinbach Bahnhof").
-initlocation(1,"Guneschgasse").
-sequence(1,0, "Viehmarktgasse").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Praterkai").
+initlocation($p,"Wallrißstraße").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Zentralfriedhof 1Tor").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
 person(2).
-initlocation(2,"Kärntner Ring/Oper").
-initlocation(2,"Paasdorf Bahnhof").
-initlocation(2,"Autokaderstraße").
-initlocation(2,"Valiergasse").
-initlocation(2,"Josefstädter Straße").
-initlocation(2,"Rebhanngasse").
-sequence(2,0, "Kärntner Ring/Oper").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Kleistgasse").
-restaurant("Sommarugagasse").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Prater, Hauptallee").
-restaurant("Carminweg").
-restaurant("Paulanergasse").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Krieau").
+initlocation($p,"Vinzenzgasse").
+initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Hautzendorf Bahnhof").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Valiergasse").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Heiligenstadt").
+restaurant("Siebertgasse").
+restaurant("Lobau").
+restaurant("Götzendorf Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Neilreichgasse").

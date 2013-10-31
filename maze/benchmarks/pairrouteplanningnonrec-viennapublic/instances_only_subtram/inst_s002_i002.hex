@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Yppengasse").
-sequence(1,0, "Preyergasse/Speising").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
 person(2).
-initlocation(2,"Nordbahnstraße").
-initlocation(2,"Friedrich-Engels-Platz").
-sequence(2,0, "Nordbahnstraße").
-possiblemeetinglocations("Van-Swieten-Kaserne").
-possiblemeetinglocations("Sickenberggasse").
-restaurant("Kaiserebersdorf, Zinnergasse").
-restaurant("Althanstraße").
+initlocation($p,"Trondheimgasse").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Trondheimgasse").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+restaurant("Donaustadtstraße").
+restaurant("Hubertusdamm").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Siebensterngasse").
-initlocation(1,"Anschützgasse").
-initlocation(1,"Neulerchenfelder Str/Haberlg").
-initlocation(1,"Gaußplatz").
-sequence(1,0, "Siebensterngasse").
+initlocation($p,"Donaustadtstraße").
+initlocation($p,"Leberberg").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Troststraße/Neilreichgasse").
+initlocation($p,"Donaustadtstraße").
 person(2).
-initlocation(2,"Sechskrügelgasse").
-initlocation(2,"Maurer Lange Gasse").
-initlocation(2,"Forstnergasse").
-initlocation(2,"Antonigasse").
-sequence(2,0, "Sechskrügelgasse").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Breitenfurter Str/Liesingbr").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Stephansplatz").
-restaurant("Barawitzkagasse").
-restaurant("Weinhauser Gasse").
-restaurant("Gasometer").
-restaurant("Hauffgasse").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Thaliastraße/Maroltingergasse").
+initlocation($p,"Herbeckstraße").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Oberradlberg Bahnhof").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Diesterweggasse").
+possiblemeetinglocations("Fultonstraße").
+possiblemeetinglocations("Friedensbrücke").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Pötzleinsdorf").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Leyserstraße").

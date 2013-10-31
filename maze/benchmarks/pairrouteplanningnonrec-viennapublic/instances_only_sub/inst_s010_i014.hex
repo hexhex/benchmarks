@@ -1,44 +1,44 @@
 person(1).
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Hautzendorf Bahnhof").
-initlocation(1,"Oberolberndorf Bahnhof").
-initlocation(1,"Kettenbrückengasse").
-initlocation(1,"Baden Bahnhof").
-initlocation(1,"Praterkai").
-initlocation(1,"Alser Straße").
-initlocation(1,"Dürrwien Bahnhof").
-initlocation(1,"Pfaffstätten Bahnhof").
-initlocation(1,"Korneuburg Bahnhof").
-sequence(1,0, "Preyergasse/Speising").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Stadlau").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Höbersdorf Bahnhof").
 person(2).
-initlocation(2,"Oberradlberg Bahnhof").
-initlocation(2,"Staatz Bahnhof").
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Hardeggasse").
-initlocation(2,"Perfektastraße").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Mistelbach Stadt").
-initlocation(2,"Schottentor").
-initlocation(2,"Sollenau Bahnhof").
-initlocation(2,"Zellerndorf Bahnhof").
-sequence(2,0, "Oberradlberg Bahnhof").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Rennbahnweg").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-restaurant("Am Schöpfwerk".
-restaurant("Weidlingau Bahnhof".
-restaurant("Hautzendorf Bahnhof".
-restaurant("Tulln Stadt Bahnhof".
-restaurant("Hainburg/Donau Kulturfabrik Bf".
-restaurant("Meidling Hauptstraße".
-restaurant("Enkplatz".
-restaurant("Gänserndorf Bahnhof".
-restaurant("Maria Anzbach Bahnhof".
-restaurant("Atzenbrugg Bahnhof").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Spittelau").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Mistelbach Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Ladendorf Bahnhof").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Trasdorf Bahnhof").
+restaurant("Ottakring").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Rennbahnweg").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Krieau").
+restaurant("Viehofen Bahnhof").

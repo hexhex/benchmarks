@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Dürrwien Bahnhof").
-initlocation(1,"Kaiserstraße/Burggasse").
-initlocation(1,"Unterpurkersdorf Bahnhof").
-initlocation(1,"Joachimsthalerplatz").
-initlocation(1,"Hennersdorf Bahnhof").
-initlocation(1,"Fickeysstraße").
-sequence(1,0, "Dürrwien Bahnhof").
+initlocation($p,"Guntherstraße").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Erdbergstr/Schlachthausgasse").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Maurer Lange Gasse").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Guntherstraße").
 person(2).
-initlocation(2,"Schlachthausgasse").
-initlocation(2,"Seestadt").
-initlocation(2,"Neue Donau").
-initlocation(2,"Redtenbachergasse").
-initlocation(2,"Niederkreuzstetten Bahnhof").
-initlocation(2,"Staglgasse").
-sequence(2,0, "Schlachthausgasse").
-possiblemeetinglocations("Vinzenzgasse").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Nordbrücke").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Altes Landgut").
-restaurant("Josefstädter Straße").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Urban-Loritz-Platz").
-restaurant("Rosenhügelstraße").
-restaurant("Taborstraße/Heinestraße").
-restaurant("Arminenstraße").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Camillo-Sitte-Gasse").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Kaiserstraße/Burggasse").
+initlocation($p,"Mariahilfer Gürtel").
+initlocation($p,"Fultonstraße").
+initlocation($p,"Keplerplatz").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Zieglergasse").
+restaurant("Schlachthausgasse").
+restaurant("Stockholmer Platz").
+restaurant("Sahulkastraße").
+restaurant("Kaiser-Franz-Josef-Straße").
+restaurant("Frödenplatz").
+restaurant("Gemeinlebarn Bahnhof").

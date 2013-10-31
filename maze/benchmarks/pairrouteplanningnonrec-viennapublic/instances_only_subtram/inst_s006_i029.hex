@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Augasse").
-initlocation(1,"Schleinbach Bahnhof").
-initlocation(1,"Weigelsdorf Bahnhof").
-initlocation(1,"Guntherstraße").
-initlocation(1,"Rodaun").
-initlocation(1,"Siebenhirten").
-sequence(1,0, "Augasse").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Wittelsbachstraße").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Sommarugagasse").
+initlocation($p,"Atzgersdorfer Straße").
+initlocation($p,"Untereggendorf Bahnhof").
 person(2).
-initlocation(2,"Halteraugasse").
-initlocation(2,"Zentralfriedhof 4Tor").
-initlocation(2,"Bösendorferstraße").
-initlocation(2,"Blechturmgasse").
-initlocation(2,"Waidhausenstraße").
-initlocation(2,"Sankt Marx").
-sequence(2,0, "Halteraugasse").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Gruschaplatz").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Kagraner Brücke").
+initlocation($p,"Altes Landgut").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Hohe Warte").
 possiblemeetinglocations("Gottschalkgasse/Enkplatz").
-possiblemeetinglocations("Wattmanngasse").
-possiblemeetinglocations("Döblinger Bad").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Schuhmeierplatz").
-restaurant("Laurenzgasse").
-restaurant("Marxergasse").
-restaurant("Tesarekplatz").
-restaurant("Rosensteingasse").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Felixdorf Bahnhof").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Gersthof").
+restaurant("Kaiserstraße").
+restaurant("Floridsdorfer Brücke").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Brünner Straße").
-initlocation(1,"Penzing").
-sequence(1,0, "Brünner Straße").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Hollabrunn Bahnhof").
 person(2).
-initlocation(2,"Simmering").
-initlocation(2,"Enkplatz").
-sequence(2,0, "Simmering").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Penzing").
-restaurant("Hainburg/Donau Kulturfabrik Bf".
-restaurant("Tulln Bahnhof").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Jägerstraße").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Alterlaa").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Perfektastraße").

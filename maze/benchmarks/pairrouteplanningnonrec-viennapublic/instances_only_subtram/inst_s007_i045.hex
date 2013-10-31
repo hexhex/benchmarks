@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Martinstraße").
-initlocation(1,"Zellerndorf Bahnhof").
-initlocation(1,"Friedrich-Engels-Platz").
-initlocation(1,"Klosterneub Str/Wallensteinstr").
-initlocation(1,"Liebknechtgasse").
-initlocation(1,"Kaiserebersdorf").
-initlocation(1,"Untereggendorf Bahnhof").
-sequence(1,0, "Martinstraße").
+initlocation($p,"Handelskai").
+initlocation($p,"Leberberg").
+initlocation($p,"Hütteldorfer Str/Lützowgasse").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Sahulkastraße").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Handelskai").
 person(2).
-initlocation(2,"Wilhelminenstr/Sandleitengasse").
-initlocation(2,"Kaiser-Franz-Josef-Straße").
-initlocation(2,"Aspern Nord").
-initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(2,"Laurenzgasse").
-initlocation(2,"Kaisermühlen-VIC").
-initlocation(2,"Gloriettegasse").
-sequence(2,0, "Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Rankgasse").
-possiblemeetinglocations("Oberfeldgasse").
-possiblemeetinglocations("Stubentor").
-restaurant("Josef-Baumann-Gasse").
-restaurant("Halteraugasse").
-restaurant("Siebertgasse").
-restaurant("Heinrich-Drimmel-Platz").
-restaurant("Dresdner Straße").
-restaurant("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Absberggasse").
+initlocation($p,"Favoritenstraße/Troststraße").
+initlocation($p,"Nordbahnstraße").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Döblinger Bad").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Auerspergstraße").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Favoritenstraße/Troststraße").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Valiergasse").
+restaurant("Kaiserebersdorf").
+restaurant("Silbergasse").
+restaurant("Neilreichgasse").
+restaurant("Atzgersdorfer Straße").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Skodagasse").

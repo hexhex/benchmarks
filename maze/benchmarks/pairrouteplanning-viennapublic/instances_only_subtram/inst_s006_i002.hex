@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Fischamend Bahnhof").
-initlocation(1,"Hofwiesengasse").
-initlocation(1,"Baumgarten").
-initlocation(1,"Lederergasse").
-initlocation(1,"Kottingneusiedl Bahnhof").
-initlocation(1,"Stammersdorf").
-sequence(1,0, "Fischamend Bahnhof").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Oberzellergasse").
+initlocation($p,"Albertgasse").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Taborstraße").
+initlocation($p,"Traismauer Bahnhof").
 person(2).
-initlocation(2,"Riedelgasse").
-initlocation(2,"Spitalgasse/Währinger Straße").
-initlocation(2,"Schweglerstraße").
-initlocation(2,"Margaretengürtel/Arbeitergasse").
-initlocation(2,"Preyergasse/Speising").
-initlocation(2,"Rathaus").
-sequence(2,0, "Riedelgasse").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Quellenstraße/Favoritenstraße").
-possiblemeetinglocations("Stiftgasse").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Wittelsbachstraße").
-restaurant("Taubstummengasse").
-restaurant("Polkorabplatz").
-restaurant("Mistelbach Stadt").
-restaurant("Mariahilfer Gürtel").
-restaurant("Rustengasse").
-restaurant("Kettenbrückengasse").
+initlocation($p,"Florianigasse").
+initlocation($p,"Blumental").
+initlocation($p,"Rankgasse").
+initlocation($p,"Gellertplatz").
+initlocation($p,"Ottakring").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Florianigasse").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Valiergasse").
+possiblemeetinglocations("Nußdorfer Straße").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Volkstheater").
+restaurant("Hofwiesengasse").
+restaurant("Simmering").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Anton-Schall-Gasse").

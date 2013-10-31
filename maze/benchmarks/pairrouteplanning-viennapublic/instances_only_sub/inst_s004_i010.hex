@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Haslau an der Donau Bahnhof").
-initlocation(1,"Korneuburg Bahnhof").
-initlocation(1,"Taubstummengasse").
-initlocation(1,"Trautmannsdorf/Leitha Bf").
-sequence(1,0, "Haslau an der Donau Bahnhof").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Mistelbach Stadt").
 person(2).
-initlocation(2,"Zippererstraße").
-initlocation(2,"Schönbrunn").
-initlocation(2,"Ebreichsdorf Bahnhof").
-initlocation(2,"Kottingneusiedl Bahnhof").
-sequence(2,0, "Zippererstraße").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Leopoldau".
-restaurant("Göllersdorf Bahnhof".
-restaurant("Tullnerfeld Bahnhof".
-restaurant("Burggasse-Stadthalle").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Stadion").
+initlocation($p,"Penzing").
+initlocation($p,"Hausfeldstraße").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Hernals").
+restaurant("Heiligenstadt").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Mannswörth Bahnhof").
+restaurant("Braunschweiggasse").

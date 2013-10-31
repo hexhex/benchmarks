@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Kaisermühlen-VIC").
-initlocation(1,"Dommayergasse").
-initlocation(1,"Taubstummengasse").
-sequence(1,0, "Kaisermühlen-VIC").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Floridsdorfer Brücke").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Regelsbrunn Bahnhof").
 person(2).
-initlocation(2,"Schottenring").
-initlocation(2,"Gersthofer Str/Scheibenbergstr").
-initlocation(2,"Reumannplatz").
-sequence(2,0, "Schottenring").
-possiblemeetinglocations("Karmeliterplatz").
-possiblemeetinglocations("Rustengasse").
-possiblemeetinglocations("Canisiusgasse").
-restaurant("Strozzigasse").
-restaurant("Koloniestraße").
-restaurant("Stiftgasse").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation($p,"Molitorgasse").
+initlocation($p,"Donauzentrum").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Roßauer Lände").
+restaurant("Keplerplatz").
+restaurant("Hernals").
+restaurant("Heiligenstadt").

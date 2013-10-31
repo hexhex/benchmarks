@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Westbahnhof").
-initlocation(1,"Langobardenstraße").
-sequence(1,0, "Westbahnhof").
+initlocation($p,"Alsegger Straße").
+initlocation($p,"Stubentor").
+initlocation($p,"Alsegger Straße").
 person(2).
-initlocation(2,"Geiereckstraße").
-initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
-sequence(2,0, "Geiereckstraße").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Quartier Belvedere").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Seegasse").
+initlocation($p,"Stubentor").
+initlocation($p,"Kagran").
+initlocation($p,"Stubentor").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+restaurant("Grinzing").
+restaurant("Herrengasse").

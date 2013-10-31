@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Canisiusgasse").
-initlocation(1,"Saikogasse").
-initlocation(1,"Ottakring").
-initlocation(1,"Gerhardusgasse").
-initlocation(1,"Sahulkastraße").
-initlocation(1,"Donauzentrum").
-sequence(1,0, "Flughafen Wien (VIE).
+initlocation($p,"Herbeckstraße").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Otto-Probst-Straße").
+initlocation($p,"Herbeckstraße").
 person(2).
-initlocation(2,"Glatzgasse").
-initlocation(2,"Laudongasse").
-initlocation(2,"Rankgasse").
-initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
-initlocation(2,"Stubentor").
-initlocation(2,"Siebenhirten").
-initlocation(2,"Frödenplatz").
-sequence(2,0, "Glatzgasse").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Thaliastraße/Maroltingergasse").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Prater, Hauptallee").
-possiblemeetinglocations("Konstanziagasse").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
-restaurant("Krieau").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Linzer Straße/Zehetnergasse").
-restaurant("Schlickgasse").
-restaurant("Schöffelgasse").
-restaurant("Zentralfriedhof 4Tor").
-restaurant("Erdberg").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Gerstnerstraße/Westbhf").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Unteres Belvedere").
+initlocation($p,"Autokaderstraße").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Resselgasse").
+initlocation($p,"Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Siebensterngasse").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Krottenbachstraße").
+restaurant("Wenzgasse").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Hetzendorf").
+restaurant("Oberfeldgasse").
+restaurant("Matthäus-Jiszda-Straße").
+restaurant("Hietzing").
+restaurant("Hütteldorfer Straße").

@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Raxstraße/Rudolfshügelgasse").
-initlocation(1,"Fultonstraße").
-initlocation(1,"Ottakringer Straße/Wattgasse").
-initlocation(1,"Simmering").
-initlocation(1,"Gumpendorfer Straße").
-initlocation(1,"Zentralfriedhof 2Tor").
-initlocation(1,"Heinrich-Drimmel-Platz").
-initlocation(1,"Columbusplatz").
-sequence(1,0, "Raxstraße/Rudolfshügelgasse").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Kaiserstraße").
+initlocation($p,"Rauscherstraße").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+initlocation($p,"Hintere Zollamtsstraße").
+initlocation($p,"Dommayergasse").
+initlocation($p,"Blumengasse").
+initlocation($p,"Kardinal-Nagl-Platz").
 person(2).
-initlocation(2,"Wr Neustadt Hauptbahnhof").
-initlocation(2,"Herbeckstraße").
-initlocation(2,"Alsegger Straße").
-initlocation(2,"Linzer Straße/Lützowgasse").
-initlocation(2,"Lange Gasse").
-initlocation(2,"Muckendorf-Wipfing Bahnhof").
-initlocation(2,"Sechskrügelgasse").
-initlocation(2,"Leberberg").
-sequence(2,0, "Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Sieveringer Straße").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Lainz, Wolkersbergenstraße").
-possiblemeetinglocations("Siebensterngasse").
-possiblemeetinglocations("Hermesstraße").
-restaurant("Siebensterngasse").
-restaurant("Gredlerstraße").
-restaurant("Zentralfriedhof 4Tor").
-restaurant("Wenzgasse").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Breitensee").
-restaurant("Kritzendorf Bahnhof").
-restaurant("Salztorbrücke").
+initlocation($p,"Sensengasse").
+initlocation($p,"Sommarugagasse").
+initlocation($p,"Kaiserstraße/Neustiftgasse").
+initlocation($p,"Migerkastraße").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Carabelligasse").
+initlocation($p,"Burgring").
+initlocation($p,"Sensengasse").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Perfektastraße").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Leopoldau").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Viehmarktgasse").

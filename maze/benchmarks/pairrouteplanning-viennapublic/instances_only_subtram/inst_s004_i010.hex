@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Leyserstraße").
-initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
-initlocation(1,"Alte Donau").
-initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
-sequence(1,0, "Leyserstraße").
+initlocation($p,"Prater, Hauptallee").
+initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Donaustadtstraße").
+initlocation($p,"Prater, Hauptallee").
 person(2).
-initlocation(2,"Tscherttegasse").
-initlocation(2,"Donaustadtbrücke").
-initlocation(2,"Augasse").
-initlocation(2,"Aßmayergasse").
-sequence(2,0, "Tscherttegasse").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Paradisgasse").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-restaurant("Prandaugasse").
-restaurant("Handelskai").
-restaurant("Fasangasse").
-restaurant("Stadiongasse/Parlament").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Höchstädtplatz").
+initlocation($p,"Dommayergasse").
+initlocation($p,"Blechturmgasse").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+restaurant("Paasdorf Bahnhof").
+restaurant("Kliebergasse").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Obere Augartenstraße").

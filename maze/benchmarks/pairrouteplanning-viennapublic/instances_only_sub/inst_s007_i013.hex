@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Götzendorf Bahnhof").
-initlocation(1,"Weigelsdorf Bahnhof").
-initlocation(1,"Donaumarina").
-initlocation(1,"Achau Bahnhof").
-initlocation(1,"Hollabrunn Bahnhof").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Herrengasse").
-sequence(1,0, "Götzendorf Bahnhof").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Donaumarina").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Stephansplatz").
 person(2).
-initlocation(2,"Meidling Hauptstraße").
-initlocation(2,"Simmering").
-initlocation(2,"Spittelau").
-initlocation(2,"Parndorf Ort Bahnhof").
-initlocation(2,"Ebreichsdorf Bahnhof").
-initlocation(2,"Stadion").
-initlocation(2,"Karlsplatz").
-sequence(2,0, "Meidling Hauptstraße").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Baden Bahnhof").
-restaurant("Brunn-Maria Enzersdorf Bahnhof".
-restaurant("Krieau".
-restaurant("Hofstatt Bahnhof".
-restaurant("Bad Vöslau Bahnhof".
-restaurant("Gerasdorf Bahnhof".
-restaurant("Hadersdorf Bahnhof".
-restaurant("Mistelbach Stadt").
+initlocation($p,"Spittelau").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Tscherttegasse").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Spittelau").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Sankt Marx").
+restaurant("Am Schöpfwerk").
+restaurant("Taubstummengasse").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").

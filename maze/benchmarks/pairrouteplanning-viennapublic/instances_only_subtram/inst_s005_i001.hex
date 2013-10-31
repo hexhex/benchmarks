@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Regelsbrunn Bahnhof").
-initlocation(1,"Baumgarten").
-initlocation(1,"Spillern Bahnhof").
-initlocation(1,"Forstnergasse").
-sequence(1,0, "Mistelbach Stadt").
+initlocation($p,"Kleistgasse").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Frödenplatz").
+initlocation($p,"Viehmarktgasse").
+initlocation($p,"Hohe Warte").
+initlocation($p,"Kleistgasse").
 person(2).
-initlocation(2,"Diesterweggasse").
-initlocation(2,"Atzenbrugg Bahnhof").
-initlocation(2,"Gerhardusgasse").
-initlocation(2,"Weißenböckstraße").
-initlocation(2,"Hardtgasse").
-sequence(2,0, "Diesterweggasse").
-possiblemeetinglocations("Augasse").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Carabelligasse").
-possiblemeetinglocations("Brünnlbadgasse").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-restaurant("Baden Bahnhof").
-restaurant("Bisamberg Bahnhof").
-restaurant("Rebhanngasse").
-restaurant("Silberwald Bahnhof").
-restaurant("Braunhubergasse").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Nordbrücke").
+initlocation($p,"Gruschaplatz").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Kagran").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Niederhofstraße").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Gunoldstraße").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Bahnhofstraße").

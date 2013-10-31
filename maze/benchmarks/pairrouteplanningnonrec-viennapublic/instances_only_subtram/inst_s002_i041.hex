@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Hermesstraße").
-initlocation(1,"Tulln Stadt Bahnhof").
-sequence(1,0, "Hermesstraße").
+initlocation($p,"Stubentor").
+initlocation($p,"Leyserstraße").
+initlocation($p,"Stubentor").
 person(2).
-initlocation(2,"Trondheimgasse").
-initlocation(2,"Empergergasse").
-sequence(2,0, "Trondheimgasse").
-possiblemeetinglocations("Otto-Probst-Straße").
-possiblemeetinglocations("Van-Swieten-Kaserne").
-restaurant("Roßauer Lände").
-restaurant("Grillgasse").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Quellenstraße/Favoritenstraße").
+initlocation($p,"Unterradlberg Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+restaurant("Stadlergasse").
+restaurant("Praterstern").

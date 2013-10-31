@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Carminweg").
-initlocation(1,"Sensengasse").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Hütteldorf").
-initlocation(1,"Svetelskystraße").
-initlocation(1,"Schweglerstraße").
-initlocation(1,"Litfaßstraße").
-initlocation(1,"Quellenplatz").
-initlocation(1,"Empergergasse").
-sequence(1,0, "Carminweg").
+initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation($p,"Kliebergasse").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Kagraner Brücke").
+initlocation($p,"Lobau").
+initlocation($p,"Zentralfriedhof 1Tor").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Linzer Straße/Lützowgasse").
 person(2).
-initlocation(2,"Reinlgasse/Märzstraße").
-initlocation(2,"Gottschalkgasse/Enkplatz").
-initlocation(2,"Arthaberplatz").
-initlocation(2,"Urban-Loritz-Platz").
-initlocation(2,"Aumannplatz").
-initlocation(2,"Geiselbergstraße").
-initlocation(2,"Paulanergasse").
-initlocation(2,"Himberg Bahnhof").
-initlocation(2,"Beingasse").
-sequence(2,0, "Reinlgasse/Märzstraße").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Rampengasse").
+initlocation($p,"Skodagasse").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Migerkastraße").
+initlocation($p,"Höchstädtplatz").
+initlocation($p,"Kettenbrückengasse").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Gerasdorf Bahnhof").
 possiblemeetinglocations("Schloss Hetzendorf").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Römergasse").
-possiblemeetinglocations("Frauengasse").
-possiblemeetinglocations("Grinzing").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Schleiergasse").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Mannswörth Bahnhof").
-restaurant("Hautzendorf Bahnhof").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Gruschaplatz").
-restaurant("Innstraße").
-restaurant("Oberzellergasse").
-restaurant("Ameisgasse").
-restaurant("Grillgasse").
-restaurant("Handelskai").
-restaurant("Scheibenbergstraße").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Wilhelminenstr/Sandleitengasse").
+restaurant("Gußhausstraße").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Blindengasse").
+restaurant("Nußdorfer Straße").
+restaurant("Trasdorf Bahnhof").
+restaurant("Ottakring").
+restaurant("Laa an der Thaya Bahnhof").

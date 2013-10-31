@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Maria Anzbach Bahnhof").
-initlocation(1,"St Pölten Traisenpark P+R Nord").
-initlocation(1,"Hollabrunn Bahnhof").
-initlocation(1,"Korneuburg Bahnhof").
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Wr Neustadt Hauptbahnhof").
-initlocation(1,"Spillern Bahnhof").
-initlocation(1,"Meidling Hauptstraße").
-initlocation(1,"Schweglerstraße").
-sequence(1,0, "Maria Anzbach Bahnhof").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Michelbeuern-AKH").
+initlocation($p,"Paasdorf Bahnhof").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Alterlaa").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Regelsbrunn Bahnhof").
 person(2).
-initlocation(2,"Gänserndorf Bahnhof").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Westbahnhof").
-initlocation(2,"Trautmannsdorf/Leitha Bf").
-initlocation(2,"Leobersdorf Bahnhof").
-initlocation(2,"Bisamberg Bahnhof").
-initlocation(2,"Gumpoldskirchen Bahnhof").
-initlocation(2,"Viehofen Bahnhof").
-initlocation(2,"Großfeldsiedlung").
-sequence(2,0, "Gänserndorf Bahnhof").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Schottenring").
+initlocation($p,"Stadlau").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Alterlaa").
+initlocation($p,"Friedensbrücke").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
 possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-restaurant("Spittelau".
-restaurant("Guntramsdorf-Thallern".
-restaurant("Flughafen Wien (VIE.
-Bahnhof".
-restaurant("Tullnerfeld Bahnhof".
-restaurant("Neusiedl am See Bahnhof".
-restaurant("Stockerau Bahnhof".
-restaurant("Aspern Nord".
-restaurant("Mannswörth Bahnhof".
-restaurant("Penzing").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Rathaus").
+restaurant("Rochusgasse").
+restaurant("Sollenau Bahnhof").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Dresdner Straße").

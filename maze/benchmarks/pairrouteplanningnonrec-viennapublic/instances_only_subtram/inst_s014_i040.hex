@@ -1,60 +1,60 @@
 person(1).
-initlocation(1,"Kölblgasse").
-initlocation(1,"Raxstraße/Rudolfshügelgasse").
-initlocation(1,"Hautzendorf Bahnhof").
-initlocation(1,"Wilhelminenstraße/Wattgasse").
-initlocation(1,"Hetzendorf").
-initlocation(1,"Eichgraben-Altlengbach Bahnhof").
-initlocation(1,"Alterlaa").
-initlocation(1,"Bauernfeldplatz").
-initlocation(1,"Langenzersdorf Bahnhof").
-initlocation(1,"Stammersdorf").
-initlocation(1,"Tscherttegasse").
-initlocation(1,"Molitorgasse").
-initlocation(1,"Winckelmannstraße").
-initlocation(1,"Retz Bahnhof").
-sequence(1,0, "Kölblgasse").
+initlocation($p,"Hütteldorfer Str/Lützowgasse").
+initlocation($p,"Kleistgasse").
+initlocation($p,"Rathausplatz/Burgtheater").
+initlocation($p,"Praterstern").
+initlocation($p,"Dr-Karl-Renner-Ring").
+initlocation($p,"Schloss Schönbrunn").
+initlocation($p,"Nußdorf").
+initlocation($p,"Svetelskystraße").
+initlocation($p,"Hardtgasse").
+initlocation($p,"Höchstädtplatz").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Jedlersdorf").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Hütteldorfer Str/Lützowgasse").
 person(2).
-initlocation(2,"Schlachthausgasse").
-initlocation(2,"Neue Donau").
-initlocation(2,"Stockholmer Platz").
-initlocation(2,"Simmering").
-initlocation(2,"Wenzgasse").
-initlocation(2,"Trautmannsdorf/Leitha Bf").
-initlocation(2,"Gänserndorf Bahnhof").
-initlocation(2,"Theresienfeld Bahnhof").
-initlocation(2,"Zentralfriedhof").
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Haidestraße").
-initlocation(2,"Donauzentrum").
-initlocation(2,"Nordbrücke").
-initlocation(2,"Hauffgasse").
-sequence(2,0, "Schlachthausgasse").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Altes Landgut").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Gottschalkgasse/Enkplatz").
-possiblemeetinglocations("Polgarstraße").
-possiblemeetinglocations("Wildgansplatz").
-possiblemeetinglocations("Gusenleithnergasse").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Barawitzkagasse").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Gerstnerstraße/Westbhf").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-restaurant("Verbindungsbahn").
-restaurant("Geiselbergstraße").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Anton-Schall-Gasse").
-restaurant("Strozzigasse").
-restaurant("Michelbeuern-AKH").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Preyergasse/Speising").
-restaurant("Guneschgasse").
-restaurant("Linzer Straße/Johnstraße").
-restaurant("Nußdorf").
-restaurant("Am Heidjöchl").
-restaurant("Neulengbach Bahnhof").
-restaurant("Nußdorfer Straße").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Alaudagasse").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Sensengasse").
+initlocation($p,"Carabelligasse").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+initlocation($p,"Franzensbrücke").
+initlocation($p,"Aspern, Oberdorfstraße").
+initlocation($p,"Gaußplatz").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Eichenstraße").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Reinlgasse/Märzstraße").
+initlocation($p,"Siemensstraße").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Teichgasse").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Erlaaer Straße").
+restaurant("Gloriettegasse").
+restaurant("Bahnhofstraße").
+restaurant("Blumental").
+restaurant("Meidling Hauptstraße").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Bahnsteggasse").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Döblinger Bad").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Erdberg").
+restaurant("Donauzentrum").
+restaurant("Klosterneuburg-Kierling Bf").

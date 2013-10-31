@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Maria Ellend Bahnhof").
-initlocation(1,"Jägerstraße").
-initlocation(1,"Platt Bahnhof").
-sequence(1,0, "Schönborn Bahnhof").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Rathaus").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
 person(2).
-initlocation(2,"Kottingneusiedl Bahnhof").
-initlocation(2,"Gramatneusiedl Bahnhof").
-initlocation(2,"Schleinbach Bahnhof").
-initlocation(2,"Perfektastraße").
-sequence(2,0, "Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Friedensbrücke").
-restaurant("Franz-Josefs-Bahnhof".
-restaurant("Kottingneusiedl Bahnhof".
-restaurant("Rochusgasse".
-restaurant("Parndorf Ort Bahnhof").
+initlocation($p,"Tscherttegasse").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Donauinsel").
+initlocation($p,"Ottakring").
+initlocation($p,"Tscherttegasse").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Am Schöpfwerk").
+restaurant("Gasometer").

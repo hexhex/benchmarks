@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Maurer Lange Gasse").
-initlocation(1,"Bahnsteggasse").
-initlocation(1,"Trasdorf Bahnhof").
-initlocation(1,"Kottingbrunn Bahnhof").
-initlocation(1,"Matthäus-Jiszda-Straße").
-initlocation(1,"Siebenhirten").
-initlocation(1,"Hirschstetten").
-sequence(1,0, "Maurer Lange Gasse").
+initlocation($p,"Rauscherstraße").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Carabelligasse").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Rauscherstraße").
 person(2).
-initlocation(2,"Konstanziagasse").
-initlocation(2,"Kliebergasse").
-initlocation(2,"Kagran").
-initlocation(2,"Blechturmgasse").
-initlocation(2,"Nordbahnstraße").
-initlocation(2,"Linzer Straße/Zehetnergasse").
-initlocation(2,"Valiergasse").
-sequence(2,0, "Konstanziagasse").
-possiblemeetinglocations("Molitorgasse").
-possiblemeetinglocations("Rosensteingasse").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Seegasse").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Friedrich-Engels-Platz").
-possiblemeetinglocations("Frauengasse").
-restaurant("Eichenstraße").
-restaurant("Oberfeldgasse").
-restaurant("Pressbaum Bahnhof").
-restaurant("Obersdorf Bahnhof").
-restaurant("Versorgungsheimplatz").
-restaurant("Gunoldstraße").
-restaurant("Bahnhof Meidling").
+initlocation($p,"Rekawinkel Bahnhof").
+initlocation($p,"Alfred-Adler-Straße").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Rekawinkel Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+restaurant("Grinzinger Straße").
+restaurant("Höchstädtplatz").
+restaurant("Karmeliterplatz").
+restaurant("Carabelligasse").
+restaurant("Schleiergasse").
+restaurant("Johnstraße").
+restaurant("St Andrä-Wördern Bahnhof").

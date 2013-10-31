@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Grillgasse").
-initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
-initlocation(1,"Vorgartenstraße").
-initlocation(1,"Kritzendorf Bahnhof").
-sequence(1,0, "Grillgasse").
+initlocation($p,"Simmering").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Simmering").
 person(2).
-initlocation(2,"Bad Vöslau Bahnhof").
-initlocation(2,"Vorgartenstraße").
-initlocation(2,"Laa an der Thaya Bahnhof").
-initlocation(2,"Ober Sankt Veit").
-sequence(2,0, "Bad Vöslau Bahnhof").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-restaurant("St Pölten Hauptbahnhof".
-restaurant("Stadtpark".
-restaurant("Tscherttegasse".
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Herzogenburg Stadt").

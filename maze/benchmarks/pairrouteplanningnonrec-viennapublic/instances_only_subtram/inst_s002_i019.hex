@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Gerasdorf Bahnhof").
-initlocation(1,"Wenzgasse").
-sequence(1,0, "Gerasdorf Bahnhof").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+initlocation($p,"Neue Donau").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
 person(2).
-initlocation(2,"Höbersdorf Bahnhof").
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-sequence(2,0, "Höbersdorf Bahnhof").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Bahnhof Meidling").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Pilgramgasse").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Canisiusgasse").
+restaurant("Thaliastraße/Haberlgasse").
+restaurant("Hautzendorf Bahnhof").

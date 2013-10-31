@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Retz Bahnhof").
-initlocation(1,"Neilreichgasse").
-initlocation(1,"Raxstraße/Rudolfshügelgasse").
-initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(1,"Purkersdorf Sanatorium").
-initlocation(1,"Langobardenstraße").
-sequence(1,0, "Retz Bahnhof").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Donauinsel").
+initlocation($p,"Hausleiten Bahnhof").
 person(2).
-initlocation(2,"Paradisgasse").
-initlocation(2,"Trasdorf Bahnhof").
-initlocation(2,"Liebknechtgasse").
-initlocation(2,"Sickenberggasse").
-initlocation(2,"Vorgartenstraße").
-initlocation(2,"Erdbergstr/Schlachthausgasse").
-sequence(2,0, "Paradisgasse").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Leyserstraße").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
-restaurant("Schleinbach Bahnhof").
-restaurant("Erdberg").
-restaurant("Hausleiten Bahnhof").
-restaurant("Lederergasse").
-restaurant("Hütteldorf, Bujattigasse").
-restaurant("Praterstern").
+initlocation($p,"Wittelsbachstraße").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Alfred-Adler-Straße").
+initlocation($p,"Grinzing").
+initlocation($p,"Thaliastraße/Feßtgasse").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Wittelsbachstraße").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Hauptbahnhof Ost").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Sieveringer Straße").
+restaurant("Fischamend Bahnhof").
+restaurant("Stadlau").
+restaurant("Linzer Straße/Lützowgasse").
+restaurant("Koloniestraße").
+restaurant("Marienbrücke").
+restaurant("Strasshof Bahnhof").

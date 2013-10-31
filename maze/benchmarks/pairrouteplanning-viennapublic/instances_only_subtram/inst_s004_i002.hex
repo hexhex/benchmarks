@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Schöffelgasse").
-initlocation(1,"Sechskrügelgasse").
-initlocation(1,"Mistelbach Bahnhof").
-initlocation(1,"Trautmannsdorf/Leitha Bf").
-sequence(1,0, "Schöffelgasse").
+initlocation($p,"Wallensteinplatz").
+initlocation($p,"Auerspergstraße").
+initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Wallensteinplatz").
 person(2).
-initlocation(2,"Thaliastraße").
-initlocation(2,"Fultonstraße").
-initlocation(2,"Prandaugasse").
-initlocation(2,"Leberberg").
-sequence(2,0, "Thaliastraße").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Bernhardtstalgasse").
-restaurant("Bahnhof Meidling/Eichenstraße").
-restaurant("Stockholmer Platz").
-restaurant("Alaudagasse").
-restaurant("Rochusgasse").
+initlocation($p,"Leopoldau").
+initlocation($p,"Michelbeuern-AKH").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Leopoldau").
+possiblemeetinglocations("Gloriettegasse").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Dornbacher Straße").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Siebenhirten").
+restaurant("Neubaugasse/Westbahnstraße").

@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Gersthof").
-initlocation(1,"Bad Vöslau Bahnhof").
-initlocation(1,"Breitenwaida Bahnhof").
-initlocation(1,"Breitenfurter Str/Liesingbr").
-initlocation(1,"Liebknechtgasse").
-initlocation(1,"Münchendorf Bahnhof").
-initlocation(1,"Perchtoldsdorf Bahnhof").
-initlocation(1,"Brünnlbadgasse").
-sequence(1,0, "Gersthof").
+initlocation($p,"Liesing").
+initlocation($p,"Gottschalkgasse/Enkplatz").
+initlocation($p,"Dornbacher Straße").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Valiergasse").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Hintere Zollamtsstraße").
+initlocation($p,"Rauscherstraße").
+initlocation($p,"Liesing").
 person(2).
-initlocation(2,"Linzer Straße/Lützowgasse").
-initlocation(2,"Oberdöbling").
-initlocation(2,"Brünner Straße/Hanreitergasse").
-initlocation(2,"Blumengasse").
-initlocation(2,"Rekawinkel Bahnhof").
-initlocation(2,"Penzinger Straße").
-initlocation(2,"Aspernstraße").
-initlocation(2,"Winkeläckerstraße").
-sequence(2,0, "Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Sonnergasse").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Trondheimgasse").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
-possiblemeetinglocations("Hetzgasse").
-restaurant("Liebknechtgasse").
-restaurant("Donaustadtstraße").
-restaurant("Rothneusiedl").
-restaurant("Obersdorf Bahnhof").
-restaurant("Tscherttegasse").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Neulerchenfelder Str/Haberlg").
-restaurant("Mannswörth Bahnhof").
+initlocation($p,"Spittelau").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Türkenschanzplatz").
+initlocation($p,"Neuwaldegg").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Am Schöpfwerk").
+initlocation($p,"Laudongasse").
+initlocation($p,"Spittelau").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Blechturmgasse").
+restaurant("Empergergasse").
+restaurant("Westbahnhof").
+restaurant("Bahnsteggasse").
+restaurant("Fultonstraße").
+restaurant("Langobardenstraße").
+restaurant("Carabelligasse").
+restaurant("Arminenstraße").
+restaurant("Urban-Loritz-Platz").

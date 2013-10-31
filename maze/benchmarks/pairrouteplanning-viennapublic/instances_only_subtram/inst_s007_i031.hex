@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Sommarugagasse").
-initlocation(1,"Neulengbach Bahnhof").
-initlocation(1,"Koppstraße/Panikengasse").
-initlocation(1,"Volkstheater").
-initlocation(1,"Franzensbrücke").
-initlocation(1,"Linzer Straße/Hochsatzengasse").
-initlocation(1,"Forstnergasse").
-sequence(1,0, "Sommarugagasse").
+initlocation($p,"Sieveringer Straße").
+initlocation($p,"Otto-Probst-Straße").
+initlocation($p,"Oberfeldgasse").
+initlocation($p,"Koloniestraße").
+initlocation($p,"Kagraner Brücke").
+initlocation($p,"Beingasse").
+initlocation($p,"Wittelsbachstraße").
+initlocation($p,"Sieveringer Straße").
 person(2).
-initlocation(2,"Aumannplatz").
-initlocation(2,"Paasdorf Bahnhof").
-initlocation(2,"Neulerchenfelder Str/Haberlg").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Johnstraße").
-initlocation(2,"Rennweg").
-initlocation(2,"Geiereckstraße").
-sequence(2,0, "Aumannplatz").
-possiblemeetinglocations("Silbergasse").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Hardeggasse").
-restaurant("Anton-Krieger-Gasse").
-restaurant("Oberfeldgasse/Spargelfeldstr").
-restaurant("Obere Augartenstraße").
-restaurant("Praterkai").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Laxenburger Str/Gudrunstraße").
+initlocation($p,"Hardtgasse").
+initlocation($p,"Svetelskystraße").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Fultonstraße").
+initlocation($p,"Wattmanngasse").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Hardtgasse").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+restaurant("Stiftgasse").
+restaurant("Zentralfriedhof 4Tor").
+restaurant("Carabelligasse").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Schmerlingplatz").
+restaurant("Oberdöbling").
+restaurant("Hopfengasse").

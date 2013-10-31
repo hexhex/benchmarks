@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Johannes-Krawarik-Gasse").
-initlocation(1,"Platt Bahnhof").
-initlocation(1,"Moosbierbaum-Heiligeneich Bf").
-sequence(1,0, "Johannes-Krawarik-Gasse").
+initlocation($p,"Maurer Lange Gasse").
+initlocation($p,"Quellenplatz").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Maurer Lange Gasse").
 person(2).
-initlocation(2,"Paradisgasse").
-initlocation(2,"Halteraugasse").
-initlocation(2,"Hardtgasse").
-sequence(2,0, "Paradisgasse").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Laxenburger Straße/Troststraße").
-possiblemeetinglocations("Prandaugasse").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Vinzenzgasse").
-restaurant("Haslau an der Donau Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Jagdschloßgasse").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Neulerchenfelder Str/Brunneng").
+restaurant("Schönbrunn").

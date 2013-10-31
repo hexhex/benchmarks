@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Weinheimergasse").
-initlocation(1,"Blumengasse").
-initlocation(1,"Stiftgasse").
-initlocation(1,"Johann-Nepomuk-Berger-Platz").
-initlocation(1,"Palffygasse").
-initlocation(1,"Schweglerstraße").
-initlocation(1,"Museumsquartier").
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Weidlingau Bahnhof").
-sequence(1,0, "Weinheimergasse").
+initlocation($p,"Johann-Strauß-Gasse").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Otto-Probst-Straße").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Forstnergasse").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Mayerhofgasse").
+initlocation($p,"Hubertusdamm").
+initlocation($p,"Oberlaa, Therme Wien").
+initlocation($p,"Johann-Strauß-Gasse").
 person(2).
-initlocation(2,"Schwechat Bahnhof").
-initlocation(2,"Roßauer Lände").
-initlocation(2,"Breitensee").
-initlocation(2,"Konstanziagasse").
-initlocation(2,"Krankenhaus Hietzing").
-initlocation(2,"Praterkai").
-initlocation(2,"Neubau-Kreuzstetten Bahnhof").
-initlocation(2,"Kaiserebersdorf").
-initlocation(2,"Thaliastraße/Haberlgasse").
-sequence(2,0, "Schwechat Bahnhof").
-possiblemeetinglocations("Waidhausenstraße").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Matthäus-Jiszda-Straße").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-restaurant("Julius-Raab-Platz").
-restaurant("Donaustadtbrücke").
-restaurant("Barawitzkagasse").
-restaurant("Floridsdorfer Markt").
-restaurant("Ottakringer Str/Erdbrustgasse").
-restaurant("Stadlau").
-restaurant("Wienerfeldgasse").
-restaurant("Schönborn Bahnhof").
-restaurant("Albertgasse").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Franzensbrücke").
+initlocation($p,"Knöllgasse/Davidgasse").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Wolf in der Au").
+initlocation($p,"Kaiserstraße/Westbahnstraße").
+initlocation($p,"Rekawinkel Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Silbergasse").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Windtenstraße").
+restaurant("Meidling Hauptstraße").
+restaurant("Gaisruck Bahnhof").
+restaurant("Sollenau Bahnhof").
+restaurant("Rankgasse").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Simmering").
+restaurant("Prandaugasse").

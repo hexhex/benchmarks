@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Strebersdorf").
-sequence(1,0, "Schönborn Bahnhof").
+initlocation($p,"Breitensee").
+initlocation($p,"Satzberggasse").
+initlocation($p,"Breitensee").
 person(2).
-initlocation(2,"Hütteldorfer Str/Lützowgasse").
-initlocation(2,"Strebersdorf").
-sequence(2,0, "Hütteldorfer Str/Lützowgasse").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Maurer Lange Gasse").
-restaurant("Schleiergasse").
-restaurant("Spittelau").
+initlocation($p,"Verbindungsbahn").
+initlocation($p,"Shuttleworthstraße").
+initlocation($p,"Verbindungsbahn").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+restaurant("Tesarekplatz").
+restaurant("Schloss Belvedere").

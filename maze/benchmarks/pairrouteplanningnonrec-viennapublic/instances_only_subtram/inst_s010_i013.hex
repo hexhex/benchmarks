@@ -1,45 +1,44 @@
 person(1).
-initlocation(1,"Nordbrücke").
-initlocation(1,"Arminenstraße").
-initlocation(1,"Beingasse").
-initlocation(1,"Thaliastraße/Brunnengasse").
-initlocation(1,"Oberolberndorf Bahnhof").
-initlocation(1,"Mühlfeldgasse").
-initlocation(1,"Grinzing").
-initlocation(1,"Römergasse").
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Kraygasse").
-sequence(1,0, "Nordbrücke").
+initlocation($p,"Schottentor").
+initlocation($p,"Spittelau").
+initlocation($p,"Sensengasse").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Palffygasse").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Sickenberggasse").
+initlocation($p,"Elterleinplatz").
+initlocation($p,"Gerhardusgasse").
+initlocation($p,"Schottentor").
 person(2).
-initlocation(2,"Purkersdorf Zentrum Bahnhof").
-initlocation(2,"Mariahilfer Gürtel").
-initlocation(2,"Römergasse").
-initlocation(2,"Sankt Marx").
-initlocation(2,"Hauffgasse").
-initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(2,"Strasshof Bahnhof").
-initlocation(2,"Edmund-Hawranek-Platz").
-initlocation(2,"Trasdorf Bahnhof").
-initlocation(2,"Herrengasse").
-sequence(2,0, "Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Johann-Strauß-Gasse").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Weißenböckstraße").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Baumgarten").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-possiblemeetinglocations("Weinhauser Gasse").
-restaurant("Lange Gasse").
-restaurant("Linzer Straße/Johnstraße").
-restaurant("Linzer Straße/Reinlgasse").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Svetelskystraße").
-restaurant("Oberfeldgasse").
-restaurant("Schönborn Bahnhof").
-restaurant("Laxenburger Str/Gudrunstraße").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Sierndorf Bahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Skodagasse").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Eckpergasse").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Franzensbrücke").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+restaurant("Kagraner Platz").
+restaurant("Bahnhof Meidling").
+restaurant("Sierndorf Bahnhof").
 restaurant("Grinzing").
-restaurant("Stadtpark").
+restaurant("Winkeläckerstraße").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Staatz Bahnhof").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Stubentor").
+restaurant("Grillgasse").

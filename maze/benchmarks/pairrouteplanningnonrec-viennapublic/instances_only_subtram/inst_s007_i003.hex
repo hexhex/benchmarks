@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Kliebergasse").
-initlocation(1,"Fultonstraße").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Bahnsteggasse").
-initlocation(1,"Canisiusgasse").
-initlocation(1,"Spillern Bahnhof").
-initlocation(1,"Kaiserebersdorf, Zinnergasse").
-sequence(1,0, "Kliebergasse").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Anschützgasse").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Oberlaa, Therme Wien").
+initlocation($p,"Hopfengasse").
+initlocation($p,"Prinzgasse").
+initlocation($p,"Döblinger Bad").
+initlocation($p,"Schönborn Bahnhof").
 person(2).
-initlocation(2,"Arthaberplatz").
-initlocation(2,"Oberlaa, Therme Wien").
-initlocation(2,"Pötzleinsdorf").
-initlocation(2,"Urban-Loritz-Platz").
-initlocation(2,"Weigelsdorf Bahnhof").
-initlocation(2,"Karmeliterplatz").
-initlocation(2,"Nußdorfer Str/Alserbachstraße").
-sequence(2,0, "Arthaberplatz").
-possiblemeetinglocations("Forstnergasse").
-possiblemeetinglocations("Gatterburggasse").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-possiblemeetinglocations("Türkenschanzplatz").
-restaurant("Ottakring").
-restaurant("Nußdorf, Beethovengang").
-restaurant("Langobardenstraße/Kapellenweg").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Zieglergasse/Westbahnstraße").
-restaurant("Atzgersdorf").
-restaurant("Favoritenstraße/Troststraße").
+initlocation($p,"Stammersdorf").
+initlocation($p,"Rosensteingasse").
+initlocation($p,"Siebensterngasse").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Canisiusgasse").
+initlocation($p,"Stadlergasse").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Stammersdorf").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Stubentor").
+restaurant("Friedensbrücke").
+restaurant("Absberggasse").
+restaurant("Pilgramgasse").
+restaurant("Gutraterplatz").
+restaurant("Neulerchenfelder Str/Haberlg").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Johannes-Krawarik-Gasse").

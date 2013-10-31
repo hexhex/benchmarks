@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Laxenburger Str/Gudrunstraße").
-initlocation(1,"Am Spitz").
-initlocation(1,"Schleiergasse").
-sequence(1,0, "Laxenburger Str/Gudrunstraße").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Kaiserstraße").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Maria Ellend Bahnhof").
 person(2).
-initlocation(2,"Schottentor").
-initlocation(2,"Hollabrunn Bahnhof").
-initlocation(2,"Sommarugagasse").
-sequence(2,0, "Schottentor").
-possiblemeetinglocations("Viehmarktgasse").
-possiblemeetinglocations("Laxenburger Straße/Troststraße").
-possiblemeetinglocations("Huglgasse").
-restaurant("Meidling Hauptstraße").
-restaurant("Weinhauser Gasse").
-restaurant("Zeiselmauer-Königstetten Bf").
+initlocation($p,"Hubertusdamm").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Taborstraße").
+initlocation($p,"Hubertusdamm").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Herbeckstraße").
+restaurant("Florianigasse").
+restaurant("Viehmarktgasse").
+restaurant("Albertgasse").

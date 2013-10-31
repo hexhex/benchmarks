@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Gaisruck Bahnhof").
-initlocation(1,"Liesing").
-initlocation(1,"Neubau-Kreuzstetten Bahnhof").
-initlocation(1,"Schönbrunn").
-sequence(1,0, "Gaisruck Bahnhof").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Hietzing").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
 person(2).
-initlocation(2,"Staatz Bahnhof").
-initlocation(2,"Bisamberg Bahnhof").
-initlocation(2,"Michelhausen Bahnhof").
-initlocation(2,"Niederkreuzstetten Bahnhof").
-sequence(2,0, "Staatz Bahnhof").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Jedlersdorf").
-restaurant("Platt Bahnhof".
-restaurant("Hirschstetten".
-restaurant("Tulln Stadt Bahnhof".
-restaurant("Westbahnhof").
+initlocation($p,"Neue Donau").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Nußdorf").
+initlocation($p,"Neue Donau").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Strebersdorf").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Hütteldorfer Straße").
+restaurant("Sitzenberg-Reidling Bahnhof").

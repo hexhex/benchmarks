@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Münchendorf Bahnhof").
-initlocation(1,"Sensengasse").
-initlocation(1,"Ottakringer Straße/Wattgasse").
-initlocation(1,"Kleistgasse").
-initlocation(1,"Stollgasse").
-sequence(1,0, "Münchendorf Bahnhof").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Erndtgasse").
+initlocation($p,"Arminenstraße").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Seyring Bahnhof").
 person(2).
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-initlocation(2,"Mayerhofgasse").
-initlocation(2,"Michelbeuern-AKH").
-initlocation(2,"Döblinger Bad").
-initlocation(2,"Klosterneuburg-Kierling Bf").
-sequence(2,0, "Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Urban-Loritz-Platz").
-possiblemeetinglocations("Palffygasse").
-possiblemeetinglocations("Laudongasse").
-possiblemeetinglocations("Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Penzing").
-restaurant("Schloss Schönbrunn").
-restaurant("Hütteldorfer Str/Lützowgasse").
-restaurant("Staglgasse").
-restaurant("Unteres Belvedere").
-restaurant("Aspern, Oberdorfstraße").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Absberggasse").
+initlocation($p,"Am Tabor").
+initlocation($p,"Riedelgasse").
+initlocation($p,"Kaiserstraße").
+initlocation($p,"Matzleinsdorfer Platz").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Sieveringer Straße").
+restaurant("Mannswörth Bahnhof").
+restaurant("Kagran").
+restaurant("Nordbrücke").
+restaurant("Baumgarten").
+restaurant("Penzing").

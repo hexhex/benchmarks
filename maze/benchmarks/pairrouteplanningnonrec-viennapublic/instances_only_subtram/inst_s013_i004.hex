@@ -1,57 +1,56 @@
 person(1).
-initlocation(1,"Großjedlersdorf").
-initlocation(1,"Tscherttegasse").
-initlocation(1,"Taubstummengasse").
-initlocation(1,"Oberzellergasse").
-initlocation(1,"Strozzigasse").
-initlocation(1,"St Andrä-Wördern Bahnhof").
-initlocation(1,"Gumpendorfer Straße").
-initlocation(1,"Schleiergasse").
-initlocation(1,"Hütteldorf, Bujattigasse").
-initlocation(1,"Margaretengürtel").
-initlocation(1,"Mühlfeldgasse").
-initlocation(1,"Dresdner Straße").
-initlocation(1,"Hollabrunn Bahnhof").
-sequence(1,0, "Großjedlersdorf").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
+initlocation($p,"Stockholmer Platz").
+initlocation($p,"Scheibenbergstraße").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Auerspergstraße").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Fickeysstraße").
+initlocation($p,"Sieveringer Straße").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Johannes-Krawarik-Gasse").
+initlocation($p,"Hadersdorf Bahnhof").
 person(2).
-initlocation(2,"Kaiserstraße").
-initlocation(2,"Liechtenwerder Platz").
-initlocation(2,"Rosensteingasse").
-initlocation(2,"Columbusplatz").
-initlocation(2,"St Pölten Hauptbahnhof").
-initlocation(2,"Innstraße").
-initlocation(2,"Langenzersdorf Bahnhof").
-initlocation(2,"Troststraße/Neilreichgasse").
-initlocation(2,"Bösendorferstraße").
-initlocation(2,"Nußdorfer Straße").
-initlocation(2,"Hütteldorfer Str/Hochsatzeng").
-initlocation(2,"Retz Bahnhof").
-initlocation(2,"Verbindungsbahn").
-sequence(2,0, "Kaiserstraße").
-possiblemeetinglocations("Dornbacher Straße").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Kranzgasse").
-possiblemeetinglocations("Krankenhaus Hietzing").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Skodagasse").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Marienbrücke").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Reinlgasse/Märzstraße").
-possiblemeetinglocations("Rathaus").
-restaurant("Rebhanngasse").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Augasse").
-restaurant("Tulln Stadt Bahnhof").
-restaurant("Nußdorfer Straße").
-restaurant("Hofwiesengasse").
-restaurant("Sarasdorf Bahnhof").
-restaurant("Strozzigasse").
-restaurant("Dornbach, Güpferlingstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Spillern Bahnhof").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Rußbergstraße").
+initlocation($p,"Oberzellergasse").
+initlocation($p,"Hernalser Gürtel").
+initlocation($p,"Penzing").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Yppengasse").
+initlocation($p,"Weihburggasse").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Schwarzenbergplatz").
+initlocation($p,"Stadtpark").
+initlocation($p,"Schloss Hetzendorf").
+initlocation($p,"Stollgasse").
+initlocation($p,"Otto-Probst-Platz").
+initlocation($p,"Wr Neustadt Nord").
+initlocation($p,"Oberzellergasse").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Teichgasse").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Seegasse").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Baumgarten").
+restaurant("Stubentor").
+restaurant("Bauernfeldplatz").
+restaurant("Simonygasse").
+restaurant("Brünnlbadgasse").
+restaurant("Tesarekplatz").
+restaurant("Jagdschloßgasse").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Sensengasse").
+restaurant("Thaliastraße/Brunnengasse").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Oberradlberg Bahnhof").

@@ -1,21 +1,20 @@
 person(1).
-initlocation(1,"Hainburg/Donau Ungartor/B9").
-initlocation(1,"Höflein an der Donau Bahnhof").
-initlocation(1,"Moosbierbaum-Heiligeneich Bf").
-initlocation(1,"Währinger Straße-Volksoper").
-sequence(1,0, "Hainburg/Donau Ungartor/B9").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
 person(2).
-initlocation(2,"Kaisermühlen-VIC").
-initlocation(2,"Museumsquartier").
-initlocation(2,"Taubstummengasse").
-initlocation(2,"Bisamberg Bahnhof").
-sequence(2,0, "Kaisermühlen-VIC").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Jedlersdorf").
-restaurant("Donauspital".
-restaurant("Hardeggasse".
-restaurant("Höbersdorf Bahnhof".
-restaurant("Oberolberndorf Bahnhof").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Großfeldsiedlung").
+initlocation($p,"Gersthof").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Bad Vöslau Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Seestadt").
+restaurant("Bahnhof Meidling").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Krieau").
+restaurant("Unter Kritzendorf Bahnhof").

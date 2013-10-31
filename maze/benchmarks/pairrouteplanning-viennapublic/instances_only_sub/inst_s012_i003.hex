@@ -1,52 +1,52 @@
 person(1).
-initlocation(1,"Kaiserebersdorf").
-initlocation(1,"Gänserndorf Bahnhof").
-initlocation(1,"Friedensbrücke").
-initlocation(1,"Wampersdorf Bahnhof").
-initlocation(1,"Nußdorf").
-initlocation(1,"Breitensee").
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Himberg Bahnhof").
-initlocation(1,"Neulengbach Stadt Bahnhof").
-initlocation(1,"Weidlingau Bahnhof").
-initlocation(1,"Kledering Bahnhof").
-initlocation(1,"Staatz Bahnhof").
-sequence(1,0, "Kaiserebersdorf").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Sierndorf Bahnhof").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Tscherttegasse").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Friedensbrücke").
 person(2).
-initlocation(2,"Südtiroler Platz/Hauptbahnhof").
-initlocation(2,"Schottenring").
-initlocation(2,"Silberwald Bahnhof").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Taubstummengasse").
-initlocation(2,"Rennweg").
-initlocation(2,"Breitensee").
-initlocation(2,"Zippererstraße").
-initlocation(2,"Hausfeldstraße").
-initlocation(2,"Jedlersdorf").
-initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation(2,"Schottentor").
-sequence(2,0, "Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Rennweg").
+initlocation($p,"Praterkai").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Hietzing").
+initlocation($p,"Hernals").
+initlocation($p,"Wolf in der Au").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Rennweg").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Zentralfriedhof").
 possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Stockerau Bahnhof").
 possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-restaurant("Donauspital".
-restaurant("Silberwald Bahnhof".
-restaurant("Hadersdorf Bahnhof".
-restaurant("Gerasdorf Bahnhof".
-restaurant("Alterlaa".
-restaurant("Hörersdorf Bahnhof".
-restaurant("Bruck/Leitha Bahnhof".
-restaurant("Krottenbachstraße".
-restaurant("Roßauer Lände".
-restaurant("Landstraße-Wien Mitte".
-restaurant("Paasdorf Bahnhof".
-restaurant("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Margaretengürtel").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Traismauer Bahnhof").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Enkplatz").
+restaurant("Penzing").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Praterkai").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Ober Sankt Veit").

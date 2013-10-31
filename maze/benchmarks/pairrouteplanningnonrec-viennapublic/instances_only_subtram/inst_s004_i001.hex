@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Kagraner Platz").
-initlocation(1,"Viehmarktgasse").
-initlocation(1,"Zentralfriedhof 1Tor").
-initlocation(1,"Neulerchenfelder Str/Brunneng").
-sequence(1,0, "Kagraner Platz").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Johann-Strauß-Gasse").
+initlocation($p,"Braunhubergasse").
+initlocation($p,"Gaisruck Bahnhof").
 person(2).
-initlocation(2,"Spittelau").
-initlocation(2,"Stadlergasse").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"Kettenbrückengasse").
-sequence(2,0, "Spittelau").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-restaurant("Traisengasse").
-restaurant("Reinlgasse/Märzstraße").
-restaurant("Matthäus-Jiszda-Straße").
-restaurant("Albertgasse").
+initlocation($p,"Marx-Meidlinger-Straße").
+initlocation($p,"Autokaderstraße").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Höchstädtplatz").
+initlocation($p,"Marx-Meidlinger-Straße").
+possiblemeetinglocations("Gutraterplatz").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+restaurant("Floridsdorfer Markt").
+restaurant("Aspern, Oberdorfstraße").
+restaurant("Lerchenfelder Straße").
+restaurant("Neulerchenfelder Str/Brunneng").

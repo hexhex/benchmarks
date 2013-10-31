@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Fickeysstraße").
-initlocation(1,"Verbindungsbahn").
-initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
-initlocation(1,"Hietzing").
-initlocation(1,"Hausleiten Bahnhof").
-initlocation(1,"Langenlebarn Bahnhof").
-sequence(1,0, "Fickeysstraße").
+initlocation($p,"Neulerchenfelder Str/Haberlg").
+initlocation($p,"Laurentiusplatz").
+initlocation($p,"Teichgasse").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Großfeldsiedlung").
+initlocation($p,"Blumengasse").
+initlocation($p,"Neulerchenfelder Str/Haberlg").
 person(2).
-initlocation(2,"Höchstädtplatz").
-initlocation(2,"Linzer Straße/Lützowgasse").
-initlocation(2,"Ober Sankt Veit").
-initlocation(2,"Schloss Hetzendorf").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Raxstraße/Rudolfshügelgasse").
-sequence(2,0, "Höchstädtplatz").
-possiblemeetinglocations("Herbeckstraße").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Windtenstraße").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-restaurant("Mühlfeldgasse").
-restaurant("Wexstraße").
-restaurant("Bösendorferstraße").
-restaurant("Neulengbach Bahnhof").
-restaurant("Stammersdorf").
-restaurant("Maurer Lange Gasse").
+initlocation($p,"Hütteldorfer Str/Hochsatzeng").
+initlocation($p,"Kottingbrunn Bahnhof").
+initlocation($p,"Linzer Straße/Hochsatzengasse").
+initlocation($p,"Grillgasse").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Baumgasse").
+initlocation($p,"Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Salztorbrücke").
+restaurant("Schottenring").
+restaurant("Donaustadtstraße").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Schloss Hetzendorf").
+restaurant("Alfred-Adler-Straße").
+restaurant("Raxstraße/Rudolfshügelgasse").

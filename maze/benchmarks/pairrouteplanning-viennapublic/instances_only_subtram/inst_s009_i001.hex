@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Hetzgasse").
-initlocation(1,"Gerasdorf Bahnhof").
-initlocation(1,"Hütteldorf, Bujattigasse").
-initlocation(1,"Reinlgasse/Märzstraße").
-initlocation(1,"Leberberg").
-initlocation(1,"Neulengbach Bahnhof").
-initlocation(1,"Döblinger Hauptstr/Gatterburgg").
-initlocation(1,"Mayssengasse").
-initlocation(1,"Franz-Josefs-Bahnhof").
-sequence(1,0, "Hetzgasse").
+initlocation($p,"Sahulkastraße").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Sickenberggasse").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Laudongasse").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Alterlaa").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Sahulkastraße").
 person(2).
-initlocation(2,"Tulln Stadt Bahnhof").
-initlocation(2,"Tullnerfeld Bahnhof").
-initlocation(2,"Neubaugasse").
-initlocation(2,"Teichgasse").
-initlocation(2,"Zippererstraße").
-initlocation(2,"Strebersdorf").
-initlocation(2,"Reumannplatz").
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Leberberg").
-sequence(2,0, "Tulln Stadt Bahnhof").
-possiblemeetinglocations("Aspern, Oberdorfstraße").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Ottakringer Straße/Wattgasse").
-possiblemeetinglocations("Hildebrandgasse").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Karmeliterplatz").
-possiblemeetinglocations("Mühlfeldgasse").
-possiblemeetinglocations("Lazarettgasse").
-possiblemeetinglocations("Winckelmannstraße").
-restaurant("Neubaugasse").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Zieglergasse/Westbahnstraße").
-restaurant("Canisiusgasse").
-restaurant("Schottenfeldgasse").
-restaurant("Schleiergasse").
-restaurant("Konstanziagasse").
-restaurant("Penzing").
-restaurant("Zehetnerg/Pflegeh Baumgarten").
+initlocation($p,"Krieau").
+initlocation($p,"Am Heumarkt").
+initlocation($p,"Rosensteingasse").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Arminenstraße").
+initlocation($p,"Herbeckstraße").
+initlocation($p,"Leopoldau").
+initlocation($p,"Grinzing").
+initlocation($p,"Krieau").
+possiblemeetinglocations("Gaußplatz").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Laaer-Berg-Straße").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Rosenhügelstraße").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Silberwald Bahnhof").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Stiftgasse").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Rampengasse").

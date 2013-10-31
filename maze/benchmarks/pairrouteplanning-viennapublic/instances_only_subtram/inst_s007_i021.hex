@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-initlocation(1,"Hoßplatz").
-initlocation(1,"Leobersdorf Bahnhof").
-initlocation(1,"St Pölten Traisenpark P+R Nord").
-initlocation(1,"Sickenberggasse").
-initlocation(1,"Spillern Bahnhof").
-initlocation(1,"Am Heumarkt").
-sequence(1,0, "Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Dornbacher Straße").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Yppengasse").
+initlocation($p,"Paulanergasse").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Dornbacher Straße").
 person(2).
-initlocation(2,"Gasometer").
-initlocation(2,"Geiereckstraße").
-initlocation(2,"Gatterburggasse").
-initlocation(2,"Spitalgasse/Währinger Straße").
-initlocation(2,"Nestroyplatz").
-initlocation(2,"Friedensbrücke").
-initlocation(2,"Unterradlberg Bahnhof").
-sequence(2,0, "Gasometer").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Neubaugasse/Westbahnstraße").
-possiblemeetinglocations("Mühlfeldgasse").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Krankenhaus Hietzing").
-possiblemeetinglocations("Rennweg").
-restaurant("Gottschalkgasse/Enkplatz").
-restaurant("Salztorbrücke").
-restaurant("Alfred-Adler-Straße").
-restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Alaudagasse").
+initlocation($p,"Lederergasse").
+initlocation($p,"Schuhmeierplatz").
+initlocation($p,"Blindengasse").
+initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation($p,"Anton-Schall-Gasse").
+initlocation($p,"Donaustadtstraße").
+initlocation($p,"Gerhardusgasse").
+initlocation($p,"Lederergasse").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Alterlaa").
+restaurant("Beingasse").
+restaurant("Jägerstraße").
+restaurant("Gasometer").
+restaurant("Himmelmutterweg").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Liesing").
+restaurant("Untertullnerbach Bahnhof").

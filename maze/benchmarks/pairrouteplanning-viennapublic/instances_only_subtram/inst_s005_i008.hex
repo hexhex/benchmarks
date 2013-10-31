@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Seyring Bahnhof").
-initlocation(1,"Linzer Straße/Johnstraße").
-initlocation(1,"Laaer-Berg-Straße").
-initlocation(1,"Münchendorf Bahnhof").
-initlocation(1,"Alte Donau").
-sequence(1,0, "Seyring Bahnhof").
+initlocation($p,"Am Tabor").
+initlocation($p,"Donaumarina").
+initlocation($p,"Augasse").
+initlocation($p,"Weinheimergasse").
+initlocation($p,"Viehmarktgasse").
+initlocation($p,"Am Tabor").
 person(2).
-initlocation(2,"Stadlau").
-initlocation(2,"Tulln Stadt Bahnhof").
-initlocation(2,"Oberzellergasse").
-initlocation(2,"Hütteldorfer Str/Hochsatzeng").
-initlocation(2,"Unter Sankt Veit").
-sequence(2,0, "Stadlau").
-possiblemeetinglocations("Nußdorf, Beethovengang").
-possiblemeetinglocations("Innstraße").
-possiblemeetinglocations("Blumengasse").
-possiblemeetinglocations("Van-Swieten-Kaserne").
-possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
-restaurant("Platt Bahnhof").
-restaurant("Gloriettegasse").
-restaurant("Gerstnerstraße/Westbhf").
-restaurant("Schuhmeierplatz").
-restaurant("Bisamberg Bahnhof").
+initlocation($p,"Svetelskystraße").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Svetelskystraße").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Am Heidjöchl").
+restaurant("Stammersdorf").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Bahnhofstraße").
+restaurant("Kagraner Platz").

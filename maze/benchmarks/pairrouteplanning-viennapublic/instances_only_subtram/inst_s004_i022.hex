@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Römergasse").
-initlocation(1,"Blumental").
-initlocation(1,"Gasometer").
-initlocation(1,"Stadiongasse/Parlament").
-sequence(1,0, "Römergasse").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Oberzellergasse").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Regelsbrunn Bahnhof").
 person(2).
-initlocation(2,"Neulengbach Bahnhof").
-initlocation(2,"Erlaaer Straße").
-initlocation(2,"Bisamberg Bahnhof").
-initlocation(2,"Wienerbergbrücke").
-sequence(2,0, "Neulengbach Bahnhof").
-possiblemeetinglocations("Landesgerichtsstraße").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-restaurant("Aderklaaer Straße").
-restaurant("Weidlingau Bahnhof").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Langobardenstraße/Kapellenweg").
+initlocation($p,"Ottakring").
+initlocation($p,"Alfred-Adler-Straße").
+initlocation($p,"Siebensterngasse").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Ottakring").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+restaurant("Schloss Schönbrunn").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Mühlfeldgasse").
+restaurant("Staglgasse").

@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Skodagasse").
-initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation(1,"Knöllgasse/Davidgasse").
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Hubertusdamm").
-initlocation(1,"Rathaus").
-initlocation(1,"Unter Sankt Veit").
-initlocation(1,"Zentralfriedhof").
-initlocation(1,"Schloss Hetzendorf").
-sequence(1,0, "Skodagasse").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Frödenplatz").
+initlocation($p,"Mariahilfer Gürtel").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Aspern, Oberdorfstraße").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Wenzgasse").
+initlocation($p,"Praterstern").
+initlocation($p,"Aßmayergasse").
+initlocation($p,"Bruck/Leitha Bahnhof").
 person(2).
-initlocation(2,"Florianigasse").
-initlocation(2,"Herzogenburg Bahnhof").
-initlocation(2,"Arthaberplatz").
-initlocation(2,"Rennweg").
-initlocation(2,"Rauscherstraße").
-initlocation(2,"Schwarzenbergplatz").
-initlocation(2,"Brigittaplatz").
-initlocation(2,"Obersdorf Bahnhof").
-initlocation(2,"Hildebrandgasse").
-sequence(2,0, "Florianigasse").
-possiblemeetinglocations("Beingasse").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Bösendorferstraße").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
-possiblemeetinglocations("Stephansplatz").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Rochusgasse").
-restaurant("Franz-Josefs-Bahnhof").
-restaurant("Bauernfeldplatz").
-restaurant("Laxenburger Str/Gudrunstraße").
-restaurant("Litfaßstraße").
-restaurant("Barawitzkagasse").
-restaurant("Elterleinplatz").
-restaurant("Floridsdorf").
-restaurant("Margaretengürtel").
-restaurant("Blechturmgasse").
+initlocation($p,"Favoritenstraße/Troststraße").
+initlocation($p,"Schuhmeierplatz").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Hardtgasse").
+initlocation($p,"Scheibenbergstraße").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Maurer Hauptplatz").
+initlocation($p,"Hernals").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Favoritenstraße/Troststraße").
+possiblemeetinglocations("Fultonstraße").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+restaurant("Rankgasse").
+restaurant("Schleinbach Bahnhof").
+restaurant("Gumpendorfer Straße").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Lederergasse").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Blumengasse").
+restaurant("Kledering Bahnhof").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Polgarstraße").
-initlocation(1,"Weidlingau Bahnhof").
-initlocation(1,"Erzherzog-Karl-Straße").
-sequence(1,0, "Rennbahnweg").
+initlocation($p,"Gredlerstraße").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Am Heumarkt").
+initlocation($p,"Gredlerstraße").
 person(2).
-initlocation(2,"Hütteldorf, Bujattigasse").
-initlocation(2,"Dornbacher Straße").
-initlocation(2,"Breitenfurter Str/Liesingbr").
-initlocation(2,"Autokaderstraße").
-sequence(2,0, "Hütteldorf, Bujattigasse").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Lerchenfelder Straße").
-restaurant("Am Spitz").
-restaurant("Bahnhof Meidling/Eichenstraße").
-restaurant("Mistelbach Bahnhof").
-restaurant("Spittelau").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Gottschalkgasse/Enkplatz").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Spillern Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Maurer Hauptplatz").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Klosterneuburg-Kierling Bf").

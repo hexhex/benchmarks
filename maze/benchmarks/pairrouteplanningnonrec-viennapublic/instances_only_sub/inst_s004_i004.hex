@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Bad Vöslau Bahnhof").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Tullnerfeld Bahnhof").
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-sequence(1,0, "Bad Vöslau Bahnhof").
+initlocation($p,"Simmering").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Simmering").
 person(2).
-initlocation(2,"Neubaugasse").
-initlocation(2,"Perchtoldsdorf Bahnhof").
-initlocation(2,"Bad Vöslau Bahnhof").
-initlocation(2,"Muckendorf-Wipfing Bahnhof").
-sequence(2,0, "Neubaugasse").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-restaurant("Stubentor".
-restaurant("Brünner Straße".
-restaurant("Rochusgasse".
-restaurant("Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Donauinsel").
+initlocation($p,"Rekawinkel Bahnhof").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Donauinsel").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Friedensbrücke").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Gasometer").
+restaurant("Krieau").

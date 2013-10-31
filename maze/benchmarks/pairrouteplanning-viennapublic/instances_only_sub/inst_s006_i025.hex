@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Ober Sankt Veit").
-initlocation(1,"Alser Straße").
-initlocation(1,"Großfeldsiedlung").
-initlocation(1,"Johnstraße").
-initlocation(1,"Taborstraße").
-initlocation(1,"Siemensstraße").
-sequence(1,0, "Ober Sankt Veit").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Gersthof").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Mistelbach Stadt").
 person(2).
-initlocation(2,"Donaumarina").
-initlocation(2,"Maria Ellend Bahnhof").
-initlocation(2,"Friedensbrücke").
-initlocation(2,"Unterradlberg Bahnhof").
-initlocation(2,"Mannswörth Bahnhof").
-initlocation(2,"Oberradlberg Bahnhof").
-sequence(2,0, "Donaumarina").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Messe-Prater").
-restaurant("Neusiedl am See Bahnhof".
-restaurant("Siebenhirten (NÖ.
-Haltestelle".
-restaurant("Traismauer Bahnhof".
-restaurant("Schottentor".
-restaurant("Pressbaum Bahnhof".
-restaurant("Theresienfeld Bahnhof").
+initlocation($p,"Johnstraße").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Krieau").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Johnstraße").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Korneuburg Bahnhof").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Staatz Bahnhof").
+restaurant("Penzing").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Obersdorf Bahnhof").

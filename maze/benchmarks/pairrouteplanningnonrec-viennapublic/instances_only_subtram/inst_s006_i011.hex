@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Rampengasse").
-initlocation(1,"Mödling Bahnhof").
-initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
-initlocation(1,"Leberberg").
-initlocation(1,"Karmeliterplatz").
-initlocation(1,"Theresienfeld Bahnhof").
-sequence(1,0, "Rampengasse").
+initlocation($p,"Quellenstraße/Knöllgasse").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Bahnhofstraße").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Aspern, Oberdorfstraße").
+initlocation($p,"Quellenstraße/Knöllgasse").
 person(2).
-initlocation(2,"Sierndorf Bahnhof").
-initlocation(2,"Margaretengürtel").
-initlocation(2,"Aumannplatz").
-initlocation(2,"Neubaugasse/Westbahnstraße").
-initlocation(2,"Wallrißstraße").
-initlocation(2,"Untertullnerbach Bahnhof").
-sequence(2,0, "Sierndorf Bahnhof").
-possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Prater, Hauptallee").
-possiblemeetinglocations("Rustengasse").
-possiblemeetinglocations("Tesarekplatz").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-restaurant("Nußdorfer Straße").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Laxenburger Straße/Troststraße").
+initlocation($p,"Tullnerfeld Bahnhof").
+initlocation($p,"Schloss Schönbrunn").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Arthaberplatz").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+restaurant("Schuhmeierplatz").
+restaurant("Braunschweiggasse").
+restaurant("Albertgasse").
 restaurant("St Pölten Hauptbahnhof").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Sonnergasse").
-restaurant("Sechskrügelgasse").
-restaurant("Schwarzenbergplatz").
+restaurant("Gasometer").
+restaurant("Wr Neustadt Civitas Nova").

@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Gewerbepark Stadlau Mitte").
-initlocation(1,"Laxenburger Str/Gudrunstraße").
-initlocation(1,"Kottingbrunn Bahnhof").
-initlocation(1,"Kaiser-Franz-Josef-Straße").
-initlocation(1,"Hütteldorfer Str/Lützowgasse").
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-initlocation(1,"Hohe Warte").
-initlocation(1,"Sechskrügelgasse").
-sequence(1,0, "Gewerbepark Stadlau Mitte").
+initlocation($p,"Halteraugasse").
+initlocation($p,"Kleistgasse").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation($p,"Am Heidjöchl").
+initlocation($p,"Wallrißstraße").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Svetelskystraße").
+initlocation($p,"Halteraugasse").
 person(2).
-initlocation(2,"Brigittaplatz").
-initlocation(2,"Brünner Straße/Hanreitergasse").
-initlocation(2,"Gerstnerstraße/Westbhf").
-initlocation(2,"Laurenzgasse").
-initlocation(2,"Hopfengasse").
-initlocation(2,"Rosenhügelstraße").
-initlocation(2,"Südtiroler Platz/Hauptbahnhof").
-initlocation(2,"Halteraugasse").
-sequence(2,0, "Brigittaplatz").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Vinzenzgasse").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Weißenböckstraße").
-possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
-possiblemeetinglocations("Rosenhügelstraße").
-possiblemeetinglocations("Burgring").
-restaurant("Carabelligasse").
-restaurant("Wildgansplatz").
-restaurant("Glatzgasse").
-restaurant("Jedlersdorf").
-restaurant("Gußhausstraße").
-restaurant("Preyergasse/Speising").
-restaurant("Am Heidjöchl").
-restaurant("Hainburg/Donau Ungartor/B9").
+initlocation($p,"Donaumarina").
+initlocation($p,"Geiereckstraße").
+initlocation($p,"Jagdschloßgasse").
+initlocation($p,"Am Schöpfwerk").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Bahnhof Meidling").
+initlocation($p,"Donaumarina").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Diesterweggasse").
+restaurant("Breitensee").
+restaurant("Kagran").
+restaurant("Leyserstraße").
+restaurant("Herzogenburg Stadt").
+restaurant("Rothneusiedl").
+restaurant("Nordwestbahnstraße").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Simmering").

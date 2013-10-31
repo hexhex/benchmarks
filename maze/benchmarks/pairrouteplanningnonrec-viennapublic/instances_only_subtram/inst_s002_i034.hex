@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Ebenfurth Bahnhof").
-initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
-sequence(1,0, "Ebenfurth Bahnhof").
+initlocation($p,"Gatterburggasse").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Gatterburggasse").
 person(2).
-initlocation(2,"Stammersdorf").
-initlocation(2,"Keplerplatz").
-sequence(2,0, "Stammersdorf").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-restaurant("Schlachthausgasse").
-restaurant("Weinhauser Gasse").
+initlocation($p,"Litfaßstraße").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Litfaßstraße").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Radetzkyplatz").
+restaurant("Viehmarktgasse").

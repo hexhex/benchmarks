@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Marxergasse").
-initlocation(1,"Troststraße/Neilreichgasse").
-initlocation(1,"Praterkai").
-initlocation(1,"Lerchenfelder Straße").
-initlocation(1,"Lainz, Wolkersbergenstraße").
-initlocation(1,"Paulanergasse").
-sequence(1,0, "Marxergasse").
+initlocation($p,"Neue Donau").
+initlocation($p,"Stollgasse").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Hopfengasse").
+initlocation($p,"Wittelsbachstraße").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Neue Donau").
 person(2).
-initlocation(2,"Jägerstraße").
-initlocation(2,"Oberfeldgasse").
-initlocation(2,"Schottenring").
-initlocation(2,"Camillo-Sitte-Gasse").
-initlocation(2,"Polgarstraße").
-initlocation(2,"Purkersdorf Sanatorium").
-sequence(2,0, "Jägerstraße").
-possiblemeetinglocations("Liebknechtgasse").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Elterleinplatz").
-restaurant("Koloniestraße").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Absberggasse").
-restaurant("Linzer Straße/Zehetnergasse").
-restaurant("Penzing").
-restaurant("Kaiserstraße/Westbahnstraße").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Albertgasse").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Fultonstraße").
+initlocation($p,"Shuttleworthstraße").
+initlocation($p,"Gasometer").
+initlocation($p,"Landstraße-Wien Mitte").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Gaußplatz").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Kärntner Ring/Oper").
+restaurant("Praterstern").
+restaurant("Erndtgasse").
+restaurant("Gersthof").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Wolf in der Au").
+restaurant("Keplerplatz").

@@ -1,52 +1,52 @@
 person(1).
-initlocation(1,"Nestroyplatz").
-initlocation(1,"Antonigasse").
-initlocation(1,"Versorgungsheimplatz").
-initlocation(1,"Weihburggasse").
-initlocation(1,"Knöllgasse/Davidgasse").
-initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
-initlocation(1,"Redtenbachergasse").
-initlocation(1,"Alfred-Adler-Straße").
-initlocation(1,"Liechtenwerder Platz").
-initlocation(1,"Herzogenburg Stadt").
-initlocation(1,"Kapellerfeld Bahnhof").
-sequence(1,0, "Nestroyplatz").
+initlocation($p,"Mariahilfer Gürtel").
+initlocation($p,"Schöffelgasse").
+initlocation($p,"Wolf in der Au").
+initlocation($p,"Ungargasse/Neulinggasse").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Traisengasse").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Leopoldau").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Canisiusgasse").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Mariahilfer Gürtel").
 person(2).
-initlocation(2,"Geiereckstraße").
-initlocation(2,"Fischamend Bahnhof").
-initlocation(2,"Autokaderstraße").
-initlocation(2,"Julius-Raab-Platz").
-initlocation(2,"Rebhanngasse").
-initlocation(2,"Palffygasse").
-initlocation(2,"Schwarzenbergplatz").
-initlocation(2,"Absdorf-Hippersdorf Bahnhof").
-initlocation(2,"Gottschalkgasse/Enkplatz").
-initlocation(2,"Hütteldorfer Str/Lützowgasse").
-initlocation(2,"Satzberggasse").
-initlocation(2,"Gutraterplatz").
-sequence(2,0, "Geiereckstraße").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Trondheimgasse").
-possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Grinzinger Straße").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Hardtgasse").
-restaurant("Ottakringer Straße/Wattgasse").
-restaurant("Gewerbepark Stadlau Mitte").
-restaurant("Kleistgasse").
-restaurant("Paradisgasse").
-restaurant("Marxergasse").
-restaurant("Mödling Bahnhof").
-restaurant("Nußdorf, Beethovengang").
-restaurant("Fischamend Bahnhof").
-restaurant("Gatterburggasse").
-restaurant("Süßenbrunn").
-restaurant("Linzer Straße/Lützowgasse").
-restaurant("Liechtenwerder Platz").
+initlocation($p,"Großjedlersdorf").
+initlocation($p,"Fickeysstraße").
+initlocation($p,"Neulengbach Bahnhof").
+initlocation($p,"Eckpergasse").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Schleiergasse").
+initlocation($p,"Laudongasse").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Schottenring").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Unter Kritzendorf Bahnhof").
+initlocation($p,"Großjedlersdorf").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Kaiserstraße").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+restaurant("Enkplatz").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Otto-Probst-Straße").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Stadlau").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Strasshof Bahnhof").
+restaurant("Mayerhofgasse").
+restaurant("Lange Gasse").
+restaurant("Mistelbach Bahnhof").
+restaurant("Pressbaum Bahnhof").
+restaurant("Gußhausstraße").

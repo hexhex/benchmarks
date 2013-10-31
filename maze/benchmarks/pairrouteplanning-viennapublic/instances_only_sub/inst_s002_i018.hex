@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Ebreichsdorf Bahnhof").
-initlocation(1,"Brünner Straße").
-sequence(1,0, "Ebreichsdorf Bahnhof").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Zieglergasse").
 person(2).
-initlocation(2,"Greifenstein-Altenberg Bahnhof").
-initlocation(2,"Strasshof Bahnhof").
-sequence(2,0, "Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Himberg Bahnhof").
-restaurant("Jedlersdorf".
-restaurant("Tulln Bahnhof").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+restaurant("Bahnhof Meidling").
+restaurant("Aspern Nord").

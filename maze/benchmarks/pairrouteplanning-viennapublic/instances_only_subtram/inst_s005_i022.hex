@@ -1,25 +1,24 @@
 person(1).
-initlocation(1,"Neilreichgasse").
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Polkorabplatz").
-initlocation(1,"Ladendorf Bahnhof").
-initlocation(1,"Dornbacher Straße").
-sequence(1,0, "Neilreichgasse").
+initlocation($p,"Roßauer Lände").
+initlocation($p,"Siebertgasse").
+initlocation($p,"Albertgasse").
+initlocation($p,"Laurentiusplatz").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"Roßauer Lände").
 person(2).
-initlocation(2,"Johannes-Krawarik-Gasse").
-initlocation(2,"Tulln Stadt Bahnhof").
-initlocation(2,"Stadiongasse/Parlament").
-initlocation(2,"Baden Bahnhof").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-sequence(2,0, "Johannes-Krawarik-Gasse").
-possiblemeetinglocations("Gutraterplatz").
-possiblemeetinglocations("Burgring").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Sankt Marx").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Höchstädtplatz").
-restaurant("Erndtgasse").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Erdbergstr/Schlachthausgasse").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Sillerplatz").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Stiftgasse").
+initlocation($p,"Antonigasse").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Pilgramgasse").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Schottentor").
+restaurant("Oberdöbling").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Konstanziagasse").

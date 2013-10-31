@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Wienerbergbrücke").
-initlocation(1,"Höbersdorf Bahnhof").
-sequence(1,0, "Wienerbergbrücke").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Sillerplatz").
+initlocation($p,"Weinhauser Gasse").
 person(2).
-initlocation(2,"Mühlfeldgasse").
-initlocation(2,"Praterstern").
-sequence(2,0, "Mühlfeldgasse").
-possiblemeetinglocations("Sensengasse").
-possiblemeetinglocations("Atzgersdorfer Straße").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Mödling Bahnhof").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Mistelbach Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Brünner Straße").

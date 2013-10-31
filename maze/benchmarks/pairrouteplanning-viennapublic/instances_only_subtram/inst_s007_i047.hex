@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Meidling Hauptstraße").
-initlocation(1,"Korneuburg Bahnhof").
-initlocation(1,"Gerasdorf Bahnhof").
-initlocation(1,"Ottakring").
-initlocation(1,"Zentralfriedhof").
-initlocation(1,"Helmahof Bahnhof").
-initlocation(1,"Schwarzenbergplatz").
-sequence(1,0, "Meidling Hauptstraße").
+initlocation($p,"Anton-Krieger-Gasse").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Rußbergstraße").
+initlocation($p,"Wexstraße").
+initlocation($p,"Liesing").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Anton-Krieger-Gasse").
 person(2).
-initlocation(2,"Siebenhirten").
-initlocation(2,"Thaliastraße/Haberlgasse").
-initlocation(2,"Margaretengürtel").
-initlocation(2,"Börsegasse/Wipplingerstraße").
-initlocation(2,"Hermesstraße").
-initlocation(2,"Eichenstraße").
-initlocation(2,"Satzberggasse").
-sequence(2,0, "Siebenhirten").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Glatzgasse").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-possiblemeetinglocations("Rodaun").
-restaurant("Trondheimgasse").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Fichtnergasse").
-restaurant("Hetzendorf").
-restaurant("Schleiergasse").
-restaurant("Gumpendorfer Straße").
-restaurant("Gutraterplatz").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Hintere Zollamtsstraße").
+initlocation($p,"Gußhausstraße").
+initlocation($p,"Taborstraße").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Zentralfriedhof").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+restaurant("Maurer Lange Gasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Neulengbach Bahnhof").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Quartier Belvedere").
+restaurant("Waidhausenstraße").
+restaurant("Kledering Bahnhof").

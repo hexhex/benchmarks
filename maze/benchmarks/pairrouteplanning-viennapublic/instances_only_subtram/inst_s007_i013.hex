@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Erndtgasse").
-initlocation(1,"Haidestraße").
-initlocation(1,"Schloss Belvedere").
-initlocation(1,"Deutsch-Wagram Bahnhof").
-initlocation(1,"Floridsdorfer Brücke").
-initlocation(1,"Schuhmeierplatz").
-initlocation(1,"Hausleiten Bahnhof").
-sequence(1,0, "Erndtgasse").
+initlocation($p,"Verbindungsbahn").
+initlocation($p,"Krankenhaus Hietzing").
+initlocation($p,"Margaretengürtel/Arbeitergasse").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Landesgerichtsstraße").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Verbindungsbahn").
 person(2).
-initlocation(2,"Alfred-Adler-Straße").
-initlocation(2,"Hainburg/Donau Ungartor/B9").
-initlocation(2,"Oberolberndorf Bahnhof").
-initlocation(2,"Altes Landgut").
-initlocation(2,"Getzersdorf/Traisen Bahnhof").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"Währinger Straße-Volksoper").
-sequence(2,0, "Alfred-Adler-Straße").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Knöllgasse/Davidgasse").
-possiblemeetinglocations("Kagraner Brücke").
-possiblemeetinglocations("Anton-Schall-Gasse").
-restaurant("Himmelmutterweg").
-restaurant("Staglgasse").
-restaurant("Gutraterplatz").
-restaurant("Gusenleithnergasse").
-restaurant("Vorgartenstraße").
-restaurant("Wenzgasse").
-restaurant("Deutsch-Wagram Bahnhof").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+initlocation($p,"Schöffelgasse").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Alser Straße").
+initlocation($p,"Elterleinplatz").
+initlocation($p,"Hopfengasse").
+initlocation($p,"Gruschaplatz").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Himberg Bahnhof").
+restaurant("Schleinbach Bahnhof").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Stadtpark").
+restaurant("Wattmanngasse").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Lange Gasse").

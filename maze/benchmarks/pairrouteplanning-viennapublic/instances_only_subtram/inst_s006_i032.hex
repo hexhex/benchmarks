@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Hohe Warte").
-initlocation(1,"Penzing").
-initlocation(1,"Rothneusiedl").
-initlocation(1,"Empergergasse").
-initlocation(1,"Gredlerstraße").
-initlocation(1,"Höbersdorf Bahnhof").
-sequence(1,0, "Hohe Warte").
+initlocation($p,"Linzer Straße/Reinlgasse").
+initlocation($p,"Penzinger Straße").
+initlocation($p,"Gutraterplatz").
+initlocation($p,"Sankt Marx").
+initlocation($p,"Pantucekgasse/Widholzgasse").
+initlocation($p,"Gunoldstraße").
+initlocation($p,"Linzer Straße/Reinlgasse").
 person(2).
-initlocation(2,"Reumannplatz").
-initlocation(2,"Geiselbergstraße").
-initlocation(2,"Helmahof Bahnhof").
-initlocation(2,"Am Heidjöchl/Hausfeldstraße").
-initlocation(2,"Am Heidjöchl").
-initlocation(2,"St Andrä-Wördern Bahnhof").
-sequence(2,0, "Reumannplatz").
-possiblemeetinglocations("Fickeysstraße").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Gewerbepark Stadlau Mitte").
-possiblemeetinglocations("Oberzellergasse").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Traisengasse").
-restaurant("Penzinger Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Pokornygasse").
-restaurant("Waidhausenstraße").
-restaurant("Maria Ellend Bahnhof").
+initlocation($p,"Kaiserstraße").
+initlocation($p,"Kaiserstraße/Burggasse").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Staglgasse").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Kaiserstraße").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Himmelmutterweg").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Jägerstraße").
+restaurant("Fickeysstraße").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Palffygasse").
+restaurant("Quartier Belvedere").
+restaurant("Redtenbachergasse").

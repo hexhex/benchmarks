@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Langenlebarn Bahnhof").
-initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(1,"Johann-Strauß-Gasse").
-sequence(1,0, "Langenlebarn Bahnhof").
+initlocation($p,"Hietzing").
+initlocation($p,"Simonygasse").
+initlocation($p,"Schleiergasse").
+initlocation($p,"Hietzing").
 person(2).
-initlocation(2,"Matzleinsdorfer Platz").
-initlocation(2,"Josefstädter Straße").
-initlocation(2,"Spittelau").
-sequence(2,0, "Matzleinsdorfer Platz").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Aßmayergasse").
-possiblemeetinglocations("Wolf in der Au").
-restaurant("Seegasse").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Waidhausenstraße").
+initlocation($p,"Teichgasse").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Liechtenwerder Platz").
+initlocation($p,"Teichgasse").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Valiergasse").
+restaurant("Winckelmannstraße").
+restaurant("Stephansplatz").
+restaurant("Lederergasse").

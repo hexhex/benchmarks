@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Hütteldorf").
-initlocation(1,"Stadlau").
-sequence(1,0, "Hütteldorf").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Kardinal-Nagl-Platz").
 person(2).
-initlocation(2,"Penzing").
-initlocation(2,"Jedlersdorf").
-sequence(2,0, "Penzing").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-restaurant("Handelskai".
-restaurant("Kaisermühlen-VIC").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Stephansplatz").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Neubaugasse").
+restaurant("Obersdorf Bahnhof").
+restaurant("Untertullnerbach Bahnhof").

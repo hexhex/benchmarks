@@ -1,49 +1,48 @@
 person(1).
-initlocation(1,"Siemensstraße").
-initlocation(1,"Thaliastraße").
-initlocation(1,"Maria Anzbach Bahnhof").
-initlocation(1,"Pressbaum Bahnhof").
-initlocation(1,"Penzing").
-initlocation(1,"Untereggendorf Bahnhof").
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Atzgersdorf").
-initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation(1,"Leopoldau").
-initlocation(1,"Praterkai").
-sequence(1,0, "Siemensstraße").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Neue Donau").
+initlocation($p,"Penzing").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Kledering Bahnhof").
+initlocation($p,"Schottenring").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Ober Sankt Veit").
 person(2).
-initlocation(2,"Bisamberg Bahnhof").
-initlocation(2,"Wolfsthal Bahnhof").
-initlocation(2,"Hütteldorfer Straße").
-initlocation(2,"Maria Anzbach Bahnhof").
-initlocation(2,"Donaumarina").
-initlocation(2,"Grillgasse").
-initlocation(2,"Trasdorf Bahnhof").
-initlocation(2,"Gersthof").
-initlocation(2,"Tulln Stadt Bahnhof").
-initlocation(2,"Neue Donau").
-initlocation(2,"Roßauer Lände").
-sequence(2,0, "Bisamberg Bahnhof").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Gänserndorf Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Thaliastraße").
 possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof".
-restaurant("Sarasdorf Bahnhof".
-restaurant("Haidestraße".
-restaurant("Kottingneusiedl Bahnhof".
-restaurant("Laa an der Thaya Bahnhof".
-restaurant("Margaretengürtel".
-restaurant("Siebenhirten (NÖ.
-Haltestelle".
-restaurant("Schlachthausgasse".
-restaurant("Kapellerfeld Bahnhof".
-restaurant("Oberolberndorf Bahnhof".
-restaurant("Taubstummengasse").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Gasometer").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Viehofen Bahnhof").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Siemensstraße").
+restaurant("Schottenring").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Tulln Bahnhof").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Unter Kritzendorf Bahnhof").

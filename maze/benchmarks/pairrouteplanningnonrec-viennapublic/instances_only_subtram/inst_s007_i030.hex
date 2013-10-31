@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-initlocation(1,"Simonygasse").
-initlocation(1,"Reumannplatz").
-initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(1,"Bisamberg Bahnhof").
-initlocation(1,"Kaiserstraße").
-initlocation(1,"Stadtpark").
-sequence(1,0, "Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Lazarettgasse").
+initlocation($p,"Rebhanngasse").
+initlocation($p,"Winckelmannstraße").
+initlocation($p,"Siebertgasse").
+initlocation($p,"Jedlersdorf").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Türkenschanzplatz").
+initlocation($p,"Lazarettgasse").
 person(2).
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Türkenschanzplatz").
-initlocation(2,"Frauengasse").
-initlocation(2,"Satzberggasse").
-initlocation(2,"Redtenbachergasse").
-initlocation(2,"Trasdorf Bahnhof").
-initlocation(2,"Purkersdorf Zentrum Bahnhof").
-sequence(2,0, "Pressbaum Bahnhof").
-possiblemeetinglocations("Glatzgasse").
-possiblemeetinglocations("Sillerplatz").
-possiblemeetinglocations("Höchstädtplatz").
-possiblemeetinglocations("Hintere Zollamtsstraße").
-possiblemeetinglocations("Kliebergasse").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Quellenstraße/Knöllgasse").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Siebenhirten").
-restaurant("Shuttleworthstraße").
-restaurant("Stammersdorf").
-restaurant("Gruschaplatz").
-restaurant("Felixdorf Bahnhof").
-restaurant("Heiligenstadt, 12-Februar-Pl").
+initlocation($p,"Redtenbachergasse").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Laurentiusplatz").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Wilhelminenstr/Sandleitengasse").
+initlocation($p,"Kaiserstraße/Westbahnstraße").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Redtenbachergasse").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+restaurant("Josefstädter Straße").
+restaurant("Unter Sankt Veit").
+restaurant("Volkstheater").
+restaurant("Fasangasse").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Traisengasse").

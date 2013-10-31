@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Kaiserebersdorf").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Traisengasse").
-initlocation(1,"Währinger Straße-Volksoper").
-initlocation(1,"Praterstern").
-initlocation(1,"Pfaffstätten Bahnhof").
-initlocation(1,"Bisamberg Bahnhof").
-initlocation(1,"Wolf in der Au").
-initlocation(1,"Münchendorf Bahnhof").
-sequence(1,0, "Kaiserebersdorf").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Kaiserebersdorf").
+initlocation($p,"Kottingbrunn Bahnhof").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Paasdorf Bahnhof").
+initlocation($p,"Leopoldau").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Unter Sankt Veit").
 person(2).
-initlocation(2,"Kapellerfeld Bahnhof").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Nestroyplatz").
-initlocation(2,"Spittelau").
-initlocation(2,"Getzersdorf/Traisen Bahnhof").
-initlocation(2,"Aspernstraße").
-initlocation(2,"Liesing").
-initlocation(2,"Thaliastraße").
-initlocation(2,"Alte Donau").
-sequence(2,0, "Kapellerfeld Bahnhof").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Hörersdorf Bahnhof").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Haidestraße").
+initlocation($p,"Hernals").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Hadersdorf Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
 possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Michelbeuern-AKH").
-restaurant("Aspernstraße".
-restaurant("Süßenbrunn".
-restaurant("Purkersdorf Sanatorium".
-restaurant("Tullnerbach-Pressbaum Bahnhof".
-restaurant("Museumsquartier".
-restaurant("Simmering".
-restaurant("Gänserndorf Bahnhof".
-restaurant("Wolf in der Au".
-restaurant("Platt Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+restaurant("Josefstädter Straße").
+restaurant("Donauspital").
+restaurant("Münchendorf Bahnhof").
+restaurant("Penzing").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Reumannplatz").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Schönborn Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").

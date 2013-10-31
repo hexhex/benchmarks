@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Brigittaplatz").
-initlocation(1,"Vorgartenstraße").
-initlocation(1,"Koppstraße/Panikengasse").
-initlocation(1,"Lederergasse").
-initlocation(1,"Zellerndorf Bahnhof").
-initlocation(1,"Guneschgasse").
-sequence(1,0, "Brigittaplatz").
+initlocation($p,"Hauptbahnhof Ost").
+initlocation($p,"Arminenstraße").
+initlocation($p,"Strozzigasse").
+initlocation($p,"Litfaßstraße").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Hauptbahnhof Ost").
 person(2).
-initlocation(2,"Mayerhofgasse").
-initlocation(2,"Svetelskystraße").
-initlocation(2,"Rankgasse").
-initlocation(2,"Grinzinger Straße").
-initlocation(2,"Geiereckstraße").
-initlocation(2,"Stollgasse").
-sequence(2,0, "Mayerhofgasse").
-possiblemeetinglocations("Seegasse").
-possiblemeetinglocations("Döblinger Bad").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Jagdschloßgasse").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-restaurant("Sillerplatz").
-restaurant("Klosterneub Str/Wallensteinstr").
-restaurant("Forstnergasse").
-restaurant("Nestroyplatz").
-restaurant("Winckelmannstraße").
-restaurant("Alser Straße").
+initlocation($p,"Polgarstraße").
+initlocation($p,"Kölblgasse").
+initlocation($p,"Lainz, Wolkersbergenstraße").
+initlocation($p,"Neuwaldegg").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Weigelsdorf Bahnhof").
+initlocation($p,"Polgarstraße").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Thaliastraße/Maroltingergasse").
+restaurant("Traisengasse").
+restaurant("Sollenau Bahnhof").
+restaurant("Shuttleworthstraße").
+restaurant("Frättingsdorf Bahnhof").

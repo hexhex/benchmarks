@@ -1,60 +1,60 @@
 person(1).
-initlocation(1,"Hernalser Hauptstr/Wattgasse").
-initlocation(1,"Nestroyplatz").
-initlocation(1,"Götzendorf Bahnhof").
-initlocation(1,"Hofwiesengasse").
-initlocation(1,"Prater, Hauptallee").
-initlocation(1,"Untereggendorf Bahnhof").
-initlocation(1,"Otto-Probst-Straße").
-initlocation(1,"Taborstraße").
-initlocation(1,"Sollenau Bahnhof").
-initlocation(1,"Satzberggasse").
-initlocation(1,"Neilreichgasse").
-initlocation(1,"Neubau-Kreuzstetten Bahnhof").
-initlocation(1,"Staglgasse").
-initlocation(1,"Joachimsthalerplatz").
-sequence(1,0, "Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Penzinger Straße").
+initlocation($p,"Wildgansplatz").
+initlocation($p,"Unter St Veit, Hummelgasse").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Traisengasse").
+initlocation($p,"Rauscherstraße").
+initlocation($p,"Gußhausstraße").
+initlocation($p,"Schottentor").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Mayssengasse").
+initlocation($p,"Laurentiusplatz").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Penzinger Straße").
 person(2).
-initlocation(2,"Hausleiten Bahnhof").
-initlocation(2,"Dürrwien Bahnhof").
-initlocation(2,"Hainburg/Donau Ungartor/B9").
-initlocation(2,"Raxstraße/Rudolfshügelgasse").
-initlocation(2,"Favoritenstraße/Troststraße").
-initlocation(2,"Weinheimergasse").
-initlocation(2,"Türkenschanzplatz").
-initlocation(2,"Yppengasse").
-initlocation(2,"Franz-Josefs-Bahnhof").
-initlocation(2,"Pfaffstätten Bahnhof").
-initlocation(2,"Sieveringer Straße").
-initlocation(2,"Maria Anzbach Bahnhof").
-initlocation(2,"Kaiser-Franz-Josef-Straße").
-initlocation(2,"Sillerplatz").
-sequence(2,0, "Hausleiten Bahnhof").
-possiblemeetinglocations("Stollgasse").
-possiblemeetinglocations("Rosensteingasse").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Zentralfriedhof 2Tor").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Schwarzenbergplatz").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Erdberg").
-restaurant("Neubaugasse/Westbahnstraße").
-restaurant("Gerstnerstraße/Westbhf").
-restaurant("Hütteldorfer Str/Lützowgasse").
-restaurant("Aumannplatz").
-restaurant("Hetzendorf").
-restaurant("Gredlerstraße").
-restaurant("Thaliastraße/Brunnengasse").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Rennweg").
-restaurant("Zentralfriedhof 1Tor").
-restaurant("Liebknechtgasse").
-restaurant("Edmund-Hawranek-Platz").
-restaurant("Franz-Asenbauer-Gasse").
-restaurant("Klosterneub Str/Wallensteinstr").
+initlocation($p,"Wattmanngasse").
+initlocation($p,"Donauinsel").
+initlocation($p,"Erndtgasse").
+initlocation($p,"Kaiserstraße/Burggasse").
+initlocation($p,"Maurer Hauptplatz").
+initlocation($p,"Himmelmutterweg").
+initlocation($p,"Favoritenstraße/Troststraße").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Teichgasse").
+initlocation($p,"Stockholmer Platz").
+initlocation($p,"Erdbergstr/Schlachthausgasse").
+initlocation($p,"Brünnlbadgasse").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Hubertusdamm").
+initlocation($p,"Wattmanngasse").
+possiblemeetinglocations("Waidhausenstraße").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Strozzigasse").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+restaurant("Rathaus").
+restaurant("Margaretengürtel").
+restaurant("Hardtgasse").
+restaurant("Halteraugasse").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Teichgasse").
+restaurant("Rankgasse").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Wildgansplatz").
+restaurant("Jägerstraße").
+restaurant("Hohe Warte").
+restaurant("Messe-Prater").

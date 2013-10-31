@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Längenfeldgasse").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Geiselbergstraße").
-initlocation(1,"Heiligenstadt").
-initlocation(1,"Hütteldorf").
-sequence(1,0, "Längenfeldgasse").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
 person(2).
-initlocation(2,"Währinger Straße-Volksoper").
-initlocation(2,"Ebreichsdorf Bahnhof").
-initlocation(2,"Maria Ellend Bahnhof").
-initlocation(2,"Schönbrunn").
-initlocation(2,"Rennbahnweg").
-sequence(2,0, "Währinger Straße-Volksoper").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Gasometer").
-restaurant("Hollabrunn Bahnhof".
-restaurant("Muckendorf-Wipfing Bahnhof".
-restaurant("Untereggendorf Bahnhof".
-restaurant("Oberdöbling".
-restaurant("Stubentor").
+initlocation($p,"Blumental").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Stadtpark").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Blumental").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Oberdöbling").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Seyring Bahnhof").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Nußdorfer Straße").

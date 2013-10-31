@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Aderklaaer Straße").
-initlocation(1,"Franz-Asenbauer-Gasse").
-initlocation(1,"Wr Neustadt Civitas Nova").
-initlocation(1,"Brigittaplatz").
-initlocation(1,"Johannes-Krawarik-Gasse").
-sequence(1,0, "Aderklaaer Straße").
+initlocation($p,"Karmeliterplatz").
+initlocation($p,"Gatterburggasse").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Wattmanngasse").
+initlocation($p,"Ottakringer Str/Erdbrustgasse").
+initlocation($p,"Karmeliterplatz").
 person(2).
-initlocation(2,"Großjedlersdorf").
-initlocation(2,"Hernalser Gürtel").
-initlocation(2,"Absdorf-Hippersdorf Bahnhof").
-initlocation(2,"Wenzgasse").
-initlocation(2,"Stockholmer Platz").
-sequence(2,0, "Großjedlersdorf").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Antonigasse").
-possiblemeetinglocations("Oberzellergasse").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-restaurant("Litfaßstraße").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Spillern Bahnhof").
-restaurant("Carminweg").
-restaurant("Frauengasse").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Gerhardusgasse").
+initlocation($p,"Rodaun").
+initlocation($p,"Margaretengürtel/Arbeitergasse").
+initlocation($p,"Münchendorf Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Zentralfriedhof").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Donaumarina").
+restaurant("Carabelligasse").
+restaurant("Frödenplatz").
+restaurant("Ebenfurth Bahnhof").

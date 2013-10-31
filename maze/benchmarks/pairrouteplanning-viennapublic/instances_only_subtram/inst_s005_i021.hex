@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Albertgasse").
-initlocation(1,"Pokornygasse").
-initlocation(1,"Viehmarktgasse").
-initlocation(1,"Wolfsthal Bahnhof").
-initlocation(1,"Scheibenbergstraße").
-sequence(1,0, "Albertgasse").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Traisengasse").
+initlocation($p,"Guntherstraße").
+initlocation($p,"Kledering Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Siemensstraße").
 person(2).
-initlocation(2,"Purkersdorf Zentrum Bahnhof").
-initlocation(2,"Kaiser-Franz-Josef-Straße").
-initlocation(2,"Handelskai").
-initlocation(2,"Salztorbrücke").
-initlocation(2,"Waidhausenstraße").
-sequence(2,0, "Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Fultonstraße").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Schwarzspanierstraße").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Breitensee").
-restaurant("Friedrich-Engels-Platz").
-restaurant("Längenfeldgasse/Flurschützstr").
+initlocation($p,"Huglgasse").
+initlocation($p,"Breitenfurter Str/Liesingbr").
+initlocation($p,"Gewerbepark Stadlau Mitte").
+initlocation($p,"Baumgasse").
+initlocation($p,"Lainz, Wolkersbergenstraße").
+initlocation($p,"Huglgasse").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Beingasse").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Mariahilfer Gürtel").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Wolf in der Au").

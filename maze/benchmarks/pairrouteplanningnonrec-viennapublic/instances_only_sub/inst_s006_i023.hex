@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Spillern Bahnhof").
-initlocation(1,"Wilfleinsdorf Bahnhof").
-initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(1,"Museumsquartier").
-initlocation(1,"Leopoldau").
-initlocation(1,"Silberwald Bahnhof").
-sequence(1,0, "Spillern Bahnhof").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Donauspital").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Gumpoldskirchen Bahnhof").
 person(2).
-initlocation(2,"Nußdorfer Straße").
-initlocation(2,"Michelbeuern-AKH").
-initlocation(2,"Pilgramgasse").
-initlocation(2,"Schönborn Bahnhof").
-initlocation(2,"Kettenbrückengasse").
-initlocation(2,"Schwechat Bahnhof").
-sequence(2,0, "Nußdorfer Straße").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Liesing").
-restaurant("Haslau an der Donau Bahnhof".
-restaurant("Ebreichsdorf Bahnhof".
-restaurant("Krieau".
-restaurant("Guntramsdorf-Thallern".
-restaurant("Trautmannsdorf/Leitha Bf".
-restaurant("Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Breitensee").
+initlocation($p,"Volkstheater").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Spillern Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Zentralfriedhof").
+restaurant("Brünner Straße").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Obereggendorf Bahnhof").

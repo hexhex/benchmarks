@@ -1,48 +1,48 @@
 person(1).
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Zippererstraße").
-initlocation(1,"Höchstädtplatz").
-initlocation(1,"Hofwiesengasse").
-initlocation(1,"Hauptbahnhof Ost").
-initlocation(1,"Jagdschloßgasse").
-initlocation(1,"Götzendorf Bahnhof").
-initlocation(1,"Hohe Warte").
-initlocation(1,"Schottenfeldgasse").
-initlocation(1,"Sensengasse").
-initlocation(1,"Laa an der Thaya Bahnhof").
-sequence(1,0, "Rennbahnweg").
+initlocation($p,"Nordbrücke").
+initlocation($p,"Am Heumarkt").
+initlocation($p,"Linzer Straße/Johnstraße").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Stadtpark").
+initlocation($p,"Wattmanngasse").
+initlocation($p,"Donauspital").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Johann-Strauß-Gasse").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Nordbrücke").
 person(2).
-initlocation(2,"Wilhelminenstraße/Wattgasse").
-initlocation(2,"Ebenfurth Bahnhof").
-initlocation(2,"Aspern, Oberdorfstraße").
-initlocation(2,"Glatzgasse").
-initlocation(2,"Sillerplatz").
-initlocation(2,"Stockholmer Platz").
-initlocation(2,"Sierndorf Bahnhof").
-initlocation(2,"Moosbierbaum-Heiligeneich Bf").
-initlocation(2,"Rosenhügelstraße").
-initlocation(2,"Hoßplatz").
-initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
-sequence(2,0, "Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Pantucekgasse/Widholzgasse").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Gatterburggasse").
-possiblemeetinglocations("Stadlau").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Kliebergasse").
-possiblemeetinglocations("Breitenfurter Str/Liesingbr").
-possiblemeetinglocations("Burgring").
-possiblemeetinglocations("Litfaßstraße").
-restaurant("Gerstnerstraße/Westbhf").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Atzgersdorfer Straße").
-restaurant("Haidestraße").
-restaurant("Gredlerstraße").
-restaurant("Sahulkastraße").
-restaurant("Aspern Nord").
-restaurant("Nußdorf").
-restaurant("Perntergasse").
-restaurant("Beingasse").
-restaurant("Alfred-Adler-Straße").
+initlocation($p,"Löwengasse").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Achau Bahnhof").
+initlocation($p,"Aspern, Oberdorfstraße").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Alte Donau").
+initlocation($p,"Antonigasse").
+initlocation($p,"Obere Augartenstraße").
+initlocation($p,"Scheibenbergstraße").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Löwengasse").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Huglgasse").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Atzgersdorf").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Gaußplatz").
+restaurant("Barawitzkagasse").
+restaurant("Valiergasse").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Stammersdorf").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Vorgartenstraße").
+restaurant("Frödenplatz").
+restaurant("Camillo-Sitte-Gasse").

@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Bruck/Leitha Bahnhof").
-initlocation(1,"Aspernstraße").
-initlocation(1,"Kottingneusiedl Bahnhof").
-initlocation(1,"Nestroyplatz").
-initlocation(1,"Staatz Bahnhof").
-initlocation(1,"Geiereckstraße").
-initlocation(1,"Glatzgasse").
-initlocation(1,"Gottschalkgasse/Enkplatz").
-sequence(1,0, "Bruck/Leitha Bahnhof").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Althanstraße").
+initlocation($p,"Palffygasse").
+initlocation($p,"Kaiserebersdorf, Zinnergasse").
+initlocation($p,"Gersthof").
+initlocation($p,"Martinstraße").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Konstanziagasse").
 person(2).
-initlocation(2,"Floridsdorfer Markt").
-initlocation(2,"Erndtgasse").
-initlocation(2,"Seestadt").
-initlocation(2,"Hollabrunn Bahnhof").
-initlocation(2,"Scheibenbergstraße").
-initlocation(2,"Kaiserstraße/Neustiftgasse").
-initlocation(2,"Thaliastraße").
-initlocation(2,"Vinzenzgasse").
-sequence(2,0, "Floridsdorfer Markt").
-possiblemeetinglocations("Bernhardtstalgasse").
-possiblemeetinglocations("Favoritenstraße/Troststraße").
-possiblemeetinglocations("Unter St Veit, Hummelgasse").
-possiblemeetinglocations("Pantucekgasse/Widholzgasse").
-possiblemeetinglocations("Anschützgasse").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Nordbrücke").
-restaurant("Krankenhaus Hietzing").
-restaurant("Gersthof").
-restaurant("Margaretengürtel/Arbeitergasse").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Sahulkastraße").
-restaurant("Linzer Straße/Hochsatzengasse").
-restaurant("Lobau").
-restaurant("Am Tabor").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Winckelmannstraße").
+initlocation($p,"Favoritenstraße/Troststraße").
+initlocation($p,"Seegasse").
+initlocation($p,"Schottentor").
+initlocation($p,"Wilhelminenstraße/Wattgasse").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Huglgasse").
+initlocation($p,"Strasshof Bahnhof").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+possiblemeetinglocations("Lerchenfelder Straße").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Neubaugasse").
+restaurant("Siemensstraße").
+restaurant("Paradisgasse").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Litfaßstraße").
+restaurant("Bahnhofstraße").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Seegasse").
+restaurant("Zentralfriedhof 2Tor").

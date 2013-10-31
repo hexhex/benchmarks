@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Erzherzog-Karl-Straße").
-initlocation(1,"Trautmannsdorf/Leitha Bf").
-initlocation(1,"Donauspital").
-initlocation(1,"Hennersdorf Bahnhof").
-initlocation(1,"Hollabrunn Bahnhof").
-sequence(1,0, "Oberradlberg Bahnhof").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Kaiserebersdorf").
+initlocation($p,"Neue Donau").
+initlocation($p,"Kagran").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Handelskai").
+initlocation($p,"Höbersdorf Bahnhof").
 person(2).
-initlocation(2,"Wr Neustadt Hauptbahnhof").
-initlocation(2,"Michelbeuern-AKH").
-initlocation(2,"Kapellerfeld Bahnhof").
-initlocation(2,"Unterpurkersdorf Bahnhof").
-initlocation(2,"Friedensbrücke").
-initlocation(2,"Muckendorf-Wipfing Bahnhof").
-initlocation(2,"Aspern Nord").
-sequence(2,0, "Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-restaurant("Volkstheater".
-restaurant("Spittelau".
-restaurant("Wolkersdorf Bahnhof".
-restaurant("Josefstädter Straße".
-restaurant("Zeiselmauer-Königstetten Bf".
-restaurant("Schönbrunn".
-restaurant("Baden Bahnhof").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Simmering").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Traisengasse").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Donaumarina").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Stockerau Bahnhof").
-initlocation(1,"Alfred-Adler-Straße").
-sequence(1,0, "Stockerau Bahnhof").
+initlocation($p,"Eckpergasse").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Eckpergasse").
 person(2).
-initlocation(2,"Julius-Raab-Platz").
-initlocation(2,"Hainburg/Donau Ungartor/B9").
-sequence(2,0, "Julius-Raab-Platz").
-possiblemeetinglocations("Gerstnerstraße/Westbhf").
-possiblemeetinglocations("Strebersdorf").
-restaurant("Prinzgasse").
-restaurant("Döblinger Bad").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Breitenfurter Str/Liesingbr").
+initlocation($p,"Kagraner Platz").
+possiblemeetinglocations("Scheibenbergstraße").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+restaurant("Kleistgasse").
+restaurant("Rustengasse").

@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"St Pölten Traisenpark P+R Nord").
-initlocation(1,"Langobardenstraße/Kapellenweg").
-initlocation(1,"Rennweg").
-initlocation(1,"Hütteldorf").
-initlocation(1,"Kaiserstraße/Burggasse").
-initlocation(1,"Hauptbahnhof Ost").
-initlocation(1,"Aderklaaer Straße").
-initlocation(1,"Obere Donaustraße").
-initlocation(1,"Franz-Josefs-Bahnhof").
-sequence(1,0, "St Pölten Traisenpark P+R Nord").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Gerstnerstraße/Westbhf").
+initlocation($p,"Perntergasse").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Ungargasse/Neulinggasse").
+initlocation($p,"Laaer-Berg-Straße").
+initlocation($p,"Unter Sankt Veit").
 person(2).
-initlocation(2,"Donaustadtstraße").
-initlocation(2,"Absberggasse").
-initlocation(2,"Brünner Straße").
-initlocation(2,"Floridsdorf").
-initlocation(2,"Jagdschloßgasse").
-initlocation(2,"Retz Bahnhof").
-initlocation(2,"Obereggendorf Bahnhof").
-initlocation(2,"Prandaugasse").
-initlocation(2,"Reinlgasse/Märzstraße").
-sequence(2,0, "Donaustadtstraße").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Julius-Raab-Platz").
-possiblemeetinglocations("Thaliastraße/Maroltingergasse").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Verbindungsbahn").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Zentralfriedhof 3Tor").
-possiblemeetinglocations("Alfred-Adler-Straße").
-possiblemeetinglocations("Koppstraße/Panikengasse").
-restaurant("Rauscherstraße").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Süßenbrunn").
-restaurant("Winckelmannstraße").
-restaurant("Nußdorfer Straße").
-restaurant("Svetelskystraße").
-restaurant("Floridsdorfer Brücke").
-restaurant("Museumsquartier").
+initlocation($p,"Hauptbahnhof Ost").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Bahnhof Meidling").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Schwarzspanierstraße").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Nußdorf").
+initlocation($p,"Hauptbahnhof Ost").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Redtenbachergasse").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Siebenhirten").
+restaurant("Längenfeldgasse").
+restaurant("Blindengasse").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Vinzenzgasse").
+restaurant("Mödling Bahnhof").
+restaurant("Hetzendorf").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Floridsdorfer Markt").
+restaurant("Rodaun").

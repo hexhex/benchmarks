@@ -1,61 +1,60 @@
 person(1).
-initlocation(1,"Franz-Josefs-Bahnhof").
-initlocation(1,"Parndorf Ort Bahnhof").
-initlocation(1,"Sarasdorf Bahnhof").
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Retz Bahnhof").
-initlocation(1,"Zellerndorf Bahnhof").
-initlocation(1,"Kagraner Platz").
-initlocation(1,"Hardeggasse").
-initlocation(1,"Simmering").
-initlocation(1,"Hietzing").
-initlocation(1,"Deutsch-Wagram Bahnhof").
-initlocation(1,"Hofstatt Bahnhof").
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Brünner Straße").
-sequence(1,0, "Franz-Josefs-Bahnhof").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Spittelau").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Haidestraße").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Schottenring").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Bahnhof Meidling").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Göllersdorf Bahnhof").
 person(2).
-initlocation(2,"Neulengbach Bahnhof").
-initlocation(2,"Spittelau").
-initlocation(2,"Weigelsdorf Bahnhof").
-initlocation(2,"Hainburg/Donau Ungartor/B9").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Grillgasse").
-initlocation(2,"Kagran").
-initlocation(2,"Wampersdorf Bahnhof").
-initlocation(2,"Langenzersdorf Bahnhof").
-initlocation(2,"Stadtpark").
-initlocation(2,"Stockerau Bahnhof").
-initlocation(2,"Wr Neustadt Nord").
-initlocation(2,"Handelskai").
-sequence(2,0, "Neulengbach Bahnhof").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Hietzing").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Silberwald Bahnhof").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Kaiserebersdorf").
+initlocation($p,"Oberdöbling").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
 possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Stadlau").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Friedensbrücke").
-restaurant("Herzogenburg Stadt".
-restaurant("Bad Vöslau Bahnhof".
-restaurant("Hetzmannsdorf-Wullersdorf Bf".
-restaurant("Aspern Nord".
-restaurant("Perfektastraße".
-restaurant("Kendlerstraße".
-restaurant("Tullnerbach-Pressbaum Bahnhof".
-restaurant("Viehofen Bahnhof".
-restaurant("Schwedenplatz".
-restaurant("Reumannplatz".
-restaurant("Tscherttegasse".
-restaurant("Hietzing".
-restaurant("Kaisermühlen-VIC".
-restaurant("Götzendorf Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+restaurant("Handelskai").
+restaurant("Hirschstetten").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Ladendorf Bahnhof").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Hofstatt Bahnhof").
+restaurant("Hausleiten Bahnhof").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Niederhofstraße").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Ebenfurth Bahnhof").

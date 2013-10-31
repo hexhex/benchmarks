@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Korneuburg Bahnhof").
-initlocation(1,"Enkplatz").
-initlocation(1,"Gerasdorf Bahnhof").
-initlocation(1,"Johnstraße").
-initlocation(1,"Herrengasse").
-initlocation(1,"Guntersdorf Bahnhof").
-initlocation(1,"Erzherzog-Karl-Straße").
-sequence(1,0, "Korneuburg Bahnhof").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Vorgartenstraße").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Silberwald Bahnhof").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Gramatneusiedl Bahnhof").
 person(2).
-initlocation(2,"Schlachthausgasse").
-initlocation(2,"Göllersdorf Bahnhof").
-initlocation(2,"Donaumarina").
-initlocation(2,"Nußdorfer Straße").
-initlocation(2,"Gasometer").
-initlocation(2,"Gumpendorfer Straße").
-initlocation(2,"Floridsdorf").
-sequence(2,0, "Schlachthausgasse").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-restaurant("Moosbierbaum-Heiligeneich Bf".
-restaurant("Penzing".
-restaurant("Klosterneuburg-Weidling Bf".
-restaurant("Ebreichsdorf Bahnhof".
-restaurant("Taubstummengasse".
-restaurant("Staatz Bahnhof".
-restaurant("Nußdorf").
+initlocation($p,"Stadtpark").
+initlocation($p,"Kottingbrunn Bahnhof").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Schottentor").
+initlocation($p,"Hietzing").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Stadtpark").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+restaurant("Bisamberg Bahnhof").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Taubstummengasse").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Blumental").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Purkersdorf Sanatorium").

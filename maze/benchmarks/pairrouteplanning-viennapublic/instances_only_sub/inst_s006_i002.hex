@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Siemensstraße").
-initlocation(1,"Münchendorf Bahnhof").
-initlocation(1,"Petronell-Carnuntum Bahnhof").
-initlocation(1,"Brünner Straße").
-initlocation(1,"Sollenau Bahnhof").
-initlocation(1,"Kritzendorf Bahnhof").
-sequence(1,0, "Siemensstraße").
+initlocation($p,"Sierndorf Bahnhof").
+initlocation($p,"Stubentor").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Rennweg").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Sierndorf Bahnhof").
 person(2).
-initlocation(2,"Nestroyplatz").
-initlocation(2,"Perchtoldsdorf Bahnhof").
-initlocation(2,"Muckendorf-Wipfing Bahnhof").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"Kritzendorf Bahnhof").
-initlocation(2,"Krieau").
-sequence(2,0, "Nestroyplatz").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Michelbeuern-AKH").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Erzherzog-Karl-Straße").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Siemensstraße").
 possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Meidling Hauptstraße").
-restaurant("Tulln Stadt Bahnhof".
-restaurant("Alte Donau".
-restaurant("Bisamberg Bahnhof".
-restaurant("Wolkersdorf Bahnhof".
-restaurant("Kaisermühlen-VIC".
-restaurant("Stockerau Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Kendlerstraße").
+restaurant("Spittelau").
+restaurant("Friedensbrücke").
+restaurant("Platt Bahnhof").
+restaurant("Aspern Nord").

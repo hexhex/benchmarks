@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Wampersdorf Bahnhof").
-initlocation(1,"Ulrichskirchen Bahnhof").
-initlocation(1,"Erzherzog-Karl-Straße").
-initlocation(1,"Herrengasse").
-initlocation(1,"Sarasdorf Bahnhof").
-sequence(1,0, "Wampersdorf Bahnhof").
+initlocation($p,"Kottingbrunn Bahnhof").
+initlocation($p,"Bahnhof Meidling").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Alte Donau").
+initlocation($p,"Kottingbrunn Bahnhof").
 person(2).
-initlocation(2,"Gerasdorf Bahnhof").
-initlocation(2,"Hütteldorfer Straße").
-initlocation(2,"Muckendorf-Wipfing Bahnhof").
-initlocation(2,"Langenzersdorf Bahnhof").
-initlocation(2,"Kaisermühlen-VIC").
-sequence(2,0, "Gerasdorf Bahnhof").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Tulln Bahnhof").
-restaurant("Sankt Marx".
-restaurant("Seyring Bahnhof".
-restaurant("Bahnhof Meidling".
-restaurant("Franz-Josefs-Bahnhof".
-restaurant("Zellerndorf Bahnhof").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Theresienfeld Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+restaurant("Fischamend Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Traisengasse").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Gänserndorf Bahnhof").

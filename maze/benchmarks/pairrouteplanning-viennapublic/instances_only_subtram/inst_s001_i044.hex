@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Zeiselmauer-Königstetten Bf").
-sequence(1,0, "Zeiselmauer-Königstetten Bf").
+initlocation($p,"Blindengasse").
+initlocation($p,"Blindengasse").
 person(2).
-initlocation(2,"Ottakringer Str/Erdbrustgasse").
-sequence(2,0, "Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Konstanziagasse").
-restaurant("Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Erndtgasse").
+initlocation($p,"Erndtgasse").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+restaurant("Weigelsdorf Bahnhof").

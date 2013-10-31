@@ -1,46 +1,44 @@
 person(1).
-initlocation(1,"Stadlau").
-initlocation(1,"Haidestraße").
-initlocation(1,"Neubaugasse").
-initlocation(1,"Franz-Josefs-Bahnhof").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Zeiselmauer-Königstetten Bf").
-initlocation(1,"Alser Straße").
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Leobersdorf Bahnhof").
-initlocation(1,"Kapellerfeld Bahnhof").
-sequence(1,0, "Stadlau").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Penzing").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Praterstern").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Hardeggasse").
 person(2).
-initlocation(2,"Taubstummengasse").
-initlocation(2,"Michelhausen Bahnhof").
-initlocation(2,"Praterstern").
-initlocation(2,"Pottendorf-Landegg Bahnhof").
-initlocation(2,"Oberolberndorf Bahnhof").
-initlocation(2,"Neusiedl am See Bahnhof").
-initlocation(2,"Gramatneusiedl Bahnhof").
-initlocation(2,"Rekawinkel Bahnhof").
-initlocation(2,"Michelbeuern-AKH").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-sequence(2,0, "Taubstummengasse").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-restaurant("Weigelsdorf Bahnhof".
-restaurant("Oberolberndorf Bahnhof".
-restaurant("Donauinsel".
-restaurant("Am Schöpfwerk".
-restaurant("Zentralfriedhof".
-restaurant("Götzendorf Bahnhof".
-restaurant("Kardinal-Nagl-Platz".
-restaurant("Trasdorf Bahnhof".
-restaurant("Siebenhirten".
-restaurant("Ebreichsdorf Bahnhof").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Hietzing").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Hernals").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Hirschstetten").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Donauinsel").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Alser Straße").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Viehofen Bahnhof").
+restaurant("Paasdorf Bahnhof").
+restaurant("Donaumarina").
+restaurant("Mistelbach Stadt").

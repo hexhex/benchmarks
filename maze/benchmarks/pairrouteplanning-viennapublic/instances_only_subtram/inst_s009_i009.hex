@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Kölblgasse").
-initlocation(1,"Wr Neustadt Nord").
-initlocation(1,"Burggasse-Stadthalle").
-initlocation(1,"Thaliastraße").
-initlocation(1,"Thaliastraße/Brunnengasse").
-initlocation(1,"Deutsch-Wagram Bahnhof").
-initlocation(1,"Obersdorf Bahnhof").
-initlocation(1,"Zieglergasse/Westbahnstraße").
-initlocation(1,"Laxenburger Str/Gudrunstraße").
-sequence(1,0, "Kölblgasse").
+initlocation($p,"Leyserstraße").
+initlocation($p,"Gusenleithnergasse").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Molitorgasse").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Gellertplatz").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Leyserstraße").
 person(2).
-initlocation(2,"Vorgartenstraße").
-initlocation(2,"Nordbrücke").
-initlocation(2,"Höbersdorf Bahnhof").
-initlocation(2,"Schwechat Bahnhof").
-initlocation(2,"Silbergasse").
-initlocation(2,"Teichgasse").
-initlocation(2,"Mödling Bahnhof").
-initlocation(2,"Meidling Hauptstraße").
-initlocation(2,"Blechturmgasse").
-sequence(2,0, "Vorgartenstraße").
-possiblemeetinglocations("Seegasse").
-possiblemeetinglocations("Strasshof Bahnhof").
+initlocation($p,"Leyserstraße").
+initlocation($p,"Stadion").
+initlocation($p,"Thaliastraße/Feßtgasse").
+initlocation($p,"Schwarzenbergplatz").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Breitenfurter St/Altmannsd Str").
+initlocation($p,"Winkeläckerstraße").
+initlocation($p,"Linzer Straße/Zehetnergasse").
+initlocation($p,"Franzensbrücke").
+initlocation($p,"Leyserstraße").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Hernals").
 possiblemeetinglocations("Teichgasse").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Simmering").
-possiblemeetinglocations("Stadlergasse").
-possiblemeetinglocations("Schlickgasse").
-possiblemeetinglocations("Waidhausenstraße").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-restaurant("Krieau").
-restaurant("Franzensbrücke").
-restaurant("Bahnhofstraße").
-restaurant("Reumannplatz").
-restaurant("Rennweg").
-restaurant("Krankenhaus Hietzing").
-restaurant("Weidlingau Bahnhof").
-restaurant("Mistelbach Bahnhof").
-restaurant("Mistelbach Stadt").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Schloss Belvedere").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Empergergasse").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Michelbeuern-AKH").
+restaurant("Jägerstraße").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Bernhardtstalgasse").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Breitensee").

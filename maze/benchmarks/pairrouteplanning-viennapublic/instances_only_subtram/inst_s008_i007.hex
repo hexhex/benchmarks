@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Trasdorf Bahnhof").
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Lange Gasse").
-initlocation(1,"Schottentor").
-initlocation(1,"Am Heidjöchl").
-initlocation(1,"Mühlfeldgasse").
-initlocation(1,"Marxergasse").
-initlocation(1,"Sarasdorf Bahnhof").
-sequence(1,0, "Trasdorf Bahnhof").
+initlocation($p,"Viehmarktgasse").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Krankenhaus Hietzing").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Fultonstraße").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Viehmarktgasse").
 person(2).
-initlocation(2,"Brünner Straße").
-initlocation(2,"Johann-Nepomuk-Berger-Platz").
-initlocation(2,"Rathausplatz/Burgtheater").
-initlocation(2,"Leobersdorf Bahnhof").
-initlocation(2,"Sierndorf Bahnhof").
-initlocation(2,"Grillgasse").
-initlocation(2,"Sieveringer Straße").
-initlocation(2,"Krieau").
-sequence(2,0, "Brünner Straße").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Auerspergstraße").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Erlaaer Straße").
-restaurant("Kagraner Platz").
-restaurant("Braunschweiggasse").
-restaurant("Keplerplatz").
-restaurant("Am Heidjöchl").
-restaurant("Konstanziagasse").
-restaurant("Schönbrunn").
-restaurant("Seestadt").
-restaurant("Kraygasse").
+initlocation($p,"Längenfeldgasse/Flurschützstr").
+initlocation($p,"Koloniestraße").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Hernals").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Paulanergasse").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Großfeldsiedlung").
+initlocation($p,"Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Niederhofstraße").
+restaurant("Franz-Asenbauer-Gasse").

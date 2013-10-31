@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Franz-Josefs-Bahnhof").
-initlocation(1,"Kardinal-Nagl-Platz").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Michelbeuern-AKH").
-sequence(1,0, "Franz-Josefs-Bahnhof").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Alser Straße").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Aspernstraße").
 person(2).
-initlocation(2,"Hietzing").
-initlocation(2,"Haslau an der Donau Bahnhof").
-initlocation(2,"Herrengasse").
-initlocation(2,"Mistelbach Bahnhof").
-sequence(2,0, "Hietzing").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Großfeldsiedlung").
-restaurant("Gasometer".
-restaurant("Hütteldorf".
-restaurant("Obersdorf Bahnhof".
-restaurant("Klosterneuburg-Kierling Bf").
+initlocation($p,"Vorgartenstraße").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Vorgartenstraße").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+restaurant("Achau Bahnhof").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Stockerau Bahnhof").
+restaurant("Niederkreuzstetten Bahnhof").

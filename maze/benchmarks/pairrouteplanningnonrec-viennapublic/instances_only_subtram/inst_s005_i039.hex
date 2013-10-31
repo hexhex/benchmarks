@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Floridsdorfer Brücke").
-initlocation(1,"Gunoldstraße").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Volkstheater").
-initlocation(1,"Zentralfriedhof 2Tor").
-sequence(1,0, "Floridsdorfer Brücke").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Gruschaplatz").
+initlocation($p,"Prinzgasse").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
 person(2).
-initlocation(2,"Donaumarina").
-initlocation(2,"Frödenplatz").
-initlocation(2,"Hernalser Gürtel").
-initlocation(2,"Vorgartenstraße").
-initlocation(2,"An den langen Lüssen").
-sequence(2,0, "Donaumarina").
-possiblemeetinglocations("Empergergasse").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Kaiserstraße").
-restaurant("Konstanziagasse").
-restaurant("Hildebrandgasse").
-restaurant("Maurer Hauptplatz").
-restaurant("Rathausplatz/Burgtheater").
-restaurant("Obersdorf Bahnhof").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation($p,"Lederergasse").
+initlocation($p,"Heiligenstadt").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Donauzentrum").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Schottentor").
+restaurant("Krankenhaus Hietzing").
+restaurant("Gußhausstraße").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Gloriettegasse").
+restaurant("Mannswörth Bahnhof").

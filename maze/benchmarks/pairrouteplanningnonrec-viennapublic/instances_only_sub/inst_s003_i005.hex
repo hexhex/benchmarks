@@ -1,17 +1,16 @@
 person(1).
-initlocation(1,"Maria Anzbach Bahnhof").
-initlocation(1,"Sankt Marx").
-initlocation(1,"Haidestraße").
-sequence(1,0, "Maria Anzbach Bahnhof").
+initlocation($p,"Donauinsel").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Donauinsel").
 person(2).
-initlocation(2,"Guntramsdorf-Thallern").
-initlocation(2,"Weigelsdorf Bahnhof").
-initlocation(2,"Neusiedl am See Bahnhof").
-sequence(2,0, "Guntramsdorf-Thallern").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Braunschweiggasse").
-restaurant("Flughafen Wien (VIE.
-Bahnhof".
-restaurant("Kottingneusiedl Bahnhof".
-restaurant("Traisengasse").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Herrengasse").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Stockerau Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Josefstädter Straße").
+restaurant("Westbahnhof").

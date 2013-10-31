@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Strebersdorf").
-initlocation(1,"Weigelsdorf Bahnhof").
-initlocation(1,"Döblinger Bad").
-initlocation(1,"Valiergasse").
-initlocation(1,"Döblinger Hauptstr/Gatterburgg").
-initlocation(1,"Unter Sankt Veit").
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Aspern Nord").
-initlocation(1,"Hardeggasse").
-sequence(1,0, "Strebersdorf").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Versorgungsheimplatz").
+initlocation($p,"Johann-Nepomuk-Berger-Platz").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Liesing").
+initlocation($p,"Koppstraße/Panikengasse").
+initlocation($p,"Mayerhofgasse").
+initlocation($p,"Grinzinger Straße").
+initlocation($p,"Gumpendorfer Straße").
 person(2).
-initlocation(2,"Geiselbergstraße").
-initlocation(2,"Kagraner Brücke").
-initlocation(2,"Wallrißstraße").
-initlocation(2,"Nestroyplatz").
-initlocation(2,"Rebhanngasse").
-initlocation(2,"Mödling Bahnhof").
-initlocation(2,"Augasse").
-initlocation(2,"Kaisermühlen-VIC").
-initlocation(2,"Bahnsteggasse").
-sequence(2,0, "Geiselbergstraße").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Glatzgasse").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Johann-Strauß-Gasse").
-possiblemeetinglocations("Salztorbrücke").
-possiblemeetinglocations("Simonygasse").
-possiblemeetinglocations("Friedensbrücke").
-restaurant("Schlickgasse").
-restaurant("Weißenböckstraße").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Kapellerfeld Bahnhof").
-restaurant("Gasometer").
-restaurant("Gloriettegasse").
-restaurant("Schwechat Bahnhof").
-restaurant("Sierndorf Bahnhof").
-restaurant("Wr Neustadt Civitas Nova").
+initlocation($p,"Anton-Schall-Gasse").
+initlocation($p,"Elterleinplatz").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Rauscherstraße").
+initlocation($p,"Geiereckstraße").
+initlocation($p,"Spitalgasse/Währinger Straße").
+initlocation($p,"Penzing").
+initlocation($p,"Atzgersdorfer Straße").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Anton-Schall-Gasse").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Shuttleworthstraße").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+restaurant("Klosterneub Str/Wallensteinstr").
+restaurant("Hernalser Gürtel").
+restaurant("Vorgartenstraße").
+restaurant("Oberlaa, Therme Wien").
+restaurant("Blumental").
+restaurant("Weinhauser Gasse").
+restaurant("Liesing").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Absberggasse").

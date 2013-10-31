@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Barawitzkagasse").
-initlocation(1,"Linzer Straße/Johnstraße").
-sequence(1,0, "Barawitzkagasse").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Pfaffstätten Bahnhof").
 person(2).
-initlocation(2,"Verbindungsbahn").
-initlocation(2,"Johann-Nepomuk-Berger-Platz").
-sequence(2,0, "Verbindungsbahn").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
-restaurant("Alser Straße").
-restaurant("Tesarekplatz").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Untereggendorf Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+restaurant("Schweglerstraße").
+restaurant("Frauengasse").

@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Kottingbrunn Bahnhof").
-initlocation(1,"Zieglergasse").
-initlocation(1,"Burggasse-Stadthalle").
-sequence(1,0, "Kottingbrunn Bahnhof").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Neulengbach Bahnhof").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Sollenau Bahnhof").
 person(2).
-initlocation(2,"Atzgersdorf").
-initlocation(2,"Hennersdorf Bahnhof").
-initlocation(2,"Neulengbach Stadt Bahnhof").
-sequence(2,0, "Atzgersdorf").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Stadlau").
-possiblemeetinglocations("Längenfeldgasse").
-restaurant("Stadion".
-restaurant("Sierndorf Bahnhof".
-restaurant("Spittelau").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Kagraner Platz").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+restaurant("Helmahof Bahnhof").
+restaurant("Kagraner Platz").
+restaurant("Korneuburg Bahnhof").

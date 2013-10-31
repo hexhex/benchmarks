@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Unteres Belvedere").
-initlocation(1,"Stephansplatz").
-sequence(1,0, "Unteres Belvedere").
+initlocation($p,"Blindengasse").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Blindengasse").
 person(2).
-initlocation(2,"Götzendorf Bahnhof").
-initlocation(2,"Autokaderstraße").
-sequence(2,0, "Götzendorf Bahnhof").
-possiblemeetinglocations("Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-restaurant("Donaustadtstraße").
-restaurant("Rauscherstraße").
+initlocation($p,"Kaiserebersdorf, Zinnergasse").
+initlocation($p,"Sommarugagasse").
+initlocation($p,"Kaiserebersdorf, Zinnergasse").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Strebersdorf").
+restaurant("Gredlerstraße").
+restaurant("Frättingsdorf Bahnhof").

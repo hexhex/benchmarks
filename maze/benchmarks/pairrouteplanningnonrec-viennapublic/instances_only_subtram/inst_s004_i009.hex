@@ -1,21 +1,20 @@
 person(1).
-initlocation(1,"Strozzigasse").
-initlocation(1,"Alsegger Straße").
-initlocation(1,"Kottingneusiedl Bahnhof").
-initlocation(1,"Am Heidjöchl").
-sequence(1,0, "Strozzigasse").
+initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation($p,"Alsegger Straße").
+initlocation($p,"Stadlergasse").
+initlocation($p,"Breitenfurter Str/Liesingbr").
+initlocation($p,"Franz-Asenbauer-Gasse").
 person(2).
-initlocation(2,"Rodaun").
-initlocation(2,"Petronell-Carnuntum Bahnhof").
-initlocation(2,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(2,"Prater, Hauptallee").
-sequence(2,0, "Rodaun").
-possiblemeetinglocations("Rußbergstraße").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
-restaurant("Schönborn Bahnhof").
-restaurant("Otto-Probst-Straße").
-restaurant("Hintere Zollamtsstraße").
-restaurant("Keplerplatz").
+initlocation($p,"Carminweg").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Donauinsel").
+initlocation($p,"Carminweg").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+restaurant("Tscherttegasse").
+restaurant("Nordbrücke").
+restaurant("Otto-Probst-Platz").
+restaurant("Sillerplatz").

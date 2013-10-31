@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Kapellerfeld Bahnhof").
-initlocation(1,"Rankgasse").
-initlocation(1,"Langenlebarn Bahnhof").
-initlocation(1,"St Pölten Hauptbahnhof").
-initlocation(1,"Oberfeldgasse/Spargelfeldstr").
-sequence(1,0, "Kapellerfeld Bahnhof").
+initlocation($p,"Sechskrügelgasse").
+initlocation($p,"Am Heumarkt").
+initlocation($p,"Rathausplatz/Burgtheater").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Sechskrügelgasse").
 person(2).
-initlocation(2,"Bahnsteggasse").
-initlocation(2,"Kliebergasse").
-initlocation(2,"Atzgersdorfer Straße").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Donauinsel").
-sequence(2,0, "Bahnsteggasse").
+initlocation($p,"Längenfeldgasse/Flurschützstr").
+initlocation($p,"Johann-Strauß-Gasse").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Stadion").
+initlocation($p,"Am Schöpfwerk").
+initlocation($p,"Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Karmeliterplatz").
 possiblemeetinglocations("Am Tabor").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Versorgungsheimplatz").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Niederhofstraße").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Gloriettegasse").
-restaurant("Kaisermühlen-VIC").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
 restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Kleistgasse").
+restaurant("Josefstädter Straße").
+restaurant("Saikogasse").

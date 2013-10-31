@@ -1,57 +1,56 @@
 person(1).
-initlocation(1,"Taubstummengasse").
-initlocation(1,"Neulengbach Bahnhof").
-initlocation(1,"Herrengasse").
-initlocation(1,"Hütteldorfer Straße").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"St Pölten Hauptbahnhof").
-initlocation(1,"Untertullnerbach Bahnhof").
-initlocation(1,"Gersthof").
-initlocation(1,"Johnstraße").
-initlocation(1,"Zeiselmauer-Königstetten Bf").
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Strebersdorf").
-initlocation(1,"Gramatneusiedl Bahnhof").
-sequence(1,0, "Taubstummengasse").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Simmering").
+initlocation($p,"Alterlaa").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Weigelsdorf Bahnhof").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Nestroyplatz").
 person(2).
-initlocation(2,"Dürrwien Bahnhof").
-initlocation(2,"Tulln Stadt Bahnhof").
-initlocation(2,"Stockerau Bahnhof").
-initlocation(2,"Weidlingau Bahnhof").
-initlocation(2,"Quartier Belvedere").
-initlocation(2,"Schönborn Bahnhof").
-initlocation(2,"Alte Donau").
-initlocation(2,"Wilfleinsdorf Bahnhof").
-initlocation(2,"Hetzendorf").
-initlocation(2,"Hadersdorf Bahnhof").
-initlocation(2,"Laa an der Thaya Bahnhof").
-initlocation(2,"Aspernstraße").
-initlocation(2,"Atzenbrugg Bahnhof").
-sequence(2,0, "Dürrwien Bahnhof").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Hofstatt Bahnhof").
-restaurant("Gumpoldskirchen Bahnhof".
-restaurant("Tulln Stadt Bahnhof".
-restaurant("Rekawinkel Bahnhof".
-restaurant("Niederhofstraße".
-restaurant("Hirschstetten".
-restaurant("Silberwald Bahnhof".
-restaurant("Wolkersdorf Bahnhof".
-restaurant("Ebreichsdorf Bahnhof".
-restaurant("Laa an der Thaya Bahnhof".
-restaurant("Mödling Bahnhof".
-restaurant("Aspern Nord".
-restaurant("Blumental".
-restaurant("Mistelbach Bahnhof").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Herrengasse").
+initlocation($p,"Weigelsdorf Bahnhof").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Felixdorf Bahnhof").
+restaurant("Haidestraße").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Donauinsel").
+restaurant("Zieglergasse").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Pilgramgasse").
+restaurant("Hernals").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Bahnhof Meidling").

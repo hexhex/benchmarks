@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Kleistgasse").
-initlocation(1,"Favoritenstraße/Troststraße").
-sequence(1,0, "Kleistgasse").
+initlocation($p,"Hernals").
+initlocation($p,"Gersthofer Str/Scheibenbergstr").
+initlocation($p,"Hernals").
 person(2).
-initlocation(2,"Schottenfeldgasse").
-initlocation(2,"Perchtoldsdorf Bahnhof").
-sequence(2,0, "Schottenfeldgasse").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Spillern Bahnhof").
-restaurant("Rußbergstraße").
-restaurant("Autokaderstraße").
+initlocation($p,"Valiergasse").
+initlocation($p,"Aspern, Oberdorfstraße").
+initlocation($p,"Valiergasse").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Fickeysstraße").
+restaurant("Schloss Hetzendorf").
+restaurant("Hermesstraße").

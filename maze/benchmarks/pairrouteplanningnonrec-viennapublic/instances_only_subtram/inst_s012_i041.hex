@@ -1,53 +1,52 @@
 person(1).
-initlocation(1,"Prinzgasse").
-initlocation(1,"Migerkastraße").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Weihburggasse").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Lazarettgasse").
-initlocation(1,"Südtiroler Platz/Hauptbahnhof").
-initlocation(1,"Hernalser Gürtel").
-initlocation(1,"Kärntner Ring/Oper").
-initlocation(1,"Floridsdorfer Markt").
-initlocation(1,"Wildungsmauer Bahnhof").
-initlocation(1,"Weigelsdorf Bahnhof").
-sequence(1,0, "Prinzgasse").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Linzer Straße/Reinlgasse").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Absberggasse").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Mannswörth Bahnhof").
+initlocation($p,"Blumental").
+initlocation($p,"Columbusplatz").
+initlocation($p,"Carminweg").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Sieveringer Straße").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Reumannplatz").
 person(2).
-initlocation(2,"Matzleinsdorfer Platz").
-initlocation(2,"Oberradlberg Bahnhof").
-initlocation(2,"Jägerstraße").
-initlocation(2,"Rathaus").
-initlocation(2,"Sommarugagasse").
-initlocation(2,"Guntersdorf Bahnhof").
-initlocation(2,"Guntherstraße").
-initlocation(2,"Franz-Josefs-Bahnhof").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"Neubaugasse/Westbahnstraße").
-initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(2,"Martinstraße").
-sequence(2,0, "Matzleinsdorfer Platz").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Wexstraße").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Beingasse").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Wittelsbachstraße").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Strasshof Bahnhof").
-restaurant("Grinzing").
-restaurant("Seyring Bahnhof").
-restaurant("Stubentor").
-restaurant("Laxenburger Straße/Troststraße").
-restaurant("Westbahnhof").
-restaurant("Regelsbrunn Bahnhof").
-restaurant("Leopoldau").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Plößlgasse").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Aspern, Oberdorfstraße").
-restaurant("Pantucekgasse/Widholzgasse").
+initlocation($p,"Martinstraße").
+initlocation($p,"Hintere Zollamtsstraße").
+initlocation($p,"Jagdschloßgasse").
+initlocation($p,"Spittelau").
+initlocation($p,"Höchstädtplatz").
+initlocation($p,"Grinzinger Straße").
+initlocation($p,"Anton-Krieger-Gasse").
+initlocation($p,"Plößlgasse").
+initlocation($p,"Silberwald Bahnhof").
+initlocation($p,"Atzgersdorfer Straße").
+initlocation($p,"Gasometer").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Martinstraße").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+restaurant("Neuwaldegg").
+restaurant("Valiergasse").
+restaurant("Aspern Nord").
+restaurant("Schlickgasse").
+restaurant("Blechturmgasse").
+restaurant("Floridsdorfer Markt").
+restaurant("Strebersdorf").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Gredlerstraße").
+restaurant("Mödling Bahnhof").
+restaurant("Wildgansplatz").

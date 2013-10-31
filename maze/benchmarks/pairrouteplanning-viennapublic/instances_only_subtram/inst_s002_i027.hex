@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Kagraner Platz").
-initlocation(1,"Johnstraße").
-sequence(1,0, "Kagraner Platz").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Neulerchenfelder Str/Haberlg").
+initlocation($p,"Oberradlberg Bahnhof").
 person(2).
-initlocation(2,"Ebenfurth Bahnhof").
-initlocation(2,"Siebensterngasse").
-sequence(2,0, "Ebenfurth Bahnhof").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Viehmarktgasse").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Thaliastraße/Haberlgasse").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Karlsplatz").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Teichgasse").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Rustengasse").

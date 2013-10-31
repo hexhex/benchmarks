@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Zieglergasse").
-initlocation(1,"Rennweg").
-initlocation(1,"Wittelsbachstraße").
-initlocation(1,"Niederhofstraße").
-sequence(1,0, "Zieglergasse").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Siebertgasse").
+initlocation($p,"Aßmayergasse").
+initlocation($p,"Riedelgasse").
+initlocation($p,"Unterradlberg Bahnhof").
 person(2).
-initlocation(2,"Hopfengasse").
-initlocation(2,"Aßmayergasse").
-initlocation(2,"Purkersdorf Zentrum Bahnhof").
-initlocation(2,"Johannes-Krawarik-Gasse").
-sequence(2,0, "Hopfengasse").
-possiblemeetinglocations("Sechskrügelgasse").
-possiblemeetinglocations("Krankenhaus Hietzing").
-possiblemeetinglocations("Oberlaa, Therme Wien").
-possiblemeetinglocations("Nestroyplatz").
+initlocation($p,"Spitalgasse/Währinger Straße").
+initlocation($p,"Rathaus").
+initlocation($p,"Schwarzenbergplatz").
+initlocation($p,"Stiftgasse").
+initlocation($p,"Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Kraygasse").
+possiblemeetinglocations("Hermesstraße").
+possiblemeetinglocations("Nordbrücke").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Margaretengürtel").
 restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Langobardenstraße/Kapellenweg").
-restaurant("Münchendorf Bahnhof").
-restaurant("Schlachthausgasse").

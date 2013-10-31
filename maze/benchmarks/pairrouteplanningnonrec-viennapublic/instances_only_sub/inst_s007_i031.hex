@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Hausfeldstraße").
-initlocation(1,"Längenfeldgasse").
-initlocation(1,"Zentralfriedhof").
-initlocation(1,"Aspern Nord").
-initlocation(1,"Felixdorf Bahnhof").
-initlocation(1,"Hernals").
-initlocation(1,"Himberg Bahnhof").
-sequence(1,0, "Hausfeldstraße").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Simmering").
+initlocation($p,"Unterradlberg Bahnhof").
 person(2).
-initlocation(2,"Silberwald Bahnhof").
-initlocation(2,"Guntramsdorf-Thallern").
-initlocation(2,"Jägerstraße").
-initlocation(2,"Kettenbrückengasse").
-initlocation(2,"Friedensbrücke").
-initlocation(2,"Mödling Bahnhof").
-initlocation(2,"Stadlau").
-sequence(2,0, "Silberwald Bahnhof").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Stadtpark").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Taborstraße").
+initlocation($p,"Braunschweiggasse").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
 possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Braunschweiggasse").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Seestadt").
-restaurant("Niederhofstraße".
-restaurant("Muckendorf-Wipfing Bahnhof".
-restaurant("Traisengasse".
-restaurant("Burggasse-Stadthalle".
-restaurant("Bisamberg Bahnhof".
-restaurant("Leopoldau".
-restaurant("Enkplatz").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+restaurant("Braunschweiggasse").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Michelbeuern-AKH").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Trasdorf Bahnhof").
+restaurant("Brünner Straße").

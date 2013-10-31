@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Atzgersdorf").
-initlocation(1,"Canisiusgasse").
-initlocation(1,"Gutraterplatz").
-sequence(1,0, "Atzgersdorf").
+initlocation($p,"Obere Augartenstraße").
+initlocation($p,"Johnstraße").
+initlocation($p,"Vorgartenstraße").
+initlocation($p,"Obere Augartenstraße").
 person(2).
-initlocation(2,"Halteraugasse").
-initlocation(2,"Huglgasse").
-initlocation(2,"Purkersdorf Zentrum Bahnhof").
-sequence(2,0, "Halteraugasse").
-possiblemeetinglocations("Forstnergasse").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Diesterweggasse").
-restaurant("Sankt Marx").
-restaurant("Staglgasse").
-restaurant("Geiereckstraße").
+initlocation($p,"Kaiserstraße").
+initlocation($p,"Heinrich-Drimmel-Platz").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Kaiserstraße").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Weidlingau Bahnhof").
+restaurant("Unteres Belvedere").
+restaurant("Alsegger Straße").
+restaurant("Stefan-Fadinger-Platz").

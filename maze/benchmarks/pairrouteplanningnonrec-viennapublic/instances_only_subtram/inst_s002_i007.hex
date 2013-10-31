@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-sequence(1,0, "Klosterneuburg-Weidling Bf").
+initlocation($p,"Favoritenstraße/Troststraße").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Favoritenstraße/Troststraße").
 person(2).
-initlocation(2,"Anschützgasse").
-initlocation(2,"Innstraße").
-sequence(2,0, "Anschützgasse").
-possiblemeetinglocations("Dornbacher Straße").
-possiblemeetinglocations("Radetzkyplatz").
-restaurant("Heiligenstadt").
-restaurant("Johann-Nepomuk-Berger-Platz").
+initlocation($p,"Unteres Belvedere").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Unteres Belvedere").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Stiftgasse").
+restaurant("Kaisermühlen-VIC").
+restaurant("An den langen Lüssen").

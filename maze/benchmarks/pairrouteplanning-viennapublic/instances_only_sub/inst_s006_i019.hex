@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Bahnhof Meidling").
-initlocation(1,"Atzenbrugg Bahnhof").
-initlocation(1,"Paasdorf Bahnhof").
-initlocation(1,"Langenzersdorf Bahnhof").
-initlocation(1,"Schleinbach Bahnhof").
-sequence(1,0, "Tulln Bahnhof").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Breitensee").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Schottenring").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Margaretengürtel").
 person(2).
-initlocation(2,"Unterpurkersdorf Bahnhof").
-initlocation(2,"Staatz Bahnhof").
-initlocation(2,"Hadersdorf Bahnhof").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Ebenfurth Bahnhof").
-initlocation(2,"Trasdorf Bahnhof").
-sequence(2,0, "Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-restaurant("Haslau an der Donau Bahnhof".
-restaurant("Aderklaaer Straße".
-restaurant("Neusiedl am See Bahnhof".
-restaurant("Breitenwaida Bahnhof".
-restaurant("Göllersdorf Bahnhof".
-restaurant("Aspernstraße").
+initlocation($p,"Alterlaa").
+initlocation($p,"Praterstern").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Heiligenstadt").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Alterlaa").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Ottakring").
+restaurant("Tscherttegasse").
+restaurant("Zieglergasse").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Breitensee").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").

@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Brünner Straße").
-initlocation(1,"Bad Vöslau Bahnhof").
-initlocation(1,"Kendlerstraße").
-sequence(1,0, "Brünner Straße").
+initlocation($p,"Alser Straße").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Alser Straße").
 person(2).
-initlocation(2,"Rekawinkel Bahnhof").
-initlocation(2,"Liesing").
-initlocation(2,"Perfektastraße").
-sequence(2,0, "Rekawinkel Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Korneuburg Bahnhof").
-restaurant("Friedensbrücke".
-restaurant("Neubaugasse".
-restaurant("Simmering").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Kritzendorf Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Felixdorf Bahnhof").
+restaurant("Matzleinsdorfer Platz").

@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Weinheimergasse").
-initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(1,"Seestadt").
-initlocation(1,"Am Heidjöchl").
-initlocation(1,"Volkstheater").
-sequence(1,0, "Weinheimergasse").
+initlocation($p,"Fultonstraße").
+initlocation($p,"Bahnsteggasse").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Sieveringer Straße").
+initlocation($p,"Leyserstraße").
+initlocation($p,"Fultonstraße").
 person(2).
-initlocation(2,"Neubau-Kreuzstetten Bahnhof").
-initlocation(2,"Klosterneuburg-Kierling Bf").
-initlocation(2,"Weißenböckstraße").
-initlocation(2,"Bruck/Leitha Bahnhof").
-initlocation(2,"Göllersdorf Bahnhof").
-sequence(2,0, "Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Verbindungsbahn").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Schleinbach Bahnhof").
-restaurant("Rosenhügelstraße").
-restaurant("Praterstern").
-restaurant("Gußhausstraße").
-restaurant("Otto-Probst-Platz").
-restaurant("Jägerstraße").
+initlocation($p,"Koloniestraße").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Eichenstraße").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Hütteldorfer Str/Hochsatzeng").
+initlocation($p,"Koloniestraße").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Blumengasse").
+restaurant("Siebenhirten").
+restaurant("Höbersdorf Bahnhof").

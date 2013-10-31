@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Deutsch-Wagram Bahnhof").
-initlocation(1,"Hütteldorfer Straße").
-initlocation(1,"Getzersdorf/Traisen Bahnhof").
-initlocation(1,"Lazarettgasse").
-initlocation(1,"Neulerchenfelder Str/Brunneng").
-sequence(1,0, "Deutsch-Wagram Bahnhof").
+initlocation($p,"Heinrich-Drimmel-Platz").
+initlocation($p,"Schwarzspanierstraße").
+initlocation($p,"Camillo-Sitte-Gasse").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Weigelsdorf Bahnhof").
+initlocation($p,"Heinrich-Drimmel-Platz").
 person(2).
-initlocation(2,"Antonigasse").
-initlocation(2,"Hauptbahnhof Ost").
-initlocation(2,"Zippererstraße").
-initlocation(2,"Rekawinkel Bahnhof").
-initlocation(2,"Michelhausen Bahnhof").
-sequence(2,0, "Antonigasse").
-possiblemeetinglocations("Paradisgasse").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Radetzkyplatz").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-restaurant("Spittelau").
-restaurant("Neuwaldegg").
-restaurant("Carminweg").
-restaurant("Neubaugasse/Westbahnstraße").
-restaurant("Keplerplatz").
+initlocation($p,"Gloriettegasse").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Gloriettegasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+restaurant("Gloriettegasse").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Lerchenfelder Straße").
+restaurant("Nußdorf, Beethovengang").
+restaurant("St Andrä-Wördern Bahnhof").

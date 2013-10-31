@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Althanstraße").
-initlocation(1,"Langobardenstraße").
-initlocation(1,"Stadtpark").
-initlocation(1,"Arthaberplatz").
-sequence(1,0, "Althanstraße").
+initlocation($p,"Ottakring").
+initlocation($p,"Unter St Veit, Hummelgasse").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Ottakring").
 person(2).
-initlocation(2,"Purkersdorf Sanatorium").
-initlocation(2,"Friedrich-Engels-Platz").
-initlocation(2,"Höflein an der Donau Bahnhof").
-initlocation(2,"Gemeinlebarn Bahnhof").
-sequence(2,0, "Purkersdorf Sanatorium").
-possiblemeetinglocations("Resselgasse").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Perntergasse").
-possiblemeetinglocations("Yppengasse").
-restaurant("Seyring Bahnhof").
-restaurant("Meidling Hauptstraße").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Riedelgasse").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Koloniestraße").
+initlocation($p,"Stiftgasse").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Barawitzkagasse").
+restaurant("Dresdner Straße").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Döblinger Hauptstr/Gatterburgg").
+restaurant("Silbergasse").

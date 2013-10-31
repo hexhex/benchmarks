@@ -1,57 +1,56 @@
 person(1).
-initlocation(1,"Maria Ellend Bahnhof").
-initlocation(1,"Marienbrücke").
-initlocation(1,"Langenlebarn Bahnhof").
-initlocation(1,"Perntergasse").
-initlocation(1,"Koppstraße/Panikengasse").
-initlocation(1,"Schönbrunn").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Laxenburger Straße/Troststraße").
-initlocation(1,"Wallrißstraße").
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Altes Landgut").
-initlocation(1,"Maria Anzbach Bahnhof").
-initlocation(1,"Gatterburggasse").
-sequence(1,0, "Maria Ellend Bahnhof").
+initlocation($p,"Donauspital").
+initlocation($p,"Schleiergasse").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Aßmayergasse").
+initlocation($p,"Nordbrücke").
+initlocation($p,"Rennweg").
+initlocation($p,"Pantucekgasse/Widholzgasse").
+initlocation($p,"Laurentiusplatz").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
+initlocation($p,"Schmerlingplatz").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Donauspital").
 person(2).
-initlocation(2,"Kagraner Brücke").
-initlocation(2,"Grillgasse").
-initlocation(2,"Zieglergasse/Westbahnstraße").
-initlocation(2,"Messe-Prater").
-initlocation(2,"Kottingneusiedl Bahnhof").
-initlocation(2,"Untereggendorf Bahnhof").
-initlocation(2,"Unterpurkersdorf Bahnhof").
-initlocation(2,"Lerchenfelder Straße").
-initlocation(2,"Quartier Belvedere").
-initlocation(2,"Urban-Loritz-Platz").
-initlocation(2,"Hütteldorf, Bujattigasse").
-initlocation(2,"Trondheimgasse").
-initlocation(2,"Obere Augartenstraße").
-sequence(2,0, "Kagraner Brücke").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Florianigasse").
-possiblemeetinglocations("Alfred-Adler-Straße").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Koppstraße/Panikengasse").
-possiblemeetinglocations("Zentralfriedhof 2Tor").
-possiblemeetinglocations("Stollgasse").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Kliebergasse").
-restaurant("Grinzinger Straße").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Oberzellergasse").
-restaurant("Sieveringer Straße").
-restaurant("Hütteldorf").
-restaurant("Gaußplatz").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Neue Donau").
-restaurant("Rußbergstraße").
-restaurant("Kranzgasse").
-restaurant("Josefstädter Straße").
-restaurant("Maria Anzbach Bahnhof").
+initlocation($p,"Edmund-Hawranek-Platz").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Alfred-Adler-Straße").
+initlocation($p,"Thaliastraße/Brunnengasse").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Wenzgasse").
+initlocation($p,"Langobardenstraße/Kapellenweg").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Heinrich-Drimmel-Platz").
+initlocation($p,"Aßmayergasse").
+initlocation($p,"Maurer Hauptplatz").
+initlocation($p,"Kölblgasse").
+initlocation($p,"Nußdorf").
+initlocation($p,"Edmund-Hawranek-Platz").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Laurenzgasse").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+restaurant("Laurenzgasse").
+restaurant("Pötzleinsdorf").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Oberdöbling").
+restaurant("Alterlaa").
 restaurant("Längenfeldgasse").
+restaurant("Silbergasse").
+restaurant("Leopoldau").
+restaurant("Paradisgasse").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Aderklaaer Straße").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Achau Bahnhof").

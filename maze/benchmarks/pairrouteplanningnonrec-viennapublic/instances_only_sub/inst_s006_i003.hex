@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Hadersdorf Bahnhof").
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Gumpendorfer Straße").
-initlocation(1,"Kledering Bahnhof").
-initlocation(1,"Alte Donau").
-initlocation(1,"Blumental").
-sequence(1,0, "Hadersdorf Bahnhof").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
 person(2).
-initlocation(2,"Kritzendorf Bahnhof").
-initlocation(2,"Silberwald Bahnhof").
-initlocation(2,"Friedensbrücke").
-initlocation(2,"Atzgersdorf").
-initlocation(2,"Nußdorfer Straße").
-initlocation(2,"Quartier Belvedere").
-sequence(2,0, "Kritzendorf Bahnhof").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-restaurant("Ladendorf Bahnhof".
-restaurant("Wr Neustadt Civitas Nova".
-restaurant("Lobau".
-restaurant("Friedensbrücke".
-restaurant("Simmering".
-restaurant("Schweglerstraße").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Seyring Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Friedensbrücke").
+restaurant("Sankt Marx").
+restaurant("Zentralfriedhof").
+restaurant("Hirschstetten").
+restaurant("Hütteldorf").

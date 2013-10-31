@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Viehofen Bahnhof").
-initlocation(1,"Zippererstraße").
-initlocation(1,"Michelhausen Bahnhof").
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-initlocation(1,"Strasshof Bahnhof").
-initlocation(1,"Kardinal-Nagl-Platz").
-initlocation(1,"Unterradlberg Bahnhof").
-initlocation(1,"Achau Bahnhof").
-sequence(1,0, "Viehofen Bahnhof").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Unter Sankt Veit").
 person(2).
-initlocation(2,"Gänserndorf Bahnhof").
-initlocation(2,"Kapellerfeld Bahnhof").
-initlocation(2,"Kagran").
-initlocation(2,"Reumannplatz").
-initlocation(2,"Klosterneuburg-Kierling Bf").
-initlocation(2,"Burggasse-Stadthalle").
-initlocation(2,"Gumpendorfer Straße").
-initlocation(2,"Hennersdorf Bahnhof").
-sequence(2,0, "Gänserndorf Bahnhof").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Herrengasse").
-restaurant("Laa an der Thaya Bahnhof".
-restaurant("Dresdner Straße".
-restaurant("Sitzenberg-Reidling Bahnhof".
-restaurant("Höbersdorf Bahnhof".
-restaurant("Moosbierbaum-Heiligeneich Bf".
-restaurant("Weigelsdorf Bahnhof".
-restaurant("Donaumarina".
-restaurant("Weidlingau Bahnhof").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Penzing").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Himberg Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("Gasometer").
+restaurant("Breitensee").
+restaurant("Neue Donau").
+restaurant("Helmahof Bahnhof").
+restaurant("Michelhausen Bahnhof").

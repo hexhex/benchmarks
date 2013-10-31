@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(1,"Ungargasse/Neulinggasse").
-sequence(1,0, "Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Herrengasse").
+initlocation($p,"Gutraterplatz").
+initlocation($p,"Herrengasse").
 person(2).
-initlocation(2,"Verbindungsbahn").
-initlocation(2,"Erndtgasse").
-sequence(2,0, "Verbindungsbahn").
-possiblemeetinglocations("Dornbacher Straße").
-possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
-restaurant("Keplerplatz").
-restaurant("Stockholmer Platz").
+initlocation($p,"Kagraner Brücke").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Kagraner Brücke").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+restaurant("Landesgerichtsstraße").
+restaurant("Weinhauser Gasse").

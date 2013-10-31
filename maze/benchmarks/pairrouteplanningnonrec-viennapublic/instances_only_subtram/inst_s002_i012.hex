@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Gaisruck Bahnhof").
-initlocation(1,"Geiselbergstraße").
-sequence(1,0, "Gaisruck Bahnhof").
+initlocation($p,"Sahulkastraße").
+initlocation($p,"Hernals").
+initlocation($p,"Sahulkastraße").
 person(2).
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Münchendorf Bahnhof").
-sequence(2,0, "Hautzendorf Bahnhof").
-possiblemeetinglocations("Anschützgasse").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-restaurant("Am Schöpfwerk").
-restaurant("Am Heidjöchl").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Landesgerichtsstraße").
+initlocation($p,"Zentralfriedhof 3Tor").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Hildebrandgasse").
+restaurant("Autokaderstraße").
+restaurant("Carminweg").

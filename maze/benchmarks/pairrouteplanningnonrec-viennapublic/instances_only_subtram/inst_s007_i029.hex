@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Forstnergasse").
-initlocation(1,"Nußdorfer Str/Alserbachstraße").
-initlocation(1,"Nordbahnstraße").
-initlocation(1,"Konstanziagasse").
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Strasshof Bahnhof").
-initlocation(1,"Guneschgasse").
-sequence(1,0, "Forstnergasse").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Handelskai").
+initlocation($p,"Weißenböckstraße").
+initlocation($p,"Antonigasse").
+initlocation($p,"Migerkastraße").
+initlocation($p,"Tscherttegasse").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Burggasse-Stadthalle").
 person(2).
-initlocation(2,"Döblinger Bad").
-initlocation(2,"Siebenhirten").
-initlocation(2,"Gasometer").
-initlocation(2,"Wr Neustadt Civitas Nova").
-initlocation(2,"Seyring Bahnhof").
-initlocation(2,"Tesarekplatz").
-initlocation(2,"Erdberg").
-sequence(2,0, "Döblinger Bad").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Seegasse").
-possiblemeetinglocations("Anschützgasse").
-possiblemeetinglocations("Laurentiusplatz").
-possiblemeetinglocations("Otto-Probst-Straße").
-possiblemeetinglocations("Hernalser Gürtel").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Rathaus").
-restaurant("Gloriettegasse").
-restaurant("Shuttleworthstraße").
-restaurant("Ober Sankt Veit").
-restaurant("Fasangasse").
-restaurant("Blindengasse").
+initlocation($p,"Alser Straße").
+initlocation($p,"Brünner Straße/Hanreitergasse").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Julius-Raab-Platz").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Troststraße/Neilreichgasse").
+initlocation($p,"Alser Straße").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+possiblemeetinglocations("Mayssengasse").
+restaurant("Donaustadtbrücke").
+restaurant("Fickeysstraße").
+restaurant("Donaustadtstraße").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("An den langen Lüssen").
+restaurant("Rennbahnweg").
+restaurant("Palffygasse").

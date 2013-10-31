@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Kaiserebersdorf").
-initlocation(1,"Meidling Hauptstraße").
-initlocation(1,"Herzogenburg Bahnhof").
-initlocation(1,"Ober Sankt Veit").
-initlocation(1,"Praterstern").
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Grillgasse").
-initlocation(1,"Donauinsel").
-sequence(1,0, "Kaiserebersdorf").
+initlocation($p,"Grillgasse").
+initlocation($p,"Rathaus").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Grillgasse").
 person(2).
-initlocation(2,"Floridsdorf").
-initlocation(2,"Ober Sankt Veit").
-initlocation(2,"Viehofen Bahnhof").
-initlocation(2,"Dresdner Straße").
-initlocation(2,"Krottenbachstraße").
-initlocation(2,"Gumpendorfer Straße").
-initlocation(2,"Penzing").
-initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
-sequence(2,0, "Floridsdorf").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-restaurant("Alser Straße".
-restaurant("Am Schöpfwerk".
-restaurant("Weigelsdorf Bahnhof".
-restaurant("Hofstatt Bahnhof".
-restaurant("Gasometer".
-restaurant("Platt Bahnhof".
-restaurant("Maria Anzbach Bahnhof".
-restaurant("Höflein an der Donau Bahnhof").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Trasdorf Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Floridsdorf").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Reumannplatz").
+restaurant("Donauspital").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Volkstheater").
+restaurant("Taubstummengasse").
+restaurant("Neubaugasse").

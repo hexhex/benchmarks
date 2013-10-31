@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Staglgasse").
-initlocation(1,"Laaer-Berg-Straße").
-initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
-initlocation(1,"Oberradlberg Bahnhof").
-sequence(1,0, "Staglgasse").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Molitorgasse").
+initlocation($p,"Donaumarina").
+initlocation($p,"Zentralfriedhof 3Tor").
 person(2).
-initlocation(2,"Kaiserstraße/Burggasse").
-initlocation(2,"Fischamend Bahnhof").
-initlocation(2,"Wr Neustadt Civitas Nova").
-initlocation(2,"Blumengasse").
-sequence(2,0, "Kaiserstraße/Burggasse").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Langobardenstraße").
-possiblemeetinglocations("Mayerhofgasse").
-possiblemeetinglocations("Grinzing").
-restaurant("Kaiser-Franz-Josef-Straße").
-restaurant("An den langen Lüssen").
-restaurant("Krieau").
-restaurant("Taborstraße").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Rustengasse").
+initlocation($p,"Lange Gasse").
+initlocation($p,"Pilgramgasse").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Wexstraße").
+restaurant("Hauffgasse").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Fasangasse").

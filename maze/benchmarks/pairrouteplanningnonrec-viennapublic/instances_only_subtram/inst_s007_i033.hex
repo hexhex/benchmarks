@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Kendlerstraße").
-initlocation(1,"Schönbrunn").
-initlocation(1,"Staatz Bahnhof").
-initlocation(1,"Schleinbach Bahnhof").
-initlocation(1,"Autokaderstraße").
-initlocation(1,"Rathausplatz/Burgtheater").
-initlocation(1,"Franz-Josefs-Bahnhof").
-sequence(1,0, "Kendlerstraße").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Margaretengürtel/Arbeitergasse").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Dresdner Straße").
 person(2).
-initlocation(2,"Schlachthausgasse").
-initlocation(2,"Am Spitz").
-initlocation(2,"Hernalser Gürtel").
-initlocation(2,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(2,"Bruck/Leitha Bahnhof").
-initlocation(2,"Gaußplatz").
-initlocation(2,"Quartier Belvedere").
-sequence(2,0, "Schlachthausgasse").
-possiblemeetinglocations("Palffygasse").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Quellenplatz").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Albertgasse").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
-restaurant("Leyserstraße").
-restaurant("Kagraner Platz").
-restaurant("Wienerbergbrücke").
-restaurant("Nordbrücke").
-restaurant("Roßauer Lände").
-restaurant("Strasshof Bahnhof").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Kaiserstraße").
+initlocation($p,"Haidestraße").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Carabelligasse").
+initlocation($p,"Klosterneub Str/Wallensteinstr").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Wallensteinplatz").
+possiblemeetinglocations("Gellertplatz").
+restaurant("Huglgasse").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Dommayergasse").
+restaurant("Hermesstraße").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Gunoldstraße").
+restaurant("Breitenfurter Str/Liesingbr").

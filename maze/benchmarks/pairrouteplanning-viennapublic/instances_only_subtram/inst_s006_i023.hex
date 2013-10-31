@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Westbahnhof").
-initlocation(1,"Gutraterplatz").
-initlocation(1,"Haidestraße").
-initlocation(1,"Eichenstraße").
-initlocation(1,"Krankenhaus Hietzing").
-initlocation(1,"Fickeysstraße").
-sequence(1,0, "Westbahnhof").
+initlocation($p,"Zentralfriedhof 4Tor").
+initlocation($p,"Alterlaa").
+initlocation($p,"Blumengasse").
+initlocation($p,"Stefan-Fadinger-Platz").
+initlocation($p,"Eckpergasse").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Zentralfriedhof 4Tor").
 person(2).
-initlocation(2,"Neuwaldegg").
-initlocation(2,"St Andrä-Wördern Bahnhof").
-initlocation(2,"Wolkersdorf Bahnhof").
-initlocation(2,"Hopfengasse").
-initlocation(2,"Viehmarktgasse").
-initlocation(2,"Innstraße").
-sequence(2,0, "Neuwaldegg").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Polgarstraße").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Blindengasse").
-possiblemeetinglocations("Götzendorf Bahnhof").
-restaurant("Versorgungsheimplatz").
-restaurant("Trasdorf Bahnhof").
-restaurant("Hildebrandgasse").
-restaurant("Längenfeldgasse/Flurschützstr").
-restaurant("Hetzgasse").
-restaurant("Sickenberggasse").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Gellertplatz").
+initlocation($p,"Gersthof").
+initlocation($p,"Spitalgasse/Währinger Straße").
+initlocation($p,"Simmering").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Friedrich-Engels-Platz").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Bahnsteggasse").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Aderklaaer Straße").
+restaurant("Am Heidjöchl").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Oberradlberg Bahnhof").

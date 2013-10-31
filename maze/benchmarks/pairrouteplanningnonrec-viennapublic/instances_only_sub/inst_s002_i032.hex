@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Hütteldorf").
-initlocation(1,"Keplerplatz").
-sequence(1,0, "Hütteldorf").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Göllersdorf Bahnhof").
 person(2).
-initlocation(2,"Seestadt").
-initlocation(2,"Perfektastraße").
-sequence(2,0, "Seestadt").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Schleinbach Bahnhof").
-restaurant("Enkplatz".
-restaurant("Josefstädter Straße").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Kritzendorf Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Münchendorf Bahnhof").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").

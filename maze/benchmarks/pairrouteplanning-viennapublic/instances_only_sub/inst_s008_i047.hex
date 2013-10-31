@@ -1,37 +1,36 @@
 person(1).
-initlocation(1,"Getzersdorf/Traisen Bahnhof").
-initlocation(1,"Stubentor").
-initlocation(1,"Wolfsthal Bahnhof").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Sierndorf Bahnhof").
-initlocation(1,"Donauspital").
-initlocation(1,"Herrengasse").
-initlocation(1,"Schweglerstraße").
-sequence(1,0, "Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Thaliastraße").
 person(2).
-initlocation(2,"Traismauer Bahnhof").
-initlocation(2,"Sitzenberg-Reidling Bahnhof").
-initlocation(2,"Kagraner Platz").
-initlocation(2,"Keplerplatz").
-initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
-initlocation(2,"Kledering Bahnhof").
-initlocation(2,"Ebreichsdorf Bahnhof").
-initlocation(2,"Unter Sankt Veit").
-sequence(2,0, "Traismauer Bahnhof").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Kettenbrückengasse").
-restaurant("Ober Sankt Veit".
-restaurant("Karlsplatz".
-restaurant("Ebreichsdorf Bahnhof".
-restaurant("Siebenhirten (NÖ.
-Haltestelle".
-restaurant("Stadtpark".
-restaurant("Aderklaaer Straße".
-restaurant("Rennweg".
-restaurant("Nußdorfer Straße").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Michelbeuern-AKH").
+initlocation($p,"Donauinsel").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Hirschstetten").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Münchendorf Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Kettenbrückengasse").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Seestadt").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Langenzersdorf Bahnhof").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Währinger Straße-Volksoper").
-initlocation(1,"Achau Bahnhof").
-initlocation(1,"Vorgartenstraße").
-initlocation(1,"Gasometer").
-sequence(1,0, "Währinger Straße-Volksoper").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Bad Vöslau Bahnhof").
 person(2).
-initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(2,"Bad Vöslau Bahnhof").
-initlocation(2,"Hirschstetten").
-initlocation(2,"Alterlaa").
-sequence(2,0, "Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-restaurant("Felixdorf Bahnhof".
-restaurant("Langenlebarn Bahnhof".
-restaurant("Regelsbrunn Bahnhof".
-restaurant("Neusiedl am See Bahnhof").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Neue Donau").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Platt Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+restaurant("Friedensbrücke").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Petronell-Carnuntum Bahnhof").

@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Gasometer").
-initlocation(1,"Stephansplatz").
-initlocation(1,"Neusiedl am See Bahnhof").
-initlocation(1,"Paasdorf Bahnhof").
-initlocation(1,"Leopoldau").
-initlocation(1,"Praterkai").
-sequence(1,0, "Rennbahnweg").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Weigelsdorf Bahnhof").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Ottakring").
+initlocation($p,"Breitenwaida Bahnhof").
 person(2).
-initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Zellerndorf Bahnhof").
-initlocation(2,"Geiselbergstraße").
-initlocation(2,"Kapellerfeld Bahnhof").
-initlocation(2,"Hennersdorf Bahnhof").
-initlocation(2,"Wr Neustadt Nord").
-sequence(2,0, "Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Rathaus").
-restaurant("Wr Neustadt Civitas Nova".
-restaurant("Kapellerfeld Bahnhof".
-restaurant("Stadtpark".
-restaurant("Silberwald Bahnhof".
-restaurant("Leobendorf-Burg Kreuzenstn Bf".
-restaurant("Siebenhirten (NÖ.
-Haltestelle".
-restaurant("Haslau an der Donau Bahnhof").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Lobau").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Grillgasse").
+initlocation($p,"Gumpendorfer Straße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Simmering").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Heiligenstadt").
+restaurant("Götzendorf Bahnhof").
+restaurant("Unterpurkersdorf Bahnhof").

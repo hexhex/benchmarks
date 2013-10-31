@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Karlsplatz").
-initlocation(1,"Weidlingau Bahnhof").
-initlocation(1,"Weigelsdorf Bahnhof").
-initlocation(1,"Mistelbach Bahnhof").
-sequence(1,0, "Oberradlberg Bahnhof").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Praterstern").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Göllersdorf Bahnhof").
 person(2).
-initlocation(2,"Krottenbachstraße").
-initlocation(2,"Tscherttegasse").
-initlocation(2,"Volkstheater").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Schönbrunn").
-sequence(2,0, "Krottenbachstraße").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Sollenau Bahnhof").
-restaurant("Schottenring".
-restaurant("Rekawinkel Bahnhof".
-restaurant("Silberwald Bahnhof".
-restaurant("Quartier Belvedere".
-restaurant("Ober Sankt Veit").
+initlocation($p,"Wr Neustadt Nord").
+initlocation($p,"Herrengasse").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Wr Neustadt Nord").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Haidestraße").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Sierndorf Bahnhof").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Museumsquartier").
+restaurant("Josefstädter Straße").

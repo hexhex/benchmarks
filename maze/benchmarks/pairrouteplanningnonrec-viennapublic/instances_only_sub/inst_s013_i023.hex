@@ -1,56 +1,56 @@
 person(1).
-initlocation(1,"Tscherttegasse").
-initlocation(1,"Guntersdorf Bahnhof").
-initlocation(1,"Blumental").
-initlocation(1,"Hetzendorf").
-initlocation(1,"Niederhofstraße").
-initlocation(1,"Moosbierbaum-Heiligeneich Bf").
-initlocation(1,"Breitenwaida Bahnhof").
-initlocation(1,"Am Schöpfwerk").
-initlocation(1,"Penzing").
-initlocation(1,"Parndorf Ort Bahnhof").
-initlocation(1,"Zellerndorf Bahnhof").
-initlocation(1,"Gersthof").
-initlocation(1,"Donauinsel").
-sequence(1,0, "Tscherttegasse").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Donaumarina").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Kagran").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Schwedenplatz").
 person(2).
-initlocation(2,"Zentralfriedhof").
-initlocation(2,"Messe-Prater").
-initlocation(2,"Schwechat Bahnhof").
-initlocation(2,"Sankt Marx").
-initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(2,"Simmering").
-initlocation(2,"Weidlingau Bahnhof").
-initlocation(2,"Tullnerfeld Bahnhof").
-initlocation(2,"Ebenfurth Bahnhof").
-initlocation(2,"Getzersdorf/Traisen Bahnhof").
-initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(2,"Sollenau Bahnhof").
-initlocation(2,"Aderklaaer Straße").
-sequence(2,0, "Zentralfriedhof").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Hardeggasse").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Volkstheater").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Großfeldsiedlung").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Praterkai").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Herzogenburg Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
 possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-restaurant("Dresdner Straße".
-restaurant("Preyergasse/Speising".
-restaurant("Unter Sankt Veit".
-restaurant("Donauinsel".
-restaurant("Aderklaaer Straße".
-restaurant("Langenzersdorf Bahnhof".
-restaurant("Friedensbrücke".
-restaurant("Hetzendorf".
-restaurant("Seestadt".
-restaurant("Laa an der Thaya Bahnhof".
-restaurant("Zieglergasse".
-restaurant("Hütteldorf".
-restaurant("Kendlerstraße").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Dresdner Straße").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Neulengbach Bahnhof").
+restaurant("Hütteldorf").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Kaisermühlen-VIC").
+restaurant("Hütteldorfer Straße").
+restaurant("Hausfeldstraße").

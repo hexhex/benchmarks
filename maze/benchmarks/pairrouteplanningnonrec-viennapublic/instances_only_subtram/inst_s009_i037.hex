@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Brünner Straße/Hanreitergasse").
-initlocation(1,"Nordbahnstraße").
-initlocation(1,"Bad Vöslau Bahnhof").
-initlocation(1,"Teichgasse").
-initlocation(1,"Perchtoldsdorf Bahnhof").
-initlocation(1,"Westbahnhof").
-initlocation(1,"Pottendorf-Landegg Bahnhof").
-initlocation(1,"Rauscherstraße").
-initlocation(1,"Hardtgasse").
-sequence(1,0, "Brünner Straße/Hanreitergasse").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Thaliastraße/Brunnengasse").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Haidestraße").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Gutraterplatz").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Klosterneuburg-Weidling Bf").
 person(2).
-initlocation(2,"Dresdner Straße").
-initlocation(2,"Perfektastraße").
-initlocation(2,"Hauptbahnhof Ost").
-initlocation(2,"Messe-Prater").
-initlocation(2,"Eichenstraße").
-initlocation(2,"Gerasdorf Bahnhof").
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Zippererstraße").
-initlocation(2,"Bad Vöslau Bahnhof").
-sequence(2,0, "Dresdner Straße").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Brünnlbadgasse").
-possiblemeetinglocations("Laudongasse").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Fasangasse").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Glatzgasse").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Stammersdorf").
-restaurant("Grillgasse").
-restaurant("Siemensstraße").
-restaurant("Unteres Belvedere").
-restaurant("Mistelbach Bahnhof").
-restaurant("Korneuburg Bahnhof").
-restaurant("Traismauer Bahnhof").
-restaurant("Hautzendorf Bahnhof").
+initlocation($p,"Ungargasse/Neulinggasse").
+initlocation($p,"Lederergasse").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Seestadt").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Liechtenwerder Platz").
+initlocation($p,"Barawitzkagasse").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Ungargasse/Neulinggasse").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Himmelmutterweg").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Scheibenbergstraße").
+restaurant("Erlaaer Straße").
+restaurant("Schwechat Bahnhof").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Kleistgasse").

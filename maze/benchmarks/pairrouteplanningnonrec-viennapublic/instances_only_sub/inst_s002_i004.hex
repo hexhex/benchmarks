@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Retz Bahnhof").
-initlocation(1,"Kaisermühlen-VIC").
-sequence(1,0, "Retz Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Quartier Belvedere").
 person(2).
-initlocation(2,"Zieglergasse").
-initlocation(2,"Spillern Bahnhof").
-sequence(2,0, "Zieglergasse").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-restaurant("Stockerau Bahnhof".
-restaurant("Jedlersdorf").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+restaurant("Stockerau Bahnhof").
+restaurant("Museumsquartier").

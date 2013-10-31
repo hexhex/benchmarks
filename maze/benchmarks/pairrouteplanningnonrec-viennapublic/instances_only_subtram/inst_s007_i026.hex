@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Floridsdorf").
-initlocation(1,"Arthaberplatz").
-initlocation(1,"Obere Augartenstraße").
-initlocation(1,"Leyserstraße").
-initlocation(1,"Pötzleinsdorf").
-initlocation(1,"Rankgasse").
-initlocation(1,"Herrengasse").
-sequence(1,0, "Floridsdorf").
+initlocation($p,"Schmerlingplatz").
+initlocation($p,"Beingasse").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Kranzgasse").
+initlocation($p,"Hoßplatz").
+initlocation($p,"Gredlerstraße").
+initlocation($p,"Altes Landgut").
+initlocation($p,"Schmerlingplatz").
 person(2).
-initlocation(2,"Ebreichsdorf Bahnhof").
-initlocation(2,"Baumgasse").
-initlocation(2,"Eichenstraße").
-initlocation(2,"Eckpergasse").
-initlocation(2,"Enkplatz").
-initlocation(2,"Radetzkyplatz").
-initlocation(2,"Jedlersdorf").
-sequence(2,0, "Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Langobardenstraße/Kapellenweg").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Gerstnerstraße/Westbhf").
-possiblemeetinglocations("Maurer Lange Gasse").
-possiblemeetinglocations("Molitorgasse").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Thaliastraße").
-restaurant("Koppstraße/Panikengasse").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Stephansplatz").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Sillerplatz").
-restaurant("Kaiserstraße/Burggasse").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Siebensterngasse").
+initlocation($p,"Anschützgasse").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Lange Gasse").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Gasometer").
+restaurant("Döblinger Bad").
+restaurant("Wallrißstraße").
+restaurant("Volkstheater").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Breitensee").

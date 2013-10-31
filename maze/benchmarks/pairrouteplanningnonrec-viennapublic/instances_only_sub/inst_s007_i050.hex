@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Gumpendorfer Straße").
-initlocation(1,"Traisengasse").
-initlocation(1,"Jedlersdorf").
-initlocation(1,"Langenlebarn Bahnhof").
-initlocation(1,"Handelskai").
-initlocation(1,"Himberg Bahnhof").
-initlocation(1,"Atzgersdorf").
-sequence(1,0, "Gumpendorfer Straße").
+initlocation($p,"Hietzing").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Donauspital").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Hietzing").
 person(2).
-initlocation(2,"Sarasdorf Bahnhof").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Unterradlberg Bahnhof").
-initlocation(2,"Neubau-Kreuzstetten Bahnhof").
-initlocation(2,"Praterkai").
-initlocation(2,"Kapellerfeld Bahnhof").
-initlocation(2,"Kagran").
-sequence(2,0, "Sarasdorf Bahnhof").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-restaurant("Trautmannsdorf/Leitha Bf".
-restaurant("Josefstädter Straße".
-restaurant("Ottakring".
-restaurant("Weidlingau Bahnhof".
-restaurant("Gaisruck Bahnhof".
-restaurant("Jägerstraße".
-restaurant("Deutsch-Wagram Bahnhof").
+initlocation($p,"Krieau").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Seestadt").
+initlocation($p,"Vorgartenstraße").
+initlocation($p,"Krieau").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+restaurant("Felixdorf Bahnhof").
+restaurant("Stadlau").
+restaurant("Alser Straße").
+restaurant("Handelskai").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Langenlebarn Bahnhof").

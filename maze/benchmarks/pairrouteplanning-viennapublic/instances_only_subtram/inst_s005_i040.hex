@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Kutschkergasse").
-initlocation(1,"Neulerchenfelder Str/Haberlg").
-initlocation(1,"Purkersdorf Sanatorium").
-initlocation(1,"Absdorf-Hippersdorf Bahnhof").
-initlocation(1,"Innstraße").
-sequence(1,0, "Kutschkergasse").
+initlocation($p,"Plößlgasse").
+initlocation($p,"Breitenfurter Str/Liesingbr").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Erndtgasse").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Plößlgasse").
 person(2).
-initlocation(2,"Beingasse").
-initlocation(2,"Kaiserstraße/Westbahnstraße").
-initlocation(2,"Krottenbachstraße").
-initlocation(2,"Frödenplatz").
-initlocation(2,"Hütteldorfer Str/Hochsatzeng").
-sequence(2,0, "Beingasse").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Rampengasse").
-possiblemeetinglocations("Versorgungsheimplatz").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
-restaurant("Hauptbahnhof Ost").
-restaurant("Konstanziagasse").
-restaurant("Schloss Hetzendorf").
-restaurant("Seegasse").
-restaurant("Obere Augartenstraße").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Blindengasse").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Eichenstraße").
+initlocation($p,"Münchendorf Bahnhof").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+restaurant("Kaiserstraße").
+restaurant("Mayerhofgasse").
+restaurant("Herrengasse").
+restaurant("Schleinbach Bahnhof").
+restaurant("Hintere Zollamtsstraße").

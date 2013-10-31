@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Petronell-Carnuntum Bahnhof").
-initlocation(1,"Wr Neustadt Hauptbahnhof").
-initlocation(1,"Neuwaldegg").
-initlocation(1,"Reinlgasse/Märzstraße").
-initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(1,"Neubaugasse/Westbahnstraße").
-initlocation(1,"Maurer Hauptplatz").
-initlocation(1,"Haidestraße").
-initlocation(1,"Am Spitz").
-sequence(1,0, "Petronell-Carnuntum Bahnhof").
+initlocation($p,"Am Heumarkt").
+initlocation($p,"Neue Donau").
+initlocation($p,"Wexstraße").
+initlocation($p,"Franzensbrücke").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Linzer Straße/Reinlgasse").
+initlocation($p,"Paulanergasse").
+initlocation($p,"Am Heumarkt").
 person(2).
-initlocation(2,"Mariahilfer Gürtel").
-initlocation(2,"Grinzing").
-initlocation(2,"Stephansplatz").
-initlocation(2,"Neulengbach Bahnhof").
-initlocation(2,"Ottakringer Str/Erdbrustgasse").
-initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
-initlocation(2,"Landesgerichtsstraße").
-initlocation(2,"Gaußplatz").
-initlocation(2,"Am Heumarkt").
-sequence(2,0, "Mariahilfer Gürtel").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Trondheimgasse").
-possiblemeetinglocations("Weißenböckstraße").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Barawitzkagasse").
-possiblemeetinglocations("Eckpergasse").
-possiblemeetinglocations("Herrengasse").
-restaurant("Langobardenstraße").
-restaurant("Dürrwien Bahnhof").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Leyserstraße").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Blechturmgasse").
-restaurant("Landesgerichtsstraße").
-restaurant("Paulanergasse").
-restaurant("Währinger Straße-Volksoper").
+initlocation($p,"Taborstraße/Heinestraße").
+initlocation($p,"Donaustadtstraße").
+initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation($p,"Gruschaplatz").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Polgarstraße").
+initlocation($p,"Margaretengürtel/Arbeitergasse").
+initlocation($p,"Grillgasse").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Taborstraße/Heinestraße").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+restaurant("Strozzigasse").
+restaurant("Tscherttegasse").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Pokornygasse").
+restaurant("Margaretengürtel").
+restaurant("Brünnlbadgasse").
+restaurant("Bahnhof Meidling").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Strasshof Bahnhof").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Getzersdorf/Traisen Bahnhof").
-initlocation(1,"Neilreichgasse").
-sequence(1,0, "Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Resselgasse").
+initlocation($p,"Marx-Meidlinger-Straße").
+initlocation($p,"Resselgasse").
 person(2).
-initlocation(2,"Neulerchenfelder Str/Haberlg").
-initlocation(2,"Zippererstraße").
-sequence(2,0, "Neulerchenfelder Str/Haberlg").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Urban-Loritz-Platz").
+initlocation($p,"Börsegasse/Wipplingerstraße").
+initlocation($p,"Josef-Baumann-Gasse").
+initlocation($p,"Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Molitorgasse").
+restaurant("Vinzenzgasse").
+restaurant("Wildungsmauer Bahnhof").

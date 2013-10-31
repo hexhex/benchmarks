@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Josefstädter Straße").
-initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(1,"Seyring Bahnhof").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Höbersdorf Bahnhof").
-initlocation(1,"Untertullnerbach Bahnhof").
-sequence(1,0, "Josefstädter Straße").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Donauspital").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Taborstraße").
+initlocation($p,"Jedlersdorf").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
 person(2).
-initlocation(2,"Mannswörth Bahnhof").
-initlocation(2,"Herrengasse").
-initlocation(2,"Weidlingau Bahnhof").
-initlocation(2,"Franz-Josefs-Bahnhof").
-initlocation(2,"Felixdorf Bahnhof").
-initlocation(2,"Purkersdorf Zentrum Bahnhof").
-initlocation(2,"Jedlersdorf").
-sequence(2,0, "Mannswörth Bahnhof").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Am Schöpfwerk").
-restaurant("Volkstheater".
-restaurant("Spittelau".
-restaurant("Grillgasse".
-restaurant("Moosbierbaum-Heiligeneich Bf".
-restaurant("Münchendorf Bahnhof".
-restaurant("Donaumarina".
-restaurant("Johnstraße").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Alte Donau").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Haidestraße").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Seyring Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Liesing").
+restaurant("Zentralfriedhof").
+restaurant("Schleinbach Bahnhof").

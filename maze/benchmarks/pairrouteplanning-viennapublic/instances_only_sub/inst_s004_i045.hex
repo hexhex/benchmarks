@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Hütteldorfer Straße").
-initlocation(1,"Weidlingau Bahnhof").
-initlocation(1,"Höflein an der Donau Bahnhof").
-initlocation(1,"Stephansplatz").
-sequence(1,0, "Hütteldorfer Straße").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Schottentor").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Unter Sankt Veit").
 person(2).
-initlocation(2,"Haidestraße").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"Bruck/Leitha Bahnhof").
-initlocation(2,"Alterlaa").
-sequence(2,0, "Haidestraße").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-restaurant("Schottentor".
-restaurant("Kendlerstraße".
-restaurant("Bruck/Leitha Bahnhof".
-restaurant("Ulrichskirchen Bahnhof").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Johnstraße").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+restaurant("Mistelbach Stadt").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Gersthof").
+restaurant("Stubentor").

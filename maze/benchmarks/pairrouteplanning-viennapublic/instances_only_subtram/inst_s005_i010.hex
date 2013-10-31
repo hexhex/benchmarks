@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Oberfeldgasse").
-initlocation(1,"Klosterneub Str/Wallensteinstr").
-initlocation(1,"Ladendorf Bahnhof").
-initlocation(1,"Nußdorf").
-initlocation(1,"Hernalser Hauptstr/Wattgasse").
-sequence(1,0, "Oberfeldgasse").
+initlocation($p,"Saikogasse").
+initlocation($p,"Halteraugasse").
+initlocation($p,"Gusenleithnergasse").
+initlocation($p,"Floridsdorfer Brücke").
+initlocation($p,"Spitalgasse/Währinger Straße").
+initlocation($p,"Saikogasse").
 person(2).
-initlocation(2,"Pfaffstätten Bahnhof").
-initlocation(2,"Maria Ellend Bahnhof").
-initlocation(2,"Hubertusdamm").
-initlocation(2,"Anschützgasse").
-initlocation(2,"Gemeinlebarn Bahnhof").
-sequence(2,0, "Pfaffstätten Bahnhof").
-possiblemeetinglocations("Frödenplatz").
-possiblemeetinglocations("Schlickgasse").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Hofwiesengasse").
-possiblemeetinglocations("Kraygasse").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Kagran").
-restaurant("Lerchenfelder Straße").
-restaurant("Jägerstraße").
-restaurant("Kledering Bahnhof").
+initlocation($p,"Fickeysstraße").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Halteraugasse").
+initlocation($p,"Rankgasse").
+initlocation($p,"Hintere Zollamtsstraße").
+initlocation($p,"Fickeysstraße").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Siemensstraße").
+restaurant("Aspernstraße").
+restaurant("Stockerau Bahnhof").
+restaurant("Helmahof Bahnhof").

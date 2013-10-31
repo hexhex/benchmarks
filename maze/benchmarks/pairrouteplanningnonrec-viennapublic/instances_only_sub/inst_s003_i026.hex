@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Pressbaum Bahnhof").
-initlocation(1,"Landstraße-Wien Mitte").
-initlocation(1,"Strasshof Bahnhof").
-sequence(1,0, "Pressbaum Bahnhof").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Krieau").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
 person(2).
-initlocation(2,"Perchtoldsdorf Bahnhof").
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Oberradlberg Bahnhof").
-sequence(2,0, "Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Paasdorf Bahnhof").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Schottentor").
-restaurant("Baden Bahnhof".
-restaurant("Siebenhirten".
-restaurant("Lobau").
+initlocation($p,"Mannswörth Bahnhof").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Mannswörth Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Keplerplatz").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Oberdöbling").

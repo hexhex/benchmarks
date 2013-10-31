@@ -1,45 +1,44 @@
 person(1).
-initlocation(1,"Karlsplatz").
-initlocation(1,"Paulanergasse").
-initlocation(1,"Dresdner Straße").
-initlocation(1,"Altes Landgut").
-initlocation(1,"Shuttleworthstraße").
-initlocation(1,"Gersthofer Str/Scheibenbergstr").
-initlocation(1,"Heiligenstadt, 12-Februar-Pl").
-initlocation(1,"Schlickgasse").
-initlocation(1,"Absdorf-Hippersdorf Bahnhof").
-initlocation(1,"Sarasdorf Bahnhof").
-sequence(1,0, "Karlsplatz").
+initlocation($p,"Nordwestbahnstraße").
+initlocation($p,"Herrengasse").
+initlocation($p,"Sieveringer Straße").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Nordbahnstraße").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Ameisgasse").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Nordwestbahnstraße").
 person(2).
-initlocation(2,"Wittelsbachstraße").
-initlocation(2,"Marx-Meidlinger-Straße").
-initlocation(2,"Schweglerstraße").
-initlocation(2,"Untertullnerbach Bahnhof").
-initlocation(2,"Trautmannsdorf/Leitha Bf").
-initlocation(2,"Obersdorf Bahnhof").
-initlocation(2,"Palffygasse").
-initlocation(2,"Türkenschanzplatz").
-initlocation(2,"Eckpergasse").
-initlocation(2,"Rosensteingasse").
-sequence(2,0, "Wittelsbachstraße").
-possiblemeetinglocations("Lazarettgasse").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Elterleinplatz").
-possiblemeetinglocations("Innstraße").
-possiblemeetinglocations("Blindengasse").
-possiblemeetinglocations("Sonnergasse").
-possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Sommarugagasse").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-restaurant("Perfektastraße").
-restaurant("Herzogenburg Stadt").
-restaurant("Sonnergasse").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Zentralfriedhof 4Tor").
-restaurant("Siebenhirten (NÖ).
-Haltestelle").
-restaurant("Gusenleithnergasse").
-restaurant("Empergergasse").
-restaurant("Zentralfriedhof 2Tor").
-restaurant("Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Laudongasse").
+initlocation($p,"Penzinger Straße").
+initlocation($p,"Sillerplatz").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Kagraner Brücke").
+initlocation($p,"Knöllgasse/Troststraße").
+initlocation($p,"Pokornygasse").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Knöllgasse/Davidgasse").
+initlocation($p,"Penzing").
+initlocation($p,"Laudongasse").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Bisamberg Bahnhof").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Wienerfeldgasse").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Laaer-Berg-Straße").
+restaurant("Hirschstetten").
+restaurant("Schottenfeldgasse").
+restaurant("Albertgasse").
+restaurant("Silberwald Bahnhof").
+restaurant("Obersdorf Bahnhof").

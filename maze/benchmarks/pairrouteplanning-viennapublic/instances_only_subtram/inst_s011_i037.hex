@@ -1,49 +1,48 @@
 person(1).
-initlocation(1,"Frauengasse").
-initlocation(1,"Fasangasse").
-initlocation(1,"Hausfeldstraße").
-initlocation(1,"Türkenschanzplatz").
-initlocation(1,"Haidestraße").
-initlocation(1,"Bahnhof Meidling").
-initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
-initlocation(1,"Obersdorf Bahnhof").
-initlocation(1,"Seegasse").
-initlocation(1,"Museumsquartier").
-initlocation(1,"Zeiselmauer-Königstetten Bf").
-sequence(1,0, "Frauengasse").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Schloss Hetzendorf").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Elterleinplatz").
+initlocation($p,"Alfred-Adler-Straße").
+initlocation($p,"Aumannplatz").
+initlocation($p,"Handelskai").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Sonnergasse").
+initlocation($p,"Gumpendorfer Straße").
 person(2).
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Hintere Zollamtsstraße").
-initlocation(2,"Yppengasse").
-initlocation(2,"Enzersdorf bei Staatz Bahnhof").
-initlocation(2,"Polgarstraße").
-initlocation(2,"Winckelmannstraße").
-initlocation(2,"Wienerbergbrücke").
-initlocation(2,"Kottingneusiedl Bahnhof").
-initlocation(2,"Brigittaplatz").
-initlocation(2,"Unter Kritzendorf Bahnhof").
-initlocation(2,"Rampengasse").
-sequence(2,0, "Flughafen Wien (VIE).
-possiblemeetinglocations("Hauptbahnhof Ost").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Lange Gasse").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Laurenzgasse").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Stephansplatz").
-restaurant("Plößlgasse").
-restaurant("Baumgarten").
-restaurant("Rosensteingasse").
-restaurant("Grinzinger Straße").
-restaurant("Nußdorf, Beethovengang").
-restaurant("Felixdorf Bahnhof").
-restaurant("Braunhubergasse").
-restaurant("Marienbrücke").
-restaurant("Paulanergasse").
-restaurant("Erdberg").
-restaurant("Carminweg").
+initlocation($p,"Kagraner Brücke").
+initlocation($p,"Schloss Belvedere").
+initlocation($p,"Kärntner Ring/Oper").
+initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation($p,"Lainz, Wolkersbergenstraße").
+initlocation($p,"Grinzinger Straße").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Paulanergasse").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Laudongasse").
+initlocation($p,"Hütteldorfer Str/Lützowgasse").
+initlocation($p,"Kagraner Brücke").
+possiblemeetinglocations("Siebensterngasse").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Teichgasse").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Carminweg").
+restaurant("Neulerchenfelder Str/Haberlg").
+restaurant("Türkenschanzplatz").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Prinzgasse").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Fultonstraße").
+restaurant("Mödling Bahnhof").
+restaurant("Trasdorf Bahnhof").
+restaurant("Skodagasse").
+restaurant("Geiselbergstraße").
+restaurant("Hintere Zollamtsstraße").

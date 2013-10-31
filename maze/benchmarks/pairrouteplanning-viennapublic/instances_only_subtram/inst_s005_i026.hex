@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Gumpoldskirchen Bahnhof").
-initlocation(1,"Kendlerstraße").
-initlocation(1,"Jedlersdorf").
-initlocation(1,"Rekawinkel Bahnhof").
-initlocation(1,"Liesing").
-sequence(1,0, "Gumpoldskirchen Bahnhof").
+initlocation($p,"Martinstraße").
+initlocation($p,"Langobardenstraße/Kapellenweg").
+initlocation($p,"Hütteldorfer Str/Hochsatzeng").
+initlocation($p,"Weinheimergasse").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Martinstraße").
 person(2).
-initlocation(2,"Wilhelminenstr/Sandleitengasse").
-initlocation(2,"Oberdöbling").
-initlocation(2,"Wienerbergbrücke").
-initlocation(2,"Hardeggasse").
-initlocation(2,"Gusenleithnergasse").
-sequence(2,0, "Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Höchstädtplatz").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Svetelskystraße").
-possiblemeetinglocations("Michelbeuern-AKH").
-restaurant("Hütteldorf").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Friedensbrücke").
-restaurant("Mödling Bahnhof").
-restaurant("Donaumarina").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Trondheimgasse").
+initlocation($p,"Weißenböckstraße").
+initlocation($p,"Grinzing").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Lobau").
+restaurant("Sillerplatz").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Empergergasse").
+restaurant("Viehmarktgasse").
+restaurant("Großjedlersdorf").

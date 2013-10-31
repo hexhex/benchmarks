@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Wr Neustadt Civitas Nova").
-initlocation(1,"Stadlau").
-initlocation(1,"Atzgersdorf").
-initlocation(1,"Siemensstraße").
-initlocation(1,"Ebenfurth Bahnhof").
-initlocation(1,"Gumpendorfer Straße").
-sequence(1,0, "Wr Neustadt Civitas Nova").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Michelbeuern-AKH").
+initlocation($p,"Lobau").
+initlocation($p,"Hofstatt Bahnhof").
 person(2).
-initlocation(2,"St Pölten Hauptbahnhof").
-initlocation(2,"Purkersdorf Zentrum Bahnhof").
-initlocation(2,"Traismauer Bahnhof").
-initlocation(2,"Schwechat Bahnhof").
-initlocation(2,"Sitzenberg-Reidling Bahnhof").
-initlocation(2,"Stadlau").
-sequence(2,0, "St Pölten Hauptbahnhof").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Josefstädter Straße").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
 possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Strebersdorf").
-restaurant("Felixdorf Bahnhof".
-restaurant("Moosbierbaum-Heiligeneich Bf".
-restaurant("Neubaugasse".
-restaurant("Pfaffstätten Bahnhof".
-restaurant("Schlachthausgasse".
-restaurant("Nestroyplatz").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+restaurant("Hausfeldstraße").
+restaurant("Tulln Bahnhof").
+restaurant("Dürrwien Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Sitzenberg-Reidling Bahnhof").

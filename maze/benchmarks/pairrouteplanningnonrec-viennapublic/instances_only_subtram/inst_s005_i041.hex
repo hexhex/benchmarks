@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Ulrichskirchen Bahnhof").
-initlocation(1,"Kaiserstraße").
-initlocation(1,"Seyring Bahnhof").
-initlocation(1,"Yppengasse").
-initlocation(1,"Thaliastraße").
-sequence(1,0, "Ulrichskirchen Bahnhof").
+initlocation($p,"Kranzgasse").
+initlocation($p,"Brünnlbadgasse").
+initlocation($p,"Fichtnergasse").
+initlocation($p,"Kliebergasse").
+initlocation($p,"Brigittaplatz").
+initlocation($p,"Kranzgasse").
 person(2).
-initlocation(2,"Quellenplatz").
-initlocation(2,"Neuwaldegg").
-initlocation(2,"Sollenau Bahnhof").
-initlocation(2,"Unter St Veit, Hummelgasse").
-initlocation(2,"Silberwald Bahnhof").
-sequence(2,0, "Quellenplatz").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Quellenplatz").
-possiblemeetinglocations("Plößlgasse").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-restaurant("Gumpendorfer Straße").
-restaurant("Gasometer").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Wr Neustadt Nord").
-restaurant("Kettenbrückengasse").
+initlocation($p,"Wallrißstraße").
+initlocation($p,"Siebensterngasse").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Winckelmannstraße").
+initlocation($p,"Wallrißstraße").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Grinzinger Straße").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Döblinger Bad").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Blumengasse").

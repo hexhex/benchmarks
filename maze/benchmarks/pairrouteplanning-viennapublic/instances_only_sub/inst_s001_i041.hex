@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Moosbierbaum-Heiligeneich Bf").
-sequence(1,0, "Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Taubstummengasse").
 person(2).
-initlocation(2,"Pfaffstätten Bahnhof").
-sequence(2,0, "Pfaffstätten Bahnhof").
-possiblemeetinglocations("Donaustadtbrücke").
-restaurant("Atzgersdorf").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Pfaffstätten Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+restaurant("Gemeinlebarn Bahnhof").

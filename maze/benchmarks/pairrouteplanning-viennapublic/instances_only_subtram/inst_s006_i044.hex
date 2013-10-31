@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Joachimsthalerplatz").
-initlocation(1,"Paasdorf Bahnhof").
-initlocation(1,"Gunoldstraße").
-initlocation(1,"Franz-Asenbauer-Gasse").
-initlocation(1,"Zeiselmauer-Königstetten Bf").
-initlocation(1,"Rathausplatz/Burgtheater").
-sequence(1,0, "Joachimsthalerplatz").
+initlocation($p,"Alaudagasse").
+initlocation($p,"Silberwald Bahnhof").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Gutraterplatz").
+initlocation($p,"Wexstraße").
+initlocation($p,"Quellenstraße/Favoritenstraße").
+initlocation($p,"Alaudagasse").
 person(2).
-initlocation(2,"Alser Straße").
-initlocation(2,"Teichgasse").
-initlocation(2,"Pokornygasse").
-initlocation(2,"Schleiergasse").
-initlocation(2,"Stiftgasse").
-initlocation(2,"Sitzenberg-Reidling Bahnhof").
-sequence(2,0, "Alser Straße").
-possiblemeetinglocations("Krankenhaus Hietzing").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Rauscherstraße").
-possiblemeetinglocations("Dornbacher Straße").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-restaurant("Schlickgasse").
-restaurant("Erzherzog-Karl-Straße").
-restaurant("Migerkastraße").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Mödling Bahnhof").
-restaurant("Baumgasse").
+initlocation($p,"Taborstraße").
+initlocation($p,"Yppengasse").
+initlocation($p,"Forstnergasse").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Taborstraße").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Yppengasse").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+restaurant("Hernalser Gürtel").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Mistelbach Stadt").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Stiftgasse").
+restaurant("Guneschgasse").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Koloniestraße").
-initlocation(1,"Braunhubergasse").
-initlocation(1,"Maurer Hauptplatz").
-initlocation(1,"Atzenbrugg Bahnhof").
-sequence(1,0, "Koloniestraße").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Herbeckstraße").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Sarasdorf Bahnhof").
 person(2).
-initlocation(2,"Kärntner Ring/Oper").
-initlocation(2,"Franz-Asenbauer-Gasse").
-initlocation(2,"Rathausplatz/Burgtheater").
-initlocation(2,"Oberolberndorf Bahnhof").
-sequence(2,0, "Kärntner Ring/Oper").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Kaiserstraße").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-possiblemeetinglocations("Floridsdorfer Brücke").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Rennbahnweg").
-restaurant("Längenfeldgasse/Flurschützstr").
-restaurant("Schwedenplatz").
+initlocation($p,"Heinrich-Drimmel-Platz").
+initlocation($p,"Thaliastraße/Haberlgasse").
+initlocation($p,"Koppstraße/Panikengasse").
+initlocation($p,"Rekawinkel Bahnhof").
+initlocation($p,"Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Koloniestraße").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Donauinsel").

@@ -1,66 +1,64 @@
 person(1).
-initlocation(1,"Forstnergasse").
-initlocation(1,"Gramatneusiedl Bahnhof").
-initlocation(1,"Bernhardtstalgasse").
-initlocation(1,"Strozzigasse").
-initlocation(1,"Gruschaplatz").
-initlocation(1,"Johnstraße").
-initlocation(1,"Leberberg").
-initlocation(1,"Johann-Nepomuk-Berger-Platz").
-initlocation(1,"Untereggendorf Bahnhof").
-initlocation(1,"Hofwiesengasse").
-initlocation(1,"Stockerau Bahnhof").
-initlocation(1,"Marienbrücke").
-initlocation(1,"Winkeläckerstraße").
-initlocation(1,"Franz-Asenbauer-Gasse").
-initlocation(1,"Schöffelgasse").
-sequence(1,0, "Forstnergasse").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
+initlocation($p,"Leberberg").
+initlocation($p,"Quellenstraße/Favoritenstraße").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Polgarstraße").
+initlocation($p,"Dommayergasse").
+initlocation($p,"Braunhubergasse").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Dornbacher Straße").
+initlocation($p,"Atzgersdorfer Straße").
+initlocation($p,"Shuttleworthstraße").
+initlocation($p,"Alterlaa").
+initlocation($p,"Paradisgasse").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
 person(2).
-initlocation(2,"Sechskrügelgasse").
-initlocation(2,"Gerhardusgasse").
-initlocation(2,"Brünner Straße/Hanreitergasse").
-initlocation(2,"Grinzing").
-initlocation(2,"Stollgasse").
-initlocation(2,"Thaliastraße/Feßtgasse").
-initlocation(2,"Perntergasse").
-initlocation(2,"Silbergasse").
-initlocation(2,"Beingasse").
-initlocation(2,"Antonigasse").
-initlocation(2,"Jagdschloßgasse").
-initlocation(2,"Schloss Schönbrunn").
-initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation(2,"Am Heumarkt").
-initlocation(2,"Breitensee").
-sequence(2,0, "Sechskrügelgasse").
-possiblemeetinglocations("Waidhausenstraße").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Ottakringer Straße/Wattgasse").
-possiblemeetinglocations("Rennbahnweg").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Sommarugagasse").
-possiblemeetinglocations("Silbergasse").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Unteres Belvedere").
-possiblemeetinglocations("Stollgasse").
-possiblemeetinglocations("Pokornygasse").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Retz Bahnhof").
-restaurant("Gaußplatz").
-restaurant("Florianigasse").
-restaurant("Purkersdorf Sanatorium").
+initlocation($p,"Roßauer Lände").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Koloniestraße").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Rebhanngasse").
+initlocation($p,"Spittelau").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Prinzgasse").
+initlocation($p,"Gaußplatz").
+initlocation($p,"Enkplatz").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Roßauer Lände").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Mühlfeldgasse").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Rodaun").
+restaurant("Lobau").
+restaurant("Trasdorf Bahnhof").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Schwechat Bahnhof").
+restaurant("Grillgasse").
+restaurant("Bösendorferstraße").
+restaurant("Seyring Bahnhof").
+restaurant("Zieglergasse").
 restaurant("Canisiusgasse").
-restaurant("Palffygasse").
-restaurant("Flughafen Wien (VIE).
-Bahnhof").
-restaurant("Breitenfurter St/Altmannsd Str").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Kaiserstraße/Burggasse").
-restaurant("Thaliastraße").
-restaurant("Gottschalkgasse/Enkplatz").
-restaurant("Simmering").
-restaurant("Koloniestraße").
+restaurant("Beingasse").
+restaurant("Westbahnhof").

@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Schleinbach Bahnhof").
-initlocation(1,"Wexstraße").
-initlocation(1,"Weinhauser Gasse").
-initlocation(1,"Sieveringer Straße").
-initlocation(1,"Seyring Bahnhof").
-initlocation(1,"Währinger Straße-Volksoper").
-initlocation(1,"Wenzgasse").
-initlocation(1,"Hauffgasse").
-sequence(1,0, "Schleinbach Bahnhof").
+initlocation($p,"Aumannplatz").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Auerspergstraße").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Braunhubergasse").
+initlocation($p,"Trondheimgasse").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Gasometer").
+initlocation($p,"Aumannplatz").
 person(2).
-initlocation(2,"Kottingbrunn Bahnhof").
-initlocation(2,"Grinzing").
-initlocation(2,"Wilhelminenstraße/Wattgasse").
-initlocation(2,"Ottakring").
-initlocation(2,"Zieglergasse").
-initlocation(2,"Vorgartenstraße").
-initlocation(2,"Erzherzog-Karl-Straße").
-initlocation(2,"Rustengasse").
-sequence(2,0, "Kottingbrunn Bahnhof").
-possiblemeetinglocations("Molitorgasse").
-possiblemeetinglocations("Lederergasse").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Schmerlingplatz").
-possiblemeetinglocations("Quellenstraße/Knöllgasse").
-possiblemeetinglocations("Höchstädtplatz").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Migerkastraße").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Grinzinger Straße").
-restaurant("Wallensteinplatz").
-restaurant("Sommarugagasse").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Gaisruck Bahnhof").
-restaurant("Plößlgasse").
-restaurant("Döblinger Hauptstr/Gatterburgg").
+initlocation($p,"Breitenfurter Str/Liesingbr").
+initlocation($p,"Johnstraße").
+initlocation($p,"Urban-Loritz-Platz").
+initlocation($p,"Liesing").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Kaiserstraße/Westbahnstraße").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Rosensteingasse").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Gaußplatz").
+possiblemeetinglocations("Wolf in der Au").
+restaurant("Autokaderstraße").
+restaurant("Hietzing").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Michelhausen Bahnhof").
+restaurant("Skodagasse").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Stadion").
+restaurant("Ottakringer Str/Erdbrustgasse").

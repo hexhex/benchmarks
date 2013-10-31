@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Mistelbach Bahnhof").
-initlocation(1,"Getzersdorf/Traisen Bahnhof").
-initlocation(1,"Wr Neustadt Civitas Nova").
-initlocation(1,"Längenfeldgasse").
-initlocation(1,"Linzer Straße/Johnstraße").
-initlocation(1,"Nestroyplatz").
-sequence(1,0, "Mistelbach Bahnhof").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Quellenplatz").
+initlocation($p,"Spitalgasse/Währinger Straße").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Thaliastraße/Maroltingergasse").
+initlocation($p,"Zentralfriedhof 3Tor").
 person(2).
-initlocation(2,"Weigelsdorf Bahnhof").
-initlocation(2,"Saikogasse").
-initlocation(2,"Windtenstraße").
-initlocation(2,"Burgring").
-initlocation(2,"Rußbergstraße").
-initlocation(2,"Hütteldorfer Str/Lützowgasse").
-sequence(2,0, "Weigelsdorf Bahnhof").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Redtenbachergasse").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Jägerstraße").
-restaurant("St Pölten Hauptbahnhof").
-restaurant("Beingasse").
-restaurant("Neue Donau").
-restaurant("Litfaßstraße").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Julius-Raab-Platz").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Döblinger Bad").
+initlocation($p,"Laurentiusplatz").
+initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation($p,"Krankenhaus Hietzing").
+initlocation($p,"Bauernfeldplatz").
+initlocation($p,"Unterradlberg Bahnhof").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Otto-Probst-Platz").
+possiblemeetinglocations("Althanstraße").
+restaurant("Atzgersdorf").
+restaurant("Obere Augartenstraße").
+restaurant("Dornbacher Straße").
+restaurant("Mödling Bahnhof").
+restaurant("Stadtpark").
+restaurant("Thaliastraße/Feßtgasse").

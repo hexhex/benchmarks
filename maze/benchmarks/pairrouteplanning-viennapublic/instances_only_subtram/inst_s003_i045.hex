@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Zentralfriedhof 1Tor").
-initlocation(1,"Weinhauser Gasse").
-initlocation(1,"Kagran").
-sequence(1,0, "Zentralfriedhof 1Tor").
+initlocation($p,"Thaliastraße/Haberlgasse").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Stadiongasse/Parlament").
+initlocation($p,"Thaliastraße/Haberlgasse").
 person(2).
-initlocation(2,"Braunschweiggasse").
-initlocation(2,"Am Tabor").
-initlocation(2,"Geiereckstraße").
-sequence(2,0, "Braunschweiggasse").
-possiblemeetinglocations("Schloss Belvedere").
-possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-restaurant("Lazarettgasse").
-restaurant("Leberberg").
-restaurant("Gerasdorf Bahnhof").
+initlocation($p,"Mühlfeldgasse").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Salztorbrücke").
+initlocation($p,"Mühlfeldgasse").
+possiblemeetinglocations("Waidhausenstraße").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Hernalser Gürtel").
+restaurant("Mayssengasse").
+restaurant("Schweglerstraße").
+restaurant("Hietzing").

@@ -1,64 +1,64 @@
 person(1).
-initlocation(1,"Schloss Hetzendorf").
-initlocation(1,"St Pölten Hauptbahnhof").
-initlocation(1,"Waidhausenstraße").
-initlocation(1,"Nußdorf").
-initlocation(1,"Göllersdorf Bahnhof").
-initlocation(1,"Knöllgasse/Davidgasse").
-initlocation(1,"Otto-Probst-Platz").
-initlocation(1,"Taborstraße").
-initlocation(1,"Joachimsthalerplatz").
-initlocation(1,"Brünner Straße").
-initlocation(1,"Polkorabplatz").
-initlocation(1,"Weinhauser Gasse").
-initlocation(1,"Satzberggasse").
-initlocation(1,"Staglgasse").
-initlocation(1,"Seegasse").
-sequence(1,0, "Schloss Hetzendorf").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Althanstraße").
+initlocation($p,"Wienerbergbrücke").
+initlocation($p,"Liechtenwerder Platz").
+initlocation($p,"Viehmarktgasse").
+initlocation($p,"Kaiserstraße/Neustiftgasse").
+initlocation($p,"Silberwald Bahnhof").
+initlocation($p,"Sierndorf Bahnhof").
+initlocation($p,"Türkenschanzplatz").
+initlocation($p,"Simonygasse").
+initlocation($p,"Stubentor").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Fischamend Bahnhof").
 person(2).
-initlocation(2,"Weinhauser Gasse").
-initlocation(2,"Redtenbachergasse").
-initlocation(2,"Hintere Zollamtsstraße").
-initlocation(2,"Weißenböckstraße").
-initlocation(2,"Josefstädter Straße").
-initlocation(2,"Gasometer").
-initlocation(2,"Börsegasse/Wipplingerstraße").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Leobersdorf Bahnhof").
-initlocation(2,"Herbeckstraße").
-initlocation(2,"Gutraterplatz").
-initlocation(2,"Dr-Karl-Renner-Ring").
-initlocation(2,"St Andrä-Wördern Bahnhof").
-initlocation(2,"Langobardenstraße/Kapellenweg").
-initlocation(2,"Perchtoldsdorf Bahnhof").
-sequence(2,0, "Weinhauser Gasse").
-possiblemeetinglocations("Strozzigasse").
-possiblemeetinglocations("Simonygasse").
-possiblemeetinglocations("Rosensteingasse").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Schwarzspanierstraße").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Hintere Zollamtsstraße").
+initlocation($p,"Brigittaplatz").
+initlocation($p,"Jagdschloßgasse").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Grinzing").
+initlocation($p,"Blumental").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Liebknechtgasse").
+initlocation($p,"Breitenfurter St/Altmannsd Str").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Wilhelminenstraße/Wattgasse").
+initlocation($p,"Polgarstraße").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Brigittaplatz").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
 possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Maurer Lange Gasse").
-possiblemeetinglocations("Wildgansplatz").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Josef-Baumann-Gasse").
-restaurant("Laaer-Berg-Straße").
-restaurant("Bahnhof Meidling/Eichenstraße").
-restaurant("Kendlerstraße").
-restaurant("Diesterweggasse").
-restaurant("Oberdöbling").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Simonygasse").
-restaurant("Rankgasse").
-restaurant("Handelskai").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Liebknechtgasse").
-restaurant("Anschützgasse").
-restaurant("Siemensstraße").
-restaurant("Bahnhofstraße").
-restaurant("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Shuttleworthstraße").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Am Heumarkt").
+restaurant("Geiselbergstraße").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Schönborn Bahnhof").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Otto-Probst-Platz").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Rustengasse").
+restaurant("Joachimsthalerplatz").
+restaurant("Neue Donau").
+restaurant("Staglgasse").
+restaurant("Vinzenzgasse").
+restaurant("Taborstraße").

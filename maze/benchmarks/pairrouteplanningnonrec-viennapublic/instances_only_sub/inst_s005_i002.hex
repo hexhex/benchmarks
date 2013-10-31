@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Sierndorf Bahnhof").
-initlocation(1,"Westbahnhof").
-initlocation(1,"Wildungsmauer Bahnhof").
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Neusiedl am See Bahnhof").
-sequence(1,0, "Sierndorf Bahnhof").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Haidestraße").
+initlocation($p,"Sankt Marx").
+initlocation($p,"Burggasse-Stadthalle").
 person(2).
-initlocation(2,"Gaisruck Bahnhof").
-initlocation(2,"Unteroberndorf Bahnhof").
-initlocation(2,"Bisamberg Bahnhof").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"Neubaugasse").
-sequence(2,0, "Gaisruck Bahnhof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Schönborn Bahnhof").
-restaurant("Museumsquartier".
-restaurant("Alte Donau".
-restaurant("Heiligenstadt".
-restaurant("Sollenau Bahnhof".
-restaurant("Reumannplatz").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Traisengasse").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Regelsbrunn Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Hernals").
+restaurant("Baden Bahnhof").
+restaurant("Liesing").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Unter Sankt Veit").

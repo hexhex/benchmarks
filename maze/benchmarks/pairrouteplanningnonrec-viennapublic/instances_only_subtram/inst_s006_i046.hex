@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Bruck/Leitha Bahnhof").
-initlocation(1,"Arminenstraße").
-initlocation(1,"Stadlau").
-initlocation(1,"Rebhanngasse").
-initlocation(1,"Stockholmer Platz").
-initlocation(1,"Schwechat Bahnhof").
-sequence(1,0, "Bruck/Leitha Bahnhof").
+initlocation($p,"Altes Landgut").
+initlocation($p,"Leyserstraße").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Hütteldorfer Str/Hochsatzeng").
+initlocation($p,"Thaliastraße/Brunnengasse").
+initlocation($p,"Haidestraße").
+initlocation($p,"Altes Landgut").
 person(2).
-initlocation(2,"Kledering Bahnhof").
-initlocation(2,"Roßauer Lände").
-initlocation(2,"Rustengasse").
-initlocation(2,"Ebenfurth Bahnhof").
-initlocation(2,"Leopoldau").
-initlocation(2,"Schlickgasse").
-sequence(2,0, "Kledering Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Riedelgasse").
-possiblemeetinglocations("Johannes-Krawarik-Gasse").
-possiblemeetinglocations("Wattmanngasse").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Lerchenfelder Straße").
-restaurant("Laaer-Berg-Straße").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Silbergasse").
-restaurant("Krottenbachstraße").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Carabelligasse").
+initlocation($p,"Arminenstraße").
+initlocation($p,"Gredlerstraße").
+initlocation($p,"Am Heidjöchl").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+restaurant("Yppengasse").
+restaurant("Dornbacher Straße").
+restaurant("Herbeckstraße").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Carminweg").
+restaurant("Kölblgasse").

@@ -1,64 +1,64 @@
 person(1).
-initlocation(1,"Palffygasse").
-initlocation(1,"Hubertusdamm").
-initlocation(1,"Schuhmeierplatz").
-initlocation(1,"Wilhelminenstr/Sandleitengasse").
-initlocation(1,"Haidestraße").
-initlocation(1,"Wienerfeldgasse").
-initlocation(1,"Rosenhügelstraße").
-initlocation(1,"Neubaugasse/Westbahnstraße").
-initlocation(1,"Herzogenburg Stadt").
-initlocation(1,"Perntergasse").
-initlocation(1,"Ebenfurth Bahnhof").
-initlocation(1,"Mannswörth Bahnhof").
-initlocation(1,"Urban-Loritz-Platz").
-initlocation(1,"Dornbacher Straße").
-initlocation(1,"Ameisgasse").
-sequence(1,0, "Palffygasse").
+initlocation($p,"Wienerfeldgasse").
+initlocation($p,"Aumannplatz").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Ottakring").
+initlocation($p,"Dommayergasse").
+initlocation($p,"Hohe Warte").
+initlocation($p,"Thaliastraße/Brunnengasse").
+initlocation($p,"Stadlau").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Oberzellergasse").
+initlocation($p,"Erdbergstr/Schlachthausgasse").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Otto-Probst-Straße").
+initlocation($p,"Wienerfeldgasse").
 person(2).
-initlocation(2,"Spillern Bahnhof").
-initlocation(2,"Kledering Bahnhof").
-initlocation(2,"Teichgasse").
-initlocation(2,"Wilhelminenstraße/Wattgasse").
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Stadiongasse/Parlament").
-initlocation(2,"Bahnsteggasse").
-initlocation(2,"Neulengbach Stadt Bahnhof").
-initlocation(2,"Mayssengasse").
-initlocation(2,"Baumgarten").
-initlocation(2,"Josefstädter Straße").
-initlocation(2,"Migerkastraße").
-initlocation(2,"Rathaus").
-initlocation(2,"Obersdorf Bahnhof").
-initlocation(2,"Ladendorf Bahnhof").
-sequence(2,0, "Spillern Bahnhof").
-possiblemeetinglocations("Oberfeldgasse").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Unteres Belvedere").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Brigittaplatz").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Halteraugasse").
-possiblemeetinglocations("Langobardenstraße/Kapellenweg").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Sommarugagasse").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Mühlfeldgasse").
-restaurant("Taubstummengasse").
-restaurant("Margaretengürtel/Arbeitergasse").
-restaurant("Haslau an der Donau Bahnhof").
-restaurant("Ottakring").
-restaurant("Erzherzog-Karl-Straße").
-restaurant("Taborstraße/Heinestraße").
-restaurant("Simonygasse").
-restaurant("Huglgasse").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Jagdschloßgasse").
-restaurant("Gersthofer Str/Scheibenbergstr").
-restaurant("Schleinbach Bahnhof").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Quellenstraße/Favoritenstraße").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Shuttleworthstraße").
+initlocation($p,"Radetzkyplatz").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Sierndorf Bahnhof").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Van-Swieten-Kaserne").
+initlocation($p,"Riedelgasse").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Zentralfriedhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+restaurant("Nestroyplatz").
+restaurant("Schloss Hetzendorf").
+restaurant("Waidhausenstraße").
+restaurant("Gloriettegasse").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Rampengasse").
+restaurant("Scheibenbergstraße").
+restaurant("Aspern Nord").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Pötzleinsdorf").
+restaurant("Purkersdorf Zentrum Bahnhof").
 restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Am Heumarkt").
-restaurant("Anschützgasse").
+restaurant("Elterleinplatz").
+restaurant("Guneschgasse").
+restaurant("Eichgraben-Altlengbach Bahnhof").

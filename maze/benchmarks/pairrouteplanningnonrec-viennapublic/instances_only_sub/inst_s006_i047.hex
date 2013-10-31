@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Perchtoldsdorf Bahnhof").
-initlocation(1,"Kaisermühlen-VIC").
-initlocation(1,"Bruck/Leitha Bahnhof").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Kagran").
-initlocation(1,"Hietzing").
-sequence(1,0, "Perchtoldsdorf Bahnhof").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Johnstraße").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Kagran").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Reumannplatz").
 person(2).
-initlocation(2,"Josefstädter Straße").
-initlocation(2,"Stadlau").
-initlocation(2,"Neubau-Kreuzstetten Bahnhof").
-initlocation(2,"Erdberg").
-initlocation(2,"Wr Neustadt Civitas Nova").
-initlocation(2,"Niederkreuzstetten Bahnhof").
-sequence(2,0, "Josefstädter Straße").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Mödling Bahnhof").
-restaurant("Hetzmannsdorf-Wullersdorf Bf".
-restaurant("Bad Vöslau Bahnhof".
-restaurant("Unter Sankt Veit".
-restaurant("Kendlerstraße".
-restaurant("Tullnerfeld Bahnhof".
-restaurant("Deutsch-Wagram Bahnhof").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Felixdorf Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Schottenring").
+restaurant("Götzendorf Bahnhof").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Staatz Bahnhof").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Keplerplatz").
+restaurant("Rekawinkel Bahnhof").

@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Baden Bahnhof").
-initlocation(1,"Johann-Nepomuk-Berger-Platz").
-initlocation(1,"Oberfeldgasse").
-initlocation(1,"Hubertusdamm").
-initlocation(1,"Sonnergasse").
-initlocation(1,"Mödling Bahnhof").
-sequence(1,0, "Baden Bahnhof").
+initlocation($p,"Brünnlbadgasse").
+initlocation($p,"Van-Swieten-Kaserne").
+initlocation($p,"Wienerbergbrücke").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation($p,"Brünnlbadgasse").
 person(2).
-initlocation(2,"Viehofen Bahnhof").
-initlocation(2,"Strebersdorf").
-initlocation(2,"Baden Bahnhof").
-initlocation(2,"Margaretengürtel/Arbeitergasse").
-initlocation(2,"Rauscherstraße").
-initlocation(2,"Hietzing").
-sequence(2,0, "Viehofen Bahnhof").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("Tesarekplatz").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Grinzinger Straße").
-restaurant("Blindengasse").
-restaurant("Haidestraße").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Joachimsthalerplatz").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Rochusgasse").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Skodagasse").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Landstraße-Wien Mitte").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Migerkastraße").
+restaurant("Weißenböckstraße").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Saikogasse").
+restaurant("Wienerbergbrücke").
+restaurant("Per-Albin-Hansson-Siedlung Ost").

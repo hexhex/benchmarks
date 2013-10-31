@@ -1,64 +1,64 @@
 person(1).
-initlocation(1,"Erdberg").
-initlocation(1,"Wienerbergbrücke").
-initlocation(1,"Konstanziagasse").
-initlocation(1,"Grinzinger Straße").
-initlocation(1,"Donaumarina").
-initlocation(1,"Spitalgasse/Währinger Straße").
-initlocation(1,"Altes Landgut").
-initlocation(1,"Laxenburger Straße/Troststraße").
-initlocation(1,"Strasshof Bahnhof").
-initlocation(1,"Carminweg").
-initlocation(1,"Karlsplatz").
-initlocation(1,"Obere Donaustraße").
-initlocation(1,"Frättingsdorf Bahnhof").
-initlocation(1,"Stiftgasse").
-initlocation(1,"Maurer Hauptplatz").
-sequence(1,0, "Erdberg").
+initlocation($p,"Pötzleinsdorf").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Rennweg").
+initlocation($p,"Prater, Hauptallee").
+initlocation($p,"Weihburggasse").
+initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Julius-Raab-Platz").
+initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation($p,"Am Heumarkt").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
+initlocation($p,"Vinzenzgasse").
+initlocation($p,"Neue Donau").
+initlocation($p,"Troststraße/Neilreichgasse").
+initlocation($p,"Pötzleinsdorf").
 person(2).
-initlocation(2,"Nestroyplatz").
-initlocation(2,"St Pölten Traisenpark P+R Nord").
-initlocation(2,"Großjedlersdorf").
-initlocation(2,"Guntramsdorf-Thallern").
-initlocation(2,"Thaliastraße").
-initlocation(2,"Am Heidjöchl").
-initlocation(2,"Oberfeldgasse/Spargelfeldstr").
-initlocation(2,"Wallensteinplatz").
-initlocation(2,"Gellertplatz").
-initlocation(2,"Ottakring").
-initlocation(2,"Fasangasse").
-initlocation(2,"Praterstern").
-initlocation(2,"Siebensterngasse").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Breitenwaida Bahnhof").
-sequence(2,0, "Nestroyplatz").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Hofwiesengasse").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Langobardenstraße/Kapellenweg").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Bauernfeldplatz").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Stollgasse").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-restaurant("Hernals").
-restaurant("Zippererstraße").
-restaurant("Perfektastraße").
-restaurant("Althanstraße").
-restaurant("Strozzigasse").
-restaurant("Rathausplatz/Burgtheater").
-restaurant("Thaliastraße").
-restaurant("Sonnergasse").
-restaurant("Braunschweiggasse").
-restaurant("Teichgasse").
-restaurant("Migerkastraße").
-restaurant("Paulanergasse").
-restaurant("Polkorabplatz").
-restaurant("Rathaus").
-restaurant("Ottakringer Str/Erdbrustgasse").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+initlocation($p,"Gaußplatz").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Paradisgasse").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"Rustengasse").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Litfaßstraße").
+initlocation($p,"Neue Donau").
+initlocation($p,"Nußdorf").
+initlocation($p,"Praterkai").
+initlocation($p,"Gersthofer Str/Scheibenbergstr").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Empergergasse").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Lazarettgasse").
+restaurant("Sahulkastraße").
+restaurant("Stiftgasse").
+restaurant("Unteres Belvedere").
+restaurant("Taborstraße").
+restaurant("Oberzellergasse").
+restaurant("Forstnergasse").
+restaurant("Rankgasse").
+restaurant("Erlaaer Straße").
+restaurant("Schweglerstraße").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Seestadt").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Westbahnhof").
+restaurant("Lerchenfelder Straße").

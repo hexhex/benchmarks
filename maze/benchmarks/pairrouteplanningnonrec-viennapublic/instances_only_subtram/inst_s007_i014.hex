@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Gewerbepark Stadlau Mitte").
-initlocation(1,"Kaiserstraße/Neustiftgasse").
-initlocation(1,"Wolkersdorf Bahnhof").
-initlocation(1,"Laxenburger Str/Gudrunstraße").
-initlocation(1,"Otto-Probst-Platz").
-initlocation(1,"Bad Vöslau Bahnhof").
-initlocation(1,"Pokornygasse").
-sequence(1,0, "Gewerbepark Stadlau Mitte").
+initlocation($p,"Neuwaldegg").
+initlocation($p,"Sickenberggasse").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Oberzellergasse").
+initlocation($p,"Wittelsbachstraße").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
+initlocation($p,"Neuwaldegg").
 person(2).
-initlocation(2,"Alfred-Adler-Straße").
-initlocation(2,"Wr Neustadt Civitas Nova").
-initlocation(2,"Pokornygasse").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Blechturmgasse").
-initlocation(2,"Guntersdorf Bahnhof").
-initlocation(2,"Leobersdorf Bahnhof").
-sequence(2,0, "Alfred-Adler-Straße").
-possiblemeetinglocations("Albertgasse").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Schloss Schönbrunn").
-restaurant("Kagraner Platz").
-restaurant("Unteroberndorf Bahnhof").
-restaurant("Stammersdorf").
-restaurant("Pressbaum Bahnhof").
-restaurant("Hernalser Hauptstr/Wattgasse").
-restaurant("Linzer Straße/Zehetnergasse").
-restaurant("Hofwiesengasse").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Oberzellergasse").
+initlocation($p,"Dr-Karl-Renner-Ring").
+initlocation($p,"Geiereckstraße").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Himmelmutterweg").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Baumgarten").
+restaurant("Rankgasse").
+restaurant("Hirschstetten").
+restaurant("Eckpergasse").
+restaurant("Vorgartenstraße").
+restaurant("Mannswörth Bahnhof").
+restaurant("Rosensteingasse").
+restaurant("Kettenbrückengasse").

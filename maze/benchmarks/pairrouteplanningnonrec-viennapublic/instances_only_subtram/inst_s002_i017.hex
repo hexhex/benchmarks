@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Absdorf-Hippersdorf Bahnhof").
-initlocation(1,"Anschützgasse").
-sequence(1,0, "Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Hauffgasse").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Hauffgasse").
 person(2).
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Saikogasse").
-sequence(2,0, "Hautzendorf Bahnhof").
-possiblemeetinglocations("Zentralfriedhof 4Tor").
-possiblemeetinglocations("Siebenhirten").
-restaurant("Waidhausenstraße").
-restaurant("Thaliastraße/Maroltingergasse").
+initlocation($p,"Türkenschanzplatz").
+initlocation($p,"Nußdorf").
+initlocation($p,"Türkenschanzplatz").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Gußhausstraße").
+restaurant("Grillgasse").
+restaurant("Fischamend Bahnhof").

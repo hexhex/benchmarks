@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Götzendorf Bahnhof").
-initlocation(1,"Michelhausen Bahnhof").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Hetzendorf").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Herzogenburg Bahnhof").
-initlocation(1,"Roßauer Lände").
-sequence(1,0, "Götzendorf Bahnhof").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Johnstraße").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Schlachthausgasse").
 person(2).
-initlocation(2,"St Andrä-Wördern Bahnhof").
-initlocation(2,"Zentralfriedhof").
-initlocation(2,"Untertullnerbach Bahnhof").
-initlocation(2,"Gumpoldskirchen Bahnhof").
-initlocation(2,"Klosterneuburg-Kierling Bf").
-initlocation(2,"Muckendorf-Wipfing Bahnhof").
-initlocation(2,"Aspern Nord").
-sequence(2,0, "St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-restaurant("Sierndorf Bahnhof".
-restaurant("Breitensee".
-restaurant("Siebenhirten (NÖ.
-Haltestelle".
-restaurant("Pfaffstätten Bahnhof".
-restaurant("St Andrä-Wördern Bahnhof".
-restaurant("Matzleinsdorfer Platz".
-restaurant("Blumental").
+initlocation($p,"Stadtpark").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Stadtpark").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Korneuburg Bahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Hietzing").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Erdberg").
+restaurant("Zieglergasse").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Sitzenberg-Reidling Bahnhof").

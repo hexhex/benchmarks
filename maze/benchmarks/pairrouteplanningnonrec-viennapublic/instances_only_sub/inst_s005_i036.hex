@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Aderklaaer Straße").
-initlocation(1,"Pilgramgasse").
-initlocation(1,"Erzherzog-Karl-Straße").
-initlocation(1,"Purkersdorf Sanatorium").
-initlocation(1,"Wolfsthal Bahnhof").
-sequence(1,0, "Aderklaaer Straße").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Hirschstetten").
 person(2).
-initlocation(2,"Klosterneuburg-Weidling Bf").
-initlocation(2,"Kettenbrückengasse").
-initlocation(2,"Am Schöpfwerk").
-initlocation(2,"Fischamend Bahnhof").
-initlocation(2,"Südtiroler Platz/Hauptbahnhof").
-sequence(2,0, "Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-restaurant("Michelhausen Bahnhof".
-restaurant("Parndorf Ort Bahnhof".
-restaurant("Rennbahnweg".
-restaurant("Wolkersdorf Bahnhof".
-restaurant("Gersthof").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Schottenring").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Stephansplatz").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Donaumarina").
+restaurant("Hofstatt Bahnhof").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Blumental").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Kagraner Platz").

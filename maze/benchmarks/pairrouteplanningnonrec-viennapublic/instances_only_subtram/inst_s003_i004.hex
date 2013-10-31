@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Koloniestraße").
-initlocation(1,"Leyserstraße").
-initlocation(1,"Rosensteingasse").
-sequence(1,0, "Koloniestraße").
+initlocation($p,"Hofwiesengasse").
+initlocation($p,"Großjedlersdorf").
+initlocation($p,"Praterstern").
+initlocation($p,"Hofwiesengasse").
 person(2).
-initlocation(2,"Hauffgasse").
-initlocation(2,"Neilreichgasse").
-initlocation(2,"Ober Sankt Veit").
-sequence(2,0, "Hauffgasse").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
-possiblemeetinglocations("Thaliastraße").
-restaurant("Kutschkergasse").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Am Heumarkt").
+initlocation($p,"Am Tabor").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Am Tabor").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Grinzing").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Börsegasse/Wipplingerstraße").

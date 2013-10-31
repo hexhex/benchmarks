@@ -1,49 +1,48 @@
 person(1).
-initlocation(1,"Stadtpark").
-initlocation(1,"Pilgramgasse").
-initlocation(1,"Parndorf Ort Bahnhof").
-initlocation(1,"Weigelsdorf Bahnhof").
-initlocation(1,"Nußdorfer Straße").
-initlocation(1,"Hütteldorf").
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-initlocation(1,"Erzherzog-Karl-Straße").
-initlocation(1,"Strebersdorf").
-initlocation(1,"Rochusgasse").
-initlocation(1,"Enkplatz").
-sequence(1,0, "Stadtpark").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Kagran").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Aspern Nord").
 person(2).
-initlocation(2,"Neulengbach Stadt Bahnhof").
-initlocation(2,"Unter Sankt Veit").
-initlocation(2,"Alser Straße").
-initlocation(2,"Schönbrunn").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Kendlerstraße").
-initlocation(2,"Platt Bahnhof").
-initlocation(2,"Enkplatz").
-initlocation(2,"Tullnerfeld Bahnhof").
-initlocation(2,"Trasdorf Bahnhof").
-initlocation(2,"Hietzing").
-sequence(2,0, "Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Hirschstetten").
-restaurant("Spittelau".
-restaurant("Siebenhirten".
-restaurant("Simmering".
-restaurant("Hautzendorf Bahnhof".
-restaurant("Hörersdorf Bahnhof".
-restaurant("Neulengbach Stadt Bahnhof".
-restaurant("Braunschweiggasse".
-restaurant("Längenfeldgasse".
-restaurant("Westbahnhof".
-restaurant("Ulrichskirchen Bahnhof".
-restaurant("Gersthof").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Kagran").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Friedensbrücke").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Kagraner Platz").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Schlachthausgasse").
+restaurant("Schwechat Bahnhof").
+restaurant("Donaustadtbrücke").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Unter Sankt Veit").
+restaurant("Siemensstraße").
+restaurant("Rochusgasse").
+restaurant("Taubstummengasse").

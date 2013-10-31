@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Schottenring").
-initlocation(1,"Gaisruck Bahnhof").
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Staatz Bahnhof").
-sequence(1,0, "Schottenring").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Gasometer").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Meidling Hauptstraße").
 person(2).
-initlocation(2,"Perchtoldsdorf Bahnhof").
-initlocation(2,"Strasshof Bahnhof").
-initlocation(2,"Hirschstetten").
-initlocation(2,"Maria Ellend Bahnhof").
-sequence(2,0, "Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-restaurant("Enkplatz".
-restaurant("Krieau".
-restaurant("Rennweg".
-restaurant("Spittelau").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Handelskai").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Braunschweiggasse").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Museumsquartier").
+restaurant("Messe-Prater").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Rekawinkel Bahnhof").

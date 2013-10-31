@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Stockerau Bahnhof").
-initlocation(1,"Leobersdorf Bahnhof").
-sequence(1,0, "Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Erdberg").
+initlocation($p,"Traisengasse").
+initlocation($p,"Stubentor").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Erdberg").
 person(2).
-initlocation(2,"Atzenbrugg Bahnhof").
-initlocation(2,"Stadion").
-initlocation(2,"Aspern Nord").
-initlocation(2,"Theresienfeld Bahnhof").
-sequence(2,0, "Atzenbrugg Bahnhof").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-restaurant("Regelsbrunn Bahnhof".
-restaurant("Am Schöpfwerk".
-restaurant("Unterpurkersdorf Bahnhof".
-restaurant("Ebenfurth Bahnhof").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Hernals").
+initlocation($p,"Rennweg").
+initlocation($p,"Museumsquartier").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Donauinsel").
+restaurant("Neulengbach Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Felixdorf Bahnhof").

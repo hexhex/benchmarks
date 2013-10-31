@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Kaiserstraße/Burggasse").
-sequence(1,0, "Kaiserstraße/Burggasse").
+initlocation($p,"Thaliastraße/Brunnengasse").
+initlocation($p,"Thaliastraße/Brunnengasse").
 person(2).
-initlocation(2,"Krieau").
-sequence(2,0, "Krieau").
-possiblemeetinglocations("Mühlfeldgasse").
-restaurant("Unterradlberg Bahnhof").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Perfektastraße").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").

@@ -1,57 +1,56 @@
 person(1).
-initlocation(1,"Nußdorf, Beethovengang").
-initlocation(1,"Gloriettegasse").
-initlocation(1,"Franz-Asenbauer-Gasse").
-initlocation(1,"Gredlerstraße").
-initlocation(1,"Kaiserstraße/Burggasse").
-initlocation(1,"Traismauer Bahnhof").
-initlocation(1,"Hermesstraße").
-initlocation(1,"Aspern Nord").
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Sollenau Bahnhof").
-initlocation(1,"Lobau").
-initlocation(1,"Brünnlbadgasse").
-initlocation(1,"Kleistgasse").
-sequence(1,0, "Nußdorf, Beethovengang").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Unter Kritzendorf Bahnhof").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Eichenstraße").
+initlocation($p,"Schuhmeierplatz").
+initlocation($p,"Simonygasse").
+initlocation($p,"Höchstädtplatz").
+initlocation($p,"Anton-Krieger-Gasse").
+initlocation($p,"Polgarstraße").
+initlocation($p,"Wienerbergbrücke").
+initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
 person(2).
-initlocation(2,"Weihburggasse").
-initlocation(2,"Gramatneusiedl Bahnhof").
-initlocation(2,"Türkenschanzplatz").
-initlocation(2,"Gersthofer Str/Scheibenbergstr").
-initlocation(2,"Oberradlberg Bahnhof").
-initlocation(2,"Langenzersdorf Bahnhof").
-initlocation(2,"Hauffgasse").
-initlocation(2,"Obersdorf Bahnhof").
-initlocation(2,"Teichgasse").
-initlocation(2,"Hubertusdamm").
-initlocation(2,"Kottingneusiedl Bahnhof").
-initlocation(2,"Sitzenberg-Reidling Bahnhof").
-initlocation(2,"Verbindungsbahn").
-sequence(2,0, "Weihburggasse").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Reinlgasse/Märzstraße").
-possiblemeetinglocations("Schwechat Bahnhof").
+initlocation($p,"Wallrißstraße").
+initlocation($p,"Breitenfurter St/Altmannsd Str").
+initlocation($p,"Polgarstraße").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Linzer Straße/Hochsatzengasse").
+initlocation($p,"Diesterweggasse").
+initlocation($p,"Schloss Schönbrunn").
+initlocation($p,"Lerchenfelder Straße").
+initlocation($p,"Obere Augartenstraße").
+initlocation($p,"Nußdorf, Beethovengang").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Laurentiusplatz").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Wallrißstraße").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Stammersdorf").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Waidhausenstraße").
+possiblemeetinglocations("Burggasse-Stadthalle").
 possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Schottenfeldgasse").
-possiblemeetinglocations("Jagdschloßgasse").
-possiblemeetinglocations("An den langen Lüssen").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Prinzgasse").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Gunoldstraße").
-restaurant("Brünner Straße/Hanreitergasse").
-restaurant("Quellenstraße/Knöllgasse").
-restaurant("Dornbach, Güpferlingstraße").
-restaurant("Innstraße").
-restaurant("Siebenhirten (NÖ).
-Haltestelle").
-restaurant("Neue Donau").
-restaurant("Althanstraße").
-restaurant("Prinzgasse").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Edmund-Hawranek-Platz").
-restaurant("Römergasse").
-restaurant("Bahnhof Meidling/Eichenstraße").
-restaurant("Himmelmutterweg").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Volkstheater").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Kaiserstraße/Burggasse").
+restaurant("Julius-Raab-Platz").
+restaurant("Gasometer").
+restaurant("Achau Bahnhof").
+restaurant("Quellenplatz").
+restaurant("Anton-Schall-Gasse").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Mistelbach Bahnhof").

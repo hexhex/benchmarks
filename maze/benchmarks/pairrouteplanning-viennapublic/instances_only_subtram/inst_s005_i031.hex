@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Praterstern").
-initlocation(1,"Bahnhofstraße").
-initlocation(1,"Strebersdorf").
-initlocation(1,"Schloss Hetzendorf").
-initlocation(1,"Kendlerstraße").
-sequence(1,0, "Praterstern").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Troststraße/Neilreichgasse").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Alterlaa").
+initlocation($p,"Kaisermühlen-VIC").
 person(2).
-initlocation(2,"Tesarekplatz").
-initlocation(2,"Thaliastraße/Brunnengasse").
-initlocation(2,"Hintere Zollamtsstraße").
-initlocation(2,"Konstanziagasse").
-initlocation(2,"Achau Bahnhof").
-sequence(2,0, "Tesarekplatz").
-possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Josefstädter Straße").
-restaurant("Guneschgasse").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Schuhmeierplatz").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Lerchenfelder Straße").
+initlocation($p,"Johann-Nepomuk-Berger-Platz").
+initlocation($p,"Krieau").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Wilhelminenstr/Sandleitengasse").
+initlocation($p,"Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Franzensbrücke").
+restaurant("Lobau").
+restaurant("Löwengasse").
+restaurant("Guntherstraße").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Gumpendorfer Straße").

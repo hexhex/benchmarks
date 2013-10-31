@@ -1,44 +1,44 @@
 person(1).
-initlocation(1,"Parndorf Ort Bahnhof").
-initlocation(1,"Lazarettgasse").
-initlocation(1,"Grinzinger Straße").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Südtiroler Platz/Hauptbahnhof").
-initlocation(1,"Gaußplatz").
-initlocation(1,"Leopoldau").
-initlocation(1,"Floridsdorf").
-initlocation(1,"Längenfeldgasse/Flurschützstr").
-initlocation(1,"Maurer Lange Gasse").
-sequence(1,0, "Parndorf Ort Bahnhof").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
+initlocation($p,"Donauspital").
+initlocation($p,"Liebknechtgasse").
+initlocation($p,"Aspern, Oberdorfstraße").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Koloniestraße").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Achau Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
 person(2).
-initlocation(2,"Elterleinplatz").
-initlocation(2,"Höchstädtplatz").
-initlocation(2,"Bisamberg Bahnhof").
-initlocation(2,"Kaiserstraße/Westbahnstraße").
-initlocation(2,"Süßenbrunn").
-initlocation(2,"Schloss Schönbrunn").
-initlocation(2,"Braunschweiggasse").
-initlocation(2,"Guntherstraße").
-initlocation(2,"Silberwald Bahnhof").
-initlocation(2,"Theresienfeld Bahnhof").
-sequence(2,0, "Elterleinplatz").
-possiblemeetinglocations("Elterleinplatz").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Kraygasse").
-possiblemeetinglocations("Canisiusgasse").
-possiblemeetinglocations("Palffygasse").
-possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
-possiblemeetinglocations("Rothneusiedl").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-restaurant("Handelskai").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Traisengasse").
-restaurant("Svetelskystraße").
-restaurant("Brünnlbadgasse").
-restaurant("Geiselbergstraße").
-restaurant("Gersthof").
-restaurant("Schönborn Bahnhof").
+initlocation($p,"Rebhanngasse").
+initlocation($p,"Gersthof").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Silberwald Bahnhof").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Absberggasse").
+initlocation($p,"Lobau").
+initlocation($p,"Sillerplatz").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Praterstern").
+initlocation($p,"Rebhanngasse").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Gaußplatz").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+possiblemeetinglocations("Wildgansplatz").
+restaurant("Perntergasse").
+restaurant("Wilhelminenstr/Sandleitengasse").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Carminweg").
+restaurant("Herbeckstraße").
+restaurant("Gloriettegasse").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Donauinsel").

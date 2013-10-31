@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Reumannplatz").
-sequence(1,0, "Reumannplatz").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Franz-Josefs-Bahnhof").
 person(2).
-initlocation(2,"Guntramsdorf-Thallern").
-sequence(2,0, "Guntramsdorf-Thallern").
-possiblemeetinglocations("Anschützgasse").
-restaurant("Kaiserebersdorf").
+initlocation($p,"Gottschalkgasse/Enkplatz").
+initlocation($p,"Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+restaurant("Himmelmutterweg").

@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Türkenschanzplatz").
-sequence(1,0, "Türkenschanzplatz").
+initlocation($p,"Hildebrandgasse").
+initlocation($p,"Hildebrandgasse").
 person(2).
-initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
-sequence(2,0, "Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Alser Straße").
-restaurant("Dornbach, Güpferlingstraße").
+initlocation($p,"Bahnhof Meidling/Eichenstraße").
+initlocation($p,"Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Aumannplatz").
+restaurant("Guneschgasse").

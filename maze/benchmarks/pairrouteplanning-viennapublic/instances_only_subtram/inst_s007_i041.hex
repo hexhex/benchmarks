@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Obere Augartenstraße").
-initlocation(1,"Bruck/Leitha Bahnhof").
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Schuhmeierplatz").
-initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation(1,"Zeiselmauer-Königstetten Bf").
-initlocation(1,"Höchstädtplatz").
-sequence(1,0, "Obere Augartenstraße").
+initlocation($p,"Troststraße/Neilreichgasse").
+initlocation($p,"Rustengasse").
+initlocation($p,"Lerchenfelder Straße").
+initlocation($p,"Weigelsdorf Bahnhof").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Alaudagasse").
+initlocation($p,"Troststraße/Neilreichgasse").
 person(2).
-initlocation(2,"Albertgasse").
-initlocation(2,"Felixdorf Bahnhof").
-initlocation(2,"Seestadt").
-initlocation(2,"Burgring").
-initlocation(2,"Schöffelgasse").
-initlocation(2,"Wexstraße").
-initlocation(2,"Polkorabplatz").
-sequence(2,0, "Albertgasse").
+initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
+initlocation($p,"Gellertplatz").
+initlocation($p,"Gottschalkgasse/Enkplatz").
+initlocation($p,"An den langen Lüssen").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Prinzgasse").
+initlocation($p,"Schottenfeldgasse").
+initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Weihburggasse").
 possiblemeetinglocations("Mühlfeldgasse").
-possiblemeetinglocations("Stollgasse").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Absberggasse").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("Gerstnerstraße/Westbhf").
-possiblemeetinglocations("Türkenschanzplatz").
-restaurant("Rußbergstraße").
-restaurant("Leberberg").
-restaurant("Achau Bahnhof").
-restaurant("Höchstädtplatz").
-restaurant("Döblinger Hauptstr/Gatterburgg").
-restaurant("Stubentor").
-restaurant("Großjedlersdorf").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+possiblemeetinglocations("Siebensterngasse").
+restaurant("Mayssengasse").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Karlsplatz").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Hofwiesengasse").
+restaurant("Viehmarktgasse").
+restaurant("Roßauer Lände").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Thaliastraße/Brunnengasse").
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Simmering").
-initlocation(1,"Linzer Straße/Hochsatzengasse").
-sequence(1,0, "Thaliastraße/Brunnengasse").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Seestadt").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Margaretengürtel").
 person(2).
-initlocation(2,"Stefan-Fadinger-Platz").
-initlocation(2,"Margaretengürtel").
-initlocation(2,"Stadlergasse").
-initlocation(2,"Carabelligasse").
-sequence(2,0, "Stefan-Fadinger-Platz").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Nußdorf, Beethovengang").
-restaurant("Enkplatz").
-restaurant("Süßenbrunn").
-restaurant("Retz Bahnhof").
-restaurant("Linzer Straße/Zehetnergasse").
+initlocation($p,"Taborstraße/Heinestraße").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Rodaun").
+initlocation($p,"Taborstraße/Heinestraße").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Schuhmeierplatz").
+restaurant("Molitorgasse").
+restaurant("Jagdschloßgasse").

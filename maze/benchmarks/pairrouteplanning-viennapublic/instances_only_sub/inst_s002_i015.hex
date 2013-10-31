@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Dresdner Straße").
-initlocation(1,"Niederhofstraße").
-sequence(1,0, "Dresdner Straße").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
 person(2).
-initlocation(2,"Stubentor").
-initlocation(2,"Stockerau Bahnhof").
-sequence(2,0, "Stubentor").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-restaurant("Bisamberg Bahnhof".
-restaurant("Keplerplatz").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Hütteldorfer Straße").

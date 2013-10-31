@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Herbeckstraße").
-initlocation(1,"Johannes-Krawarik-Gasse").
-initlocation(1,"Kölblgasse").
-initlocation(1,"Rankgasse").
-sequence(1,0, "Herbeckstraße").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Praterstern").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Schlachthausgasse").
 person(2).
-initlocation(2,"Thaliastraße").
-initlocation(2,"Riedelgasse").
-initlocation(2,"Laudongasse").
-initlocation(2,"Dornbacher Straße").
-sequence(2,0, "Thaliastraße").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Rankgasse").
-possiblemeetinglocations("Löwengasse").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Karmeliterplatz").
+initlocation($p,"Auerspergstraße").
+initlocation($p,"Am Schöpfwerk").
+initlocation($p,"Stubentor").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Auerspergstraße").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Fickeysstraße").
+restaurant("Polgarstraße").
+restaurant("Simmering").
 restaurant("Taborstraße").
-restaurant("Liesing").
-restaurant("Thaliastraße/Feßtgasse").
+restaurant("Hofstatt Bahnhof").

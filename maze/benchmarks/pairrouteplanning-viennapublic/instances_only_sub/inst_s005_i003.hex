@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Leobersdorf Bahnhof").
-initlocation(1,"Zieglergasse").
-initlocation(1,"Grillgasse").
-initlocation(1,"Achau Bahnhof").
-initlocation(1,"Matzleinsdorfer Platz").
-sequence(1,0, "Leobersdorf Bahnhof").
+initlocation($p,"Herrengasse").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Lobau").
+initlocation($p,"Herrengasse").
 person(2).
-initlocation(2,"Friedensbrücke").
-initlocation(2,"Untereggendorf Bahnhof").
-initlocation(2,"Ebenfurth Bahnhof").
-initlocation(2,"Stubentor").
-initlocation(2,"Zieglergasse").
-sequence(2,0, "Friedensbrücke").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-possiblemeetinglocations("Breitensee").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Leopoldau").
+initlocation($p,"Vorgartenstraße").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Zippererstraße").
 possiblemeetinglocations("Langenzersdorf Bahnhof").
-restaurant("Tullnerbach-Pressbaum Bahnhof".
-restaurant("Hausfeldstraße".
-restaurant("Zippererstraße".
-restaurant("Aspernstraße".
-restaurant("Museumsquartier").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("Erlaaer Straße").
+restaurant("Leopoldau").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").

@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Anton-Krieger-Gasse").
-initlocation(1,"Spittelau").
-initlocation(1,"Marx-Meidlinger-Straße").
-sequence(1,0, "Anton-Krieger-Gasse").
+initlocation($p,"Bauernfeldplatz").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Hubertusdamm").
+initlocation($p,"Bauernfeldplatz").
 person(2).
-initlocation(2,"Ottakringer Str/Erdbrustgasse").
-initlocation(2,"Burgring").
-initlocation(2,"Achau Bahnhof").
-sequence(2,0, "Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Svetelskystraße").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Hofwiesengasse").
-restaurant("Knöllgasse/Troststraße").
-restaurant("Waidhausenstraße").
-restaurant("Neubaugasse").
+initlocation($p,"Van-Swieten-Kaserne").
+initlocation($p,"Lerchenfelder Straße").
+initlocation($p,"Jagdschloßgasse").
+initlocation($p,"Van-Swieten-Kaserne").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+restaurant("Jagdschloßgasse").
+restaurant("Aßmayergasse").
+restaurant("Quartier Belvedere").

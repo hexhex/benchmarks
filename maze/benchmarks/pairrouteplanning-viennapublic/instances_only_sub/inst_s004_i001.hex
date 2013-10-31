@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Oberdöbling").
-initlocation(1,"Reumannplatz").
-initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(1,"Liesing").
-sequence(1,0, "Oberdöbling").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Gänserndorf Bahnhof").
 person(2).
-initlocation(2,"St Pölten Hauptbahnhof").
-initlocation(2,"Achau Bahnhof").
-initlocation(2,"Kottingbrunn Bahnhof").
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-sequence(2,0, "St Pölten Hauptbahnhof").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Bahnhof Meidling").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Hietzing").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Herzogenburg Stadt").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Enkplatz").
 possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-restaurant("Zeiselmauer-Königstetten Bf".
-restaurant("Hütteldorf".
-restaurant("Praterkai".
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Donaustadtbrücke").
+restaurant("Schweglerstraße").
+restaurant("Sankt Marx").

@@ -1,44 +1,44 @@
 person(1).
-initlocation(1,"Weinhauser Gasse").
-initlocation(1,"Braunschweiggasse").
-initlocation(1,"Regelsbrunn Bahnhof").
-initlocation(1,"Hütteldorfer Straße").
-initlocation(1,"Kottingneusiedl Bahnhof").
-initlocation(1,"Himmelmutterweg").
-initlocation(1,"Sommarugagasse").
-initlocation(1,"Winkeläckerstraße").
-initlocation(1,"Blumental").
-initlocation(1,"Pokornygasse").
-sequence(1,0, "Weinhauser Gasse").
+initlocation($p,"Breitenfurter St/Altmannsd Str").
+initlocation($p,"Karmeliterplatz").
+initlocation($p,"Rekawinkel Bahnhof").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Quellenstraße/Favoritenstraße").
+initlocation($p,"Auerspergstraße").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Gersthofer Str/Scheibenbergstr").
+initlocation($p,"Rathaus").
+initlocation($p,"Breitenfurter St/Altmannsd Str").
 person(2).
-initlocation(2,"Hausleiten Bahnhof").
-initlocation(2,"Sahulkastraße").
-initlocation(2,"Leopoldau").
-initlocation(2,"Prandaugasse").
-initlocation(2,"Heinrich-Drimmel-Platz").
-initlocation(2,"Kaiser-Franz-Josef-Straße").
-initlocation(2,"Rosensteingasse").
-initlocation(2,"Burggasse-Stadthalle").
-initlocation(2,"Wr Neustadt Nord").
-initlocation(2,"Museumsquartier").
-sequence(2,0, "Hausleiten Bahnhof").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Wittelsbachstraße").
-possiblemeetinglocations("Hauffgasse").
-possiblemeetinglocations("Bahnsteggasse").
-possiblemeetinglocations("Elterleinplatz").
-possiblemeetinglocations("Prater, Hauptallee").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Wr Neustadt Nord").
-restaurant("Grinzing").
-restaurant("Scheibenbergstraße").
-restaurant("Prater, Hauptallee").
-restaurant("Prandaugasse").
-restaurant("Hollabrunn Bahnhof").
-restaurant("Otto-Probst-Platz").
-restaurant("Münchendorf Bahnhof").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Joachimsthalerplatz").
-restaurant("Winckelmannstraße").
+initlocation($p,"Urban-Loritz-Platz").
+initlocation($p,"Grinzinger Straße").
+initlocation($p,"Brigittaplatz").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Kottingbrunn Bahnhof").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Wexstraße").
+initlocation($p,"Frauengasse").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Urban-Loritz-Platz").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Kaiserebersdorf").
+restaurant("Sillerplatz").
+restaurant("Bahnhof Meidling").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Nestroyplatz").
+restaurant("Alterlaa").
+restaurant("Skodagasse").
+restaurant("Zentralfriedhof 4Tor").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Elterleinplatz").

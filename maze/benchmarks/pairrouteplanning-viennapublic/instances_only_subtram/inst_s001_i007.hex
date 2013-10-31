@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Laurenzgasse").
-sequence(1,0, "Laurenzgasse").
+initlocation($p,"Atzgersdorfer Straße").
+initlocation($p,"Atzgersdorfer Straße").
 person(2).
-initlocation(2,"Maurer Hauptplatz").
-sequence(2,0, "Maurer Hauptplatz").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-restaurant("Neue Donau").
+initlocation($p,"Am Heidjöchl/Hausfeldstraße").
+initlocation($p,"Am Heidjöchl/Hausfeldstraße").
+possiblemeetinglocations("Koloniestraße").
+restaurant("Rosensteingasse").

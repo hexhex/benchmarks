@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Kottingbrunn Bahnhof").
-initlocation(1,"Höbersdorf Bahnhof").
-initlocation(1,"Wolfsthal Bahnhof").
-initlocation(1,"Gramatneusiedl Bahnhof").
-initlocation(1,"Schlachthausgasse").
-sequence(1,0, "Tulln Bahnhof").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Schottenring").
+initlocation($p,"Laa an der Thaya Bahnhof").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Baden Bahnhof").
 person(2).
-initlocation(2,"Höflein an der Donau Bahnhof").
-initlocation(2,"Leobersdorf Bahnhof").
-initlocation(2,"Tulln Stadt Bahnhof").
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Kagraner Platz").
-sequence(2,0, "Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Großfeldsiedlung").
-restaurant("Münchendorf Bahnhof".
-restaurant("Unter Sankt Veit".
-restaurant("Leobersdorf Bahnhof".
-restaurant("Schönborn Bahnhof".
-restaurant("Hardeggasse".
-restaurant("Erdberg").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Seestadt").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Schwechat Bahnhof").
+restaurant("Josefstädter Straße").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Ebreichsdorf Bahnhof").

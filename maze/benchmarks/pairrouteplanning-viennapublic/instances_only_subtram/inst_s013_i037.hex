@@ -1,57 +1,56 @@
 person(1).
-initlocation(1,"Marienbrücke").
-initlocation(1,"Landstraße-Wien Mitte").
-initlocation(1,"Svetelskystraße").
-initlocation(1,"Thaliastraße/Feßtgasse").
-initlocation(1,"Niederhofstraße").
-initlocation(1,"Neue Donau").
-initlocation(1,"Messe-Prater").
-initlocation(1,"Heiligenstadt").
-initlocation(1,"Versorgungsheimplatz").
-initlocation(1,"Hardtgasse").
-initlocation(1,"Hütteldorfer Str/Lützowgasse").
-initlocation(1,"Penzinger Straße").
-initlocation(1,"Dr-Karl-Renner-Ring").
-sequence(1,0, "Marienbrücke").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Raxstraße/Rudolfshügelgasse").
+initlocation($p,"Donauspital").
+initlocation($p,"Julius-Raab-Platz").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+initlocation($p,"Stadlau").
+initlocation($p,"Hernalser Gürtel").
+initlocation($p,"Neue Donau").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+initlocation($p,"Zentralfriedhof 2Tor").
+initlocation($p,"Zieglergasse").
 person(2).
-initlocation(2,"Thaliastraße/Maroltingergasse").
-initlocation(2,"Linzer Straße/Lützowgasse").
-initlocation(2,"Rustengasse").
-initlocation(2,"Helmahof Bahnhof").
-initlocation(2,"Penzinger Straße").
-initlocation(2,"Ladendorf Bahnhof").
-initlocation(2,"Linzer Straße/Johnstraße").
-initlocation(2,"Fasangasse").
-initlocation(2,"Haidestraße").
-initlocation(2,"Obere Augartenstraße").
-initlocation(2,"Floridsdorf").
-initlocation(2,"Niederhofstraße").
-initlocation(2,"Gersthofer Str/Scheibenbergstr").
-sequence(2,0, "Thaliastraße/Maroltingergasse").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Liechtenwerder Platz").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Litfaßstraße").
-possiblemeetinglocations("Prinzgasse").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Elterleinplatz").
-possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Unterradlberg Bahnhof").
+initlocation($p,"Johann-Strauß-Gasse").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Heiligenstadt, 12-Februar-Pl").
+initlocation($p,"Floridsdorfer Markt").
+initlocation($p,"Alte Donau").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Himmelmutterweg").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+initlocation($p,"Schlickgasse").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Erdberg").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Rebhanngasse").
+initlocation($p,"Johann-Strauß-Gasse").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Hohe Warte").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+restaurant("Tesarekplatz").
+restaurant("Seyring Bahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Zentralfriedhof").
+restaurant("Stiftgasse").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Rauscherstraße").
+restaurant("Schwechat Bahnhof").
 restaurant("Mayerhofgasse").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Thaliastraße/Maroltingergasse").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Schloss Hetzendorf").
-restaurant("Trondheimgasse").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Pantucekgasse/Widholzgasse").
-restaurant("Carabelligasse").
-restaurant("Versorgungsheimplatz").
-restaurant("Josefstädter Straße").
-restaurant("Himmelmutterweg").
+restaurant("Seestadt").
+restaurant("Beingasse").
+restaurant("Guntramsdorf-Thallern").

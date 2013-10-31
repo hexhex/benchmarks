@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Sollenau Bahnhof").
-initlocation(1,"Quartier Belvedere").
-sequence(1,0, "Sollenau Bahnhof").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
 person(2).
-initlocation(2,"Nußdorfer Straße").
-initlocation(2,"Münchendorf Bahnhof").
-sequence(2,0, "Nußdorfer Straße").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Schwechat Bahnhof").
-restaurant("Hetzmannsdorf-Wullersdorf Bf".
-restaurant("Weigelsdorf Bahnhof").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Parndorf Ort Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Krottenbachstraße").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Klosterneuburg-Weidling Bf").

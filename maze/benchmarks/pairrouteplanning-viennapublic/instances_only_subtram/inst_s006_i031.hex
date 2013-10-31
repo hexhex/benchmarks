@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Rodaun").
-initlocation(1,"Rennweg").
-initlocation(1,"Kölblgasse").
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-initlocation(1,"Palffygasse").
-initlocation(1,"Kaiserstraße").
-sequence(1,0, "Rodaun").
+initlocation($p,"Kledering Bahnhof").
+initlocation($p,"Kärntner Ring/Oper").
+initlocation($p,"Baumgasse").
+initlocation($p,"Koppstraße/Panikengasse").
+initlocation($p,"Stiftgasse").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Kledering Bahnhof").
 person(2).
-initlocation(2,"Stadlergasse").
-initlocation(2,"Gottschalkgasse/Enkplatz").
-initlocation(2,"Kottingbrunn Bahnhof").
-initlocation(2,"Achau Bahnhof").
-initlocation(2,"Rodaun").
-initlocation(2,"Hirschstetten").
-sequence(2,0, "Stadlergasse").
-possiblemeetinglocations("Dornbacher Straße").
-possiblemeetinglocations("Schloss Schönbrunn").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Carabelligasse").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Schleiergasse").
-restaurant("Blechturmgasse").
-restaurant("An den langen Lüssen").
-restaurant("Innstraße").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Himmelmutterweg").
-restaurant("Siemensstraße").
+initlocation($p,"Marx-Meidlinger-Straße").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Kranzgasse").
+initlocation($p,"Längenfeldgasse/Flurschützstr").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Marx-Meidlinger-Straße").
+possiblemeetinglocations("Diesterweggasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Alsegger Straße").
+restaurant("Stadlergasse").
+restaurant("Erdberg").
+restaurant("Fultonstraße").
+restaurant("Gatterburggasse").
+restaurant("Siebertgasse").
+restaurant("Carminweg").

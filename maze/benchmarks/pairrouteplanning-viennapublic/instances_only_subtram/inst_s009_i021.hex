@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Ameisgasse").
-initlocation(1,"Ladendorf Bahnhof").
-initlocation(1,"Korneuburg Bahnhof").
-initlocation(1,"Fickeysstraße").
-initlocation(1,"Linzer Straße/Zehetnergasse").
-initlocation(1,"Penzinger Straße").
-initlocation(1,"Sahulkastraße").
-initlocation(1,"Bisamberg Bahnhof").
-initlocation(1,"An den langen Lüssen").
-sequence(1,0, "Ameisgasse").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Prinzgasse").
+initlocation($p,"Johann-Strauß-Gasse").
+initlocation($p,"Kaiserstraße/Burggasse").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Donauspital").
+initlocation($p,"Niederhofstraße").
 person(2).
-initlocation(2,"Geiselbergstraße").
-initlocation(2,"Hoßplatz").
-initlocation(2,"Gersthof").
-initlocation(2,"Skodagasse").
-initlocation(2,"Am Spitz").
-initlocation(2,"Wilhelminenstr/Sandleitengasse").
-initlocation(2,"Martinstraße").
-initlocation(2,"Ebreichsdorf Bahnhof").
-initlocation(2,"Karmeliterplatz").
-sequence(2,0, "Geiselbergstraße").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Liebknechtgasse").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Franz-Asenbauer-Gasse").
-possiblemeetinglocations("Empergergasse").
-possiblemeetinglocations("Hoßplatz").
-possiblemeetinglocations("Hietzing").
-restaurant("Fultonstraße").
-restaurant("Großfeldsiedlung").
-restaurant("Obere Donaustraße").
-restaurant("Wallensteinplatz").
-restaurant("Linzer Straße/Zehetnergasse").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Stollgasse").
-restaurant("Prater, Hauptallee").
-restaurant("Obereggendorf Bahnhof").
+initlocation($p,"Blumengasse").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Türkenschanzplatz").
+initlocation($p,"Alsegger Straße").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Halteraugasse").
+initlocation($p,"Riedelgasse").
+initlocation($p,"Wilhelminenstr/Sandleitengasse").
+initlocation($p,"Blumengasse").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Arminenstraße").
+restaurant("Kranzgasse").
+restaurant("Gaisruck Bahnhof").
+restaurant("Baumgarten").
+restaurant("Staglgasse").
+restaurant("Maurer Hauptplatz").
+restaurant("Mayerhofgasse").
+restaurant("Wexstraße").

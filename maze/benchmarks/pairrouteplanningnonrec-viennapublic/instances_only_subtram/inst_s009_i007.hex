@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Reumannplatz").
-initlocation(1,"Guntherstraße").
-initlocation(1,"Silbergasse").
-initlocation(1,"Van-Swieten-Kaserne").
-initlocation(1,"Liechtenwerder Platz").
-initlocation(1,"Eichgraben-Altlengbach Bahnhof").
-initlocation(1,"Höbersdorf Bahnhof").
-initlocation(1,"Münchendorf Bahnhof").
-initlocation(1,"Unter Sankt Veit").
-sequence(1,0, "Reumannplatz").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Schloss Belvedere").
+initlocation($p,"Absberggasse").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Rathaus").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Bahnhofstraße").
+initlocation($p,"Neubaugasse/Westbahnstraße").
 person(2).
-initlocation(2,"Raxstraße/Rudolfshügelgasse").
-initlocation(2,"Braunhubergasse").
-initlocation(2,"Eichenstraße").
-initlocation(2,"Baden Bahnhof").
-initlocation(2,"Forstnergasse").
-initlocation(2,"Ladendorf Bahnhof").
-initlocation(2,"Mannswörth Bahnhof").
-initlocation(2,"Gramatneusiedl Bahnhof").
-initlocation(2,"Gatterburggasse").
-sequence(2,0, "Raxstraße/Rudolfshügelgasse").
-possiblemeetinglocations("Tesarekplatz").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-possiblemeetinglocations("Linzer Straße/Zehetnergasse").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Troststraße/Neilreichgasse").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-restaurant("Josefstädter Straße").
-restaurant("Liesing").
-restaurant("Windtenstraße").
-restaurant("Ottakringer Straße/Wattgasse").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Ottakring").
-restaurant("Preyergasse/Speising").
-restaurant("Franz-Josefs-Bahnhof").
+initlocation($p,"Rebhanngasse").
+initlocation($p,"Thaliastraße/Maroltingergasse").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Anton-Schall-Gasse").
+initlocation($p,"Grinzinger Straße").
+initlocation($p,"Bahnsteggasse").
+initlocation($p,"Kraygasse").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Hopfengasse").
+initlocation($p,"Rebhanngasse").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Gloriettegasse").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Liechtenwerder Platz").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Am Heidjöchl").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Floridsdorf").
+restaurant("Volkstheater").
+restaurant("Kagran").
+restaurant("Wittelsbachstraße").
+restaurant("Mannswörth Bahnhof").
+restaurant("Konstanziagasse").

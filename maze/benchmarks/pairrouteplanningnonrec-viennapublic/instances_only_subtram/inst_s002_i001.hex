@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Tullnerfeld Bahnhof").
-initlocation(1,"Ottakringer Str/Erdbrustgasse").
-sequence(1,0, "Tullnerfeld Bahnhof").
+initlocation($p,"Linzer Straße/Zehetnergasse").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Linzer Straße/Zehetnergasse").
 person(2).
-initlocation(2,"Himberg Bahnhof").
-initlocation(2,"Knöllgasse/Davidgasse").
-sequence(2,0, "Himberg Bahnhof").
-possiblemeetinglocations("Verbindungsbahn").
-possiblemeetinglocations("Schönborn Bahnhof").
-restaurant("Johannes-Krawarik-Gasse").
-restaurant("Unterradlberg Bahnhof").
+initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation($p,"Hauffgasse").
+initlocation($p,"Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Oberzellergasse").

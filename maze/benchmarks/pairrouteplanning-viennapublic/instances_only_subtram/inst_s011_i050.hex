@@ -1,49 +1,48 @@
 person(1).
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-initlocation(1,"Gerasdorf Bahnhof").
-initlocation(1,"Gumpoldskirchen Bahnhof").
-initlocation(1,"Pötzleinsdorf").
-initlocation(1,"Ebreichsdorf Bahnhof").
-initlocation(1,"Petronell-Carnuntum Bahnhof").
-initlocation(1,"Hardtgasse").
-initlocation(1,"Herrengasse").
-initlocation(1,"Seestadt").
-initlocation(1,"Paasdorf Bahnhof").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-sequence(1,0, "Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Laxenburger Straße/Troststraße").
+initlocation($p,"Mayssengasse").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Winkeläckerstraße").
+initlocation($p,"Absberggasse").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Litfaßstraße").
+initlocation($p,"Wilhelminenstraße/Wattgasse").
+initlocation($p,"Van-Swieten-Kaserne").
+initlocation($p,"Dr-Karl-Renner-Ring").
+initlocation($p,"Laxenburger Straße/Troststraße").
 person(2).
-initlocation(2,"Zentralfriedhof 4Tor").
-initlocation(2,"Lazarettgasse").
-initlocation(2,"Otto-Probst-Straße").
-initlocation(2,"Seegasse").
-initlocation(2,"Stefan-Fadinger-Platz").
-initlocation(2,"Simmering").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Purkersdorf Sanatorium").
-initlocation(2,"Schlickgasse").
-initlocation(2,"Schöffelgasse").
-initlocation(2,"Frättingsdorf Bahnhof").
-sequence(2,0, "Zentralfriedhof 4Tor").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Columbusplatz").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Knöllgasse/Troststraße").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Anton-Schall-Gasse").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-restaurant("Kleistgasse").
-restaurant("Frauengasse").
-restaurant("Krieau").
-restaurant("Gersthof").
-restaurant("Schottentor").
-restaurant("Pilgramgasse").
-restaurant("Michelhausen Bahnhof").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Wittelsbachstraße").
-restaurant("Forstnergasse").
-restaurant("Unteroberndorf Bahnhof").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Guneschgasse").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Hütteldorfer Str/Lützowgasse").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Kölblgasse").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Wexstraße").
+initlocation($p,"Wildungsmauer Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+restaurant("Schottenring").
+restaurant("Sonnergasse").
+restaurant("Penzinger Straße").
+restaurant("Zieglergasse/Westbahnstraße").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Seestadt").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Götzendorf Bahnhof").
+restaurant("Neue Donau").
+restaurant("Lerchenfelder Straße").

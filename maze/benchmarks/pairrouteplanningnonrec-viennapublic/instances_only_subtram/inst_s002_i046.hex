@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Erdberg").
-initlocation(1,"Braunhubergasse").
-sequence(1,0, "Erdberg").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Linzer Straße/Hochsatzengasse").
+initlocation($p,"Mistelbach Bahnhof").
 person(2).
-initlocation(2,"Sieveringer Straße").
-initlocation(2,"Gersthof").
-sequence(2,0, "Sieveringer Straße").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
-restaurant("Neilreichgasse").
-restaurant("Schuhmeierplatz").
+initlocation($p,"Zentralfriedhof 4Tor").
+initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
+initlocation($p,"Zentralfriedhof 4Tor").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Stadiongasse/Parlament").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Sillerplatz").

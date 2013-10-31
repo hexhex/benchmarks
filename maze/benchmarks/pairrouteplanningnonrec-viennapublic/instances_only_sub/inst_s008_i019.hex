@@ -1,37 +1,36 @@
 person(1).
-initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation(1,"Josefstädter Straße").
-initlocation(1,"Neubaugasse").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Lobau").
-initlocation(1,"Rekawinkel Bahnhof").
-initlocation(1,"Spittelau").
-initlocation(1,"Höflein an der Donau Bahnhof").
-sequence(1,0, "Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Haslau an der Donau Bahnhof").
 person(2).
-initlocation(2,"Niederkreuzstetten Bahnhof").
-initlocation(2,"Viehofen Bahnhof").
-initlocation(2,"Baden Bahnhof").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"Michelhausen Bahnhof").
-initlocation(2,"Sitzenberg-Reidling Bahnhof").
-initlocation(2,"Schleinbach Bahnhof").
-initlocation(2,"Hardeggasse").
-sequence(2,0, "Niederkreuzstetten Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Matzleinsdorfer Platz").
 possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Enkplatz").
-restaurant("Mödling Bahnhof".
-restaurant("Deutsch-Wagram Bahnhof".
-restaurant("Sitzenberg-Reidling Bahnhof".
-restaurant("Mistelbach Stadt".
-restaurant("Pilgramgasse".
-restaurant("Höflein an der Donau Bahnhof".
-restaurant("Rathaus".
-restaurant("Bahnhof Meidling").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Liesing").
+restaurant("Zentralfriedhof").
+restaurant("Längenfeldgasse").
+restaurant("Nestroyplatz").
+restaurant("Westbahnhof").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Wr Neustadt Nord").
+restaurant("Taborstraße").
+restaurant("Schwechat Bahnhof").

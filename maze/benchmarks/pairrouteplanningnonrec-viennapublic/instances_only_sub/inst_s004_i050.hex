@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(1,"Tullnerfeld Bahnhof").
-initlocation(1,"Unter Kritzendorf Bahnhof").
-initlocation(1,"Ladendorf Bahnhof").
-sequence(1,0, "Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Stubentor").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Kagraner Platz").
 person(2).
-initlocation(2,"Neusiedl am See Bahnhof").
-initlocation(2,"Gasometer").
-initlocation(2,"Kettenbrückengasse").
-initlocation(2,"Braunschweiggasse").
-sequence(2,0, "Neusiedl am See Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Simmering").
-restaurant("Hetzmannsdorf-Wullersdorf Bf".
-restaurant("Hirschstetten".
-restaurant("Wr Neustadt Civitas Nova".
-restaurant("Michelbeuern-AKH").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Nußdorfer Straße").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Donauspital").
+restaurant("Volkstheater").
+restaurant("Vorgartenstraße").
+restaurant("Roßauer Lände").
+restaurant("Währinger Straße-Volksoper").

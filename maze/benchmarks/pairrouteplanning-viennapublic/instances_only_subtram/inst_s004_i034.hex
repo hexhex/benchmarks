@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Nußdorfer Str/Alserbachstraße").
-initlocation(1,"Gaisruck Bahnhof").
-initlocation(1,"Neusiedl am See Bahnhof").
-initlocation(1,"Wr Neustadt Civitas Nova").
-sequence(1,0, "Nußdorfer Str/Alserbachstraße").
+initlocation($p,"Siebensterngasse").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Jagdschloßgasse").
+initlocation($p,"Siebensterngasse").
 person(2).
-initlocation(2,"Gottschalkgasse/Enkplatz").
-initlocation(2,"Längenfeldgasse/Flurschützstr").
-initlocation(2,"Otto-Probst-Straße").
-initlocation(2,"Am Heidjöchl").
-sequence(2,0, "Gottschalkgasse/Enkplatz").
-possiblemeetinglocations("Resselgasse").
-possiblemeetinglocations("Wattmanngasse").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Vinzenzgasse").
-restaurant("Michelbeuern-AKH").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Schwedenplatz").
-restaurant("Floridsdorf").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Skodagasse").
+initlocation($p,"Van-Swieten-Kaserne").
+initlocation($p,"Palffygasse").
+initlocation($p,"Schwedenplatz").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+restaurant("Eckpergasse").
+restaurant("Atzgersdorf").
+restaurant("Oberfeldgasse").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").

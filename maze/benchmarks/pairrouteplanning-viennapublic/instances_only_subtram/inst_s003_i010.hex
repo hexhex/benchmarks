@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Am Tabor").
-initlocation(1,"Retz Bahnhof").
-initlocation(1,"Donauzentrum").
-sequence(1,0, "Am Tabor").
+initlocation($p,"Blumengasse").
+initlocation($p,"Alte Donau").
+initlocation($p,"Waidhausenstraße").
+initlocation($p,"Blumengasse").
 person(2).
-initlocation(2,"Stockerau Bahnhof").
-initlocation(2,"Längenfeldgasse/Flurschützstr").
-initlocation(2,"Taubstummengasse").
-sequence(2,0, "Stockerau Bahnhof").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Carminweg").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-restaurant("Pantucekgasse/Widholzgasse").
-restaurant("Regelsbrunn Bahnhof").
-restaurant("Maria Ellend Bahnhof").
+initlocation($p,"Langobardenstraße/Kapellenweg").
+initlocation($p,"Fickeysstraße").
+initlocation($p,"Litfaßstraße").
+initlocation($p,"Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Hütteldorf").
+restaurant("Ottakring").
+restaurant("Bahnhofstraße").
+restaurant("Gatterburggasse").

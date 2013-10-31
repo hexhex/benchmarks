@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Mistelbach Bahnhof").
-initlocation(1,"Leopoldau").
-sequence(1,0, "Mistelbach Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Hütteldorf").
 person(2).
-initlocation(2,"Schleinbach Bahnhof").
-initlocation(2,"Mistelbach Bahnhof").
-sequence(2,0, "Schleinbach Bahnhof").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Jedlersdorf").
+initlocation($p,"Wolkersdorf Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
 possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Nußdorf").
-restaurant("Friedensbrücke".
-restaurant("Vorgartenstraße").
+restaurant("Platt Bahnhof").
+restaurant("Tulln Bahnhof").

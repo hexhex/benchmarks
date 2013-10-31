@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Urban-Loritz-Platz").
-initlocation(1,"Oberfeldgasse").
-initlocation(1,"Trondheimgasse").
-initlocation(1,"Laa an der Thaya Bahnhof").
-sequence(1,0, "Urban-Loritz-Platz").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Lederergasse").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Maria Anzbach Bahnhof").
 person(2).
-initlocation(2,"Langobardenstraße").
-initlocation(2,"Oberfeldgasse/Spargelfeldstr").
-initlocation(2,"Stammersdorf").
-initlocation(2,"Bahnhofstraße").
-sequence(2,0, "Langobardenstraße").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Türkenschanzplatz").
-possiblemeetinglocations("Perntergasse").
-possiblemeetinglocations("Kagraner Platz").
-restaurant("Hernalser Gürtel").
-restaurant("Siemensstraße").
-restaurant("Ottakringer Str/Erdbrustgasse").
-restaurant("Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Gottschalkgasse/Enkplatz").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Gersthofer Str/Scheibenbergstr").
+initlocation($p,"Wolfsthal Bahnhof").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+restaurant("Enkplatz").
+restaurant("Aspern Nord").
+restaurant("Kaiserstraße/Burggasse").
+restaurant("Preyergasse/Speising").

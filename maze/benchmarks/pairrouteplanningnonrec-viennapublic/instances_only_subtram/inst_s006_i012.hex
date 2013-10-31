@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Laxenburger Str/Gudrunstraße").
-initlocation(1,"Oberolberndorf Bahnhof").
-initlocation(1,"Linzer Straße/Hochsatzengasse").
-initlocation(1,"Carminweg").
-initlocation(1,"Ober Sankt Veit").
-initlocation(1,"Linzer Straße/Lützowgasse").
-sequence(1,0, "Laxenburger Str/Gudrunstraße").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Anton-Krieger-Gasse").
+initlocation($p,"Dommayergasse").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
 person(2).
-initlocation(2,"Praterstern").
-initlocation(2,"Langobardenstraße").
-initlocation(2,"Donauinsel").
-initlocation(2,"Lainz, Wolkersbergenstraße").
-initlocation(2,"Sillerplatz").
-initlocation(2,"Erlaaer Straße").
-sequence(2,0, "Praterstern").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Sickenberggasse").
-possiblemeetinglocations("Quellenstraße/Favoritenstraße").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Teichgasse").
-restaurant("Weißenböckstraße").
-restaurant("Hietzing").
-restaurant("Mistelbach Stadt").
-restaurant("Zieglergasse").
-restaurant("Stefan-Fadinger-Platz").
-restaurant("Preyergasse/Speising").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Brünnlbadgasse").
+initlocation($p,"Silbergasse").
+initlocation($p,"Floridsdorfer Brücke").
+initlocation($p,"Florianigasse").
+initlocation($p,"Kaiserstraße/Westbahnstraße").
+initlocation($p,"Stephansplatz").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+restaurant("Schwarzspanierstraße").
+restaurant("Braunschweiggasse").
+restaurant("Oberdöbling").
+restaurant("Rustengasse").
+restaurant("Kaiser-Franz-Josef-Straße").
+restaurant("Hohe Warte").

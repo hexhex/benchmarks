@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Bad Vöslau Bahnhof").
-initlocation(1,"Sechskrügelgasse").
-initlocation(1,"Scheibenbergstraße").
-initlocation(1,"Weinheimergasse").
-initlocation(1,"Trautmannsdorf/Leitha Bf").
-initlocation(1,"Lange Gasse").
-initlocation(1,"Gusenleithnergasse").
-sequence(1,0, "Bad Vöslau Bahnhof").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Johannes-Krawarik-Gasse").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Hoßplatz").
+initlocation($p,"Zentralfriedhof 2Tor").
+initlocation($p,"Schöffelgasse").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Gänserndorf Bahnhof").
 person(2).
-initlocation(2,"Tulln Stadt Bahnhof").
-initlocation(2,"Thaliastraße/Feßtgasse").
-initlocation(2,"Bahnhofstraße").
-initlocation(2,"Heiligenstadt, 12-Februar-Pl").
-initlocation(2,"Hoßplatz").
-initlocation(2,"Breitenfurter St/Altmannsd Str").
-initlocation(2,"Hainburg/Donau Personenbhf").
-sequence(2,0, "Tulln Stadt Bahnhof").
-possiblemeetinglocations("Schwarzenbergplatz").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Rebhanngasse").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Kranzgasse").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Blindengasse").
-restaurant("Lerchenfelder Straße").
-restaurant("Rosensteingasse").
-restaurant("Strebersdorf").
-restaurant("Albertgasse").
-restaurant("Karlsplatz").
+initlocation($p,"Haidestraße").
+initlocation($p,"Prandaugasse").
+initlocation($p,"Am Spitz").
+initlocation($p,"Hohe Warte").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Gredlerstraße").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Haidestraße").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Siebertgasse").
+restaurant("Laaer-Berg-Straße").
+restaurant("Erndtgasse").
+restaurant("Yppengasse").
+restaurant("Seyring Bahnhof").
+restaurant("Otto-Probst-Straße").
+restaurant("Stadtpark").
+restaurant("Antonigasse").

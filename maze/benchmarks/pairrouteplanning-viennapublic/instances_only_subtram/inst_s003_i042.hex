@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Paradisgasse").
-initlocation(1,"Schottentor").
-initlocation(1,"Kaiserstraße/Neustiftgasse").
-sequence(1,0, "Paradisgasse").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Schloss Belvedere").
+initlocation($p,"Rosensteingasse").
+initlocation($p,"Frättingsdorf Bahnhof").
 person(2).
-initlocation(2,"Ameisgasse").
-initlocation(2,"Quellenplatz").
-initlocation(2,"Burggasse-Stadthalle").
-sequence(2,0, "Ameisgasse").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Obere Augartenstraße").
-restaurant("Fichtnergasse").
-restaurant("Reinlgasse/Märzstraße").
-restaurant("Süßenbrunner Str/Oberfeldgasse").
+initlocation($p,"Linzer Straße/Zehetnergasse").
+initlocation($p,"Stadlau").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Alterlaa").
+restaurant("Vorgartenstraße").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Sarasdorf Bahnhof").

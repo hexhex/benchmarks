@@ -1,56 +1,56 @@
 person(1).
-initlocation(1,"Wilhelminenstr/Sandleitengasse").
-initlocation(1,"Autokaderstraße").
-initlocation(1,"Ottakring").
-initlocation(1,"Kendlerstraße").
-initlocation(1,"Kottingbrunn Bahnhof").
-initlocation(1,"Weißenböckstraße").
-initlocation(1,"Hauffgasse").
-initlocation(1,"Donauzentrum").
-initlocation(1,"Barawitzkagasse").
-initlocation(1,"Erndtgasse").
-initlocation(1,"Kottingneusiedl Bahnhof").
-initlocation(1,"Klosterneuburg-Kierling Bf").
-initlocation(1,"Westbahnhof").
-sequence(1,0, "Wilhelminenstr/Sandleitengasse").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Handelskai").
+initlocation($p,"Prinzgasse").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Kaiserebersdorf").
+initlocation($p,"Alser Straße").
+initlocation($p,"Joachimsthalerplatz").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Kliebergasse").
+initlocation($p,"Albertgasse").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Hardeggasse").
 person(2).
-initlocation(2,"Stadlergasse").
-initlocation(2,"Himmelmutterweg").
-initlocation(2,"Strasshof Bahnhof").
-initlocation(2,"Thaliastraße").
-initlocation(2,"Franzensbrücke").
-initlocation(2,"Donauspital").
-initlocation(2,"Fasangasse").
-initlocation(2,"Währinger Straße-Volksoper").
-initlocation(2,"Pfaffstätten Bahnhof").
-initlocation(2,"Seegasse").
-initlocation(2,"Carminweg").
-initlocation(2,"Rustengasse").
-initlocation(2,"Gumpendorfer Straße").
-sequence(2,0, "Stadlergasse").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Atzgersdorfer Straße").
-possiblemeetinglocations("Blindengasse").
-possiblemeetinglocations("Augasse").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Sechskrügelgasse").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Stadlergasse").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Floridsdorfer Markt").
-restaurant("Prinzgasse").
-restaurant("Vinzenzgasse").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Spillern Bahnhof").
-restaurant("Neulengbach Bahnhof").
-restaurant("Hubertusdamm").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Obersdorf Bahnhof").
-restaurant("Stadlergasse").
-restaurant("Laurenzgasse").
-restaurant("Schwechat Bahnhof").
-restaurant("Längenfeldgasse").
+initlocation($p,"Liechtenwerder Platz").
+initlocation($p,"Sonnergasse").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Kölblgasse").
+initlocation($p,"Linzer Straße/Hochsatzengasse").
+initlocation($p,"Sillerplatz").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Liechtenwerder Platz").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Stephansplatz").
+restaurant("Ameisgasse").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Josefstädter Straße").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Gutraterplatz").
+restaurant("Gerhardusgasse").
+restaurant("Jägerstraße").
+restaurant("Viehofen Bahnhof").
+restaurant("Rebhanngasse").
+restaurant("Salztorbrücke").
+restaurant("Hofwiesengasse").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Pressbaum Bahnhof").

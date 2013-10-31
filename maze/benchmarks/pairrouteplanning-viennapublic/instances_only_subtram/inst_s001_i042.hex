@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Stammersdorf").
-sequence(1,0, "Stammersdorf").
+initlocation($p,"Winckelmannstraße").
+initlocation($p,"Winckelmannstraße").
 person(2).
-initlocation(2,"Kliebergasse").
-sequence(2,0, "Kliebergasse").
-possiblemeetinglocations("Gunoldstraße").
-restaurant("Stockholmer Platz").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Dürrwien Bahnhof").
+possiblemeetinglocations("Jagdschloßgasse").
+restaurant("Kranzgasse").

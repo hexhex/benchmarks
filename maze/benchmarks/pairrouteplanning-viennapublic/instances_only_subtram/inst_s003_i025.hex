@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Gottschalkgasse/Enkplatz").
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-initlocation(1,"Hofwiesengasse").
-sequence(1,0, "Gottschalkgasse/Enkplatz").
+initlocation($p,"Rosenhügelstraße").
+initlocation($p,"Radetzkyplatz").
+initlocation($p,"Canisiusgasse").
+initlocation($p,"Rosenhügelstraße").
 person(2).
-initlocation(2,"Schwarzspanierstraße").
-initlocation(2,"Götzendorf Bahnhof").
-initlocation(2,"Wildungsmauer Bahnhof").
-sequence(2,0, "Schwarzspanierstraße").
-possiblemeetinglocations("Brigittaplatz").
-possiblemeetinglocations("Linzer Straße/Zehetnergasse").
-possiblemeetinglocations("Empergergasse").
-restaurant("Beingasse").
-restaurant("Volkstheater").
-restaurant("Weigelsdorf Bahnhof").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Grillgasse").
+initlocation($p,"Weinhauser Gasse").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Auerspergstraße").
+possiblemeetinglocations("Eichenstraße").
+restaurant("Saikogasse").
+restaurant("Leopoldau").
+restaurant("Mistelbach Stadt").

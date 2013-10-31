@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Schwechat Bahnhof").
-initlocation(1,"Lange Gasse").
-sequence(1,0, "Schwechat Bahnhof").
+initlocation($p,"Scheibenbergstraße").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Scheibenbergstraße").
 person(2).
-initlocation(2,"Columbusplatz").
-initlocation(2,"Anschützgasse").
-sequence(2,0, "Columbusplatz").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Rennweg").
-restaurant("Hütteldorf").
-restaurant("Stiftgasse").
+initlocation($p,"Rosenhügelstraße").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Rosenhügelstraße").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Jägerstraße").
+restaurant("Klosterneuburg-Weidling Bf").

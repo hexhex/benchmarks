@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Unteroberndorf Bahnhof").
-initlocation(1,"Rennweg").
-initlocation(1,"Stadlau").
-initlocation(1,"Vorgartenstraße").
-initlocation(1,"Schwechat Bahnhof").
-initlocation(1,"Weigelsdorf Bahnhof").
-initlocation(1,"Großfeldsiedlung").
-initlocation(1,"Paasdorf Bahnhof").
-initlocation(1,"Wr Neustadt Hauptbahnhof").
-sequence(1,0, "Unteroberndorf Bahnhof").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Donauinsel").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Wolfsthal Bahnhof").
 person(2).
-initlocation(2,"Wampersdorf Bahnhof").
-initlocation(2,"Hollabrunn Bahnhof").
-initlocation(2,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(2,"Südtiroler Platz/Hauptbahnhof").
-initlocation(2,"Untertullnerbach Bahnhof").
-initlocation(2,"Langenzersdorf Bahnhof").
-initlocation(2,"Pfaffstätten Bahnhof").
-initlocation(2,"Kottingneusiedl Bahnhof").
-initlocation(2,"Praterstern").
-sequence(2,0, "Wampersdorf Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Kottingbrunn Bahnhof".
-restaurant("Sarasdorf Bahnhof".
-restaurant("Gemeinlebarn Bahnhof".
-restaurant("Herrengasse".
-restaurant("Bad Vöslau Bahnhof".
-restaurant("Weigelsdorf Bahnhof".
-restaurant("Nestroyplatz".
-restaurant("Stockerau Bahnhof".
-restaurant("Parndorf Ort Bahnhof").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Wolfsthal Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Hernals").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Nußdorf").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Mödling Bahnhof").
+restaurant("Siemensstraße").
+restaurant("Haidestraße").
+restaurant("Stubentor").
+restaurant("Strasshof Bahnhof").

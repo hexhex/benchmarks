@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Hollabrunn Bahnhof").
-initlocation(1,"Stadiongasse/Parlament").
-initlocation(1,"Unteroberndorf Bahnhof").
-initlocation(1,"Bernhardtstalgasse").
-initlocation(1,"Kagraner Platz").
-initlocation(1,"Penzinger Straße").
-initlocation(1,"Bahnhofstraße").
-initlocation(1,"Klosterneuburg-Weidling Bf").
-sequence(1,0, "Hollabrunn Bahnhof").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Anschützgasse").
+initlocation($p,"Neuwaldegg").
+initlocation($p,"Burgring").
+initlocation($p,"Maurer Lange Gasse").
+initlocation($p,"Pokornygasse").
+initlocation($p,"Schleiergasse").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Krottenbachstraße").
 person(2).
-initlocation(2,"Halteraugasse").
-initlocation(2,"Taborstraße/Heinestraße").
-initlocation(2,"Johannes-Krawarik-Gasse").
-initlocation(2,"Salztorbrücke").
-initlocation(2,"Brigittaplatz").
-initlocation(2,"Yppengasse").
-initlocation(2,"Niederkreuzstetten Bahnhof").
-initlocation(2,"Strebersdorf").
-sequence(2,0, "Halteraugasse").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Stockholmer Platz").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Paasdorf Bahnhof").
-possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
-restaurant("Am Tabor").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Hardeggasse").
-restaurant("Heinrich-Drimmel-Platz").
-restaurant("Lederergasse").
-restaurant("Van-Swieten-Kaserne").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Mayerhofgasse").
+initlocation($p,"Rußbergstraße").
+initlocation($p,"Bahnhof Meidling/Eichenstraße").
+initlocation($p,"Stefan-Fadinger-Platz").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Siebertgasse").
+initlocation($p,"Zentralfriedhof 2Tor").
+initlocation($p,"Martinstraße").
+initlocation($p,"Altes Landgut").
+initlocation($p,"Rußbergstraße").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Huglgasse").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Rothneusiedl").
+restaurant("Svetelskystraße").
+restaurant("Blechturmgasse").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Römergasse").
+restaurant("Wilhelminenstr/Sandleitengasse").
+restaurant("Hetzgasse").

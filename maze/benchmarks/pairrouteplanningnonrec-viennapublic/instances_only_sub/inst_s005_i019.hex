@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Maria Anzbach Bahnhof").
-initlocation(1,"Museumsquartier").
-initlocation(1,"Nestroyplatz").
-initlocation(1,"Ebreichsdorf Bahnhof").
-initlocation(1,"Stockerau Bahnhof").
-sequence(1,0, "Maria Anzbach Bahnhof").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Schleinbach Bahnhof").
 person(2).
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Trasdorf Bahnhof").
-initlocation(2,"Trautmannsdorf/Leitha Bf").
-initlocation(2,"Herrengasse").
-initlocation(2,"Himberg Bahnhof").
-sequence(2,0, "Pressbaum Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Karlsplatz").
-restaurant("St Pölten Traisenpark P+R Nord".
-restaurant("Praterstern".
-restaurant("Meidling Hauptstraße".
-restaurant("Kottingneusiedl Bahnhof".
-restaurant("Unter Sankt Veit").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Guntersdorf Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+restaurant("Bahnhof Meidling").
+restaurant("Rochusgasse").
+restaurant("Retz Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Nußdorfer Straße").

@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Herrengasse").
-initlocation(1,"Schwarzenbergplatz").
-initlocation(1,"Staglgasse").
-sequence(1,0, "Herrengasse").
+initlocation($p,"Schöffelgasse").
+initlocation($p,"Arminenstraße").
+initlocation($p,"Fichtnergasse").
+initlocation($p,"Schöffelgasse").
 person(2).
-initlocation(2,"Breitenfurter St/Altmannsd Str").
-initlocation(2,"St Pölten Traisenpark P+R Nord").
-initlocation(2,"Eichenstraße").
-sequence(2,0, "Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-possiblemeetinglocations("Dommayergasse").
-restaurant("Laxenburger Straße/Troststraße").
-restaurant("Strasshof Bahnhof").
-restaurant("Strebersdorf").
+initlocation($p,"Hernalser Gürtel").
+initlocation($p,"Augasse").
+initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
+initlocation($p,"Hernalser Gürtel").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Siebenhirten").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Carminweg").

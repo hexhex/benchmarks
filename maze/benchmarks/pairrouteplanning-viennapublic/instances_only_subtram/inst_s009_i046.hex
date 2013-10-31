@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Moosbierbaum-Heiligeneich Bf").
-initlocation(1,"Südtiroler Platz/Hauptbahnhof").
-initlocation(1,"Bahnhof Meidling/Eichenstraße").
-initlocation(1,"Siebensterngasse").
-initlocation(1,"Am Heumarkt").
-initlocation(1,"Rußbergstraße").
-initlocation(1,"Canisiusgasse").
-initlocation(1,"Hardtgasse").
-initlocation(1,"Göllersdorf Bahnhof").
-sequence(1,0, "Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Grillgasse").
+initlocation($p,"Klosterneub Str/Wallensteinstr").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Am Heidjöchl/Hausfeldstraße").
+initlocation($p,"Gutraterplatz").
+initlocation($p,"Lobau").
+initlocation($p,"Stefan-Fadinger-Platz").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Grillgasse").
 person(2).
-initlocation(2,"Hildebrandgasse").
-initlocation(2,"Schleiergasse").
-initlocation(2,"Mistelbach Bahnhof").
-initlocation(2,"Aßmayergasse").
-initlocation(2,"Neulengbach Bahnhof").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Koloniestraße").
-initlocation(2,"Huglgasse").
-initlocation(2,"Wilhelminenstr/Sandleitengasse").
-sequence(2,0, "Hildebrandgasse").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Brünner Straße/Hanreitergasse").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Römergasse").
+initlocation($p,"Huglgasse").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Mühlfeldgasse").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Johann-Nepomuk-Berger-Platz").
+initlocation($p,"Achau Bahnhof").
+initlocation($p,"Reinlgasse/Märzstraße").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Huglgasse").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Michelhausen Bahnhof").
 possiblemeetinglocations("Weinhauser Gasse").
-possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
-restaurant("Perntergasse").
-restaurant("Zentralfriedhof 3Tor").
-restaurant("Heiligenstadt, 12-Februar-Pl").
-restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Thaliastraße/Feßtgasse").
-restaurant("Aßmayergasse").
-restaurant("Hildebrandgasse").
-restaurant("Polkorabplatz").
-restaurant("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Fichtnergasse").
+restaurant("Floridsdorfer Markt").
+restaurant("Diesterweggasse").
+restaurant("Kaisermühlen-VIC").
+restaurant("Saikogasse").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Riedelgasse").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Strebersdorf").
+restaurant("Joachimsthalerplatz").

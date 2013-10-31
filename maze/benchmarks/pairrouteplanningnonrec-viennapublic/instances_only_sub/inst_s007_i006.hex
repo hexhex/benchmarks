@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Zeiselmauer-Königstetten Bf").
-initlocation(1,"Oberdöbling").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Ladendorf Bahnhof").
-initlocation(1,"Krieau").
-initlocation(1,"Schönbrunn").
-initlocation(1,"Spittelau").
-sequence(1,0, "Zeiselmauer-Königstetten Bf").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Pressbaum Bahnhof").
 person(2).
-initlocation(2,"Keplerplatz").
-initlocation(2,"Aspern Nord").
-initlocation(2,"Vorgartenstraße").
-initlocation(2,"Fischamend Bahnhof").
-initlocation(2,"Blumental").
-initlocation(2,"Langenlebarn Bahnhof").
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-sequence(2,0, "Keplerplatz").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-restaurant("Schwechat Bahnhof".
-restaurant("Blumental".
-restaurant("Oberradlberg Bahnhof".
-restaurant("Hirschstetten".
-restaurant("Stadtpark".
-restaurant("Hautzendorf Bahnhof".
-restaurant("Hausfeldstraße").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Spittelau").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Neue Donau").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Donauspital").
+initlocation($p,"Staatz Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Tulln Bahnhof").
+restaurant("Donaustadtbrücke").
+restaurant("Schottenring").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Hietzing").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Maria Ellend Bahnhof").

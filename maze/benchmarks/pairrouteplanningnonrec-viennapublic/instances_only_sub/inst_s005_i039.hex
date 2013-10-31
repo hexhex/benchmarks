@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Siemensstraße").
-initlocation(1,"Pfaffstätten Bahnhof").
-initlocation(1,"Keplerplatz").
-initlocation(1,"Achau Bahnhof").
-initlocation(1,"Haslau an der Donau Bahnhof").
-sequence(1,0, "Siemensstraße").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Paasdorf Bahnhof").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Herzogenburg Bahnhof").
 person(2).
-initlocation(2,"Keplerplatz").
-initlocation(2,"Gasometer").
-initlocation(2,"Neulengbach Bahnhof").
-initlocation(2,"Mistelbach Stadt").
-initlocation(2,"Kaisermühlen-VIC").
-sequence(2,0, "Keplerplatz").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-restaurant("Praterstern".
-restaurant("Preyergasse/Speising".
-restaurant("Brünner Straße".
-restaurant("Platt Bahnhof".
-restaurant("Haidestraße").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Volkstheater").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Sarasdorf Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+restaurant("Schwedenplatz").
+restaurant("Handelskai").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Simmering").
+restaurant("Westbahnhof").

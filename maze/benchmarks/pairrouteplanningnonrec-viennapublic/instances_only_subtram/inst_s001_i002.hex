@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Marx-Meidlinger-Straße").
-sequence(1,0, "Marx-Meidlinger-Straße").
+initlocation($p,"Mühlfeldgasse").
+initlocation($p,"Mühlfeldgasse").
 person(2).
-initlocation(2,"Wr Neustadt Nord").
-sequence(2,0, "Wr Neustadt Nord").
-possiblemeetinglocations("Brünnlbadgasse").
-restaurant("Hubertusdamm").
+initlocation($p,"Neulerchenfelder Str/Haberlg").
+initlocation($p,"Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+restaurant("Platt Bahnhof").

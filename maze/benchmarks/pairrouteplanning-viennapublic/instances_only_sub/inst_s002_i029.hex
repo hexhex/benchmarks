@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Wampersdorf Bahnhof").
-initlocation(1,"Hadersdorf Bahnhof").
-sequence(1,0, "Wampersdorf Bahnhof").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Matzleinsdorfer Platz").
 person(2).
-initlocation(2,"Schottentor").
-initlocation(2,"Messe-Prater").
-sequence(2,0, "Schottentor").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-restaurant("Schwedenplatz".
-restaurant("Kottingbrunn Bahnhof").
+initlocation($p,"Stadlau").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Stadlau").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Wr Neustadt Hauptbahnhof").

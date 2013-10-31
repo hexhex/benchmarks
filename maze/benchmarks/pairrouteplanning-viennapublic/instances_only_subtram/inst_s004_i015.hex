@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Thaliastraße/Haberlgasse").
-initlocation(1,"Brünnlbadgasse").
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Währinger Straße-Volksoper").
-sequence(1,0, "Thaliastraße/Haberlgasse").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Stadiongasse/Parlament").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Erlaaer Straße").
 person(2).
-initlocation(2,"Leobersdorf Bahnhof").
-initlocation(2,"Hadersdorf Bahnhof").
-initlocation(2,"Stockerau Bahnhof").
-initlocation(2,"Jagdschloßgasse").
-sequence(2,0, "Leobersdorf Bahnhof").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Mayerhofgasse").
-restaurant("Handelskai").
-restaurant("Ameisgasse").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Nordwestbahnstraße").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Donauspital").
+initlocation($p,"Neilreichgasse").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Schwarzenbergplatz").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Weihburggasse").

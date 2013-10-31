@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Jagdschloßgasse").
-initlocation(1,"Kaiserstraße/Burggasse").
-initlocation(1,"Stephansplatz").
-initlocation(1,"Neuwaldegg").
-initlocation(1,"Gaußplatz").
-sequence(1,0, "Jagdschloßgasse").
+initlocation($p,"Schloss Belvedere").
+initlocation($p,"Polkorabplatz").
+initlocation($p,"Oberlaa, Therme Wien").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Schloss Belvedere").
 person(2).
-initlocation(2,"Stadtpark").
-initlocation(2,"Preyergasse/Speising").
-initlocation(2,"Arthaberplatz").
-initlocation(2,"Gersthof").
-initlocation(2,"Teichgasse").
-sequence(2,0, "Stadtpark").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Sickenberggasse").
-possiblemeetinglocations("Langobardenstraße").
-possiblemeetinglocations("Türkenschanzplatz").
-restaurant("Spillern Bahnhof").
-restaurant("Hetzendorf").
-restaurant("Kärntner Ring/Oper").
-restaurant("Liebknechtgasse").
-restaurant("Leobersdorf Bahnhof").
+initlocation($p,"Julius-Raab-Platz").
+initlocation($p,"Gruschaplatz").
+initlocation($p,"Schwarzspanierstraße").
+initlocation($p,"Kottingbrunn Bahnhof").
+initlocation($p,"Penzinger Straße").
+initlocation($p,"Julius-Raab-Platz").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Perfektastraße").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Hoßplatz").
+restaurant("Untereggendorf Bahnhof").

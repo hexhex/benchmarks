@@ -1,60 +1,60 @@
 person(1).
-initlocation(1,"Schottenring").
-initlocation(1,"Untereggendorf Bahnhof").
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Strasshof Bahnhof").
-initlocation(1,"Bruck/Leitha Bahnhof").
-initlocation(1,"Mistelbach Bahnhof").
-initlocation(1,"Hausfeldstraße").
-initlocation(1,"Unterpurkersdorf Bahnhof").
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Trasdorf Bahnhof").
-initlocation(1,"Westbahnhof").
-initlocation(1,"Retz Bahnhof").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Himberg Bahnhof").
-sequence(1,0, "Schottenring").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Krieau").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Kaisermühlen-VIC").
 person(2).
-initlocation(2,"Zellerndorf Bahnhof").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Donaustadtbrücke").
-initlocation(2,"Rennbahnweg").
-initlocation(2,"Münchendorf Bahnhof").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Hetzendorf").
-initlocation(2,"Gänserndorf Bahnhof").
-initlocation(2,"Erlaaer Straße").
-initlocation(2,"Unter Sankt Veit").
-initlocation(2,"Frättingsdorf Bahnhof").
-initlocation(2,"Franz-Josefs-Bahnhof").
-initlocation(2,"Kendlerstraße").
-initlocation(2,"St Pölten Hauptbahnhof").
-sequence(2,0, "Zellerndorf Bahnhof").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Aspernstraße").
-restaurant("Neubaugasse".
-restaurant("Mistelbach Stadt".
-restaurant("Absdorf-Hippersdorf Bahnhof".
-restaurant("Obersdorf Bahnhof".
-restaurant("Penzing".
-restaurant("Unter Sankt Veit".
-restaurant("Messe-Prater".
-restaurant("Krieau".
-restaurant("Reumannplatz".
-restaurant("Grillgasse".
-restaurant("Langenzersdorf Bahnhof".
-restaurant("Helmahof Bahnhof".
-restaurant("Hautzendorf Bahnhof".
-restaurant("St Andrä-Wördern Bahnhof").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Wolf in der Au").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Aspernstraße").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Spittelau").
+restaurant("Münchendorf Bahnhof").
+restaurant("Simmering").
+restaurant("Stephansplatz").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Silberwald Bahnhof").
+restaurant("Obersdorf Bahnhof").
+restaurant("Niederhofstraße").
+restaurant("Kagraner Platz").
+restaurant("Handelskai").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Braunschweiggasse").
+restaurant("Göllersdorf Bahnhof").

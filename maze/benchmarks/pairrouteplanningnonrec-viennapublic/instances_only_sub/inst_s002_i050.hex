@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Schottentor").
-initlocation(1,"Hautzendorf Bahnhof").
-sequence(1,0, "Schottentor").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
 person(2).
-initlocation(2,"Wr Neustadt Hauptbahnhof").
-initlocation(2,"Spittelau").
-sequence(2,0, "Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Zieglergasse").
-restaurant("Landstraße-Wien Mitte".
-restaurant("Gramatneusiedl Bahnhof").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Dresdner Straße").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Felixdorf Bahnhof").

@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Burggasse-Stadthalle").
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Reumannplatz").
-initlocation(1,"Josefstädter Straße").
-initlocation(1,"Süßenbrunn").
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Franz-Josefs-Bahnhof").
-sequence(1,0, "Burggasse-Stadthalle").
+initlocation($p,"Rathaus").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Roßauer Lände").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Rathaus").
 person(2).
-initlocation(2,"Alser Straße").
-initlocation(2,"Tulln Bahnhof").
-initlocation(2,"Gänserndorf Bahnhof").
-initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(2,"Josefstädter Straße").
-initlocation(2,"Südtiroler Platz/Hauptbahnhof").
-initlocation(2,"Neusiedl am See Bahnhof").
-sequence(2,0, "Alser Straße").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Lobau").
-restaurant("Matzleinsdorfer Platz".
-restaurant("Preyergasse/Speising".
-restaurant("Schottenring".
-restaurant("Mödling Bahnhof".
-restaurant("Stadtpark".
-restaurant("Donaustadtbrücke".
-restaurant("Praterkai").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Bad Vöslau Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Siebenhirten (NÖ). Haltestelle").
+restaurant("Donauspital").
+restaurant("Alser Straße").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Weidlingau Bahnhof").

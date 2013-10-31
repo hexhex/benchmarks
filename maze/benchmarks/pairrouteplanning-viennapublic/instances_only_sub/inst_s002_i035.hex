@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Nußdorfer Straße").
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-sequence(1,0, "Nußdorfer Straße").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Handelskai").
+initlocation($p,"Purkersdorf Sanatorium").
 person(2).
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-initlocation(2,"Heiligenstadt").
-sequence(2,0, "Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Preyergasse/Speising").
-restaurant("Wr Neustadt Hauptbahnhof".
-restaurant("Margaretengürtel").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Stubentor").
+initlocation($p,"Zentralfriedhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Rochusgasse").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Unterradlberg Bahnhof").

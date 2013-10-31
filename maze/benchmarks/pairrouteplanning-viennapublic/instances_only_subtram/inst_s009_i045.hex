@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Schleinbach Bahnhof").
-initlocation(1,"Hirschstetten").
-initlocation(1,"Kledering Bahnhof").
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Trondheimgasse").
-initlocation(1,"Atzgersdorf").
-initlocation(1,"Mistelbach Bahnhof").
-initlocation(1,"Rauscherstraße").
-initlocation(1,"Teichgasse").
-sequence(1,0, "Schleinbach Bahnhof").
+initlocation($p,"Blindengasse").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Sonnergasse").
+initlocation($p,"Schloss Schönbrunn").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Absberggasse").
+initlocation($p,"Alte Donau").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Blindengasse").
 person(2).
-initlocation(2,"Wolfsthal Bahnhof").
-initlocation(2,"Sillerplatz").
-initlocation(2,"Aspernstraße").
-initlocation(2,"Liesing").
-initlocation(2,"Redtenbachergasse").
-initlocation(2,"Neue Donau").
-initlocation(2,"Siebensterngasse").
-initlocation(2,"Helmahof Bahnhof").
-initlocation(2,"Johnstraße").
-sequence(2,0, "Wolfsthal Bahnhof").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Julius-Raab-Platz").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Gußhausstraße").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-restaurant("Spillern Bahnhof").
-restaurant("Liechtenwerder Platz").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Wenzgasse").
-restaurant("Friedrich-Engels-Platz").
-restaurant("Thaliastraße/Feßtgasse").
-restaurant("Nußdorfer Str/Alserbachstraße").
-restaurant("Frauengasse").
-restaurant("Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Blumental").
+initlocation($p,"Aßmayergasse").
+initlocation($p,"Arminenstraße").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Zentralfriedhof 1Tor").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Versorgungsheimplatz").
+initlocation($p,"Blumental").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+restaurant("Hardtgasse").
+restaurant("Versorgungsheimplatz").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Diesterweggasse").
+restaurant("Wienerfeldgasse").
+restaurant("Grillgasse").
+restaurant("Plößlgasse").
+restaurant("Oberzellergasse").
+restaurant("Gasometer").

@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Krottenbachstraße").
-initlocation(1,"Rennweg").
-initlocation(1,"Simmering").
-initlocation(1,"Schottentor").
-initlocation(1,"Münchendorf Bahnhof").
-initlocation(1,"Unterradlberg Bahnhof").
-sequence(1,0, "Krottenbachstraße").
+initlocation($p,"Johnstraße").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Alterlaa").
+initlocation($p,"Praterkai").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Johnstraße").
 person(2).
-initlocation(2,"Klosterneuburg-Weidling Bf").
-initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Niederhofstraße").
-initlocation(2,"Hausfeldstraße").
-initlocation(2,"Matzleinsdorfer Platz").
-sequence(2,0, "Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Bisamberg Bahnhof").
-restaurant("Neulengbach Stadt Bahnhof".
-restaurant("Erzherzog-Karl-Straße".
-restaurant("Donauinsel".
-restaurant("Hainburg/Donau Personenbhf".
-restaurant("Neulengbach Bahnhof".
-restaurant("Gemeinlebarn Bahnhof").
+initlocation($p,"Hernals").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Grillgasse").
+initlocation($p,"Praterstern").
+initlocation($p,"Hernals").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Nestroyplatz").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Breitensee").
+restaurant("Hausleiten Bahnhof").
+restaurant("Stockerau Bahnhof").

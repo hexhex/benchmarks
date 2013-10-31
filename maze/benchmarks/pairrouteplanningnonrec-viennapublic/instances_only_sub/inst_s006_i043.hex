@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Hetzendorf").
-initlocation(1,"Kagraner Platz").
-initlocation(1,"Nußdorf").
-initlocation(1,"Braunschweiggasse").
-initlocation(1,"Längenfeldgasse").
-initlocation(1,"Getzersdorf/Traisen Bahnhof").
-sequence(1,0, "Hetzendorf").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Stubentor").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Bahnhof Meidling").
+initlocation($p,"Hernals").
+initlocation($p,"Meidling Hauptstraße").
 person(2).
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Vorgartenstraße").
-initlocation(2,"St Pölten Hauptbahnhof").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Gumpoldskirchen Bahnhof").
-initlocation(2,"Wr Neustadt Nord").
-sequence(2,0, "Flughafen Wien (VIE).
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Blumental").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Rennweg").
+initlocation($p,"Pfaffstätten Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Mannswörth Bahnhof").
 possiblemeetinglocations("Heiligenstadt").
-restaurant("Dürrwien Bahnhof".
-restaurant("Landstraße-Wien Mitte".
-restaurant("Gumpoldskirchen Bahnhof".
-restaurant("Lanzendorf-Rannersdorf Bahnhof".
-restaurant("Kaiserebersdorf".
-restaurant("Mistelbach Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Münchendorf Bahnhof").
+restaurant("Donauspital").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Alterlaa").

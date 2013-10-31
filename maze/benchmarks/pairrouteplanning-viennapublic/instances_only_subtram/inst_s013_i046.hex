@@ -1,57 +1,56 @@
 person(1).
-initlocation(1,"Schottenfeldgasse").
-initlocation(1,"Sonnergasse").
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Anton-Schall-Gasse").
-initlocation(1,"Shuttleworthstraße").
-initlocation(1,"Hetzgasse").
-initlocation(1,"Korneuburg Bahnhof").
-initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(1,"Litfaßstraße").
-initlocation(1,"Innstraße").
-initlocation(1,"Brünner Straße/Hanreitergasse").
-initlocation(1,"Erzherzog-Karl-Straße").
-initlocation(1,"Jagdschloßgasse").
-sequence(1,0, "Schottenfeldgasse").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Stammersdorf").
+initlocation($p,"Lange Gasse").
+initlocation($p,"Fickeysstraße").
+initlocation($p,"Columbusplatz").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Stockholmer Platz").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
+initlocation($p,"Donaumarina").
+initlocation($p,"Eckpergasse").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
 person(2).
-initlocation(2,"Baumgasse").
-initlocation(2,"Himberg Bahnhof").
-initlocation(2,"Höchstädtplatz").
-initlocation(2,"Süßenbrunn").
-initlocation(2,"Mayerhofgasse").
-initlocation(2,"Kaisermühlen-VIC").
-initlocation(2,"Kärntner Ring/Oper").
-initlocation(2,"Neulerchenfelder Str/Brunneng").
-initlocation(2,"Wilfleinsdorf Bahnhof").
-initlocation(2,"Laaer-Berg-Straße").
-initlocation(2,"Mariahilfer Gürtel").
-initlocation(2,"Süßenbrunner Str/Oberfeldgasse").
-initlocation(2,"Stollgasse").
-sequence(2,0, "Baumgasse").
-possiblemeetinglocations("Silberwald Bahnhof").
+initlocation($p,"Martinstraße").
+initlocation($p,"Tesarekplatz").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Kaiserstraße").
+initlocation($p,"Geiereckstraße").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Rosensteingasse").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Hetzgasse").
+initlocation($p,"Versorgungsheimplatz").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Martinstraße").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Gruschaplatz").
 possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Löwengasse").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Nordwestbahnstraße").
-possiblemeetinglocations("Autokaderstraße").
-possiblemeetinglocations("Ottakringer Straße/Wattgasse").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Johann-Strauß-Gasse").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Shuttleworthstraße").
-restaurant("Blumengasse").
-restaurant("Flughafen Wien (VIE).
-Bahnhof").
-restaurant("Alser Straße").
-restaurant("Obere Augartenstraße").
-restaurant("Dresdner Straße").
-restaurant("Stadlau").
-restaurant("Sierndorf Bahnhof").
-restaurant("Liebknechtgasse").
-restaurant("Eckpergasse").
-restaurant("Reinlgasse/Märzstraße").
-restaurant("Stefan-Fadinger-Platz").
-restaurant("Laurentiusplatz").
-restaurant("Mayerhofgasse").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Trondheimgasse").
+restaurant("Simonygasse").
+restaurant("Vorgartenstraße").
+restaurant("Spillern Bahnhof").
+restaurant("Leopoldau").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Frödenplatz").
+restaurant("Wolf in der Au").
+restaurant("Mannswörth Bahnhof").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Blindengasse").
+restaurant("Schlachthausgasse").
+restaurant("Prandaugasse").

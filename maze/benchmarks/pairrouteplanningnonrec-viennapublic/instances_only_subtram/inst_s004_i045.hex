@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Gerasdorf Bahnhof").
-initlocation(1,"Eichgraben-Altlengbach Bahnhof").
-initlocation(1,"Prandaugasse").
-initlocation(1,"Strebersdorf").
-sequence(1,0, "Gerasdorf Bahnhof").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Taborstraße").
+initlocation($p,"Baumgarten").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Donauzentrum").
 person(2).
-initlocation(2,"Kendlerstraße").
-initlocation(2,"Diesterweggasse").
-initlocation(2,"Kledering Bahnhof").
-initlocation(2,"Resselgasse").
-sequence(2,0, "Kendlerstraße").
-possiblemeetinglocations("Kliebergasse").
-possiblemeetinglocations("Höchstädtplatz").
-possiblemeetinglocations("Windtenstraße").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-restaurant("Rodaun").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Carminweg").
-restaurant("Gaußplatz").
+initlocation($p,"Leopoldau").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Thaliastraße/Feßtgasse").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Leopoldau").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Hernals").
+restaurant("Am Spitz").
+restaurant("Staatz Bahnhof").
+restaurant("Teichgasse").
+restaurant("Stubentor").

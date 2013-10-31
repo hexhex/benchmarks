@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Johann-Strauß-Gasse").
-initlocation(1,"Schönbrunn").
-initlocation(1,"Laurentiusplatz").
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Gaisruck Bahnhof").
-sequence(1,0, "Johann-Strauß-Gasse").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Karmeliterplatz").
+initlocation($p,"Augasse").
+initlocation($p,"Kaiserebersdorf").
+initlocation($p,"Tesarekplatz").
+initlocation($p,"Karlsplatz").
 person(2).
-initlocation(2,"Aumannplatz").
-initlocation(2,"Stadtpark").
-initlocation(2,"Elterleinplatz").
-initlocation(2,"Antonigasse").
-initlocation(2,"Wr Neustadt Hauptbahnhof").
-sequence(2,0, "Aumannplatz").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Bauernfeldplatz").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Migerkastraße").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Pantucekgasse/Widholzgasse").
-restaurant("Krankenhaus Hietzing").
-restaurant("Trautmannsdorf/Leitha Bf").
-restaurant("Hetzgasse").
+initlocation($p,"Bernhardtstalgasse").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Praterkai").
+initlocation($p,"Verbindungsbahn").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Bernhardtstalgasse").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Laurenzgasse").
+restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Zieglergasse").

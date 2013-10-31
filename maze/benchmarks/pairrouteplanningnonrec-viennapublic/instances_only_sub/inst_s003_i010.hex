@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Pfaffstätten Bahnhof").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Wildungsmauer Bahnhof").
-sequence(1,0, "Pfaffstätten Bahnhof").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Schlachthausgasse").
 person(2).
-initlocation(2,"Stadtpark").
-initlocation(2,"Hadersdorf Bahnhof").
-initlocation(2,"Praterkai").
-sequence(2,0, "Stadtpark").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-restaurant("Hardeggasse".
-restaurant("Schlachthausgasse".
-restaurant("Gersthof").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Stubentor").
+initlocation($p,"Unter Sankt Veit").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Schottentor").

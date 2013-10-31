@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Floridsdorfer Markt").
-initlocation(1,"Sarasdorf Bahnhof").
-initlocation(1,"Shuttleworthstraße").
-initlocation(1,"Quellenstraße/Knöllgasse").
-sequence(1,0, "Floridsdorfer Markt").
+initlocation($p,"Unteres Belvedere").
+initlocation($p,"Silbergasse").
+initlocation($p,"Liesing").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Unteres Belvedere").
 person(2).
-initlocation(2,"Stephansplatz").
-initlocation(2,"Joachimsthalerplatz").
-initlocation(2,"Enzersdorf bei Staatz Bahnhof").
-initlocation(2,"An den langen Lüssen").
-sequence(2,0, "Stephansplatz").
-possiblemeetinglocations("Pokornygasse").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Brigittaplatz").
-possiblemeetinglocations("Am Heumarkt").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Lerchenfelder Straße").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
+initlocation($p,"Unter Kritzendorf Bahnhof").
+initlocation($p,"Kagraner Brücke").
+initlocation($p,"Liesing").
+initlocation($p,"Kaiserstraße").
+initlocation($p,"Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Molitorgasse").
+restaurant("Kottingneusiedl Bahnhof").
 restaurant("Hardeggasse").

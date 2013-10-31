@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Obereggendorf Bahnhof").
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Augasse").
-initlocation(1,"Mistelbach Bahnhof").
-initlocation(1,"Zentralfriedhof 4Tor").
-initlocation(1,"Perntergasse").
-initlocation(1,"Gunoldstraße").
-initlocation(1,"Purkersdorf Zentrum Bahnhof").
-sequence(1,0, "Obereggendorf Bahnhof").
+initlocation($p,"Liesing").
+initlocation($p,"Hohe Warte").
+initlocation($p,"Prandaugasse").
+initlocation($p,"Pantucekgasse/Widholzgasse").
+initlocation($p,"Burgring").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Döblinger Hauptstr/Gatterburgg").
+initlocation($p,"Absberggasse").
+initlocation($p,"Liesing").
 person(2).
-initlocation(2,"Silbergasse").
-initlocation(2,"Gutraterplatz").
-initlocation(2,"Stollgasse").
-initlocation(2,"Stadlau").
-initlocation(2,"Breitenfurter St/Altmannsd Str").
-initlocation(2,"Klosterneuburg-Kierling Bf").
-initlocation(2,"Aspern Nord").
-initlocation(2,"Heiligenstadt, 12-Februar-Pl").
-sequence(2,0, "Silbergasse").
-possiblemeetinglocations("Schwarzenbergplatz").
-possiblemeetinglocations("Leberberg").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Maurer Hauptplatz").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Simonygasse").
-possiblemeetinglocations("Svetelskystraße").
-possiblemeetinglocations("Teichgasse").
-restaurant("Bahnhof Meidling").
-restaurant("Rußbergstraße").
-restaurant("Bahnsteggasse").
-restaurant("Dürrwien Bahnhof").
-restaurant("Stubentor").
-restaurant("Neuwaldegg").
-restaurant("Achau Bahnhof").
-restaurant("Kaiserstraße").
+initlocation($p,"Sahulkastraße").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Franzensbrücke").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Wallrißstraße").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Herbeckstraße").
+initlocation($p,"Kölblgasse").
+initlocation($p,"Sahulkastraße").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Otto-Probst-Platz").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Strasshof Bahnhof").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Jägerstraße").
+restaurant("Münchendorf Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Marienbrücke").
+restaurant("Wr Neustadt Nord").

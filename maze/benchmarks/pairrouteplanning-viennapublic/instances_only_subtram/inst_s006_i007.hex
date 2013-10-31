@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Anton-Schall-Gasse").
-initlocation(1,"Mödling Bahnhof").
-initlocation(1,"Schwarzenbergplatz").
-initlocation(1,"Plößlgasse").
-initlocation(1,"Wolkersdorf Bahnhof").
-initlocation(1,"Wexstraße").
-sequence(1,0, "Anton-Schall-Gasse").
+initlocation($p,"Paradisgasse").
+initlocation($p,"Quellenstraße/Favoritenstraße").
+initlocation($p,"Franzensbrücke").
+initlocation($p,"Pokornygasse").
+initlocation($p,"Litfaßstraße").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Paradisgasse").
 person(2).
-initlocation(2,"Siebenhirten").
-initlocation(2,"St Andrä-Wördern Bahnhof").
-initlocation(2,"Zentralfriedhof").
-initlocation(2,"Herzogenburg Bahnhof").
-initlocation(2,"Wr Neustadt Nord").
-initlocation(2,"Blechturmgasse").
-sequence(2,0, "Siebenhirten").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Am Tabor").
-possiblemeetinglocations("Troststraße/Neilreichgasse").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Bahnsteggasse").
-possiblemeetinglocations("Hardeggasse").
-restaurant("Heiligenstadt, 12-Februar-Pl").
-restaurant("Molitorgasse").
-restaurant("Reinlgasse/Märzstraße").
-restaurant("Hardeggasse").
-restaurant("Am Heidjöchl/Hausfeldstraße").
-restaurant("Hirschstetten").
+initlocation($p,"Donaustadtstraße").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Ungargasse/Neulinggasse").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Gerstnerstraße/Westbhf").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Donaustadtstraße").
+possiblemeetinglocations("Empergergasse").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Pilgramgasse").
+restaurant("Himmelmutterweg").
+restaurant("Kölblgasse").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Kettenbrückengasse").
+restaurant("Scheibenbergstraße").
+restaurant("Bad Vöslau Bahnhof").

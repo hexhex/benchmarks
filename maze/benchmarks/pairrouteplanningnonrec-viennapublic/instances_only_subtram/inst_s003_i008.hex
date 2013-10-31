@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Burgring").
-initlocation(1,"Herzogenburg Bahnhof").
-initlocation(1,"Anton-Schall-Gasse").
-sequence(1,0, "Burgring").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Gersthof").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Perchtoldsdorf Bahnhof").
 person(2).
-initlocation(2,"Fichtnergasse").
-initlocation(2,"Wallrißstraße").
-initlocation(2,"Unterpurkersdorf Bahnhof").
-sequence(2,0, "Fichtnergasse").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Zentralfriedhof 4Tor").
-possiblemeetinglocations("Aspernstraße").
-restaurant("Herrengasse").
+initlocation($p,"Hauptbahnhof Ost").
+initlocation($p,"Siebensterngasse").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Hauptbahnhof Ost").
+possiblemeetinglocations("Penzinger Straße").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Am Spitz").
+restaurant("Michelbeuern-AKH").
 restaurant("Meidling Hauptstraße").
-restaurant("Hetzendorf").
+restaurant("Stadlergasse").

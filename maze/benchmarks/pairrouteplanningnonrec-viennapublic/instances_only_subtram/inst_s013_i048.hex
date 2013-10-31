@@ -1,59 +1,56 @@
 person(1).
-initlocation(1,"Volkstheater").
-initlocation(1,"Aßmayergasse").
-initlocation(1,"Gerhardusgasse").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Bad Vöslau Bahnhof").
-initlocation(1,"Linzer Straße/Johnstraße").
-initlocation(1,"Maria Ellend Bahnhof").
-initlocation(1,"Alser Straße").
-initlocation(1,"Rampengasse").
-initlocation(1,"Pötzleinsdorf").
-initlocation(1,"Blechturmgasse").
-initlocation(1,"Zentralfriedhof 2Tor").
-initlocation(1,"Tesarekplatz").
-sequence(1,0, "Volkstheater").
+initlocation($p,"Karmeliterplatz").
+initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
+initlocation($p,"Nußdorf").
+initlocation($p,"Pokornygasse").
+initlocation($p,"Schuhmeierplatz").
+initlocation($p,"Forstnergasse").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Taborstraße").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Obere Donaustraße").
+initlocation($p,"Karmeliterplatz").
 person(2).
-initlocation(2,"Stockerau Bahnhof").
-initlocation(2,"Schottentor").
-initlocation(2,"Kaiserstraße/Burggasse").
-initlocation(2,"Hetzendorf").
-initlocation(2,"Mistelbach Bahnhof").
-initlocation(2,"Viehmarktgasse").
-initlocation(2,"Mannswörth Bahnhof").
-initlocation(2,"Schöffelgasse").
-initlocation(2,"Oberdöbling").
-initlocation(2,"Gußhausstraße").
-initlocation(2,"Taborstraße/Heinestraße").
-initlocation(2,"Johannes-Krawarik-Gasse").
-initlocation(2,"Gemeinlebarn Bahnhof").
-sequence(2,0, "Stockerau Bahnhof").
-possiblemeetinglocations("Glatzgasse").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Stephansplatz").
-possiblemeetinglocations("Erdberg").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Rennweg").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Althanstraße").
+initlocation($p,"Diesterweggasse").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+initlocation($p,"Marxergasse").
+initlocation($p,"Hütteldorfer Str/Hochsatzeng").
+initlocation($p,"Stammersdorf").
+initlocation($p,"Wienerfeldgasse").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Römergasse").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
 possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Fichtnergasse").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Mayssengasse").
-restaurant("Bahnhof Meidling/Eichenstraße").
-restaurant("Geiereckstraße").
-restaurant("Pressbaum Bahnhof").
-restaurant("Leberberg").
-restaurant("Haidestraße").
-restaurant("Stefan-Fadinger-Platz").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Hernalser Hauptstr/Wattgasse").
-restaurant("Flughafen Wien (VIE).
-Bahnhof").
-restaurant("Hermesstraße").
-restaurant("Felixdorf Bahnhof").
-restaurant("Siebenhirten (NÖ).
-Haltestelle").
-restaurant("Joachimsthalerplatz").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Hauptbahnhof Ost").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+restaurant("Krankenhaus Hietzing").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Liesing").
+restaurant("Silberwald Bahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Unter Sankt Veit").
+restaurant("Am Spitz").
+restaurant("Perntergasse").
+restaurant("Florianigasse").
+restaurant("Schwarzspanierstraße").
+restaurant("Johnstraße").
+restaurant("Wallrißstraße").

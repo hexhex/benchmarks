@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Dommayergasse").
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Migerkastraße").
-sequence(1,0, "Dommayergasse").
+initlocation($p,"Volkstheater").
+initlocation($p,"Lerchenfelder Straße").
+initlocation($p,"Satzberggasse").
+initlocation($p,"Volkstheater").
 person(2).
-initlocation(2,"Hörersdorf Bahnhof").
-initlocation(2,"Sickenberggasse").
-initlocation(2,"Greifenstein-Altenberg Bahnhof").
-sequence(2,0, "Hörersdorf Bahnhof").
-possiblemeetinglocations("Gatterburggasse").
-possiblemeetinglocations("Thaliastraße/Haberlgasse").
-possiblemeetinglocations("Marx-Meidlinger-Straße").
-restaurant("Glatzgasse").
-restaurant("Kaisermühlen-VIC").
-restaurant("Atzgersdorf").
+initlocation($p,"Unteres Belvedere").
+initlocation($p,"Winckelmannstraße").
+initlocation($p,"Lerchenfelder Straße").
+initlocation($p,"Unteres Belvedere").
+possiblemeetinglocations("Wallensteinplatz").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Tulln Bahnhof").
+restaurant("Pötzleinsdorf").
+restaurant("Museumsquartier").
+restaurant("Forstnergasse").

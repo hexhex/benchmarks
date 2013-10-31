@@ -1,37 +1,36 @@
 person(1).
-initlocation(1,"Paasdorf Bahnhof").
-initlocation(1,"Schottentor").
-initlocation(1,"Rennweg").
-initlocation(1,"Hautzendorf Bahnhof").
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-initlocation(1,"St Pölten Traisenpark P+R Nord").
-initlocation(1,"Neulengbach Stadt Bahnhof").
-initlocation(1,"Unteroberndorf Bahnhof").
-sequence(1,0, "Paasdorf Bahnhof").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Ottakring").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Weigelsdorf Bahnhof").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Sierndorf Bahnhof").
+initlocation($p,"Deutsch-Wagram Bahnhof").
 person(2).
-initlocation(2,"Quartier Belvedere").
-initlocation(2,"Weidlingau Bahnhof").
-initlocation(2,"St Andrä-Wördern Bahnhof").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Kritzendorf Bahnhof").
-initlocation(2,"Taborstraße").
-initlocation(2,"Preyergasse/Speising").
-initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
-sequence(2,0, "Quartier Belvedere").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Stubentor").
-restaurant("Traismauer Bahnhof".
-restaurant("Getzersdorf/Traisen Bahnhof".
-restaurant("Oberradlberg Bahnhof".
-restaurant("Roßauer Lände".
-restaurant("Wilfleinsdorf Bahnhof".
-restaurant("Hardeggasse".
-restaurant("Hennersdorf Bahnhof".
-restaurant("Parndorf Ort Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Johnstraße").
+initlocation($p,"Schönborn Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Reumannplatz").
+restaurant("Donaustadtbrücke").
+restaurant("Siebenhirten (NÖ). Haltestelle").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Bisamberg Bahnhof").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Rennbahnweg").
+restaurant("Nußdorfer Straße").

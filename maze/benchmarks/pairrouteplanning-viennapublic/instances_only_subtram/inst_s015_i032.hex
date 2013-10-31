@@ -1,64 +1,64 @@
 person(1).
-initlocation(1,"Sarasdorf Bahnhof").
-initlocation(1,"Kutschkergasse").
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Stadtpark").
-initlocation(1,"Rustengasse").
-initlocation(1,"Klosterneuburg-Kierling Bf").
-initlocation(1,"Ladendorf Bahnhof").
-initlocation(1,"Schwarzenbergplatz").
-initlocation(1,"Hohe Warte").
-initlocation(1,"Aderklaaer Straße").
-initlocation(1,"Quellenstraße/Knöllgasse").
-initlocation(1,"Linzer Straße/Zehetnergasse").
-initlocation(1,"Gramatneusiedl Bahnhof").
-initlocation(1,"Hainburg/Donau Ungartor/B9").
-sequence(1,0, "Sarasdorf Bahnhof").
+initlocation($p,"Am Heidjöchl").
+initlocation($p,"Rußbergstraße").
+initlocation($p,"Gusenleithnergasse").
+initlocation($p,"Sieveringer Straße").
+initlocation($p,"Sillerplatz").
+initlocation($p,"Hubertusdamm").
+initlocation($p,"Gußhausstraße").
+initlocation($p,"An den langen Lüssen").
+initlocation($p,"Linzer Straße/Johnstraße").
+initlocation($p,"Erdbergstr/Schlachthausgasse").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Wallensteinplatz").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Am Heidjöchl").
 person(2).
-initlocation(2,"Volkstheater").
-initlocation(2,"Südtiroler Platz/Hauptbahnhof").
-initlocation(2,"Favoritenstraße/Troststraße").
-initlocation(2,"Teichgasse").
-initlocation(2,"Wallrißstraße").
-initlocation(2,"Paradisgasse").
-initlocation(2,"Messe-Prater").
-initlocation(2,"Wexstraße").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Strozzigasse").
-initlocation(2,"Ottakring").
-initlocation(2,"Mariahilfer Gürtel").
-initlocation(2,"Baumgarten").
-initlocation(2,"Erndtgasse").
-sequence(2,0, "Volkstheater").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Hofwiesengasse").
-possiblemeetinglocations("Rosensteingasse").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Obere Augartenstraße").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Stiftgasse").
-possiblemeetinglocations("Sieveringer Straße").
-possiblemeetinglocations("Grinzinger Straße").
-possiblemeetinglocations("Penzinger Straße").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Schottenfeldgasse").
-possiblemeetinglocations("Sensengasse").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Joachimsthalerplatz").
-restaurant("Hütteldorfer Str/Hochsatzeng").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Eckpergasse").
-restaurant("Klosterneuburg-Weidling Bf").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Plößlgasse").
+initlocation($p,"Migerkastraße").
+initlocation($p,"Gloriettegasse").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Hietzing").
+initlocation($p,"Nordwestbahnstraße").
+initlocation($p,"Althanstraße").
+initlocation($p,"St Pölten Hauptbahnhof").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Redtenbachergasse").
+possiblemeetinglocations("Maurer Hauptplatz").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Gruschaplatz").
+restaurant("Taborstraße").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Baumgarten").
+restaurant("Arminenstraße").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Silberwald Bahnhof").
+restaurant("Alaudagasse").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Stiftgasse").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Preyergasse/Speising").
+restaurant("Spitalgasse/Währinger Straße").
 restaurant("Sillerplatz").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Rochusgasse").
-restaurant("Rußbergstraße").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Palffygasse").

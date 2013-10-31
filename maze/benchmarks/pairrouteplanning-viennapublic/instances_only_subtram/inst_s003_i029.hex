@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Achau Bahnhof").
-initlocation(1,"Römergasse").
-initlocation(1,"Herbeckstraße").
-sequence(1,0, "Achau Bahnhof").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Donaustadtbrücke").
 person(2).
-initlocation(2,"Kledering Bahnhof").
-initlocation(2,"Riedelgasse").
-initlocation(2,"Liechtenwerder Platz").
-sequence(2,0, "Kledering Bahnhof").
-possiblemeetinglocations("Konstanziagasse").
-possiblemeetinglocations("Paradisgasse").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-restaurant("Atzgersdorf").
-restaurant("Lainz, Wolkersbergenstraße").
-restaurant("Hausfeldstraße").
+initlocation($p,"Valiergasse").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Am Spitz").
+initlocation($p,"Valiergasse").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+restaurant("Hietzing").
+restaurant("Althanstraße").
+restaurant("Obereggendorf Bahnhof").

@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Rekawinkel Bahnhof").
-initlocation(1,"Spittelau").
-initlocation(1,"Pressbaum Bahnhof").
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Sankt Marx").
-sequence(1,0, "Rekawinkel Bahnhof").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Stadion").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Leobersdorf Bahnhof").
 person(2).
-initlocation(2,"Wr Neustadt Hauptbahnhof").
-initlocation(2,"Alte Donau").
-initlocation(2,"Nestroyplatz").
-initlocation(2,"Himberg Bahnhof").
-initlocation(2,"Mistelbach Stadt").
-sequence(2,0, "Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Vorgartenstraße").
-restaurant("Mödling Bahnhof".
-restaurant("Neulengbach Stadt Bahnhof".
-restaurant("Parndorf Ort Bahnhof".
-restaurant("Schönborn Bahnhof".
-restaurant("Unter Sankt Veit").
+initlocation($p,"Praterkai").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Praterkai").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+restaurant("Kagran").
+restaurant("Rathaus").
+restaurant("Rochusgasse").
+restaurant("Siebenhirten").
+restaurant("Aderklaaer Straße").

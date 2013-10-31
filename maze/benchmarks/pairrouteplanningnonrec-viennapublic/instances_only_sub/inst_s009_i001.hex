@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Mannswörth Bahnhof").
-initlocation(1,"Kendlerstraße").
-initlocation(1,"Kottingneusiedl Bahnhof").
-initlocation(1,"Braunschweiggasse").
-initlocation(1,"Schwechat Bahnhof").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Ladendorf Bahnhof").
-initlocation(1,"Stockerau Bahnhof").
-sequence(1,0, "Mannswörth Bahnhof").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Bahnhof Meidling").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Pfaffstätten Bahnhof").
 person(2).
-initlocation(2,"Schottentor").
-initlocation(2,"Rennweg").
-initlocation(2,"Dresdner Straße").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Museumsquartier").
-initlocation(2,"Währinger Straße-Volksoper").
-initlocation(2,"Felixdorf Bahnhof").
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Erzherzog-Karl-Straße").
-sequence(2,0, "Schottentor").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Wolf in der Au").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Liesing").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Leopoldau").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Preyergasse/Speising").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
 possiblemeetinglocations("Paasdorf Bahnhof").
-restaurant("Hadersdorf Bahnhof".
-restaurant("Bruck/Leitha Bahnhof".
-restaurant("Unter Kritzendorf Bahnhof".
-restaurant("Moosbierbaum-Heiligeneich Bf".
-restaurant("Aspernstraße".
-restaurant("Nestroyplatz".
-restaurant("Hainburg/Donau Personenbhf".
-restaurant("Handelskai".
-restaurant("Silberwald Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+restaurant("Westbahnhof").
+restaurant("Traisengasse").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Viehofen Bahnhof").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Strebersdorf").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Aspernstraße").

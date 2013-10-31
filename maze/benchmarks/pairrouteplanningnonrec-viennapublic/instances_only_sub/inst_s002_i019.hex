@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Reumannplatz").
-sequence(1,0, "Theresienfeld Bahnhof").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
 person(2).
-initlocation(2,"Kettenbrückengasse").
-initlocation(2,"Leobersdorf Bahnhof").
-sequence(2,0, "Kettenbrückengasse").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Alser Straße").
-restaurant("Enzersdorf bei Staatz Bahnhof".
-restaurant("Bisamberg Bahnhof").
+initlocation($p,"Haidestraße").
+initlocation($p,"Krieau").
+initlocation($p,"Haidestraße").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+restaurant("Oberradlberg Bahnhof").
+restaurant("St Pölten Hauptbahnhof").

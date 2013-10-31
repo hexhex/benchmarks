@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Wr Neustadt Civitas Nova").
-initlocation(1,"Hütteldorf").
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Erlaaer Straße").
-initlocation(1,"Traismauer Bahnhof").
-initlocation(1,"Hollabrunn Bahnhof").
-sequence(1,0, "Wr Neustadt Civitas Nova").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Taborstraße").
+initlocation($p,"Alser Straße").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Rathaus").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Kaisermühlen-VIC").
 person(2).
-initlocation(2,"Ottakring").
-initlocation(2,"Neulengbach Bahnhof").
-initlocation(2,"Baden Bahnhof").
-initlocation(2,"Hetzendorf").
-initlocation(2,"Matzleinsdorfer Platz").
-initlocation(2,"Reumannplatz").
-initlocation(2,"Weigelsdorf Bahnhof").
-sequence(2,0, "Ottakring").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Floridsdorf").
-restaurant("Ulrichskirchen Bahnhof".
-restaurant("Breitensee".
-restaurant("Purkersdorf Zentrum Bahnhof".
-restaurant("Bad Deutsch-Altenburg Bahnhof".
-restaurant("Schottenring".
-restaurant("Kottingneusiedl Bahnhof".
-restaurant("Landstraße-Wien Mitte").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Erdberg").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Schottenring").
+restaurant("Stadlau").
+restaurant("Tscherttegasse").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Schottenring").
+restaurant("Haidestraße").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof").

@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"St Pölten Hauptbahnhof").
-sequence(1,0, "St Pölten Hauptbahnhof").
+initlocation($p,"Hernals").
+initlocation($p,"Hernals").
 person(2).
-initlocation(2,"Lobau").
-sequence(2,0, "Lobau").
-possiblemeetinglocations("Spittelau").
-restaurant("Trasdorf Bahnhof").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Wolfsthal Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Parndorf Ort Bahnhof").

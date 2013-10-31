@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Türkenschanzplatz").
-initlocation(1,"An den langen Lüssen").
-initlocation(1,"Knöllgasse/Davidgasse").
-initlocation(1,"Salztorbrücke").
-initlocation(1,"Laurentiusplatz").
-sequence(1,0, "Türkenschanzplatz").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Floridsdorfer Markt").
+initlocation($p,"Grinzinger Straße").
+initlocation($p,"Schleiergasse").
+initlocation($p,"Tesarekplatz").
+initlocation($p,"Unterpurkersdorf Bahnhof").
 person(2).
-initlocation(2,"St Pölten Hauptbahnhof").
-initlocation(2,"Wallensteinplatz").
-initlocation(2,"Höchstädtplatz").
-initlocation(2,"Hainburg/Donau Personenbhf").
-initlocation(2,"Prandaugasse").
-sequence(2,0, "St Pölten Hauptbahnhof").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Paradisgasse").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Zentralfriedhof").
-restaurant("Verbindungsbahn").
-restaurant("Liebknechtgasse").
-restaurant("Salztorbrücke").
-restaurant("Münchendorf Bahnhof").
-restaurant("Ulrichskirchen Bahnhof").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Elterleinplatz").
+initlocation($p,"Fickeysstraße").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Langenlebarn Bahnhof").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Skodagasse").
+restaurant("Schlachthausgasse").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Am Heumarkt").

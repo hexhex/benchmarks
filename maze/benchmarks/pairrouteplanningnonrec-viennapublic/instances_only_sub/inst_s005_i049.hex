@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Spillern Bahnhof").
-initlocation(1,"Leobersdorf Bahnhof").
-initlocation(1,"Wr Neustadt Civitas Nova").
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Atzgersdorf").
-sequence(1,0, "Spillern Bahnhof").
+initlocation($p,"Traisengasse").
+initlocation($p,"Achau Bahnhof").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Traisengasse").
 person(2).
-initlocation(2,"Erdberg").
-initlocation(2,"Thaliastraße").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"Gumpendorfer Straße").
-initlocation(2,"Hainburg/Donau Personenbhf").
-sequence(2,0, "Erdberg").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Mödling Bahnhof").
-restaurant("Friedensbrücke".
-restaurant("Bruck/Leitha Bahnhof".
-restaurant("Stockerau Bahnhof".
-restaurant("Krieau".
-restaurant("Parndorf Ort Bahnhof").
+initlocation($p,"Leopoldau").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Leopoldau").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Rathaus").
+restaurant("Stadtpark").
+restaurant("Breitensee").

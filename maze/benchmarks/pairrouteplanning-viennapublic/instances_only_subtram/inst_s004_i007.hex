@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Bahnhof Meidling").
-initlocation(1,"Blindengasse").
-initlocation(1,"Alsegger Straße").
-initlocation(1,"Brünnlbadgasse").
-sequence(1,0, "Bahnhof Meidling").
+initlocation($p,"Spittelau").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Arminenstraße").
+initlocation($p,"Favoritenstraße/Troststraße").
+initlocation($p,"Spittelau").
 person(2).
-initlocation(2,"Wattmanngasse").
-initlocation(2,"Hennersdorf Bahnhof").
-initlocation(2,"Kaiserebersdorf, Zinnergasse").
-initlocation(2,"Silberwald Bahnhof").
-sequence(2,0, "Wattmanngasse").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-restaurant("Dresdner Straße").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Schottenfeldgasse").
-restaurant("Wienerfeldgasse").
+initlocation($p,"Tullnerfeld Bahnhof").
+initlocation($p,"Hütteldorfer Str/Lützowgasse").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Michelbeuern-AKH").
+initlocation($p,"Tullnerfeld Bahnhof").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Blumengasse").
+restaurant("Gumpendorfer Straße").
+restaurant("Stadlau").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Kranzgasse").

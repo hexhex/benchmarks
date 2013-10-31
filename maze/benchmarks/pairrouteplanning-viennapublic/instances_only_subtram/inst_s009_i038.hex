@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Breitenwaida Bahnhof").
-initlocation(1,"Münchendorf Bahnhof").
-initlocation(1,"Lange Gasse").
-initlocation(1,"Konstanziagasse").
-initlocation(1,"Camillo-Sitte-Gasse").
-initlocation(1,"Kaiser-Franz-Josef-Straße").
-initlocation(1,"Platt Bahnhof").
-initlocation(1,"Dr-Karl-Renner-Ring").
-initlocation(1,"Johnstraße").
-sequence(1,0, "Breitenwaida Bahnhof").
+initlocation($p,"Saikogasse").
+initlocation($p,"Längenfeldgasse/Flurschützstr").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
+initlocation($p,"Mariahilfer Gürtel").
+initlocation($p,"Otto-Probst-Platz").
+initlocation($p,"Nußdorf, Beethovengang").
+initlocation($p,"Seestadt").
+initlocation($p,"Saikogasse").
 person(2).
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Laxenburger Straße/Troststraße").
-initlocation(2,"Aßmayergasse").
-initlocation(2,"Rauscherstraße").
-initlocation(2,"Bahnsteggasse").
-initlocation(2,"Yppengasse").
-initlocation(2,"Türkenschanzplatz").
-initlocation(2,"Laurentiusplatz").
-initlocation(2,"Friedrich-Engels-Platz").
-sequence(2,0, "Hofstatt Bahnhof").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Gerhardusgasse").
+initlocation($p,"Donaustadtstraße").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Kölblgasse").
+initlocation($p,"Brigittaplatz").
+initlocation($p,"Kaiserstraße/Westbahnstraße").
+initlocation($p,"Grillgasse").
+initlocation($p,"Wexstraße").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+initlocation($p,"Donaustadtstraße").
+possiblemeetinglocations("Eichenstraße").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
 possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Stiftgasse").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Brünner Straße").
-restaurant("Obersdorf Bahnhof").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Hauptbahnhof Ost").
-restaurant("Stadiongasse/Parlament").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Rampengasse").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Kutschkergasse").
+restaurant("Winckelmannstraße").
+restaurant("Am Tabor").
+restaurant("Windtenstraße").
+restaurant("Lerchenfelder Straße").
+restaurant("Schwedenplatz").
+restaurant("Pokornygasse").
+restaurant("Albertgasse").
+restaurant("Nußdorfer Str/Alserbachstraße").
+restaurant("Nußdorf").

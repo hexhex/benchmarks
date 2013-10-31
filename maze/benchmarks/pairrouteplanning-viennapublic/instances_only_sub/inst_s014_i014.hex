@@ -1,62 +1,60 @@
 person(1).
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Thaliastraße").
-initlocation(1,"Himberg Bahnhof").
-initlocation(1,"Nußdorfer Straße").
-initlocation(1,"Perchtoldsdorf Bahnhof").
-initlocation(1,"Ottakring").
-initlocation(1,"Herrengasse").
-initlocation(1,"Deutsch-Wagram Bahnhof").
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Aderklaaer Straße").
-initlocation(1,"Langenzersdorf Bahnhof").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Schottenring").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-sequence(1,0, "Siebenhirten (NÖ).
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Nußdorf").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Gasometer").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Tullnerfeld Bahnhof").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
 person(2).
-initlocation(2,"Ober Sankt Veit").
-initlocation(2,"Gasometer").
-initlocation(2,"Wr Neustadt Civitas Nova").
-initlocation(2,"Theresienfeld Bahnhof").
-initlocation(2,"Gumpendorfer Straße").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Getzersdorf/Traisen Bahnhof").
-initlocation(2,"Praterstern").
-initlocation(2,"Alser Straße").
-initlocation(2,"Neusiedl am See Bahnhof").
-initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(2,"Weidlingau Bahnhof").
-initlocation(2,"Absdorf-Hippersdorf Bahnhof").
-initlocation(2,"Bisamberg Bahnhof").
-sequence(2,0, "Ober Sankt Veit").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Brünner Straße").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Stubentor").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Spittelau").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Vorgartenstraße").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Mödling Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
 possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
 possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Taborstraße").
-restaurant("Maria Ellend Bahnhof".
-restaurant("Reumannplatz".
-restaurant("Gersthof".
-restaurant("Stadion".
-restaurant("Haidestraße".
-restaurant("Sarasdorf Bahnhof".
-restaurant("Schwedenplatz".
-restaurant("Breitensee".
-restaurant("Gemeinlebarn Bahnhof".
-restaurant("Zentralfriedhof".
-restaurant("Kettenbrückengasse".
-restaurant("Landstraße-Wien Mitte".
-restaurant("Hörersdorf Bahnhof".
-restaurant("Traismauer Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Paasdorf Bahnhof").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Museumsquartier").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Bisamberg Bahnhof").
+restaurant("Neubaugasse").
+restaurant("Gersthof").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Josefstädter Straße").
+restaurant("Dürrwien Bahnhof").
+restaurant("Burggasse-Stadthalle").
+restaurant("Mannswörth Bahnhof").
+restaurant("Laa an der Thaya Bahnhof").

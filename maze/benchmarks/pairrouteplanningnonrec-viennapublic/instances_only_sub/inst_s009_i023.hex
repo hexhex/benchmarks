@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Untertullnerbach Bahnhof").
-initlocation(1,"Friedensbrücke").
-initlocation(1,"Wolf in der Au").
-initlocation(1,"Sarasdorf Bahnhof").
-initlocation(1,"Tulln Stadt Bahnhof").
-initlocation(1,"Hernals").
-initlocation(1,"Gumpendorfer Straße").
-initlocation(1,"Burggasse-Stadthalle").
-initlocation(1,"Niederkreuzstetten Bahnhof").
-sequence(1,0, "Untertullnerbach Bahnhof").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Herrengasse").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Stadtpark").
+initlocation($p,"Michelhausen Bahnhof").
 person(2).
-initlocation(2,"Tulln Bahnhof").
-initlocation(2,"Zippererstraße").
-initlocation(2,"Messe-Prater").
-initlocation(2,"Purkersdorf Sanatorium").
-initlocation(2,"Breitensee").
-initlocation(2,"Wr Neustadt Nord").
-initlocation(2,"Stadion").
-initlocation(2,"Wolf in der Au").
-initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
-sequence(2,0, "Tulln Bahnhof").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Himberg Bahnhof").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Alte Donau").
+initlocation($p,"Gasometer").
+initlocation($p,"Alterlaa").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Stadtpark").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Platt Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
 possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Alte Donau").
-restaurant("Kettenbrückengasse".
-restaurant("Donauinsel".
-restaurant("Spillern Bahnhof".
-restaurant("Donaustadtbrücke".
-restaurant("Heiligenstadt".
-restaurant("Perfektastraße".
-restaurant("Enkplatz".
-restaurant("Schönborn Bahnhof".
-restaurant("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+restaurant("Schlachthausgasse").
+restaurant("Keplerplatz").
+restaurant("Messe-Prater").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Blumental").
+restaurant("Siebenhirten").
+restaurant("Tulln Bahnhof").

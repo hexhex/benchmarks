@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Hadersdorf Bahnhof").
-initlocation(1,"Tulln Stadt Bahnhof").
-sequence(1,0, "Hadersdorf Bahnhof").
+initlocation($p,"Schlickgasse").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Schlickgasse").
 person(2).
-initlocation(2,"Tullnerfeld Bahnhof").
-initlocation(2,"Frödenplatz").
-sequence(2,0, "Tullnerfeld Bahnhof").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-restaurant("Wr Neustadt Nord").
-restaurant("Neulengbach Stadt Bahnhof").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Tulln Stadt Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Gasometer").
+restaurant("Messe-Prater").
+restaurant("Tullnerfeld Bahnhof").

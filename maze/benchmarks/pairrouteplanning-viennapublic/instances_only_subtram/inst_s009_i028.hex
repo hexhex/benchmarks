@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Martinstraße").
-initlocation(1,"Mariahilfer Gürtel").
-initlocation(1,"Kettenbrückengasse").
-initlocation(1,"Altes Landgut").
-initlocation(1,"Alser Straße").
-initlocation(1,"Gramatneusiedl Bahnhof").
-initlocation(1,"Grinzinger Straße").
-initlocation(1,"Traismauer Bahnhof").
-initlocation(1,"Aderklaaer Straße").
-sequence(1,0, "Martinstraße").
+initlocation($p,"Praterstern").
+initlocation($p,"Alte Donau").
+initlocation($p,"Obere Augartenstraße").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Marx-Meidlinger-Straße").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Liebknechtgasse").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Praterstern").
 person(2).
-initlocation(2,"Zellerndorf Bahnhof").
-initlocation(2,"Blindengasse").
-initlocation(2,"Erdberg").
-initlocation(2,"Großfeldsiedlung").
-initlocation(2,"Niederhofstraße").
-initlocation(2,"Liechtenwerder Platz").
-initlocation(2,"Gumpendorfer Straße").
-initlocation(2,"Langenlebarn Bahnhof").
-initlocation(2,"Thaliastraße/Maroltingergasse").
-sequence(2,0, "Zellerndorf Bahnhof").
-possiblemeetinglocations("Shuttleworthstraße").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Guntherstraße").
-possiblemeetinglocations("Elterleinplatz").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Quellenstraße/Favoritenstraße").
-possiblemeetinglocations("Jägerstraße").
-restaurant("Svetelskystraße").
-restaurant("Blindengasse").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Pressbaum Bahnhof").
-restaurant("Rodaun").
-restaurant("Stadlau").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Alser Straße").
-restaurant("Gumpendorfer Straße").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Schottenfeldgasse").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Lazarettgasse").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"An den langen Lüssen").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Gerasdorf Bahnhof").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+restaurant("Gasometer").
+restaurant("Tscherttegasse").
+restaurant("Gutraterplatz").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Siebenhirten").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Paasdorf Bahnhof").

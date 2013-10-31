@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Laa an der Thaya Bahnhof").
-initlocation(1,"Pottendorf-Landegg Bahnhof").
-initlocation(1,"Alte Donau").
-initlocation(1,"Stollgasse").
-sequence(1,0, "Laa an der Thaya Bahnhof").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Linzer Straße/Reinlgasse").
+initlocation($p,"Eichenstraße").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
 person(2).
-initlocation(2,"Donaustadtbrücke").
-initlocation(2,"Großfeldsiedlung").
-initlocation(2,"Laaer-Berg-Straße").
-initlocation(2,"Liesing").
-sequence(2,0, "Donaustadtbrücke").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Schleinbach Bahnhof").
-restaurant("Josefstädter Straße").
-restaurant("Rosenhügelstraße").
-restaurant("Mistelbach Stadt").
-restaurant("Herrengasse").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Glatzgasse").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Taborstraße").
+restaurant("Gumpendorfer Straße").
+restaurant("Hernalser Gürtel").
+restaurant("Neuwaldegg").
+restaurant("An den langen Lüssen").

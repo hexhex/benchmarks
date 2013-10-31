@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Unter St Veit, Hummelgasse").
-initlocation(1,"Reumannplatz").
-initlocation(1,"Migerkastraße").
-initlocation(1,"Lainz, Wolkersbergenstraße").
-initlocation(1,"Sommarugagasse").
-initlocation(1,"Wolf in der Au").
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-initlocation(1,"Obere Donaustraße").
-initlocation(1,"Svetelskystraße").
-sequence(1,0, "Unter St Veit, Hummelgasse").
+initlocation($p,"Verbindungsbahn").
+initlocation($p,"Heinrich-Drimmel-Platz").
+initlocation($p,"Quellenstraße/Knöllgasse").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Troststraße/Neilreichgasse").
+initlocation($p,"Nordbrücke").
+initlocation($p,"Donaumarina").
+initlocation($p,"Laaer-Berg-Straße").
+initlocation($p,"Verbindungsbahn").
 person(2).
-initlocation(2,"Praterkai").
-initlocation(2,"Spillern Bahnhof").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Kaiserstraße/Neustiftgasse").
-initlocation(2,"Lederergasse").
-initlocation(2,"Erdberg").
-initlocation(2,"Schweglerstraße").
-initlocation(2,"Retz Bahnhof").
-initlocation(2,"Langobardenstraße").
-sequence(2,0, "Praterkai").
-possiblemeetinglocations("Brigittaplatz").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Brünnlbadgasse").
-possiblemeetinglocations("Pokornygasse").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Sickenberggasse").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Schottenfeldgasse").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Johnstraße").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Hildebrandgasse").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Redtenbachergasse").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Hernalser Gürtel").
-restaurant("Kendlerstraße").
+initlocation($p,"Laa an der Thaya Bahnhof").
+initlocation($p,"Hubertusdamm").
+initlocation($p,"Beingasse").
+initlocation($p,"Johann-Strauß-Gasse").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Teichgasse").
+initlocation($p,"Dornbach, Güpferlingstraße").
+initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation($p,"Am Spitz").
+initlocation($p,"Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("An den langen Lüssen").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Canisiusgasse").
+restaurant("Beingasse").
+restaurant("Rebhanngasse").
+restaurant("Plößlgasse").
+restaurant("Radetzkyplatz").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Gerhardusgasse").

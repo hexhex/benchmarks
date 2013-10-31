@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Kärntner Ring/Oper").
-initlocation(1,"St Pölten Traisenpark P+R Nord").
-initlocation(1,"Rochusgasse").
-initlocation(1,"Kendlerstraße").
-initlocation(1,"Stadiongasse/Parlament").
-initlocation(1,"Theresienfeld Bahnhof").
-sequence(1,0, "Kärntner Ring/Oper").
+initlocation($p,"Hernalser Gürtel").
+initlocation($p,"Gersthof").
+initlocation($p,"Reinlgasse/Märzstraße").
+initlocation($p,"Blumental").
+initlocation($p,"Kärntner Ring/Oper").
+initlocation($p,"Brünner Straße/Hanreitergasse").
+initlocation($p,"Hernalser Gürtel").
 person(2).
-initlocation(2,"Perchtoldsdorf Bahnhof").
-initlocation(2,"Gänserndorf Bahnhof").
-initlocation(2,"Ulrichskirchen Bahnhof").
-initlocation(2,"Donaustadtstraße").
-initlocation(2,"Pötzleinsdorf").
-initlocation(2,"Hubertusdamm").
-sequence(2,0, "Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Donaustadtstraße").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Sickenberggasse").
-possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
-restaurant("Heinrich-Drimmel-Platz").
-restaurant("Dürrwien Bahnhof").
-restaurant("Hoßplatz").
-restaurant("Zentralfriedhof").
-restaurant("Kleistgasse").
-restaurant("Mayssengasse").
+initlocation($p,"Himmelmutterweg").
+initlocation($p,"Penzinger Straße").
+initlocation($p,"Lainz, Wolkersbergenstraße").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Knöllgasse/Davidgasse").
+initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation($p,"Himmelmutterweg").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Gellertplatz").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Gunoldstraße").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Wenzgasse").
+restaurant("Wittelsbachstraße").

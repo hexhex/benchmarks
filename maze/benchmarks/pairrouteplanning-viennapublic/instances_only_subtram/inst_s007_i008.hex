@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Penzing").
-initlocation(1,"Canisiusgasse").
-initlocation(1,"Margaretengürtel/Arbeitergasse").
-initlocation(1,"Pantucekgasse/Widholzgasse").
-initlocation(1,"Ameisgasse").
-initlocation(1,"Schlachthausgasse").
-initlocation(1,"Herzogenburg Bahnhof").
-sequence(1,0, "Penzing").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Wallensteinplatz").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Palffygasse").
+initlocation($p,"Polgarstraße").
+initlocation($p,"Johann-Nepomuk-Berger-Platz").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Perchtoldsdorf Bahnhof").
 person(2).
-initlocation(2,"Scheibenbergstraße").
-initlocation(2,"Margaretengürtel").
-initlocation(2,"Pötzleinsdorf").
-initlocation(2,"Marxergasse").
-initlocation(2,"Rosenhügelstraße").
-initlocation(2,"Neulengbach Stadt Bahnhof").
-initlocation(2,"Alaudagasse").
-sequence(2,0, "Scheibenbergstraße").
-possiblemeetinglocations("Strozzigasse").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Leberberg").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Quellenplatz").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Gumpendorfer Straße").
-restaurant("Felixdorf Bahnhof").
-restaurant("Himmelmutterweg").
-restaurant("Laxenburger Str/Gudrunstraße").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Löwengasse").
-restaurant("Fickeysstraße").
-restaurant("Rathaus").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation($p,"Tscherttegasse").
+initlocation($p,"Aspern, Oberdorfstraße").
+initlocation($p,"Mayerhofgasse").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Donaumarina").
+initlocation($p,"Kendlerstraße").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Gellertplatz").
+restaurant("Karmeliterplatz").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Yppengasse").
+restaurant("Am Spitz").
+restaurant("Kledering Bahnhof").
+restaurant("Strasshof Bahnhof").
+restaurant("Bahnsteggasse").

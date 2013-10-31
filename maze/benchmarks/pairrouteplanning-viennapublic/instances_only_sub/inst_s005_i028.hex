@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Stubentor").
-initlocation(1,"Hernals").
-initlocation(1,"Wolkersdorf Bahnhof").
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Bisamberg Bahnhof").
-sequence(1,0, "Stubentor").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Aderklaaer Straße").
 person(2).
-initlocation(2,"Alterlaa").
-initlocation(2,"Geiselbergstraße").
-initlocation(2,"Achau Bahnhof").
-initlocation(2,"Breitensee").
-initlocation(2,"Enkplatz").
-sequence(2,0, "Alterlaa").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Guntramsdorf-Thallern").
+possiblemeetinglocations("Trasdorf Bahnhof").
 possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Erlaaer Straße").
-restaurant("Oberdöbling".
-restaurant("Guntramsdorf-Thallern".
-restaurant("Aspernstraße".
-restaurant("Korneuburg Bahnhof".
-restaurant("Bisamberg Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Quartier Belvedere").
+restaurant("Messe-Prater").
+restaurant("Lobau").
+restaurant("Taborstraße").
+restaurant("Kagraner Platz").
+restaurant("Kritzendorf Bahnhof").

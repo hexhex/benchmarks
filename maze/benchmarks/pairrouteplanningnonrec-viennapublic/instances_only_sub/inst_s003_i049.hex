@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Stephansplatz").
-initlocation(1,"Kagran").
-initlocation(1,"Platt Bahnhof").
-sequence(1,0, "Stephansplatz").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Frättingsdorf Bahnhof").
 person(2).
-initlocation(2,"Vorgartenstraße").
-initlocation(2,"Klosterneuburg-Weidling Bf").
-initlocation(2,"Silberwald Bahnhof").
-sequence(2,0, "Vorgartenstraße").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-restaurant("Himberg Bahnhof".
-restaurant("Heiligenstadt".
-restaurant("Kagraner Platz").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Schottentor").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Schwechat Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Schottenring").
+restaurant("Theresienfeld Bahnhof").

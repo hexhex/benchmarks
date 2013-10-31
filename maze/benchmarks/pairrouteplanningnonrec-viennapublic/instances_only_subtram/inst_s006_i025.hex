@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Hernalser Hauptstr/Wattgasse").
-initlocation(1,"Westbahnhof").
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Kaiserebersdorf").
-initlocation(1,"Krottenbachstraße").
-initlocation(1,"Blumengasse").
-sequence(1,0, "Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Jedlersdorf").
+initlocation($p,"Mariahilfer Gürtel").
+initlocation($p,"Rebhanngasse").
+initlocation($p,"Schmerlingplatz").
+initlocation($p,"Schöffelgasse").
+initlocation($p,"Höbersdorf Bahnhof").
 person(2).
-initlocation(2,"Sitzenberg-Reidling Bahnhof").
-initlocation(2,"Wr Neustadt Civitas Nova").
-initlocation(2,"Nordbahnstraße").
-initlocation(2,"Braunhubergasse").
-initlocation(2,"Wattmanngasse").
-initlocation(2,"Traisengasse").
-sequence(2,0, "Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Obere Augartenstraße").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Fichtnergasse").
-restaurant("Staglgasse").
-restaurant("Rampengasse").
-restaurant("Joachimsthalerplatz").
-restaurant("Koloniestraße").
+initlocation($p,"Seegasse").
+initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Kaiserstraße/Burggasse").
+initlocation($p,"Koppstraße/Panikengasse").
+initlocation($p,"Windtenstraße").
+initlocation($p,"Seegasse").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Resselgasse").
+restaurant("Winckelmannstraße").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Molitorgasse").
+restaurant("Unteroberndorf Bahnhof").

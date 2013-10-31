@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Breitenfurter St/Altmannsd Str").
-initlocation(1,"Praterkai").
-sequence(1,0, "Breitenfurter St/Altmannsd Str").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Gewerbepark Stadlau Mitte").
+initlocation($p,"St Andrä-Wördern Bahnhof").
 person(2).
-initlocation(2,"Neulengbach Stadt Bahnhof").
-initlocation(2,"Rathaus").
-sequence(2,0, "Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Siebensterngasse").
-possiblemeetinglocations("Platt Bahnhof").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Zellerndorf Bahnhof").
+initlocation($p,"Burgring").
+initlocation($p,"Taborstraße").
+initlocation($p,"Burgring").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Eichenstraße").
+restaurant("An den langen Lüssen").
+restaurant("Siebensterngasse").

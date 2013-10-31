@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Getzersdorf/Traisen Bahnhof").
-initlocation(1,"Wr Neustadt Hauptbahnhof").
-initlocation(1,"St Andrä-Wördern Bahnhof").
-initlocation(1,"Alterlaa").
-initlocation(1,"Eichgraben-Altlengbach Bahnhof").
-sequence(1,0, "Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Leopoldau").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
 person(2).
-initlocation(2,"Strasshof Bahnhof").
-initlocation(2,"Hernals").
-initlocation(2,"Herrengasse").
-initlocation(2,"Parndorf Ort Bahnhof").
-initlocation(2,"Reumannplatz").
-sequence(2,0, "Strasshof Bahnhof").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Blumental").
-restaurant("Nußdorf".
-restaurant("Friedensbrücke".
-restaurant("Hirschstetten".
-restaurant("Hainburg/Donau Personenbhf".
-restaurant("Zieglergasse").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Am Schöpfwerk").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Museumsquartier").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+restaurant("Paasdorf Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Helmahof Bahnhof").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Atzgersdorf").

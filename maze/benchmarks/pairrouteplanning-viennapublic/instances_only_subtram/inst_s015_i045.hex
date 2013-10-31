@@ -1,64 +1,64 @@
 person(1).
-initlocation(1,"Vinzenzgasse").
-initlocation(1,"Geiselbergstraße").
-initlocation(1,"Litfaßstraße").
-initlocation(1,"Joachimsthalerplatz").
-initlocation(1,"Langobardenstraße/Kapellenweg").
-initlocation(1,"Braunschweiggasse").
-initlocation(1,"Obere Augartenstraße").
-initlocation(1,"Breitenfurter Str/Liesingbr").
-initlocation(1,"Gredlerstraße").
-initlocation(1,"Hainburg/Donau Ungartor/B9").
-initlocation(1,"Marx-Meidlinger-Straße").
-initlocation(1,"Klosterneub Str/Wallensteinstr").
-initlocation(1,"Deutsch-Wagram Bahnhof").
-initlocation(1,"Knöllgasse/Troststraße").
-initlocation(1,"Mannswörth Bahnhof").
-sequence(1,0, "Vinzenzgasse").
+initlocation($p,"Spitalgasse/Währinger Straße").
+initlocation($p,"Alaudagasse").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Linzer Straße/Hochsatzengasse").
+initlocation($p,"Pötzleinsdorf").
+initlocation($p,"Schöffelgasse").
+initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation($p,"Frauengasse").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Hietzing").
+initlocation($p,"Heiligenstadt, 12-Februar-Pl").
+initlocation($p,"Thaliastraße/Maroltingergasse").
+initlocation($p,"Beingasse").
+initlocation($p,"Gerhardusgasse").
+initlocation($p,"Spitalgasse/Währinger Straße").
 person(2).
-initlocation(2,"Hütteldorf").
-initlocation(2,"Kaiserebersdorf").
-initlocation(2,"Yppengasse").
-initlocation(2,"Zieglergasse/Westbahnstraße").
-initlocation(2,"Haslau an der Donau Bahnhof").
-initlocation(2,"Stefan-Fadinger-Platz").
-initlocation(2,"Migerkastraße").
-initlocation(2,"Kaiserstraße/Burggasse").
-initlocation(2,"Mayssengasse").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Messe-Prater").
-initlocation(2,"Bisamberg Bahnhof").
-initlocation(2,"Langenlebarn Bahnhof").
-initlocation(2,"Am Spitz").
-initlocation(2,"Knöllgasse/Davidgasse").
-sequence(2,0, "Hütteldorf").
-possiblemeetinglocations("Glatzgasse").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Burgring").
-possiblemeetinglocations("Aspern, Oberdorfstraße").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Forstnergasse").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Herrengasse").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Staglgasse").
+initlocation($p,"Stadlau").
+initlocation($p,"Skodagasse").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Augasse").
+initlocation($p,"Hermesstraße").
+initlocation($p,"Zippererstraße").
 possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Carabelligasse").
-possiblemeetinglocations("Rußbergstraße").
-possiblemeetinglocations("Himmelmutterweg").
-possiblemeetinglocations("Stollgasse").
-possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Eichenstraße").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Joachimsthalerplatz").
 restaurant("Teichgasse").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Atzgersdorfer Straße").
-restaurant("Längenfeldgasse").
-restaurant("Höflein an der Donau Bahnhof").
-restaurant("Hardeggasse").
-restaurant("Stollgasse").
-restaurant("Frödenplatz").
-restaurant("Neubaugasse").
-restaurant("Margaretengürtel/Arbeitergasse").
-restaurant("Kaiserstraße/Burggasse").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Prater, Hauptallee").
-restaurant("Julius-Raab-Platz").
+restaurant("Burgring").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Nordwestbahnstraße").
+restaurant("Gaisruck Bahnhof").
+restaurant("Unter St Veit, Hummelgasse").
 restaurant("Schwechat Bahnhof").
+restaurant("Prater, Hauptallee").
+restaurant("An den langen Lüssen").
+restaurant("Hütteldorf").
+restaurant("Arthaberplatz").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Anschützgasse").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Breitenwaida Bahnhof").

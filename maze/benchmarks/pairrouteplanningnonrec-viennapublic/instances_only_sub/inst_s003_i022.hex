@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Kapellerfeld Bahnhof").
-initlocation(1,"Herrengasse").
-initlocation(1,"Schlachthausgasse").
-sequence(1,0, "Kapellerfeld Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Leopoldau").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
 person(2).
-initlocation(2,"Enkplatz").
-initlocation(2,"Donauspital").
-initlocation(2,"Hainburg/Donau Personenbhf").
-sequence(2,0, "Enkplatz").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-restaurant("Dürrwien Bahnhof".
-restaurant("Gersthof".
-restaurant("Johnstraße").
+initlocation($p,"Seestadt").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Seestadt").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Wolf in der Au").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Krottenbachstraße").
+restaurant("Korneuburg Bahnhof").

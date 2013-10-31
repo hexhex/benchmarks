@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Pottendorf-Landegg Bahnhof").
-initlocation(1,"Kranzgasse").
-initlocation(1,"Nußdorf").
-initlocation(1,"Zentralfriedhof 1Tor").
-initlocation(1,"Johann-Strauß-Gasse").
-initlocation(1,"Langobardenstraße/Kapellenweg").
-initlocation(1,"Hildebrandgasse").
-sequence(1,0, "Pottendorf-Landegg Bahnhof").
+initlocation($p,"Unteres Belvedere").
+initlocation($p,"Absberggasse").
+initlocation($p,"Gredlerstraße").
+initlocation($p,"Carminweg").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
+initlocation($p,"Unteres Belvedere").
 person(2).
-initlocation(2,"Reumannplatz").
-initlocation(2,"Alsegger Straße").
-initlocation(2,"Meidling Hauptstraße").
-initlocation(2,"Deutsch-Wagram Bahnhof").
-initlocation(2,"Spittelau").
-initlocation(2,"Simonygasse").
-initlocation(2,"Brigittaplatz").
-sequence(2,0, "Reumannplatz").
-possiblemeetinglocations("Carabelligasse").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Leberberg").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Antonigasse").
-possiblemeetinglocations("Schleiergasse").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Kritzendorf Bahnhof").
-restaurant("Aumannplatz").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Barawitzkagasse").
-restaurant("Palffygasse").
-restaurant("Wr Neustadt Civitas Nova").
+initlocation($p,"Quellenstraße/Knöllgasse").
+initlocation($p,"Wallrißstraße").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Laaer-Berg-Straße").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Schloss Hetzendorf").
+initlocation($p,"Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Bahnhofstraße").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Scheibenbergstraße").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Wildgansplatz").
+restaurant("Seyring Bahnhof").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Schleinbach Bahnhof").
+restaurant("Zentralfriedhof").
+restaurant("Regelsbrunn Bahnhof").

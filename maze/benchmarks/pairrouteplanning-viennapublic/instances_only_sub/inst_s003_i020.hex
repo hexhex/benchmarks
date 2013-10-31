@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Brünner Straße").
-initlocation(1,"Neubaugasse").
-initlocation(1,"Stadlau").
-sequence(1,0, "Brünner Straße").
+initlocation($p,"Leopoldau").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Leopoldau").
 person(2).
-initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(2,"Neulengbach Stadt Bahnhof").
-initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
-sequence(2,0, "Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Schottentor").
-restaurant("Zeiselmauer-Königstetten Bf".
-restaurant("Untertullnerbach Bahnhof".
-restaurant("Laa an der Thaya Bahnhof").
+initlocation($p,"Vorgartenstraße").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Silberwald Bahnhof").
+initlocation($p,"Vorgartenstraße").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Stadlau").
+restaurant("Donauspital").
+restaurant("Friedensbrücke").

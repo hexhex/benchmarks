@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Gerasdorf Bahnhof").
-initlocation(1,"Althanstraße").
-initlocation(1,"Columbusplatz").
-initlocation(1,"Winckelmannstraße").
-sequence(1,0, "Gerasdorf Bahnhof").
+initlocation($p,"Stadtpark").
+initlocation($p,"Kranzgasse").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Stadtpark").
 person(2).
-initlocation(2,"Donaumarina").
-initlocation(2,"Langobardenstraße/Kapellenweg").
-initlocation(2,"Preyergasse/Speising").
-initlocation(2,"Klosterneub Str/Wallensteinstr").
-sequence(2,0, "Donaumarina").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Neuwaldegg").
-restaurant("Rochusgasse").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Nußdorf, Beethovengang").
-restaurant("Polgarstraße").
+initlocation($p,"Herrengasse").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Alfred-Adler-Straße").
+initlocation($p,"Herrengasse").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+restaurant("Teichgasse").
+restaurant("Kaisermühlen-VIC").
+restaurant("Prinzgasse").
+restaurant("Gellertplatz").

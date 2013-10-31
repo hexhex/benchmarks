@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Himberg Bahnhof").
-initlocation(1,"Guntramsdorf-Thallern").
-initlocation(1,"Neue Donau").
-initlocation(1,"Kottingbrunn Bahnhof").
-initlocation(1,"Hütteldorfer Straße").
-initlocation(1,"Friedensbrücke").
-sequence(1,0, "Schönborn Bahnhof").
+initlocation($p,"Praterkai").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Enkplatz").
+initlocation($p,"Wolf in der Au").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Praterkai").
 person(2).
-initlocation(2,"Weigelsdorf Bahnhof").
-initlocation(2,"Höbersdorf Bahnhof").
-initlocation(2,"Spittelau").
-initlocation(2,"Vorgartenstraße").
-initlocation(2,"Stephansplatz").
-initlocation(2,"Am Schöpfwerk").
-initlocation(2,"Perfektastraße").
-sequence(2,0, "Weigelsdorf Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Kottingbrunn Bahnhof".
-restaurant("Guntersdorf Bahnhof".
-restaurant("Mannswörth Bahnhof".
-restaurant("Kagran".
-restaurant("Dürrwien Bahnhof".
-restaurant("Wr Neustadt Hauptbahnhof".
-restaurant("Zentralfriedhof").
+initlocation($p,"Neulengbach Bahnhof").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Wolf in der Au").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Neulengbach Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Hetzendorf").
+restaurant("Krottenbachstraße").
+restaurant("Messe-Prater").
+restaurant("Trasdorf Bahnhof").
+restaurant("Schönbrunn").
+restaurant("Mistelbach Stadt").
+restaurant("Mistelbach Bahnhof").
+restaurant("Oberolberndorf Bahnhof").

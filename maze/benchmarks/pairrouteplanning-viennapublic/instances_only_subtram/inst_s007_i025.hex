@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Taborstraße").
-initlocation(1,"Marx-Meidlinger-Straße").
-initlocation(1,"Zentralfriedhof 1Tor").
-initlocation(1,"Aumannplatz").
-initlocation(1,"Blumental").
-initlocation(1,"Schwedenplatz").
-initlocation(1,"Wr Neustadt Nord").
-sequence(1,0, "Taborstraße").
+initlocation($p,"Guneschgasse").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Plößlgasse").
+initlocation($p,"Rodaun").
+initlocation($p,"Jagdschloßgasse").
+initlocation($p,"Weinheimergasse").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Guneschgasse").
 person(2).
-initlocation(2,"Diesterweggasse").
-initlocation(2,"Sahulkastraße").
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Jedlersdorf").
-initlocation(2,"Schönborn Bahnhof").
-initlocation(2,"Koppstraße/Panikengasse").
-initlocation(2,"Unter Kritzendorf Bahnhof").
-sequence(2,0, "Diesterweggasse").
-possiblemeetinglocations("Frödenplatz").
-possiblemeetinglocations("Döblinger Bad").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Carabelligasse").
-possiblemeetinglocations("Gloriettegasse").
-restaurant("Kaiserstraße").
-restaurant("Guneschgasse").
-restaurant("Wienerfeldgasse").
-restaurant("Baumgarten").
-restaurant("Gruschaplatz").
-restaurant("Praterstern").
-restaurant("Obersdorf Bahnhof").
+initlocation($p,"Jedlersdorf").
+initlocation($p,"Am Heumarkt").
+initlocation($p,"Penzing").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Laurentiusplatz").
+initlocation($p,"Empergergasse").
+initlocation($p,"Autokaderstraße").
+initlocation($p,"Jedlersdorf").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+possiblemeetinglocations("Simmering").
+restaurant("Carminweg").
+restaurant("Unter Sankt Veit").
+restaurant("Waidhausenstraße").
+restaurant("Rußbergstraße").
+restaurant("Brünner Straße").
+restaurant("Himmelmutterweg").
+restaurant("Siemensstraße").

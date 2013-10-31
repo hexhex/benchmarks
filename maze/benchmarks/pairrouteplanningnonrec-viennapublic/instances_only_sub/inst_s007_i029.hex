@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Stubentor").
-initlocation(1,"Pressbaum Bahnhof").
-initlocation(1,"Karlsplatz").
-initlocation(1,"Heiligenstadt").
-initlocation(1,"Fischamend Bahnhof").
-initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation(1,"Atzgersdorf").
-sequence(1,0, "Stubentor").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Neue Donau").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Laa an der Thaya Bahnhof").
+initlocation($p,"Stadion").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Platt Bahnhof").
 person(2).
-initlocation(2,"Obereggendorf Bahnhof").
-initlocation(2,"Grillgasse").
-initlocation(2,"Josefstädter Straße").
-initlocation(2,"Rekawinkel Bahnhof").
-initlocation(2,"Enkplatz").
-initlocation(2,"Heiligenstadt").
-initlocation(2,"Gasometer").
-sequence(2,0, "Obereggendorf Bahnhof").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Neue Donau").
-restaurant("Regelsbrunn Bahnhof".
-restaurant("Schottenring".
-restaurant("Nestroyplatz".
-restaurant("Hardeggasse".
-restaurant("Zeiselmauer-Königstetten Bf".
-restaurant("Greifenstein-Altenberg Bahnhof".
-restaurant("Hirschstetten").
+initlocation($p,"Spittelau").
+initlocation($p,"Taborstraße").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Spittelau").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Viehofen Bahnhof").
+restaurant("Tscherttegasse").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Simmering").
+restaurant("Nußdorf").
+restaurant("Weidlingau Bahnhof").
+restaurant("Krieau").
+restaurant("Langenzersdorf Bahnhof").

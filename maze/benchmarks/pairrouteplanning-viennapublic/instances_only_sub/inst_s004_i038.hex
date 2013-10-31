@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Achau Bahnhof").
-initlocation(1,"Retz Bahnhof").
-initlocation(1,"Hütteldorf").
-initlocation(1,"Friedensbrücke").
-sequence(1,0, "Achau Bahnhof").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Paasdorf Bahnhof").
+initlocation($p,"Ebreichsdorf Bahnhof").
 person(2).
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Hardeggasse").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Aspernstraße").
-sequence(2,0, "Pressbaum Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Silberwald Bahnhof").
-restaurant("Tulln Stadt Bahnhof".
-restaurant("Preyergasse/Speising".
-restaurant("Maria Ellend Bahnhof".
-restaurant("Weidlingau Bahnhof").
+initlocation($p,"Leopoldau").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Leopoldau").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Ottakring").
+restaurant("Kendlerstraße").
+restaurant("Frättingsdorf Bahnhof").

@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Herrengasse").
-initlocation(1,"Deutsch-Wagram Bahnhof").
-initlocation(1,"Nußdorfer Straße").
-initlocation(1,"Wr Neustadt Civitas Nova").
-initlocation(1,"Friedensbrücke").
-sequence(1,0, "Herrengasse").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Wr Neustadt Nord").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Schottentor").
+initlocation($p,"Tulln Bahnhof").
 person(2).
-initlocation(2,"Getzersdorf/Traisen Bahnhof").
-initlocation(2,"Praterkai").
-initlocation(2,"Untereggendorf Bahnhof").
-initlocation(2,"Gumpendorfer Straße").
-initlocation(2,"Bad Vöslau Bahnhof").
-sequence(2,0, "Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Penzing").
-restaurant("Herrengasse".
-restaurant("Dresdner Straße".
-restaurant("Mödling Bahnhof".
-restaurant("Unter Sankt Veit".
-restaurant("Rathaus").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Meidling Hauptstraße").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+restaurant("Strebersdorf").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Aspern Nord").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Preyergasse/Speising").

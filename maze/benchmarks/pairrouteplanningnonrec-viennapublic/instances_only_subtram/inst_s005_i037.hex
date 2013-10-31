@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Marxergasse").
-initlocation(1,"Weigelsdorf Bahnhof").
-initlocation(1,"Ebenfurth Bahnhof").
-initlocation(1,"Erlaaer Straße").
-initlocation(1,"Hardeggasse").
-sequence(1,0, "Marxergasse").
+initlocation($p,"Laxenburger Straße/Troststraße").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Praterstern").
+initlocation($p,"Laxenburger Straße/Troststraße").
 person(2).
-initlocation(2,"Messe-Prater").
-initlocation(2,"Hausfeldstraße").
-initlocation(2,"Polkorabplatz").
-initlocation(2,"Hoßplatz").
-initlocation(2,"Michelbeuern-AKH").
-sequence(2,0, "Messe-Prater").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-possiblemeetinglocations("Prater, Hauptallee").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Gaußplatz").
-restaurant("Fickeysstraße").
-restaurant("Kaiser-Franz-Josef-Straße").
-restaurant("Breitensee").
-restaurant("Gruschaplatz").
-restaurant("Silbergasse").
+initlocation($p,"Sechskrügelgasse").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Sechskrügelgasse").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Kraygasse").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+restaurant("Sensengasse").
+restaurant("Brünner Straße").
+restaurant("Glatzgasse").
+restaurant("Roßauer Lände").
+restaurant("Aspernstraße").

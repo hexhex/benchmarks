@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Obereggendorf Bahnhof").
-initlocation(1,"Karlsplatz").
-initlocation(1,"Neulengbach Bahnhof").
-initlocation(1,"Radetzkyplatz").
-initlocation(1,"Jedlersdorf").
-initlocation(1,"Hardtgasse").
-initlocation(1,"Nestroyplatz").
-initlocation(1,"Ulrichskirchen Bahnhof").
-sequence(1,0, "Obereggendorf Bahnhof").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Wexstraße").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Resselgasse").
+initlocation($p,"Palffygasse").
+initlocation($p,"Hausleiten Bahnhof").
 person(2).
-initlocation(2,"Hopfengasse").
-initlocation(2,"Erdberg").
-initlocation(2,"Ottakring").
-initlocation(2,"An den langen Lüssen").
-initlocation(2,"Albertgasse").
-initlocation(2,"Urban-Loritz-Platz").
-initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation(2,"Wr Neustadt Nord").
-sequence(2,0, "Hopfengasse").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Sonnergasse").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Schmerlingplatz").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Altes Landgut").
-possiblemeetinglocations("Carminweg").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Thaliastraße/Brunnengasse").
-restaurant("Hautzendorf Bahnhof").
-restaurant("Erdberg").
-restaurant("Plößlgasse").
-restaurant("Stubentor").
-restaurant("Vinzenzgasse").
-restaurant("Sickenberggasse").
+initlocation($p,"Wr Neustadt Nord").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Kaiserstraße/Westbahnstraße").
+initlocation($p,"Weihburggasse").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Absberggasse").
+initlocation($p,"Maurer Lange Gasse").
+initlocation($p,"Wr Neustadt Nord").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Kranzgasse").
+restaurant("Redtenbachergasse").
+restaurant("Penzinger Straße").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Versorgungsheimplatz").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Guntherstraße").
+restaurant("Schottenfeldgasse").

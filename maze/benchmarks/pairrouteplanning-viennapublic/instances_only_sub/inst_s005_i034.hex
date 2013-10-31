@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Penzing").
-initlocation(1,"Bahnhof Meidling").
-initlocation(1,"Thaliastraße").
-initlocation(1,"Hietzing").
-initlocation(1,"Baden Bahnhof").
-sequence(1,0, "Penzing").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Tullnerfeld Bahnhof").
+initlocation($p,"Sarasdorf Bahnhof").
 person(2).
-initlocation(2,"Schönborn Bahnhof").
-initlocation(2,"Regelsbrunn Bahnhof").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Traismauer Bahnhof").
-initlocation(2,"Tulln Stadt Bahnhof").
-sequence(2,0, "Schönborn Bahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-restaurant("Krieau".
-restaurant("Nußdorf".
-restaurant("St Pölten Hauptbahnhof".
-restaurant("Kaisermühlen-VIC".
-restaurant("Grillgasse").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Roßauer Lände").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Alte Donau").
+initlocation($p,"Siemensstraße").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Strasshof Bahnhof").
+restaurant("Thaliastraße").
+restaurant("Dürrwien Bahnhof").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Schottentor").
+restaurant("Zippererstraße").

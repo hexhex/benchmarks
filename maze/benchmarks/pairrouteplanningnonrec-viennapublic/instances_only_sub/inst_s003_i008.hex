@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Schleinbach Bahnhof").
-initlocation(1,"Süßenbrunn").
-initlocation(1,"Aspernstraße").
-sequence(1,0, "Schleinbach Bahnhof").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Hernals").
+initlocation($p,"Herzogenburg Stadt").
 person(2).
-initlocation(2,"Obereggendorf Bahnhof").
-initlocation(2,"Kaiserebersdorf").
-initlocation(2,"Neubaugasse").
-sequence(2,0, "Obereggendorf Bahnhof").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-restaurant("Sierndorf Bahnhof".
-restaurant("Schleinbach Bahnhof".
-restaurant("Mannswörth Bahnhof").
+initlocation($p,"Breitensee").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Breitensee").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Klosterneuburg-Kierling Bf").

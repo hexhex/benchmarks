@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Krankenhaus Hietzing").
-initlocation(1,"Ebenfurth Bahnhof").
-initlocation(1,"Braunschweiggasse").
-initlocation(1,"Viehmarktgasse").
-initlocation(1,"Waidhausenstraße").
-initlocation(1,"Am Schöpfwerk").
-sequence(1,0, "Krankenhaus Hietzing").
+initlocation($p,"Laurenzgasse").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Nordbahnstraße").
+initlocation($p,"Radetzkyplatz").
+initlocation($p,"Laurenzgasse").
 person(2).
-initlocation(2,"Halteraugasse").
-initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(2,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(2,"Spillern Bahnhof").
-initlocation(2,"Pottendorf-Landegg Bahnhof").
-initlocation(2,"Hernals").
-sequence(2,0, "Halteraugasse").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Autokaderstraße").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Versorgungsheimplatz").
-possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
-restaurant("Schönborn Bahnhof").
-restaurant("Rosenhügelstraße").
-restaurant("Unterradlberg Bahnhof").
-restaurant("Laurenzgasse").
-restaurant("Konstanziagasse").
-restaurant("Viehofen Bahnhof").
+initlocation($p,"Paradisgasse").
+initlocation($p,"Wattmanngasse").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Paradisgasse").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Hetzendorf").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Hetzendorf").
+restaurant("Fultonstraße").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Pilgramgasse").
+restaurant("Kagraner Platz").

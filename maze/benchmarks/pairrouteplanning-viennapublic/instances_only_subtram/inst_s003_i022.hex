@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Kardinal-Nagl-Platz").
-initlocation(1,"Langobardenstraße").
-initlocation(1,"Yppengasse").
-sequence(1,0, "Kardinal-Nagl-Platz").
+initlocation($p,"Bahnhof Meidling").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Gutraterplatz").
+initlocation($p,"Bahnhof Meidling").
 person(2).
-initlocation(2,"Unter Kritzendorf Bahnhof").
-initlocation(2,"Klosterneub Str/Wallensteinstr").
-initlocation(2,"Reumannplatz").
-sequence(2,0, "Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Großjedlersdorf").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Quartier Belvedere").
-restaurant("Stadion").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Laxenburger Straße/Troststraße").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Höchstädtplatz").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Landstraße-Wien Mitte").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Pressbaum Bahnhof").
+restaurant("Halteraugasse").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Kraygasse").

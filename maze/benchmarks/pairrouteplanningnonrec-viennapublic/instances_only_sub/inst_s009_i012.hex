@@ -1,43 +1,40 @@
 person(1).
-initlocation(1,"Unter Kritzendorf Bahnhof").
-initlocation(1,"Achau Bahnhof").
-initlocation(1,"Oberdöbling").
-initlocation(1,"Stephansplatz").
-initlocation(1,"Niederkreuzstetten Bahnhof").
-initlocation(1,"Gaisruck Bahnhof").
-initlocation(1,"Spittelau").
-initlocation(1,"Strebersdorf").
-initlocation(1,"Retz Bahnhof").
-sequence(1,0, "Unter Kritzendorf Bahnhof").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Heiligenstadt").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Rennweg").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Alte Donau").
+initlocation($p,"Siemensstraße").
 person(2).
-initlocation(2,"Sitzenberg-Reidling Bahnhof").
-initlocation(2,"Unterradlberg Bahnhof").
-initlocation(2,"Schottenring").
-initlocation(2,"Quartier Belvedere").
-initlocation(2,"Landstraße-Wien Mitte").
-initlocation(2,"Helmahof Bahnhof").
-initlocation(2,"Süßenbrunn").
-initlocation(2,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(2,"Tulln Bahnhof").
-sequence(2,0, "Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Donaumarina".
-restaurant("Hautzendorf Bahnhof".
-restaurant("Sankt Marx".
-restaurant("Grillgasse".
-restaurant("Hardeggasse".
-restaurant("Kaisermühlen-VIC".
-restaurant("Stockerau Bahnhof".
-restaurant("Siebenhirten (NÖ.
-Haltestelle".
-restaurant("Flughafen Wien (VIE.
-Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Stadion").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Helmahof Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+restaurant("Hetzendorf").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Jägerstraße").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Donauinsel").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Längenfeldgasse").

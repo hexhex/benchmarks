@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Absdorf-Hippersdorf Bahnhof").
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-initlocation(1,"Herrengasse").
-initlocation(1,"Zentralfriedhof").
-initlocation(1,"Erdberg").
-initlocation(1,"Perfektastraße").
-sequence(1,0, "Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Rekawinkel Bahnhof").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Rekawinkel Bahnhof").
 person(2).
-initlocation(2,"Kagran").
-initlocation(2,"Landstraße-Wien Mitte").
-initlocation(2,"Roßauer Lände").
-initlocation(2,"Muckendorf-Wipfing Bahnhof").
-initlocation(2,"Himberg Bahnhof").
-initlocation(2,"Gaisruck Bahnhof").
-sequence(2,0, "Kagran").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Retz Bahnhof").
-restaurant("Purkersdorf Sanatorium".
-restaurant("Stephansplatz".
-restaurant("Blumental".
-restaurant("Wolfsthal Bahnhof".
-restaurant("Johnstraße".
-restaurant("Leobersdorf Bahnhof").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Kledering Bahnhof").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+restaurant("Gersthof").
+restaurant("Spittelau").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Rathaus").

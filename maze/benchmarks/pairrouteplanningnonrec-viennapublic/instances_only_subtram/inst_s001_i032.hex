@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Kaiserstraße/Westbahnstraße").
-sequence(1,0, "Kaiserstraße/Westbahnstraße").
+initlocation($p,"Roßauer Lände").
+initlocation($p,"Roßauer Lände").
 person(2).
-initlocation(2,"Südtiroler Platz/Hauptbahnhof").
-sequence(2,0, "Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Rosenhügelstraße").
-restaurant("Meidling Hauptstraße").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Unter Sankt Veit").
+possiblemeetinglocations("Baumgasse").
+restaurant("Wildgansplatz").

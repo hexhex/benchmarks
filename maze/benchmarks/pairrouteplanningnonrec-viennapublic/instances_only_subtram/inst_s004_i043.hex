@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Schottentor").
-initlocation(1,"Erdbergstr/Schlachthausgasse").
-initlocation(1,"Moosbierbaum-Heiligeneich Bf").
-initlocation(1,"Marx-Meidlinger-Straße").
-sequence(1,0, "Schottentor").
+initlocation($p,"Rauscherstraße").
+initlocation($p,"Saikogasse").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Otto-Probst-Platz").
+initlocation($p,"Rauscherstraße").
 person(2).
-initlocation(2,"Roßauer Lände").
-initlocation(2,"Marienbrücke").
-initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
-initlocation(2,"Rußbergstraße").
-sequence(2,0, "Roßauer Lände").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-restaurant("Edmund-Hawranek-Platz").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Wenzgasse").
-restaurant("Pottendorf-Landegg Bahnhof").
+initlocation($p,"Vinzenzgasse").
+initlocation($p,"Oberzellergasse").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Edmund-Hawranek-Platz").
+initlocation($p,"Vinzenzgasse").
+possiblemeetinglocations("Fultonstraße").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Migerkastraße").
+restaurant("Schlickgasse").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Ameisgasse").
+restaurant("Sonnergasse").

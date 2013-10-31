@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Schlachthausgasse").
-initlocation(1,"Landstraße-Wien Mitte").
-initlocation(1,"Traisengasse").
-sequence(1,0, "Schlachthausgasse").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Kottingbrunn Bahnhof").
+initlocation($p,"Götzendorf Bahnhof").
 person(2).
-initlocation(2,"Ebenfurth Bahnhof").
-initlocation(2,"Haidestraße").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-sequence(2,0, "Ebenfurth Bahnhof").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Stockerau Bahnhof").
-restaurant("Michelhausen Bahnhof".
-restaurant("Süßenbrunn".
-restaurant("Hausfeldstraße").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Heiligenstadt").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Parndorf Ort Bahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Platt Bahnhof").
+restaurant("Maria Ellend Bahnhof").

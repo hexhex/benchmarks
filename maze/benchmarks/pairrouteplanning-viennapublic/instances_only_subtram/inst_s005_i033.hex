@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Hopfengasse").
-initlocation(1,"Taborstraße").
-initlocation(1,"Anton-Krieger-Gasse").
-initlocation(1,"Alsegger Straße").
-initlocation(1,"Raxstraße/Rudolfshügelgasse").
-sequence(1,0, "Hopfengasse").
+initlocation($p,"Sahulkastraße").
+initlocation($p,"Hernals").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Zentralfriedhof 1Tor").
+initlocation($p,"Tesarekplatz").
+initlocation($p,"Sahulkastraße").
 person(2).
-initlocation(2,"Dornbach, Güpferlingstraße").
-initlocation(2,"Münchendorf Bahnhof").
-initlocation(2,"Blumental").
-initlocation(2,"Scheibenbergstraße").
-initlocation(2,"Dommayergasse").
-sequence(2,0, "Dornbach, Güpferlingstraße").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Skodagasse").
-possiblemeetinglocations("Verbindungsbahn").
-possiblemeetinglocations("Pantucekgasse/Widholzgasse").
-possiblemeetinglocations("Am Tabor").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Messe-Prater").
-restaurant("Edmund-Hawranek-Platz").
-restaurant("Unter St Veit, Hummelgasse").
-restaurant("Hadersdorf Bahnhof").
+initlocation($p,"Josef-Baumann-Gasse").
+initlocation($p,"Frauengasse").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Stammersdorf").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Josef-Baumann-Gasse").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Paradisgasse").
+restaurant("Hintere Zollamtsstraße").
+restaurant("Alfred-Adler-Straße").
+restaurant("Staglgasse").
+restaurant("Gellertplatz").
+restaurant("Simonygasse").

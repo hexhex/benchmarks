@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Hernals").
-sequence(1,0, "Hernals").
+initlocation($p,"Taborstraße").
+initlocation($p,"Taborstraße").
 person(2).
-initlocation(2,"Alterlaa").
-sequence(2,0, "Alterlaa").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-restaurant("Volkstheater").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+restaurant("Matzleinsdorfer Platz").

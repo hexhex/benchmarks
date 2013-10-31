@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Guntersdorf Bahnhof").
-sequence(1,0, "Guntersdorf Bahnhof").
+initlocation($p,"Neulengbach Bahnhof").
+initlocation($p,"Neulengbach Bahnhof").
 person(2).
-initlocation(2,"Taborstraße").
-sequence(2,0, "Taborstraße").
-possiblemeetinglocations("Keplerplatz").
-restaurant("Nestroyplatz").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Aspern Nord").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Kardinal-Nagl-Platz").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Gänserndorf Bahnhof").
-initlocation(1,"Halteraugasse").
-sequence(1,0, "Gänserndorf Bahnhof").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Bösendorferstraße").
 person(2).
-initlocation(2,"Waidhausenstraße").
-initlocation(2,"Hütteldorf, Bujattigasse").
-sequence(2,0, "Waidhausenstraße").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Arthaberplatz").
-restaurant("Spillern Bahnhof").
-restaurant("Staatz Bahnhof").
+initlocation($p,"Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+restaurant("Hermesstraße").
+restaurant("Siebenhirten (NÖ). Haltestelle").

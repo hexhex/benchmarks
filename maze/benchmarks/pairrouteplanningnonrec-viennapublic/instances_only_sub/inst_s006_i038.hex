@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Obersdorf Bahnhof").
-initlocation(1,"Am Schöpfwerk").
-initlocation(1,"Stadtpark").
-initlocation(1,"Taborstraße").
-initlocation(1,"Jedlersdorf").
-initlocation(1,"Perchtoldsdorf Bahnhof").
-sequence(1,0, "Obersdorf Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Enkplatz").
+initlocation($p,"Hietzing").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
 person(2).
-initlocation(2,"Himberg Bahnhof").
-initlocation(2,"Franz-Josefs-Bahnhof").
-initlocation(2,"Zellerndorf Bahnhof").
-initlocation(2,"Bad Vöslau Bahnhof").
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Neulengbach Stadt Bahnhof").
-sequence(2,0, "Himberg Bahnhof").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Seestadt").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Alterlaa").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Höbersdorf Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Donauinsel").
 possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-restaurant("Ulrichskirchen Bahnhof".
-restaurant("Deutsch-Wagram Bahnhof".
-restaurant("St Andrä-Wördern Bahnhof".
-restaurant("Jedlersdorf".
-restaurant("Spillern Bahnhof".
-restaurant("Baden Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Stadion").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Wolkersdorf Bahnhof").

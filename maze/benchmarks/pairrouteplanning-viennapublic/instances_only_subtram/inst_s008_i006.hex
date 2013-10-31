@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Blechturmgasse").
-initlocation(1,"Praterkai").
-initlocation(1,"Krankenhaus Hietzing").
-initlocation(1,"Parndorf Ort Bahnhof").
-initlocation(1,"Hauptbahnhof Ost").
-initlocation(1,"Hollabrunn Bahnhof").
-initlocation(1,"Wildungsmauer Bahnhof").
-initlocation(1,"Ottakring").
-sequence(1,0, "Blechturmgasse").
+initlocation($p,"Perntergasse").
+initlocation($p,"Am Heumarkt").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Viehmarktgasse").
+initlocation($p,"Taborstraße").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Grillgasse").
+initlocation($p,"Gloriettegasse").
+initlocation($p,"Perntergasse").
 person(2).
-initlocation(2,"Wilhelminenstr/Sandleitengasse").
-initlocation(2,"Gutraterplatz").
-initlocation(2,"Hadersdorf Bahnhof").
-initlocation(2,"Hopfengasse").
-initlocation(2,"Penzinger Straße").
-initlocation(2,"Felixdorf Bahnhof").
-initlocation(2,"Hernals").
-initlocation(2,"Tulln Bahnhof").
-sequence(2,0, "Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Brünner Straße/Hanreitergasse").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Kraygasse").
-possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Elterleinplatz").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Karmeliterplatz").
-restaurant("Wilhelminenstraße/Wattgasse").
-restaurant("Oberdöbling").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Enkplatz").
-restaurant("Frödenplatz").
-restaurant("Geiselbergstraße").
-restaurant("Jägerstraße").
-restaurant("Hauptbahnhof Ost").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Otto-Probst-Straße").
+initlocation($p,"Stadion").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Barawitzkagasse").
+initlocation($p,"Gasometer").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Glatzgasse").
+initlocation($p,"Himberg Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+restaurant("Hütteldorf").
+restaurant("Taubstummengasse").
+restaurant("Schmerlingplatz").
+restaurant("Sankt Marx").
+restaurant("Pilgramgasse").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Alser Straße").
+restaurant("Hetzendorf").

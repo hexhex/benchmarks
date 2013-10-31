@@ -1,61 +1,60 @@
 person(1).
-initlocation(1,"Schottenring").
-initlocation(1,"Krottenbachstraße").
-initlocation(1,"Leopoldau").
-initlocation(1,"Alte Donau").
-initlocation(1,"Rennweg").
-initlocation(1,"Hollabrunn Bahnhof").
-initlocation(1,"Zippererstraße").
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Süßenbrunn").
-initlocation(1,"Guntramsdorf-Thallern").
-initlocation(1,"Gramatneusiedl Bahnhof").
-initlocation(1,"Gersthof").
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Absdorf-Hippersdorf Bahnhof").
-sequence(1,0, "Schottenring").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Enkplatz").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Hofstatt Bahnhof").
 person(2).
-initlocation(2,"Kledering Bahnhof").
-initlocation(2,"Tscherttegasse").
-initlocation(2,"Erzherzog-Karl-Straße").
-initlocation(2,"Oberolberndorf Bahnhof").
-initlocation(2,"Achau Bahnhof").
-initlocation(2,"Matzleinsdorfer Platz").
-initlocation(2,"Nußdorf").
-initlocation(2,"Sollenau Bahnhof").
-initlocation(2,"Sierndorf Bahnhof").
-initlocation(2,"Unter Kritzendorf Bahnhof").
-initlocation(2,"Oberdöbling").
-initlocation(2,"Dresdner Straße").
-initlocation(2,"Stephansplatz").
-initlocation(2,"Gumpendorfer Straße").
-sequence(2,0, "Kledering Bahnhof").
-possiblemeetinglocations("Schweglerstraße").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Enkplatz").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Achau Bahnhof").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Seyring Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Tulln Bahnhof").
 possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Sierndorf Bahnhof").
-restaurant("Pfaffstätten Bahnhof".
-restaurant("Traismauer Bahnhof".
-restaurant("Ebenfurth Bahnhof".
-restaurant("Mistelbach Bahnhof".
-restaurant("Getzersdorf/Traisen Bahnhof".
-restaurant("Ulrichskirchen Bahnhof".
-restaurant("Frättingsdorf Bahnhof".
-restaurant("Flughafen Wien (VIE.
-Bahnhof".
-restaurant("Siebenhirten".
-restaurant("Brünner Straße".
-restaurant("Mödling Bahnhof".
-restaurant("Hirschstetten".
-restaurant("Unter Kritzendorf Bahnhof".
-restaurant("Schönbrunn").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Siebenhirten (NÖ). Haltestelle").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Brünner Straße").
+restaurant("Bisamberg Bahnhof").
+restaurant("Tscherttegasse").
+restaurant("Krieau").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Strasshof Bahnhof").
+restaurant("Roßauer Lände").
+restaurant("Wr Neustadt Nord").
+restaurant("Eichgraben-Altlengbach Bahnhof").

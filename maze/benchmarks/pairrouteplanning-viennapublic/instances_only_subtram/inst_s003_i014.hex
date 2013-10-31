@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Moosbierbaum-Heiligeneich Bf").
-initlocation(1,"Staatz Bahnhof").
-initlocation(1,"Wattmanngasse").
-sequence(1,0, "Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Sechskrügelgasse").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Maurer Hauptplatz").
+initlocation($p,"Sechskrügelgasse").
 person(2).
-initlocation(2,"Obere Donaustraße").
-initlocation(2,"Gaisruck Bahnhof").
-initlocation(2,"Tscherttegasse").
-sequence(2,0, "Obere Donaustraße").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Fultonstraße").
-restaurant("Jagdschloßgasse").
-restaurant("Anton-Krieger-Gasse").
-restaurant("Herbeckstraße").
+initlocation($p,"Hintere Zollamtsstraße").
+initlocation($p,"Himmelmutterweg").
+initlocation($p,"Gewerbepark Stadlau Mitte").
+initlocation($p,"Hintere Zollamtsstraße").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+restaurant("Seestadt").
+restaurant("Schottenring").
+restaurant("Thaliastraße/Feßtgasse").

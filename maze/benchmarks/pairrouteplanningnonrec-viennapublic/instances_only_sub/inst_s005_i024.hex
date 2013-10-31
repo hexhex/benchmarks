@@ -1,25 +1,24 @@
 person(1).
-initlocation(1,"Keplerplatz").
-initlocation(1,"Enkplatz").
-initlocation(1,"Zippererstraße").
-initlocation(1,"Hetzendorf").
-initlocation(1,"Siebenhirten").
-sequence(1,0, "Keplerplatz").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Stadlau").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Wr Neustadt Civitas Nova").
 person(2).
-initlocation(2,"Münchendorf Bahnhof").
-initlocation(2,"Penzing").
-initlocation(2,"Oberdöbling").
-initlocation(2,"Gumpendorfer Straße").
-initlocation(2,"Donaumarina").
-sequence(2,0, "Münchendorf Bahnhof").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Mistelbach Stadt").
-restaurant("Flughafen Wien (VIE.
-Bahnhof".
-restaurant("Lanzendorf-Rannersdorf Bahnhof".
-restaurant("St Andrä-Wördern Bahnhof".
-restaurant("Donaumarina".
-restaurant("Michelhausen Bahnhof").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Rochusgasse").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+restaurant("Hausleiten Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Breitensee").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Siebenhirten").

@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Niederkreuzstetten Bahnhof").
-initlocation(1,"Maria Anzbach Bahnhof").
-initlocation(1,"Untertullnerbach Bahnhof").
-initlocation(1,"Lobau").
-initlocation(1,"Schottenring").
-initlocation(1,"Westbahnhof").
-sequence(1,0, "Niederkreuzstetten Bahnhof").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Donauinsel").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Gasometer").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Hetzendorf").
 person(2).
-initlocation(2,"Taborstraße").
-initlocation(2,"Zieglergasse").
-initlocation(2,"Stephansplatz").
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Kapellerfeld Bahnhof").
-initlocation(2,"Himberg Bahnhof").
-sequence(2,0, "Taborstraße").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Kaisermühlen-VIC").
-restaurant("Trasdorf Bahnhof".
-restaurant("Brünner Straße".
-restaurant("Klosterneuburg-Weidling Bf".
-restaurant("Ulrichskirchen Bahnhof".
-restaurant("Gemeinlebarn Bahnhof".
-restaurant("Oberradlberg Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Taubstummengasse").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Siebenhirten").
+restaurant("Floridsdorf").
+restaurant("Thaliastraße").
+restaurant("Platt Bahnhof").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Michelhausen Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").

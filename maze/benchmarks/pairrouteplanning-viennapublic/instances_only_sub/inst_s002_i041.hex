@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Floridsdorf").
-initlocation(1,"Längenfeldgasse").
-sequence(1,0, "Floridsdorf").
+initlocation($p,"Praterstern").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Praterstern").
 person(2).
-initlocation(2,"Seestadt").
-initlocation(2,"Untereggendorf Bahnhof").
-sequence(2,0, "Seestadt").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Grillgasse").
-restaurant("Quartier Belvedere".
-restaurant("Deutsch-Wagram Bahnhof").
+initlocation($p,"Volkstheater").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Volkstheater").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+restaurant("Neubaugasse").
+restaurant("Landstraße-Wien Mitte").

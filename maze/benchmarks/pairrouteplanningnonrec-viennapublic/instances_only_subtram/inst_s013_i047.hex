@@ -1,56 +1,56 @@
 person(1).
-initlocation(1,"Skodagasse").
-initlocation(1,"Sollenau Bahnhof").
-initlocation(1,"Ulrichskirchen Bahnhof").
-initlocation(1,"Guntersdorf Bahnhof").
-initlocation(1,"Burgring").
-initlocation(1,"Kaiser-Franz-Josef-Straße").
-initlocation(1,"Ungargasse/Neulinggasse").
-initlocation(1,"Wilhelminenstraße/Wattgasse").
-initlocation(1,"Antonigasse").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Eckpergasse").
-initlocation(1,"Rustengasse").
-initlocation(1,"Burggasse-Stadthalle").
-sequence(1,0, "Skodagasse").
+initlocation($p,"Bahnsteggasse").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Rosensteingasse").
+initlocation($p,"Thaliastraße/Haberlgasse").
+initlocation($p,"Ottakring").
+initlocation($p,"Kaiserebersdorf, Zinnergasse").
+initlocation($p,"Kleistgasse").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Rußbergstraße").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Schlickgasse").
+initlocation($p,"Dornbach, Güpferlingstraße").
+initlocation($p,"Bahnsteggasse").
 person(2).
-initlocation(2,"Gramatneusiedl Bahnhof").
-initlocation(2,"Thaliastraße").
-initlocation(2,"Rußbergstraße").
-initlocation(2,"Perchtoldsdorf Bahnhof").
-initlocation(2,"Spitalgasse/Währinger Straße").
-initlocation(2,"Am Heidjöchl/Hausfeldstraße").
-initlocation(2,"Gerhardusgasse").
-initlocation(2,"Zieglergasse").
-initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(2,"Kleistgasse").
-initlocation(2,"Zentralfriedhof").
-initlocation(2,"Pfaffstätten Bahnhof").
-initlocation(2,"Hetzendorf").
-sequence(2,0, "Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Valiergasse").
-possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Stadlergasse").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Ameisgasse").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Korneuburg Bahnhof").
-restaurant("Anton-Krieger-Gasse").
-restaurant("Zeiselmauer-Königstetten Bf").
+initlocation($p,"Blumental").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Döblinger Hauptstr/Gatterburgg").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Sechskrügelgasse").
+initlocation($p,"Döblinger Bad").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Wittelsbachstraße").
+initlocation($p,"Atzgersdorfer Straße").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Marx-Meidlinger-Straße").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Blumental").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Kranzgasse").
+possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Mayerhofgasse").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Hütteldorf").
+restaurant("Gatterburggasse").
+restaurant("Götzendorf Bahnhof").
+restaurant("Oberdöbling").
 restaurant("Hirschstetten").
-restaurant("Margaretengürtel").
-restaurant("Bauernfeldplatz").
-restaurant("Stadion").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Marx-Meidlinger-Straße").
-restaurant("Unteres Belvedere").
-restaurant("Brünnlbadgasse").
-restaurant("Blechturmgasse").
+restaurant("Retz Bahnhof").
+restaurant("Lange Gasse").
+restaurant("Satzberggasse").
+restaurant("Grinzinger Straße").
+restaurant("Döblinger Bad").
+restaurant("Keplerplatz").
+restaurant("Braunschweiggasse").

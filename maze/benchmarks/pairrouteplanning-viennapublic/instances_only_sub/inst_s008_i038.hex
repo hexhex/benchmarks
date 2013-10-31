@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Münchendorf Bahnhof").
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Traismauer Bahnhof").
-initlocation(1,"Obersdorf Bahnhof").
-initlocation(1,"Weigelsdorf Bahnhof").
-initlocation(1,"Preyergasse/Speising").
-sequence(1,0, "Münchendorf Bahnhof").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Laa an der Thaya Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
 person(2).
-initlocation(2,"Unterpurkersdorf Bahnhof").
-initlocation(2,"Donaumarina").
-initlocation(2,"Sierndorf Bahnhof").
-initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(2,"Erlaaer Straße").
-initlocation(2,"Hardeggasse").
-initlocation(2,"Tulln Bahnhof").
-initlocation(2,"Erzherzog-Karl-Straße").
-sequence(2,0, "Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Praterkai").
-restaurant("Krieau".
-restaurant("Wr Neustadt Nord".
-restaurant("Lobau".
-restaurant("Weigelsdorf Bahnhof".
-restaurant("Nestroyplatz".
-restaurant("Hausleiten Bahnhof".
-restaurant("Keplerplatz".
-restaurant("Petronell-Carnuntum Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Tullnerfeld Bahnhof").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Penzing").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Handelskai").
+restaurant("Wr Neustadt Nord").
+restaurant("Schottenring").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Spillern Bahnhof").

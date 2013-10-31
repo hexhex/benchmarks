@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Ober Sankt Veit").
-sequence(1,0, "Ober Sankt Veit").
+initlocation($p,"Taborstraße").
+initlocation($p,"Taborstraße").
 person(2).
-initlocation(2,"Achau Bahnhof").
-sequence(2,0, "Achau Bahnhof").
-possiblemeetinglocations("Fischamend Bahnhof").
-restaurant("Bruck/Leitha Bahnhof").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+restaurant("Handelskai").

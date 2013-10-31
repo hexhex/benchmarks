@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Schottenring").
-initlocation(1,"Hütteldorf").
-initlocation(1,"Karlsplatz").
-initlocation(1,"Nußdorfer Straße").
-initlocation(1,"Floridsdorf").
-initlocation(1,"Pottendorf-Landegg Bahnhof").
-initlocation(1,"Seyring Bahnhof").
-initlocation(1,"Erlaaer Straße").
-sequence(1,0, "Schottenring").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Schottentor").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Am Schöpfwerk").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Pressbaum Bahnhof").
 person(2).
-initlocation(2,"Kaiserebersdorf").
-initlocation(2,"Spittelau").
-initlocation(2,"Langenzersdorf Bahnhof").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Deutsch-Wagram Bahnhof").
-initlocation(2,"Stadion").
-initlocation(2,"Rochusgasse").
-initlocation(2,"Alterlaa").
-sequence(2,0, "Kaiserebersdorf").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-restaurant("Tullnerbach-Pressbaum Bahnhof".
-restaurant("Brunn-Maria Enzersdorf Bahnhof".
-restaurant("Enkplatz".
-restaurant("Hainburg/Donau Personenbhf".
-restaurant("Karlsplatz".
-restaurant("Am Schöpfwerk".
-restaurant("Zippererstraße".
-restaurant("Atzgersdorf").
+initlocation($p,"Achau Bahnhof").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Erdberg").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Schottentor").
+initlocation($p,"Heiligenstadt").
+initlocation($p,"Achau Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Gersthof").
+restaurant("Johnstraße").
+restaurant("Schottentor").
+restaurant("Tscherttegasse").
+restaurant("Blumental").
+restaurant("Simmering").
+restaurant("Mistelbach Bahnhof").
+restaurant("Hausfeldstraße").

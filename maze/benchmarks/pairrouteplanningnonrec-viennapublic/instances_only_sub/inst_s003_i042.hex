@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Stadtpark").
-initlocation(1,"Alterlaa").
-initlocation(1,"Wr Neustadt Nord").
-sequence(1,0, "Stadtpark").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Oberradlberg Bahnhof").
 person(2).
-initlocation(2,"Hetzendorf").
-initlocation(2,"Alte Donau").
-initlocation(2,"Keplerplatz").
-sequence(2,0, "Hetzendorf").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Braunschweiggasse").
-restaurant("Krieau".
-restaurant("Oberdöbling".
-restaurant("Aderklaaer Straße").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Dürrwien Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+restaurant("Stadtpark").
+restaurant("Lobau").
+restaurant("St Pölten Hauptbahnhof").

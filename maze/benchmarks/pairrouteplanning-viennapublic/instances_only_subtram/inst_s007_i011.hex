@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Franz-Asenbauer-Gasse").
-initlocation(1,"Neubaugasse").
-initlocation(1,"Verbindungsbahn").
-initlocation(1,"Reinlgasse/Märzstraße").
-initlocation(1,"Sierndorf Bahnhof").
-initlocation(1,"Fischamend Bahnhof").
-initlocation(1,"Plößlgasse").
-sequence(1,0, "Franz-Asenbauer-Gasse").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Kölblgasse").
+initlocation($p,"Rennweg").
+initlocation($p,"Silbergasse").
+initlocation($p,"Grillgasse").
+initlocation($p,"Gunoldstraße").
+initlocation($p,"Wr Neustadt Civitas Nova").
 person(2).
-initlocation(2,"Theresienfeld Bahnhof").
-initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
-initlocation(2,"Schlickgasse").
-initlocation(2,"Geiereckstraße").
-initlocation(2,"Spillern Bahnhof").
-initlocation(2,"Gersthofer Str/Scheibenbergstr").
-initlocation(2,"Blumengasse").
-sequence(2,0, "Theresienfeld Bahnhof").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Gruschaplatz").
-possiblemeetinglocations("Bahnsteggasse").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Hernalser Gürtel").
-possiblemeetinglocations("Resselgasse").
-restaurant("Keplerplatz").
-restaurant("Radetzkyplatz").
-restaurant("Stephansplatz").
-restaurant("Blindengasse").
-restaurant("Neubaugasse/Westbahnstraße").
-restaurant("Stadtpark").
-restaurant("Hetzgasse").
+initlocation($p,"Frauengasse").
+initlocation($p,"Spittelau").
+initlocation($p,"Jagdschloßgasse").
+initlocation($p,"Breitenfurter St/Altmannsd Str").
+initlocation($p,"Stadion").
+initlocation($p,"Längenfeldgasse/Flurschützstr").
+initlocation($p,"Alfred-Adler-Straße").
+initlocation($p,"Frauengasse").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+possiblemeetinglocations("Laurenzgasse").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Alaudagasse").
+restaurant("Preyergasse/Speising").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Götzendorf Bahnhof").
+restaurant("Gerhardusgasse").
+restaurant("Sieveringer Straße").

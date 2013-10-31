@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Kaiserstraße").
-initlocation(1,"Breitenfurter St/Altmannsd Str").
-initlocation(1,"Huglgasse").
-initlocation(1,"Erdbergstr/Schlachthausgasse").
-initlocation(1,"Anton-Krieger-Gasse").
-initlocation(1,"Bisamberg Bahnhof").
-initlocation(1,"Glatzgasse").
-initlocation(1,"Laurentiusplatz").
-sequence(1,0, "Kaiserstraße").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Stadtpark").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Schöffelgasse").
+initlocation($p,"Radetzkyplatz").
+initlocation($p,"Wenzgasse").
+initlocation($p,"Helmahof Bahnhof").
 person(2).
-initlocation(2,"Anton-Schall-Gasse").
-initlocation(2,"Paulanergasse").
-initlocation(2,"Krankenhaus Hietzing").
-initlocation(2,"Neubau-Kreuzstetten Bahnhof").
-initlocation(2,"Sahulkastraße").
-initlocation(2,"Spillern Bahnhof").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Mannswörth Bahnhof").
-sequence(2,0, "Anton-Schall-Gasse").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Hubertusdamm").
-possiblemeetinglocations("Liechtenwerder Platz").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Neuwaldegg").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Platt Bahnhof").
-restaurant("Rosenhügelstraße").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Polkorabplatz").
-restaurant("Augasse").
-restaurant("Donauspital").
-restaurant("Sieveringer Straße").
-restaurant("Krieau").
-restaurant("Spillern Bahnhof").
+initlocation($p,"Marx-Meidlinger-Straße").
+initlocation($p,"Schwarzspanierstraße").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Thaliastraße/Feßtgasse").
+initlocation($p,"Linzer Straße/Johnstraße").
+initlocation($p,"Marx-Meidlinger-Straße").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Alaudagasse").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Frauengasse").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Bernhardtstalgasse").
+restaurant("Bahnhofstraße").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Stadtpark").
+restaurant("Neilreichgasse").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Neuwaldegg").
+restaurant("Elterleinplatz").
+restaurant("Gumpendorfer Straße").

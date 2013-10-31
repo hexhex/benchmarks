@@ -1,59 +1,56 @@
 person(1).
-initlocation(1,"Johnstraße").
-initlocation(1,"Zieglergasse").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Hautzendorf Bahnhof").
-initlocation(1,"Süßenbrunn").
-initlocation(1,"Traisengasse").
-initlocation(1,"Kapellerfeld Bahnhof").
-initlocation(1,"Höflein an der Donau Bahnhof").
-initlocation(1,"Bisamberg Bahnhof").
-initlocation(1,"Haslau an der Donau Bahnhof").
-initlocation(1,"Simmering").
-initlocation(1,"Dresdner Straße").
-initlocation(1,"Guntramsdorf-Thallern").
-sequence(1,0, "Johnstraße").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Krieau").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Michelbeuern-AKH").
+initlocation($p,"Stubentor").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Ulrichskirchen Bahnhof").
 person(2).
-initlocation(2,"Karlsplatz").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Hetzendorf").
-initlocation(2,"Sarasdorf Bahnhof").
-initlocation(2,"Gumpoldskirchen Bahnhof").
-initlocation(2,"Liesing").
-initlocation(2,"Mannswörth Bahnhof").
-initlocation(2,"Hardeggasse").
-initlocation(2,"Donaumarina").
-initlocation(2,"Helmahof Bahnhof").
-initlocation(2,"Längenfeldgasse").
-initlocation(2,"Schottentor").
-initlocation(2,"Aderklaaer Straße").
-sequence(2,0, "Karlsplatz").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Sankt Marx").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Roßauer Lände").
+initlocation($p,"Alterlaa").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Hietzing").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Rennweg").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Sankt Marx").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
 possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-restaurant("Handelskai".
-restaurant("Sitzenberg-Reidling Bahnhof".
-restaurant("Seestadt".
-restaurant("Gänserndorf Bahnhof".
-restaurant("Josefstädter Straße".
-restaurant("Perchtoldsdorf Bahnhof".
-restaurant("Schönborn Bahnhof".
-restaurant("Leopoldau".
-restaurant("Neulengbach Stadt Bahnhof".
-restaurant("Wr Neustadt Civitas Nova".
-restaurant("Großfeldsiedlung".
-restaurant("Rathaus".
-restaurant("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Leopoldau").
+restaurant("Münchendorf Bahnhof").
+restaurant("Schottenring").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Alterlaa").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Spittelau").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Längenfeldgasse").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Schwechat Bahnhof").
+restaurant("Mannswörth Bahnhof").

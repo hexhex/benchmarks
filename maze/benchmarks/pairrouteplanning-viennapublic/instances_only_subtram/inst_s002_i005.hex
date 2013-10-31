@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Wr Neustadt Nord").
-initlocation(1,"Langobardenstraße/Kapellenweg").
-sequence(1,0, "Wr Neustadt Nord").
+initlocation($p,"Sahulkastraße").
+initlocation($p,"Schottenring").
+initlocation($p,"Sahulkastraße").
 person(2).
-initlocation(2,"Schuhmeierplatz").
-initlocation(2,"Franzensbrücke").
-sequence(2,0, "Schuhmeierplatz").
-possiblemeetinglocations("Kölblgasse").
-possiblemeetinglocations("Litfaßstraße").
-restaurant("Paasdorf Bahnhof").
-restaurant("Rauscherstraße").
+initlocation($p,"Vinzenzgasse").
+initlocation($p,"Kleistgasse").
+initlocation($p,"Vinzenzgasse").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Döblinger Bad").
+restaurant("Längenfeldgasse").
+restaurant("Dürrwien Bahnhof").

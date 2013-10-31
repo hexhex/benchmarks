@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Zippererstraße").
-initlocation(1,"Roßauer Lände").
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Unterpurkersdorf Bahnhof").
-initlocation(1,"Donauinsel").
-initlocation(1,"Brünner Straße").
-sequence(1,0, "Zippererstraße").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Heiligenstadt").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Theresienfeld Bahnhof").
 person(2).
-initlocation(2,"Josefstädter Straße").
-initlocation(2,"Hütteldorfer Straße").
-initlocation(2,"Oberradlberg Bahnhof").
-initlocation(2,"Penzing").
-initlocation(2,"Hadersdorf Bahnhof").
-initlocation(2,"Unterpurkersdorf Bahnhof").
-sequence(2,0, "Josefstädter Straße").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-restaurant("Stockerau Bahnhof".
-restaurant("Wolfsthal Bahnhof".
-restaurant("Schwechat Bahnhof".
-restaurant("Stadtpark".
-restaurant("Kritzendorf Bahnhof".
-restaurant("Schwedenplatz").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Rennweg").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Hofstatt Bahnhof").
+restaurant("Simmering").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Ladendorf Bahnhof").
+restaurant("Niederhofstraße").

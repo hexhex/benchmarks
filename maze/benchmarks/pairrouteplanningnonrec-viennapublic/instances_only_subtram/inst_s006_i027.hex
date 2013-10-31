@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Breitensee").
-initlocation(1,"Frättingsdorf Bahnhof").
-initlocation(1,"Kaiserstraße").
-initlocation(1,"Obersdorf Bahnhof").
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-initlocation(1,"Blindengasse").
-sequence(1,0, "Breitensee").
+initlocation($p,"Bahnhof Meidling/Eichenstraße").
+initlocation($p,"Quellenstraße/Favoritenstraße").
+initlocation($p,"Edmund-Hawranek-Platz").
+initlocation($p,"Gredlerstraße").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Bahnhof Meidling/Eichenstraße").
 person(2).
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Windtenstraße").
-initlocation(2,"Getzersdorf/Traisen Bahnhof").
-initlocation(2,"Kaiserstraße/Neustiftgasse").
-initlocation(2,"Silberwald Bahnhof").
-initlocation(2,"Krieau").
-sequence(2,0, "Hofstatt Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Stadlergasse").
-possiblemeetinglocations("Julius-Raab-Platz").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Stockholmer Platz").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-restaurant("Oberdöbling").
-restaurant("Hietzing").
-restaurant("Kettenbrückengasse").
-restaurant("Erdberg").
-restaurant("Trasdorf Bahnhof").
-restaurant("Neulerchenfelder Str/Brunneng").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Josef-Baumann-Gasse").
+initlocation($p,"Hernals").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Aspern Nord").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Stadiongasse/Parlament").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+restaurant("Krottenbachstraße").
+restaurant("Frauengasse").
+restaurant("Weinhauser Gasse").
+restaurant("Brünner Straße").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Hohe Warte").

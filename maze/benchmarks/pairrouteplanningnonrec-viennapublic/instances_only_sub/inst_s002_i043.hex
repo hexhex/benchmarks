@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Simmering").
-initlocation(1,"Traisengasse").
-sequence(1,0, "Simmering").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Sarasdorf Bahnhof").
 person(2).
-initlocation(2,"Oberradlberg Bahnhof").
-initlocation(2,"Vorgartenstraße").
-sequence(2,0, "Oberradlberg Bahnhof").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-restaurant("Herzogenburg Stadt".
-restaurant("Pottendorf-Landegg Bahnhof").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Erzherzog-Karl-Straße").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+restaurant("Gersthof").
+restaurant("Mistelbach Bahnhof").

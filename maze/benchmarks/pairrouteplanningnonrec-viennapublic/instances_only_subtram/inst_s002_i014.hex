@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Weihburggasse").
-initlocation(1,"Breitenfurter Str/Liesingbr").
-sequence(1,0, "Weihburggasse").
+initlocation($p,"Laa an der Thaya Bahnhof").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Laa an der Thaya Bahnhof").
 person(2).
-initlocation(2,"Linzer Straße/Zehetnergasse").
-initlocation(2,"Burgring").
-sequence(2,0, "Linzer Straße/Zehetnergasse").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-restaurant("Alaudagasse").
-restaurant("Sahulkastraße").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Baumgarten").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Alte Donau").
+restaurant("Baumgarten").
+restaurant("Martinstraße").

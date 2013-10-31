@@ -1,37 +1,36 @@
 person(1).
-initlocation(1,"Hernals").
-initlocation(1,"Alfred-Adler-Straße").
-initlocation(1,"Atzgersdorfer Straße").
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Staglgasse").
-initlocation(1,"Taborstraße/Heinestraße").
-initlocation(1,"Gaußplatz").
-initlocation(1,"Heiligenstadt, 12-Februar-Pl").
-sequence(1,0, "Hernals").
+initlocation($p,"Hoßplatz").
+initlocation($p,"Himmelmutterweg").
+initlocation($p,"Leberberg").
+initlocation($p,"Linzer Straße/Hochsatzengasse").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Kagraner Brücke").
+initlocation($p,"Erdbergstr/Schlachthausgasse").
+initlocation($p,"Hoßplatz").
 person(2).
-initlocation(2,"Gaußplatz").
-initlocation(2,"Hollabrunn Bahnhof").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Unteres Belvedere").
-initlocation(2,"Prandaugasse").
-initlocation(2,"Oberolberndorf Bahnhof").
-initlocation(2,"Zippererstraße").
-initlocation(2,"Rekawinkel Bahnhof").
-sequence(2,0, "Gaußplatz").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Hildebrandgasse").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Reinlgasse/Märzstraße").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Hopfengasse").
-restaurant("Volkstheater").
-restaurant("Wilhelminenstraße/Wattgasse").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Stiftgasse").
-restaurant("Neulerchenfelder Str/Brunneng").
-restaurant("Flughafen Wien (VIE).
-Bahnhof").
-restaurant("Franz-Asenbauer-Gasse").
-restaurant("Staatz Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Riedelgasse").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Ottakringer Str/Erdbrustgasse").
+initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation($p,"Leberberg").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Johnstraße").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Burgring").
+restaurant("Maurer Lange Gasse").
+restaurant("Fasangasse").
+restaurant("Pötzleinsdorf").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Stubentor").
+restaurant("Glatzgasse").

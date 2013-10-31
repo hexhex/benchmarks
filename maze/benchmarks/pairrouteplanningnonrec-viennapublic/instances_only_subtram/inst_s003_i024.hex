@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Dommayergasse").
-sequence(1,0, "Theresienfeld Bahnhof").
+initlocation($p,"Alsegger Straße").
+initlocation($p,"Gruschaplatz").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Alsegger Straße").
 person(2).
-initlocation(2,"Weinheimergasse").
-initlocation(2,"Donaustadtbrücke").
-initlocation(2,"Am Tabor").
-sequence(2,0, "Weinheimergasse").
-possiblemeetinglocations("Ottakringer Straße/Wattgasse").
-possiblemeetinglocations("Prinzgasse").
-possiblemeetinglocations("Thaliastraße/Haberlgasse").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Hausleiten Bahnhof").
-restaurant("Wr Neustadt Nord").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Ebenfurth Bahnhof").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+restaurant("Krottenbachstraße").
+restaurant("Wallrißstraße").
+restaurant("Keplerplatz").

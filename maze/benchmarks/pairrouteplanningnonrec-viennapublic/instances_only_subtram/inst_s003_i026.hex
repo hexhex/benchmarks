@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Oberfeldgasse/Spargelfeldstr").
-initlocation(1,"Kaiserstraße").
-initlocation(1,"Römergasse").
-sequence(1,0, "Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Volkstheater").
+initlocation($p,"Otto-Probst-Platz").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Volkstheater").
 person(2).
-initlocation(2,"Hintere Zollamtsstraße").
-initlocation(2,"Rodaun").
-initlocation(2,"Schöffelgasse").
-sequence(2,0, "Hintere Zollamtsstraße").
-possiblemeetinglocations("Carminweg").
-possiblemeetinglocations("Am Spitz").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-restaurant("Leopoldau").
-restaurant("Erndtgasse").
-restaurant("Bahnhof Meidling/Eichenstraße").
+initlocation($p,"Yppengasse").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Yppengasse").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Stubentor").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Redtenbachergasse").

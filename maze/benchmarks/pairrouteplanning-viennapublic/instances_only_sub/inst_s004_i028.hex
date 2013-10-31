@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Haslau an der Donau Bahnhof").
-initlocation(1,"Burggasse-Stadthalle").
-initlocation(1,"Stadtpark").
-initlocation(1,"Enzersdorf bei Staatz Bahnhof").
-sequence(1,0, "Haslau an der Donau Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
 person(2).
-initlocation(2,"Schleinbach Bahnhof").
-initlocation(2,"Schweglerstraße").
-initlocation(2,"Purkersdorf Sanatorium").
-initlocation(2,"Neubaugasse").
-sequence(2,0, "Schleinbach Bahnhof").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Donauspital").
-restaurant("Sierndorf Bahnhof".
-restaurant("Leobendorf-Burg Kreuzenstn Bf".
-restaurant("Getzersdorf/Traisen Bahnhof".
-restaurant("Schlachthausgasse").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Taborstraße").
+initlocation($p,"Göllersdorf Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Kettenbrückengasse").
+restaurant("Oberdöbling").
+restaurant("Herzogenburg Stadt").

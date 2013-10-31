@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Krieau").
-sequence(1,0, "Krieau").
+initlocation($p,"Vorgartenstraße").
+initlocation($p,"Vorgartenstraße").
 person(2).
-initlocation(2,"Schottenring").
-sequence(2,0, "Schottenring").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-restaurant("Pressbaum Bahnhof").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+restaurant("Schwechat Bahnhof").

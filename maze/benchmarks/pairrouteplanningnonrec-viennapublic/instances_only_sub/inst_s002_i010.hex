@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Kottingbrunn Bahnhof").
-initlocation(1,"Schweglerstraße").
-sequence(1,0, "Kottingbrunn Bahnhof").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
 person(2).
-initlocation(2,"Wildungsmauer Bahnhof").
-initlocation(2,"Hainburg/Donau Personenbhf").
-sequence(2,0, "Wildungsmauer Bahnhof").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Enkplatz").
-restaurant("Nußdorfer Straße".
-restaurant("Wampersdorf Bahnhof").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Unter Sankt Veit").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+restaurant("Alterlaa").
+restaurant("Nestroyplatz").

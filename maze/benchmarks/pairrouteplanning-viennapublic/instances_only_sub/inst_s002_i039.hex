@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Karlsplatz").
-sequence(1,0, "Klosterneuburg-Weidling Bf").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Atzenbrugg Bahnhof").
 person(2).
-initlocation(2,"Siemensstraße").
-initlocation(2,"Maria Ellend Bahnhof").
-sequence(2,0, "Siemensstraße").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-restaurant("Maria Ellend Bahnhof".
-restaurant("Jedlersdorf").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Ottakring").
+initlocation($p,"Hadersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+restaurant("Donaustadtbrücke").
+restaurant("Schleinbach Bahnhof").

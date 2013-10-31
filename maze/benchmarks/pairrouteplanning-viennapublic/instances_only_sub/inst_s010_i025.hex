@@ -1,45 +1,44 @@
 person(1).
-initlocation(1,"Pressbaum Bahnhof").
-initlocation(1,"Wilfleinsdorf Bahnhof").
-initlocation(1,"Viehofen Bahnhof").
-initlocation(1,"Höbersdorf Bahnhof").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Karlsplatz").
-initlocation(1,"Göllersdorf Bahnhof").
-initlocation(1,"Ottakring").
-initlocation(1,"Donaumarina").
-initlocation(1,"Laa an der Thaya Bahnhof").
-sequence(1,0, "Pressbaum Bahnhof").
+initlocation($p,"Handelskai").
+initlocation($p,"Taborstraße").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Alser Straße").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Handelskai").
 person(2).
-initlocation(2,"Kagraner Platz").
-initlocation(2,"Ulrichskirchen Bahnhof").
-initlocation(2,"Moosbierbaum-Heiligeneich Bf").
-initlocation(2,"Münchendorf Bahnhof").
-initlocation(2,"Rennweg").
-initlocation(2,"Dresdner Straße").
-initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation(2,"Preyergasse/Speising").
-initlocation(2,"Wildungsmauer Bahnhof").
-initlocation(2,"Aderklaaer Straße").
-sequence(2,0, "Kagraner Platz").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-restaurant("Theresienfeld Bahnhof".
-restaurant("Zippererstraße".
-restaurant("Floridsdorf".
-restaurant("Tulln Bahnhof".
-restaurant("Deutsch-Wagram Bahnhof".
-restaurant("Hainburg/Donau Ungartor/B9".
-restaurant("Retz Bahnhof".
-restaurant("Untereggendorf Bahnhof".
-restaurant("Sitzenberg-Reidling Bahnhof".
-restaurant("Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Sankt Marx").
+initlocation($p,"Hietzing").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Penzing").
+initlocation($p,"Ober Sankt Veit").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+restaurant("Heiligenstadt").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Schwechat Bahnhof").
+restaurant("Strasshof Bahnhof").
+restaurant("Schottenring").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Erdberg").
+restaurant("Dürrwien Bahnhof").
+restaurant("Hütteldorf").
+restaurant("Pfaffstätten Bahnhof").

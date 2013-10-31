@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Sankt Marx").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Hetzendorf").
-sequence(1,0, "Sankt Marx").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Unterpurkersdorf Bahnhof").
 person(2).
-initlocation(2,"Oberradlberg Bahnhof").
-initlocation(2,"Spillern Bahnhof").
-initlocation(2,"Obereggendorf Bahnhof").
-sequence(2,0, "Oberradlberg Bahnhof").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Alterlaa").
-restaurant("Handelskai".
-restaurant("Hirschstetten".
-restaurant("Kottingneusiedl Bahnhof").
+initlocation($p,"Haidestraße").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Traisengasse").
+initlocation($p,"Haidestraße").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+restaurant("Wolf in der Au").
+restaurant("Krottenbachstraße").
+restaurant("St Andrä-Wördern Bahnhof").

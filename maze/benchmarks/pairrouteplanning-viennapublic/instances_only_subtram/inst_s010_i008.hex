@@ -1,45 +1,44 @@
 person(1).
-initlocation(1,"Rodaun").
-initlocation(1,"Pilgramgasse").
-initlocation(1,"Herrengasse").
-initlocation(1,"Am Tabor").
-initlocation(1,"St Pölten Hauptbahnhof").
-initlocation(1,"Augasse").
-initlocation(1,"Enkplatz").
-initlocation(1,"Nußdorf, Beethovengang").
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-initlocation(1,"Hauffgasse").
-sequence(1,0, "Rodaun").
+initlocation($p,"Winkeläckerstraße").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Trondheimgasse").
+initlocation($p,"Hermesstraße").
+initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation($p,"Winkeläckerstraße").
 person(2).
-initlocation(2,"Empergergasse").
-initlocation(2,"Prater, Hauptallee").
-initlocation(2,"Schwedenplatz").
-initlocation(2,"Traismauer Bahnhof").
-initlocation(2,"Columbusplatz").
-initlocation(2,"Koloniestraße").
-initlocation(2,"Thaliastraße/Brunnengasse").
-initlocation(2,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(2,"Simonygasse").
-initlocation(2,"Breitensee").
-sequence(2,0, "Empergergasse").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Dornbacher Straße").
+initlocation($p,"Julius-Raab-Platz").
+initlocation($p,"Seestadt").
+initlocation($p,"Krieau").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Thaliastraße/Brunnengasse").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Rennweg").
+initlocation($p,"Friedensbrücke").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Hütteldorfer Straße").
 possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Thaliastraße/Haberlgasse").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Erndtgasse").
-possiblemeetinglocations("Türkenschanzplatz").
-possiblemeetinglocations("Hernalser Gürtel").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Marienbrücke").
-restaurant("Spillern Bahnhof").
-restaurant("Sieveringer Straße").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Winckelmannstraße").
-restaurant("Troststraße/Neilreichgasse").
-restaurant("Strebersdorf").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Döblinger Bad").
+restaurant("Schönbrunn").
+restaurant("Hopfengasse").
+restaurant("Josefstädter Straße").
+restaurant("Ameisgasse").
+restaurant("Obere Augartenstraße").
+restaurant("Platt Bahnhof").
+restaurant("Tesarekplatz").
+restaurant("Mannswörth Bahnhof").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Kaiserstraße").

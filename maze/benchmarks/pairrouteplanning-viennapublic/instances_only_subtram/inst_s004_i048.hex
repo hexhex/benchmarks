@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Prandaugasse").
-initlocation(1,"Wolf in der Au").
-initlocation(1,"Pötzleinsdorf").
-initlocation(1,"Zentralfriedhof 3Tor").
-sequence(1,0, "Prandaugasse").
+initlocation($p,"Althanstraße").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Kleistgasse").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Althanstraße").
 person(2).
-initlocation(2,"Laxenburger Straße/Troststraße").
-initlocation(2,"Hetzendorf").
-initlocation(2,"Wenzgasse").
-initlocation(2,"Breitenwaida Bahnhof").
-sequence(2,0, "Laxenburger Straße/Troststraße").
-possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
-possiblemeetinglocations("Sechskrügelgasse").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Gumpendorfer Straße").
-restaurant("Viehmarktgasse").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Marienbrücke").
-restaurant("Gutraterplatz").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
+initlocation($p,"Julius-Raab-Platz").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Gerstnerstraße/Westbhf").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Kaiserstraße").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Kutschkergasse").

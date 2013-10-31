@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Hütteldorf, Bujattigasse").
-initlocation(1,"Windtenstraße").
-initlocation(1,"Weißenböckstraße").
-initlocation(1,"Ulrichskirchen Bahnhof").
-initlocation(1,"Gerhardusgasse").
-initlocation(1,"Koppstraße/Panikengasse").
-sequence(1,0, "Hütteldorf, Bujattigasse").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"Schwarzspanierstraße").
+initlocation($p,"Rathaus").
+initlocation($p,"Donaustadtstraße").
+initlocation($p,"Rauscherstraße").
+initlocation($p,"Bahnhofstraße").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
 person(2).
-initlocation(2,"Stockholmer Platz").
-initlocation(2,"Migerkastraße").
-initlocation(2,"Arminenstraße").
-initlocation(2,"Linzer Straße/Reinlgasse").
-initlocation(2,"Trondheimgasse").
-initlocation(2,"Kaiserstraße/Westbahnstraße").
-sequence(2,0, "Stockholmer Platz").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Kleistgasse").
-possiblemeetinglocations("Barawitzkagasse").
-possiblemeetinglocations("Stadtpark").
-restaurant("Jedlersdorf").
-restaurant("Heinrich-Drimmel-Platz").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Museumsquartier").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Lobau").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Haidestraße").
+initlocation($p,"Albertgasse").
+initlocation($p,"Theresienfeld Bahnhof").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Sieveringer Straße").
+restaurant("Stadlergasse").
+restaurant("Aspern Nord").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Nordbahnstraße").
+restaurant("Gußhausstraße").
+restaurant("Breitenfurter St/Altmannsd Str").

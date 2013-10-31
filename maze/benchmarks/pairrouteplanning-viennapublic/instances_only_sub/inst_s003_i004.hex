@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Haidestraße").
-initlocation(1,"Michelhausen Bahnhof").
-initlocation(1,"Höflein an der Donau Bahnhof").
-sequence(1,0, "Haidestraße").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Stadtpark").
+initlocation($p,"Parndorf Ort Bahnhof").
 person(2).
-initlocation(2,"Wilfleinsdorf Bahnhof").
-initlocation(2,"Gaisruck Bahnhof").
-initlocation(2,"Hütteldorfer Straße").
-sequence(2,0, "Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-restaurant("Gersthof".
-restaurant("Theresienfeld Bahnhof".
-restaurant("Wr Neustadt Hauptbahnhof").
+initlocation($p,"Schottentor").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Schottentor").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Perfektastraße").
+restaurant("Stephansplatz").
+restaurant("Taubstummengasse").
+restaurant("Donaumarina").

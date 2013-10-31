@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Leopoldau").
-initlocation(1,"Kagran").
-initlocation(1,"Deutsch-Wagram Bahnhof").
-sequence(1,0, "Leopoldau").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Kagraner Platz").
 person(2).
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Oberdöbling").
-sequence(2,0, "Breitenwaida Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Donauinsel").
-restaurant("Oberdöbling".
-restaurant("Kaiserebersdorf".
-restaurant("Wr Neustadt Hauptbahnhof").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Nußdorfer Straße").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Johnstraße").
+restaurant("Platt Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Messe-Prater").

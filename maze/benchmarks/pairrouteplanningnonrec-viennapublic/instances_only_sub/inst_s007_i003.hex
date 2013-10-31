@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Reumannplatz").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Donaustadtbrücke").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Obersdorf Bahnhof").
-initlocation(1,"Sankt Marx").
-initlocation(1,"Pilgramgasse").
-sequence(1,0, "Reumannplatz").
+initlocation($p,"Taborstraße").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Taborstraße").
 person(2).
-initlocation(2,"Untertullnerbach Bahnhof").
-initlocation(2,"Neusiedl am See Bahnhof").
-initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation(2,"Getzersdorf/Traisen Bahnhof").
-initlocation(2,"Krottenbachstraße").
-initlocation(2,"Längenfeldgasse").
-initlocation(2,"Hausfeldstraße").
-sequence(2,0, "Untertullnerbach Bahnhof").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Pressbaum Bahnhof").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Josefstädter Straße").
-restaurant("Guntersdorf Bahnhof".
-restaurant("Aderklaaer Straße".
-restaurant("Penzing".
-restaurant("Westbahnhof".
-restaurant("Messe-Prater".
-restaurant("Gumpendorfer Straße".
-restaurant("Sarasdorf Bahnhof").
+initlocation($p,"Leopoldau").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Gasometer").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Leopoldau").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Trasdorf Bahnhof").
+restaurant("Dürrwien Bahnhof").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Oberradlberg Bahnhof").

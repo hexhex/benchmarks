@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Purkersdorf Sanatorium").
-sequence(1,0, "Purkersdorf Sanatorium").
+initlocation($p,"Otto-Probst-Straße").
+initlocation($p,"Otto-Probst-Straße").
 person(2).
-initlocation(2,"Höflein an der Donau Bahnhof").
-sequence(2,0, "Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Arminenstraße").
-restaurant("Litfaßstraße").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+restaurant("Stadiongasse/Parlament").

@@ -1,30 +1,28 @@
 person(1).
-initlocation(1,"Kledering Bahnhof").
-initlocation(1,"Sarasdorf Bahnhof").
-initlocation(1,"Guntramsdorf-Thallern").
-initlocation(1,"Hietzing").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Bad Vöslau Bahnhof").
-sequence(1,0, "Kledering Bahnhof").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Kaiserebersdorf").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Seestadt").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Meidling Hauptstraße").
 person(2).
-initlocation(2,"Bad Vöslau Bahnhof").
-initlocation(2,"Volkstheater").
-initlocation(2,"Preyergasse/Speising").
-initlocation(2,"Helmahof Bahnhof").
-initlocation(2,"Untertullnerbach Bahnhof").
-initlocation(2,"Kottingneusiedl Bahnhof").
-sequence(2,0, "Bad Vöslau Bahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Gersthof").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Unter Kritzendorf Bahnhof").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Mannswörth Bahnhof").
+initlocation($p,"Praterstern").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Messe-Prater").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Krottenbachstraße").
 possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Strasshof Bahnhof").
-restaurant("Flughafen Wien (VIE.
-Bahnhof".
-restaurant("Oberradlberg Bahnhof".
-restaurant("Donaustadtbrücke".
-restaurant("Perchtoldsdorf Bahnhof".
-restaurant("Meidling Hauptstraße".
-restaurant("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+restaurant("Schleinbach Bahnhof").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Liesing").
+restaurant("Haidestraße").
+restaurant("Sankt Marx").

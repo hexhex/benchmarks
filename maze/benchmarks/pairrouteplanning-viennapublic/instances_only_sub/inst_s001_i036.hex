@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Nestroyplatz").
-sequence(1,0, "Nestroyplatz").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Westbahnhof").
 person(2).
-initlocation(2,"Krieau").
-sequence(2,0, "Krieau").
-possiblemeetinglocations("Kaisermühlen-VIC").
-restaurant("Schönborn Bahnhof").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Retz Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+restaurant("Haidestraße").

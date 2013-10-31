@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Matzleinsdorfer Platz").
-initlocation(1,"Leobersdorf Bahnhof").
-initlocation(1,"Floridsdorf").
-initlocation(1,"Simmering").
-initlocation(1,"Krieau").
-initlocation(1,"Stubentor").
-sequence(1,0, "Matzleinsdorfer Platz").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Trasdorf Bahnhof").
 person(2).
-initlocation(2,"Pottendorf-Landegg Bahnhof").
-initlocation(2,"Johnstraße").
-initlocation(2,"Trasdorf Bahnhof").
-initlocation(2,"Gumpoldskirchen Bahnhof").
-initlocation(2,"Purkersdorf Sanatorium").
-initlocation(2,"Aderklaaer Straße").
-sequence(2,0, "Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Traismauer Bahnhof").
-restaurant("Bahnhof Meidling".
-restaurant("Kettenbrückengasse".
-restaurant("Münchendorf Bahnhof".
-restaurant("Hainburg/Donau Kulturfabrik Bf".
-restaurant("Mannswörth Bahnhof".
-restaurant("Schönbrunn").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Donaumarina").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Schwedenplatz").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Hernals").
+restaurant("Atzgersdorf").
+restaurant("Handelskai").
+restaurant("Nußdorfer Straße").
+restaurant("Nestroyplatz").
+restaurant("Traismauer Bahnhof").

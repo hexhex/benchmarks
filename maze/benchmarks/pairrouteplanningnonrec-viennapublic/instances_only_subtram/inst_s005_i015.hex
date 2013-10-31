@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Liebknechtgasse").
-initlocation(1,"Stockholmer Platz").
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Anschützgasse").
-initlocation(1,"Carminweg").
-sequence(1,0, "Liebknechtgasse").
+initlocation($p,"Albertgasse").
+initlocation($p,"Linzer Straße/Reinlgasse").
+initlocation($p,"Knöllgasse/Davidgasse").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Floridsdorfer Brücke").
+initlocation($p,"Albertgasse").
 person(2).
-initlocation(2,"Hörersdorf Bahnhof").
-initlocation(2,"Marienbrücke").
-initlocation(2,"Gersthofer Str/Scheibenbergstr").
-initlocation(2,"Obereggendorf Bahnhof").
-initlocation(2,"Verbindungsbahn").
-sequence(2,0, "Hörersdorf Bahnhof").
-possiblemeetinglocations("Türkenschanzplatz").
-possiblemeetinglocations("Pokornygasse").
-possiblemeetinglocations("Forstnergasse").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Polgarstraße").
-restaurant("Hintere Zollamtsstraße").
-restaurant("Waidhausenstraße").
-restaurant("Gersthofer Str/Scheibenbergstr").
-restaurant("Baumgasse").
-restaurant("Gänserndorf Bahnhof").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Stubentor").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Edmund-Hawranek-Platz").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Zieglergasse").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Simonygasse").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Mistelbach Bahnhof").
+restaurant("Stadlau").
+restaurant("Dommayergasse").

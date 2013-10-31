@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Prinzgasse").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Ottakring").
-initlocation(1,"Stefan-Fadinger-Platz").
-sequence(1,0, "Prinzgasse").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Mühlfeldgasse").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Aspern Nord").
 person(2).
-initlocation(2,"Platt Bahnhof").
-initlocation(2,"Stadlergasse").
-initlocation(2,"Himmelmutterweg").
-initlocation(2,"Neilreichgasse").
-sequence(2,0, "Platt Bahnhof").
-possiblemeetinglocations("Althanstraße").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Himmelmutterweg").
-restaurant("Weidlingau Bahnhof").
-restaurant("Aspernstraße").
-restaurant("Linzer Straße/Zehetnergasse").
-restaurant("Geiselbergstraße").
+initlocation($p,"Maurer Hauptplatz").
+initlocation($p,"Josef-Baumann-Gasse").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation($p,"Laurenzgasse").
+initlocation($p,"Maurer Hauptplatz").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Otto-Probst-Platz").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Albertgasse").
+restaurant("Hardeggasse").
+restaurant("Stadion").

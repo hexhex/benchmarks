@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Rochusgasse").
-initlocation(1,"Maurer Hauptplatz").
-initlocation(1,"Baden Bahnhof").
-sequence(1,0, "Rochusgasse").
+initlocation($p,"Siebertgasse").
+initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Siebertgasse").
 person(2).
-initlocation(2,"Hetzendorf").
-initlocation(2,"Dornbach, Güpferlingstraße").
-initlocation(2,"Rampengasse").
-sequence(2,0, "Hetzendorf").
-possiblemeetinglocations("Halteraugasse").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Johann-Nepomuk-Berger-Platz").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Thaliastraße").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Hütteldorfer Straße").
+restaurant("Zentralfriedhof 1Tor").

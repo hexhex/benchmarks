@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Am Schöpfwerk").
-initlocation(1,"Sitzenberg-Reidling Bahnhof").
-initlocation(1,"Breitensee").
-initlocation(1,"Süßenbrunn").
-initlocation(1,"Erzherzog-Karl-Straße").
-sequence(1,0, "Am Schöpfwerk").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Stubentor").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Penzing").
+initlocation($p,"Stephansplatz").
 person(2).
-initlocation(2,"Münchendorf Bahnhof").
-initlocation(2,"Seestadt").
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Bahnhof Meidling").
-initlocation(2,"Frättingsdorf Bahnhof").
-sequence(2,0, "Münchendorf Bahnhof").
-possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Unteroberndorf Bahnhof".
-restaurant("Hütteldorfer Straße".
-restaurant("Heiligenstadt".
-restaurant("Gaisruck Bahnhof".
-restaurant("Langenzersdorf Bahnhof").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Erzherzog-Karl-Straße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Schwechat Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Gasometer").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Untereggendorf Bahnhof").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Jedlersdorf").
-initlocation(1,"Heiligenstadt, 12-Februar-Pl").
-sequence(1,0, "Jedlersdorf").
+initlocation($p,"Brünner Straße/Hanreitergasse").
+initlocation($p,"Molitorgasse").
+initlocation($p,"Brünner Straße/Hanreitergasse").
 person(2).
-initlocation(2,"Ottakringer Str/Erdbrustgasse").
-initlocation(2,"Weihburggasse").
-sequence(2,0, "Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Karmeliterplatz").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-restaurant("Auerspergstraße").
-restaurant("Oberradlberg Bahnhof").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
+initlocation($p,"Sommarugagasse").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+restaurant("Lazarettgasse").
+restaurant("Perchtoldsdorf Bahnhof").

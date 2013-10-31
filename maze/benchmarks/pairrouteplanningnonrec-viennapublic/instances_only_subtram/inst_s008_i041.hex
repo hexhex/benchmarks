@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Seestadt").
-initlocation(1,"Schloss Schönbrunn").
-initlocation(1,"Neilreichgasse").
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Julius-Raab-Platz").
-initlocation(1,"Resselgasse").
-initlocation(1,"Achau Bahnhof").
-sequence(1,0, "Seestadt").
+initlocation($p,"Kaiserstraße/Burggasse").
+initlocation($p,"Mayerhofgasse").
+initlocation($p,"Sechskrügelgasse").
+initlocation($p,"Hauptbahnhof Ost").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Palffygasse").
+initlocation($p,"Stockholmer Platz").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Kaiserstraße/Burggasse").
 person(2).
-initlocation(2,"Ameisgasse").
-initlocation(2,"Johannes-Krawarik-Gasse").
-initlocation(2,"Langenlebarn Bahnhof").
-initlocation(2,"Alte Donau").
-initlocation(2,"Grinzinger Straße").
-initlocation(2,"Unteres Belvedere").
-initlocation(2,"Hütteldorfer Str/Hochsatzeng").
-initlocation(2,"Gellertplatz").
-sequence(2,0, "Ameisgasse").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Migerkastraße").
-possiblemeetinglocations("Augasse").
-possiblemeetinglocations("Weinhauser Gasse").
-possiblemeetinglocations("Nußdorfer Straße").
+initlocation($p,"Rampengasse").
+initlocation($p,"Rothneusiedl").
+initlocation($p,"Kaiserstraße/Burggasse").
+initlocation($p,"Hernalser Gürtel").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Gellertplatz").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Rampengasse").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Mühlfeldgasse").
+possiblemeetinglocations("Huglgasse").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Hütteldorfer Straße").
+restaurant("Preyergasse/Speising").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Liechtenwerder Platz").
 restaurant("Aderklaaer Straße").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Nordbrücke").
-restaurant("Ladendorf Bahnhof").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Herzogenburg Stadt").
-restaurant("Rampengasse").
-restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Laurentiusplatz").

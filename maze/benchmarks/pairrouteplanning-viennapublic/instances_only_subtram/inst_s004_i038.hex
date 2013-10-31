@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Nußdorf, Beethovengang").
-initlocation(1,"Kliebergasse").
-initlocation(1,"Zentralfriedhof 1Tor").
-initlocation(1,"Wienerbergbrücke").
-sequence(1,0, "Nußdorf, Beethovengang").
+initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Urban-Loritz-Platz").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Linzer Straße/Lützowgasse").
 person(2).
-initlocation(2,"Konstanziagasse").
-initlocation(2,"Gusenleithnergasse").
-initlocation(2,"Kaiserebersdorf").
-initlocation(2,"Krieau").
-sequence(2,0, "Konstanziagasse").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Sieveringer Straße").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Johann-Nepomuk-Berger-Platz").
-restaurant("Heiligenstadt, 12-Februar-Pl").
-restaurant("Rothneusiedl").
+initlocation($p,"Gewerbepark Stadlau Mitte").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Hermesstraße").
+initlocation($p,"Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Perfektastraße").
+restaurant("Ober Sankt Veit").
+restaurant("Radetzkyplatz").
+restaurant("Fichtnergasse").
+restaurant("Keplerplatz").

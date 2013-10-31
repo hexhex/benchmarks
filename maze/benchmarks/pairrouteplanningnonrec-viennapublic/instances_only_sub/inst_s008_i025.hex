@@ -1,37 +1,36 @@
 person(1).
-initlocation(1,"Floridsdorf").
-initlocation(1,"Deutsch-Wagram Bahnhof").
-initlocation(1,"Schwedenplatz").
-initlocation(1,"Trautmannsdorf/Leitha Bf").
-initlocation(1,"Grillgasse").
-initlocation(1,"Breitensee").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Kardinal-Nagl-Platz").
-sequence(1,0, "Floridsdorf").
+initlocation($p,"Johnstraße").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Johnstraße").
 person(2).
-initlocation(2,"Hetzendorf").
-initlocation(2,"Grillgasse").
-initlocation(2,"Unterradlberg Bahnhof").
-initlocation(2,"Leobersdorf Bahnhof").
-initlocation(2,"Gumpendorfer Straße").
-initlocation(2,"Felixdorf Bahnhof").
-initlocation(2,"Kapellerfeld Bahnhof").
-initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
-sequence(2,0, "Hetzendorf").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Blumental").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Vorgartenstraße").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Kapellerfeld Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Jägerstraße").
 possiblemeetinglocations("Erdberg").
-restaurant("Wildungsmauer Bahnhof".
-restaurant("Hainburg/Donau Personenbhf".
-restaurant("Maria Ellend Bahnhof".
-restaurant("Wilfleinsdorf Bahnhof".
-restaurant("St Andrä-Wördern Bahnhof".
-restaurant("Pilgramgasse".
-restaurant("Leobersdorf Bahnhof".
-restaurant("Kottingbrunn Bahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Dürrwien Bahnhof").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Neubaugasse").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Michelbeuern-AKH").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Donauspital").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Reinlgasse/Märzstraße").
-initlocation(1,"Sankt Marx").
-sequence(1,0, "Reinlgasse/Märzstraße").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Troststraße/Neilreichgasse").
+initlocation($p,"Unterradlberg Bahnhof").
 person(2).
-initlocation(2,"Hirschstetten").
-initlocation(2,"Marienbrücke").
-sequence(2,0, "Hirschstetten").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Kagraner Platz").
-restaurant("Kliebergasse").
-restaurant("Untereggendorf Bahnhof").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Penzing").
+restaurant("Glatzgasse").
+restaurant("Zehetnerg/Pflegeh Baumgarten").

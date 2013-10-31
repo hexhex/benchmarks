@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Gersthof").
-initlocation(1,"Schottenfeldgasse").
-initlocation(1,"Trasdorf Bahnhof").
-initlocation(1,"Haidestraße").
-initlocation(1,"Rankgasse").
-sequence(1,0, "Gersthof").
+initlocation($p,"Sierndorf Bahnhof").
+initlocation($p,"Knöllgasse/Davidgasse").
+initlocation($p,"Am Spitz").
+initlocation($p,"Raxstraße/Rudolfshügelgasse").
+initlocation($p,"Laurenzgasse").
+initlocation($p,"Sierndorf Bahnhof").
 person(2).
-initlocation(2,"Knöllgasse/Troststraße").
-initlocation(2,"Gredlerstraße").
-initlocation(2,"Regelsbrunn Bahnhof").
-initlocation(2,"Krieau").
-initlocation(2,"Hintere Zollamtsstraße").
-sequence(2,0, "Knöllgasse/Troststraße").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Johannes-Krawarik-Gasse").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-restaurant("Unteroberndorf Bahnhof").
-restaurant("Blumengasse").
-restaurant("Skodagasse").
-restaurant("Carminweg").
-restaurant("Frödenplatz").
+initlocation($p,"Van-Swieten-Kaserne").
+initlocation($p,"Weinheimergasse").
+initlocation($p,"Marienbrücke").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Salztorbrücke").
+initlocation($p,"Van-Swieten-Kaserne").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Eichenstraße").
+possiblemeetinglocations("Hermesstraße").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Verbindungsbahn").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Krankenhaus Hietzing").
+restaurant("Hohe Warte").
+restaurant("Kutschkergasse").
+restaurant("Per-Albin-Hansson-Siedlung Ost").

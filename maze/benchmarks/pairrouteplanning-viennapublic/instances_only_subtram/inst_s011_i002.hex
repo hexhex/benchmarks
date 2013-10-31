@@ -1,48 +1,48 @@
 person(1).
-initlocation(1,"Prandaugasse").
-initlocation(1,"Nestroyplatz").
-initlocation(1,"Haslau an der Donau Bahnhof").
-initlocation(1,"Linzer Straße/Reinlgasse").
-initlocation(1,"Liesing").
-initlocation(1,"Götzendorf Bahnhof").
-initlocation(1,"Kaiserstraße/Burggasse").
-initlocation(1,"Zentralfriedhof 3Tor").
-initlocation(1,"Paradisgasse").
-initlocation(1,"Sonnergasse").
-initlocation(1,"Gänserndorf Bahnhof").
-sequence(1,0, "Prandaugasse").
+initlocation($p,"Penzinger Straße").
+initlocation($p,"Unteres Belvedere").
+initlocation($p,"Alaudagasse").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Am Schöpfwerk").
+initlocation($p,"Laurenzgasse").
+initlocation($p,"Liesing").
+initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Maurer Lange Gasse").
+initlocation($p,"Heiligenstadt").
+initlocation($p,"Penzinger Straße").
 person(2).
-initlocation(2,"Yppengasse").
-initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
-initlocation(2,"Liebknechtgasse").
-initlocation(2,"Kliebergasse").
-initlocation(2,"Penzinger Straße").
-initlocation(2,"St Pölten Hauptbahnhof").
-initlocation(2,"Blindengasse").
-initlocation(2,"Canisiusgasse").
-initlocation(2,"Aßmayergasse").
-initlocation(2,"Matzleinsdorfer Platz").
-initlocation(2,"Windtenstraße").
-sequence(2,0, "Yppengasse").
-possiblemeetinglocations("Columbusplatz").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Altes Landgut").
-possiblemeetinglocations("Guneschgasse").
-possiblemeetinglocations("Innstraße").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Johannes-Krawarik-Gasse").
-possiblemeetinglocations("Westbahnhof").
-restaurant("Kutschkergasse").
-restaurant("Pantucekgasse/Widholzgasse").
-restaurant("Donauspital").
-restaurant("Kaiserstraße").
-restaurant("Handelskai").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Mayerhofgasse").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Stollgasse").
-restaurant("Aspernstraße").
+initlocation($p,"Karmeliterplatz").
+initlocation($p,"Sickenberggasse").
+initlocation($p,"Penzinger Straße").
+initlocation($p,"Edmund-Hawranek-Platz").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation($p,"Staglgasse").
+initlocation($p,"Ottakringer Str/Erdbrustgasse").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Fultonstraße").
+initlocation($p,"Koppstraße/Panikengasse").
+initlocation($p,"Sankt Marx").
+initlocation($p,"Karmeliterplatz").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Sankt Marx").
+restaurant("Donaustadtbrücke").
+restaurant("Jedlersdorf").
+restaurant("Josefstädter Straße").
+restaurant("Aspern, Oberdorfstraße").
+restaurant("Erndtgasse").
+restaurant("Krottenbachstraße").
+restaurant("Gußhausstraße").
+restaurant("Perfektastraße").
+restaurant("Canisiusgasse").

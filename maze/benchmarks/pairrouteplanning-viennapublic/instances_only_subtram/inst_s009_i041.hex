@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Donaumarina").
-initlocation(1,"Gersthof").
-initlocation(1,"Seegasse").
-initlocation(1,"Fichtnergasse").
-initlocation(1,"Prandaugasse").
-initlocation(1,"Kölblgasse").
-initlocation(1,"Beingasse").
-initlocation(1,"Ladendorf Bahnhof").
-initlocation(1,"Bahnhofstraße").
-sequence(1,0, "Donaumarina").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Huglgasse").
+initlocation($p,"Schottenfeldgasse").
+initlocation($p,"Arminenstraße").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Valiergasse").
+initlocation($p,"Unterradlberg Bahnhof").
 person(2).
-initlocation(2,"Deutsch-Wagram Bahnhof").
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Eckpergasse").
-initlocation(2,"Theresienfeld Bahnhof").
-initlocation(2,"Teichgasse").
-initlocation(2,"Schwarzspanierstraße").
-initlocation(2,"Nestroyplatz").
-initlocation(2,"Am Heidjöchl/Hausfeldstraße").
-initlocation(2,"Nordbrücke").
-sequence(2,0, "Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Herbeckstraße").
-possiblemeetinglocations("Salztorbrücke").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Laurenzgasse").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Gersthofer Str/Scheibenbergstr").
-restaurant("Siebertgasse").
-restaurant("Himmelmutterweg").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Fickeysstraße").
-restaurant("Trasdorf Bahnhof").
-restaurant("Quellenstraße/Favoritenstraße").
-restaurant("Brünner Straße/Hanreitergasse").
+initlocation($p,"Herbeckstraße").
+initlocation($p,"Handelskai").
+initlocation($p,"Perntergasse").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Gellertplatz").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Schleiergasse").
+initlocation($p,"Römergasse").
+initlocation($p,"Stadlau").
+initlocation($p,"Herbeckstraße").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Otto-Probst-Straße").
+restaurant("Hohe Warte").
+restaurant("Hernals").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Unter Sankt Veit").
+restaurant("Sickenberggasse").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Oberzellergasse").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Hörersdorf Bahnhof").

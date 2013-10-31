@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Haslau an der Donau Bahnhof").
-initlocation(1,"Klosterneuburg-Kierling Bf").
-initlocation(1,"Kettenbrückengasse").
-sequence(1,0, "Haslau an der Donau Bahnhof").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
 person(2).
-initlocation(2,"Gumpoldskirchen Bahnhof").
-initlocation(2,"Tscherttegasse").
-initlocation(2,"Penzing").
-sequence(2,0, "Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Paasdorf Bahnhof").
-restaurant("Zellerndorf Bahnhof".
-restaurant("Schleinbach Bahnhof".
-restaurant("Aspern Nord").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Zellerndorf Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Hietzing").
+restaurant("Trasdorf Bahnhof").
+restaurant("Museumsquartier").
+restaurant("Preyergasse/Speising").

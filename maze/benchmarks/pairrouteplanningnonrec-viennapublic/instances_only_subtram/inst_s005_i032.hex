@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Hainburg/Donau Ungartor/B9").
-initlocation(1,"Hütteldorfer Straße").
-initlocation(1,"Heiligenstadt").
-initlocation(1,"Eichgraben-Altlengbach Bahnhof").
-initlocation(1,"Hernals").
-sequence(1,0, "Hainburg/Donau Ungartor/B9").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Schmerlingplatz").
+initlocation($p,"Schuhmeierplatz").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Zentralfriedhof 1Tor").
+initlocation($p,"Preyergasse/Speising").
 person(2).
-initlocation(2,"Donaustadtbrücke").
-initlocation(2,"Hütteldorfer Str/Lützowgasse").
-initlocation(2,"Empergergasse").
-initlocation(2,"Am Heidjöchl/Hausfeldstraße").
-initlocation(2,"Jägerstraße").
-sequence(2,0, "Donaustadtbrücke").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-restaurant("Wexstraße").
-restaurant("Hietzing").
-restaurant("Mödling Bahnhof").
-restaurant("Schwechat Bahnhof").
-restaurant("Hermesstraße").
+initlocation($p,"Volkstheater").
+initlocation($p,"Guntherstraße").
+initlocation($p,"Staglgasse").
+initlocation($p,"Shuttleworthstraße").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Volkstheater").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Quellenplatz").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Salztorbrücke").
+restaurant("Fasangasse").
+restaurant("Carminweg").

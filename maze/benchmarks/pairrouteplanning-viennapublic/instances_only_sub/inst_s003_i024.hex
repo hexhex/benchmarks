@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Stephansplatz").
-initlocation(1,"Untereggendorf Bahnhof").
-initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
-sequence(1,0, "Stephansplatz").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Neusiedl am See Bahnhof").
 person(2).
-initlocation(2,"Schottentor").
-initlocation(2,"Achau Bahnhof").
-initlocation(2,"Hollabrunn Bahnhof").
-sequence(2,0, "Schottentor").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-restaurant("Siemensstraße".
-restaurant("Tullnerbach-Pressbaum Bahnhof".
-restaurant("Grillgasse").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Rochusgasse").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Münchendorf Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Silberwald Bahnhof").

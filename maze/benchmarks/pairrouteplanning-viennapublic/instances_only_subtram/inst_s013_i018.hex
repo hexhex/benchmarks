@@ -1,58 +1,56 @@
 person(1).
-initlocation(1,"Svetelskystraße").
-initlocation(1,"Gellertplatz").
-initlocation(1,"Knöllgasse/Davidgasse").
-initlocation(1,"Fultonstraße").
-initlocation(1,"Thaliastraße/Feßtgasse").
-initlocation(1,"Sickenberggasse").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Bahnhof Meidling/Eichenstraße").
-initlocation(1,"Laxenburger Straße/Troststraße").
-initlocation(1,"Kettenbrückengasse").
-initlocation(1,"Südtiroler Platz/Hauptbahnhof").
-initlocation(1,"Neubaugasse/Westbahnstraße").
-initlocation(1,"Unteres Belvedere").
-sequence(1,0, "Svetelskystraße").
+initlocation($p,"Langobardenstraße/Kapellenweg").
+initlocation($p,"Stadlau").
+initlocation($p,"Stubentor").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Gusenleithnergasse").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Schloss Hetzendorf").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Donaustadtstraße").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Prinzgasse").
+initlocation($p,"Donauspital").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Langobardenstraße/Kapellenweg").
 person(2).
-initlocation(2,"Taubstummengasse").
-initlocation(2,"Klosterneuburg-Kierling Bf").
-initlocation(2,"Hernalser Hauptstr/Wattgasse").
-initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(2,"Volkstheater").
-initlocation(2,"Gumpoldskirchen Bahnhof").
-initlocation(2,"Paasdorf Bahnhof").
-initlocation(2,"Schlickgasse").
-initlocation(2,"Obereggendorf Bahnhof").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Beingasse").
-initlocation(2,"Handelskai").
-initlocation(2,"Hofwiesengasse").
-sequence(2,0, "Taubstummengasse").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Columbusplatz").
-possiblemeetinglocations("Hohe Warte").
-possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
-possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
-possiblemeetinglocations("Gaußplatz").
-possiblemeetinglocations("Himmelmutterweg").
+initlocation($p,"Pantucekgasse/Widholzgasse").
+initlocation($p,"Donaumarina").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Wexstraße").
+initlocation($p,"Kaiserstraße/Neustiftgasse").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Siebertgasse").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+initlocation($p,"Van-Swieten-Kaserne").
+initlocation($p,"Schottenring").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Unteres Belvedere").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Mühlfeldgasse").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
 possiblemeetinglocations("Nußdorf, Beethovengang").
-possiblemeetinglocations("Römergasse").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Bernhardtstalgasse").
-restaurant("Strebersdorf").
-restaurant("Stiftgasse").
-restaurant("Spittelau").
-restaurant("Nußdorfer Straße").
-restaurant("Atzgersdorf").
-restaurant("Hütteldorf, Bujattigasse").
-restaurant("Mistelbach Bahnhof").
-restaurant("Seegasse").
-restaurant("Grillgasse").
-restaurant("Sickenberggasse").
-restaurant("Kleistgasse").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Erndtgasse").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Franzensbrücke").
+restaurant("Großjedlersdorf").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Braunhubergasse").
+restaurant("Schloss Belvedere").
+restaurant("Himberg Bahnhof").
+restaurant("Teichgasse").
+restaurant("Alterlaa").
+restaurant("Floridsdorfer Brücke").
+restaurant("Burggasse-Stadthalle").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Rothneusiedl").
+restaurant("Knöllgasse/Troststraße").

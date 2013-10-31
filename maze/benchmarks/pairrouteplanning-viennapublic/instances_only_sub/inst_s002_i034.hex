@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Schottentor").
-initlocation(1,"Braunschweiggasse").
-sequence(1,0, "Schottentor").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Kagraner Platz").
 person(2).
-initlocation(2,"Gerasdorf Bahnhof").
-initlocation(2,"Tulln Stadt Bahnhof").
-sequence(2,0, "Gerasdorf Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-restaurant("Schweglerstraße".
-restaurant("Ebenfurth Bahnhof").
+initlocation($p,"Stadion").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Stadion").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+restaurant("Josefstädter Straße").
+restaurant("Handelskai").

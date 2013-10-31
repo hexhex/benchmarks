@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Hofstatt Bahnhof").
-initlocation(1,"Anton-Schall-Gasse").
-initlocation(1,"Museumsquartier").
-initlocation(1,"Versorgungsheimplatz").
-initlocation(1,"Knöllgasse/Davidgasse").
-sequence(1,0, "Hofstatt Bahnhof").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Weißenböckstraße").
+initlocation($p,"Obere Donaustraße").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Litfaßstraße").
+initlocation($p,"Hofstatt Bahnhof").
 person(2).
-initlocation(2,"Stockerau Bahnhof").
-initlocation(2,"Paulanergasse").
-initlocation(2,"Hietzing").
-initlocation(2,"Altes Landgut").
-initlocation(2,"Viehofen Bahnhof").
-sequence(2,0, "Stockerau Bahnhof").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Fasangasse").
-possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-restaurant("Fichtnergasse").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Brünner Straße").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Gunoldstraße").
+initlocation($p,"Migerkastraße").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Johannes-Krawarik-Gasse").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Migerkastraße").
+possiblemeetinglocations("Hermesstraße").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Alaudagasse").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Volkstheater").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Lederergasse").

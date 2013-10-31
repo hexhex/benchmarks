@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Bauernfeldplatz").
-sequence(1,0, "Bauernfeldplatz").
+initlocation($p,"Nordwestbahnstraße").
+initlocation($p,"Nordwestbahnstraße").
 person(2).
-initlocation(2,"Herzogenburg Bahnhof").
-sequence(2,0, "Herzogenburg Bahnhof").
-possiblemeetinglocations("Laurentiusplatz").
-restaurant("Preyergasse/Speising").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Geiselbergstraße").
+possiblemeetinglocations("Fasangasse").
+restaurant("Quellenstraße/Knöllgasse").

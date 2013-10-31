@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Mariahilfer Gürtel").
-initlocation(1,"Schottentor").
-initlocation(1,"Kaiserebersdorf").
-sequence(1,0, "Mariahilfer Gürtel").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Aspern Nord").
 person(2).
-initlocation(2,"Gasometer").
-initlocation(2,"Laa an der Thaya Bahnhof").
-initlocation(2,"Siebensterngasse").
-sequence(2,0, "Gasometer").
-possiblemeetinglocations("Prinzgasse").
-possiblemeetinglocations("Teichgasse").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-restaurant("Konstanziagasse").
-restaurant("Auerspergstraße").
-restaurant("Frättingsdorf Bahnhof").
+initlocation($p,"Am Tabor").
+initlocation($p,"Haidestraße").
+initlocation($p,"Praterkai").
+initlocation($p,"Am Tabor").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Rodaun").
+restaurant("Kliebergasse").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Aumannplatz").

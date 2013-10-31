@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Enkplatz").
-initlocation(1,"Gerhardusgasse").
-initlocation(1,"Johnstraße").
-initlocation(1,"Stadlau").
-initlocation(1,"Viehofen Bahnhof").
-initlocation(1,"Nordbahnstraße").
-initlocation(1,"Fasangasse").
-initlocation(1,"Krottenbachstraße").
-sequence(1,0, "Enkplatz").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Koloniestraße").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Floridsdorf").
 person(2).
-initlocation(2,"Kölblgasse").
-initlocation(2,"Marienbrücke").
-initlocation(2,"Währinger Straße-Volksoper").
-initlocation(2,"Laurenzgasse").
-initlocation(2,"Kaiserstraße/Burggasse").
-initlocation(2,"Guntherstraße").
-initlocation(2,"Hausfeldstraße").
-initlocation(2,"Maria Anzbach Bahnhof").
-sequence(2,0, "Kölblgasse").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Perntergasse").
-possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Schuhmeierplatz").
-possiblemeetinglocations("Wr Neustadt Nord").
-restaurant("Hernalser Hauptstr/Wattgasse").
-restaurant("Brünner Straße").
-restaurant("Perfektastraße").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Neulerchenfelder Str/Haberlg").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Thaliastraße/Feßtgasse").
-restaurant("Kagran").
+initlocation($p,"Staglgasse").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Nordbrücke").
+initlocation($p,"Reinlgasse/Märzstraße").
+initlocation($p,"Linzer Straße/Zehetnergasse").
+initlocation($p,"Florianigasse").
+initlocation($p,"Johann-Nepomuk-Berger-Platz").
+initlocation($p,"Staglgasse").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Blumental").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Obere Donaustraße").
+restaurant("Ameisgasse").
+restaurant("Bisamberg Bahnhof").
+restaurant("Wr Neustadt Nord").
+restaurant("Strozzigasse").
+restaurant("Gutraterplatz").

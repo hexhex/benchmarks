@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Nestroyplatz").
-initlocation(1,"Strebersdorf").
-initlocation(1,"Platt Bahnhof").
-initlocation(1,"Schwedenplatz").
-initlocation(1,"Helmahof Bahnhof").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Blumental").
-initlocation(1,"Alser Straße").
-sequence(1,0, "Nestroyplatz").
+initlocation($p,"Schottentor").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Schottentor").
 person(2).
-initlocation(2,"Alte Donau").
-initlocation(2,"Kagran").
-initlocation(2,"Keplerplatz").
-initlocation(2,"Schweglerstraße").
-initlocation(2,"Donauspital").
-initlocation(2,"Unterradlberg Bahnhof").
-initlocation(2,"Neulengbach Stadt Bahnhof").
-initlocation(2,"Westbahnhof").
-sequence(2,0, "Alte Donau").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Donauspital").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Liesing").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Traisengasse").
+initlocation($p,"Michelhausen Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
 possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Rathaus").
-restaurant("Dresdner Straße".
-restaurant("Erzherzog-Karl-Straße".
-restaurant("Staatz Bahnhof".
-restaurant("Lobau".
-restaurant("Unter Kritzendorf Bahnhof".
-restaurant("Volkstheater".
-restaurant("Pottendorf-Landegg Bahnhof".
-restaurant("Josefstädter Straße").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Tulln Bahnhof").
+restaurant("Paasdorf Bahnhof").
+restaurant("Süßenbrunn").
+restaurant("Trasdorf Bahnhof").
+restaurant("Strasshof Bahnhof").
+restaurant("Geiselbergstraße").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").

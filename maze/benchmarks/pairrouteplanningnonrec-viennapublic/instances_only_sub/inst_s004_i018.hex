@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Trautmannsdorf/Leitha Bf").
-initlocation(1,"Herzogenburg Stadt").
-initlocation(1,"Gänserndorf Bahnhof").
-initlocation(1,"Reumannplatz").
-sequence(1,0, "Trautmannsdorf/Leitha Bf").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Tulln Stadt Bahnhof").
 person(2).
-initlocation(2,"Enkplatz").
-initlocation(2,"Erlaaer Straße").
-initlocation(2,"Kardinal-Nagl-Platz").
-initlocation(2,"Donauspital").
-sequence(2,0, "Enkplatz").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-restaurant("Moosbierbaum-Heiligeneich Bf".
-restaurant("Wolf in der Au".
-restaurant("Hietzing".
-restaurant("Johnstraße").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Am Schöpfwerk").
+initlocation($p,"Landstraße-Wien Mitte").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Enkplatz").
+restaurant("Meidling Hauptstraße").
+restaurant("Kagraner Platz").
+restaurant("Tulln Bahnhof").
+restaurant("Wr Neustadt Nord").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Carminweg").
-initlocation(1,"Kaiserstraße/Burggasse").
-initlocation(1,"Laurenzgasse").
-initlocation(1,"Hirschstetten").
-sequence(1,0, "Carminweg").
+initlocation($p,"Strozzigasse").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Lange Gasse").
+initlocation($p,"Halteraugasse").
+initlocation($p,"Strozzigasse").
 person(2).
-initlocation(2,"Mannswörth Bahnhof").
-initlocation(2,"Nestroyplatz").
-initlocation(2,"Favoritenstraße/Troststraße").
-initlocation(2,"Spillern Bahnhof").
-sequence(2,0, "Mannswörth Bahnhof").
-possiblemeetinglocations("Svetelskystraße").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
-possiblemeetinglocations("Hausfeldstraße").
-restaurant("Florianigasse").
-restaurant("Pfaffstätten Bahnhof").
-restaurant("Blumengasse").
-restaurant("Platt Bahnhof").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Viehmarktgasse").
+initlocation($p,"Resselgasse").
+initlocation($p,"Saikogasse").
+initlocation($p,"Schweglerstraße").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Laurenzgasse").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Simonygasse").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Josefstädter Straße").
+restaurant("Hütteldorf, Bujattigasse").

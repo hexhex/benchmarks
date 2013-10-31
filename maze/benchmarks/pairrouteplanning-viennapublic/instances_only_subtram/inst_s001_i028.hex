@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Kagraner Brücke").
-sequence(1,0, "Kagraner Brücke").
+initlocation($p,"Urban-Loritz-Platz").
+initlocation($p,"Urban-Loritz-Platz").
 person(2).
-initlocation(2,"Redtenbachergasse").
-sequence(2,0, "Redtenbachergasse").
-possiblemeetinglocations("Stadion").
-restaurant("Quartier Belvedere").
+initlocation($p,"Praterkai").
+initlocation($p,"Praterkai").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+restaurant("Leopoldau").

@@ -1,53 +1,52 @@
 person(1).
-initlocation(1,"Breitenfurter Str/Liesingbr").
-initlocation(1,"Währinger Straße-Volksoper").
-initlocation(1,"Sonnergasse").
-initlocation(1,"Thaliastraße/Feßtgasse").
-initlocation(1,"Guneschgasse").
-initlocation(1,"Volkstheater").
-initlocation(1,"Wallensteinplatz").
-initlocation(1,"Obere Donaustraße").
-initlocation(1,"Margaretengürtel/Arbeitergasse").
-initlocation(1,"Koloniestraße").
-initlocation(1,"Maurer Lange Gasse").
-initlocation(1,"Laa an der Thaya Bahnhof").
-sequence(1,0, "Breitenfurter Str/Liesingbr").
+initlocation($p,"Herbeckstraße").
+initlocation($p,"Gerhardusgasse").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Zentralfriedhof 4Tor").
+initlocation($p,"Börsegasse/Wipplingerstraße").
+initlocation($p,"Hütteldorfer Str/Hochsatzeng").
+initlocation($p,"Migerkastraße").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Unteres Belvedere").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Anton-Schall-Gasse").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Herbeckstraße").
 person(2).
-initlocation(2,"Reumannplatz").
-initlocation(2,"Atzgersdorfer Straße").
-initlocation(2,"Zentralfriedhof 3Tor").
-initlocation(2,"Westbahnhof").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Volkstheater").
-initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
-initlocation(2,"Sitzenberg-Reidling Bahnhof").
-initlocation(2,"Wildgansplatz").
-initlocation(2,"Breitenfurter St/Altmannsd Str").
-initlocation(2,"Börsegasse/Wipplingerstraße").
-initlocation(2,"Breitensee").
-sequence(2,0, "Reumannplatz").
-possiblemeetinglocations("Althanstraße").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Oberzellergasse").
-possiblemeetinglocations("Wenzgasse").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Wexstraße").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Fasangasse").
-restaurant("Kutschkergasse").
-restaurant("Sensengasse").
-restaurant("Linzer Straße/Reinlgasse").
-restaurant("Flughafen Wien (VIE).
-Bahnhof").
-restaurant("Zieglergasse/Westbahnstraße").
-restaurant("Martinstraße").
-restaurant("Stadiongasse/Parlament").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Stephansplatz").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Brünnlbadgasse").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Sillerplatz").
+initlocation($p,"Gaußplatz").
+initlocation($p,"Thaliastraße/Brunnengasse").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Skodagasse").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Parndorf Ort Bahnhof").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Autokaderstraße").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+restaurant("Dürrwien Bahnhof").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Stubentor").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Atzgersdorf").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Bisamberg Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Schwarzenbergplatz").
+restaurant("Columbusplatz").
+restaurant("Hardtgasse").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Wr Neustadt Nord").
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Gerasdorf Bahnhof").
-initlocation(1,"Nußdorf, Beethovengang").
-sequence(1,0, "Wr Neustadt Nord").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Breitenfurter St/Altmannsd Str").
+initlocation($p,"Paradisgasse").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
 person(2).
-initlocation(2,"Neusiedl am See Bahnhof").
-initlocation(2,"Traisengasse").
-initlocation(2,"Elterleinplatz").
-initlocation(2,"Wilhelminenstraße/Wattgasse").
-sequence(2,0, "Neusiedl am See Bahnhof").
-possiblemeetinglocations("Guneschgasse").
-possiblemeetinglocations("Litfaßstraße").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Hardeggasse").
-restaurant("Urban-Loritz-Platz").
-restaurant("Bahnhofstraße").
-restaurant("Baumgarten").
-restaurant("Weißenböckstraße").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Donaumarina").
+initlocation($p,"Laa an der Thaya Bahnhof").
+initlocation($p,"Wilhelminenstraße/Wattgasse").
+initlocation($p,"Kagraner Platz").
+possiblemeetinglocations("Skodagasse").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Enkplatz").
+restaurant("Paradisgasse").
+restaurant("Hetzgasse").
+restaurant("Koloniestraße").

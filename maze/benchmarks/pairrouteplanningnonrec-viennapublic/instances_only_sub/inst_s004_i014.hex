@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Schweglerstraße").
-initlocation(1,"Göllersdorf Bahnhof").
-initlocation(1,"Platt Bahnhof").
-initlocation(1,"Margaretengürtel").
-sequence(1,0, "Schweglerstraße").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Seestadt").
+initlocation($p,"Strebersdorf").
 person(2).
-initlocation(2,"Paasdorf Bahnhof").
-initlocation(2,"Praterkai").
-initlocation(2,"Tscherttegasse").
-initlocation(2,"Parndorf Ort Bahnhof").
-sequence(2,0, "Paasdorf Bahnhof").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Brünner Straße").
-restaurant("Tullnerbach-Pressbaum Bahnhof".
-restaurant("Hennersdorf Bahnhof".
-restaurant("Aspern Nord".
-restaurant("Korneuburg Bahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+restaurant("Stephansplatz").
+restaurant("Geiselbergstraße").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Oberradlberg Bahnhof").

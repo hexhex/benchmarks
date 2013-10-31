@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Schottentor").
-initlocation(1,"Siebenhirten").
-sequence(1,0, "Schottentor").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Friedensbrücke").
 person(2).
-initlocation(2,"Kaiserebersdorf").
-initlocation(2,"Himberg Bahnhof").
-sequence(2,0, "Kaiserebersdorf").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Am Schöpfwerk").
-restaurant("Zellerndorf Bahnhof".
-restaurant("Wolf in der Au").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Karlsplatz").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Herzogenburg Stadt").
+restaurant("Längenfeldgasse").
+restaurant("Erzherzog-Karl-Straße").

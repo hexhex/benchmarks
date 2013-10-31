@@ -1,53 +1,52 @@
 person(1).
-initlocation(1,"Neubaugasse").
-initlocation(1,"Meidling Hauptstraße").
-initlocation(1,"Nußdorfer Straße").
-initlocation(1,"Kapellerfeld Bahnhof").
-initlocation(1,"Korneuburg Bahnhof").
-initlocation(1,"Seyring Bahnhof").
-initlocation(1,"Wr Neustadt Hauptbahnhof").
-initlocation(1,"Hetzendorf").
-initlocation(1,"Neusiedl am See Bahnhof").
-initlocation(1,"Traisengasse").
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Schönbrunn").
-sequence(1,0, "Neubaugasse").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Erdberg").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Haidestraße").
+initlocation($p,"Leopoldau").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Preyergasse/Speising").
 person(2).
-initlocation(2,"Korneuburg Bahnhof").
-initlocation(2,"Unter Sankt Veit").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Perchtoldsdorf Bahnhof").
-initlocation(2,"Untertullnerbach Bahnhof").
-initlocation(2,"Blumental").
-initlocation(2,"Kaisermühlen-VIC").
-initlocation(2,"Strebersdorf").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Kledering Bahnhof").
-initlocation(2,"Praterstern").
-sequence(2,0, "Korneuburg Bahnhof").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-restaurant("Gerasdorf Bahnhof".
-restaurant("Floridsdorf".
-restaurant("Wolfsthal Bahnhof".
-restaurant("Margaretengürtel".
-restaurant("Leopoldau".
-restaurant("Gramatneusiedl Bahnhof".
-restaurant("Perfektastraße".
-restaurant("Lobau".
-restaurant("Petronell-Carnuntum Bahnhof".
-restaurant("Wolf in der Au".
-restaurant("Erzherzog-Karl-Straße".
-restaurant("Regelsbrunn Bahnhof").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Kagran").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Praterstern").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Braunschweiggasse").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Thaliastraße").
+restaurant("Michelbeuern-AKH").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Atzgersdorf").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Am Schöpfwerk").
+restaurant("Bad Vöslau Bahnhof").

@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Mistelbach Bahnhof").
-initlocation(1,"Hausleiten Bahnhof").
-initlocation(1,"Klosterneuburg-Kierling Bf").
-sequence(1,0, "Mistelbach Bahnhof").
+initlocation($p,"Praterkai").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Praterkai").
 person(2).
-initlocation(2,"Schwedenplatz").
-initlocation(2,"Hollabrunn Bahnhof").
-initlocation(2,"Ottakring").
-sequence(2,0, "Schwedenplatz").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Korneuburg Bahnhof").
-restaurant("Simmering".
-restaurant("Penzing".
-restaurant("Zentralfriedhof").
+initlocation($p,"Herrengasse").
+initlocation($p,"Unter Kritzendorf Bahnhof").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Herrengasse").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Blumental").
+restaurant("Geiselbergstraße").
+restaurant("Praterkai").
+restaurant("Rennbahnweg").

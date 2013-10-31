@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Lange Gasse").
-initlocation(1,"Niederkreuzstetten Bahnhof").
-initlocation(1,"Stadlau").
-sequence(1,0, "Lange Gasse").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Paulanergasse").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Museumsquartier").
 person(2).
-initlocation(2,"Ebenfurth Bahnhof").
-initlocation(2,"Nußdorf, Beethovengang").
-initlocation(2,"Mayerhofgasse").
-sequence(2,0, "Ebenfurth Bahnhof").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Schleiergasse").
-restaurant("Sarasdorf Bahnhof").
-restaurant("Fischamend Bahnhof").
-restaurant("Wittelsbachstraße").
+initlocation($p,"Thaliastraße/Brunnengasse").
+initlocation($p,"Ottakring").
+initlocation($p,"Sonnergasse").
+initlocation($p,"Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Sechskrügelgasse").
+restaurant("Sollenau Bahnhof").
+restaurant("Zentralfriedhof").
+restaurant("Landesgerichtsstraße").

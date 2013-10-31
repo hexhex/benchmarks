@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Zentralfriedhof").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Viehofen Bahnhof").
-initlocation(1,"Bruck/Leitha Bahnhof").
-sequence(1,0, "Zentralfriedhof").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Mannswörth Bahnhof").
+initlocation($p,"Parndorf Ort Bahnhof").
 person(2).
-initlocation(2,"Donaumarina").
-initlocation(2,"Rekawinkel Bahnhof").
-initlocation(2,"Donaustadtbrücke").
-initlocation(2,"Guntersdorf Bahnhof").
-sequence(2,0, "Donaumarina").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-restaurant("Floridsdorf".
-restaurant("Zentralfriedhof".
-restaurant("Hirschstetten".
-restaurant("Weidlingau Bahnhof").
+initlocation($p,"Großfeldsiedlung").
+initlocation($p,"Grillgasse").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Großfeldsiedlung").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Siebenhirten").
+restaurant("Zippererstraße").
+restaurant("Simmering").

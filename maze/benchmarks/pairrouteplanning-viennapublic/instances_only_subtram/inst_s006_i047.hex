@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Gewerbepark Stadlau Mitte").
-initlocation(1,"Hofwiesengasse").
-initlocation(1,"Kendlerstraße").
-initlocation(1,"Reinlgasse/Märzstraße").
-initlocation(1,"Oberfeldgasse").
-initlocation(1,"Raxstraße/Rudolfshügelgasse").
-sequence(1,0, "Gewerbepark Stadlau Mitte").
+initlocation($p,"Langobardenstraße/Kapellenweg").
+initlocation($p,"Anton-Schall-Gasse").
+initlocation($p,"Otto-Probst-Platz").
+initlocation($p,"Kagran").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Rampengasse").
+initlocation($p,"Langobardenstraße/Kapellenweg").
 person(2).
-initlocation(2,"Wildgansplatz").
-initlocation(2,"Rodaun").
-initlocation(2,"Nordwestbahnstraße").
-initlocation(2,"Untertullnerbach Bahnhof").
-initlocation(2,"Hadersdorf Bahnhof").
-initlocation(2,"Kaiserebersdorf").
-sequence(2,0, "Wildgansplatz").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Laurentiusplatz").
-possiblemeetinglocations("Svetelskystraße").
-possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
-possiblemeetinglocations("Palffygasse").
-possiblemeetinglocations("Riedelgasse").
-restaurant("Südtiroler Platz/Hauptbahnhof").
-restaurant("Eichenstraße").
-restaurant("Erdberg").
-restaurant("Frauengasse").
-restaurant("Alfred-Adler-Straße").
-restaurant("Guntramsdorf-Thallern").
+initlocation($p,"Nordbrücke").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Maurer Hauptplatz").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Johann-Strauß-Gasse").
+initlocation($p,"Kaiserebersdorf, Zinnergasse").
+initlocation($p,"Nordbrücke").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Kaiserstraße").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Hoßplatz").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Siemensstraße").
+restaurant("Kaiserstraße/Burggasse").
+restaurant("Mariahilfer Gürtel").
+restaurant("Leberberg").
+restaurant("Schönbrunn").

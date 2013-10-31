@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Pilgramgasse").
-initlocation(1,"Herzogenburg Stadt").
-initlocation(1,"Krottenbachstraße").
-initlocation(1,"Unter Kritzendorf Bahnhof").
-initlocation(1,"Währinger Straße-Volksoper").
-initlocation(1,"Untertullnerbach Bahnhof").
-initlocation(1,"Burggasse-Stadthalle").
-sequence(1,0, "Pilgramgasse").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Jedlersdorf").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Alterlaa").
+initlocation($p,"Sollenau Bahnhof").
 person(2).
-initlocation(2,"Hütteldorf").
-initlocation(2,"Theresienfeld Bahnhof").
-initlocation(2,"Rennweg").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Obereggendorf Bahnhof").
-initlocation(2,"Unterradlberg Bahnhof").
-initlocation(2,"Bad Vöslau Bahnhof").
-sequence(2,0, "Hütteldorf").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-restaurant("Hörersdorf Bahnhof".
-restaurant("Regelsbrunn Bahnhof".
-restaurant("Paasdorf Bahnhof".
-restaurant("Lobau".
-restaurant("Siebenhirten".
-restaurant("Oberdöbling".
-restaurant("Krieau").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Breitensee").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Großfeldsiedlung").
+initlocation($p,"Landstraße-Wien Mitte").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Schottenring").
+restaurant("Meidling Hauptstraße").
+restaurant("Floridsdorf").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Kagraner Platz").
+restaurant("Donauspital").
+restaurant("Am Schöpfwerk").

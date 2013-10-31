@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Friedensbrücke").
-initlocation(1,"Atzenbrugg Bahnhof").
-initlocation(1,"Kutschkergasse").
-initlocation(1,"Johnstraße").
-initlocation(1,"Rodaun").
-initlocation(1,"Quellenstraße/Knöllgasse").
-initlocation(1,"Marxergasse").
-initlocation(1,"Hardtgasse").
-initlocation(1,"Zieglergasse").
-sequence(1,0, "Friedensbrücke").
+initlocation($p,"Stockholmer Platz").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Weigelsdorf Bahnhof").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Quellenstraße/Knöllgasse").
+initlocation($p,"Stammersdorf").
+initlocation($p,"Stockholmer Platz").
 person(2).
-initlocation(2,"Sahulkastraße").
-initlocation(2,"Seegasse").
-initlocation(2,"Wildgansplatz").
-initlocation(2,"Unter St Veit, Hummelgasse").
-initlocation(2,"Mayssengasse").
-initlocation(2,"Lobau").
-initlocation(2,"Gunoldstraße").
-initlocation(2,"Praterkai").
-initlocation(2,"Seyring Bahnhof").
-sequence(2,0, "Sahulkastraße").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Empergergasse").
-possiblemeetinglocations("Thaliastraße/Feßtgasse").
-possiblemeetinglocations("Weinheimergasse").
-possiblemeetinglocations("Rankgasse").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Höchstädtplatz").
-possiblemeetinglocations("Weidlingau Bahnhof").
-restaurant("Stubentor").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Knöllgasse/Troststraße").
-restaurant("Prandaugasse").
-restaurant("Kleistgasse").
-restaurant("Palffygasse").
-restaurant("Wienerbergbrücke").
-restaurant("Obere Augartenstraße").
-restaurant("Unteroberndorf Bahnhof").
+initlocation($p,"Neulengbach Bahnhof").
+initlocation($p,"Albertgasse").
+initlocation($p,"Karlsplatz").
+initlocation($p,"Oberzellergasse").
+initlocation($p,"Hernals").
+initlocation($p,"Nordbrücke").
+initlocation($p,"Rebhanngasse").
+initlocation($p,"Nußdorf, Beethovengang").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Neulengbach Bahnhof").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Gloriettegasse").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Wallrißstraße").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+restaurant("Halteraugasse").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Mannswörth Bahnhof").
+restaurant("Spittelau").
+restaurant("Pötzleinsdorf").
+restaurant("Längenfeldgasse").
+restaurant("Ladendorf Bahnhof").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Althanstraße").

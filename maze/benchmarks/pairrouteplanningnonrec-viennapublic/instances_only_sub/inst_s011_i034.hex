@@ -1,48 +1,48 @@
 person(1).
-initlocation(1,"Guntramsdorf-Thallern").
-initlocation(1,"Schottenring").
-initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(1,"Atzgersdorf").
-initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(1,"Enkplatz").
-initlocation(1,"Meidling Hauptstraße").
-initlocation(1,"Großfeldsiedlung").
-initlocation(1,"Münchendorf Bahnhof").
-initlocation(1,"Rennweg").
-initlocation(1,"Stockerau Bahnhof").
-sequence(1,0, "Guntramsdorf-Thallern").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Stubentor").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Stadtpark").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Bisamberg Bahnhof").
 person(2).
-initlocation(2,"Ladendorf Bahnhof").
-initlocation(2,"Gumpendorfer Straße").
-initlocation(2,"Praterstern").
-initlocation(2,"Krieau").
-initlocation(2,"Theresienfeld Bahnhof").
-initlocation(2,"Baden Bahnhof").
-initlocation(2,"Aspernstraße").
-initlocation(2,"Gramatneusiedl Bahnhof").
-initlocation(2,"Laa an der Thaya Bahnhof").
-initlocation(2,"Erdberg").
-initlocation(2,"Strebersdorf").
-sequence(2,0, "Ladendorf Bahnhof").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Längenfeldgasse").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Gersthof").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Laa an der Thaya Bahnhof").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Strasshof Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Schlachthausgasse").
 possiblemeetinglocations("Laa an der Thaya Bahnhof").
-restaurant("Hetzendorf".
-restaurant("Schönborn Bahnhof".
-restaurant("Vorgartenstraße".
-restaurant("Alterlaa".
-restaurant("Kottingbrunn Bahnhof".
-restaurant("Gramatneusiedl Bahnhof".
-restaurant("Deutsch-Wagram Bahnhof".
-restaurant("Retz Bahnhof".
-restaurant("Unterpurkersdorf Bahnhof".
-restaurant("Wolfsthal Bahnhof".
-restaurant("Kledering Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+restaurant("Traisengasse").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Gersthof").
+restaurant("Friedensbrücke").
+restaurant("Michelhausen Bahnhof").
+restaurant("Kagran").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Oberdöbling").
+restaurant("Mödling Bahnhof").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Donaumarina").

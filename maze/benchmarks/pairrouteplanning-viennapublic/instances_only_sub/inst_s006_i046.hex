@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Langenlebarn Bahnhof").
-initlocation(1,"Gänserndorf Bahnhof").
-initlocation(1,"Nußdorf").
-initlocation(1,"Nußdorfer Straße").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Rennweg").
-sequence(1,0, "Langenlebarn Bahnhof").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Erdberg").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"Pfaffstätten Bahnhof").
 person(2).
-initlocation(2,"Ober Sankt Veit").
-initlocation(2,"Klosterneuburg-Weidling Bf").
-initlocation(2,"Mödling Bahnhof").
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Schottenring").
-initlocation(2,"Kagraner Platz").
-sequence(2,0, "Ober Sankt Veit").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Stadion").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Mistelbach Stadt").
 possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Neulengbach Bahnhof").
-restaurant("Absdorf-Hippersdorf Bahnhof".
-restaurant("Donaustadtbrücke".
-restaurant("Laa an der Thaya Bahnhof".
-restaurant("Krottenbachstraße".
-restaurant("Sollenau Bahnhof".
-restaurant("Bisamberg Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+restaurant("Enkplatz").
+restaurant("Paasdorf Bahnhof").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Strebersdorf").

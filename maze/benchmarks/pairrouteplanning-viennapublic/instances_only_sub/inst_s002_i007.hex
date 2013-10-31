@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Obereggendorf Bahnhof").
-initlocation(1,"Höflein an der Donau Bahnhof").
-sequence(1,0, "Obereggendorf Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
 person(2).
-initlocation(2,"St Andrä-Wördern Bahnhof").
-initlocation(2,"Muckendorf-Wipfing Bahnhof").
-sequence(2,0, "St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-restaurant("Ebenfurth Bahnhof".
-restaurant("Quartier Belvedere").
+initlocation($p,"Weigelsdorf Bahnhof").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Weigelsdorf Bahnhof").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Nußdorfer Straße").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Alterlaa").

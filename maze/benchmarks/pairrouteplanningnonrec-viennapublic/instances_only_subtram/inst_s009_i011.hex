@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Maurer Hauptplatz").
-initlocation(1,"Rathaus").
-initlocation(1,"Elterleinplatz").
-initlocation(1,"Gellertplatz").
-initlocation(1,"Sarasdorf Bahnhof").
-initlocation(1,"Am Heumarkt").
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Römergasse").
-initlocation(1,"Margaretengürtel/Arbeitergasse").
-sequence(1,0, "Maurer Hauptplatz").
+initlocation($p,"Schottenring").
+initlocation($p,"Penzinger Straße").
+initlocation($p,"Marx-Meidlinger-Straße").
+initlocation($p,"Kärntner Ring/Oper").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Lederergasse").
+initlocation($p,"Winkeläckerstraße").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Schottenring").
 person(2).
-initlocation(2,"Mühlfeldgasse").
-initlocation(2,"Michelhausen Bahnhof").
-initlocation(2,"Elterleinplatz").
-initlocation(2,"Gerstnerstraße/Westbhf").
-initlocation(2,"Barawitzkagasse").
-initlocation(2,"Geiereckstraße").
-initlocation(2,"Neusiedl am See Bahnhof").
-initlocation(2,"Längenfeldgasse/Flurschützstr").
-initlocation(2,"Am Heumarkt").
-sequence(2,0, "Mühlfeldgasse").
-possiblemeetinglocations("Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Perntergasse").
-possiblemeetinglocations("Josef-Baumann-Gasse").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Zentralfriedhof 4Tor").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Obere Donaustraße").
-restaurant("Leberberg").
-restaurant("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Jagdschloßgasse").
-restaurant("Gumpendorfer Straße").
-restaurant("Troststraße/Neilreichgasse").
-restaurant("Karlsplatz").
-restaurant("Gruschaplatz").
-restaurant("Bahnhofstraße").
-restaurant("Zentralfriedhof 1Tor").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Marienbrücke").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Hauffgasse").
+initlocation($p,"Gußhausstraße").
+initlocation($p,"Breitensee").
+initlocation($p,"Simmering").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Neilreichgasse").
+restaurant("Joachimsthalerplatz").
+restaurant("Rosenhügelstraße").
+restaurant("Julius-Raab-Platz").
+restaurant("Stiftgasse").
+restaurant("Ottakring").
+restaurant("Liesing").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Krieau").
+restaurant("Kaiserstraße/Westbahnstraße").

@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Sillerplatz").
-initlocation(1,"Kaiserstraße").
-initlocation(1,"Nordwestbahnstraße").
-initlocation(1,"Sitzenberg-Reidling Bahnhof").
-initlocation(1,"Carminweg").
-sequence(1,0, "Sillerplatz").
+initlocation($p,"Sommarugagasse").
+initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Rustengasse").
+initlocation($p,"Mühlfeldgasse").
+initlocation($p,"Sommarugagasse").
 person(2).
-initlocation(2,"Dornbach, Güpferlingstraße").
-initlocation(2,"Hardeggasse").
-initlocation(2,"Theresienfeld Bahnhof").
-initlocation(2,"Gusenleithnergasse").
-initlocation(2,"Gumpoldskirchen Bahnhof").
-sequence(2,0, "Dornbach, Güpferlingstraße").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Staglgasse").
-possiblemeetinglocations("Blechturmgasse").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Tesarekplatz").
-restaurant("Verbindungsbahn").
-restaurant("Schweglerstraße").
-restaurant("Anschützgasse").
-restaurant("Schottenring").
-restaurant("Thaliastraße/Feßtgasse").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Waidhausenstraße").
+initlocation($p,"Bauernfeldplatz").
+initlocation($p,"Hietzing").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Konstanziagasse").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Am Heidjöchl").
+restaurant("Platt Bahnhof").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Heiligenstadt, 12-Februar-Pl").

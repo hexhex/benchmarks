@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Kaiserstraße/Burggasse").
-initlocation(1,"Breitenwaida Bahnhof").
-initlocation(1,"Gumpendorfer Straße").
-initlocation(1,"Schottenfeldgasse").
-initlocation(1,"Anton-Schall-Gasse").
-initlocation(1,"Penzinger Straße").
-sequence(1,0, "Kaiserstraße/Burggasse").
+initlocation($p,"Migerkastraße").
+initlocation($p,"Augasse").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Pokornygasse").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Migerkastraße").
 person(2).
-initlocation(2,"Ottakringer Straße/Wattgasse").
-initlocation(2,"Museumsquartier").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Simmering").
-initlocation(2,"Gottschalkgasse/Enkplatz").
-initlocation(2,"Prinzgasse").
-sequence(2,0, "Ottakringer Straße/Wattgasse").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Glatzgasse").
-possiblemeetinglocations("Rathausplatz/Burgtheater").
-possiblemeetinglocations("Knöllgasse/Davidgasse").
-possiblemeetinglocations("Skodagasse").
-restaurant("Huglgasse").
-restaurant("Paulanergasse").
-restaurant("Schöffelgasse").
-restaurant("Zentralfriedhof 1Tor").
-restaurant("Columbusplatz").
-restaurant("St Pölten Traisenpark P+R Nord").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Brigittaplatz").
+initlocation($p,"Augasse").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Bernhardtstalgasse").
+initlocation($p,"Thaliastraße").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Rußbergstraße").
+restaurant("Simmering").
+restaurant("Julius-Raab-Platz").
+restaurant("Kagraner Brücke").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Meidling Hauptstraße").
+restaurant("Grinzing").

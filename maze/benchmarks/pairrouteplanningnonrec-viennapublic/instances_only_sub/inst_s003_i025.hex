@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Seestadt").
-initlocation(1,"Tscherttegasse").
-initlocation(1,"Stubentor").
-sequence(1,0, "Seestadt").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Traisengasse").
+initlocation($p,"Kardinal-Nagl-Platz").
 person(2).
-initlocation(2,"Kottingneusiedl Bahnhof").
-initlocation(2,"Oberdöbling").
-initlocation(2,"Moosbierbaum-Heiligeneich Bf").
-sequence(2,0, "Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-restaurant("Rochusgasse".
-restaurant("Michelbeuern-AKH".
-restaurant("Grillgasse").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Hausleiten Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Zentralfriedhof").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Stadtpark").
+restaurant("Höbersdorf Bahnhof").

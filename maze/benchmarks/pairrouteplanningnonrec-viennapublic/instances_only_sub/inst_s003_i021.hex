@@ -1,17 +1,16 @@
 person(1).
-initlocation(1,"Bahnhof Meidling").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Platt Bahnhof").
-sequence(1,0, "Bahnhof Meidling").
+initlocation($p,"Spittelau").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Alser Straße").
+initlocation($p,"Spittelau").
 person(2).
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-initlocation(2,"Wr Neustadt Civitas Nova").
-initlocation(2,"Hietzing").
-sequence(2,0, "Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-restaurant("Breitensee".
-restaurant("Reumannplatz".
-restaurant("Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Kagraner Platz").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Silberwald Bahnhof").
+restaurant("Alte Donau").
+restaurant("Roßauer Lände").

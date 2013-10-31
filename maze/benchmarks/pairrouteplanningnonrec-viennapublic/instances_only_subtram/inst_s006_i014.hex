@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Unterradlberg Bahnhof").
-initlocation(1,"Molitorgasse").
-initlocation(1,"Leobersdorf Bahnhof").
-initlocation(1,"Lange Gasse").
-initlocation(1,"Landstraße-Wien Mitte").
-initlocation(1,"Kölblgasse").
-sequence(1,0, "Unterradlberg Bahnhof").
+initlocation($p,"Laurenzgasse").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Wenzgasse").
+initlocation($p,"Großjedlersdorf").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Laurenzgasse").
 person(2).
-initlocation(2,"Am Heidjöchl/Hausfeldstraße").
-initlocation(2,"Kagraner Platz").
-initlocation(2,"Margaretengürtel").
-initlocation(2,"Gutraterplatz").
-initlocation(2,"Schloss Schönbrunn").
-initlocation(2,"Tulln Bahnhof").
-sequence(2,0, "Am Heidjöchl/Hausfeldstraße").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Paulanergasse").
-possiblemeetinglocations("Fichtnergasse").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Herzogenburg Stadt").
-restaurant("Kliebergasse").
-restaurant("Winckelmannstraße").
-restaurant("Breitensee").
-restaurant("Traismauer Bahnhof").
-restaurant("Sarasdorf Bahnhof").
-restaurant("Mistelbach Bahnhof").
+initlocation($p,"Rustengasse").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Neuwaldegg").
+initlocation($p,"Althanstraße").
+initlocation($p,"Antonigasse").
+initlocation($p,"Floridsdorfer Brücke").
+initlocation($p,"Rustengasse").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+restaurant("Seegasse").
+restaurant("Gatterburggasse").
+restaurant("Friedensbrücke").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Perntergasse").
+restaurant("Museumsquartier").

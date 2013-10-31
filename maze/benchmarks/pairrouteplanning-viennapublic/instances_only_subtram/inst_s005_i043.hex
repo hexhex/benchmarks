@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Jedlersdorf").
-initlocation(1,"Redtenbachergasse").
-initlocation(1,"Strozzigasse").
-initlocation(1,"Kledering Bahnhof").
-initlocation(1,"Molitorgasse").
-sequence(1,0, "Jedlersdorf").
+initlocation($p,"Leopoldau").
+initlocation($p,"Maurer Hauptplatz").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Leopoldau").
 person(2).
-initlocation(2,"Mödling Bahnhof").
-initlocation(2,"Moosbierbaum-Heiligeneich Bf").
-initlocation(2,"Rampengasse").
-initlocation(2,"Brünner Straße").
-initlocation(2,"Gewerbepark Stadlau Mitte").
-sequence(2,0, "Mödling Bahnhof").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Großjedlersdorf").
-possiblemeetinglocations("Linzer Straße/Reinlgasse").
-restaurant("Penzing").
-restaurant("Versorgungsheimplatz").
-restaurant("Stadtpark").
-restaurant("Am Spitz").
-restaurant("Preyergasse/Speising").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Migerkastraße").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Koppstraße/Panikengasse").
+initlocation($p,"Anschützgasse").
+initlocation($p,"Wolfsthal Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Landesgerichtsstraße").
+restaurant("Svetelskystraße").
+restaurant("Längenfeldgasse").
+restaurant("Arthaberplatz").

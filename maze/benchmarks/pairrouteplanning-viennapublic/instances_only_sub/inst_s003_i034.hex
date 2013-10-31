@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(1,"Langenlebarn Bahnhof").
-initlocation(1,"Vorgartenstraße").
-sequence(1,0, "Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Bruck/Leitha Bahnhof").
 person(2).
-initlocation(2,"Kapellerfeld Bahnhof").
-initlocation(2,"Fischamend Bahnhof").
-initlocation(2,"Hörersdorf Bahnhof").
-sequence(2,0, "Kapellerfeld Bahnhof").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Stadlau").
-restaurant("Hütteldorf".
-restaurant("Trautmannsdorf/Leitha Bf".
-restaurant("Neulengbach Bahnhof").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Museumsquartier").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Trasdorf Bahnhof").
+restaurant("Zentralfriedhof").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Konstanziagasse").
-initlocation(1,"Thaliastraße/Brunnengasse").
-sequence(1,0, "Konstanziagasse").
+initlocation($p,"Sierndorf Bahnhof").
+initlocation($p,"Stefan-Fadinger-Platz").
+initlocation($p,"Sierndorf Bahnhof").
 person(2).
-initlocation(2,"Grinzinger Straße").
-initlocation(2,"Hofwiesengasse").
-sequence(2,0, "Grinzinger Straße").
-possiblemeetinglocations("Karmeliterplatz").
-possiblemeetinglocations("Svetelskystraße").
-restaurant("Dornbach, Güpferlingstraße").
-restaurant("An den langen Lüssen").
+initlocation($p,"Baumgasse").
+initlocation($p,"Penzinger Straße").
+initlocation($p,"Baumgasse").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Kagraner Platz").
+restaurant("Liechtenwerder Platz").
+restaurant("Sillerplatz").

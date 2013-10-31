@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Silberwald Bahnhof").
-initlocation(1,"Krieau").
-sequence(1,0, "Silberwald Bahnhof").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
 person(2).
-initlocation(2,"Oberradlberg Bahnhof").
-initlocation(2,"Wilfleinsdorf Bahnhof").
-sequence(2,0, "Oberradlberg Bahnhof").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Schwedenplatz").
-restaurant("Enkplatz".
-restaurant("Unterradlberg Bahnhof").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Hausfeldstraße").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Siemensstraße").
+restaurant("Enzersdorf bei Staatz Bahnhof").

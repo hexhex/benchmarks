@@ -1,56 +1,56 @@
 person(1).
-initlocation(1,"Kardinal-Nagl-Platz").
-initlocation(1,"Unter Sankt Veit").
-initlocation(1,"Hainburg/Donau Personenbhf").
-initlocation(1,"Trasdorf Bahnhof").
-initlocation(1,"Bruck/Leitha Bahnhof").
-initlocation(1,"Siebenhirten").
-initlocation(1,"Fischamend Bahnhof").
-initlocation(1,"Krottenbachstraße").
-initlocation(1,"Brünner Straße").
-initlocation(1,"Atzenbrugg Bahnhof").
-initlocation(1,"Gänserndorf Bahnhof").
-initlocation(1,"Göllersdorf Bahnhof").
-initlocation(1,"Gumpendorfer Straße").
-sequence(1,0, "Kardinal-Nagl-Platz").
+initlocation($p,"Donaumarina").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Handelskai").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"Donaumarina").
 person(2).
-initlocation(2,"Schwechat Bahnhof").
-initlocation(2,"Bruck/Leitha Bahnhof").
-initlocation(2,"Silberwald Bahnhof").
-initlocation(2,"Hütteldorfer Straße").
-initlocation(2,"Trasdorf Bahnhof").
-initlocation(2,"Siebenhirten").
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Wampersdorf Bahnhof").
-initlocation(2,"Regelsbrunn Bahnhof").
-initlocation(2,"Handelskai").
-initlocation(2,"Volkstheater").
-initlocation(2,"Hörersdorf Bahnhof").
-initlocation(2,"Klosterneuburg-Kierling Bf").
-sequence(2,0, "Schwechat Bahnhof").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Leopoldau").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Enkplatz").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
 possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Alser Straße").
-restaurant("Seestadt".
-restaurant("Taborstraße".
-restaurant("Jägerstraße".
-restaurant("Matzleinsdorfer Platz".
-restaurant("Hausleiten Bahnhof".
-restaurant("Wampersdorf Bahnhof".
-restaurant("Unteroberndorf Bahnhof".
-restaurant("Neubau-Kreuzstetten Bahnhof".
-restaurant("Perchtoldsdorf Bahnhof".
-restaurant("Siemensstraße".
-restaurant("Westbahnhof".
-restaurant("Leopoldau".
-restaurant("Spittelau").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Neubaugasse").
+restaurant("Rennweg").
+restaurant("Hütteldorf").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Alser Straße").
+restaurant("Kettenbrückengasse").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Pressbaum Bahnhof").
+restaurant("Schottentor").
+restaurant("Niederhofstraße").
+restaurant("St Pölten Traisenpark P+R Nord").

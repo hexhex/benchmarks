@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Heiligenstadt").
-initlocation(1,"Wolkersdorf Bahnhof").
-initlocation(1,"Neusiedl am See Bahnhof").
-initlocation(1,"Donaumarina").
-sequence(1,0, "Klosterneuburg-Weidling Bf").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Tullnerfeld Bahnhof").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Hausleiten Bahnhof").
 person(2).
-initlocation(2,"Neubau-Kreuzstetten Bahnhof").
-initlocation(2,"Nestroyplatz").
-initlocation(2,"Haidestraße").
-initlocation(2,"Purkersdorf Sanatorium").
-initlocation(2,"Kledering Bahnhof").
-sequence(2,0, "Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Braunschweiggasse").
-restaurant("Seestadt".
-restaurant("Zentralfriedhof".
-restaurant("Tullnerbach-Pressbaum Bahnhof".
-restaurant("Wr Neustadt Hauptbahnhof".
-restaurant("Aderklaaer Straße").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Tullnerfeld Bahnhof").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Münchendorf Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Traisengasse").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Lobau").
+restaurant("Neubaugasse").
+restaurant("Preyergasse/Speising").
+restaurant("St Andrä-Wördern Bahnhof").

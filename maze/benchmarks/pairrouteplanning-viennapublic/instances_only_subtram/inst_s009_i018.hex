@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Paradisgasse").
-initlocation(1,"Silbergasse").
-initlocation(1,"Neubaugasse/Westbahnstraße").
-initlocation(1,"Hausfeldstraße").
-initlocation(1,"Konstanziagasse").
-initlocation(1,"Döblinger Hauptstr/Gatterburgg").
-initlocation(1,"Dommayergasse").
-initlocation(1,"Weinhauser Gasse").
-initlocation(1,"Grinzinger Straße").
-sequence(1,0, "Paradisgasse").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Kaiserstraße/Neustiftgasse").
+initlocation($p,"Ottakring").
+initlocation($p,"Zentralfriedhof 1Tor").
+initlocation($p,"Breitenfurter St/Altmannsd Str").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Schwarzspanierstraße").
+initlocation($p,"Schottenfeldgasse").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Zippererstraße").
 person(2).
-initlocation(2,"Schweglerstraße").
-initlocation(2,"Hoßplatz").
-initlocation(2,"Aspernstraße").
-initlocation(2,"Wolf in der Au").
-initlocation(2,"Gredlerstraße").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Nußdorf").
-initlocation(2,"Kardinal-Nagl-Platz").
-initlocation(2,"Atzgersdorfer Straße").
-sequence(2,0, "Schweglerstraße").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Gerstnerstraße/Westbhf").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Julius-Raab-Platz").
-restaurant("Alaudagasse").
-restaurant("Schönbrunn").
-restaurant("Haidestraße").
-restaurant("Nußdorfer Str/Alserbachstraße").
-restaurant("Grillgasse").
-restaurant("Traisengasse").
-restaurant("Thaliastraße/Maroltingergasse").
-restaurant("Schlachthausgasse").
-restaurant("Simonygasse").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Migerkastraße").
+initlocation($p,"Kutschkergasse").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Hardtgasse").
+initlocation($p,"Ottakringer Str/Erdbrustgasse").
+initlocation($p,"Rußbergstraße").
+initlocation($p,"Zentralfriedhof 2Tor").
+initlocation($p,"Neilreichgasse").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Hoßplatz").
+restaurant("Hardeggasse").
+restaurant("Handelskai").
+restaurant("Sankt Marx").
+restaurant("Neulerchenfelder Str/Brunneng").
+restaurant("Paulanergasse").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Atzgersdorf").
+restaurant("Quellenplatz").
+restaurant("Linzer Straße/Lützowgasse").

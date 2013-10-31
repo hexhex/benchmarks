@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Staglgasse").
-initlocation(1,"Liesing").
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Sechskrügelgasse").
-initlocation(1,"Wr Neustadt Civitas Nova").
-initlocation(1,"Kagraner Platz").
-initlocation(1,"Währinger Straße-Volksoper").
-sequence(1,0, "Staglgasse").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Van-Swieten-Kaserne").
+initlocation($p,"Blechturmgasse").
+initlocation($p,"Waidhausenstraße").
+initlocation($p,"Pantucekgasse/Widholzgasse").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Obere Augartenstraße").
+initlocation($p,"Perchtoldsdorf Bahnhof").
 person(2).
-initlocation(2,"Stadtpark").
-initlocation(2,"Gumpoldskirchen Bahnhof").
-initlocation(2,"Krieau").
-initlocation(2,"Wampersdorf Bahnhof").
-initlocation(2,"Oberlaa, Therme Wien").
-initlocation(2,"Alfred-Adler-Straße").
-initlocation(2,"Himmelmutterweg").
-sequence(2,0, "Stadtpark").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Unter St Veit, Hummelgasse").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Schönborn Bahnhof").
-restaurant("Grillgasse").
-restaurant("Molitorgasse").
-restaurant("Satzberggasse").
-restaurant("Obere Donaustraße").
-restaurant("Pilgramgasse").
+initlocation($p,"Nußdorf").
+initlocation($p,"Mannswörth Bahnhof").
+initlocation($p,"Absberggasse").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Am Tabor").
+initlocation($p,"Wr Neustadt Nord").
+initlocation($p,"Ungargasse/Neulinggasse").
+initlocation($p,"Nußdorf").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Schönborn Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Alfred-Adler-Straße").
+restaurant("Enkplatz").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Elterleinplatz").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Schlachthausgasse").

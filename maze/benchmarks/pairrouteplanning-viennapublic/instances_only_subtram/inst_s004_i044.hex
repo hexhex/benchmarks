@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Winkeläckerstraße").
-initlocation(1,"Neubaugasse/Westbahnstraße").
-initlocation(1,"Hauffgasse").
-initlocation(1,"Hopfengasse").
-sequence(1,0, "Winkeläckerstraße").
+initlocation($p,"Hermesstraße").
+initlocation($p,"Marienbrücke").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Hermesstraße").
 person(2).
-initlocation(2,"Althanstraße").
-initlocation(2,"Kaiserstraße").
-initlocation(2,"St Pölten Traisenpark P+R Nord").
-initlocation(2,"Kölblgasse").
-sequence(2,0, "Althanstraße").
-possiblemeetinglocations("Silbergasse").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Diesterweggasse").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-restaurant("Gredlerstraße").
-restaurant("Guntherstraße").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Felixdorf Bahnhof").
+initlocation($p,"Taborstraße").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Heinrich-Drimmel-Platz").
+initlocation($p,"Alaudagasse").
+initlocation($p,"Taborstraße").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Schloss Belvedere").
+possiblemeetinglocations("Unter Sankt Veit").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Ober Sankt Veit").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Arthaberplatz").

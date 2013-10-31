@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Wilhelminenstraße/Wattgasse").
-initlocation(1,"Obere Donaustraße").
-initlocation(1,"Weißenböckstraße").
-initlocation(1,"Knöllgasse/Davidgasse").
-initlocation(1,"Ottakringer Straße/Wattgasse").
-initlocation(1,"Enzersdorf bei Staatz Bahnhof").
-initlocation(1,"Gänserndorf Bahnhof").
-initlocation(1,"Hopfengasse").
-sequence(1,0, "Wilhelminenstraße/Wattgasse").
+initlocation($p,"Dommayergasse").
+initlocation($p,"Quellenplatz").
+initlocation($p,"Seegasse").
+initlocation($p,"Aßmayergasse").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Oberfeldgasse").
+initlocation($p,"Riedelgasse").
+initlocation($p,"Satzberggasse").
+initlocation($p,"Dommayergasse").
 person(2).
-initlocation(2,"Mühlfeldgasse").
-initlocation(2,"Aspern Nord").
-initlocation(2,"Börsegasse/Wipplingerstraße").
-initlocation(2,"Hernalser Gürtel").
-initlocation(2,"Wexstraße").
-initlocation(2,"Autokaderstraße").
-initlocation(2,"Perntergasse").
-initlocation(2,"Fichtnergasse").
-sequence(2,0, "Mühlfeldgasse").
-possiblemeetinglocations("Gutraterplatz").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Staglgasse").
-possiblemeetinglocations("Antonigasse").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-restaurant("Kledering Bahnhof").
-restaurant("Polgarstraße").
-restaurant("Augasse").
-restaurant("Perntergasse").
-restaurant("Gersthof").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Fultonstraße").
-restaurant("Schuhmeierplatz").
+initlocation($p,"Gutraterplatz").
+initlocation($p,"Bauernfeldplatz").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Perntergasse").
+initlocation($p,"Stadiongasse/Parlament").
+initlocation($p,"Donauinsel").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Kaiserstraße/Burggasse").
+initlocation($p,"Gutraterplatz").
+possiblemeetinglocations("Rustengasse").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Sickenberggasse").
+possiblemeetinglocations("Wallensteinplatz").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Diesterweggasse").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Donauspital").
+restaurant("Großfeldsiedlung").
+restaurant("Stadlergasse").
+restaurant("Mistelbach Stadt").
+restaurant("Mayssengasse").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Weidlingau Bahnhof").
+restaurant("Gußhausstraße").

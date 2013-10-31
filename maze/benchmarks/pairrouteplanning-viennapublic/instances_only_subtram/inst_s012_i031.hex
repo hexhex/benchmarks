@@ -1,53 +1,52 @@
 person(1).
-initlocation(1,"Rosensteingasse").
-initlocation(1,"Gramatneusiedl Bahnhof").
-initlocation(1,"Carminweg").
-initlocation(1,"Aßmayergasse").
-initlocation(1,"Schmerlingplatz").
-initlocation(1,"Löwengasse").
-initlocation(1,"Marienbrücke").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Gänserndorf Bahnhof").
-initlocation(1,"Reinlgasse/Märzstraße").
-initlocation(1,"Laa an der Thaya Bahnhof").
-initlocation(1,"Guntherstraße").
-sequence(1,0, "Rosensteingasse").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Schloss Hetzendorf").
+initlocation($p,"Wallensteinplatz").
+initlocation($p,"Alte Donau").
+initlocation($p,"Schottentor").
+initlocation($p,"Sahulkastraße").
+initlocation($p,"Taborstraße").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Hardtgasse").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Sieveringer Straße").
+initlocation($p,"Geiereckstraße").
+initlocation($p,"Mistelbach Stadt").
 person(2).
-initlocation(2,"Bahnhof Meidling").
-initlocation(2,"Nordwestbahnstraße").
-initlocation(2,"Litfaßstraße").
-initlocation(2,"Paulanergasse").
-initlocation(2,"Resselgasse").
-initlocation(2,"Bahnhof Meidling/Eichenstraße").
-initlocation(2,"Nordbahnstraße").
-initlocation(2,"Brünnlbadgasse").
-initlocation(2,"Wr Neustadt Nord").
-initlocation(2,"Hainburg/Donau Ungartor/B9").
-initlocation(2,"Donauspital").
-initlocation(2,"Haidestraße").
-sequence(2,0, "Bahnhof Meidling").
-possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Bahnsteggasse").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Kleistgasse").
-possiblemeetinglocations("Wallensteinplatz").
-possiblemeetinglocations("Burgring").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Hildebrandgasse").
-restaurant("Raxstraße/Rudolfshügelgasse").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Grillgasse").
-restaurant("Glatzgasse").
-restaurant("Leobersdorf Bahnhof").
-restaurant("Barawitzkagasse").
-restaurant("Seestadt").
-restaurant("Hernalser Gürtel").
-restaurant("Kraygasse").
-restaurant("Wallrißstraße").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Polgarstraße").
+initlocation($p,"Taborstraße/Heinestraße").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Handelskai").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Frauengasse").
+initlocation($p,"Paradisgasse").
+initlocation($p,"Schottenring").
+initlocation($p,"Haidestraße").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+restaurant("Hardtgasse").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Aspernstraße").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Schottenring").
+restaurant("Valiergasse").
+restaurant("Prinzgasse").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Stadlau").
+restaurant("Leopoldau").

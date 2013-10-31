@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Liesing").
-initlocation(1,"Hütteldorf").
-initlocation(1,"Hainburg/Donau Personenbhf").
-initlocation(1,"Bisamberg Bahnhof").
-sequence(1,0, "Liesing").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Hausleiten Bahnhof").
 person(2).
-initlocation(2,"Praterkai").
-initlocation(2,"Schottentor").
-initlocation(2,"Tullnerfeld Bahnhof").
-initlocation(2,"Hirschstetten").
-sequence(2,0, "Praterkai").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Kledering Bahnhof").
-restaurant("Gersthof".
-restaurant("Sierndorf Bahnhof".
-restaurant("Sitzenberg-Reidling Bahnhof".
-restaurant("Dürrwien Bahnhof").
+initlocation($p,"Donauinsel").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Donauinsel").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Pressbaum Bahnhof").

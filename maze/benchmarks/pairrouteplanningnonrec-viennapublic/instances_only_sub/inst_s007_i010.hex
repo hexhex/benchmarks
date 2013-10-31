@@ -1,34 +1,32 @@
 person(1).
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Gumpendorfer Straße").
-initlocation(1,"Guntramsdorf-Thallern").
-initlocation(1,"Südtiroler Platz/Hauptbahnhof").
-initlocation(1,"Volkstheater").
-initlocation(1,"Dresdner Straße").
-initlocation(1,"Seyring Bahnhof").
-sequence(1,0, "Flughafen Wien (VIE).
+initlocation($p,"Tscherttegasse").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Tscherttegasse").
 person(2).
-initlocation(2,"Johnstraße").
-initlocation(2,"Floridsdorf").
-initlocation(2,"Jedlersdorf").
-initlocation(2,"Unterpurkersdorf Bahnhof").
-initlocation(2,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(2,"Gaisruck Bahnhof").
-initlocation(2,"Münchendorf Bahnhof").
-sequence(2,0, "Johnstraße").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Unter Sankt Veit").
-restaurant("Stadtpark".
-restaurant("Matzleinsdorfer Platz".
-restaurant("Donaustadtbrücke".
-restaurant("Theresienfeld Bahnhof".
-restaurant("Wampersdorf Bahnhof".
-restaurant("Regelsbrunn Bahnhof".
-restaurant("Pilgramgasse").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Taborstraße").
+initlocation($p,"Herrengasse").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Quartier Belvedere").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Herzogenburg Stadt").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Ottakring").
+restaurant("Gerasdorf Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Kaiserebersdorf").
+restaurant("Gaisruck Bahnhof").
+restaurant("Spittelau").

@@ -1,60 +1,60 @@
 person(1).
-initlocation(1,"Gewerbepark Stadlau Mitte").
-initlocation(1,"Martinstraße").
-initlocation(1,"Franzensbrücke").
-initlocation(1,"Baden Bahnhof").
-initlocation(1,"Wienerfeldgasse").
-initlocation(1,"Wolkersdorf Bahnhof").
-initlocation(1,"Carabelligasse").
-initlocation(1,"Albertgasse").
-initlocation(1,"Rekawinkel Bahnhof").
-initlocation(1,"Meidling Hauptstraße").
-initlocation(1,"Keplerplatz").
-initlocation(1,"Landstraße-Wien Mitte").
-initlocation(1,"Kärntner Ring/Oper").
-initlocation(1,"Sierndorf Bahnhof").
-sequence(1,0, "Gewerbepark Stadlau Mitte").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Gaußplatz").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Leopoldau").
+initlocation($p,"Perntergasse").
+initlocation($p,"Großfeldsiedlung").
+initlocation($p,"Anton-Krieger-Gasse").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Fickeysstraße").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Stadlau").
+initlocation($p,"Brünner Straße").
 person(2).
-initlocation(2,"Lazarettgasse").
-initlocation(2,"Leberberg").
-initlocation(2,"Blumental").
-initlocation(2,"Kaiser-Franz-Josef-Straße").
-initlocation(2,"Neuwaldegg").
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-initlocation(2,"Vinzenzgasse").
-initlocation(2,"Saikogasse").
-initlocation(2,"Krieau").
-initlocation(2,"Mistelbach Stadt").
-initlocation(2,"Türkenschanzplatz").
-initlocation(2,"Maurer Hauptplatz").
-initlocation(2,"Muckendorf-Wipfing Bahnhof").
-initlocation(2,"Stadtpark").
-sequence(2,0, "Lazarettgasse").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Fultonstraße").
-possiblemeetinglocations("Pötzleinsdorf").
-possiblemeetinglocations("Arthaberplatz").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Hernalser Gürtel").
+initlocation($p,"Perntergasse").
+initlocation($p,"Schwarzenbergplatz").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Stockholmer Platz").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Hildebrandgasse").
+initlocation($p,"Schottenfeldgasse").
+initlocation($p,"Saikogasse").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Ameisgasse").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+possiblemeetinglocations("Valiergasse").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Hopfengasse").
 possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Konstanziagasse").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Alsegger Straße").
-possiblemeetinglocations("Süßenbrunn").
-restaurant("Yppengasse").
-restaurant("Tulln Bahnhof").
-restaurant("Simmering").
-restaurant("Stadion").
-restaurant("Zippererstraße").
-restaurant("Dommayergasse").
-restaurant("Franz-Josefs-Bahnhof").
-restaurant("Lerchenfelder Straße").
-restaurant("Zentralfriedhof").
-restaurant("Großjedlersdorf").
-restaurant("Kendlerstraße").
-restaurant("Breitenfurter St/Altmannsd Str").
-restaurant("Gredlerstraße").
-restaurant("Blechturmgasse").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
+restaurant("Liesing").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Helmahof Bahnhof").
+restaurant("Johnstraße").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Alaudagasse").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Donauzentrum").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Weidlingau Bahnhof").
+restaurant("Mannswörth Bahnhof").
+restaurant("Bösendorferstraße").
+restaurant("Mödling Bahnhof").
+restaurant("Moosbierbaum-Heiligeneich Bf").

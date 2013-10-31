@@ -1,21 +1,20 @@
 person(1).
-initlocation(1,"Hollabrunn Bahnhof").
-initlocation(1,"Stephansplatz").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Mistelbach Stadt").
-sequence(1,0, "Hollabrunn Bahnhof").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Strebersdorf").
 person(2).
-initlocation(2,"Großfeldsiedlung").
-initlocation(2,"Am Schöpfwerk").
-initlocation(2,"Moosbierbaum-Heiligeneich Bf").
-initlocation(2,"Niederhofstraße").
-sequence(2,0, "Großfeldsiedlung").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-restaurant("Pfaffstätten Bahnhof".
-restaurant("Alser Straße".
-restaurant("Unterradlberg Bahnhof".
-restaurant("Kagraner Platz").
+initlocation($p,"Schottentor").
+initlocation($p,"Donaumarina").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Schottentor").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+restaurant("Wolf in der Au").
+restaurant("Seestadt").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Pilgramgasse").

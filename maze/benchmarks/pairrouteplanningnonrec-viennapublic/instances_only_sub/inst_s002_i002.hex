@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Wr Neustadt Civitas Nova").
-initlocation(1,"Retz Bahnhof").
-sequence(1,0, "Wr Neustadt Civitas Nova").
+initlocation($p,"Hietzing").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Hietzing").
 person(2).
-initlocation(2,"Leobersdorf Bahnhof").
-initlocation(2,"Untereggendorf Bahnhof").
-sequence(2,0, "Leobersdorf Bahnhof").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Krieau").
-restaurant("Quartier Belvedere".
-restaurant("Hirschstetten").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Penzing").
+restaurant("Kagran").
+restaurant("Gasometer").

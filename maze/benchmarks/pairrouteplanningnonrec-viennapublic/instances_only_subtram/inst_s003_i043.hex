@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Dornbach, Güpferlingstraße").
-initlocation(1,"Gasometer").
-initlocation(1,"Lazarettgasse").
-sequence(1,0, "Dornbach, Güpferlingstraße").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Traisengasse").
+initlocation($p,"Schönborn Bahnhof").
 person(2).
-initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(2,"Währinger Straße-Volksoper").
-initlocation(2,"Taubstummengasse").
-sequence(2,0, "Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Quartier Belvedere").
-restaurant("Pötzleinsdorf").
-restaurant("Hintere Zollamtsstraße").
-restaurant("Lobau").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Praterkai").
+initlocation($p,"Trondheimgasse").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+restaurant("Oberlaa, Therme Wien").
+restaurant("Gredlerstraße").
+restaurant("Ottakring").

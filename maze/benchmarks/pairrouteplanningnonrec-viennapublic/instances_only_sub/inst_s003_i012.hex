@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Gumpoldskirchen Bahnhof").
-initlocation(1,"Spittelau").
-initlocation(1,"Messe-Prater").
-sequence(1,0, "Gumpoldskirchen Bahnhof").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Wr Neustadt Nord").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Spillern Bahnhof").
 person(2).
-initlocation(2,"Himberg Bahnhof").
-initlocation(2,"Rathaus").
-initlocation(2,"Göllersdorf Bahnhof").
-sequence(2,0, "Himberg Bahnhof").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-restaurant("Getzersdorf/Traisen Bahnhof".
-restaurant("Stephansplatz".
-restaurant("Wolf in der Au").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Laa an der Thaya Bahnhof").
+initlocation($p,"Oberradlberg Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Vorgartenstraße").
+restaurant("Keplerplatz").
+restaurant("Erlaaer Straße").
+restaurant("Liesing").

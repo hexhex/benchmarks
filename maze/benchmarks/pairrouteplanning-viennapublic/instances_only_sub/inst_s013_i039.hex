@@ -1,57 +1,56 @@
 person(1).
-initlocation(1,"Geiselbergstraße").
-initlocation(1,"Untertullnerbach Bahnhof").
-initlocation(1,"Schwechat Bahnhof").
-initlocation(1,"St Andrä-Wördern Bahnhof").
-initlocation(1,"Aderklaaer Straße").
-initlocation(1,"Johnstraße").
-initlocation(1,"Rathaus").
-initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(1,"Matzleinsdorfer Platz").
-initlocation(1,"St Pölten Traisenpark P+R Nord").
-initlocation(1,"Maria Anzbach Bahnhof").
-initlocation(1,"Schottentor").
-initlocation(1,"Schönbrunn").
-sequence(1,0, "Geiselbergstraße").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Bahnhof Meidling").
+initlocation($p,"Hernals").
+initlocation($p,"Stadlau").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
 person(2).
-initlocation(2,"Wr Neustadt Nord").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Bad Vöslau Bahnhof").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Ebreichsdorf Bahnhof").
-initlocation(2,"Obersdorf Bahnhof").
-initlocation(2,"Vorgartenstraße").
-initlocation(2,"Enzersdorf bei Staatz Bahnhof").
-initlocation(2,"Spittelau").
-initlocation(2,"Rennbahnweg").
-initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(2,"Rennweg").
-initlocation(2,"Taborstraße").
-sequence(2,0, "Wr Neustadt Nord").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Stephansplatz").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Stadtpark").
 possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Zentralfriedhof").
-restaurant("Himberg Bahnhof".
-restaurant("Unteroberndorf Bahnhof".
-restaurant("Donaustadtbrücke".
-restaurant("Franz-Josefs-Bahnhof".
-restaurant("Floridsdorf".
-restaurant("Gemeinlebarn Bahnhof".
-restaurant("Gerasdorf Bahnhof".
-restaurant("Weigelsdorf Bahnhof".
-restaurant("Schottentor".
-restaurant("Moosbierbaum-Heiligeneich Bf".
-restaurant("Spittelau".
-restaurant("Flughafen Wien (VIE.
-Bahnhof".
-restaurant("Stubentor").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Hütteldorf").
+restaurant("Kagran").
+restaurant("Jedlersdorf").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Westbahnhof").
+restaurant("Taubstummengasse").
+restaurant("Paasdorf Bahnhof").
+restaurant("Roßauer Lände").
+restaurant("Wolf in der Au").
+restaurant("Penzing").
+restaurant("Ladendorf Bahnhof").
+restaurant("Höbersdorf Bahnhof").

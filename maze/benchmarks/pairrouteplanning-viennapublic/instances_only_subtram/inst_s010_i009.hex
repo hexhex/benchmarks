@@ -1,44 +1,44 @@
 person(1).
-initlocation(1,"Ottakring").
-initlocation(1,"Laudongasse").
-initlocation(1,"Eckpergasse").
-initlocation(1,"Obersdorf Bahnhof").
-initlocation(1,"Prinzgasse").
-initlocation(1,"Unteroberndorf Bahnhof").
-initlocation(1,"Laaer-Berg-Straße").
-initlocation(1,"Unter St Veit, Hummelgasse").
-initlocation(1,"Oberdöbling").
-initlocation(1,"Ottakringer Str/Erdbrustgasse").
-sequence(1,0, "Ottakring").
+initlocation($p,"Hetzgasse").
+initlocation($p,"Mannswörth Bahnhof").
+initlocation($p,"Erdberg").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Dornbach, Güpferlingstraße").
+initlocation($p,"Althanstraße").
+initlocation($p,"Schottentor").
+initlocation($p,"Camillo-Sitte-Gasse").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Brünnlbadgasse").
+initlocation($p,"Hetzgasse").
 person(2).
-initlocation(2,"Huglgasse").
-initlocation(2,"Kleistgasse").
-initlocation(2,"Krottenbachstraße").
-initlocation(2,"Svetelskystraße").
-initlocation(2,"Palffygasse").
-initlocation(2,"Martinstraße").
-initlocation(2,"Braunhubergasse").
-initlocation(2,"Spitalgasse/Währinger Straße").
-initlocation(2,"Schottenfeldgasse").
-initlocation(2,"Nußdorfer Straße").
-sequence(2,0, "Huglgasse").
-possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Zentralfriedhof 2Tor").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Laxenburger Straße/Troststraße").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Erlaaer Straße").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Mühlfeldgasse").
-restaurant("An den langen Lüssen").
-restaurant("Schloss Schönbrunn").
-restaurant("Gloriettegasse").
-restaurant("Alfred-Adler-Straße").
-restaurant("Rosenhügelstraße").
-restaurant("Döblinger Hauptstr/Gatterburgg").
-restaurant("Huglgasse").
-restaurant("Franzensbrücke").
+initlocation($p,"Längenfeldgasse/Flurschützstr").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Zentralfriedhof 1Tor").
+initlocation($p,"Pokornygasse").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Julius-Raab-Platz").
+initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Klosterneub Str/Wallensteinstr").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Rosensteingasse").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Schottentor").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Landesgerichtsstraße").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Arminenstraße").
+restaurant("Traismauer Bahnhof").
+restaurant("Marx-Meidlinger-Straße").
+restaurant("Koppstraße/Panikengasse").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Rothneusiedl").
+restaurant("Spitalgasse/Währinger Straße").

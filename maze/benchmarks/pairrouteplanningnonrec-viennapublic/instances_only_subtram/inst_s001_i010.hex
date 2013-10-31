@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Heiligenstadt, 12-Februar-Pl").
-sequence(1,0, "Heiligenstadt, 12-Februar-Pl").
+initlocation($p,"Nordbahnstraße").
+initlocation($p,"Nordbahnstraße").
 person(2).
-initlocation(2,"Leyserstraße").
-sequence(2,0, "Leyserstraße").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-restaurant("Rosensteingasse").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Bösendorferstraße").
+possiblemeetinglocations("Mödling Bahnhof").
+restaurant("Alfred-Adler-Straße").

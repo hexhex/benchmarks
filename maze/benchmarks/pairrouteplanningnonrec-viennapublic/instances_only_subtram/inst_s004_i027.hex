@@ -1,21 +1,20 @@
 person(1).
-initlocation(1,"Retz Bahnhof").
-initlocation(1,"Rekawinkel Bahnhof").
-initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-sequence(1,0, "Retz Bahnhof").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Hernals").
+initlocation($p,"Oberradlberg Bahnhof").
 person(2).
-initlocation(2,"Gellertplatz").
-initlocation(2,"Neulengbach Stadt Bahnhof").
-initlocation(2,"Sechskrügelgasse").
-initlocation(2,"Schottenfeldgasse").
-sequence(2,0, "Gellertplatz").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Joachimsthalerplatz").
-possiblemeetinglocations("Kaiserstraße").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-restaurant("Hopfengasse").
-restaurant("Stammersdorf").
-restaurant("Kaiserstraße/Neustiftgasse").
-restaurant("Rekawinkel Bahnhof").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Maurer Hauptplatz").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Neilreichgasse").
+possiblemeetinglocations("Radetzkyplatz").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Stadtpark").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Oberzellergasse").
+restaurant("Shuttleworthstraße").

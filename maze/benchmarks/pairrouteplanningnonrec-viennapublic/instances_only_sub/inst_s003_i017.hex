@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Pfaffstätten Bahnhof").
-initlocation(1,"Silberwald Bahnhof").
-initlocation(1,"Zieglergasse").
-sequence(1,0, "Pfaffstätten Bahnhof").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Unteroberndorf Bahnhof").
 person(2).
-initlocation(2,"Mödling Bahnhof").
-initlocation(2,"Rathaus").
-initlocation(2,"Unter Kritzendorf Bahnhof").
-sequence(2,0, "Mödling Bahnhof").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-restaurant("Ebenfurth Bahnhof".
-restaurant("Götzendorf Bahnhof".
-restaurant("Ottakring").
+initlocation($p,"Praterkai").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Lobau").
+initlocation($p,"Praterkai").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+restaurant("Stephansplatz").
+restaurant("Großfeldsiedlung").
+restaurant("Frättingsdorf Bahnhof").

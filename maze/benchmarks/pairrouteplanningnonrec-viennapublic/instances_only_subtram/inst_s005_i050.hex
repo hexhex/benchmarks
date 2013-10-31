@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Oberfeldgasse").
-initlocation(1,"Gruschaplatz").
-initlocation(1,"Radetzkyplatz").
-initlocation(1,"Autokaderstraße").
-initlocation(1,"Erlaaer Straße").
-sequence(1,0, "Oberfeldgasse").
+initlocation($p,"Laudongasse").
+initlocation($p,"Heiligenstadt").
+initlocation($p,"Altes Landgut").
+initlocation($p,"Mariahilfer Gürtel").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Laudongasse").
 person(2).
-initlocation(2,"Brünner Straße/Hanreitergasse").
-initlocation(2,"Arthaberplatz").
-initlocation(2,"Margaretengürtel").
-initlocation(2,"Satzberggasse").
-initlocation(2,"Sierndorf Bahnhof").
-sequence(2,0, "Brünner Straße/Hanreitergasse").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Gußhausstraße").
-possiblemeetinglocations("Otto-Probst-Straße").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-restaurant("Kölblgasse").
-restaurant("Kranzgasse").
-restaurant("Stammersdorf").
-restaurant("Simmering").
+initlocation($p,"Gersthof").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Nordwestbahnstraße").
+initlocation($p,"Hernalser Gürtel").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Gersthof").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+restaurant("Diesterweggasse").
+restaurant("Riedelgasse").
+restaurant("Maria Ellend Bahnhof").
 restaurant("Johnstraße").
+restaurant("Stockerau Bahnhof").

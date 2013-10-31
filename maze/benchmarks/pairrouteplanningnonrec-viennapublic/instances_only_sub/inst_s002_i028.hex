@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Platt Bahnhof").
-initlocation(1,"Kaisermühlen-VIC").
-sequence(1,0, "Platt Bahnhof").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation($p,"Paasdorf Bahnhof").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
 person(2).
-initlocation(2,"Korneuburg Bahnhof").
-initlocation(2,"Dresdner Straße").
-sequence(2,0, "Korneuburg Bahnhof").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Nußdorfer Straße").
-restaurant("Wolfsthal Bahnhof".
-restaurant("Alser Straße").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Unter Kritzendorf Bahnhof").
+initlocation($p,"Ober Sankt Veit").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Grillgasse").

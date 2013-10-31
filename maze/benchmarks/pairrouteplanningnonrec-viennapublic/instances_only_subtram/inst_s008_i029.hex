@@ -1,37 +1,36 @@
 person(1).
-initlocation(1,"Favoritenstraße/Troststraße").
-initlocation(1,"Sechskrügelgasse").
-initlocation(1,"Felixdorf Bahnhof").
-initlocation(1,"Aspern, Oberdorfstraße").
-initlocation(1,"Alaudagasse").
-initlocation(1,"Krieau").
-initlocation(1,"Barawitzkagasse").
-initlocation(1,"Jägerstraße").
-sequence(1,0, "Favoritenstraße/Troststraße").
+initlocation($p,"Unter Kritzendorf Bahnhof").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Gruschaplatz").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Haidestraße").
+initlocation($p,"Unter Kritzendorf Bahnhof").
 person(2).
-initlocation(2,"Simonygasse").
-initlocation(2,"Schlickgasse").
-initlocation(2,"Stadiongasse/Parlament").
-initlocation(2,"Knöllgasse/Davidgasse").
-initlocation(2,"Linzer Straße/Reinlgasse").
-initlocation(2,"Dornbach, Güpferlingstraße").
-initlocation(2,"Volkstheater").
-initlocation(2,"Kettenbrückengasse").
-sequence(2,0, "Simonygasse").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
+initlocation($p,"Ungargasse/Neulinggasse").
+initlocation($p,"Hütteldorfer Str/Lützowgasse").
+initlocation($p,"Albertgasse").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Guneschgasse").
+initlocation($p,"Sechskrügelgasse").
+initlocation($p,"Zentralfriedhof 1Tor").
+initlocation($p,"Braunhubergasse").
+initlocation($p,"Ungargasse/Neulinggasse").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Schwedenplatz").
 possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Neubaugasse").
-restaurant("Marxergasse").
-restaurant("Quartier Belvedere").
-restaurant("Kapellerfeld Bahnhof").
-restaurant("Rathaus").
-restaurant("Währinger Straße-Volksoper").
-restaurant("Gredlerstraße").
-restaurant("Nordwestbahnstraße").
-restaurant("Oberzellergasse").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Hirschstetten").
+restaurant("Migerkastraße").
+restaurant("Enkplatz").
+restaurant("Rauscherstraße").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Michelhausen Bahnhof").

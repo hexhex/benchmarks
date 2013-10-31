@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Hütteldorfer Str/Lützowgasse").
-initlocation(1,"Matthäus-Jiszda-Straße").
-sequence(1,0, "Hütteldorfer Str/Lützowgasse").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Dürrwien Bahnhof").
 person(2).
-initlocation(2,"Wr Neustadt Civitas Nova").
-initlocation(2,"Laudongasse").
-sequence(2,0, "Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Rochusgasse").
-restaurant("Schwedenplatz").
-restaurant("Friedrich-Engels-Platz").
+initlocation($p,"Braunhubergasse").
+initlocation($p,"Guntherstraße").
+initlocation($p,"Braunhubergasse").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Silbergasse").
+restaurant("Gunoldstraße").
+restaurant("Eichgraben-Altlengbach Bahnhof").

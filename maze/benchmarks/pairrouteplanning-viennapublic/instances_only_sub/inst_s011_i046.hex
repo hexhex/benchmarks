@@ -1,49 +1,48 @@
 person(1).
-initlocation(1,"Alte Donau").
-initlocation(1,"Hainburg/Donau Personenbhf").
-initlocation(1,"Petronell-Carnuntum Bahnhof").
-initlocation(1,"Krieau").
-initlocation(1,"Himberg Bahnhof").
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Trasdorf Bahnhof").
-initlocation(1,"Reumannplatz").
-initlocation(1,"Schwechat Bahnhof").
-initlocation(1,"Guntramsdorf-Thallern").
-sequence(1,0, "Alte Donau").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Rennweg").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Krottenbachstraße").
 person(2).
-initlocation(2,"Enzersdorf bei Staatz Bahnhof").
-initlocation(2,"Schottentor").
-initlocation(2,"Großfeldsiedlung").
-initlocation(2,"Wr Neustadt Nord").
-initlocation(2,"Erzherzog-Karl-Straße").
-initlocation(2,"Korneuburg Bahnhof").
-initlocation(2,"Floridsdorf").
-initlocation(2,"Purkersdorf Zentrum Bahnhof").
-initlocation(2,"Jägerstraße").
-initlocation(2,"Gasometer").
-initlocation(2,"Bad Vöslau Bahnhof").
-sequence(2,0, "Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-restaurant("Neubau-Kreuzstetten Bahnhof".
-restaurant("Gasometer".
-restaurant("Perchtoldsdorf Bahnhof".
-restaurant("Längenfeldgasse".
-restaurant("Donaumarina".
-restaurant("Praterkai".
-restaurant("Retz Bahnhof".
-restaurant("Petronell-Carnuntum Bahnhof".
-restaurant("Zieglergasse".
-restaurant("Gersthof".
-restaurant("Volkstheater").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Rennweg").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Praterstern").
+initlocation($p,"Herrengasse").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Oberdöbling").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Retz Bahnhof").
+restaurant("Herzogenburg Stadt").
+restaurant("Viehofen Bahnhof").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Stockerau Bahnhof").
+restaurant("Rennweg").
+restaurant("Stephansplatz").
+restaurant("Hietzing").
+restaurant("Ladendorf Bahnhof").

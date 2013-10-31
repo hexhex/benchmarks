@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Siemensstraße").
-initlocation(1,"Kagraner Platz").
-initlocation(1,"Bruck/Leitha Bahnhof").
-initlocation(1,"Wilfleinsdorf Bahnhof").
-initlocation(1,"Frättingsdorf Bahnhof").
-sequence(1,0, "Siemensstraße").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Gerasdorf Bahnhof").
 person(2).
-initlocation(2,"Südtiroler Platz/Hauptbahnhof").
-initlocation(2,"Johnstraße").
-initlocation(2,"Simmering").
-initlocation(2,"Mistelbach Bahnhof").
-initlocation(2,"Alterlaa").
-sequence(2,0, "Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-restaurant("Alterlaa".
-restaurant("Hennersdorf Bahnhof".
-restaurant("Neulengbach Bahnhof".
-restaurant("Kottingneusiedl Bahnhof".
-restaurant("Schwechat Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Tscherttegasse").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Meidling Hauptstraße").
+restaurant("Neubaugasse").
+restaurant("Handelskai").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Traismauer Bahnhof").

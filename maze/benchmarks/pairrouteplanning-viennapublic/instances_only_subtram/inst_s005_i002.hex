@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Julius-Raab-Platz").
-initlocation(1,"Ungargasse/Neulinggasse").
-initlocation(1,"Untereggendorf Bahnhof").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Schloss Hetzendorf").
-sequence(1,0, "Julius-Raab-Platz").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Braunhubergasse").
+initlocation($p,"Frauengasse").
+initlocation($p,"Klosterneub Str/Wallensteinstr").
+initlocation($p,"Braunschweiggasse").
 person(2).
-initlocation(2,"Breitensee").
-initlocation(2,"Mannswörth Bahnhof").
-initlocation(2,"Kaiserstraße/Westbahnstraße").
-initlocation(2,"Winckelmannstraße").
-initlocation(2,"Rustengasse").
-sequence(2,0, "Breitensee").
-possiblemeetinglocations("Vinzenzgasse").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Dornbacher Straße").
-possiblemeetinglocations("Hütteldorfer Straße").
-restaurant("Silbergasse").
-restaurant("Fultonstraße").
-restaurant("Neilreichgasse").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Aumannplatz").
+initlocation($p,"Paulanergasse").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Stubentor").
+initlocation($p,"Wittelsbachstraße").
+initlocation($p,"Hildebrandgasse").
+initlocation($p,"Paulanergasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Niederhofstraße").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Kagraner Platz").
+restaurant("Lazarettgasse").
+restaurant("Siebenhirten (NÖ). Haltestelle").
+restaurant("Carabelligasse").

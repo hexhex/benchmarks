@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Michelbeuern-AKH").
-sequence(1,0, "Michelbeuern-AKH").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Schwechat Bahnhof").
 person(2).
-initlocation(2,"Margaretengürtel").
-sequence(2,0, "Margaretengürtel").
-possiblemeetinglocations("Michelbeuern-AKH").
-restaurant("Höflein an der Donau Bahnhof").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+restaurant("Traisengasse").

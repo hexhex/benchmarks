@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Regelsbrunn Bahnhof").
-initlocation(1,"Otto-Probst-Platz").
-initlocation(1,"Ulrichskirchen Bahnhof").
-initlocation(1,"Sechskrügelgasse").
-initlocation(1,"Kottingneusiedl Bahnhof").
-sequence(1,0, "Regelsbrunn Bahnhof").
+initlocation($p,"Nordbahnstraße").
+initlocation($p,"Hildebrandgasse").
+initlocation($p,"Atzgersdorfer Straße").
+initlocation($p,"Schwarzspanierstraße").
+initlocation($p,"Römergasse").
+initlocation($p,"Nordbahnstraße").
 person(2).
-initlocation(2,"Heiligenstadt").
-initlocation(2,"Laurenzgasse").
-initlocation(2,"Columbusplatz").
-initlocation(2,"Traismauer Bahnhof").
-initlocation(2,"Krottenbachstraße").
-sequence(2,0, "Heiligenstadt").
-possiblemeetinglocations("Hardtgasse").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Althanstraße").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-restaurant("Wexstraße").
-restaurant("Gruschaplatz").
-restaurant("Molitorgasse").
-restaurant("Floridsdorf").
-restaurant("Shuttleworthstraße").
+initlocation($p,"Landesgerichtsstraße").
+initlocation($p,"Nußdorf").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Döblinger Bad").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Landesgerichtsstraße").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+restaurant("Johann-Strauß-Gasse").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Zentralfriedhof 3Tor").

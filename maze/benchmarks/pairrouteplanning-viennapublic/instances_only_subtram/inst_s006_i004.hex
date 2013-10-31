@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Kraygasse").
-initlocation(1,"Quartier Belvedere").
-initlocation(1,"Sickenberggasse").
-initlocation(1,"Kliebergasse").
-initlocation(1,"Albertgasse").
-initlocation(1,"Donaumarina").
-sequence(1,0, "Kraygasse").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Wilhelminenstr/Sandleitengasse").
+initlocation($p,"Obere Donaustraße").
+initlocation($p,"Quellenstraße/Knöllgasse").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Gersthofer Str/Scheibenbergstr").
+initlocation($p,"Gerasdorf Bahnhof").
 person(2).
-initlocation(2,"Ungargasse/Neulinggasse").
-initlocation(2,"Breitenfurter Str/Liesingbr").
-initlocation(2,"Arthaberplatz").
-initlocation(2,"Kendlerstraße").
-initlocation(2,"Herzogenburg Bahnhof").
-initlocation(2,"Franzensbrücke").
-sequence(2,0, "Ungargasse/Neulinggasse").
-possiblemeetinglocations("Siemensstraße").
+initlocation($p,"Blumengasse").
+initlocation($p,"Quellenstraße/Favoritenstraße").
+initlocation($p,"Kaiserstraße/Westbahnstraße").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Hildebrandgasse").
+initlocation($p,"Mannswörth Bahnhof").
+initlocation($p,"Blumengasse").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Antonigasse").
 possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Gredlerstraße").
-restaurant("Kapellerfeld Bahnhof").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Donauzentrum").
-restaurant("Nordbahnstraße").
-restaurant("Siebensterngasse").
-restaurant("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Atzgersdorfer Straße").
+restaurant("Alfred-Adler-Straße").
+restaurant("Geiereckstraße").
+restaurant("Unterpurkersdorf Bahnhof").

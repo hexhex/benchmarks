@@ -1,17 +1,16 @@
 person(1).
-initlocation(1,"Schönbrunn").
-initlocation(1,"Neubaugasse").
-initlocation(1,"Perfektastraße").
-sequence(1,0, "Schönbrunn").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Kagraner Platz").
 person(2).
-initlocation(2,"Heiligenstadt").
-initlocation(2,"Längenfeldgasse").
-initlocation(2,"Fischamend Bahnhof").
-sequence(2,0, "Heiligenstadt").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-restaurant("Stadion".
-restaurant("Taubstummengasse".
-restaurant("Spittelau").
+initlocation($p,"Haidestraße").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Haidestraße").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+restaurant("Schwechat Bahnhof").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Kottingbrunn Bahnhof").

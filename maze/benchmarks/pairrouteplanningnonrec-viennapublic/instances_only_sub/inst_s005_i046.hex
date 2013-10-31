@@ -1,25 +1,24 @@
 person(1).
-initlocation(1,"Wr Neustadt Hauptbahnhof").
-initlocation(1,"Liesing").
-initlocation(1,"Trautmannsdorf/Leitha Bf").
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Donauspital").
-sequence(1,0, "Wr Neustadt Hauptbahnhof").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Neulengbach Bahnhof").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Schottenring").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
 person(2).
-initlocation(2,"Göllersdorf Bahnhof").
-initlocation(2,"Aderklaaer Straße").
-initlocation(2,"St Pölten Hauptbahnhof").
-initlocation(2,"Ulrichskirchen Bahnhof").
-initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
-sequence(2,0, "Göllersdorf Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Pilgramgasse").
-restaurant("Flughafen Wien (VIE.
-Bahnhof".
-restaurant("Paasdorf Bahnhof".
-restaurant("Vorgartenstraße".
-restaurant("Westbahnhof".
-restaurant("Taborstraße").
+initlocation($p,"Mannswörth Bahnhof").
+initlocation($p,"Weigelsdorf Bahnhof").
+initlocation($p,"Donauspital").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Mannswörth Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Neubaugasse").
+restaurant("Blumental").
+restaurant("Neulengbach Stadt Bahnhof").

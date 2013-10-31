@@ -1,48 +1,48 @@
 person(1).
-initlocation(1,"Salztorbrücke").
-initlocation(1,"Floridsdorf").
-initlocation(1,"Lazarettgasse").
-initlocation(1,"Anschützgasse").
-initlocation(1,"Praterkai").
-initlocation(1,"Maurer Hauptplatz").
-initlocation(1,"Arminenstraße").
-initlocation(1,"Schloss Schönbrunn").
-initlocation(1,"Quellenplatz").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Hirschstetten").
-sequence(1,0, "Salztorbrücke").
+initlocation($p,"Quellenstraße/Knöllgasse").
+initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Valiergasse").
+initlocation($p,"Versorgungsheimplatz").
+initlocation($p,"Otto-Probst-Straße").
+initlocation($p,"Sankt Marx").
+initlocation($p,"Gellertplatz").
+initlocation($p,"Pantucekgasse/Widholzgasse").
+initlocation($p,"Simonygasse").
+initlocation($p,"Satzberggasse").
+initlocation($p,"Quellenstraße/Knöllgasse").
 person(2).
-initlocation(2,"Gellertplatz").
-initlocation(2,"Stadlau").
-initlocation(2,"Bisamberg Bahnhof").
-initlocation(2,"Bösendorferstraße").
-initlocation(2,"Hütteldorf, Bujattigasse").
-initlocation(2,"Stephansplatz").
-initlocation(2,"Marx-Meidlinger-Straße").
-initlocation(2,"Gatterburggasse").
-initlocation(2,"Erdbergstr/Schlachthausgasse").
-initlocation(2,"Hausfeldstraße").
-initlocation(2,"Leobersdorf Bahnhof").
-sequence(2,0, "Gellertplatz").
-possiblemeetinglocations("Lainz, Wolkersbergenstraße").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Wildgansplatz").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Urban-Loritz-Platz").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-possiblemeetinglocations("Absberggasse").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Quartier Belvedere").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Johann-Strauß-Gasse").
-restaurant("Oberfeldgasse").
-restaurant("Großjedlersdorf").
-restaurant("Alaudagasse").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Museumsquartier").
-restaurant("Schottentor").
-restaurant("Seestadt").
-restaurant("Margaretengürtel").
-restaurant("Siemensstraße").
+initlocation($p,"Scheibenbergstraße").
+initlocation($p,"Glatzgasse").
+initlocation($p,"Floridsdorfer Brücke").
+initlocation($p,"Römergasse").
+initlocation($p,"Radetzkyplatz").
+initlocation($p,"Columbusplatz").
+initlocation($p,"Prandaugasse").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Barawitzkagasse").
+initlocation($p,"Frödenplatz").
+initlocation($p,"Jagdschloßgasse").
+initlocation($p,"Scheibenbergstraße").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Laaer-Berg-Straße").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Hirschstetten").
+restaurant("Gaisruck Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Althanstraße").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Halteraugasse").
+restaurant("Obere Donaustraße").
+restaurant("Svetelskystraße").
+restaurant("Zentralfriedhof 3Tor").

@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Untereggendorf Bahnhof").
-sequence(1,0, "Untereggendorf Bahnhof").
+initlocation($p,"Taborstraße").
+initlocation($p,"Taborstraße").
 person(2).
-initlocation(2,"Perchtoldsdorf Bahnhof").
-sequence(2,0, "Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Süßenbrunn").
-restaurant("Wilfleinsdorf Bahnhof").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Neubaugasse").
+possiblemeetinglocations("Traisengasse").
+restaurant("Neusiedl am See Bahnhof").

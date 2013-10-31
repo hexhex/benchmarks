@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Van-Swieten-Kaserne").
-initlocation(1,"Scheibenbergstraße").
-initlocation(1,"Rustengasse").
-initlocation(1,"Redtenbachergasse").
-initlocation(1,"Retz Bahnhof").
-initlocation(1,"Neue Donau").
-initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
-initlocation(1,"Teichgasse").
-sequence(1,0, "Mistelbach Stadt").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Brünner Straße/Hanreitergasse").
+initlocation($p,"Gasometer").
+initlocation($p,"Wildgansplatz").
+initlocation($p,"Hernals").
+initlocation($p,"Rauscherstraße").
+initlocation($p,"Zippererstraße").
 person(2).
-initlocation(2,"Wildgansplatz").
-initlocation(2,"Sonnergasse").
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Dornbach, Güpferlingstraße").
-initlocation(2,"Jägerstraße").
-initlocation(2,"Thaliastraße/Maroltingergasse").
-initlocation(2,"Leobersdorf Bahnhof").
-initlocation(2,"Obereggendorf Bahnhof").
-initlocation(2,"Am Heumarkt").
-sequence(2,0, "Wildgansplatz").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Gruschaplatz").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Arminenstraße").
-possiblemeetinglocations("Prinzgasse").
-possiblemeetinglocations("Nordbrücke").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Shuttleworthstraße").
-possiblemeetinglocations("Pokornygasse").
-restaurant("Praterstern").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Gusenleithnergasse").
-restaurant("Lainz, Wolkersbergenstraße").
-restaurant("Viehmarktgasse").
-restaurant("Scheibenbergstraße").
-restaurant("Albertgasse").
-restaurant("Satzberggasse").
-restaurant("Obere Augartenstraße").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Linzer Straße/Reinlgasse").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Augasse").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Riedelgasse").
+initlocation($p,"Döblinger Hauptstr/Gatterburgg").
+initlocation($p,"Roßauer Lände").
+initlocation($p,"Mödling Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Laaer-Berg-Straße").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Hohe Warte").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Silberwald Bahnhof").
+restaurant("Koppstraße/Panikengasse").
+restaurant("Perntergasse").
+restaurant("Absberggasse").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Siemensstraße").
+restaurant("Hardeggasse").

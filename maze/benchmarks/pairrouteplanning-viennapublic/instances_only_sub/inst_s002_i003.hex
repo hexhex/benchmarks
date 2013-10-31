@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Franz-Josefs-Bahnhof").
-initlocation(1,"Schottenring").
-sequence(1,0, "Franz-Josefs-Bahnhof").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Stadtpark").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
 person(2).
-initlocation(2,"Jedlersdorf").
-initlocation(2,"Grillgasse").
-sequence(2,0, "Jedlersdorf").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Leopoldau").
-restaurant("Korneuburg Bahnhof".
-restaurant("Gaisruck Bahnhof").
+initlocation($p,"Donaumarina").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Donaumarina").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Ottakring").
+restaurant("Hietzing").
+restaurant("Grillgasse").

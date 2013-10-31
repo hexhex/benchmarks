@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Zeiselmauer-Königstetten Bf").
-initlocation(1,"Enkplatz").
-initlocation(1,"Rathausplatz/Burgtheater").
-initlocation(1,"Korneuburg Bahnhof").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Börsegasse/Wipplingerstraße").
-initlocation(1,"Julius-Raab-Platz").
-initlocation(1,"Weihburggasse").
-initlocation(1,"Brünner Straße/Hanreitergasse").
-sequence(1,0, "Zeiselmauer-Königstetten Bf").
+initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation($p,"Landesgerichtsstraße").
+initlocation($p,"Herbeckstraße").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Kaiserstraße/Neustiftgasse").
+initlocation($p,"Franz-Asenbauer-Gasse").
 person(2).
-initlocation(2,"Matzleinsdorfer Platz").
-initlocation(2,"Diesterweggasse").
-initlocation(2,"Moosbierbaum-Heiligeneich Bf").
-initlocation(2,"Purkersdorf Sanatorium").
-initlocation(2,"Liebknechtgasse").
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Wienerfeldgasse").
-initlocation(2,"Rochusgasse").
-initlocation(2,"Großfeldsiedlung").
-sequence(2,0, "Matzleinsdorfer Platz").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Sensengasse").
-possiblemeetinglocations("Gutraterplatz").
-possiblemeetinglocations("Schloss Hetzendorf").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Tscherttegasse").
-restaurant("Stockerau Bahnhof").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Arthaberplatz").
-restaurant("Schottenring").
-restaurant("Leberberg").
-restaurant("Rennbahnweg").
-restaurant("Seyring Bahnhof").
-restaurant("Rußbergstraße").
-restaurant("Kapellerfeld Bahnhof").
+initlocation($p,"Simmering").
+initlocation($p,"Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Himmelmutterweg").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Augasse").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Simmering").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Gloriettegasse").
+possiblemeetinglocations("Laaer-Berg-Straße").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Lerchenfelder Straße").
+possiblemeetinglocations("Himberg Bahnhof").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Weidlingau Bahnhof").
+restaurant("Tesarekplatz").
+restaurant("Sieveringer Straße").
+restaurant("Verbindungsbahn").
+restaurant("Anschützgasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Prater, Hauptallee").
+restaurant("Baden Bahnhof").

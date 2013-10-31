@@ -1,25 +1,24 @@
 person(1).
-initlocation(1,"Hütteldorfer Str/Lützowgasse").
-initlocation(1,"Mayssengasse").
-initlocation(1,"Hoßplatz").
-initlocation(1,"Litfaßstraße").
-initlocation(1,"Unter St Veit, Hummelgasse").
-sequence(1,0, "Hütteldorfer Str/Lützowgasse").
+initlocation($p,"Hütteldorfer Str/Lützowgasse").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Stadlergasse").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Hütteldorfer Str/Lützowgasse").
 person(2).
-initlocation(2,"Lainz, Wolkersbergenstraße").
-initlocation(2,"Reinlgasse/Märzstraße").
-initlocation(2,"Sillerplatz").
-initlocation(2,"Niederhofstraße").
-initlocation(2,"Am Heumarkt").
-sequence(2,0, "Lainz, Wolkersbergenstraße").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Thaliastraße/Haberlgasse").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Resselgasse").
-restaurant("Unter Kritzendorf Bahnhof").
+initlocation($p,"Nordbrücke").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Scheibenbergstraße").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Nordbrücke").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Herzogenburg Stadt").
+restaurant("Eichenstraße").
+restaurant("Atzgersdorfer Straße").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Zentralfriedhof 1Tor").
 restaurant("Bauernfeldplatz").
-restaurant("Quellenplatz").
-restaurant("Herrengasse").
-restaurant("Höchstädtplatz").

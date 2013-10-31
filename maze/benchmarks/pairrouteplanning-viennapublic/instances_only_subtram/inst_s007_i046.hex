@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Burggasse-Stadthalle").
-initlocation(1,"Wittelsbachstraße").
-initlocation(1,"Schleinbach Bahnhof").
-initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
-initlocation(1,"Rennweg").
-initlocation(1,"Rochusgasse").
-initlocation(1,"Bahnsteggasse").
-sequence(1,0, "Burggasse-Stadthalle").
+initlocation($p,"Salztorbrücke").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Dornbacher Straße").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Verbindungsbahn").
+initlocation($p,"Ottakringer Str/Erdbrustgasse").
+initlocation($p,"Vorgartenstraße").
+initlocation($p,"Salztorbrücke").
 person(2).
-initlocation(2,"Viehofen Bahnhof").
-initlocation(2,"Margaretengürtel").
-initlocation(2,"Stiftgasse").
-initlocation(2,"Rennweg").
-initlocation(2,"Wexstraße").
-initlocation(2,"Taubstummengasse").
-initlocation(2,"Migerkastraße").
-sequence(2,0, "Viehofen Bahnhof").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Römergasse").
-possiblemeetinglocations("Landesgerichtsstraße").
-possiblemeetinglocations("Bernhardtstalgasse").
-possiblemeetinglocations("Oberzellergasse").
-possiblemeetinglocations("Karmeliterplatz").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-restaurant("Liebknechtgasse").
-restaurant("Baden Bahnhof").
-restaurant("Paulanergasse").
-restaurant("Blechturmgasse").
-restaurant("Koloniestraße").
-restaurant("Oberdöbling").
-restaurant("Blumental").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
+initlocation($p,"Praterstern").
+initlocation($p,"Alsegger Straße").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Unter Kritzendorf Bahnhof").
+initlocation($p,"Sommarugagasse").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Empergergasse").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Obere Donaustraße").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Wittelsbachstraße").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Gumpendorfer Straße").
+restaurant("Yppengasse").

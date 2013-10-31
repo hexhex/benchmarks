@@ -1,21 +1,20 @@
 person(1).
-initlocation(1,"Braunschweiggasse").
-initlocation(1,"Strebersdorf").
-initlocation(1,"Ottakring").
-initlocation(1,"Gramatneusiedl Bahnhof").
-sequence(1,0, "Braunschweiggasse").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Obersdorf Bahnhof").
 person(2).
-initlocation(2,"Aspernstraße").
-initlocation(2,"Krieau").
-initlocation(2,"Mistelbach Bahnhof").
-initlocation(2,"Penzing").
-sequence(2,0, "Aspernstraße").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Stubentor").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Stubentor").
 possiblemeetinglocations("Taborstraße").
-restaurant("Kardinal-Nagl-Platz".
-restaurant("Petronell-Carnuntum Bahnhof".
-restaurant("Volkstheater".
-restaurant("Krieau").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+restaurant("Strasshof Bahnhof").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Pfaffstätten Bahnhof").

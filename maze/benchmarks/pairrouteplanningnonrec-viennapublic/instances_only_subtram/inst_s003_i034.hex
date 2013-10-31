@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Riedelgasse").
-initlocation(1,"Thaliastraße").
-initlocation(1,"Aumannplatz").
-sequence(1,0, "Riedelgasse").
+initlocation($p,"Türkenschanzplatz").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Türkenschanzplatz").
 person(2).
-initlocation(2,"Pötzleinsdorf").
-initlocation(2,"Heiligenstadt").
-initlocation(2,"Aspern Nord").
-sequence(2,0, "Pötzleinsdorf").
-possiblemeetinglocations("Florianigasse").
-possiblemeetinglocations("Bahnhofstraße").
-possiblemeetinglocations("Konstanziagasse").
-restaurant("Unter St Veit, Hummelgasse").
-restaurant("Rosensteingasse").
-restaurant("Krottenbachstraße").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Grinzing").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Leobersdorf Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Rennweg").
+restaurant("Gumpendorfer Straße").
+restaurant("Silberwald Bahnhof").
+restaurant("Barawitzkagasse").

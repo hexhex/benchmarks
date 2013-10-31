@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Redtenbachergasse").
-initlocation(1,"Bisamberg Bahnhof").
-initlocation(1,"Dürrwien Bahnhof").
-initlocation(1,"Schottenfeldgasse").
-initlocation(1,"Fischamend Bahnhof").
-initlocation(1,"Rampengasse").
-initlocation(1,"Wilhelminenstraße/Wattgasse").
-initlocation(1,"Laa an der Thaya Bahnhof").
-sequence(1,0, "Redtenbachergasse").
+initlocation($p,"Gerstnerstraße/Westbhf").
+initlocation($p,"Strozzigasse").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
+initlocation($p,"Gußhausstraße").
+initlocation($p,"Tscherttegasse").
+initlocation($p,"Penzing").
+initlocation($p,"Gerstnerstraße/Westbhf").
 person(2).
-initlocation(2,"Purkersdorf Sanatorium").
-initlocation(2,"Kendlerstraße").
-initlocation(2,"Langenzersdorf Bahnhof").
-initlocation(2,"Wenzgasse").
-initlocation(2,"Hildebrandgasse").
-initlocation(2,"Strozzigasse").
-initlocation(2,"Gasometer").
-initlocation(2,"Kölblgasse").
-sequence(2,0, "Purkersdorf Sanatorium").
-possiblemeetinglocations("Skodagasse").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Lainz, Wolkersbergenstraße").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Eckpergasse").
-possiblemeetinglocations("Atzgersdorf").
-restaurant("Neulengbach Bahnhof").
-restaurant("Spillern Bahnhof").
-restaurant("Herbeckstraße").
-restaurant("Oberzellergasse").
-restaurant("Getzersdorf/Traisen Bahnhof").
-restaurant("Sieveringer Straße").
-restaurant("Neulerchenfelder Str/Haberlg").
-restaurant("Kardinal-Nagl-Platz").
+initlocation($p,"Hetzgasse").
+initlocation($p,"Pötzleinsdorf").
+initlocation($p,"Prater, Hauptallee").
+initlocation($p,"Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Unteres Belvedere").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Stollgasse").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Hetzgasse").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Baumgarten").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Hausfeldstraße").
+restaurant("Museumsquartier").
+restaurant("Aderklaaer Straße").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Unter Sankt Veit").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Aspern, Oberdorfstraße").
+restaurant("Otto-Probst-Platz").

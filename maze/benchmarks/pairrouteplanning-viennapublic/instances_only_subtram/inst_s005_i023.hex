@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Neuwaldegg").
-initlocation(1,"Neue Donau").
-initlocation(1,"St Andrä-Wördern Bahnhof").
-initlocation(1,"Zieglergasse").
-initlocation(1,"Aspern Nord").
-sequence(1,0, "Neuwaldegg").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Wattmanngasse").
+initlocation($p,"Johann-Strauß-Gasse").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Gramatneusiedl Bahnhof").
 person(2).
-initlocation(2,"Alaudagasse").
-initlocation(2,"Am Spitz").
-initlocation(2,"Höchstädtplatz").
-initlocation(2,"Weinhauser Gasse").
-initlocation(2,"Salztorbrücke").
-sequence(2,0, "Alaudagasse").
-possiblemeetinglocations("Rußbergstraße").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Geiereckstraße").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Otto-Probst-Straße").
-restaurant("Ungargasse/Neulinggasse").
-restaurant("Gellertplatz").
-restaurant("Geiereckstraße").
-restaurant("Gemeinlebarn Bahnhof").
-restaurant("Laxenburger Str/Gudrunstraße").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Laaer-Berg-Straße").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Traismauer Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+restaurant("Am Spitz").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Siemensstraße").
+restaurant("Guneschgasse").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").

@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Stollgasse").
-initlocation(1,"Saikogasse").
-initlocation(1,"Grinzinger Straße").
-initlocation(1,"Am Heumarkt").
-initlocation(1,"Ottakringer Straße/Wattgasse").
-initlocation(1,"Südtiroler Platz/Hauptbahnhof").
-sequence(1,0, "Stollgasse").
+initlocation($p,"Thaliastraße/Haberlgasse").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Börsegasse/Wipplingerstraße").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Beingasse").
+initlocation($p,"Thaliastraße/Haberlgasse").
 person(2).
-initlocation(2,"Dommayergasse").
-initlocation(2,"Johann-Strauß-Gasse").
-initlocation(2,"Quellenstraße/Knöllgasse").
-initlocation(2,"Haslau an der Donau Bahnhof").
-initlocation(2,"Forstnergasse").
-initlocation(2,"Ulrichskirchen Bahnhof").
-sequence(2,0, "Dommayergasse").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Schwarzenbergplatz").
-possiblemeetinglocations("Wallrißstraße").
-possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Gusenleithnergasse").
-restaurant("Neubaugasse/Westbahnstraße").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Praterkai").
-restaurant("Westbahnhof").
-restaurant("Sankt Marx").
-restaurant("Erzherzog-Karl-Straße").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Taborstraße").
+initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Großfeldsiedlung").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation($p,"Viehofen Bahnhof").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Absberggasse").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Neue Donau").
+restaurant("Frauengasse").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Bisamberg Bahnhof").
+restaurant("Kendlerstraße").

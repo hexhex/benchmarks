@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Franzensbrücke").
-initlocation(1,"Hütteldorf").
-initlocation(1,"Florianigasse").
-initlocation(1,"Kärntner Ring/Oper").
-initlocation(1,"Krottenbachstraße").
-initlocation(1,"Weigelsdorf Bahnhof").
-sequence(1,0, "Franzensbrücke").
+initlocation($p,"Gusenleithnergasse").
+initlocation($p,"Sieveringer Straße").
+initlocation($p,"Pötzleinsdorf").
+initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Gusenleithnergasse").
 person(2).
-initlocation(2,"Winkeläckerstraße").
-initlocation(2,"Obere Augartenstraße").
-initlocation(2,"Wienerfeldgasse").
-initlocation(2,"Guntherstraße").
-initlocation(2,"Wexstraße").
-initlocation(2,"Alfred-Adler-Straße").
-sequence(2,0, "Winkeläckerstraße").
-possiblemeetinglocations("Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Dornbacher Straße").
-possiblemeetinglocations("Lange Gasse").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Rathausplatz/Burgtheater").
-restaurant("Nußdorfer Straße").
-restaurant("Obere Donaustraße").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Keplerplatz").
-restaurant("Zieglergasse/Westbahnstraße").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Gewerbepark Stadlau Mitte").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Gutraterplatz").
+initlocation($p,"Staglgasse").
+initlocation($p,"Hütteldorf").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Wittelsbachstraße").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Althanstraße").
+restaurant("Michelbeuern-AKH").
+restaurant("Pötzleinsdorf").
+restaurant("Silberwald Bahnhof").
+restaurant("Sonnergasse").
+restaurant("Scheibenbergstraße").
+restaurant("Trautmannsdorf/Leitha Bf").

@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Gumpoldskirchen Bahnhof").
-initlocation(1,"Braunschweiggasse").
-initlocation(1,"Penzing").
-sequence(1,0, "Gumpoldskirchen Bahnhof").
+initlocation($p,"Donauinsel").
+initlocation($p,"Hausleiten Bahnhof").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Donauinsel").
 person(2).
-initlocation(2,"Tulln Stadt Bahnhof").
-initlocation(2,"Bisamberg Bahnhof").
-initlocation(2,"Traisengasse").
-sequence(2,0, "Tulln Stadt Bahnhof").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Schlachthausgasse").
-restaurant("Hadersdorf Bahnhof".
-restaurant("Aspern Nord".
-restaurant("Hietzing").
+initlocation($p,"Penzing").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation($p,"Penzing").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Geiselbergstraße").
+restaurant("Krottenbachstraße").
+restaurant("Herrengasse").
+restaurant("Herzogenburg Bahnhof").

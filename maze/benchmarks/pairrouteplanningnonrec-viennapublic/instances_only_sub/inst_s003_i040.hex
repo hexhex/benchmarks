@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Tulln Stadt Bahnhof").
-initlocation(1,"Purkersdorf Zentrum Bahnhof").
-initlocation(1,"Strasshof Bahnhof").
-sequence(1,0, "Tulln Stadt Bahnhof").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Kagran").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Rennbahnweg").
 person(2).
-initlocation(2,"Staatz Bahnhof").
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Schönborn Bahnhof").
-sequence(2,0, "Staatz Bahnhof").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-restaurant("Roßauer Lände".
-restaurant("Purkersdorf Sanatorium".
-restaurant("Hausfeldstraße").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Grillgasse").
+restaurant("Aspern Nord").
+restaurant("Krottenbachstraße").
+restaurant("Sollenau Bahnhof").

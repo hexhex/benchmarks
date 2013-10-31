@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Leopoldau").
-initlocation(1,"Nußdorf").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Untertullnerbach Bahnhof").
-initlocation(1,"Hadersdorf Bahnhof").
-sequence(1,0, "Leopoldau").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Kaiserebersdorf").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Schweglerstraße").
 person(2).
-initlocation(2,"Sitzenberg-Reidling Bahnhof").
-initlocation(2,"Johnstraße").
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Niederkreuzstetten Bahnhof").
-initlocation(2,"Helmahof Bahnhof").
-sequence(2,0, "Sitzenberg-Reidling Bahnhof").
+initlocation($p,"Himberg Bahnhof").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Himberg Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Rathaus").
 possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Blumental").
-restaurant("Wampersdorf Bahnhof".
-restaurant("Eichgraben-Altlengbach Bahnhof".
-restaurant("Franz-Josefs-Bahnhof".
-restaurant("Wr Neustadt Nord".
-restaurant("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Donauspital").
+restaurant("Siebenhirten (NÖ). Haltestelle").
+restaurant("Schweglerstraße").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Hernals").

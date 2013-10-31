@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Kagran").
-sequence(1,0, "Kagran").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Geiselbergstraße").
 person(2).
-initlocation(2,"Pressbaum Bahnhof").
-sequence(2,0, "Pressbaum Bahnhof").
-possiblemeetinglocations("Gumpendorfer Straße").
-restaurant("Kottingbrunn Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+restaurant("Großfeldsiedlung").

@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Kraygasse").
-initlocation(1,"Floridsdorfer Brücke").
-initlocation(1,"Höbersdorf Bahnhof").
-sequence(1,0, "Kraygasse").
+initlocation($p,"Quellenplatz").
+initlocation($p,"Lobau").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Quellenplatz").
 person(2).
-initlocation(2,"Langenlebarn Bahnhof").
-initlocation(2,"Michelhausen Bahnhof").
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-sequence(2,0, "Langenlebarn Bahnhof").
-possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-restaurant("Rennbahnweg").
-restaurant("Eckpergasse").
-restaurant("Spittelau").
+initlocation($p,"Frauengasse").
+initlocation($p,"Diesterweggasse").
+initlocation($p,"Wallensteinplatz").
+initlocation($p,"Frauengasse").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Baumgarten").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+restaurant("Halteraugasse").
+restaurant("Viehmarktgasse").
+restaurant("Muckendorf-Wipfing Bahnhof").

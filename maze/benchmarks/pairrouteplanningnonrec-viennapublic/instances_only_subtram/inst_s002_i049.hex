@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Schöffelgasse").
-initlocation(1,"Schloss Schönbrunn").
-sequence(1,0, "Schöffelgasse").
+initlocation($p,"Fickeysstraße").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Fickeysstraße").
 person(2).
-initlocation(2,"Rochusgasse").
-initlocation(2,"Ottakring").
-sequence(2,0, "Rochusgasse").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Frödenplatz").
-restaurant("Rennweg").
-restaurant("Schwechat Bahnhof").
+initlocation($p,"Stadtpark").
+initlocation($p,"Laurenzgasse").
+initlocation($p,"Stadtpark").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+restaurant("Simonygasse").
+restaurant("Ebenfurth Bahnhof").

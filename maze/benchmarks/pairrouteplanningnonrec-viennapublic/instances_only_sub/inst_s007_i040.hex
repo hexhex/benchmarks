@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Längenfeldgasse").
-initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(1,"Neubau-Kreuzstetten Bahnhof").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Wolfsthal Bahnhof").
-initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
-initlocation(1,"Frättingsdorf Bahnhof").
-sequence(1,0, "Längenfeldgasse").
+initlocation($p,"Herzogenburg Bahnhof").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Rennweg").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Herzogenburg Bahnhof").
 person(2).
-initlocation(2,"Unter Sankt Veit").
-initlocation(2,"Bahnhof Meidling").
-initlocation(2,"Langenlebarn Bahnhof").
-initlocation(2,"Ottakring").
-initlocation(2,"Hütteldorf").
-initlocation(2,"Längenfeldgasse").
-initlocation(2,"Siebenhirten (NÖ).
-Haltestelle").
-sequence(2,0, "Unter Sankt Veit").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-restaurant("Getzersdorf/Traisen Bahnhof".
-restaurant("Rathaus".
-restaurant("Schlachthausgasse".
-restaurant("Baden Bahnhof".
-restaurant("Tulln Stadt Bahnhof".
-restaurant("Viehofen Bahnhof".
-restaurant("Hennersdorf Bahnhof").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Kaiserebersdorf").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Breitensee").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Korneuburg Bahnhof").
+restaurant("Donauinsel").
+restaurant("Margaretengürtel").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Museumsquartier").

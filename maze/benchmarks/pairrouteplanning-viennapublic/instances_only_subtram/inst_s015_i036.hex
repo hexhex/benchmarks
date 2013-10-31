@@ -1,65 +1,64 @@
 person(1).
-initlocation(1,"Zentralfriedhof 4Tor").
-initlocation(1,"Arminenstraße").
-initlocation(1,"Himberg Bahnhof").
-initlocation(1,"Molitorgasse").
-initlocation(1,"Kutschkergasse").
-initlocation(1,"Lederergasse").
-initlocation(1,"Hütteldorf, Bujattigasse").
-initlocation(1,"Florianigasse").
-initlocation(1,"Linzer Straße/Johnstraße").
-initlocation(1,"Prinzgasse").
-initlocation(1,"Karlsplatz").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Edmund-Hawranek-Platz").
-initlocation(1,"Kaiserstraße/Westbahnstraße").
-initlocation(1,"Taborstraße").
-sequence(1,0, "Zentralfriedhof 4Tor").
+initlocation($p,"Erndtgasse").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Knöllgasse/Davidgasse").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Pötzleinsdorf").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Zentralfriedhof 4Tor").
+initlocation($p,"Schuhmeierplatz").
+initlocation($p,"Praterkai").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Brigittaplatz").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"An den langen Lüssen").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Erndtgasse").
 person(2).
-initlocation(2,"Breitenfurter Str/Liesingbr").
-initlocation(2,"Paradisgasse").
-initlocation(2,"Oberdöbling").
-initlocation(2,"Guntherstraße").
-initlocation(2,"Erdberg").
-initlocation(2,"Schloss Hetzendorf").
-initlocation(2,"Süßenbrunn").
-initlocation(2,"Tulln Bahnhof").
-initlocation(2,"Münchendorf Bahnhof").
-initlocation(2,"Burgring").
-initlocation(2,"Wolkersdorf Bahnhof").
-initlocation(2,"Thaliastraße/Maroltingergasse").
-initlocation(2,"Aumannplatz").
-initlocation(2,"Hütteldorfer Straße").
-initlocation(2,"Wildgansplatz").
-sequence(2,0, "Breitenfurter Str/Liesingbr").
-possiblemeetinglocations("Prinzgasse").
-possiblemeetinglocations("Svetelskystraße").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Josef-Baumann-Gasse").
-possiblemeetinglocations("Rosenhügelstraße").
-possiblemeetinglocations("Brünner Straße/Hanreitergasse").
-possiblemeetinglocations("Friedrich-Engels-Platz").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Versorgungsheimplatz").
-possiblemeetinglocations("Langobardenstraße/Kapellenweg").
-possiblemeetinglocations("Dommayergasse").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Stockerau Bahnhof").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Laxenburger Str/Gudrunstraße").
+initlocation($p,"Liebknechtgasse").
+initlocation($p,"Auerspergstraße").
+initlocation($p,"An den langen Lüssen").
+initlocation($p,"Linzer Straße/Hochsatzengasse").
+initlocation($p,"Blumengasse").
+initlocation($p,"Hardeggasse").
+initlocation($p,"Weißenböckstraße").
+initlocation($p,"Aßmayergasse").
+initlocation($p,"Hubertusdamm").
+initlocation($p,"Neue Donau").
+initlocation($p,"Paradisgasse").
+initlocation($p,"Traisengasse").
+initlocation($p,"Troststraße/Neilreichgasse").
+initlocation($p,"Tulln Bahnhof").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Hohe Warte").
+restaurant("Silberwald Bahnhof").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Siebenhirten").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Staglgasse").
+restaurant("Rodaun").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Empergergasse").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Bahnsteggasse").
 restaurant("Teichgasse").
-restaurant("Geiereckstraße").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Höchstädtplatz").
-restaurant("Rennbahnweg").
-restaurant("Neuwaldegg").
-restaurant("Siebensterngasse").
-restaurant("Am Spitz").
-restaurant("Fultonstraße").
-restaurant("Lange Gasse").
-restaurant("Rathaus").
-restaurant("Süßenbrunner Str/Oberfeldgasse").
-restaurant("Linzer Straße/Hochsatzengasse").
-restaurant("Unter St Veit, Hummelgasse").
-restaurant("Oberolberndorf Bahnhof").
+restaurant("Gaußplatz").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Vinzenzgasse").

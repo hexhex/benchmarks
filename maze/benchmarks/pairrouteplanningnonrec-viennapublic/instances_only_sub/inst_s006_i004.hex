@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Zippererstraße").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Neue Donau").
-initlocation(1,"Untereggendorf Bahnhof").
-initlocation(1,"Gramatneusiedl Bahnhof").
-initlocation(1,"Sitzenberg-Reidling Bahnhof").
-sequence(1,0, "Zippererstraße").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Neulengbach Bahnhof").
+initlocation($p,"Westbahnhof").
 person(2).
-initlocation(2,"Handelskai").
-initlocation(2,"Obersdorf Bahnhof").
-initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(2,"Alterlaa").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Alser Straße").
-sequence(2,0, "Handelskai").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Siemensstraße").
-restaurant("Atzenbrugg Bahnhof".
-restaurant("Purkersdorf Sanatorium".
-restaurant("Wilfleinsdorf Bahnhof".
-restaurant("Kaiserebersdorf".
-restaurant("Bisamberg Bahnhof".
-restaurant("Bad Vöslau Bahnhof").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Platt Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Dürrwien Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Heiligenstadt").
+restaurant("Aspern Nord").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Schönborn Bahnhof").

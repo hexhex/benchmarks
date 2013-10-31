@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Marxergasse").
-initlocation(1,"Pfaffstätten Bahnhof").
-initlocation(1,"Jedlersdorf").
-initlocation(1,"Fultonstraße").
-initlocation(1,"Donauzentrum").
-initlocation(1,"Matthäus-Jiszda-Straße").
-sequence(1,0, "Marxergasse").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Van-Swieten-Kaserne").
+initlocation($p,"Skodagasse").
+initlocation($p,"Wildungsmauer Bahnhof").
 person(2).
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Stiftgasse").
-initlocation(2,"Kaiserstraße").
-initlocation(2,"Brünner Straße").
-initlocation(2,"Westbahnhof").
-initlocation(2,"Keplerplatz").
-sequence(2,0, "Hautzendorf Bahnhof").
-possiblemeetinglocations("Hetzgasse").
-possiblemeetinglocations("Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Trondheimgasse").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Grillgasse").
-restaurant("Haslau an der Donau Bahnhof").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Knöllgasse/Davidgasse").
-restaurant("Obersdorf Bahnhof").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Anton-Schall-Gasse").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Praterstern").
+initlocation($p,"Krieau").
+initlocation($p,"Florianigasse").
+initlocation($p,"Thaliastraße/Maroltingergasse").
+initlocation($p,"Martinstraße").
+initlocation($p,"Spillern Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Stockholmer Platz").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Am Heumarkt").
+restaurant("Wittelsbachstraße").
+restaurant("Neubaugasse").
+restaurant("Baumgarten").

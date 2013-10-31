@@ -1,61 +1,60 @@
 person(1).
-initlocation(1,"Höflein an der Donau Bahnhof").
-initlocation(1,"Laxenburger Straße/Troststraße").
-initlocation(1,"Brünner Straße/Hanreitergasse").
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Aspern Nord").
-initlocation(1,"Unter Kritzendorf Bahnhof").
-initlocation(1,"Matzleinsdorfer Platz").
-initlocation(1,"Reumannplatz").
-initlocation(1,"Wittelsbachstraße").
-initlocation(1,"Vinzenzgasse").
-initlocation(1,"Römergasse").
-initlocation(1,"Mayssengasse").
-initlocation(1,"Hainburg/Donau Ungartor/B9").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-sequence(1,0, "Höflein an der Donau Bahnhof").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Schmerlingplatz").
+initlocation($p,"Wolf in der Au").
+initlocation($p,"Eckpergasse").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Rosenhügelstraße").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Polkorabplatz").
+initlocation($p,"Obere Donaustraße").
+initlocation($p,"Julius-Raab-Platz").
+initlocation($p,"Laaer-Berg-Straße").
+initlocation($p,"Stadlergasse").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Zentralfriedhof 3Tor").
 person(2).
-initlocation(2,"Bad Vöslau Bahnhof").
-initlocation(2,"Krieau").
-initlocation(2,"Friedrich-Engels-Platz").
-initlocation(2,"Unteres Belvedere").
-initlocation(2,"Marienbrücke").
-initlocation(2,"Römergasse").
-initlocation(2,"Gaußplatz").
-initlocation(2,"Kleistgasse").
-initlocation(2,"Weinheimergasse").
-initlocation(2,"Wattmanngasse").
-initlocation(2,"Kagraner Platz").
-initlocation(2,"Ottakringer Straße/Wattgasse").
-initlocation(2,"Penzing").
-initlocation(2,"Gusenleithnergasse").
-sequence(2,0, "Bad Vöslau Bahnhof").
-possiblemeetinglocations("Breitenfurter Str/Liesingbr").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Rathausplatz/Burgtheater").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Forstnergasse").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Carminweg").
-restaurant("Schwarzenbergplatz").
-restaurant("Guneschgasse").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Messe-Prater").
-restaurant("Weidlingau Bahnhof").
-restaurant("Liesing").
-restaurant("Schottenring").
-restaurant("Lobau").
-restaurant("Börsegasse/Wipplingerstraße").
-restaurant("Gersthof").
-restaurant("Obere Donaustraße").
-restaurant("Prater, Hauptallee").
-restaurant("Zellerndorf Bahnhof").
+initlocation($p,"Mayerhofgasse").
+initlocation($p,"Neuwaldegg").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Rothneusiedl").
+initlocation($p,"Huglgasse").
+initlocation($p,"Schottenring").
+initlocation($p,"Innstraße").
+initlocation($p,"Knöllgasse/Davidgasse").
+initlocation($p,"Gunoldstraße").
+initlocation($p,"Nordbahnstraße").
+initlocation($p,"Achau Bahnhof").
+initlocation($p,"Prater, Hauptallee").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Laudongasse").
+initlocation($p,"Mayerhofgasse").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Valiergasse").
+possiblemeetinglocations("Baumgarten").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Jagdschloßgasse").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Wienerbergbrücke").
+restaurant("Schloss Belvedere").
+restaurant("Bauernfeldplatz").
+restaurant("Quartier Belvedere").
+restaurant("Am Heumarkt").
+restaurant("Traismauer Bahnhof").
+restaurant("Satzberggasse").
+restaurant("Floridsdorfer Markt").
+restaurant("Linzer Straße/Lützowgasse").
+restaurant("Matthäus-Jiszda-Straße").
 restaurant("Petronell-Carnuntum Bahnhof").

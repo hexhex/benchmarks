@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Alte Donau").
-initlocation(1,"Blumengasse").
-initlocation(1,"Hardtgasse").
-initlocation(1,"Gersthof").
-sequence(1,0, "Alte Donau").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Paradisgasse").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Gramatneusiedl Bahnhof").
 person(2).
-initlocation(2,"Niederkreuzstetten Bahnhof").
-initlocation(2,"Rochusgasse").
-initlocation(2,"Oberfeldgasse/Spargelfeldstr").
-initlocation(2,"Am Schöpfwerk").
-sequence(2,0, "Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Floridsdorfer Markt").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Zentralfriedhof 3Tor").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-restaurant("Polgarstraße").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Alsegger Straße").
-restaurant("Unter Kritzendorf Bahnhof").
+initlocation($p,"Elterleinplatz").
+initlocation($p,"Koloniestraße").
+initlocation($p,"Litfaßstraße").
+initlocation($p,"Salztorbrücke").
+initlocation($p,"Elterleinplatz").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Oberdöbling").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Stadion").
+restaurant("Krieau").
+restaurant("Frödenplatz").

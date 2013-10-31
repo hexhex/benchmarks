@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Gerstnerstraße/Westbhf").
-initlocation(1,"Maurer Lange Gasse").
-sequence(1,0, "Gerstnerstraße/Westbhf").
+initlocation($p,"Julius-Raab-Platz").
+initlocation($p,"Löwengasse").
+initlocation($p,"Julius-Raab-Platz").
 person(2).
-initlocation(2,"Braunhubergasse").
-initlocation(2,"Maria Ellend Bahnhof").
-sequence(2,0, "Braunhubergasse").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Rosensteingasse").
-restaurant("Schweglerstraße").
-restaurant("Stadtpark").
+initlocation($p,"Quellenstraße/Knöllgasse").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Floridsdorfer Markt").
+restaurant("Lederergasse").
+restaurant("Hirschstetten").

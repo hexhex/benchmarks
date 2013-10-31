@@ -1,57 +1,56 @@
 person(1).
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Neulengbach Bahnhof").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Tscherttegasse").
-initlocation(1,"Am Spitz").
-initlocation(1,"Hermesstraße").
-initlocation(1,"Aßmayergasse").
-initlocation(1,"Gersthofer Str/Scheibenbergstr").
-initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
-initlocation(1,"Kutschkergasse").
-initlocation(1,"Guntramsdorf-Thallern").
-initlocation(1,"Kagran").
-initlocation(1,"Perntergasse").
-sequence(1,0, "Flughafen Wien (VIE).
+initlocation($p,"Nußdorf").
+initlocation($p,"Seestadt").
+initlocation($p,"Stefan-Fadinger-Platz").
+initlocation($p,"Atzgersdorfer Straße").
+initlocation($p,"Ottakring").
+initlocation($p,"Resselgasse").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Bahnsteggasse").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Teichgasse").
+initlocation($p,"Silbergasse").
+initlocation($p,"Herrengasse").
+initlocation($p,"Nußdorf").
 person(2).
-initlocation(2,"Schönbrunn").
-initlocation(2,"Schuhmeierplatz").
-initlocation(2,"Aßmayergasse").
-initlocation(2,"Yppengasse").
-initlocation(2,"Johnstraße").
-initlocation(2,"Nordwestbahnstraße").
-initlocation(2,"Bisamberg Bahnhof").
-initlocation(2,"Atzgersdorf").
-initlocation(2,"Fasangasse").
-initlocation(2,"Zentralfriedhof").
-initlocation(2,"Weinheimergasse").
-initlocation(2,"Geiselbergstraße").
-initlocation(2,"Simmering").
-sequence(2,0, "Schönbrunn").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Schöffelgasse").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Ameisgasse").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Palffygasse").
-possiblemeetinglocations("Windtenstraße").
-restaurant("Margaretengürtel/Arbeitergasse").
-restaurant("Guneschgasse").
-restaurant("Hildebrandgasse").
-restaurant("Camillo-Sitte-Gasse").
-restaurant("Schweglerstraße").
-restaurant("Winckelmannstraße").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Oberfeldgasse/Spargelfeldstr").
-restaurant("Sahulkastraße").
-restaurant("Beingasse").
-restaurant("Gumpendorfer Straße").
-restaurant("Viehofen Bahnhof").
-restaurant("Kagran").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Rebhanngasse").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Gußhausstraße").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Weinheimergasse").
+initlocation($p,"Thaliastraße/Brunnengasse").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Kledering Bahnhof").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Bad Vöslau Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Otto-Probst-Platz").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Koloniestraße").
+restaurant("Messe-Prater").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("Mistelbach Stadt").
+restaurant("Geiselbergstraße").
+restaurant("Nußdorfer Str/Alserbachstraße").
+restaurant("Wallensteinplatz").
+restaurant("Zentralfriedhof 3Tor").
+restaurant("Hirschstetten").
+restaurant("Schwarzspanierstraße").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Radetzkyplatz").
+restaurant("Diesterweggasse").
+restaurant("Plößlgasse").

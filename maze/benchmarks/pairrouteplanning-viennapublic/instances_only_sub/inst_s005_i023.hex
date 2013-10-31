@@ -1,25 +1,24 @@
 person(1).
-initlocation(1,"Neue Donau").
-initlocation(1,"Brünner Straße").
-initlocation(1,"Erdberg").
-initlocation(1,"Herrengasse").
-initlocation(1,"Pressbaum Bahnhof").
-sequence(1,0, "Neue Donau").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation($p,"Stadlau").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Obereggendorf Bahnhof").
 person(2).
-initlocation(2,"Absdorf-Hippersdorf Bahnhof").
-initlocation(2,"Kettenbrückengasse").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Frättingsdorf Bahnhof").
-initlocation(2,"Hernals").
-sequence(2,0, "Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Krieau").
-restaurant("Stubentor".
-restaurant("Meidling Hauptstraße".
-restaurant("Ober Sankt Veit".
-restaurant("Unterradlberg Bahnhof".
-restaurant("Hausleiten Bahnhof").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Traismauer Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Stadlau").
+restaurant("Museumsquartier").
+restaurant("Hernals").
+restaurant("Stubentor").
+restaurant("Neubaugasse").
+restaurant("Viehofen Bahnhof").

@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Gumpendorfer Straße").
-initlocation(1,"Hetzendorf").
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Margaretengürtel").
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Johnstraße").
-initlocation(1,"Burgring").
-sequence(1,0, "Gumpendorfer Straße").
+initlocation($p,"Guntherstraße").
+initlocation($p,"Geiereckstraße").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Ameisgasse").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Gottschalkgasse/Enkplatz").
+initlocation($p,"Guntherstraße").
 person(2).
-initlocation(2,"Wilfleinsdorf Bahnhof").
-initlocation(2,"Viehofen Bahnhof").
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-initlocation(2,"Eichenstraße").
-initlocation(2,"Bahnhofstraße").
-initlocation(2,"Rußbergstraße").
-initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
-sequence(2,0, "Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Quellenplatz").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Laurentiusplatz").
-possiblemeetinglocations("Prinzgasse").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Yppengasse").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Erdberg").
-restaurant("Stockholmer Platz").
-restaurant("Koloniestraße").
-restaurant("Wolf in der Au").
-restaurant("Columbusplatz").
-restaurant("Herzogenburg Bahnhof").
+initlocation($p,"Bernhardtstalgasse").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Frödenplatz").
+initlocation($p,"Bernhardtstalgasse").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Am Tabor").
+restaurant("Rennbahnweg").
+restaurant("Siebenhirten").
+restaurant("Kagran").
+restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Rauscherstraße").
+restaurant("Svetelskystraße").
+restaurant("Weigelsdorf Bahnhof").

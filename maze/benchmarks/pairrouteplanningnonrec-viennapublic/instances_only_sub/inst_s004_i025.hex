@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Klosterneuburg-Kierling Bf").
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Hennersdorf Bahnhof").
-initlocation(1,"Fischamend Bahnhof").
-sequence(1,0, "Klosterneuburg-Kierling Bf").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Retz Bahnhof").
 person(2).
-initlocation(2,"Kagraner Platz").
-initlocation(2,"Retz Bahnhof").
-initlocation(2,"Am Schöpfwerk").
-initlocation(2,"Rochusgasse").
-sequence(2,0, "Kagraner Platz").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-restaurant("Mistelbach Stadt".
-restaurant("Erdberg".
-restaurant("Hausleiten Bahnhof".
-restaurant("Stubentor").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Tullnerfeld Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+restaurant("Gersthof").
+restaurant("Schlachthausgasse").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Pfaffstätten Bahnhof").

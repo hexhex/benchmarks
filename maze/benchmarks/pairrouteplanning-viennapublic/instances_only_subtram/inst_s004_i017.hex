@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Burggasse-Stadthalle").
-initlocation(1,"Höflein an der Donau Bahnhof").
-initlocation(1,"Landstraße-Wien Mitte").
-initlocation(1,"Hildebrandgasse").
-sequence(1,0, "Burggasse-Stadthalle").
+initlocation($p,"Kranzgasse").
+initlocation($p,"Raxstraße/Rudolfshügelgasse").
+initlocation($p,"Gottschalkgasse/Enkplatz").
+initlocation($p,"Stubentor").
+initlocation($p,"Kranzgasse").
 person(2).
-initlocation(2,"Auerspergstraße").
-initlocation(2,"Altes Landgut").
-initlocation(2,"Taborstraße/Heinestraße").
-initlocation(2,"Gatterburggasse").
-sequence(2,0, "Auerspergstraße").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-restaurant("Stadiongasse/Parlament").
-restaurant("Weinhauser Gasse").
-restaurant("Eichenstraße").
-restaurant("Frödenplatz").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Weinhauser Gasse").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Regelsbrunn Bahnhof").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Aumannplatz").
+restaurant("Süßenbrunn").
+restaurant("Türkenschanzplatz").
+restaurant("Aderklaaer Straße").
+restaurant("Dürrwien Bahnhof").

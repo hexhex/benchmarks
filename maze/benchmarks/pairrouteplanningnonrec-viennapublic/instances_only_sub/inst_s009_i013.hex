@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Thaliastraße").
-initlocation(1,"Weidlingau Bahnhof").
-initlocation(1,"Spillern Bahnhof").
-initlocation(1,"Trasdorf Bahnhof").
-initlocation(1,"Erlaaer Straße").
-initlocation(1,"Dresdner Straße").
-initlocation(1,"Traisengasse").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Hennersdorf Bahnhof").
-sequence(1,0, "Thaliastraße").
+initlocation($p,"Hernals").
+initlocation($p,"Nußdorf").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Michelbeuern-AKH").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Hernals").
 person(2).
-initlocation(2,"Platt Bahnhof").
-initlocation(2,"Gänserndorf Bahnhof").
-initlocation(2,"Erdberg").
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Ebreichsdorf Bahnhof").
-initlocation(2,"Rekawinkel Bahnhof").
-initlocation(2,"Kagran").
-initlocation(2,"Bahnhof Meidling").
-initlocation(2,"Museumsquartier").
-sequence(2,0, "Platt Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Paasdorf Bahnhof").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Wolf in der Au").
 possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-restaurant("Mannswörth Bahnhof".
-restaurant("Praterkai".
-restaurant("Alterlaa".
-restaurant("Obereggendorf Bahnhof".
-restaurant("Petronell-Carnuntum Bahnhof".
-restaurant("Wolf in der Au".
-restaurant("Donauspital".
-restaurant("Messe-Prater".
-restaurant("Handelskai").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Perfektastraße").
+restaurant("Aspern Nord").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Süßenbrunn").
+restaurant("Nestroyplatz").
+restaurant("Leopoldau").

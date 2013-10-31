@@ -1,40 +1,40 @@
 person(1).
-initlocation(1,"Fasangasse").
-initlocation(1,"An den langen Lüssen").
-initlocation(1,"Glatzgasse").
-initlocation(1,"Erzherzog-Karl-Straße").
-initlocation(1,"Maria Anzbach Bahnhof").
-initlocation(1,"Brünner Straße/Hanreitergasse").
-initlocation(1,"Tullnerfeld Bahnhof").
-initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(1,"Frauengasse").
-sequence(1,0, "Fasangasse").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Rathaus").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Rosensteingasse").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Quartier Belvedere").
+initlocation($p,"Frauengasse").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Zieglergasse").
 person(2).
-initlocation(2,"Parndorf Ort Bahnhof").
-initlocation(2,"Molitorgasse").
-initlocation(2,"Laxenburger Straße/Troststraße").
-initlocation(2,"Kettenbrückengasse").
-initlocation(2,"Seestadt").
-initlocation(2,"Schwarzenbergplatz").
-initlocation(2,"Leobersdorf Bahnhof").
-initlocation(2,"Weigelsdorf Bahnhof").
-initlocation(2,"Schottenfeldgasse").
-sequence(2,0, "Parndorf Ort Bahnhof").
-possiblemeetinglocations("Dommayergasse").
-possiblemeetinglocations("Breitenfurter Str/Liesingbr").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Beingasse").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Obere Donaustraße").
-restaurant("Donauinsel").
-restaurant("Brünnlbadgasse").
-restaurant("Lange Gasse").
-restaurant("Gerhardusgasse").
-restaurant("Zeiselmauer-Königstetten Bf").
-restaurant("Am Spitz").
-restaurant("Gottschalkgasse/Enkplatz").
-restaurant("Eckpergasse").
-restaurant("Schloss Hetzendorf").
+initlocation($p,"Marienbrücke").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Valiergasse").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Gewerbepark Stadlau Mitte").
+initlocation($p,"Baumgarten").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Stadion").
+initlocation($p,"Marienbrücke").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Florianigasse").
+restaurant("Glatzgasse").
+restaurant("Baden Bahnhof").
+restaurant("Roßauer Lände").
+restaurant("Stollgasse").
+restaurant("Winckelmannstraße").
+restaurant("Winkeläckerstraße").
+restaurant("Fichtnergasse").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Hollabrunn Bahnhof").

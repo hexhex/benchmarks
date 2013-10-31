@@ -1,13 +1,12 @@
 person(1).
-initlocation(1,"Rathaus").
-initlocation(1,"Sarasdorf Bahnhof").
-sequence(1,0, "Rathaus").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Parndorf Ort Bahnhof").
 person(2).
-initlocation(2,"Frättingsdorf Bahnhof").
-initlocation(2,"St Pölten Hauptbahnhof").
-sequence(2,0, "Frättingsdorf Bahnhof").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-restaurant("Atzenbrugg Bahnhof".
-restaurant("Lobau").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Hietzing").
+restaurant("Burggasse-Stadthalle").
+restaurant("Pressbaum Bahnhof").

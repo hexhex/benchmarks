@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Volkstheater").
-initlocation(1,"Neulengbach Stadt Bahnhof").
-sequence(1,0, "Volkstheater").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Sollenau Bahnhof").
 person(2).
-initlocation(2,"Deutsch-Wagram Bahnhof").
-initlocation(2,"Jägerstraße").
-sequence(2,0, "Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Braunschweiggasse").
-restaurant("Sierndorf Bahnhof".
-restaurant("Paasdorf Bahnhof").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Neubau-Kreuzstetten Bahnhof").

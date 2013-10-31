@@ -1,37 +1,36 @@
 person(1).
-initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation(1,"Baden Bahnhof").
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Seyring Bahnhof").
-initlocation(1,"Hautzendorf Bahnhof").
-initlocation(1,"Rekawinkel Bahnhof").
-initlocation(1,"Paasdorf Bahnhof").
-initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
-sequence(1,0, "Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Wr Neustadt Nord").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Wr Neustadt Nord").
 person(2).
-initlocation(2,"Erzherzog-Karl-Straße").
-initlocation(2,"Lobau").
-initlocation(2,"Längenfeldgasse").
-initlocation(2,"Spillern Bahnhof").
-initlocation(2,"Dürrwien Bahnhof").
-initlocation(2,"Michelbeuern-AKH").
-initlocation(2,"Unteroberndorf Bahnhof").
-initlocation(2,"Bisamberg Bahnhof").
-sequence(2,0, "Erzherzog-Karl-Straße").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-restaurant("Nestroyplatz".
-restaurant("Rekawinkel Bahnhof".
-restaurant("Unter Kritzendorf Bahnhof".
-restaurant("Siebenhirten (NÖ.
-Haltestelle".
-restaurant("Niederhofstraße".
-restaurant("Zellerndorf Bahnhof".
-restaurant("Kardinal-Nagl-Platz".
-restaurant("Achau Bahnhof").
+initlocation($p,"Roßauer Lände").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Rennweg").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Roßauer Lände").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Ottakring").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Stadlau").
+restaurant("Zieglergasse").
+restaurant("Landstraße-Wien Mitte").

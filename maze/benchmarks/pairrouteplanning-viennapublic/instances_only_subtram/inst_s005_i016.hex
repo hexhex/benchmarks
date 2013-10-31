@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Bahnhof Meidling").
-initlocation(1,"Krottenbachstraße").
-initlocation(1,"Höbersdorf Bahnhof").
-initlocation(1,"Paasdorf Bahnhof").
-initlocation(1,"Atzgersdorf").
-sequence(1,0, "Bahnhof Meidling").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Prater, Hauptallee").
+initlocation($p,"Aumannplatz").
+initlocation($p,"Quellenstraße/Favoritenstraße").
+initlocation($p,"Raxstraße/Rudolfshügelgasse").
+initlocation($p,"Währinger Straße-Volksoper").
 person(2).
-initlocation(2,"Trondheimgasse").
-initlocation(2,"Ober Sankt Veit").
-initlocation(2,"Prater, Hauptallee").
-initlocation(2,"Siebenhirten").
-initlocation(2,"Absberggasse").
-sequence(2,0, "Trondheimgasse").
-possiblemeetinglocations("Windtenstraße").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-restaurant("Bisamberg Bahnhof").
-restaurant("Obere Augartenstraße").
-restaurant("Bernhardtstalgasse").
-restaurant("Lerchenfelder Straße").
-restaurant("Resselgasse").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Blechturmgasse").
+initlocation($p,"Aspern Nord").
+initlocation($p,"Wienerbergbrücke").
+initlocation($p,"Carabelligasse").
+initlocation($p,"Nestroyplatz").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Alser Straße").
+restaurant("Atzgersdorf").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Schuhmeierplatz").
+restaurant("Kaiserstraße/Neustiftgasse").

@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Bad Vöslau Bahnhof").
-initlocation(1,"Blumental").
-initlocation(1,"Prater, Hauptallee").
-initlocation(1,"Unteres Belvedere").
-initlocation(1,"Oberdöbling").
-initlocation(1,"Hermesstraße").
-initlocation(1,"Seegasse").
-initlocation(1,"Spitalgasse/Währinger Straße").
-sequence(1,0, "Bad Vöslau Bahnhof").
+initlocation($p,"Großjedlersdorf").
+initlocation($p,"Wilhelminenstr/Sandleitengasse").
+initlocation($p,"Alser Straße").
+initlocation($p,"Riedelgasse").
+initlocation($p,"Satzberggasse").
+initlocation($p,"Laxenburger Straße/Troststraße").
+initlocation($p,"Heiligenstadt, 12-Februar-Pl").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Großjedlersdorf").
 person(2).
-initlocation(2,"Erdberg").
-initlocation(2,"Seegasse").
-initlocation(2,"Breitensee").
-initlocation(2,"Götzendorf Bahnhof").
-initlocation(2,"Wr Neustadt Hauptbahnhof").
-initlocation(2,"Hoßplatz").
-initlocation(2,"Alfred-Adler-Straße").
-initlocation(2,"Lobau").
-sequence(2,0, "Erdberg").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Grinzinger Straße").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Sonnergasse").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-restaurant("Traismauer Bahnhof").
-restaurant("Nordwestbahnstraße").
-restaurant("Volkstheater").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Großfeldsiedlung").
-restaurant("Obere Augartenstraße").
-restaurant("Zeiselmauer-Königstetten Bf").
-restaurant("Edmund-Hawranek-Platz").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Salztorbrücke").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Meidling Hauptstraße").
+initlocation($p,"Staglgasse").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Wolf in der Au").
+initlocation($p,"Anschützgasse").
+initlocation($p,"Höbersdorf Bahnhof").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Oberlaa, Therme Wien").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+restaurant("Ottakring").
+restaurant("Atzgersdorf").
+restaurant("Schuhmeierplatz").
+restaurant("Wienerbergbrücke").
+restaurant("Siebenhirten").
+restaurant("Leyserstraße").
+restaurant("Praterstern").
+restaurant("Purkersdorf Zentrum Bahnhof").

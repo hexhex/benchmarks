@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Hofwiesengasse").
-initlocation(1,"Brünnlbadgasse").
-initlocation(1,"Nordbahnstraße").
-sequence(1,0, "Hofwiesengasse").
+initlocation($p,"Laurenzgasse").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Nordbahnstraße").
+initlocation($p,"Laurenzgasse").
 person(2).
-initlocation(2,"Sahulkastraße").
-initlocation(2,"Martinstraße").
-initlocation(2,"Sechskrügelgasse").
-sequence(2,0, "Sahulkastraße").
-possiblemeetinglocations("Brünnlbadgasse").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Taborstraße").
-restaurant("Empergergasse").
-restaurant("Taborstraße").
-restaurant("Alterlaa").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Seegasse").
+initlocation($p,"Unterradlberg Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Löwengasse").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Sitzenberg-Reidling Bahnhof").

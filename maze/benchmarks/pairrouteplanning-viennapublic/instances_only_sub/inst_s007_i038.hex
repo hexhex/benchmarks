@@ -1,33 +1,32 @@
 person(1).
-initlocation(1,"Praterstern").
-initlocation(1,"Hollabrunn Bahnhof").
-initlocation(1,"Museumsquartier").
-initlocation(1,"Strebersdorf").
-initlocation(1,"Leobersdorf Bahnhof").
-initlocation(1,"Purkersdorf Zentrum Bahnhof").
-initlocation(1,"Tulln Bahnhof").
-sequence(1,0, "Praterstern").
+initlocation($p,"Jägerstraße").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Erdberg").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Blumental").
+initlocation($p,"Jägerstraße").
 person(2).
-initlocation(2,"Stubentor").
-initlocation(2,"Enzersdorf bei Staatz Bahnhof").
-initlocation(2,"Praterkai").
-initlocation(2,"Pottendorf-Landegg Bahnhof").
-initlocation(2,"Trautmannsdorf/Leitha Bf").
-initlocation(2,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(2,"Kendlerstraße").
-sequence(2,0, "Stubentor").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Stadlau").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Zippererstraße").
-restaurant("Tullnerbach-Pressbaum Bahnhof".
-restaurant("Götzendorf Bahnhof".
-restaurant("Bisamberg Bahnhof".
-restaurant("Dresdner Straße".
-restaurant("Lanzendorf-Rannersdorf Bahnhof".
-restaurant("Hetzmannsdorf-Wullersdorf Bf".
-restaurant("Untertullnerbach Bahnhof").
+initlocation($p,"Neue Donau").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Johnstraße").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Neue Donau").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Schottentor").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Aderklaaer Straße").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Stephansplatz").
+restaurant("Mödling Bahnhof").
+restaurant("Hardeggasse").
+restaurant("Herzogenburg Stadt").

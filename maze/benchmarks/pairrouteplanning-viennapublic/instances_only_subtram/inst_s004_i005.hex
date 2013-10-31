@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Absberggasse").
-initlocation(1,"Schwechat Bahnhof").
-initlocation(1,"Grillgasse").
-initlocation(1,"Neuwaldegg").
-sequence(1,0, "Absberggasse").
+initlocation($p,"Schlickgasse").
+initlocation($p,"Hoßplatz").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Schlickgasse").
 person(2).
-initlocation(2,"Plößlgasse").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Gerasdorf Bahnhof").
-initlocation(2,"Linzer Straße/Lützowgasse").
-sequence(2,0, "Plößlgasse").
-possiblemeetinglocations("Blindengasse").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Alterlaa").
-restaurant("Koloniestraße").
-restaurant("Huglgasse").
-restaurant("Zehetnerg/Pflegeh Baumgarten").
-restaurant("Staglgasse").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Strozzigasse").
+initlocation($p,"Schlachthausgasse").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Schönborn Bahnhof").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Krieau").
+restaurant("Fichtnergasse").
+restaurant("Hohe Warte").

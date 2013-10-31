@@ -1,56 +1,56 @@
 person(1).
-initlocation(1,"Rochusgasse").
-initlocation(1,"Josefstädter Straße").
-initlocation(1,"Großfeldsiedlung").
-initlocation(1,"Wr Neustadt Nord").
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Viehofen Bahnhof").
-initlocation(1,"Purkersdorf Sanatorium").
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Wr Neustadt Hauptbahnhof").
-initlocation(1,"Baden Bahnhof").
-initlocation(1,"Johnstraße").
-initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
-sequence(1,0, "Rochusgasse").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Gasometer").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Silberwald Bahnhof").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Oberradlberg Bahnhof").
 person(2).
-initlocation(2,"Stephansplatz").
-initlocation(2,"Simmering").
-initlocation(2,"Nußdorfer Straße").
-initlocation(2,"Spittelau").
-initlocation(2,"Jägerstraße").
-initlocation(2,"Höflein an der Donau Bahnhof").
-initlocation(2,"Unter Kritzendorf Bahnhof").
-initlocation(2,"Alterlaa").
-initlocation(2,"Kagran").
-initlocation(2,"Dürrwien Bahnhof").
-initlocation(2,"Zentralfriedhof").
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Johnstraße").
-sequence(2,0, "Stephansplatz").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Hernals").
-restaurant("Quartier Belvedere".
-restaurant("Sarasdorf Bahnhof".
-restaurant("Oberolberndorf Bahnhof".
-restaurant("Krieau".
-restaurant("Kagran".
-restaurant("Alte Donau".
-restaurant("Praterstern".
-restaurant("Floridsdorf".
-restaurant("Bisamberg Bahnhof".
-restaurant("Margaretengürtel".
-restaurant("Maria Ellend Bahnhof".
-restaurant("Getzersdorf/Traisen Bahnhof".
-restaurant("Pfaffstätten Bahnhof").
+initlocation($p,"Stockerau Bahnhof").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Taborstraße").
+initlocation($p,"Rekawinkel Bahnhof").
+initlocation($p,"Breitenwaida Bahnhof").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Matzleinsdorfer Platz").
+initlocation($p,"Kottingbrunn Bahnhof").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Stockerau Bahnhof").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+restaurant("Weidlingau Bahnhof").
+restaurant("Kaisermühlen-VIC").
+restaurant("Siebenhirten").
+restaurant("Thaliastraße").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Hernals").
+restaurant("Sierndorf Bahnhof").
+restaurant("Bisamberg Bahnhof").
+restaurant("Ottakring").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Aspern Nord").

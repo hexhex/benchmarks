@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Höflein an der Donau Bahnhof").
-initlocation(1,"Dürrwien Bahnhof").
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Stephansplatz").
-initlocation(1,"Johnstraße").
-sequence(1,0, "Höflein an der Donau Bahnhof").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Brünner Straße").
 person(2).
-initlocation(2,"Neubaugasse").
-initlocation(2,"Unter Sankt Veit").
-initlocation(2,"Stadlau").
-initlocation(2,"Klosterneuburg-Weidling Bf").
-initlocation(2,"Schwedenplatz").
-sequence(2,0, "Neubaugasse").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Hirschstetten").
-restaurant("Göllersdorf Bahnhof".
-restaurant("Wolf in der Au".
-restaurant("Volkstheater".
-restaurant("Moosbierbaum-Heiligeneich Bf".
-restaurant("Nestroyplatz").
+initlocation($p,"Oberdöbling").
+initlocation($p,"Nußdorf").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Oberdöbling").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Hernals").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Großfeldsiedlung").
+restaurant("Westbahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Gaisruck Bahnhof").

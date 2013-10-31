@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Braunschweiggasse").
-initlocation(1,"Schottentor").
-initlocation(1,"Atzgersdorf").
-initlocation(1,"Unterpurkersdorf Bahnhof").
-initlocation(1,"Sollenau Bahnhof").
-initlocation(1,"Maria Anzbach Bahnhof").
-sequence(1,0, "Braunschweiggasse").
+initlocation($p,"Kledering Bahnhof").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Sierndorf Bahnhof").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Gasometer").
+initlocation($p,"Kledering Bahnhof").
 person(2).
-initlocation(2,"Franz-Josefs-Bahnhof").
-initlocation(2,"Nestroyplatz").
-initlocation(2,"Gumpoldskirchen Bahnhof").
-initlocation(2,"Lobau").
-initlocation(2,"Tullnerfeld Bahnhof").
-initlocation(2,"Fischamend Bahnhof").
-sequence(2,0, "Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-restaurant("Regelsbrunn Bahnhof".
-restaurant("Keplerplatz".
-restaurant("Atzgersdorf".
-restaurant("Schwechat Bahnhof".
-restaurant("Hollabrunn Bahnhof".
-restaurant("Göllersdorf Bahnhof").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Neusiedl am See Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Floridsdorf").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Schönbrunn").
+restaurant("Gaisruck Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").

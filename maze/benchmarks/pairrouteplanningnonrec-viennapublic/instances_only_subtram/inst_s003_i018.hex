@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Leopoldau").
-initlocation(1,"Lange Gasse").
-initlocation(1,"Sankt Marx").
-sequence(1,0, "Leopoldau").
+initlocation($p,"Wexstraße").
+initlocation($p,"Prater, Hauptallee").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
+initlocation($p,"Wexstraße").
 person(2).
-initlocation(2,"Raxstraße/Rudolfshügelgasse").
-initlocation(2,"Glatzgasse").
-initlocation(2,"Palffygasse").
-sequence(2,0, "Raxstraße/Rudolfshügelgasse").
-possiblemeetinglocations("Seegasse").
-possiblemeetinglocations("Polgarstraße").
-possiblemeetinglocations("Kendlerstraße").
-restaurant("Guntherstraße").
-restaurant("Lobau").
-restaurant("Theresienfeld Bahnhof").
+initlocation($p,"Saikogasse").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Hubertusdamm").
+initlocation($p,"Saikogasse").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Liebknechtgasse").
+restaurant("Brünner Straße/Hanreitergasse").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Oberlaa, Therme Wien").

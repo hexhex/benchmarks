@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Brünner Straße").
-initlocation(1,"Stadlau").
-initlocation(1,"Oberdöbling").
-initlocation(1,"Gasometer").
-sequence(1,0, "Brünner Straße").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Johnstraße").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Kendlerstraße").
+initlocation($p,"Neulengbach Stadt Bahnhof").
 person(2).
-initlocation(2,"Traisengasse").
-initlocation(2,"St Pölten Traisenpark P+R Nord").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Korneuburg Bahnhof").
-sequence(2,0, "Traisengasse").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Aspernstraße").
-restaurant("Retz Bahnhof".
-restaurant("Vorgartenstraße".
-restaurant("Maria Ellend Bahnhof".
-restaurant("Pilgramgasse").
+initlocation($p,"Nußdorf").
+initlocation($p,"Rathaus").
+initlocation($p,"Simmering").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Nußdorf").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Hausleiten Bahnhof").
+restaurant("Pressbaum Bahnhof").
+restaurant("Rochusgasse").

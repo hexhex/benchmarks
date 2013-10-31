@@ -1,57 +1,56 @@
 person(1).
-initlocation(1,"Vorgartenstraße").
-initlocation(1,"Herrengasse").
-initlocation(1,"Thaliastraße/Maroltingergasse").
-initlocation(1,"Marx-Meidlinger-Straße").
-initlocation(1,"Neulerchenfelder Str/Haberlg").
-initlocation(1,"Achau Bahnhof").
-initlocation(1,"Neue Donau").
-initlocation(1,"Seegasse").
-initlocation(1,"Kagraner Platz").
-initlocation(1,"Eichgraben-Altlengbach Bahnhof").
-initlocation(1,"Pokornygasse").
-initlocation(1,"Hintere Zollamtsstraße").
-initlocation(1,"Weinhauser Gasse").
-sequence(1,0, "Vorgartenstraße").
+initlocation($p,"Carabelligasse").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Alfred-Adler-Straße").
+initlocation($p,"Antonigasse").
+initlocation($p,"Hietzing").
+initlocation($p,"Rochusgasse").
+initlocation($p,"Schottenring").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Heiligenstadt").
+initlocation($p,"Nordbrücke").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Carabelligasse").
 person(2).
-initlocation(2,"Nußdorfer Straße").
-initlocation(2,"Siebensterngasse").
-initlocation(2,"Unteres Belvedere").
-initlocation(2,"Nußdorf").
-initlocation(2,"Oberolberndorf Bahnhof").
-initlocation(2,"Neilreichgasse").
-initlocation(2,"Vinzenzgasse").
-initlocation(2,"Wildungsmauer Bahnhof").
-initlocation(2,"Altes Landgut").
-initlocation(2,"Heinrich-Drimmel-Platz").
-initlocation(2,"Sarasdorf Bahnhof").
-initlocation(2,"Neubaugasse/Westbahnstraße").
-initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
-sequence(2,0, "Nußdorfer Straße").
-possiblemeetinglocations("Prater, Hauptallee").
-possiblemeetinglocations("Litfaßstraße").
-possiblemeetinglocations("Kleistgasse").
-possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
-possiblemeetinglocations("Laurenzgasse").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Camillo-Sitte-Gasse").
-possiblemeetinglocations("Albertgasse").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Sensengasse").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Schloss Belvedere").
-restaurant("Alsegger Straße").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Gersthof").
-restaurant("Am Spitz").
-restaurant("Längenfeldgasse").
-restaurant("Unter Sankt Veit").
-restaurant("Schweglerstraße").
-restaurant("Thaliastraße/Maroltingergasse").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Litfaßstraße").
-restaurant("Rosenhügelstraße").
-restaurant("Roßauer Lände").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Saikogasse").
+initlocation($p,"Unter St Veit, Hummelgasse").
+initlocation($p,"Linzer Straße/Hochsatzengasse").
+initlocation($p,"Redtenbachergasse").
+initlocation($p,"Wexstraße").
+initlocation($p,"Salztorbrücke").
+initlocation($p,"Praterkai").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Retz Bahnhof").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Alaudagasse").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Gußhausstraße").
+restaurant("Hardeggasse").
+restaurant("Reumannplatz").
+restaurant("Kagran").
+restaurant("Quellenplatz").
+restaurant("Am Heidjöchl").
+restaurant("Vorgartenstraße").
+restaurant("Floridsdorfer Brücke").
+restaurant("Konstanziagasse").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Erndtgasse").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Mistelbach Stadt").
+restaurant("Arthaberplatz").

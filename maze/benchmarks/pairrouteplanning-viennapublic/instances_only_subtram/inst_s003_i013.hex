@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Lazarettgasse").
-initlocation(1,"Bahnhof Meidling").
-initlocation(1,"Ebreichsdorf Bahnhof").
-sequence(1,0, "Lazarettgasse").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Innstraße").
+initlocation($p,"Zentralfriedhof 2Tor").
+initlocation($p,"Oberolberndorf Bahnhof").
 person(2).
-initlocation(2,"Diesterweggasse").
-initlocation(2,"Dürrwien Bahnhof").
-initlocation(2,"Hohe Warte").
-sequence(2,0, "Diesterweggasse").
-possiblemeetinglocations("Am Tabor").
-possiblemeetinglocations("Großjedlersdorf").
-possiblemeetinglocations("Thaliastraße/Maroltingergasse").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Schottenring").
-restaurant("Kaisermühlen-VIC").
+initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation($p,"Mayssengasse").
+initlocation($p,"Atzenbrugg Bahnhof").
+initlocation($p,"Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+restaurant("Schwarzspanierstraße").
+restaurant("Silbergasse").
+restaurant("Eichenstraße").

@@ -1,52 +1,52 @@
 person(1).
-initlocation(1,"Rampengasse").
-initlocation(1,"Aderklaaer Straße").
-initlocation(1,"Eichgraben-Altlengbach Bahnhof").
-initlocation(1,"Penzing").
-initlocation(1,"Pottendorf-Landegg Bahnhof").
-initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(1,"Wallrißstraße").
-initlocation(1,"Rebhanngasse").
-initlocation(1,"Halteraugasse").
-initlocation(1,"Hopfengasse").
-initlocation(1,"Laurenzgasse").
-initlocation(1,"Stockerau Bahnhof").
-sequence(1,0, "Rampengasse").
+initlocation($p,"Baumgarten").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Wilhelminenstr/Sandleitengasse").
+initlocation($p,"Rampengasse").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Karmeliterplatz").
+initlocation($p,"Litfaßstraße").
+initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation($p,"Hohe Warte").
+initlocation($p,"Türkenschanzplatz").
+initlocation($p,"Baumgarten").
 person(2).
-initlocation(2,"Langobardenstraße").
-initlocation(2,"Dr-Karl-Renner-Ring").
-initlocation(2,"Hernalser Gürtel").
-initlocation(2,"Südtiroler Platz/Hauptbahnhof").
-initlocation(2,"Rankgasse").
-initlocation(2,"Bösendorferstraße").
-initlocation(2,"Josefstädter Straße").
-initlocation(2,"Wienerbergbrücke").
-initlocation(2,"Nußdorf").
-initlocation(2,"Beingasse").
-initlocation(2,"Blumengasse").
-initlocation(2,"Radetzkyplatz").
-sequence(2,0, "Langobardenstraße").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Perntergasse").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Seegasse").
-possiblemeetinglocations("Erndtgasse").
-restaurant("Rebhanngasse").
-restaurant("Otto-Probst-Straße").
-restaurant("Antonigasse").
-restaurant("Michelbeuern-AKH").
-restaurant("Wolf in der Au").
-restaurant("Rustengasse").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Schwarzspanierstraße").
-restaurant("Ottakring").
-restaurant("Zehetnerg/Pflegeh Baumgarten").
-restaurant("Siemensstraße").
-restaurant("Kranzgasse").
+initlocation($p,"Neulerchenfelder Str/Haberlg").
+initlocation($p,"Gersthof").
+initlocation($p,"Barawitzkagasse").
+initlocation($p,"Koppstraße/Panikengasse").
+initlocation($p,"Mühlfeldgasse").
+initlocation($p,"Yppengasse").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Laurentiusplatz").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation($p,"Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Barawitzkagasse").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Rampengasse").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Florianigasse").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Gumpendorfer Straße").
+restaurant("Gusenleithnergasse").
+restaurant("Götzendorf Bahnhof").
+restaurant("Rennbahnweg").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Sommarugagasse").

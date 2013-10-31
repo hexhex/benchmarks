@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Donaustadtstraße").
-initlocation(1,"Forstnergasse").
-initlocation(1,"Bad Vöslau Bahnhof").
-initlocation(1,"Hetzgasse").
-initlocation(1,"Staatz Bahnhof").
-sequence(1,0, "Donaustadtstraße").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Unterpurkersdorf Bahnhof").
 person(2).
-initlocation(2,"Zieglergasse").
-initlocation(2,"Herrengasse").
-initlocation(2,"Untertullnerbach Bahnhof").
-initlocation(2,"Wildungsmauer Bahnhof").
-initlocation(2,"Obere Donaustraße").
-sequence(2,0, "Zieglergasse").
-possiblemeetinglocations("Stefan-Fadinger-Platz").
-possiblemeetinglocations("Neuwaldegg").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Paulanergasse").
-possiblemeetinglocations("Brigittaplatz").
-restaurant("Römergasse").
-restaurant("Heiligenstadt").
-restaurant("Großfeldsiedlung").
-restaurant("Paulanergasse").
-restaurant("Rebhanngasse").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Gusenleithnergasse").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Weißenböckstraße").
+initlocation($p,"Oberfeldgasse").
+initlocation($p,"Schwechat Bahnhof").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Floridsdorfer Brücke").
+possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
+restaurant("Sommarugagasse").
+restaurant("Schwarzspanierstraße").
+restaurant("Paradisgasse").
+restaurant("Blindengasse").
+restaurant("Regelsbrunn Bahnhof").

@@ -1,44 +1,44 @@
 person(1).
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Wolfsthal Bahnhof").
-initlocation(1,"Schweglerstraße").
-initlocation(1,"Maria Anzbach Bahnhof").
-initlocation(1,"Atzgersdorf").
-initlocation(1,"Götzendorf Bahnhof").
-initlocation(1,"Aspern Nord").
-initlocation(1,"Neubau-Kreuzstetten Bahnhof").
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-initlocation(1,"Schwarzenbergplatz").
-sequence(1,0, "Kritzendorf Bahnhof").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Stollgasse").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Zentralfriedhof 2Tor").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Nordbrücke").
+initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Hütteldorfer Straße").
 person(2).
-initlocation(2,"Ladendorf Bahnhof").
-initlocation(2,"Hildebrandgasse").
-initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Stadiongasse/Parlament").
-initlocation(2,"Preyergasse/Speising").
-initlocation(2,"Rochusgasse").
-initlocation(2,"Verbindungsbahn").
-initlocation(2,"Mühlfeldgasse").
-initlocation(2,"Sickenberggasse").
-sequence(2,0, "Ladendorf Bahnhof").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Atzgersdorfer Straße").
-possiblemeetinglocations("Zieglergasse/Westbahnstraße").
-possiblemeetinglocations("Römergasse").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Mayerhofgasse").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Krottenbachstraße").
-restaurant("Wr Neustadt Nord").
-restaurant("Südtiroler Platz/Hauptbahnhof").
-restaurant("Grillgasse").
-restaurant("Wattmanngasse").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Hauffgasse").
-restaurant("Gusenleithnergasse").
-restaurant("Schloss Schönbrunn").
-restaurant("Kölblgasse").
-restaurant("Pantucekgasse/Widholzgasse").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Laurenzgasse").
+initlocation($p,"Martinstraße").
+initlocation($p,"Börsegasse/Wipplingerstraße").
+initlocation($p,"Bahnhof Meidling").
+initlocation($p,"Zentralfriedhof 4Tor").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Marxergasse").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Kranzgasse").
+restaurant("Fasangasse").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Baumgasse").
+restaurant("Erlaaer Straße").
+restaurant("Thaliastraße").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Franzensbrücke").
+restaurant("Längenfeldgasse/Flurschützstr").

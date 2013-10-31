@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Strasshof Bahnhof").
-initlocation(1,"Längenfeldgasse").
-sequence(1,0, "Strasshof Bahnhof").
+initlocation($p,"Zentralfriedhof").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Zentralfriedhof").
 person(2).
-initlocation(2,"Platt Bahnhof").
-initlocation(2,"Dresdner Straße").
-sequence(2,0, "Platt Bahnhof").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-restaurant("Dürrwien Bahnhof".
-restaurant("Geiselbergstraße").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Neulengbach Bahnhof").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Niederhofstraße").
+restaurant("Roßauer Lände").
+restaurant("Guntramsdorf-Thallern").

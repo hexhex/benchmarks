@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Donaumarina").
-initlocation(1,"Tscherttegasse").
-initlocation(1,"Gänserndorf Bahnhof").
-initlocation(1,"Staatz Bahnhof").
-initlocation(1,"Petronell-Carnuntum Bahnhof").
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Bruck/Leitha Bahnhof").
-initlocation(1,"Sarasdorf Bahnhof").
-initlocation(1,"Langenzersdorf Bahnhof").
-sequence(1,0, "Donaumarina").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Praterstern").
+initlocation($p,"Kagran").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation($p,"Aderklaaer Straße").
 person(2).
-initlocation(2,"Zentralfriedhof").
-initlocation(2,"Bahnhof Meidling").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Höflein an der Donau Bahnhof").
-initlocation(2,"Petronell-Carnuntum Bahnhof").
-initlocation(2,"Herzogenburg Bahnhof").
-initlocation(2,"Bruck/Leitha Bahnhof").
-initlocation(2,"Hainburg/Donau Ungartor/B9").
-initlocation(2,"Hörersdorf Bahnhof").
-sequence(2,0, "Zentralfriedhof").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-restaurant("Gersthof".
-restaurant("Untertullnerbach Bahnhof".
-restaurant("Höflein an der Donau Bahnhof".
-restaurant("Kottingbrunn Bahnhof".
-restaurant("Quartier Belvedere".
-restaurant("Kettenbrückengasse".
-restaurant("Mistelbach Stadt".
-restaurant("Theresienfeld Bahnhof".
-restaurant("Gaisruck Bahnhof").
+initlocation($p,"Schottentor").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Krieau").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Praterkai").
+initlocation($p,"Handelskai").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Schottentor").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Hardeggasse").
+restaurant("Ottakring").
+restaurant("Rennbahnweg").
+restaurant("Schleinbach Bahnhof").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Achau Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Traisengasse").
+restaurant("Hainburg/Donau Personenbhf").

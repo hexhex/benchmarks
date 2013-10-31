@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Burggasse-Stadthalle").
-initlocation(1,"Tulln Bahnhof").
-sequence(1,0, "Burggasse-Stadthalle").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Praterkai").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
 person(2).
-initlocation(2,"Zellerndorf Bahnhof").
-initlocation(2,"Praterstern").
-sequence(2,0, "Zellerndorf Bahnhof").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-restaurant("Kaiserebersdorf".
-restaurant("Höbersdorf Bahnhof").
+initlocation($p,"St Pölten Hauptbahnhof").
+initlocation($p,"Floridsdorf").
+initlocation($p,"St Pölten Hauptbahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+restaurant("Zippererstraße").
+restaurant("Längenfeldgasse").

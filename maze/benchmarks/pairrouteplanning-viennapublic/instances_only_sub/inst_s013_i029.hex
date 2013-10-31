@@ -1,57 +1,56 @@
 person(1).
-initlocation(1,"Pilgramgasse").
-initlocation(1,"Pottendorf-Landegg Bahnhof").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Geiselbergstraße").
-initlocation(1,"Ottakring").
-initlocation(1,"Bisamberg Bahnhof").
-initlocation(1,"Südtiroler Platz/Hauptbahnhof").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Klosterneuburg-Kierling Bf").
-initlocation(1,"Hütteldorfer Straße").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Messe-Prater").
-initlocation(1,"Krieau").
-sequence(1,0, "Pilgramgasse").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Hernals").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Breitensee").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Seestadt").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Achau Bahnhof").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Kettenbrückengasse").
 person(2).
-initlocation(2,"Paasdorf Bahnhof").
-initlocation(2,"Zieglergasse").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Ottakring").
-initlocation(2,"Zentralfriedhof").
-initlocation(2,"Enzersdorf bei Staatz Bahnhof").
-initlocation(2,"Unterpurkersdorf Bahnhof").
-initlocation(2,"Süßenbrunn").
-initlocation(2,"Krieau").
-initlocation(2,"Wolkersdorf Bahnhof").
-initlocation(2,"Messe-Prater").
-initlocation(2,"Niederhofstraße").
-initlocation(2,"Kettenbrückengasse").
-sequence(2,0, "Paasdorf Bahnhof").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Erlaaer Straße").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Aspernstraße").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Neue Donau").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Alte Donau").
+initlocation($p,"Spittelau").
+initlocation($p,"Reumannplatz").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Burggasse-Stadthalle").
 possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Bahnhof Meidling").
 possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Keplerplatz").
-restaurant("Kapellerfeld Bahnhof".
-restaurant("Münchendorf Bahnhof".
-restaurant("Mannswörth Bahnhof".
-restaurant("Hietzing".
-restaurant("Schwechat Bahnhof".
-restaurant("Kaiserebersdorf".
-restaurant("Hollabrunn Bahnhof".
-restaurant("Oberradlberg Bahnhof".
-restaurant("Maria Anzbach Bahnhof".
-restaurant("Wampersdorf Bahnhof".
-restaurant("Meidling Hauptstraße".
-restaurant("Strasshof Bahnhof".
-restaurant("Liesing").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Seestadt").
+restaurant("Heiligenstadt").
+restaurant("Neulengbach Bahnhof").
+restaurant("Atzgersdorf").
+restaurant("Zippererstraße").
+restaurant("Kagraner Platz").
+restaurant("Hausleiten Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Zieglergasse").
+restaurant("Sierndorf Bahnhof").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").

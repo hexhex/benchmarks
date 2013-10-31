@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Felixdorf Bahnhof").
-initlocation(1,"Mödling Bahnhof").
-initlocation(1,"Pilgramgasse").
-initlocation(1,"Messe-Prater").
-initlocation(1,"Carabelligasse").
-initlocation(1,"Camillo-Sitte-Gasse").
-initlocation(1,"Pottendorf-Landegg Bahnhof").
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-sequence(1,0, "Felixdorf Bahnhof").
+initlocation($p,"Schloss Schönbrunn").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Anschützgasse").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Schloss Schönbrunn").
 person(2).
-initlocation(2,"Rennbahnweg").
-initlocation(2,"Rosenhügelstraße").
-initlocation(2,"Sickenberggasse").
-initlocation(2,"Taubstummengasse").
-initlocation(2,"Sankt Marx").
-initlocation(2,"Carminweg").
-initlocation(2,"Guntramsdorf-Thallern").
-initlocation(2,"Unter Sankt Veit").
-sequence(2,0, "Rennbahnweg").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Wittelsbachstraße").
-possiblemeetinglocations("Koloniestraße").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Florianigasse").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Baumgasse").
-possiblemeetinglocations("Rodaun").
-restaurant("Silbergasse").
-restaurant("Retz Bahnhof").
-restaurant("Donauzentrum").
-restaurant("Polkorabplatz").
-restaurant("Gunoldstraße").
-restaurant("Roßauer Lände").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Innstraße").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Kranzgasse").
+initlocation($p,"Linzer Straße/Johnstraße").
+initlocation($p,"Alaudagasse").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Forstnergasse").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Stadlau").
+restaurant("Spillern Bahnhof").
+restaurant("Hütteldorfer Straße").
+restaurant("Platt Bahnhof").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Trondheimgasse").
+restaurant("Kaiserebersdorf").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("St Andrä-Wördern Bahnhof").

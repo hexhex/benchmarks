@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Franzensbrücke").
-initlocation(1,"Kagraner Brücke").
-initlocation(1,"Ladendorf Bahnhof").
-initlocation(1,"Reumannplatz").
-initlocation(1,"Canisiusgasse").
-initlocation(1,"Oberlaa, Therme Wien").
-initlocation(1,"Schuhmeierplatz").
-sequence(1,0, "Franzensbrücke").
+initlocation($p,"Gredlerstraße").
+initlocation($p,"Elterleinplatz").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Raxstraße/Rudolfshügelgasse").
+initlocation($p,"Johann-Strauß-Gasse").
+initlocation($p,"Am Heidjöchl/Hausfeldstraße").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Gredlerstraße").
 person(2).
-initlocation(2,"Meidling Hauptstraße").
-initlocation(2,"Kaiserebersdorf").
-initlocation(2,"Weigelsdorf Bahnhof").
-initlocation(2,"Van-Swieten-Kaserne").
-initlocation(2,"Guntramsdorf-Thallern").
-initlocation(2,"Rosenhügelstraße").
-initlocation(2,"Gloriettegasse").
-sequence(2,0, "Meidling Hauptstraße").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Gewerbepark Stadlau Mitte").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Strozzigasse").
-possiblemeetinglocations("Perfektastraße").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Mistelbach Stadt").
-restaurant("Dr-Karl-Renner-Ring").
-restaurant("Museumsquartier").
-restaurant("Rankgasse").
-restaurant("Döblinger Hauptstr/Gatterburgg").
-restaurant("Neilreichgasse").
+initlocation($p,"Sahulkastraße").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Alser Straße").
+initlocation($p,"Spitalgasse/Währinger Straße").
+initlocation($p,"Brünnlbadgasse").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Schottenring").
+initlocation($p,"Sahulkastraße").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Stollgasse").
+possiblemeetinglocations("Helmahof Bahnhof").
+restaurant("Westbahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Neue Donau").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Grinzing").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Geiselbergstraße").

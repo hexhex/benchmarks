@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Erlaaer Straße").
-initlocation(1,"Alser Straße").
-initlocation(1,"Zentralfriedhof").
-sequence(1,0, "Mistelbach Stadt").
+initlocation($p,"Ottakring").
+initlocation($p,"Mannswörth Bahnhof").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Ottakring").
 person(2).
-initlocation(2,"Leopoldau").
-initlocation(2,"Wolfsthal Bahnhof").
-initlocation(2,"Wolf in der Au").
-initlocation(2,"Jedlersdorf").
-sequence(2,0, "Leopoldau").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Liesing").
-restaurant("Bruck/Leitha Bahnhof".
-restaurant("Michelhausen Bahnhof".
-restaurant("Dürrwien Bahnhof".
-restaurant("Herrengasse").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Praterstern").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Traisengasse").
+initlocation($p,"Braunschweiggasse").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Simmering").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Tullnerfeld Bahnhof").

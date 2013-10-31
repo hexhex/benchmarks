@@ -1,65 +1,64 @@
 person(1).
-initlocation(1,"Am Tabor").
-initlocation(1,"Neulerchenfelder Str/Haberlg").
-initlocation(1,"St Andrä-Wördern Bahnhof").
-initlocation(1,"Rampengasse").
-initlocation(1,"Stadlau").
-initlocation(1,"Staatz Bahnhof").
-initlocation(1,"Dornbacher Straße").
-initlocation(1,"Schottentor").
-initlocation(1,"Gersthof").
-initlocation(1,"Schlachthausgasse").
-initlocation(1,"Hütteldorf").
-initlocation(1,"Donaustadtbrücke").
-initlocation(1,"Wilhelminenstr/Sandleitengasse").
-initlocation(1,"Matthäus-Jiszda-Straße").
-initlocation(1,"Haslau an der Donau Bahnhof").
-sequence(1,0, "Am Tabor").
+initlocation($p,"Reinlgasse/Märzstraße").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Hauptbahnhof Ost").
+initlocation($p,"Kaiserebersdorf, Zinnergasse").
+initlocation($p,"Stiftgasse").
+initlocation($p,"Pokornygasse").
+initlocation($p,"Lobau").
+initlocation($p,"Schmerlingplatz").
+initlocation($p,"Alte Donau").
+initlocation($p,"Hütteldorfer Str/Lützowgasse").
+initlocation($p,"Maurer Lange Gasse").
+initlocation($p,"Blindengasse").
+initlocation($p,"Hermesstraße").
+initlocation($p,"Reinlgasse/Märzstraße").
 person(2).
-initlocation(2,"Krottenbachstraße").
-initlocation(2,"Baden Bahnhof").
-initlocation(2,"Zentralfriedhof 4Tor").
-initlocation(2,"Koppstraße/Panikengasse").
-initlocation(2,"Wallensteinplatz").
-initlocation(2,"Haslau an der Donau Bahnhof").
-initlocation(2,"Schottenring").
-initlocation(2,"Enzersdorf bei Staatz Bahnhof").
-initlocation(2,"Hardtgasse").
-initlocation(2,"Braunschweiggasse").
-initlocation(2,"Quellenstraße/Knöllgasse").
-initlocation(2,"Gersthofer Str/Scheibenbergstr").
-initlocation(2,"Schloss Hetzendorf").
-initlocation(2,"Karmeliterplatz").
-initlocation(2,"Sarasdorf Bahnhof").
-sequence(2,0, "Krottenbachstraße").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Siebensterngasse").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Hildebrandgasse").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Sommarugagasse").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Schottenfeldgasse").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Staglgasse").
-possiblemeetinglocations("Michelbeuern-AKH").
-restaurant("Aderklaaer Straße").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Laurenzgasse").
-restaurant("Hernalser Gürtel").
-restaurant("Weinhauser Gasse").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Beingasse").
-restaurant("Reumannplatz").
-restaurant("Burgring").
-restaurant("Kritzendorf Bahnhof").
-restaurant("Marienbrücke").
-restaurant("Aspernstraße").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Resselgasse").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Thaliastraße/Haberlgasse").
+initlocation($p,"Schleiergasse").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Stadtpark").
+initlocation($p,"Schwarzspanierstraße").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Leberberg").
+initlocation($p,"Weihburggasse").
+initlocation($p,"Heinrich-Drimmel-Platz").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Wolfsthal Bahnhof").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Erndtgasse").
 restaurant("Laxenburger Straße/Troststraße").
-restaurant("Leobersdorf Bahnhof").
-restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Langobardenstraße").
+restaurant("Urban-Loritz-Platz").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Trondheimgasse").
+restaurant("Koppstraße/Panikengasse").
+restaurant("Mistelbach Bahnhof").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Herzogenburg Stadt").
+restaurant("Penzinger Straße").
+restaurant("Franzensbrücke").
+restaurant("Redtenbachergasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Verbindungsbahn").

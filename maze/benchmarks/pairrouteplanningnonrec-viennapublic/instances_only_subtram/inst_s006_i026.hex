@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(1,"Winkeläckerstraße").
-initlocation(1,"Alaudagasse").
-initlocation(1,"Franz-Josefs-Bahnhof").
-initlocation(1,"Zieglergasse/Westbahnstraße").
-initlocation(1,"Himmelmutterweg").
-sequence(1,0, "Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Schwarzenbergplatz").
+initlocation($p,"Hardtgasse").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Raxstraße/Rudolfshügelgasse").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Schwarzenbergplatz").
 person(2).
-initlocation(2,"Schleinbach Bahnhof").
-initlocation(2,"Stadiongasse/Parlament").
-initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(2,"Lerchenfelder Straße").
-initlocation(2,"Reinlgasse/Märzstraße").
-initlocation(2,"Anton-Schall-Gasse").
-sequence(2,0, "Schleinbach Bahnhof").
-possiblemeetinglocations("Frauengasse").
-possiblemeetinglocations("Sensengasse").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Albertgasse").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Brigittaplatz").
+initlocation($p,"Thaliastraße/Brunnengasse").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Nußdorfer Straße").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
 possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Gaußplatz").
-restaurant("Fichtnergasse").
-restaurant("Stiftgasse").
-restaurant("Himmelmutterweg").
-restaurant("Am Schöpfwerk").
-restaurant("Türkenschanzplatz").
-restaurant("Schlickgasse").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Sankt Marx").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Perntergasse").
+restaurant("Johnstraße").
+restaurant("Dommayergasse").

@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Purkersdorf Sanatorium").
-initlocation(1,"Traismauer Bahnhof").
-initlocation(1,"Aspernstraße").
-initlocation(1,"Wildungsmauer Bahnhof").
-initlocation(1,"Muckendorf-Wipfing Bahnhof").
-initlocation(1,"Schlachthausgasse").
-initlocation(1,"Oberdöbling").
-sequence(1,0, "Purkersdorf Sanatorium").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Josefstädter Straße").
 person(2).
-initlocation(2,"Guntersdorf Bahnhof").
-initlocation(2,"Meidling Hauptstraße").
-initlocation(2,"Wr Neustadt Hauptbahnhof").
-initlocation(2,"Strebersdorf").
-initlocation(2,"Erlaaer Straße").
-initlocation(2,"Seestadt").
-initlocation(2,"Herrengasse").
-sequence(2,0, "Guntersdorf Bahnhof").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Stephansplatz").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-restaurant("Klosterneuburg-Weidling Bf".
-restaurant("Aspernstraße".
-restaurant("Achau Bahnhof".
-restaurant("Donauspital".
-restaurant("Atzenbrugg Bahnhof".
-restaurant("Perfektastraße".
-restaurant("Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Donauspital").
+initlocation($p,"Mödling Bahnhof").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Brünner Straße").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Johnstraße").
+restaurant("Simmering").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Donauspital").

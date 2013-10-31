@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Platt Bahnhof").
-initlocation(1,"Stadlau").
-initlocation(1,"Rennweg").
-sequence(1,0, "Platt Bahnhof").
+initlocation($p,"Gerasdorf Bahnhof").
+initlocation($p,"Tscherttegasse").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Gerasdorf Bahnhof").
 person(2).
-initlocation(2,"Kardinal-Nagl-Platz").
-initlocation(2,"Platt Bahnhof").
-initlocation(2,"Neusiedl am See Bahnhof").
-sequence(2,0, "Kardinal-Nagl-Platz").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Karlsplatz").
-restaurant("Stadtpark".
-restaurant("Götzendorf Bahnhof".
-restaurant("Kottingneusiedl Bahnhof").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Donauspital").
+initlocation($p,"Kapellerfeld Bahnhof").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Volkstheater").
+restaurant("Ottakring").
+restaurant("Volkstheater").
+restaurant("Rekawinkel Bahnhof").

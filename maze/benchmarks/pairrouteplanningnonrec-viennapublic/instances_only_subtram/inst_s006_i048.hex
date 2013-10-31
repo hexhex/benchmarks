@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Wilfleinsdorf Bahnhof").
-initlocation(1,"Molitorgasse").
-initlocation(1,"Thaliastraße/Maroltingergasse").
-initlocation(1,"Geiselbergstraße").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Schleiergasse").
-sequence(1,0, "Wilfleinsdorf Bahnhof").
+initlocation($p,"Rankgasse").
+initlocation($p,"Gußhausstraße").
+initlocation($p,"Ebenfurth Bahnhof").
+initlocation($p,"Radetzkyplatz").
+initlocation($p,"Guntersdorf Bahnhof").
+initlocation($p,"Zentralfriedhof 2Tor").
+initlocation($p,"Rankgasse").
 person(2).
-initlocation(2,"Neue Donau").
-initlocation(2,"Urban-Loritz-Platz").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Koloniestraße").
-initlocation(2,"Martinstraße").
-initlocation(2,"Frättingsdorf Bahnhof").
-sequence(2,0, "Neue Donau").
-possiblemeetinglocations("Hildebrandgasse").
-possiblemeetinglocations("Weinheimergasse").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Carminweg").
-possiblemeetinglocations("Nestroyplatz").
-restaurant("Nußdorf").
-restaurant("Empergergasse").
-restaurant("Rathaus").
-restaurant("Atzgersdorfer Straße").
-restaurant("Julius-Raab-Platz").
-restaurant("Breitenfurter St/Altmannsd Str").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Rampengasse").
+initlocation($p,"Lainz, Wolkersbergenstraße").
+initlocation($p,"Höbersdorf Bahnhof").
+initlocation($p,"Donauzentrum").
+initlocation($p,"Nestroyplatz").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+restaurant("Oberdöbling").
+restaurant("Hubertusdamm").
+restaurant("Herbeckstraße").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Maurer Hauptplatz").

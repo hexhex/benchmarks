@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Hautzendorf Bahnhof").
-initlocation(1,"Strasshof Bahnhof").
-initlocation(1,"Trasdorf Bahnhof").
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Hofstatt Bahnhof").
-initlocation(1,"Thaliastraße").
-initlocation(1,"Nußdorfer Straße").
-initlocation(1,"Seyring Bahnhof").
-sequence(1,0, "Hautzendorf Bahnhof").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Wolf in der Au").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Taborstraße").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Unteroberndorf Bahnhof").
 person(2).
-initlocation(2,"Hausleiten Bahnhof").
-initlocation(2,"Messe-Prater").
-initlocation(2,"Franz-Josefs-Bahnhof").
-initlocation(2,"Atzgersdorf").
-initlocation(2,"Meidling Hauptstraße").
-initlocation(2,"Klosterneuburg-Weidling Bf").
-initlocation(2,"Niederhofstraße").
-initlocation(2,"Süßenbrunn").
-initlocation(2,"Hietzing").
-sequence(2,0, "Hausleiten Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-restaurant("Flughafen Wien (VIE.
-Bahnhof".
-restaurant("Himberg Bahnhof".
-restaurant("Petronell-Carnuntum Bahnhof".
-restaurant("Leopoldau".
-restaurant("Gerasdorf Bahnhof".
-restaurant("Neusiedl am See Bahnhof".
-restaurant("Hainburg/Donau Ungartor/B9".
-restaurant("Schweglerstraße".
-restaurant("Margaretengürtel").
+initlocation($p,"Schottenring").
+initlocation($p,"Jedlersdorf").
+initlocation($p,"Johnstraße").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Taborstraße").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Erdberg").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Schottenring").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+restaurant("Felixdorf Bahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Hietzing").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Karlsplatz").
+restaurant("Paasdorf Bahnhof").
+restaurant("Weidlingau Bahnhof").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Staatz Bahnhof").
-initlocation(1,"Baden Bahnhof").
-initlocation(1,"Donaustadtbrücke").
-initlocation(1,"Neulengbach Stadt Bahnhof").
-sequence(1,0, "Staatz Bahnhof").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Breitensee").
+initlocation($p,"Retz Bahnhof").
 person(2).
-initlocation(2,"Sierndorf Bahnhof").
-initlocation(2,"Bruck/Leitha Bahnhof").
-initlocation(2,"Ebreichsdorf Bahnhof").
-initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
-sequence(2,0, "Sierndorf Bahnhof").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Hietzing").
-restaurant("Kardinal-Nagl-Platz".
-restaurant("Himberg Bahnhof".
-restaurant("Seestadt".
-restaurant("Süßenbrunn").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Strasshof Bahnhof").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Hofstatt Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Baden Bahnhof").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Penzing").
+restaurant("Unter Sankt Veit").
+restaurant("Erdberg").

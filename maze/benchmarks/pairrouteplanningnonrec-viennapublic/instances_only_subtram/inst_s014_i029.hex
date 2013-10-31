@@ -1,61 +1,60 @@
 person(1).
-initlocation(1,"Schwarzenbergplatz").
-initlocation(1,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(1,"Gellertplatz").
-initlocation(1,"Skodagasse").
-initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(1,"Thaliastraße").
-initlocation(1,"Hauptbahnhof Ost").
-initlocation(1,"Kaisermühlen-VIC").
-initlocation(1,"Wienerfeldgasse").
-initlocation(1,"Beingasse").
-initlocation(1,"Quellenstraße/Favoritenstraße").
-initlocation(1,"Dresdner Straße").
-initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(1,"Donaustadtstraße").
-sequence(1,0, "Schwarzenbergplatz").
+initlocation($p,"Wilhelminenstraße/Wattgasse").
+initlocation($p,"Teichgasse").
+initlocation($p,"Ottakringer Str/Erdbrustgasse").
+initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
+initlocation($p,"Heiligenstadt").
+initlocation($p,"Karmeliterplatz").
+initlocation($p,"Alte Donau").
+initlocation($p,"Kaisermühlen-VIC").
+initlocation($p,"Autokaderstraße").
+initlocation($p,"Wienerfeldgasse").
+initlocation($p,"Stadlergasse").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Kaiserstraße").
+initlocation($p,"Maurer Lange Gasse").
+initlocation($p,"Wilhelminenstraße/Wattgasse").
 person(2).
-initlocation(2,"Stephansplatz").
-initlocation(2,"Beingasse").
-initlocation(2,"Guntramsdorf-Thallern").
-initlocation(2,"Perfektastraße").
-initlocation(2,"Bahnhof Meidling").
-initlocation(2,"Platt Bahnhof").
-initlocation(2,"Langenzersdorf Bahnhof").
-initlocation(2,"Quartier Belvedere").
-initlocation(2,"Jagdschloßgasse").
-initlocation(2,"Marienbrücke").
-initlocation(2,"Rennbahnweg").
-initlocation(2,"Leopoldau").
-initlocation(2,"Himmelmutterweg").
-initlocation(2,"Salztorbrücke").
-sequence(2,0, "Stephansplatz").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Hopfengasse").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Ottakringer Straße/Wattgasse").
-possiblemeetinglocations("Gatterburggasse").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Neubaugasse/Westbahnstraße").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Grinzing").
-possiblemeetinglocations("Matthäus-Jiszda-Straße").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Aspernstraße").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Weinheimergasse").
-restaurant("Marx-Meidlinger-Straße").
-restaurant("Kliebergasse").
-restaurant("Grillgasse").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Stadtpark").
-restaurant("Landesgerichtsstraße").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Stadlergasse").
+initlocation($p,"Lainz, Wolkersbergenstraße").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Wilhelminenstr/Sandleitengasse").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Stollgasse").
+initlocation($p,"Nußdorfer Str/Alserbachstraße").
+initlocation($p,"Brünnlbadgasse").
+initlocation($p,"Stockholmer Platz").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation($p,"Viehofen Bahnhof").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Margaretengürtel").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Korneuburg Bahnhof").
 restaurant("Schottenfeldgasse").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Edmund-Hawranek-Platz").
-restaurant("Dornbach, Güpferlingstraße").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Alsegger Straße").
+restaurant("Johnstraße").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Süßenbrunn").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Wilhelminenstr/Sandleitengasse").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Kledering Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").

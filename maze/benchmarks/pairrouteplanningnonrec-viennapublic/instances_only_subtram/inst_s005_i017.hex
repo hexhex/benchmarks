@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Ober Sankt Veit").
-initlocation(1,"Sechskrügelgasse").
-initlocation(1,"Unterradlberg Bahnhof").
-initlocation(1,"Mayssengasse").
-initlocation(1,"Braunhubergasse").
-sequence(1,0, "Ober Sankt Veit").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Quellenstraße/Knöllgasse").
+initlocation($p,"Gruschaplatz").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Schöffelgasse").
+initlocation($p,"Tulln Stadt Bahnhof").
 person(2).
-initlocation(2,"Columbusplatz").
-initlocation(2,"Blumental").
-initlocation(2,"Schloss Schönbrunn").
-initlocation(2,"Eichenstraße").
-initlocation(2,"Gerstnerstraße/Westbhf").
-sequence(2,0, "Columbusplatz").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Nußdorf, Beethovengang").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Stubentor").
-restaurant("Anton-Krieger-Gasse").
-restaurant("Felixdorf Bahnhof").
-restaurant("Seestadt").
-restaurant("Huglgasse").
-restaurant("Gersthofer Str/Scheibenbergstr").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Radetzkyplatz").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Aßmayergasse").
+initlocation($p,"Forstnergasse").
+initlocation($p,"Staatz Bahnhof").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Resselgasse").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Floridsdorf").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Traisengasse").
+restaurant("Simmering").

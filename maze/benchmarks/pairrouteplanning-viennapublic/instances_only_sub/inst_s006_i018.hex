@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Silberwald Bahnhof").
-initlocation(1,"Alterlaa").
-initlocation(1,"Pottendorf-Landegg Bahnhof").
-initlocation(1,"Gerasdorf Bahnhof").
-initlocation(1,"Moosbierbaum-Heiligeneich Bf").
-initlocation(1,"Praterkai").
-sequence(1,0, "Silberwald Bahnhof").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Kaiserebersdorf").
+initlocation($p,"Staatz Bahnhof").
+initlocation($p,"Längenfeldgasse").
 person(2).
-initlocation(2,"Neusiedl am See Bahnhof").
-initlocation(2,"Ebreichsdorf Bahnhof").
-initlocation(2,"Unter Sankt Veit").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Eichgraben-Altlengbach Bahnhof").
-sequence(2,0, "Neusiedl am See Bahnhof").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-restaurant("Penzing".
-restaurant("Obersdorf Bahnhof".
-restaurant("Praterkai".
-restaurant("Atzgersdorf".
-restaurant("Frättingsdorf Bahnhof".
-restaurant("Meidling Hauptstraße").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Sollenau Bahnhof").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Pilgramgasse").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Gaisruck Bahnhof").
+restaurant("Burggasse-Stadthalle").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Oberolberndorf Bahnhof").

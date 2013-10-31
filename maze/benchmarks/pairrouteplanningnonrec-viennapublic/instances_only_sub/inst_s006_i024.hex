@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Hardeggasse").
-initlocation(1,"Gänserndorf Bahnhof").
-initlocation(1,"Obersdorf Bahnhof").
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Retz Bahnhof").
-initlocation(1,"Neulengbach Stadt Bahnhof").
-sequence(1,0, "Hardeggasse").
+initlocation($p,"Mistelbach Stadt").
+initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation($p,"Silberwald Bahnhof").
+initlocation($p,"Wolf in der Au").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Mistelbach Stadt").
 person(2).
-initlocation(2,"Bruck/Leitha Bahnhof").
-initlocation(2,"Praterstern").
-initlocation(2,"Donaustadtbrücke").
-initlocation(2,"Pottendorf-Landegg Bahnhof").
-initlocation(2,"Kagran").
-initlocation(2,"Seyring Bahnhof").
-sequence(2,0, "Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Traisengasse").
-restaurant("Mödling Bahnhof".
-restaurant("Leobendorf-Burg Kreuzenstn Bf".
-restaurant("Siebenhirten (NÖ.
-Haltestelle".
-restaurant("Theresienfeld Bahnhof".
-restaurant("Ober Sankt Veit".
-restaurant("Pfaffstätten Bahnhof").
+initlocation($p,"Michelbeuern-AKH").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Burggasse-Stadthalle").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Michelbeuern-AKH").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+restaurant("Schottentor").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Donauinsel").
+restaurant("St Pölten Hauptbahnhof").

@@ -1,25 +1,24 @@
 person(1).
-initlocation(1,"Petronell-Carnuntum Bahnhof").
-initlocation(1,"Hausfeldstraße").
-initlocation(1,"Mühlfeldgasse").
-initlocation(1,"Frättingsdorf Bahnhof").
-initlocation(1,"Langenzersdorf Bahnhof").
-sequence(1,0, "Petronell-Carnuntum Bahnhof").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Am Tabor").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Obere Donaustraße").
+initlocation($p,"Erlaaer Straße").
 person(2).
-initlocation(2,"Burggasse-Stadthalle").
-initlocation(2,"Innstraße").
-initlocation(2,"Hennersdorf Bahnhof").
-initlocation(2,"Flughafen Wien (VIE).
-Bahnhof").
-initlocation(2,"Carminweg").
-sequence(2,0, "Burggasse-Stadthalle").
-possiblemeetinglocations("Frauengasse").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Ameisgasse").
-restaurant("Linzer Straße/Johnstraße").
-restaurant("Wr Neustadt Nord").
-restaurant("Strasshof Bahnhof").
-restaurant("Lazarettgasse").
-restaurant("Friedensbrücke").
+initlocation($p,"Rennweg").
+initlocation($p,"Kärntner Ring/Oper").
+initlocation($p,"Sonnergasse").
+initlocation($p,"Albertgasse").
+initlocation($p,"Volkstheater").
+initlocation($p,"Rennweg").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Absberggasse").
+restaurant("Kutschkergasse").
+restaurant("Seyring Bahnhof").
+restaurant("Herrengasse").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Satzberggasse").

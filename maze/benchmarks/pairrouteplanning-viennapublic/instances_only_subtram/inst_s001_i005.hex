@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Untertullnerbach Bahnhof").
-sequence(1,0, "Untertullnerbach Bahnhof").
+initlocation($p,"Burgring").
+initlocation($p,"Burgring").
 person(2).
-initlocation(2,"Marienbrücke").
-sequence(2,0, "Marienbrücke").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-restaurant("St Pölten Hauptbahnhof").
+initlocation($p,"Rauscherstraße").
+initlocation($p,"Rauscherstraße").
+possiblemeetinglocations("Schottenfeldgasse").
+restaurant("Oberradlberg Bahnhof").

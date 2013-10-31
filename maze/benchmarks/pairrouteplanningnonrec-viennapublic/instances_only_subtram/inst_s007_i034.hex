@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Leberberg").
-initlocation(1,"Achau Bahnhof").
-initlocation(1,"Gruschaplatz").
-initlocation(1,"Windtenstraße").
-initlocation(1,"Autokaderstraße").
-initlocation(1,"Wolfsthal Bahnhof").
-initlocation(1,"Hainburg/Donau Personenbhf").
-sequence(1,0, "Leberberg").
+initlocation($p,"Hofwiesengasse").
+initlocation($p,"Kärntner Ring/Oper").
+initlocation($p,"Lerchenfelder Straße").
+initlocation($p,"Weihburggasse").
+initlocation($p,"Hubertusdamm").
+initlocation($p,"Donaumarina").
+initlocation($p,"Schlickgasse").
+initlocation($p,"Hofwiesengasse").
 person(2).
-initlocation(2,"Gramatneusiedl Bahnhof").
-initlocation(2,"Hirschstetten").
-initlocation(2,"Preyergasse/Speising").
-initlocation(2,"Hernals").
-initlocation(2,"Mödling Bahnhof").
-initlocation(2,"Enkplatz").
-initlocation(2,"Shuttleworthstraße").
-sequence(2,0, "Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Hetzgasse").
-possiblemeetinglocations("Frauengasse").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Weinhauser Gasse").
-possiblemeetinglocations("Hardtgasse").
-restaurant("Donaustadtstraße").
-restaurant("Museumsquartier").
+initlocation($p,"Tulln Bahnhof").
+initlocation($p,"Otto-Probst-Straße").
+initlocation($p,"Taborstraße/Heinestraße").
+initlocation($p,"Liebknechtgasse").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Tulln Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Gusenleithnergasse").
+restaurant("Südtiroler Platz/Hauptbahnhof").
 restaurant("Hildebrandgasse").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Mühlfeldgasse").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Frödenplatz").
+restaurant("Krankenhaus Hietzing").
+restaurant("Arthaberplatz").
+restaurant("Pötzleinsdorf").
+restaurant("Schuhmeierplatz").
+restaurant("Baumgarten").

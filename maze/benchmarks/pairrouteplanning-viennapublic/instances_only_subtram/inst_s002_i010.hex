@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Donauzentrum").
-initlocation(1,"Lange Gasse").
-sequence(1,0, "Donauzentrum").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Ottakringer Str/Erdbrustgasse").
+initlocation($p,"Obereggendorf Bahnhof").
 person(2).
-initlocation(2,"Van-Swieten-Kaserne").
-initlocation(2,"Gewerbepark Stadlau Mitte").
-sequence(2,0, "Van-Swieten-Kaserne").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Franz-Asenbauer-Gasse").
-restaurant("Unterradlberg Bahnhof").
-restaurant("Taubstummengasse").
+initlocation($p,"Stockholmer Platz").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Stockholmer Platz").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Wittelsbachstraße").
+restaurant("Stockerau Bahnhof").
+restaurant("Dürrwien Bahnhof").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Brigittaplatz").
-initlocation(1,"Fichtnergasse").
-sequence(1,0, "Brigittaplatz").
+initlocation($p,"Carminweg").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Carminweg").
 person(2).
-initlocation(2,"Sierndorf Bahnhof").
-initlocation(2,"Siebensterngasse").
-sequence(2,0, "Sierndorf Bahnhof").
-possiblemeetinglocations("Johannes-Krawarik-Gasse").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-restaurant("Getzersdorf/Traisen Bahnhof").
-restaurant("Wolkersdorf Bahnhof").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Bernhardtstalgasse").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Klosterneuburg-Kierling Bf").
-initlocation(1,"Jedlersdorf").
-sequence(1,0, "Klosterneuburg-Kierling Bf").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Trondheimgasse").
+initlocation($p,"Perchtoldsdorf Bahnhof").
 person(2).
-initlocation(2,"Frödenplatz").
-initlocation(2,"Fasangasse").
-sequence(2,0, "Frödenplatz").
-possiblemeetinglocations("Wildgansplatz").
-possiblemeetinglocations("Braunschweiggasse").
-restaurant("Haidestraße").
-restaurant("Forstnergasse").
+initlocation($p,"Mayssengasse").
+initlocation($p,"Thaliastraße/Feßtgasse").
+initlocation($p,"Mayssengasse").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Karlsplatz").
+restaurant("Liesing").
+restaurant("Otto-Probst-Straße").

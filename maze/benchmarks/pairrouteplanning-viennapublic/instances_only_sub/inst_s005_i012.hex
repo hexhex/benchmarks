@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation(1,"Leobersdorf Bahnhof").
-initlocation(1,"Praterstern").
-initlocation(1,"Sollenau Bahnhof").
-initlocation(1,"Bruck/Leitha Bahnhof").
-sequence(1,0, "Leobendorf-Burg Kreuzenstn Bf").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Kritzendorf Bahnhof").
+initlocation($p,"Gaisruck Bahnhof").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
 person(2).
-initlocation(2,"Wolfsthal Bahnhof").
-initlocation(2,"Nußdorf").
-initlocation(2,"Wr Neustadt Nord").
-initlocation(2,"Quartier Belvedere").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-sequence(2,0, "Wolfsthal Bahnhof").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Burggasse-Stadthalle").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Messe-Prater").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Krottenbachstraße").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Stadtpark").
 possiblemeetinglocations("Atzgersdorf").
-restaurant("Purkersdorf Zentrum Bahnhof".
-restaurant("Aspernstraße".
-restaurant("Strebersdorf".
-restaurant("Neue Donau".
-restaurant("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+restaurant("Bahnhof Meidling").
+restaurant("Schottenring").
+restaurant("Leopoldau").
+restaurant("Schwedenplatz").
+restaurant("Alte Donau").

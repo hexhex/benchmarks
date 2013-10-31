@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Neulengbach Stadt Bahnhof").
-initlocation(1,"Wr Neustadt Nord").
-initlocation(1,"Brünner Straße").
-initlocation(1,"Niederkreuzstetten Bahnhof").
-sequence(1,0, "Neulengbach Stadt Bahnhof").
+initlocation($p,"Vinzenzgasse").
+initlocation($p,"Hardtgasse").
+initlocation($p,"Laurenzgasse").
+initlocation($p,"Laxenburger Straße/Troststraße").
+initlocation($p,"Vinzenzgasse").
 person(2).
-initlocation(2,"Mühlfeldgasse").
-initlocation(2,"Shuttleworthstraße").
-initlocation(2,"Strozzigasse").
-initlocation(2,"Plößlgasse").
-sequence(2,0, "Mühlfeldgasse").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Grinzing").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-restaurant("Bad Vöslau Bahnhof").
-restaurant("Quellenstraße/Favoritenstraße").
-restaurant("Praterkai").
-restaurant("Trondheimgasse").
+initlocation($p,"Sickenberggasse").
+initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Fischamend Bahnhof").
+initlocation($p,"Sickenberggasse").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Laaer-Berg-Straße").
+restaurant("Mariahilfer Gürtel").
+restaurant("Prandaugasse").
+restaurant("Rebhanngasse").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").

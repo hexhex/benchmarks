@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Sollenau Bahnhof").
-initlocation(1,"Obere Donaustraße").
-sequence(1,0, "Sollenau Bahnhof").
+initlocation($p,"Seegasse").
+initlocation($p,"Paradisgasse").
+initlocation($p,"Seegasse").
 person(2).
-initlocation(2,"Frödenplatz").
-initlocation(2,"Polgarstraße").
-sequence(2,0, "Frödenplatz").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-possiblemeetinglocations("Hütteldorf").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Hardtgasse").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Sieveringer Straße").
+initlocation($p,"Hofstatt Bahnhof").
+possiblemeetinglocations("Trondheimgasse").
+possiblemeetinglocations("Zentralfriedhof").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Kagran").

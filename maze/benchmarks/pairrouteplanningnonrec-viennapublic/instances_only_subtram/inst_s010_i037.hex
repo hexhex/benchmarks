@@ -1,44 +1,44 @@
 person(1).
-initlocation(1,"Siemensstraße").
-initlocation(1,"Römergasse").
-initlocation(1,"Schottentor").
-initlocation(1,"St Pölten Traisenpark P+R Nord").
-initlocation(1,"Thaliastraße/Brunnengasse").
-initlocation(1,"Donauinsel").
-initlocation(1,"Hardtgasse").
-initlocation(1,"Gottschalkgasse/Enkplatz").
-initlocation(1,"Rustengasse").
-initlocation(1,"Aßmayergasse").
-sequence(1,0, "Siemensstraße").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Keplerplatz").
+initlocation($p,"Favoritenstraße/Troststraße").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Alaudagasse").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+initlocation($p,"Löwengasse").
+initlocation($p,"Achau Bahnhof").
+initlocation($p,"Strozzigasse").
+initlocation($p,"Parndorf Ort Bahnhof").
 person(2).
-initlocation(2,"Unter Kritzendorf Bahnhof").
-initlocation(2,"Gerhardusgasse").
-initlocation(2,"Kardinal-Nagl-Platz").
-initlocation(2,"Erlaaer Straße").
-initlocation(2,"Ottakring").
-initlocation(2,"Prater, Hauptallee").
-initlocation(2,"Donaumarina").
-initlocation(2,"Trasdorf Bahnhof").
-initlocation(2,"Weinheimergasse").
-initlocation(2,"Herzogenburg Stadt").
-sequence(2,0, "Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Valiergasse").
-possiblemeetinglocations("Schleiergasse").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Liechtenwerder Platz").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Wildgansplatz").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Gredlerstraße").
-restaurant("Am Tabor").
-restaurant("Blumental").
-restaurant("Pantucekgasse/Widholzgasse").
-restaurant("Schottentor").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Unteres Belvedere").
-restaurant("Guneschgasse").
-restaurant("Sahulkastraße").
-restaurant("Penzinger Straße").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Stadion").
+initlocation($p,"Beingasse").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Volkstheater").
+initlocation($p,"Laaer-Berg-Straße").
+initlocation($p,"Kledering Bahnhof").
+initlocation($p,"Gußhausstraße").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Knöllgasse/Davidgasse").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Stadion").
+possiblemeetinglocations("Kaiserstraße").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+restaurant("Karmeliterplatz").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Paasdorf Bahnhof").
+restaurant("Wexstraße").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("Handelskai").
+restaurant("Donauzentrum").
+restaurant("Blechturmgasse").
+restaurant("Purkersdorf Zentrum Bahnhof").

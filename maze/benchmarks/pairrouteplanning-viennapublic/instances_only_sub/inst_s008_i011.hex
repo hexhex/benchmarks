@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Schottentor").
-initlocation(1,"Kottingbrunn Bahnhof").
-initlocation(1,"Sankt Marx").
-initlocation(1,"Mannswörth Bahnhof").
-initlocation(1,"Neulengbach Bahnhof").
-initlocation(1,"Atzgersdorf").
-initlocation(1,"Aspernstraße").
-initlocation(1,"Sierndorf Bahnhof").
-sequence(1,0, "Schottentor").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Nußdorf").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Leopoldau").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Oberolberndorf Bahnhof").
 person(2).
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"St Pölten Hauptbahnhof").
-initlocation(2,"Achau Bahnhof").
-initlocation(2,"Sarasdorf Bahnhof").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Herzogenburg Stadt").
-initlocation(2,"Fischamend Bahnhof").
-initlocation(2,"Unter Sankt Veit").
-sequence(2,0, "Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Hardeggasse").
-restaurant("Taborstraße".
-restaurant("Sarasdorf Bahnhof".
-restaurant("Sankt Marx".
-restaurant("Muckendorf-Wipfing Bahnhof".
-restaurant("Purkersdorf Sanatorium".
-restaurant("Hofstatt Bahnhof".
-restaurant("Untereggendorf Bahnhof".
-restaurant("Penzing").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation($p,"Erdberg").
+initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Penzing").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Schönbrunn").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Seyring Bahnhof").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Bisamberg Bahnhof").
+restaurant("Retz Bahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Götzendorf Bahnhof").

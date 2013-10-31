@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Zellerndorf Bahnhof").
-initlocation(1,"Atzenbrugg Bahnhof").
-initlocation(1,"Ebreichsdorf Bahnhof").
-initlocation(1,"Untertullnerbach Bahnhof").
-sequence(1,0, "Zellerndorf Bahnhof").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Siebenhirten").
 person(2).
-initlocation(2,"Pfaffstätten Bahnhof").
-initlocation(2,"Wampersdorf Bahnhof").
-initlocation(2,"Niederhofstraße").
-initlocation(2,"Herzogenburg Stadt").
-sequence(2,0, "Pfaffstätten Bahnhof").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Götzendorf Bahnhof").
-restaurant("Getzersdorf/Traisen Bahnhof".
-restaurant("Niederkreuzstetten Bahnhof".
-restaurant("Hautzendorf Bahnhof".
-restaurant("Hütteldorfer Straße").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Hirschstetten").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Oberolberndorf Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Praterkai").
+restaurant("Rennbahnweg").
+restaurant("Pilgramgasse").
+restaurant("Achau Bahnhof").
+restaurant("Korneuburg Bahnhof").

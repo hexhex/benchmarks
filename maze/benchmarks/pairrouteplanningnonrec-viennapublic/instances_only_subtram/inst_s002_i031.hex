@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Enkplatz").
-initlocation(1,"Zippererstraße").
-sequence(1,0, "Enkplatz").
+initlocation($p,"Klosterneub Str/Wallensteinstr").
+initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation($p,"Klosterneub Str/Wallensteinstr").
 person(2).
-initlocation(2,"Resselgasse").
-initlocation(2,"Hofwiesengasse").
-sequence(2,0, "Resselgasse").
-possiblemeetinglocations("Hermesstraße").
-possiblemeetinglocations("Anton-Schall-Gasse").
-restaurant("Alte Donau").
-restaurant("Hietzing").
+initlocation($p,"Stadtpark").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Stadtpark").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Nordbahnstraße").
+restaurant("Frauengasse").
+restaurant("Sillerplatz").

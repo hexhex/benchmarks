@@ -1,60 +1,60 @@
 person(1).
-initlocation(1,"Laurenzgasse").
-initlocation(1,"Bahnhofstraße").
-initlocation(1,"Rebhanngasse").
-initlocation(1,"Ameisgasse").
-initlocation(1,"Waidhausenstraße").
-initlocation(1,"Schwarzenbergplatz").
-initlocation(1,"Arminenstraße").
-initlocation(1,"Ober Sankt Veit").
-initlocation(1,"Purkersdorf Sanatorium").
-initlocation(1,"Jagdschloßgasse").
-initlocation(1,"Göllersdorf Bahnhof").
-initlocation(1,"Wittelsbachstraße").
-initlocation(1,"Jägerstraße").
-initlocation(1,"Gemeinlebarn Bahnhof").
-sequence(1,0, "Laurenzgasse").
+initlocation($p,"Marienbrücke").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Döblinger Hauptstr/Gatterburgg").
+initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation($p,"Kraygasse").
+initlocation($p,"Donaustadtstraße").
+initlocation($p,"Wienerbergbrücke").
+initlocation($p,"Göllersdorf Bahnhof").
+initlocation($p,"Florianigasse").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Stiftgasse").
+initlocation($p,"Breitensee").
+initlocation($p,"Traisengasse").
+initlocation($p,"Marienbrücke").
 person(2).
-initlocation(2,"Laxenburger Straße/Troststraße").
-initlocation(2,"Burggasse-Stadthalle").
-initlocation(2,"Kritzendorf Bahnhof").
-initlocation(2,"Stockerau Bahnhof").
-initlocation(2,"Sarasdorf Bahnhof").
-initlocation(2,"Hütteldorfer Str/Lützowgasse").
-initlocation(2,"Franz-Asenbauer-Gasse").
-initlocation(2,"Donaumarina").
-initlocation(2,"Kendlerstraße").
-initlocation(2,"Mistelbach Stadt").
-initlocation(2,"Ungargasse/Neulinggasse").
-initlocation(2,"Kledering Bahnhof").
-initlocation(2,"Roßauer Lände").
-initlocation(2,"Kaiserstraße/Neustiftgasse").
-sequence(2,0, "Laxenburger Straße/Troststraße").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Strebersdorf").
+initlocation($p,"Franzensbrücke").
+initlocation($p,"Empergergasse").
+initlocation($p,"Siebensterngasse").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Prinzgasse").
+initlocation($p,"Schottentor").
+initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Trondheimgasse").
+initlocation($p,"Donaustadtstraße").
+initlocation($p,"Liebknechtgasse").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation($p,"Franzensbrücke").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Shuttleworthstraße").
 possiblemeetinglocations("Paulanergasse").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Hoßplatz").
-possiblemeetinglocations("Alfred-Adler-Straße").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Molitorgasse").
-possiblemeetinglocations("Floridsdorfer Markt").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Kledering Bahnhof").
-restaurant("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Kraygasse").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Plößlgasse").
+restaurant("Schottenring").
+restaurant("Hardeggasse").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Eckpergasse").
+restaurant("Sensengasse").
 restaurant("Wildgansplatz").
-restaurant("Oberdöbling").
-restaurant("Bösendorferstraße").
-restaurant("Erdberg").
-restaurant("Fultonstraße").
-restaurant("Kärntner Ring/Oper").
-restaurant("Perntergasse").
-restaurant("Edmund-Hawranek-Platz").
-restaurant("Neulengbach Bahnhof").
-restaurant("Perfektastraße").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Gloriettegasse").
-restaurant("Donauzentrum").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Jägerstraße").
+restaurant("Winckelmannstraße").
+restaurant("Mistelbach Bahnhof").

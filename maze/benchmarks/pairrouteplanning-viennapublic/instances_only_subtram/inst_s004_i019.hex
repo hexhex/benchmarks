@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Canisiusgasse").
-initlocation(1,"Koppstraße/Panikengasse").
-initlocation(1,"Gerstnerstraße/Westbhf").
-initlocation(1,"Strozzigasse").
-sequence(1,0, "Canisiusgasse").
+initlocation($p,"Rußbergstraße").
+initlocation($p,"Rankgasse").
+initlocation($p,"Kagraner Brücke").
+initlocation($p,"Prinzgasse").
+initlocation($p,"Rußbergstraße").
 person(2).
-initlocation(2,"Hütteldorfer Straße").
-initlocation(2,"Rebhanngasse").
-initlocation(2,"Neue Donau").
-initlocation(2,"Nußdorf, Beethovengang").
-sequence(2,0, "Hütteldorfer Straße").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Linzer Straße/Reinlgasse").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Schmerlingplatz").
-restaurant("Franz-Asenbauer-Gasse").
-restaurant("Schottentor").
-restaurant("Gerstnerstraße/Westbhf").
-restaurant("Kaiser-Franz-Josef-Straße").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Götzendorf Bahnhof").
+initlocation($p,"Pantucekgasse/Widholzgasse").
+initlocation($p,"Alser Straße").
+initlocation($p,"Margaretengürtel").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Schuhmeierplatz").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof").

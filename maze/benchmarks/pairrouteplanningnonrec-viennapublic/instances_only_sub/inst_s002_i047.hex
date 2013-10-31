@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Trautmannsdorf/Leitha Bf").
-initlocation(1,"Korneuburg Bahnhof").
-sequence(1,0, "Trautmannsdorf/Leitha Bf").
+initlocation($p,"Donauinsel").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Donauinsel").
 person(2).
-initlocation(2,"Am Schöpfwerk").
-initlocation(2,"Bisamberg Bahnhof").
-sequence(2,0, "Am Schöpfwerk").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-restaurant("Strasshof Bahnhof".
-restaurant("Praterkai").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation($p,"Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Praterstern").

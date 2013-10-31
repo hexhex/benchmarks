@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Ottakring").
-initlocation(1,"Rennbahnweg").
-initlocation(1,"Museumsquartier").
-initlocation(1,"Preyergasse/Speising").
-initlocation(1,"Messe-Prater").
-initlocation(1,"Landstraße-Wien Mitte").
-sequence(1,0, "Ottakring").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Breitensee").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Michelbeuern-AKH").
+initlocation($p,"Schleinbach Bahnhof").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Strebersdorf").
 person(2).
-initlocation(2,"Stephansplatz").
-initlocation(2,"Schottenring").
-initlocation(2,"Erdberg").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Laa an der Thaya Bahnhof").
-initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
-sequence(2,0, "Stephansplatz").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-restaurant("Unterradlberg Bahnhof".
-restaurant("Absdorf-Hippersdorf Bahnhof".
-restaurant("Trasdorf Bahnhof".
-restaurant("Wilfleinsdorf Bahnhof".
-restaurant("Frättingsdorf Bahnhof".
-restaurant("Pilgramgasse").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Guntramsdorf-Thallern").
+initlocation($p,"Stubentor").
+initlocation($p,"Dürrwien Bahnhof").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Zieglergasse").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Schwedenplatz").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Penzing").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Neubaugasse").

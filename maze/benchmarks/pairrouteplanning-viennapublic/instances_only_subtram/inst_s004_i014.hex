@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Hörersdorf Bahnhof").
-initlocation(1,"Gersthof").
-initlocation(1,"Gasometer").
-initlocation(1,"Oberfeldgasse").
-sequence(1,0, "Hörersdorf Bahnhof").
+initlocation($p,"Haidestraße").
+initlocation($p,"Hietzing").
+initlocation($p,"Laxenburger Straße/Troststraße").
+initlocation($p,"Liesing").
+initlocation($p,"Haidestraße").
 person(2).
-initlocation(2,"Grinzinger Straße").
-initlocation(2,"Sahulkastraße").
-initlocation(2,"Augasse").
-initlocation(2,"Zieglergasse/Westbahnstraße").
-sequence(2,0, "Grinzinger Straße").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Perntergasse").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Stollgasse").
-restaurant("Rankgasse").
-restaurant("Rennbahnweg").
-restaurant("Johnstraße").
-restaurant("Friedensbrücke").
+initlocation($p,"Handelskai").
+initlocation($p,"Hohe Warte").
+initlocation($p,"Gersthofer Str/Scheibenbergstr").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Handelskai").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Schöffelgasse").
+restaurant("Tesarekplatz").

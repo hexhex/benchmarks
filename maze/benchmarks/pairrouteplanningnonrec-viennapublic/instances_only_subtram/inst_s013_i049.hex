@@ -1,56 +1,56 @@
 person(1).
-initlocation(1,"Saikogasse").
-initlocation(1,"Schwarzenbergplatz").
-initlocation(1,"Hermesstraße").
-initlocation(1,"Gruschaplatz").
-initlocation(1,"Gaußplatz").
-initlocation(1,"Geiereckstraße").
-initlocation(1,"Prater, Hauptallee").
-initlocation(1,"Oberzellergasse").
-initlocation(1,"Otto-Probst-Straße").
-initlocation(1,"Taborstraße/Heinestraße").
-initlocation(1,"Koppstraße/Panikengasse").
-initlocation(1,"Paulanergasse").
-initlocation(1,"Gumpendorfer Straße").
-sequence(1,0, "Saikogasse").
+initlocation($p,"Floridsdorfer Markt").
+initlocation($p,"Hadersdorf Bahnhof").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Fultonstraße").
+initlocation($p,"Stadlergasse").
+initlocation($p,"Staglgasse").
+initlocation($p,"Diesterweggasse").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Fasangasse").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Zentralfriedhof 2Tor").
+initlocation($p,"Volkstheater").
+initlocation($p,"Floridsdorfer Markt").
 person(2).
-initlocation(2,"Thaliastraße").
-initlocation(2,"Halteraugasse").
-initlocation(2,"Kendlerstraße").
-initlocation(2,"Hetzgasse").
-initlocation(2,"Blumental").
-initlocation(2,"Huglgasse").
-initlocation(2,"Weinhauser Gasse").
-initlocation(2,"Donauzentrum").
-initlocation(2,"Niederhofstraße").
-initlocation(2,"Johnstraße").
-initlocation(2,"Regelsbrunn Bahnhof").
-initlocation(2,"Kaiser-Franz-Josef-Straße").
-initlocation(2,"Hainburg/Donau Personenbhf").
-sequence(2,0, "Thaliastraße").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Gruschaplatz").
-possiblemeetinglocations("Obere Donaustraße").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Knöllgasse/Davidgasse").
-possiblemeetinglocations("Sieveringer Straße").
+initlocation($p,"Breitenfurter St/Altmannsd Str").
+initlocation($p,"Lerchenfelder Straße").
+initlocation($p,"Edmund-Hawranek-Platz").
+initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation($p,"Seestadt").
+initlocation($p,"Langobardenstraße/Kapellenweg").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Neulengbach Bahnhof").
+initlocation($p,"Plößlgasse").
+initlocation($p,"Rothneusiedl").
+initlocation($p,"Kutschkergasse").
+initlocation($p,"Gerhardusgasse").
+initlocation($p,"Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
 possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Wattmanngasse").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Hofstatt Bahnhof").
-restaurant("Wienerfeldgasse").
-restaurant("Aßmayergasse").
-restaurant("Schleiergasse").
-restaurant("Resselgasse").
-restaurant("Aderklaaer Straße").
-restaurant("Hofstatt Bahnhof").
-restaurant("Carminweg").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Rochusgasse").
-restaurant("Pokornygasse").
-restaurant("Sechskrügelgasse").
-restaurant("Trautmannsdorf/Leitha Bf").
-restaurant("Floridsdorf").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Quellenplatz").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Kraygasse").
+restaurant("Am Heumarkt").
+restaurant("Aspern, Oberdorfstraße").
+restaurant("Obersdorf Bahnhof").
+restaurant("Matthäus-Jiszda-Straße").
+restaurant("Herbeckstraße").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Reumannplatz").
+restaurant("Traismauer Bahnhof").
+restaurant("Columbusplatz").
+restaurant("Kaiserebersdorf").
+restaurant("Dürrwien Bahnhof").
+restaurant("Haslau an der Donau Bahnhof").

@@ -1,44 +1,44 @@
 person(1).
-initlocation(1,"Arminenstraße").
-initlocation(1,"Stadtpark").
-initlocation(1,"Winckelmannstraße").
-initlocation(1,"Koppstraße/Panikengasse").
-initlocation(1,"Thaliastraße/Feßtgasse").
-initlocation(1,"Zieglergasse/Westbahnstraße").
-initlocation(1,"Tscherttegasse").
-initlocation(1,"Oberfeldgasse").
-initlocation(1,"Kledering Bahnhof").
-initlocation(1,"Lobau").
-sequence(1,0, "Arminenstraße").
+initlocation($p,"Zieglergasse").
+initlocation($p,"Ober Sankt Veit").
+initlocation($p,"Thaliastraße/Maroltingergasse").
+initlocation($p,"Gredlerstraße").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Strozzigasse").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Ottakring").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Zieglergasse").
 person(2).
-initlocation(2,"Hütteldorfer Str/Lützowgasse").
-initlocation(2,"Unter Sankt Veit").
-initlocation(2,"Obere Donaustraße").
-initlocation(2,"Hennersdorf Bahnhof").
-initlocation(2,"Johann-Strauß-Gasse").
-initlocation(2,"Absberggasse").
-initlocation(2,"Dornbacher Straße").
-initlocation(2,"Wilhelminenstr/Sandleitengasse").
-initlocation(2,"Troststraße/Neilreichgasse").
-initlocation(2,"Leyserstraße").
-sequence(2,0, "Hütteldorfer Str/Lützowgasse").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Oberfeldgasse").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Gerhardusgasse").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Frödenplatz").
-possiblemeetinglocations("Lainz, Wolkersbergenstraße").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-restaurant("Schlickgasse").
-restaurant("Seegasse").
-restaurant("Traismauer Bahnhof").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Zentralfriedhof 4Tor").
-restaurant("Winkeläckerstraße").
-restaurant("Aumannplatz").
-restaurant("Schwedenplatz").
-restaurant("Kettenbrückengasse").
-restaurant("Ober Sankt Veit").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Maria Ellend Bahnhof").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Weißenböckstraße").
+initlocation($p,"Hernals").
+initlocation($p,"Rennweg").
+initlocation($p,"Maurer Lange Gasse").
+initlocation($p,"Römergasse").
+initlocation($p,"Windtenstraße").
+initlocation($p,"Pokornygasse").
+initlocation($p,"Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Rodaun").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Hildebrandgasse").
+restaurant("Braunschweiggasse").
+restaurant("Hardtgasse").
+restaurant("Gasometer").
+restaurant("Redtenbachergasse").
+restaurant("Josefstädter Straße").
+restaurant("Carminweg").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Rustengasse").

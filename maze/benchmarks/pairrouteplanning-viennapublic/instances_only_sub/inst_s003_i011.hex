@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Hollabrunn Bahnhof").
-initlocation(1,"Helmahof Bahnhof").
-initlocation(1,"Hirschstetten").
-sequence(1,0, "Hollabrunn Bahnhof").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation($p,"Pressbaum Bahnhof").
 person(2).
-initlocation(2,"Laa an der Thaya Bahnhof").
-initlocation(2,"Neulengbach Bahnhof").
-initlocation(2,"Oberradlberg Bahnhof").
-sequence(2,0, "Laa an der Thaya Bahnhof").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-restaurant("Mödling Bahnhof".
-restaurant("Mistelbach Stadt".
-restaurant("Donaumarina").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Schottentor").
+initlocation($p,"Rennbahnweg").
+initlocation($p,"Aderklaaer Straße").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+restaurant("Donauinsel").
+restaurant("Jägerstraße").
+restaurant("Maria Anzbach Bahnhof").

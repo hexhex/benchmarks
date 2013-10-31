@@ -1,60 +1,60 @@
 person(1).
-initlocation(1,"Dresdner Straße").
-initlocation(1,"Franz-Josefs-Bahnhof").
-initlocation(1,"Leobersdorf Bahnhof").
-initlocation(1,"Verbindungsbahn").
-initlocation(1,"Getzersdorf/Traisen Bahnhof").
-initlocation(1,"Unteres Belvedere").
-initlocation(1,"Traisengasse").
-initlocation(1,"Thaliastraße/Brunnengasse").
-initlocation(1,"Langenlebarn Bahnhof").
-initlocation(1,"Oberzellergasse").
-initlocation(1,"Laaer-Berg-Straße").
-initlocation(1,"Siebertgasse").
-initlocation(1,"Oberfeldgasse/Spargelfeldstr").
-initlocation(1,"Blumengasse").
-sequence(1,0, "Dresdner Straße").
+initlocation($p,"Gruschaplatz").
+initlocation($p,"Hermesstraße").
+initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation($p,"Floridsdorfer Markt").
+initlocation($p,"Alte Donau").
+initlocation($p,"Spittelau").
+initlocation($p,"Polkorabplatz").
+initlocation($p,"Oberfeldgasse").
+initlocation($p,"Thaliastraße/Haberlgasse").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Forstnergasse").
+initlocation($p,"Mistelbach Bahnhof").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Sieveringer Straße").
+initlocation($p,"Gruschaplatz").
 person(2).
-initlocation(2,"Stadion").
-initlocation(2,"Hetzgasse").
-initlocation(2,"Diesterweggasse").
-initlocation(2,"Zentralfriedhof 2Tor").
-initlocation(2,"Stollgasse").
-initlocation(2,"Gersthof").
-initlocation(2,"Linzer Straße/Zehetnergasse").
-initlocation(2,"Lederergasse").
-initlocation(2,"Helmahof Bahnhof").
-initlocation(2,"Kärntner Ring/Oper").
-initlocation(2,"Hainburg/Donau Ungartor/B9").
-initlocation(2,"Großfeldsiedlung").
-initlocation(2,"Am Spitz").
-initlocation(2,"Reumannplatz").
-sequence(2,0, "Stadion").
-possiblemeetinglocations("Gaußplatz").
-possiblemeetinglocations("Carabelligasse").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Wittelsbachstraße").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Hubertusdamm").
-possiblemeetinglocations("Laudongasse").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Aßmayergasse").
-possiblemeetinglocations("Franz-Asenbauer-Gasse").
-possiblemeetinglocations("Bahnhofstraße").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Haidestraße").
-restaurant("Alte Donau").
-restaurant("Hernalser Gürtel").
-restaurant("Mödling Bahnhof").
-restaurant("Wr Neustadt Nord").
-restaurant("Obere Donaustraße").
-restaurant("Paradisgasse").
+initlocation($p,"Aßmayergasse").
+initlocation($p,"Haidestraße").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Arthaberplatz").
+initlocation($p,"Laa an der Thaya Bahnhof").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Langobardenstraße/Kapellenweg").
+initlocation($p,"Taborstraße/Heinestraße").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Oberfeldgasse").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Schweglerstraße").
+initlocation($p,"Aßmayergasse").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+restaurant("Schönbrunn").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Skodagasse").
+restaurant("Döblinger Bad").
+restaurant("Prater, Hauptallee").
+restaurant("Schlickgasse").
+restaurant("Thaliastraße/Haberlgasse").
+restaurant("Nestroyplatz").
+restaurant("Sensengasse").
 restaurant("Glatzgasse").
-restaurant("Spittelau").
-restaurant("Michelhausen Bahnhof").
-restaurant("Gaisruck Bahnhof").
-restaurant("Johann-Strauß-Gasse").
-restaurant("Trautmannsdorf/Leitha Bf").
-restaurant("Diesterweggasse").
-restaurant("Taborstraße/Heinestraße").
+restaurant("Langobardenstraße").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Vorgartenstraße").
+restaurant("Fischamend Bahnhof").

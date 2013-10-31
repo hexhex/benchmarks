@@ -1,25 +1,24 @@
 person(1).
-initlocation(1,"Praterstern").
-initlocation(1,"Tulln Stadt Bahnhof").
-initlocation(1,"Gumpoldskirchen Bahnhof").
-initlocation(1,"Ladendorf Bahnhof").
-initlocation(1,"Perfektastraße").
-sequence(1,0, "Praterstern").
+initlocation($p,"Breitensee").
+initlocation($p,"Penzing").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation($p,"Breitensee").
 person(2).
-initlocation(2,"Kagran").
-initlocation(2,"Herzogenburg Stadt").
-initlocation(2,"Langenzersdorf Bahnhof").
-initlocation(2,"Stockerau Bahnhof").
-initlocation(2,"Wr Neustadt Civitas Nova").
-sequence(2,0, "Kagran").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Schwedenplatz").
-restaurant("Weigelsdorf Bahnhof".
-restaurant("Penzing".
-restaurant("Purkersdorf Zentrum Bahnhof".
-restaurant("Flughafen Wien (VIE.
-Bahnhof".
-restaurant("Kapellerfeld Bahnhof").
+initlocation($p,"Handelskai").
+initlocation($p,"Paasdorf Bahnhof").
+initlocation($p,"Alte Donau").
+initlocation($p,"Blumental").
+initlocation($p,"Spillern Bahnhof").
+initlocation($p,"Handelskai").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Mistelbach Stadt").
+restaurant("Strasshof Bahnhof").
+restaurant("Donauinsel").
+restaurant("Felixdorf Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Gumpendorfer Straße").

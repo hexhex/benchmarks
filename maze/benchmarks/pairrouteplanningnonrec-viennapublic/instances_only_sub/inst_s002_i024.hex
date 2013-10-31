@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Strasshof Bahnhof").
-initlocation(1,"Südtiroler Platz/Hauptbahnhof").
-sequence(1,0, "Strasshof Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation($p,"Helmahof Bahnhof").
 person(2).
-initlocation(2,"Rennbahnweg").
-initlocation(2,"Enkplatz").
-sequence(2,0, "Rennbahnweg").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-possiblemeetinglocations("Schweglerstraße").
-restaurant("Leobendorf-Burg Kreuzenstn Bf".
-restaurant("Wampersdorf Bahnhof").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Viehofen Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+restaurant("Hausleiten Bahnhof").
+restaurant("Oberdöbling").

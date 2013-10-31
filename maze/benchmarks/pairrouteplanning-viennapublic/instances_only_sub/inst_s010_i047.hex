@@ -1,45 +1,44 @@
 person(1).
-initlocation(1,"Haidestraße").
-initlocation(1,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(1,"Wr Neustadt Nord").
-initlocation(1,"Großfeldsiedlung").
-initlocation(1,"Sierndorf Bahnhof").
-initlocation(1,"Schweglerstraße").
-initlocation(1,"Felixdorf Bahnhof").
-initlocation(1,"Jedlersdorf").
-initlocation(1,"Zentralfriedhof").
-initlocation(1,"Mannswörth Bahnhof").
-sequence(1,0, "Haidestraße").
+initlocation($p,"Penzing").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Haidestraße").
+initlocation($p,"Liesing").
+initlocation($p,"Schlachthausgasse").
+initlocation($p,"Oberradlberg Bahnhof").
+initlocation($p,"Rekawinkel Bahnhof").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Penzing").
 person(2).
-initlocation(2,"Kapellerfeld Bahnhof").
-initlocation(2,"Sankt Marx").
-initlocation(2,"Pottendorf-Landegg Bahnhof").
-initlocation(2,"Gaisruck Bahnhof").
-initlocation(2,"Nestroyplatz").
-initlocation(2,"Michelhausen Bahnhof").
-initlocation(2,"Hautzendorf Bahnhof").
-initlocation(2,"Wolfsthal Bahnhof").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Alte Donau").
-sequence(2,0, "Kapellerfeld Bahnhof").
-possiblemeetinglocations("Kagraner Platz").
+initlocation($p,"Langenzersdorf Bahnhof").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Schönbrunn").
+initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Strebersdorf").
+initlocation($p,"Parndorf Ort Bahnhof").
+initlocation($p,"Langenzersdorf Bahnhof").
 possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Ladendorf Bahnhof").
 possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Lobau").
-restaurant("Nestroyplatz".
-restaurant("Längenfeldgasse".
-restaurant("Burggasse-Stadthalle".
-restaurant("Friedensbrücke".
-restaurant("Sankt Marx".
-restaurant("Volkstheater".
-restaurant("Josefstädter Straße".
-restaurant("Erlaaer Straße".
-restaurant("Guntramsdorf-Thallern".
-restaurant("Neulengbach Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+restaurant("Rathaus").
+restaurant("Alte Donau").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Margaretengürtel").
+restaurant("Neubaugasse").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Strebersdorf").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Hadersdorf Bahnhof").

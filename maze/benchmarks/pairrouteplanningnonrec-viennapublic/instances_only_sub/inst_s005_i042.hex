@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Traismauer Bahnhof").
-initlocation(1,"Nußdorf").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Schönborn Bahnhof").
-initlocation(1,"Wolkersdorf Bahnhof").
-sequence(1,0, "Traismauer Bahnhof").
+initlocation($p,"Viehofen Bahnhof").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Viehofen Bahnhof").
 person(2).
-initlocation(2,"Großfeldsiedlung").
-initlocation(2,"Götzendorf Bahnhof").
-initlocation(2,"Atzenbrugg Bahnhof").
-initlocation(2,"Dresdner Straße").
-initlocation(2,"Purkersdorf Sanatorium").
-sequence(2,0, "Großfeldsiedlung").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Neue Donau").
-restaurant("Leobersdorf Bahnhof".
-restaurant("Michelhausen Bahnhof".
-restaurant("Wolkersdorf Bahnhof".
-restaurant("Tulln Stadt Bahnhof".
-restaurant("Gerasdorf Bahnhof").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Theresienfeld Bahnhof").
+initlocation($p,"Leobersdorf Bahnhof").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Kledering Bahnhof").
+initlocation($p,"Hausfeldstraße").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Erdberg").
+restaurant("Thaliastraße").
+restaurant("Herrengasse").
+restaurant("Unteroberndorf Bahnhof").

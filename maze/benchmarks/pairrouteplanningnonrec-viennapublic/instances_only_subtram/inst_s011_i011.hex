@@ -1,48 +1,48 @@
 person(1).
-initlocation(1,"Silberwald Bahnhof").
-initlocation(1,"Döblinger Bad").
-initlocation(1,"Johann-Nepomuk-Berger-Platz").
-initlocation(1,"Aspern Nord").
-initlocation(1,"Camillo-Sitte-Gasse").
-initlocation(1,"Kutschkergasse").
-initlocation(1,"Krottenbachstraße").
-initlocation(1,"Spittelau").
-initlocation(1,"Rathaus").
-initlocation(1,"Burggasse-Stadthalle").
-initlocation(1,"Aspern, Oberdorfstraße").
-sequence(1,0, "Silberwald Bahnhof").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
+initlocation($p,"Carminweg").
+initlocation($p,"Atzgersdorfer Straße").
+initlocation($p,"Dresdner Straße").
+initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation($p,"Breitenfurter Str/Liesingbr").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Kölblgasse").
+initlocation($p,"Johannes-Krawarik-Gasse").
+initlocation($p,"Oberfeldgasse/Spargelfeldstr").
 person(2).
-initlocation(2,"Paulanergasse").
-initlocation(2,"Rampengasse").
-initlocation(2,"Josef-Baumann-Gasse").
-initlocation(2,"Donauzentrum").
-initlocation(2,"Zieglergasse/Westbahnstraße").
-initlocation(2,"Shuttleworthstraße").
-initlocation(2,"Glatzgasse").
-initlocation(2,"Hietzing").
-initlocation(2,"Strebersdorf").
-initlocation(2,"Neusiedl am See Bahnhof").
-initlocation(2,"Am Heidjöchl").
-sequence(2,0, "Paulanergasse").
-possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
-possiblemeetinglocations("Van-Swieten-Kaserne").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Nordwestbahnstraße").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Braunhubergasse").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Liebknechtgasse").
-possiblemeetinglocations("Hardtgasse").
-possiblemeetinglocations("Oberzellergasse").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-restaurant("Innstraße").
-restaurant("Koppstraße/Panikengasse").
-restaurant("Großjedlersdorf").
-restaurant("Arthaberplatz").
-restaurant("Kaiserstraße/Neustiftgasse").
-restaurant("Gemeinlebarn Bahnhof").
+initlocation($p,"Hütteldorf").
+initlocation($p,"Gunoldstraße").
+initlocation($p,"Erndtgasse").
+initlocation($p,"Arminenstraße").
+initlocation($p,"Schuhmeierplatz").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Preyergasse/Speising").
+initlocation($p,"Hofwiesengasse").
+initlocation($p,"Edmund-Hawranek-Platz").
+initlocation($p,"Canisiusgasse").
+initlocation($p,"Alsegger Straße").
+initlocation($p,"Hütteldorf").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Längenfeldgasse").
 restaurant("Baumgasse").
-restaurant("Forstnergasse").
-restaurant("Siemensstraße").
-restaurant("Alaudagasse").
-restaurant("Viehmarktgasse").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Oberzellergasse").
+restaurant("Gatterburggasse").
+restaurant("Mistelbach Stadt").
+restaurant("Salztorbrücke").
+restaurant("Sankt Marx").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Seegasse").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Stadiongasse/Parlament").

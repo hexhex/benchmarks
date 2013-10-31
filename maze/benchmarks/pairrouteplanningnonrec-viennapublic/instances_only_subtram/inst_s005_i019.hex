@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Kottingneusiedl Bahnhof").
-initlocation(1,"Seyring Bahnhof").
-initlocation(1,"Sieveringer Straße").
-initlocation(1,"Gramatneusiedl Bahnhof").
-initlocation(1,"Alaudagasse").
-sequence(1,0, "Kottingneusiedl Bahnhof").
+initlocation($p,"Simonygasse").
+initlocation($p,"Hermesstraße").
+initlocation($p,"Migerkastraße").
+initlocation($p,"Gasometer").
+initlocation($p,"Grillgasse").
+initlocation($p,"Simonygasse").
 person(2).
-initlocation(2,"Herrengasse").
-initlocation(2,"Purkersdorf Zentrum Bahnhof").
-initlocation(2,"Gerasdorf Bahnhof").
-initlocation(2,"Edmund-Hawranek-Platz").
-initlocation(2,"Döblinger Hauptstr/Gatterburgg").
-sequence(2,0, "Herrengasse").
-possiblemeetinglocations("Himmelmutterweg").
-possiblemeetinglocations("Zentralfriedhof 2Tor").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Autokaderstraße").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-restaurant("Kendlerstraße").
-restaurant("Höflein an der Donau Bahnhof").
-restaurant("Liesing").
-restaurant("Bad Vöslau Bahnhof").
-restaurant("Wattmanngasse").
+initlocation($p,"Traisengasse").
+initlocation($p,"Hildebrandgasse").
+initlocation($p,"Halteraugasse").
+initlocation($p,"Niederhofstraße").
+initlocation($p,"Schottentor").
+initlocation($p,"Traisengasse").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Obere Augartenstraße").
+restaurant("Stadlau").
+restaurant("Rankgasse").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Baden Bahnhof").

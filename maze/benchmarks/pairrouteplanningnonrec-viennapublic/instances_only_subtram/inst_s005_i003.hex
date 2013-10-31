@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Fasangasse").
-initlocation(1,"Neuwaldegg").
-initlocation(1,"Grinzing").
-initlocation(1,"Enzersdorf bei Staatz Bahnhof").
-initlocation(1,"Hainburg/Donau Ungartor/B9").
-sequence(1,0, "Fasangasse").
+initlocation($p,"Braunhubergasse").
+initlocation($p,"Pilgramgasse").
+initlocation($p,"Leberberg").
+initlocation($p,"Hautzendorf Bahnhof").
+initlocation($p,"Mühlfeldgasse").
+initlocation($p,"Braunhubergasse").
 person(2).
-initlocation(2,"Schloss Belvedere").
-initlocation(2,"Stollgasse").
-initlocation(2,"Althanstraße").
-initlocation(2,"Alsegger Straße").
-initlocation(2,"Siebensterngasse").
-sequence(2,0, "Schloss Belvedere").
-possiblemeetinglocations("Bösendorferstraße").
-possiblemeetinglocations("Wienerbergbrücke").
-possiblemeetinglocations("Breitenfurter Str/Liesingbr").
-possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
-possiblemeetinglocations("Längenfeldgasse").
-restaurant("Sieveringer Straße").
-restaurant("Penzinger Straße").
-restaurant("Nußdorfer Straße").
-restaurant("Schleinbach Bahnhof").
-restaurant("Liesing").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Riedelgasse").
+initlocation($p,"Floridsdorfer Brücke").
+initlocation($p,"Staglgasse").
+initlocation($p,"Hofwiesengasse").
+initlocation($p,"Hollabrunn Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Weinheimergasse").
+restaurant("Hernalser Gürtel").
+restaurant("Otto-Probst-Platz").
+restaurant("Helmahof Bahnhof").
+restaurant("Herbeckstraße").
+restaurant("Nordbrücke").

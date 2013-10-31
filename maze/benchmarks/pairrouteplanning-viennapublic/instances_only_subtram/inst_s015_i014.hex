@@ -1,64 +1,64 @@
 person(1).
-initlocation(1,"Laaer-Berg-Straße").
-initlocation(1,"Kölblgasse").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Nordbahnstraße").
-initlocation(1,"Thaliastraße").
-initlocation(1,"Donauinsel").
-initlocation(1,"Kledering Bahnhof").
-initlocation(1,"Neilreichgasse").
-initlocation(1,"Oberzellergasse").
-initlocation(1,"Raxstraße/Rudolfshügelgasse").
-initlocation(1,"Wilhelminenstraße/Wattgasse").
-initlocation(1,"Diesterweggasse").
-initlocation(1,"Wilhelminenstr/Sandleitengasse").
-initlocation(1,"Grinzing").
-initlocation(1,"Landstraße-Wien Mitte").
-sequence(1,0, "Laaer-Berg-Straße").
+initlocation($p,"Praterstern").
+initlocation($p,"Schloss Schönbrunn").
+initlocation($p,"Kaiserstraße/Neustiftgasse").
+initlocation($p,"Wienerfeldgasse").
+initlocation($p,"Döblinger Hauptstr/Gatterburgg").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Palffygasse").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Schottentor").
+initlocation($p,"Löwengasse").
+initlocation($p,"Tulln Stadt Bahnhof").
+initlocation($p,"Absberggasse").
+initlocation($p,"Kottingbrunn Bahnhof").
+initlocation($p,"Matthäus-Jiszda-Straße").
+initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation($p,"Praterstern").
 person(2).
-initlocation(2,"Traismauer Bahnhof").
-initlocation(2,"Pantucekgasse/Widholzgasse").
-initlocation(2,"Valiergasse").
-initlocation(2,"Atzenbrugg Bahnhof").
-initlocation(2,"Tulln Stadt Bahnhof").
-initlocation(2,"Hauptbahnhof Ost").
-initlocation(2,"Innstraße").
-initlocation(2,"Höflein an der Donau Bahnhof").
-initlocation(2,"Wattmanngasse").
-initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation(2,"St Pölten Traisenpark P+R Nord").
-initlocation(2,"Am Schöpfwerk").
-initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(2,"Breitenwaida Bahnhof").
-initlocation(2,"Platt Bahnhof").
-sequence(2,0, "Traismauer Bahnhof").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Sieveringer Straße").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Redtenbachergasse").
-possiblemeetinglocations("Donaustadtstraße").
-possiblemeetinglocations("Gewerbepark Stadlau Mitte").
-possiblemeetinglocations("Skodagasse").
-possiblemeetinglocations("Fichtnergasse").
-possiblemeetinglocations("Joachimsthalerplatz").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Traisengasse").
-restaurant("Blumengasse").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Favoritenstraße/Troststraße").
+initlocation($p,"Weißenböckstraße").
+initlocation($p,"Münchendorf Bahnhof").
+initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Hetzgasse").
+initlocation($p,"Rampengasse").
+initlocation($p,"Alsegger Straße").
+initlocation($p,"Linzer Straße/Zehetnergasse").
+initlocation($p,"Längenfeldgasse/Flurschützstr").
+initlocation($p,"Ottakringer Str/Erdbrustgasse").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Mariahilfer Gürtel").
+initlocation($p,"Konstanziagasse").
+initlocation($p,"Schönborn Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Landesgerichtsstraße").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Stadiongasse/Parlament").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+restaurant("Stefan-Fadinger-Platz").
+restaurant("Lederergasse").
+restaurant("Himberg Bahnhof").
+restaurant("Schottentor").
+restaurant("Laurenzgasse").
+restaurant("Zentralfriedhof 2Tor").
+restaurant("Rankgasse").
 restaurant("Maria Ellend Bahnhof").
-restaurant("Beingasse").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Währinger Straße-Volksoper").
-restaurant("Sierndorf Bahnhof").
-restaurant("Kagraner Brücke").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Migerkastraße").
-restaurant("Simonygasse").
-restaurant("Mannswörth Bahnhof").
-restaurant("Gusenleithnergasse").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Mayssengasse").
-restaurant("Guneschgasse").
+restaurant("Alfred-Adler-Straße").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Quellenplatz").
+restaurant("Aspern, Oberdorfstraße").
+restaurant("Frauengasse").
+restaurant("Donaustadtbrücke").

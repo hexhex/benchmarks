@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Forstnergasse").
-initlocation(1,"Am Heidjöchl").
-initlocation(1,"Mödling Bahnhof").
-sequence(1,0, "Forstnergasse").
+initlocation($p,"Langobardenstraße").
+initlocation($p,"Grinzing").
+initlocation($p,"Liesing").
+initlocation($p,"Langobardenstraße").
 person(2).
-initlocation(2,"Hintere Zollamtsstraße").
-initlocation(2,"Landesgerichtsstraße").
-initlocation(2,"Klosterneub Str/Wallensteinstr").
-sequence(2,0, "Hintere Zollamtsstraße").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Donauinsel").
-restaurant("Bahnsteggasse").
-restaurant("Braunschweiggasse").
-restaurant("Schwechat Bahnhof").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Altes Landgut").
+initlocation($p,"Thaliastraße/Maroltingergasse").
+initlocation($p,"Friedensbrücke").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+restaurant("Krankenhaus Hietzing").
+restaurant("Siebertgasse").
+restaurant("Brigittaplatz").

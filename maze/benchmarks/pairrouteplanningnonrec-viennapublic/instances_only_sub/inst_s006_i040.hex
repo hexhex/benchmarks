@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Münchendorf Bahnhof").
-initlocation(1,"Hardeggasse").
-initlocation(1,"Tulln Bahnhof").
-initlocation(1,"Seyring Bahnhof").
-initlocation(1,"Langenlebarn Bahnhof").
-initlocation(1,"Purkersdorf Zentrum Bahnhof").
-sequence(1,0, "Münchendorf Bahnhof").
+initlocation($p,"Zellerndorf Bahnhof").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Atzgersdorf").
+initlocation($p,"Jedlersdorf").
+initlocation($p,"Stubentor").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Zellerndorf Bahnhof").
 person(2).
-initlocation(2,"Kagran").
-initlocation(2,"Herzogenburg Bahnhof").
-initlocation(2,"Geiselbergstraße").
-initlocation(2,"Obersdorf Bahnhof").
-initlocation(2,"Sollenau Bahnhof").
-initlocation(2,"Alte Donau").
-sequence(2,0, "Kagran").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Schweglerstraße").
-restaurant("Wolkersdorf Bahnhof".
-restaurant("Laa an der Thaya Bahnhof".
-restaurant("Oberolberndorf Bahnhof".
-restaurant("Wolfsthal Bahnhof".
-restaurant("Gerasdorf Bahnhof".
-restaurant("Lobau").
+initlocation($p,"Wr Neustadt Nord").
+initlocation($p,"Hausfeldstraße").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Wr Neustadt Nord").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+restaurant("Bahnhof Meidling").
+restaurant("Ladendorf Bahnhof").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Taborstraße").
+restaurant("Stubentor").

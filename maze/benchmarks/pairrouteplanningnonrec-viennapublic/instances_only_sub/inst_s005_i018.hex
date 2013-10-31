@@ -1,25 +1,24 @@
 person(1).
-initlocation(1,"Stubentor").
-initlocation(1,"Gaisruck Bahnhof").
-initlocation(1,"Dürrwien Bahnhof").
-initlocation(1,"Eichgraben-Altlengbach Bahnhof").
-initlocation(1,"Erdberg").
-sequence(1,0, "Stubentor").
+initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Kettenbrückengasse").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Unterpurkersdorf Bahnhof").
 person(2).
-initlocation(2,"Zippererstraße").
-initlocation(2,"Reumannplatz").
-initlocation(2,"Floridsdorf").
-initlocation(2,"Niederhofstraße").
-initlocation(2,"Rennweg").
-sequence(2,0, "Zippererstraße").
-possiblemeetinglocations("Siebenhirten (NÖ).
-Haltestelle").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-restaurant("Siebenhirten".
-restaurant("Schottentor".
-restaurant("Vorgartenstraße".
-restaurant("Hainburg/Donau Kulturfabrik Bf".
-restaurant("Enkplatz").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Roßauer Lände").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+restaurant("Hausfeldstraße").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Dürrwien Bahnhof").
+restaurant("Jedlersdorf").
+restaurant("Franz-Josefs-Bahnhof").

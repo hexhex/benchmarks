@@ -1,60 +1,60 @@
 person(1).
-initlocation(1,"Gemeinlebarn Bahnhof").
-initlocation(1,"Zentralfriedhof 3Tor").
-initlocation(1,"Bösendorferstraße").
-initlocation(1,"Pötzleinsdorf").
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Bahnhof Meidling/Eichenstraße").
-initlocation(1,"Linzer Straße/Zehetnergasse").
-initlocation(1,"Quartier Belvedere").
-initlocation(1,"Schlachthausgasse").
-initlocation(1,"Kliebergasse").
-initlocation(1,"Hintere Zollamtsstraße").
-initlocation(1,"Eckpergasse").
-initlocation(1,"Parndorf Ort Bahnhof").
-initlocation(1,"Stollgasse").
-sequence(1,0, "Gemeinlebarn Bahnhof").
+initlocation($p,"Stiftgasse").
+initlocation($p,"Liebknechtgasse").
+initlocation($p,"Bösendorferstraße").
+initlocation($p,"Raxstraße/Rudolfshügelgasse").
+initlocation($p,"Kagran").
+initlocation($p,"Wildungsmauer Bahnhof").
+initlocation($p,"Stephansplatz").
+initlocation($p,"Rauscherstraße").
+initlocation($p,"Blumengasse").
+initlocation($p,"Sensengasse").
+initlocation($p,"Bahnhof Meidling/Eichenstraße").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Donaumarina").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Stiftgasse").
 person(2).
-initlocation(2,"Liechtenwerder Platz").
-initlocation(2,"Leyserstraße").
-initlocation(2,"Pötzleinsdorf").
-initlocation(2,"Gloriettegasse").
-initlocation(2,"Fasangasse").
-initlocation(2,"Rosenhügelstraße").
-initlocation(2,"Liesing").
-initlocation(2,"Windtenstraße").
-initlocation(2,"Arthaberplatz").
-initlocation(2,"Neusiedl am See Bahnhof").
-initlocation(2,"Pantucekgasse/Widholzgasse").
-initlocation(2,"Hoßplatz").
-initlocation(2,"Karlsplatz").
-initlocation(2,"Am Heidjöchl/Hausfeldstraße").
-sequence(2,0, "Liechtenwerder Platz").
-possiblemeetinglocations("Liebknechtgasse").
-possiblemeetinglocations("Weißenböckstraße").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Gußhausstraße").
+initlocation($p,"Gruschaplatz").
+initlocation($p,"Gellertplatz").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Viehmarktgasse").
+initlocation($p,"Maurer Hauptplatz").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Aßmayergasse").
+initlocation($p,"Michelhausen Bahnhof").
+initlocation($p,"Baumgasse").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Geiereckstraße").
+initlocation($p,"Kraygasse").
+initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+initlocation($p,"Ladendorf Bahnhof").
+initlocation($p,"Gruschaplatz").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Wallrißstraße").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Rauscherstraße").
 possiblemeetinglocations("Koloniestraße").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
 possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Hohe Warte").
-possiblemeetinglocations("Josef-Baumann-Gasse").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-restaurant("Am Spitz").
-restaurant("Geiereckstraße").
-restaurant("Quellenstraße/Favoritenstraße").
-restaurant("Enkplatz").
-restaurant("Grinzing").
-restaurant("Sollenau Bahnhof").
-restaurant("Silbergasse").
-restaurant("Felixdorf Bahnhof").
-restaurant("Quellenplatz").
-restaurant("Hütteldorfer Str/Hochsatzeng").
-restaurant("Winkeläckerstraße").
-restaurant("Spillern Bahnhof").
-restaurant("Karmeliterplatz").
-restaurant("Stiftgasse").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Aspernstraße").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Aspernstraße").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Rampengasse").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Stollgasse").
+restaurant("Liesing").
+restaurant("Siebensterngasse").
+restaurant("Rosenhügelstraße").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Türkenschanzplatz").
+restaurant("Bad Vöslau Bahnhof").

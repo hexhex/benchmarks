@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Langenlebarn Bahnhof").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Südtiroler Platz/Hauptbahnhof").
-sequence(1,0, "Langenlebarn Bahnhof").
+initlocation($p,"Kagraner Platz").
+initlocation($p,"Weidlingau Bahnhof").
+initlocation($p,"Unter Sankt Veit").
+initlocation($p,"Kagraner Platz").
 person(2).
-initlocation(2,"Perchtoldsdorf Bahnhof").
-initlocation(2,"Gramatneusiedl Bahnhof").
-initlocation(2,"Hardeggasse").
-sequence(2,0, "Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Hietzing").
-restaurant("Museumsquartier".
-restaurant("Leobendorf-Burg Kreuzenstn Bf".
-restaurant("Rochusgasse").
+initlocation($p,"Praterkai").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Praterkai").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Dürrwien Bahnhof").
+restaurant("Donauspital").
+restaurant("Messe-Prater").
+restaurant("Dürrwien Bahnhof").

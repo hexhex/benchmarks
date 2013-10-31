@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Regelsbrunn Bahnhof").
-initlocation(1,"Messe-Prater").
-initlocation(1,"Oberdöbling").
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Deutsch-Wagram Bahnhof").
-sequence(1,0, "Regelsbrunn Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Wolfsthal Bahnhof").
+initlocation($p,"Breitensee").
+initlocation($p,"Hainburg/Donau Personenbhf").
 person(2).
-initlocation(2,"Höflein an der Donau Bahnhof").
-initlocation(2,"Siemensstraße").
-initlocation(2,"Pressbaum Bahnhof").
-initlocation(2,"Floridsdorf").
-initlocation(2,"Landstraße-Wien Mitte").
-sequence(2,0, "Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Himberg Bahnhof").
-restaurant("Dresdner Straße".
-restaurant("Zieglergasse".
-restaurant("Fischamend Bahnhof".
-restaurant("Höflein an der Donau Bahnhof".
-restaurant("Bad Vöslau Bahnhof").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Praterstern").
+initlocation($p,"Erzherzog-Karl-Straße").
+initlocation($p,"Traismauer Bahnhof").
+initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation($p,"Untereggendorf Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Wr Neustadt Nord").
+restaurant("Stadtpark").
+restaurant("Staatz Bahnhof").
+restaurant("Floridsdorf").

@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Martinstraße").
-initlocation(1,"Längenfeldgasse/Flurschützstr").
-initlocation(1,"Rankgasse").
-initlocation(1,"Siemensstraße").
-initlocation(1,"Perfektastraße").
-initlocation(1,"Gerstnerstraße/Westbhf").
-initlocation(1,"Marxergasse").
-initlocation(1,"Am Heidjöchl/Hausfeldstraße").
-sequence(1,0, "Martinstraße").
+initlocation($p,"Felixdorf Bahnhof").
+initlocation($p,"Schlickgasse").
+initlocation($p,"Traisengasse").
+initlocation($p,"Schmerlingplatz").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Hetzgasse").
+initlocation($p,"Franzensbrücke").
+initlocation($p,"Gewerbepark Stadlau Mitte").
+initlocation($p,"Felixdorf Bahnhof").
 person(2).
-initlocation(2,"Beingasse").
-initlocation(2,"Sensengasse").
-initlocation(2,"Hollabrunn Bahnhof").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Thaliastraße/Brunnengasse").
-initlocation(2,"Hütteldorfer Str/Lützowgasse").
-initlocation(2,"Ulrichskirchen Bahnhof").
-initlocation(2,"Kagran").
-sequence(2,0, "Beingasse").
-possiblemeetinglocations("Rothneusiedl").
-possiblemeetinglocations("Satzberggasse").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Pressbaum Bahnhof").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Fultonstraße").
-possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
-restaurant("Wattmanngasse").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Stockerau Bahnhof").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Neubaugasse/Westbahnstraße").
-restaurant("Stiftgasse").
-restaurant("Hopfengasse").
-restaurant("Zeiselmauer-Königstetten Bf").
+initlocation($p,"Koppstraße/Panikengasse").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Heinrich-Drimmel-Platz").
+initlocation($p,"Aderklaaer Straße").
+initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation($p,"Linzer Straße/Johnstraße").
+initlocation($p,"Hohe Warte").
+initlocation($p,"Floridsdorfer Brücke").
+initlocation($p,"Koppstraße/Panikengasse").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Karlsplatz").
+restaurant("Schottenring").
+restaurant("Hofwiesengasse").
+restaurant("Viehofen Bahnhof").
+restaurant("Strebersdorf").
+restaurant("Wittelsbachstraße").
+restaurant("Aumannplatz").
+restaurant("Weihburggasse").
+restaurant("Dresdner Straße").

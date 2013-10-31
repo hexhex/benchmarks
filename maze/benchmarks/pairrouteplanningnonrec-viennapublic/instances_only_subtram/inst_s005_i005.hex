@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Rankgasse").
-initlocation(1,"Nußdorf").
-initlocation(1,"Götzendorf Bahnhof").
-initlocation(1,"Kottingneusiedl Bahnhof").
-initlocation(1,"Blechturmgasse").
-sequence(1,0, "Rankgasse").
+initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation($p,"Florianigasse").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"St Andrä-Wördern Bahnhof").
 person(2).
-initlocation(2,"Heinrich-Drimmel-Platz").
-initlocation(2,"Kutschkergasse").
-initlocation(2,"Enzersdorf bei Staatz Bahnhof").
-initlocation(2,"Empergergasse").
-initlocation(2,"Schmerlingplatz").
-sequence(2,0, "Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Perntergasse").
-possiblemeetinglocations("Döblinger Bad").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Zippererstraße").
-restaurant("Korneuburg Bahnhof").
-restaurant("Bernhardtstalgasse").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Julius-Raab-Platz").
-restaurant("Kardinal-Nagl-Platz").
+initlocation($p,"Unteroberndorf Bahnhof").
+initlocation($p,"Siebertgasse").
+initlocation($p,"Gaußplatz").
+initlocation($p,"Aspern, Oberdorfstraße").
+initlocation($p,"Schleiergasse").
+initlocation($p,"Unteroberndorf Bahnhof").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Schloss Belvedere").
+possiblemeetinglocations("Dresdner Straße").
+restaurant("Schloss Belvedere").
+restaurant("Stubentor").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Hütteldorfer Str/Hochsatzeng").

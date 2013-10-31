@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Gänserndorf Bahnhof").
-initlocation(1,"Waidhausenstraße").
-initlocation(1,"Unterpurkersdorf Bahnhof").
-sequence(1,0, "Gänserndorf Bahnhof").
+initlocation($p,"Laxenburger Straße/Troststraße").
+initlocation($p,"Seestadt").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Laxenburger Straße/Troststraße").
 person(2).
-initlocation(2,"Unter Kritzendorf Bahnhof").
-initlocation(2,"Hausfeldstraße").
-initlocation(2,"Gruschaplatz").
-sequence(2,0, "Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
-restaurant("Gumpendorfer Straße").
-restaurant("Donauzentrum").
-restaurant("Frättingsdorf Bahnhof").
+initlocation($p,"Sechskrügelgasse").
+initlocation($p,"Althanstraße").
+initlocation($p,"Purkersdorf Sanatorium").
+initlocation($p,"Sechskrügelgasse").
+possiblemeetinglocations("Laaer-Berg-Straße").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Götzendorf Bahnhof").
+restaurant("Nordbahnstraße").
+restaurant("Kliebergasse").
+restaurant("Volkstheater").

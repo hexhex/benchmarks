@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Stadion").
-initlocation(1,"Stollgasse").
-initlocation(1,"Stockholmer Platz").
-initlocation(1,"Rosensteingasse").
-initlocation(1,"Unter St Veit, Hummelgasse").
-initlocation(1,"Braunhubergasse").
-initlocation(1,"Neubaugasse").
-initlocation(1,"Schwarzspanierstraße").
-sequence(1,0, "Stadion").
+initlocation($p,"Stadiongasse/Parlament").
+initlocation($p,"Seestadt").
+initlocation($p,"Oberzellergasse").
+initlocation($p,"Carabelligasse").
+initlocation($p,"Penzinger Straße").
+initlocation($p,"Ottakring").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Kranzgasse").
+initlocation($p,"Stadiongasse/Parlament").
 person(2).
-initlocation(2,"Liesing").
-initlocation(2,"Bösendorferstraße").
-initlocation(2,"Fichtnergasse").
-initlocation(2,"Ameisgasse").
-initlocation(2,"Schwarzspanierstraße").
-initlocation(2,"Alser Straße").
-initlocation(2,"Tulln Bahnhof").
-initlocation(2,"Carabelligasse").
-sequence(2,0, "Liesing").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Stadiongasse/Parlament").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Camillo-Sitte-Gasse").
-possiblemeetinglocations("Linzer Straße/Reinlgasse").
-possiblemeetinglocations("Joachimsthalerplatz").
-possiblemeetinglocations("Johannes-Krawarik-Gasse").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-restaurant("Mistelbach Stadt").
-restaurant("Brigittaplatz").
-restaurant("Schottentor").
-restaurant("Mariahilfer Gürtel").
-restaurant("Stockholmer Platz").
-restaurant("Johannes-Krawarik-Gasse").
-restaurant("Purkersdorf Sanatorium").
-restaurant("St Andrä-Wördern Bahnhof").
+initlocation($p,"Sillerplatz").
+initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Kliebergasse").
+initlocation($p,"Aspern, Oberdorfstraße").
+initlocation($p,"Hubertusdamm").
+initlocation($p,"Sillerplatz").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Quellenplatz").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Lange Gasse").
+restaurant("Siemensstraße").
+restaurant("Otto-Probst-Straße").
+restaurant("Praterstern").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Schloss Belvedere").
+restaurant("Augasse").
+restaurant("Pottendorf-Landegg Bahnhof").

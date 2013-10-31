@@ -1,41 +1,40 @@
 person(1).
-initlocation(1,"Burggasse-Stadthalle").
-initlocation(1,"Enzersdorf bei Staatz Bahnhof").
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Erzherzog-Karl-Straße").
-initlocation(1,"Nußdorf").
-initlocation(1,"Kottingneusiedl Bahnhof").
-initlocation(1,"Hennersdorf Bahnhof").
-initlocation(1,"Westbahnhof").
-initlocation(1,"Paasdorf Bahnhof").
-sequence(1,0, "Burggasse-Stadthalle").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Rathaus").
+initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Gumpendorfer Straße").
 person(2).
-initlocation(2,"Spillern Bahnhof").
-initlocation(2,"Enkplatz").
-initlocation(2,"Gemeinlebarn Bahnhof").
-initlocation(2,"Süßenbrunn").
-initlocation(2,"Heiligenstadt").
-initlocation(2,"Siebenhirten (NÖ).
-Haltestelle").
-initlocation(2,"Kendlerstraße").
-initlocation(2,"Sierndorf Bahnhof").
-initlocation(2,"Rathaus").
-sequence(2,0, "Spillern Bahnhof").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Heiligenstadt").
-restaurant("Wolf in der Au".
-restaurant("Traismauer Bahnhof".
-restaurant("Krieau".
-restaurant("Nußdorfer Straße".
-restaurant("Höbersdorf Bahnhof".
-restaurant("Enzersdorf bei Staatz Bahnhof".
-restaurant("Stubentor".
-restaurant("Tulln Bahnhof".
-restaurant("Am Schöpfwerk").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Taubstummengasse").
+initlocation($p,"Baden Bahnhof").
+initlocation($p,"Langenlebarn Bahnhof").
+initlocation($p,"Ottakring").
+initlocation($p,"Obereggendorf Bahnhof").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Lobau").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Mannswörth Bahnhof").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Dürrwien Bahnhof").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Taubstummengasse").

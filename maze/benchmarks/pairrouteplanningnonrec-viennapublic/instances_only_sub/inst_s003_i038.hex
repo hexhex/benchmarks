@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Oberradlberg Bahnhof").
-initlocation(1,"Breitensee").
-initlocation(1,"St Pölten Hauptbahnhof").
-sequence(1,0, "Oberradlberg Bahnhof").
+initlocation($p,"Praterkai").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Untereggendorf Bahnhof").
+initlocation($p,"Praterkai").
 person(2).
-initlocation(2,"Schweglerstraße").
-initlocation(2,"Zippererstraße").
-initlocation(2,"Pilgramgasse").
-sequence(2,0, "Schweglerstraße").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Bisamberg Bahnhof").
-restaurant("Roßauer Lände".
-restaurant("Preyergasse/Speising".
-restaurant("Mödling Bahnhof").
+initlocation($p,"Siebenhirten").
+initlocation($p,"Schottentor").
+initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation($p,"Siebenhirten").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").

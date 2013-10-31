@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Langenlebarn Bahnhof").
-initlocation(1,"Museumsquartier").
-sequence(1,0, "Langenlebarn Bahnhof").
+initlocation($p,"Alser Straße").
+initlocation($p,"Neubaugasse").
+initlocation($p,"Alser Straße").
 person(2).
-initlocation(2,"Donaumarina").
-initlocation(2,"Süßenbrunn").
-sequence(2,0, "Donaumarina").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Krottenbachstraße").
-restaurant("Zentralfriedhof".
-restaurant("Breitensee").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+restaurant("Schottentor").
+restaurant("Kagran").

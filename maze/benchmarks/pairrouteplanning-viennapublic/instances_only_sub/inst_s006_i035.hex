@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Mistelbach Stadt").
-initlocation(1,"Pressbaum Bahnhof").
-initlocation(1,"St Andrä-Wördern Bahnhof").
-initlocation(1,"Ottakring").
-initlocation(1,"Erlaaer Straße").
-initlocation(1,"Michelbeuern-AKH").
-sequence(1,0, "Mistelbach Stadt").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Neusiedl am See Bahnhof").
+initlocation($p,"Donaustadtbrücke").
+initlocation($p,"Frättingsdorf Bahnhof").
+initlocation($p,"Sankt Marx").
+initlocation($p,"Taborstraße").
+initlocation($p,"Haslau an der Donau Bahnhof").
 person(2).
-initlocation(2,"Hainburg/Donau Personenbhf").
-initlocation(2,"Rekawinkel Bahnhof").
-initlocation(2,"Traismauer Bahnhof").
-initlocation(2,"Seyring Bahnhof").
-initlocation(2,"Währinger Straße-Volksoper").
-initlocation(2,"Erlaaer Straße").
-sequence(2,0, "Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Schwedenplatz").
-restaurant("Schönbrunn".
-restaurant("Währinger Straße-Volksoper".
-restaurant("Leopoldau".
-restaurant("Hadersdorf Bahnhof".
-restaurant("Kendlerstraße".
-restaurant("Neulengbach Stadt Bahnhof").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation($p,"Lobau").
+initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation($p,"Wr Neustadt Nord").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Wolkersdorf Bahnhof").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Rennbahnweg").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Staatz Bahnhof").

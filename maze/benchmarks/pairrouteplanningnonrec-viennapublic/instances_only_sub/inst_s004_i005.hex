@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Purkersdorf Zentrum Bahnhof").
-initlocation(1,"Franz-Josefs-Bahnhof").
-initlocation(1,"Sollenau Bahnhof").
-initlocation(1,"Schwechat Bahnhof").
-sequence(1,0, "Purkersdorf Zentrum Bahnhof").
+initlocation($p,"Herrengasse").
+initlocation($p,"Margaretengürtel").
+initlocation($p,"Stadion").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Herrengasse").
 person(2).
-initlocation(2,"Floridsdorf").
-initlocation(2,"Penzing").
-initlocation(2,"Rekawinkel Bahnhof").
-initlocation(2,"Tulln Bahnhof").
-sequence(2,0, "Floridsdorf").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Neue Donau").
-restaurant("Gerasdorf Bahnhof".
-restaurant("Johnstraße".
-restaurant("Unterradlberg Bahnhof".
-restaurant("Absdorf-Hippersdorf Bahnhof").
+initlocation($p,"Süßenbrunn").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Donauspital").
+initlocation($p,"Hörersdorf Bahnhof").
+initlocation($p,"Süßenbrunn").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Gasometer").
+restaurant("Korneuburg Bahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Breitensee").
+restaurant("Purkersdorf Zentrum Bahnhof").

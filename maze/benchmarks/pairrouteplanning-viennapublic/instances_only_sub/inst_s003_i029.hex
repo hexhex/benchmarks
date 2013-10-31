@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Schlachthausgasse").
-initlocation(1,"Aspernstraße").
-initlocation(1,"Parndorf Ort Bahnhof").
-sequence(1,0, "Schlachthausgasse").
+initlocation($p,"Hetzendorf").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Seyring Bahnhof").
+initlocation($p,"Hetzendorf").
 person(2).
-initlocation(2,"Hainburg/Donau Ungartor/B9").
-initlocation(2,"Untertullnerbach Bahnhof").
-initlocation(2,"Wr Neustadt Nord").
-sequence(2,0, "Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Braunschweiggasse").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-restaurant("Breitensee".
-restaurant("Paasdorf Bahnhof".
-restaurant("Kaiserebersdorf").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Alte Donau").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Bahnhof Meidling").
+restaurant("Siebenhirten").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Retz Bahnhof").

@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Hetzgasse").
-initlocation(1,"Erlaaer Straße").
-initlocation(1,"Grillgasse").
-initlocation(1,"Winckelmannstraße").
-initlocation(1,"Theresienfeld Bahnhof").
-initlocation(1,"Jagdschloßgasse").
-initlocation(1,"Klosterneub Str/Wallensteinstr").
-sequence(1,0, "Hetzgasse").
+initlocation($p,"Krankenhaus Hietzing").
+initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation($p,"Rekawinkel Bahnhof").
+initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Gersthofer Str/Scheibenbergstr").
+initlocation($p,"Wexstraße").
+initlocation($p,"Krankenhaus Hietzing").
 person(2).
-initlocation(2,"Handelskai").
-initlocation(2,"Staglgasse").
-initlocation(2,"Mödling Bahnhof").
-initlocation(2,"Hofstatt Bahnhof").
-initlocation(2,"Huglgasse").
-initlocation(2,"Kaiserebersdorf").
-initlocation(2,"Viehmarktgasse").
-sequence(2,0, "Handelskai").
-possiblemeetinglocations("Waidhausenstraße").
-possiblemeetinglocations("Weinhauser Gasse").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Plößlgasse").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Sierndorf Bahnhof").
-restaurant("Bisamberg Bahnhof").
-restaurant("Grinzing").
-restaurant("Wolf in der Au").
+initlocation($p,"Donaumarina").
+initlocation($p,"Floridsdorfer Markt").
+initlocation($p,"Simonygasse").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Canisiusgasse").
+initlocation($p,"Mariahilfer Gürtel").
+initlocation($p,"Alterlaa").
+initlocation($p,"Donaumarina").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Alfred-Adler-Straße").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Rothneusiedl").
+restaurant("Kutschkergasse").
+restaurant("Gersthof").
+restaurant("Alaudagasse").
+restaurant("Preyergasse/Speising").
+restaurant("Fultonstraße").

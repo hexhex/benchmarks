@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Ulrichskirchen Bahnhof").
-initlocation(1,"Greifenstein-Altenberg Bahnhof").
-initlocation(1,"Mannswörth Bahnhof").
-initlocation(1,"Blechturmgasse").
-initlocation(1,"Dornbach, Güpferlingstraße").
-sequence(1,0, "Ulrichskirchen Bahnhof").
+initlocation($p,"Enkplatz").
+initlocation($p,"Langobardenstraße/Kapellenweg").
+initlocation($p,"Resselgasse").
+initlocation($p,"Hernalser Hauptstr/Wattgasse").
+initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation($p,"Enkplatz").
 person(2).
-initlocation(2,"Neubaugasse/Westbahnstraße").
-initlocation(2,"Pfaffstätten Bahnhof").
-initlocation(2,"Roßauer Lände").
-initlocation(2,"Sechskrügelgasse").
-initlocation(2,"Mannswörth Bahnhof").
-sequence(2,0, "Neubaugasse/Westbahnstraße").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Dornbach, Güpferlingstraße").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Gunoldstraße").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Kardinal-Nagl-Platz").
+initlocation($p,"Korneuburg Bahnhof").
+initlocation($p,"Koppstraße/Panikengasse").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Thaliastraße").
+initlocation($p,"Korneuburg Bahnhof").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Traisengasse").
+restaurant("Eckpergasse").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Schmerlingplatz").
+restaurant("Silbergasse").
+restaurant("Neulerchenfelder Str/Haberlg").

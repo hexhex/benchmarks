@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Achau Bahnhof").
-initlocation(1,"Hütteldorf").
-sequence(1,0, "Achau Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
+initlocation($p,"Unterradlberg Bahnhof").
+initlocation($p,"Schönborn Bahnhof").
 person(2).
-initlocation(2,"Mödling Bahnhof").
-initlocation(2,"Guntramsdorf-Thallern").
-sequence(2,0, "Mödling Bahnhof").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Neulengbach Bahnhof").
-restaurant("Brunn-Maria Enzersdorf Bahnhof".
-restaurant("Kagraner Platz").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation($p,"Spittelau").
+initlocation($p,"Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+restaurant("Simmering").
+restaurant("Strebersdorf").

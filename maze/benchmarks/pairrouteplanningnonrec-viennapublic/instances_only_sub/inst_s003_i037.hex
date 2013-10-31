@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Pressbaum Bahnhof").
-initlocation(1,"Kettenbrückengasse").
-initlocation(1,"Karlsplatz").
-sequence(1,0, "Pressbaum Bahnhof").
+initlocation($p,"Nestroyplatz").
+initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation($p,"Schottenring").
+initlocation($p,"Nestroyplatz").
 person(2).
-initlocation(2,"Stadion").
-initlocation(2,"Hernals").
-initlocation(2,"Handelskai").
-sequence(2,0, "Stadion").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Pressbaum Bahnhof").
-restaurant("Haidestraße".
-restaurant("Maria Ellend Bahnhof".
-restaurant("Hirschstetten").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Gersthof").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Museumsquartier").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+restaurant("Johnstraße").
+restaurant("Götzendorf Bahnhof").
+restaurant("Breitensee").

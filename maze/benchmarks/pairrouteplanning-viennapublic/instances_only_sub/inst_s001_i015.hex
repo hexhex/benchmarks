@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Schönborn Bahnhof").
-sequence(1,0, "Schönborn Bahnhof").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
+initlocation($p,"Wr Neustadt Hauptbahnhof").
 person(2).
-initlocation(2,"Preyergasse/Speising").
-sequence(2,0, "Preyergasse/Speising").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-restaurant("Stubentor").
+initlocation($p,"Obersdorf Bahnhof").
+initlocation($p,"Obersdorf Bahnhof").
+possiblemeetinglocations("Schlachthausgasse").
+restaurant("Aspern Nord").

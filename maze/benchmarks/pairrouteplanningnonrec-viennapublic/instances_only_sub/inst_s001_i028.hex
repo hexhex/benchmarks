@@ -1,8 +1,8 @@
 person(1).
-initlocation(1,"Silberwald Bahnhof").
-sequence(1,0, "Silberwald Bahnhof").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Gumpoldskirchen Bahnhof").
 person(2).
-initlocation(2,"Nußdorf").
-sequence(2,0, "Nußdorf").
-possiblemeetinglocations("Paasdorf Bahnhof").
-restaurant("Kapellerfeld Bahnhof").
+initlocation($p,"Tullnerfeld Bahnhof").
+initlocation($p,"Tullnerfeld Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+restaurant("Hofstatt Bahnhof").

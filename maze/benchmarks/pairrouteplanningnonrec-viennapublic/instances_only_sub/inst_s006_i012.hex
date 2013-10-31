@@ -1,29 +1,28 @@
 person(1).
-initlocation(1,"Mödling Bahnhof").
-initlocation(1,"Hütteldorf").
-initlocation(1,"Klosterneuburg-Weidling Bf").
-initlocation(1,"Schwedenplatz").
-initlocation(1,"Zeiselmauer-Königstetten Bf").
-initlocation(1,"Gramatneusiedl Bahnhof").
-sequence(1,0, "Mödling Bahnhof").
+initlocation($p,"Bisamberg Bahnhof").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Traisengasse").
+initlocation($p,"Gumpendorfer Straße").
+initlocation($p,"Hofstatt Bahnhof").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Bisamberg Bahnhof").
 person(2).
-initlocation(2,"Tulln Bahnhof").
-initlocation(2,"Lobau").
-initlocation(2,"Kottingbrunn Bahnhof").
-initlocation(2,"Schottenring").
-initlocation(2,"Kardinal-Nagl-Platz").
-initlocation(2,"Langenzersdorf Bahnhof").
-sequence(2,0, "Tulln Bahnhof").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE).
-Bahnhof").
-possiblemeetinglocations("Siemensstraße").
-restaurant("Gemeinlebarn Bahnhof".
-restaurant("Helmahof Bahnhof".
-restaurant("Reumannplatz".
-restaurant("Volkstheater".
-restaurant("Johnstraße".
-restaurant("Hütteldorfer Straße").
+initlocation($p,"Volkstheater").
+initlocation($p,"Floridsdorf").
+initlocation($p,"Reumannplatz").
+initlocation($p,"Spittelau").
+initlocation($p,"Nußdorfer Straße").
+initlocation($p,"Hollabrunn Bahnhof").
+initlocation($p,"Volkstheater").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Margaretengürtel").
+restaurant("Hardeggasse").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Schwedenplatz").
+restaurant("Karlsplatz").
+restaurant("Nußdorf").

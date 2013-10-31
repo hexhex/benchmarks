@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Taubstummengasse").
-initlocation(1,"Kagraner Platz").
-initlocation(1,"Laa an der Thaya Bahnhof").
-initlocation(1,"St Pölten Traisenpark P+R Nord").
-initlocation(1,"Heiligenstadt").
-sequence(1,0, "Taubstummengasse").
+initlocation($p,"Zippererstraße").
+initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation($p,"Michelbeuern-AKH").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Zippererstraße").
 person(2).
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"Ebenfurth Bahnhof").
-initlocation(2,"Stubentor").
-initlocation(2,"Messe-Prater").
-initlocation(2,"Rekawinkel Bahnhof").
-sequence(2,0, "Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Michelbeuern-AKH").
-restaurant("Schlachthausgasse".
-restaurant("Wilfleinsdorf Bahnhof".
-restaurant("Leobersdorf Bahnhof".
-restaurant("Retz Bahnhof".
-restaurant("Schönborn Bahnhof").
+initlocation($p,"Perfektastraße").
+initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation($p,"Schottenring").
+initlocation($p,"Friedensbrücke").
+initlocation($p,"Kagran").
+initlocation($p,"Perfektastraße").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+restaurant("Stephansplatz").
+restaurant("Stubentor").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Schweglerstraße").

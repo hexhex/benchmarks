@@ -1,32 +1,32 @@
 person(1).
-initlocation(1,"Trasdorf Bahnhof").
-initlocation(1,"Hadersdorf Bahnhof").
-initlocation(1,"Spillern Bahnhof").
-initlocation(1,"Braunschweiggasse").
-initlocation(1,"Paasdorf Bahnhof").
-initlocation(1,"Erlaaer Straße").
-initlocation(1,"Donauspital").
-sequence(1,0, "Trasdorf Bahnhof").
+initlocation($p,"Oberolberndorf Bahnhof").
+initlocation($p,"Platt Bahnhof").
+initlocation($p,"Pressbaum Bahnhof").
+initlocation($p,"Stadlau").
+initlocation($p,"Geiselbergstraße").
+initlocation($p,"Rennweg").
+initlocation($p,"Braunschweiggasse").
+initlocation($p,"Oberolberndorf Bahnhof").
 person(2).
-initlocation(2,"Spillern Bahnhof").
-initlocation(2,"Neubau-Kreuzstetten Bahnhof").
-initlocation(2,"Leopoldau").
-initlocation(2,"Nußdorfer Straße").
-initlocation(2,"Spittelau").
-initlocation(2,"Herzogenburg Stadt").
-initlocation(2,"Vorgartenstraße").
-sequence(2,0, "Spillern Bahnhof").
-possiblemeetinglocations("Tulln Bahnhof").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-restaurant("Schleinbach Bahnhof".
-restaurant("Guntramsdorf-Thallern".
-restaurant("Herrengasse".
-restaurant("Erzherzog-Karl-Straße".
-restaurant("Nußdorf".
-restaurant("Burggasse-Stadthalle".
-restaurant("Deutsch-Wagram Bahnhof").
+initlocation($p,"Landstraße-Wien Mitte").
+initlocation($p,"Ottakring").
+initlocation($p,"Herrengasse").
+initlocation($p,"Schwechat Bahnhof").
+initlocation($p,"Regelsbrunn Bahnhof").
+initlocation($p,"Volkstheater").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Landstraße-Wien Mitte").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Kagran").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Museumsquartier").
+restaurant("Paasdorf Bahnhof").
+restaurant("Getzersdorf/Traisen Bahnhof").

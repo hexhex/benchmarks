@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Mistelbach Bahnhof").
-initlocation(1,"Nußdorfer Straße").
-initlocation(1,"Klosterneuburg-Kierling Bf").
-initlocation(1,"Regelsbrunn Bahnhof").
-sequence(1,0, "Mistelbach Bahnhof").
+initlocation($p,"Herrengasse").
+initlocation($p,"Retz Bahnhof").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Währinger Straße-Volksoper").
+initlocation($p,"Herrengasse").
 person(2).
-initlocation(2,"St Pölten Traisenpark P+R Nord").
-initlocation(2,"Untertullnerbach Bahnhof").
-initlocation(2,"Wr Neustadt Hauptbahnhof").
-initlocation(2,"Zentralfriedhof").
-sequence(2,0, "St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Schönbrunn").
-restaurant("Gasometer".
-restaurant("Hainburg/Donau Ungartor/B9".
-restaurant("Kardinal-Nagl-Platz".
-restaurant("Landstraße-Wien Mitte").
+initlocation($p,"Achau Bahnhof").
+initlocation($p,"Wolkersdorf Bahnhof").
+initlocation($p,"Bad Vöslau Bahnhof").
+initlocation($p,"Museumsquartier").
+initlocation($p,"Achau Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+restaurant("Kettenbrückengasse").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Blumental").
+restaurant("Taborstraße").

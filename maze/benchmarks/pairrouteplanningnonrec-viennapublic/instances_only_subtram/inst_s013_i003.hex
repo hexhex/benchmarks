@@ -1,56 +1,56 @@
 person(1).
-initlocation(1,"Lange Gasse").
-initlocation(1,"Schottentor").
-initlocation(1,"Götzendorf Bahnhof").
-initlocation(1,"Diesterweggasse").
-initlocation(1,"Polgarstraße").
-initlocation(1,"Alaudagasse").
-initlocation(1,"Enkplatz").
-initlocation(1,"Trondheimgasse").
-initlocation(1,"Erdbergstr/Schlachthausgasse").
-initlocation(1,"Fischamend Bahnhof").
-initlocation(1,"Scheibenbergstraße").
-initlocation(1,"Sickenberggasse").
-initlocation(1,"Canisiusgasse").
-sequence(1,0, "Lange Gasse").
+initlocation($p,"Silberwald Bahnhof").
+initlocation($p,"Wenzgasse").
+initlocation($p,"Florianigasse").
+initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation($p,"Am Spitz").
+initlocation($p,"Schloss Hetzendorf").
+initlocation($p,"Perntergasse").
+initlocation($p,"Längenfeldgasse").
+initlocation($p,"Hütteldorfer Straße").
+initlocation($p,"Laurenzgasse").
+initlocation($p,"Friedrich-Engels-Platz").
+initlocation($p,"Neulerchenfelder Str/Brunneng").
+initlocation($p,"Sonnergasse").
+initlocation($p,"Silberwald Bahnhof").
 person(2).
-initlocation(2,"Reinlgasse/Märzstraße").
-initlocation(2,"Gottschalkgasse/Enkplatz").
-initlocation(2,"Sierndorf Bahnhof").
-initlocation(2,"Fultonstraße").
-initlocation(2,"Staatz Bahnhof").
-initlocation(2,"Obereggendorf Bahnhof").
-initlocation(2,"Wallensteinplatz").
-initlocation(2,"Stockerau Bahnhof").
-initlocation(2,"Ottakringer Straße/Wattgasse").
-initlocation(2,"Geiereckstraße").
-initlocation(2,"Seegasse").
-initlocation(2,"Bösendorferstraße").
-initlocation(2,"Retz Bahnhof").
-sequence(2,0, "Reinlgasse/Märzstraße").
-possiblemeetinglocations("Linzer Straße/Reinlgasse").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Löwengasse").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Nußdorf, Beethovengang").
-possiblemeetinglocations("Gredlerstraße").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Otto-Probst-Straße").
-possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Burgring").
-restaurant("Aderklaaer Straße").
-restaurant("St Pölten Traisenpark P+R Nord").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Radetzkyplatz").
-restaurant("Türkenschanzplatz").
-restaurant("Stammersdorf").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Joachimsthalerplatz").
-restaurant("Migerkastraße").
-restaurant("Josef-Baumann-Gasse").
-restaurant("Langobardenstraße").
-restaurant("Hütteldorfer Str/Hochsatzeng").
-restaurant("Nußdorf, Beethovengang").
+initlocation($p,"Gänserndorf Bahnhof").
+initlocation($p,"Hennersdorf Bahnhof").
+initlocation($p,"Rosenhügelstraße").
+initlocation($p,"Gußhausstraße").
+initlocation($p,"Schwedenplatz").
+initlocation($p,"Knöllgasse/Davidgasse").
+initlocation($p,"Zieglergasse/Westbahnstraße").
+initlocation($p,"Auerspergstraße").
+initlocation($p,"Saikogasse").
+initlocation($p,"Oberzellergasse").
+initlocation($p,"Brünner Straße").
+initlocation($p,"Pfaffstätten Bahnhof").
+initlocation($p,"Guntherstraße").
+initlocation($p,"Gänserndorf Bahnhof").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Rampengasse").
+restaurant("Auerspergstraße").
+restaurant("Martinstraße").
+restaurant("Jedlersdorf").
+restaurant("Canisiusgasse").
+restaurant("Wallrißstraße").
+restaurant("Gellertplatz").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Bahnhofstraße").
+restaurant("Rustengasse").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Rebhanngasse").
+restaurant("Gredlerstraße").
+restaurant("Stadion").

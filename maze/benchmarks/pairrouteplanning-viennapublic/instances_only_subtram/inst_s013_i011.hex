@@ -1,56 +1,56 @@
 person(1).
-initlocation(1,"Oberdöbling").
-initlocation(1,"Rosenhügelstraße").
-initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
-initlocation(1,"Braunhubergasse").
-initlocation(1,"Sonnergasse").
-initlocation(1,"Radetzkyplatz").
-initlocation(1,"Guntramsdorf-Thallern").
-initlocation(1,"Am Heumarkt").
-initlocation(1,"Matthäus-Jiszda-Straße").
-initlocation(1,"Kendlerstraße").
-initlocation(1,"Franz-Asenbauer-Gasse").
-initlocation(1,"Gumpendorfer Straße").
-initlocation(1,"Wienerbergbrücke").
-sequence(1,0, "Oberdöbling").
+initlocation($p,"Donaumarina").
+initlocation($p,"Kranzgasse").
+initlocation($p,"Krottenbachstraße").
+initlocation($p,"Zentralfriedhof 3Tor").
+initlocation($p,"Perntergasse").
+initlocation($p,"Neilreichgasse").
+initlocation($p,"Blumental").
+initlocation($p,"Bernhardtstalgasse").
+initlocation($p,"Simmering").
+initlocation($p,"Dommayergasse").
+initlocation($p,"Rankgasse").
+initlocation($p,"Halteraugasse").
+initlocation($p,"Josefstädter Straße").
+initlocation($p,"Donaumarina").
 person(2).
-initlocation(2,"Silbergasse").
-initlocation(2,"Tullnerfeld Bahnhof").
-initlocation(2,"Krieau").
-initlocation(2,"Nordbrücke").
-initlocation(2,"Albertgasse").
-initlocation(2,"Matthäus-Jiszda-Straße").
-initlocation(2,"Hernalser Gürtel").
-initlocation(2,"Leyserstraße").
-initlocation(2,"Prandaugasse").
-initlocation(2,"Heiligenstadt").
-initlocation(2,"Margaretengürtel").
-initlocation(2,"Floridsdorf").
-initlocation(2,"Neulengbach Stadt Bahnhof").
-sequence(2,0, "Silbergasse").
-possiblemeetinglocations("Langobardenstraße/Kapellenweg").
-possiblemeetinglocations("Silbergasse").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Gredlerstraße").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Teichgasse").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Satzberggasse").
-possiblemeetinglocations("Innstraße").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Unter Sankt Veit").
-restaurant("Döblinger Bad").
-restaurant("Pokornygasse").
-restaurant("Augasse").
-restaurant("Pilgramgasse").
-restaurant("Quellenstraße/Knöllgasse").
-restaurant("Fasangasse").
-restaurant("Jägerstraße").
-restaurant("Aspern, Oberdorfstraße").
-restaurant("Dommayergasse").
-restaurant("Nußdorfer Str/Alserbachstraße").
-restaurant("Josefstädter Straße").
-restaurant("Langobardenstraße/Kapellenweg").
-restaurant("Längenfeldgasse").
+initlocation($p,"Heiligenstadt, 12-Februar-Pl").
+initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation($p,"Untertullnerbach Bahnhof").
+initlocation($p,"Shuttleworthstraße").
+initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
+initlocation($p,"Grinzinger Straße").
+initlocation($p,"Litfaßstraße").
+initlocation($p,"Alte Donau").
+initlocation($p,"Viehmarktgasse").
+initlocation($p,"Rankgasse").
+initlocation($p,"Gerstnerstraße/Westbhf").
+initlocation($p,"Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Barawitzkagasse").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+restaurant("Schwarzenbergplatz").
+restaurant("Schleiergasse").
+restaurant("Burggasse-Stadthalle").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Stadlergasse").
+restaurant("Siemensstraße").
+restaurant("Autokaderstraße").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Staglgasse").
+restaurant("Blumengasse").

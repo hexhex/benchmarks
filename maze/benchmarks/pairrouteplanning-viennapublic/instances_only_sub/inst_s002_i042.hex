@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Purkersdorf Sanatorium").
-initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
-sequence(1,0, "Purkersdorf Sanatorium").
+initlocation($p,"Traisengasse").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Traisengasse").
 person(2).
-initlocation(2,"Hütteldorfer Straße").
-initlocation(2,"Schottentor").
-sequence(2,0, "Hütteldorfer Straße").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-restaurant("Kledering Bahnhof".
-restaurant("Friedensbrücke").
+initlocation($p,"Westbahnhof").
+initlocation($p,"Helmahof Bahnhof").
+initlocation($p,"Westbahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Taborstraße").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Sankt Marx").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Praterkai").
-initlocation(1,"Seyring Bahnhof").
-initlocation(1,"Guntramsdorf-Thallern").
-initlocation(1,"Stadlau").
-sequence(1,0, "Praterkai").
+initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation($p,"Stadlau").
+initlocation($p,"Kapellerfeld Bahnhof").
+initlocation($p,"Alser Straße").
+initlocation($p,"Gemeinlebarn Bahnhof").
 person(2).
-initlocation(2,"Absdorf-Hippersdorf Bahnhof").
-initlocation(2,"Wr Neustadt Hauptbahnhof").
-initlocation(2,"Westbahnhof").
-initlocation(2,"Seestadt").
-sequence(2,0, "Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Alser Straße").
-restaurant("Strasshof Bahnhof".
-restaurant("Hausfeldstraße".
-restaurant("Nestroyplatz".
-restaurant("Grillgasse").
+initlocation($p,"Kardinal-Nagl-Platz").
+initlocation($p,"Siemensstraße").
+initlocation($p,"Krieau").
+initlocation($p,"Trasdorf Bahnhof").
+initlocation($p,"Kardinal-Nagl-Platz").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Perfektastraße").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Korneuburg Bahnhof").

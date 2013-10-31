@@ -1,36 +1,36 @@
 person(1).
-initlocation(1,"Wildgansplatz").
-initlocation(1,"Sankt Marx").
-initlocation(1,"Blechturmgasse").
-initlocation(1,"Schwarzspanierstraße").
-initlocation(1,"Oberlaa, Therme Wien").
-initlocation(1,"Pressbaum Bahnhof").
-initlocation(1,"Kritzendorf Bahnhof").
-initlocation(1,"Laaer-Berg-Straße").
-sequence(1,0, "Wildgansplatz").
+initlocation($p,"Wattmanngasse").
+initlocation($p,"Alterlaa").
+initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation($p,"Haidestraße").
+initlocation($p,"Herzogenburg Stadt").
+initlocation($p,"Prater, Hauptallee").
+initlocation($p,"Mayerhofgasse").
+initlocation($p,"Großfeldsiedlung").
+initlocation($p,"Wattmanngasse").
 person(2).
-initlocation(2,"Praterstern").
-initlocation(2,"Schleinbach Bahnhof").
-initlocation(2,"Zeiselmauer-Königstetten Bf").
-initlocation(2,"Haslau an der Donau Bahnhof").
-initlocation(2,"Längenfeldgasse/Flurschützstr").
-initlocation(2,"Zippererstraße").
-initlocation(2,"Muckendorf-Wipfing Bahnhof").
-initlocation(2,"Aßmayergasse").
-sequence(2,0, "Praterstern").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Schlickgasse").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-restaurant("Urban-Loritz-Platz").
-restaurant("Messe-Prater").
-restaurant("Perfektastraße").
-restaurant("Jägerstraße").
-restaurant("Konstanziagasse").
-restaurant("Lerchenfelder Straße").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Karmeliterplatz").
+initlocation($p,"Wampersdorf Bahnhof").
+initlocation($p,"Brünner Straße/Hanreitergasse").
+initlocation($p,"Enkplatz").
+initlocation($p,"Maria Anzbach Bahnhof").
+initlocation($p,"Sarasdorf Bahnhof").
+initlocation($p,"Erlaaer Straße").
+initlocation($p,"Urban-Loritz-Platz").
+initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation($p,"Wampersdorf Bahnhof").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Unteres Belvedere").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Krottenbachstraße").
+restaurant("Viehofen Bahnhof").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Eichenstraße").
+restaurant("Rebhanngasse").
+restaurant("Martinstraße").
+restaurant("Dürrwien Bahnhof").
+restaurant("Hermesstraße").
+restaurant("Hietzing").
