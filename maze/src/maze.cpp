@@ -799,8 +799,7 @@ public:
 		PluginAtom("pathLongerThan", true)
 	{
 		addInputPredicate();
-		addInputConstant();
-		addInputConstant();
+		addInputTuple();
 		setOutputArity(0);
 	}
 
@@ -836,7 +835,7 @@ public:
 		PluginAtom("pathLength", false)
 	{
 		addInputPredicate();
-		addInputConstant();
+		addInputTuple();
 		setOutputArity(1);
 	}
 
