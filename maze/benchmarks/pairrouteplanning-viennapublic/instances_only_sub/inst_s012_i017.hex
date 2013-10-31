@@ -1,21 +1,52 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"Obersdorf Bahnhof").
+sequence(1,0, "Kottingneusiedl Bahnhof").
+person(2).
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Handelskai").
+initlocation(2,"Lobau").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Kottingbrunn Bahnhof").
+sequence(2,0, "Schleinbach Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+restaurant("Purkersdorf Sanatorium".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Felixdorf Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("Tscherttegasse".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Gasometer".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Praterstern").

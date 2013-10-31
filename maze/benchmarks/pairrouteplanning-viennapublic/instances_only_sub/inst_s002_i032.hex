@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Hütteldorf").
+initlocation(1,"Keplerplatz").
+sequence(1,0, "Hütteldorf").
+person(2).
+initlocation(2,"Seestadt").
+initlocation(2,"Perfektastraße").
+sequence(2,0, "Seestadt").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Schleinbach Bahnhof").
+restaurant("Enkplatz".
+restaurant("Josefstädter Straße").

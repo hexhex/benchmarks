@@ -1,21 +1,56 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Frauengasse").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Praterstern").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Carabelligasse").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Absberggasse").
+initlocation(1,"Gußhausstraße").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Ameisgasse").
+sequence(1,0, "Frauengasse").
+person(2).
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Staglgasse").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Palffygasse").
+initlocation(2,"Knöllgasse/Davidgasse").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Stubentor").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Alsegger Straße").
+sequence(2,0, "Silberwald Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+restaurant("Trasdorf Bahnhof").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Rennweg").
+restaurant("Platt Bahnhof").
+restaurant("Karmeliterplatz").
+restaurant("Neulengbach Bahnhof").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Siebertgasse").
+restaurant("Koppstraße/Panikengasse").
+restaurant("Rochusgasse").
+restaurant("Empergergasse").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Messe-Prater").

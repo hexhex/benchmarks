@@ -1,19 +1,40 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Wallrißstraße").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Mayerhofgasse").
+initlocation(1,"Stammersdorf").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Resselgasse").
+sequence(1,0, "Wallrißstraße").
+person(2).
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Forstnergasse").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Svetelskystraße").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Laxenburger Str/Gudrunstraße").
+initlocation(2,"Halteraugasse").
+sequence(2,0, "Höchstädtplatz").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Rathaus").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Liebknechtgasse").
+restaurant("Nußdorf").
+restaurant("Paradisgasse").
+restaurant("Jedlersdorf").
+restaurant("Kagraner Brücke").
+restaurant("Zellerndorf Bahnhof").
 restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
+restaurant("Stadlau").

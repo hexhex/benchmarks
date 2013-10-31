@@ -1,6 +1,20 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Liesing").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Schönbrunn").
+sequence(1,0, "Gaisruck Bahnhof").
+person(2).
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+sequence(2,0, "Staatz Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+restaurant("Platt Bahnhof".
+restaurant("Hirschstetten".
+restaurant("Tulln Stadt Bahnhof".
+restaurant("Westbahnhof").

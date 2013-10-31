@@ -1,19 +1,40 @@
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Donauspital").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Schweglerstraße").
+sequence(1,0, "Schönborn Bahnhof").
+person(2).
+initlocation(2,"Stadtpark").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Traismauer Bahnhof").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Pilgramgasse".
+restaurant("Kettenbrückengasse".
+restaurant("Ober Sankt Veit".
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Zieglergasse".
+restaurant("Floridsdorf".
+restaurant("Nestroyplatz".
+restaurant("St Pölten Hauptbahnhof".
+restaurant("Herzogenburg Bahnhof").

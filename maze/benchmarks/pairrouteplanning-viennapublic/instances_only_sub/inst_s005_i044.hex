@@ -1,11 +1,24 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+sequence(1,0, "Regelsbrunn Bahnhof").
+person(2).
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Landstraße-Wien Mitte").
+sequence(2,0, "Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Himberg Bahnhof").
+restaurant("Dresdner Straße".
+restaurant("Zieglergasse".
+restaurant("Fischamend Bahnhof".
+restaurant("Höflein an der Donau Bahnhof".
+restaurant("Bad Vöslau Bahnhof").

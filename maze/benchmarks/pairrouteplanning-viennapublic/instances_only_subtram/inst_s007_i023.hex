@@ -1,15 +1,32 @@
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Verbindungsbahn").
+sequence(1,0, "Knöllgasse/Troststraße").
+person(2).
+initlocation(2,"Zentralfriedhof 1Tor").
+initlocation(2,"Perntergasse").
+initlocation(2,"Litfaßstraße").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Neulerchenfelder Str/Haberlg").
+sequence(2,0, "Zentralfriedhof 1Tor").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Kagran").
+restaurant("Laurenzgasse").
+restaurant("Praterstern").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Hietzing").
+restaurant("Dresdner Straße").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Trasdorf Bahnhof").

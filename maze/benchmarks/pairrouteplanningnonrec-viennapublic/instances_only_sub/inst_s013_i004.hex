@@ -1,21 +1,56 @@
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Stubentor").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Penzing").
+sequence(1,0, "Stubentor").
+person(2).
+initlocation(2,"Stadlau").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+sequence(2,0, "Stadlau").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+restaurant("Herzogenburg Stadt".
+restaurant("Aspern Nord".
+restaurant("Vorgartenstraße".
+restaurant("Haidestraße".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Alser Straße".
+restaurant("Breitensee".
+restaurant("Josefstädter Straße".
+restaurant("Gramatneusiedl Bahnhof".
+restaurant("Am Schöpfwerk".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Maria Anzbach Bahnhof").

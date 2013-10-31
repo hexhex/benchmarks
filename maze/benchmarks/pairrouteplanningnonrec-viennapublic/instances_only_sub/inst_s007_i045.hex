@@ -1,15 +1,33 @@
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Stadlau").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+sequence(1,0, "Bad Vöslau Bahnhof").
+person(2).
+initlocation(2,"Sankt Marx").
+initlocation(2,"Donauspital").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Hainburg/Donau Personenbhf").
+sequence(2,0, "Sankt Marx").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Ottakring").
+restaurant("Theresienfeld Bahnhof".
+restaurant("Wampersdorf Bahnhof".
+restaurant("Braunschweiggasse".
+restaurant("Keplerplatz".
+restaurant("Hütteldorf".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Eichgraben-Altlengbach Bahnhof").

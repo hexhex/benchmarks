@@ -1,21 +1,48 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Gramatneusiedl Bahnhof").
+sequence(1,0, "Weidlingau Bahnhof").
+person(2).
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Michelbeuern-AKH").
+sequence(2,0, "Oberradlberg Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+restaurant("Strasshof Bahnhof".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Floridsdorf".
+restaurant("Unter Sankt Veit".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Krottenbachstraße".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("Wr Neustadt Nord".
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Zippererstraße".
+restaurant("Tulln Bahnhof").

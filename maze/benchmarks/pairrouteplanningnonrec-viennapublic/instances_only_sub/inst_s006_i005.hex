@@ -1,13 +1,30 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Hietzing").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Bad Vöslau Bahnhof").
+sequence(1,0, "Kledering Bahnhof").
+person(2).
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+sequence(2,0, "Bad Vöslau Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Strasshof Bahnhof").
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Oberradlberg Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Meidling Hauptstraße".
+restaurant("Hainburg/Donau Kulturfabrik Bf").

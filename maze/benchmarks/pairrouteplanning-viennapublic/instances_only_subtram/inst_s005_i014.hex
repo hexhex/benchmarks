@@ -1,11 +1,24 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Otto-Probst-Platz").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Sechskrügelgasse").
+initlocation(1,"Kottingneusiedl Bahnhof").
+sequence(1,0, "Regelsbrunn Bahnhof").
+person(2).
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Columbusplatz").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Krottenbachstraße").
+sequence(2,0, "Heiligenstadt").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+restaurant("Wexstraße").
+restaurant("Gruschaplatz").
+restaurant("Molitorgasse").
+restaurant("Floridsdorf").
+restaurant("Shuttleworthstraße").

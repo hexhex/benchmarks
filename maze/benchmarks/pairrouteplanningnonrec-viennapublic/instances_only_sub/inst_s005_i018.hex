@@ -1,11 +1,25 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-sequence(0, "Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Stubentor").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Erdberg").
+sequence(1,0, "Stubentor").
+person(2).
+initlocation(2,"Zippererstraße").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Rennweg").
+sequence(2,0, "Zippererstraße").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+restaurant("Siebenhirten".
+restaurant("Schottentor".
+restaurant("Vorgartenstraße".
+restaurant("Hainburg/Donau Kulturfabrik Bf".
+restaurant("Enkplatz").

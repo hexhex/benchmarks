@@ -1,11 +1,24 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Donaumarina").
+sequence(1,0, "Klosterneuburg-Weidling Bf").
+person(2).
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Haidestraße").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Kledering Bahnhof").
+sequence(2,0, "Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+restaurant("Seestadt".
+restaurant("Zentralfriedhof".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Aderklaaer Straße").

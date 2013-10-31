@@ -1,21 +1,60 @@
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-sequence(0, "Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Praterstern").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Liesing").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+sequence(1,0, "Praterstern").
+person(2).
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Ottakring").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+sequence(2,0, "Süßenbrunn").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Alte Donau").
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Brünner Straße".
+restaurant("Ober Sankt Veit".
+restaurant("Währinger Straße-Volksoper".
+restaurant("Schwechat Bahnhof".
+restaurant("Sollenau Bahnhof".
+restaurant("Silberwald Bahnhof".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Neubaugasse".
+restaurant("Schottenring".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Leopoldau".
+restaurant("Praterstern".
+restaurant("Gumpoldskirchen Bahnhof").

@@ -1,6 +1,20 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Hernalser Gürtel").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Heiligenstadt, 12-Februar-Pl").
+sequence(1,0, "Hernalser Gürtel").
+person(2).
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Franzensbrücke").
+sequence(2,0, "Traismauer Bahnhof").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Hohe Warte").
+restaurant("Praterkai").
+restaurant("Enkplatz").
+restaurant("Sechskrügelgasse").

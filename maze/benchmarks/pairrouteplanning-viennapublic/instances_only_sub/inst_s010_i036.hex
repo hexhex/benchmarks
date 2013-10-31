@@ -1,21 +1,46 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Stadlau").
+initlocation(1,"Haidestraße").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Alser Straße").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+sequence(1,0, "Stadlau").
+person(2).
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Praterstern").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+sequence(2,0, "Taubstummengasse").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Donauinsel".
+restaurant("Am Schöpfwerk".
+restaurant("Zentralfriedhof".
+restaurant("Götzendorf Bahnhof".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Trasdorf Bahnhof".
+restaurant("Siebenhirten".
+restaurant("Ebreichsdorf Bahnhof").

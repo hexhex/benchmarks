@@ -1,21 +1,44 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Praterkai").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Grillgasse").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Silberwald Bahnhof").
+sequence(1,0, "Sarasdorf Bahnhof").
+person(2).
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Rathaus").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Handelskai").
+initlocation(2,"Praterkai").
+sequence(2,0, "Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+restaurant("Kaisermühlen-VIC".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("Strebersdorf".
+restaurant("Traisengasse".
+restaurant("Mistelbach Bahnhof".
+restaurant("Gänserndorf Bahnhof".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Stockerau Bahnhof".
+restaurant("St Pölten Traisenpark P+R Nord".
+restaurant("Hütteldorf").

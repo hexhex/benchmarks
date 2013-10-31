@@ -1,21 +1,60 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Zentralfriedhof 3Tor").
+initlocation(1,"Bösendorferstraße").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Linzer Straße/Zehetnergasse").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Kliebergasse").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Eckpergasse").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Stollgasse").
+sequence(1,0, "Gemeinlebarn Bahnhof").
+person(2).
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Leyserstraße").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Gloriettegasse").
+initlocation(2,"Fasangasse").
+initlocation(2,"Rosenhügelstraße").
+initlocation(2,"Liesing").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Hoßplatz").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+sequence(2,0, "Liechtenwerder Platz").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Hohe Warte").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+restaurant("Am Spitz").
+restaurant("Geiereckstraße").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Enkplatz").
+restaurant("Grinzing").
+restaurant("Sollenau Bahnhof").
+restaurant("Silbergasse").
+restaurant("Felixdorf Bahnhof").
+restaurant("Quellenplatz").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Winkeläckerstraße").
+restaurant("Spillern Bahnhof").
+restaurant("Karmeliterplatz").
+restaurant("Stiftgasse").

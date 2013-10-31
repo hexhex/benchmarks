@@ -1,5 +1,16 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Koloniestraße").
+initlocation(1,"Leyserstraße").
+initlocation(1,"Rosensteingasse").
+sequence(1,0, "Koloniestraße").
+person(2).
+initlocation(2,"Hauffgasse").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Ober Sankt Veit").
+sequence(2,0, "Hauffgasse").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Thaliastraße").
+restaurant("Kutschkergasse").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Am Heumarkt").

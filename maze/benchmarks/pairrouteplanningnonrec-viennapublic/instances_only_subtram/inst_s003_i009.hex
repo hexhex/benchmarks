@@ -1,5 +1,16 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Ottakring").
+initlocation(1,"Spittelau").
+initlocation(1,"Carminweg").
+sequence(1,0, "Ottakring").
+person(2).
+initlocation(2,"Reumannplatz").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Rathaus").
+sequence(2,0, "Reumannplatz").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+restaurant("Resselgasse").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Otto-Probst-Platz").

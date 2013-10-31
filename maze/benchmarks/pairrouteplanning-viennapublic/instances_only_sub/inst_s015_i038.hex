@@ -1,21 +1,64 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Margaretengürtel").
+sequence(1,0, "Schwedenplatz").
+person(2).
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Schottentor").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Kledering Bahnhof").
+sequence(2,0, "Margaretengürtel").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+restaurant("Taborstraße".
+restaurant("Alte Donau".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Neulengbach Bahnhof".
+restaurant("Zippererstraße".
+restaurant("Roßauer Lände".
+restaurant("Rathaus".
+restaurant("Gumpendorfer Straße".
+restaurant("Alterlaa".
+restaurant("Götzendorf Bahnhof".
+restaurant("Silberwald Bahnhof".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Trautmannsdorf/Leitha Bf".
+restaurant("Schweglerstraße").

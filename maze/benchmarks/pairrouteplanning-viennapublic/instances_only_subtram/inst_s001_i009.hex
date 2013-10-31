@@ -1,3 +1,8 @@
-initlocation("Museumsquartier").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Schloss Hetzendorf").
+sequence(1,0, "Schloss Hetzendorf").
+person(2).
+initlocation(2,"Hütteldorfer Straße").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Nordwestbahnstraße").
+restaurant("Floridsdorf").

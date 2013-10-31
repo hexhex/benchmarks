@@ -1,17 +1,36 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Schottentor").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Marxergasse").
+initlocation(1,"Sarasdorf Bahnhof").
+sequence(1,0, "Trasdorf Bahnhof").
+person(2).
+initlocation(2,"Brünner Straße").
+initlocation(2,"Johann-Nepomuk-Berger-Platz").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Krieau").
+sequence(2,0, "Brünner Straße").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Auerspergstraße").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Kagraner Platz").
 restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
+restaurant("Keplerplatz").
+restaurant("Am Heidjöchl").
+restaurant("Konstanziagasse").
+restaurant("Schönbrunn").
+restaurant("Seestadt").
+restaurant("Kraygasse").

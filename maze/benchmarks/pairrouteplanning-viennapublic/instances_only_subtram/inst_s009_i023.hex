@@ -1,19 +1,40 @@
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Kaiserstraße/Westbahnstraße").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Julius-Raab-Platz").
+initlocation(1,"Wienerbergbrücke").
+initlocation(1,"Fickeysstraße").
+sequence(1,0, "Laa an der Thaya Bahnhof").
+person(2).
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Römergasse").
+initlocation(2,"Sommarugagasse").
+initlocation(2,"Alsegger Straße").
+initlocation(2,"Donaustadtstraße").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Hermesstraße").
+sequence(2,0, "Regelsbrunn Bahnhof").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Stiftgasse").
+possiblemeetinglocations("Schloss Schönbrunn").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Schloss Hetzendorf").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Winkeläckerstraße").
+restaurant("Yppengasse").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Hütteldorf").

@@ -1,21 +1,65 @@
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Zentralfriedhof 4Tor").
+initlocation(1,"Arminenstraße").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Molitorgasse").
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Lederergasse").
+initlocation(1,"Hütteldorf, Bujattigasse").
+initlocation(1,"Florianigasse").
+initlocation(1,"Linzer Straße/Johnstraße").
+initlocation(1,"Prinzgasse").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Edmund-Hawranek-Platz").
+initlocation(1,"Kaiserstraße/Westbahnstraße").
+initlocation(1,"Taborstraße").
+sequence(1,0, "Zentralfriedhof 4Tor").
+person(2).
+initlocation(2,"Breitenfurter Str/Liesingbr").
+initlocation(2,"Paradisgasse").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Erdberg").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Burgring").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Thaliastraße/Maroltingergasse").
+initlocation(2,"Aumannplatz").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Wildgansplatz").
+sequence(2,0, "Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+restaurant("Teichgasse").
+restaurant("Geiereckstraße").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Höchstädtplatz").
+restaurant("Rennbahnweg").
+restaurant("Neuwaldegg").
+restaurant("Siebensterngasse").
+restaurant("Am Spitz").
+restaurant("Fultonstraße").
+restaurant("Lange Gasse").
+restaurant("Rathaus").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Oberolberndorf Bahnhof").

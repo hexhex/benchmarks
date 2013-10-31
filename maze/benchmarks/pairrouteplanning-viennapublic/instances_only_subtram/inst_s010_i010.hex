@@ -1,21 +1,45 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Breitensee").
+initlocation(1,"Alaudagasse").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Kraygasse").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+sequence(1,0, "Breitensee").
+person(2).
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Kagran").
+initlocation(2,"Maurer Lange Gasse").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Carminweg").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Mühlfeldgasse").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+restaurant("Sieveringer Straße").
+restaurant("Kaiserstraße").
+restaurant("Salztorbrücke").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Laurenzgasse").
+restaurant("Michelbeuern-AKH").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Anton-Schall-Gasse").
+restaurant("Lazarettgasse").
+restaurant("Niederhofstraße").

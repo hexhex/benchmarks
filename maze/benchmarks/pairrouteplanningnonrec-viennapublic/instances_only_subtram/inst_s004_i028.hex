@@ -1,6 +1,20 @@
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Nußdorf, Beethovengang").
+sequence(1,0, "Wr Neustadt Nord").
+person(2).
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Traisengasse").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+sequence(2,0, "Neusiedl am See Bahnhof").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+restaurant("Urban-Loritz-Platz").
+restaurant("Bahnhofstraße").
+restaurant("Baumgarten").
+restaurant("Weißenböckstraße").

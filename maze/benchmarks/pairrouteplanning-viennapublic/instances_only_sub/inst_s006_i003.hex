@@ -1,13 +1,28 @@
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Blumental").
+sequence(1,0, "Hadersdorf Bahnhof").
+person(2).
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Quartier Belvedere").
+sequence(2,0, "Kritzendorf Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+restaurant("Ladendorf Bahnhof".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("Lobau".
+restaurant("Friedensbrücke".
+restaurant("Simmering".
+restaurant("Schweglerstraße").

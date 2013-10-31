@@ -1,5 +1,16 @@
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Dommayergasse").
+sequence(1,0, "Theresienfeld Bahnhof").
+person(2).
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Am Tabor").
+sequence(2,0, "Weinheimergasse").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Hausleiten Bahnhof").
+restaurant("Wr Neustadt Nord").

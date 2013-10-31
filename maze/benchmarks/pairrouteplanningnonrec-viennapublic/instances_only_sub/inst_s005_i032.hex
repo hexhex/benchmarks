@@ -1,11 +1,24 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Herrengasse").
+initlocation(1,"Sarasdorf Bahnhof").
+sequence(1,0, "Wampersdorf Bahnhof").
+person(2).
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+sequence(2,0, "Gerasdorf Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Tulln Bahnhof").
+restaurant("Sankt Marx".
+restaurant("Seyring Bahnhof".
+restaurant("Bahnhof Meidling".
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Zellerndorf Bahnhof").

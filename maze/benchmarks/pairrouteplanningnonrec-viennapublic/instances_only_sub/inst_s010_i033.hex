@@ -1,21 +1,44 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Spittelau").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Göllersdorf Bahnhof").
+sequence(1,0, "Bahnhof Meidling").
+person(2).
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Handelskai").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Meidling Hauptstraße").
+sequence(2,0, "Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Schönbrunn".
+restaurant("Simmering".
+restaurant("Längenfeldgasse".
+restaurant("Obersdorf Bahnhof".
+restaurant("Praterkai".
+restaurant("Michelbeuern-AKH".
+restaurant("St Pölten Traisenpark P+R Nord".
+restaurant("Wolf in der Au".
+restaurant("Sollenau Bahnhof").

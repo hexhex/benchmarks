@@ -1,21 +1,56 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Sankt Marx").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Pilgramgasse").
+sequence(1,0, "Sankt Marx").
+person(2).
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Nußdorf").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Stephansplatz").
+sequence(2,0, "Kettenbrückengasse").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+restaurant("Gumpendorfer Straße".
+restaurant("Kledering Bahnhof".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Trasdorf Bahnhof".
+restaurant("Langenlebarn Bahnhof".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Wilfleinsdorf Bahnhof".
+restaurant("Unteroberndorf Bahnhof".
+restaurant("Enzersdorf bei Staatz Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Schönborn Bahnhof".
+restaurant("Karlsplatz").

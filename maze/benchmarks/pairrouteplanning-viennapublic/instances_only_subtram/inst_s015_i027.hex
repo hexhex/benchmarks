@@ -1,21 +1,64 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Hietzing").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Traisengasse").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Lederergasse").
+initlocation(1,"Friedrich-Engels-Platz").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Dommayergasse").
+sequence(1,0, "Achau Bahnhof").
+person(2).
+initlocation(2,"Gersthof").
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Alsegger Straße").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Blumengasse").
+initlocation(2,"Heiligenstadt, 12-Februar-Pl").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Anschützgasse").
+initlocation(2,"Nordbahnstraße").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Nußdorf, Beethovengang").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Staglgasse").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Valiergasse").
+sequence(2,0, "Gersthof").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Stollgasse").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Sickenberggasse").
+restaurant("Enkplatz").
+restaurant("Winkeläckerstraße").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Dürrwien Bahnhof").
+restaurant("Franzensbrücke").
+restaurant("Autokaderstraße").
+restaurant("Anton-Schall-Gasse").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Hausleiten Bahnhof").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Liesing").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Kaiserebersdorf").

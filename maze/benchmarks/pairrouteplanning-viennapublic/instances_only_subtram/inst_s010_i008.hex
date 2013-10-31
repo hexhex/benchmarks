@@ -1,21 +1,45 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Rodaun").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Herrengasse").
+initlocation(1,"Am Tabor").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Augasse").
+initlocation(1,"Enkplatz").
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Hauffgasse").
+sequence(1,0, "Rodaun").
+person(2).
+initlocation(2,"Empergergasse").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Columbusplatz").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Thaliastraße/Brunnengasse").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Simonygasse").
+initlocation(2,"Breitensee").
+sequence(2,0, "Empergergasse").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Erndtgasse").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Marienbrücke").
+restaurant("Spillern Bahnhof").
+restaurant("Sieveringer Straße").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Winckelmannstraße").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Strebersdorf").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Pfaffstätten Bahnhof").

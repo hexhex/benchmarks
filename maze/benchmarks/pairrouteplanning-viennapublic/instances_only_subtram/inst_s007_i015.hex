@@ -1,15 +1,32 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Kaiserstraße/Westbahnstraße").
+initlocation(1,"Schloss Schönbrunn").
+initlocation(1,"Unter St Veit, Hummelgasse").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+initlocation(1,"Autokaderstraße").
+initlocation(1,"Glatzgasse").
+sequence(1,0, "Kaiserstraße/Westbahnstraße").
+person(2).
+initlocation(2,"Am Heidjöchl").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Nußdorf, Beethovengang").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Am Heumarkt").
+initlocation(2,"Rampengasse").
+initlocation(2,"Heiligenstadt").
+sequence(2,0, "Am Heidjöchl").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Karmeliterplatz").
+restaurant("Rosenhügelstraße").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Redtenbachergasse").
+restaurant("Prater, Hauptallee").
+restaurant("Mistelbach Stadt").

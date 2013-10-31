@@ -1,11 +1,24 @@
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Brünner Straße").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Krieau").
+sequence(1,0, "Brünner Straße").
+person(2).
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+sequence(2,0, "Korneuburg Bahnhof").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+restaurant("Ebenfurth Bahnhof".
+restaurant("Floridsdorf".
+restaurant("Oberdöbling".
+restaurant("Siebenhirten".
+restaurant("Obereggendorf Bahnhof").

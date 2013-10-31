@@ -1,21 +1,60 @@
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Canisiusgasse").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Bösendorferstraße").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Wenzgasse").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Atzgersdorfer Straße").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Volkstheater").
+sequence(1,0, "Canisiusgasse").
+person(2).
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Weihburggasse").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Columbusplatz").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Frödenplatz").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+sequence(2,0, "Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Auerspergstraße").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Rosensteingasse").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+restaurant("Redtenbachergasse").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Spittelau").
+restaurant("Krankenhaus Hietzing").
+restaurant("Schleiergasse").
+restaurant("Jagdschloßgasse").
+restaurant("Aßmayergasse").
+restaurant("Atzgersdorfer Straße").
+restaurant("Mannswörth Bahnhof").
+restaurant("Taubstummengasse").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Burggasse-Stadthalle").
+restaurant("Wr Neustadt Nord").
+restaurant("Kaiserstraße/Burggasse").

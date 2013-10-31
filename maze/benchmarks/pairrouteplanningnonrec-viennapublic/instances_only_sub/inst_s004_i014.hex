@@ -1,6 +1,20 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Margaretengürtel").
+sequence(1,0, "Schweglerstraße").
+person(2).
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Praterkai").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Parndorf Ort Bahnhof").
+sequence(2,0, "Paasdorf Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Brünner Straße").
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Aspern Nord".
+restaurant("Korneuburg Bahnhof").

@@ -1,4 +1,12 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Obereggendorf Bahnhof").
+sequence(1,0, "Quartier Belvedere").
+person(2).
+initlocation(2,"Zieglergasse").
+initlocation(2,"Gredlerstraße").
+sequence(2,0, "Zieglergasse").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Rosensteingasse").
+restaurant("Rathaus").
+restaurant("Frättingsdorf Bahnhof").

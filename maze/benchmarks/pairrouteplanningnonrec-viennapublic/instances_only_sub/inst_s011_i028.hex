@@ -1,21 +1,48 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Schönbrunn").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Stadion").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+sequence(1,0, "Schönbrunn").
+person(2).
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Gasometer").
+initlocation(2,"Handelskai").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Hausfeldstraße").
+sequence(2,0, "Göllersdorf Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Blumental").
+restaurant("Nußdorfer Straße".
+restaurant("Schweglerstraße".
+restaurant("Mödling Bahnhof".
+restaurant("Mannswörth Bahnhof".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Praterkai".
+restaurant("Taborstraße".
+restaurant("Breitensee".
+restaurant("Neubaugasse".
+restaurant("Gumpendorfer Straße").

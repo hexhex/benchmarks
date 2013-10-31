@@ -1,21 +1,57 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Zentralfriedhof 3Tor").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Shuttleworthstraße").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Franz-Josefs-Bahnhof").
+sequence(1,0, "Mistelbach Bahnhof").
+person(2).
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Althanstraße").
+initlocation(2,"Weißenböckstraße").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Donauzentrum").
+initlocation(2,"Kaiserstraße").
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Neuwaldegg").
+sequence(2,0, "Johann-Strauß-Gasse").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Redtenbachergasse").
+possiblemeetinglocations("Jagdschloßgasse").
+restaurant("Fasangasse").
+restaurant("Althanstraße").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Kölblgasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Glatzgasse").
+restaurant("Beingasse").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Schlickgasse").
+restaurant("Burgring").
+restaurant("Halteraugasse").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Quellenstraße/Knöllgasse").

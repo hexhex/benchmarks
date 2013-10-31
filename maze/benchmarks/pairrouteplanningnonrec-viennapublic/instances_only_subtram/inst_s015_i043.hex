@@ -1,21 +1,64 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Kraygasse").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Am Tabor").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Gasometer").
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Gatterburggasse").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+initlocation(1,"Am Spitz").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Rochusgasse").
+sequence(1,0, "Kraygasse").
+person(2).
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Plößlgasse").
+initlocation(2,"Oberzellergasse").
+initlocation(2,"Kaiserstraße").
+initlocation(2,"Glatzgasse").
+initlocation(2,"Kagran").
+initlocation(2,"Marx-Meidlinger-Straße").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Zentralfriedhof 2Tor").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Althanstraße").
+initlocation(2,"Höbersdorf Bahnhof").
+sequence(2,0, "Schweglerstraße").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Kranzgasse").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Stiftgasse").
+possiblemeetinglocations("Trondheimgasse").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Palffygasse").
+restaurant("Herbeckstraße").
+restaurant("Gaußplatz").
+restaurant("Heiligenstadt").
+restaurant("Aspernstraße").
+restaurant("Erlaaer Straße").
+restaurant("Seegasse").
+restaurant("Gloriettegasse").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Schuhmeierplatz").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Konstanziagasse").
+restaurant("Grinzing").
+restaurant("Weißenböckstraße").
+restaurant("Paulanergasse").
+restaurant("Hofwiesengasse").

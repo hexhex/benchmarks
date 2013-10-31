@@ -1,21 +1,49 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Stadtpark").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Enkplatz").
+sequence(1,0, "Stadtpark").
+person(2).
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Alser Straße").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Enkplatz").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Hietzing").
+sequence(2,0, "Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Spittelau".
+restaurant("Siebenhirten".
+restaurant("Simmering".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Braunschweiggasse".
+restaurant("Längenfeldgasse".
+restaurant("Westbahnhof".
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Gersthof").

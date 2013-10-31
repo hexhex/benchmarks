@@ -1,21 +1,60 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Schottenring").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Krieau").
+initlocation(1,"Waidhausenstraße").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "Laaer-Berg-Straße").
+person(2).
+initlocation(2,"Eichenstraße").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Brünnlbadgasse").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Baumgasse").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Altes Landgut").
+sequence(2,0, "Eichenstraße").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+restaurant("Niederhofstraße").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Traismauer Bahnhof").
+restaurant("Schloss Hetzendorf").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Arthaberplatz").
+restaurant("Empergergasse").
+restaurant("Donaustadtbrücke").
+restaurant("Anschützgasse").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Albertgasse").

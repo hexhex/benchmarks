@@ -1,21 +1,48 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Höchstädtplatz").
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Hohe Warte").
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Sensengasse").
+initlocation(1,"Laa an der Thaya Bahnhof").
+sequence(1,0, "Rennbahnweg").
+person(2).
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Glatzgasse").
+initlocation(2,"Sillerplatz").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Rosenhügelstraße").
+initlocation(2,"Hoßplatz").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+sequence(2,0, "Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Litfaßstraße").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Atzgersdorfer Straße").
+restaurant("Haidestraße").
+restaurant("Gredlerstraße").
+restaurant("Sahulkastraße").
 restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
+restaurant("Nußdorf").
+restaurant("Perntergasse").
+restaurant("Beingasse").
+restaurant("Alfred-Adler-Straße").

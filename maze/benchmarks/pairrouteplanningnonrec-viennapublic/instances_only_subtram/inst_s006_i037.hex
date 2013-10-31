@@ -1,13 +1,28 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Langobardenstraße").
+sequence(1,0, "Retz Bahnhof").
+person(2).
+initlocation(2,"Paradisgasse").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Liebknechtgasse").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Erdbergstr/Schlachthausgasse").
+sequence(2,0, "Paradisgasse").
+possiblemeetinglocations("Eichenstraße").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+restaurant("Schleinbach Bahnhof").
+restaurant("Erdberg").
+restaurant("Hausleiten Bahnhof").
+restaurant("Lederergasse").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Praterstern").

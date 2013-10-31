@@ -1,13 +1,29 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Schlachthausgasse").
+sequence(1,0, "Tulln Bahnhof").
+person(2).
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Kagraner Platz").
+sequence(2,0, "Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+restaurant("Münchendorf Bahnhof".
+restaurant("Unter Sankt Veit".
+restaurant("Leobersdorf Bahnhof".
+restaurant("Schönborn Bahnhof".
+restaurant("Hardeggasse".
+restaurant("Erdberg").

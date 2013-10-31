@@ -1,21 +1,65 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Kagran").
+initlocation(1,"Nußdorf").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Johnstraße").
+sequence(1,0, "Kagran").
+person(2).
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Blumental").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Haidestraße").
+sequence(2,0, "Retz Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+restaurant("Obersdorf Bahnhof".
+restaurant("Stadion".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Bahnhof Meidling".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Pottendorf-Landegg Bahnhof".
+restaurant("Strebersdorf".
+restaurant("Ober Sankt Veit".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Atzgersdorf".
+restaurant("St Pölten Hauptbahnhof".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Traismauer Bahnhof".
+restaurant("Seyring Bahnhof").

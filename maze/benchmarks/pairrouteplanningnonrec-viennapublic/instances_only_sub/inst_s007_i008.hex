@@ -1,15 +1,32 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Neubaugasse").
+initlocation(1,"Praterkai").
+initlocation(1,"Stadion").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Dürrwien Bahnhof").
+sequence(1,0, "Neubaugasse").
+person(2).
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Mistelbach Bahnhof").
+sequence(2,0, "Mödling Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Krieau".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Alte Donau".
+restaurant("Friedensbrücke".
+restaurant("Stadlau".
 restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").

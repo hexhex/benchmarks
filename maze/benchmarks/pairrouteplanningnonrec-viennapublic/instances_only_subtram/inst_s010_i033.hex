@@ -1,21 +1,44 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Obere Donaustraße").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Alsegger Straße").
+sequence(1,0, "Obere Donaustraße").
+person(2).
+initlocation(2,"Fultonstraße").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Siebertgasse").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Johann-Nepomuk-Berger-Platz").
+initlocation(2,"Autokaderstraße").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Krieau").
+sequence(2,0, "Fultonstraße").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Zippererstraße").
+restaurant("Simonygasse").
+restaurant("Weinheimergasse").
+restaurant("Bisamberg Bahnhof").
+restaurant("Hauptbahnhof Ost").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Carminweg").
+restaurant("Teichgasse").
+restaurant("Krottenbachstraße").

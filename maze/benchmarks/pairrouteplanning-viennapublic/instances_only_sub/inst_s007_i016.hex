@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "Neusiedl am See Bahnhof").
+person(2).
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Stadtpark").
+initlocation(2,"Blumental").
+sequence(2,0, "Pfaffstätten Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+restaurant("Gersthof".
+restaurant("Meidling Hauptstraße".
+restaurant("Hausleiten Bahnhof".
+restaurant("Stubentor".
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Zieglergasse".
+restaurant("Guntramsdorf-Thallern").

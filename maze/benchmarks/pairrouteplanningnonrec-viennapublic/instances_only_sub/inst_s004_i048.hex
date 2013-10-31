@@ -1,6 +1,21 @@
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Währinger Straße-Volksoper").
+sequence(1,0, "Hainburg/Donau Ungartor/B9").
+person(2).
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Bisamberg Bahnhof").
+sequence(2,0, "Kaisermühlen-VIC").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+restaurant("Donauspital".
+restaurant("Hardeggasse".
+restaurant("Höbersdorf Bahnhof".
+restaurant("Oberolberndorf Bahnhof").

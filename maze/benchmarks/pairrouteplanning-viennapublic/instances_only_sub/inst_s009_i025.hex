@@ -1,19 +1,40 @@
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Jägerstraße").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Strebersdorf").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Stadlau").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Atzenbrugg Bahnhof").
+sequence(1,0, "Strebersdorf").
+person(2).
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Leopoldau").
+sequence(2,0, "Atzenbrugg Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+restaurant("Hernals".
+restaurant("Alte Donau".
+restaurant("Seestadt".
+restaurant("Zellerndorf Bahnhof".
+restaurant("Herrengasse".
+restaurant("Friedensbrücke".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Thaliastraße".
+restaurant("Bad Deutsch-Altenburg Bahnhof").

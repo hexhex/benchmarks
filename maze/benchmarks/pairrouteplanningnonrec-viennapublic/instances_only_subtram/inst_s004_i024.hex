@@ -1,6 +1,20 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Schottentor").
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Löwengasse").
+initlocation(1,"Untereggendorf Bahnhof").
+sequence(1,0, "Schottentor").
+person(2).
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Unteres Belvedere").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+sequence(2,0, "Döblinger Bad").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+restaurant("Neilreichgasse").
+restaurant("Nordbrücke").
+restaurant("Fischamend Bahnhof").
+restaurant("Traismauer Bahnhof").

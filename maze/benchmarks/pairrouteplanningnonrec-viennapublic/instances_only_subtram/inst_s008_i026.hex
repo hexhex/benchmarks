@@ -1,17 +1,36 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Gewerbepark Stadlau Mitte").
+initlocation(1,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Hohe Warte").
+initlocation(1,"Sechskrügelgasse").
+sequence(1,0, "Gewerbepark Stadlau Mitte").
+person(2).
+initlocation(2,"Brigittaplatz").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Gerstnerstraße/Westbhf").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Hopfengasse").
+initlocation(2,"Rosenhügelstraße").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Halteraugasse").
+sequence(2,0, "Brigittaplatz").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Burgring").
+restaurant("Carabelligasse").
+restaurant("Wildgansplatz").
+restaurant("Glatzgasse").
+restaurant("Jedlersdorf").
+restaurant("Gußhausstraße").
+restaurant("Preyergasse/Speising").
+restaurant("Am Heidjöchl").
+restaurant("Hainburg/Donau Ungartor/B9").

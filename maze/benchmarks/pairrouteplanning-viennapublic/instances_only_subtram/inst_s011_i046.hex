@@ -1,21 +1,49 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Museumsquartier").
+person(1).
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Bauernfeldplatz").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Laurentiusplatz").
+initlocation(1,"Siebensterngasse").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Seestadt").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Ebreichsdorf Bahnhof").
+sequence(1,0, "Friedensbrücke").
+person(2).
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Herbeckstraße").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Litfaßstraße").
+initlocation(2,"Siebensterngasse").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Resselgasse").
+initlocation(2,"Versorgungsheimplatz").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Praterstern").
+sequence(2,0, "Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Hermesstraße").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Stadtpark").
+restaurant("An den langen Lüssen").
+restaurant("Schwedenplatz").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Hausleiten Bahnhof").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Neubaugasse").
+restaurant("Jedlersdorf").
+restaurant("Baumgasse").
+restaurant("Aspern, Oberdorfstraße").
+restaurant("Dr-Karl-Renner-Ring").
 restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").

@@ -1,21 +1,52 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Pantucekgasse/Widholzgasse").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Gottschalkgasse/Enkplatz").
+sequence(1,0, "Kaiserstraße/Burggasse").
+person(2).
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Plößlgasse").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"Taborstraße").
+initlocation(2,"Hausfeldstraße").
+sequence(2,0, "Maria Anzbach Bahnhof").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Hetzgasse").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+restaurant("Kagraner Brücke").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Sahulkastraße").
+restaurant("Leberberg").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Schlickgasse").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Neulengbach Bahnhof").
+restaurant("Thaliastraße/Maroltingergasse").
+restaurant("Stadlau").
+restaurant("Schwedenplatz").
+restaurant("Großfeldsiedlung").

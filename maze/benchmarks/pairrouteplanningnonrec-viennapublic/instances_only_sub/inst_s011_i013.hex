@@ -1,21 +1,51 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Erdberg").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Penzing").
+sequence(1,0, "Preyergasse/Speising").
+person(2).
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Stadtpark").
+initlocation(2,"Quartier Belvedere").
+sequence(2,0, "Unter Sankt Veit").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Stadion".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Mödling Bahnhof".
+restaurant("Längenfeldgasse".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Stadtpark".
+restaurant("Baden Bahnhof".
+restaurant("Nestroyplatz").

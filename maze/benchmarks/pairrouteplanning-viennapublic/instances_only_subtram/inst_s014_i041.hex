@@ -1,21 +1,61 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Rosenhügelstraße").
+initlocation(1,"Brünner Straße/Hanreitergasse").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Volkstheater").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Burgring").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Simmering").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Florianigasse").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+sequence(1,0, "Knöllgasse/Davidgasse").
+person(2).
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Kraygasse").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Canisiusgasse").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Leyserstraße").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Rußbergstraße").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Dresdner Straße").
+sequence(2,0, "Scheibenbergstraße").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Quellenplatz").
+possiblemeetinglocations("Stiftgasse").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Ober Sankt Veit").
+restaurant("Meidling Hauptstraße").
+restaurant("Schottentor").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Skodagasse").
+restaurant("Kettenbrückengasse").
+restaurant("Siebenhirten (NÖ).
+Haltestelle").
+restaurant("Blumental").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Redtenbachergasse").
+restaurant("Baden Bahnhof").
+restaurant("Siebenhirten").
+restaurant("Kledering Bahnhof").

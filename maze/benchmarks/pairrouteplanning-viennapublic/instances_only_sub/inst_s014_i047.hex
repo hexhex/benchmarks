@@ -1,21 +1,61 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Enkplatz").
+initlocation(1,"Hernals").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+sequence(1,0, "Korneuburg Bahnhof").
+person(2).
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Volkstheater").
+initlocation(2,"Blumental").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Hirschstetten").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Hernals").
+sequence(2,0, "Kagraner Platz").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+restaurant("Platt Bahnhof".
+restaurant("Baden Bahnhof".
+restaurant("Preyergasse/Speising".
+restaurant("Praterstern".
+restaurant("Hirschstetten".
+restaurant("Siebenhirten".
+restaurant("Stephansplatz".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Simmering".
+restaurant("Seyring Bahnhof".
+restaurant("Niederhofstraße".
+restaurant("Mödling Bahnhof".
+restaurant("Laa an der Thaya Bahnhof").

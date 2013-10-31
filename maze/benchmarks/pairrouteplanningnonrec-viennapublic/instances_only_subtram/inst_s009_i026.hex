@@ -1,19 +1,40 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Strebersdorf").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Valiergasse").
+initlocation(1,"Döblinger Hauptstr/Gatterburgg").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Hardeggasse").
+sequence(1,0, "Strebersdorf").
+person(2).
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Augasse").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Bahnsteggasse").
+sequence(2,0, "Geiselbergstraße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Friedensbrücke").
+restaurant("Schlickgasse").
+restaurant("Weißenböckstraße").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Gasometer").
+restaurant("Gloriettegasse").
+restaurant("Schwechat Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Wr Neustadt Civitas Nova").

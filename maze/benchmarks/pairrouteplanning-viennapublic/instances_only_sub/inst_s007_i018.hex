@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Schottenring").
+sequence(1,0, "Perchtoldsdorf Bahnhof").
+person(2).
+initlocation(2,"Messe-Prater").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Kagraner Platz").
+sequence(2,0, "Messe-Prater").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Josefstädter Straße").
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Obersdorf Bahnhof".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Kaisermühlen-VIC".
+restaurant("Preyergasse/Speising".
+restaurant("Schweglerstraße".
+restaurant("Schlachthausgasse").

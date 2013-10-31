@@ -1,21 +1,56 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Neulengbach Bahnhof").
+sequence(1,0, "Sitzenberg-Reidling Bahnhof").
+person(2).
+initlocation(2,"Rochusgasse").
+initlocation(2,"Stadion").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Breitensee").
+initlocation(2,"Kagran").
+sequence(2,0, "Rochusgasse").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Zippererstraße".
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Platt Bahnhof".
+restaurant("Alte Donau".
+restaurant("Stadlau".
+restaurant("Kottingbrunn Bahnhof".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Hausfeldstraße".
+restaurant("Praterkai".
+restaurant("Atzgersdorf".
+restaurant("Traisengasse".
+restaurant("Frättingsdorf Bahnhof").

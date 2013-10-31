@@ -1,21 +1,56 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Praterstern").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Breitensee").
+initlocation(1,"Donaumarina").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Erlaaer Straße").
+sequence(1,0, "Roßauer Lände").
+person(2).
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Längenfeldgasse").
+sequence(2,0, "Maria Ellend Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+restaurant("Geiselbergstraße".
+restaurant("Rekawinkel Bahnhof".
+restaurant("Kettenbrückengasse".
+restaurant("Jedlersdorf".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Donauinsel".
+restaurant("Zieglergasse".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Kendlerstraße".
+restaurant("Erdberg".
+restaurant("Sankt Marx".
+restaurant("Traismauer Bahnhof".
+restaurant("Viehofen Bahnhof").

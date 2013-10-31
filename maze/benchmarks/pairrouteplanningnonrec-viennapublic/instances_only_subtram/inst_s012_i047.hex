@@ -1,21 +1,52 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Hernalser Gürtel").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Otto-Probst-Platz").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Windtenstraße").
+sequence(1,0, "Matzleinsdorfer Platz").
+person(2).
+initlocation(2,"Maurer Hauptplatz").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Seestadt").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Saikogasse").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Gasometer").
+initlocation(2,"Am Spitz").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Wienerbergbrücke").
+sequence(2,0, "Maurer Hauptplatz").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Wallrißstraße").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Carminweg").
+restaurant("Matthäus-Jiszda-Straße").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Sieveringer Straße").
+restaurant("Trondheimgasse").
+restaurant("Yppengasse").
+restaurant("Schwarzspanierstraße").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Süßenbrunn").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Perntergasse").

@@ -1,17 +1,36 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Nußdorf").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Herzogenburg Stadt").
+sequence(1,0, "Friedensbrücke").
+person(2).
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Wolf in der Au").
+sequence(2,0, "Theresienfeld Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Silberwald Bahnhof".
+restaurant("Süßenbrunn".
+restaurant("Mödling Bahnhof".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Volkstheater".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Quartier Belvedere").

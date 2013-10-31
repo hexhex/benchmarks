@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-sequence(0, "Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+sequence(1,0, "Oberradlberg Bahnhof").
+person(2).
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Volkstheater").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Schönbrunn").
+sequence(2,0, "Krottenbachstraße").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Sollenau Bahnhof").
+restaurant("Schottenring".
+restaurant("Rekawinkel Bahnhof".
+restaurant("Silberwald Bahnhof".
+restaurant("Quartier Belvedere".
+restaurant("Ober Sankt Veit").

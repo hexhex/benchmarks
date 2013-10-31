@@ -1,21 +1,64 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Döblinger Hauptstr/Gatterburgg").
+initlocation(1,"Gasometer").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Sillerplatz").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Schloss Schönbrunn").
+initlocation(1,"Hoßplatz").
+sequence(1,0, "Taborstraße/Heinestraße").
+person(2).
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Polgarstraße").
+initlocation(2,"Liebknechtgasse").
+initlocation(2,"Erdbergstr/Schlachthausgasse").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+sequence(2,0, "Neusiedl am See Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Staglgasse").
+restaurant("Gellertplatz").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Oberdöbling").
+restaurant("Kagran").
+restaurant("Guntherstraße").
+restaurant("Radetzkyplatz").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Zentralfriedhof 4Tor").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Tulln Bahnhof").
+restaurant("Floridsdorf").
+restaurant("Polgarstraße").

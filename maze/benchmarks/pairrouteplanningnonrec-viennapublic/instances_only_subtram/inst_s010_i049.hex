@@ -1,21 +1,44 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Alterlaa").
+sequence(1,0, "Joachimsthalerplatz").
+person(2).
+initlocation(2,"Hernals").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Edmund-Hawranek-Platz").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Am Spitz").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Knöllgasse/Davidgasse").
+sequence(2,0, "Hernals").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Hohe Warte").
+possiblemeetinglocations("Laurenzgasse").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Himmelmutterweg").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Redtenbachergasse").
+possiblemeetinglocations("Yppengasse").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Nestroyplatz").
+restaurant("Sollenau Bahnhof").
 restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
+restaurant("Migerkastraße").
+restaurant("Arminenstraße").
+restaurant("Paulanergasse").
+restaurant("Winkeläckerstraße").
+restaurant("Gußhausstraße").

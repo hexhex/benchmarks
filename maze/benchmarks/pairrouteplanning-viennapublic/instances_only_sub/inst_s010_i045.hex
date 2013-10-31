@@ -1,21 +1,44 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Taborstraße").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Pfaffstätten Bahnhof").
+sequence(1,0, "Petronell-Carnuntum Bahnhof").
+person(2).
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Stubentor").
+sequence(2,0, "Taubstummengasse").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Obersdorf Bahnhof".
+restaurant("Geiselbergstraße".
+restaurant("Handelskai".
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Mistelbach Bahnhof".
+restaurant("Michelbeuern-AKH".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Strasshof Bahnhof").

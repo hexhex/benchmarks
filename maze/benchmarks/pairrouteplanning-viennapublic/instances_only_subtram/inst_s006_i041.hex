@@ -1,13 +1,28 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-sequence(0, "Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Franzensbrücke").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Florianigasse").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Weigelsdorf Bahnhof").
+sequence(1,0, "Franzensbrücke").
+person(2).
+initlocation(2,"Winkeläckerstraße").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Wienerfeldgasse").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Wexstraße").
+initlocation(2,"Alfred-Adler-Straße").
+sequence(2,0, "Winkeläckerstraße").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+restaurant("Nußdorfer Straße").
+restaurant("Obere Donaustraße").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Keplerplatz").
+restaurant("Zieglergasse/Westbahnstraße").

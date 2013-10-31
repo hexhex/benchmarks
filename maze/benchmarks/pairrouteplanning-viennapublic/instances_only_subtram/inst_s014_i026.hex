@@ -1,21 +1,60 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Stadiongasse/Parlament").
+initlocation(1,"Bahnhofstraße").
+initlocation(1,"Heiligenstadt, 12-Februar-Pl").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Wexstraße").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Penzing").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Hausleiten Bahnhof").
+sequence(1,0, "Am Heidjöchl").
+person(2).
+initlocation(2,"Dommayergasse").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Grinzing").
+initlocation(2,"Skodagasse").
+initlocation(2,"Baumgarten").
+initlocation(2,"Gredlerstraße").
+initlocation(2,"Rosenhügelstraße").
+initlocation(2,"Edmund-Hawranek-Platz").
+initlocation(2,"Nordbrücke").
+initlocation(2,"Trondheimgasse").
+sequence(2,0, "Dommayergasse").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+restaurant("Schwarzenbergplatz").
+restaurant("Winkeläckerstraße").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Winckelmannstraße").
+restaurant("Versorgungsheimplatz").
+restaurant("Brünnlbadgasse").
+restaurant("Großjedlersdorf").
+restaurant("Hernals").
+restaurant("Gumpendorfer Straße").
+restaurant("Schlickgasse").
+restaurant("Münchendorf Bahnhof").
+restaurant("Kärntner Ring/Oper").
+restaurant("Ebreichsdorf Bahnhof").

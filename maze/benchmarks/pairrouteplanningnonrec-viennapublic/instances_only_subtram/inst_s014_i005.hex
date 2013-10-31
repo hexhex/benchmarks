@@ -1,21 +1,60 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Hardtgasse").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Wallrißstraße").
+initlocation(1,"Spittelau").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Nordwestbahnstraße").
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Breitensee").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Johnstraße").
+sequence(1,0, "Hardtgasse").
+person(2).
+initlocation(2,"Rennweg").
+initlocation(2,"Burgring").
+initlocation(2,"Maurer Hauptplatz").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Krankenhaus Hietzing").
+initlocation(2,"Martinstraße").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Innstraße").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(2,0, "Rennweg").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Rankgasse").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Polkorabplatz").
+restaurant("Braunhubergasse").
+restaurant("Blindengasse").
+restaurant("Erlaaer Straße").
+restaurant("Hausfeldstraße").
+restaurant("Strasshof Bahnhof").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Floridsdorfer Brücke").
+restaurant("Bernhardtstalgasse").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Neue Donau").
+restaurant("Korneuburg Bahnhof").
+restaurant("Kledering Bahnhof").

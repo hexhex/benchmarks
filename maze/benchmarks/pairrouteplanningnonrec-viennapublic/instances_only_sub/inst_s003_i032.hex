@@ -1,5 +1,16 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Leopoldau").
+initlocation(1,"Kagran").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+sequence(1,0, "Leopoldau").
+person(2).
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Oberdöbling").
+sequence(2,0, "Breitenwaida Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Donauinsel").
+restaurant("Oberdöbling".
+restaurant("Kaiserebersdorf".
+restaurant("Wr Neustadt Hauptbahnhof").

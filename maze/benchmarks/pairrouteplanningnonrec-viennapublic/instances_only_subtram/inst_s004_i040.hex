@@ -1,6 +1,20 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Alte Donau").
+initlocation(1,"Blumengasse").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Gersthof").
+sequence(1,0, "Alte Donau").
+person(2).
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Oberfeldgasse/Spargelfeldstr").
+initlocation(2,"Am Schöpfwerk").
+sequence(2,0, "Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+restaurant("Polgarstraße").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Alsegger Straße").
+restaurant("Unter Kritzendorf Bahnhof").

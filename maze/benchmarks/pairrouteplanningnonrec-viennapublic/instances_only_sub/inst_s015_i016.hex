@@ -1,21 +1,64 @@
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Thaliastraße").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Alterlaa").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+sequence(1,0, "Thaliastraße").
+person(2).
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+sequence(2,0, "Sarasdorf Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Stephansplatz").
+restaurant("Stadion".
+restaurant("Laa an der Thaya Bahnhof".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Zippererstraße".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Retz Bahnhof".
+restaurant("Schweglerstraße".
+restaurant("Niederhofstraße".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Aspernstraße".
+restaurant("Gänserndorf Bahnhof".
+restaurant("Unterpurkersdorf Bahnhof".
+restaurant("Krottenbachstraße").

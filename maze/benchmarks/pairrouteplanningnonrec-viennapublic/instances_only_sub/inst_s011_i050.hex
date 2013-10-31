@@ -1,21 +1,48 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Ottakring").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Enkplatz").
+sequence(1,0, "Silberwald Bahnhof").
+person(2).
+initlocation(2,"Karlsplatz").
+initlocation(2,"Penzing").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+sequence(2,0, "Karlsplatz").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Enkplatz".
+restaurant("Kaiserebersdorf".
+restaurant("Schwedenplatz".
+restaurant("Stockerau Bahnhof".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Volkstheater".
+restaurant("Zieglergasse".
+restaurant("Trasdorf Bahnhof".
+restaurant("Bahnhof Meidling".
+restaurant("Schottentor".
+restaurant("Oberradlberg Bahnhof").

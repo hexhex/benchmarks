@@ -1,15 +1,32 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Schöffelgasse").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+sequence(1,0, "Per-Albin-Hansson-Siedlung Ost").
+person(2).
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Stadlau").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+sequence(2,0, "Sieveringer Straße").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+restaurant("Huglgasse").
+restaurant("Himberg Bahnhof").
+restaurant("Gredlerstraße").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Aspernstraße").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Bernhardtstalgasse").

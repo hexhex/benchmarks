@@ -1,6 +1,20 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Schottenring").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Staatz Bahnhof").
+sequence(1,0, "Schottenring").
+person(2).
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Maria Ellend Bahnhof").
+sequence(2,0, "Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+restaurant("Enkplatz".
+restaurant("Krieau".
+restaurant("Rennweg".
+restaurant("Spittelau").

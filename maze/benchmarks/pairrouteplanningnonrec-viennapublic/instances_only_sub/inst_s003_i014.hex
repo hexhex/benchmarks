@@ -1,5 +1,16 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Aspernstraße").
+sequence(1,0, "Friedensbrücke").
+person(2).
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Paasdorf Bahnhof").
+sequence(2,0, "Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Hütteldorfer Straße".
+restaurant("Höbersdorf Bahnhof".
+restaurant("Zieglergasse").

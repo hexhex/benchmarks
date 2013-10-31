@@ -1,21 +1,64 @@
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Schöffelgasse").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Hubertusdamm").
+initlocation(1,"Palffygasse").
+initlocation(1,"Tesarekplatz").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Spittelau").
+initlocation(1,"Gottschalkgasse/Enkplatz").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Wallensteinplatz").
+sequence(1,0, "An den langen Lüssen").
+person(2).
+initlocation(2,"Ameisgasse").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Am Spitz").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Hernals").
+initlocation(2,"Breitenfurter Str/Liesingbr").
+initlocation(2,"Nordbahnstraße").
+sequence(2,0, "Ameisgasse").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Karlsplatz").
+restaurant("Oberfeldgasse").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Felixdorf Bahnhof").
+restaurant("Teichgasse").
+restaurant("Gerhardusgasse").
+restaurant("Absberggasse").
+restaurant("Kranzgasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Laudongasse").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Tesarekplatz").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Zieglergasse/Westbahnstraße").

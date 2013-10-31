@@ -1,21 +1,60 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Laurenzgasse").
+initlocation(1,"Bahnhofstraße").
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Waidhausenstraße").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Arminenstraße").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Gemeinlebarn Bahnhof").
+sequence(1,0, "Laurenzgasse").
+person(2).
+initlocation(2,"Laxenburger Straße/Troststraße").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Hütteldorfer Str/Lützowgasse").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Donaumarina").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+sequence(2,0, "Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Wildgansplatz").
+restaurant("Oberdöbling").
+restaurant("Bösendorferstraße").
+restaurant("Erdberg").
+restaurant("Fultonstraße").
+restaurant("Kärntner Ring/Oper").
+restaurant("Perntergasse").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Neulengbach Bahnhof").
+restaurant("Perfektastraße").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Gloriettegasse").
+restaurant("Donauzentrum").

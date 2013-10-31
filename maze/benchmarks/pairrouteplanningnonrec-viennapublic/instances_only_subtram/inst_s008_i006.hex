@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Praterkai").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Ottakring").
+sequence(1,0, "Blechturmgasse").
+person(2).
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Hopfengasse").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Hernals").
+initlocation(2,"Tulln Bahnhof").
+sequence(2,0, "Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Kraygasse").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Karmeliterplatz").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Oberdöbling").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Enkplatz").
+restaurant("Frödenplatz").
+restaurant("Geiselbergstraße").
 restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
+restaurant("Hauptbahnhof Ost").

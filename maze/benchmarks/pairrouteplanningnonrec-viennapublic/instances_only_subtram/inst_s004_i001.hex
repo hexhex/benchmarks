@@ -1,6 +1,20 @@
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Zentralfriedhof 1Tor").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+sequence(1,0, "Kagraner Platz").
+person(2).
+initlocation(2,"Spittelau").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Kettenbrückengasse").
+sequence(2,0, "Spittelau").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+restaurant("Traisengasse").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Matthäus-Jiszda-Straße").
+restaurant("Albertgasse").

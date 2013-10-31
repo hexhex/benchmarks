@@ -1,21 +1,57 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Am Spitz").
+initlocation(1,"Traisengasse").
+initlocation(1,"Schottenring").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Marienbrücke").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Ungargasse/Neulinggasse").
+initlocation(1,"Alte Donau").
+initlocation(1,"Wampersdorf Bahnhof").
+sequence(1,0, "Ebreichsdorf Bahnhof").
+person(2).
+initlocation(2,"Sillerplatz").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Frödenplatz").
+initlocation(2,"Wildgansplatz").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Rankgasse").
+sequence(2,0, "Sillerplatz").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("Fichtnergasse").
+restaurant("Kaiserstraße/Burggasse").
+restaurant("Staatz Bahnhof").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Am Tabor").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Herrengasse").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Erlaaer Straße").
+restaurant("Hetzgasse").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Gatterburggasse").
+restaurant("Floridsdorfer Brücke").

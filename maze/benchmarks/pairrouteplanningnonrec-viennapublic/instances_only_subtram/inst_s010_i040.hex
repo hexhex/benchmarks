@@ -1,21 +1,44 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Schwarzenbergplatz").
+sequence(1,0, "Kritzendorf Bahnhof").
+person(2).
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Mühlfeldgasse").
+initlocation(2,"Sickenberggasse").
+sequence(2,0, "Ladendorf Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Krottenbachstraße").
+restaurant("Wr Neustadt Nord").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Grillgasse").
+restaurant("Wattmanngasse").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Hauffgasse").
+restaurant("Gusenleithnergasse").
+restaurant("Schloss Schönbrunn").
+restaurant("Kölblgasse").
+restaurant("Pantucekgasse/Widholzgasse").

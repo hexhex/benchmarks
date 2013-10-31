@@ -1,5 +1,16 @@
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Gasometer").
+initlocation(1,"Lazarettgasse").
+sequence(1,0, "Dornbach, Güpferlingstraße").
+person(2).
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Taubstummengasse").
+sequence(2,0, "Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+restaurant("Pötzleinsdorf").
+restaurant("Hintere Zollamtsstraße").
+restaurant("Lobau").

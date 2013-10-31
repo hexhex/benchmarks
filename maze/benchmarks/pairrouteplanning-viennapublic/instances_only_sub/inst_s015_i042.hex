@@ -1,21 +1,64 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Alte Donau").
+sequence(1,0, "Haslau an der Donau Bahnhof").
+person(2).
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Taborstraße").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Alterlaa").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Kagran").
+initlocation(2,"Ober Sankt Veit").
+sequence(2,0, "Platt Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+restaurant("Nußdorfer Straße".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Traisengasse".
+restaurant("Neubaugasse".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Rennweg".
+restaurant("Süßenbrunn".
+restaurant("Zellerndorf Bahnhof".
+restaurant("Braunschweiggasse".
+restaurant("Schweglerstraße".
+restaurant("Schönbrunn".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Ulrichskirchen Bahnhof").

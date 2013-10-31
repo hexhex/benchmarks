@@ -1,21 +1,64 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Penzing").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Rodaun").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Litfaßstraße").
+initlocation(1,"Wildgansplatz").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+sequence(1,0, "Penzing").
+person(2).
+initlocation(2,"Schönbrunn").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Gruschaplatz").
+initlocation(2,"Wienerbergbrücke").
+initlocation(2,"Siebertgasse").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Siebensterngasse").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Schleinbach Bahnhof").
+sequence(2,0, "Schönbrunn").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Sickenberggasse").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Herrengasse").
+restaurant("Brünner Straße").
+restaurant("Baden Bahnhof").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Ladendorf Bahnhof").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Fischamend Bahnhof").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Hetzendorf").
+restaurant("Sankt Marx").
+restaurant("Tulln Bahnhof").
+restaurant("Josefstädter Straße").
+restaurant("Stubentor").
+restaurant("Erndtgasse").

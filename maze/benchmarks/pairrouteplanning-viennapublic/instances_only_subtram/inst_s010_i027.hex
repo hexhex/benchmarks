@@ -1,21 +1,44 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Troststraße/Neilreichgasse").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Alte Donau").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+sequence(1,0, "Troststraße/Neilreichgasse").
+person(2).
+initlocation(2,"Floridsdorfer Brücke").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Anton-Krieger-Gasse").
+initlocation(2,"Stadlau").
+initlocation(2,"Aumannplatz").
+initlocation(2,"Diesterweggasse").
+sequence(2,0, "Floridsdorfer Brücke").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Erndtgasse").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Wattmanngasse").
+restaurant("Brünner Straße/Hanreitergasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Blindengasse").
+restaurant("Am Spitz").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Floridsdorfer Markt").
+restaurant("Atzgersdorfer Straße").
+restaurant("Penzinger Straße").
+restaurant("Römergasse").

@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Stephansplatz").
+sequence(1,0, "Unteres Belvedere").
+person(2).
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Autokaderstraße").
+sequence(2,0, "Götzendorf Bahnhof").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+restaurant("Donaustadtstraße").
+restaurant("Rauscherstraße").

@@ -1,4 +1,12 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Museumsquartier").
+sequence(1,0, "Langenlebarn Bahnhof").
+person(2).
+initlocation(2,"Donaumarina").
+initlocation(2,"Süßenbrunn").
+sequence(2,0, "Donaumarina").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Krottenbachstraße").
+restaurant("Zentralfriedhof".
+restaurant("Breitensee").

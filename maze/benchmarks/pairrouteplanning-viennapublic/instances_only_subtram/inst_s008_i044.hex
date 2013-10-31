@@ -1,17 +1,36 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Schloss Belvedere").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Simonygasse").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Konstanziagasse").
+sequence(1,0, "Unterpurkersdorf Bahnhof").
+person(2).
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Sillerplatz").
+initlocation(2,"Laxenburger Straße/Troststraße").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Stollgasse").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Seestadt").
+sequence(2,0, "Wolfsthal Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+restaurant("Am Tabor").
+restaurant("Barawitzkagasse").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Weinheimergasse").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Dommayergasse").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Breitenfurter St/Altmannsd Str").

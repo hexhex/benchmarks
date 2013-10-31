@@ -1,21 +1,64 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Heinrich-Drimmel-Platz").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Donauspital").
+initlocation(1,"Mayerhofgasse").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Prinzgasse").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Hoßplatz").
+sequence(1,0, "Kaiserebersdorf, Zinnergasse").
+person(2).
+initlocation(2,"Blindengasse").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(2,"Hermesstraße").
+initlocation(2,"Herrengasse").
+initlocation(2,"Strozzigasse").
+sequence(2,0, "Blindengasse").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Kraygasse").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+restaurant("Westbahnhof").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Schleinbach Bahnhof").
+restaurant("Kranzgasse").
+restaurant("Staatz Bahnhof").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Donauinsel").
+restaurant("Bisamberg Bahnhof").
+restaurant("Kagraner Platz").
+restaurant("Tulln Bahnhof").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Donauspital").
+restaurant("Seegasse").
+restaurant("Rennbahnweg").

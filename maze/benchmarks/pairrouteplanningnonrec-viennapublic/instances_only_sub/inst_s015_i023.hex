@@ -1,21 +1,64 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Erdberg").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Stadlau").
+initlocation(1,"Johnstraße").
+initlocation(1,"Gersthof").
+initlocation(1,"Donaustadtbrücke").
+sequence(1,0, "Sierndorf Bahnhof").
+person(2).
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Stubentor").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Ottakring").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+sequence(2,0, "Bisamberg Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+restaurant("St Pölten Hauptbahnhof".
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Jägerstraße".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Weidlingau Bahnhof".
+restaurant("Stadtpark".
+restaurant("Rathaus".
+restaurant("Johnstraße".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Liesing".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Zippererstraße".
+restaurant("Traisengasse".
+restaurant("Pottendorf-Landegg Bahnhof".
+restaurant("Silberwald Bahnhof").

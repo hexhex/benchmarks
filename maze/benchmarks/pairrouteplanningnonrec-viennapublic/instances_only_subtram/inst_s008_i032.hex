@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Rathausplatz/Burgtheater").
+initlocation(1,"Salztorbrücke").
+sequence(1,0, "Wampersdorf Bahnhof").
+person(2).
+initlocation(2,"Satzberggasse").
+initlocation(2,"Saikogasse").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+sequence(2,0, "Satzberggasse").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Scheibenbergstraße").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Nußdorfer Str/Alserbachstraße").
+restaurant("Nußdorfer Straße").
+restaurant("Preyergasse/Speising").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Stadlergasse").
+restaurant("Retz Bahnhof").

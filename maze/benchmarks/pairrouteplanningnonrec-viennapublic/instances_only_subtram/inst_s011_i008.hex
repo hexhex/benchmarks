@@ -1,21 +1,49 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Sensengasse").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Herrengasse").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Paradisgasse").
+initlocation(1,"Liechtenwerder Platz").
+sequence(1,0, "Sensengasse").
+person(2).
+initlocation(2,"Sankt Marx").
+initlocation(2,"Oberzellergasse").
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Anton-Schall-Gasse").
+initlocation(2,"Otto-Probst-Straße").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Blindengasse").
+initlocation(2,"Sonnergasse").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+sequence(2,0, "Sankt Marx").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Kaiserebersdorf").
+restaurant("Sensengasse").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Ungargasse/Neulinggasse").
 restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+restaurant("Guntherstraße").
+restaurant("Krottenbachstraße").
+restaurant("Schuhmeierplatz").
+restaurant("Polkorabplatz").
+restaurant("Kaiser-Franz-Josef-Straße").
+restaurant("Perfektastraße").

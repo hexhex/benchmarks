@@ -1,15 +1,32 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+sequence(1,0, "Niederkreuzstetten Bahnhof").
+person(2).
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Stadlau").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+sequence(2,0, "Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Seestadt").
+restaurant("Volkstheater".
+restaurant("Obersdorf Bahnhof".
+restaurant("Donaumarina".
+restaurant("Hetzendorf".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Neulengbach Bahnhof").

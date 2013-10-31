@@ -1,21 +1,52 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Zentralfriedhof 3Tor").
+initlocation(1,"Stadlau").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Klosterneub Str/Wallensteinstr").
+initlocation(1,"Am Tabor").
+initlocation(1,"Haidestraße").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Geiereckstraße").
+initlocation(1,"Siebertgasse").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+sequence(1,0, "Wolkersdorf Bahnhof").
+person(2).
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Urban-Loritz-Platz").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Stammersdorf").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Rampengasse").
+initlocation(2,"Krieau").
+sequence(2,0, "Wittelsbachstraße").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Gaußplatz").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+restaurant("Prandaugasse").
+restaurant("Helmahof Bahnhof").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Laurenzgasse").
+restaurant("Neilreichgasse").
+restaurant("Rodaun").
+restaurant("Kranzgasse").
+restaurant("Keplerplatz").
+restaurant("Franz-Josefs-Bahnhof").

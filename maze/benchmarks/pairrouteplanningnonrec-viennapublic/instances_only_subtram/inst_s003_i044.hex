@@ -1,5 +1,16 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Canisiusgasse").
+initlocation(1,"Gutraterplatz").
+sequence(1,0, "Atzgersdorf").
+person(2).
+initlocation(2,"Halteraugasse").
+initlocation(2,"Huglgasse").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+sequence(2,0, "Halteraugasse").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Diesterweggasse").
+restaurant("Sankt Marx").
+restaurant("Staglgasse").
+restaurant("Geiereckstraße").

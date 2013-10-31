@@ -1,19 +1,40 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Alser Straße").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Antonigasse").
+initlocation(1,"Lederergasse").
+initlocation(1,"Grillgasse").
+initlocation(1,"Martinstraße").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Hausleiten Bahnhof").
+sequence(1,0, "Stockholmer Platz").
+person(2).
+initlocation(2,"Franzensbrücke").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Schuhmeierplatz").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Rauscherstraße").
+sequence(2,0, "Franzensbrücke").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Huglgasse").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Perfektastraße").
+restaurant("Brünner Straße").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Nußdorf").
+restaurant("Litfaßstraße").
+restaurant("Prater, Hauptallee").
+restaurant("Spittelau").
+restaurant("Hetzendorf").
+restaurant("Diesterweggasse").
+restaurant("Wienerfeldgasse").

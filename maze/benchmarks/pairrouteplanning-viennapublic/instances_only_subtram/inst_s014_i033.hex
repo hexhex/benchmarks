@@ -1,21 +1,61 @@
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Breitensee").
+initlocation(1,"Wexstraße").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Marxergasse").
+sequence(1,0, "Nestroyplatz").
+person(2).
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Stadtpark").
+initlocation(2,"Rothneusiedl").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Yppengasse").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+sequence(2,0, "Schmerlingplatz").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Autokaderstraße").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+restaurant("Antonigasse").
+restaurant("Quellenplatz").
+restaurant("Silbergasse").
+restaurant("Koppstraße/Panikengasse").
+restaurant("Urban-Loritz-Platz").
+restaurant("Paulanergasse").
+restaurant("Valiergasse").
+restaurant("Beingasse").
+restaurant("Friedensbrücke").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Rustengasse").
+restaurant("Otto-Probst-Straße").
+restaurant("Resselgasse").
+restaurant("Obereggendorf Bahnhof").

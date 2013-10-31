@@ -1,4 +1,12 @@
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Breitenfurter St/Altmannsd Str").
+initlocation(1,"Praterkai").
+sequence(1,0, "Breitenfurter St/Altmannsd Str").
+person(2).
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Rathaus").
+sequence(2,0, "Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Siebensterngasse").
+possiblemeetinglocations("Platt Bahnhof").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Zellerndorf Bahnhof").

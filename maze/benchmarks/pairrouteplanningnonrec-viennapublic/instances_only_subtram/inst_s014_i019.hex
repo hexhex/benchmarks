@@ -1,21 +1,60 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Kranzgasse").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Atzgersdorfer Straße").
+initlocation(1,"Blindengasse").
+initlocation(1,"Kölblgasse").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Zentralfriedhof 1Tor").
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+initlocation(1,"Großjedlersdorf").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(1,"Hoßplatz").
+sequence(1,0, "Kranzgasse").
+person(2).
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Forstnergasse").
+initlocation(2,"Baumgasse").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Burgring").
+initlocation(2,"Martinstraße").
+initlocation(2,"Antonigasse").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+sequence(2,0, "Wildungsmauer Bahnhof").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+restaurant("Schwarzenbergplatz").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Donaustadtstraße").
+restaurant("Hopfengasse").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Ameisgasse").
+restaurant("Schöffelgasse").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Wildgansplatz").
+restaurant("Kagran").
+restaurant("Dommayergasse").
+restaurant("Guntherstraße").
+restaurant("Korneuburg Bahnhof").
+restaurant("Praterkai").

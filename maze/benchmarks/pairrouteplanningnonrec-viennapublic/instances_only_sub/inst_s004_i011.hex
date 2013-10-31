@@ -1,6 +1,20 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Siebenhirten").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Donauspital").
+sequence(1,0, "Siebenhirten").
+person(2).
+initlocation(2,"Stubentor").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+sequence(2,0, "Stubentor").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Donaumarina").
+restaurant("Ober Sankt Veit".
+restaurant("Ebenfurth Bahnhof".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Leobersdorf Bahnhof").

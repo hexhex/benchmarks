@@ -1,21 +1,57 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-sequence(0, "Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Gramatneusiedl Bahnhof").
+sequence(1,0, "Taubstummengasse").
+person(2).
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Alte Donau").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Atzenbrugg Bahnhof").
+sequence(2,0, "Dürrwien Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+restaurant("Gumpoldskirchen Bahnhof".
+restaurant("Tulln Stadt Bahnhof".
+restaurant("Rekawinkel Bahnhof".
+restaurant("Niederhofstraße".
+restaurant("Hirschstetten".
+restaurant("Silberwald Bahnhof".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Laa an der Thaya Bahnhof".
+restaurant("Mödling Bahnhof".
+restaurant("Aspern Nord".
+restaurant("Blumental".
+restaurant("Mistelbach Bahnhof").

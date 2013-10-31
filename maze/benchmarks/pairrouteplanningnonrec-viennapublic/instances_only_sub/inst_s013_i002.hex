@@ -1,21 +1,56 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Handelskai").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Wolfsthal Bahnhof").
+sequence(1,0, "Göllersdorf Bahnhof").
+person(2).
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Erdberg").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Schottentor").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Rennweg").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Taborstraße").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+restaurant("Roßauer Lände".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Haidestraße".
+restaurant("Keplerplatz".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Tscherttegasse".
+restaurant("Schleinbach Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Herzogenburg Stadt".
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Breitensee".
+restaurant("Hetzendorf").

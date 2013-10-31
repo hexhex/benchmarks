@@ -1,11 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Knöllgasse/Davidgasse").
+sequence(1,0, "Tullnerbach-Pressbaum Bahnhof").
+person(2).
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Achau Bahnhof").
+sequence(2,0, "Braunhubergasse").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Gaußplatz").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Großfeldsiedlung").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Brünner Straße").
+restaurant("Blumental").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Donaustadtstraße").

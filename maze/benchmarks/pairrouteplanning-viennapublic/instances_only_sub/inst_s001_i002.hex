@@ -1,3 +1,8 @@
-initlocation("Museumsquartier").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+sequence(1,0, "Greifenstein-Altenberg Bahnhof").
+person(2).
+initlocation(2,"Sarasdorf Bahnhof").
+sequence(2,0, "Sarasdorf Bahnhof").
+possiblemeetinglocations("Neue Donau").
+restaurant("Bruck/Leitha Bahnhof").

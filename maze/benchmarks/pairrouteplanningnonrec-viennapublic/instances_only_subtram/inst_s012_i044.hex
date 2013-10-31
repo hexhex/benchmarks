@@ -1,21 +1,52 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Laurenzgasse").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Kraygasse").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Obere Donaustraße").
+initlocation(1,"Wenzgasse").
+sequence(1,0, "Obere Augartenstraße").
+person(2).
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Absberggasse").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Spittelau").
+initlocation(2,"Zentralfriedhof 2Tor").
+initlocation(2,"Schleinbach Bahnhof").
+sequence(2,0, "Dresdner Straße").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Schloss Belvedere").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+restaurant("Mariahilfer Gürtel").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Kaisermühlen-VIC").
+restaurant("Diesterweggasse").
+restaurant("Hardeggasse").
+restaurant("Skodagasse").
+restaurant("Neulerchenfelder Str/Haberlg").
+restaurant("Blechturmgasse").
+restaurant("Hausfeldstraße").
+restaurant("Oberdöbling").
+restaurant("Schönborn Bahnhof").
+restaurant("Thaliastraße/Haberlgasse").

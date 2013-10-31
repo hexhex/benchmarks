@@ -1,6 +1,20 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+sequence(1,0, "Wolkersdorf Bahnhof").
+person(2).
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Resselgasse").
+sequence(2,0, "Weinhauser Gasse").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Schottenring").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Sickenberggasse").
+restaurant("Sensengasse").

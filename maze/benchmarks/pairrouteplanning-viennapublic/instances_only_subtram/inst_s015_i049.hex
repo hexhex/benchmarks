@@ -1,21 +1,65 @@
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Ottakring").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Florianigasse").
+initlocation(1,"Hildebrandgasse").
+initlocation(1,"Alser Straße").
+initlocation(1,"Anschützgasse").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Grinzing").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+sequence(1,0, "Flughafen Wien (VIE).
+person(2).
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Alte Donau").
+initlocation(2,"Innstraße").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Svetelskystraße").
+initlocation(2,"Ottakring").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Gerstnerstraße/Westbhf").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+sequence(2,0, "Unteroberndorf Bahnhof").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Auerspergstraße").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Radetzkyplatz").
+restaurant("Guneschgasse").
+restaurant("Forstnergasse").
+restaurant("Wallensteinplatz").
+restaurant("Prater, Hauptallee").
+restaurant("Stadlergasse").
+restaurant("Brigittaplatz").
+restaurant("Siemensstraße").
+restaurant("Friedensbrücke").
+restaurant("Am Heidjöchl").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Viehofen Bahnhof").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Dommayergasse").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Blindengasse").

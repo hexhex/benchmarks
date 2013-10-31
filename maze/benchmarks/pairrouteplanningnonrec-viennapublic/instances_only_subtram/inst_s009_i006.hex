@@ -1,19 +1,40 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Palffygasse").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Volkstheater").
+initlocation(1,"Kaiserstraße").
+sequence(1,0, "Jagdschloßgasse").
+person(2).
+initlocation(2,"Oberzellergasse").
+initlocation(2,"Am Heidjöchl").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Paradisgasse").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Sensengasse").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Unteroberndorf Bahnhof").
+sequence(2,0, "Oberzellergasse").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Autokaderstraße").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Lerchenfelder Straße").
+restaurant("Barawitzkagasse").
+restaurant("Schottenfeldgasse").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Antonigasse").
+restaurant("Sonnergasse").
+restaurant("Baumgarten").
+restaurant("Brigittaplatz").
+restaurant("Neuwaldegg").
+restaurant("Simmering").

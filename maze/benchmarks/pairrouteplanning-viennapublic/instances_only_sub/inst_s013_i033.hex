@@ -1,21 +1,56 @@
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Donauinsel").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Hietzing").
+initlocation(1,"Hainburg/Donau Personenbhf").
+sequence(1,0, "Donauinsel").
+person(2).
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Schottentor").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Grillgasse").
+sequence(2,0, "Gänserndorf Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+restaurant("Strasshof Bahnhof".
+restaurant("Hütteldorfer Straße".
+restaurant("Bisamberg Bahnhof".
+restaurant("Mannswörth Bahnhof".
+restaurant("Gumpendorfer Straße".
+restaurant("Mistelbach Stadt".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Lobau".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Neubaugasse".
+restaurant("Gaisruck Bahnhof".
+restaurant("Seyring Bahnhof".
+restaurant("Tullnerbach-Pressbaum Bahnhof").

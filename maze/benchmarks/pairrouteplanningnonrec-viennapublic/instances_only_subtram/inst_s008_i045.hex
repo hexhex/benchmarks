@@ -1,17 +1,37 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Hernals").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Atzgersdorfer Straße").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Staglgasse").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Gaußplatz").
+initlocation(1,"Heiligenstadt, 12-Februar-Pl").
+sequence(1,0, "Hernals").
+person(2).
+initlocation(2,"Gaußplatz").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Unteres Belvedere").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Rekawinkel Bahnhof").
+sequence(2,0, "Gaußplatz").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Hopfengasse").
+restaurant("Volkstheater").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Stiftgasse").
+restaurant("Neulerchenfelder Str/Brunneng").
+restaurant("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Staatz Bahnhof").

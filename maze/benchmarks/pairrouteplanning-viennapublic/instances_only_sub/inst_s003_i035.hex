@@ -1,5 +1,16 @@
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Hausfeldstraße").
+sequence(1,0, "Maria Ellend Bahnhof").
+person(2).
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Schönbrunn").
+sequence(2,0, "Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+restaurant("Großfeldsiedlung".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Höflein an der Donau Bahnhof").

@@ -1,5 +1,16 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+sequence(1,0, "Pfaffstätten Bahnhof").
+person(2).
+initlocation(2,"Stadtpark").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Praterkai").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+restaurant("Hardeggasse".
+restaurant("Schlachthausgasse".
+restaurant("Gersthof").

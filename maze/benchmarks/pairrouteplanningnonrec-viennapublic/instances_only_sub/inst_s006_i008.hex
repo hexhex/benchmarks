@@ -1,13 +1,28 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Neue Donau").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+sequence(1,0, "Helmahof Bahnhof").
+person(2).
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Ottakring").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Brünner Straße").
+sequence(2,0, "Höbersdorf Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Seyring Bahnhof").
+restaurant("Strasshof Bahnhof".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Zieglergasse".
+restaurant("Donauinsel".
+restaurant("Laa an der Thaya Bahnhof".
+restaurant("Neubau-Kreuzstetten Bahnhof").

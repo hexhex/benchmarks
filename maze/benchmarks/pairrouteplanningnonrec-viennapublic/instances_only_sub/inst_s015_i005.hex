@@ -1,21 +1,64 @@
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Breitensee").
+initlocation(1,"Taborstraße").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Seestadt").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Leopoldau").
+sequence(1,0, "Purkersdorf Zentrum Bahnhof").
+person(2).
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Donaumarina").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Alte Donau").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Alterlaa").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Retz Bahnhof").
+sequence(2,0, "Süßenbrunn").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Burggasse-Stadthalle").
+restaurant("Traisengasse".
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Matzleinsdorfer Platz".
+restaurant("Taborstraße".
+restaurant("Leopoldau".
+restaurant("Praterkai".
+restaurant("Lanzendorf-Rannersdorf Bahnhof".
+restaurant("Tscherttegasse".
+restaurant("Keplerplatz".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Lobau".
+restaurant("Handelskai".
+restaurant("Kaiserebersdorf".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Schönborn Bahnhof").

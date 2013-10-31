@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+sequence(1,0, "Leobendorf-Burg Kreuzenstn Bf").
+person(2).
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Nußdorf").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+sequence(2,0, "Wolfsthal Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Atzgersdorf").
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Aspernstraße".
+restaurant("Strebersdorf".
+restaurant("Neue Donau".
+restaurant("Regelsbrunn Bahnhof").

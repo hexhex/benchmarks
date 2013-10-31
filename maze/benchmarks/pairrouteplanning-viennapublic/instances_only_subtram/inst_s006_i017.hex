@@ -1,13 +1,28 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Lederergasse").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Guneschgasse").
+sequence(1,0, "Brigittaplatz").
+person(2).
+initlocation(2,"Mayerhofgasse").
+initlocation(2,"Svetelskystraße").
+initlocation(2,"Rankgasse").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Stollgasse").
+sequence(2,0, "Mayerhofgasse").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Jagdschloßgasse").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+restaurant("Sillerplatz").
+restaurant("Klosterneub Str/Wallensteinstr").
+restaurant("Forstnergasse").
+restaurant("Nestroyplatz").
+restaurant("Winckelmannstraße").
+restaurant("Alser Straße").

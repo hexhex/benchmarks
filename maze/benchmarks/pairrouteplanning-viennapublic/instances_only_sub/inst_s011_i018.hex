@@ -1,21 +1,48 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Stadtpark").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Donauinsel").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Praterstern").
+sequence(1,0, "Dresdner Straße").
+person(2).
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Thaliastraße").
+sequence(2,0, "Kendlerstraße").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Donaumarina").
+restaurant("Wr Neustadt Nord".
+restaurant("Trasdorf Bahnhof".
+restaurant("Kendlerstraße".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Hirschstetten".
+restaurant("Ottakring".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Spillern Bahnhof".
+restaurant("Obersdorf Bahnhof".
+restaurant("Nestroyplatz").

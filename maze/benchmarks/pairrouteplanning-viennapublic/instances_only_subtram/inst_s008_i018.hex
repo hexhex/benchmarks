@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Liebknechtgasse").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Frauengasse").
+initlocation(1,"Längenfeldgasse/Flurschützstr").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Huglgasse").
+sequence(1,0, "Liebknechtgasse").
+person(2).
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Spittelau").
+initlocation(2,"Erndtgasse").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Blindengasse").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Yppengasse").
+initlocation(2,"Molitorgasse").
+sequence(2,0, "Oberradlberg Bahnhof").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Schloss Belvedere").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Mühlfeldgasse").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Rennbahnweg").
+restaurant("Sensengasse").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Kagran").
+restaurant("Laurenzgasse").

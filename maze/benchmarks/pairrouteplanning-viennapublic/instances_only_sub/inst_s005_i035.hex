@@ -1,11 +1,24 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Handelskai").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+sequence(1,0, "Absdorf-Hippersdorf Bahnhof").
+person(2).
+initlocation(2,"Lobau").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Obereggendorf Bahnhof").
+sequence(2,0, "Lobau").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+restaurant("Höbersdorf Bahnhof".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Alterlaa".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Wr Neustadt Nord").

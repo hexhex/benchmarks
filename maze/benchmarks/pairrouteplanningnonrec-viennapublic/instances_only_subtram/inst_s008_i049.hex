@@ -1,17 +1,36 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Carabelligasse").
+initlocation(1,"Martinstraße").
+initlocation(1,"Kölblgasse").
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Simmering").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Gutraterplatz").
+sequence(1,0, "Kaiserstraße/Neustiftgasse").
+person(2).
+initlocation(2,"Brünner Straße").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Matthäus-Jiszda-Straße").
+initlocation(2,"Fichtnergasse").
+sequence(2,0, "Brünner Straße").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+possiblemeetinglocations("Baumgasse").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Aumannplatz").
+restaurant("Dommayergasse").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Taubstummengasse").
+restaurant("Margaretengürtel").
+restaurant("Weinhauser Gasse").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Unteres Belvedere").

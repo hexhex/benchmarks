@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Strebersdorf").
+sequence(1,0, "Schönborn Bahnhof").
+person(2).
+initlocation(2,"Hütteldorfer Str/Lützowgasse").
+initlocation(2,"Strebersdorf").
+sequence(2,0, "Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Maurer Lange Gasse").
+restaurant("Schleiergasse").
+restaurant("Spittelau").

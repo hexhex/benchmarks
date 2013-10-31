@@ -1,21 +1,52 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-sequence(0, "Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Gatterburggasse").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Krieau").
+initlocation(1,"Rampengasse").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Thaliastraße/Brunnengasse").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(1,"Stadtpark").
+sequence(1,0, "Gatterburggasse").
+person(2).
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Hetzgasse").
+initlocation(2,"Gußhausstraße").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Am Heumarkt").
+sequence(2,0, "Obere Donaustraße").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Oberlaa, Therme Wien").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Kagraner Platz").
+restaurant("Klosterneub Str/Wallensteinstr").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Krieau").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Gruschaplatz").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Thaliastraße").
+restaurant("Zieglergasse/Westbahnstraße").
+restaurant("Strasshof Bahnhof").
+restaurant("Blumental").
+restaurant("Canisiusgasse").
+restaurant("Alaudagasse").

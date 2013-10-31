@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Schottenring").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Viehofen Bahnhof").
+sequence(1,0, "Gerasdorf Bahnhof").
+person(2).
+initlocation(2,"Spittelau").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Aspernstraße").
+sequence(2,0, "Spittelau").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+restaurant("Hetzendorf".
+restaurant("Preyergasse/Speising".
+restaurant("Wampersdorf Bahnhof".
+restaurant("Braunschweiggasse".
+restaurant("Kettenbrückengasse").

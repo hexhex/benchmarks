@@ -1,21 +1,64 @@
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Strebersdorf").
+sequence(1,0, "Kritzendorf Bahnhof").
+person(2).
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Ottakring").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Haidestraße").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Hernals").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+sequence(2,0, "Spillern Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+restaurant("Lobau".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Preyergasse/Speising".
+restaurant("Strasshof Bahnhof".
+restaurant("Langenlebarn Bahnhof".
+restaurant("Alser Straße".
+restaurant("Gumpendorfer Straße".
+restaurant("Haidestraße".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Korneuburg Bahnhof".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Enkplatz").

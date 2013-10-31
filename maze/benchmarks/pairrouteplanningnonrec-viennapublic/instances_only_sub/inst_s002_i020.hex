@@ -1,4 +1,12 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+sequence(1,0, "Viehofen Bahnhof").
+person(2).
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+sequence(2,0, "Platt Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+restaurant("Aderklaaer Straße".
+restaurant("Neulengbach Stadt Bahnhof").

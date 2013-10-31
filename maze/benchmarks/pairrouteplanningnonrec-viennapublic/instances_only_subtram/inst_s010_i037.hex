@@ -1,21 +1,44 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Siemensstraße").
+initlocation(1,"Römergasse").
+initlocation(1,"Schottentor").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Thaliastraße/Brunnengasse").
+initlocation(1,"Donauinsel").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Gottschalkgasse/Enkplatz").
+initlocation(1,"Rustengasse").
+initlocation(1,"Aßmayergasse").
+sequence(1,0, "Siemensstraße").
+person(2).
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Ottakring").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Donaumarina").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Valiergasse").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Gredlerstraße").
+restaurant("Am Tabor").
+restaurant("Blumental").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Schottentor").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Unteres Belvedere").
+restaurant("Guneschgasse").
+restaurant("Sahulkastraße").
+restaurant("Penzinger Straße").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").

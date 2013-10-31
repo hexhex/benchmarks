@@ -1,17 +1,36 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-sequence(0, "Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Schottentor").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Sierndorf Bahnhof").
+sequence(1,0, "Schottentor").
+person(2).
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+sequence(2,0, "Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+restaurant("Taborstraße".
+restaurant("Sarasdorf Bahnhof".
+restaurant("Sankt Marx".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Hofstatt Bahnhof".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Penzing").

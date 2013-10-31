@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Wienerfeldgasse").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Alterlaa").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Wexstraße").
+sequence(1,0, "Petronell-Carnuntum Bahnhof").
+person(2).
+initlocation(2,"Huglgasse").
+initlocation(2,"Gaußplatz").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Mödling Bahnhof").
+sequence(2,0, "Huglgasse").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Valiergasse").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Am Tabor").
+restaurant("Verbindungsbahn").
+restaurant("Waidhausenstraße").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Retz Bahnhof").
+restaurant("Mariahilfer Gürtel").
+restaurant("Liechtenwerder Platz").
+restaurant("Guntersdorf Bahnhof").

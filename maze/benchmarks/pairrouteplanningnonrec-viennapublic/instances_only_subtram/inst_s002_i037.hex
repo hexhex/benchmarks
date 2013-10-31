@@ -1,4 +1,12 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Sankt Marx").
+sequence(1,0, "Reinlgasse/Märzstraße").
+person(2).
+initlocation(2,"Hirschstetten").
+initlocation(2,"Marienbrücke").
+sequence(2,0, "Hirschstetten").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Kagraner Platz").
+restaurant("Kliebergasse").
+restaurant("Untereggendorf Bahnhof").

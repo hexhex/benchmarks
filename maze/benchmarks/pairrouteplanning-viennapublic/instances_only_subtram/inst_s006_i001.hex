@@ -1,13 +1,28 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Anschützgasse").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Marxergasse").
+initlocation(1,"Auerspergstraße").
+sequence(1,0, "Wolfsthal Bahnhof").
+person(2).
+initlocation(2,"Alsegger Straße").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Rankgasse").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Knöllgasse/Davidgasse").
+initlocation(2,"Hernalser Gürtel").
+sequence(2,0, "Alsegger Straße").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Nordbahnstraße").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Paulanergasse").
+restaurant("Floridsdorf").
+restaurant("Stadlau").
+restaurant("Wolf in der Au").

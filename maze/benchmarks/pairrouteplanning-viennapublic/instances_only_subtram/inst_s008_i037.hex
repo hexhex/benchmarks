@@ -1,17 +1,36 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Fultonstraße").
+initlocation(1,"Ottakringer Straße/Wattgasse").
+initlocation(1,"Simmering").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Zentralfriedhof 2Tor").
+initlocation(1,"Heinrich-Drimmel-Platz").
+initlocation(1,"Columbusplatz").
+sequence(1,0, "Raxstraße/Rudolfshügelgasse").
+person(2).
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Herbeckstraße").
+initlocation(2,"Alsegger Straße").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Lange Gasse").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Leberberg").
+sequence(2,0, "Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Siebensterngasse").
+possiblemeetinglocations("Hermesstraße").
+restaurant("Siebensterngasse").
+restaurant("Gredlerstraße").
+restaurant("Zentralfriedhof 4Tor").
+restaurant("Wenzgasse").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Breitensee").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Salztorbrücke").

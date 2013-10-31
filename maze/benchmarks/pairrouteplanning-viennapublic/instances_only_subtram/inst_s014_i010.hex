@@ -1,21 +1,60 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Eckpergasse").
+initlocation(1,"Migerkastraße").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Kliebergasse").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Litfaßstraße").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Arthaberplatz").
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Plößlgasse").
+sequence(1,0, "Wolkersdorf Bahnhof").
+person(2).
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Hetzgasse").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Oberzellergasse").
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Gerstnerstraße/Westbhf").
+initlocation(2,"Stollgasse").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Herrengasse").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Bernhardtstalgasse").
+sequence(2,0, "Guntersdorf Bahnhof").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Erndtgasse").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Huglgasse").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Weißenböckstraße").
+restaurant("Himmelmutterweg").
+restaurant("Frödenplatz").
+restaurant("Löwengasse").
+restaurant("Alser Straße").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Schönbrunn").
+restaurant("Süßenbrunn").
+restaurant("Kettenbrückengasse").
+restaurant("Jagdschloßgasse").
+restaurant("Kaisermühlen-VIC").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Am Spitz").

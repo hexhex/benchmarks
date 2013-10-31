@@ -1,21 +1,45 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Leopoldau").
+initlocation(1,"Donaustadtbrücke").
+sequence(1,0, "Mistelbach Bahnhof").
+person(2).
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Ottakring").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Hetzendorf").
+sequence(2,0, "Mödling Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Nußdorfer Straße").
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Matzleinsdorfer Platz".
+restaurant("Tulln Bahnhof".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Nußdorfer Straße".
+restaurant("Spillern Bahnhof".
+restaurant("Atzgersdorf".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Neubaugasse".
+restaurant("Stockerau Bahnhof").

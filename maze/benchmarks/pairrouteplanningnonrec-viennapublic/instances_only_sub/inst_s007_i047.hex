@@ -1,15 +1,32 @@
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-sequence(0, "Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+sequence(1,0, "Pilgramgasse").
+person(2).
+initlocation(2,"Hütteldorf").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+sequence(2,0, "Hütteldorf").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Hörersdorf Bahnhof".
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Paasdorf Bahnhof".
+restaurant("Lobau".
+restaurant("Siebenhirten".
+restaurant("Oberdöbling".
+restaurant("Krieau").

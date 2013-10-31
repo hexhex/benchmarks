@@ -1,21 +1,65 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Volkstheater").
+sequence(1,0, "Josefstädter Straße").
+person(2).
+initlocation(2,"Nußdorf").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Alte Donau").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Penzing").
+sequence(2,0, "Nußdorf").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Platt Bahnhof".
+restaurant("Himberg Bahnhof".
+restaurant("Erlaaer Straße".
+restaurant("Kledering Bahnhof".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Höbersdorf Bahnhof".
+restaurant("Floridsdorf".
+restaurant("Hainburg/Donau Personenbhf".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Taubstummengasse".
+restaurant("Wolf in der Au".
+restaurant("Wr Neustadt Nord".
+restaurant("Wolfsthal Bahnhof").

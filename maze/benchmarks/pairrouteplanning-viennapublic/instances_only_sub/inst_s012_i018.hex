@@ -1,21 +1,53 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Neubaugasse").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Schönbrunn").
+sequence(1,0, "Neubaugasse").
+person(2).
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Praterstern").
+sequence(2,0, "Korneuburg Bahnhof").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+restaurant("Gerasdorf Bahnhof".
+restaurant("Floridsdorf".
+restaurant("Wolfsthal Bahnhof".
+restaurant("Margaretengürtel".
+restaurant("Leopoldau".
+restaurant("Gramatneusiedl Bahnhof".
+restaurant("Perfektastraße".
+restaurant("Lobau".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Wolf in der Au".
+restaurant("Erzherzog-Karl-Straße".
+restaurant("Regelsbrunn Bahnhof").

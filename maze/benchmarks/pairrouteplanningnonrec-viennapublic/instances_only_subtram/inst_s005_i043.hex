@@ -1,11 +1,24 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Strozzigasse").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Molitorgasse").
+sequence(1,0, "Jedlersdorf").
+person(2).
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Rampengasse").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+sequence(2,0, "Mödling Bahnhof").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Großjedlersdorf").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+restaurant("Penzing").
+restaurant("Versorgungsheimplatz").
+restaurant("Stadtpark").
+restaurant("Am Spitz").
+restaurant("Preyergasse/Speising").

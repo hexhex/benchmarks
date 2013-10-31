@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Schloss Belvedere").
+initlocation(1,"Heiligenstadt, 12-Februar-Pl").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+sequence(1,0, "Schloss Belvedere").
+person(2).
+initlocation(2,"Wenzgasse").
+initlocation(2,"Krankenhaus Hietzing").
+initlocation(2,"Untereggendorf Bahnhof").
+sequence(2,0, "Wenzgasse").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Unteres Belvedere").
+possiblemeetinglocations("Rebhanngasse").
+restaurant("Wienerfeldgasse").
+restaurant("Rebhanngasse").
+restaurant("Viehmarktgasse").

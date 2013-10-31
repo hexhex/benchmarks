@@ -1,6 +1,20 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Hernals").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Wildungsmauer Bahnhof").
+sequence(1,0, "Hausfeldstraße").
+person(2).
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Praterstern").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+sequence(2,0, "Paasdorf Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+restaurant("Helmahof Bahnhof".
+restaurant("Braunschweiggasse".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Spittelau").

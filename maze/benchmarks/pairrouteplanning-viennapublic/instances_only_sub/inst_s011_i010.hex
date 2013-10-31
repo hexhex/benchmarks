@@ -1,21 +1,48 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Breitensee").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Stadlau").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+sequence(1,0, "Himberg Bahnhof").
+person(2).
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Stadtpark").
+sequence(2,0, "Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Herrengasse".
+restaurant("Mistelbach Bahnhof".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Ottakring".
+restaurant("Sollenau Bahnhof".
+restaurant("Taborstraße".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Nestroyplatz".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Museumsquartier".
+restaurant("Felixdorf Bahnhof").

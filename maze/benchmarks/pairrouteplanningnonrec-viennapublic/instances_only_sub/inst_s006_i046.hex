@@ -1,13 +1,29 @@
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Rennweg").
+sequence(1,0, "Langenlebarn Bahnhof").
+person(2).
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Kagraner Platz").
+sequence(2,0, "Ober Sankt Veit").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Neulengbach Bahnhof").
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("Laa an der Thaya Bahnhof".
+restaurant("Krottenbachstraße".
+restaurant("Sollenau Bahnhof".
+restaurant("Bisamberg Bahnhof").

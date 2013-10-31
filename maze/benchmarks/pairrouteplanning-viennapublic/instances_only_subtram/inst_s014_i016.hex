@@ -1,21 +1,60 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Gewerbepark Stadlau Mitte").
+initlocation(1,"Martinstraße").
+initlocation(1,"Franzensbrücke").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Wienerfeldgasse").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Carabelligasse").
+initlocation(1,"Albertgasse").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Sierndorf Bahnhof").
+sequence(1,0, "Gewerbepark Stadlau Mitte").
+person(2).
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Leberberg").
+initlocation(2,"Blumental").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Neuwaldegg").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Saikogasse").
+initlocation(2,"Krieau").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Maurer Hauptplatz").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Stadtpark").
+sequence(2,0, "Lazarettgasse").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Fultonstraße").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Süßenbrunn").
+restaurant("Yppengasse").
+restaurant("Tulln Bahnhof").
+restaurant("Simmering").
+restaurant("Stadion").
 restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+restaurant("Dommayergasse").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Lerchenfelder Straße").
+restaurant("Zentralfriedhof").
+restaurant("Großjedlersdorf").
+restaurant("Kendlerstraße").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Gredlerstraße").
+restaurant("Blechturmgasse").

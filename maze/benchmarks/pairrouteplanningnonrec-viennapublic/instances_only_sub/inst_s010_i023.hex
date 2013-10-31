@@ -1,21 +1,44 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Penzing").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+sequence(1,0, "Untertullnerbach Bahnhof").
+person(2).
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Erdberg").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+sequence(2,0, "Währinger Straße-Volksoper").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+restaurant("Leobersdorf Bahnhof".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Breitensee".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Spittelau".
+restaurant("Helmahof Bahnhof".
+restaurant("Alte Donau".
+restaurant("Volkstheater".
+restaurant("Langenlebarn Bahnhof").

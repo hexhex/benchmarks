@@ -1,21 +1,48 @@
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Spittelau").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Prinzgasse").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Carabelligasse").
+initlocation(1,"Aßmayergasse").
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Baumgasse").
+initlocation(1,"Praterstern").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Trasdorf Bahnhof").
+sequence(1,0, "Spittelau").
+person(2).
+initlocation(2,"Shuttleworthstraße").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Penzing").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Aumannplatz").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Stadiongasse/Parlament").
+sequence(2,0, "Shuttleworthstraße").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Waidhausenstraße").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Pokornygasse").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Praterkai").
+restaurant("Strozzigasse").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Am Heidjöchl").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Gußhausstraße").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Thaliastraße/Maroltingergasse").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Kleistgasse").

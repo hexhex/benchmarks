@@ -1,21 +1,52 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Otto-Probst-Platz").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Schottentor").
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Vorgartenstraße").
+sequence(1,0, "Otto-Probst-Platz").
+person(2).
+initlocation(2,"Schleiergasse").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Am Heidjöchl").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Camillo-Sitte-Gasse").
+initlocation(2,"Strozzigasse").
+sequence(2,0, "Schleiergasse").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Rosensteingasse").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Hermesstraße").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Stockholmer Platz").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Nordbahnstraße").
 restaurant("Leopoldau").
 restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Lederergasse").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Carminweg").

@@ -1,21 +1,52 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Linzer Straße/Hochsatzengasse").
+initlocation(1,"Beingasse").
+initlocation(1,"Himmelmutterweg").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Blumengasse").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Atzgersdorfer Straße").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+sequence(1,0, "Rekawinkel Bahnhof").
+person(2).
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Bernhardtstalgasse").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Josef-Baumann-Gasse").
+initlocation(2,"Gruschaplatz").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Lange Gasse").
+sequence(2,0, "Herzogenburg Bahnhof").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+restaurant("Wildgansplatz").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Verbindungsbahn").
+restaurant("Schleinbach Bahnhof").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Rosensteingasse").
+restaurant("Rustengasse").
+restaurant("Mistelbach Stadt").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Kaiserstraße").

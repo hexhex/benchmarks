@@ -1,5 +1,16 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Riedelgasse").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Aumannplatz").
+sequence(1,0, "Riedelgasse").
+person(2).
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Aspern Nord").
+sequence(2,0, "Pötzleinsdorf").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Bahnhofstraße").
+possiblemeetinglocations("Konstanziagasse").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Rosensteingasse").
+restaurant("Krottenbachstraße").

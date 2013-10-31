@@ -1,21 +1,52 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Obere Donaustraße").
+initlocation(1,"Lerchenfelder Straße").
+initlocation(1,"Hütteldorfer Str/Hochsatzeng").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Absberggasse").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Rosensteingasse").
+sequence(1,0, "Dornbach, Güpferlingstraße").
+person(2).
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Dommayergasse").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Saikogasse").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Oberlaa, Therme Wien").
+sequence(2,0, "Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Erndtgasse").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Hauptbahnhof Ost").
+restaurant("Herrengasse").
+restaurant("Stadiongasse/Parlament").
+restaurant("Stadlergasse").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Kaiserebersdorf").
+restaurant("Bauernfeldplatz").
+restaurant("Erlaaer Straße").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Oberlaa, Therme Wien").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Fischamend Bahnhof").

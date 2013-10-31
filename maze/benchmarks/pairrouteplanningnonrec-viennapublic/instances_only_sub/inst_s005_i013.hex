@@ -1,11 +1,24 @@
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Roßauer Lände").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Rathaus").
+sequence(1,0, "Enzersdorf bei Staatz Bahnhof").
+person(2).
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Hollabrunn Bahnhof").
+sequence(2,0, "Kapellerfeld Bahnhof").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+restaurant("Hollabrunn Bahnhof".
+restaurant("Roßauer Lände".
+restaurant("Hadersdorf Bahnhof".
+restaurant("Alte Donau".
+restaurant("Wilfleinsdorf Bahnhof").

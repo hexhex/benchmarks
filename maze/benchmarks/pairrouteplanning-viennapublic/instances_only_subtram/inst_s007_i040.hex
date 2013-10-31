@@ -1,15 +1,33 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Kleistgasse").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Geiereckstraße").
+initlocation(1,"Schloss Belvedere").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Franzensbrücke").
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+sequence(1,0, "Kleistgasse").
+person(2).
+initlocation(2,"Taborstraße/Heinestraße").
+initlocation(2,"Leopoldau").
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Raxstraße/Rudolfshügelgasse").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Guneschgasse").
+sequence(2,0, "Taborstraße/Heinestraße").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Mannswörth Bahnhof").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Blechturmgasse").
+restaurant("Brigittaplatz").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Flughafen Wien (VIE).
+Bahnhof").

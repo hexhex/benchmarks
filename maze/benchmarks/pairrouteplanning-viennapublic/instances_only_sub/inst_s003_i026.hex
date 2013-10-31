@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Strasshof Bahnhof").
+sequence(1,0, "Pressbaum Bahnhof").
+person(2).
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+sequence(2,0, "Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Schottentor").
+restaurant("Baden Bahnhof".
+restaurant("Siebenhirten".
+restaurant("Lobau").

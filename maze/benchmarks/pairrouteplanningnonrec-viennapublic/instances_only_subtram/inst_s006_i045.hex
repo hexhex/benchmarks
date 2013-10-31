@@ -1,13 +1,28 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Linzer Straße/Johnstraße").
+initlocation(1,"Nestroyplatz").
+sequence(1,0, "Mistelbach Bahnhof").
+person(2).
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Saikogasse").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Burgring").
+initlocation(2,"Rußbergstraße").
+initlocation(2,"Hütteldorfer Str/Lützowgasse").
+sequence(2,0, "Weigelsdorf Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Redtenbachergasse").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Jägerstraße").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Beingasse").
+restaurant("Neue Donau").
+restaurant("Litfaßstraße").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Julius-Raab-Platz").

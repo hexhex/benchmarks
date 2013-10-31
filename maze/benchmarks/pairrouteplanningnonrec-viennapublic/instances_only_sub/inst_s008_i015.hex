@@ -1,17 +1,36 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Volkstheater").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Breitensee").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Schwedenplatz").
+sequence(1,0, "Wampersdorf Bahnhof").
+person(2).
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Hautzendorf Bahnhof").
+sequence(2,0, "Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Hausfeldstraße").
+restaurant("Neusiedl am See Bahnhof".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Alte Donau".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("Stadion".
+restaurant("Strebersdorf".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Breitensee").

@@ -1,6 +1,20 @@
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Traisengasse").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Siemensstraße").
+sequence(1,0, "Traisengasse").
+person(2).
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+sequence(2,0, "Maria Anzbach Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Hörersdorf Bahnhof".
+restaurant("St Pölten Traisenpark P+R Nord").

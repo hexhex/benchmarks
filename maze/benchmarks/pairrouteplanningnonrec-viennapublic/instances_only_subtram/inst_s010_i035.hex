@@ -1,21 +1,44 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Wexstraße").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Sillerplatz").
+initlocation(1,"Bösendorferstraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+sequence(1,0, "Wexstraße").
+person(2).
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Winkeläckerstraße").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Hietzing").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+sequence(2,0, "Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Penzinger Straße").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Erndtgasse").
+possiblemeetinglocations("Lobau").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Simmering").
+restaurant("Radetzkyplatz").
+restaurant("Burgring").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Neubau-Kreuzstetten Bahnhof").
 restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("Neubaugasse/Westbahnstraße").

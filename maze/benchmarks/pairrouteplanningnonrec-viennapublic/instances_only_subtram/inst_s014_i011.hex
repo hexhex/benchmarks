@@ -1,21 +1,60 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Schloss Belvedere").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Perntergasse").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Schottenfeldgasse").
+sequence(1,0, "Landesgerichtsstraße").
+person(2).
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Hütteldorf, Bujattigasse").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Huglgasse").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Ottakring").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Julius-Raab-Platz").
+sequence(2,0, "Längenfeldgasse").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Großjedlersdorf").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Paradisgasse").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Beingasse").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Kagraner Brücke").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Dürrwien Bahnhof").
+restaurant("Palffygasse").
+restaurant("Perfektastraße").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Am Heumarkt").
+restaurant("Bisamberg Bahnhof").
+restaurant("Schöffelgasse").

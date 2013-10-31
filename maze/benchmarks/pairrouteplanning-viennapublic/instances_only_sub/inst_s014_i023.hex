@@ -1,21 +1,60 @@
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+sequence(1,0, "Gerasdorf Bahnhof").
+person(2).
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Volkstheater").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Seestadt").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Handelskai").
+initlocation(2,"Breitensee").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Herrengasse").
+sequence(2,0, "Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+restaurant("Nußdorfer Straße".
+restaurant("Alterlaa".
+restaurant("Neue Donau".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Krottenbachstraße".
+restaurant("Praterkai".
+restaurant("Johnstraße".
+restaurant("Himberg Bahnhof".
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Bahnhof Meidling".
+restaurant("Rochusgasse".
+restaurant("Gänserndorf Bahnhof".
+restaurant("Traismauer Bahnhof".
+restaurant("Obersdorf Bahnhof").

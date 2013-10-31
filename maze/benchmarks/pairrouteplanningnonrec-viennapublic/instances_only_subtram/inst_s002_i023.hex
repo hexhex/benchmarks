@@ -1,4 +1,12 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Schlickgasse").
+initlocation(1,"Pfaffstätten Bahnhof").
+sequence(1,0, "Schlickgasse").
+person(2).
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Erdbergstr/Schlachthausgasse").
+sequence(2,0, "Untereggendorf Bahnhof").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Atzgersdorf").
+restaurant("Meidling Hauptstraße").

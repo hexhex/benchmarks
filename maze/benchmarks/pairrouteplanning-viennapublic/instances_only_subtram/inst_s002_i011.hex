@@ -1,4 +1,12 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Elterleinplatz").
+sequence(1,0, "Wallensteinplatz").
+person(2).
+initlocation(2,"Rothneusiedl").
+initlocation(2,"Sickenberggasse").
+sequence(2,0, "Rothneusiedl").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Mistelbach Bahnhof").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Weihburggasse").

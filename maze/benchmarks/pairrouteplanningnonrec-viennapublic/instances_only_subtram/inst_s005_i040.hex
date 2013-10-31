@@ -1,11 +1,24 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Innstraße").
+sequence(1,0, "Kutschkergasse").
+person(2).
+initlocation(2,"Beingasse").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Frödenplatz").
+initlocation(2,"Hütteldorfer Str/Hochsatzeng").
+sequence(2,0, "Beingasse").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+restaurant("Hauptbahnhof Ost").
+restaurant("Konstanziagasse").
+restaurant("Schloss Hetzendorf").
+restaurant("Seegasse").
+restaurant("Obere Augartenstraße").

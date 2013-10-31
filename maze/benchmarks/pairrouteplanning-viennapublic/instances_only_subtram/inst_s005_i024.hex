@@ -1,11 +1,24 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+sequence(1,0, "Atzgersdorf").
+person(2).
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Eichenstraße").
+sequence(2,0, "Stadiongasse/Parlament").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Linzer Straße/Lützowgasse").
+restaurant("Hardtgasse").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Winkeläckerstraße").

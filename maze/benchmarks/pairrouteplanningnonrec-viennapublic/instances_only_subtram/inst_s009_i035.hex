@@ -1,19 +1,40 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Bauernfeldplatz").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Erdberg").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+sequence(1,0, "Bauernfeldplatz").
+person(2).
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Gredlerstraße").
+initlocation(2,"Kagran").
+initlocation(2,"Valiergasse").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Innstraße").
+initlocation(2,"Brigittaplatz").
+initlocation(2,"Grinzing").
+initlocation(2,"Franzensbrücke").
+sequence(2,0, "Schwarzspanierstraße").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Wallrißstraße").
+possiblemeetinglocations("Wolf in der Au").
+restaurant("Ameisgasse").
+restaurant("Stockerau Bahnhof").
+restaurant("Weinheimergasse").
+restaurant("Traismauer Bahnhof").
+restaurant("Liesing").
+restaurant("Tesarekplatz").
+restaurant("Stockholmer Platz").
+restaurant("Donauinsel").
+restaurant("Theresienfeld Bahnhof").

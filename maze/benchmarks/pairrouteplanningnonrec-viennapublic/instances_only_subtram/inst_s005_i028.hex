@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Rankgasse").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Oberfeldgasse/Spargelfeldstr").
+sequence(1,0, "Kapellerfeld Bahnhof").
+person(2).
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Donauinsel").
+sequence(2,0, "Bahnsteggasse").
+possiblemeetinglocations("Am Tabor").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Niederhofstraße").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Gloriettegasse").
+restaurant("Kaisermühlen-VIC").
+restaurant("Zehetnerg/Pflegeh Baumgarten").

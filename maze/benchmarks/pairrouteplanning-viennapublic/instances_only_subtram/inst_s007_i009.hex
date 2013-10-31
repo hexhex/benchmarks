@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Nordbahnstraße").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Strebersdorf").
+sequence(1,0, "Platt Bahnhof").
+person(2).
+initlocation(2,"Unteres Belvedere").
+initlocation(2,"Leopoldau").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Stockholmer Platz").
+sequence(2,0, "Unteres Belvedere").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+restaurant("Anschützgasse").
+restaurant("Hauptbahnhof Ost").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Löwengasse").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Siebensterngasse").
+restaurant("Aumannplatz").

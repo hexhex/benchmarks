@@ -1,17 +1,36 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Blumental").
+initlocation(1,"Prater, Hauptallee").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Seegasse").
+initlocation(1,"Spitalgasse/Währinger Straße").
+sequence(1,0, "Bad Vöslau Bahnhof").
+person(2).
+initlocation(2,"Erdberg").
+initlocation(2,"Seegasse").
+initlocation(2,"Breitensee").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Hoßplatz").
+initlocation(2,"Alfred-Adler-Straße").
+initlocation(2,"Lobau").
+sequence(2,0, "Erdberg").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+restaurant("Traismauer Bahnhof").
+restaurant("Nordwestbahnstraße").
+restaurant("Volkstheater").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Großfeldsiedlung").
+restaurant("Obere Augartenstraße").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Edmund-Hawranek-Platz").

@@ -1,21 +1,56 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Dommayergasse").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Schwarzspanierstraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Hauffgasse").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Rankgasse").
+sequence(1,0, "Dommayergasse").
+person(2).
+initlocation(2,"Hofwiesengasse").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Mayerhofgasse").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Perntergasse").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Schönbrunn").
+sequence(2,0, "Hofwiesengasse").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Shuttleworthstraße").
+restaurant("Quartier Belvedere").
+restaurant("Prinzgasse").
+restaurant("Fischamend Bahnhof").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Innstraße").
 restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Gußhausstraße").
+restaurant("Nußdorfer Straße").
+restaurant("Herbeckstraße").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Taubstummengasse").

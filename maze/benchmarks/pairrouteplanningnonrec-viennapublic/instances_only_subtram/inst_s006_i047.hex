@@ -1,13 +1,28 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Gewerbepark Stadlau Mitte").
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Oberfeldgasse").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+sequence(1,0, "Gewerbepark Stadlau Mitte").
+person(2).
+initlocation(2,"Wildgansplatz").
+initlocation(2,"Rodaun").
+initlocation(2,"Nordwestbahnstraße").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Kaiserebersdorf").
+sequence(2,0, "Wildgansplatz").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Riedelgasse").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Eichenstraße").
+restaurant("Erdberg").
+restaurant("Frauengasse").
+restaurant("Alfred-Adler-Straße").
+restaurant("Guntramsdorf-Thallern").

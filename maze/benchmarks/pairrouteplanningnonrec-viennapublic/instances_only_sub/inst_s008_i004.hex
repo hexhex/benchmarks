@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Rathaus").
+initlocation(1,"Traisengasse").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Maria Ellend Bahnhof").
+sequence(1,0, "Dresdner Straße").
+person(2).
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Nußdorf").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Platt Bahnhof").
+sequence(2,0, "Felixdorf Bahnhof").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+restaurant("Landstraße-Wien Mitte".
+restaurant("Keplerplatz".
+restaurant("Währinger Straße-Volksoper".
+restaurant("Himberg Bahnhof".
+restaurant("Praterstern".
+restaurant("Kagraner Platz".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Friedensbrücke").

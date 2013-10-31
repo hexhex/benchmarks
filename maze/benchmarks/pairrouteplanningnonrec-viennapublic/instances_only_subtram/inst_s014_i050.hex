@@ -1,21 +1,60 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Aspern, Oberdorfstraße").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Forstnergasse").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Wattmanngasse").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Josef-Baumann-Gasse").
+sequence(1,0, "Aspern, Oberdorfstraße").
+person(2).
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Favoritenstraße/Troststraße").
+initlocation(2,"Donauinsel").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Schwedenplatz").
+sequence(2,0, "Karmeliterplatz").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Hauptbahnhof Ost").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Autokaderstraße").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Hermesstraße").
+restaurant("Viehofen Bahnhof").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Oberfeldgasse").
+restaurant("Mistelbach Stadt").
+restaurant("Nordbrücke").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Gaußplatz").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Weihburggasse").
+restaurant("Stubentor").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Edmund-Hawranek-Platz").

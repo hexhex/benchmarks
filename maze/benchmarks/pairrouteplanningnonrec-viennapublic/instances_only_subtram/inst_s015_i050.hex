@@ -1,21 +1,65 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Wienerfeldgasse").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Praterstern").
+initlocation(1,"Schloss Hetzendorf").
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Stefan-Fadinger-Platz").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Kliebergasse").
+initlocation(1,"Teichgasse").
+initlocation(1,"Bahnhofstraße").
+sequence(1,0, "Wampersdorf Bahnhof").
+person(2).
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Donaustadtstraße").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Eichenstraße").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Plößlgasse").
+initlocation(2,"Gußhausstraße").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Döblinger Hauptstr/Gatterburgg").
+initlocation(2,"Leopoldau").
+initlocation(2,"Alfred-Adler-Straße").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Lainz, Wolkersbergenstraße").
+initlocation(2,"Gerstnerstraße/Westbhf").
+sequence(2,0, "Weinheimergasse").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Kaiserstraße").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Otto-Probst-Platz").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Althanstraße").
+restaurant("Mödling Bahnhof").
+restaurant("Barawitzkagasse").
 restaurant("Museumsquartier").
+restaurant("Paulanergasse").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Oberlaa, Therme Wien").
+restaurant("Traismauer Bahnhof").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Riedelgasse").
+restaurant("Marxergasse").
+restaurant("Wilhelminenstr/Sandleitengasse").
+restaurant("Wilfleinsdorf Bahnhof").

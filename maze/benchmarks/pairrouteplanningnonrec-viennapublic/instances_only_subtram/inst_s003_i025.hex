@@ -1,5 +1,16 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Gottschalkgasse/Enkplatz").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Hofwiesengasse").
+sequence(1,0, "Gottschalkgasse/Enkplatz").
+person(2).
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+sequence(2,0, "Schwarzspanierstraße").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Empergergasse").
+restaurant("Beingasse").
+restaurant("Volkstheater").
+restaurant("Weigelsdorf Bahnhof").

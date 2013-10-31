@@ -1,4 +1,12 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Wexstraße").
+sequence(1,0, "Leobendorf-Burg Kreuzenstn Bf").
+person(2).
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Hennersdorf Bahnhof").
+sequence(2,0, "Barawitzkagasse").
+possiblemeetinglocations("Kraygasse").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Grinzing").

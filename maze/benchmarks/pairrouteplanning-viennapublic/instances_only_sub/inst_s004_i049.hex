@@ -1,6 +1,21 @@
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Taborstraße").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+sequence(1,0, "Taborstraße").
+person(2).
+initlocation(2,"Spittelau").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Traisengasse").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+sequence(2,0, "Spittelau").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Ober Sankt Veit".
+restaurant("Münchendorf Bahnhof".
+restaurant("Siebenhirten (NÖ.
+Haltestelle").

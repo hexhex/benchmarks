@@ -1,11 +1,24 @@
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Paasdorf Bahnhof").
+sequence(1,0, "Erzherzog-Karl-Straße").
+person(2).
+initlocation(2,"Taborstraße").
+initlocation(2,"Penzing").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Ottakring").
+sequence(2,0, "Taborstraße").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Hausfeldstraße").
+restaurant("Matzleinsdorfer Platz".
+restaurant("Neubaugasse".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Schönborn Bahnhof".
+restaurant("Tulln Bahnhof").

@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Nußdorf").
+initlocation(1,"Zentralfriedhof 1Tor").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+initlocation(1,"Hildebrandgasse").
+sequence(1,0, "Pottendorf-Landegg Bahnhof").
+person(2).
+initlocation(2,"Reumannplatz").
+initlocation(2,"Alsegger Straße").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Spittelau").
+initlocation(2,"Simonygasse").
+initlocation(2,"Brigittaplatz").
+sequence(2,0, "Reumannplatz").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Schleiergasse").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Aumannplatz").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Barawitzkagasse").
+restaurant("Palffygasse").
+restaurant("Wr Neustadt Civitas Nova").

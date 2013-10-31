@@ -1,17 +1,36 @@
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Canisiusgasse").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Siebensterngasse").
+initlocation(1,"Stadiongasse/Parlament").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Liechtenwerder Platz").
+sequence(1,0, "Canisiusgasse").
+person(2).
+initlocation(2,"Hardtgasse").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Seegasse").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Satzberggasse").
+initlocation(2,"Schweglerstraße").
+sequence(2,0, "Hardtgasse").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Hetzgasse").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Alaudagasse").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Hofwiesengasse").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Julius-Raab-Platz").
+restaurant("Silberwald Bahnhof").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Hütteldorfer Str/Lützowgasse").

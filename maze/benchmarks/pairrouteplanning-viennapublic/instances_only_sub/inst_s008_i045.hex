@@ -1,17 +1,36 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+sequence(1,0, "Unterradlberg Bahnhof").
+person(2).
+initlocation(2,"Liesing").
+initlocation(2,"Alterlaa").
+initlocation(2,"Praterkai").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Mistelbach Bahnhof").
+sequence(2,0, "Liesing").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Rennweg").
+restaurant("Mistelbach Stadt".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Platt Bahnhof".
+restaurant("Preyergasse/Speising".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Kledering Bahnhof".
+restaurant("Schönborn Bahnhof".
+restaurant("Weigelsdorf Bahnhof").

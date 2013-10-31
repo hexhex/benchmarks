@@ -1,6 +1,20 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Kliebergasse").
+initlocation(1,"Zentralfriedhof 1Tor").
+initlocation(1,"Wienerbergbrücke").
+sequence(1,0, "Nußdorf, Beethovengang").
+person(2).
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Krieau").
+sequence(2,0, "Konstanziagasse").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Sieveringer Straße").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Rothneusiedl").

@@ -1,15 +1,32 @@
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-sequence(0, "Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Rathaus").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+sequence(1,0, "Sollenau Bahnhof").
+person(2).
+initlocation(2,"Thaliastraße").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Hietzing").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Währinger Straße-Volksoper").
+sequence(2,0, "Thaliastraße").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Bahnhof Meidling".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Hausleiten Bahnhof".
+restaurant("Strasshof Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Unterpurkersdorf Bahnhof").

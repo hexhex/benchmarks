@@ -1,21 +1,53 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Haidestraße").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Leopoldau").
+sequence(1,0, "Haidestraße").
+person(2).
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Rennweg").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Donauinsel").
+sequence(2,0, "Flughafen Wien (VIE).
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Liesing".
+restaurant("Karlsplatz".
+restaurant("Korneuburg Bahnhof".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Siebenhirten".
+restaurant("Zippererstraße".
+restaurant("Praterkai".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Taubstummengasse".
+restaurant("Perfektastraße".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Hainburg/Donau Personenbhf").

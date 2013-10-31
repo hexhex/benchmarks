@@ -1,11 +1,24 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Oberfeldgasse").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Radetzkyplatz").
+initlocation(1,"Autokaderstraße").
+initlocation(1,"Erlaaer Straße").
+sequence(1,0, "Oberfeldgasse").
+person(2).
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Satzberggasse").
+initlocation(2,"Sierndorf Bahnhof").
+sequence(2,0, "Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+restaurant("Kölblgasse").
+restaurant("Kranzgasse").
+restaurant("Stammersdorf").
+restaurant("Simmering").
+restaurant("Johnstraße").

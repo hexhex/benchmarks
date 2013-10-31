@@ -1,17 +1,37 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Favoritenstraße/Troststraße").
+initlocation(1,"Sechskrügelgasse").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Aspern, Oberdorfstraße").
+initlocation(1,"Alaudagasse").
+initlocation(1,"Krieau").
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Jägerstraße").
+sequence(1,0, "Favoritenstraße/Troststraße").
+person(2).
+initlocation(2,"Simonygasse").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Knöllgasse/Davidgasse").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Volkstheater").
+initlocation(2,"Kettenbrückengasse").
+sequence(2,0, "Simonygasse").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Neubaugasse").
+restaurant("Marxergasse").
+restaurant("Quartier Belvedere").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Rathaus").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Gredlerstraße").
+restaurant("Nordwestbahnstraße").
+restaurant("Oberzellergasse").

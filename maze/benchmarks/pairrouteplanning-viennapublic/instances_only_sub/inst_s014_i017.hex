@@ -1,21 +1,60 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Breitensee").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Enkplatz").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+sequence(1,0, "Breitensee").
+person(2).
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Gersthof").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+sequence(2,0, "Bahnhof Meidling").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+restaurant("Ladendorf Bahnhof".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Burggasse-Stadthalle".
+restaurant("Sarasdorf Bahnhof".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Platt Bahnhof".
+restaurant("Grillgasse".
+restaurant("Kagraner Platz".
+restaurant("Thaliastraße".
+restaurant("Oberdöbling".
+restaurant("Hofstatt Bahnhof".
+restaurant("Roßauer Lände".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Hernals").

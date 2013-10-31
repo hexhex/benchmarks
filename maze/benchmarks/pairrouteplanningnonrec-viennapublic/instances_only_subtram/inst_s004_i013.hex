@@ -1,6 +1,20 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Zieglergasse").
+initlocation(1,"Rennweg").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Niederhofstraße").
+sequence(1,0, "Zieglergasse").
+person(2).
+initlocation(2,"Hopfengasse").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Johannes-Krawarik-Gasse").
+sequence(2,0, "Hopfengasse").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Oberlaa, Therme Wien").
+possiblemeetinglocations("Nestroyplatz").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Münchendorf Bahnhof").
+restaurant("Schlachthausgasse").

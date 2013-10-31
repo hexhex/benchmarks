@@ -1,21 +1,56 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Gumpendorfer Straße").
+sequence(1,0, "Kardinal-Nagl-Platz").
+person(2).
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Handelskai").
+initlocation(2,"Volkstheater").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+sequence(2,0, "Schwechat Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Alser Straße").
+restaurant("Seestadt".
+restaurant("Taborstraße".
+restaurant("Jägerstraße".
+restaurant("Matzleinsdorfer Platz".
+restaurant("Hausleiten Bahnhof".
+restaurant("Wampersdorf Bahnhof".
+restaurant("Unteroberndorf Bahnhof".
+restaurant("Neubau-Kreuzstetten Bahnhof".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Siemensstraße".
+restaurant("Westbahnhof".
+restaurant("Leopoldau".
+restaurant("Spittelau").

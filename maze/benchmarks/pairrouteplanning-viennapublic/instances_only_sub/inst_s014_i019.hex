@@ -1,21 +1,60 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Nußdorf").
+initlocation(1,"Stubentor").
+sequence(1,0, "Unter Kritzendorf Bahnhof").
+person(2).
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Enkplatz").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Westbahnhof").
+sequence(2,0, "Braunschweiggasse").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Vorgartenstraße").
+restaurant("Gumpendorfer Straße".
+restaurant("Stephansplatz".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Wr Neustadt Nord".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Zieglergasse".
+restaurant("Westbahnhof".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Unter Sankt Veit".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Kledering Bahnhof").

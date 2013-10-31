@@ -1,15 +1,32 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-sequence(0, "Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Rennweg").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Bahnsteggasse").
+sequence(1,0, "Burggasse-Stadthalle").
+person(2).
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Rennweg").
+initlocation(2,"Wexstraße").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Migerkastraße").
+sequence(2,0, "Viehofen Bahnhof").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Landesgerichtsstraße").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+restaurant("Liebknechtgasse").
+restaurant("Baden Bahnhof").
+restaurant("Paulanergasse").
+restaurant("Blechturmgasse").
+restaurant("Koloniestraße").
+restaurant("Oberdöbling").
+restaurant("Blumental").

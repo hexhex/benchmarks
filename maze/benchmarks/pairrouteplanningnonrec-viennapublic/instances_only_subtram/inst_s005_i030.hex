@@ -1,11 +1,24 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Sensengasse").
+initlocation(1,"Ottakringer Straße/Wattgasse").
+initlocation(1,"Kleistgasse").
+initlocation(1,"Stollgasse").
+sequence(1,0, "Münchendorf Bahnhof").
+person(2).
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Mayerhofgasse").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+sequence(2,0, "Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Penzing").
+restaurant("Schloss Schönbrunn").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Staglgasse").
+restaurant("Unteres Belvedere").
+restaurant("Aspern, Oberdorfstraße").

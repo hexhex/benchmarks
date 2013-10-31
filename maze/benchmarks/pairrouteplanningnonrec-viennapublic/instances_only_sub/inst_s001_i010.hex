@@ -1,3 +1,8 @@
-initlocation("Hütteldorfer Straße").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Wr Neustadt Nord").
+sequence(1,0, "Wr Neustadt Nord").
+person(2).
+initlocation(2,"Untereggendorf Bahnhof").
+sequence(2,0, "Untereggendorf Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+restaurant("Rekawinkel Bahnhof").

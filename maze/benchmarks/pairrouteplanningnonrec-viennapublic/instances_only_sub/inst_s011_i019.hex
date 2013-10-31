@@ -1,21 +1,48 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Erdberg").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Kettenbrückengasse").
+sequence(1,0, "Aderklaaer Straße").
+person(2).
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Alte Donau").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+sequence(2,0, "Pressbaum Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+restaurant("Donauinsel".
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Neulengbach Bahnhof".
+restaurant("Retz Bahnhof".
+restaurant("Helmahof Bahnhof".
+restaurant("Bahnhof Meidling".
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Enkplatz".
+restaurant("Alterlaa".
+restaurant("Volkstheater").

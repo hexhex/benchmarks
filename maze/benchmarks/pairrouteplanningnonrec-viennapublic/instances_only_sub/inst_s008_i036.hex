@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Museumsquartier").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Kagran").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Neusiedl am See Bahnhof").
+sequence(1,0, "Kagran").
+person(2).
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Erdberg").
+initlocation(2,"Liesing").
+sequence(2,0, "Hörersdorf Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Mistelbach Stadt".
+restaurant("Lobau".
+restaurant("Hausfeldstraße".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Langenzersdorf Bahnhof".
 restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").

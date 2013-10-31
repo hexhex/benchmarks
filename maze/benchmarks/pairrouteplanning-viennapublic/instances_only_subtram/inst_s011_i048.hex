@@ -1,21 +1,48 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Bahnsteggasse").
+initlocation(1,"Marx-Meidlinger-Straße").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Gersthofer Str/Scheibenbergstr").
+initlocation(1,"Brünnlbadgasse").
+initlocation(1,"Löwengasse").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Roßauer Lände").
+sequence(1,0, "Bahnsteggasse").
+person(2).
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Schleiergasse").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Josef-Baumann-Gasse").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Absberggasse").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Staglgasse").
+sequence(2,0, "Schwarzspanierstraße").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Bahnhofstraße").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Sillerplatz").
+restaurant("Donauinsel").
+restaurant("Laurenzgasse").
+restaurant("Anton-Schall-Gasse").
+restaurant("Bauernfeldplatz").
+restaurant("Sillerplatz").
+restaurant("Windtenstraße").
+restaurant("Praterkai").
+restaurant("Schottenring").
+restaurant("Huglgasse").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Oberdöbling").

@@ -1,21 +1,49 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Spittelau").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Seestadt").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Spittelau").
+person(2).
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Hernals").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+sequence(2,0, "Kettenbrückengasse").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Spittelau").
+restaurant("Wr Neustadt Nord".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Himberg Bahnhof".
+restaurant("Maria Ellend Bahnhof".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Simmering".
+restaurant("Haidestraße".
+restaurant("Kettenbrückengasse".
+restaurant("Kagran".
+restaurant("Kagraner Platz".
 restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").

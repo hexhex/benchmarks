@@ -1,21 +1,60 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Höchstädtplatz").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Löwengasse").
+initlocation(1,"Rathausplatz/Burgtheater").
+initlocation(1,"Stadtpark").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Leopoldau").
+sequence(1,0, "Höchstädtplatz").
+person(2).
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Lederergasse").
+initlocation(2,"Laxenburger Str/Gudrunstraße").
+initlocation(2,"Ameisgasse").
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Rennweg").
+initlocation(2,"Stammersdorf").
+initlocation(2,"Schuhmeierplatz").
+initlocation(2,"Yppengasse").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Alfred-Adler-Straße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Hütteldorfer Str/Lützowgasse").
+sequence(2,0, "Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+restaurant("Koloniestraße").
+restaurant("Wilhelminenstr/Sandleitengasse").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Döblinger Bad").
+restaurant("Maurer Hauptplatz").
+restaurant("Zieglergasse/Westbahnstraße").
+restaurant("Unter Sankt Veit").
+restaurant("Donauzentrum").
+restaurant("Polgarstraße").
+restaurant("Mariahilfer Gürtel").
+restaurant("Taubstummengasse").
+restaurant("Schloss Belvedere").

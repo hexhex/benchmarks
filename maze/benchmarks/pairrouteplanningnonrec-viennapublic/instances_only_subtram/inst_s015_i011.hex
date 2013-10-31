@@ -1,21 +1,64 @@
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Lobau").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Perntergasse").
+initlocation(1,"Frauengasse").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Palffygasse").
+initlocation(1,"Valiergasse").
+initlocation(1,"Trasdorf Bahnhof").
+sequence(1,0, "Münchendorf Bahnhof").
+person(2).
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Bösendorferstraße").
+initlocation(2,"Himmelmutterweg").
+initlocation(2,"Rampengasse").
+initlocation(2,"Erdberg").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Burgring").
+initlocation(2,"Erndtgasse").
+initlocation(2,"Dommayergasse").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Landstraße-Wien Mitte").
+sequence(2,0, "Untertullnerbach Bahnhof").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Pötzleinsdorf").
+restaurant("Gloriettegasse").
+restaurant("Innstraße").
+restaurant("Weidlingau Bahnhof").
+restaurant("Schwarzspanierstraße").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Burggasse-Stadthalle").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Am Heumarkt").
+restaurant("Radetzkyplatz").
+restaurant("Schuhmeierplatz").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Schöffelgasse").

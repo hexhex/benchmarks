@@ -1,17 +1,36 @@
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Krieau").
+initlocation(1,"Erdberg").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+sequence(1,0, "Krieau").
+person(2).
+initlocation(2,"Praterstern").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Schwedenplatz").
+sequence(2,0, "Praterstern").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+restaurant("Kettenbrückengasse".
+restaurant("Obereggendorf Bahnhof".
+restaurant("Penzing".
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Praterkai".
+restaurant("Gänserndorf Bahnhof".
+restaurant("Neusiedl am See Bahnhof".
+restaurant("Hetzendorf").

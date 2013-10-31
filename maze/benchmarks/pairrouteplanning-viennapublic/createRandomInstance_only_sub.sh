@@ -31,4 +31,4 @@ restaurants=$(echo "
                                 line(LineID, LineName, Sequence, Realtime, \"ptTrainS\", LineDate),
                                 platform(PlatformID, LineID, StopID, Direction, PlatformSequence, RBLNr, Area, Platform, PlatformLat, PlatformLon, PlatformDate).
 	" | dlvhex2 --silent --filter=restaurant stops.hex lines.hex platforms.hex -- | sed 's/{//' | sed 's/,restaurant/.\nrestaurant/g' | sed 's/}/./' | sort -R | head -n $1)
-echo $restaurants | sed 's/\. /\.\n/g'
+echo $restaurants | sed 's/). /\.\n/g'

@@ -1,21 +1,65 @@
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Stadion").
+initlocation(1,"Krieau").
+initlocation(1,"Brünner Straße").
+sequence(1,0, "Rekawinkel Bahnhof").
+person(2).
+initlocation(2,"Sankt Marx").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Johnstraße").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Kagran").
+sequence(2,0, "Sankt Marx").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+restaurant("Längenfeldgasse".
+restaurant("Aspern Nord".
+restaurant("Alte Donau".
+restaurant("Erdberg".
+restaurant("Gaisruck Bahnhof".
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Taborstraße".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Quartier Belvedere".
+restaurant("Stockerau Bahnhof".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Roßauer Lände".
+restaurant("Herzogenburg Bahnhof".
 restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").

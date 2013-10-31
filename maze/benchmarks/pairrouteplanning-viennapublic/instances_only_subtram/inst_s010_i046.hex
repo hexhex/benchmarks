@@ -1,21 +1,44 @@
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Herrengasse").
+initlocation(1,"Scheibenbergstraße").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Hütteldorf, Bujattigasse").
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Baumgarten").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Kraygasse").
+initlocation(1,"Traisengasse").
+initlocation(1,"Süßenbrunn").
+sequence(1,0, "Herrengasse").
+person(2).
+initlocation(2,"Winkeläckerstraße").
+initlocation(2,"Zentralfriedhof 4Tor").
+initlocation(2,"Leyserstraße").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Polgarstraße").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Stubentor").
+sequence(2,0, "Winkeläckerstraße").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Wittelsbachstraße").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Radetzkyplatz").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+restaurant("Siemensstraße").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Auerspergstraße").
+restaurant("Karlsplatz").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Bauernfeldplatz").
+restaurant("Silbergasse").
+restaurant("Dornbacher Straße").
+restaurant("Oberfeldgasse").
+restaurant("Klosterneuburg-Kierling Bf").

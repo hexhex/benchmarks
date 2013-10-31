@@ -1,19 +1,41 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+sequence(1,0, "Eichgraben-Altlengbach Bahnhof").
+person(2).
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Achau Bahnhof").
+sequence(2,0, "Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Lobau").
+restaurant("Haidestraße".
+restaurant("Donauinsel".
+restaurant("Schwechat Bahnhof".
+restaurant("Wr Neustadt Nord".
+restaurant("Kottingbrunn Bahnhof".
+restaurant("Alser Straße".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Kritzendorf Bahnhof".
+restaurant("Breitenwaida Bahnhof").

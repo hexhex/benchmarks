@@ -1,21 +1,45 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-sequence(0, "Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Traisengasse").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Haidestraße").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Handelskai").
+sequence(1,0, "Klosterneuburg-Weidling Bf").
+person(2).
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Schlachthausgasse").
+sequence(2,0, "Tullnerfeld Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Unter Sankt Veit").
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Heiligenstadt".
+restaurant("Am Schöpfwerk".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Zippererstraße".
+restaurant("Krottenbachstraße".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Unter Kritzendorf Bahnhof").

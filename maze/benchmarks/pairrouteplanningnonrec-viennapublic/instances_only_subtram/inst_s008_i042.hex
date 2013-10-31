@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Kraygasse").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Hildebrandgasse").
+initlocation(1,"Linzer Straße/Zehetnergasse").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Volkstheater").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Döblinger Bad").
+sequence(1,0, "Kraygasse").
+person(2).
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Herbeckstraße").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Laudongasse").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Am Heumarkt").
+initlocation(2,"Mayerhofgasse").
+sequence(2,0, "Sieveringer Straße").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Rosensteingasse").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+restaurant("Bahnhof Meidling").
+restaurant("Pilgramgasse").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Trasdorf Bahnhof").
+restaurant("Wilfleinsdorf Bahnhof").
 restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Süßenbrunn").

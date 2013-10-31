@@ -1,6 +1,20 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Keplerplatz").
+initlocation(1,"Seestadt").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Niederhofstraße").
+sequence(1,0, "Keplerplatz").
+person(2).
+initlocation(2,"Johnstraße").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+sequence(2,0, "Johnstraße").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+restaurant("Baden Bahnhof".
+restaurant("Schleinbach Bahnhof".
+restaurant("Nestroyplatz".
+restaurant("Mistelbach Stadt").

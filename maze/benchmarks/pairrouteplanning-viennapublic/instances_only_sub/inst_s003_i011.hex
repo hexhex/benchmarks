@@ -1,5 +1,16 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "Hollabrunn Bahnhof").
+person(2).
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+sequence(2,0, "Laa an der Thaya Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+restaurant("Mödling Bahnhof".
+restaurant("Mistelbach Stadt".
+restaurant("Donaumarina").

@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Donauzentrum").
+initlocation(1,"Lange Gasse").
+sequence(1,0, "Donauzentrum").
+person(2).
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+sequence(2,0, "Van-Swieten-Kaserne").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Taubstummengasse").

@@ -1,15 +1,32 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Hietzing").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Seestadt").
+initlocation(1,"Alterlaa").
+initlocation(1,"Zentralfriedhof 3Tor").
+initlocation(1,"Stollgasse").
+initlocation(1,"Rosensteingasse").
+sequence(1,0, "Hietzing").
+person(2).
+initlocation(2,"Palffygasse").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+sequence(2,0, "Palffygasse").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+restaurant("Siebenhirten").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Weißenböckstraße").
+restaurant("Nordwestbahnstraße").
+restaurant("Marienbrücke").
+restaurant("Dürrwien Bahnhof").
+restaurant("Burgring").

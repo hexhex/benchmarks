@@ -1,21 +1,64 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+sequence(1,0, "Hetzmannsdorf-Wullersdorf Bf").
+person(2).
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Herrengasse").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Erdberg").
+initlocation(2,"Kagran").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+sequence(2,0, "Parndorf Ort Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+restaurant("Sierndorf Bahnhof".
+restaurant("St Pölten Traisenpark P+R Nord".
+restaurant("Donauspital".
+restaurant("Hernals".
+restaurant("Aderklaaer Straße".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Seyring Bahnhof".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Blumental".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Messe-Prater".
+restaurant("Oberdöbling".
+restaurant("Hausleiten Bahnhof".
 restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").

@@ -1,19 +1,40 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Siebensterngasse").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Canisiusgasse").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Göllersdorf Bahnhof").
+sequence(1,0, "Moosbierbaum-Heiligeneich Bf").
+person(2).
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Schleiergasse").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Huglgasse").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+sequence(2,0, "Hildebrandgasse").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+restaurant("Perntergasse").
+restaurant("Zentralfriedhof 3Tor").
+restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Aßmayergasse").
+restaurant("Hildebrandgasse").
+restaurant("Polkorabplatz").
+restaurant("Wolkersdorf Bahnhof").

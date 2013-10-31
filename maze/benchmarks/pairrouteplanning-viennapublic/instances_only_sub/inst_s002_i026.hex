@@ -1,4 +1,12 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Sierndorf Bahnhof").
+sequence(1,0, "Margaretengürtel").
+person(2).
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+sequence(2,0, "Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Neubaugasse").
+restaurant("Trasdorf Bahnhof".
+restaurant("Hörersdorf Bahnhof").

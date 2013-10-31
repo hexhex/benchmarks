@@ -1,6 +1,20 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Schottentor").
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Marx-Meidlinger-Straße").
+sequence(1,0, "Schottentor").
+person(2).
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Rußbergstraße").
+sequence(2,0, "Roßauer Lände").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Wenzgasse").
+restaurant("Pottendorf-Landegg Bahnhof").

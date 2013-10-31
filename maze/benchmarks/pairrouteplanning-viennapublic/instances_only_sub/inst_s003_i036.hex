@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Sierndorf Bahnhof").
+sequence(1,0, "Eichgraben-Altlengbach Bahnhof").
+person(2).
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Alte Donau").
+sequence(2,0, "Pfaffstätten Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Johnstraße").
+restaurant("Alser Straße".
+restaurant("Donaumarina".
+restaurant("Großfeldsiedlung").

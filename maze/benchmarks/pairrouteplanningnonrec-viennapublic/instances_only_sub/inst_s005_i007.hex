@@ -1,7 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Siemensstraße").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Frättingsdorf Bahnhof").
+sequence(1,0, "Siemensstraße").
+person(2).
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Johnstraße").
+initlocation(2,"Simmering").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Alterlaa").
+sequence(2,0, "Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+restaurant("Alterlaa".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Neulengbach Bahnhof".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Schwechat Bahnhof").

@@ -1,13 +1,28 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Thaliastraße/Brunnengasse").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Maria Ellend Bahnhof").
+sequence(1,0, "Thaliastraße/Brunnengasse").
+person(2).
+initlocation(2,"Arminenstraße").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Spitalgasse/Währinger Straße").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+sequence(2,0, "Arminenstraße").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Zentralfriedhof").
+restaurant("Höchstädtplatz").
+restaurant("Rampengasse").
+restaurant("Grinzinger Straße").
+restaurant("Hollabrunn Bahnhof").

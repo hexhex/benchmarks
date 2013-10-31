@@ -1,21 +1,48 @@
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-sequence(0, "Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Kendlerstraße").
+sequence(1,0, "Bad Deutsch-Altenburg Bahnhof").
+person(2).
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Alte Donau").
+initlocation(2,"Blumental").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+sequence(2,0, "Herzogenburg Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+restaurant("Stephansplatz".
+restaurant("Ober Sankt Veit".
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Rennbahnweg".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Kledering Bahnhof".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Strasshof Bahnhof".
+restaurant("Brünner Straße".
+restaurant("Pilgramgasse".
+restaurant("St Pölten Hauptbahnhof").

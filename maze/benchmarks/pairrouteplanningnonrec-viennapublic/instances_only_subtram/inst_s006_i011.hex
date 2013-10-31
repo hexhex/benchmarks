@@ -1,13 +1,28 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Rampengasse").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(1,"Leberberg").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Theresienfeld Bahnhof").
+sequence(1,0, "Rampengasse").
+person(2).
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Aumannplatz").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Untertullnerbach Bahnhof").
+sequence(2,0, "Sierndorf Bahnhof").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Rustengasse").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+restaurant("Nußdorfer Straße").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Sonnergasse").
+restaurant("Sechskrügelgasse").
+restaurant("Schwarzenbergplatz").

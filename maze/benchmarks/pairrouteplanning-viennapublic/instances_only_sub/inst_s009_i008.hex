@@ -1,19 +1,40 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+sequence(1,0, "Burggasse-Stadthalle").
+person(2).
+initlocation(2,"Zippererstraße").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Traisengasse").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+sequence(2,0, "Zippererstraße").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Simmering".
+restaurant("Blumental".
+restaurant("Bisamberg Bahnhof".
+restaurant("Meidling Hauptstraße".
+restaurant("Mistelbach Stadt".
+restaurant("Kaiserebersdorf".
+restaurant("Obersdorf Bahnhof".
+restaurant("Hetzendorf".
+restaurant("Messe-Prater").

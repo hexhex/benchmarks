@@ -1,11 +1,24 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Zippererstraße").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Breitensee").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Erzherzog-Karl-Straße").
+sequence(1,0, "Am Schöpfwerk").
+person(2).
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Seestadt").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Frättingsdorf Bahnhof").
+sequence(2,0, "Münchendorf Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Unteroberndorf Bahnhof".
+restaurant("Hütteldorfer Straße".
+restaurant("Heiligenstadt".
+restaurant("Gaisruck Bahnhof".
+restaurant("Langenzersdorf Bahnhof").

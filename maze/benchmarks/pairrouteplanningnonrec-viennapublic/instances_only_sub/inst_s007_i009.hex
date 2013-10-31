@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Praterstern").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+sequence(1,0, "Praterstern").
+person(2).
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Mistelbach Bahnhof").
+sequence(2,0, "Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Ottakring".
+restaurant("Bisamberg Bahnhof".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Alser Straße".
+restaurant("Penzing".
+restaurant("Atzgersdorf".
+restaurant("Alterlaa").

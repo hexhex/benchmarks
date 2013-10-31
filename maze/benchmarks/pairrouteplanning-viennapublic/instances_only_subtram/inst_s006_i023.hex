@@ -1,13 +1,28 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Westbahnhof").
+initlocation(1,"Gutraterplatz").
+initlocation(1,"Haidestraße").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Fickeysstraße").
+sequence(1,0, "Westbahnhof").
+person(2).
+initlocation(2,"Neuwaldegg").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Hopfengasse").
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Innstraße").
+sequence(2,0, "Neuwaldegg").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Götzendorf Bahnhof").
+restaurant("Versorgungsheimplatz").
+restaurant("Trasdorf Bahnhof").
+restaurant("Hildebrandgasse").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Hetzgasse").
+restaurant("Sickenberggasse").

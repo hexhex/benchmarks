@@ -1,4 +1,12 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Stadion").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+sequence(1,0, "Stadion").
+person(2).
+initlocation(2,"Hernals").
+initlocation(2,"Reumannplatz").
+sequence(2,0, "Hernals").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Mannswörth Bahnhof").
+restaurant("Leobersdorf Bahnhof".
+restaurant("Traisengasse").

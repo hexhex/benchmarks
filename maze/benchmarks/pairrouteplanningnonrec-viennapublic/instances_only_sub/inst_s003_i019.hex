@@ -1,5 +1,16 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Lobau").
+sequence(1,0, "Obereggendorf Bahnhof").
+person(2).
+initlocation(2,"Stadtpark").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+restaurant("Wilfleinsdorf Bahnhof".
+restaurant("Neubau-Kreuzstetten Bahnhof".
+restaurant("Hardeggasse").

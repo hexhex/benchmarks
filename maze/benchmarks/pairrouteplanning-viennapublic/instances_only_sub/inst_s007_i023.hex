@@ -1,15 +1,32 @@
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Liesing").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Spillern Bahnhof").
+sequence(1,0, "Liesing").
+person(2).
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Leopoldau").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+sequence(2,0, "Traismauer Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+restaurant("Obersdorf Bahnhof".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Mannswörth Bahnhof".
+restaurant("Ober Sankt Veit".
+restaurant("Kledering Bahnhof".
+restaurant("Hofstatt Bahnhof").

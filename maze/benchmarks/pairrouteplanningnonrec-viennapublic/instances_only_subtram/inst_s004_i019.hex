@@ -1,6 +1,20 @@
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Canisiusgasse").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Gerstnerstraße/Westbhf").
+initlocation(1,"Strozzigasse").
+sequence(1,0, "Canisiusgasse").
+person(2).
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"Neue Donau").
+initlocation(2,"Nußdorf, Beethovengang").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Schmerlingplatz").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Schottentor").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Kaiser-Franz-Josef-Straße").

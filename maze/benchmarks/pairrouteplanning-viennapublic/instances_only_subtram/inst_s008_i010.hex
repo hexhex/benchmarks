@@ -1,17 +1,36 @@
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-sequence(0, "Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Breitenfurter St/Altmannsd Str").
+initlocation(1,"Huglgasse").
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Glatzgasse").
+initlocation(1,"Laurentiusplatz").
+sequence(1,0, "Kaiserstraße").
+person(2).
+initlocation(2,"Anton-Schall-Gasse").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Krankenhaus Hietzing").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Sahulkastraße").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+sequence(2,0, "Anton-Schall-Gasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Platt Bahnhof").
+restaurant("Rosenhügelstraße").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Polkorabplatz").
+restaurant("Augasse").
+restaurant("Donauspital").
+restaurant("Sieveringer Straße").
+restaurant("Krieau").
+restaurant("Spillern Bahnhof").

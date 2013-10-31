@@ -1,6 +1,20 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+sequence(1,0, "Haslau an der Donau Bahnhof").
+person(2).
+initlocation(2,"Zippererstraße").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+sequence(2,0, "Zippererstraße").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Leopoldau".
+restaurant("Göllersdorf Bahnhof".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Burggasse-Stadthalle").

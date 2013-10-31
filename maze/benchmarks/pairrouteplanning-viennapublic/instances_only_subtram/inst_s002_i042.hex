@@ -1,4 +1,12 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Fichtnergasse").
+sequence(1,0, "Brigittaplatz").
+person(2).
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Siebensterngasse").
+sequence(2,0, "Sierndorf Bahnhof").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Wolkersdorf Bahnhof").

@@ -1,21 +1,52 @@
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-sequence(0, "Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Johnstraße").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Retz Bahnhof").
+sequence(1,0, "Kendlerstraße").
+person(2).
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Neue Donau").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Leopoldau").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Kapellerfeld Bahnhof").
+sequence(2,0, "Jedlersdorf").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+restaurant("Rochusgasse".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Zippererstraße".
+restaurant("Mistelbach Bahnhof".
+restaurant("Siebenhirten".
+restaurant("St Pölten Traisenpark P+R Nord".
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Unterpurkersdorf Bahnhof".
+restaurant("Kritzendorf Bahnhof".
+restaurant("Bahnhof Meidling".
+restaurant("Keplerplatz".
+restaurant("Pottendorf-Landegg Bahnhof").

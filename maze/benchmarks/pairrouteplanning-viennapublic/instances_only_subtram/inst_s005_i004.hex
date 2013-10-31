@@ -1,7 +1,24 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Bahnhofstraße").
+initlocation(1,"Saikogasse").
+initlocation(1,"Friedrich-Engels-Platz").
+initlocation(1,"Keplerplatz").
+sequence(1,0, "Burggasse-Stadthalle").
+person(2).
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Althanstraße").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Marxergasse").
+sequence(2,0, "Retz Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Gumpendorfer Straße").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Rennbahnweg").
+restaurant("Perntergasse").
+restaurant("Seegasse").

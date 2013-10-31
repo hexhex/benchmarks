@@ -1,17 +1,36 @@
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Hörersdorf Bahnhof").
+sequence(1,0, "Unterradlberg Bahnhof").
+person(2).
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Wolfsthal Bahnhof").
+sequence(2,0, "Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Stadlau").
+restaurant("Wolf in der Au".
+restaurant("Hernals".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Stadion".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Schönborn Bahnhof".
+restaurant("Hütteldorf".
+restaurant("Penzing").

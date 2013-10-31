@@ -1,13 +1,28 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Penzinger Straße").
+sequence(1,0, "Kaiserstraße/Burggasse").
+person(2).
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Simmering").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Prinzgasse").
+sequence(2,0, "Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Skodagasse").
+restaurant("Huglgasse").
+restaurant("Paulanergasse").
+restaurant("Schöffelgasse").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Columbusplatz").
+restaurant("St Pölten Traisenpark P+R Nord").

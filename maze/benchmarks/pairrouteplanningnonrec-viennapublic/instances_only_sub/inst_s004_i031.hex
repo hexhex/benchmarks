@@ -1,6 +1,20 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Liesing").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Bisamberg Bahnhof").
+sequence(1,0, "Liesing").
+person(2).
+initlocation(2,"Praterkai").
+initlocation(2,"Schottentor").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Hirschstetten").
+sequence(2,0, "Praterkai").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Kledering Bahnhof").
+restaurant("Gersthof".
+restaurant("Sierndorf Bahnhof".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Dürrwien Bahnhof").

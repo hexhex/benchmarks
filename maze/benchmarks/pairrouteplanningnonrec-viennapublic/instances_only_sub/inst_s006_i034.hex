@@ -1,13 +1,28 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Wolf in der Au").
+sequence(1,0, "Tulln Bahnhof").
+person(2).
+initlocation(2,"Breitensee").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Leopoldau").
+initlocation(2,"Nußdorf").
+sequence(2,0, "Breitensee").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+restaurant("Leobersdorf Bahnhof".
+restaurant("Mödling Bahnhof".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Hernals".
+restaurant("Ebenfurth Bahnhof".
+restaurant("Kledering Bahnhof").

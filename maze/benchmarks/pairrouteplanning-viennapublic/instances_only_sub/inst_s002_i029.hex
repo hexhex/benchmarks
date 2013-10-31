@@ -1,4 +1,12 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+sequence(1,0, "Wampersdorf Bahnhof").
+person(2).
+initlocation(2,"Schottentor").
+initlocation(2,"Messe-Prater").
+sequence(2,0, "Schottentor").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+restaurant("Schwedenplatz".
+restaurant("Kottingbrunn Bahnhof").

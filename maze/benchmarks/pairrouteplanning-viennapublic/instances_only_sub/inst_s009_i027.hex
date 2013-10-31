@@ -1,19 +1,40 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Siebenhirten").
+initlocation(1,"Breitensee").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+sequence(1,0, "Siebenhirten").
+person(2).
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Traisengasse").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Frättingsdorf Bahnhof").
+sequence(2,0, "Wildungsmauer Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+restaurant("Kaisermühlen-VIC".
+restaurant("Kettenbrückengasse".
+restaurant("Baden Bahnhof".
+restaurant("Gumpendorfer Straße".
+restaurant("Pottendorf-Landegg Bahnhof".
+restaurant("Schönborn Bahnhof".
+restaurant("Göllersdorf Bahnhof".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Westbahnhof").

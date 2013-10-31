@@ -1,5 +1,16 @@
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Messe-Prater").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Niederhofstraße").
+sequence(1,0, "Messe-Prater").
+person(2).
+initlocation(2,"Hernals").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Kapellerfeld Bahnhof").
+sequence(2,0, "Hernals").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Dürrwien Bahnhof".
+restaurant("Gaisruck Bahnhof").

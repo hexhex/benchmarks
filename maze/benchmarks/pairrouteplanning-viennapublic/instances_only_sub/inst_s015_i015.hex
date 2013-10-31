@@ -1,21 +1,64 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Spittelau").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+sequence(1,0, "St Pölten Hauptbahnhof").
+person(2).
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Handelskai").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Rathaus").
+sequence(2,0, "Ladendorf Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+restaurant("Floridsdorf".
+restaurant("Mödling Bahnhof".
+restaurant("Oberdöbling".
+restaurant("Kaiserebersdorf".
+restaurant("Hollabrunn Bahnhof".
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Pilgramgasse".
+restaurant("Keplerplatz".
+restaurant("Hütteldorfer Straße".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Maria Ellend Bahnhof".
+restaurant("Hernals".
+restaurant("Dürrwien Bahnhof".
+restaurant("St Pölten Traisenpark P+R Nord".
+restaurant("Donaumarina").

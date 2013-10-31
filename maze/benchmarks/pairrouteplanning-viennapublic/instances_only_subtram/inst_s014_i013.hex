@@ -1,21 +1,61 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Atzgersdorfer Straße").
+initlocation(1,"Marxergasse").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Haidestraße").
+initlocation(1,"Siebensterngasse").
+sequence(1,0, "Atzgersdorfer Straße").
+person(2).
+initlocation(2,"Hirschstetten").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Julius-Raab-Platz").
+initlocation(2,"Kärntner Ring/Oper").
+initlocation(2,"Am Spitz").
+initlocation(2,"Koppstraße/Panikengasse").
+initlocation(2,"Schottentor").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Schottenfeldgasse").
+initlocation(2,"Siebensterngasse").
+initlocation(2,"Siemensstraße").
+sequence(2,0, "Hirschstetten").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Guntherstraße").
+restaurant("Am Tabor").
+restaurant("Thaliastraße/Maroltingergasse").
+restaurant("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Sahulkastraße").
+restaurant("Preyergasse/Speising").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Landesgerichtsstraße").
+restaurant("Wattmanngasse").
+restaurant("Bauernfeldplatz").
+restaurant("Hardtgasse").
+restaurant("Pilgramgasse").
+restaurant("Liechtenwerder Platz").
+restaurant("Frödenplatz").

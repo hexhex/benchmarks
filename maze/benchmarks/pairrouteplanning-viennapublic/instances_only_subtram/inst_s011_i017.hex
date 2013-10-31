@@ -1,21 +1,48 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Hardtgasse").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Breitensee").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Marxergasse").
+initlocation(1,"Guntersdorf Bahnhof").
+sequence(1,0, "Hardtgasse").
+person(2).
+initlocation(2,"Hopfengasse").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Columbusplatz").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Oberdöbling").
+sequence(2,0, "Hopfengasse").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Schottentor").
+restaurant("Unter Sankt Veit").
+restaurant("Achau Bahnhof").
+restaurant("Wenzgasse").
+restaurant("Stockholmer Platz").
+restaurant("Praterkai").
+restaurant("Absberggasse").
+restaurant("Althanstraße").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Altes Landgut").
+restaurant("Rodaun").
+restaurant("Perchtoldsdorf Bahnhof").

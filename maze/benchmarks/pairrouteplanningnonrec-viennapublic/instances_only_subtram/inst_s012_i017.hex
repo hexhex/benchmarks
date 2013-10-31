@@ -1,21 +1,52 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Antonigasse").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Weihburggasse").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Kapellerfeld Bahnhof").
+sequence(1,0, "Nestroyplatz").
+person(2).
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Autokaderstraße").
+initlocation(2,"Julius-Raab-Platz").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"Palffygasse").
+initlocation(2,"Schwarzenbergplatz").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Hütteldorfer Str/Lützowgasse").
+initlocation(2,"Satzberggasse").
+initlocation(2,"Gutraterplatz").
+sequence(2,0, "Geiereckstraße").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Trondheimgasse").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Hardtgasse").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Kleistgasse").
+restaurant("Paradisgasse").
+restaurant("Marxergasse").
+restaurant("Mödling Bahnhof").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Fischamend Bahnhof").
+restaurant("Gatterburggasse").
+restaurant("Süßenbrunn").
+restaurant("Linzer Straße/Lützowgasse").
+restaurant("Liechtenwerder Platz").

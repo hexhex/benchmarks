@@ -1,13 +1,28 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Thaliastraße").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Stadtpark").
+initlocation(1,"Hietzing").
+initlocation(1,"Kettenbrückengasse").
+sequence(1,0, "Thaliastraße").
+person(2).
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Ottakring").
+sequence(2,0, "Kritzendorf Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Wr Neustadt Nord").
+restaurant("Platt Bahnhof".
+restaurant("Geiselbergstraße".
+restaurant("Neulengbach Bahnhof".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Hofstatt Bahnhof".
+restaurant("Maria Anzbach Bahnhof").

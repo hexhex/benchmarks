@@ -1,19 +1,40 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Herbeckstraße").
+initlocation(1,"Rosenhügelstraße").
+initlocation(1,"Yppengasse").
+sequence(1,0, "St Andrä-Wördern Bahnhof").
+person(2).
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Zentralfriedhof 4Tor").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Frauengasse").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Thaliastraße/Maroltingergasse").
+initlocation(2,"Obere Augartenstraße").
+sequence(2,0, "Maria Anzbach Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Geiereckstraße").
+restaurant("Kendlerstraße").
+restaurant("Trasdorf Bahnhof").
+restaurant("Breitenfurter St/Altmannsd Str").
 restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
+restaurant("Felixdorf Bahnhof").
+restaurant("Hietzing").
+restaurant("Bisamberg Bahnhof").
+restaurant("Kagraner Brücke").
+restaurant("Herzogenburg Bahnhof").

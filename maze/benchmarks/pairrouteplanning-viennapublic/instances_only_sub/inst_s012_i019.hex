@@ -1,21 +1,52 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-sequence(0, "Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+sequence(1,0, "Baden Bahnhof").
+person(2).
+initlocation(2,"Neue Donau").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Spittelau").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Tulln Stadt Bahnhof").
+sequence(2,0, "Neue Donau").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Felixdorf Bahnhof").
+restaurant("Kritzendorf Bahnhof".
+restaurant("Pressbaum Bahnhof".
+restaurant("Keplerplatz".
+restaurant("Karlsplatz".
+restaurant("Schwechat Bahnhof".
+restaurant("Felixdorf Bahnhof".
+restaurant("Wr Neustadt Nord".
+restaurant("Ladendorf Bahnhof".
+restaurant("Erlaaer Straße".
+restaurant("Aspernstraße".
+restaurant("Theresienfeld Bahnhof".
+restaurant("Maria Ellend Bahnhof").

@@ -1,11 +1,24 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Rathaus").
+initlocation(1,"Unter Sankt Veit").
+sequence(1,0, "Langenlebarn Bahnhof").
+person(2).
+initlocation(2,"Herrengasse").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Hausleiten Bahnhof").
+sequence(2,0, "Herrengasse").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+restaurant("Leopoldau".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Donauinsel".
+restaurant("Maria Ellend Bahnhof".
+restaurant("Längenfeldgasse").

@@ -1,21 +1,64 @@
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Guntherstraße").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+initlocation(1,"Leopoldau").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Bauernfeldplatz").
+initlocation(1,"Brünner Straße/Hanreitergasse").
+initlocation(1,"Ottakringer Straße/Wattgasse").
+initlocation(1,"Messe-Prater").
+sequence(1,0, "Trasdorf Bahnhof").
+person(2).
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Stadlau").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Kranzgasse").
+initlocation(2,"Koppstraße/Panikengasse").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Schottenring").
+initlocation(2,"Dommayergasse").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+sequence(2,0, "Weidlingau Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Fultonstraße").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Empergergasse").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Aspernstraße").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Martinstraße").
+restaurant("Hausfeldstraße").
+restaurant("Rennbahnweg").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Niederhofstraße").
+restaurant("Zieglergasse").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Polgarstraße").
+restaurant("Albertgasse").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Sierndorf Bahnhof").

@@ -1,21 +1,56 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Linzer Straße/Hochsatzengasse").
+initlocation(1,"Haidestraße").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Volkstheater").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Carabelligasse").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Althanstraße").
+sequence(1,0, "Linzer Straße/Hochsatzengasse").
+person(2).
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Josef-Baumann-Gasse").
+initlocation(2,"Bahnhofstraße").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Valiergasse").
+initlocation(2,"Laurentiusplatz").
+sequence(2,0, "Arthaberplatz").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Rennweg").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Baden Bahnhof").
+restaurant("Spittelau").
 restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Brünnlbadgasse").
+restaurant("Sonnergasse").
+restaurant("Hauptbahnhof Ost").
+restaurant("Stadiongasse/Parlament").
+restaurant("Kagraner Platz").
+restaurant("Hütteldorfer Str/Hochsatzeng").

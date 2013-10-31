@@ -1,7 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Baumgarten").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Forstnergasse").
+sequence(1,0, "Mistelbach Stadt").
+person(2).
+initlocation(2,"Diesterweggasse").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Weißenböckstraße").
+initlocation(2,"Hardtgasse").
+sequence(2,0, "Diesterweggasse").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Baden Bahnhof").
+restaurant("Bisamberg Bahnhof").
+restaurant("Rebhanngasse").
+restaurant("Silberwald Bahnhof").
+restaurant("Braunhubergasse").

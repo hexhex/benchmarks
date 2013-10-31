@@ -1,13 +1,28 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Hütteldorf, Bujattigasse").
+initlocation(1,"Windtenstraße").
+initlocation(1,"Weißenböckstraße").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Koppstraße/Panikengasse").
+sequence(1,0, "Hütteldorf, Bujattigasse").
+person(2).
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Migerkastraße").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+sequence(2,0, "Stockholmer Platz").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Barawitzkagasse").
+possiblemeetinglocations("Stadtpark").
+restaurant("Jedlersdorf").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Langenlebarn Bahnhof").
 restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").

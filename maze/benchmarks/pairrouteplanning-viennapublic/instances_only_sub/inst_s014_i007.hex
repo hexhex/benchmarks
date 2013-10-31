@@ -1,21 +1,61 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Handelskai").
+initlocation(1,"Penzing").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+sequence(1,0, "Bad Deutsch-Altenburg Bahnhof").
+person(2).
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Liesing").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Schönborn Bahnhof").
+sequence(2,0, "Wildungsmauer Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+restaurant("Wolf in der Au".
+restaurant("Längenfeldgasse".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Unter Sankt Veit".
+restaurant("Tscherttegasse".
+restaurant("Breitensee".
+restaurant("Lobau".
+restaurant("Siebenhirten".
+restaurant("Volkstheater".
+restaurant("Kettenbrückengasse".
+restaurant("Enkplatz".
+restaurant("Zippererstraße".
+restaurant("Floridsdorf".
+restaurant("Deutsch-Wagram Bahnhof").

@@ -1,21 +1,56 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Sankt Marx").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Rathaus").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+sequence(1,0, "Sankt Marx").
+person(2).
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Großfeldsiedlung").
+sequence(2,0, "Parndorf Ort Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+restaurant("Theresienfeld Bahnhof".
+restaurant("Sarasdorf Bahnhof".
+restaurant("Tulln Bahnhof".
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Hadersdorf Bahnhof".
+restaurant("Krieau".
+restaurant("Unteroberndorf Bahnhof".
+restaurant("Kritzendorf Bahnhof".
+restaurant("Liesing".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Roßauer Lände".
+restaurant("Seestadt".
+restaurant("Keplerplatz").

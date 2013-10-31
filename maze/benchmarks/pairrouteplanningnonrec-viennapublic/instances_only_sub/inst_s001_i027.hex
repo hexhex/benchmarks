@@ -1,3 +1,8 @@
-initlocation("Aspern Nord").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Mödling Bahnhof").
+sequence(1,0, "Mödling Bahnhof").
+person(2).
+initlocation(2,"Bad Vöslau Bahnhof").
+sequence(2,0, "Bad Vöslau Bahnhof").
+possiblemeetinglocations("Platt Bahnhof").
+restaurant("Klosterneuburg-Weidling Bf").

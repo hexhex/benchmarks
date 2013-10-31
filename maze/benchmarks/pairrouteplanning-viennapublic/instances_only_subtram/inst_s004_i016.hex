@@ -1,6 +1,20 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Althanstraße").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Winckelmannstraße").
+sequence(1,0, "Gerasdorf Bahnhof").
+person(2).
+initlocation(2,"Donaumarina").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Klosterneub Str/Wallensteinstr").
+sequence(2,0, "Donaumarina").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Neuwaldegg").
+restaurant("Rochusgasse").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Polgarstraße").

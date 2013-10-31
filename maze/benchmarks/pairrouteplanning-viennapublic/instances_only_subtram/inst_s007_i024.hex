@@ -1,15 +1,33 @@
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Prater, Hauptallee").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Enkplatz").
+initlocation(1,"Siebertgasse").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Niederhofstraße").
+sequence(1,0, "Raxstraße/Rudolfshügelgasse").
+person(2).
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Laudongasse").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+sequence(2,0, "Pilgramgasse").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Redtenbachergasse").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Strozzigasse").
+possiblemeetinglocations("Dornbacher Straße").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Sarasdorf Bahnhof").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Herrengasse").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Wienerfeldgasse").

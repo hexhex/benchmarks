@@ -1,21 +1,64 @@
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Palffygasse").
+initlocation(1,"Hubertusdamm").
+initlocation(1,"Schuhmeierplatz").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Haidestraße").
+initlocation(1,"Wienerfeldgasse").
+initlocation(1,"Rosenhügelstraße").
+initlocation(1,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Perntergasse").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Urban-Loritz-Platz").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Ameisgasse").
+sequence(1,0, "Palffygasse").
+person(2).
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Teichgasse").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Mayssengasse").
+initlocation(2,"Baumgarten").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Migerkastraße").
+initlocation(2,"Rathaus").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+sequence(2,0, "Spillern Bahnhof").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Unteres Belvedere").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Mühlfeldgasse").
+restaurant("Taubstummengasse").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Ottakring").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Simonygasse").
+restaurant("Huglgasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Jagdschloßgasse").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Schleinbach Bahnhof").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Am Heumarkt").
+restaurant("Anschützgasse").

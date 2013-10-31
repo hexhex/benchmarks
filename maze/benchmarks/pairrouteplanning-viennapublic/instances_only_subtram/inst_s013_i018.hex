@@ -1,21 +1,58 @@
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Gellertplatz").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Fultonstraße").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Unteres Belvedere").
+sequence(1,0, "Svetelskystraße").
+person(2).
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Beingasse").
+initlocation(2,"Handelskai").
+initlocation(2,"Hofwiesengasse").
+sequence(2,0, "Taubstummengasse").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Hohe Warte").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Gaußplatz").
+possiblemeetinglocations("Himmelmutterweg").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Bernhardtstalgasse").
+restaurant("Strebersdorf").
+restaurant("Stiftgasse").
+restaurant("Spittelau").
+restaurant("Nußdorfer Straße").
+restaurant("Atzgersdorf").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Mistelbach Bahnhof").
+restaurant("Seegasse").
+restaurant("Grillgasse").
+restaurant("Sickenberggasse").
+restaurant("Kleistgasse").

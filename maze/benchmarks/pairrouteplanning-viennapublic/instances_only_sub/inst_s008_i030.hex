@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Penzing").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Mannswörth Bahnhof").
+sequence(1,0, "Paasdorf Bahnhof").
+person(2).
+initlocation(2,"Stadlau").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+sequence(2,0, "Stadlau").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+restaurant("Kettenbrückengasse".
+restaurant("Felixdorf Bahnhof".
+restaurant("Sollenau Bahnhof".
+restaurant("Wilfleinsdorf Bahnhof".
+restaurant("Ottakring".
+restaurant("Stephansplatz".
+restaurant("Viehofen Bahnhof".
+restaurant("Unter Sankt Veit").

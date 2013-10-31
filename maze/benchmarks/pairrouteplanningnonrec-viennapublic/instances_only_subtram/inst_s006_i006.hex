@@ -1,13 +1,28 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Hernalser Gürtel").
+initlocation(1,"Hubertusdamm").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Frödenplatz").
+initlocation(1,"Strebersdorf").
+sequence(1,0, "Knöllgasse/Davidgasse").
+person(2).
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Mayssengasse").
+initlocation(2,"Anton-Krieger-Gasse").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Guneschgasse").
+sequence(2,0, "Rekawinkel Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Heiligenstadt").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Sahulkastraße").
+restaurant("Schleiergasse").

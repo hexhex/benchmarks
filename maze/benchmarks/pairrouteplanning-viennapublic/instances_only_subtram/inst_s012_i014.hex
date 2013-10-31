@@ -1,21 +1,52 @@
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Salztorbrücke").
+initlocation(1,"Augasse").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Hernalser Gürtel").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Marxergasse").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Wienerfeldgasse").
+initlocation(1,"Alser Straße").
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Prater, Hauptallee").
+sequence(1,0, "Salztorbrücke").
+person(2).
+initlocation(2,"Lederergasse").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Alfred-Adler-Straße").
+initlocation(2,"Canisiusgasse").
+initlocation(2,"Schwarzenbergplatz").
+initlocation(2,"Fasangasse").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Gellertplatz").
+initlocation(2,"Skodagasse").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+sequence(2,0, "Lederergasse").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Oberzellergasse").
+restaurant("Michelhausen Bahnhof").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Grinzing").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Redtenbachergasse").
+restaurant("Karlsplatz").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Mariahilfer Gürtel").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Molitorgasse").
+restaurant("Gerhardusgasse").

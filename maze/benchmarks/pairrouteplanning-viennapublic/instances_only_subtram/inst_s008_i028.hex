@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Hernals").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Vinzenzgasse").
+initlocation(1,"Carminweg").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Dommayergasse").
+sequence(1,0, "Hernals").
+person(2).
+initlocation(2,"Shuttleworthstraße").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Oberfeldgasse/Spargelfeldstr").
+sequence(2,0, "Shuttleworthstraße").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Shuttleworthstraße").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Arminenstraße").
+restaurant("Absberggasse").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Althanstraße").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Gruschaplatz").
+restaurant("Stadion").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Schloss Belvedere").

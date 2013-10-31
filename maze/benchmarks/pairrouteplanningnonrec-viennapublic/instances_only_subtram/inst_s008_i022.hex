@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Marienbrücke").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Löwengasse").
+initlocation(1,"Obere Donaustraße").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Landesgerichtsstraße").
+sequence(1,0, "Neubau-Kreuzstetten Bahnhof").
+person(2).
+initlocation(2,"Carminweg").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Frauengasse").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+sequence(2,0, "Carminweg").
+possiblemeetinglocations("Huglgasse").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+restaurant("Gunoldstraße").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Stefan-Fadinger-Platz").
+restaurant("Am Heidjöchl").
+restaurant("Dürrwien Bahnhof").
+restaurant("Dommayergasse").
+restaurant("Meidling Hauptstraße").

@@ -1,11 +1,24 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Yppengasse").
+initlocation(1,"Thaliastraße").
+sequence(1,0, "Ulrichskirchen Bahnhof").
+person(2).
+initlocation(2,"Quellenplatz").
+initlocation(2,"Neuwaldegg").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Unter St Veit, Hummelgasse").
+initlocation(2,"Silberwald Bahnhof").
+sequence(2,0, "Quellenplatz").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Quellenplatz").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+restaurant("Gumpendorfer Straße").
+restaurant("Gasometer").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Wr Neustadt Nord").
+restaurant("Kettenbrückengasse").

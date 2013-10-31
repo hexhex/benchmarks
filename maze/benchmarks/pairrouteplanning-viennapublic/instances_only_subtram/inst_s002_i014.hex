@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Weihburggasse").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+sequence(1,0, "Weihburggasse").
+person(2).
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Burgring").
+sequence(2,0, "Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+restaurant("Alaudagasse").
+restaurant("Sahulkastraße").

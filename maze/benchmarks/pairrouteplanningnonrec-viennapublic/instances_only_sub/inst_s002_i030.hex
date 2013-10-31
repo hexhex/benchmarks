@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Hütteldorf").
+initlocation(1,"Stadlau").
+sequence(1,0, "Hütteldorf").
+person(2).
+initlocation(2,"Penzing").
+initlocation(2,"Jedlersdorf").
+sequence(2,0, "Penzing").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+restaurant("Handelskai".
+restaurant("Kaisermühlen-VIC").

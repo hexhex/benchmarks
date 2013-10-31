@@ -1,6 +1,21 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Ottakring").
+initlocation(1,"Gramatneusiedl Bahnhof").
+sequence(1,0, "Braunschweiggasse").
+person(2).
+initlocation(2,"Aspernstraße").
+initlocation(2,"Krieau").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Penzing").
+sequence(2,0, "Aspernstraße").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Taborstraße").
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Volkstheater".
+restaurant("Krieau").

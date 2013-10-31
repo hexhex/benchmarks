@@ -1,17 +1,36 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-sequence(0, "Zippererstraße").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Albertgasse").
+initlocation(1,"Prater, Hauptallee").
+initlocation(1,"Simmering").
+initlocation(1,"Hetzgasse").
+initlocation(1,"Zentralfriedhof 2Tor").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Kaiserstraße/Westbahnstraße").
+sequence(1,0, "Albertgasse").
+person(2).
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Dornbacher Straße").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Sickenberggasse").
+sequence(2,0, "Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+restaurant("Bisamberg Bahnhof").
+restaurant("Breitensee").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Dornbacher Straße").
+restaurant("Volkstheater").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Hörersdorf Bahnhof").

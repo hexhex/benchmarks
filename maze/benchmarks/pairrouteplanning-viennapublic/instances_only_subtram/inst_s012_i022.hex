@@ -1,21 +1,52 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Rampengasse").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Penzing").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Wallrißstraße").
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Halteraugasse").
+initlocation(1,"Hopfengasse").
+initlocation(1,"Laurenzgasse").
+initlocation(1,"Stockerau Bahnhof").
+sequence(1,0, "Rampengasse").
+person(2).
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Hernalser Gürtel").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Rankgasse").
+initlocation(2,"Bösendorferstraße").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Wienerbergbrücke").
+initlocation(2,"Nußdorf").
+initlocation(2,"Beingasse").
+initlocation(2,"Blumengasse").
+initlocation(2,"Radetzkyplatz").
+sequence(2,0, "Langobardenstraße").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Erndtgasse").
+restaurant("Rebhanngasse").
+restaurant("Otto-Probst-Straße").
+restaurant("Antonigasse").
+restaurant("Michelbeuern-AKH").
+restaurant("Wolf in der Au").
+restaurant("Rustengasse").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Schwarzspanierstraße").
+restaurant("Ottakring").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Siemensstraße").
+restaurant("Kranzgasse").

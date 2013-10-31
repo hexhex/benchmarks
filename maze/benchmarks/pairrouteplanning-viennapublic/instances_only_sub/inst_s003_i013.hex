@@ -1,5 +1,16 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+sequence(1,0, "Langenlebarn Bahnhof").
+person(2).
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Hardeggasse").
+sequence(2,0, "Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Hietzing").
+restaurant("Museumsquartier".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Rochusgasse").

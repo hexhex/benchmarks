@@ -1,19 +1,40 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Nußdorf").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Alterlaa").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Oberdöbling").
+sequence(1,0, "Petronell-Carnuntum Bahnhof").
+person(2).
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Stadlau").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Neue Donau").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Erdberg").
+initlocation(2,"Himberg Bahnhof").
+sequence(2,0, "Schweglerstraße").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+restaurant("Theresienfeld Bahnhof".
+restaurant("Schottenring".
+restaurant("Staatz Bahnhof".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Sollenau Bahnhof".
+restaurant("Gramatneusiedl Bahnhof".
+restaurant("Preyergasse/Speising".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Tscherttegasse").

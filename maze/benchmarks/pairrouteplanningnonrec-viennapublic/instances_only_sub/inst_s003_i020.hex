@@ -1,5 +1,16 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Brünner Straße").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Stadlau").
+sequence(1,0, "Brünner Straße").
+person(2).
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+sequence(2,0, "Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Schottentor").
+restaurant("Zeiselmauer-Königstetten Bf".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Laa an der Thaya Bahnhof").

@@ -1,13 +1,28 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Karlsplatz").
+initlocation(1,"Enkplatz").
+initlocation(1,"Liesing").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Ottakring").
+sequence(1,0, "Karlsplatz").
+person(2).
+initlocation(2,"Schottenring").
+initlocation(2,"Neue Donau").
+initlocation(2,"Stadion").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+sequence(2,0, "Schottenring").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Quartier Belvedere").
+restaurant("Schottentor".
+restaurant("Westbahnhof".
+restaurant("Perfektastraße".
+restaurant("Hardeggasse".
+restaurant("Herzogenburg Stadt".
+restaurant("Seestadt").

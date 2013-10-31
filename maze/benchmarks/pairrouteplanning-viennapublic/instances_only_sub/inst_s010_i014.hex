@@ -1,21 +1,44 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-sequence(0, "Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Alser Straße").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+sequence(1,0, "Preyergasse/Speising").
+person(2).
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Schottentor").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+sequence(2,0, "Oberradlberg Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+restaurant("Am Schöpfwerk".
+restaurant("Weidlingau Bahnhof".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Tulln Stadt Bahnhof".
+restaurant("Hainburg/Donau Kulturfabrik Bf".
+restaurant("Meidling Hauptstraße".
+restaurant("Enkplatz".
+restaurant("Gänserndorf Bahnhof".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Atzenbrugg Bahnhof").

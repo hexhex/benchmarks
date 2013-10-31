@@ -1,21 +1,50 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Lobau").
+sequence(1,0, "Längenfeldgasse").
+person(2).
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Stadion").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Hernals").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Paasdorf Bahnhof").
+sequence(2,0, "Hofstatt Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+restaurant("Sarasdorf Bahnhof".
+restaurant("Neue Donau".
+restaurant("Hütteldorfer Straße".
+restaurant("Rennbahnweg".
+restaurant("Meidling Hauptstraße".
+restaurant("Kagran".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Lobau".
+restaurant("Zentralfriedhof").

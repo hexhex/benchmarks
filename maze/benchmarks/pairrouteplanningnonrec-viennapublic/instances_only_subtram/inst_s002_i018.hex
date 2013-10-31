@@ -1,4 +1,12 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Linzer Straße/Johnstraße").
+sequence(1,0, "Barawitzkagasse").
+person(2).
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Johann-Nepomuk-Berger-Platz").
+sequence(2,0, "Verbindungsbahn").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+restaurant("Alser Straße").
+restaurant("Tesarekplatz").

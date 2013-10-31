@@ -1,5 +1,16 @@
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Spittelau").
+initlocation(1,"Marx-Meidlinger-Straße").
+sequence(1,0, "Anton-Krieger-Gasse").
+person(2).
+initlocation(2,"Ottakringer Str/Erdbrustgasse").
+initlocation(2,"Burgring").
+initlocation(2,"Achau Bahnhof").
+sequence(2,0, "Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Hofwiesengasse").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Waidhausenstraße").
+restaurant("Neubaugasse").

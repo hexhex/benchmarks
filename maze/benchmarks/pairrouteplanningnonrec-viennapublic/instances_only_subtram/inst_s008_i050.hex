@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Radetzkyplatz").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Ulrichskirchen Bahnhof").
+sequence(1,0, "Obereggendorf Bahnhof").
+person(2).
+initlocation(2,"Hopfengasse").
+initlocation(2,"Erdberg").
+initlocation(2,"Ottakring").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Albertgasse").
+initlocation(2,"Urban-Loritz-Platz").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Wr Neustadt Nord").
+sequence(2,0, "Hopfengasse").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Eichenstraße").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Carminweg").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Thaliastraße/Brunnengasse").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Erdberg").
+restaurant("Plößlgasse").
+restaurant("Stubentor").
+restaurant("Vinzenzgasse").
+restaurant("Sickenberggasse").

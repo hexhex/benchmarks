@@ -1,11 +1,25 @@
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Dornbacher Straße").
+sequence(1,0, "Neilreichgasse").
+person(2).
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+sequence(2,0, "Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Gutraterplatz").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Höchstädtplatz").
+restaurant("Erndtgasse").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Erdbergstr/Schlachthausgasse").

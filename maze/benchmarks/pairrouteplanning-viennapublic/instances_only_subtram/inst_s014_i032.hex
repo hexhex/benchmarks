@@ -1,21 +1,60 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Liebknechtgasse").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Hietzing").
+initlocation(1,"Marienbrücke").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Schottentor").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Heiligenstadt, 12-Februar-Pl").
+initlocation(1,"Sechskrügelgasse").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Kapellerfeld Bahnhof").
+sequence(1,0, "Oberzellergasse").
+person(2).
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Am Tabor").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Glatzgasse").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Gersthof").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"Hetzendorf").
+sequence(2,0, "Döblinger Bad").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Floridsdorfer Brücke").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Neubaugasse").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Anton-Schall-Gasse").
+restaurant("Guneschgasse").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Augasse").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Staatz Bahnhof").
+restaurant("Unter Sankt Veit").
+restaurant("Aumannplatz").
+restaurant("Höchstädtplatz").
+restaurant("Grillgasse").
+restaurant("Messe-Prater").

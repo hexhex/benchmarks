@@ -1,21 +1,64 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Rustengasse").
+initlocation(1,"Siebensterngasse").
+initlocation(1,"Obere Donaustraße").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Penzing").
+initlocation(1,"Rankgasse").
+initlocation(1,"Stammersdorf").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Yppengasse").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Frödenplatz").
+initlocation(1,"Hopfengasse").
+initlocation(1,"Donauinsel").
+sequence(1,0, "Anton-Schall-Gasse").
+person(2).
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Erdberg").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Marxergasse").
+sequence(2,0, "Am Schöpfwerk").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+restaurant("Frödenplatz").
+restaurant("Margaretengürtel").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Carabelligasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Hietzing").
+restaurant("Guneschgasse").
+restaurant("Arminenstraße").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Yppengasse").
+restaurant("Guntherstraße").
+restaurant("Rankgasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Maurer Hauptplatz").
+restaurant("Stollgasse").

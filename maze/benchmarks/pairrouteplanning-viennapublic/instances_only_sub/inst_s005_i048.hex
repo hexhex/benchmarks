@@ -1,11 +1,24 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Perfektastraße").
+sequence(1,0, "Hennersdorf Bahnhof").
+person(2).
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Taubstummengasse").
+sequence(2,0, "Bad Vöslau Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Oberdöbling").
+restaurant("Enzersdorf bei Staatz Bahnhof".
+restaurant("Aderklaaer Straße".
+restaurant("Jedlersdorf".
+restaurant("Maria Ellend Bahnhof".
+restaurant("Süßenbrunn").

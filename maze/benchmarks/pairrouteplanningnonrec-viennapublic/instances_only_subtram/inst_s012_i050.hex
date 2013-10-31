@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Stollgasse").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Längenfeldgasse/Flurschützstr").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Rennweg").
+initlocation(1,"Hietzing").
+initlocation(1,"Praterkai").
+initlocation(1,"Gruschaplatz").
+sequence(1,0, "Wr Neustadt Hauptbahnhof").
+person(2).
+initlocation(2,"Skodagasse").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Rodaun").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Taborstraße").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Alaudagasse").
+initlocation(2,"Shuttleworthstraße").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Enkplatz").
+sequence(2,0, "Skodagasse").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Achau Bahnhof").
+restaurant("Molitorgasse").
+restaurant("Fichtnergasse").
+restaurant("Sechskrügelgasse").
+restaurant("Gerhardusgasse").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Weißenböckstraße").
+restaurant("Unter Sankt Veit").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Fultonstraße").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Kaiser-Franz-Josef-Straße").

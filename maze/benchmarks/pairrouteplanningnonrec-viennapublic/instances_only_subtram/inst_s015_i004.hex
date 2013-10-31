@@ -1,21 +1,65 @@
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Am Tabor").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Rampengasse").
+initlocation(1,"Stadlau").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Schottentor").
+initlocation(1,"Gersthof").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Haslau an der Donau Bahnhof").
+sequence(1,0, "Am Tabor").
+person(2).
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Zentralfriedhof 4Tor").
+initlocation(2,"Koppstraße/Panikengasse").
+initlocation(2,"Wallensteinplatz").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Sarasdorf Bahnhof").
+sequence(2,0, "Krottenbachstraße").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Siebensterngasse").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Michelbeuern-AKH").
+restaurant("Aderklaaer Straße").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Laurenzgasse").
+restaurant("Hernalser Gürtel").
+restaurant("Weinhauser Gasse").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Beingasse").
 restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+restaurant("Burgring").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Marienbrücke").
+restaurant("Aspernstraße").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").

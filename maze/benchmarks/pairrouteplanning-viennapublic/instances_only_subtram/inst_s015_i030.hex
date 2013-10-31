@@ -1,21 +1,64 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Augasse").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Rebhanngasse").
+sequence(1,0, "Hadersdorf Bahnhof").
+person(2).
+initlocation(2,"Litfaßstraße").
+initlocation(2,"Rathaus").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Koppstraße/Panikengasse").
+initlocation(2,"Schottenfeldgasse").
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Leyserstraße").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Stadtpark").
+sequence(2,0, "Litfaßstraße").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Molitorgasse").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Litfaßstraße").
+restaurant("Albertgasse").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Rosensteingasse").
+restaurant("Tscherttegasse").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Stadtpark").
+restaurant("Gunoldstraße").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Sahulkastraße").
+restaurant("Mistelbach Bahnhof").

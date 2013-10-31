@@ -1,11 +1,24 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Höbersdorf Bahnhof").
+sequence(1,0, "Tulln Bahnhof").
+person(2).
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+sequence(2,0, "Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+restaurant("Neubau-Kreuzstetten Bahnhof".
+restaurant("Michelhausen Bahnhof".
+restaurant("Weidlingau Bahnhof".
+restaurant("Spillern Bahnhof".
+restaurant("Petronell-Carnuntum Bahnhof").

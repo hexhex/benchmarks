@@ -1,6 +1,20 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Carminweg").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Untertullnerbach Bahnhof").
+sequence(1,0, "Carminweg").
+person(2).
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Teichgasse").
+initlocation(2,"Rathausplatz/Burgtheater").
+sequence(2,0, "Wr Neustadt Nord").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Nordwestbahnstraße").
+restaurant("Wildgansplatz").
+restaurant("Frödenplatz").
+restaurant("Sechskrügelgasse").
+restaurant("Quellenplatz").

@@ -1,6 +1,20 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Alte Donau").
+initlocation(1,"Unterradlberg Bahnhof").
+sequence(1,0, "Krottenbachstraße").
+person(2).
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Traismauer Bahnhof").
+sequence(2,0, "Erlaaer Straße").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+restaurant("Margaretengürtel".
+restaurant("Schönbrunn".
+restaurant("Korneuburg Bahnhof".
+restaurant("Strasshof Bahnhof").

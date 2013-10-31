@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Erdberg").
+initlocation(1,"Braunhubergasse").
+sequence(1,0, "Erdberg").
+person(2).
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Gersthof").
+sequence(2,0, "Sieveringer Straße").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+restaurant("Neilreichgasse").
+restaurant("Schuhmeierplatz").

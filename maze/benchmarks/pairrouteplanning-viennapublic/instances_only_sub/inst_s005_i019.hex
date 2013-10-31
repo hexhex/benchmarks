@@ -1,11 +1,24 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-sequence(0, "Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+sequence(1,0, "Maria Anzbach Bahnhof").
+person(2).
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Herrengasse").
+initlocation(2,"Himberg Bahnhof").
+sequence(2,0, "Pressbaum Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+restaurant("St Pölten Traisenpark P+R Nord".
+restaurant("Praterstern".
+restaurant("Meidling Hauptstraße".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Unter Sankt Veit").

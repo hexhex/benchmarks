@@ -1,21 +1,44 @@
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Spittelau").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+sequence(1,0, "Spittelau").
+person(2).
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Praterkai").
+sequence(2,0, "Baden Bahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Taborstraße").
+restaurant("Guntramsdorf-Thallern".
+restaurant("Niederhofstraße".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Herzogenburg Stadt".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Quartier Belvedere".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Atzgersdorf".
+restaurant("Friedensbrücke".
 restaurant("Braunschweiggasse").

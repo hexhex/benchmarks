@@ -1,21 +1,52 @@
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Krieau").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+sequence(1,0, "Währinger Straße-Volksoper").
+person(2).
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Seestadt").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Alser Straße").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Spillern Bahnhof").
+sequence(2,0, "Frättingsdorf Bahnhof").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Geiselbergstraße").
+restaurant("Stadtpark".
+restaurant("Achau Bahnhof".
+restaurant("Aderklaaer Straße".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Keplerplatz".
+restaurant("Handelskai".
+restaurant("Erdberg".
+restaurant("Silberwald Bahnhof".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Schönbrunn".
+restaurant("Dresdner Straße".
+restaurant("Tulln Bahnhof").

@@ -1,11 +1,25 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Keplerplatz").
+initlocation(1,"Enkplatz").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Siebenhirten").
+sequence(1,0, "Keplerplatz").
+person(2).
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Donaumarina").
+sequence(2,0, "Münchendorf Bahnhof").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Mistelbach Stadt").
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Lanzendorf-Rannersdorf Bahnhof".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Donaumarina".
+restaurant("Michelhausen Bahnhof").

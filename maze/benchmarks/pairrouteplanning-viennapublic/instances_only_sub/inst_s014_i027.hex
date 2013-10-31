@@ -1,21 +1,60 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Schlachthausgasse").
+sequence(1,0, "Hollabrunn Bahnhof").
+person(2).
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Traisengasse").
+sequence(2,0, "Breitenwaida Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+restaurant("Längenfeldgasse".
+restaurant("Reumannplatz".
+restaurant("Dürrwien Bahnhof".
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Münchendorf Bahnhof".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Helmahof Bahnhof".
+restaurant("Hainburg/Donau Personenbhf".
+restaurant("Hernals".
+restaurant("Pilgramgasse".
+restaurant("Stadion".
+restaurant("Bisamberg Bahnhof".
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Josefstädter Straße").

@@ -1,15 +1,32 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Plößlgasse").
+sequence(1,0, "Franz-Asenbauer-Gasse").
+person(2).
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Blumengasse").
+sequence(2,0, "Theresienfeld Bahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Resselgasse").
+restaurant("Keplerplatz").
+restaurant("Radetzkyplatz").
+restaurant("Stephansplatz").
+restaurant("Blindengasse").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Stadtpark").
+restaurant("Hetzgasse").

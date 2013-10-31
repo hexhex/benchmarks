@@ -1,21 +1,56 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Alterlaa").
+initlocation(1,"Herrengasse").
+sequence(1,0, "Hautzendorf Bahnhof").
+person(2).
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Spittelau").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+sequence(2,0, "Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Simmering").
+restaurant("Schönbrunn".
+restaurant("Neubaugasse".
+restaurant("Zentralfriedhof".
+restaurant("Seestadt".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Höbersdorf Bahnhof".
+restaurant("Rekawinkel Bahnhof".
+restaurant("Stadlau".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Heiligenstadt".
+restaurant("Erlaaer Straße".
+restaurant("Rennweg").

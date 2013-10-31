@@ -1,4 +1,12 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Johnstraße").
+initlocation(1,"Laa an der Thaya Bahnhof").
+sequence(1,0, "Johnstraße").
+person(2).
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Kledering Bahnhof").
+sequence(2,0, "Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Silberwald Bahnhof").

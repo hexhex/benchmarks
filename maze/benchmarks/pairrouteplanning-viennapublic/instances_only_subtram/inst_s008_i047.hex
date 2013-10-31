@@ -1,17 +1,36 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-sequence(0, "Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Stadiongasse/Parlament").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Bahnhofstraße").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+sequence(1,0, "Hollabrunn Bahnhof").
+person(2).
+initlocation(2,"Halteraugasse").
+initlocation(2,"Taborstraße/Heinestraße").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Brigittaplatz").
+initlocation(2,"Yppengasse").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Strebersdorf").
+sequence(2,0, "Halteraugasse").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+restaurant("Am Tabor").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Hardeggasse").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Lederergasse").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Mayerhofgasse").

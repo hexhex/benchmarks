@@ -1,21 +1,64 @@
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Valiergasse").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Kleistgasse").
+initlocation(1,"Kraygasse").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Baumgarten").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Sillerplatz").
+initlocation(1,"Johnstraße").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Tesarekplatz").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+sequence(1,0, "Thaliastraße/Feßtgasse").
+person(2).
+initlocation(2,"Empergergasse").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Martinstraße").
+initlocation(2,"Wienerbergbrücke").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Diesterweggasse").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Rustengasse").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Nußdorf, Beethovengang").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Siemensstraße").
+sequence(2,0, "Empergergasse").
+possiblemeetinglocations("Stammersdorf").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+restaurant("Niederhofstraße").
+restaurant("Sickenberggasse").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Schwechat Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Paulanergasse").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Perntergasse").
+restaurant("Laaer-Berg-Straße").
+restaurant("Plößlgasse").
+restaurant("Döblinger Bad").
+restaurant("Neulerchenfelder Str/Haberlg").
+restaurant("Kölblgasse").
+restaurant("Geiselbergstraße").

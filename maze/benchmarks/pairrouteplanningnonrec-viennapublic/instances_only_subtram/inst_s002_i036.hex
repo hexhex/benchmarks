@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Gerstnerstraße/Westbhf").
+initlocation(1,"Maurer Lange Gasse").
+sequence(1,0, "Gerstnerstraße/Westbhf").
+person(2).
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Maria Ellend Bahnhof").
+sequence(2,0, "Braunhubergasse").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Rosensteingasse").
+restaurant("Schweglerstraße").
+restaurant("Stadtpark").

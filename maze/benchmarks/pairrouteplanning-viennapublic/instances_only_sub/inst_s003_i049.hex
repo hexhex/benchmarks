@@ -1,5 +1,16 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Stephansplatz").
+initlocation(1,"Kagran").
+initlocation(1,"Platt Bahnhof").
+sequence(1,0, "Stephansplatz").
+person(2).
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Silberwald Bahnhof").
+sequence(2,0, "Vorgartenstraße").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+restaurant("Himberg Bahnhof".
+restaurant("Heiligenstadt".
+restaurant("Kagraner Platz").

@@ -1,21 +1,49 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Liesing").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+sequence(1,0, "Ulrichskirchen Bahnhof").
+person(2).
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Hardeggasse").
+sequence(2,0, "Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Vorgartenstraße").
+restaurant("Lanzendorf-Rannersdorf Bahnhof".
+restaurant("Längenfeldgasse".
+restaurant("Traisengasse".
+restaurant("Neulengbach Bahnhof".
+restaurant("Enkplatz".
+restaurant("Spittelau".
+restaurant("Donaustadtbrücke".
+restaurant("Museumsquartier".
+restaurant("Siebenhirten".
+restaurant("Kottingbrunn Bahnhof".
+restaurant("Helmahof Bahnhof").

@@ -1,13 +1,28 @@
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Donaumarina").
+initlocation(1,"Neue Donau").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+sequence(1,0, "Obersdorf Bahnhof").
+person(2).
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Haslau an der Donau Bahnhof").
+sequence(2,0, "Götzendorf Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Brünner Straße").
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Brünner Straße".
+restaurant("Messe-Prater".
+restaurant("Kritzendorf Bahnhof".
+restaurant("Achau Bahnhof".
+restaurant("Heiligenstadt").

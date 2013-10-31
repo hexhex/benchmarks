@@ -1,21 +1,60 @@
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Leyserstraße").
+initlocation(1,"Stollgasse").
+initlocation(1,"Thaliastraße/Brunnengasse").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Autokaderstraße").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Praterkai").
+initlocation(1,"Nordbahnstraße").
+initlocation(1,"Rankgasse").
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Carminweg").
+initlocation(1,"Stephansplatz").
+sequence(1,0, "Anton-Krieger-Gasse").
+person(2).
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Leopoldau").
+initlocation(2,"Rosensteingasse").
+initlocation(2,"Althanstraße").
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Sommarugagasse").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Carabelligasse").
+sequence(2,0, "Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Wittelsbachstraße").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Guneschgasse").
+restaurant("Schloss Schönbrunn").
+restaurant("Zentralfriedhof").
+restaurant("Donaustadtbrücke").
+restaurant("Brünner Straße").
+restaurant("Liechtenwerder Platz").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Litfaßstraße").
+restaurant("Längenfeldgasse").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Blechturmgasse").
+restaurant("Floridsdorfer Markt").
+restaurant("Sierndorf Bahnhof").
 restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
+restaurant("Redtenbachergasse").

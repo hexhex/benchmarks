@@ -1,4 +1,12 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Schottentor").
+initlocation(1,"Siebenhirten").
+sequence(1,0, "Schottentor").
+person(2).
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Himberg Bahnhof").
+sequence(2,0, "Kaiserebersdorf").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Am Schöpfwerk").
+restaurant("Zellerndorf Bahnhof".
+restaurant("Wolf in der Au").

@@ -1,7 +1,24 @@
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Hütteldorf").
+sequence(1,0, "Längenfeldgasse").
+person(2).
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Rennbahnweg").
+sequence(2,0, "Währinger Straße-Volksoper").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Gasometer").
+restaurant("Hollabrunn Bahnhof".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Oberdöbling".
+restaurant("Stubentor").

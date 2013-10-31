@@ -1,4 +1,12 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Jedlersdorf").
+sequence(1,0, "Klosterneuburg-Kierling Bf").
+person(2).
+initlocation(2,"Frödenplatz").
+initlocation(2,"Fasangasse").
+sequence(2,0, "Frödenplatz").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Braunschweiggasse").
+restaurant("Haidestraße").
+restaurant("Forstnergasse").

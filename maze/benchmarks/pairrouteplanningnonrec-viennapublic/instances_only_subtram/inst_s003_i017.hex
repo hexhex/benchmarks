@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Johann-Strauß-Gasse").
+sequence(1,0, "Langenlebarn Bahnhof").
+person(2).
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Spittelau").
+sequence(2,0, "Matzleinsdorfer Platz").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Wolf in der Au").
+restaurant("Seegasse").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Waidhausenstraße").

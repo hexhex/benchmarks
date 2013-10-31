@@ -1,21 +1,52 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Klosterneub Str/Wallensteinstr").
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Dommayergasse").
+initlocation(1,"Frauengasse").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+sequence(1,0, "Liechtenwerder Platz").
+person(2).
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Kranzgasse").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Schwarzenbergplatz").
+initlocation(2,"Antonigasse").
+initlocation(2,"Stadion").
+initlocation(2,"Kraygasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Rodaun").
+sequence(2,0, "Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Fickeysstraße").
+restaurant("Urban-Loritz-Platz").
+restaurant("Kleistgasse").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Alaudagasse").
+restaurant("Hohe Warte").
+restaurant("Messe-Prater").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Palffygasse").
+restaurant("Hausfeldstraße").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Versorgungsheimplatz").

@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Haidestraße").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+sequence(1,0, "Perchtoldsdorf Bahnhof").
+person(2).
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Baumgarten").
+initlocation(2,"Knöllgasse/Troststraße").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+sequence(2,0, "Erzherzog-Karl-Straße").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+restaurant("Thaliastraße/Haberlgasse").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Praterkai").
+restaurant("Tulln Bahnhof").
+restaurant("Rosensteingasse").

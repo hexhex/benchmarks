@@ -1,5 +1,16 @@
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Krieau").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+sequence(1,0, "Krieau").
+person(2).
+initlocation(2,"Erdberg").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Neue Donau").
+sequence(2,0, "Erdberg").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+restaurant("Atzenbrugg Bahnhof".
+restaurant("Dresdner Straße".
+restaurant("Sollenau Bahnhof").

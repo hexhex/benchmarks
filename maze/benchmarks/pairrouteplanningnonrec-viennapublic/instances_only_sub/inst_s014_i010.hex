@@ -1,21 +1,62 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Rathaus").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Nestroyplatz").
+sequence(1,0, "Baden Bahnhof").
+person(2).
+initlocation(2,"Alser Straße").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Seyring Bahnhof").
+sequence(2,0, "Alser Straße").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Rochusgasse".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Leopoldau".
+restaurant("Pressbaum Bahnhof".
+restaurant("Donauspital".
+restaurant("Götzendorf Bahnhof".
+restaurant("Keplerplatz".
+restaurant("Wilfleinsdorf Bahnhof".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Trasdorf Bahnhof".
+restaurant("Quartier Belvedere".
+restaurant("Schönbrunn".
+restaurant("Jedlersdorf".
+restaurant("Wr Neustadt Civitas Nova").

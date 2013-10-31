@@ -1,17 +1,36 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-sequence(0, "Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Gutraterplatz").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Julius-Raab-Platz").
+sequence(1,0, "Bernhardtstalgasse").
+person(2).
+initlocation(2,"Paulanergasse").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Stiftgasse").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Anton-Schall-Gasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Mistelbach Stadt").
+sequence(2,0, "Paulanergasse").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Forstnergasse").
+restaurant("Dresdner Straße").
+restaurant("St Andrä-Wördern Bahnhof").
 restaurant("Zippererstraße").
+restaurant("Rennbahnweg").
+restaurant("Columbusplatz").
+restaurant("Museumsquartier").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Forstnergasse").

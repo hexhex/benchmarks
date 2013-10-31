@@ -1,19 +1,40 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Stubentor").
+sequence(1,0, "Kaiserebersdorf").
+person(2).
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Stadtpark").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Unteroberndorf Bahnhof").
+sequence(2,0, "Mistelbach Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Gramatneusiedl Bahnhof".
+restaurant("Neulengbach Bahnhof".
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Kottingbrunn Bahnhof".
+restaurant("Karlsplatz".
+restaurant("Ottakring".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Sankt Marx".
+restaurant("Wolf in der Au").

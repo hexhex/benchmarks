@@ -1,21 +1,60 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Gasometer").
+initlocation(1,"Nußdorf").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+sequence(1,0, "Himberg Bahnhof").
+person(2).
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Stadtpark").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Nußdorf").
+initlocation(2,"Haslau an der Donau Bahnhof").
+sequence(2,0, "Guntramsdorf-Thallern").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+restaurant("Gersthof".
+restaurant("Hietzing".
+restaurant("Felixdorf Bahnhof".
+restaurant("Gaisruck Bahnhof".
+restaurant("Niederhofstraße".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Staatz Bahnhof".
+restaurant("Hetzendorf".
+restaurant("Platt Bahnhof".
+restaurant("Brünner Straße".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Westbahnhof".
 restaurant("Reumannplatz").
-restaurant("Zippererstraße").

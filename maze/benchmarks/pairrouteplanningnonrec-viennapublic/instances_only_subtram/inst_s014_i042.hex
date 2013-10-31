@@ -1,21 +1,60 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Schwarzspanierstraße").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Bauernfeldplatz").
+initlocation(1,"Rankgasse").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Sillerplatz").
+initlocation(1,"Simmering").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Geiselbergstraße").
+sequence(1,0, "Schwarzspanierstraße").
+person(2).
+initlocation(2,"Am Tabor").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Valiergasse").
+initlocation(2,"Gersthof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Alsegger Straße").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Silbergasse").
+initlocation(2,"Yppengasse").
+initlocation(2,"Mayssengasse").
+sequence(2,0, "Am Tabor").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Am Tabor").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Schwarzspanierstraße").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Keplerplatz").
+restaurant("Diesterweggasse").
 restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
+restaurant("Bisamberg Bahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Süßenbrunn").
+restaurant("Donaustadtbrücke").
+restaurant("Donauinsel").
+restaurant("Mödling Bahnhof").
+restaurant("Rußbergstraße").
+restaurant("Schlachthausgasse").
+restaurant("Kaisermühlen-VIC").
+restaurant("Petronell-Carnuntum Bahnhof").

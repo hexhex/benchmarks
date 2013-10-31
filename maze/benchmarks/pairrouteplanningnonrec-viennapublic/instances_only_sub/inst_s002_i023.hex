@@ -1,4 +1,12 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Tulln Bahnhof").
+sequence(1,0, "Burggasse-Stadthalle").
+person(2).
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Praterstern").
+sequence(2,0, "Zellerndorf Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+restaurant("Kaiserebersdorf".
+restaurant("Höbersdorf Bahnhof").

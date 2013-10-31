@@ -1,21 +1,48 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Simonygasse").
+initlocation(1,"Paradisgasse").
+initlocation(1,"Teichgasse").
+initlocation(1,"Gasometer").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+initlocation(1,"Josef-Baumann-Gasse").
+initlocation(1,"Gellertplatz").
+initlocation(1,"Grillgasse").
+initlocation(1,"Fichtnergasse").
+sequence(1,0, "Kardinal-Nagl-Platz").
+person(2).
+initlocation(2,"Thaliastraße/Maroltingergasse").
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Paradisgasse").
+initlocation(2,"Unteres Belvedere").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Kagran").
+initlocation(2,"Johann-Nepomuk-Berger-Platz").
+sequence(2,0, "Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Radetzkyplatz").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Franzensbrücke").
+restaurant("Wexstraße").
+restaurant("Seestadt").
+restaurant("Gaußplatz").
+restaurant("Pressbaum Bahnhof").
+restaurant("Am Tabor").
+restaurant("Dornbacher Straße").
+restaurant("Neulerchenfelder Str/Brunneng").
+restaurant("Otto-Probst-Platz").
+restaurant("Sieveringer Straße").
+restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Sitzenberg-Reidling Bahnhof").

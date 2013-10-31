@@ -1,21 +1,52 @@
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Volkstheater").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Hernals").
+sequence(1,0, "Am Schöpfwerk").
+person(2).
+initlocation(2,"Alterlaa").
+initlocation(2,"Penzing").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Breitensee").
+sequence(2,0, "Alterlaa").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+restaurant("Michelbeuern-AKH".
+restaurant("Obereggendorf Bahnhof".
+restaurant("Sankt Marx".
+restaurant("Hardeggasse".
+restaurant("Simmering".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Lobau".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Volkstheater".
+restaurant("Alser Straße".
+restaurant("Nestroyplatz").

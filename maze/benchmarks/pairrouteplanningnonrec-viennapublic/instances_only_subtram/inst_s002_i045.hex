@@ -1,4 +1,12 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Otto-Probst-Platz").
+sequence(1,0, "Matzleinsdorfer Platz").
+person(2).
+initlocation(2,"Neulerchenfelder Str/Haberlg").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+sequence(2,0, "Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+restaurant("Johann-Strauß-Gasse").
+restaurant("Donauzentrum").

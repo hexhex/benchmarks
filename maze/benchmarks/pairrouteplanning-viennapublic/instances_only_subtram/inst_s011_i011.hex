@@ -1,21 +1,48 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Spittelau").
+initlocation(1,"Rathaus").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Aspern, Oberdorfstraße").
+sequence(1,0, "Silberwald Bahnhof").
+person(2).
+initlocation(2,"Paulanergasse").
+initlocation(2,"Rampengasse").
+initlocation(2,"Josef-Baumann-Gasse").
+initlocation(2,"Donauzentrum").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+initlocation(2,"Shuttleworthstraße").
+initlocation(2,"Glatzgasse").
+initlocation(2,"Hietzing").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Am Heidjöchl").
+sequence(2,0, "Paulanergasse").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+restaurant("Innstraße").
+restaurant("Koppstraße/Panikengasse").
+restaurant("Großjedlersdorf").
+restaurant("Arthaberplatz").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Baumgasse").
+restaurant("Forstnergasse").
+restaurant("Siemensstraße").
+restaurant("Alaudagasse").
+restaurant("Viehmarktgasse").

@@ -1,21 +1,57 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Herrengasse").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+initlocation(1,"Marx-Meidlinger-Straße").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Neue Donau").
+initlocation(1,"Seegasse").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Weinhauser Gasse").
+sequence(1,0, "Vorgartenstraße").
+person(2).
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Siebensterngasse").
+initlocation(2,"Unteres Belvedere").
+initlocation(2,"Nußdorf").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Heinrich-Drimmel-Platz").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+sequence(2,0, "Nußdorfer Straße").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Laurenzgasse").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Schloss Belvedere").
+restaurant("Alsegger Straße").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Gersthof").
+restaurant("Am Spitz").
+restaurant("Längenfeldgasse").
+restaurant("Unter Sankt Veit").
+restaurant("Schweglerstraße").
+restaurant("Thaliastraße/Maroltingergasse").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Litfaßstraße").
+restaurant("Rosenhügelstraße").
 restaurant("Roßauer Lände").
-restaurant("Aspern Nord").

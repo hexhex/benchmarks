@@ -1,6 +1,20 @@
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Staglgasse").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(1,"Oberradlberg Bahnhof").
+sequence(1,0, "Staglgasse").
+person(2).
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Blumengasse").
+sequence(2,0, "Kaiserstraße/Burggasse").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Grinzing").
+restaurant("Kaiser-Franz-Josef-Straße").
+restaurant("An den langen Lüssen").
+restaurant("Krieau").
+restaurant("Taborstraße").

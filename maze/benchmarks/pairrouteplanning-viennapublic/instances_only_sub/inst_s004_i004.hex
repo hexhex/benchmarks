@@ -1,6 +1,20 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+sequence(1,0, "Bad Vöslau Bahnhof").
+person(2).
+initlocation(2,"Neubaugasse").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+sequence(2,0, "Neubaugasse").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+restaurant("Stubentor".
+restaurant("Brünner Straße".
+restaurant("Rochusgasse".
+restaurant("Absdorf-Hippersdorf Bahnhof").

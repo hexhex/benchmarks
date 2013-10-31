@@ -1,21 +1,44 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Satzberggasse").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Halteraugasse").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Heiligenstadt, 12-Februar-Pl").
+initlocation(1,"Siebensterngasse").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Rennweg").
+initlocation(1,"Am Heidjöchl/Hausfeldstraße").
+sequence(1,0, "Satzberggasse").
+person(2).
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Augasse").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Rankgasse").
+initlocation(2,"Grinzing").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+initlocation(2,"Spitalgasse/Währinger Straße").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Erzherzog-Karl-Straße").
+sequence(2,0, "Schloss Belvedere").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+restaurant("Gloriettegasse").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Polgarstraße").
+restaurant("Donauspital").
+restaurant("Sickenberggasse").
+restaurant("Siebenhirten").
+restaurant("Penzing").
+restaurant("Mistelbach Stadt").
+restaurant("Silberwald Bahnhof").

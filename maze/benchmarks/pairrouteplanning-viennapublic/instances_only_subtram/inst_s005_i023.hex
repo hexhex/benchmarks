@@ -1,11 +1,24 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Neue Donau").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Aspern Nord").
+sequence(1,0, "Neuwaldegg").
+person(2).
+initlocation(2,"Alaudagasse").
+initlocation(2,"Am Spitz").
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Salztorbrücke").
+sequence(2,0, "Alaudagasse").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Otto-Probst-Straße").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Gellertplatz").
+restaurant("Geiereckstraße").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Laxenburger Str/Gudrunstraße").

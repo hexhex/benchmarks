@@ -1,21 +1,57 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Leopoldau").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Simmering").
+sequence(1,0, "Jedlersdorf").
+person(2).
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Gasometer").
+initlocation(2,"Praterkai").
+initlocation(2,"Stadlau").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Breitensee").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+sequence(2,0, "Platt Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+restaurant("Gerasdorf Bahnhof".
+restaurant("Kaiserebersdorf".
+restaurant("Jägerstraße".
+restaurant("Dresdner Straße".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Höbersdorf Bahnhof".
+restaurant("Erzherzog-Karl-Straße".
+restaurant("Donaustadtbrücke".
+restaurant("Meidling Hauptstraße".
+restaurant("Zieglergasse".
+restaurant("Stadion".
+restaurant("Donauinsel".
+restaurant("Schönbrunn").

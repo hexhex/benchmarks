@@ -1,21 +1,45 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Alte Donau").
+sequence(1,0, "Jedlersdorf").
+person(2).
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Ebenfurth Bahnhof").
+sequence(2,0, "Quartier Belvedere").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Mistelbach Bahnhof").
+restaurant("Sankt Marx".
+restaurant("Krieau".
+restaurant("Keplerplatz".
+restaurant("Schottentor".
+restaurant("Unter Sankt Veit".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Unter Kritzendorf Bahnhof".
+restaurant("Krottenbachstraße".
+restaurant("Neubau-Kreuzstetten Bahnhof".
+restaurant("Flughafen Wien (VIE.
+Bahnhof").

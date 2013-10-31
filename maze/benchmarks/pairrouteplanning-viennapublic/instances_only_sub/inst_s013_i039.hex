@@ -1,21 +1,57 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Johnstraße").
+initlocation(1,"Rathaus").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Schönbrunn").
+sequence(1,0, "Geiselbergstraße").
+person(2).
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Spittelau").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Rennweg").
+initlocation(2,"Taborstraße").
+sequence(2,0, "Wr Neustadt Nord").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Zentralfriedhof").
+restaurant("Himberg Bahnhof".
+restaurant("Unteroberndorf Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Floridsdorf".
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Schottentor".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Spittelau".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Stubentor").

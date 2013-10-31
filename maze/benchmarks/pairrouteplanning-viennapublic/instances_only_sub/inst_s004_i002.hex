@@ -1,6 +1,20 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Alser Straße").
+initlocation(1,"Zentralfriedhof").
+sequence(1,0, "Mistelbach Stadt").
+person(2).
+initlocation(2,"Leopoldau").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Jedlersdorf").
+sequence(2,0, "Leopoldau").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Liesing").
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Michelhausen Bahnhof".
+restaurant("Dürrwien Bahnhof".
+restaurant("Herrengasse").

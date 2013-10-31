@@ -1,21 +1,56 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Rochusgasse").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+sequence(1,0, "Rochusgasse").
+person(2).
+initlocation(2,"Stephansplatz").
+initlocation(2,"Simmering").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Spittelau").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Alterlaa").
+initlocation(2,"Kagran").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Johnstraße").
+sequence(2,0, "Stephansplatz").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Hernals").
+restaurant("Quartier Belvedere".
+restaurant("Sarasdorf Bahnhof".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Krieau".
+restaurant("Kagran".
+restaurant("Alte Donau".
+restaurant("Praterstern".
+restaurant("Floridsdorf".
+restaurant("Bisamberg Bahnhof".
+restaurant("Margaretengürtel".
+restaurant("Maria Ellend Bahnhof".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Pfaffstätten Bahnhof").

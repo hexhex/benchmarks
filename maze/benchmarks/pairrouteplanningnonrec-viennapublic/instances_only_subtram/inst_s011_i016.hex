@@ -1,21 +1,48 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Brünnlbadgasse").
+initlocation(1,"Rampengasse").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Aderklaaer Straße").
+sequence(1,0, "Nußdorfer Str/Alserbachstraße").
+person(2).
+initlocation(2,"Stammersdorf").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Löwengasse").
+initlocation(2,"Liebknechtgasse").
+initlocation(2,"Gruschaplatz").
+initlocation(2,"Oberfeldgasse").
+initlocation(2,"Rathaus").
+initlocation(2,"Favoritenstraße/Troststraße").
+sequence(2,0, "Stammersdorf").
+possiblemeetinglocations("Landesgerichtsstraße").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Pokornygasse").
+restaurant("Stadtpark").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Anton-Schall-Gasse").
+restaurant("Sierndorf Bahnhof").
+restaurant("Canisiusgasse").
+restaurant("Shuttleworthstraße").
+restaurant("Sahulkastraße").
+restaurant("Empergergasse").
+restaurant("Staglgasse").
+restaurant("Winkeläckerstraße").
+restaurant("Kagraner Platz").

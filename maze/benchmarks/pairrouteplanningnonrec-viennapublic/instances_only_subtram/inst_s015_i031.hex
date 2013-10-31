@@ -1,21 +1,64 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Nußdorf").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Zentralfriedhof 4Tor").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Sechskrügelgasse").
+initlocation(1,"Martinstraße").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Thaliastraße/Haberlgasse").
+sequence(1,0, "Nußdorf").
+person(2).
+initlocation(2,"Schlickgasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Seestadt").
+initlocation(2,"Fasangasse").
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Tesarekplatz").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Unter St Veit, Hummelgasse").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Hernals").
+initlocation(2,"Wienerbergbrücke").
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Burgring").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(2,0, "Schlickgasse").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+restaurant("Oberdöbling").
+restaurant("Leyserstraße").
+restaurant("Johann-Strauß-Gasse").
+restaurant("Thaliastraße/Haberlgasse").
+restaurant("Kutschkergasse").
+restaurant("Strebersdorf").
+restaurant("Carabelligasse").
+restaurant("Alte Donau").
+restaurant("Floridsdorf").
+restaurant("Aßmayergasse").
+restaurant("Kaiserebersdorf").
+restaurant("Frauengasse").
+restaurant("Schönborn Bahnhof").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Breitenfurter St/Altmannsd Str").

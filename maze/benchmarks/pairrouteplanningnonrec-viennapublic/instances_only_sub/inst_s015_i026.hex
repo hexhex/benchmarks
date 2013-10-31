@@ -1,21 +1,64 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "Schwechat Bahnhof").
+person(2).
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Stadion").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Nestroyplatz").
+sequence(2,0, "Retz Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+restaurant("Retz Bahnhof".
+restaurant("Volkstheater".
+restaurant("Alterlaa".
+restaurant("Heiligenstadt".
+restaurant("Oberdöbling".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Praterkai".
+restaurant("Mannswörth Bahnhof".
+restaurant("Braunschweiggasse".
+restaurant("Gasometer".
+restaurant("Kaiserebersdorf".
+restaurant("Pilgramgasse".
+restaurant("Unter Sankt Veit".
+restaurant("Höbersdorf Bahnhof").

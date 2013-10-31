@@ -1,6 +1,20 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Stephansplatz").
+sequence(1,0, "Hütteldorfer Straße").
+person(2).
+initlocation(2,"Haidestraße").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Alterlaa").
+sequence(2,0, "Haidestraße").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+restaurant("Schottentor".
+restaurant("Kendlerstraße".
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Ulrichskirchen Bahnhof").

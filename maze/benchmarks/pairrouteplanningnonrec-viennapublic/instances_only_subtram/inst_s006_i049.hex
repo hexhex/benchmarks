@@ -1,13 +1,28 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Oberfeldgasse").
+initlocation(1,"Hubertusdamm").
+initlocation(1,"Sonnergasse").
+initlocation(1,"Mödling Bahnhof").
+sequence(1,0, "Baden Bahnhof").
+person(2).
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Hietzing").
+sequence(2,0, "Viehofen Bahnhof").
+possiblemeetinglocations("Laaer-Berg-Straße").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Grinzinger Straße").
+restaurant("Blindengasse").
+restaurant("Haidestraße").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Joachimsthalerplatz").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Rochusgasse").

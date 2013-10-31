@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Spittelau").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+sequence(1,0, "Hausleiten Bahnhof").
+person(2).
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Schottentor").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Ebreichsdorf Bahnhof").
+sequence(2,0, "Breitenwaida Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Siebenhirten").
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("Strasshof Bahnhof".
+restaurant("Bisamberg Bahnhof".
+restaurant("Am Schöpfwerk".
+restaurant("Reumannplatz".
+restaurant("Unterpurkersdorf Bahnhof").

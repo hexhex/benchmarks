@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Vinzenzgasse").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Laudongasse").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+initlocation(1,"Brünnlbadgasse").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Hütteldorf, Bujattigasse").
+sequence(1,0, "Vinzenzgasse").
+person(2).
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Alaudagasse").
+initlocation(2,"Wenzgasse").
+sequence(2,0, "Kagraner Platz").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Pilgramgasse").
+restaurant("Stadlergasse").
+restaurant("Franzensbrücke").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Sahulkastraße").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Frödenplatz").

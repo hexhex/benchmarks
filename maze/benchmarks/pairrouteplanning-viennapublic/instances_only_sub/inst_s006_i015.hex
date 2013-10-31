@@ -1,13 +1,28 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Volkstheater").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+sequence(1,0, "Hainburg/Donau Personenbhf").
+person(2).
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Penzing").
+sequence(2,0, "Parndorf Ort Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+restaurant("Taubstummengasse".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Strebersdorf".
+restaurant("Ebenfurth Bahnhof".
+restaurant("Vorgartenstraße".
+restaurant("Hütteldorfer Straße").

@@ -1,21 +1,44 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Donauspital").
+sequence(1,0, "Hollabrunn Bahnhof").
+person(2).
+initlocation(2,"Reumannplatz").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Stadion").
+initlocation(2,"Keplerplatz").
+sequence(2,0, "Reumannplatz").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Penzing").
+restaurant("Hütteldorfer Straße".
+restaurant("Unterradlberg Bahnhof".
+restaurant("Jedlersdorf".
+restaurant("Mistelbach Bahnhof".
+restaurant("Himberg Bahnhof".
+restaurant("Baden Bahnhof".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Blumental".
+restaurant("Sarasdorf Bahnhof").

@@ -1,4 +1,12 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+sequence(1,0, "Strasshof Bahnhof").
+person(2).
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Enkplatz").
+sequence(2,0, "Rennbahnweg").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Wampersdorf Bahnhof").

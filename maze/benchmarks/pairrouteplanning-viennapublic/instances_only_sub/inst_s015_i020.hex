@@ -1,21 +1,66 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Rathaus").
+initlocation(1,"Hietzing").
+sequence(1,0, "Hütteldorfer Straße").
+person(2).
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Zieglergasse").
+sequence(2,0, "Göllersdorf Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Westbahnhof").
+restaurant("Tscherttegasse".
+restaurant("Perfektastraße".
+restaurant("Zippererstraße".
+restaurant("Fischamend Bahnhof".
+restaurant("Thaliastraße".
+restaurant("Michelbeuern-AKH".
+restaurant("Grillgasse".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Mistelbach Bahnhof".
+restaurant("Donauinsel".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Staatz Bahnhof".
+restaurant("Tulln Bahnhof".
+restaurant("Obersdorf Bahnhof".
+restaurant("Höbersdorf Bahnhof").

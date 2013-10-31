@@ -1,7 +1,24 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Spittelau").
+initlocation(1,"Weidlingau Bahnhof").
+sequence(1,0, "Kardinal-Nagl-Platz").
+person(2).
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Haidestraße").
+sequence(2,0, "Kapellerfeld Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+restaurant("Rochusgasse".
+restaurant("Hausfeldstraße".
+restaurant("Michelhausen Bahnhof".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Erzherzog-Karl-Straße").

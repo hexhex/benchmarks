@@ -1,15 +1,32 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-sequence(0, "Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Stadtpark").
+initlocation(1,"Enkplatz").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+sequence(1,0, "Schweglerstraße").
+person(2).
+initlocation(2,"Krieau").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Kagraner Platz").
+sequence(2,0, "Krieau").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Heiligenstadt".
+restaurant("Niederhofstraße".
+restaurant("Ebenfurth Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Schweglerstraße").

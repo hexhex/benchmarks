@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Yppengasse").
+sequence(1,0, "Preyergasse/Speising").
+person(2).
+initlocation(2,"Nordbahnstraße").
+initlocation(2,"Friedrich-Engels-Platz").
+sequence(2,0, "Nordbahnstraße").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+possiblemeetinglocations("Sickenberggasse").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Althanstraße").

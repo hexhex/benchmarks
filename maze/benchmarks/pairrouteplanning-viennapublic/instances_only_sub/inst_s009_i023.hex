@@ -1,19 +1,40 @@
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+sequence(1,0, "Untertullnerbach Bahnhof").
+person(2).
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Breitensee").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Stadion").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+sequence(2,0, "Tulln Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Alte Donau").
+restaurant("Kettenbrückengasse".
+restaurant("Donauinsel".
+restaurant("Spillern Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("Heiligenstadt".
+restaurant("Perfektastraße".
+restaurant("Enkplatz".
+restaurant("Schönborn Bahnhof".
+restaurant("Kottingneusiedl Bahnhof").

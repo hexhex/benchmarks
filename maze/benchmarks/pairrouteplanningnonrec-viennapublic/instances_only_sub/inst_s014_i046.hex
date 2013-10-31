@@ -1,21 +1,60 @@
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Gersthof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Traisengasse").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Schwedenplatz").
+sequence(1,0, "Gersthof").
+person(2).
+initlocation(2,"Hirschstetten").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Quartier Belvedere").
+sequence(2,0, "Hirschstetten").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+restaurant("Aderklaaer Straße".
+restaurant("Unterpurkersdorf Bahnhof".
+restaurant("Schweglerstraße".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Weidlingau Bahnhof".
+restaurant("Hausleiten Bahnhof".
+restaurant("Geiselbergstraße".
+restaurant("Kaisermühlen-VIC".
+restaurant("Hainburg/Donau Personenbhf".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Helmahof Bahnhof".
+restaurant("Retz Bahnhof".
+restaurant("Perfektastraße".
+restaurant("Wolfsthal Bahnhof").

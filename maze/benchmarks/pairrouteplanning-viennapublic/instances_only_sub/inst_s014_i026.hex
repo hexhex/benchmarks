@@ -1,21 +1,61 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Praterstern").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Rathaus").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+sequence(1,0, "Kritzendorf Bahnhof").
+person(2).
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Alterlaa").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Volkstheater").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Lobau").
+initlocation(2,"Fischamend Bahnhof").
+sequence(2,0, "Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+restaurant("Retz Bahnhof".
+restaurant("Kendlerstraße".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Längenfeldgasse".
+restaurant("Rathaus".
+restaurant("Margaretengürtel".
+restaurant("Stockerau Bahnhof".
+restaurant("Kottingbrunn Bahnhof".
+restaurant("Blumental".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Ladendorf Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Greifenstein-Altenberg Bahnhof").

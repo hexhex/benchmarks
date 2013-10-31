@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Schottenring").
+sequence(1,0, "Franz-Josefs-Bahnhof").
+person(2).
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Grillgasse").
+sequence(2,0, "Jedlersdorf").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Leopoldau").
+restaurant("Korneuburg Bahnhof".
+restaurant("Gaisruck Bahnhof").

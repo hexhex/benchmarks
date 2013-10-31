@@ -1,21 +1,48 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Braunhubergasse").
+initlocation(1,"Eckpergasse").
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Laurenzgasse").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "Braunhubergasse").
+person(2).
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Oberfeldgasse").
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Johann-Nepomuk-Berger-Platz").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Hütteldorfer Str/Hochsatzeng").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+sequence(2,0, "Hausleiten Bahnhof").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Siebensterngasse").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Unteres Belvedere").
+restaurant("Hernalser Gürtel").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Kutschkergasse").
 restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
+restaurant("Anton-Schall-Gasse").
+restaurant("Florianigasse").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Beingasse").
+restaurant("Hintere Zollamtsstraße").

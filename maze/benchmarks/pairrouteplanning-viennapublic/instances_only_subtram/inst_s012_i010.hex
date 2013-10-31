@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+initlocation(1,"Gersthofer Str/Scheibenbergstr").
+initlocation(1,"Weihburggasse").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Schottentor").
+initlocation(1,"Maurer Lange Gasse").
+initlocation(1,"Glatzgasse").
+initlocation(1,"Seestadt").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+sequence(1,0, "Perchtoldsdorf Bahnhof").
+person(2).
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Fichtnergasse").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Grinzing").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Martinstraße").
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+sequence(2,0, "Atzenbrugg Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Autokaderstraße").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Jägerstraße").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Floridsdorf").
+restaurant("Heiligenstadt").
+restaurant("Josef-Baumann-Gasse").
 restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+restaurant("Wallrißstraße").
+restaurant("Hetzgasse").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Martinstraße").
+restaurant("Hausleiten Bahnhof").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Heiligenstadt, 12-Februar-Pl").

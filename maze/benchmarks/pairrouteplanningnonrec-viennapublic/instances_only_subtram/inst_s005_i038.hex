@@ -1,11 +1,24 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Gaußplatz").
+sequence(1,0, "Jagdschloßgasse").
+person(2).
+initlocation(2,"Stadtpark").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Gersthof").
+initlocation(2,"Teichgasse").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Sickenberggasse").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Türkenschanzplatz").
+restaurant("Spillern Bahnhof").
+restaurant("Hetzendorf").
+restaurant("Kärntner Ring/Oper").
+restaurant("Liebknechtgasse").
+restaurant("Leobersdorf Bahnhof").

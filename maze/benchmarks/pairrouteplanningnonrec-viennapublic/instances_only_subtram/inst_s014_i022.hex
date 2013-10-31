@@ -1,21 +1,60 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-sequence(0, "Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Praterkai").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Löwengasse").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Palffygasse").
+sequence(1,0, "Kaiserebersdorf").
+person(2).
+initlocation(2,"Brünner Straße").
+initlocation(2,"Julius-Raab-Platz").
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Matthäus-Jiszda-Straße").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Bauernfeldplatz").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Floridsdorfer Brücke").
+sequence(2,0, "Brünner Straße").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Bahnhofstraße").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+restaurant("Messe-Prater").
+restaurant("Neubaugasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Pokornygasse").
+restaurant("Stiftgasse").
+restaurant("Schlachthausgasse").
+restaurant("Krieau").
+restaurant("Schlickgasse").
+restaurant("Rosenhügelstraße").
+restaurant("Floridsdorfer Brücke").
+restaurant("Rebhanngasse").
+restaurant("Dommayergasse").

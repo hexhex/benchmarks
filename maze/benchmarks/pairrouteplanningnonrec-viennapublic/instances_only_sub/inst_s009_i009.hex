@@ -1,19 +1,41 @@
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Simmering").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Spittelau").
+initlocation(1,"Wampersdorf Bahnhof").
+sequence(1,0, "Simmering").
+person(2).
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Hietzing").
+initlocation(2,"Grillgasse").
+initlocation(2,"Praterstern").
+initlocation(2,"Alte Donau").
+sequence(2,0, "Hausleiten Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+restaurant("Ladendorf Bahnhof".
+restaurant("Mannswörth Bahnhof".
+restaurant("Ebenfurth Bahnhof".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Gramatneusiedl Bahnhof".
+restaurant("Gersthof".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Laa an der Thaya Bahnhof".
+restaurant("Herrengasse").

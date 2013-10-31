@@ -1,17 +1,38 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Oberdöbling").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Neusiedl am See Bahnhof").
+sequence(1,0, "Oberdöbling").
+person(2).
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Hernals").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Praterkai").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Langenzersdorf Bahnhof").
+sequence(2,0, "Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+restaurant("Bahnhof Meidling".
+restaurant("Praterkai".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Stadtpark".
+restaurant("Siebenhirten (NÖ.
+Haltestelle".
+restaurant("Tulln Stadt Bahnhof".
+restaurant("Klosterneuburg-Weidling Bf").

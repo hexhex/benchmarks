@@ -1,5 +1,16 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Penzing").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Zieglergasse").
+sequence(1,0, "Penzing").
+person(2).
+initlocation(2,"Grillgasse").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+sequence(2,0, "Grillgasse").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Meidling Hauptstraße").
+restaurant("Heiligenstadt".
+restaurant("Hausfeldstraße".
+restaurant("Ladendorf Bahnhof").

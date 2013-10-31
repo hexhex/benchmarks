@@ -1,21 +1,53 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Parndorf Ort Bahnhof").
+sequence(1,0, "Friedensbrücke").
+person(2).
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Neue Donau").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+sequence(2,0, "Unterradlberg Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+restaurant("Museumsquartier".
+restaurant("Zieglergasse".
+restaurant("Erzherzog-Karl-Straße".
+restaurant("Unter Sankt Veit".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Obersdorf Bahnhof".
+restaurant("Nußdorf".
+restaurant("Dresdner Straße".
+restaurant("Kendlerstraße".
+restaurant("Stadion".
+restaurant("Herzogenburg Bahnhof".
+restaurant("Untertullnerbach Bahnhof").

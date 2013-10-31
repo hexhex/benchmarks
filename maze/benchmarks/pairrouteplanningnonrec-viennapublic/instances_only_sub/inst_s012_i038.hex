@@ -1,21 +1,52 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Schönbrunn").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Handelskai").
+initlocation(1,"Stadlau").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Kagran").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Längenfeldgasse").
+sequence(1,0, "Schönbrunn").
+person(2).
+initlocation(2,"Donauinsel").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Schottentor").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Stubentor").
+initlocation(2,"Herrengasse").
+initlocation(2,"Strasshof Bahnhof").
+sequence(2,0, "Donauinsel").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+restaurant("Floridsdorf".
+restaurant("Stockerau Bahnhof".
+restaurant("Viehofen Bahnhof".
+restaurant("Hütteldorf".
+restaurant("Reumannplatz".
+restaurant("Keplerplatz".
+restaurant("Donaustadtbrücke".
+restaurant("Ober Sankt Veit".
+restaurant("Kottingbrunn Bahnhof".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Stadtpark".
+restaurant("Hofstatt Bahnhof").

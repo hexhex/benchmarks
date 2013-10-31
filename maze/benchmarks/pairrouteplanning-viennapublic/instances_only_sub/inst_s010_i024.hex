@@ -1,21 +1,45 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Thaliastraße").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Vorgartenstraße").
+sequence(1,0, "Thaliastraße").
+person(2).
+initlocation(2,"Aspernstraße").
+initlocation(2,"Traisengasse").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+sequence(2,0, "Aspernstraße").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Hernals").
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Bahnhof Meidling".
+restaurant("Greifenstein-Altenberg Bahnhof".
+restaurant("Baden Bahnhof".
+restaurant("Gumpendorfer Straße".
+restaurant("Quartier Belvedere".
+restaurant("Himberg Bahnhof".
+restaurant("Hardeggasse".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Dürrwien Bahnhof").

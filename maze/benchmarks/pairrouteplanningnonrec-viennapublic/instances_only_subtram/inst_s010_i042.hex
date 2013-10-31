@@ -1,21 +1,44 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Enkplatz").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Stammersdorf").
+initlocation(1,"Herbeckstraße").
+initlocation(1,"Stubentor").
+initlocation(1,"Römergasse").
+initlocation(1,"Carabelligasse").
+initlocation(1,"Obersdorf Bahnhof").
+sequence(1,0, "Enkplatz").
+person(2).
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Wallensteinplatz").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Laxenburger Straße/Troststraße").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Oberfeldgasse").
+sequence(2,0, "Viehmarktgasse").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Donaumarina").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Perntergasse").
+restaurant("Schloss Belvedere").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Waidhausenstraße").
+restaurant("Oberzellergasse").
+restaurant("Paasdorf Bahnhof").
+restaurant("Unteres Belvedere").

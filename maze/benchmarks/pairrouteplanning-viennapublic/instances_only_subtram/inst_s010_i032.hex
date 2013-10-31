@@ -1,21 +1,44 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Traisengasse").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Hardtgasse").
+sequence(1,0, "Traisengasse").
+person(2).
+initlocation(2,"Oberzellergasse").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Plößlgasse").
+initlocation(2,"Gußhausstraße").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Shuttleworthstraße").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Herbeckstraße").
+sequence(2,0, "Oberzellergasse").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Stadiongasse/Parlament").
+restaurant("Nußdorf").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Kaiserstraße").
+restaurant("Unteres Belvedere").
+restaurant("Fultonstraße").
+restaurant("Erndtgasse").
+restaurant("Ottakring").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Linzer Straße/Lützowgasse").

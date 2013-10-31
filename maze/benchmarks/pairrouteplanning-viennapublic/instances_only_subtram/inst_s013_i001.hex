@@ -1,21 +1,56 @@
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Zentralfriedhof 2Tor").
+initlocation(1,"Van-Swieten-Kaserne").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Stadlau").
+initlocation(1,"Donaumarina").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Alaudagasse").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Weinhauser Gasse").
+sequence(1,0, "Zentralfriedhof 2Tor").
+person(2).
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Anton-Krieger-Gasse").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Handelskai").
+initlocation(2,"Donauinsel").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Donaustadtstraße").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Quellenplatz").
+sequence(2,0, "Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Sickenberggasse").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Gloriettegasse").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Liesing").
+restaurant("Unteres Belvedere").
+restaurant("Alterlaa").
+restaurant("Litfaßstraße").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Karlsplatz").
+restaurant("Zieglergasse").
+restaurant("Hildebrandgasse").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Laurentiusplatz").
+restaurant("Weidlingau Bahnhof").
+restaurant("Döblinger Bad").
+restaurant("Schlickgasse").
+restaurant("Empergergasse").

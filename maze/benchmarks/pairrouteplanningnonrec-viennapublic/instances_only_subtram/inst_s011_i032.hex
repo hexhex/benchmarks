@@ -1,21 +1,48 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Unter St Veit, Hummelgasse").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Geiereckstraße").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Marxergasse").
+initlocation(1,"Himmelmutterweg").
+initlocation(1,"Schloss Hetzendorf").
+initlocation(1,"Floridsdorf").
+sequence(1,0, "Unter St Veit, Hummelgasse").
+person(2).
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Baumgarten").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Döblinger Hauptstr/Gatterburgg").
+initlocation(2,"Gerstnerstraße/Westbhf").
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Frauengasse").
+initlocation(2,"Kraygasse").
+initlocation(2,"Strasshof Bahnhof").
+sequence(2,0, "Unteroberndorf Bahnhof").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Sickenberggasse").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Bösendorferstraße").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Otto-Probst-Platz").
+restaurant("Strasshof Bahnhof").
+restaurant("Viehofen Bahnhof").
+restaurant("Baumgarten").
+restaurant("Obersdorf Bahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("Enkplatz").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Seegasse").

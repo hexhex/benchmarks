@@ -1,13 +1,28 @@
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Arminenstraße").
+initlocation(1,"Stadlau").
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Schwechat Bahnhof").
+sequence(1,0, "Bruck/Leitha Bahnhof").
+person(2).
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Rustengasse").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Schlickgasse").
+sequence(2,0, "Kledering Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Lerchenfelder Straße").
+restaurant("Laaer-Berg-Straße").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Silbergasse").
+restaurant("Krottenbachstraße").

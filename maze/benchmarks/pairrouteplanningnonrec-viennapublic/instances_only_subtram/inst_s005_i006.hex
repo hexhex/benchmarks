@@ -1,7 +1,24 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+sequence(1,0, "Deutsch-Wagram Bahnhof").
+person(2).
+initlocation(2,"Antonigasse").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+sequence(2,0, "Antonigasse").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Radetzkyplatz").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+restaurant("Spittelau").
+restaurant("Neuwaldegg").
+restaurant("Carminweg").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Keplerplatz").

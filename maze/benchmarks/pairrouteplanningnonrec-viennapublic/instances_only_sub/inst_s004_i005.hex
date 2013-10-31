@@ -1,6 +1,20 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+sequence(1,0, "Purkersdorf Zentrum Bahnhof").
+person(2).
+initlocation(2,"Floridsdorf").
+initlocation(2,"Penzing").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Tulln Bahnhof").
+sequence(2,0, "Floridsdorf").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Neue Donau").
+restaurant("Gerasdorf Bahnhof".
+restaurant("Johnstraße".
+restaurant("Unterradlberg Bahnhof".
+restaurant("Absdorf-Hippersdorf Bahnhof").

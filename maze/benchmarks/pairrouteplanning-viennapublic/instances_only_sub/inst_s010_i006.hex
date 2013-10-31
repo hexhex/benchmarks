@@ -1,21 +1,45 @@
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Neubaugasse").
+sequence(1,0, "Tscherttegasse").
+person(2).
+initlocation(2,"Zippererstraße").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Haidestraße").
+initlocation(2,"Hernals").
+initlocation(2,"Grillgasse").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Viehofen Bahnhof").
+sequence(2,0, "Zippererstraße").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+restaurant("Traisengasse".
+restaurant("Donaustadtbrücke".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Nußdorf".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Aspern Nord".
+restaurant("Grillgasse".
+restaurant("Kettenbrückengasse".
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Thaliastraße").

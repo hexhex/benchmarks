@@ -1,19 +1,40 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Strebersdorf").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Liesing").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Praterkai").
+sequence(1,0, "Strebersdorf").
+person(2).
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Hetzendorf").
+sequence(2,0, "Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Hardeggasse").
+restaurant("Breitensee".
+restaurant("Aderklaaer Straße".
+restaurant("Schleinbach Bahnhof".
+restaurant("Wr Neustadt Nord".
+restaurant("Gumpoldskirchen Bahnhof".
+restaurant("Siebenhirten".
+restaurant("Wolf in der Au".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Hautzendorf Bahnhof").

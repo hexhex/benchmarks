@@ -1,21 +1,60 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Ottakring").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Resselgasse").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Gredlerstraße").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Gusenleithnergasse").
+sequence(1,0, "Wr Neustadt Civitas Nova").
+person(2).
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Carminweg").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Simonygasse").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Teichgasse").
+initlocation(2,"Franzensbrücke").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+sequence(2,0, "Nestroyplatz").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Kranzgasse").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Bahnsteggasse").
+restaurant("Seestadt").
+restaurant("Gruschaplatz").
+restaurant("Oberdöbling").
+restaurant("Traismauer Bahnhof").
+restaurant("Schwechat Bahnhof").
+restaurant("Thaliastraße/Brunnengasse").
+restaurant("Stollgasse").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Seegasse").
+restaurant("Wr Neustadt Civitas Nova").
 restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+restaurant("Rauscherstraße").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Wallensteinplatz").

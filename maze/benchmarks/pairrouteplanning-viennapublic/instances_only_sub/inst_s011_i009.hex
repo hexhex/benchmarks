@@ -1,21 +1,49 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Kendlerstraße").
+sequence(1,0, "Kettenbrückengasse").
+person(2).
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Taborstraße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Haidestraße").
+initlocation(2,"Kagran").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Seestadt").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Süßenbrunn").
+sequence(2,0, "Felixdorf Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+restaurant("Gersthof".
+restaurant("Kaiserebersdorf".
+restaurant("Museumsquartier".
+restaurant("Preyergasse/Speising".
+restaurant("Meidling Hauptstraße".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Hadersdorf Bahnhof".
+restaurant("Michelbeuern-AKH".
+restaurant("Klosterneuburg-Kierling Bf".
+restaurant("Wr Neustadt Hauptbahnhof").

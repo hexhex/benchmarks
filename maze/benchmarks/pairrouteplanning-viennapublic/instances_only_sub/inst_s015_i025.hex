@@ -1,21 +1,64 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Haidestraße").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Neue Donau").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Donauspital").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Kagran").
+sequence(1,0, "Obersdorf Bahnhof").
+person(2).
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Enkplatz").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Penzing").
+sequence(2,0, "Tscherttegasse").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Volkstheater").
+restaurant("Schwechat Bahnhof".
+restaurant("Stadlau".
+restaurant("Kaisermühlen-VIC".
+restaurant("Sarasdorf Bahnhof".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Ladendorf Bahnhof".
+restaurant("Herzogenburg Stadt".
+restaurant("Bisamberg Bahnhof".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Klosterneuburg-Kierling Bf".
+restaurant("Dürrwien Bahnhof".
+restaurant("Felixdorf Bahnhof".
+restaurant("Geiselbergstraße".
+restaurant("Praterkai".
+restaurant("Retz Bahnhof").

@@ -1,4 +1,12 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Weigelsdorf Bahnhof").
+sequence(1,0, "Schwedenplatz").
+person(2).
+initlocation(2,"Hietzing").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+sequence(2,0, "Hietzing").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Siemensstraße").

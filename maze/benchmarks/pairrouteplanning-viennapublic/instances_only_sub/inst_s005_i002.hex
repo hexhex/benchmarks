@@ -1,7 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Neusiedl am See Bahnhof").
+sequence(1,0, "Sierndorf Bahnhof").
+person(2).
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Neubaugasse").
+sequence(2,0, "Gaisruck Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Schönborn Bahnhof").
+restaurant("Museumsquartier".
+restaurant("Alte Donau".
+restaurant("Heiligenstadt".
+restaurant("Sollenau Bahnhof".
+restaurant("Reumannplatz").

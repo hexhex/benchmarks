@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Hardeggasse").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+sequence(1,0, "Hardeggasse").
+person(2).
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Atzgersdorf").
+sequence(2,0, "Kledering Bahnhof").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+restaurant("Breitensee".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Schweglerstraße".
+restaurant("Maria Ellend Bahnhof".
+restaurant("Mödling Bahnhof".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Rochusgasse".
+restaurant("Weigelsdorf Bahnhof").

@@ -1,21 +1,52 @@
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-sequence(0, "Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Klosterneub Str/Wallensteinstr").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Guntherstraße").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Türkenschanzplatz").
+initlocation(1,"Augasse").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+sequence(1,0, "Klosterneub Str/Wallensteinstr").
+person(2).
+initlocation(2,"Gersthof").
+initlocation(2,"Stubentor").
+initlocation(2,"Augasse").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Martinstraße").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Seegasse").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Linzer Straße/Hochsatzengasse").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Brünner Straße").
+sequence(2,0, "Gersthof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Rustengasse").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Siebensterngasse").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Keplerplatz").
+restaurant("Rauscherstraße").
+restaurant("Stubentor").
+restaurant("Praterkai").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Stadlergasse").
 restaurant("Reumannplatz").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Römergasse").
+restaurant("Hainburg/Donau Personenbhf").

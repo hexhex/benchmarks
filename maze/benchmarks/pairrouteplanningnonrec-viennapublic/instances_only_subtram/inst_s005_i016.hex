@@ -1,11 +1,24 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Atzgersdorf").
+sequence(1,0, "Bahnhof Meidling").
+person(2).
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Absberggasse").
+sequence(2,0, "Trondheimgasse").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+restaurant("Bisamberg Bahnhof").
+restaurant("Obere Augartenstraße").
+restaurant("Bernhardtstalgasse").
+restaurant("Lerchenfelder Straße").
+restaurant("Resselgasse").

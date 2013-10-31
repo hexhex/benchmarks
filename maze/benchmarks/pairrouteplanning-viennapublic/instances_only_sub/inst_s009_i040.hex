@@ -1,19 +1,41 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Schweglerstraße").
+sequence(1,0, "Maria Anzbach Bahnhof").
+person(2).
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+sequence(2,0, "Gänserndorf Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+restaurant("Spittelau".
+restaurant("Guntramsdorf-Thallern".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Neusiedl am See Bahnhof".
+restaurant("Stockerau Bahnhof".
+restaurant("Aspern Nord".
+restaurant("Mannswörth Bahnhof".
+restaurant("Penzing").

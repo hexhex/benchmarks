@@ -1,17 +1,36 @@
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Pfaffstätten Bahnhof").
+sequence(1,0, "Leobendorf-Burg Kreuzenstn Bf").
+person(2).
+initlocation(2,"Jägerstraße").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Donauspital").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Rennweg").
+sequence(2,0, "Jägerstraße").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Baden Bahnhof").
+restaurant("Leopoldau".
+restaurant("Westbahnhof".
+restaurant("Gumpendorfer Straße".
+restaurant("Gasometer".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Weigelsdorf Bahnhof".
 restaurant("Aspern Nord").
-restaurant("Reumannplatz").

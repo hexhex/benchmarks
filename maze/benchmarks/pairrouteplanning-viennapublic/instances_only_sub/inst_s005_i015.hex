@@ -1,11 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Stadlau").
+initlocation(1,"Götzendorf Bahnhof").
+sequence(1,0, "Korneuburg Bahnhof").
+person(2).
+initlocation(2,"Donauspital").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+sequence(2,0, "Donauspital").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+restaurant("Hörersdorf Bahnhof".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Donauinsel".
+restaurant("Burggasse-Stadthalle".
+restaurant("Neusiedl am See Bahnhof").

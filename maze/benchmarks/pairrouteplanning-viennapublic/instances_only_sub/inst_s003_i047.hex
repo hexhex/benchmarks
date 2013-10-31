@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Rennweg").
+sequence(1,0, "Platt Bahnhof").
+person(2).
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+sequence(2,0, "Kardinal-Nagl-Platz").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Karlsplatz").
+restaurant("Stadtpark".
+restaurant("Götzendorf Bahnhof".
+restaurant("Kottingneusiedl Bahnhof").

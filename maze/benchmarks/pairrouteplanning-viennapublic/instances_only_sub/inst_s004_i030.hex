@@ -1,6 +1,20 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Schönborn Bahnhof").
+sequence(1,0, "Bahnhof Meidling").
+person(2).
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Gänserndorf Bahnhof").
+sequence(2,0, "Hörersdorf Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+restaurant("St Pölten Traisenpark P+R Nord".
+restaurant("Aderklaaer Straße".
+restaurant("Gersthof".
+restaurant("Jedlersdorf").

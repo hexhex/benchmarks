@@ -1,21 +1,48 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Breitensee").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Heiligenstadt").
+sequence(1,0, "Tulln Stadt Bahnhof").
+person(2).
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Ottakring").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+sequence(2,0, "Tullnerfeld Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Platt Bahnhof".
+restaurant("Theresienfeld Bahnhof".
+restaurant("Pilgramgasse".
+restaurant("Retz Bahnhof".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Liesing".
+restaurant("Wolfsthal Bahnhof".
+restaurant("Keplerplatz".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Bad Vöslau Bahnhof").

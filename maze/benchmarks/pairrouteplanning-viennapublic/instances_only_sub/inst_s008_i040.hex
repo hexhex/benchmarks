@@ -1,17 +1,36 @@
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Herrengasse").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Schönbrunn").
+sequence(1,0, "Laa an der Thaya Bahnhof").
+person(2).
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Blumental").
+initlocation(2,"Alte Donau").
+initlocation(2,"Hernals").
+initlocation(2,"Ebenfurth Bahnhof").
+sequence(2,0, "Nußdorfer Straße").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+restaurant("Hollabrunn Bahnhof".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Schönbrunn".
+restaurant("Herrengasse".
+restaurant("Süßenbrunn".
+restaurant("Atzenbrugg Bahnhof".
+restaurant("Gaisruck Bahnhof".
+restaurant("Lobau").

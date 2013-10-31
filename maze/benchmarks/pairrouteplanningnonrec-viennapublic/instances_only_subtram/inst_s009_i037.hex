@@ -1,19 +1,40 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Brünner Straße/Hanreitergasse").
+initlocation(1,"Nordbahnstraße").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Teichgasse").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Hardtgasse").
+sequence(1,0, "Brünner Straße/Hanreitergasse").
+person(2).
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Eichenstraße").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Bad Vöslau Bahnhof").
+sequence(2,0, "Dresdner Straße").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Glatzgasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Stammersdorf").
+restaurant("Grillgasse").
+restaurant("Siemensstraße").
+restaurant("Unteres Belvedere").
+restaurant("Mistelbach Bahnhof").
+restaurant("Korneuburg Bahnhof").
+restaurant("Traismauer Bahnhof").
+restaurant("Hautzendorf Bahnhof").

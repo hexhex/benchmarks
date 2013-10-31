@@ -1,21 +1,61 @@
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Am Schöpfwerk").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Brünner Straße/Hanreitergasse").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Vinzenzgasse").
+initlocation(1,"Römergasse").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+sequence(1,0, "Höflein an der Donau Bahnhof").
+person(2).
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Unteres Belvedere").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Römergasse").
+initlocation(2,"Gaußplatz").
+initlocation(2,"Kleistgasse").
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Wattmanngasse").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Penzing").
+initlocation(2,"Gusenleithnergasse").
+sequence(2,0, "Bad Vöslau Bahnhof").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Carminweg").
+restaurant("Schwarzenbergplatz").
+restaurant("Guneschgasse").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Messe-Prater").
+restaurant("Weidlingau Bahnhof").
+restaurant("Liesing").
+restaurant("Schottenring").
+restaurant("Lobau").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Gersthof").
+restaurant("Obere Donaustraße").
+restaurant("Prater, Hauptallee").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Petronell-Carnuntum Bahnhof").

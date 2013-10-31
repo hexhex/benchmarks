@@ -1,21 +1,60 @@
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Am Schöpfwerk").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Alterlaa").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Handelskai").
+initlocation(1,"Enkplatz").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Dürrwien Bahnhof").
+sequence(1,0, "Alterlaa").
+person(2).
+initlocation(2,"Stadion").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Heiligenstadt").
+sequence(2,0, "Stadion").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Krottenbachstraße".
+restaurant("Seyring Bahnhof".
+restaurant("Hütteldorfer Straße".
+restaurant("Thaliastraße".
+restaurant("Süßenbrunn".
+restaurant("Ottakring".
+restaurant("Floridsdorf".
+restaurant("Jägerstraße".
+restaurant("Meidling Hauptstraße".
+restaurant("Gramatneusiedl Bahnhof".
+restaurant("Götzendorf Bahnhof".
+restaurant("Zeiselmauer-Königstetten Bf".
+restaurant("Aderklaaer Straße".
+restaurant("Rathaus").

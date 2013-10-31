@@ -1,19 +1,40 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+sequence(1,0, "Atzgersdorf").
+person(2).
+initlocation(2,"Karlsplatz").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+sequence(2,0, "Karlsplatz").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+restaurant("Retz Bahnhof".
+restaurant("Hollabrunn Bahnhof".
+restaurant("Gumpoldskirchen Bahnhof".
+restaurant("Museumsquartier".
+restaurant("Tulln Bahnhof".
+restaurant("Niederhofstraße".
+restaurant("Thaliastraße".
+restaurant("Lanzendorf-Rannersdorf Bahnhof".
+restaurant("Stadion").

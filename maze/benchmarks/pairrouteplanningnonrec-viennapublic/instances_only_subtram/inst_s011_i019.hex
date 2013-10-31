@@ -1,21 +1,48 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Wenzgasse").
+initlocation(1,"Bösendorferstraße").
+initlocation(1,"Breitenfurter St/Altmannsd Str").
+initlocation(1,"Siebensterngasse").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Grinzinger Straße").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Paradisgasse").
+sequence(1,0, "Wenzgasse").
+person(2).
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Eichenstraße").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Migerkastraße").
+sequence(2,0, "Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Wienerbergbrücke").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Julius-Raab-Platz").
+restaurant("Rampengasse").
 restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
+restaurant("Wallensteinplatz").
+restaurant("Döblinger Bad").
+restaurant("Stephansplatz").
+restaurant("Riedelgasse").
+restaurant("Kledering Bahnhof").
+restaurant("Am Spitz").
+restaurant("Windtenstraße").

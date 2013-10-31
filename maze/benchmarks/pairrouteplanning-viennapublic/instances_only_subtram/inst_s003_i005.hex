@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Kledering Bahnhof").
+sequence(1,0, "Johann-Nepomuk-Berger-Platz").
+person(2).
+initlocation(2,"Perfektastraße").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Laurentiusplatz").
+sequence(2,0, "Perfektastraße").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Wittelsbachstraße").
+possiblemeetinglocations("Alte Donau").
+restaurant("Römergasse").
+restaurant("Rußbergstraße").
+restaurant("Meidling Hauptstraße").

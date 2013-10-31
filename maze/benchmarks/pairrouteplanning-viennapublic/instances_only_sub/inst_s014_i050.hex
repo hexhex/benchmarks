@@ -1,21 +1,60 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Alterlaa").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Haidestraße").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+sequence(1,0, "Alterlaa").
+person(2).
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Breitensee").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Kottingbrunn Bahnhof").
+sequence(2,0, "Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Paasdorf Bahnhof".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Rennweg".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Perfektastraße".
+restaurant("Kagran".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Donaumarina".
+restaurant("Rochusgasse".
+restaurant("Schwedenplatz".
+restaurant("Greifenstein-Altenberg Bahnhof").

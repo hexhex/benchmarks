@@ -1,21 +1,48 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Ottakring").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Am Tabor").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Stadiongasse/Parlament").
+initlocation(1,"Sensengasse").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Rauscherstraße").
+sequence(1,0, "Hennersdorf Bahnhof").
+person(2).
+initlocation(2,"Schottenring").
+initlocation(2,"Fasangasse").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Kraygasse").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Camillo-Sitte-Gasse").
+initlocation(2,"Wildungsmauer Bahnhof").
+sequence(2,0, "Schottenring").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Blindengasse").
+restaurant("Leberberg").
+restaurant("Landesgerichtsstraße").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Messe-Prater").
+restaurant("Michelbeuern-AKH").
+restaurant("Hohe Warte").
+restaurant("Albertgasse").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Gusenleithnergasse").
+restaurant("Retz Bahnhof").

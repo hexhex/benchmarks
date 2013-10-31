@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Seestadt").
+initlocation(1,"Schloss Schönbrunn").
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Julius-Raab-Platz").
+initlocation(1,"Resselgasse").
+initlocation(1,"Achau Bahnhof").
+sequence(1,0, "Seestadt").
+person(2).
+initlocation(2,"Ameisgasse").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Alte Donau").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Unteres Belvedere").
+initlocation(2,"Hütteldorfer Str/Hochsatzeng").
+initlocation(2,"Gellertplatz").
+sequence(2,0, "Ameisgasse").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Nußdorfer Straße").
+restaurant("Aderklaaer Straße").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Nordbrücke").
+restaurant("Ladendorf Bahnhof").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Herzogenburg Stadt").
+restaurant("Rampengasse").
+restaurant("Neulengbach Stadt Bahnhof").

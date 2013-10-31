@@ -1,21 +1,60 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+initlocation(1,"Fasangasse").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Ottakring").
+initlocation(1,"Lerchenfelder Straße").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Hopfengasse").
+sequence(1,0, "Bahnhof Meidling").
+person(2).
+initlocation(2,"Nußdorf, Beethovengang").
+initlocation(2,"Kölblgasse").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Jagdschloßgasse").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Albertgasse").
+initlocation(2,"Thaliastraße/Maroltingergasse").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Kliebergasse").
+sequence(2,0, "Nußdorf, Beethovengang").
+possiblemeetinglocations("Alaudagasse").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Unteres Belvedere").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Franzensbrücke").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Koppstraße/Panikengasse").
+restaurant("Messe-Prater").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Kutschkergasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Nußdorfer Straße").
 restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
+restaurant("Weinheimergasse").
+restaurant("Huglgasse").
+restaurant("Martinstraße").
+restaurant("Guntherstraße").
+restaurant("Am Heidjöchl").
+restaurant("Hubertusdamm").

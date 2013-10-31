@@ -1,6 +1,20 @@
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(1,"Friedrich-Engels-Platz").
+initlocation(1,"Schönbrunn").
+sequence(1,0, "Leobersdorf Bahnhof").
+person(2).
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Kranzgasse").
+sequence(2,0, "Kaiserstraße/Burggasse").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+restaurant("Floridsdorfer Markt").
+restaurant("Lazarettgasse").
+restaurant("Sensengasse").
+restaurant("Brünner Straße").

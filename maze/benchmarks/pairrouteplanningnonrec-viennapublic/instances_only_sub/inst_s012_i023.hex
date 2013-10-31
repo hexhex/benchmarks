@@ -1,21 +1,52 @@
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Gersthof").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Donaumarina").
+sequence(1,0, "Gersthof").
+person(2).
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Gasometer").
+initlocation(2,"Gänserndorf Bahnhof").
+sequence(2,0, "Jedlersdorf").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+restaurant("Stephansplatz".
+restaurant("Hausleiten Bahnhof".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Münchendorf Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Enkplatz".
+restaurant("Keplerplatz".
+restaurant("Stockerau Bahnhof".
+restaurant("Süßenbrunn".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Spillern Bahnhof".
+restaurant("Sitzenberg-Reidling Bahnhof").

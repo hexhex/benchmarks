@@ -1,21 +1,56 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Antonigasse").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Migerkastraße").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Valiergasse").
+initlocation(1,"Am Tabor").
+initlocation(1,"Mayerhofgasse").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Alser Straße").
+initlocation(1,"Herrengasse").
+sequence(1,0, "Absdorf-Hippersdorf Bahnhof").
+person(2).
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Anton-Krieger-Gasse").
+initlocation(2,"Zentralfriedhof 1Tor").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Kagran").
+initlocation(2,"Siebertgasse").
+initlocation(2,"Hütteldorfer Str/Hochsatzeng").
+initlocation(2,"Rothneusiedl").
+initlocation(2,"Rußbergstraße").
+sequence(2,0, "Burggasse-Stadthalle").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Lerchenfelder Straße").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Anton-Schall-Gasse").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Zentralfriedhof 2Tor").
+restaurant("Weißenböckstraße").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Karlsplatz").
+restaurant("Wallrißstraße").
+restaurant("Augasse").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Neulerchenfelder Str/Haberlg").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Polgarstraße").
+restaurant("Maurer Hauptplatz").
+restaurant("Lange Gasse").

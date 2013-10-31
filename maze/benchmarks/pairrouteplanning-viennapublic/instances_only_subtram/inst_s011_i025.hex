@@ -1,21 +1,48 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Erndtgasse").
+initlocation(1,"Valiergasse").
+initlocation(1,"Huglgasse").
+initlocation(1,"Aßmayergasse").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Antonigasse").
+initlocation(1,"Rennbahnweg").
+sequence(1,0, "Erndtgasse").
+person(2).
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Laurentiusplatz").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Hofwiesengasse").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Zieglergasse").
+sequence(2,0, "Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Leberberg").
+restaurant("Rennbahnweg").
+restaurant("Thaliastraße/Brunnengasse").
+restaurant("Linzer Straße/Lützowgasse").
+restaurant("Arthaberplatz").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Brünnlbadgasse").
+restaurant("Hauptbahnhof Ost").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Brünner Straße/Hanreitergasse").
+restaurant("Breitenwaida Bahnhof").

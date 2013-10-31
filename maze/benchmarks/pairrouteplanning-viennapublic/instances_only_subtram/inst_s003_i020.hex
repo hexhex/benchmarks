@@ -1,5 +1,16 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Rochusgasse").
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Baden Bahnhof").
+sequence(1,0, "Rochusgasse").
+person(2).
+initlocation(2,"Hetzendorf").
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Rampengasse").
+sequence(2,0, "Hetzendorf").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Johann-Nepomuk-Berger-Platz").

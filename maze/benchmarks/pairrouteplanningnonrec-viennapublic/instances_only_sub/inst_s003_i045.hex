@@ -1,5 +1,17 @@
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Rochusgasse").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Höflein an der Donau Bahnhof").
+sequence(1,0, "Rochusgasse").
+person(2).
+initlocation(2,"Krieau").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+sequence(2,0, "Krieau").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+restaurant("Wampersdorf Bahnhof".
+restaurant("Großfeldsiedlung".
+restaurant("Gasometer").

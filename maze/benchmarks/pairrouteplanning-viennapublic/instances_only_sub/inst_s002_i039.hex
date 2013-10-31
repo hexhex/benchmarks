@@ -1,4 +1,12 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Karlsplatz").
+sequence(1,0, "Klosterneuburg-Weidling Bf").
+person(2).
+initlocation(2,"Siemensstraße").
+initlocation(2,"Maria Ellend Bahnhof").
+sequence(2,0, "Siemensstraße").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+restaurant("Maria Ellend Bahnhof".
+restaurant("Jedlersdorf").

@@ -1,19 +1,40 @@
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Rathaus").
+initlocation(1,"Elterleinplatz").
+initlocation(1,"Gellertplatz").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Römergasse").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+sequence(1,0, "Maurer Hauptplatz").
+person(2).
+initlocation(2,"Mühlfeldgasse").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Gerstnerstraße/Westbhf").
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Am Heumarkt").
+sequence(2,0, "Mühlfeldgasse").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Obere Donaustraße").
+restaurant("Leberberg").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Jagdschloßgasse").
+restaurant("Gumpendorfer Straße").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Karlsplatz").
+restaurant("Gruschaplatz").
+restaurant("Bahnhofstraße").
+restaurant("Zentralfriedhof 1Tor").

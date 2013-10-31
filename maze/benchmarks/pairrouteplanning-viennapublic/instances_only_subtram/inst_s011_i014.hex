@@ -1,21 +1,48 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Hohe Warte").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Römergasse").
+sequence(1,0, "Verbindungsbahn").
+person(2).
+initlocation(2,"Hauffgasse").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Sonnergasse").
+initlocation(2,"Teichgasse").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+sequence(2,0, "Hauffgasse").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Wienerbergbrücke").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Hauptbahnhof Ost").
+restaurant("Löwengasse").
+restaurant("Seegasse").
+restaurant("Windtenstraße").
+restaurant("Oberolberndorf Bahnhof").
 restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+restaurant("Brigittaplatz").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Kottingneusiedl Bahnhof").

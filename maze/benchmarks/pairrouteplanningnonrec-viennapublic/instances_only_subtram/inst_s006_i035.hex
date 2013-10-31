@@ -1,13 +1,28 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Guneschgasse").
+sequence(1,0, "Viehmarktgasse").
+person(2).
+initlocation(2,"Kärntner Ring/Oper").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Autokaderstraße").
+initlocation(2,"Valiergasse").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Rebhanngasse").
+sequence(2,0, "Kärntner Ring/Oper").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Kleistgasse").
+restaurant("Sommarugagasse").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Prater, Hauptallee").
+restaurant("Carminweg").
+restaurant("Paulanergasse").

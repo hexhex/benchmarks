@@ -1,21 +1,56 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Stollgasse").
+sequence(1,0, "Himberg Bahnhof").
+person(2).
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Julius-Raab-Platz").
+initlocation(2,"Blumengasse").
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Kagran").
+initlocation(2,"Martinstraße").
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+sequence(2,0, "Breitenwaida Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Floridsdorfer Brücke").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Skodagasse").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Gatterburggasse").
+restaurant("Autokaderstraße").
+restaurant("Hoßplatz").
+restaurant("Blumengasse").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Guntherstraße").
+restaurant("Bösendorferstraße").
+restaurant("Kaisermühlen-VIC").
+restaurant("Prinzgasse").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Alser Straße").
+restaurant("Rosenhügelstraße").
+restaurant("Herrengasse").

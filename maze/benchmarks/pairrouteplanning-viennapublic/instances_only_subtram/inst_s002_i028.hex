@@ -1,4 +1,12 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Johannes-Krawarik-Gasse").
+sequence(1,0, "Wilfleinsdorf Bahnhof").
+person(2).
+initlocation(2,"Seestadt").
+initlocation(2,"Am Schöpfwerk").
+sequence(2,0, "Seestadt").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Empergergasse").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Donauinsel").

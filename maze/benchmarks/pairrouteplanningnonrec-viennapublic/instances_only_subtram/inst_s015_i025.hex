@@ -1,21 +1,64 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Himmelmutterweg").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Bösendorferstraße").
+initlocation(1,"Blindengasse").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Troststraße/Neilreichgasse").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Laudongasse").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Neilreichgasse").
+sequence(1,0, "Hainburg/Donau Kulturfabrik Bf").
+person(2).
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Fichtnergasse").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Ameisgasse").
+initlocation(2,"Alte Donau").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Quellenplatz").
+sequence(2,0, "Großfeldsiedlung").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+restaurant("Nordbahnstraße").
 restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
+restaurant("Seestadt").
+restaurant("Eichenstraße").
+restaurant("Tulln Bahnhof").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Stadlergasse").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Julius-Raab-Platz").
+restaurant("Sollenau Bahnhof").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Mannswörth Bahnhof").

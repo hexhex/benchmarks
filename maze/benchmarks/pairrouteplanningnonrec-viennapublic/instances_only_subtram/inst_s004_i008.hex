@@ -1,6 +1,21 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Maurer Lange Gasse").
+initlocation(1,"Columbusplatz").
+sequence(1,0, "Sickenberggasse").
+person(2).
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Römergasse").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Wolf in der Au").
+sequence(2,0, "Quartier Belvedere").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+restaurant("Blindengasse").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Mistelbach Bahnhof").
+restaurant("Haidestraße").

@@ -1,15 +1,32 @@
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Am Heidjöchl/Hausfeldstraße").
+initlocation(1,"Albertgasse").
+initlocation(1,"Bruck/Leitha Bahnhof").
+sequence(1,0, "Hofstatt Bahnhof").
+person(2).
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Erdberg").
+initlocation(2,"Winkeläckerstraße").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Satzberggasse").
+sequence(2,0, "Floridsdorfer Markt").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Floridsdorf").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Grillgasse").
+restaurant("Maurer Hauptplatz").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Südtiroler Platz/Hauptbahnhof").

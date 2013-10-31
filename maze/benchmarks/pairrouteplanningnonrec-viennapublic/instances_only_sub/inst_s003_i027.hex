@@ -1,5 +1,17 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Schönbrunn").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Perfektastraße").
+sequence(1,0, "Schönbrunn").
+person(2).
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Fischamend Bahnhof").
+sequence(2,0, "Heiligenstadt").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+restaurant("Stadion".
+restaurant("Taubstummengasse".
+restaurant("Spittelau").

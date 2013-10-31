@@ -1,11 +1,24 @@
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-sequence(0, "Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Wolfsthal Bahnhof").
+sequence(1,0, "Aderklaaer Straße").
+person(2).
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+sequence(2,0, "Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+restaurant("Michelhausen Bahnhof".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Rennbahnweg".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Gersthof").

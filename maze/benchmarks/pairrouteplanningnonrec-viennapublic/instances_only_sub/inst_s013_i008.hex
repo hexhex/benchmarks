@@ -1,21 +1,56 @@
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Schottenring").
+initlocation(1,"Donauinsel").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Hietzing").
+sequence(1,0, "Platt Bahnhof").
+person(2).
+initlocation(2,"Stubentor").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Schottentor").
+initlocation(2,"Blumental").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+sequence(2,0, "Stubentor").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Stephansplatz").
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Krottenbachstraße".
+restaurant("Fischamend Bahnhof".
+restaurant("Wr Neustadt Nord".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Zieglergasse".
+restaurant("Stadlau".
+restaurant("Braunschweiggasse".
+restaurant("Gersthof".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Neubaugasse".
+restaurant("Siemensstraße").

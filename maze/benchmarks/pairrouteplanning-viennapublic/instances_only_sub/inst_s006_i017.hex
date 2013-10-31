@@ -1,13 +1,28 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Erdberg").
+initlocation(1,"Perfektastraße").
+sequence(1,0, "Absdorf-Hippersdorf Bahnhof").
+person(2).
+initlocation(2,"Kagran").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+sequence(2,0, "Kagran").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Retz Bahnhof").
+restaurant("Purkersdorf Sanatorium".
+restaurant("Stephansplatz".
+restaurant("Blumental".
+restaurant("Wolfsthal Bahnhof".
+restaurant("Johnstraße".
+restaurant("Leobersdorf Bahnhof").

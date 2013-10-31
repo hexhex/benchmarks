@@ -1,21 +1,64 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Gaußplatz").
+initlocation(1,"Frödenplatz").
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Halteraugasse").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Migerkastraße").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Siebenhirten").
+sequence(1,0, "Gaußplatz").
+person(2).
+initlocation(2,"Lange Gasse").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Simmering").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Paradisgasse").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Gredlerstraße").
+initlocation(2,"Wienerfeldgasse").
+sequence(2,0, "Lange Gasse").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Hetzgasse").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Hermesstraße").
+restaurant("Himmelmutterweg").
+restaurant("Neulerchenfelder Str/Brunneng").
+restaurant("Süßenbrunn").
+restaurant("Stiftgasse").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Neilreichgasse").
+restaurant("Messe-Prater").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Obere Augartenstraße").
+restaurant("Kendlerstraße").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Preyergasse/Speising").
+restaurant("Penzing").
+restaurant("Langenlebarn Bahnhof").

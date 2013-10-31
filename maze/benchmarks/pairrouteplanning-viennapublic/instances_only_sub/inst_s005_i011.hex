@@ -1,11 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Johnstraße").
+sequence(1,0, "Höflein an der Donau Bahnhof").
+person(2).
+initlocation(2,"Neubaugasse").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Stadlau").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Schwedenplatz").
+sequence(2,0, "Neubaugasse").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Göllersdorf Bahnhof".
+restaurant("Wolf in der Au".
+restaurant("Volkstheater".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Nestroyplatz").

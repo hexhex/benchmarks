@@ -1,6 +1,20 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Resselgasse").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Braunhubergasse").
+sequence(1,0, "Resselgasse").
+person(2).
+initlocation(2,"Eckpergasse").
+initlocation(2,"Lobau").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Aßmayergasse").
+sequence(2,0, "Eckpergasse").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Kaiserstraße").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Paradisgasse").

@@ -1,13 +1,28 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Leopoldau").
+initlocation(1,"Silberwald Bahnhof").
+sequence(1,0, "Spillern Bahnhof").
+person(2).
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Schwechat Bahnhof").
+sequence(2,0, "Nußdorfer Straße").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Liesing").
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Krieau".
+restaurant("Guntramsdorf-Thallern".
+restaurant("Trautmannsdorf/Leitha Bf".
+restaurant("Südtiroler Platz/Hauptbahnhof").

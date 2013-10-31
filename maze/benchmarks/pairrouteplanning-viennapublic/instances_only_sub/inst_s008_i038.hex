@@ -1,17 +1,36 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Preyergasse/Speising").
+sequence(1,0, "Münchendorf Bahnhof").
+person(2).
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+sequence(2,0, "Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Praterkai").
+restaurant("Krieau".
+restaurant("Wr Neustadt Nord".
+restaurant("Lobau".
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Nestroyplatz".
+restaurant("Hausleiten Bahnhof".
+restaurant("Keplerplatz".
+restaurant("Petronell-Carnuntum Bahnhof").

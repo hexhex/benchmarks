@@ -1,6 +1,20 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Althanstraße").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Stadtpark").
+initlocation(1,"Arthaberplatz").
+sequence(1,0, "Althanstraße").
+person(2).
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Gemeinlebarn Bahnhof").
+sequence(2,0, "Purkersdorf Sanatorium").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Yppengasse").
+restaurant("Seyring Bahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Riedelgasse").

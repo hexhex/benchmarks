@@ -1,13 +1,28 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Ottakring").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Landstraße-Wien Mitte").
+sequence(1,0, "Ottakring").
+person(2).
+initlocation(2,"Stephansplatz").
+initlocation(2,"Schottenring").
+initlocation(2,"Erdberg").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+sequence(2,0, "Stephansplatz").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+restaurant("Unterradlberg Bahnhof".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Trasdorf Bahnhof".
+restaurant("Wilfleinsdorf Bahnhof".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Pilgramgasse").

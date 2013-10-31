@@ -1,21 +1,48 @@
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Gußhausstraße").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Waidhausenstraße").
+initlocation(1,"Stubentor").
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Schottenfeldgasse").
+sequence(1,0, "Herzogenburg Bahnhof").
+person(2).
+initlocation(2,"Sensengasse").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Heinrich-Drimmel-Platz").
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Empergergasse").
+initlocation(2,"Krankenhaus Hietzing").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Otto-Probst-Platz").
+initlocation(2,"Raxstraße/Rudolfshügelgasse").
+initlocation(2,"Neubaugasse").
+sequence(2,0, "Sensengasse").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Kärntner Ring/Oper").
+restaurant("Canisiusgasse").
+restaurant("Gußhausstraße").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Zieglergasse").
+restaurant("Konstanziagasse").
+restaurant("Unter Sankt Veit").
+restaurant("Maurer Lange Gasse").
+restaurant("Paulanergasse").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Klosterneuburg-Kierling Bf").

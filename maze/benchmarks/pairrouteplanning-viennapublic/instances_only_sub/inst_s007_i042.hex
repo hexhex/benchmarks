@@ -1,15 +1,32 @@
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Rathaus").
+sequence(1,0, "Parndorf Ort Bahnhof").
+person(2).
+initlocation(2,"Jägerstraße").
+initlocation(2,"Stadtpark").
+initlocation(2,"Stubentor").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Alterlaa").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Zentralfriedhof").
+sequence(2,0, "Jägerstraße").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+restaurant("Untereggendorf Bahnhof".
+restaurant("Atzgersdorf".
+restaurant("Schlachthausgasse".
+restaurant("Hirschstetten".
+restaurant("Oberdöbling".
+restaurant("Gaisruck Bahnhof".
+restaurant("Sierndorf Bahnhof").

@@ -1,5 +1,16 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Neubaugasse").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Kardinal-Nagl-Platz").
+sequence(1,0, "Neubaugasse").
+person(2).
+initlocation(2,"Hetzendorf").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+sequence(2,0, "Hetzendorf").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Stadlau".
+restaurant("Unter Kritzendorf Bahnhof".
+restaurant("Sitzenberg-Reidling Bahnhof").

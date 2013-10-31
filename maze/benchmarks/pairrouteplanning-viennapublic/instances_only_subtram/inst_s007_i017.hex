@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Prinzgasse").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Silberwald Bahnhof").
+sequence(1,0, "Prinzgasse").
+person(2).
+initlocation(2,"Seegasse").
+initlocation(2,"Neulerchenfelder Str/Haberlg").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Litfaßstraße").
+sequence(2,0, "Seegasse").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Hardeggasse").
+restaurant("Hintere Zollamtsstraße").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Marienbrücke").
+restaurant("Krankenhaus Hietzing").
+restaurant("Hardtgasse").
+restaurant("Salztorbrücke").
+restaurant("Weigelsdorf Bahnhof").

@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Spittelau").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Hernals").
+initlocation(1,"Pantucekgasse/Widholzgasse").
+sequence(1,0, "Geiselbergstraße").
+person(2).
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Laurenzgasse").
+sequence(2,0, "Regelsbrunn Bahnhof").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Stadlau").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Zentralfriedhof 3Tor").
+restaurant("Julius-Raab-Platz").
+restaurant("Guntramsdorf-Thallern").

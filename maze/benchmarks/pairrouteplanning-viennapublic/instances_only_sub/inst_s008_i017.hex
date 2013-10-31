@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Simmering").
+sequence(1,0, "Neusiedl am See Bahnhof").
+person(2).
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Alte Donau").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+sequence(2,0, "Höbersdorf Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+restaurant("Nußdorf".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Hardeggasse".
+restaurant("Hütteldorf".
+restaurant("Gänserndorf Bahnhof".
+restaurant("Aderklaaer Straße".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Penzing").

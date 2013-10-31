@@ -1,5 +1,16 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Stadtpark").
+initlocation(1,"Alterlaa").
+initlocation(1,"Wr Neustadt Nord").
+sequence(1,0, "Stadtpark").
+person(2).
+initlocation(2,"Hetzendorf").
+initlocation(2,"Alte Donau").
+initlocation(2,"Keplerplatz").
+sequence(2,0, "Hetzendorf").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Braunschweiggasse").
+restaurant("Krieau".
+restaurant("Oberdöbling".
+restaurant("Aderklaaer Straße").

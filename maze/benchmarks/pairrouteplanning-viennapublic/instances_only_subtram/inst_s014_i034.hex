@@ -1,21 +1,61 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Simmering").
+initlocation(1,"Schloss Hetzendorf").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Wienerbergbrücke").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Haidestraße").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Laurentiusplatz").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Franzensbrücke").
+initlocation(1,"Zippererstraße").
+sequence(1,0, "Dr-Karl-Renner-Ring").
+person(2).
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Lobau").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(2,"Halteraugasse").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Hernals").
+initlocation(2,"Skodagasse").
+sequence(2,0, "Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+restaurant("Neue Donau").
+restaurant("Meidling Hauptstraße").
+restaurant("Donauspital").
+restaurant("Enkplatz").
+restaurant("Quellenplatz").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Großjedlersdorf").
+restaurant("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Schloss Schönbrunn").
+restaurant("Michelhausen Bahnhof").
+restaurant("Rampengasse").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Paradisgasse").
+restaurant("Moosbierbaum-Heiligeneich Bf").

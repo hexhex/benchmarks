@@ -1,21 +1,52 @@
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Döblinger Hauptstr/Gatterburgg").
+initlocation(1,"Arminenstraße").
+initlocation(1,"Paradisgasse").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+sequence(1,0, "Südtiroler Platz/Hauptbahnhof").
+person(2).
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Bösendorferstraße").
+initlocation(2,"Liebknechtgasse").
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Rosenhügelstraße").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+sequence(2,0, "Johann-Strauß-Gasse").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Rustengasse").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Franzensbrücke").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Staglgasse").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Altes Landgut").
+restaurant("Polkorabplatz").
+restaurant("Absberggasse").
+restaurant("Breitenfurter Str/Liesingbr").

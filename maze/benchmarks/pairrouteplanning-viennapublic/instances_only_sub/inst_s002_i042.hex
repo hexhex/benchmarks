@@ -1,4 +1,12 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+sequence(1,0, "Purkersdorf Sanatorium").
+person(2).
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Schottentor").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+restaurant("Kledering Bahnhof".
+restaurant("Friedensbrücke").

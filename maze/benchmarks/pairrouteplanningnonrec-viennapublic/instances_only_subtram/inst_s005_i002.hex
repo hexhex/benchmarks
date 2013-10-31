@@ -1,7 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Julius-Raab-Platz").
+initlocation(1,"Ungargasse/Neulinggasse").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Schloss Hetzendorf").
+sequence(1,0, "Julius-Raab-Platz").
+person(2).
+initlocation(2,"Breitensee").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Rustengasse").
+sequence(2,0, "Breitensee").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Hütteldorfer Straße").
+restaurant("Silbergasse").
+restaurant("Fultonstraße").
+restaurant("Neilreichgasse").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Aumannplatz").

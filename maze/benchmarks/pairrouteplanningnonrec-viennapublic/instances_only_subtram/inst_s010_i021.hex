@@ -1,21 +1,44 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Simonygasse").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Schottenring").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Stadiongasse/Parlament").
+sequence(1,0, "Hausleiten Bahnhof").
+person(2).
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+sequence(2,0, "Friedrich-Engels-Platz").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Nordbahnstraße").
+restaurant("Martinstraße").
+restaurant("Saikogasse").
+restaurant("Unter Sankt Veit").
+restaurant("Bernhardtstalgasse").
+restaurant("Augasse").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Pötzleinsdorf").
+restaurant("Winckelmannstraße").

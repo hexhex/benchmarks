@@ -1,21 +1,44 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Hautzendorf Bahnhof").
+sequence(1,0, "Weigelsdorf Bahnhof").
+person(2).
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Stadion").
+sequence(2,0, "Sarasdorf Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Leopoldau").
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Ladendorf Bahnhof".
+restaurant("Schweglerstraße".
+restaurant("Aspern Nord".
+restaurant("Schottentor".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Thaliastraße".
+restaurant("Krieau".
+restaurant("Floridsdorf".
+restaurant("Lobau").

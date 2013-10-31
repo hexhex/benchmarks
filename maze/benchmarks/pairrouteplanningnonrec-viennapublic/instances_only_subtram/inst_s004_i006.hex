@@ -1,6 +1,20 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+sequence(1,0, "Enzersdorf bei Staatz Bahnhof").
+person(2).
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Hauffgasse").
+sequence(2,0, "Herzogenburg Bahnhof").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+restaurant("Kraygasse").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Donauinsel").
+restaurant("Gerasdorf Bahnhof").

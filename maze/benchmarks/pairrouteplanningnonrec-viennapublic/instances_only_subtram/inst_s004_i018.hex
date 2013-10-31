@@ -1,6 +1,20 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Siebensterngasse").
+initlocation(1,"Anschützgasse").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Gaußplatz").
+sequence(1,0, "Siebensterngasse").
+person(2).
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Maurer Lange Gasse").
+initlocation(2,"Forstnergasse").
+initlocation(2,"Antonigasse").
+sequence(2,0, "Sechskrügelgasse").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Stephansplatz").
+restaurant("Barawitzkagasse").
+restaurant("Weinhauser Gasse").
+restaurant("Gasometer").
+restaurant("Hauffgasse").

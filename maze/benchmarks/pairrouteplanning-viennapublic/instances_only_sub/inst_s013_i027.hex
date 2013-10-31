@@ -1,21 +1,56 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Stephansplatz").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Rathaus").
+initlocation(1,"Stubentor").
+initlocation(1,"Stadlau").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"Stadtpark").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Penzing").
+sequence(1,0, "Stephansplatz").
+person(2).
+initlocation(2,"Handelskai").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Nußdorf").
+initlocation(2,"Taborstraße").
+initlocation(2,"Hernals").
+initlocation(2,"Liesing").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Wolkersdorf Bahnhof").
+sequence(2,0, "Handelskai").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+restaurant("Wampersdorf Bahnhof".
+restaurant("Rathaus".
+restaurant("Neubau-Kreuzstetten Bahnhof".
+restaurant("Nestroyplatz".
+restaurant("Hofstatt Bahnhof".
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Nußdorf".
+restaurant("Kettenbrückengasse".
+restaurant("Hollabrunn Bahnhof".
+restaurant("Bahnhof Meidling".
+restaurant("Zentralfriedhof".
+restaurant("Geiselbergstraße".
+restaurant("Friedensbrücke").

@@ -1,19 +1,41 @@
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Hietzing").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Spittelau").
+initlocation(1,"Rathaus").
+initlocation(1,"Schottenring").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(1,0, "Hietzing").
+person(2).
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+sequence(2,0, "Mistelbach Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Breitensee".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Unter Sankt Veit".
+restaurant("Theresienfeld Bahnhof".
+restaurant("Reumannplatz".
+restaurant("Hirschstetten".
+restaurant("Vorgartenstraße".
+restaurant("Zellerndorf Bahnhof".
+restaurant("Ladendorf Bahnhof").

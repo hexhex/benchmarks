@@ -1,21 +1,49 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Gredlerstraße").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Hetzgasse").
+initlocation(1,"Hohe Warte").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+sequence(1,0, "Gredlerstraße").
+person(2).
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Enkplatz").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Migerkastraße").
+initlocation(2,"Donauspital").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Fickeysstraße").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Kranzgasse").
+sequence(2,0, "Tulln Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Laaer-Berg-Straße").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+restaurant("Matthäus-Jiszda-Straße").
+restaurant("Halteraugasse").
+restaurant("Strebersdorf").
+restaurant("Atzgersdorf").
+restaurant("Hofwiesengasse").
+restaurant("Braunhubergasse").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Anton-Schall-Gasse").
+restaurant("Weihburggasse").
+restaurant("Antonigasse").

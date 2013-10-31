@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Baumgarten").
+initlocation(1,"Dornbach, Güpferlingstraße").
+sequence(1,0, "Baumgarten").
+person(2).
+initlocation(2,"Carminweg").
+initlocation(2,"Göllersdorf Bahnhof").
+sequence(2,0, "Carminweg").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Himberg Bahnhof").
+restaurant("Schottentor").
+restaurant("Krankenhaus Hietzing").

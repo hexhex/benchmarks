@@ -1,6 +1,20 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+sequence(1,0, "Klosterneuburg-Kierling Bf").
+person(2).
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Rochusgasse").
+sequence(2,0, "Kagraner Platz").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+restaurant("Mistelbach Stadt".
+restaurant("Erdberg".
+restaurant("Hausleiten Bahnhof".
+restaurant("Stubentor").

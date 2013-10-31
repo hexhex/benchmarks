@@ -1,4 +1,12 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Hohe Warte").
+initlocation(1,"Maria Ellend Bahnhof").
+sequence(1,0, "Hohe Warte").
+person(2).
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Wr Neustadt Nord").
+sequence(2,0, "Laaer-Berg-Straße").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Fichtnergasse").
+restaurant("Carminweg").
+restaurant("Herzogenburg Bahnhof").

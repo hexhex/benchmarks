@@ -1,4 +1,13 @@
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Rathaus").
+initlocation(1,"Sarasdorf Bahnhof").
+sequence(1,0, "Rathaus").
+person(2).
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+sequence(2,0, "Frättingsdorf Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Atzenbrugg Bahnhof".
+restaurant("Lobau").

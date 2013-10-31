@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Hermesstraße").
+initlocation(1,"Tulln Stadt Bahnhof").
+sequence(1,0, "Hermesstraße").
+person(2).
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Empergergasse").
+sequence(2,0, "Trondheimgasse").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+restaurant("Roßauer Lände").
+restaurant("Grillgasse").

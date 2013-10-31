@@ -1,13 +1,28 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Stadion").
+sequence(1,0, "Silberwald Bahnhof").
+person(2).
+initlocation(2,"Stadtpark").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Simmering").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Platt Bahnhof").
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Hardeggasse".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Breitensee").

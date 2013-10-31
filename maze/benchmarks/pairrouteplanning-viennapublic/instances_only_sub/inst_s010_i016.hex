@@ -1,21 +1,44 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Schwedenplatz").
+sequence(1,0, "Pressbaum Bahnhof").
+person(2).
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Donauspital").
+initlocation(2,"Donauinsel").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Wolkersdorf Bahnhof").
+sequence(2,0, "Dresdner Straße").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Haidestraße").
+restaurant("Praterkai".
+restaurant("Gramatneusiedl Bahnhof".
+restaurant("Breitenwaida Bahnhof".
+restaurant("St Pölten Traisenpark P+R Nord".
+restaurant("Tulln Bahnhof".
+restaurant("Braunschweiggasse".
+restaurant("Alser Straße".
+restaurant("Donauspital".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Enzersdorf bei Staatz Bahnhof").

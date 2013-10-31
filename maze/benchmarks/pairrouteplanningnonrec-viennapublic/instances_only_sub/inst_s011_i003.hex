@@ -1,21 +1,48 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Thaliastraße").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Wildungsmauer Bahnhof").
+sequence(1,0, "Thaliastraße").
+person(2).
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Traisengasse").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Handelskai").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Donauinsel").
+sequence(2,0, "Pfaffstätten Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+restaurant("Trasdorf Bahnhof".
+restaurant("Liesing".
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Kendlerstraße".
+restaurant("Gaisruck Bahnhof".
+restaurant("Sierndorf Bahnhof".
+restaurant("Gumpendorfer Straße".
+restaurant("Pressbaum Bahnhof".
+restaurant("St Pölten Hauptbahnhof".
+restaurant("Rekawinkel Bahnhof".
 restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").

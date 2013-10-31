@@ -1,21 +1,60 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Lederergasse").
+initlocation(1,"Kraygasse").
+initlocation(1,"Enkplatz").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Höchstädtplatz").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Guntherstraße").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Rosenhügelstraße").
+initlocation(1,"Friedrich-Engels-Platz").
+initlocation(1,"Kagran").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+sequence(1,0, "Am Schöpfwerk").
+person(2).
+initlocation(2,"Hopfengasse").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Breitensee").
+initlocation(2,"Kagran").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Stadion").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Beingasse").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Alte Donau").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+sequence(2,0, "Hopfengasse").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Stadiongasse/Parlament").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Wienerfeldgasse").
+restaurant("Satzberggasse").
+restaurant("Salztorbrücke").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Stephansplatz").
+restaurant("Sollenau Bahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Ober Sankt Veit").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Simmering").

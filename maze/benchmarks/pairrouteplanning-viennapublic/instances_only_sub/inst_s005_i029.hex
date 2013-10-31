@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Leopoldau").
+initlocation(1,"Nußdorf").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+sequence(1,0, "Leopoldau").
+person(2).
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Johnstraße").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+sequence(2,0, "Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Blumental").
+restaurant("Wampersdorf Bahnhof".
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Wr Neustadt Nord".
+restaurant("Kottingbrunn Bahnhof").

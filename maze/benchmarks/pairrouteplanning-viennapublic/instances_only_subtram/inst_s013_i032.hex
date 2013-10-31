@@ -1,21 +1,56 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Arthaberplatz").
+initlocation(1,"Erndtgasse").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Kaiserstraße/Westbahnstraße").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Migerkastraße").
+initlocation(1,"Leopoldau").
+initlocation(1,"Rustengasse").
+initlocation(1,"Wexstraße").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Hildebrandgasse").
+initlocation(1,"Aßmayergasse").
+sequence(1,0, "Arthaberplatz").
+person(2).
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Paradisgasse").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Canisiusgasse").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Linzer Straße/Hochsatzengasse").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Johannes-Krawarik-Gasse").
+sequence(2,0, "Herzogenburg Bahnhof").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Scheibenbergstraße").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Weinhauser Gasse").
+restaurant("Strozzigasse").
+restaurant("Perntergasse").
 restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
+restaurant("Obere Donaustraße").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Jedlersdorf").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Migerkastraße").
+restaurant("Aßmayergasse").
+restaurant("Hardtgasse").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").

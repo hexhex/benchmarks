@@ -1,21 +1,56 @@
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Schottenring").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Haslau an der Donau Bahnhof").
+sequence(1,0, "Theresienfeld Bahnhof").
+person(2).
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Obereggendorf Bahnhof").
+sequence(2,0, "Maria Ellend Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Erdberg".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Silberwald Bahnhof".
+restaurant("Alterlaa".
+restaurant("Aspern Nord".
+restaurant("Spillern Bahnhof".
+restaurant("Enkplatz".
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Wampersdorf Bahnhof".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Helmahof Bahnhof".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Tulln Stadt Bahnhof").

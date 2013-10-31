@@ -1,5 +1,16 @@
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Stephansplatz").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+sequence(1,0, "Stephansplatz").
+person(2).
+initlocation(2,"Schottentor").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Hollabrunn Bahnhof").
+sequence(2,0, "Schottentor").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Siemensstraße".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Grillgasse").

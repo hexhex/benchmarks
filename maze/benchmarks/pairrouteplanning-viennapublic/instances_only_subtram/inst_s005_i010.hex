@@ -1,11 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Oberfeldgasse").
+initlocation(1,"Klosterneub Str/Wallensteinstr").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+sequence(1,0, "Oberfeldgasse").
+person(2).
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Anschützgasse").
+initlocation(2,"Gemeinlebarn Bahnhof").
+sequence(2,0, "Pfaffstätten Bahnhof").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Kraygasse").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Kagran").
+restaurant("Lerchenfelder Straße").
 restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+restaurant("Kledering Bahnhof").

@@ -1,11 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Herrengasse").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Friedensbrücke").
+sequence(1,0, "Herrengasse").
+person(2).
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Praterkai").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Bad Vöslau Bahnhof").
+sequence(2,0, "Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Penzing").
+restaurant("Herrengasse".
+restaurant("Dresdner Straße".
+restaurant("Mödling Bahnhof".
+restaurant("Unter Sankt Veit".
+restaurant("Rathaus").

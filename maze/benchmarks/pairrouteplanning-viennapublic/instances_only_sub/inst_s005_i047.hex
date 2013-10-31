@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Floridsdorf").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+sequence(1,0, "Floridsdorf").
+person(2).
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Karlsplatz").
+sequence(2,0, "Fischamend Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+restaurant("Seyring Bahnhof".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Münchendorf Bahnhof".
+restaurant("Schönborn Bahnhof".
+restaurant("Pfaffstätten Bahnhof").

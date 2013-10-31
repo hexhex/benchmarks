@@ -1,21 +1,60 @@
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Hütteldorfer Str/Hochsatzeng").
+initlocation(1,"Baumgarten").
+initlocation(1,"Rosenhügelstraße").
+initlocation(1,"Eckpergasse").
+initlocation(1,"Rustengasse").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Yppengasse").
+initlocation(1,"Alser Straße").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Vinzenzgasse").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Leopoldau").
+sequence(1,0, "Hütteldorfer Str/Hochsatzeng").
+person(2).
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Yppengasse").
+initlocation(2,"Leberberg").
+initlocation(2,"Oberzellergasse").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Martinstraße").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Brigittaplatz").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Am Tabor").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Brigittaplatz").
+restaurant("Schwarzspanierstraße").
+restaurant("Thaliastraße/Maroltingergasse").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Urban-Loritz-Platz").
+restaurant("Neubaugasse").
+restaurant("Burgring").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Zieglergasse").
+restaurant("Sommarugagasse").
+restaurant("Gusenleithnergasse").
+restaurant("Sahulkastraße").
+restaurant("Fichtnergasse").
+restaurant("Perfektastraße").

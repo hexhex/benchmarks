@@ -1,21 +1,53 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Simmering").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Blumental").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Jägerstraße").
+sequence(1,0, "Rennbahnweg").
+person(2).
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Stadion").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Floridsdorf").
+sequence(2,0, "Wildungsmauer Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Achau Bahnhof").
+restaurant("Matzleinsdorfer Platz".
+restaurant("Roßauer Lände".
+restaurant("Helmahof Bahnhof".
+restaurant("Aspernstraße".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Zippererstraße".
+restaurant("Sierndorf Bahnhof".
+restaurant("Stadtpark".
+restaurant("Schwedenplatz".
+restaurant("Westbahnhof".
+restaurant("Burggasse-Stadthalle".
+restaurant("Erzherzog-Karl-Straße").

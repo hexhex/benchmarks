@@ -1,4 +1,12 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Gußhausstraße").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+sequence(1,0, "Gußhausstraße").
+person(2).
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Gaußplatz").
+sequence(2,0, "Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Hernals").
+restaurant("Litfaßstraße").
+restaurant("Verbindungsbahn").

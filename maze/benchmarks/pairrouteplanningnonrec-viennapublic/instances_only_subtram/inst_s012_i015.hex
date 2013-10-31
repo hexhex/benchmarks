@@ -1,21 +1,52 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Laurentiusplatz").
+initlocation(1,"Spittelau").
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Johnstraße").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Urban-Loritz-Platz").
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Handelskai").
+sequence(1,0, "Laxenburger Straße/Troststraße").
+person(2).
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Glatzgasse").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Blumengasse").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Kölblgasse").
+initlocation(2,"Rosenhügelstraße").
+sequence(2,0, "Reinlgasse/Märzstraße").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+restaurant("Stefan-Fadinger-Platz").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Nordbahnstraße").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Barawitzkagasse").
+restaurant("Bernhardtstalgasse").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Eckpergasse").
+restaurant("Rathaus").
+restaurant("Oberfeldgasse/Spargelfeldstr").

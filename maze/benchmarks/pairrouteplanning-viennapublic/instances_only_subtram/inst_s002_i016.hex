@@ -1,4 +1,12 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Thaliastraße/Brunnengasse").
+sequence(1,0, "Konstanziagasse").
+person(2).
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Hofwiesengasse").
+sequence(2,0, "Grinzinger Straße").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Svetelskystraße").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("An den langen Lüssen").

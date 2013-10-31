@@ -1,21 +1,45 @@
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Ottakring").
+initlocation(1,"Donaumarina").
+initlocation(1,"Laa an der Thaya Bahnhof").
+sequence(1,0, "Pressbaum Bahnhof").
+person(2).
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Aderklaaer Straße").
+sequence(2,0, "Kagraner Platz").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+restaurant("Theresienfeld Bahnhof".
+restaurant("Zippererstraße".
+restaurant("Floridsdorf".
+restaurant("Tulln Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Retz Bahnhof".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Muckendorf-Wipfing Bahnhof").

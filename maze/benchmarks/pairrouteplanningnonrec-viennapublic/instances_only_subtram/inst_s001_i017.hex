@@ -1,3 +1,8 @@
-initlocation("Jägerstraße").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+sequence(1,0, "Hernalser Hauptstr/Wattgasse").
+person(2).
+initlocation(2,"Siemensstraße").
+sequence(2,0, "Siemensstraße").
+possiblemeetinglocations("Guneschgasse").
+restaurant("Plößlgasse").

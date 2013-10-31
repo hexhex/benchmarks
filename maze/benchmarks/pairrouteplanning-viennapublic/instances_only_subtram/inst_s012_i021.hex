@@ -1,21 +1,52 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Rennweg").
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Marienbrücke").
+initlocation(1,"Marx-Meidlinger-Straße").
+sequence(1,0, "Rennweg").
+person(2).
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Simmering").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Augasse").
+initlocation(2,"Leopoldau").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+sequence(2,0, "Stadiongasse/Parlament").
+possiblemeetinglocations("Teichgasse").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Huglgasse").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Rosenhügelstraße").
+restaurant("Perfektastraße").
+restaurant("Löwengasse").
+restaurant("Schmerlingplatz").
+restaurant("Frödenplatz").
+restaurant("Hetzendorf").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Autokaderstraße").
+restaurant("Forstnergasse").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Simmering").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Michelhausen Bahnhof").

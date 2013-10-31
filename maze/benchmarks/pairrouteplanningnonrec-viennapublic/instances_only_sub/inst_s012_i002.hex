@@ -1,21 +1,52 @@
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Floridsdorf").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Stockerau Bahnhof").
+sequence(1,0, "Floridsdorf").
+person(2).
+initlocation(2,"Neubaugasse").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Traisengasse").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Neue Donau").
+initlocation(2,"Haidestraße").
+initlocation(2,"Baden Bahnhof").
+sequence(2,0, "Neubaugasse").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Braunschweiggasse").
+restaurant("Oberdöbling".
+restaurant("Korneuburg Bahnhof".
+restaurant("Matzleinsdorfer Platz".
+restaurant("Michelbeuern-AKH".
+restaurant("Lanzendorf-Rannersdorf Bahnhof".
+restaurant("Friedensbrücke".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Münchendorf Bahnhof".
+restaurant("Donauspital".
+restaurant("Aspern Nord".
+restaurant("Atzgersdorf".
+restaurant("Perfektastraße").

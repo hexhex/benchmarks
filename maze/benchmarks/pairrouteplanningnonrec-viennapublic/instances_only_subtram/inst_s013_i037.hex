@@ -1,21 +1,57 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Marienbrücke").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Neue Donau").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Dr-Karl-Renner-Ring").
+sequence(1,0, "Marienbrücke").
+person(2).
+initlocation(2,"Thaliastraße/Maroltingergasse").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Rustengasse").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Fasangasse").
+initlocation(2,"Haidestraße").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+sequence(2,0, "Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+restaurant("Mayerhofgasse").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Thaliastraße/Maroltingergasse").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Schloss Hetzendorf").
+restaurant("Trondheimgasse").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Carabelligasse").
+restaurant("Versorgungsheimplatz").
+restaurant("Josefstädter Straße").
+restaurant("Himmelmutterweg").

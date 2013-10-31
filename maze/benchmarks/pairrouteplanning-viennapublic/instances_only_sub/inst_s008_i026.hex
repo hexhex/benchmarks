@@ -1,17 +1,36 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Praterstern").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Donauinsel").
+sequence(1,0, "Kaiserebersdorf").
+person(2).
+initlocation(2,"Floridsdorf").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Penzing").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+sequence(2,0, "Floridsdorf").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+restaurant("Alser Straße".
+restaurant("Am Schöpfwerk".
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Hofstatt Bahnhof".
+restaurant("Gasometer".
+restaurant("Platt Bahnhof".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Höflein an der Donau Bahnhof").

@@ -1,15 +1,32 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Löwengasse").
+sequence(1,0, "Viehofen Bahnhof").
+person(2).
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Plößlgasse").
+initlocation(2,"Hütteldorf, Bujattigasse").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Penzing").
+sequence(2,0, "Mistelbach Bahnhof").
+possiblemeetinglocations("Wallrißstraße").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Siebenhirten").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Stockerau Bahnhof").
+restaurant("Wattmanngasse").

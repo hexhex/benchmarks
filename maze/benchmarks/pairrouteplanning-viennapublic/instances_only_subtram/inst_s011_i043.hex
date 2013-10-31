@@ -1,21 +1,48 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Aspern, Oberdorfstraße").
+initlocation(1,"Hütteldorfer Str/Hochsatzeng").
+initlocation(1,"Wildgansplatz").
+initlocation(1,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Albertgasse").
+initlocation(1,"Lerchenfelder Straße").
+sequence(1,0, "Aspern, Oberdorfstraße").
+person(2).
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Raxstraße/Rudolfshügelgasse").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Aumannplatz").
+sequence(2,0, "St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+restaurant("Quellenplatz").
+restaurant("Gusenleithnergasse").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Teichgasse").
+restaurant("Spittelau").
+restaurant("Stephansplatz").
+restaurant("Thaliastraße/Haberlgasse").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Münchendorf Bahnhof").
+restaurant("Brünnlbadgasse").
+restaurant("Am Heumarkt").

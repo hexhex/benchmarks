@@ -1,6 +1,20 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Gasometer").
+initlocation(1,"Oberfeldgasse").
+sequence(1,0, "Hörersdorf Bahnhof").
+person(2).
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Sahulkastraße").
+initlocation(2,"Augasse").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+sequence(2,0, "Grinzinger Straße").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Stollgasse").
+restaurant("Rankgasse").
+restaurant("Rennbahnweg").
+restaurant("Johnstraße").
+restaurant("Friedensbrücke").

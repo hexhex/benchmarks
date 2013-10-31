@@ -1,11 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Knöllgasse/Davidgasse").
+sequence(1,0, "Hofstatt Bahnhof").
+person(2).
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Hietzing").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Viehofen Bahnhof").
+sequence(2,0, "Stockerau Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+restaurant("Fichtnergasse").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Brünner Straße").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Gunoldstraße").

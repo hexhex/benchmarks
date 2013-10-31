@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Glatzgasse").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Gottschalkgasse/Enkplatz").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Volkstheater").
+initlocation(1,"Unter St Veit, Hummelgasse").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Linzer Straße/Hochsatzengasse").
+initlocation(1,"Aumannplatz").
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+initlocation(1,"Schuhmeierplatz").
+sequence(1,0, "Wr Neustadt Civitas Nova").
+person(2).
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Absberggasse").
+initlocation(2,"Herrengasse").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Kraygasse").
+initlocation(2,"Krankenhaus Hietzing").
+initlocation(2,"Leyserstraße").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Zentralfriedhof 2Tor").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Burgring").
+initlocation(2,"Linzer Straße/Lützowgasse").
+sequence(2,0, "Schmerlingplatz").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Kaiserstraße").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+restaurant("Kölblgasse").
+restaurant("Mühlfeldgasse").
+restaurant("Bahnhof Meidling").
+restaurant("Schloss Belvedere").
+restaurant("Haidestraße").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Traismauer Bahnhof").
+restaurant("Hausleiten Bahnhof").
+restaurant("Himmelmutterweg").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Hofstatt Bahnhof").
+restaurant("Blindengasse").

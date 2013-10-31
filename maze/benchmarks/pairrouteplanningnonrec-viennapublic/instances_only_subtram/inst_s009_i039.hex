@@ -1,19 +1,40 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Prater, Hauptallee").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Gredlerstraße").
+initlocation(1,"Großjedlersdorf").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Martinstraße").
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+initlocation(1,"Litfaßstraße").
+sequence(1,0, "Knöllgasse/Davidgasse").
+person(2).
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Fasangasse").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Breitensee").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+sequence(2,0, "Friedensbrücke").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Achau Bahnhof").
+restaurant("Versorgungsheimplatz").
+restaurant("Maurer Lange Gasse").
+restaurant("Fichtnergasse").
+restaurant("Schloss Schönbrunn").
+restaurant("Rothneusiedl").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Stiftgasse").
+restaurant("Redtenbachergasse").
+restaurant("Waidhausenstraße").

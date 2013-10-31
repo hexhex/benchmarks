@@ -1,6 +1,20 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Absberggasse").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Neuwaldegg").
+sequence(1,0, "Absberggasse").
+person(2).
+initlocation(2,"Plößlgasse").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Linzer Straße/Lützowgasse").
+sequence(2,0, "Plößlgasse").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Alterlaa").
+restaurant("Koloniestraße").
+restaurant("Huglgasse").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Staglgasse").

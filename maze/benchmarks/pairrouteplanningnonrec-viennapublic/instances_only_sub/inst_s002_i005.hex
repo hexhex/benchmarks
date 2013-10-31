@@ -1,4 +1,12 @@
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Hütteldorf").
+sequence(1,0, "Achau Bahnhof").
+person(2).
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+sequence(2,0, "Mödling Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Kagraner Platz").

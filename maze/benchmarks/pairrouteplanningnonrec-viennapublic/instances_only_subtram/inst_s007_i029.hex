@@ -1,15 +1,32 @@
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Forstnergasse").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Nordbahnstraße").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Guneschgasse").
+sequence(1,0, "Forstnergasse").
+person(2).
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Gasometer").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Tesarekplatz").
+initlocation(2,"Erdberg").
+sequence(2,0, "Döblinger Bad").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Hernalser Gürtel").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Rathaus").
+restaurant("Gloriettegasse").
+restaurant("Shuttleworthstraße").
+restaurant("Ober Sankt Veit").
+restaurant("Fasangasse").
+restaurant("Blindengasse").

@@ -1,4 +1,12 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Penzing").
+initlocation(1,"Matzleinsdorfer Platz").
+sequence(1,0, "Penzing").
+person(2).
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+sequence(2,0, "Strasshof Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Handelskai").
+restaurant("Großfeldsiedlung".
+restaurant("Neubau-Kreuzstetten Bahnhof").

@@ -1,21 +1,48 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Polgarstraße").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Blindengasse").
+initlocation(1,"Albertgasse").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Schloss Hetzendorf").
+initlocation(1,"Beingasse").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Linzer Straße/Hochsatzengasse").
+initlocation(1,"An den langen Lüssen").
+sequence(1,0, "Polgarstraße").
+person(2).
+initlocation(2,"Simonygasse").
+initlocation(2,"Glatzgasse").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Oberzellergasse").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Wexstraße").
+initlocation(2,"Schloss Schönbrunn").
+sequence(2,0, "Simonygasse").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Schlickgasse").
+restaurant("Donauinsel").
+restaurant("Bernhardtstalgasse").
+restaurant("Kagran").
+restaurant("Rosensteingasse").
+restaurant("Koloniestraße").
+restaurant("Bahnhofstraße").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Weidlingau Bahnhof").
+restaurant("Floridsdorfer Markt").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Klosterneuburg-Kierling Bf").

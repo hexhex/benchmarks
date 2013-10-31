@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-sequence(0, "Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Hopfengasse").
+initlocation(1,"Taborstraße").
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Alsegger Straße").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+sequence(1,0, "Hopfengasse").
+person(2).
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Dommayergasse").
+sequence(2,0, "Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Skodagasse").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Am Tabor").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Messe-Prater").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Hadersdorf Bahnhof").

@@ -1,13 +1,28 @@
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Wilhelminenstraße/Wattgasse").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Nußdorf, Beethovengang").
+sequence(1,0, "Sierndorf Bahnhof").
+person(2).
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Mayerhofgasse").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Migerkastraße").
+initlocation(2,"Hütteldorfer Straße").
+sequence(2,0, "Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Hoßplatz").
+restaurant("Winkeläckerstraße").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Hardeggasse").
+restaurant("Plößlgasse").
+restaurant("Geiereckstraße").
+restaurant("Erdbergstr/Schlachthausgasse").

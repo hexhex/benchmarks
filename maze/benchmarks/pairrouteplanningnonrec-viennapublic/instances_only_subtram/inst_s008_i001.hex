@@ -1,17 +1,36 @@
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Rathaus").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Längenfeldgasse/Flurschützstr").
+initlocation(1,"Antonigasse").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+sequence(1,0, "Rathaus").
+person(2).
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Hetzgasse").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Alte Donau").
+initlocation(2,"Oberlaa, Therme Wien").
+initlocation(2,"Hoßplatz").
+sequence(2,0, "Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Aumannplatz").
+restaurant("Sonnergasse").
+restaurant("Mariahilfer Gürtel").
+restaurant("Nordbrücke").
+restaurant("Wallensteinplatz").
+restaurant("Gutraterplatz").
+restaurant("Traismauer Bahnhof").
+restaurant("Löwengasse").
+restaurant("Glatzgasse").

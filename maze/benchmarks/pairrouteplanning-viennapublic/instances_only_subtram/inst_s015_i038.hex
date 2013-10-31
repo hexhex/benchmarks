@@ -1,21 +1,64 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Simonygasse").
+initlocation(1,"Weihburggasse").
+initlocation(1,"Herrengasse").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Geiereckstraße").
+initlocation(1,"Rosenhügelstraße").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Stammersdorf").
+sequence(1,0, "Simonygasse").
+person(2).
+initlocation(2,"Ameisgasse").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Penzing").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Beingasse").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Römergasse").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Thaliastraße/Maroltingergasse").
+sequence(2,0, "Ameisgasse").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+restaurant("Neue Donau").
+restaurant("Kranzgasse").
+restaurant("Wenzgasse").
+restaurant("Lobau").
+restaurant("Schleiergasse").
+restaurant("Absdorf-Hippersdorf Bahnhof").
 restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
+restaurant("Blumental").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Wallensteinplatz").
+restaurant("Obere Augartenstraße").
+restaurant("Laurenzgasse").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Alfred-Adler-Straße").

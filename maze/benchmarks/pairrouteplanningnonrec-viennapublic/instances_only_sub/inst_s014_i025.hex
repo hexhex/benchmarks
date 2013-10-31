@@ -1,21 +1,60 @@
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Enkplatz").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Gersthof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Herzogenburg Stadt").
+sequence(1,0, "Neulengbach Bahnhof").
+person(2).
+initlocation(2,"Sankt Marx").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Handelskai").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Nußdorf").
+initlocation(2,"Hernals").
+initlocation(2,"Praterstern").
+initlocation(2,"Ebreichsdorf Bahnhof").
+sequence(2,0, "Sankt Marx").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Hütteldorf").
+restaurant("Schwedenplatz".
+restaurant("Hausleiten Bahnhof".
+restaurant("Friedensbrücke".
+restaurant("Brünner Straße".
+restaurant("Hirschstetten".
+restaurant("Spittelau".
+restaurant("Tulln Bahnhof".
+restaurant("Hollabrunn Bahnhof".
+restaurant("Unter Sankt Veit".
+restaurant("Aderklaaer Straße".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Ebenfurth Bahnhof".
+restaurant("Alser Straße".
+restaurant("Atzenbrugg Bahnhof").

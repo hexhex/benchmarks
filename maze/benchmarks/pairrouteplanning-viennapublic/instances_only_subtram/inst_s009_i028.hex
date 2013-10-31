@@ -1,19 +1,41 @@
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Martinstraße").
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Altes Landgut").
+initlocation(1,"Alser Straße").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Grinzinger Straße").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+sequence(1,0, "Martinstraße").
+person(2).
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Blindengasse").
+initlocation(2,"Erdberg").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Thaliastraße/Maroltingergasse").
+sequence(2,0, "Zellerndorf Bahnhof").
+possiblemeetinglocations("Shuttleworthstraße").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Jägerstraße").
+restaurant("Svetelskystraße").
+restaurant("Blindengasse").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Pressbaum Bahnhof").
+restaurant("Rodaun").
+restaurant("Stadlau").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Alser Straße").
+restaurant("Gumpendorfer Straße").

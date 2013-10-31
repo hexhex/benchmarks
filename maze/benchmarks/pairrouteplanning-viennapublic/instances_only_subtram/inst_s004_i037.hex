@@ -1,6 +1,20 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Koloniestraße").
+initlocation(1,"Braunhubergasse").
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Atzenbrugg Bahnhof").
+sequence(1,0, "Koloniestraße").
+person(2).
+initlocation(2,"Kärntner Ring/Oper").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Oberolberndorf Bahnhof").
+sequence(2,0, "Kärntner Ring/Oper").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+possiblemeetinglocations("Kaiserstraße").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Floridsdorfer Brücke").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Rennbahnweg").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Schwedenplatz").

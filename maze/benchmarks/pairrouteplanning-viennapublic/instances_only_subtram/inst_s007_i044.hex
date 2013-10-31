@@ -1,15 +1,32 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Nußdorf").
+sequence(1,0, "Kaiserstraße/Neustiftgasse").
+person(2).
+initlocation(2,"Camillo-Sitte-Gasse").
+initlocation(2,"Laurentiusplatz").
+initlocation(2,"Nordbahnstraße").
+initlocation(2,"Migerkastraße").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Helmahof Bahnhof").
+sequence(2,0, "Camillo-Sitte-Gasse").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Jagdschloßgasse").
+possiblemeetinglocations("Stadlergasse").
+restaurant("Maurer Hauptplatz").
+restaurant("Sonnergasse").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Vorgartenstraße").
+restaurant("Atzgersdorf").
+restaurant("Salztorbrücke").
+restaurant("Schmerlingplatz").

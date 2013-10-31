@@ -1,21 +1,56 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Donauspital").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Erlaaer Straße").
+sequence(1,0, "Unterpurkersdorf Bahnhof").
+person(2).
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Strebersdorf").
+sequence(2,0, "Dresdner Straße").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+restaurant("Wolfsthal Bahnhof".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Götzendorf Bahnhof".
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Retz Bahnhof".
+restaurant("Schleinbach Bahnhof".
+restaurant("Spittelau".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Paasdorf Bahnhof".
+restaurant("Spillern Bahnhof".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Zieglergasse".
+restaurant("Neubaugasse").

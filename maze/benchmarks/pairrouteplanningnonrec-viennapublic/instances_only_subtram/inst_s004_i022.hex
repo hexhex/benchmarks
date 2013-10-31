@@ -1,6 +1,20 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Römergasse").
+initlocation(1,"Blumental").
+initlocation(1,"Gasometer").
+initlocation(1,"Stadiongasse/Parlament").
+sequence(1,0, "Römergasse").
+person(2).
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Wienerbergbrücke").
+sequence(2,0, "Neulengbach Bahnhof").
+possiblemeetinglocations("Landesgerichtsstraße").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+restaurant("Aderklaaer Straße").
+restaurant("Weidlingau Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Langobardenstraße/Kapellenweg").

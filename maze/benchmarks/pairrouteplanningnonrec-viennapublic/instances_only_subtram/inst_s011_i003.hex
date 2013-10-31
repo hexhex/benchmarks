@@ -1,21 +1,49 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(1,"Grillgasse").
+initlocation(1,"Hütteldorfer Str/Hochsatzeng").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Traisengasse").
+initlocation(1,"Sarasdorf Bahnhof").
+sequence(1,0, "Atzgersdorf").
+person(2).
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Hütteldorfer Str/Hochsatzeng").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Forstnergasse").
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Grinzinger Straße").
+sequence(2,0, "Kledering Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Augasse").
+restaurant("Mayerhofgasse").
+restaurant("Bahnhof Meidling").
+restaurant("Marx-Meidlinger-Straße").
+restaurant("Rußbergstraße").
+restaurant("Handelskai").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Radetzkyplatz").
+restaurant("Winkeläckerstraße").
+restaurant("Liesing").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Retz Bahnhof").

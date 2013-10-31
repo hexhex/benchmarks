@@ -1,13 +1,28 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Lobau").
+sequence(1,0, "Hetzmannsdorf-Wullersdorf Bf").
+person(2).
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Penzing").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+sequence(2,0, "Michelhausen Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+restaurant("Josefstädter Straße".
+restaurant("Lobau".
+restaurant("Erlaaer Straße".
+restaurant("Achau Bahnhof".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Spittelau").

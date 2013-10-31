@@ -1,15 +1,32 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-sequence(0, "Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Gewerbepark Stadlau Mitte").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Otto-Probst-Platz").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Pokornygasse").
+sequence(1,0, "Gewerbepark Stadlau Mitte").
+person(2).
+initlocation(2,"Alfred-Adler-Straße").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Blechturmgasse").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+sequence(2,0, "Alfred-Adler-Straße").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Schloss Schönbrunn").
+restaurant("Kagraner Platz").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Stammersdorf").
+restaurant("Pressbaum Bahnhof").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Hofwiesengasse").

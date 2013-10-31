@@ -1,21 +1,64 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Schloss Schönbrunn").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+initlocation(1,"Stadlau").
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+initlocation(1,"Wildgansplatz").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Liebknechtgasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+sequence(1,0, "Schloss Schönbrunn").
+person(2).
+initlocation(2,"Marx-Meidlinger-Straße").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Stollgasse").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Donaustadtstraße").
+initlocation(2,"Favoritenstraße/Troststraße").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Stammersdorf").
+initlocation(2,"Jägerstraße").
+sequence(2,0, "Marx-Meidlinger-Straße").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Barawitzkagasse").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Schlickgasse").
+restaurant("Oberfeldgasse").
+restaurant("Aspernstraße").
+restaurant("Absberggasse").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Weinheimergasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Volkstheater").
+restaurant("Winckelmannstraße").
+restaurant("Gasometer").
+restaurant("Gußhausstraße").
+restaurant("Sechskrügelgasse").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Zieglergasse").

@@ -1,21 +1,48 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Zippererstraße").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Penzing").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Löwengasse").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Gatterburggasse").
+sequence(1,0, "Zippererstraße").
+person(2).
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Penzing").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Wienerbergbrücke").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+sequence(2,0, "Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Langobardenstraße").
+restaurant("Scheibenbergstraße").
+restaurant("Rebhanngasse").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Hütteldorf").
+restaurant("Traisengasse").
+restaurant("Schönbrunn").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Strozzigasse").
+restaurant("Aumannplatz").

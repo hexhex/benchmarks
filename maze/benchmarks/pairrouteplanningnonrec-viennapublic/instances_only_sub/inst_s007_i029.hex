@@ -1,15 +1,33 @@
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Stubentor").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Atzgersdorf").
+sequence(1,0, "Stubentor").
+person(2).
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Enkplatz").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Gasometer").
+sequence(2,0, "Obereggendorf Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Neue Donau").
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Schottenring".
+restaurant("Nestroyplatz".
+restaurant("Hardeggasse".
+restaurant("Zeiselmauer-Königstetten Bf".
+restaurant("Greifenstein-Altenberg Bahnhof".
+restaurant("Hirschstetten").

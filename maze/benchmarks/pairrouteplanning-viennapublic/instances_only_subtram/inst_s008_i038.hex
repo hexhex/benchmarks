@@ -1,17 +1,36 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
+person(1).
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Schwarzspanierstraße").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Augasse").
+initlocation(1,"Hildebrandgasse").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Neubaugasse").
+sequence(1,0, "Hörersdorf Bahnhof").
+person(2).
+initlocation(2,"Dornbacher Straße").
+initlocation(2,"Hütteldorfer Str/Hochsatzeng").
+initlocation(2,"Hermesstraße").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Rathausplatz/Burgtheater").
+sequence(2,0, "Dornbacher Straße").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Altes Landgut").
+restaurant("Atzgersdorfer Straße").
 restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
+restaurant("Spillern Bahnhof").
+restaurant("Alte Donau").
+restaurant("Hetzgasse").
+restaurant("Linzer Straße/Johnstraße").

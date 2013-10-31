@@ -1,21 +1,65 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Plößlgasse").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Eckpergasse").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Hohe Warte").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Stollgasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Paulanergasse").
+sequence(1,0, "Plößlgasse").
+person(2).
+initlocation(2,"Hernals").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Seestadt").
+initlocation(2,"Simmering").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Heinrich-Drimmel-Platz").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Klosterneub Str/Wallensteinstr").
+initlocation(2,"Unter St Veit, Hummelgasse").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+sequence(2,0, "Hernals").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Gloriettegasse").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Tscherttegasse").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Kettenbrückengasse").
+restaurant("Alaudagasse").
+restaurant("Stadtpark").
+restaurant("Kliebergasse").
+restaurant("Oberlaa, Therme Wien").
+restaurant("Döblinger Hauptstr/Gatterburgg").
+restaurant("Bahnhofstraße").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Fickeysstraße").
+restaurant("Weinheimergasse").

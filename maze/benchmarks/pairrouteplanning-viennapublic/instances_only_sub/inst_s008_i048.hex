@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Erdberg").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Langenzersdorf Bahnhof").
+sequence(1,0, "Krottenbachstraße").
+person(2).
+initlocation(2,"Volkstheater").
+initlocation(2,"Rennweg").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+sequence(2,0, "Volkstheater").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Alser Straße").
+restaurant("Gasometer".
+restaurant("Gumpendorfer Straße".
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Wildungsmauer Bahnhof".
+restaurant("Fischamend Bahnhof".
+restaurant("Sierndorf Bahnhof".
+restaurant("Alterlaa".
+restaurant("Paasdorf Bahnhof").

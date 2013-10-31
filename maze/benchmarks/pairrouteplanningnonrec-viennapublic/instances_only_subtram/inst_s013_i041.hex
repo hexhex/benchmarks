@@ -1,21 +1,57 @@
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Gredlerstraße").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Brünnlbadgasse").
+initlocation(1,"Kleistgasse").
+sequence(1,0, "Nußdorf, Beethovengang").
+person(2).
+initlocation(2,"Weihburggasse").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Hauffgasse").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Teichgasse").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Verbindungsbahn").
+sequence(2,0, "Weihburggasse").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Jagdschloßgasse").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Gunoldstraße").
+restaurant("Brünner Straße/Hanreitergasse").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Innstraße").
+restaurant("Siebenhirten (NÖ).
+Haltestelle").
+restaurant("Neue Donau").
+restaurant("Althanstraße").
+restaurant("Prinzgasse").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Römergasse").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Himmelmutterweg").

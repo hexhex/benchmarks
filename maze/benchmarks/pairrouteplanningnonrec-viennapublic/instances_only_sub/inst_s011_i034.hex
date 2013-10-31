@@ -1,21 +1,48 @@
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Schottenring").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Stockerau Bahnhof").
+sequence(1,0, "Guntramsdorf-Thallern").
+person(2).
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Praterstern").
+initlocation(2,"Krieau").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Strebersdorf").
+sequence(2,0, "Ladendorf Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+restaurant("Hetzendorf".
+restaurant("Schönborn Bahnhof".
+restaurant("Vorgartenstraße".
+restaurant("Alterlaa".
+restaurant("Kottingbrunn Bahnhof".
+restaurant("Gramatneusiedl Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Retz Bahnhof".
+restaurant("Unterpurkersdorf Bahnhof".
+restaurant("Wolfsthal Bahnhof".
+restaurant("Kledering Bahnhof").

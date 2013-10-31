@@ -1,21 +1,49 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Guntherstraße").
+initlocation(1,"Anton-Krieger-Gasse").
+sequence(1,0, "Neulengbach Bahnhof").
+person(2).
+initlocation(2,"Hofwiesengasse").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Lange Gasse").
+initlocation(2,"Perntergasse").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Canisiusgasse").
+initlocation(2,"Kärntner Ring/Oper").
+initlocation(2,"Quellenstraße/Favoritenstraße").
+sequence(2,0, "Hofwiesengasse").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Schlachthausgasse").
+restaurant("Anschützgasse").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Schwedenplatz").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Schönbrunn").
+restaurant("Kettenbrückengasse").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Schloss Schönbrunn").

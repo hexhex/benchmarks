@@ -1,11 +1,24 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Heiligenstadt").
+sequence(1,0, "Taubstummengasse").
+person(2).
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Rekawinkel Bahnhof").
+sequence(2,0, "Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Michelbeuern-AKH").
+restaurant("Schlachthausgasse".
+restaurant("Wilfleinsdorf Bahnhof".
+restaurant("Leobersdorf Bahnhof".
+restaurant("Retz Bahnhof".
+restaurant("Schönborn Bahnhof").

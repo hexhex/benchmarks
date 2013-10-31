@@ -1,19 +1,41 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Haidestraße").
+initlocation(1,"Donauinsel").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "Ebenfurth Bahnhof").
+person(2).
+initlocation(2,"Alte Donau").
+initlocation(2,"Lobau").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+sequence(2,0, "Alte Donau").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Hütteldorfer Straße").
+restaurant("Hautzendorf Bahnhof".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Siebenhirten (NÖ.
+Haltestelle".
+restaurant("Keplerplatz".
+restaurant("Taborstraße".
+restaurant("Atzenbrugg Bahnhof".
+restaurant("Nußdorfer Straße".
+restaurant("Langenlebarn Bahnhof".
+restaurant("Lanzendorf-Rannersdorf Bahnhof").

@@ -1,21 +1,65 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-sequence(0, "Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Penzing").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Liesing").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+sequence(1,0, "Rekawinkel Bahnhof").
+person(2).
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Alterlaa").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Herrengasse").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+restaurant("Zippererstraße".
+restaurant("Gasometer".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Donaumarina".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Erdberg".
+restaurant("Rochusgasse".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Michelhausen Bahnhof".
+restaurant("Hietzing".
+restaurant("Süßenbrunn".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Taborstraße".
+restaurant("Zieglergasse".
+restaurant("Stephansplatz").

@@ -1,6 +1,20 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Leyserstraße").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Alte Donau").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+sequence(1,0, "Leyserstraße").
+person(2).
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Augasse").
+initlocation(2,"Aßmayergasse").
+sequence(2,0, "Tscherttegasse").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+restaurant("Prandaugasse").
+restaurant("Handelskai").
+restaurant("Fasangasse").
+restaurant("Stadiongasse/Parlament").

@@ -1,11 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Liebknechtgasse").
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Anschützgasse").
+initlocation(1,"Carminweg").
+sequence(1,0, "Liebknechtgasse").
+person(2).
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Verbindungsbahn").
+sequence(2,0, "Hörersdorf Bahnhof").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Polgarstraße").
+restaurant("Hintere Zollamtsstraße").
+restaurant("Waidhausenstraße").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Baumgasse").
+restaurant("Gänserndorf Bahnhof").

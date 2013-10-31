@@ -1,15 +1,33 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Roßauer Lände").
+sequence(1,0, "Götzendorf Bahnhof").
+person(2).
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Aspern Nord").
+sequence(2,0, "St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+restaurant("Sierndorf Bahnhof".
+restaurant("Breitensee".
+restaurant("Siebenhirten (NÖ.
+Haltestelle".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Matzleinsdorfer Platz".
+restaurant("Blumental").

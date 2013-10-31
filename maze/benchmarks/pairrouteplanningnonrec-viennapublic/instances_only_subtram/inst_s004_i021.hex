@@ -1,6 +1,20 @@
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Pokornygasse").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Kärntner Ring/Oper").
+sequence(1,0, "Pokornygasse").
+person(2).
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Wildgansplatz").
+initlocation(2,"Plößlgasse").
+sequence(2,0, "Friedrich-Engels-Platz").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Schlachthausgasse").
+restaurant("Glatzgasse").
+restaurant("Paulanergasse").

@@ -1,4 +1,12 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Volkstheater").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+sequence(1,0, "Volkstheater").
+person(2).
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Jägerstraße").
+sequence(2,0, "Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Braunschweiggasse").
+restaurant("Sierndorf Bahnhof".
+restaurant("Paasdorf Bahnhof").

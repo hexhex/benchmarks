@@ -1,5 +1,16 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Oberdöbling").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Oberdöbling").
+person(2).
+initlocation(2,"Stadtpark").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Joachimsthalerplatz").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Stiftgasse").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Alsegger Straße").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Elterleinplatz").
+restaurant("Versorgungsheimplatz").

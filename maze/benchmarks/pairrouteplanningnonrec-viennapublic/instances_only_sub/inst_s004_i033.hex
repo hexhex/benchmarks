@@ -1,6 +1,20 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+sequence(1,0, "Zellerndorf Bahnhof").
+person(2).
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Pfaffstätten Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Hütteldorfer Straße").

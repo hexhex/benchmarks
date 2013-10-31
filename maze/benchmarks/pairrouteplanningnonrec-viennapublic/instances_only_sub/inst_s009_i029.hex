@@ -1,19 +1,40 @@
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Spittelau").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Unteroberndorf Bahnhof").
+sequence(1,0, "Weidlingau Bahnhof").
+person(2).
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Haslau an der Donau Bahnhof").
+sequence(2,0, "Währinger Straße-Volksoper").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Felixdorf Bahnhof").
+restaurant("Kledering Bahnhof".
+restaurant("Krottenbachstraße".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Museumsquartier".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Süßenbrunn".
+restaurant("Gänserndorf Bahnhof".
+restaurant("Klosterneuburg-Kierling Bf".
+restaurant("Rennbahnweg").

@@ -1,21 +1,44 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Jägerstraße").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Siebensterngasse").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Van-Swieten-Kaserne").
+initlocation(1,"Donaumarina").
+initlocation(1,"Sankt Marx").
+sequence(1,0, "Jägerstraße").
+person(2).
+initlocation(2,"Leberberg").
+initlocation(2,"Hetzgasse").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Blechturmgasse").
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Carminweg").
+initlocation(2,"Enkplatz").
+initlocation(2,"Baumgasse").
+sequence(2,0, "Leberberg").
+possiblemeetinglocations("Stiftgasse").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Stammersdorf").
+restaurant("Versorgungsheimplatz").
+restaurant("Vinzenzgasse").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Stadlau").
+restaurant("Donaustadtbrücke").
+restaurant("Hausfeldstraße").
+restaurant("Römergasse").
+restaurant("Blechturmgasse").

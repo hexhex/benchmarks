@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Quellenplatz").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Unter St Veit, Hummelgasse").
+sequence(1,0, "Quellenplatz").
+person(2).
+initlocation(2,"Römergasse").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Mühlfeldgasse").
+initlocation(2,"Burgring").
+sequence(2,0, "Römergasse").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Zentralfriedhof 2Tor").
+restaurant("Dürrwien Bahnhof").
+restaurant("Guntherstraße").
+restaurant("Sonnergasse").
+restaurant("Herbeckstraße").

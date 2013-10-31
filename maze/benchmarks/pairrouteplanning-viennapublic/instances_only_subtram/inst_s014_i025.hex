@@ -1,21 +1,61 @@
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Keplerplatz").
+initlocation(1,"Josef-Baumann-Gasse").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Blumental").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Gewerbepark Stadlau Mitte").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Wexstraße").
+initlocation(1,"Hütteldorfer Str/Hochsatzeng").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+sequence(1,0, "Keplerplatz").
+person(2).
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Spitalgasse/Währinger Straße").
+initlocation(2,"Fichtnergasse").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Spittelau").
+initlocation(2,"Koppstraße/Panikengasse").
+initlocation(2,"Ottakring").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Simonygasse").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Zentralfriedhof 1Tor").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Columbusplatz").
+sequence(2,0, "Paasdorf Bahnhof").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Hermesstraße").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Jagdschloßgasse").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Grinzinger Straße").
+restaurant("Herrengasse").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Mayerhofgasse").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Längenfeldgasse").
+restaurant("Floridsdorf").
+restaurant("Donauinsel").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Paasdorf Bahnhof").
+restaurant("Joachimsthalerplatz").
+restaurant("Schwechat Bahnhof").

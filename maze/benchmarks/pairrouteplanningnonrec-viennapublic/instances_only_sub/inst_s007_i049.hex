@@ -1,15 +1,32 @@
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Achau Bahnhof").
+sequence(1,0, "Taubstummengasse").
+person(2).
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Schönbrunn").
+sequence(2,0, "Roßauer Lände").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Blumental").
+restaurant("Reumannplatz".
+restaurant("Atzenbrugg Bahnhof".
+restaurant("Dürrwien Bahnhof".
+restaurant("Thaliastraße".
+restaurant("Höbersdorf Bahnhof".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Liesing").

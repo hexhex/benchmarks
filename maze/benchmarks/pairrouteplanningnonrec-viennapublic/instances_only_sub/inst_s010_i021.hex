@@ -1,21 +1,44 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Jägerstraße").
+sequence(1,0, "Unteroberndorf Bahnhof").
+person(2).
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Nußdorf").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Volkstheater").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Taborstraße").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Vorgartenstraße").
+sequence(2,0, "Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+restaurant("Baden Bahnhof".
+restaurant("Ottakring".
+restaurant("Wildungsmauer Bahnhof".
+restaurant("Aderklaaer Straße".
+restaurant("Helmahof Bahnhof".
+restaurant("Lanzendorf-Rannersdorf Bahnhof".
+restaurant("Donauinsel".
+restaurant("Schönbrunn".
+restaurant("Götzendorf Bahnhof".
+restaurant("Guntramsdorf-Thallern").

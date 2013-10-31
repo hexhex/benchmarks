@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Donauinsel").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Nußdorf").
+sequence(1,0, "Deutsch-Wagram Bahnhof").
+person(2).
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Haidestraße").
+sequence(2,0, "Margaretengürtel").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Breitensee").
+restaurant("Aspern Nord".
+restaurant("Helmahof Bahnhof".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Nußdorf".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Höflein an der Donau Bahnhof".
+restaurant("Unterpurkersdorf Bahnhof").

@@ -1,21 +1,44 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Johnstraße").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Regelsbrunn Bahnhof").
+sequence(1,0, "Johnstraße").
+person(2).
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Ottakring").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Schönbrunn").
+sequence(2,0, "Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+restaurant("Krottenbachstraße".
+restaurant("Preyergasse/Speising".
+restaurant("Jedlersdorf".
+restaurant("Sollenau Bahnhof".
+restaurant("Baden Bahnhof".
+restaurant("Herzogenburg Stadt".
+restaurant("Mistelbach Stadt".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Stadtpark").

@@ -1,21 +1,44 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Stiftgasse").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Hetzgasse").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Baumgasse").
+initlocation(1,"Hauptbahnhof Ost").
+sequence(1,0, "Stiftgasse").
+person(2).
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+initlocation(2,"Sonnergasse").
+initlocation(2,"Leopoldau").
+initlocation(2,"Quellenplatz").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Gaußplatz").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Satzberggasse").
+initlocation(2,"Fasangasse").
+initlocation(2,"Alsegger Straße").
+sequence(2,0, "Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Frauengasse").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Waidhausenstraße").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Erndtgasse").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Rustengasse").
+restaurant("Thaliastraße").
 restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
+restaurant("Rauscherstraße").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Rustengasse").
+restaurant("Dresdner Straße").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Korneuburg Bahnhof").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").

@@ -1,13 +1,28 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Alte Donau").
+sequence(1,0, "Währinger Straße-Volksoper").
+person(2).
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Schönbrunn").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Retz Bahnhof").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Spillern Bahnhof".
+restaurant("Wolfsthal Bahnhof".
+restaurant("Kettenbrückengasse".
+restaurant("Unterradlberg Bahnhof".
+restaurant("Unteroberndorf Bahnhof".
+restaurant("Aderklaaer Straße").

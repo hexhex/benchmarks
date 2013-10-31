@@ -1,21 +1,52 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Leopoldau").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Blumengasse").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Palffygasse").
+initlocation(1,"Hohe Warte").
+initlocation(1,"Nordbrücke").
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Herrengasse").
+initlocation(1,"Schleiergasse").
+sequence(1,0, "Leopoldau").
+person(2).
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Otto-Probst-Straße").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+initlocation(2,"Leyserstraße").
+initlocation(2,"Sillerplatz").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+sequence(2,0, "Untertullnerbach Bahnhof").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Am Tabor").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+possiblemeetinglocations("Großjedlersdorf").
+restaurant("Großjedlersdorf").
+restaurant("Braunhubergasse").
+restaurant("Matthäus-Jiszda-Straße").
+restaurant("Rodaun").
+restaurant("Gutraterplatz").
+restaurant("Halteraugasse").
+restaurant("Absberggasse").
+restaurant("Pokornygasse").
+restaurant("Thaliastraße/Haberlgasse").
+restaurant("Aderklaaer Straße").
+restaurant("Schottentor").
+restaurant("Petronell-Carnuntum Bahnhof").

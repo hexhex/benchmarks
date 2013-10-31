@@ -1,19 +1,40 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Teichgasse").
+sequence(1,0, "Schleinbach Bahnhof").
+person(2).
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Sillerplatz").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Liesing").
+initlocation(2,"Redtenbachergasse").
+initlocation(2,"Neue Donau").
+initlocation(2,"Siebensterngasse").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Johnstraße").
+sequence(2,0, "Wolfsthal Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+restaurant("Spillern Bahnhof").
+restaurant("Liechtenwerder Platz").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Wenzgasse").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Nußdorfer Str/Alserbachstraße").
+restaurant("Frauengasse").
+restaurant("Greifenstein-Altenberg Bahnhof").

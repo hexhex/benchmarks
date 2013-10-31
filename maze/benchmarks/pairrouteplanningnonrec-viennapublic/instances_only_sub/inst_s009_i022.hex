@@ -1,19 +1,41 @@
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Zippererstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Nußdorf").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+sequence(1,0, "Burggasse-Stadthalle").
+person(2).
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Enkplatz").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Rathaus").
+sequence(2,0, "Spillern Bahnhof").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Heiligenstadt").
+restaurant("Wolf in der Au".
+restaurant("Traismauer Bahnhof".
+restaurant("Krieau".
+restaurant("Nußdorfer Straße".
+restaurant("Höbersdorf Bahnhof".
+restaurant("Enzersdorf bei Staatz Bahnhof".
+restaurant("Stubentor".
+restaurant("Tulln Bahnhof".
 restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").

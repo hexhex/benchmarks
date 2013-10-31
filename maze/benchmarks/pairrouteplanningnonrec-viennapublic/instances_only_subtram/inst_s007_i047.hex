@@ -1,15 +1,32 @@
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-sequence(0, "Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Ottakring").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Schwarzenbergplatz").
+sequence(1,0, "Meidling Hauptstraße").
+person(2).
+initlocation(2,"Siebenhirten").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Hermesstraße").
+initlocation(2,"Eichenstraße").
+initlocation(2,"Satzberggasse").
+sequence(2,0, "Siebenhirten").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Rodaun").
+restaurant("Trondheimgasse").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Fichtnergasse").
+restaurant("Hetzendorf").
+restaurant("Schleiergasse").
+restaurant("Gumpendorfer Straße").
+restaurant("Gutraterplatz").

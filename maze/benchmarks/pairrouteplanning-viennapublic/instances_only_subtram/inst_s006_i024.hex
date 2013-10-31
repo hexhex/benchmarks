@@ -1,13 +1,28 @@
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-sequence(0, "Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Marxergasse").
+initlocation(1,"Troststraße/Neilreichgasse").
+initlocation(1,"Praterkai").
+initlocation(1,"Lerchenfelder Straße").
+initlocation(1,"Lainz, Wolkersbergenstraße").
+initlocation(1,"Paulanergasse").
+sequence(1,0, "Marxergasse").
+person(2).
+initlocation(2,"Jägerstraße").
+initlocation(2,"Oberfeldgasse").
+initlocation(2,"Schottenring").
+initlocation(2,"Camillo-Sitte-Gasse").
+initlocation(2,"Polgarstraße").
+initlocation(2,"Purkersdorf Sanatorium").
+sequence(2,0, "Jägerstraße").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Elterleinplatz").
+restaurant("Koloniestraße").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Absberggasse").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Penzing").
+restaurant("Kaiserstraße/Westbahnstraße").

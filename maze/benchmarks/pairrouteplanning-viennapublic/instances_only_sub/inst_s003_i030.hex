@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Brünner Straße").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Kendlerstraße").
+sequence(1,0, "Brünner Straße").
+person(2).
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Perfektastraße").
+sequence(2,0, "Rekawinkel Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Korneuburg Bahnhof").
+restaurant("Friedensbrücke".
+restaurant("Neubaugasse".
+restaurant("Simmering").

@@ -1,13 +1,28 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Stadtpark").
+initlocation(1,"Taborstraße").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+sequence(1,0, "Obersdorf Bahnhof").
+person(2).
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+sequence(2,0, "Himberg Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Jedlersdorf".
+restaurant("Spillern Bahnhof".
+restaurant("Baden Bahnhof").

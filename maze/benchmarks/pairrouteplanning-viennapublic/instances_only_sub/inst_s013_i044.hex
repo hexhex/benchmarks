@@ -1,21 +1,56 @@
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Praterkai").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Praterstern").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Stephansplatz").
+sequence(1,0, "Roßauer Lände").
+person(2).
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Liesing").
+sequence(2,0, "Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Keplerplatz".
+restaurant("Laa an der Thaya Bahnhof".
+restaurant("Hadersdorf Bahnhof".
+restaurant("Rekawinkel Bahnhof".
+restaurant("Trasdorf Bahnhof".
+restaurant("Traisengasse".
+restaurant("Atzgersdorf".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Braunschweiggasse".
+restaurant("Neubau-Kreuzstetten Bahnhof".
+restaurant("Krieau".
+restaurant("Kendlerstraße".
+restaurant("Enzersdorf bei Staatz Bahnhof").

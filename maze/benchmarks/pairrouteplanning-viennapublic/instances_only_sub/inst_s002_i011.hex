@@ -1,4 +1,12 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Hausfeldstraße").
+sequence(1,0, "Maria Anzbach Bahnhof").
+person(2).
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Mödling Bahnhof").
+sequence(2,0, "Wr Neustadt Nord").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+restaurant("Kaiserebersdorf".
+restaurant("Baden Bahnhof").

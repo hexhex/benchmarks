@@ -1,13 +1,28 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Schloss Hetzendorf").
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+sequence(1,0, "Pottendorf-Landegg Bahnhof").
+person(2).
+initlocation(2,"Thaliastraße/Brunnengasse").
+initlocation(2,"Grillgasse").
+initlocation(2,"Floridsdorfer Brücke").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Beingasse").
+sequence(2,0, "Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Riedelgasse").
+restaurant("Halteraugasse").
+restaurant("Götzendorf Bahnhof").
+restaurant("Gerhardusgasse").

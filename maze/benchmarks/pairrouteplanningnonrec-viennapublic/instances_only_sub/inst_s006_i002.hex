@@ -1,13 +1,28 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Siemensstraße").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+sequence(1,0, "Siemensstraße").
+person(2).
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Krieau").
+sequence(2,0, "Nestroyplatz").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+restaurant("Tulln Stadt Bahnhof".
+restaurant("Alte Donau".
+restaurant("Bisamberg Bahnhof".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Kaisermühlen-VIC".
+restaurant("Stockerau Bahnhof").

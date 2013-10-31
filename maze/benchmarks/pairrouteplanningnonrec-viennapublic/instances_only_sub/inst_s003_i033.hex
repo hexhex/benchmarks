@@ -1,5 +1,16 @@
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Ottakring").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Westbahnhof").
+sequence(1,0, "Ottakring").
+person(2).
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Simmering").
+sequence(2,0, "Parndorf Ort Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+restaurant("Erzherzog-Karl-Straße".
+restaurant("Schleinbach Bahnhof".
+restaurant("Niederkreuzstetten Bahnhof").

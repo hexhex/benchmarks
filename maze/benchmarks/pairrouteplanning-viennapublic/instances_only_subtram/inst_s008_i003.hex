@@ -1,17 +1,36 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Oberlaa, Therme Wien").
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Alte Donau").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Baumgasse").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Weinhauser Gasse").
+sequence(1,0, "Schlachthausgasse").
+person(2).
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Eichenstraße").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Blumental").
+initlocation(2,"Donaumarina").
+sequence(2,0, "Troststraße/Neilreichgasse").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Wittelsbachstraße").
+possiblemeetinglocations("Mühlfeldgasse").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Schloss Schönbrunn").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Paasdorf Bahnhof").
+restaurant("Floridsdorfer Brücke").
+restaurant("Linzer Straße/Reinlgasse").
+restaurant("Carabelligasse").
+restaurant("Joachimsthalerplatz").
+restaurant("Columbusplatz").
+restaurant("Knöllgasse/Troststraße").

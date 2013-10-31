@@ -1,6 +1,20 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Jedlersdorf").
+sequence(1,0, "Muckendorf-Wipfing Bahnhof").
+person(2).
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Schottenring").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Paasdorf Bahnhof").
+sequence(2,0, "Friedensbrücke").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+restaurant("Wampersdorf Bahnhof".
+restaurant("Oberradlberg Bahnhof".
+restaurant("Krieau".
+restaurant("Haidestraße").

@@ -1,21 +1,44 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Barawitzkagasse").
+sequence(1,0, "Rosensteingasse").
+person(2).
+initlocation(2,"Liebknechtgasse").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Oberfeldgasse/Spargelfeldstr").
+initlocation(2,"Donaumarina").
+initlocation(2,"Grillgasse").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Saikogasse").
+sequence(2,0, "Liebknechtgasse").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+restaurant("Hetzendorf").
+restaurant("Sickenberggasse").
+restaurant("Autokaderstraße").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Laaer-Berg-Straße").
+restaurant("Rothneusiedl").
+restaurant("Brünnlbadgasse").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Gusenleithnergasse").
+restaurant("Unter St Veit, Hummelgasse").

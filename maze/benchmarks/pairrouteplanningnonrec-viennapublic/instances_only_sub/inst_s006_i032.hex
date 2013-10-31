@@ -1,13 +1,28 @@
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Schweglerstraße").
+sequence(1,0, "Aderklaaer Straße").
+person(2).
+initlocation(2,"Taborstraße").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Rochusgasse").
+sequence(2,0, "Taborstraße").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+restaurant("Unterpurkersdorf Bahnhof".
+restaurant("Aspernstraße".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Zeiselmauer-Königstetten Bf".
+restaurant("Paasdorf Bahnhof".
+restaurant("Erdberg").

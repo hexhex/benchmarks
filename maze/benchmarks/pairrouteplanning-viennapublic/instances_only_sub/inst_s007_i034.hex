@@ -1,15 +1,32 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Kagran").
+sequence(1,0, "Guntramsdorf-Thallern").
+person(2).
+initlocation(2,"Sankt Marx").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Haidestraße").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Nußdorf").
+sequence(2,0, "Sankt Marx").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+restaurant("Haidestraße".
+restaurant("Stadion".
+restaurant("Mödling Bahnhof".
+restaurant("Perfektastraße".
+restaurant("Floridsdorf".
+restaurant("Staatz Bahnhof".
+restaurant("Parndorf Ort Bahnhof").

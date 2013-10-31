@@ -1,13 +1,28 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+sequence(1,0, "Tulln Bahnhof").
+person(2).
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+sequence(2,0, "Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Aderklaaer Straße".
+restaurant("Neusiedl am See Bahnhof".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Göllersdorf Bahnhof".
+restaurant("Aspernstraße").

@@ -1,13 +1,28 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Rennweg").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Linzer Straße/Lützowgasse").
+sequence(1,0, "Rennweg").
+person(2).
+initlocation(2,"Lange Gasse").
+initlocation(2,"Nußdorf, Beethovengang").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Kärntner Ring/Oper").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Gatterburggasse").
+sequence(2,0, "Lange Gasse").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+restaurant("Kutschkergasse").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Carminweg").
+restaurant("Simonygasse").
+restaurant("Salztorbrücke").

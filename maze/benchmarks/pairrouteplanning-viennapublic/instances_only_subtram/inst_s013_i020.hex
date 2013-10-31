@@ -1,21 +1,56 @@
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Kliebergasse").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Gottschalkgasse/Enkplatz").
+initlocation(1,"Himmelmutterweg").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Prandaugasse").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Oberfeldgasse").
+initlocation(1,"Heinrich-Drimmel-Platz").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Spittelau").
+initlocation(1,"Winckelmannstraße").
+sequence(1,0, "Kliebergasse").
+person(2).
+initlocation(2,"Aspernstraße").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Hoßplatz").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Am Tabor").
+initlocation(2,"Gußhausstraße").
+initlocation(2,"Hütteldorfer Str/Hochsatzeng").
+initlocation(2,"Stammersdorf").
+initlocation(2,"Schloss Schönbrunn").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Auerspergstraße").
+sequence(2,0, "Aspernstraße").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Herbeckstraße").
+restaurant("Hütteldorf").
+restaurant("Stadtpark").
+restaurant("Bahnhof Meidling").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Siebenhirten").
+restaurant("Floridsdorfer Brücke").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Stiftgasse").
+restaurant("Enkplatz").
+restaurant("Döblinger Hauptstr/Gatterburgg").

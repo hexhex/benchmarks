@@ -1,21 +1,48 @@
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Albertgasse").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Paradisgasse").
+initlocation(1,"Brünnlbadgasse").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Staglgasse").
+sequence(1,0, "Knöllgasse/Davidgasse").
+person(2).
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Gerstnerstraße/Westbhf").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+initlocation(2,"Sahulkastraße").
+initlocation(2,"Anschützgasse").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Jagdschloßgasse").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Maurer Hauptplatz").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+sequence(2,0, "Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Baumgarten").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Sommarugagasse").
+restaurant("Laurentiusplatz").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Brünner Straße/Hanreitergasse").
+restaurant("Pokornygasse").
+restaurant("Ameisgasse").
+restaurant("Taborstraße").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Strebersdorf").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Rothneusiedl").
+restaurant("Schönborn Bahnhof").

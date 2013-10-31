@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Staglgasse").
+initlocation(1,"Liesing").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Sechskrügelgasse").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Währinger Straße-Volksoper").
+sequence(1,0, "Staglgasse").
+person(2).
+initlocation(2,"Stadtpark").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Oberlaa, Therme Wien").
+initlocation(2,"Alfred-Adler-Straße").
+initlocation(2,"Himmelmutterweg").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Grillgasse").
+restaurant("Molitorgasse").
+restaurant("Satzberggasse").
+restaurant("Obere Donaustraße").
+restaurant("Pilgramgasse").

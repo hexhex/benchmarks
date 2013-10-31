@@ -1,19 +1,40 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Höchstädtplatz").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Gaisruck Bahnhof").
+sequence(1,0, "Hernalser Hauptstr/Wattgasse").
+person(2).
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Rußbergstraße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Oberlaa, Therme Wien").
+initlocation(2,"Johnstraße").
+sequence(2,0, "Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Lerchenfelder Straße").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+restaurant("Koloniestraße").
+restaurant("Absberggasse").
+restaurant("Kaiserstraße").
+restaurant("Breitensee").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Lederergasse").
+restaurant("Weihburggasse").
+restaurant("Trasdorf Bahnhof").
+restaurant("Brünnlbadgasse").

@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Handelskai").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Gersthof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Leobersdorf Bahnhof").
+sequence(1,0, "Tullnerfeld Bahnhof").
+person(2).
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(2,0, "Jedlersdorf").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Floridsdorf").
+restaurant("Seestadt".
+restaurant("Tulln Bahnhof".
+restaurant("Taborstraße".
+restaurant("Spillern Bahnhof".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Hütteldorfer Straße".
+restaurant("Donaumarina".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Aspernstraße".
+restaurant("Rennweg").

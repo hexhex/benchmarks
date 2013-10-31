@@ -1,21 +1,64 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-sequence(0, "Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Stockerau Bahnhof").
+sequence(1,0, "Mistelbach Bahnhof").
+person(2).
+initlocation(2,"Spittelau").
+initlocation(2,"Schottentor").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Erdberg").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Haidestraße").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Brünner Straße").
+sequence(2,0, "Spittelau").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Hofstatt Bahnhof").
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Staatz Bahnhof".
+restaurant("Schottenring".
+restaurant("Bahnhof Meidling".
+restaurant("Handelskai".
+restaurant("Lobau".
+restaurant("Geiselbergstraße".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("St Pölten Traisenpark P+R Nord".
+restaurant("Bisamberg Bahnhof".
+restaurant("Ladendorf Bahnhof".
+restaurant("Spillern Bahnhof".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Platt Bahnhof".
+restaurant("Höbersdorf Bahnhof").

@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Karlsplatz").
+initlocation(1,"Hernals").
+initlocation(1,"Blumental").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+sequence(1,0, "Karlsplatz").
+person(2).
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Mannswörth Bahnhof").
+sequence(2,0, "Matzleinsdorfer Platz").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Süßenbrunn").
+restaurant("Hausleiten Bahnhof".
+restaurant("Platt Bahnhof".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Schleinbach Bahnhof".
+restaurant("Neue Donau".
+restaurant("Hardeggasse".
+restaurant("Ebenfurth Bahnhof".
+restaurant("Zellerndorf Bahnhof").

@@ -1,13 +1,29 @@
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-sequence(0, "Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Hardeggasse").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+sequence(1,0, "Hardeggasse").
+person(2).
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Praterstern").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Kagran").
+initlocation(2,"Seyring Bahnhof").
+sequence(2,0, "Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Traisengasse").
+restaurant("Mödling Bahnhof".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Siebenhirten (NÖ.
+Haltestelle".
+restaurant("Theresienfeld Bahnhof".
+restaurant("Ober Sankt Veit".
+restaurant("Pfaffstätten Bahnhof").

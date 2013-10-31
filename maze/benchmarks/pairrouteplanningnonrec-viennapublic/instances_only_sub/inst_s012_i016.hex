@@ -1,21 +1,53 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+sequence(1,0, "Regelsbrunn Bahnhof").
+person(2).
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Retz Bahnhof").
+sequence(2,0, "Herzogenburg Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Aspernstraße").
+restaurant("Dürrwien Bahnhof".
+restaurant("Spillern Bahnhof".
+restaurant("Gersthof".
+restaurant("Kledering Bahnhof".
+restaurant("Greifenstein-Altenberg Bahnhof".
+restaurant("Unterpurkersdorf Bahnhof".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Obereggendorf Bahnhof".
+restaurant("Schleinbach Bahnhof".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Roßauer Lände".
+restaurant("Jedlersdorf").

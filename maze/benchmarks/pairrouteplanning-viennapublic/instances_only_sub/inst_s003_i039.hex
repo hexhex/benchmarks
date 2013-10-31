@@ -1,5 +1,16 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Stadion").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Jedlersdorf").
+sequence(1,0, "Stadion").
+person(2).
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+sequence(2,0, "Stockerau Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Haidestraße").
+restaurant("Traismauer Bahnhof".
+restaurant("Penzing".
+restaurant("Breitensee").

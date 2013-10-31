@@ -1,21 +1,56 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Maurer Lange Gasse").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Haidestraße").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Carminweg").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Hernals").
+initlocation(1,"Pantucekgasse/Widholzgasse").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Anschützgasse").
+sequence(1,0, "Maurer Lange Gasse").
+person(2).
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Albertgasse").
+initlocation(2,"Molitorgasse").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Kleistgasse").
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Taborstraße/Heinestraße").
+initlocation(2,"Van-Swieten-Kaserne").
+sequence(2,0, "Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+restaurant("Eckpergasse").
+restaurant("Zieglergasse").
+restaurant("Obere Donaustraße").
+restaurant("Stockholmer Platz").
+restaurant("Arminenstraße").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Pressbaum Bahnhof").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Schwechat Bahnhof").
+restaurant("Döblinger Hauptstr/Gatterburgg").
+restaurant("Landstraße-Wien Mitte").
 restaurant("Zippererstraße").
+restaurant("Schlickgasse").

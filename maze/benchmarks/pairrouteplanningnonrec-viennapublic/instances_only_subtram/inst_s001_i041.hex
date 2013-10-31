@@ -1,3 +1,8 @@
-initlocation("Aspern Nord").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Zentralfriedhof 1Tor").
+sequence(1,0, "Zentralfriedhof 1Tor").
+person(2).
+initlocation(2,"Gunoldstraße").
+sequence(2,0, "Gunoldstraße").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+restaurant("Rothneusiedl").

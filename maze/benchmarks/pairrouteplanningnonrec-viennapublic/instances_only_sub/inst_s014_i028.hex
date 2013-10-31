@@ -1,21 +1,60 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Haidestraße").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Landstraße-Wien Mitte").
+sequence(1,0, "Sarasdorf Bahnhof").
+person(2).
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+sequence(2,0, "Hennersdorf Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Roßauer Lände").
+restaurant("Wolf in der Au".
+restaurant("Krottenbachstraße".
+restaurant("Praterkai".
+restaurant("Neubaugasse".
+restaurant("Leopoldau".
+restaurant("Matzleinsdorfer Platz".
+restaurant("Hainburg/Donau Personenbhf".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Stockerau Bahnhof".
+restaurant("Gänserndorf Bahnhof".
+restaurant("Schottentor".
+restaurant("Karlsplatz".
+restaurant("Schleinbach Bahnhof".
+restaurant("Hetzendorf").

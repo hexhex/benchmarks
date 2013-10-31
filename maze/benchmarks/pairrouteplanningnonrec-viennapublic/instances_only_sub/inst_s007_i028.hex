@@ -1,15 +1,33 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Herrengasse").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Erzherzog-Karl-Straße").
+sequence(1,0, "Korneuburg Bahnhof").
+person(2).
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Gasometer").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Floridsdorf").
+sequence(2,0, "Schlachthausgasse").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Penzing".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Taubstummengasse".
+restaurant("Staatz Bahnhof".
+restaurant("Nußdorf").

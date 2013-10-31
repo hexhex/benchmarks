@@ -1,21 +1,60 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Krottenbachstraße").
+sequence(1,0, "Margaretengürtel").
+person(2).
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Simmering").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Seestadt").
+initlocation(2,"Gasometer").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Wolf in der Au").
+sequence(2,0, "Neulengbach Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+restaurant("Achau Bahnhof".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Großfeldsiedlung".
+restaurant("Nestroyplatz".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Traisengasse".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Gaisruck Bahnhof".
+restaurant("Felixdorf Bahnhof".
+restaurant("Schleinbach Bahnhof".
+restaurant("Hardeggasse".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Stadtpark".
+restaurant("Stockerau Bahnhof").

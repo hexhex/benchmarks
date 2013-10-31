@@ -1,5 +1,16 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Volkstheater").
+sequence(1,0, "Kritzendorf Bahnhof").
+person(2).
+initlocation(2,"Jägerstraße").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Baden Bahnhof").
+sequence(2,0, "Jägerstraße").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Guntramsdorf-Thallern").

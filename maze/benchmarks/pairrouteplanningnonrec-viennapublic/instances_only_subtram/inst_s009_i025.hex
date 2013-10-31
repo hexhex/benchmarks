@@ -1,19 +1,40 @@
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Jägerstraße").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Johnstraße").
+initlocation(1,"Rodaun").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Marxergasse").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Zieglergasse").
+sequence(1,0, "Friedensbrücke").
+person(2).
+initlocation(2,"Sahulkastraße").
+initlocation(2,"Seegasse").
+initlocation(2,"Wildgansplatz").
+initlocation(2,"Unter St Veit, Hummelgasse").
+initlocation(2,"Mayssengasse").
+initlocation(2,"Lobau").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Praterkai").
+initlocation(2,"Seyring Bahnhof").
+sequence(2,0, "Sahulkastraße").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Empergergasse").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Weidlingau Bahnhof").
+restaurant("Stubentor").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Prandaugasse").
+restaurant("Kleistgasse").
+restaurant("Palffygasse").
+restaurant("Wienerbergbrücke").
+restaurant("Obere Augartenstraße").
+restaurant("Unteroberndorf Bahnhof").

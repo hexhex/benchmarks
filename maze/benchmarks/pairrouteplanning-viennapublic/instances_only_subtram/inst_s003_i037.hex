@@ -1,5 +1,16 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Kagraner Brücke").
+sequence(1,0, "Hainburg/Donau Kulturfabrik Bf").
+person(2).
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Oberlaa, Therme Wien").
+initlocation(2,"Bahnhof Meidling").
+sequence(2,0, "Gumpendorfer Straße").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Praterkai").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Messe-Prater").
+restaurant("Neulengbach Bahnhof").

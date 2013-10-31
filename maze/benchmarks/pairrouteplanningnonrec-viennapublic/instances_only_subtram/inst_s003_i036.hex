@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Schottentor").
+initlocation(1,"Kaiserebersdorf").
+sequence(1,0, "Mariahilfer Gürtel").
+person(2).
+initlocation(2,"Gasometer").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Siebensterngasse").
+sequence(2,0, "Gasometer").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Teichgasse").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+restaurant("Konstanziagasse").
+restaurant("Auerspergstraße").
+restaurant("Frättingsdorf Bahnhof").

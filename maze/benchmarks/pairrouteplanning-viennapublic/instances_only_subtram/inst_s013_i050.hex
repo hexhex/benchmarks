@@ -1,21 +1,56 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Florianigasse").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Praterstern").
+initlocation(1,"Zentralfriedhof 4Tor").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Gerhardusgasse").
+sequence(1,0, "Oberradlberg Bahnhof").
+person(2).
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Linzer Straße/Hochsatzengasse").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Haslau an der Donau Bahnhof").
+sequence(2,0, "Vorgartenstraße").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+restaurant("Johann-Strauß-Gasse").
+restaurant("Stephansplatz").
+restaurant("Alfred-Adler-Straße").
+restaurant("Thaliastraße").
+restaurant("Trasdorf Bahnhof").
+restaurant("Herrengasse").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Wallrißstraße").
+restaurant("Preyergasse/Speising").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Kaiserstraße/Burggasse").
+restaurant("Lobau").
+restaurant("Ottakringer Straße/Wattgasse").

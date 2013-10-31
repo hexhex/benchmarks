@@ -1,5 +1,16 @@
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Laa an der Thaya Bahnhof").
+sequence(1,0, "Krottenbachstraße").
+person(2).
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Simmering").
+sequence(2,0, "Sarasdorf Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Wr Neustadt Nord").
+restaurant("Hofstatt Bahnhof".
+restaurant("Neulengbach Bahnhof".
+restaurant("Bad Deutsch-Altenburg Bahnhof").

@@ -1,21 +1,45 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Stadlau").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Nußdorf").
+sequence(1,0, "Kagraner Platz").
+person(2).
+initlocation(2,"Praterkai").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+sequence(2,0, "Praterkai").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+restaurant("Haidestraße".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Hietzing".
+restaurant("Hardeggasse".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Bisamberg Bahnhof".
+restaurant("Stadlau".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Alterlaa".
+restaurant("Wr Neustadt Hauptbahnhof").

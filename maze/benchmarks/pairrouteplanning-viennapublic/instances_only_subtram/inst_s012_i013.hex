@@ -1,21 +1,52 @@
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Innstraße").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Migerkastraße").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Am Heidjöchl/Hausfeldstraße").
+initlocation(1,"Jagdschloßgasse").
+sequence(1,0, "Neulerchenfelder Str/Haberlg").
+person(2).
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Zentralfriedhof 2Tor").
+initlocation(2,"Schuhmeierplatz").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Hermesstraße").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Herrengasse").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Praterkai").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+sequence(2,0, "Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Radetzkyplatz").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Koloniestraße").
+restaurant("Svetelskystraße").
+restaurant("Thaliastraße/Brunnengasse").
+restaurant("Neulerchenfelder Str/Brunneng").
+restaurant("Donaustadtbrücke").
+restaurant("Kärntner Ring/Oper").
+restaurant("Neulerchenfelder Str/Haberlg").
+restaurant("Wienerfeldgasse").
+restaurant("Götzendorf Bahnhof").
+restaurant("Traismauer Bahnhof").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Laurentiusplatz").
+restaurant("Sitzenberg-Reidling Bahnhof").

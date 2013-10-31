@@ -1,17 +1,36 @@
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Döblinger Hauptstr/Gatterburgg").
+initlocation(1,"Rustengasse").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Friedensbrücke").
+sequence(1,0, "Schleinbach Bahnhof").
+person(2).
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Großfeldsiedlung").
+sequence(2,0, "Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+restaurant("Blechturmgasse").
+restaurant("Quellenplatz").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Josefstädter Straße").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Dresdner Straße").
+restaurant("Michelbeuern-AKH").

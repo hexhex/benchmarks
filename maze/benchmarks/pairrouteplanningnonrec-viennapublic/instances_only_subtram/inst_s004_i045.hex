@@ -1,6 +1,20 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Prandaugasse").
+initlocation(1,"Strebersdorf").
+sequence(1,0, "Gerasdorf Bahnhof").
+person(2).
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Diesterweggasse").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Resselgasse").
+sequence(2,0, "Kendlerstraße").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+restaurant("Rodaun").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Carminweg").
+restaurant("Gaußplatz").

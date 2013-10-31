@@ -1,11 +1,24 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Laurentiusplatz").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+sequence(1,0, "Johann-Strauß-Gasse").
+person(2).
+initlocation(2,"Aumannplatz").
+initlocation(2,"Stadtpark").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Antonigasse").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+sequence(2,0, "Aumannplatz").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Krankenhaus Hietzing").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Hetzgasse").

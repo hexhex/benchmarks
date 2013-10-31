@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Obere Donaustraße").
+sequence(1,0, "Sollenau Bahnhof").
+person(2).
+initlocation(2,"Frödenplatz").
+initlocation(2,"Polgarstraße").
+sequence(2,0, "Frödenplatz").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Hütteldorf").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Hardtgasse").

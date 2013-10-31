@@ -1,21 +1,56 @@
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Blumental").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Penzing").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Donauinsel").
+sequence(1,0, "Tscherttegasse").
+person(2).
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Aderklaaer Straße").
+sequence(2,0, "Zentralfriedhof").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+restaurant("Dresdner Straße".
+restaurant("Preyergasse/Speising".
+restaurant("Unter Sankt Veit".
+restaurant("Donauinsel".
+restaurant("Aderklaaer Straße".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Friedensbrücke".
+restaurant("Hetzendorf".
+restaurant("Seestadt".
+restaurant("Laa an der Thaya Bahnhof".
+restaurant("Zieglergasse".
+restaurant("Hütteldorf".
+restaurant("Kendlerstraße").

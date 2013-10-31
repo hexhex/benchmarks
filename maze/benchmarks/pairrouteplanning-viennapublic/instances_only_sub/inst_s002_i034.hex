@@ -1,4 +1,12 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Schottentor").
+initlocation(1,"Braunschweiggasse").
+sequence(1,0, "Schottentor").
+person(2).
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+sequence(2,0, "Gerasdorf Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+restaurant("Schweglerstraße".
+restaurant("Ebenfurth Bahnhof").

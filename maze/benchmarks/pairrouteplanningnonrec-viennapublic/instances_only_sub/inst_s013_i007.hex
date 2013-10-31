@@ -1,21 +1,56 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Kagran").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Praterstern").
+initlocation(1,"Stadlau").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+sequence(1,0, "Kagran").
+person(2).
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Seestadt").
+sequence(2,0, "Mödling Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Dürrwien Bahnhof").
+restaurant("Stadlau".
+restaurant("Korneuburg Bahnhof".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Westbahnhof".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Schönbrunn".
+restaurant("Heiligenstadt".
+restaurant("Hütteldorf".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Nußdorf".
+restaurant("Leopoldau".
+restaurant("Dürrwien Bahnhof".
+restaurant("Hainburg/Donau Personenbhf").

@@ -1,21 +1,48 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Reumannplatz").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Palffygasse").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+sequence(1,0, "Reumannplatz").
+person(2).
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Kärntner Ring/Oper").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Yppengasse").
+initlocation(2,"Innstraße").
+initlocation(2,"Hetzgasse").
+initlocation(2,"Siebertgasse").
+sequence(2,0, "Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Jagdschloßgasse").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Neilreichgasse").
+restaurant("Wildgansplatz").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Polkorabplatz").
+restaurant("Hauptbahnhof Ost").
+restaurant("Oberfeldgasse").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Pokornygasse").
+restaurant("Margaretengürtel").
+restaurant("Augasse").

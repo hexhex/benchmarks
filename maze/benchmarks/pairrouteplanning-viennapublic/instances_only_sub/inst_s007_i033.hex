@@ -1,15 +1,33 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Schottenring").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Alterlaa").
+sequence(1,0, "Heiligenstadt").
+person(2).
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+sequence(2,0, "Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Siemensstraße").
+restaurant("Breitensee".
+restaurant("Gumpoldskirchen Bahnhof".
+restaurant("Schleinbach Bahnhof".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Meidling Hauptstraße".
+restaurant("Krieau".
+restaurant("Stockerau Bahnhof").

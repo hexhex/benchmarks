@@ -1,21 +1,52 @@
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Seegasse").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Alaudagasse").
+initlocation(1,"Yppengasse").
+initlocation(1,"Carminweg").
+initlocation(1,"Hardeggasse").
+sequence(1,0, "Seegasse").
+person(2).
+initlocation(2,"Floridsdorfer Brücke").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Knöllgasse/Troststraße").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Stubentor").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Aumannplatz").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Dürrwien Bahnhof").
+sequence(2,0, "Floridsdorfer Brücke").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Korneuburg Bahnhof").
+restaurant("Weinheimergasse").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Hernals").
+restaurant("Palffygasse").
+restaurant("Quartier Belvedere").
+restaurant("Schmerlingplatz").
+restaurant("Praterstern").
+restaurant("Enkplatz").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Hubertusdamm").

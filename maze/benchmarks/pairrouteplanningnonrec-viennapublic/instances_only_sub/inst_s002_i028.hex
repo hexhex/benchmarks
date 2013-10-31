@@ -1,4 +1,12 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+sequence(1,0, "Platt Bahnhof").
+person(2).
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Dresdner Straße").
+sequence(2,0, "Korneuburg Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Nußdorfer Straße").
+restaurant("Wolfsthal Bahnhof".
+restaurant("Alser Straße").

@@ -1,21 +1,60 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Ottakring").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Wexstraße").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Wenzgasse").
+sequence(1,0, "Kapellerfeld Bahnhof").
+person(2).
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Huglgasse").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Schwarzenbergplatz").
+initlocation(2,"Strozzigasse").
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Koppstraße/Panikengasse").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Taborstraße/Heinestraße").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Zieglergasse").
+sequence(2,0, "Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Mannswörth Bahnhof").
+restaurant("Messe-Prater").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Floridsdorfer Brücke").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Ladendorf Bahnhof").
+restaurant("Schleinbach Bahnhof").
+restaurant("Strasshof Bahnhof").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Am Tabor").
+restaurant("Wienerfeldgasse").

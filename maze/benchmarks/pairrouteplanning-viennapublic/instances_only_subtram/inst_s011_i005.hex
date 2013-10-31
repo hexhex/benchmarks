@@ -1,21 +1,48 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Hopfengasse").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Langobardenstraße").
+sequence(1,0, "Gerasdorf Bahnhof").
+person(2).
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Unter St Veit, Hummelgasse").
+initlocation(2,"Laxenburger Straße/Troststraße").
+initlocation(2,"Linzer Straße/Hochsatzengasse").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Hofwiesengasse").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Lederergasse").
+initlocation(2,"Polkorabplatz").
+sequence(2,0, "Schwedenplatz").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Fultonstraße").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Rennweg").
+restaurant("Diesterweggasse").
+restaurant("Gerhardusgasse").
+restaurant("Herrengasse").
+restaurant("Ameisgasse").
+restaurant("Stockerau Bahnhof").
+restaurant("Kagraner Brücke").
+restaurant("Westbahnhof").
+restaurant("Bisamberg Bahnhof").
+restaurant("Canisiusgasse").
+restaurant("Sahulkastraße").
+restaurant("Guntramsdorf-Thallern").

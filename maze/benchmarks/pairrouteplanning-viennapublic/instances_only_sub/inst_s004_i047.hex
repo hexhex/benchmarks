@@ -1,6 +1,20 @@
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Brünner Straße").
+initlocation(1,"Stadlau").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Gasometer").
+sequence(1,0, "Brünner Straße").
+person(2).
+initlocation(2,"Traisengasse").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+sequence(2,0, "Traisengasse").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Aspernstraße").
+restaurant("Retz Bahnhof".
+restaurant("Vorgartenstraße".
+restaurant("Maria Ellend Bahnhof".
+restaurant("Pilgramgasse").

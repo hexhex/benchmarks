@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Gersthofer Str/Scheibenbergstr").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Fultonstraße").
+initlocation(1,"Heinrich-Drimmel-Platz").
+sequence(1,0, "Gersthofer Str/Scheibenbergstr").
+person(2).
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Schleiergasse").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+sequence(2,0, "Niederhofstraße").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Sechskrügelgasse").
+restaurant("Großjedlersdorf").
+restaurant("Hernalser Gürtel").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Guneschgasse").

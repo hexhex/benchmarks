@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Quartier Belvedere").
+sequence(1,0, "Sollenau Bahnhof").
+person(2).
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Münchendorf Bahnhof").
+sequence(2,0, "Nußdorfer Straße").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Schwechat Bahnhof").
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Weigelsdorf Bahnhof").

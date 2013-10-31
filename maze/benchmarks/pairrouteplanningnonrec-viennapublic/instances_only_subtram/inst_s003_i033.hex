@@ -1,5 +1,16 @@
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Augasse").
+initlocation(1,"Rebhanngasse").
+sequence(1,0, "Wallensteinplatz").
+person(2).
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Skodagasse").
+initlocation(2,"Marx-Meidlinger-Straße").
+sequence(2,0, "Mödling Bahnhof").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Blumengasse").
+restaurant("Herzogenburg Stadt").
+restaurant("Burgring").
+restaurant("Albertgasse").

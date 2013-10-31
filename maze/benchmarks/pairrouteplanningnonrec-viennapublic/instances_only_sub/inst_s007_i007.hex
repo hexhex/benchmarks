@@ -1,15 +1,32 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Gasometer").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+sequence(1,0, "Michelhausen Bahnhof").
+person(2).
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+sequence(2,0, "Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+restaurant("Ober Sankt Veit".
+restaurant("Neusiedl am See Bahnhof".
+restaurant("Längenfeldgasse".
+restaurant("Ladendorf Bahnhof".
+restaurant("Wr Neustadt Nord".
+restaurant("Neubaugasse".
+restaurant("Dresdner Straße").

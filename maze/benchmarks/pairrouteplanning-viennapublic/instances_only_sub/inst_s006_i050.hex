@@ -1,13 +1,28 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Breitensee").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Kettenbrückengasse").
+sequence(1,0, "Bad Deutsch-Altenburg Bahnhof").
+person(2).
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Grillgasse").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Kendlerstraße").
+sequence(2,0, "Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Krieau").
+restaurant("Margaretengürtel".
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Brünner Straße".
+restaurant("Stadlau".
+restaurant("Bisamberg Bahnhof".
+restaurant("Aspernstraße").

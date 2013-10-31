@@ -1,5 +1,16 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Zentralfriedhof").
+sequence(1,0, "Vorgartenstraße").
+person(2).
+initlocation(2,"Hernals").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+sequence(2,0, "Hernals").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+restaurant("Schönbrunn".
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Dürrwien Bahnhof").

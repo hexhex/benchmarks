@@ -1,5 +1,16 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+initlocation(1,"Maria Anzbach Bahnhof").
+sequence(1,0, "Absdorf-Hippersdorf Bahnhof").
+person(2).
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Franzensbrücke").
+sequence(2,0, "Winckelmannstraße").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Anton-Schall-Gasse").
+restaurant("Prandaugasse").
+restaurant("Bahnsteggasse").
+restaurant("Versorgungsheimplatz").

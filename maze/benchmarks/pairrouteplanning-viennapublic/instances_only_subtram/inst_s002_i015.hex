@@ -1,4 +1,12 @@
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Ungargasse/Neulinggasse").
+sequence(1,0, "Tullnerbach-Pressbaum Bahnhof").
+person(2).
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Erndtgasse").
+sequence(2,0, "Verbindungsbahn").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Keplerplatz").
+restaurant("Stockholmer Platz").

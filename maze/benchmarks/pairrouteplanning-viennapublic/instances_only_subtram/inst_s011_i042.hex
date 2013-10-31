@@ -1,21 +1,48 @@
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Zippererstraße").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Haidestraße").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Siebertgasse").
+initlocation(1,"Teichgasse").
+initlocation(1,"Hopfengasse").
+initlocation(1,"Heiligenstadt, 12-Februar-Pl").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Wildgansplatz").
+sequence(1,0, "Haidestraße").
+person(2).
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Anton-Schall-Gasse").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Mayssengasse").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Siebertgasse").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Mühlfeldgasse").
+initlocation(2,"Am Heidjöchl").
+initlocation(2,"Mistelbach Bahnhof").
+sequence(2,0, "Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Molitorgasse").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Donauinsel").
+restaurant("Marienbrücke").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Winckelmannstraße").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Migerkastraße").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Rothneusiedl").
+restaurant("Herzogenburg Stadt").

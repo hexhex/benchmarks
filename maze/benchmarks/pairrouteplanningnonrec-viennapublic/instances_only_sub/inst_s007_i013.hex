@@ -1,15 +1,33 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Herrengasse").
+sequence(1,0, "Götzendorf Bahnhof").
+person(2).
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Simmering").
+initlocation(2,"Spittelau").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Stadion").
+initlocation(2,"Karlsplatz").
+sequence(2,0, "Meidling Hauptstraße").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Baden Bahnhof").
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Krieau".
+restaurant("Hofstatt Bahnhof".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Hadersdorf Bahnhof".
+restaurant("Mistelbach Stadt").

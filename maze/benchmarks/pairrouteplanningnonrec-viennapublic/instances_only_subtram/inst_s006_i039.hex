@@ -1,13 +1,28 @@
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Stollgasse").
+initlocation(1,"Saikogasse").
+initlocation(1,"Grinzinger Straße").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Ottakringer Straße/Wattgasse").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+sequence(1,0, "Stollgasse").
+person(2).
+initlocation(2,"Dommayergasse").
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Forstnergasse").
+initlocation(2,"Ulrichskirchen Bahnhof").
+sequence(2,0, "Dommayergasse").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Wallrißstraße").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Gusenleithnergasse").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Praterkai").
+restaurant("Westbahnhof").
+restaurant("Sankt Marx").
+restaurant("Erzherzog-Karl-Straße").

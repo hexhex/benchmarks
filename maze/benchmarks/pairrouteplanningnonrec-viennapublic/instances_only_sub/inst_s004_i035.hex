@@ -1,6 +1,21 @@
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Mistelbach Stadt").
+sequence(1,0, "Hollabrunn Bahnhof").
+person(2).
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Niederhofstraße").
+sequence(2,0, "Großfeldsiedlung").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Alser Straße".
+restaurant("Unterradlberg Bahnhof".
+restaurant("Kagraner Platz").

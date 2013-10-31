@@ -1,4 +1,12 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Leopoldau").
+sequence(1,0, "Mistelbach Bahnhof").
+person(2).
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Mistelbach Bahnhof").
+sequence(2,0, "Schleinbach Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Nußdorf").
+restaurant("Friedensbrücke".
+restaurant("Vorgartenstraße").

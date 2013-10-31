@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Donaumarina").
+initlocation(1,"Forstnergasse").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Bernhardtstalgasse").
+sequence(1,0, "Rebhanngasse").
+person(2).
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Bahnhofstraße").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Am Spitz").
+initlocation(2,"Salztorbrücke").
+sequence(2,0, "Hausfeldstraße").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Josefstädter Straße").
+restaurant("Mödling Bahnhof").
+restaurant("Simonygasse").
+restaurant("Julius-Raab-Platz").
+restaurant("Bahnhofstraße").

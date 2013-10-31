@@ -1,21 +1,44 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Blumental").
+initlocation(1,"Rennweg").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+sequence(1,0, "Blumental").
+person(2).
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Kagran").
+initlocation(2,"Donauspital").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+sequence(2,0, "Sarasdorf Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Zieglergasse".
+restaurant("Kaiserebersdorf".
+restaurant("Aspernstraße".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Göllersdorf Bahnhof".
+restaurant("Kaisermühlen-VIC".
+restaurant("Rathaus".
+restaurant("Oberolberndorf Bahnhof".
 restaurant("Museumsquartier").

@@ -1,21 +1,44 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Donauinsel").
+initlocation(1,"Aderklaaer Straße").
+sequence(1,0, "Baden Bahnhof").
+person(2).
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+sequence(2,0, "Atzenbrugg Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Gaisruck Bahnhof".
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Ladendorf Bahnhof".
+restaurant("Unterpurkersdorf Bahnhof".
+restaurant("Wr Neustadt Nord".
+restaurant("Göllersdorf Bahnhof".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Josefstädter Straße".
+restaurant("Retz Bahnhof").

@@ -1,6 +1,20 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Friedensbrücke").
+sequence(1,0, "Achau Bahnhof").
+person(2).
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Aspernstraße").
+sequence(2,0, "Pressbaum Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Silberwald Bahnhof").
+restaurant("Tulln Stadt Bahnhof".
+restaurant("Preyergasse/Speising".
+restaurant("Maria Ellend Bahnhof".
+restaurant("Weidlingau Bahnhof").

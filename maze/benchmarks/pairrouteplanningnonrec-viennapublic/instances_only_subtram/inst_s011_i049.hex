@@ -1,21 +1,48 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-sequence(0, "Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Ungargasse/Neulinggasse").
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Spittelau").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Wattmanngasse").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Donaumarina").
+initlocation(1,"Mayssengasse").
+sequence(1,0, "Ungargasse/Neulinggasse").
+person(2).
+initlocation(2,"Heinrich-Drimmel-Platz").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Kärntner Ring/Oper").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Zentralfriedhof 1Tor").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Rosensteingasse").
+initlocation(2,"Stefan-Fadinger-Platz").
+sequence(2,0, "Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Penzinger Straße").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+restaurant("Glatzgasse").
+restaurant("Vorgartenstraße").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Bisamberg Bahnhof").
+restaurant("Wilhelminenstr/Sandleitengasse").
+restaurant("Schmerlingplatz").
+restaurant("Forstnergasse").
+restaurant("Linzer Straße/Lützowgasse").
+restaurant("Rathaus").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Oberfeldgasse").

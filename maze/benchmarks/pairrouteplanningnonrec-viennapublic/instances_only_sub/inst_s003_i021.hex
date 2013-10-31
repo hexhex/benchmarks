@@ -1,5 +1,17 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Platt Bahnhof").
+sequence(1,0, "Bahnhof Meidling").
+person(2).
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Hietzing").
+sequence(2,0, "Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+restaurant("Breitensee".
+restaurant("Reumannplatz".
+restaurant("Tullnerbach-Pressbaum Bahnhof").

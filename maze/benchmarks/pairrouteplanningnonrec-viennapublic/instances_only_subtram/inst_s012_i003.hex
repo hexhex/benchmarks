@@ -1,21 +1,52 @@
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Strebersdorf").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Praterkai").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Baumgarten").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Pantucekgasse/Widholzgasse").
+initlocation(1,"Großjedlersdorf").
+sequence(1,0, "Strebersdorf").
+person(2).
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Kaiserstraße").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Leberberg").
+initlocation(2,"Stollgasse").
+initlocation(2,"Simonygasse").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Zieglergasse").
+sequence(2,0, "Kettenbrückengasse").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Lerchenfelder Straße").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Neubaugasse").
+restaurant("Winkeläckerstraße").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Retz Bahnhof").
+restaurant("Dornbacher Straße").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Liesing").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Schöffelgasse").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Tulln Bahnhof").
+restaurant("Spillern Bahnhof").

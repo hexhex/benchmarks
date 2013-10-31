@@ -1,21 +1,53 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Stadion").
+initlocation(1,"Volkstheater").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Enkplatz").
+sequence(1,0, "Silberwald Bahnhof").
+person(2).
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Donauinsel").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Alterlaa").
+initlocation(2,"Leopoldau").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+sequence(2,0, "Unteroberndorf Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Atzenbrugg Bahnhof".
+restaurant("Pressbaum Bahnhof".
+restaurant("Sankt Marx".
+restaurant("Alte Donau".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Platt Bahnhof".
+restaurant("Kagraner Platz".
+restaurant("Unterpurkersdorf Bahnhof".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Traisengasse".
+restaurant("Perfektastraße").

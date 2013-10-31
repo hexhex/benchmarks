@@ -1,7 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+sequence(1,0, "Wolfsthal Bahnhof").
+person(2).
+initlocation(2,"Taborstraße").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Karlsplatz").
+sequence(2,0, "Taborstraße").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+restaurant("Karlsplatz".
+restaurant("Meidling Hauptstraße".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Alser Straße".
+restaurant("Dresdner Straße").

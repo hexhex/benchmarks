@@ -1,17 +1,36 @@
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Am Tabor").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Innstraße").
+initlocation(1,"Gredlerstraße").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+sequence(1,0, "Mödling Bahnhof").
+person(2).
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Maurer Hauptplatz").
+initlocation(2,"Hernalser Gürtel").
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Versorgungsheimplatz").
+sequence(2,0, "Rauscherstraße").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Diesterweggasse").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Eckpergasse").
+restaurant("Schuhmeierplatz").
+restaurant("Wattmanngasse").
+restaurant("Gruschaplatz").
+restaurant("Barawitzkagasse").
+restaurant("Polkorabplatz").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Himberg Bahnhof").
+restaurant("Alterlaa").

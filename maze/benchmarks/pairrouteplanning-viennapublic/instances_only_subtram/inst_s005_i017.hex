@@ -1,11 +1,24 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Sechskrügelgasse").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Braunhubergasse").
+sequence(1,0, "Ober Sankt Veit").
+person(2).
+initlocation(2,"Columbusplatz").
+initlocation(2,"Blumental").
+initlocation(2,"Schloss Schönbrunn").
+initlocation(2,"Eichenstraße").
+initlocation(2,"Gerstnerstraße/Westbhf").
+sequence(2,0, "Columbusplatz").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Stubentor").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Felixdorf Bahnhof").
+restaurant("Seestadt").
+restaurant("Huglgasse").
+restaurant("Gersthofer Str/Scheibenbergstr").

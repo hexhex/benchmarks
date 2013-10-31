@@ -1,11 +1,25 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Neue Donau").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Erdberg").
+initlocation(1,"Herrengasse").
+initlocation(1,"Pressbaum Bahnhof").
+sequence(1,0, "Neue Donau").
+person(2).
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Hernals").
+sequence(2,0, "Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Krieau").
+restaurant("Stubentor".
+restaurant("Meidling Hauptstraße".
+restaurant("Ober Sankt Veit".
+restaurant("Unterradlberg Bahnhof".
+restaurant("Hausleiten Bahnhof").

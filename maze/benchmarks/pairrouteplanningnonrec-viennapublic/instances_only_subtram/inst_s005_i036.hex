@@ -1,11 +1,25 @@
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-sequence(0, "Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Litfaßstraße").
+initlocation(1,"Unter St Veit, Hummelgasse").
+sequence(1,0, "Hütteldorfer Str/Lützowgasse").
+person(2).
+initlocation(2,"Lainz, Wolkersbergenstraße").
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Sillerplatz").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Am Heumarkt").
+sequence(2,0, "Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Resselgasse").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Bauernfeldplatz").
+restaurant("Quellenplatz").
+restaurant("Herrengasse").
+restaurant("Höchstädtplatz").

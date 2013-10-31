@@ -1,21 +1,56 @@
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Laurenzgasse").
+initlocation(1,"Autokaderstraße").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Johnstraße").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Dommayergasse").
+initlocation(1,"Gerstnerstraße/Westbhf").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Bahnhof Meidling").
+sequence(1,0, "Laurenzgasse").
+person(2).
+initlocation(2,"Tesarekplatz").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Hernals").
+initlocation(2,"Löwengasse").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Gasometer").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Donaumarina").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+sequence(2,0, "Tesarekplatz").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Empergergasse").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Hofstatt Bahnhof").
+restaurant("Vinzenzgasse").
+restaurant("Viehmarktgasse").
+restaurant("Hofstatt Bahnhof").
 restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Baumgasse").
+restaurant("Mannswörth Bahnhof").
+restaurant("Rustengasse").
+restaurant("Obersdorf Bahnhof").
+restaurant("Rauscherstraße").
+restaurant("Kaisermühlen-VIC").
+restaurant("Keplerplatz").
+restaurant("Canisiusgasse").

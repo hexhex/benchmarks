@@ -1,21 +1,56 @@
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Traisengasse").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Donaustadtbrücke").
+sequence(1,0, "Bahnhof Meidling").
+person(2).
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Stubentor").
+initlocation(2,"Praterkai").
+initlocation(2,"Traisengasse").
+initlocation(2,"Seestadt").
+sequence(2,0, "Kledering Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+restaurant("Hausfeldstraße".
+restaurant("Seestadt".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Trasdorf Bahnhof".
+restaurant("Stockerau Bahnhof".
+restaurant("Jägerstraße".
+restaurant("Simmering".
+restaurant("Aderklaaer Straße".
+restaurant("Schönborn Bahnhof".
+restaurant("Gasometer".
+restaurant("Unter Sankt Veit".
+restaurant("Süßenbrunn").

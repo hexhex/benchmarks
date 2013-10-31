@@ -1,19 +1,40 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Nußdorf").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Volkstheater").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Museumsquartier").
+sequence(1,0, "Nußdorf").
+person(2).
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Lobau").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Erdberg").
+sequence(2,0, "Bisamberg Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+restaurant("Westbahnhof".
+restaurant("Floridsdorf".
+restaurant("Wolf in der Au".
+restaurant("Kottingbrunn Bahnhof".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Johnstraße".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Mistelbach Bahnhof".
+restaurant("Hirschstetten").

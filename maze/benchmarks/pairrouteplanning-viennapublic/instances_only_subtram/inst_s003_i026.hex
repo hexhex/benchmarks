@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Oberfeldgasse/Spargelfeldstr").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Römergasse").
+sequence(1,0, "Oberfeldgasse/Spargelfeldstr").
+person(2).
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Rodaun").
+initlocation(2,"Schöffelgasse").
+sequence(2,0, "Hintere Zollamtsstraße").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Leopoldau").
+restaurant("Erndtgasse").
+restaurant("Bahnhof Meidling/Eichenstraße").

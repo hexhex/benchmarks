@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Hautzendorf Bahnhof").
+sequence(1,0, "Jedlersdorf").
+person(2).
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Johnstraße").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Seestadt").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Hollabrunn Bahnhof").
+sequence(2,0, "Mistelbach Stadt").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+restaurant("Obersdorf Bahnhof".
+restaurant("Sierndorf Bahnhof".
+restaurant("Michelhausen Bahnhof".
+restaurant("Silberwald Bahnhof".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Hardeggasse".
+restaurant("Eichgraben-Altlengbach Bahnhof").

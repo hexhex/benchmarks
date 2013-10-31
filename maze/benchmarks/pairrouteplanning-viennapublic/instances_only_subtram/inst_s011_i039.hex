@@ -1,21 +1,48 @@
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-sequence(0, "Braunschweiggasse").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Gutraterplatz").
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Gaußplatz").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+sequence(1,0, "Hintere Zollamtsstraße").
+person(2).
+initlocation(2,"Lederergasse").
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Krankenhaus Hietzing").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Baumgarten").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Weinheimergasse").
+sequence(2,0, "Lederergasse").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+restaurant("Arminenstraße").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Riedelgasse").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Neulengbach Bahnhof").
+restaurant("Nordbrücke").
+restaurant("Plößlgasse").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Blechturmgasse").
+restaurant("Hollabrunn Bahnhof").

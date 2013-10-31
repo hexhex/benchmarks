@@ -1,13 +1,28 @@
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Rathausplatz/Burgtheater").
+sequence(1,0, "Joachimsthalerplatz").
+person(2).
+initlocation(2,"Alser Straße").
+initlocation(2,"Teichgasse").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Schleiergasse").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+sequence(2,0, "Alser Straße").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+restaurant("Schlickgasse").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Migerkastraße").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("Baumgasse").

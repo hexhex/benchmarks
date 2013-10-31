@@ -1,3 +1,8 @@
-initlocation("Roßauer Lände").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Lange Gasse").
+sequence(1,0, "Lange Gasse").
+person(2).
+initlocation(2,"Handelskai").
+sequence(2,0, "Handelskai").
+possiblemeetinglocations("Bernhardtstalgasse").
+restaurant("Rebhanngasse").

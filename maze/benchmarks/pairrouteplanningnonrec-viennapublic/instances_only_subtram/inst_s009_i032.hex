@@ -1,19 +1,40 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Carminweg").
+initlocation(1,"Sensengasse").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Litfaßstraße").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Empergergasse").
+sequence(1,0, "Carminweg").
+person(2).
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Urban-Loritz-Platz").
+initlocation(2,"Aumannplatz").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Beingasse").
+sequence(2,0, "Reinlgasse/Märzstraße").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Frauengasse").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Mannswörth Bahnhof").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Gruschaplatz").
+restaurant("Innstraße").
+restaurant("Oberzellergasse").
+restaurant("Ameisgasse").
+restaurant("Grillgasse").
+restaurant("Handelskai").
+restaurant("Scheibenbergstraße").

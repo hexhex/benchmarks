@@ -1,21 +1,48 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Bahnsteggasse").
+initlocation(1,"Saikogasse").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Am Tabor").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Donaustadtstraße").
+sequence(1,0, "Bahnsteggasse").
+person(2).
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Silbergasse").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Saikogasse").
+initlocation(2,"Skodagasse").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Grinzinger Straße").
+sequence(2,0, "Langenzersdorf Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Wallrißstraße").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+restaurant("Rauscherstraße").
+restaurant("Kutschkergasse").
+restaurant("Nestroyplatz").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Erdberg").
+restaurant("Stollgasse").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Paradisgasse").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Martinstraße").
+restaurant("Spillern Bahnhof").

@@ -1,4 +1,12 @@
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Johnstraße").
+sequence(1,0, "Kagraner Platz").
+person(2).
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Siebensterngasse").
+sequence(2,0, "Ebenfurth Bahnhof").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+possiblemeetinglocations("Viehmarktgasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Thaliastraße/Haberlgasse").

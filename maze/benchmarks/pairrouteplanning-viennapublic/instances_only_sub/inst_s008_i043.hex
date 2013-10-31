@@ -1,17 +1,36 @@
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Blumental").
+initlocation(1,"Alser Straße").
+sequence(1,0, "Nestroyplatz").
+person(2).
+initlocation(2,"Alte Donau").
+initlocation(2,"Kagran").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Donauspital").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Westbahnhof").
+sequence(2,0, "Alte Donau").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Rathaus").
+restaurant("Dresdner Straße".
+restaurant("Erzherzog-Karl-Straße".
+restaurant("Staatz Bahnhof".
+restaurant("Lobau".
+restaurant("Unter Kritzendorf Bahnhof".
+restaurant("Volkstheater".
+restaurant("Pottendorf-Landegg Bahnhof".
+restaurant("Josefstädter Straße").

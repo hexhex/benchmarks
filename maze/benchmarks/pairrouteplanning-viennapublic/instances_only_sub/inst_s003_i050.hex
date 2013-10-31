@@ -1,5 +1,16 @@
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Perfektastraße").
+sequence(1,0, "Gramatneusiedl Bahnhof").
+person(2).
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Großfeldsiedlung").
+sequence(2,0, "Unter Sankt Veit").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+restaurant("Hautzendorf Bahnhof".
+restaurant("Schottentor".
+restaurant("Tullnerfeld Bahnhof").

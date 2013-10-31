@@ -1,21 +1,60 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Grillgasse").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Schottenring").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+sequence(1,0, "Grillgasse").
+person(2).
+initlocation(2,"Erdberg").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+sequence(2,0, "Erdberg").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Seestadt").
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Helmahof Bahnhof".
+restaurant("Kledering Bahnhof".
+restaurant("Jedlersdorf".
+restaurant("Meidling Hauptstraße".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Schönbrunn".
+restaurant("Wilfleinsdorf Bahnhof".
+restaurant("Kettenbrückengasse".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Wolfsthal Bahnhof".
+restaurant("Taborstraße".
+restaurant("Matzleinsdorfer Platz".
+restaurant("Himberg Bahnhof").

@@ -1,5 +1,16 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Ebreichsdorf Bahnhof").
+sequence(1,0, "Lazarettgasse").
+person(2).
+initlocation(2,"Diesterweggasse").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Hohe Warte").
+sequence(2,0, "Diesterweggasse").
+possiblemeetinglocations("Am Tabor").
+possiblemeetinglocations("Großjedlersdorf").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Schottenring").
+restaurant("Kaisermühlen-VIC").

@@ -1,15 +1,32 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Wr Neustadt Civitas Nova").
+sequence(1,0, "Heiligenstadt").
+person(2).
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Hietzing").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+sequence(2,0, "Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Theresienfeld Bahnhof".
+restaurant("Hietzing".
+restaurant("Perfektastraße".
+restaurant("Retz Bahnhof".
+restaurant("Siemensstraße".
+restaurant("Wolkersdorf Bahnhof").

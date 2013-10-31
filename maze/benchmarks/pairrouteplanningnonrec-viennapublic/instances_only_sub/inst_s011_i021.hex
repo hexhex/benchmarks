@@ -1,21 +1,49 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Seestadt").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+sequence(1,0, "Göllersdorf Bahnhof").
+person(2).
+initlocation(2,"Stadlau").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Längenfeldgasse").
+sequence(2,0, "Stadlau").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Längenfeldgasse").
+restaurant("Paasdorf Bahnhof".
+restaurant("Spittelau".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Schleinbach Bahnhof".
+restaurant("Margaretengürtel".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Hütteldorf".
+restaurant("Herzogenburg Stadt".
+restaurant("Sankt Marx".
+restaurant("Krottenbachstraße".
+restaurant("Guntersdorf Bahnhof").

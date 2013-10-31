@@ -1,3 +1,8 @@
-initlocation("Am Schöpfwerk").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Ober Sankt Veit").
+sequence(1,0, "Ober Sankt Veit").
+person(2).
+initlocation(2,"Achau Bahnhof").
+sequence(2,0, "Achau Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+restaurant("Bruck/Leitha Bahnhof").

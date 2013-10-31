@@ -1,21 +1,56 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Nußdorf").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Aspernstraße").
+sequence(1,0, "Viehofen Bahnhof").
+person(2).
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Praterstern").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Ottakring").
+sequence(2,0, "Korneuburg Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Aspernstraße").
+restaurant("Spittelau".
+restaurant("Stephansplatz".
+restaurant("Pressbaum Bahnhof".
+restaurant("Rochusgasse".
+restaurant("Obersdorf Bahnhof".
+restaurant("Aderklaaer Straße".
+restaurant("Tscherttegasse".
+restaurant("Brünner Straße".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Leobersdorf Bahnhof".
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Liesing".
+restaurant("Donauspital").

@@ -1,19 +1,41 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+sequence(1,0, "Rennbahnweg").
+person(2).
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Lobau").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Spittelau").
+initlocation(2,"Taborstraße").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+sequence(2,0, "Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Hadersdorf Bahnhof".
+restaurant("Praterstern".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Penzing".
+restaurant("Enkplatz".
+restaurant("Großfeldsiedlung".
+restaurant("Zellerndorf Bahnhof").

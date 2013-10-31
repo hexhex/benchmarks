@@ -1,13 +1,28 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Molitorgasse").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Kölblgasse").
+sequence(1,0, "Unterradlberg Bahnhof").
+person(2).
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Schloss Schönbrunn").
+initlocation(2,"Tulln Bahnhof").
+sequence(2,0, "Am Heidjöchl/Hausfeldstraße").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Herzogenburg Stadt").
+restaurant("Kliebergasse").
+restaurant("Winckelmannstraße").
+restaurant("Breitensee").
+restaurant("Traismauer Bahnhof").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Mistelbach Bahnhof").

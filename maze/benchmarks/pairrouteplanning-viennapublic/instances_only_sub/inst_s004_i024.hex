@@ -1,6 +1,22 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Grillgasse").
+initlocation(1,"Seestadt").
+initlocation(1,"Zieglergasse").
+sequence(1,0, "Gumpendorfer Straße").
+person(2).
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+sequence(2,0, "Ebenfurth Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Längenfeldgasse").
+restaurant("Erdberg".
+restaurant("Siebenhirten (NÖ.
+Haltestelle".
+restaurant("Liesing".
+restaurant("Zentralfriedhof").

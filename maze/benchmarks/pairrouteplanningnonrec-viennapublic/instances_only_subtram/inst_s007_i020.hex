@@ -1,15 +1,32 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Johnstraße").
+initlocation(1,"Burgring").
+sequence(1,0, "Gumpendorfer Straße").
+person(2).
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Eichenstraße").
+initlocation(2,"Bahnhofstraße").
+initlocation(2,"Rußbergstraße").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+sequence(2,0, "Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Quellenplatz").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Yppengasse").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Erdberg").
+restaurant("Stockholmer Platz").
+restaurant("Koloniestraße").
+restaurant("Wolf in der Au").
+restaurant("Columbusplatz").
+restaurant("Herzogenburg Bahnhof").

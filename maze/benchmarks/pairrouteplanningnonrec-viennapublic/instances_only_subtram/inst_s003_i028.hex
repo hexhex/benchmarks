@@ -1,5 +1,16 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Hildebrandgasse").
+sequence(1,0, "Achau Bahnhof").
+person(2).
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Gramatneusiedl Bahnhof").
+sequence(2,0, "Hauptbahnhof Ost").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+restaurant("Hernals").
+restaurant("Gasometer").
+restaurant("Rothneusiedl").

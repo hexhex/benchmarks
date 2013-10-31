@@ -1,6 +1,20 @@
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Blindengasse").
+initlocation(1,"Alsegger Straße").
+initlocation(1,"Brünnlbadgasse").
+sequence(1,0, "Bahnhof Meidling").
+person(2).
+initlocation(2,"Wattmanngasse").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Silberwald Bahnhof").
+sequence(2,0, "Wattmanngasse").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+restaurant("Dresdner Straße").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Schottenfeldgasse").
+restaurant("Wienerfeldgasse").

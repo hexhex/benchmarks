@@ -1,4 +1,12 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Kleistgasse").
+initlocation(1,"Favoritenstraße/Troststraße").
+sequence(1,0, "Kleistgasse").
+person(2).
+initlocation(2,"Schottenfeldgasse").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+sequence(2,0, "Schottenfeldgasse").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Spillern Bahnhof").
+restaurant("Rußbergstraße").
+restaurant("Autokaderstraße").

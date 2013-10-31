@@ -1,21 +1,64 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Rankgasse").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Leyserstraße").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Van-Swieten-Kaserne").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Stadtpark").
+initlocation(1,"Leobersdorf Bahnhof").
+sequence(1,0, "Mannswörth Bahnhof").
+person(2).
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Floridsdorfer Brücke").
+initlocation(2,"Donaumarina").
+initlocation(2,"Kölblgasse").
+initlocation(2,"Rustengasse").
+initlocation(2,"Perntergasse").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Gatterburggasse").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Linzer Straße/Reinlgasse").
+sequence(2,0, "Gumpendorfer Straße").
+possiblemeetinglocations("Scheibenbergstraße").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Schottenring").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Floridsdorfer Brücke").
+restaurant("Obere Donaustraße").
+restaurant("Marienbrücke").
+restaurant("Laurenzgasse").
+restaurant("Aderklaaer Straße").
+restaurant("Lange Gasse").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Autokaderstraße").
+restaurant("Sankt Marx").
+restaurant("Sierndorf Bahnhof").
+restaurant("Krieau").
+restaurant("Hausfeldstraße").
+restaurant("Alaudagasse").
+restaurant("Halteraugasse").

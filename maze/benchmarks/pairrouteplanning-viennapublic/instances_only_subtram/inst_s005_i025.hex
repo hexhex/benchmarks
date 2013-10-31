@@ -1,11 +1,24 @@
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Rustengasse").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+sequence(1,0, "Am Heidjöchl").
+person(2).
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Leopoldau").
+initlocation(2,"Herrengasse").
+initlocation(2,"Weidlingau Bahnhof").
+sequence(2,0, "Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Frauengasse").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+restaurant("Schottenfeldgasse").
+restaurant("Stockerau Bahnhof").
+restaurant("Siebertgasse").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Pilgramgasse").

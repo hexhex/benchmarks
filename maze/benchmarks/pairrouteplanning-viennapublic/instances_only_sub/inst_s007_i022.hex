@@ -1,15 +1,32 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Neue Donau").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Kaiserebersdorf").
+sequence(1,0, "Spillern Bahnhof").
+person(2).
+initlocation(2,"Zippererstraße").
+initlocation(2,"Haidestraße").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Rochusgasse").
+sequence(2,0, "Zippererstraße").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+restaurant("Perfektastraße".
+restaurant("Vorgartenstraße".
+restaurant("Zeiselmauer-Königstetten Bf".
+restaurant("Hetzendorf".
+restaurant("Enkplatz".
+restaurant("Atzgersdorf".
+restaurant("Schönborn Bahnhof").

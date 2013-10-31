@@ -1,21 +1,52 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Schöffelgasse").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Gredlerstraße").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Rankgasse").
+sequence(1,0, "Schottenfeldgasse").
+person(2).
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Stadlau").
+initlocation(2,"Krieau").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Schottentor").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Frauengasse").
+initlocation(2,"Grillgasse").
+initlocation(2,"Satzberggasse").
+sequence(2,0, "Kaiserebersdorf").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Trondheimgasse").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Radetzkyplatz").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+restaurant("Gredlerstraße").
+restaurant("Siebenhirten").
+restaurant("Hauffgasse").
+restaurant("Augasse").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Oberzellergasse").
+restaurant("Donauinsel").
+restaurant("Brünner Straße").
+restaurant("Stephansplatz").
+restaurant("Jagdschloßgasse").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Pötzleinsdorf").

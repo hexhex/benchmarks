@@ -1,21 +1,61 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-sequence(0, "Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Schönbrunn").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Stadlau").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Höbersdorf Bahnhof").
+sequence(1,0, "Schönbrunn").
+person(2).
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Kagran").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Langenlebarn Bahnhof").
+sequence(2,0, "Schweglerstraße").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Volkstheater").
+restaurant("Ladendorf Bahnhof".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Westbahnhof".
+restaurant("Mistelbach Stadt".
+restaurant("Josefstädter Straße".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Aspern Nord".
+restaurant("Bisamberg Bahnhof".
+restaurant("Krottenbachstraße".
+restaurant("Stubentor".
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Lanzendorf-Rannersdorf Bahnhof".
+restaurant("Thaliastraße").

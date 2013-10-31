@@ -1,21 +1,64 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Alser Straße").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Zieglergasse").
+sequence(1,0, "Alser Straße").
+person(2).
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Spittelau").
+initlocation(2,"Alte Donau").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Traisengasse").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Rekawinkel Bahnhof").
+sequence(2,0, "Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+restaurant("Erlaaer Straße".
+restaurant("Schönborn Bahnhof".
+restaurant("Wr Neustadt Nord".
+restaurant("Erdberg".
+restaurant("Sierndorf Bahnhof".
+restaurant("Floridsdorf".
+restaurant("Donaustadtbrücke".
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Laa an der Thaya Bahnhof".
+restaurant("Helmahof Bahnhof".
+restaurant("Kagran".
+restaurant("Fischamend Bahnhof".
+restaurant("Kaiserebersdorf".
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Trasdorf Bahnhof").

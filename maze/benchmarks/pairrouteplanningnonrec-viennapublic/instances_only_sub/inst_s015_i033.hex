@@ -1,21 +1,64 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Kagran").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Krieau").
+sequence(1,0, "Felixdorf Bahnhof").
+person(2).
+initlocation(2,"Zieglergasse").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Hirschstetten").
+sequence(2,0, "Zieglergasse").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+restaurant("Donauinsel".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Unterradlberg Bahnhof".
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Taubstummengasse".
+restaurant("Nußdorf".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Viehofen Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Zellerndorf Bahnhof").

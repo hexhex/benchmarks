@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Wildgansplatz").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Schwarzspanierstraße").
+initlocation(1,"Oberlaa, Therme Wien").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Laaer-Berg-Straße").
+sequence(1,0, "Wildgansplatz").
+person(2).
+initlocation(2,"Praterstern").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Aßmayergasse").
+sequence(2,0, "Praterstern").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+restaurant("Urban-Loritz-Platz").
+restaurant("Messe-Prater").
+restaurant("Perfektastraße").
 restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+restaurant("Konstanziagasse").
+restaurant("Lerchenfelder Straße").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Karmeliterplatz").

@@ -1,21 +1,48 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Liesing").
+initlocation(1,"Oberfeldgasse/Spargelfeldstr").
+initlocation(1,"Gusenleithnergasse").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Friedrich-Engels-Platz").
+initlocation(1,"Ottakring").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Mariahilfer Gürtel").
+sequence(1,0, "Donaustadtbrücke").
+person(2).
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Saikogasse").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Blumengasse").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Versorgungsheimplatz").
+initlocation(2,"Donauinsel").
+initlocation(2,"Nordbahnstraße").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Gersthof").
+initlocation(2,"Penzinger Straße").
+sequence(2,0, "Stadiongasse/Parlament").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Rosensteingasse").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+restaurant("Litfaßstraße").
+restaurant("Tesarekplatz").
+restaurant("Vorgartenstraße").
+restaurant("Oberlaa, Therme Wien").
 restaurant("Hütteldorfer Straße").
+restaurant("Handelskai").
+restaurant("Am Tabor").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Viehofen Bahnhof").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Reinlgasse/Märzstraße").

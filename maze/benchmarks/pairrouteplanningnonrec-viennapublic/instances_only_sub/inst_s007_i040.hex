@@ -1,15 +1,33 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Frättingsdorf Bahnhof").
+sequence(1,0, "Längenfeldgasse").
+person(2).
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Ottakring").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+sequence(2,0, "Unter Sankt Veit").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Rathaus".
+restaurant("Schlachthausgasse".
+restaurant("Baden Bahnhof".
+restaurant("Tulln Stadt Bahnhof".
+restaurant("Viehofen Bahnhof".
+restaurant("Hennersdorf Bahnhof").

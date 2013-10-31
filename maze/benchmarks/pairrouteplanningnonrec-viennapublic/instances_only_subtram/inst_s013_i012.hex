@@ -1,21 +1,56 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Baumgasse").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Empergergasse").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Hauffgasse").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Enkplatz").
+initlocation(1,"Karmeliterplatz").
+sequence(1,0, "Baumgasse").
+person(2).
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Donauzentrum").
+initlocation(2,"Münchendorf Bahnhof").
+sequence(2,0, "Obere Augartenstraße").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Yppengasse").
+restaurant("Prater, Hauptallee").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Carabelligasse").
+restaurant("Laurenzgasse").
+restaurant("Hohe Warte").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Stubentor").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Halteraugasse").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Kranzgasse").
+restaurant("Hausleiten Bahnhof").
+restaurant("Siebenhirten").

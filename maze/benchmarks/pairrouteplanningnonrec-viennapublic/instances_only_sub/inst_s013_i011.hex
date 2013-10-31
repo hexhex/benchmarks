@@ -1,21 +1,56 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Handelskai").
+initlocation(1,"Himberg Bahnhof").
+sequence(1,0, "Achau Bahnhof").
+person(2).
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Schottenring").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+sequence(2,0, "Korneuburg Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+restaurant("Zellerndorf Bahnhof".
+restaurant("Stadlau".
+restaurant("Quartier Belvedere".
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Schleinbach Bahnhof".
+restaurant("Heiligenstadt".
+restaurant("Zippererstraße".
+restaurant("Schwedenplatz".
+restaurant("Münchendorf Bahnhof".
+restaurant("Floridsdorf".
+restaurant("Donaumarina".
+restaurant("Großfeldsiedlung".
+restaurant("Siebenhirten").

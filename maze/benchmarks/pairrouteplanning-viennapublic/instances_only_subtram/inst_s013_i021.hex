@@ -1,21 +1,56 @@
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-sequence(0, "Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Spittelau").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Glatzgasse").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Stubentor").
+initlocation(1,"Hohe Warte").
+initlocation(1,"Traismauer Bahnhof").
+sequence(1,0, "Brunn-Maria Enzersdorf Bahnhof").
+person(2).
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Neuwaldegg").
+initlocation(2,"Hütteldorf, Bujattigasse").
+initlocation(2,"Knöllgasse/Davidgasse").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Schottentor").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Columbusplatz").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Kettenbrückengasse").
+sequence(2,0, "Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Landesgerichtsstraße").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Am Tabor").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Am Spitz").
+restaurant("Floridsdorfer Markt").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Sechskrügelgasse").
+restaurant("Lerchenfelder Straße").
+restaurant("Hofstatt Bahnhof").
+restaurant("Leberberg").
+restaurant("Obere Augartenstraße").
+restaurant("Strozzigasse").

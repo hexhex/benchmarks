@@ -1,21 +1,57 @@
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Großjedlersdorf").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Strozzigasse").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Hütteldorf, Bujattigasse").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Hollabrunn Bahnhof").
+sequence(1,0, "Großjedlersdorf").
+person(2).
+initlocation(2,"Kaiserstraße").
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Rosensteingasse").
+initlocation(2,"Columbusplatz").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Innstraße").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Bösendorferstraße").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Hütteldorfer Str/Hochsatzeng").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Verbindungsbahn").
+sequence(2,0, "Kaiserstraße").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Kranzgasse").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Skodagasse").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+possiblemeetinglocations("Rathaus").
+restaurant("Rebhanngasse").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Augasse").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Nußdorfer Straße").
+restaurant("Hofwiesengasse").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Strozzigasse").
+restaurant("Dornbach, Güpferlingstraße").
 restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
+restaurant("Spillern Bahnhof").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Rußbergstraße").

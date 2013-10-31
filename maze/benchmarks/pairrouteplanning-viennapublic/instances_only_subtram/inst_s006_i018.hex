@@ -1,13 +1,28 @@
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-sequence(0, "Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Nordbrücke").
+initlocation(1,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+sequence(1,0, "Dornbach, Güpferlingstraße").
+person(2).
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Handelskai").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Landstraße-Wien Mitte").
+sequence(2,0, "Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Unteres Belvedere").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Brünner Straße").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Marienbrücke").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Baden Bahnhof").
+restaurant("Herbeckstraße").

@@ -1,21 +1,48 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Volkstheater").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Erlaaer Straße").
+sequence(1,0, "Josefstädter Straße").
+person(2).
+initlocation(2,"Gersthof").
+initlocation(2,"Krieau").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Gasometer").
+initlocation(2,"Retz Bahnhof").
+sequence(2,0, "Gersthof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Handelskai").
+restaurant("Margaretengürtel".
+restaurant("Mannswörth Bahnhof".
+restaurant("Zieglergasse".
+restaurant("Spillern Bahnhof".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Gasometer".
+restaurant("Herzogenburg Bahnhof".
+restaurant("Ottakring".
+restaurant("Pilgramgasse".
+restaurant("Praterstern".
 restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").

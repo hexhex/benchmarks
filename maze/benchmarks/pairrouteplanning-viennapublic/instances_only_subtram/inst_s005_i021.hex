@@ -1,11 +1,24 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Albertgasse").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Scheibenbergstraße").
+sequence(1,0, "Albertgasse").
+person(2).
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Handelskai").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Waidhausenstraße").
+sequence(2,0, "Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Fultonstraße").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Schwarzspanierstraße").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Breitensee").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Längenfeldgasse/Flurschützstr").

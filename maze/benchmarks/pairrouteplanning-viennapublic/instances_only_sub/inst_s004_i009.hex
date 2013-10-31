@@ -1,6 +1,20 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Hennersdorf Bahnhof").
+sequence(1,0, "Wolkersdorf Bahnhof").
+person(2).
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+sequence(2,0, "Seyring Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+restaurant("Gumpendorfer Straße".
+restaurant("Michelbeuern-AKH".
+restaurant("Neusiedl am See Bahnhof".
+restaurant("Schottenring").

@@ -1,21 +1,61 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Schottenring").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Leopoldau").
+initlocation(1,"Alte Donau").
+initlocation(1,"Rennweg").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+sequence(1,0, "Schottenring").
+person(2).
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Nußdorf").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Gumpendorfer Straße").
+sequence(2,0, "Kledering Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Sierndorf Bahnhof").
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Traismauer Bahnhof".
+restaurant("Ebenfurth Bahnhof".
+restaurant("Mistelbach Bahnhof".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Siebenhirten".
+restaurant("Brünner Straße".
+restaurant("Mödling Bahnhof".
+restaurant("Hirschstetten".
+restaurant("Unter Kritzendorf Bahnhof".
+restaurant("Schönbrunn").

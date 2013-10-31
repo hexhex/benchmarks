@@ -1,21 +1,52 @@
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Reumannplatz").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Donauinsel").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+sequence(1,0, "Reumannplatz").
+person(2).
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Johnstraße").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Donauinsel").
+sequence(2,0, "Donaustadtbrücke").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Guntramsdorf-Thallern".
+restaurant("Unteroberndorf Bahnhof".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Donauspital".
+restaurant("Hausleiten Bahnhof".
+restaurant("Währinger Straße-Volksoper".
+restaurant("Oberdöbling".
+restaurant("Stadion".
+restaurant("Staatz Bahnhof".
+restaurant("Stubentor".
+restaurant("Unter Kritzendorf Bahnhof").

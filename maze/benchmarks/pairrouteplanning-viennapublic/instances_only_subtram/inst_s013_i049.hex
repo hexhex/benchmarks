@@ -1,21 +1,56 @@
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-sequence(0, "Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Saikogasse").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Gaußplatz").
+initlocation(1,"Geiereckstraße").
+initlocation(1,"Prater, Hauptallee").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Gumpendorfer Straße").
+sequence(1,0, "Saikogasse").
+person(2).
+initlocation(2,"Thaliastraße").
+initlocation(2,"Halteraugasse").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Hetzgasse").
+initlocation(2,"Blumental").
+initlocation(2,"Huglgasse").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Donauzentrum").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Johnstraße").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Hainburg/Donau Personenbhf").
+sequence(2,0, "Thaliastraße").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Hofstatt Bahnhof").
+restaurant("Wienerfeldgasse").
+restaurant("Aßmayergasse").
+restaurant("Schleiergasse").
+restaurant("Resselgasse").
+restaurant("Aderklaaer Straße").
+restaurant("Hofstatt Bahnhof").
+restaurant("Carminweg").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Rochusgasse").
+restaurant("Pokornygasse").
+restaurant("Sechskrügelgasse").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Floridsdorf").

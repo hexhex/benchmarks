@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Schottentor").
+initlocation(1,"Hautzendorf Bahnhof").
+sequence(1,0, "Schottentor").
+person(2).
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Spittelau").
+sequence(2,0, "Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Zieglergasse").
+restaurant("Landstraße-Wien Mitte".
+restaurant("Gramatneusiedl Bahnhof").

@@ -1,19 +1,43 @@
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Spittelau").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Retz Bahnhof").
+sequence(1,0, "Unter Kritzendorf Bahnhof").
+person(2).
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Tulln Bahnhof").
+sequence(2,0, "Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Donaumarina".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Sankt Marx".
+restaurant("Grillgasse".
+restaurant("Hardeggasse".
+restaurant("Kaisermühlen-VIC".
+restaurant("Stockerau Bahnhof".
+restaurant("Siebenhirten (NÖ.
+Haltestelle".
+restaurant("Flughafen Wien (VIE.
+Bahnhof").

@@ -1,13 +1,28 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Florianigasse").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Jagdschloßgasse").
+sequence(1,0, "Trautmannsdorf/Leitha Bf").
+person(2).
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Weihburggasse").
+sequence(2,0, "Kottingbrunn Bahnhof").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Waidhausenstraße").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Sickenberggasse").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Mayerhofgasse").

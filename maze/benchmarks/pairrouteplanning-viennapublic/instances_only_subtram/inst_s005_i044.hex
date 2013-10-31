@@ -1,11 +1,24 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Glatzgasse").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+sequence(1,0, "Glatzgasse").
+person(2).
+initlocation(2,"Messe-Prater").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Erndtgasse").
+sequence(2,0, "Messe-Prater").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Huglgasse").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Kaiserebersdorf").
+restaurant("Oberfeldgasse").
+restaurant("Aspernstraße").

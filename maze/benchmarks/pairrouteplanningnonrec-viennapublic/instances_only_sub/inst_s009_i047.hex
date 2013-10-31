@@ -1,19 +1,40 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Schottentor").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Stadtpark").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Erdberg").
+sequence(1,0, "Sarasdorf Bahnhof").
+person(2).
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Rathaus").
+initlocation(2,"Erdberg").
+initlocation(2,"Alterlaa").
+initlocation(2,"Paasdorf Bahnhof").
+sequence(2,0, "Burggasse-Stadthalle").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Dürrwien Bahnhof").
+restaurant("Aspern Nord".
+restaurant("Hofstatt Bahnhof".
+restaurant("Am Schöpfwerk".
+restaurant("Greifenstein-Altenberg Bahnhof".
+restaurant("Johnstraße".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Brünner Straße".
+restaurant("Kritzendorf Bahnhof".
+restaurant("Hardeggasse").

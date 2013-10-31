@@ -1,21 +1,56 @@
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Hermesstraße").
+initlocation(1,"Frödenplatz").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Hetzgasse").
+initlocation(1,"Rothneusiedl").
+initlocation(1,"Simonygasse").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Polgarstraße").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+sequence(1,0, "Hermesstraße").
+person(2).
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Stubentor").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(2,"Döblinger Hauptstr/Gatterburgg").
+initlocation(2,"Hütteldorf, Bujattigasse").
+initlocation(2,"Alte Donau").
+initlocation(2,"Svetelskystraße").
+sequence(2,0, "Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Hauptbahnhof Ost").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Resselgasse").
+restaurant("Lazarettgasse").
+restaurant("Friedensbrücke").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Gasometer").
+restaurant("Karmeliterplatz").
+restaurant("Simonygasse").
+restaurant("Guneschgasse").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Wr Neustadt Nord").
+restaurant("Breitensee").
+restaurant("Sahulkastraße").

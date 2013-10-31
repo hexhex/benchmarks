@@ -1,21 +1,48 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Schottentor").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Gasometer").
+sequence(1,0, "Perchtoldsdorf Bahnhof").
+person(2).
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Donaustadtbrücke").
+sequence(2,0, "Weidlingau Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Aderklaaer Straße").
+restaurant("Himberg Bahnhof".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Felixdorf Bahnhof".
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Höflein an der Donau Bahnhof".
+restaurant("Stadlau".
+restaurant("Aderklaaer Straße".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Untertullnerbach Bahnhof").

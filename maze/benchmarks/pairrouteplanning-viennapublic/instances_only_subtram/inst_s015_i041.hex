@@ -1,21 +1,65 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Lange Gasse").
+initlocation(1,"Blindengasse").
+initlocation(1,"Alterlaa").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Sollenau Bahnhof").
+sequence(1,0, "Lange Gasse").
+person(2).
+initlocation(2,"Gatterburggasse").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Schottenfeldgasse").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Brünnlbadgasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Taborstraße").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Am Heumarkt").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Donaustadtstraße").
+sequence(2,0, "Gatterburggasse").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Paasdorf Bahnhof").
+restaurant("Gunoldstraße").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Radetzkyplatz").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Karlsplatz").
+restaurant("Laudongasse").
+restaurant("Saikogasse").
+restaurant("Kleistgasse").
+restaurant("Kettenbrückengasse").
+restaurant("Columbusplatz").
+restaurant("Kutschkergasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Traisengasse").

@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Hardeggasse").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+sequence(1,0, "Hardeggasse").
+person(2).
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Donaumarina").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Rekawinkel Bahnhof").
+sequence(2,0, "Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+restaurant("Donaumarina".
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Bisamberg Bahnhof".
+restaurant("Spittelau".
+restaurant("Kaiserebersdorf".
+restaurant("Achau Bahnhof".
+restaurant("Strasshof Bahnhof".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Perfektastraße".
+restaurant("Josefstädter Straße".
+restaurant("Gumpendorfer Straße".
+restaurant("Schleinbach Bahnhof").

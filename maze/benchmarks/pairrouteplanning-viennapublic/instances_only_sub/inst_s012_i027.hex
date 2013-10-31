@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Hütteldorf").
+sequence(1,0, "Rennbahnweg").
+person(2).
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Seestadt").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Schlachthausgasse").
+sequence(2,0, "Seyring Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Pressbaum Bahnhof").
+restaurant("Himberg Bahnhof".
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Perfektastraße".
+restaurant("Alterlaa".
+restaurant("Staatz Bahnhof".
+restaurant("Traisengasse".
+restaurant("Seyring Bahnhof".
+restaurant("Stockerau Bahnhof".
+restaurant("Enkplatz".
+restaurant("Hofstatt Bahnhof".
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Unterradlberg Bahnhof").

@@ -1,21 +1,44 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-sequence(0, "Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Stefan-Fadinger-Platz").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Troststraße/Neilreichgasse").
+initlocation(1,"Türkenschanzplatz").
+initlocation(1,"Elterleinplatz").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Oberzellergasse").
+sequence(1,0, "Stefan-Fadinger-Platz").
+person(2).
+initlocation(2,"Hauffgasse").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Perntergasse").
+initlocation(2,"Gasometer").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Schleiergasse").
+sequence(2,0, "Hauffgasse").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Rosensteingasse").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Gatterburggasse").
+restaurant("Leberberg").
+restaurant("Stubentor").
+restaurant("Barawitzkagasse").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Neulerchenfelder Str/Brunneng").
+restaurant("Margaretengürtel").
+restaurant("Simmering").
+restaurant("Staglgasse").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Marxergasse").

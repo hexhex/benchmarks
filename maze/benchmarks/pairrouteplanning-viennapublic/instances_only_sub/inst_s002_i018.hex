@@ -1,4 +1,12 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Brünner Straße").
+sequence(1,0, "Ebreichsdorf Bahnhof").
+person(2).
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+sequence(2,0, "Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Himberg Bahnhof").
+restaurant("Jedlersdorf".
+restaurant("Tulln Bahnhof").

@@ -1,15 +1,32 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Hernals").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Hofstatt Bahnhof").
+sequence(1,0, "Hernals").
+person(2).
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Neue Donau").
+initlocation(2,"Jedlersdorf").
+sequence(2,0, "Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+restaurant("Hütteldorf".
+restaurant("Rekawinkel Bahnhof".
+restaurant("Unteroberndorf Bahnhof".
+restaurant("Krottenbachstraße".
+restaurant("Strebersdorf".
+restaurant("Währinger Straße-Volksoper".
+restaurant("Atzenbrugg Bahnhof").

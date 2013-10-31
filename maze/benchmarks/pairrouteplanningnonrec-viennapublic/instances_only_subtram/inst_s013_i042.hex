@@ -1,21 +1,56 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Krieau").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Dr-Karl-Renner-Ring").
+sequence(1,0, "Krieau").
+person(2).
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Hernalser Gürtel").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Otto-Probst-Straße").
+initlocation(2,"Knöllgasse/Davidgasse").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Heinrich-Drimmel-Platz").
+initlocation(2,"Nußdorf, Beethovengang").
+initlocation(2,"Gloriettegasse").
+initlocation(2,"Siebensterngasse").
+sequence(2,0, "Erzherzog-Karl-Straße").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+restaurant("Niederhofstraße").
+restaurant("Zentralfriedhof 4Tor").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Bösendorferstraße").
+restaurant("Römergasse").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Plößlgasse").
+restaurant("Maurer Hauptplatz").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Baumgarten").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Ottakringer Str/Erdbrustgasse").

@@ -1,3 +1,8 @@
-initlocation("Hütteldorfer Straße").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Thaliastraße/Brunnengasse").
+sequence(1,0, "Thaliastraße/Brunnengasse").
+person(2).
+initlocation(2,"Polkorabplatz").
+sequence(2,0, "Polkorabplatz").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+restaurant("Silbergasse").

@@ -1,21 +1,48 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Spittelau").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"Reumannplatz").
+sequence(1,0, "Meidling Hauptstraße").
+person(2).
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Schottentor").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Zippererstraße").
+sequence(2,0, "Schwechat Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+restaurant("Hofstatt Bahnhof".
+restaurant("Traismauer Bahnhof".
+restaurant("Sierndorf Bahnhof".
+restaurant("Zippererstraße".
+restaurant("Götzendorf Bahnhof".
+restaurant("Aspern Nord".
+restaurant("Hirschstetten".
+restaurant("Bahnhof Meidling".
+restaurant("St Pölten Hauptbahnhof".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Kardinal-Nagl-Platz").

@@ -1,21 +1,52 @@
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-sequence(0, "Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Alte Donau").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Spittelau").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Rankgasse").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Himmelmutterweg").
+initlocation(1,"Rennweg").
+sequence(1,0, "Johann-Nepomuk-Berger-Platz").
+person(2).
+initlocation(2,"Brünnlbadgasse").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Nordwestbahnstraße").
+initlocation(2,"Stubentor").
+initlocation(2,"Teichgasse").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Jagdschloßgasse").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Rodaun").
+initlocation(2,"Stefan-Fadinger-Platz").
+sequence(2,0, "Brünnlbadgasse").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+restaurant("Stadiongasse/Parlament").
+restaurant("Wildgansplatz").
+restaurant("Dürrwien Bahnhof").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Taborstraße").
+restaurant("Brünner Straße/Hanreitergasse").
 restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Marienbrücke").
+restaurant("Hetzgasse").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Untereggendorf Bahnhof").

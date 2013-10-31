@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Baumgasse").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Oberfeldgasse").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Frödenplatz").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Platt Bahnhof").
+sequence(1,0, "Mariahilfer Gürtel").
+person(2).
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Augasse").
+initlocation(2,"Laudongasse").
+initlocation(2,"Laxenburger Str/Gudrunstraße").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Donauinsel").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Kranzgasse").
+initlocation(2,"Arminenstraße").
+sequence(2,0, "Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Schwarzspanierstraße").
+restaurant("Bösendorferstraße").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Traisengasse").
+restaurant("Perntergasse").
+restaurant("Albertgasse").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Laurenzgasse").
+restaurant("Aumannplatz").
+restaurant("Joachimsthalerplatz").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Donauspital").
+restaurant("Langenlebarn Bahnhof").

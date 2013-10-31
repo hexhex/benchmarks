@@ -1,3 +1,8 @@
-initlocation("Museumsquartier").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Paasdorf Bahnhof").
+sequence(1,0, "Paasdorf Bahnhof").
+person(2).
+initlocation(2,"Großfeldsiedlung").
+sequence(2,0, "Großfeldsiedlung").
+possiblemeetinglocations("Silberwald Bahnhof").
+restaurant("Zippererstraße").

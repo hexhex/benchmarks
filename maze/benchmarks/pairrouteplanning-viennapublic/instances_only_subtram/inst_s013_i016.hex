@@ -1,21 +1,57 @@
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Hernalser Gürtel").
+initlocation(1,"Traisengasse").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Auerspergstraße").
+initlocation(1,"Erndtgasse").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Staglgasse").
+initlocation(1,"Zentralfriedhof 1Tor").
+initlocation(1,"Polgarstraße").
+initlocation(1,"Alaudagasse").
+initlocation(1,"Brünnlbadgasse").
+sequence(1,0, "Hernalser Gürtel").
+person(2).
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Breitensee").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Döblinger Hauptstr/Gatterburgg").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Stollgasse").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Oberzellergasse").
+sequence(2,0, "Ladendorf Bahnhof").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Diesterweggasse").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Laaer-Berg-Straße").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Hietzing").
+restaurant("Penzinger Straße").
+restaurant("Obere Donaustraße").
+restaurant("Rauscherstraße").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Polgarstraße").
+restaurant("Tscherttegasse").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Otto-Probst-Straße").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Radetzkyplatz").
+restaurant("Pilgramgasse").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Hubertusdamm").

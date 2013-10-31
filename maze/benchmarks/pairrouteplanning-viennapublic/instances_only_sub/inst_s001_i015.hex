@@ -1,3 +1,8 @@
-initlocation("Am Schöpfwerk").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Schönborn Bahnhof").
+sequence(1,0, "Schönborn Bahnhof").
+person(2).
+initlocation(2,"Preyergasse/Speising").
+sequence(2,0, "Preyergasse/Speising").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+restaurant("Stubentor").

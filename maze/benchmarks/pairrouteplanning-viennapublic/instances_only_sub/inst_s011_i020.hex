@@ -1,21 +1,48 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Wolkersdorf Bahnhof").
+sequence(1,0, "Achau Bahnhof").
+person(2).
+initlocation(2,"Donauinsel").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Praterkai").
+sequence(2,0, "Donauinsel").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Alser Straße".
+restaurant("Haidestraße".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Unterradlberg Bahnhof".
+restaurant("Mistelbach Stadt".
+restaurant("Michelbeuern-AKH").

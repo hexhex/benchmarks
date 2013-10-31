@@ -1,21 +1,56 @@
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Traisengasse").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Korneuburg Bahnhof").
+sequence(1,0, "Tullnerfeld Bahnhof").
+person(2).
+initlocation(2,"Gasometer").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Hietzing").
+initlocation(2,"Neue Donau").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+sequence(2,0, "Gasometer").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Handelskai".
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Felixdorf Bahnhof".
+restaurant("Leobersdorf Bahnhof".
+restaurant("Matzleinsdorfer Platz".
+restaurant("St Pölten Hauptbahnhof".
+restaurant("Neulengbach Bahnhof".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Vorgartenstraße".
+restaurant("Göllersdorf Bahnhof").

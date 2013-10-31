@@ -1,3 +1,8 @@
-initlocation("Aspern Nord").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+sequence(1,0, "Absdorf-Hippersdorf Bahnhof").
+person(2).
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+sequence(2,0, "Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+restaurant("Döblinger Hauptstr/Gatterburgg").

@@ -1,11 +1,25 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Liesing").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Donauspital").
+sequence(1,0, "Wr Neustadt Hauptbahnhof").
+person(2).
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(2,0, "Göllersdorf Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Pilgramgasse").
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Paasdorf Bahnhof".
+restaurant("Vorgartenstraße".
+restaurant("Westbahnhof".
+restaurant("Taborstraße").

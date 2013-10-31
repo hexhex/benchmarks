@@ -1,6 +1,20 @@
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Thaliastraße/Brunnengasse").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Simmering").
+initlocation(1,"Linzer Straße/Hochsatzengasse").
+sequence(1,0, "Thaliastraße/Brunnengasse").
+person(2).
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Carabelligasse").
+sequence(2,0, "Stefan-Fadinger-Platz").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+restaurant("Enkplatz").
+restaurant("Süßenbrunn").
+restaurant("Retz Bahnhof").
+restaurant("Linzer Straße/Zehetnergasse").

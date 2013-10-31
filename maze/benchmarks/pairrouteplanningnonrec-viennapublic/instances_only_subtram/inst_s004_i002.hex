@@ -1,6 +1,20 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Schöffelgasse").
+initlocation(1,"Sechskrügelgasse").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+sequence(1,0, "Schöffelgasse").
+person(2).
+initlocation(2,"Thaliastraße").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Leberberg").
+sequence(2,0, "Thaliastraße").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Bernhardtstalgasse").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Stockholmer Platz").
+restaurant("Alaudagasse").
+restaurant("Rochusgasse").

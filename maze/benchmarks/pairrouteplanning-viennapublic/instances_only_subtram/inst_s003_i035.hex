@@ -1,5 +1,16 @@
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Herrengasse").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Staglgasse").
+sequence(1,0, "Herrengasse").
+person(2).
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Eichenstraße").
+sequence(2,0, "Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Dommayergasse").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Strasshof Bahnhof").
+restaurant("Strebersdorf").

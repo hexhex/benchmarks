@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Staglgasse").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Lerchenfelder Straße").
+initlocation(1,"Shuttleworthstraße").
+initlocation(1,"Barawitzkagasse").
+sequence(1,0, "Wolfsthal Bahnhof").
+person(2).
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Unteres Belvedere").
+initlocation(2,"Linzer Straße/Hochsatzengasse").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Blumengasse").
+initlocation(2,"Dornbach, Güpferlingstraße").
+sequence(2,0, "Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Grinzing").
+restaurant("Konstanziagasse").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Diesterweggasse").
+restaurant("Schweglerstraße").
+restaurant("Schloss Belvedere").
+restaurant("Prinzgasse").
+restaurant("Versorgungsheimplatz").
+restaurant("Florianigasse").

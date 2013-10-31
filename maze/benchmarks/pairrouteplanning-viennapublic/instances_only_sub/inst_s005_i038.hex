@@ -1,11 +1,24 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Guntramsdorf-Thallern").
+sequence(1,0, "Leobendorf-Burg Kreuzenstn Bf").
+person(2).
+initlocation(2,"Simmering").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Sankt Marx").
+sequence(2,0, "Simmering").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Hetzendorf").
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Erdberg".
+restaurant("Aspernstraße".
+restaurant("Herrengasse".
+restaurant("Bisamberg Bahnhof").

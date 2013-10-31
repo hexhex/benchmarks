@@ -1,21 +1,45 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Lobau").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Rennweg").
+initlocation(1,"Gaisruck Bahnhof").
+sequence(1,0, "Lobau").
+person(2).
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Lobau").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Niederhofstraße").
+sequence(2,0, "Unteroberndorf Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Sankt Marx").
+restaurant("Schwedenplatz".
+restaurant("Krieau".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Pilgramgasse".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Matzleinsdorfer Platz".
+restaurant("Enzersdorf bei Staatz Bahnhof".
+restaurant("Laa an der Thaya Bahnhof".
+restaurant("Neulengbach Bahnhof".
+restaurant("Donauspital").

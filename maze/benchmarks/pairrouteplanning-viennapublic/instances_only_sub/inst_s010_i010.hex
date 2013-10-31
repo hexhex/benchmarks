@@ -1,21 +1,44 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Lobau").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Retz Bahnhof").
+sequence(1,0, "Franz-Josefs-Bahnhof").
+person(2).
+initlocation(2,"Jägerstraße").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Stadtpark").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+sequence(2,0, "Jägerstraße").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+restaurant("Korneuburg Bahnhof".
+restaurant("Simmering".
+restaurant("Niederhofstraße".
+restaurant("Unter Kritzendorf Bahnhof".
+restaurant("Rochusgasse".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Zellerndorf Bahnhof".
+restaurant("Neue Donau".
+restaurant("Sarasdorf Bahnhof").

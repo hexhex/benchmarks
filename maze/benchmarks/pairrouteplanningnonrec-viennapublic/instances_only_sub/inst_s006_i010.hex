@@ -1,13 +1,28 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Alte Donau").
+initlocation(1,"Herrengasse").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Taborstraße").
+sequence(1,0, "Hainburg/Donau Personenbhf").
+person(2).
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Hirschstetten").
+sequence(2,0, "Strasshof Bahnhof").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+restaurant("Schwedenplatz".
+restaurant("Hütteldorfer Straße".
+restaurant("Süßenbrunn".
+restaurant("Erdberg".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Weidlingau Bahnhof").

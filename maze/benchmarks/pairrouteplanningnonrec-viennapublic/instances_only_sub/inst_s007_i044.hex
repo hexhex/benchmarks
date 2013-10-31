@@ -1,15 +1,33 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Reumannplatz").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+sequence(1,0, "Josefstädter Straße").
+person(2).
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Jedlersdorf").
+sequence(2,0, "Mannswörth Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Am Schöpfwerk").
+restaurant("Volkstheater".
+restaurant("Spittelau".
+restaurant("Grillgasse".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Münchendorf Bahnhof".
+restaurant("Donaumarina".
+restaurant("Johnstraße").

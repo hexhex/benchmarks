@@ -1,11 +1,24 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+sequence(1,0, "Gramatneusiedl Bahnhof").
+person(2).
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Kottingbrunn Bahnhof").
+sequence(2,0, "Unterradlberg Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+restaurant("Taubstummengasse".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Silberwald Bahnhof".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("Muckendorf-Wipfing Bahnhof").

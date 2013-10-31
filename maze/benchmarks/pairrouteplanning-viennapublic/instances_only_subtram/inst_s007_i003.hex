@@ -1,15 +1,33 @@
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Kliebergasse").
+initlocation(1,"Fultonstraße").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Bahnsteggasse").
+initlocation(1,"Canisiusgasse").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+sequence(1,0, "Kliebergasse").
+person(2).
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Oberlaa, Therme Wien").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Urban-Loritz-Platz").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+sequence(2,0, "Arthaberplatz").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Türkenschanzplatz").
+restaurant("Ottakring").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Zieglergasse/Westbahnstraße").
+restaurant("Atzgersdorf").
+restaurant("Favoritenstraße/Troststraße").

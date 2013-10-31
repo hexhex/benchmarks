@@ -1,21 +1,52 @@
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Hernals").
+initlocation(1,"Augasse").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Zentralfriedhof 3Tor").
+initlocation(1,"Marxergasse").
+initlocation(1,"Paradisgasse").
+initlocation(1,"Donauspital").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Klosterneub Str/Wallensteinstr").
+initlocation(1,"Silbergasse").
+sequence(1,0, "Hernals").
+person(2).
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Erndtgasse").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Alaudagasse").
+sequence(2,0, "Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Jagdschloßgasse").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Salztorbrücke").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Halteraugasse").
+restaurant("Rustengasse").
+restaurant("Löwengasse").
+restaurant("Perntergasse").
+restaurant("Silbergasse").
+restaurant("Fickeysstraße").
+restaurant("Paulanergasse").
+restaurant("Längenfeldgasse").
+restaurant("Felixdorf Bahnhof").
+restaurant("Dresdner Straße").
+restaurant("Bahnhof Meidling/Eichenstraße").

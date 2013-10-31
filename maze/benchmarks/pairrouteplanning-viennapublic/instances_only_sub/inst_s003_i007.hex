@@ -1,5 +1,16 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Schottentor").
+sequence(1,0, "Hausleiten Bahnhof").
+person(2).
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Dresdner Straße").
+sequence(2,0, "Kapellerfeld Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+restaurant("Ottakring".
+restaurant("Gasometer".
+restaurant("St Andrä-Wördern Bahnhof").

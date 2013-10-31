@@ -1,21 +1,44 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Simmering").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Heiligenstadt").
+sequence(1,0, "Simmering").
+person(2).
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Schottentor").
+initlocation(2,"Rekawinkel Bahnhof").
+sequence(2,0, "Frättingsdorf Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Schottenring").
+restaurant("Süßenbrunn".
+restaurant("Jägerstraße".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Sierndorf Bahnhof".
+restaurant("Strebersdorf".
+restaurant("Münchendorf Bahnhof".
+restaurant("Unter Kritzendorf Bahnhof".
+restaurant("Herzogenburg Stadt".
+restaurant("Unterpurkersdorf Bahnhof".
+restaurant("Hernals").

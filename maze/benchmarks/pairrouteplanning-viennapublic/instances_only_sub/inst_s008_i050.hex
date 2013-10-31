@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Praterkai").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Bisamberg Bahnhof").
+sequence(1,0, "Pressbaum Bahnhof").
+person(2).
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Stadion").
+initlocation(2,"Taborstraße").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Traisengasse").
+initlocation(2,"Obereggendorf Bahnhof").
+sequence(2,0, "Pressbaum Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Siemensstraße").
+restaurant("Atzgersdorf".
+restaurant("Retz Bahnhof".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Gänserndorf Bahnhof".
+restaurant("Vorgartenstraße".
+restaurant("Klosterneuburg-Kierling Bf".
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Schwedenplatz").

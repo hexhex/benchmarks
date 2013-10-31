@@ -1,3 +1,8 @@
-initlocation("Museumsquartier").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Bauernfeldplatz").
+sequence(1,0, "Bauernfeldplatz").
+person(2).
+initlocation(2,"Herzogenburg Bahnhof").
+sequence(2,0, "Herzogenburg Bahnhof").
+possiblemeetinglocations("Laurentiusplatz").
+restaurant("Preyergasse/Speising").

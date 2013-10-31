@@ -1,11 +1,24 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Forstnergasse").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Hetzgasse").
+initlocation(1,"Staatz Bahnhof").
+sequence(1,0, "Donaustadtstraße").
+person(2).
+initlocation(2,"Zieglergasse").
+initlocation(2,"Herrengasse").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Obere Donaustraße").
+sequence(2,0, "Zieglergasse").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Brigittaplatz").
+restaurant("Römergasse").
+restaurant("Heiligenstadt").
+restaurant("Großfeldsiedlung").
+restaurant("Paulanergasse").
+restaurant("Rebhanngasse").

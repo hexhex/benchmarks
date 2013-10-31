@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Museumsquartier").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Enkplatz").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Johnstraße").
+initlocation(1,"Stadlau").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Nordbahnstraße").
+initlocation(1,"Fasangasse").
+initlocation(1,"Krottenbachstraße").
+sequence(1,0, "Enkplatz").
+person(2).
+initlocation(2,"Kölblgasse").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Maria Anzbach Bahnhof").
+sequence(2,0, "Kölblgasse").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Wr Neustadt Nord").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Brünner Straße").
+restaurant("Perfektastraße").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Neulerchenfelder Str/Haberlg").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Kagran").

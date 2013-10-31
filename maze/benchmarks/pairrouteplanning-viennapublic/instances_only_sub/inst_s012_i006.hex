@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Taborstraße").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+sequence(1,0, "Silberwald Bahnhof").
+person(2).
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Trasdorf Bahnhof").
+sequence(2,0, "Theresienfeld Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+restaurant("Herrengasse".
+restaurant("Zellerndorf Bahnhof".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Neulengbach Bahnhof".
+restaurant("Neusiedl am See Bahnhof".
+restaurant("Spillern Bahnhof".
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Höbersdorf Bahnhof".
+restaurant("Am Schöpfwerk".
+restaurant("Preyergasse/Speising".
+restaurant("Rennbahnweg".
+restaurant("Oberolberndorf Bahnhof").

@@ -1,19 +1,40 @@
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Stadiongasse/Parlament").
+initlocation(1,"Wexstraße").
+initlocation(1,"Schöffelgasse").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Alaudagasse").
+sequence(1,0, "Stadiongasse/Parlament").
+person(2).
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Yppengasse").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Lederergasse").
+initlocation(2,"Laudongasse").
+initlocation(2,"Handelskai").
+initlocation(2,"Sarasdorf Bahnhof").
+sequence(2,0, "Konstanziagasse").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Palffygasse").
+restaurant("Dresdner Straße").
+restaurant("Rosensteingasse").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Rebhanngasse").
+restaurant("Litfaßstraße").

@@ -1,21 +1,62 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Aspern Nord").
+sequence(1,0, "Gumpendorfer Straße").
+person(2).
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Stadlau").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Längenfeldgasse").
+sequence(2,0, "Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Weidlingau Bahnhof".
+restaurant("Josefstädter Straße".
+restaurant("Bahnhof Meidling".
+restaurant("Strasshof Bahnhof".
+restaurant("Michelbeuern-AKH".
+restaurant("Meidling Hauptstraße".
+restaurant("Hetzendorf".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Wolfsthal Bahnhof".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("Schleinbach Bahnhof".
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Kendlerstraße").

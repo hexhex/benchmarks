@@ -1,6 +1,20 @@
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Liebknechtgasse").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Eichenstraße").
+sequence(1,0, "Dürrwien Bahnhof").
+person(2).
+initlocation(2,"Rochusgasse").
+initlocation(2,"Breitenfurter Str/Liesingbr").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Ebreichsdorf Bahnhof").
+sequence(2,0, "Rochusgasse").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+restaurant("Quartier Belvedere").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Viehmarktgasse").
+restaurant("Wolkersdorf Bahnhof").

@@ -1,5 +1,16 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Burgring").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Anton-Schall-Gasse").
+sequence(1,0, "Burgring").
+person(2).
+initlocation(2,"Fichtnergasse").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+sequence(2,0, "Fichtnergasse").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Aspernstraße").
+restaurant("Herrengasse").
+restaurant("Meidling Hauptstraße").
+restaurant("Hetzendorf").

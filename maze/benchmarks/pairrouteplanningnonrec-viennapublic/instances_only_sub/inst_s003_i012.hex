@@ -1,5 +1,16 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Spittelau").
+initlocation(1,"Messe-Prater").
+sequence(1,0, "Gumpoldskirchen Bahnhof").
+person(2).
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Göllersdorf Bahnhof").
+sequence(2,0, "Himberg Bahnhof").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Stephansplatz".
+restaurant("Wolf in der Au").

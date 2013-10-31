@@ -1,5 +1,16 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Paradisgasse").
+initlocation(1,"Schottentor").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+sequence(1,0, "Paradisgasse").
+person(2).
+initlocation(2,"Ameisgasse").
+initlocation(2,"Quellenplatz").
+initlocation(2,"Burggasse-Stadthalle").
+sequence(2,0, "Ameisgasse").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Obere Augartenstraße").
+restaurant("Fichtnergasse").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Süßenbrunner Str/Oberfeldgasse").

@@ -1,21 +1,52 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Gasometer").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Franz-Josefs-Bahnhof").
+sequence(1,0, "Wolkersdorf Bahnhof").
+person(2).
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Rathaus").
+initlocation(2,"Taborstraße").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Erdberg").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Spittelau").
+sequence(2,0, "Josefstädter Straße").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+restaurant("Lobau".
+restaurant("Retz Bahnhof".
+restaurant("Erlaaer Straße".
+restaurant("Enzersdorf bei Staatz Bahnhof".
+restaurant("Thaliastraße".
+restaurant("Geiselbergstraße".
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Stadlau".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Perfektastraße").

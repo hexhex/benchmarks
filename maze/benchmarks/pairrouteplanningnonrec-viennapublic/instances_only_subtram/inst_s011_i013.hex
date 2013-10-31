@@ -1,21 +1,48 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Arminenstraße").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Neue Donau").
+initlocation(1,"Gellertplatz").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Absberggasse").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Rodaun").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+sequence(1,0, "Arminenstraße").
+person(2).
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Hofwiesengasse").
+initlocation(2,"Rosensteingasse").
+initlocation(2,"Otto-Probst-Platz").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Penzing").
+initlocation(2,"Heinrich-Drimmel-Platz").
+initlocation(2,"Gasometer").
+initlocation(2,"Spitalgasse/Währinger Straße").
+initlocation(2,"Weihburggasse").
+sequence(2,0, "Karmeliterplatz").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+restaurant("Gaisruck Bahnhof").
+restaurant("Unteres Belvedere").
+restaurant("Westbahnhof").
+restaurant("Pressbaum Bahnhof").
+restaurant("Neubaugasse").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Kärntner Ring/Oper").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Liebknechtgasse").
+restaurant("Baumgarten").
+restaurant("Florianigasse").

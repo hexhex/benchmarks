@@ -1,21 +1,48 @@
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Erdberg").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+sequence(1,0, "Klosterneuburg-Weidling Bf").
+person(2).
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Alte Donau").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+sequence(2,0, "Dresdner Straße").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+restaurant("Matzleinsdorfer Platz".
+restaurant("Heiligenstadt".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Süßenbrunn".
+restaurant("Wildungsmauer Bahnhof".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Floridsdorf".
+restaurant("Pottendorf-Landegg Bahnhof".
+restaurant("Alser Straße".
+restaurant("Hardeggasse".
+restaurant("Ottakring").

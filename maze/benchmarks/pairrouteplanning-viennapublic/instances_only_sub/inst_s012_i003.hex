@@ -1,21 +1,52 @@
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Breitensee").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Staatz Bahnhof").
+sequence(1,0, "Kaiserebersdorf").
+person(2).
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Rennweg").
+initlocation(2,"Breitensee").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Schottentor").
+sequence(2,0, "Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+restaurant("Donauspital".
+restaurant("Silberwald Bahnhof".
+restaurant("Hadersdorf Bahnhof".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Alterlaa".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Krottenbachstraße".
+restaurant("Roßauer Lände".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Paasdorf Bahnhof".
+restaurant("Südtiroler Platz/Hauptbahnhof").

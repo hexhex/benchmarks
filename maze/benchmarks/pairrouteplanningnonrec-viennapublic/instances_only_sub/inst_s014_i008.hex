@@ -1,21 +1,60 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Wr Neustadt Nord").
+sequence(1,0, "Hütteldorfer Straße").
+person(2).
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Johnstraße").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Simmering").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Erdberg").
+initlocation(2,"Praterkai").
+sequence(2,0, "Frättingsdorf Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+restaurant("Hainburg/Donau Personenbhf".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Kagran".
+restaurant("Schottenring".
+restaurant("Himberg Bahnhof".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Kaisermühlen-VIC".
+restaurant("Nußdorfer Straße".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Hausfeldstraße".
+restaurant("Mödling Bahnhof".
+restaurant("Haidestraße").

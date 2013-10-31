@@ -1,21 +1,53 @@
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Hietzing").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Simmering").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Stadtpark").
+initlocation(1,"Gaisruck Bahnhof").
+sequence(1,0, "Schwedenplatz").
+person(2).
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+sequence(2,0, "Mistelbach Stadt").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Leobersdorf Bahnhof".
+restaurant("Messe-Prater".
+restaurant("Jägerstraße".
+restaurant("Herrengasse".
+restaurant("Zentralfriedhof".
+restaurant("Brünner Straße".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Wildungsmauer Bahnhof".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Guntramsdorf-Thallern").

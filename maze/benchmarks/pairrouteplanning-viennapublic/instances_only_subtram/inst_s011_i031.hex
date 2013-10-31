@@ -1,21 +1,48 @@
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Troststraße/Neilreichgasse").
+initlocation(1,"Grinzinger Straße").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Blumental").
+initlocation(1,"Windtenstraße").
+sequence(1,0, "Münchendorf Bahnhof").
+person(2).
+initlocation(2,"Josef-Baumann-Gasse").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Paradisgasse").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Wolkersdorf Bahnhof").
+sequence(2,0, "Josef-Baumann-Gasse").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Gutraterplatz").
+possiblemeetinglocations("Hetzgasse").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Rosensteingasse").
+restaurant("Mistelbach Bahnhof").
+restaurant("Halteraugasse").
+restaurant("Oberzellergasse").
+restaurant("Weißenböckstraße").
+restaurant("Valiergasse").
+restaurant("Brünnlbadgasse").
+restaurant("Simonygasse").
+restaurant("Neilreichgasse").
+restaurant("Großfeldsiedlung").
+restaurant("Stadlau").

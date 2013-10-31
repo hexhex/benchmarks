@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Siemensstraße").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Ulrichskirchen Bahnhof").
+sequence(1,0, "Siemensstraße").
+person(2).
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Spittelau").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Hernals").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Hetzendorf").
+sequence(2,0, "Oberradlberg Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+restaurant("Leopoldau".
+restaurant("Traisengasse".
+restaurant("Schwedenplatz".
+restaurant("Kritzendorf Bahnhof".
+restaurant("Sitzenberg-Reidling Bahnhof".
+restaurant("Stubentor".
+restaurant("Korneuburg Bahnhof".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Obersdorf Bahnhof".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Aspern Nord".
+restaurant("Tulln Bahnhof").

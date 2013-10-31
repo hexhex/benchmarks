@@ -1,4 +1,12 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+sequence(1,0, "Obereggendorf Bahnhof").
+person(2).
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+sequence(2,0, "St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+restaurant("Ebenfurth Bahnhof".
+restaurant("Quartier Belvedere").

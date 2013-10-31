@@ -1,5 +1,16 @@
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+sequence(1,0, "Felixdorf Bahnhof").
+person(2).
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Johnstraße").
+sequence(2,0, "Gerasdorf Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Achau Bahnhof").
+restaurant("Geiselbergstraße".
+restaurant("Sierndorf Bahnhof".
+restaurant("Enkplatz").

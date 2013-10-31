@@ -1,21 +1,60 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Schottenring").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+sequence(1,0, "Schottenring").
+person(2).
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"St Pölten Hauptbahnhof").
+sequence(2,0, "Zellerndorf Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+restaurant("Neubaugasse".
+restaurant("Mistelbach Stadt".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Obersdorf Bahnhof".
+restaurant("Penzing".
+restaurant("Unter Sankt Veit".
+restaurant("Messe-Prater".
+restaurant("Krieau".
+restaurant("Reumannplatz".
+restaurant("Grillgasse".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Helmahof Bahnhof".
+restaurant("Hautzendorf Bahnhof".
+restaurant("St Andrä-Wördern Bahnhof").

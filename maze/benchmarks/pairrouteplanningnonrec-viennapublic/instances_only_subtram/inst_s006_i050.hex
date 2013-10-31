@@ -1,13 +1,28 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Hoßplatz").
+initlocation(1,"Huglgasse").
+initlocation(1,"Frauengasse").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Nußdorf").
+sequence(1,0, "Hoßplatz").
+person(2).
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Frauengasse").
+initlocation(2,"Kölblgasse").
+initlocation(2,"Praterstern").
+initlocation(2,"Sonnergasse").
+sequence(2,0, "Gerhardusgasse").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Windtenstraße").
+restaurant("Stadiongasse/Parlament").

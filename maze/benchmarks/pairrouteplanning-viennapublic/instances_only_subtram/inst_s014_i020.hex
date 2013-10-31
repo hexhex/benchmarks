@@ -1,21 +1,60 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Molitorgasse").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Josef-Baumann-Gasse").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Palffygasse").
+initlocation(1,"Taborstraße").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Volkstheater").
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Fickeysstraße").
+sequence(1,0, "Trautmannsdorf/Leitha Bf").
+person(2).
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Grillgasse").
+initlocation(2,"Valiergasse").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Marx-Meidlinger-Straße").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Bauernfeldplatz").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Tesarekplatz").
+sequence(2,0, "Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Blumental").
+restaurant("Lederergasse").
+restaurant("Hoßplatz").
+restaurant("Resselgasse").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Arminenstraße").
+restaurant("Grinzinger Straße").
+restaurant("Lazarettgasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
 restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
+restaurant("Silbergasse").
+restaurant("Forstnergasse").
+restaurant("Migerkastraße").
+restaurant("Fasangasse").

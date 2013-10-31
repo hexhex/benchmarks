@@ -1,19 +1,40 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Taborstraße").
+initlocation(1,"Alte Donau").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Herrengasse").
+sequence(1,0, "Lanzendorf-Rannersdorf Bahnhof").
+person(2).
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Grillgasse").
+initlocation(2,"Liesing").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+sequence(2,0, "Gumpendorfer Straße").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Wampersdorf Bahnhof".
+restaurant("Stadion".
+restaurant("Hausfeldstraße").

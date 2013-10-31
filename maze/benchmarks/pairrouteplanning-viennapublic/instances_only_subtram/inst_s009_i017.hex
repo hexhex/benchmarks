@@ -1,19 +1,40 @@
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Blumengasse").
+initlocation(1,"Stiftgasse").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Palffygasse").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+sequence(1,0, "Weinheimergasse").
+person(2).
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Breitensee").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Krankenhaus Hietzing").
+initlocation(2,"Praterkai").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Thaliastraße/Haberlgasse").
+sequence(2,0, "Schwechat Bahnhof").
+possiblemeetinglocations("Waidhausenstraße").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+restaurant("Julius-Raab-Platz").
+restaurant("Donaustadtbrücke").
+restaurant("Barawitzkagasse").
+restaurant("Floridsdorfer Markt").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Stadlau").
+restaurant("Wienerfeldgasse").
+restaurant("Schönborn Bahnhof").
+restaurant("Albertgasse").

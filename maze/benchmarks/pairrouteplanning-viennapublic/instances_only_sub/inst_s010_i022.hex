@@ -1,21 +1,45 @@
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Grillgasse").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+sequence(1,0, "Obereggendorf Bahnhof").
+person(2).
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Spillern Bahnhof").
+sequence(2,0, "Baden Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+restaurant("Museumsquartier".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Sollenau Bahnhof".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Süßenbrunn".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Schönbrunn".
+restaurant("Wildungsmauer Bahnhof".
+restaurant("Silberwald Bahnhof".
+restaurant("Neue Donau").

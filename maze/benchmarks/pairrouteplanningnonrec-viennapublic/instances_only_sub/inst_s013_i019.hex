@@ -1,21 +1,56 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Stubentor").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Schwedenplatz").
+sequence(1,0, "Stubentor").
+person(2).
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Herzogenburg Bahnhof").
+sequence(2,0, "Atzenbrugg Bahnhof").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+restaurant("Niederhofstraße".
+restaurant("Schönborn Bahnhof".
+restaurant("Bahnhof Meidling".
+restaurant("Penzing".
+restaurant("Ladendorf Bahnhof".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Blumental".
+restaurant("Hietzing".
+restaurant("Oberradlberg Bahnhof".
+restaurant("Stadion".
+restaurant("Kledering Bahnhof".
+restaurant("Kettenbrückengasse".
+restaurant("Oberolberndorf Bahnhof").

@@ -1,13 +1,28 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Fickeysstraße").
+sequence(1,0, "Dürrwien Bahnhof").
+person(2).
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Seestadt").
+initlocation(2,"Neue Donau").
+initlocation(2,"Redtenbachergasse").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Staglgasse").
+sequence(2,0, "Schlachthausgasse").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Altes Landgut").
+restaurant("Josefstädter Straße").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Urban-Loritz-Platz").
+restaurant("Rosenhügelstraße").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Arminenstraße").

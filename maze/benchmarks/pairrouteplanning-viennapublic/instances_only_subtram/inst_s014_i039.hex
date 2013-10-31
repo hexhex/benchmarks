@@ -1,21 +1,61 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Kölblgasse").
+initlocation(1,"Schloss Belvedere").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Linzer Straße/Reinlgasse").
+initlocation(1,"Wexstraße").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Rampengasse").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Albertgasse").
+initlocation(1,"Hennersdorf Bahnhof").
+sequence(1,0, "Oberradlberg Bahnhof").
+person(2).
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Litfaßstraße").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Rennweg").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Simonygasse").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Scheibenbergstraße").
+sequence(2,0, "Hennersdorf Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Oberfeldgasse").
+restaurant("Martinstraße").
+restaurant("Leyserstraße").
+restaurant("Enkplatz").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Sonnergasse").
+restaurant("Konstanziagasse").
+restaurant("Baden Bahnhof").
+restaurant("Obere Donaustraße").
+restaurant("Schloss Belvedere").
+restaurant("Münchendorf Bahnhof").
+restaurant("Valiergasse").
+restaurant("Staglgasse").
+restaurant("Bernhardtstalgasse").
+restaurant("Westbahnhof").

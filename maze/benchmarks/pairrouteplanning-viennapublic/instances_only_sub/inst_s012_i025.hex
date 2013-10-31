@@ -1,21 +1,52 @@
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-sequence(0, "Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Leopoldau").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Kagran").
+initlocation(1,"Hietzing").
+initlocation(1,"Aspernstraße").
+sequence(1,0, "Leopoldau").
+person(2).
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Stadtpark").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Kagran").
+sequence(2,0, "Süßenbrunn").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Schottenring").
+restaurant("Wolf in der Au".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Weidlingau Bahnhof".
+restaurant("Baden Bahnhof".
+restaurant("Aderklaaer Straße".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Tulln Bahnhof".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Niederhofstraße".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Unterradlberg Bahnhof".
+restaurant("Retz Bahnhof").

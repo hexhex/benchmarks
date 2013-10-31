@@ -1,21 +1,60 @@
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Handelskai").
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Wienerfeldgasse").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Gerstnerstraße/Westbhf").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Ottakringer Straße/Wattgasse").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Türkenschanzplatz").
+initlocation(1,"Beingasse").
+sequence(1,0, "Frättingsdorf Bahnhof").
+person(2).
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Hernals").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Taborstraße/Heinestraße").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Himmelmutterweg").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Forstnergasse").
+initlocation(2,"Grillgasse").
+initlocation(2,"Alsegger Straße").
+sequence(2,0, "Ungargasse/Neulinggasse").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Lerchenfelder Straße").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Fultonstraße").
+restaurant("Götzendorf Bahnhof").
+restaurant("Konstanziagasse").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Liebknechtgasse").
+restaurant("Rustengasse").
+restaurant("Prater, Hauptallee").
+restaurant("Neilreichgasse").
+restaurant("Helmahof Bahnhof").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Prinzgasse").
+restaurant("Autokaderstraße").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Satzberggasse").

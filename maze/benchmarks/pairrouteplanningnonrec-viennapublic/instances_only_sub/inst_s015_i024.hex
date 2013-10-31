@@ -1,21 +1,65 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Donauspital").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+sequence(1,0, "Wolkersdorf Bahnhof").
+person(2).
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Sankt Marx").
+sequence(2,0, "Ober Sankt Veit").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Kagran").
+restaurant("Johnstraße".
+restaurant("Wilfleinsdorf Bahnhof".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Neulengbach Bahnhof".
+restaurant("Brünner Straße".
+restaurant("Kaisermühlen-VIC".
+restaurant("Tscherttegasse".
+restaurant("Keplerplatz".
+restaurant("Volkstheater".
+restaurant("Karlsplatz".
+restaurant("Praterstern".
+restaurant("Donaustadtbrücke".
+restaurant("Kaiserebersdorf").

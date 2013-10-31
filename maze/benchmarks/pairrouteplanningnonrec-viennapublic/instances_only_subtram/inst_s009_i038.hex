@@ -1,19 +1,40 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Johnstraße").
+sequence(1,0, "Breitenwaida Bahnhof").
+person(2).
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Laxenburger Straße/Troststraße").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Yppengasse").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Laurentiusplatz").
+initlocation(2,"Friedrich-Engels-Platz").
+sequence(2,0, "Hofstatt Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Stiftgasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Brünner Straße").
+restaurant("Obersdorf Bahnhof").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Hauptbahnhof Ost").
+restaurant("Stadiongasse/Parlament").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Rampengasse").

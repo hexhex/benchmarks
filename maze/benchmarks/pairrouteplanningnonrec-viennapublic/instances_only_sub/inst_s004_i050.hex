@@ -1,6 +1,20 @@
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Ladendorf Bahnhof").
+sequence(1,0, "Bad Deutsch-Altenburg Bahnhof").
+person(2).
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Gasometer").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Braunschweiggasse").
+sequence(2,0, "Neusiedl am See Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Simmering").
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Hirschstetten".
+restaurant("Wr Neustadt Civitas Nova".
+restaurant("Michelbeuern-AKH").

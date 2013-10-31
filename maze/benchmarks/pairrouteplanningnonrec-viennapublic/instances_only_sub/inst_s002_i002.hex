@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Retz Bahnhof").
+sequence(1,0, "Wr Neustadt Civitas Nova").
+person(2).
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+sequence(2,0, "Leobersdorf Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Krieau").
+restaurant("Quartier Belvedere".
+restaurant("Hirschstetten").

@@ -1,15 +1,33 @@
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Stollgasse").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+sequence(1,0, "Raxstraße/Rudolfshügelgasse").
+person(2).
+initlocation(2,"Quellenstraße/Favoritenstraße").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Liesing").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+sequence(2,0, "Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Aßmayergasse").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Achau Bahnhof").
+restaurant("Aßmayergasse").
+restaurant("Bösendorferstraße").
+restaurant("Karmeliterplatz").
+restaurant("Krottenbachstraße").
+restaurant("Simmering").

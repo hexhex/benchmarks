@@ -1,21 +1,57 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+sequence(1,0, "Lanzendorf-Rannersdorf Bahnhof").
+person(2).
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Stadtpark").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Tullnerfeld Bahnhof").
+sequence(2,0, "Krottenbachstraße").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Himberg Bahnhof".
+restaurant("Roßauer Lände".
+restaurant("Traisengasse".
+restaurant("Rekawinkel Bahnhof".
+restaurant("Quartier Belvedere".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Nestroyplatz".
+restaurant("Gumpendorfer Straße".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Kapellerfeld Bahnhof").

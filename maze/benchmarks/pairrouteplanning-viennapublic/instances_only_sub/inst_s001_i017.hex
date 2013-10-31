@@ -1,3 +1,8 @@
-initlocation("Jägerstraße").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Kritzendorf Bahnhof").
+sequence(1,0, "Kritzendorf Bahnhof").
+person(2).
+initlocation(2,"Josefstädter Straße").
+sequence(2,0, "Josefstädter Straße").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+restaurant("Weidlingau Bahnhof").

@@ -1,13 +1,28 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Molitorgasse").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Schleiergasse").
+sequence(1,0, "Wilfleinsdorf Bahnhof").
+person(2).
+initlocation(2,"Neue Donau").
+initlocation(2,"Urban-Loritz-Platz").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Martinstraße").
+initlocation(2,"Frättingsdorf Bahnhof").
+sequence(2,0, "Neue Donau").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Nestroyplatz").
+restaurant("Nußdorf").
+restaurant("Empergergasse").
+restaurant("Rathaus").
+restaurant("Atzgersdorfer Straße").
+restaurant("Julius-Raab-Platz").
+restaurant("Breitenfurter St/Altmannsd Str").

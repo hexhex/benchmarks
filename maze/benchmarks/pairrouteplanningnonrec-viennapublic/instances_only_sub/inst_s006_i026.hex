@@ -1,13 +1,28 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Alterlaa").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+sequence(1,0, "Herzogenburg Bahnhof").
+person(2).
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Praterkai").
+initlocation(2,"Theresienfeld Bahnhof").
+sequence(2,0, "Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Ottakring".
+restaurant("Niederhofstraße".
+restaurant("Bruck/Leitha Bahnhof").

@@ -1,11 +1,24 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Praterstern").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Roßauer Lände").
+sequence(1,0, "Praterstern").
+person(2).
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Kagraner Platz").
+sequence(2,0, "Währinger Straße-Volksoper").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Rathaus").
+restaurant("Seestadt".
+restaurant("Trautmannsdorf/Leitha Bf".
+restaurant("Praterstern".
+restaurant("Haidestraße".
+restaurant("Liesing").

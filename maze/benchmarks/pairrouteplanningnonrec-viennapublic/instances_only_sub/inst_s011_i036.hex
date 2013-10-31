@@ -1,21 +1,48 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Kagran").
+sequence(1,0, "Herzogenburg Stadt").
+person(2).
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Seestadt").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Nestroyplatz").
+sequence(2,0, "Tscherttegasse").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Hütteldorf").
+restaurant("Hörersdorf Bahnhof".
+restaurant("Staatz Bahnhof".
+restaurant("Süßenbrunn".
+restaurant("Tscherttegasse".
+restaurant("Gumpoldskirchen Bahnhof".
+restaurant("Karlsplatz".
+restaurant("Hofstatt Bahnhof".
+restaurant("Haidestraße".
+restaurant("Rennbahnweg".
+restaurant("Enzersdorf bei Staatz Bahnhof".
+restaurant("Kagraner Platz").

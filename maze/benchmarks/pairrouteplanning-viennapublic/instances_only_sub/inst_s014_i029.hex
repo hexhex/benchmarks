@@ -1,21 +1,60 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Seestadt").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Praterstern").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+sequence(1,0, "Süßenbrunn").
+person(2).
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Taborstraße").
+initlocation(2,"Enkplatz").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+sequence(2,0, "Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+restaurant("Wildungsmauer Bahnhof".
+restaurant("Paasdorf Bahnhof".
+restaurant("Traisengasse".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Liesing".
+restaurant("Gumpoldskirchen Bahnhof".
+restaurant("Pilgramgasse".
+restaurant("Atzgersdorf".
+restaurant("Penzing".
+restaurant("Donauinsel".
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Bahnhof Meidling".
+restaurant("Gumpendorfer Straße".
+restaurant("Schwedenplatz").

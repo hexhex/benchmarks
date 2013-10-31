@@ -1,17 +1,36 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-sequence(0, "Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Carabelligasse").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+sequence(1,0, "Felixdorf Bahnhof").
+person(2).
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Rosenhügelstraße").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Carminweg").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Unter Sankt Veit").
+sequence(2,0, "Rennbahnweg").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Wittelsbachstraße").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Baumgasse").
+possiblemeetinglocations("Rodaun").
+restaurant("Silbergasse").
+restaurant("Retz Bahnhof").
+restaurant("Donauzentrum").
+restaurant("Polkorabplatz").
+restaurant("Gunoldstraße").
 restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Innstraße").

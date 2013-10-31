@@ -1,15 +1,32 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Taborstraße").
+initlocation(1,"Marx-Meidlinger-Straße").
+initlocation(1,"Zentralfriedhof 1Tor").
+initlocation(1,"Aumannplatz").
+initlocation(1,"Blumental").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Wr Neustadt Nord").
+sequence(1,0, "Taborstraße").
+person(2).
+initlocation(2,"Diesterweggasse").
+initlocation(2,"Sahulkastraße").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Koppstraße/Panikengasse").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+sequence(2,0, "Diesterweggasse").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Gloriettegasse").
+restaurant("Kaiserstraße").
+restaurant("Guneschgasse").
+restaurant("Wienerfeldgasse").
+restaurant("Baumgarten").
+restaurant("Gruschaplatz").
+restaurant("Praterstern").
+restaurant("Obersdorf Bahnhof").

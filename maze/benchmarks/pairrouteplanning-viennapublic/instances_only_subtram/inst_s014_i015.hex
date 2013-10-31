@@ -1,21 +1,61 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-sequence(0, "Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Frödenplatz").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Sonnergasse").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Blumental").
+initlocation(1,"Wallrißstraße").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Nußdorf").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Margaretengürtel").
+sequence(1,0, "Frödenplatz").
+person(2).
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Simmering").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Unter St Veit, Hummelgasse").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Rodaun").
+initlocation(2,"Nußdorf, Beethovengang").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Kledering Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Otto-Probst-Platz").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Liesing").
+restaurant("Bisamberg Bahnhof").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Plößlgasse").
+restaurant("Mayerhofgasse").
+restaurant("Shuttleworthstraße").
+restaurant("Hernals").
+restaurant("Nordbrücke").
+restaurant("Stadion").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Canisiusgasse").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Marienbrücke").
+restaurant("Hirschstetten").
+restaurant("Saikogasse").

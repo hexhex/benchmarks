@@ -1,13 +1,28 @@
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+sequence(1,0, "Strasshof Bahnhof").
+person(2).
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+sequence(2,0, "Kettenbrückengasse").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Karlsplatz").
+restaurant("Atzenbrugg Bahnhof".
+restaurant("Reumannplatz".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Haidestraße".
+restaurant("Stubentor".
+restaurant("Kagran").

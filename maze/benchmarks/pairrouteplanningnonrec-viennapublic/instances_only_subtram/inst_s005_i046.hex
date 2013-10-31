@@ -1,11 +1,24 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Dornbach, Güpferlingstraße").
+sequence(1,0, "Ulrichskirchen Bahnhof").
+person(2).
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Mannswörth Bahnhof").
+sequence(2,0, "Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Gunoldstraße").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Kardinal-Nagl-Platz").

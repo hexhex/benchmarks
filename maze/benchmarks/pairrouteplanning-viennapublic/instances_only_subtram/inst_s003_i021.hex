@@ -1,5 +1,16 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Kraygasse").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Höbersdorf Bahnhof").
+sequence(1,0, "Kraygasse").
+person(2).
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+sequence(2,0, "Langenlebarn Bahnhof").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+restaurant("Rennbahnweg").
+restaurant("Eckpergasse").
+restaurant("Spittelau").

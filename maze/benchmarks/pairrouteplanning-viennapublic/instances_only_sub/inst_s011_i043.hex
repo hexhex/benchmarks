@@ -1,21 +1,49 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Praterkai").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Donauinsel").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Wampersdorf Bahnhof").
+sequence(1,0, "Vorgartenstraße").
+person(2).
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Praterkai").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Hollabrunn Bahnhof").
+sequence(2,0, "Hörersdorf Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Schönborn Bahnhof").
+restaurant("Blumental".
+restaurant("Neue Donau".
+restaurant("Hardeggasse".
+restaurant("Siebenhirten (NÖ.
+Haltestelle".
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Kledering Bahnhof".
+restaurant("Süßenbrunn".
+restaurant("Schlachthausgasse".
+restaurant("Dürrwien Bahnhof".
+restaurant("Mistelbach Stadt".
+restaurant("Gaisruck Bahnhof").

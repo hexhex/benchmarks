@@ -1,11 +1,25 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Praterstern").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Perfektastraße").
+sequence(1,0, "Praterstern").
+person(2).
+initlocation(2,"Kagran").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+sequence(2,0, "Kagran").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Schwedenplatz").
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Penzing".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Flughafen Wien (VIE.
+Bahnhof".
+restaurant("Kapellerfeld Bahnhof").

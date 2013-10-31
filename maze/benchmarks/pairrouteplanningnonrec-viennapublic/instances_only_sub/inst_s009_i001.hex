@@ -1,19 +1,41 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+sequence(1,0, "Mannswörth Bahnhof").
+person(2).
+initlocation(2,"Schottentor").
+initlocation(2,"Rennweg").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+sequence(2,0, "Schottentor").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Paasdorf Bahnhof").
+restaurant("Hadersdorf Bahnhof".
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Unter Kritzendorf Bahnhof".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Aspernstraße".
+restaurant("Nestroyplatz".
+restaurant("Hainburg/Donau Personenbhf".
+restaurant("Handelskai".
+restaurant("Silberwald Bahnhof").

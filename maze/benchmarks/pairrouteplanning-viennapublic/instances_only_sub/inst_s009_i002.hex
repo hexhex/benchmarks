@@ -1,19 +1,41 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Stubentor").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Schönborn Bahnhof").
+sequence(1,0, "Stubentor").
+person(2).
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Taubstummengasse").
+sequence(2,0, "Schweglerstraße").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Schottentor").
+restaurant("Enkplatz".
+restaurant("Erdberg".
+restaurant("Strasshof Bahnhof".
+restaurant("Stadion".
+restaurant("Himberg Bahnhof".
+restaurant("Kaiserebersdorf".
+restaurant("Wolfsthal Bahnhof".
+restaurant("Paasdorf Bahnhof".
+restaurant("Breitensee").

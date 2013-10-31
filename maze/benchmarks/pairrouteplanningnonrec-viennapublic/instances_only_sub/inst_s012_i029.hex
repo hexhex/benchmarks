@@ -1,21 +1,52 @@
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-sequence(0, "Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Seestadt").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Sierndorf Bahnhof").
+sequence(1,0, "Purkersdorf Zentrum Bahnhof").
+person(2).
+initlocation(2,"Alser Straße").
+initlocation(2,"Enkplatz").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Breitensee").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Schönbrunn").
+sequence(2,0, "Alser Straße").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+restaurant("Heiligenstadt".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Untertullnerbach Bahnhof".
+restaurant("Sollenau Bahnhof".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Penzing".
+restaurant("Rathaus".
+restaurant("Erdberg".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Aderklaaer Straße".
+restaurant("Unter Sankt Veit".
+restaurant("Hainburg/Donau Personenbhf").

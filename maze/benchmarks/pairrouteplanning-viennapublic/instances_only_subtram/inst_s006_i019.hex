@@ -1,13 +1,28 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+initlocation(1,"Penzing").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Siemensstraße").
+sequence(1,0, "Donaustadtstraße").
+person(2).
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Lobau").
+initlocation(2,"Hohe Warte").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Stadlergasse").
+sequence(2,0, "Obere Augartenstraße").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Blumental").
+restaurant("Quellenplatz").
+restaurant("Saikogasse").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").

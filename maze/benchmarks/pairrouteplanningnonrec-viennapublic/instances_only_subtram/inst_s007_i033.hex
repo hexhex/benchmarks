@@ -1,15 +1,33 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Autokaderstraße").
+initlocation(1,"Rathausplatz/Burgtheater").
+initlocation(1,"Franz-Josefs-Bahnhof").
+sequence(1,0, "Kendlerstraße").
+person(2).
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Am Spitz").
+initlocation(2,"Hernalser Gürtel").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Gaußplatz").
+initlocation(2,"Quartier Belvedere").
+sequence(2,0, "Schlachthausgasse").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Quellenplatz").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+restaurant("Leyserstraße").
+restaurant("Kagraner Platz").
+restaurant("Wienerbergbrücke").
+restaurant("Nordbrücke").
 restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
+restaurant("Strasshof Bahnhof").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").

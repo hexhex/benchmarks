@@ -1,11 +1,24 @@
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Marxergasse").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Hardeggasse").
+sequence(1,0, "Marxergasse").
+person(2).
+initlocation(2,"Messe-Prater").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Hoßplatz").
+initlocation(2,"Michelbeuern-AKH").
+sequence(2,0, "Messe-Prater").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Gaußplatz").
+restaurant("Fickeysstraße").
+restaurant("Kaiser-Franz-Josef-Straße").
+restaurant("Breitensee").
+restaurant("Gruschaplatz").
+restaurant("Silbergasse").

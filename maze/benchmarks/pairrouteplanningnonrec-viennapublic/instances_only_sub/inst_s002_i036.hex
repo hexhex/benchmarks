@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Reumannplatz").
+initlocation(1,"Perfektastraße").
+sequence(1,0, "Reumannplatz").
+person(2).
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+sequence(2,0, "Korneuburg Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Heiligenstadt").
+restaurant("Oberdöbling".
+restaurant("Korneuburg Bahnhof").

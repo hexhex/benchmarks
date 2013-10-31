@@ -1,19 +1,40 @@
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Simmering").
+sequence(1,0, "Schwechat Bahnhof").
+person(2).
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Lobau").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Hütteldorfer Straße").
+sequence(2,0, "Neusiedl am See Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+restaurant("Nestroyplatz".
+restaurant("Donauinsel".
+restaurant("Mödling Bahnhof".
+restaurant("Siebenhirten".
+restaurant("Oberradlberg Bahnhof".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Donauspital".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Gaisruck Bahnhof").

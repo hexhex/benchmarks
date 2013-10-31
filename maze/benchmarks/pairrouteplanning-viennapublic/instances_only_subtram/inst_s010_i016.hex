@@ -1,21 +1,44 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Kaiserstraße/Westbahnstraße").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Am Heidjöchl/Hausfeldstraße").
+initlocation(1,"Huglgasse").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Weihburggasse").
+sequence(1,0, "Frättingsdorf Bahnhof").
+person(2).
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Gredlerstraße").
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Grinzing").
+initlocation(2,"Johann-Nepomuk-Berger-Platz").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Leobersdorf Bahnhof").
+sequence(2,0, "Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Laurenzgasse").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Neulerchenfelder Str/Haberlg").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Anton-Schall-Gasse").
+restaurant("Rathaus").
+restaurant("Blumental").

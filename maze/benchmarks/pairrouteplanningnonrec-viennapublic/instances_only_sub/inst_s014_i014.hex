@@ -1,21 +1,62 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Ottakring").
+initlocation(1,"Herrengasse").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+sequence(1,0, "Siebenhirten (NÖ).
+person(2).
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Gasometer").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Praterstern").
+initlocation(2,"Alser Straße").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+sequence(2,0, "Ober Sankt Veit").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Taborstraße").
+restaurant("Maria Ellend Bahnhof".
+restaurant("Reumannplatz".
+restaurant("Gersthof".
+restaurant("Stadion".
+restaurant("Haidestraße".
+restaurant("Sarasdorf Bahnhof".
+restaurant("Schwedenplatz".
+restaurant("Breitensee".
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Zentralfriedhof".
+restaurant("Kettenbrückengasse".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Traismauer Bahnhof").

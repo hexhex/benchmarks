@@ -1,15 +1,32 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Himberg Bahnhof").
+sequence(1,0, "Hausfeldstraße").
+person(2).
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Stadlau").
+sequence(2,0, "Silberwald Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Seestadt").
+restaurant("Niederhofstraße".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Traisengasse".
+restaurant("Burggasse-Stadthalle".
+restaurant("Bisamberg Bahnhof".
+restaurant("Leopoldau".
+restaurant("Enkplatz").

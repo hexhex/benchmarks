@@ -1,17 +1,36 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Herrengasse").
+sequence(1,0, "Franz-Josefs-Bahnhof").
+person(2).
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Praterstern").
+initlocation(2,"Seestadt").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Volkstheater").
+initlocation(2,"Nußdorf").
+sequence(2,0, "Silberwald Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Schlachthausgasse").
+restaurant("Obersdorf Bahnhof".
+restaurant("Grillgasse".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Preyergasse/Speising".
+restaurant("Zellerndorf Bahnhof".
+restaurant("Hainburg/Donau Kulturfabrik Bf".
+restaurant("Donaustadtbrücke").

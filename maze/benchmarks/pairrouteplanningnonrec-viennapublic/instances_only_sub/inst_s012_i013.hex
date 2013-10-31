@@ -1,21 +1,53 @@
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Praterstern").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Breitensee").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Nestroyplatz").
+sequence(1,0, "Getzersdorf/Traisen Bahnhof").
+person(2).
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Stadtpark").
+initlocation(2,"Penzing").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Handelskai").
+sequence(2,0, "Kritzendorf Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Taubstummengasse".
+restaurant("Strebersdorf".
+restaurant("Hofstatt Bahnhof".
+restaurant("Petronell-Carnuntum Bahnhof".
+restaurant("Sollenau Bahnhof".
+restaurant("Lobau".
+restaurant("Gersthof".
+restaurant("Schwechat Bahnhof".
+restaurant("Hietzing".
+restaurant("Preyergasse/Speising".
+restaurant("Kendlerstraße".
+restaurant("Langenzersdorf Bahnhof").

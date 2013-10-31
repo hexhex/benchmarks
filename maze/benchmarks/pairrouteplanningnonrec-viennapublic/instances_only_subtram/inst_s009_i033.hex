@@ -1,19 +1,40 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Krieau").
+initlocation(1,"Litfaßstraße").
+initlocation(1,"Fultonstraße").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Grillgasse").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Molitorgasse").
+initlocation(1,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Hörersdorf Bahnhof").
+sequence(1,0, "Krieau").
+person(2).
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Kaiserstraße").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Beingasse").
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"Valiergasse").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Kutschkergasse").
+sequence(2,0, "Unterradlberg Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Auerspergstraße").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Stollgasse").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Donauinsel").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Geiselbergstraße").
+restaurant("Weinheimergasse").
+restaurant("Staatz Bahnhof").
+restaurant("Schloss Hetzendorf").
+restaurant("Otto-Probst-Platz").
+restaurant("Nußdorfer Straße").
+restaurant("Margaretengürtel").
+restaurant("Kärntner Ring/Oper").

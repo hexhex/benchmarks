@@ -1,6 +1,20 @@
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Siebertgasse").
+initlocation(1,"Marienbrücke").
+initlocation(1,"Franz-Asenbauer-Gasse").
+sequence(1,0, "Lanzendorf-Rannersdorf Bahnhof").
+person(2).
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Antonigasse").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Seyring Bahnhof").
+sequence(2,0, "Paasdorf Bahnhof").
+possiblemeetinglocations("Großjedlersdorf").
+possiblemeetinglocations("Scheibenbergstraße").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Westbahnhof").
+restaurant("Weinhauser Gasse").
+restaurant("Guneschgasse").
+restaurant("Bahnsteggasse").
+restaurant("Prandaugasse").

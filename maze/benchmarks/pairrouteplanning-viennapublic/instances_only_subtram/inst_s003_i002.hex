@@ -1,5 +1,16 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Stadlau").
+initlocation(1,"Palffygasse").
+initlocation(1,"Götzendorf Bahnhof").
+sequence(1,0, "Stadlau").
+person(2).
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Strozzigasse").
+sequence(2,0, "Troststraße/Neilreichgasse").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Absberggasse").
+restaurant("Atzgersdorf").
+restaurant("Reumannplatz").
+restaurant("Süßenbrunn").

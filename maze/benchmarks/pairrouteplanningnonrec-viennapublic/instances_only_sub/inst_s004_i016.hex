@@ -1,6 +1,20 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Praterkai").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Stadlau").
+sequence(1,0, "Praterkai").
+person(2).
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Seestadt").
+sequence(2,0, "Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Alser Straße").
+restaurant("Strasshof Bahnhof".
+restaurant("Hausfeldstraße".
+restaurant("Nestroyplatz".
+restaurant("Grillgasse").

@@ -1,21 +1,65 @@
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Donauinsel").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Maria Anzbach Bahnhof").
+sequence(1,0, "Tscherttegasse").
+person(2).
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Praterstern").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Taborstraße").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Seestadt").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Spittelau").
+initlocation(2,"Kendlerstraße").
+sequence(2,0, "Margaretengürtel").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Gaisruck Bahnhof").
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Leopoldau".
+restaurant("Spillern Bahnhof".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Krottenbachstraße".
+restaurant("Atzenbrugg Bahnhof".
+restaurant("Trasdorf Bahnhof".
+restaurant("Oberdöbling".
+restaurant("Preyergasse/Speising".
+restaurant("Kagran".
+restaurant("Messe-Prater".
+restaurant("Alser Straße".
+restaurant("Kendlerstraße").

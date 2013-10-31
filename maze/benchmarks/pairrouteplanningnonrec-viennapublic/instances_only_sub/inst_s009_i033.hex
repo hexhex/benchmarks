@@ -1,19 +1,41 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Stadlau").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+sequence(1,0, "Unteroberndorf Bahnhof").
+person(2).
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Praterstern").
+sequence(2,0, "Wampersdorf Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Kottingbrunn Bahnhof".
+restaurant("Sarasdorf Bahnhof".
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Herrengasse".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Nestroyplatz".
+restaurant("Stockerau Bahnhof".
+restaurant("Parndorf Ort Bahnhof").

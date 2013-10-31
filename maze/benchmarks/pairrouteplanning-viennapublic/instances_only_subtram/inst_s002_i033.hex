@@ -1,4 +1,12 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Lange Gasse").
+sequence(1,0, "Schwechat Bahnhof").
+person(2).
+initlocation(2,"Columbusplatz").
+initlocation(2,"Anschützgasse").
+sequence(2,0, "Columbusplatz").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Rennweg").
+restaurant("Hütteldorf").
+restaurant("Stiftgasse").

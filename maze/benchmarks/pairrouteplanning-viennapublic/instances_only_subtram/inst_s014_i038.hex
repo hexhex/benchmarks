@@ -1,21 +1,60 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Staglgasse").
+initlocation(1,"Migerkastraße").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Florianigasse").
+initlocation(1,"Antonigasse").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Stiftgasse").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+sequence(1,0, "Schwedenplatz").
+person(2).
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Erdberg").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Koppstraße/Panikengasse").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Kraygasse").
+initlocation(2,"Schottenfeldgasse").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Frödenplatz").
+sequence(2,0, "Hildebrandgasse").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+restaurant("Gersthof").
+restaurant("Schwarzspanierstraße").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Anschützgasse").
+restaurant("Fischamend Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Unteres Belvedere").
+restaurant("Hubertusdamm").
+restaurant("Gredlerstraße").

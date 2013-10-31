@@ -1,21 +1,52 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Taborstraße").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Stadtpark").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Wr Neustadt Nord").
+sequence(1,0, "Gumpoldskirchen Bahnhof").
+person(2).
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Praterstern").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Traisengasse").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Alser Straße").
+sequence(2,0, "Rekawinkel Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+restaurant("Gasometer".
+restaurant("Stadlau".
+restaurant("Ebenfurth Bahnhof".
+restaurant("Unter Kritzendorf Bahnhof".
+restaurant("Alterlaa".
+restaurant("Breitensee".
+restaurant("Braunschweiggasse".
+restaurant("Erzherzog-Karl-Straße".
+restaurant("Josefstädter Straße".
+restaurant("Moosbierbaum-Heiligeneich Bf".
+restaurant("Bruck/Leitha Bahnhof".
+restaurant("Donaumarina").

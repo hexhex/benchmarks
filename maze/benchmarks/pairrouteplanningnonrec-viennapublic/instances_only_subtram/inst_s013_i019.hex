@@ -1,21 +1,56 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Wildgansplatz").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Polgarstraße").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Breitensee").
+initlocation(1,"Volkstheater").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Löwengasse").
+initlocation(1,"Beingasse").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Alte Donau").
+sequence(1,0, "Wildgansplatz").
+person(2).
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Volkstheater").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Versorgungsheimplatz").
+initlocation(2,"Hopfengasse").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Schottenfeldgasse").
+initlocation(2,"Stephansplatz").
+sequence(2,0, "Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Yppengasse").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+restaurant("Josefstädter Straße").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Anton-Schall-Gasse").
+restaurant("Hauffgasse").
+restaurant("Paasdorf Bahnhof").
+restaurant("Grinzinger Straße").
+restaurant("Alte Donau").
+restaurant("Saikogasse").
+restaurant("Schöffelgasse").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Krottenbachstraße").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Simmering").

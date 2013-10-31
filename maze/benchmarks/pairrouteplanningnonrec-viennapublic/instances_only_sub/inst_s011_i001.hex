@@ -1,21 +1,50 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Thaliastraße").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Liesing").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Wolf in der Au").
+sequence(1,0, "Thaliastraße").
+person(2).
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Hietzing").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Breitenwaida Bahnhof").
+sequence(2,0, "Bisamberg Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Zentralfriedhof").
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Gumpoldskirchen Bahnhof".
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Burggasse-Stadthalle".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Siebenhirten (NÖ.
+Haltestelle".
+restaurant("Vorgartenstraße".
+restaurant("Trasdorf Bahnhof".
+restaurant("Rochusgasse".
+restaurant("Michelbeuern-AKH".
+restaurant("Oberradlberg Bahnhof").

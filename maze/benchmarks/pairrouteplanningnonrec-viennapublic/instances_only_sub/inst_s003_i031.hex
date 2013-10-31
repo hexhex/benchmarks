@@ -1,5 +1,16 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Kettenbrückengasse").
+sequence(1,0, "Haslau an der Donau Bahnhof").
+person(2).
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Penzing").
+sequence(2,0, "Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Paasdorf Bahnhof").
+restaurant("Zellerndorf Bahnhof".
+restaurant("Schleinbach Bahnhof".
+restaurant("Aspern Nord").

@@ -1,21 +1,65 @@
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Lobau").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Erzherzog-Karl-Straße").
+sequence(1,0, "Hausleiten Bahnhof").
+person(2).
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Gasometer").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Retz Bahnhof").
+sequence(2,0, "Schlachthausgasse").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Kagraner Platz").
+restaurant("Michelbeuern-AKH".
+restaurant("Traisengasse".
+restaurant("Niederhofstraße".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Zellerndorf Bahnhof".
+restaurant("Leobersdorf Bahnhof".
+restaurant("Lobau".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Stephansplatz".
+restaurant("Donauinsel".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Hollabrunn Bahnhof".
+restaurant("Messe-Prater".
+restaurant("Landstraße-Wien Mitte").

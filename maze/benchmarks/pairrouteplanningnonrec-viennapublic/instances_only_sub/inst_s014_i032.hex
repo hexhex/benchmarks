@@ -1,21 +1,60 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Neue Donau").
+initlocation(1,"Praterstern").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Stockerau Bahnhof").
+sequence(1,0, "Am Schöpfwerk").
+person(2).
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Praterstern").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Nußdorf").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Heiligenstadt").
+sequence(2,0, "Wolf in der Au").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Jedlersdorf").
+restaurant("Zentralfriedhof".
+restaurant("Vorgartenstraße".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Neue Donau".
+restaurant("Krottenbachstraße".
+restaurant("Ober Sankt Veit".
+restaurant("Mannswörth Bahnhof".
+restaurant("Weidlingau Bahnhof".
+restaurant("Johnstraße".
+restaurant("Kledering Bahnhof".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Fischamend Bahnhof".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Staatz Bahnhof").

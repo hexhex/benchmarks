@@ -1,6 +1,20 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+sequence(1,0, "Wildungsmauer Bahnhof").
+person(2).
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Herzogenburg Bahnhof").
+sequence(2,0, "Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+restaurant("Hollabrunn Bahnhof".
+restaurant("Siemensstraße".
+restaurant("Wr Neustadt Hauptbahnhof".
+restaurant("Keplerplatz").

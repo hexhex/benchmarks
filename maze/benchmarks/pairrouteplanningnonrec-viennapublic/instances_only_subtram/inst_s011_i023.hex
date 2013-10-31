@@ -1,21 +1,48 @@
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-sequence(0, "Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Schleiergasse").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Shuttleworthstraße").
+sequence(1,0, "Schleiergasse").
+person(2).
+initlocation(2,"Krieau").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+initlocation(2,"Alsegger Straße").
+sequence(2,0, "Krieau").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Seegasse").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Brünner Straße").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Empergergasse").
+restaurant("Helmahof Bahnhof").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Gersthof").
+restaurant("Lerchenfelder Straße").
+restaurant("Wittelsbachstraße").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Baumgasse").

@@ -1,21 +1,48 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+sequence(1,0, "Untertullnerbach Bahnhof").
+person(2).
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Stadion").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Volkstheater").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Guntersdorf Bahnhof").
+sequence(2,0, "Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+restaurant("Margaretengürtel".
+restaurant("Wampersdorf Bahnhof".
+restaurant("Volkstheater".
+restaurant("Alte Donau".
+restaurant("Praterstern".
+restaurant("Retz Bahnhof".
+restaurant("Aderklaaer Straße".
+restaurant("Neubaugasse".
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Kritzendorf Bahnhof").

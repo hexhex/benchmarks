@@ -1,21 +1,52 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Thaliastraße").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Alte Donau").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Stadion").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+sequence(1,0, "Thaliastraße").
+person(2).
+initlocation(2,"Rennweg").
+initlocation(2,"Leopoldau").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+sequence(2,0, "Rennweg").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+restaurant("Rathaus".
+restaurant("Nußdorf".
+restaurant("Süßenbrunn".
+restaurant("Trasdorf Bahnhof".
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Donauinsel".
+restaurant("Silberwald Bahnhof".
+restaurant("Erlaaer Straße".
+restaurant("Zentralfriedhof".
+restaurant("Friedensbrücke".
+restaurant("Tulln Stadt Bahnhof".
+restaurant("Regelsbrunn Bahnhof").

@@ -1,21 +1,48 @@
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Siemensstraße").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Neulengbach Bahnhof").
+sequence(1,0, "Siemensstraße").
+person(2).
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Hernals").
+initlocation(2,"Lobau").
+initlocation(2,"Hardeggasse").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Taborstraße").
+initlocation(2,"Bahnhof Meidling").
+sequence(2,0, "Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+restaurant("Rennbahnweg".
+restaurant("Atzenbrugg Bahnhof".
+restaurant("Kaisermühlen-VIC".
+restaurant("Praterkai".
+restaurant("Brünner Straße".
+restaurant("Erlaaer Straße".
+restaurant("Zeiselmauer-Königstetten Bf".
+restaurant("Götzendorf Bahnhof".
+restaurant("Theresienfeld Bahnhof".
+restaurant("Gumpoldskirchen Bahnhof".
+restaurant("St Andrä-Wördern Bahnhof").

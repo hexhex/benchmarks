@@ -1,15 +1,32 @@
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Reumannplatz").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Pilgramgasse").
+sequence(1,0, "Reumannplatz").
+person(2).
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Hausfeldstraße").
+sequence(2,0, "Untertullnerbach Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Josefstädter Straße").
+restaurant("Guntersdorf Bahnhof".
+restaurant("Aderklaaer Straße".
+restaurant("Penzing".
+restaurant("Westbahnhof".
+restaurant("Messe-Prater".
+restaurant("Gumpendorfer Straße".
+restaurant("Sarasdorf Bahnhof").

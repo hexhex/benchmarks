@@ -1,13 +1,28 @@
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Hohe Warte").
+initlocation(1,"Penzing").
+initlocation(1,"Rothneusiedl").
+initlocation(1,"Empergergasse").
+initlocation(1,"Gredlerstraße").
+initlocation(1,"Höbersdorf Bahnhof").
+sequence(1,0, "Hohe Warte").
+person(2).
+initlocation(2,"Reumannplatz").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+initlocation(2,"Am Heidjöchl").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+sequence(2,0, "Reumannplatz").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Traisengasse").
+restaurant("Penzinger Straße").
 restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
 restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+restaurant("Pokornygasse").
+restaurant("Waidhausenstraße").
+restaurant("Maria Ellend Bahnhof").

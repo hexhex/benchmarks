@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Schottentor").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Floridsdorf").
+sequence(1,0, "Spillern Bahnhof").
+person(2).
+initlocation(2,"Krieau").
+initlocation(2,"Stadtpark").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Taborstraße").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Blumental").
+sequence(2,0, "Krieau").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+restaurant("Bisamberg Bahnhof".
+restaurant("Michelhausen Bahnhof".
+restaurant("Seestadt".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Siemensstraße".
+restaurant("Siebenhirten".
+restaurant("Paasdorf Bahnhof".
+restaurant("Erlaaer Straße").

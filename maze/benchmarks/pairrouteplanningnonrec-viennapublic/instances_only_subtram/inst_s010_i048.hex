@@ -1,21 +1,44 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Strebersdorf").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Frauengasse").
+initlocation(1,"Sieveringer Straße").
+initlocation(1,"Favoritenstraße/Troststraße").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Ungargasse/Neulinggasse").
+initlocation(1,"Marxergasse").
+sequence(1,0, "Strebersdorf").
+person(2).
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+sequence(2,0, "Spillern Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+restaurant("Schwarzenbergplatz").
+restaurant("Stammersdorf").
+restaurant("Burggasse-Stadthalle").
+restaurant("Perfektastraße").
+restaurant("Plößlgasse").
+restaurant("Neilreichgasse").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Bisamberg Bahnhof").
+restaurant("Fultonstraße").

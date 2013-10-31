@@ -1,15 +1,33 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Spittelau").
+sequence(1,0, "Zeiselmauer-Königstetten Bf").
+person(2).
+initlocation(2,"Keplerplatz").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+sequence(2,0, "Keplerplatz").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+restaurant("Schwechat Bahnhof".
+restaurant("Blumental".
+restaurant("Oberradlberg Bahnhof".
+restaurant("Hirschstetten".
+restaurant("Stadtpark".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Hausfeldstraße").

@@ -1,6 +1,20 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Kagraner Platz").
+sequence(1,0, "Getzersdorf/Traisen Bahnhof").
+person(2).
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Margaretengürtel").
+sequence(2,0, "Himberg Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+restaurant("Nestroyplatz".
+restaurant("Rennbahnweg".
+restaurant("Taborstraße".
+restaurant("Stephansplatz").

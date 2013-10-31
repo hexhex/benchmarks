@@ -1,5 +1,16 @@
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Römergasse").
+initlocation(1,"Herbeckstraße").
+sequence(1,0, "Achau Bahnhof").
+person(2).
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Liechtenwerder Platz").
+sequence(2,0, "Kledering Bahnhof").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+restaurant("Atzgersdorf").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Hausfeldstraße").

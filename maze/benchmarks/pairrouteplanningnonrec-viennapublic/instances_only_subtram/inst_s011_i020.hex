@@ -1,21 +1,49 @@
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Kaiserstraße/Westbahnstraße").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Schwarzspanierstraße").
+initlocation(1,"Rennweg").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Stammersdorf").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Gumpendorfer Straße").
+sequence(1,0, "Geiselbergstraße").
+person(2).
+initlocation(2,"Stubentor").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Nordbahnstraße").
+initlocation(2,"Thaliastraße/Maroltingergasse").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Seegasse").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+sequence(2,0, "Stubentor").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+restaurant("Polgarstraße").
+restaurant("Altes Landgut").
+restaurant("Trasdorf Bahnhof").
+restaurant("Gumpendorfer Straße").
+restaurant("Yppengasse").
+restaurant("Windtenstraße").
+restaurant("Donauinsel").
+restaurant("Schlickgasse").
+restaurant("Krankenhaus Hietzing").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Flughafen Wien (VIE).
+Bahnhof").

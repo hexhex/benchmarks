@@ -1,21 +1,52 @@
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-sequence(0, "Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Saikogasse").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Rankgasse").
+initlocation(1,"Baumgasse").
+initlocation(1,"Großjedlersdorf").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Museumsquartier").
+sequence(1,0, "Margaretengürtel/Arbeitergasse").
+person(2).
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Beingasse").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Anton-Krieger-Gasse").
+initlocation(2,"Penzing").
+initlocation(2,"Tesarekplatz").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Rankgasse").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Van-Swieten-Kaserne").
+sequence(2,0, "Neilreichgasse").
+possiblemeetinglocations("Teichgasse").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Otto-Probst-Platz").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+restaurant("Alser Straße").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Thaliastraße/Maroltingergasse").
+restaurant("Kraygasse").
+restaurant("Kutschkergasse").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Fasangasse").
+restaurant("Tesarekplatz").
+restaurant("Wilhelminenstr/Sandleitengasse").
+restaurant("Spittelau").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Hetzendorf").

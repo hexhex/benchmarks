@@ -1,21 +1,56 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Hirschstetten").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Blumental").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Stadtpark").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+sequence(1,0, "Hirschstetten").
+person(2).
+initlocation(2,"Traisengasse").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+sequence(2,0, "Traisengasse").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+restaurant("Schottenring".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Zeiselmauer-Königstetten Bf".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Donauinsel".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Schlachthausgasse".
+restaurant("Höflein an der Donau Bahnhof".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Rennbahnweg".
+restaurant("Helmahof Bahnhof".
+restaurant("Krottenbachstraße").

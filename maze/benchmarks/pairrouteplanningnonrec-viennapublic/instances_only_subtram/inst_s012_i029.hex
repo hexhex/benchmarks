@@ -1,21 +1,52 @@
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-sequence(0, "Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Gerstnerstraße/Westbhf").
+initlocation(1,"Autokaderstraße").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Gatterburggasse").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Aumannplatz").
+initlocation(1,"Hietzing").
+sequence(1,0, "Kaiserebersdorf").
+person(2).
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Litfaßstraße").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Sensengasse").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Anschützgasse").
+initlocation(2,"Hofwiesengasse").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Mühlfeldgasse").
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+sequence(2,0, "Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Scheibenbergstraße").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+restaurant("Heiligenstadt").
+restaurant("Schwarzenbergplatz").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Hetzgasse").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Seyring Bahnhof").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Floridsdorfer Brücke").
+restaurant("Rauscherstraße").
+restaurant("Alsegger Straße").
+restaurant("Hernals").
+restaurant("Gruschaplatz").

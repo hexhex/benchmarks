@@ -1,13 +1,29 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Hietzing").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+sequence(1,0, "Fickeysstraße").
+person(2).
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Raxstraße/Rudolfshügelgasse").
+sequence(2,0, "Höchstädtplatz").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+restaurant("Mühlfeldgasse").
+restaurant("Wexstraße").
+restaurant("Bösendorferstraße").
+restaurant("Neulengbach Bahnhof").
+restaurant("Stammersdorf").
+restaurant("Maurer Lange Gasse").

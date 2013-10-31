@@ -1,21 +1,64 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Karlsplatz").
+sequence(1,0, "Längenfeldgasse").
+person(2).
+initlocation(2,"Perfektastraße").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Alterlaa").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Rathaus").
+sequence(2,0, "Perfektastraße").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+restaurant("Pressbaum Bahnhof".
+restaurant("Gersthof".
+restaurant("Hainburg/Donau Personenbhf".
+restaurant("Perfektastraße".
+restaurant("Seestadt".
+restaurant("Schönborn Bahnhof".
+restaurant("Leobersdorf Bahnhof".
+restaurant("Enkplatz".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Götzendorf Bahnhof".
+restaurant("Taborstraße".
+restaurant("Grillgasse".
+restaurant("Hausleiten Bahnhof".
+restaurant("Nußdorf".
+restaurant("Getzersdorf/Traisen Bahnhof").

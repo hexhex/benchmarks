@@ -1,5 +1,16 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Forstnergasse").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Mödling Bahnhof").
+sequence(1,0, "Forstnergasse").
+person(2).
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Klosterneub Str/Wallensteinstr").
+sequence(2,0, "Hintere Zollamtsstraße").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Donauinsel").
+restaurant("Bahnsteggasse").
+restaurant("Braunschweiggasse").
+restaurant("Schwechat Bahnhof").

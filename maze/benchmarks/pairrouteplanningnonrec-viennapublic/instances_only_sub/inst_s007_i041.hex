@@ -1,15 +1,32 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Simmering").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Brünner Straße").
+sequence(1,0, "Simmering").
+person(2).
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Silberwald Bahnhof").
+sequence(2,0, "Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Margaretengürtel").
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Nestroyplatz".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Stadtpark".
+restaurant("Kagran".
+restaurant("Wolf in der Au".
+restaurant("Erdberg").

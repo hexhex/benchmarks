@@ -1,17 +1,36 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Wexstraße").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Sieveringer Straße").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Wenzgasse").
+initlocation(1,"Hauffgasse").
+sequence(1,0, "Schleinbach Bahnhof").
+person(2).
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Grinzing").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Ottakring").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Rustengasse").
+sequence(2,0, "Kottingbrunn Bahnhof").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Migerkastraße").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Grinzinger Straße").
+restaurant("Wallensteinplatz").
+restaurant("Sommarugagasse").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Gaisruck Bahnhof").
+restaurant("Plößlgasse").
+restaurant("Döblinger Hauptstr/Gatterburgg").

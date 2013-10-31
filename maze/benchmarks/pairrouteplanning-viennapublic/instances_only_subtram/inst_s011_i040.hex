@@ -1,21 +1,48 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+initlocation(1,"Gusenleithnergasse").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+sequence(1,0, "Helmahof Bahnhof").
+person(2).
+initlocation(2,"Valiergasse").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Ottakring").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Yppengasse").
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Langenlebarn Bahnhof").
+sequence(2,0, "Valiergasse").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Trondheimgasse").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Kraygasse").
+restaurant("Rodaun").
+restaurant("Schottentor").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Weißenböckstraße").
+restaurant("Schuhmeierplatz").
+restaurant("Baumgarten").
+restaurant("Mistelbach Stadt").
+restaurant("Rauscherstraße").
+restaurant("Jagdschloßgasse").
+restaurant("Höchstädtplatz").
+restaurant("Joachimsthalerplatz").

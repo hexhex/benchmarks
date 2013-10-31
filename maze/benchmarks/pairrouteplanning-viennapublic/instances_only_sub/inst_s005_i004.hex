@@ -1,7 +1,24 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Niederhofstraße").
+sequence(1,0, "Kaisermühlen-VIC").
+person(2).
+initlocation(2,"Rochusgasse").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Kagran").
+initlocation(2,"Himberg Bahnhof").
+sequence(2,0, "Rochusgasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+restaurant("Kaisermühlen-VIC".
+restaurant("Theresienfeld Bahnhof".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof").

@@ -1,21 +1,53 @@
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Sonnergasse").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Volkstheater").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Obere Donaustraße").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Koloniestraße").
+initlocation(1,"Maurer Lange Gasse").
+initlocation(1,"Laa an der Thaya Bahnhof").
+sequence(1,0, "Breitenfurter Str/Liesingbr").
+person(2).
+initlocation(2,"Reumannplatz").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Volkstheater").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Wildgansplatz").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Breitensee").
+sequence(2,0, "Reumannplatz").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Wexstraße").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Fasangasse").
+restaurant("Kutschkergasse").
+restaurant("Sensengasse").
+restaurant("Linzer Straße/Reinlgasse").
+restaurant("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Zieglergasse/Westbahnstraße").
+restaurant("Martinstraße").
+restaurant("Stadiongasse/Parlament").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Stephansplatz").

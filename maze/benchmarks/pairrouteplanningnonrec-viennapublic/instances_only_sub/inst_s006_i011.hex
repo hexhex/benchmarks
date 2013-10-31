@@ -1,13 +1,28 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Simmering").
+initlocation(1,"Krieau").
+initlocation(1,"Stubentor").
+sequence(1,0, "Matzleinsdorfer Platz").
+person(2).
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Johnstraße").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Aderklaaer Straße").
+sequence(2,0, "Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+restaurant("Bahnhof Meidling".
+restaurant("Kettenbrückengasse".
+restaurant("Münchendorf Bahnhof".
+restaurant("Hainburg/Donau Kulturfabrik Bf".
+restaurant("Mannswörth Bahnhof".
+restaurant("Schönbrunn").

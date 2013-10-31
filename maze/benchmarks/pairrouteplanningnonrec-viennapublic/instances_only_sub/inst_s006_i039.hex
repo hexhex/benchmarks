@@ -1,13 +1,29 @@
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Grillgasse").
+sequence(1,0, "Wilfleinsdorf Bahnhof").
+person(2).
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+sequence(2,0, "Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+restaurant("Kettenbrückengasse".
+restaurant("Friedensbrücke".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Michelbeuern-AKH".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Strebersdorf").

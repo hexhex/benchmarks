@@ -1,15 +1,32 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Franz-Josefs-Bahnhof").
+sequence(1,0, "Burggasse-Stadthalle").
+person(2).
+initlocation(2,"Alser Straße").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+sequence(2,0, "Alser Straße").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Lobau").
+restaurant("Matzleinsdorfer Platz".
+restaurant("Preyergasse/Speising".
+restaurant("Schottenring".
+restaurant("Mödling Bahnhof".
+restaurant("Stadtpark".
+restaurant("Donaustadtbrücke".
+restaurant("Praterkai").

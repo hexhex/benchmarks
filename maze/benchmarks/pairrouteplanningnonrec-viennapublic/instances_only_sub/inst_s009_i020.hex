@@ -1,19 +1,40 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Seestadt").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Hausfeldstraße").
+sequence(1,0, "Seestadt").
+person(2).
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Volkstheater").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+sequence(2,0, "Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+restaurant("Wildungsmauer Bahnhof".
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Mistelbach Stadt".
+restaurant("Obereggendorf Bahnhof".
+restaurant("Taubstummengasse".
+restaurant("Friedensbrücke".
+restaurant("Trasdorf Bahnhof".
+restaurant("Purkersdorf Sanatorium".
+restaurant("Kagran").

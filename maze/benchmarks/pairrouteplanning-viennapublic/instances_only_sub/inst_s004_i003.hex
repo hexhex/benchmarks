@@ -1,6 +1,20 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Haidestraße").
+initlocation(1,"Seestadt").
+initlocation(1,"Strasshof Bahnhof").
+sequence(1,0, "Erlaaer Straße").
+person(2).
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+sequence(2,0, "Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+restaurant("Längenfeldgasse".
+restaurant("Schönbrunn".
+restaurant("Wilfleinsdorf Bahnhof".
+restaurant("Getzersdorf/Traisen Bahnhof").

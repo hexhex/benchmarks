@@ -1,19 +1,40 @@
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Blumental").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Leopoldau").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+sequence(1,0, "Blumental").
+person(2).
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Johnstraße").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Donauinsel").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+sequence(2,0, "Ober Sankt Veit").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Breitensee").
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Baden Bahnhof".
+restaurant("Pilgramgasse".
+restaurant("Aderklaaer Straße".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Bisamberg Bahnhof".
+restaurant("Stadlau".
+restaurant("St Pölten Hauptbahnhof").

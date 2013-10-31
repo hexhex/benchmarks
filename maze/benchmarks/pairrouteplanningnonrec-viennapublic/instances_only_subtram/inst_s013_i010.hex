@@ -1,21 +1,56 @@
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-sequence(0, "Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Geiereckstraße").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Palffygasse").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+sequence(1,0, "Geiereckstraße").
+person(2).
+initlocation(2,"Thaliastraße").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Am Heumarkt").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Kleistgasse").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Nußdorf").
+initlocation(2,"Ottakringer Str/Erdbrustgasse").
+initlocation(2,"Mayssengasse").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Paulanergasse").
+sequence(2,0, "Thaliastraße").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Scheibenbergstraße").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Reumannplatz").
+restaurant("Nordbahnstraße").
+restaurant("Eckpergasse").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Messe-Prater").
+restaurant("Mariahilfer Gürtel").
+restaurant("Götzendorf Bahnhof").
+restaurant("Viehofen Bahnhof").
+restaurant("Windtenstraße").
+restaurant("Hirschstetten").
+restaurant("Hausfeldstraße").
+restaurant("Maurer Lange Gasse").

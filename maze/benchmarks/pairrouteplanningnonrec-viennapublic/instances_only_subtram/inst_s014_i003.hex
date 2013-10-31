@@ -1,21 +1,60 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Laurenzgasse").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Rodaun").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Sahulkastraße").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Schloss Schönbrunn").
+initlocation(1,"Fasangasse").
+sequence(1,0, "Thaliastraße/Feßtgasse").
+person(2).
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Leopoldau").
+initlocation(2,"Empergergasse").
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Brigittaplatz").
+initlocation(2,"Oberzellergasse").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Wienerfeldgasse").
+initlocation(2,"Wr Neustadt Nord").
+sequence(2,0, "Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Hohe Warte").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Pötzleinsdorf").
+restaurant("Brünner Straße/Hanreitergasse").
+restaurant("Laaer-Berg-Straße").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Josefstädter Straße").
+restaurant("Schwarzenbergplatz").
+restaurant("Mistelbach Bahnhof").
 restaurant("Roßauer Lände").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Jedlersdorf").
+restaurant("Hietzing").
+restaurant("Am Heumarkt").
+restaurant("Gasometer").

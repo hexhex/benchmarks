@@ -1,21 +1,60 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Stubentor").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Alte Donau").
+sequence(1,0, "Stubentor").
+person(2).
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Leopoldau").
+initlocation(2,"Donauspital").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Lobau").
+sequence(2,0, "Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Gasometer").
+restaurant("Oberolberndorf Bahnhof".
+restaurant("Vorgartenstraße".
+restaurant("Jedlersdorf".
+restaurant("Hausleiten Bahnhof".
+restaurant("Schönborn Bahnhof".
+restaurant("Weigelsdorf Bahnhof".
+restaurant("Stephansplatz".
+restaurant("Kritzendorf Bahnhof".
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Aspernstraße".
+restaurant("Oberdöbling".
+restaurant("Quartier Belvedere".
+restaurant("Stadlau").

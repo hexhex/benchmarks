@@ -1,13 +1,28 @@
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Baumgarten").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+sequence(1,0, "Margaretengürtel/Arbeitergasse").
+person(2).
+initlocation(2,"Mühlfeldgasse").
+initlocation(2,"Polgarstraße").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Floridsdorfer Brücke").
+initlocation(2,"Teichgasse").
+initlocation(2,"Raxstraße/Rudolfshügelgasse").
+sequence(2,0, "Mühlfeldgasse").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Baden Bahnhof").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Guntherstraße").
+restaurant("Am Spitz").
+restaurant("Tesarekplatz").
+restaurant("Kölblgasse").
+restaurant("Aderklaaer Straße").

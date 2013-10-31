@@ -1,4 +1,12 @@
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Gänserndorf Bahnhof").
+sequence(1,0, "Jedlersdorf").
+person(2).
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Kagran").
+sequence(2,0, "Zellerndorf Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Stockerau Bahnhof").

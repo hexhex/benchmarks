@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Brünner Straße").
+initlocation(1,"Penzing").
+sequence(1,0, "Brünner Straße").
+person(2).
+initlocation(2,"Simmering").
+initlocation(2,"Enkplatz").
+sequence(2,0, "Simmering").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Penzing").
+restaurant("Hainburg/Donau Kulturfabrik Bf".
+restaurant("Tulln Bahnhof").

@@ -1,15 +1,32 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Breitensee").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Hietzing").
+sequence(1,0, "Ebenfurth Bahnhof").
+person(2).
+initlocation(2,"Lobau").
+initlocation(2,"Kagran").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Krieau").
+sequence(2,0, "Lobau").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+restaurant("Westbahnhof".
+restaurant("Oberolberndorf Bahnhof".
+restaurant("St Andrä-Wördern Bahnhof".
+restaurant("Hardeggasse".
+restaurant("Schönbrunn".
+restaurant("Ebenfurth Bahnhof".
+restaurant("Handelskai").

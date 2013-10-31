@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Dommayergasse").
+initlocation(1,"Taubstummengasse").
+sequence(1,0, "Kaisermühlen-VIC").
+person(2).
+initlocation(2,"Schottenring").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Reumannplatz").
+sequence(2,0, "Schottenring").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Rustengasse").
+possiblemeetinglocations("Canisiusgasse").
+restaurant("Strozzigasse").
+restaurant("Koloniestraße").
+restaurant("Stiftgasse").

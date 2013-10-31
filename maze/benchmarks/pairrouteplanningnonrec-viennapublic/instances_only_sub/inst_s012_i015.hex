@@ -1,21 +1,52 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-sequence(0, "Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Stadtpark").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Erdberg").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"St Pölten Hauptbahnhof").
+sequence(1,0, "Stadtpark").
+person(2).
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+sequence(2,0, "Maria Ellend Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Lobau").
+restaurant("Perfektastraße".
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Lanzendorf-Rannersdorf Bahnhof".
+restaurant("Floridsdorf".
+restaurant("Johnstraße".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Traisengasse".
+restaurant("Vorgartenstraße".
+restaurant("Sierndorf Bahnhof".
+restaurant("Gaisruck Bahnhof".
+restaurant("Zieglergasse".
+restaurant("Krieau").

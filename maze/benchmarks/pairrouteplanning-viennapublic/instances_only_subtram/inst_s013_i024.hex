@@ -1,21 +1,56 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Wexstraße").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Oberfeldgasse/Spargelfeldstr").
+initlocation(1,"Schwarzspanierstraße").
+initlocation(1,"Gellertplatz").
+initlocation(1,"Donaumarina").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Siebenhirten").
+sequence(1,0, "Rauscherstraße").
+person(2).
+initlocation(2,"Dresdner Straße").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Hopfengasse").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Stadtpark").
+initlocation(2,"Gredlerstraße").
+initlocation(2,"Fasangasse").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Marx-Meidlinger-Straße").
+initlocation(2,"Oberradlberg Bahnhof").
+sequence(2,0, "Dresdner Straße").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Gellertplatz").
+restaurant("Retz Bahnhof").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Weißenböckstraße").
+restaurant("Helmahof Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Ober Sankt Veit").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Döblinger Hauptstr/Gatterburgg").
+restaurant("Staglgasse").
+restaurant("Kagraner Platz").
+restaurant("Fischamend Bahnhof").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Trondheimgasse").

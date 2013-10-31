@@ -1,21 +1,48 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Praterkai").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Stubentor").
+initlocation(1,"Enkplatz").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Neue Donau").
+initlocation(1,"Kritzendorf Bahnhof").
+sequence(1,0, "Kottingbrunn Bahnhof").
+person(2).
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Kagran").
+sequence(2,0, "Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Geiselbergstraße").
+restaurant("Hadersdorf Bahnhof".
+restaurant("Ober Sankt Veit".
+restaurant("Baden Bahnhof".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Schleinbach Bahnhof".
+restaurant("Aspern Nord".
+restaurant("Hardeggasse".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Penzing".
+restaurant("Schottentor".
+restaurant("Aspernstraße").

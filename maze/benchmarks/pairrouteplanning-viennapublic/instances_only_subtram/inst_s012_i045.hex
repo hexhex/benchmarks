@@ -1,21 +1,53 @@
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Sankt Marx").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Siebertgasse").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Van-Swieten-Kaserne").
+initlocation(1,"Donauspital").
+initlocation(1,"Troststraße/Neilreichgasse").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Zentralfriedhof 2Tor").
+initlocation(1,"Herbeckstraße").
+sequence(1,0, "Sankt Marx").
+person(2).
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Bahnhofstraße").
+initlocation(2,"Donauinsel").
+initlocation(2,"Dommayergasse").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Martinstraße").
+sequence(2,0, "Flughafen Wien (VIE).
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Autokaderstraße").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Leyserstraße").
+restaurant("Geiselbergstraße").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Columbusplatz").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Fischamend Bahnhof").
+restaurant("Haidestraße").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Altes Landgut").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Quartier Belvedere").

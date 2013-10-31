@@ -1,21 +1,44 @@
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Arminenstraße").
+initlocation(1,"Stadtpark").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Oberfeldgasse").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Lobau").
+sequence(1,0, "Arminenstraße").
+person(2).
+initlocation(2,"Hütteldorfer Str/Lützowgasse").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Absberggasse").
+initlocation(2,"Dornbacher Straße").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Leyserstraße").
+sequence(2,0, "Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+restaurant("Schlickgasse").
+restaurant("Seegasse").
+restaurant("Traismauer Bahnhof").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Zentralfriedhof 4Tor").
+restaurant("Winkeläckerstraße").
+restaurant("Aumannplatz").
+restaurant("Schwedenplatz").
+restaurant("Kettenbrückengasse").
+restaurant("Ober Sankt Veit").

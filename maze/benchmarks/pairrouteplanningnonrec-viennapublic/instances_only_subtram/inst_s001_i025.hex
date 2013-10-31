@@ -1,3 +1,8 @@
-initlocation("Reumannplatz").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Versorgungsheimplatz").
+sequence(1,0, "Versorgungsheimplatz").
+person(2).
+initlocation(2,"Kardinal-Nagl-Platz").
+sequence(2,0, "Kardinal-Nagl-Platz").
+possiblemeetinglocations("Schuhmeierplatz").
+restaurant("Pokornygasse").

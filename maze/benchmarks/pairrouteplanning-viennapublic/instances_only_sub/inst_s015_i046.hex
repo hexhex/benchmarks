@@ -1,21 +1,65 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Alterlaa").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Hietzing").
+initlocation(1,"Praterstern").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Donauinsel").
+initlocation(1,"Seestadt").
+sequence(1,0, "Hollabrunn Bahnhof").
+person(2).
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Blumental").
+initlocation(2,"Donaumarina").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Grillgasse").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Reumannplatz").
+sequence(2,0, "Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Sierndorf Bahnhof").
+restaurant("Spillern Bahnhof".
+restaurant("Handelskai".
+restaurant("Donauinsel".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Praterkai".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Silberwald Bahnhof".
+restaurant("Jedlersdorf".
+restaurant("Helmahof Bahnhof".
+restaurant("Dürrwien Bahnhof".
+restaurant("Kettenbrückengasse".
+restaurant("Dresdner Straße".
+restaurant("Heiligenstadt".
+restaurant("Donaumarina".
+restaurant("Liesing").

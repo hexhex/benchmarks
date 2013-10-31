@@ -1,21 +1,66 @@
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Forstnergasse").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Strozzigasse").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Johnstraße").
+initlocation(1,"Leberberg").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Marienbrücke").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Schöffelgasse").
+sequence(1,0, "Forstnergasse").
+person(2).
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Grinzing").
+initlocation(2,"Stollgasse").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Perntergasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Beingasse").
+initlocation(2,"Antonigasse").
+initlocation(2,"Jagdschloßgasse").
+initlocation(2,"Schloss Schönbrunn").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Am Heumarkt").
+initlocation(2,"Breitensee").
+sequence(2,0, "Sechskrügelgasse").
+possiblemeetinglocations("Waidhausenstraße").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Unteres Belvedere").
+possiblemeetinglocations("Stollgasse").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Retz Bahnhof").
+restaurant("Gaußplatz").
+restaurant("Florianigasse").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Canisiusgasse").
+restaurant("Palffygasse").
+restaurant("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Kaiserstraße/Burggasse").
+restaurant("Thaliastraße").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Simmering").
+restaurant("Koloniestraße").

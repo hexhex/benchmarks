@@ -1,15 +1,32 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Volkstheater").
+initlocation(1,"Franzensbrücke").
+initlocation(1,"Linzer Straße/Hochsatzengasse").
+initlocation(1,"Forstnergasse").
+sequence(1,0, "Sommarugagasse").
+person(2).
+initlocation(2,"Aumannplatz").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Neulerchenfelder Str/Haberlg").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Johnstraße").
+initlocation(2,"Rennweg").
+initlocation(2,"Geiereckstraße").
+sequence(2,0, "Aumannplatz").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Hardeggasse").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Obere Augartenstraße").
+restaurant("Praterkai").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Laxenburger Str/Gudrunstraße").

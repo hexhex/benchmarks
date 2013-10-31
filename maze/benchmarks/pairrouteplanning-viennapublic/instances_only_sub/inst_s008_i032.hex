@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Göllersdorf Bahnhof").
+sequence(1,0, "Neulengbach Stadt Bahnhof").
+person(2).
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Nußdorf").
+initlocation(2,"Messe-Prater").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Tscherttegasse").
+sequence(2,0, "Untereggendorf Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Alte Donau").
+restaurant("Stockerau Bahnhof".
+restaurant("Kettenbrückengasse".
+restaurant("Staatz Bahnhof".
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Alte Donau".
+restaurant("Herzogenburg Stadt".
+restaurant("Stadion".
+restaurant("Oberradlberg Bahnhof").

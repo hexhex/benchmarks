@@ -1,4 +1,12 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Westbahnhof").
+initlocation(1,"Langobardenstraße").
+sequence(1,0, "Westbahnhof").
+person(2).
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+sequence(2,0, "Geiereckstraße").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Quartier Belvedere").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Seegasse").

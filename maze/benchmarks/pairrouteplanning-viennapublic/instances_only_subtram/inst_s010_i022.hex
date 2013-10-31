@@ -1,21 +1,44 @@
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Sankt Marx").
+initlocation(1,"Liebknechtgasse").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Bösendorferstraße").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Sahulkastraße").
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Döblinger Hauptstr/Gatterburgg").
+sequence(1,0, "Sankt Marx").
+person(2).
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Albertgasse").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Molitorgasse").
+initlocation(2,"Karmeliterplatz").
+sequence(2,0, "Platt Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Schwarzenbergplatz").
+restaurant("Rathaus").
+restaurant("Felixdorf Bahnhof").
+restaurant("Hoßplatz").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Döblinger Hauptstr/Gatterburgg").
+restaurant("Kranzgasse").
+restaurant("Schloss Hetzendorf").
+restaurant("Lobau").

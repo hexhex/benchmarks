@@ -1,6 +1,20 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Platt Bahnhof").
+sequence(1,0, "Schönborn Bahnhof").
+person(2).
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Perfektastraße").
+sequence(2,0, "Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Rochusgasse".
+restaurant("Parndorf Ort Bahnhof").

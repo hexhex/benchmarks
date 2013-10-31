@@ -1,6 +1,20 @@
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Herrengasse").
+initlocation(1,"Donauspital").
+initlocation(1,"Hernals").
+sequence(1,0, "Margaretengürtel").
+person(2).
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Stadion").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Göllersdorf Bahnhof").
+sequence(2,0, "Meidling Hauptstraße").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+restaurant("Rathaus".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Quartier Belvedere".
+restaurant("Enzersdorf bei Staatz Bahnhof").

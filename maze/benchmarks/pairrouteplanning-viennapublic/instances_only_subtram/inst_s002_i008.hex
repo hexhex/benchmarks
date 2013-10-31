@@ -1,4 +1,12 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Hoßplatz").
+sequence(1,0, "Längenfeldgasse").
+person(2).
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Knöllgasse/Troststraße").
+sequence(2,0, "Platt Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Rathaus").
+restaurant("Lerchenfelder Straße").
+restaurant("Fichtnergasse").

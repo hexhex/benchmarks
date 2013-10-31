@@ -1,3 +1,8 @@
-initlocation("Zippererstraße").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Stammersdorf").
+sequence(1,0, "Stammersdorf").
+person(2).
+initlocation(2,"Kliebergasse").
+sequence(2,0, "Kliebergasse").
+possiblemeetinglocations("Gunoldstraße").
+restaurant("Stockholmer Platz").

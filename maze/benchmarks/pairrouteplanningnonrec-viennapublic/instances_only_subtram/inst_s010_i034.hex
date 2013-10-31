@@ -1,21 +1,44 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Favoritenstraße/Troststraße").
+initlocation(1,"Empergergasse").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Salztorbrücke").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Albertgasse").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Krankenhaus Hietzing").
+sequence(1,0, "Favoritenstraße/Troststraße").
+person(2).
+initlocation(2,"Zippererstraße").
+initlocation(2,"Simmering").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Am Heidjöchl").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Rustengasse").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Dommayergasse").
+initlocation(2,"Roßauer Lände").
+sequence(2,0, "Zippererstraße").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Mistelbach Stadt").
+restaurant("Landesgerichtsstraße").
+restaurant("Pressbaum Bahnhof").
+restaurant("Lazarettgasse").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Prater, Hauptallee").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Zentralfriedhof 3Tor").
+restaurant("Korneuburg Bahnhof").
+restaurant("Schottentor").
+restaurant("Otto-Probst-Straße").

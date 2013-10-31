@@ -1,5 +1,16 @@
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Alterlaa").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+sequence(1,0, "Alterlaa").
+person(2).
+initlocation(2,"Donauinsel").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Hirschstetten").
+sequence(2,0, "Donauinsel").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+restaurant("Gerasdorf Bahnhof".
+restaurant("Praterstern".
+restaurant("Kendlerstraße").

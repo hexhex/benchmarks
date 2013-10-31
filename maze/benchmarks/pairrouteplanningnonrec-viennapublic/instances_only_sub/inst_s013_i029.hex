@@ -1,21 +1,57 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Ottakring").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Krieau").
+sequence(1,0, "Pilgramgasse").
+person(2).
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Ottakring").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Krieau").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Kettenbrückengasse").
+sequence(2,0, "Paasdorf Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Münchendorf Bahnhof".
+restaurant("Mannswörth Bahnhof".
+restaurant("Hietzing".
+restaurant("Schwechat Bahnhof".
+restaurant("Kaiserebersdorf".
+restaurant("Hollabrunn Bahnhof".
+restaurant("Oberradlberg Bahnhof".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Wampersdorf Bahnhof".
+restaurant("Meidling Hauptstraße".
+restaurant("Strasshof Bahnhof".
+restaurant("Liesing").

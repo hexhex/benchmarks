@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Oberlaa, Therme Wien").
+initlocation(1,"Handelskai").
+sequence(1,0, "Hetzmannsdorf-Wullersdorf Bf").
+person(2).
+initlocation(2,"Laurentiusplatz").
+initlocation(2,"Ottakringer Str/Erdbrustgasse").
+initlocation(2,"Brünner Straße").
+sequence(2,0, "Laurentiusplatz").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+restaurant("Elterleinplatz").
+restaurant("Höchstädtplatz").
+restaurant("Koppstraße/Panikengasse").

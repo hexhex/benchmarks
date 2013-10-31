@@ -1,21 +1,52 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Palffygasse").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Wilhelminenstraße/Wattgasse").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Krieau").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Alser Straße").
+initlocation(1,"Döblinger Hauptstr/Gatterburgg").
+initlocation(1,"Redtenbachergasse").
+sequence(1,0, "Achau Bahnhof").
+person(2).
+initlocation(2,"Hoßplatz").
+initlocation(2,"Otto-Probst-Straße").
+initlocation(2,"Blumengasse").
+initlocation(2,"Hetzgasse").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Migerkastraße").
+initlocation(2,"Resselgasse").
+initlocation(2,"Alterlaa").
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Ebenfurth Bahnhof").
+sequence(2,0, "Hoßplatz").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Siebensterngasse").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Fultonstraße").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Autokaderstraße").
+restaurant("Rosensteingasse").
+restaurant("Paulanergasse").
+restaurant("Stadtpark").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Silberwald Bahnhof").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Mühlfeldgasse").
+restaurant("Prinzgasse").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Alfred-Adler-Straße").

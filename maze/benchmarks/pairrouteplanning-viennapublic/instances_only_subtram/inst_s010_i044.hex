@@ -1,21 +1,44 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Breitensee").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Weihburggasse").
+initlocation(1,"Wexstraße").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Unter St Veit, Hummelgasse").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Traisengasse").
+sequence(1,0, "Breitensee").
+person(2).
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Maurer Lange Gasse").
+initlocation(2,"Grillgasse").
+initlocation(2,"Bösendorferstraße").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Gerstnerstraße/Westbhf").
+sequence(2,0, "Obersdorf Bahnhof").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Migerkastraße").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Alte Donau").
+restaurant("Penzing").
+restaurant("Marxergasse").
+restaurant("Herrengasse").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Gaußplatz").
+restaurant("Martinstraße").
+restaurant("Rebhanngasse").

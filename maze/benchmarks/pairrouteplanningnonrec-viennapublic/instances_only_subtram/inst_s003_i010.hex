@@ -1,5 +1,16 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Am Tabor").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Donauzentrum").
+sequence(1,0, "Am Tabor").
+person(2).
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Taubstummengasse").
+sequence(2,0, "Stockerau Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Maria Ellend Bahnhof").

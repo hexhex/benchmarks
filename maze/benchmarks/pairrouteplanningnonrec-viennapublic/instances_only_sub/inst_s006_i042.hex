@@ -1,13 +1,28 @@
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Platt Bahnhof").
+sequence(1,0, "Kottingneusiedl Bahnhof").
+person(2).
+initlocation(2,"Keplerplatz").
+initlocation(2,"Stubentor").
+initlocation(2,"Gersthof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+sequence(2,0, "Keplerplatz").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Mannswörth Bahnhof".
+restaurant("Himberg Bahnhof".
+restaurant("Mistelbach Bahnhof".
+restaurant("Donaumarina".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Schleinbach Bahnhof").

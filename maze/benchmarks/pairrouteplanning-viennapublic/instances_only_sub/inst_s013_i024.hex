@@ -1,21 +1,56 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Neubaugasse").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Donauinsel").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Hietzing").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Neubaugasse").
+person(2).
+initlocation(2,"Museumsquartier").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Johnstraße").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Volkstheater").
+sequence(2,0, "Museumsquartier").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+restaurant("Taborstraße".
+restaurant("Obersdorf Bahnhof".
+restaurant("Josefstädter Straße".
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Langenlebarn Bahnhof".
+restaurant("Volkstheater".
+restaurant("Ober Sankt Veit".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Rennbahnweg".
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Gersthof".
+restaurant("Hernals").

@@ -1,6 +1,20 @@
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Regelsbrunn Bahnhof").
+sequence(1,0, "Mistelbach Bahnhof").
+person(2).
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Zentralfriedhof").
+sequence(2,0, "St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+restaurant("Gasometer".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Landstraße-Wien Mitte").

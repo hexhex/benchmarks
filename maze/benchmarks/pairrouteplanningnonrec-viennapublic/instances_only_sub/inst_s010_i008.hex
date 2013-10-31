@@ -1,21 +1,44 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Praterkai").
+sequence(1,0, "Burggasse-Stadthalle").
+person(2).
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Seestadt").
+sequence(2,0, "Rennbahnweg").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+restaurant("Langenzersdorf Bahnhof".
+restaurant("Neubau-Kreuzstetten Bahnhof".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Klosterneuburg-Kierling Bf".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Weidlingau Bahnhof".
+restaurant("Museumsquartier".
+restaurant("Messe-Prater".
+restaurant("Praterstern".
+restaurant("Gaisruck Bahnhof").

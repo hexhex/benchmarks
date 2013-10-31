@@ -1,15 +1,32 @@
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Schuhmeierplatz").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Höchstädtplatz").
+sequence(1,0, "Obere Augartenstraße").
+person(2).
+initlocation(2,"Albertgasse").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Seestadt").
+initlocation(2,"Burgring").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Wexstraße").
+initlocation(2,"Polkorabplatz").
+sequence(2,0, "Albertgasse").
+possiblemeetinglocations("Mühlfeldgasse").
+possiblemeetinglocations("Stollgasse").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Laaer-Berg-Straße").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Türkenschanzplatz").
+restaurant("Rußbergstraße").
+restaurant("Leberberg").
+restaurant("Achau Bahnhof").
+restaurant("Höchstädtplatz").
+restaurant("Döblinger Hauptstr/Gatterburgg").
+restaurant("Stubentor").
+restaurant("Großjedlersdorf").

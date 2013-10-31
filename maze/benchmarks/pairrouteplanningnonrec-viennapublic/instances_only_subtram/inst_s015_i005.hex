@@ -1,21 +1,64 @@
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Grillgasse").
+initlocation(1,"Gersthofer Str/Scheibenbergstr").
+initlocation(1,"Wildgansplatz").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Oberfeldgasse/Spargelfeldstr").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Gußhausstraße").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+sequence(1,0, "Guntramsdorf-Thallern").
+person(2).
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Blumental").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Am Heumarkt").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Strozzigasse").
+initlocation(2,"Nordwestbahnstraße").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Knöllgasse/Davidgasse").
+sequence(2,0, "Burggasse-Stadthalle").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Mühlfeldgasse").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+restaurant("Stephansplatz").
+restaurant("Zentralfriedhof 4Tor").
+restaurant("Aspern, Oberdorfstraße").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Palffygasse").
+restaurant("Hofstatt Bahnhof").
+restaurant("Augasse").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Wolf in der Au").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Gerhardusgasse").
+restaurant("Mistelbach Stadt").
+restaurant("Troststraße/Neilreichgasse").

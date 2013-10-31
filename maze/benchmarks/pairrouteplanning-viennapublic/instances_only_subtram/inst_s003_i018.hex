@@ -1,5 +1,16 @@
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Leopoldau").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Sankt Marx").
+sequence(1,0, "Leopoldau").
+person(2).
+initlocation(2,"Raxstraße/Rudolfshügelgasse").
+initlocation(2,"Glatzgasse").
+initlocation(2,"Palffygasse").
+sequence(2,0, "Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Kendlerstraße").
+restaurant("Guntherstraße").
+restaurant("Lobau").
+restaurant("Theresienfeld Bahnhof").

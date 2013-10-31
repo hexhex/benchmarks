@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Dommayergasse").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Migerkastraße").
+sequence(1,0, "Dommayergasse").
+person(2).
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+sequence(2,0, "Hörersdorf Bahnhof").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+restaurant("Glatzgasse").
+restaurant("Kaisermühlen-VIC").
+restaurant("Atzgersdorf").

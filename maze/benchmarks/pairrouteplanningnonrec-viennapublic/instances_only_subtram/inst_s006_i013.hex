@@ -1,13 +1,28 @@
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Hetzendorf").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Perntergasse").
+initlocation(1,"Spillern Bahnhof").
+sequence(1,0, "Hetzendorf").
+person(2).
+initlocation(2,"Johann-Nepomuk-Berger-Platz").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Migerkastraße").
+initlocation(2,"Oberzellergasse").
+sequence(2,0, "Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Valiergasse").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+restaurant("Messe-Prater").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Wenzgasse").
+restaurant("Fultonstraße").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Franzensbrücke").

@@ -1,3 +1,8 @@
-initlocation("Hütteldorfer Straße").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Fischamend Bahnhof").
+sequence(1,0, "Fischamend Bahnhof").
+person(2).
+initlocation(2,"Gemeinlebarn Bahnhof").
+sequence(2,0, "Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Brünner Straße").

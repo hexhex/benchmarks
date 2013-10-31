@@ -1,5 +1,16 @@
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Oberlaa, Therme Wien").
+sequence(1,0, "Pfaffstätten Bahnhof").
+person(2).
+initlocation(2,"Stubentor").
+initlocation(2,"Canisiusgasse").
+initlocation(2,"Großfeldsiedlung").
+sequence(2,0, "Stubentor").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Hernalser Gürtel").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Gunoldstraße").

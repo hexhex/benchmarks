@@ -1,21 +1,44 @@
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Braunschweiggasse").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Gusenleithnergasse").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(1,"Baumgasse").
+sequence(1,0, "Hofwiesengasse").
+person(2).
+initlocation(2,"Sommarugagasse").
+initlocation(2,"Hohe Warte").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Stadion").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Sensengasse").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+sequence(2,0, "Sommarugagasse").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Stadiongasse/Parlament").
+restaurant("Hardtgasse").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Zentralfriedhof 3Tor").
+restaurant("Marienbrücke").
+restaurant("Hausleiten Bahnhof").
+restaurant("Aderklaaer Straße").
+restaurant("Paradisgasse").
+restaurant("Pötzleinsdorf").
+restaurant("Anton-Krieger-Gasse").

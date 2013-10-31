@@ -1,21 +1,61 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Praterstern").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+sequence(1,0, "Kardinal-Nagl-Platz").
+person(2).
+initlocation(2,"Schottentor").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Siemensstraße").
+sequence(2,0, "Schottentor").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Bahnhof Meidling".
+restaurant("Sierndorf Bahnhof".
+restaurant("Leobendorf-Burg Kreuzenstn Bf".
+restaurant("Meidling Hauptstraße".
+restaurant("Stubentor".
+restaurant("Keplerplatz".
+restaurant("Neubaugasse".
+restaurant("Währinger Straße-Volksoper".
+restaurant("Aderklaaer Straße".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Johnstraße".
+restaurant("Alte Donau".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Absdorf-Hippersdorf Bahnhof").

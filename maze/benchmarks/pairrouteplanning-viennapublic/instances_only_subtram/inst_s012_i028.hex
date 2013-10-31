@@ -1,21 +1,52 @@
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Canisiusgasse").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Skodagasse").
+initlocation(1,"Wattmanngasse").
+initlocation(1,"Anschützgasse").
+initlocation(1,"Hubertusdamm").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Unter St Veit, Hummelgasse").
+initlocation(1,"Nußdorf").
+initlocation(1,"Wildgansplatz").
+sequence(1,0, "Krankenhaus Hietzing").
+person(2).
+initlocation(2,"Floridsdorf").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Laudongasse").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Am Tabor").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Blechturmgasse").
+initlocation(2,"Thaliastraße").
+sequence(2,0, "Floridsdorf").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Plößlgasse").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Leberberg").
+restaurant("Franzensbrücke").
+restaurant("Praterstern").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Josefstädter Straße").
+restaurant("Antonigasse").
+restaurant("Hildebrandgasse").
+restaurant("Kottingbrunn Bahnhof").

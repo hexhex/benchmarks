@@ -1,6 +1,20 @@
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Vinzenzgasse").
+initlocation(1,"Ungargasse/Neulinggasse").
+initlocation(1,"Rennweg").
+initlocation(1,"Penzinger Straße").
+sequence(1,0, "Vinzenzgasse").
+person(2).
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Absberggasse").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Leopoldau").
+sequence(2,0, "Maria Anzbach Bahnhof").
+possiblemeetinglocations("Am Tabor").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Nordbahnstraße").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Längenfeldgasse").
+restaurant("Staatz Bahnhof").
+restaurant("Empergergasse").

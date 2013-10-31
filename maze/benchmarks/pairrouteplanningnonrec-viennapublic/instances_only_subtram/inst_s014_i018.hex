@@ -1,21 +1,60 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-sequence(0, "Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Mayssengasse").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Althanstraße").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Lederergasse").
+initlocation(1,"Strozzigasse").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Hubertusdamm").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Guntersdorf Bahnhof").
+sequence(1,0, "Mayssengasse").
+person(2).
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Rosenhügelstraße").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Anton-Schall-Gasse").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Frödenplatz").
+initlocation(2,"Saikogasse").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Gatterburggasse").
+initlocation(2,"Baden Bahnhof").
+sequence(2,0, "Ober Sankt Veit").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Redtenbachergasse").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+restaurant("Sensengasse").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Bauernfeldplatz").
+restaurant("Polgarstraße").
+restaurant("Bahnhof Meidling").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Retz Bahnhof").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Gatterburggasse").
+restaurant("Skodagasse").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Rauscherstraße").

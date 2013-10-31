@@ -1,21 +1,48 @@
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Resselgasse").
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Alterlaa").
+initlocation(1,"Unter St Veit, Hummelgasse").
+initlocation(1,"Volkstheater").
+sequence(1,0, "Staatz Bahnhof").
+person(2).
+initlocation(2,"Simmering").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Saikogasse").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Tesarekplatz").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Blindengasse").
+sequence(2,0, "Simmering").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Messe-Prater").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Stephansplatz").
+restaurant("Hermesstraße").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Am Tabor").
+restaurant("Halteraugasse").
+restaurant("Gerhardusgasse").
+restaurant("Helmahof Bahnhof").
+restaurant("Rathaus").
+restaurant("Trondheimgasse").

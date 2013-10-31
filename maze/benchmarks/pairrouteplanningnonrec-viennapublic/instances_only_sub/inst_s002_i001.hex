@@ -1,4 +1,12 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+sequence(1,0, "Gumpendorfer Straße").
+person(2).
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Theresienfeld Bahnhof").
+sequence(2,0, "Frättingsdorf Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Viehofen Bahnhof").
+restaurant("Hainburg/Donau Personenbhf".
+restaurant("Mannswörth Bahnhof").

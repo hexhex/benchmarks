@@ -1,15 +1,33 @@
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Donauspital").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+sequence(1,0, "Oberradlberg Bahnhof").
+person(2).
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Aspern Nord").
+sequence(2,0, "Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+restaurant("Volkstheater".
+restaurant("Spittelau".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Josefstädter Straße".
+restaurant("Zeiselmauer-Königstetten Bf".
+restaurant("Schönbrunn".
+restaurant("Baden Bahnhof").

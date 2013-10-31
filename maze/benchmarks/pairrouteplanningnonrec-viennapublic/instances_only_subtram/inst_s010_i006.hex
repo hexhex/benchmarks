@@ -1,21 +1,45 @@
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Gellertplatz").
+initlocation(1,"Breitenfurter St/Altmannsd Str").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Erdberg").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Knöllgasse/Troststraße").
+sequence(1,0, "Gellertplatz").
+person(2).
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Seestadt").
+initlocation(2,"Schottenring").
+initlocation(2,"Edmund-Hawranek-Platz").
+initlocation(2,"Favoritenstraße/Troststraße").
+initlocation(2,"Shuttleworthstraße").
+initlocation(2,"Leyserstraße").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Bernhardtstalgasse").
+sequence(2,0, "Untereggendorf Bahnhof").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Schottenfeldgasse").
+restaurant("Liesing").
+restaurant("Stadiongasse/Parlament").
+restaurant("Empergergasse").
+restaurant("Karlsplatz").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Ladendorf Bahnhof").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Krankenhaus Hietzing").
+restaurant("Landesgerichtsstraße").
+restaurant("Edmund-Hawranek-Platz").

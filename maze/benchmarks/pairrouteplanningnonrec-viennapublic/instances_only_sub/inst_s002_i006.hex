@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Neubaugasse").
+initlocation(1,"Kardinal-Nagl-Platz").
+sequence(1,0, "Neubaugasse").
+person(2).
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+sequence(2,0, "Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+restaurant("Göllersdorf Bahnhof".
+restaurant("Leobersdorf Bahnhof").

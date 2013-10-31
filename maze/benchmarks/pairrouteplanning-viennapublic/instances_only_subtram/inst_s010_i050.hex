@@ -1,21 +1,44 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Ottakring").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Hubertusdamm").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Braunschweiggasse").
+sequence(1,0, "Ottakring").
+person(2).
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Enkplatz").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Lobau").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Stubentor").
+initlocation(2,"Weidlingau Bahnhof").
+sequence(2,0, "Floridsdorfer Markt").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Fultonstraße").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Retz Bahnhof").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Salztorbrücke").
+restaurant("Aßmayergasse").
+restaurant("Zentralfriedhof").
+restaurant("Hildebrandgasse").
+restaurant("Mayerhofgasse").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Dresdner Straße").
+restaurant("Florianigasse").
+restaurant("Rothneusiedl").

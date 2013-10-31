@@ -1,21 +1,52 @@
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Klosterneub Str/Wallensteinstr").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Arthaberplatz").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Gloriettegasse").
+person(2).
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Wienerfeldgasse").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Kranzgasse").
+initlocation(2,"Favoritenstraße/Troststraße").
+initlocation(2,"Rosensteingasse").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Döblinger Bad").
+sequence(2,0, "Heiligenstadt").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Dornbacher Straße").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Teichgasse").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Windtenstraße").
+restaurant("Hauffgasse").
+restaurant("Frödenplatz").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Stollgasse").
+restaurant("Rodaun").
+restaurant("Arthaberplatz").
 restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+restaurant("Erdbergstr/Schlachthausgasse").

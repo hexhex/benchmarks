@@ -1,6 +1,20 @@
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Hildebrandgasse").
+sequence(1,0, "Burggasse-Stadthalle").
+person(2).
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Taborstraße/Heinestraße").
+initlocation(2,"Gatterburggasse").
+sequence(2,0, "Auerspergstraße").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+restaurant("Stadiongasse/Parlament").
+restaurant("Weinhauser Gasse").
+restaurant("Eichenstraße").
+restaurant("Frödenplatz").

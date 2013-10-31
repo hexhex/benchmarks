@@ -1,6 +1,21 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+sequence(1,0, "Wildungsmauer Bahnhof").
+person(2).
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Schottenring").
+initlocation(2,"Kaiserebersdorf").
+sequence(2,0, "Unter Sankt Veit").
+possiblemeetinglocations("Siebenhirten (NÖ).
+Haltestelle").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+restaurant("Muckendorf-Wipfing Bahnhof".
+restaurant("Lobau".
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Stadion").

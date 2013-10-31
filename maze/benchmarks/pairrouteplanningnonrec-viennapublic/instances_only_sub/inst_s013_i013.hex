@@ -1,21 +1,56 @@
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Simmering").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Spittelau").
+sequence(1,0, "Schlachthausgasse").
+person(2).
+initlocation(2,"Aspernstraße").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Seestadt").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+sequence(2,0, "Aspernstraße").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Herzogenburg Stadt").
+restaurant("Geiselbergstraße".
+restaurant("Reumannplatz".
+restaurant("Johnstraße".
+restaurant("Herzogenburg Bahnhof".
+restaurant("Siebenhirten".
+restaurant("Platt Bahnhof".
+restaurant("Am Schöpfwerk".
+restaurant("Parndorf Ort Bahnhof".
+restaurant("Taubstummengasse".
+restaurant("Schweglerstraße".
+restaurant("Dresdner Straße".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Hietzing").

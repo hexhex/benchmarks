@@ -1,15 +1,32 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Urban-Loritz-Platz").
+initlocation(1,"Empergergasse").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Hautzendorf Bahnhof").
+sequence(1,0, "Moosbierbaum-Heiligeneich Bf").
+person(2).
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Erndtgasse").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Wr Neustadt Civitas Nova").
+sequence(2,0, "Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Museumsquartier").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Josefstädter Straße").
+restaurant("Stefan-Fadinger-Platz").
+restaurant("Hausleiten Bahnhof").
+restaurant("Neue Donau").
+restaurant("Mistelbach Stadt").

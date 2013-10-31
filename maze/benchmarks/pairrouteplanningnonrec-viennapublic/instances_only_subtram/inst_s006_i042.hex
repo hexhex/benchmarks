@@ -1,13 +1,29 @@
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Prinzgasse").
+initlocation(1,"Linzer Straße/Reinlgasse").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Wittelsbachstraße").
+sequence(1,0, "Prinzgasse").
+person(2).
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Siebertgasse").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+sequence(2,0, "Flughafen Wien (VIE).
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Sensengasse").
+restaurant("Braunhubergasse").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Stockholmer Platz").
+restaurant("Breitenfurter St/Altmannsd Str").

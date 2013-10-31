@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Baden Bahnhof").
+sequence(1,0, "Oberradlberg Bahnhof").
+person(2).
+initlocation(2,"Martinstraße").
+initlocation(2,"Winckelmannstraße").
+sequence(2,0, "Martinstraße").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Windtenstraße").

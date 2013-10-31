@@ -1,4 +1,12 @@
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+sequence(1,0, "Retz Bahnhof").
+person(2).
+initlocation(2,"Zieglergasse").
+initlocation(2,"Spillern Bahnhof").
+sequence(2,0, "Zieglergasse").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+restaurant("Stockerau Bahnhof".
+restaurant("Jedlersdorf").

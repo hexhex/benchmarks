@@ -1,19 +1,40 @@
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Jägerstraße").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Simmering").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+sequence(1,0, "Jägerstraße").
+person(2).
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Breitensee").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+sequence(2,0, "Felixdorf Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+restaurant("Keplerplatz".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Obersdorf Bahnhof".
+restaurant("Hardeggasse".
+restaurant("Gemeinlebarn Bahnhof".
+restaurant("Strasshof Bahnhof".
+restaurant("Unter Sankt Veit".
+restaurant("Stadlau".
+restaurant("Mistelbach Stadt").

@@ -1,19 +1,41 @@
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Hetzgasse").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Hütteldorf, Bujattigasse").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Leberberg").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Döblinger Hauptstr/Gatterburgg").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+sequence(1,0, "Hetzgasse").
+person(2).
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Teichgasse").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Leberberg").
+sequence(2,0, "Tulln Stadt Bahnhof").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Mühlfeldgasse").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Winckelmannstraße").
+restaurant("Neubaugasse").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Zieglergasse/Westbahnstraße").
+restaurant("Canisiusgasse").
+restaurant("Schottenfeldgasse").
+restaurant("Schleiergasse").
+restaurant("Konstanziagasse").
+restaurant("Penzing").
+restaurant("Zehetnerg/Pflegeh Baumgarten").

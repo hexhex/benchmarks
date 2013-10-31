@@ -1,21 +1,64 @@
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Prandaugasse").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Simmering").
+initlocation(1,"Linzer Straße/Johnstraße").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Großjedlersdorf").
+initlocation(1,"Stadtpark").
+initlocation(1,"Strasshof Bahnhof").
+sequence(1,0, "Pfaffstätten Bahnhof").
+person(2).
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Hofwiesengasse").
+initlocation(2,"Seegasse").
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Thaliastraße/Maroltingergasse").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Antonigasse").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Blechturmgasse").
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Wattmanngasse").
+sequence(2,0, "Erlaaer Straße").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Prinzgasse").
+restaurant("Satzberggasse").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Lazarettgasse").
+restaurant("Salztorbrücke").
+restaurant("Fichtnergasse").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Sommarugagasse").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Klosterneub Str/Wallensteinstr").
+restaurant("Westbahnhof").
+restaurant("Arminenstraße").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Neubaugasse").
+restaurant("Guntherstraße").

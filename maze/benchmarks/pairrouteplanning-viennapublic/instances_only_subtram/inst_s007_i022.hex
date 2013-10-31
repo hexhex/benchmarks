@@ -1,15 +1,32 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Maurer Lange Gasse").
+initlocation(1,"Bahnsteggasse").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "Maurer Lange Gasse").
+person(2).
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Kagran").
+initlocation(2,"Blechturmgasse").
+initlocation(2,"Nordbahnstraße").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Valiergasse").
+sequence(2,0, "Konstanziagasse").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Rosensteingasse").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Frauengasse").
+restaurant("Eichenstraße").
+restaurant("Oberfeldgasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Obersdorf Bahnhof").
+restaurant("Versorgungsheimplatz").
+restaurant("Gunoldstraße").
+restaurant("Bahnhof Meidling").

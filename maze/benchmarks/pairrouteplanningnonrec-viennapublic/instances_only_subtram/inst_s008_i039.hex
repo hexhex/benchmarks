@@ -1,17 +1,36 @@
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Braunhubergasse").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Palffygasse").
+initlocation(1,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Oberlaa, Therme Wien").
+sequence(1,0, "Braunhubergasse").
+person(2).
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Floridsdorfer Brücke").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Ottakring").
+initlocation(2,"Kleistgasse").
+initlocation(2,"Gaußplatz").
+initlocation(2,"Laudongasse").
+sequence(2,0, "Konstanziagasse").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Donaumarina").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Resselgasse").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Enkplatz").
+restaurant("Hintere Zollamtsstraße").

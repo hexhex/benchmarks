@@ -1,6 +1,20 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Paasdorf Bahnhof").
+sequence(1,0, "Greifenstein-Altenberg Bahnhof").
+person(2).
+initlocation(2,"Aspern Nord").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Rekawinkel Bahnhof").
+sequence(2,0, "Aspern Nord").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Kledering Bahnhof").
+restaurant("Pottendorf-Landegg Bahnhof".
+restaurant("Volkstheater".
+restaurant("Hetzendorf".
+restaurant("Strasshof Bahnhof").

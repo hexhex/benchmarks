@@ -1,11 +1,24 @@
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Stubentor").
+initlocation(1,"Hernals").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Bisamberg Bahnhof").
+sequence(1,0, "Stubentor").
+person(2).
+initlocation(2,"Alterlaa").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Enkplatz").
+sequence(2,0, "Alterlaa").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Oberdöbling".
+restaurant("Guntramsdorf-Thallern".
+restaurant("Aspernstraße".
+restaurant("Korneuburg Bahnhof".
+restaurant("Bisamberg Bahnhof").

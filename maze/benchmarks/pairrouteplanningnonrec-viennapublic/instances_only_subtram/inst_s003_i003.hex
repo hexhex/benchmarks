@@ -1,5 +1,16 @@
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Arminenstraße").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Schleiergasse").
+sequence(1,0, "Arminenstraße").
+person(2).
+initlocation(2,"Otto-Probst-Straße").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Hernalser Gürtel").
+sequence(2,0, "Otto-Probst-Straße").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Huglgasse").
+restaurant("Spillern Bahnhof").
+restaurant("Gredlerstraße").
+restaurant("Wr Neustadt Nord").

@@ -1,11 +1,24 @@
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Zippererstraße").
+sequence(1,0, "Baden Bahnhof").
+person(2).
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Volkstheater").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Staatz Bahnhof").
+sequence(2,0, "Kagraner Platz").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+restaurant("Kagraner Platz".
+restaurant("Unter Kritzendorf Bahnhof".
+restaurant("Unteroberndorf Bahnhof".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Kaiserebersdorf").

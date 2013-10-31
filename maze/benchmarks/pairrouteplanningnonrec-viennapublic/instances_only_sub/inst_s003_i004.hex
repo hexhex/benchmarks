@@ -1,5 +1,16 @@
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Haidestraße").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+sequence(1,0, "Haidestraße").
+person(2).
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+sequence(2,0, "Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+restaurant("Gersthof".
+restaurant("Theresienfeld Bahnhof".
+restaurant("Wr Neustadt Hauptbahnhof").

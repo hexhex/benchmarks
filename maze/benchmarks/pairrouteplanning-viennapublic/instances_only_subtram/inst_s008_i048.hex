@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Donauinsel").
+initlocation(1,"Schuhmeierplatz").
+initlocation(1,"Huglgasse").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+sequence(1,0, "Donauinsel").
+person(2).
+initlocation(2,"Stollgasse").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Kranzgasse").
+initlocation(2,"Baumgasse").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+sequence(2,0, "Stollgasse").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+restaurant("Stiftgasse").
+restaurant("Saikogasse").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Riedelgasse").
+restaurant("Himberg Bahnhof").
+restaurant("Linzer Straße/Reinlgasse").
+restaurant("Gloriettegasse").

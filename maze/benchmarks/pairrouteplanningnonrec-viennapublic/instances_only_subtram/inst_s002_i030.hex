@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Wienerbergbrücke").
+initlocation(1,"Höbersdorf Bahnhof").
+sequence(1,0, "Wienerbergbrücke").
+person(2).
+initlocation(2,"Mühlfeldgasse").
+initlocation(2,"Praterstern").
+sequence(2,0, "Mühlfeldgasse").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Atzgersdorfer Straße").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Mödling Bahnhof").

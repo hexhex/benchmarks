@@ -1,15 +1,32 @@
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Alser Straße").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Gatterburggasse").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Tscherttegasse").
+sequence(1,0, "An den langen Lüssen").
+person(2).
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Neuwaldegg").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Lange Gasse").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Rennweg").
+initlocation(2,"Neulerchenfelder Str/Haberlg").
+sequence(2,0, "Währinger Straße-Volksoper").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+restaurant("Salztorbrücke").
+restaurant("Gumpendorfer Straße").
+restaurant("Donaustadtbrücke").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Grinzinger Straße").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Frättingsdorf Bahnhof").

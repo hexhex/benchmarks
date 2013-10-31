@@ -1,21 +1,53 @@
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Stubentor").
+initlocation(1,"Johnstraße").
+initlocation(1,"Rathaus").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+sequence(1,0, "Kardinal-Nagl-Platz").
+person(2).
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Am Heidjöchl").
+initlocation(2,"Antonigasse").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Siebensterngasse").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Hernals").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Rustengasse").
+initlocation(2,"Laudongasse").
+sequence(2,0, "Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Shuttleworthstraße").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Valiergasse").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Antonigasse").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Hütteldorf").
 restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Am Heumarkt").

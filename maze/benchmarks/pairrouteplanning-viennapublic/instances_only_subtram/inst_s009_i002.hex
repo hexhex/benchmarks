@@ -1,19 +1,40 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Gasometer").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Rochusgasse").
+sequence(1,0, "Gaisruck Bahnhof").
+person(2).
+initlocation(2,"Carminweg").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Zentralfriedhof 1Tor").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Laxenburger Str/Gudrunstraße").
+sequence(2,0, "Carminweg").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Scheibenbergstraße").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Floridsdorfer Brücke").
+restaurant("Guneschgasse").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Sommarugagasse").
+restaurant("Arminenstraße").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Kledering Bahnhof").
+restaurant("Sensengasse").
+restaurant("Windtenstraße").
+restaurant("Kottingneusiedl Bahnhof").

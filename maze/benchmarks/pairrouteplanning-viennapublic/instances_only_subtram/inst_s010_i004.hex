@@ -1,21 +1,44 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Breitenfurter St/Altmannsd Str").
+initlocation(1,"Am Tabor").
+initlocation(1,"Waidhausenstraße").
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Laudongasse").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Wienerbergbrücke").
+initlocation(1,"Silberwald Bahnhof").
+sequence(1,0, "Breitenfurter St/Altmannsd Str").
+person(2).
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+sequence(2,0, "Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Schleiergasse").
+restaurant("Gersthof").
+restaurant("Margaretengürtel").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Gloriettegasse").
+restaurant("Mayssengasse").
+restaurant("Floridsdorfer Brücke").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Gutraterplatz").
+restaurant("Quartier Belvedere").

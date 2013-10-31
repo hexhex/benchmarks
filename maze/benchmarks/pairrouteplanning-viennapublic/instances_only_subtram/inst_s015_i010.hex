@@ -1,21 +1,64 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Erdberg").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Leberberg").
+initlocation(1,"Hernals").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Herrengasse").
+initlocation(1,"Vinzenzgasse").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Hildebrandgasse").
+sequence(1,0, "Barawitzkagasse").
+person(2).
+initlocation(2,"Winkeläckerstraße").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Wallensteinplatz").
+initlocation(2,"Praterstern").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Albertgasse").
+initlocation(2,"Gasometer").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Paradisgasse").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Kraygasse").
+initlocation(2,"Frättingsdorf Bahnhof").
+sequence(2,0, "Winkeläckerstraße").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Ladendorf Bahnhof").
+restaurant("Enkplatz").
+restaurant("Traisengasse").
+restaurant("Preyergasse/Speising").
+restaurant("Rustengasse").
+restaurant("Wexstraße").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Lobau").
+restaurant("Franzensbrücke").
+restaurant("Hetzgasse").
+restaurant("Donaumarina").
+restaurant("Löwengasse").
+restaurant("Waidhausenstraße").
+restaurant("Rothneusiedl").
+restaurant("Neubaugasse").
+restaurant("Strebersdorf").

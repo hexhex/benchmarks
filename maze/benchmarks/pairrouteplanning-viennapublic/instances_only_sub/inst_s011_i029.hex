@@ -1,21 +1,48 @@
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Neubaugasse").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Schottenring").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Strasshof Bahnhof").
+sequence(1,0, "Wolkersdorf Bahnhof").
+person(2).
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Perfektastraße").
+sequence(2,0, "Michelbeuern-AKH").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Brünner Straße").
+restaurant("Dresdner Straße".
+restaurant("Kagran".
+restaurant("Paasdorf Bahnhof".
+restaurant("Maria Anzbach Bahnhof".
+restaurant("Fischamend Bahnhof".
+restaurant("Weidlingau Bahnhof".
+restaurant("Thaliastraße".
+restaurant("Enkplatz".
+restaurant("Kettenbrückengasse".
+restaurant("Unter Kritzendorf Bahnhof".
+restaurant("Karlsplatz").

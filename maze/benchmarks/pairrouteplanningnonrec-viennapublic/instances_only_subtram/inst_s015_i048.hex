@@ -1,21 +1,64 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Heinrich-Drimmel-Platz").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Hietzing").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Anschützgasse").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Donauzentrum").
+sequence(1,0, "Verbindungsbahn").
+person(2).
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Carminweg").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Leopoldau").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Kärntner Ring/Oper").
+initlocation(2,"Neue Donau").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Nordwestbahnstraße").
+sequence(2,0, "Vinzenzgasse").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Hohe Warte").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Wallensteinplatz").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Floridsdorfer Markt").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Schönbrunn").
+restaurant("Kettenbrückengasse").
+restaurant("Redtenbachergasse").
+restaurant("Ottakring").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Retz Bahnhof").
+restaurant("Höbersdorf Bahnhof").
+restaurant("An den langen Lüssen").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Hofwiesengasse").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Sarasdorf Bahnhof").

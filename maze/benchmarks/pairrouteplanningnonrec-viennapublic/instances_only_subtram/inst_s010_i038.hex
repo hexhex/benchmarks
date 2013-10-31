@@ -1,21 +1,44 @@
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Unter St Veit, Hummelgasse").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Stammersdorf").
+initlocation(1,"Baumgarten").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+sequence(1,0, "Erdbergstr/Schlachthausgasse").
+person(2).
+initlocation(2,"Herrengasse").
+initlocation(2,"Favoritenstraße/Troststraße").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Laurentiusplatz").
+initlocation(2,"Columbusplatz").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Kaiserstraße").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Winkeläckerstraße").
+sequence(2,0, "Herrengasse").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Hermesstraße").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Grillgasse").
+restaurant("Wattmanngasse").
+restaurant("Stadiongasse/Parlament").
+restaurant("Mayerhofgasse").
+restaurant("Josefstädter Straße").
+restaurant("Albertgasse").
+restaurant("Zentralfriedhof 2Tor").

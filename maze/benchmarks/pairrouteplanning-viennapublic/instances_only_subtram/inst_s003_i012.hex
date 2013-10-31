@@ -1,5 +1,16 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Palffygasse").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Siemensstraße").
+sequence(1,0, "Palffygasse").
+person(2).
+initlocation(2,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(2,"Yppengasse").
+initlocation(2,"Blindengasse").
+sequence(2,0, "Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Pötzleinsdorf").
+restaurant("Aderklaaer Straße").
+restaurant("Korneuburg Bahnhof").
+restaurant("Diesterweggasse").

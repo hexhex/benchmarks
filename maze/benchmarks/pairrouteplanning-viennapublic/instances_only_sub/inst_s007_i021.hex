@@ -1,15 +1,32 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Praterkai").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Mannswörth Bahnhof").
+sequence(1,0, "Weigelsdorf Bahnhof").
+person(2).
+initlocation(2,"Erdberg").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Schleinbach Bahnhof").
+sequence(2,0, "Erdberg").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+restaurant("Traismauer Bahnhof".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Trasdorf Bahnhof".
+restaurant("Mistelbach Bahnhof".
+restaurant("Pressbaum Bahnhof".
+restaurant("Nestroyplatz".
+restaurant("Breitenwaida Bahnhof").

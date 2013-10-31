@@ -1,11 +1,24 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Franz-Josefs-Bahnhof").
+sequence(1,0, "Niederkreuzstetten Bahnhof").
+person(2).
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+sequence(2,0, "Roßauer Lände").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Enkplatz").
+restaurant("Hennersdorf Bahnhof".
+restaurant("Vorgartenstraße".
+restaurant("Praterstern".
+restaurant("Zellerndorf Bahnhof".
+restaurant("Donaustadtbrücke").

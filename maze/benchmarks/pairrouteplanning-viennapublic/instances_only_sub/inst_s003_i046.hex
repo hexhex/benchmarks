@@ -1,5 +1,16 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-.
+person(1).
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+sequence(1,0, "Mistelbach Bahnhof").
+person(2).
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Ottakring").
+sequence(2,0, "Schwedenplatz").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Korneuburg Bahnhof").
+restaurant("Simmering".
+restaurant("Penzing".
+restaurant("Zentralfriedhof").

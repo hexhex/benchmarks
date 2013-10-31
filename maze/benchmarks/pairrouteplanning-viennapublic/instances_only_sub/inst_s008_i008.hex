@@ -1,17 +1,36 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-sequence(0, "Zippererstraße").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Gerasdorf Bahnhof").
+sequence(1,0, "Unter Sankt Veit").
+person(2).
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Hernals").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Praterkai").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Trasdorf Bahnhof").
+sequence(2,0, "Gänserndorf Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Tulln Bahnhof").
+restaurant("Obereggendorf Bahnhof".
+restaurant("Schottenring".
+restaurant("Hofstatt Bahnhof".
+restaurant("Erdberg".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Kledering Bahnhof".
+restaurant("Grillgasse".
+restaurant("Neusiedl am See Bahnhof").

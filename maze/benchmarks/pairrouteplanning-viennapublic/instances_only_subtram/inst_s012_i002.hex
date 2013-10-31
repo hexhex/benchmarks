@@ -1,21 +1,52 @@
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Franzensbrücke").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Arminenstraße").
+initlocation(1,"Radetzkyplatz").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Siebertgasse").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Rustengasse").
+sequence(1,0, "Unterpurkersdorf Bahnhof").
+person(2).
+initlocation(2,"Yppengasse").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Winkeläckerstraße").
+initlocation(2,"Seegasse").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Hietzing").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Laxenburger Straße/Troststraße").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Johnstraße").
+initlocation(2,"Perntergasse").
+initlocation(2,"Nordbrücke").
+sequence(2,0, "Yppengasse").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Oberlaa, Therme Wien").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Bahnhofstraße").
+restaurant("Dommayergasse").
+restaurant("Brünner Straße").
+restaurant("Schleiergasse").
+restaurant("Kaiserebersdorf").
+restaurant("Kettenbrückengasse").
+restaurant("Halteraugasse").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Barawitzkagasse").
+restaurant("Kagraner Brücke").
 restaurant("Roßauer Lände").
+restaurant("Guntherstraße").
+restaurant("Maurer Lange Gasse").

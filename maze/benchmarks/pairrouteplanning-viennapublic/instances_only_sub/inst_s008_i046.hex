@@ -1,17 +1,36 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(1,0, "Bisamberg Bahnhof").
+person(2).
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+sequence(2,0, "Friedensbrücke").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Haidestraße").
+restaurant("Schwechat Bahnhof".
+restaurant("Hirschstetten".
+restaurant("Tulln Stadt Bahnhof".
+restaurant("Michelbeuern-AKH".
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Haidestraße".
+restaurant("Stephansplatz").

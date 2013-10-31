@@ -1,21 +1,56 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Oberdöbling").
+initlocation(1,"Rosenhügelstraße").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Braunhubergasse").
+initlocation(1,"Sonnergasse").
+initlocation(1,"Radetzkyplatz").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Wienerbergbrücke").
+sequence(1,0, "Oberdöbling").
+person(2).
+initlocation(2,"Silbergasse").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Nordbrücke").
+initlocation(2,"Albertgasse").
+initlocation(2,"Matthäus-Jiszda-Straße").
+initlocation(2,"Hernalser Gürtel").
+initlocation(2,"Leyserstraße").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+sequence(2,0, "Silbergasse").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Teichgasse").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Unter Sankt Veit").
+restaurant("Döblinger Bad").
+restaurant("Pokornygasse").
+restaurant("Augasse").
+restaurant("Pilgramgasse").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Fasangasse").
 restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
+restaurant("Aspern, Oberdorfstraße").
+restaurant("Dommayergasse").
+restaurant("Nußdorfer Str/Alserbachstraße").
+restaurant("Josefstädter Straße").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Längenfeldgasse").

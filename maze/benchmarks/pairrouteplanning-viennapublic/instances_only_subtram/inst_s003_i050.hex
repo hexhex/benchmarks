@@ -1,5 +1,16 @@
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Hütteldorf, Bujattigasse").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Guntramsdorf-Thallern").
+sequence(1,0, "Hütteldorf, Bujattigasse").
+person(2).
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+sequence(2,0, "Laaer-Berg-Straße").
+possiblemeetinglocations("Barawitzkagasse").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Prandaugasse").
+restaurant("Schweglerstraße").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Obere Augartenstraße").

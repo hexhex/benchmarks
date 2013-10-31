@@ -1,17 +1,36 @@
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-sequence(0, "Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Haidestraße").
+initlocation(1,"Franzensbrücke").
+initlocation(1,"Rankgasse").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Wilhelminenstraße/Wattgasse").
+initlocation(1,"Salztorbrücke").
+sequence(1,0, "Haidestraße").
+person(2).
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Redtenbachergasse").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Grinzing").
+initlocation(2,"Gruschaplatz").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Breitenwaida Bahnhof").
+sequence(2,0, "Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+restaurant("Wittelsbachstraße").
+restaurant("Hausleiten Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Kölblgasse").
+restaurant("Satzberggasse").
+restaurant("Schleinbach Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Oberolberndorf Bahnhof").

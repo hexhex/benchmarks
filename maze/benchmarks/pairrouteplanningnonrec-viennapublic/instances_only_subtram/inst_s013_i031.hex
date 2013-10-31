@@ -1,21 +1,56 @@
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Autokaderstraße").
+initlocation(1,"Ottakring").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Weißenböckstraße").
+initlocation(1,"Hauffgasse").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Erndtgasse").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Westbahnhof").
+sequence(1,0, "Wilhelminenstr/Sandleitengasse").
+person(2).
+initlocation(2,"Stadlergasse").
+initlocation(2,"Himmelmutterweg").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Franzensbrücke").
+initlocation(2,"Donauspital").
+initlocation(2,"Fasangasse").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Seegasse").
+initlocation(2,"Carminweg").
+initlocation(2,"Rustengasse").
+initlocation(2,"Gumpendorfer Straße").
+sequence(2,0, "Stadlergasse").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Floridsdorfer Markt").
+restaurant("Prinzgasse").
+restaurant("Vinzenzgasse").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Spillern Bahnhof").
+restaurant("Neulengbach Bahnhof").
+restaurant("Hubertusdamm").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Obersdorf Bahnhof").
+restaurant("Stadlergasse").
+restaurant("Laurenzgasse").
+restaurant("Schwechat Bahnhof").
+restaurant("Längenfeldgasse").

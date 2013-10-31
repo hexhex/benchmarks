@@ -1,13 +1,28 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Rodaun").
+initlocation(1,"Rennweg").
+initlocation(1,"Kölblgasse").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Palffygasse").
+initlocation(1,"Kaiserstraße").
+sequence(1,0, "Rodaun").
+person(2).
+initlocation(2,"Stadlergasse").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Rodaun").
+initlocation(2,"Hirschstetten").
+sequence(2,0, "Stadlergasse").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Schleiergasse").
+restaurant("Blechturmgasse").
+restaurant("An den langen Lüssen").
+restaurant("Innstraße").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Himmelmutterweg").
+restaurant("Siemensstraße").

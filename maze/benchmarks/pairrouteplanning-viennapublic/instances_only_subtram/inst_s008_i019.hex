@@ -1,17 +1,36 @@
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-sequence(0, "Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Lainz, Wolkersbergenstraße").
+initlocation(1,"Valiergasse").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Johannes-Krawarik-Gasse").
+sequence(1,0, "Pötzleinsdorf").
+person(2).
+initlocation(2,"Am Heumarkt").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Linzer Straße/Hochsatzengasse").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Quellenstraße/Favoritenstraße").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Ameisgasse").
+sequence(2,0, "Am Heumarkt").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+restaurant("Gußhausstraße").
+restaurant("Meidling Hauptstraße").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Salztorbrücke").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Radetzkyplatz").
+restaurant("Pressbaum Bahnhof").
+restaurant("Anton-Schall-Gasse").

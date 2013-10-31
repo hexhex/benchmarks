@@ -1,6 +1,20 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Arminenstraße").
+initlocation(1,"Großjedlersdorf").
+initlocation(1,"Am Tabor").
+initlocation(1,"Rosenhügelstraße").
+sequence(1,0, "Arminenstraße").
+person(2).
+initlocation(2,"Laurentiusplatz").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Margaretengürtel").
+sequence(2,0, "Laurentiusplatz").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+possiblemeetinglocations("Empergergasse").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Schloss Schönbrunn").
+restaurant("Gaußplatz").
+restaurant("Empergergasse").
+restaurant("Martinstraße").
+restaurant("Absdorf-Hippersdorf Bahnhof").

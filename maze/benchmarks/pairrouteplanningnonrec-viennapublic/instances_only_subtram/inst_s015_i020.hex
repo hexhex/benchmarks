@@ -1,21 +1,64 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Stefan-Fadinger-Platz").
+initlocation(1,"Vinzenzgasse").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Aumannplatz").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Zentralfriedhof 3Tor").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Laudongasse").
+initlocation(1,"Winkeläckerstraße").
+sequence(1,0, "Stefan-Fadinger-Platz").
+person(2).
+initlocation(2,"Dommayergasse").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Knöllgasse/Davidgasse").
+initlocation(2,"Bauernfeldplatz").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Matthäus-Jiszda-Straße").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Wexstraße").
+initlocation(2,"Dr-Karl-Renner-Ring").
+sequence(2,0, "Dommayergasse").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Stadiongasse/Parlament").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Paradisgasse").
+restaurant("Traisengasse").
+restaurant("Brünner Straße").
+restaurant("Halteraugasse").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Schleinbach Bahnhof").
+restaurant("Augasse").
+restaurant("Nestroyplatz").
+restaurant("Tscherttegasse").
+restaurant("Stephansplatz").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Platt Bahnhof").
+restaurant("Martinstraße").
+restaurant("Radetzkyplatz").

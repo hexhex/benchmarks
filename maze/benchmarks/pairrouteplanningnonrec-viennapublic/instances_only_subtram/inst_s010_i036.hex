@@ -1,21 +1,44 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Edmund-Hawranek-Platz").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Penzing").
+initlocation(1,"Breitenwaida Bahnhof").
+sequence(1,0, "Trondheimgasse").
+person(2).
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Siebensterngasse").
+initlocation(2,"Schuhmeierplatz").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Neue Donau").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Rodaun").
+initlocation(2,"Kraygasse").
+initlocation(2,"Am Schöpfwerk").
+sequence(2,0, "Obereggendorf Bahnhof").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Penzinger Straße").
+possiblemeetinglocations("Alaudagasse").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Schottenring").
+restaurant("Schmerlingplatz").
+restaurant("Martinstraße").
+restaurant("Schottenfeldgasse").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Grinzinger Straße").
+restaurant("Bernhardtstalgasse").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Prinzgasse").
+restaurant("Wexstraße").
+restaurant("Wampersdorf Bahnhof").

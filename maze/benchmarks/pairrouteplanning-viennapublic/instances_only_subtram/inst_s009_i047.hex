@@ -1,19 +1,40 @@
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Fasangasse").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Glatzgasse").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Brünner Straße/Hanreitergasse").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Frauengasse").
+sequence(1,0, "Fasangasse").
+person(2).
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Molitorgasse").
+initlocation(2,"Laxenburger Straße/Troststraße").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Seestadt").
+initlocation(2,"Schwarzenbergplatz").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Schottenfeldgasse").
+sequence(2,0, "Parndorf Ort Bahnhof").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Obere Donaustraße").
+restaurant("Donauinsel").
+restaurant("Brünnlbadgasse").
+restaurant("Lange Gasse").
+restaurant("Gerhardusgasse").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Am Spitz").
+restaurant("Gottschalkgasse/Enkplatz").
+restaurant("Eckpergasse").
+restaurant("Schloss Hetzendorf").

@@ -1,21 +1,52 @@
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Donaumarina").
+initlocation(1,"Otto-Probst-Platz").
+initlocation(1,"Koloniestraße").
+initlocation(1,"Wattmanngasse").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Alser Straße").
+initlocation(1,"Hardeggasse").
+sequence(1,0, "Liechtenwerder Platz").
+person(2).
+initlocation(2,"Bösendorferstraße").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Rosensteingasse").
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Fickeysstraße").
+sequence(2,0, "Bösendorferstraße").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Hauptbahnhof Ost").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Auerspergstraße").
+restaurant("Schottenring").
+restaurant("Wienerfeldgasse").
+restaurant("Oberdöbling").
+restaurant("Kärntner Ring/Oper").
+restaurant("Süßenbrunn").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Kaiserstraße").
+restaurant("Penzinger Straße").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Schleiergasse").

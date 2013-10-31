@@ -1,21 +1,52 @@
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Heiligenstadt").
+sequence(1,0, "Gumpendorfer Straße").
+person(2).
+initlocation(2,"Sankt Marx").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Handelskai").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+sequence(2,0, "Sankt Marx").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Sierndorf Bahnhof").
+restaurant("Höflein an der Donau Bahnhof".
+restaurant("Pressbaum Bahnhof".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Friedensbrücke".
+restaurant("Wildungsmauer Bahnhof".
+restaurant("Tulln Stadt Bahnhof".
+restaurant("Taborstraße".
+restaurant("Schweglerstraße".
+restaurant("Sankt Marx".
+restaurant("Haidestraße".
+restaurant("Donauinsel".
+restaurant("Praterkai").

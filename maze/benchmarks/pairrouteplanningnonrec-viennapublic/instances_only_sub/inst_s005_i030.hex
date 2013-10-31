@@ -1,11 +1,24 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Schottenring").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+sequence(1,0, "Schweglerstraße").
+person(2).
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Breitensee").
+sequence(2,0, "Pilgramgasse").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Bisamberg Bahnhof").
+restaurant("Südtiroler Platz/Hauptbahnhof".
+restaurant("Rochusgasse".
+restaurant("Ladendorf Bahnhof".
+restaurant("Stockerau Bahnhof".
+restaurant("Aderklaaer Straße").

@@ -1,21 +1,45 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Seestadt").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Spittelau").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Neue Donau").
+sequence(1,0, "Kaisermühlen-VIC").
+person(2).
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+sequence(2,0, "Viehofen Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+restaurant("Schleinbach Bahnhof".
+restaurant("Silberwald Bahnhof".
+restaurant("Hainburg/Donau Ungartor/B9".
+restaurant("Ladendorf Bahnhof".
+restaurant("Meidling Hauptstraße".
+restaurant("Hardeggasse".
+restaurant("Getzersdorf/Traisen Bahnhof".
+restaurant("Enkplatz".
+restaurant("Traisengasse".
+restaurant("Gänserndorf Bahnhof").

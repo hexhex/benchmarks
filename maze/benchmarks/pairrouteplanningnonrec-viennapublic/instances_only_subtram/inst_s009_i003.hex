@@ -1,19 +1,40 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Fultonstraße").
+initlocation(1,"Simonygasse").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Huglgasse").
+initlocation(1,"Aspern, Oberdorfstraße").
+initlocation(1,"Höchstädtplatz").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Stadtpark").
+sequence(1,0, "Fultonstraße").
+person(2).
+initlocation(2,"Herbeckstraße").
+initlocation(2,"Nordbahnstraße").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Oberlaa, Therme Wien").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Diesterweggasse").
+sequence(2,0, "Herbeckstraße").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Stammersdorf").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Neulengbach Bahnhof").
+restaurant("Bahnhof Meidling").
+restaurant("Breitensee").
+restaurant("Kliebergasse").
+restaurant("Zentralfriedhof").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Zentralfriedhof 2Tor").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Hildebrandgasse").
+restaurant("Lainz, Wolkersbergenstraße").

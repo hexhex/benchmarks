@@ -1,21 +1,48 @@
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-sequence(0, "Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Donauinsel").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Liesing").
+sequence(1,0, "Korneuburg Bahnhof").
+person(2).
+initlocation(2,"Museumsquartier").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Hietzing").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+sequence(2,0, "Museumsquartier").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Johnstraße").
+restaurant("Pilgramgasse".
+restaurant("Hennersdorf Bahnhof".
+restaurant("Meidling Hauptstraße".
+restaurant("Krottenbachstraße".
+restaurant("Pressbaum Bahnhof".
+restaurant("Bisamberg Bahnhof".
+restaurant("Stadion".
+restaurant("Simmering".
+restaurant("Herrengasse".
+restaurant("Donauspital".
+restaurant("Neubau-Kreuzstetten Bahnhof").

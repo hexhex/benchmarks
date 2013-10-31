@@ -1,21 +1,48 @@
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-sequence(0, "Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Marxergasse").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Litfaßstraße").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Stefan-Fadinger-Platz").
+initlocation(1,"Waidhausenstraße").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Hietzing").
+sequence(1,0, "Marxergasse").
+person(2).
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Yppengasse").
+initlocation(2,"Kagran").
+initlocation(2,"Schwarzenbergplatz").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Rosensteingasse").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Baumgarten").
+initlocation(2,"Spittelau").
+sequence(2,0, "Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Sickenberggasse").
+restaurant("Breitensee").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Schwechat Bahnhof").
+restaurant("Am Heumarkt").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Litfaßstraße").
+restaurant("Huglgasse").
+restaurant("Hardeggasse").

@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-sequence(0, "Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Schottentor").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Roßauer Lände").
+sequence(1,0, "Kledering Bahnhof").
+person(2).
+initlocation(2,"Seestadt").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+sequence(2,0, "Seestadt").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Michelbeuern-AKH".
+restaurant("Wr Neustadt Nord".
+restaurant("Liesing".
+restaurant("Zippererstraße".
+restaurant("Mistelbach Stadt".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Schönborn Bahnhof").

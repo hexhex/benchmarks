@@ -1,21 +1,64 @@
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Polgarstraße").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Wenzgasse").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Julius-Raab-Platz").
+initlocation(1,"Saikogasse").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Unteres Belvedere").
+sequence(1,0, "Polgarstraße").
+person(2).
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Empergergasse").
+initlocation(2,"Dommayergasse").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"Svetelskystraße").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Hadersdorf Bahnhof").
+sequence(2,0, "Schönborn Bahnhof").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Strozzigasse").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Rebhanngasse").
+restaurant("Stadiongasse/Parlament").
+restaurant("Hermesstraße").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Hardeggasse").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Schönbrunn").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Am Tabor").
+restaurant("Staglgasse").
+restaurant("Rampengasse").
+restaurant("Troststraße/Neilreichgasse").

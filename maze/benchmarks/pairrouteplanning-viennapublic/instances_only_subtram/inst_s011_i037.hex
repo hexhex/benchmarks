@@ -1,21 +1,49 @@
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-sequence(0, "Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Frauengasse").
+initlocation(1,"Fasangasse").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Türkenschanzplatz").
+initlocation(1,"Haidestraße").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Seegasse").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Frauengasse").
+person(2).
+initlocation(2,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Yppengasse").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Polgarstraße").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Wienerbergbrücke").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Brigittaplatz").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Rampengasse").
+sequence(2,0, "Flughafen Wien (VIE).
+possiblemeetinglocations("Hauptbahnhof Ost").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Laurenzgasse").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+restaurant("Plößlgasse").
+restaurant("Baumgarten").
+restaurant("Rosensteingasse").
+restaurant("Grinzinger Straße").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Felixdorf Bahnhof").
+restaurant("Braunhubergasse").
+restaurant("Marienbrücke").
+restaurant("Paulanergasse").
+restaurant("Erdberg").
+restaurant("Carminweg").

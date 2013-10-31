@@ -1,15 +1,32 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Hetzgasse").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Grillgasse").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Klosterneub Str/Wallensteinstr").
+sequence(1,0, "Hetzgasse").
+person(2).
+initlocation(2,"Handelskai").
+initlocation(2,"Staglgasse").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Huglgasse").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Viehmarktgasse").
+sequence(2,0, "Handelskai").
+possiblemeetinglocations("Waidhausenstraße").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Bisamberg Bahnhof").
+restaurant("Grinzing").
+restaurant("Wolf in der Au").

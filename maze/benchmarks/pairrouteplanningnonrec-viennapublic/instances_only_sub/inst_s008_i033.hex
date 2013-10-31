@@ -1,17 +1,36 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Oberradlberg Bahnhof").
+sequence(1,0, "Roßauer Lände").
+person(2).
+initlocation(2,"Grillgasse").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Hietzing").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Westbahnhof").
+sequence(2,0, "Grillgasse").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+restaurant("Seestadt".
+restaurant("Felixdorf Bahnhof".
+restaurant("Brunn-Maria Enzersdorf Bahnhof".
+restaurant("Siebenhirten".
+restaurant("Trasdorf Bahnhof".
+restaurant("Göllersdorf Bahnhof".
+restaurant("Währinger Straße-Volksoper".
+restaurant("Münchendorf Bahnhof").

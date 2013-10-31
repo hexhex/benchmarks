@@ -1,5 +1,16 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Schlachthausgasse").
+sequence(1,0, "Kapellerfeld Bahnhof").
+person(2).
+initlocation(2,"Enkplatz").
+initlocation(2,"Donauspital").
+initlocation(2,"Hainburg/Donau Personenbhf").
+sequence(2,0, "Enkplatz").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+restaurant("Dürrwien Bahnhof".
+restaurant("Gersthof".
+restaurant("Johnstraße").

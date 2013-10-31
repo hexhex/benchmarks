@@ -1,21 +1,44 @@
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Breitenwaida Bahnhof").
+sequence(1,0, "Neubau-Kreuzstetten Bahnhof").
+person(2).
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Alterlaa").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Traismauer Bahnhof").
+sequence(2,0, "Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Nußdorf").
+restaurant("Gumpoldskirchen Bahnhof".
+restaurant("Geiselbergstraße".
+restaurant("Gramatneusiedl Bahnhof".
+restaurant("Praterstern".
+restaurant("Penzing".
+restaurant("Franz-Josefs-Bahnhof".
+restaurant("Strebersdorf".
+restaurant("Messe-Prater".
+restaurant("Klosterneuburg-Weidling Bf".
+restaurant("Enkplatz").

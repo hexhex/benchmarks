@@ -1,21 +1,60 @@
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Kölblgasse").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Wilhelminenstraße/Wattgasse").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Alterlaa").
+initlocation(1,"Bauernfeldplatz").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Stammersdorf").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Molitorgasse").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Retz Bahnhof").
+sequence(1,0, "Kölblgasse").
+person(2).
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Neue Donau").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Simmering").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Haidestraße").
+initlocation(2,"Donauzentrum").
+initlocation(2,"Nordbrücke").
+initlocation(2,"Hauffgasse").
+sequence(2,0, "Schlachthausgasse").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Barawitzkagasse").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+restaurant("Verbindungsbahn").
+restaurant("Geiselbergstraße").
+restaurant("Breitenfurter Str/Liesingbr").
+restaurant("Anton-Schall-Gasse").
+restaurant("Strozzigasse").
+restaurant("Michelbeuern-AKH").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Guneschgasse").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Nußdorf").
+restaurant("Am Heidjöchl").
+restaurant("Neulengbach Bahnhof").
+restaurant("Nußdorfer Straße").

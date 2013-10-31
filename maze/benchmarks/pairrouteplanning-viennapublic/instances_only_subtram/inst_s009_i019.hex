@@ -1,19 +1,41 @@
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Simonygasse").
+initlocation(1,"Hütteldorf, Bujattigasse").
+initlocation(1,"Ungargasse/Neulinggasse").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Schuhmeierplatz").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Oberfeldgasse").
+initlocation(1,"Gutraterplatz").
+sequence(1,0, "Simonygasse").
+person(2).
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Sensengasse").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Praterkai").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+sequence(2,0, "Viehmarktgasse").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Stammersdorf").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Polgarstraße").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Schottenfeldgasse").
+restaurant("Himberg Bahnhof").
+restaurant("Columbusplatz").
+restaurant("Michelhausen Bahnhof").

@@ -1,21 +1,56 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Neue Donau").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Volkstheater").
+sequence(1,0, "Währinger Straße-Volksoper").
+person(2).
+initlocation(2,"Stadtpark").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Blumental").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Spittelau").
+initlocation(2,"Lobau").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Leopoldau").
+restaurant("Eichgraben-Altlengbach Bahnhof".
+restaurant("Stadion".
+restaurant("Himberg Bahnhof".
+restaurant("Am Schöpfwerk".
+restaurant("Neusiedl am See Bahnhof".
+restaurant("Helmahof Bahnhof".
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Schwechat Bahnhof".
+restaurant("Kardinal-Nagl-Platz".
+restaurant("Kettenbrückengasse".
+restaurant("Praterstern".
+restaurant("Traisengasse".
+restaurant("Retz Bahnhof").

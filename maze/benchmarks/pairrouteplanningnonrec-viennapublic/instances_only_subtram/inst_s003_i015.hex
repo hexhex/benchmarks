@@ -1,5 +1,16 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-.
+person(1).
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Lobau").
+sequence(1,0, "Kardinal-Nagl-Platz").
+person(2).
+initlocation(2,"Forstnergasse").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Eichenstraße").
+sequence(2,0, "Forstnergasse").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Braunhubergasse").
+restaurant("Westbahnhof").
+restaurant("Gatterburggasse").
+restaurant("Untertullnerbach Bahnhof").

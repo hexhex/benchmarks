@@ -1,13 +1,28 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-sequence(0, "Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Zippererstraße").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Donauinsel").
+initlocation(1,"Brünner Straße").
+sequence(1,0, "Zippererstraße").
+person(2).
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+sequence(2,0, "Josefstädter Straße").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+restaurant("Stockerau Bahnhof".
+restaurant("Wolfsthal Bahnhof".
+restaurant("Schwechat Bahnhof".
+restaurant("Stadtpark".
+restaurant("Kritzendorf Bahnhof".
+restaurant("Schwedenplatz").

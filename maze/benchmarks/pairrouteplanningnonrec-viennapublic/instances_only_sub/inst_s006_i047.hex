@@ -1,13 +1,29 @@
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-sequence(0, "Jägerstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Hietzing").
+sequence(1,0, "Perchtoldsdorf Bahnhof").
+person(2).
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Stadlau").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+sequence(2,0, "Josefstädter Straße").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+restaurant("Hetzmannsdorf-Wullersdorf Bf".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Unter Sankt Veit".
+restaurant("Kendlerstraße".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof").

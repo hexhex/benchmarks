@@ -1,19 +1,40 @@
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Alsegger Straße").
+initlocation(1,"Aspern, Oberdorfstraße").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Schuhmeierplatz").
+initlocation(1,"Wilhelminenstraße/Wattgasse").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Römergasse").
+sequence(1,0, "Schönborn Bahnhof").
+person(2).
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Quellenplatz").
+initlocation(2,"Otto-Probst-Platz").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Maurer Lange Gasse").
+sequence(2,0, "Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Stollgasse").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Wr Neustadt Nord").
+restaurant("Hardeggasse").
+restaurant("Brünner Straße/Hanreitergasse").
+restaurant("Guntherstraße").
+restaurant("Grinzinger Straße").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Leyserstraße").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Michelbeuern-AKH").

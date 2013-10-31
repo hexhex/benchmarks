@@ -1,15 +1,32 @@
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Roßauer Lände").
-sequence(0, "Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Strebersdorf").
+initlocation(1,"Staglgasse").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Am Tabor").
+initlocation(1,"Prandaugasse").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Neilreichgasse").
+sequence(1,0, "Strebersdorf").
+person(2).
+initlocation(2,"Marxergasse").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Koppstraße/Panikengasse").
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Thaliastraße/Brunnengasse").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+sequence(2,0, "Marxergasse").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Donauinsel").
+restaurant("Altes Landgut").
+restaurant("Atzgersdorf").
+restaurant("Penzinger Straße").
+restaurant("Preyergasse/Speising").
+restaurant("Zentralfriedhof 3Tor").
+restaurant("Konstanziagasse").
+restaurant("Türkenschanzplatz").

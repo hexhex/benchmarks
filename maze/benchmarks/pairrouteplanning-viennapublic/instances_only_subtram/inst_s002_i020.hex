@@ -1,4 +1,12 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Stubentor").
+sequence(1,0, "Wolfsthal Bahnhof").
+person(2).
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+initlocation(2,"Franz-Josefs-Bahnhof").
+sequence(2,0, "Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Felixdorf Bahnhof").

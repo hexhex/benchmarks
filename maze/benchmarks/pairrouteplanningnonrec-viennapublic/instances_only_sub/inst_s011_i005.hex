@@ -1,21 +1,48 @@
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Stadion").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Ottakring").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+sequence(1,0, "Trasdorf Bahnhof").
+person(2).
+initlocation(2,"Keplerplatz").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Kapellerfeld Bahnhof").
+sequence(2,0, "Keplerplatz").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Weidlingau Bahnhof".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Wolkersdorf Bahnhof".
+restaurant("Alte Donau".
+restaurant("Neue Donau".
+restaurant("Nußdorfer Straße".
+restaurant("Zentralfriedhof".
+restaurant("Kottingneusiedl Bahnhof".
+restaurant("Matzleinsdorfer Platz".
 restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").

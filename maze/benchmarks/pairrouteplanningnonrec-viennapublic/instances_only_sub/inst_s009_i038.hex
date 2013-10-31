@@ -1,19 +1,40 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Alser Straße").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Gasometer").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Museumsquartier").
+sequence(1,0, "Trasdorf Bahnhof").
+person(2).
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Theresienfeld Bahnhof").
+sequence(2,0, "Friedensbrücke").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Silberwald Bahnhof").
+restaurant("Neue Donau".
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Gänserndorf Bahnhof".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Hadersdorf Bahnhof".
+restaurant("Meidling Hauptstraße".
+restaurant("Perfektastraße").

@@ -1,5 +1,16 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Leopoldau").
-.
+person(1).
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Anton-Schall-Gasse").
+sequence(1,0, "Unterpurkersdorf Bahnhof").
+person(2).
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Laxenburger Straße/Troststraße").
+sequence(2,0, "Zentralfriedhof 3Tor").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Am Heumarkt").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Mühlfeldgasse").
+restaurant("Schloss Schönbrunn").

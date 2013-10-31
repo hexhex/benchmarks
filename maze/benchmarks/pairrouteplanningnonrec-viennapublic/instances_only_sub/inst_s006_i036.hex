@@ -1,13 +1,28 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Leopoldau").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Stubentor").
+initlocation(1,"Herrengasse").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Rennweg").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+sequence(1,0, "Stubentor").
+person(2).
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Traisengasse").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Platt Bahnhof").
+sequence(2,0, "Trasdorf Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+restaurant("Enzersdorf bei Staatz Bahnhof".
+restaurant("Schlachthausgasse".
+restaurant("Dürrwien Bahnhof".
+restaurant("Wolf in der Au".
+restaurant("Breitensee".
+restaurant("Reumannplatz").

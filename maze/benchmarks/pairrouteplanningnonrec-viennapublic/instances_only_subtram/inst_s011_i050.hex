@@ -1,21 +1,49 @@
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Aspern Nord").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Herrengasse").
+initlocation(1,"Seestadt").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+sequence(1,0, "Muckendorf-Wipfing Bahnhof").
+person(2).
+initlocation(2,"Zentralfriedhof 4Tor").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Otto-Probst-Straße").
+initlocation(2,"Seegasse").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Simmering").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Frättingsdorf Bahnhof").
+sequence(2,0, "Zentralfriedhof 4Tor").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+restaurant("Kleistgasse").
+restaurant("Frauengasse").
+restaurant("Krieau").
+restaurant("Gersthof").
+restaurant("Schottentor").
+restaurant("Pilgramgasse").
+restaurant("Michelhausen Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Wittelsbachstraße").
+restaurant("Forstnergasse").
+restaurant("Unteroberndorf Bahnhof").

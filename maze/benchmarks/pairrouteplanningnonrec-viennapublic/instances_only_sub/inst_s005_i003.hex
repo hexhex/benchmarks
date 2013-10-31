@@ -1,7 +1,24 @@
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Braunschweiggasse").
-.
+person(1).
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Grillgasse").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+sequence(1,0, "Leobersdorf Bahnhof").
+person(2).
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Zieglergasse").
+sequence(2,0, "Friedensbrücke").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+restaurant("Tullnerbach-Pressbaum Bahnhof".
+restaurant("Hausfeldstraße".
+restaurant("Zippererstraße".
+restaurant("Aspernstraße".
+restaurant("Museumsquartier").

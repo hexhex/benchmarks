@@ -1,4 +1,12 @@
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Hadersdorf Bahnhof").
+person(2).
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+sequence(2,0, "Krottenbachstraße").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+restaurant("Brünner Straße".
+restaurant("Hainburg/Donau Kulturfabrik Bf").

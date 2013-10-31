@@ -1,21 +1,56 @@
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Breitensee").
+initlocation(1,"Seestadt").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Hietzing").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Korneuburg Bahnhof").
+sequence(1,0, "Breitensee").
+person(2).
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Enkplatz").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Leopoldau").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Sankt Marx").
+sequence(2,0, "Mistelbach Stadt").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+restaurant("Alser Straße".
+restaurant("Quartier Belvedere".
+restaurant("Absdorf-Hippersdorf Bahnhof".
+restaurant("Deutsch-Wagram Bahnhof".
+restaurant("Rochusgasse".
+restaurant("Retz Bahnhof".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Hernals".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Niederkreuzstetten Bahnhof".
+restaurant("Bisamberg Bahnhof".
+restaurant("Kottingbrunn Bahnhof".
+restaurant("Laa an der Thaya Bahnhof").

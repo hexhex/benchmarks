@@ -1,5 +1,16 @@
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-sequence(0, "Zippererstraße").
-.
+person(1).
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Burggasse-Stadthalle").
+sequence(1,0, "Kottingbrunn Bahnhof").
+person(2).
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+sequence(2,0, "Atzgersdorf").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Längenfeldgasse").
+restaurant("Stadion".
+restaurant("Sierndorf Bahnhof".
+restaurant("Spittelau").

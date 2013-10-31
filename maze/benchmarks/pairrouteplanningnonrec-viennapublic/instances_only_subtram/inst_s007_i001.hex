@@ -1,15 +1,32 @@
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-sequence(0, "Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Oberlaa, Therme Wien").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Pressbaum Bahnhof").
+sequence(1,0, "Quellenstraße/Knöllgasse").
+person(2).
+initlocation(2,"Eichenstraße").
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Halteraugasse").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Blindengasse").
+sequence(2,0, "Eichenstraße").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Sonnergasse").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Großfeldsiedlung").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Winckelmannstraße").
+restaurant("Schweglerstraße").
+restaurant("Schloss Hetzendorf").
+restaurant("Achau Bahnhof").

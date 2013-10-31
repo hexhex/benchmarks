@@ -1,17 +1,36 @@
-initlocation("Museumsquartier").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-sequence(0, "Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Haidestraße").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Empergergasse").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Julius-Raab-Platz").
+sequence(1,0, "Haidestraße").
+person(2).
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Althanstraße").
+initlocation(2,"Gersthof").
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Erdbergstr/Schlachthausgasse").
+initlocation(2,"Hernals").
+initlocation(2,"Nordbahnstraße").
+sequence(2,0, "St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+restaurant("Brünner Straße").
+restaurant("Koloniestraße").
+restaurant("Johann-Nepomuk-Berger-Platz").
+restaurant("Elterleinplatz").
+restaurant("Rennweg").
+restaurant("Bösendorferstraße").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Neulengbach Bahnhof").

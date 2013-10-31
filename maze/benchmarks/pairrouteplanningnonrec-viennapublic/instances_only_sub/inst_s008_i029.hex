@@ -1,17 +1,36 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-sequence(0, "Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Penzing").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Stubentor").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Erlaaer Straße").
+sequence(1,0, "Michelbeuern-AKH").
+person(2).
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Krieau").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Schönborn Bahnhof").
+sequence(2,0, "Mistelbach Stadt").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Preyergasse/Speising").
+restaurant("Gersthof".
+restaurant("Spillern Bahnhof".
+restaurant("Bisamberg Bahnhof".
+restaurant("Stadlau".
+restaurant("Langenlebarn Bahnhof".
+restaurant("Kaiserebersdorf".
+restaurant("Greifenstein-Altenberg Bahnhof".
+restaurant("Sierndorf Bahnhof").

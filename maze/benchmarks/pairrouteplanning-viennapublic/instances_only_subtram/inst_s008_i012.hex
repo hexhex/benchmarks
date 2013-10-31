@@ -1,17 +1,36 @@
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-sequence(0, "Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Satzberggasse").
+initlocation(1,"Stefan-Fadinger-Platz").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Seegasse").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Beingasse").
+initlocation(1,"Oberradlberg Bahnhof").
+sequence(1,0, "Satzberggasse").
+person(2).
+initlocation(2,"Quellenplatz").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Rampengasse").
+initlocation(2,"Urban-Loritz-Platz").
+initlocation(2,"Huglgasse").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Marx-Meidlinger-Straße").
+sequence(2,0, "Quellenplatz").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Stadiongasse/Parlament").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Koloniestraße").
+restaurant("Wenzgasse").
+restaurant("Tscherttegasse").
+restaurant("Linzer Straße/Reinlgasse").
+restaurant("Schleinbach Bahnhof").
+restaurant("Laudongasse").

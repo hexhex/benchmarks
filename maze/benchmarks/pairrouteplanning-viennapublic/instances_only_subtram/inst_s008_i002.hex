@@ -1,17 +1,36 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+person(1).
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Augasse").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Zentralfriedhof 4Tor").
+initlocation(1,"Perntergasse").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+sequence(1,0, "Obereggendorf Bahnhof").
+person(2).
+initlocation(2,"Silbergasse").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Stollgasse").
+initlocation(2,"Stadlau").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Heiligenstadt, 12-Februar-Pl").
+sequence(2,0, "Silbergasse").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Teichgasse").
+restaurant("Bahnhof Meidling").
+restaurant("Rußbergstraße").
+restaurant("Bahnsteggasse").
+restaurant("Dürrwien Bahnhof").
+restaurant("Stubentor").
+restaurant("Neuwaldegg").
+restaurant("Achau Bahnhof").
+restaurant("Kaiserstraße").

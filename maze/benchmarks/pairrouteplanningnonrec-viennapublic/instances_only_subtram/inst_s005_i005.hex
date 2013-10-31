@@ -1,7 +1,24 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Rankgasse").
+initlocation(1,"Nußdorf").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Blechturmgasse").
+sequence(1,0, "Rankgasse").
+person(2).
+initlocation(2,"Heinrich-Drimmel-Platz").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Empergergasse").
+initlocation(2,"Schmerlingplatz").
+sequence(2,0, "Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Döblinger Bad").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Zippererstraße").
+restaurant("Korneuburg Bahnhof").
+restaurant("Bernhardtstalgasse").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Julius-Raab-Platz").
+restaurant("Kardinal-Nagl-Platz").

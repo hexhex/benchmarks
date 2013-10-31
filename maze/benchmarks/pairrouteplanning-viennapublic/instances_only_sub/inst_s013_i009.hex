@@ -1,21 +1,56 @@
-initlocation("Am Schöpfwerk").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-sequence(0, "Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Volkstheater").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Kagraner Platz").
+sequence(1,0, "Gänserndorf Bahnhof").
+person(2).
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Sankt Marx").
+sequence(2,0, "Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+restaurant("Wolf in der Au".
+restaurant("Perchtoldsdorf Bahnhof".
+restaurant("Bad Vöslau Bahnhof".
+restaurant("Blumental".
+restaurant("Reumannplatz".
+restaurant("Oberradlberg Bahnhof".
+restaurant("Münchendorf Bahnhof".
+restaurant("Zentralfriedhof".
+restaurant("Hardeggasse".
+restaurant("Untereggendorf Bahnhof".
+restaurant("Leobersdorf Bahnhof".
+restaurant("Fischamend Bahnhof".
+restaurant("Unteroberndorf Bahnhof").

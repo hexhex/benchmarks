@@ -1,4 +1,12 @@
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Stockerau Bahnhof").
+sequence(1,0, "Kagraner Platz").
+person(2).
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Breitensee").
+sequence(2,0, "Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+restaurant("Breitensee".
+restaurant("Korneuburg Bahnhof").

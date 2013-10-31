@@ -1,21 +1,52 @@
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-sequence(0, "Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Kagran").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Seestadt").
+initlocation(1,"Krottenbachstraße").
+sequence(1,0, "Kagran").
+person(2).
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Alte Donau").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+sequence(2,0, "Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Simmering").
+restaurant("Pressbaum Bahnhof".
+restaurant("Aspern Nord".
+restaurant("Kapellerfeld Bahnhof".
+restaurant("Hernals".
+restaurant("Ulrichskirchen Bahnhof".
+restaurant("Süßenbrunn".
+restaurant("Lanzendorf-Rannersdorf Bahnhof".
+restaurant("Nestroyplatz".
+restaurant("Stadtpark".
+restaurant("Rennweg".
+restaurant("Theresienfeld Bahnhof".
+restaurant("Helmahof Bahnhof").

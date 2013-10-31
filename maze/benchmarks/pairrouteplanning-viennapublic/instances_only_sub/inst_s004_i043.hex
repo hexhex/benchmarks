@@ -1,6 +1,20 @@
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-sequence(0, "Museumsquartier").
-.
+person(1).
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Michelbeuern-AKH").
+sequence(1,0, "Franz-Josefs-Bahnhof").
+person(2).
+initlocation(2,"Hietzing").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Mistelbach Bahnhof").
+sequence(2,0, "Hietzing").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Großfeldsiedlung").
+restaurant("Gasometer".
+restaurant("Hütteldorf".
+restaurant("Obersdorf Bahnhof".
+restaurant("Klosterneuburg-Kierling Bf").

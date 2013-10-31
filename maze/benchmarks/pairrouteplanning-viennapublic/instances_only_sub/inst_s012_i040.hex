@@ -1,21 +1,52 @@
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Nußdorf").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Volkstheater").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+sequence(1,0, "Nußdorf").
+person(2).
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Krieau").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Schwedenplatz").
+sequence(2,0, "Heiligenstadt").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Friedensbrücke").
+restaurant("Kagraner Platz".
+restaurant("Stadion".
+restaurant("Thaliastraße".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Volkstheater".
+restaurant("Tullnerfeld Bahnhof".
+restaurant("Aspern Nord".
+restaurant("Hörersdorf Bahnhof".
+restaurant("Kendlerstraße".
+restaurant("Traisengasse".
+restaurant("Landstraße-Wien Mitte".
+restaurant("Donaumarina").

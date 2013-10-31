@@ -1,21 +1,64 @@
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Strozzigasse").
+initlocation(1,"Herbeckstraße").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Rathausplatz/Burgtheater").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Auerspergstraße").
+initlocation(1,"Baumgasse").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Arminenstraße").
+sequence(1,0, "Strozzigasse").
+person(2).
+initlocation(2,"Breitenfurter Str/Liesingbr").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Am Spitz").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Laxenburger Str/Gudrunstraße").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Hildebrandgasse").
+sequence(2,0, "Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Kaiserstraße").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Rathaus").
+restaurant("Schlachthausgasse").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Kottingneusiedl Bahnhof").
 restaurant("Reumannplatz").
+restaurant("Kölblgasse").
+restaurant("Gunoldstraße").
+restaurant("Am Tabor").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Guneschgasse").
+restaurant("Mistelbach Stadt").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Wenzgasse").
+restaurant("Michelhausen Bahnhof").
+restaurant("Enkplatz").

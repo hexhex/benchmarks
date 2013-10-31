@@ -1,5 +1,17 @@
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-sequence(0, "Roßauer Lände").
-.
+person(1).
+initlocation(1,"Flughafen Wien (VIE).
+Bahnhof").
+initlocation(1,"Schloss Schönbrunn").
+initlocation(1,"Gerasdorf Bahnhof").
+sequence(1,0, "Flughafen Wien (VIE).
+person(2).
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Liebknechtgasse").
+sequence(2,0, "Hildebrandgasse").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+restaurant("Landesgerichtsstraße").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Alte Donau").

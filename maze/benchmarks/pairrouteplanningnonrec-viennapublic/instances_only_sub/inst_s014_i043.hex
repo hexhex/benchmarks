@@ -1,21 +1,60 @@
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Spittelau").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Margaretengürtel").
+sequence(1,0, "Obereggendorf Bahnhof").
+person(2).
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Breitensee").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+sequence(2,0, "Paasdorf Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+restaurant("Erlaaer Straße".
+restaurant("Wr Neustadt Nord".
+restaurant("Seestadt".
+restaurant("Aspernstraße".
+restaurant("Pressbaum Bahnhof".
+restaurant("Höflein an der Donau Bahnhof".
+restaurant("Josefstädter Straße".
+restaurant("Guntramsdorf-Thallern".
+restaurant("Bad Deutsch-Altenburg Bahnhof".
+restaurant("Gasometer".
+restaurant("Hollabrunn Bahnhof".
+restaurant("Neue Donau".
+restaurant("Mistelbach Stadt".
+restaurant("Höbersdorf Bahnhof").

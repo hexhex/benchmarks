@@ -1,4 +1,12 @@
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-sequence(0, "Jägerstraße").
-.
+person(1).
+initlocation(1,"Blumental").
+initlocation(1,"Sierndorf Bahnhof").
+sequence(1,0, "Blumental").
+person(2).
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Matzleinsdorfer Platz").
+sequence(2,0, "Pfaffstätten Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Spittelau").
+restaurant("Westbahnhof".
+restaurant("Karlsplatz").

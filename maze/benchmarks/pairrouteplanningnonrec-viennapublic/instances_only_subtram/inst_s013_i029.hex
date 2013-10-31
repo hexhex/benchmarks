@@ -1,21 +1,56 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Alaudagasse").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Ungargasse/Neulinggasse").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Prinzgasse").
+initlocation(1,"Herzogenburg Stadt").
+sequence(1,0, "Tullnerfeld Bahnhof").
+person(2).
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Kaiserstraße").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Maurer Lange Gasse").
+initlocation(2,"Krankenhaus Hietzing").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Kritzendorf Bahnhof").
+sequence(2,0, "Wildungsmauer Bahnhof").
+possiblemeetinglocations("Scheibenbergstraße").
+possiblemeetinglocations("Alaudagasse").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Gumpendorfer Straße").
+restaurant("Penzinger Straße").
+restaurant("Herzogenburg Stadt").
+restaurant("Preyergasse/Speising").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Lazarettgasse").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Münchendorf Bahnhof").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Barawitzkagasse").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Ebenfurth Bahnhof").

@@ -1,13 +1,28 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
+person(1).
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Schottentor").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Maria Anzbach Bahnhof").
+sequence(1,0, "Braunschweiggasse").
+person(2).
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+sequence(2,0, "Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+restaurant("Regelsbrunn Bahnhof".
+restaurant("Keplerplatz".
+restaurant("Atzgersdorf".
+restaurant("Schwechat Bahnhof".
+restaurant("Hollabrunn Bahnhof".
+restaurant("Göllersdorf Bahnhof").

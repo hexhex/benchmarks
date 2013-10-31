@@ -1,21 +1,44 @@
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-sequence(0, "Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Satzberggasse").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(1,"Frauengasse").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Koppstraße/Panikengasse").
+sequence(1,0, "Satzberggasse").
+person(2).
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Klosterneub Str/Wallensteinstr").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Blindengasse").
+sequence(2,0, "Neusiedl am See Bahnhof").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Hausleiten Bahnhof").
+restaurant("Prinzgasse").
+restaurant("Hernalser Gürtel").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Lerchenfelder Straße").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Keplerplatz").
+restaurant("Rußbergstraße").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Kettenbrückengasse").
+restaurant("Hardeggasse").

@@ -1,21 +1,64 @@
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-sequence(0, "Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Elterleinplatz").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Gatterburggasse").
+initlocation(1,"Glatzgasse").
+initlocation(1,"Stadlau").
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Rosensteingasse").
+sequence(1,0, "Frättingsdorf Bahnhof").
+person(2).
+initlocation(2,"Messe-Prater").
+initlocation(2,"Kraygasse").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Schottenring").
+initlocation(2,"Sensengasse").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Rußbergstraße").
+sequence(2,0, "Messe-Prater").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Sonnergasse").
+restaurant("Silberwald Bahnhof").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Penzinger Straße").
+restaurant("Kliebergasse").
+restaurant("Hohe Warte").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Fasangasse").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Wienerfeldgasse").
+restaurant("Untereggendorf Bahnhof").

@@ -1,11 +1,24 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Liesing").
+sequence(1,0, "Gumpoldskirchen Bahnhof").
+person(2).
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Wienerbergbrücke").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Gusenleithnergasse").
+sequence(2,0, "Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Michelbeuern-AKH").
+restaurant("Hütteldorf").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Friedensbrücke").
+restaurant("Mödling Bahnhof").
+restaurant("Donaumarina").

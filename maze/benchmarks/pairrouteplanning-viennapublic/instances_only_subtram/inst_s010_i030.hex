@@ -1,21 +1,44 @@
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-sequence(0, "Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Jägerstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Beingasse").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Atzgersdorfer Straße").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Hütteldorfer Str/Hochsatzeng").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Sarasdorf Bahnhof").
+sequence(1,0, "Beingasse").
+person(2).
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Skodagasse").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Hermesstraße").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Perntergasse").
+sequence(2,0, "Waidhausenstraße").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Radetzkyplatz").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Versorgungsheimplatz").
+restaurant("Stephansplatz").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Michelhausen Bahnhof").
+restaurant("Alte Donau").
+restaurant("Liesing").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Hauffgasse").

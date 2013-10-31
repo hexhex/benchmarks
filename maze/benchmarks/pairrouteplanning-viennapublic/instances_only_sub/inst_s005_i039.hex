@@ -1,11 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Museumsquartier").
-initlocation("Leopoldau").
-initlocation("Roßauer Lände").
-sequence(0, "Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Siemensstraße").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Haslau an der Donau Bahnhof").
+sequence(1,0, "Siemensstraße").
+person(2).
+initlocation(2,"Keplerplatz").
+initlocation(2,"Gasometer").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Kaisermühlen-VIC").
+sequence(2,0, "Keplerplatz").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Praterstern".
+restaurant("Preyergasse/Speising".
+restaurant("Brünner Straße".
+restaurant("Platt Bahnhof".
+restaurant("Haidestraße").

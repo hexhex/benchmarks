@@ -1,21 +1,44 @@
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+sequence(1,0, "Lanzendorf-Rannersdorf Bahnhof").
+person(2).
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Atzgersdorf").
+sequence(2,0, "Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Aspern Nord".
+restaurant("Hautzendorf Bahnhof".
+restaurant("Ladendorf Bahnhof".
+restaurant("Herrengasse".
+restaurant("Seestadt".
+restaurant("Donaustadtbrücke".
+restaurant("Haslau an der Donau Bahnhof".
+restaurant("Am Schöpfwerk".
+restaurant("Herzogenburg Bahnhof".
+restaurant("Platt Bahnhof").

@@ -1,21 +1,48 @@
-initlocation("Jägerstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Roßauer Lände").
-sequence(0, "Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Zippererstraße").
-restaurant("Jägerstraße").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
-restaurant("Am Schöpfwerk").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Aspern Nord").
+person(1).
+initlocation(1,"Prandaugasse").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Linzer Straße/Reinlgasse").
+initlocation(1,"Liesing").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Zentralfriedhof 3Tor").
+initlocation(1,"Paradisgasse").
+initlocation(1,"Sonnergasse").
+initlocation(1,"Gänserndorf Bahnhof").
+sequence(1,0, "Prandaugasse").
+person(2).
+initlocation(2,"Yppengasse").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Liebknechtgasse").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Blindengasse").
+initlocation(2,"Canisiusgasse").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Windtenstraße").
+sequence(2,0, "Yppengasse").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Westbahnhof").
+restaurant("Kutschkergasse").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Donauspital").
+restaurant("Kaiserstraße").
+restaurant("Handelskai").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Mayerhofgasse").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Stollgasse").
+restaurant("Aspernstraße").

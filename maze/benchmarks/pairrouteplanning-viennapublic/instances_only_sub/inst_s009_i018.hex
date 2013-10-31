@@ -1,19 +1,41 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
+person(1).
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Perfektastraße").
+sequence(1,0, "Himberg Bahnhof").
+person(2).
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Rennweg").
+sequence(2,0, "Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Michelbeuern-AKH".
+restaurant("Pilgramgasse".
+restaurant("Zippererstraße".
+restaurant("Breitenwaida Bahnhof".
+restaurant("Niederhofstraße".
+restaurant("Heiligenstadt".
+restaurant("Westbahnhof".
+restaurant("Ebreichsdorf Bahnhof".
+restaurant("Kaisermühlen-VIC").

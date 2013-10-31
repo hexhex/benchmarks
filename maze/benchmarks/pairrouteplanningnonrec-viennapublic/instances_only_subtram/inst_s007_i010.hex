@@ -1,15 +1,32 @@
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-sequence(0, "Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Roßauer Lände").
+person(1).
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Perntergasse").
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Alte Donau").
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+sequence(1,0, "Sickenberggasse").
+person(2).
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Seestadt").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+initlocation(2,"Neusiedl am See Bahnhof").
+sequence(2,0, "St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Hietzing").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Staglgasse").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Nußdorf").
+restaurant("Silberwald Bahnhof").
+restaurant("Rußbergstraße").

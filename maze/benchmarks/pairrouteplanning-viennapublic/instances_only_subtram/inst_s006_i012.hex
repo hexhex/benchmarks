@@ -1,13 +1,28 @@
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Jägerstraße").
-sequence(0, "Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Linzer Straße/Hochsatzengasse").
+initlocation(1,"Carminweg").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Linzer Straße/Lützowgasse").
+sequence(1,0, "Laxenburger Str/Gudrunstraße").
+person(2).
+initlocation(2,"Praterstern").
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Donauinsel").
+initlocation(2,"Lainz, Wolkersbergenstraße").
+initlocation(2,"Sillerplatz").
+initlocation(2,"Erlaaer Straße").
+sequence(2,0, "Praterstern").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Sickenberggasse").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Teichgasse").
+restaurant("Weißenböckstraße").
+restaurant("Hietzing").
+restaurant("Mistelbach Stadt").
+restaurant("Zieglergasse").
+restaurant("Stefan-Fadinger-Platz").
+restaurant("Preyergasse/Speising").

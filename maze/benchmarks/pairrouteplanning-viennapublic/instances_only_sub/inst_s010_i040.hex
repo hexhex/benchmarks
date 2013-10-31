@@ -1,21 +1,44 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Hütteldorfer Straße").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Jägerstraße").
+initlocation(1,"Herrengasse").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+sequence(1,0, "Jägerstraße").
+person(2).
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Gramatneusiedl Bahnhof").
+sequence(2,0, "Neulengbach Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+restaurant("Alterlaa".
+restaurant("Gumpoldskirchen Bahnhof".
+restaurant("Michelhausen Bahnhof".
+restaurant("Frättingsdorf Bahnhof".
+restaurant("Hernals".
+restaurant("Praterkai".
+restaurant("Floridsdorf".
+restaurant("Wolfsthal Bahnhof".
+restaurant("Erdberg".
 restaurant("Jägerstraße").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").

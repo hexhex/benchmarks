@@ -1,13 +1,28 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Aspern Nord").
-restaurant("Roßauer Lände").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Alaudagasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Himmelmutterweg").
+sequence(1,0, "Tullnerbach-Pressbaum Bahnhof").
+person(2).
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Anton-Schall-Gasse").
+sequence(2,0, "Schleinbach Bahnhof").
+possiblemeetinglocations("Frauengasse").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Gaußplatz").
+restaurant("Fichtnergasse").
+restaurant("Stiftgasse").
+restaurant("Himmelmutterweg").
 restaurant("Am Schöpfwerk").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
+restaurant("Türkenschanzplatz").
+restaurant("Schlickgasse").

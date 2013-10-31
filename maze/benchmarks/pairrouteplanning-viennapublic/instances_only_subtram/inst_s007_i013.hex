@@ -1,15 +1,32 @@
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Hütteldorfer Straße").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-sequence(0, "Am Schöpfwerk").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Erndtgasse").
+initlocation(1,"Haidestraße").
+initlocation(1,"Schloss Belvedere").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Schuhmeierplatz").
+initlocation(1,"Hausleiten Bahnhof").
+sequence(1,0, "Erndtgasse").
+person(2).
+initlocation(2,"Alfred-Adler-Straße").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Währinger Straße-Volksoper").
+sequence(2,0, "Alfred-Adler-Straße").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Anton-Schall-Gasse").
+restaurant("Himmelmutterweg").
+restaurant("Staglgasse").
+restaurant("Gutraterplatz").
+restaurant("Gusenleithnergasse").
+restaurant("Vorgartenstraße").
+restaurant("Wenzgasse").
+restaurant("Deutsch-Wagram Bahnhof").

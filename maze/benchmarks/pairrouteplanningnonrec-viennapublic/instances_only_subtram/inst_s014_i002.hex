@@ -1,21 +1,61 @@
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Braunschweiggasse").
-initlocation("Reumannplatz").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Am Schöpfwerk").
-sequence(0, "Museumsquartier").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Aspern Nord").
-restaurant("Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Blindengasse").
+initlocation(1,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Waidhausenstraße").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Lerchenfelder Straße").
+initlocation(1,"Grillgasse").
+initlocation(1,"Hausleiten Bahnhof").
+sequence(1,0, "Blindengasse").
+person(2).
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Aßmayergasse").
+sequence(2,0, "Guntersdorf Bahnhof").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Schloss Belvedere").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Flughafen Wien (VIE).
+Bahnhof").
+possiblemeetinglocations("Kraygasse").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Fischamend Bahnhof").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Vinzenzgasse").
+restaurant("Retz Bahnhof").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Alterlaa").
+restaurant("Langobardenstraße").
+restaurant("Leberberg").
+restaurant("Hoßplatz").
+restaurant("An den langen Lüssen").

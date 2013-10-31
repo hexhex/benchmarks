@@ -1,4 +1,12 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-sequence(0, "Hütteldorfer Straße").
-.
+person(1).
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Halteraugasse").
+sequence(1,0, "Gänserndorf Bahnhof").
+person(2).
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Hütteldorf, Bujattigasse").
+sequence(2,0, "Waidhausenstraße").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Arthaberplatz").
+restaurant("Spillern Bahnhof").
+restaurant("Staatz Bahnhof").

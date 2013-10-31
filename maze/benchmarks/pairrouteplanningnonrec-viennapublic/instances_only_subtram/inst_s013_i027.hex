@@ -1,21 +1,56 @@
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Reumannplatz").
-initlocation("Braunschweiggasse").
-sequence(0, "Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Zippererstraße").
-restaurant("Roßauer Lände").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Wattmanngasse").
+initlocation(1,"Gersthofer Str/Scheibenbergstr").
+initlocation(1,"Hernals").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Arthaberplatz").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Karlsplatz").
+sequence(1,0, "Oberolberndorf Bahnhof").
+person(2).
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Franzensbrücke").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Maurer Hauptplatz").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Julius-Raab-Platz").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Hauffgasse").
+sequence(2,0, "Schweglerstraße").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+restaurant("Neilreichgasse").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Vorgartenstraße").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Huglgasse").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Autokaderstraße").
+restaurant("Kagraner Brücke").
+restaurant("Schwarzenbergplatz").
+restaurant("Gunoldstraße").
+restaurant("Himmelmutterweg").
+restaurant("Perfektastraße").

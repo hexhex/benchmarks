@@ -1,21 +1,57 @@
-initlocation("Jägerstraße").
-initlocation("Braunschweiggasse").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Museumsquartier").
-initlocation("Am Schöpfwerk").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-sequence(0, "Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
-restaurant("Hütteldorfer Straße").
-restaurant("Leopoldau").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Zippererstraße").
-restaurant("Braunschweiggasse").
+person(1).
+initlocation(1,"Spittelau").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Siebenhirten (NÖ).
+Haltestelle").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Josef-Baumann-Gasse").
+initlocation(1,"Donauzentrum").
+sequence(1,0, "Spittelau").
+person(2).
+initlocation(2,"Althanstraße").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Mayerhofgasse").
+initlocation(2,"Hoßplatz").
+initlocation(2,"Huglgasse").
+initlocation(2,"Blumental").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Stubentor").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Marienbrücke").
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Jägerstraße").
+sequence(2,0, "Althanstraße").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Erdberg").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Rennbahnweg").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Prinzgasse").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("Pokornygasse").
+restaurant("Gruschaplatz").
+restaurant("Krottenbachstraße").

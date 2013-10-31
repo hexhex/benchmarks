@@ -1,13 +1,28 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Reumannplatz").
-initlocation("Aspern Nord").
-initlocation("Roßauer Lände").
-initlocation("Jägerstraße").
-sequence(0, "Zippererstraße").
-restaurant("Braunschweiggasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Rennweg").
+initlocation(1,"Simmering").
+initlocation(1,"Schottentor").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+sequence(1,0, "Krottenbachstraße").
+person(2).
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Matzleinsdorfer Platz").
+sequence(2,0, "Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Bisamberg Bahnhof").
+restaurant("Neulengbach Stadt Bahnhof".
+restaurant("Erzherzog-Karl-Straße".
+restaurant("Donauinsel".
+restaurant("Hainburg/Donau Personenbhf".
+restaurant("Neulengbach Bahnhof".
+restaurant("Gemeinlebarn Bahnhof").

@@ -1,7 +1,24 @@
-initlocation("Am Schöpfwerk").
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Reumannplatz").
-initlocation("Leopoldau").
-sequence(0, "Am Schöpfwerk").
-.
+person(1).
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Linzer Straße/Johnstraße").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Alte Donau").
+sequence(1,0, "Seyring Bahnhof").
+person(2).
+initlocation(2,"Stadlau").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Oberzellergasse").
+initlocation(2,"Hütteldorfer Str/Hochsatzeng").
+initlocation(2,"Unter Sankt Veit").
+sequence(2,0, "Stadlau").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+restaurant("Platt Bahnhof").
+restaurant("Gloriettegasse").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Schuhmeierplatz").
+restaurant("Bisamberg Bahnhof").

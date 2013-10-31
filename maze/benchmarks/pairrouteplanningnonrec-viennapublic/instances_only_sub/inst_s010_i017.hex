@@ -1,21 +1,44 @@
-initlocation("Roßauer Lände").
-initlocation("Zippererstraße").
-initlocation("Braunschweiggasse").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Jägerstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-sequence(0, "Roßauer Lände").
-restaurant("Aspern Nord").
-restaurant("Reumannplatz").
-restaurant("Braunschweiggasse").
-restaurant("Roßauer Lände").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Enkplatz").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Neue Donau").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Donauspital").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Währinger Straße-Volksoper").
+sequence(1,0, "Enkplatz").
+person(2).
+initlocation(2,"Strebersdorf").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Alte Donau").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Strebersdorf").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+restaurant("Hausleiten Bahnhof".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Göllersdorf Bahnhof".
+restaurant("Viehofen Bahnhof".
+restaurant("Pfaffstätten Bahnhof".
+restaurant("Schwechat Bahnhof".
+restaurant("Strasshof Bahnhof".
+restaurant("Guntersdorf Bahnhof".
+restaurant("Gerasdorf Bahnhof".
+restaurant("Josefstädter Straße").

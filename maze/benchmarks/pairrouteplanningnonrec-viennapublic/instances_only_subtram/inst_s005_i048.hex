@@ -1,11 +1,25 @@
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Aspern Nord").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-restaurant("Reumannplatz").
-restaurant("Am Schöpfwerk").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Seegasse").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Längenfeldgasse/Flurschützstr").
+initlocation(1,"Canisiusgasse").
+sequence(1,0, "Seegasse").
+person(2).
+initlocation(2,"Brünnlbadgasse").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Wattmanngasse").
+sequence(2,0, "Brünnlbadgasse").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+restaurant("Svetelskystraße").
+restaurant("Krieau").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Flughafen Wien (VIE).
+Bahnhof").
+restaurant("Alte Donau").

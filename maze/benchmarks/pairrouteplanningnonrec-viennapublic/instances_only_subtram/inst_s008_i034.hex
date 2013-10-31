@@ -1,17 +1,36 @@
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Museumsquartier").
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Roßauer Lände").
-sequence(0, "Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Leopoldau").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Am Schöpfwerk").
-restaurant("Museumsquartier").
+person(1).
+initlocation(1,"Martinstraße").
+initlocation(1,"Längenfeldgasse/Flurschützstr").
+initlocation(1,"Rankgasse").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Gerstnerstraße/Westbhf").
+initlocation(1,"Marxergasse").
+initlocation(1,"Am Heidjöchl/Hausfeldstraße").
+sequence(1,0, "Martinstraße").
+person(2).
+initlocation(2,"Beingasse").
+initlocation(2,"Sensengasse").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Thaliastraße/Brunnengasse").
+initlocation(2,"Hütteldorfer Str/Lützowgasse").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Kagran").
+sequence(2,0, "Beingasse").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Fultonstraße").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+restaurant("Wattmanngasse").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Stockerau Bahnhof").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Stiftgasse").
+restaurant("Hopfengasse").
+restaurant("Zeiselmauer-Königstetten Bf").

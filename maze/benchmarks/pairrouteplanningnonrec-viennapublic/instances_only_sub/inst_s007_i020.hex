@@ -1,15 +1,32 @@
-initlocation("Reumannplatz").
-initlocation("Roßauer Lände").
-initlocation("Am Schöpfwerk").
-initlocation("Leopoldau").
-initlocation("Aspern Nord").
-initlocation("Braunschweiggasse").
-initlocation("Museumsquartier").
-sequence(0, "Reumannplatz").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Braunschweiggasse").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Jägerstraße").
+person(1).
+initlocation(1,"Haidestraße").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+sequence(1,0, "Haidestraße").
+person(2).
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+sequence(2,0, "Höbersdorf Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+restaurant("Niederhofstraße".
+restaurant("Aspernstraße".
+restaurant("Trautmannsdorf/Leitha Bf".
+restaurant("Kritzendorf Bahnhof".
+restaurant("Donaustadtbrücke".
+restaurant("Purkersdorf Zentrum Bahnhof".
+restaurant("Vorgartenstraße").

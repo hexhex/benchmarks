@@ -1,21 +1,48 @@
-initlocation("Aspern Nord").
-initlocation("Zippererstraße").
-initlocation("Hütteldorfer Straße").
-initlocation("Leopoldau").
-initlocation("Braunschweiggasse").
-initlocation("Am Schöpfwerk").
-initlocation("Reumannplatz").
-initlocation("Jägerstraße").
-initlocation("Roßauer Lände").
-initlocation("Museumsquartier").
-sequence(0, "Aspern Nord").
-restaurant("Hütteldorfer Straße").
-restaurant("Roßauer Lände").
-restaurant("Reumannplatz").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Braunschweiggasse").
-restaurant("Zippererstraße").
-restaurant("Aspern Nord").
-restaurant("Am Schöpfwerk").
+person(1).
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Donauspital").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Nordwestbahnstraße").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Sieveringer Straße").
+initlocation(1,"Salztorbrücke").
+initlocation(1,"Halteraugasse").
+initlocation(1,"Praterstern").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Donauinsel").
+sequence(1,0, "Preyergasse/Speising").
+person(2).
+initlocation(2,"Forstnergasse").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Wallensteinplatz").
+initlocation(2,"Silbergasse").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Maurer Lange Gasse").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Kaiserstraße").
+initlocation(2,"Hautzendorf Bahnhof").
+sequence(2,0, "Forstnergasse").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Langobardenstraße").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Neuwaldegg").
+restaurant("Nestroyplatz").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Blumengasse").
+restaurant("Anschützgasse").
+restaurant("Stefan-Fadinger-Platz").
+restaurant("Hauptbahnhof Ost").
+restaurant("Obere Donaustraße").
+restaurant("Wallrißstraße").
+restaurant("Kaiserstraße").
+restaurant("Aderklaaer Straße").
+restaurant("Weinheimergasse").

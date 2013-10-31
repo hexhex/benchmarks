@@ -1,21 +1,44 @@
-initlocation("Zippererstraße").
-initlocation("Roßauer Lände").
-initlocation("Leopoldau").
-initlocation("Am Schöpfwerk").
-initlocation("Hütteldorfer Straße").
-initlocation("Jägerstraße").
-initlocation("Aspern Nord").
-initlocation("Reumannplatz").
-initlocation("Museumsquartier").
-initlocation("Braunschweiggasse").
-sequence(0, "Zippererstraße").
-restaurant("Museumsquartier").
-restaurant("Braunschweiggasse").
-restaurant("Jägerstraße").
-restaurant("Hütteldorfer Straße").
-restaurant("Reumannplatz").
-restaurant("Aspern Nord").
-restaurant("Leopoldau").
-restaurant("Am Schöpfwerk").
-restaurant("Roßauer Lände").
-restaurant("Zippererstraße").
+person(1).
+initlocation(1,"Dommayergasse").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Schloss Belvedere").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Johann-Strauß-Gasse").
+sequence(1,0, "Dommayergasse").
+person(2).
+initlocation(2,"Bauernfeldplatz").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Wallensteinplatz").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Franzensbrücke").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Baumgasse").
+sequence(2,0, "Bauernfeldplatz").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Paasdorf Bahnhof").
+restaurant("Schleinbach Bahnhof").
+restaurant("Schottentor").
+restaurant("Mistelbach Bahnhof").
+restaurant("Plößlgasse").
+restaurant("Gellertplatz").
+restaurant("Stadiongasse/Parlament").
+restaurant("Sollenau Bahnhof").
+restaurant("Schmerlingplatz").
+restaurant("Nestroyplatz").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
