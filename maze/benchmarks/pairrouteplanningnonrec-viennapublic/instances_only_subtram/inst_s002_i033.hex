@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Scheibenbergstraße").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Scheibenbergstraße").
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Siebenhirten (NÖ). Haltestelle").
+sequence(1,0, "Maurer Hauptplatz").
 person(2).
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Rosenhügelstraße").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-restaurant("Jägerstraße").
-restaurant("Klosterneuburg-Weidling Bf").
+initlocation(2,"Kranzgasse").
+initlocation(2,"Sonnergasse").
+sequence(2,0, "Kranzgasse").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("Neulerchenfelder Str/Haberlg").

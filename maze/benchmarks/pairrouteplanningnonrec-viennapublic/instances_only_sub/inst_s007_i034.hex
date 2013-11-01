@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Lobau").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Krieau").
-initlocation($p,"Schottenring").
-initlocation($p,"Lobau").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Hietzing").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(1,0, "Sitzenberg-Reidling Bahnhof").
 person(2).
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Taborstraße").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Handelskai").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Zieglergasse").
+sequence(2,0, "Schönborn Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
 possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
 possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Zentralfriedhof").
-restaurant("Hetzendorf").
-restaurant("Donauinsel").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Gemeinlebarn Bahnhof").
+restaurant("Seyring Bahnhof").
+restaurant("Sollenau Bahnhof").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Stadlau").
+restaurant("Gumpendorfer Straße").

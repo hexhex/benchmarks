@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
+initlocation(1,"Am Tabor").
+sequence(1,0, "Am Tabor").
 person(2).
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-possiblemeetinglocations("Leyserstraße").
-restaurant("Langenzersdorf Bahnhof").
+initlocation(2,"Großjedlersdorf").
+sequence(2,0, "Großjedlersdorf").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+restaurant("Praterkai").

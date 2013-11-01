@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Krenngasse").
-initlocation(1,"Memlinggasse").
-sequence(1,0, "Krenngasse").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Oriongasse").
+sequence(1,0, "Donaustadtstraße").
 person(2).
-initlocation(2,"Bellevuestraße").
-initlocation(2,"Am Krautgarten").
-sequence(2,0, "Bellevuestraße").
-possiblemeetinglocations("Justgasse").
-possiblemeetinglocations("Am Schöpfwerk").
-restaurant("Teiläckergasse").
-restaurant("Schmerlingplatz").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Rossakgasse").
+sequence(2,0, "Fischamend Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Max-Fleischer-Gasse").
+restaurant("Nikolaus-Pytty-Gasse").
+restaurant("Erdbergstr/Schlachthausgasse").

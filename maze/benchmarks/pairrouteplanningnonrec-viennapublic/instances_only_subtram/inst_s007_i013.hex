@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Krankenhaus Hietzing").
-initlocation($p,"Margaretengürtel/Arbeitergasse").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Landesgerichtsstraße").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Verbindungsbahn").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Augasse").
+initlocation(1,"Hietzing").
+initlocation(1,"Rankgasse").
+sequence(1,0, "Neulerchenfelder Str/Brunneng").
 person(2).
-initlocation($p,"Zieglergasse/Westbahnstraße").
-initlocation($p,"Schöffelgasse").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Alser Straße").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Hopfengasse").
-initlocation($p,"Gruschaplatz").
-initlocation($p,"Zieglergasse/Westbahnstraße").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Polgarstraße").
-possiblemeetinglocations("Lazarettgasse").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Türkenschanzplatz").
-possiblemeetinglocations("Himberg Bahnhof").
-restaurant("Schleinbach Bahnhof").
-restaurant("Bahnhof Meidling/Eichenstraße").
-restaurant("Linzer Straße/Hochsatzengasse").
+initlocation(2,"Saikogasse").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Plößlgasse").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Kärntner Ring/Oper").
+sequence(2,0, "Saikogasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Am Tabor").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+restaurant("Polgarstraße").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Wienerbergbrücke").
+restaurant("Wexstraße").
 restaurant("Stadtpark").
-restaurant("Wattmanngasse").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Lange Gasse").
+restaurant("Johnstraße").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Johannes-Krawarik-Gasse").
-initlocation($p,"Nordbahnstraße").
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Oberfeldgasse/Spargelfeldstr").
-initlocation($p,"Vinzenzgasse").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Johannes-Krawarik-Gasse").
+initlocation(1,"Bahnsteggasse").
+initlocation(1,"Krieau").
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Gaußplatz").
+initlocation(1,"Diesterweggasse").
+sequence(1,0, "Bahnsteggasse").
 person(2).
-initlocation($p,"Nordbrücke").
-initlocation($p,"Pokornygasse").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Albertgasse").
-initlocation($p,"Krankenhaus Hietzing").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Schlickgasse").
-initlocation($p,"Nordbrücke").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Altes Landgut").
-possiblemeetinglocations("Aspern, Oberdorfstraße").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Dresdner Straße").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Regelsbrunn Bahnhof").
-restaurant("Winckelmannstraße").
-restaurant("Blindengasse").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"Donauspital").
+initlocation(2,"Hernals").
+initlocation(2,"Gellertplatz").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Penzinger Straße").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Praterstern").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Silbergasse").
+restaurant("Hermesstraße").
+restaurant("Kritzendorf Bahnhof").

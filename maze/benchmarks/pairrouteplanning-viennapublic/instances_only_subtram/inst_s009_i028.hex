@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Praterstern").
-initlocation($p,"Alte Donau").
-initlocation($p,"Obere Augartenstraße").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Liebknechtgasse").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Praterstern").
+initlocation(1,"Kraygasse").
+initlocation(1,"Althanstraße").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Resselgasse").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Am Heidjöchl/Hausfeldstraße").
+sequence(1,0, "Kraygasse").
 person(2).
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Schottenfeldgasse").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Lazarettgasse").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"An den langen Lüssen").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-possiblemeetinglocations("Carabelligasse").
-possiblemeetinglocations("Floridsdorfer Markt").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Augasse").
-possiblemeetinglocations("Donaustadtstraße").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Bernhardtstalgasse").
-possiblemeetinglocations("Schloss Hetzendorf").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-restaurant("Gasometer").
-restaurant("Tscherttegasse").
-restaurant("Gutraterplatz").
-restaurant("Leobersdorf Bahnhof").
-restaurant("Franz-Asenbauer-Gasse").
-restaurant("St Pölten Traisenpark P+R Nord").
-restaurant("Siebenhirten").
-restaurant("Guntramsdorf-Thallern").
-restaurant("Paasdorf Bahnhof").
+initlocation(2,"Gerstnerstraße/Westbhf").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Frödenplatz").
+initlocation(2,"Huglgasse").
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Ottakring").
+sequence(2,0, "Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+restaurant("Bahnsteggasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Blumengasse").
+restaurant("Elterleinplatz").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Wattmanngasse").
+restaurant("Zentralfriedhof").
+restaurant("Staatz Bahnhof").
+restaurant("Hainburg/Donau Kulturfabrik Bf").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Fichtnergasse").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Glatzgasse").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Sensengasse").
-initlocation($p,"Jagdschloßgasse").
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+initlocation(1,"Stadion").
+initlocation(1,"Ottakringer Straße/Wattgasse").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Unter Sankt Veit").
+sequence(1,0, "Erdbergstr/Schlachthausgasse").
 person(2).
-initlocation($p,"Hernals").
-initlocation($p,"Satzberggasse").
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Grillgasse").
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-initlocation($p,"Hernals").
-possiblemeetinglocations("Favoritenstraße/Troststraße").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Polgarstraße").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Wildgansplatz").
-possiblemeetinglocations("Blumengasse").
-possiblemeetinglocations("Rennbahnweg").
-possiblemeetinglocations("Herzogenburg Stadt").
-restaurant("Sieveringer Straße").
-restaurant("Kleistgasse").
-restaurant("Jedlersdorf").
-restaurant("Hermesstraße").
-restaurant("Keplerplatz").
-restaurant("Innstraße").
-restaurant("Haslau an der Donau Bahnhof").
-restaurant("Wilhelminenstraße/Wattgasse").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Knöllgasse/Davidgasse").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Erdberg").
+initlocation(2,"Paulanergasse").
+sequence(2,0, "Guneschgasse").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Rustengasse").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Krottenbachstraße").
+restaurant("Winkeläckerstraße").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Paradisgasse").
+restaurant("Donaustadtstraße").
+restaurant("Götzendorf Bahnhof").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Ebreichsdorf Bahnhof").

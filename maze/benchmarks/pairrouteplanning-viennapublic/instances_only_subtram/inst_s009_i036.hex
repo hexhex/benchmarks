@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Landesgerichtsstraße").
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Friedrich-Engels-Platz").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Sensengasse").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Grillgasse").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Ebreichsdorf Bahnhof").
+sequence(1,0, "Neubaugasse").
 person(2).
-initlocation($p,"Simmering").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Himmelmutterweg").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Oberfeldgasse/Spargelfeldstr").
-initlocation($p,"Augasse").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Simmering").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Matthäus-Jiszda-Straße").
-possiblemeetinglocations("Gottschalkgasse/Enkplatz").
-possiblemeetinglocations("Maurer Hauptplatz").
-possiblemeetinglocations("Gloriettegasse").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
-possiblemeetinglocations("Lerchenfelder Straße").
-possiblemeetinglocations("Himberg Bahnhof").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Weidlingau Bahnhof").
-restaurant("Tesarekplatz").
-restaurant("Sieveringer Straße").
-restaurant("Verbindungsbahn").
-restaurant("Anschützgasse").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Prater, Hauptallee").
-restaurant("Baden Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Strozzigasse").
+sequence(2,0, "Viehofen Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Scheibenbergstraße").
+restaurant("Kraygasse").
+restaurant("Hirschstetten").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Unteres Belvedere").
+restaurant("Museumsquartier").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Guneschgasse").
+restaurant("Alterlaa").

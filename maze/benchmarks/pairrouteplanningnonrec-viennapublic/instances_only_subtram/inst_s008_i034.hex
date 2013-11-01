@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Schlickgasse").
-initlocation($p,"Traisengasse").
-initlocation($p,"Schmerlingplatz").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Hetzgasse").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Gewerbepark Stadlau Mitte").
-initlocation($p,"Felixdorf Bahnhof").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Stadion").
+initlocation(1,"Frödenplatz").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Kettenbrückengasse").
+sequence(1,0, "Winckelmannstraße").
 person(2).
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Heinrich-Drimmel-Platz").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Linzer Straße/Johnstraße").
-initlocation($p,"Hohe Warte").
-initlocation($p,"Floridsdorfer Brücke").
-initlocation($p,"Koppstraße/Panikengasse").
-possiblemeetinglocations("Simmering").
-possiblemeetinglocations("Marienbrücke").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Laxenburger Straße/Troststraße").
-possiblemeetinglocations("Molitorgasse").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Karlsplatz").
-restaurant("Schottenring").
-restaurant("Hofwiesengasse").
-restaurant("Viehofen Bahnhof").
-restaurant("Strebersdorf").
-restaurant("Wittelsbachstraße").
-restaurant("Aumannplatz").
-restaurant("Weihburggasse").
-restaurant("Dresdner Straße").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Rodaun").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+initlocation(2,"Althanstraße").
+sequence(2,0, "Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Obere Donaustraße").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Antonigasse").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Sillerplatz").
+restaurant("Skodagasse").
+restaurant("Kleistgasse").
+restaurant("Lazarettgasse").
+restaurant("Raxstraße/Rudolfshügelgasse").

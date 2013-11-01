@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Donaumarina").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Kottingbrunn Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Donauinsel").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Grillgasse").
+sequence(1,0, "Laa an der Thaya Bahnhof").
 person(2).
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Seestadt").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Penzing").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Bad Vöslau Bahnhof").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-restaurant("Penzing").
-restaurant("Stephansplatz").
-restaurant("Hausleiten Bahnhof").
-restaurant("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Sierndorf Bahnhof").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Floridsdorf").
-restaurant("Franz-Josefs-Bahnhof").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Handelskai").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Alterlaa").
+sequence(2,0, "Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Silberwald Bahnhof").
+restaurant("Wr Neustadt Nord").
+restaurant("Bahnhof Meidling").
+restaurant("Karlsplatz").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Herrengasse").
+restaurant("Ulrichskirchen Bahnhof").

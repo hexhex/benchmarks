@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Alterlaa").
-initlocation($p,"Praterkai").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Krieau").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Alterlaa").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Niederhofstraße").
+sequence(1,0, "Mistelbach Stadt").
 person(2).
-initlocation($p,"Stubentor").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Herrengasse").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Stubentor").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Hetzendorf").
-restaurant("Stadion").
-restaurant("Stockerau Bahnhof").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Leopoldau").
-restaurant("Neusiedl am See Bahnhof").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Enkplatz").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Haidestraße").
+sequence(2,0, "Parndorf Ort Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Perfektastraße").
 restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Zieglergasse").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Johnstraße").
+restaurant("Burggasse-Stadthalle").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Hernals").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Seestadt").
-initlocation($p,"Taborstraße").
-initlocation($p,"Wr Neustadt Nord").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Volkstheater").
+initlocation(1,"Spittelau").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+sequence(1,0, "Parndorf Ort Bahnhof").
 person(2).
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Tulln Stadt Bahnhof").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Jägerstraße").
-restaurant("Franz-Josefs-Bahnhof").
-restaurant("Seyring Bahnhof").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Hernals").
-restaurant("Blumental").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+sequence(2,0, "Hofstatt Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Schottentor").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Donaumarina").
+restaurant("Mistelbach Stadt").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Fischamend Bahnhof").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Bahnhof Meidling").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Wildungsmauer Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Taubstummengasse").
+sequence(1,0, "Hetzmannsdorf-Wullersdorf Bf").
 person(2).
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Praterstern").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Ladendorf Bahnhof").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-restaurant("Sankt Marx").
-restaurant("Tulln Stadt Bahnhof").
-restaurant("Siebenhirten").
-restaurant("Aderklaaer Straße").
-restaurant("Pilgramgasse").
-restaurant("Oberdöbling").
-restaurant("Handelskai").
-restaurant("Nußdorfer Straße").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+sequence(2,0, "Hollabrunn Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Ottakring").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Stubentor").
+restaurant("Hütteldorf").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Jedlersdorf").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Purkersdorf Sanatorium").

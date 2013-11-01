@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Schwedenplatz").
+sequence(1,0, "Perchtoldsdorf Bahnhof").
 person(2).
-initlocation($p,"Ottakring").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Kagran").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Ottakring").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-restaurant("Seyring Bahnhof").
-restaurant("Baden Bahnhof").
-restaurant("Pottendorf-Landegg Bahnhof").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Taborstraße").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Strebersdorf").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
 restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Aderklaaer Straße").
+restaurant("Geiselbergstraße").
+restaurant("Siebenhirten").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Dommayergasse").
-initlocation($p,"Quellenplatz").
-initlocation($p,"Seegasse").
-initlocation($p,"Aßmayergasse").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Oberfeldgasse").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Satzberggasse").
-initlocation($p,"Dommayergasse").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Molitorgasse").
+initlocation(1,"Alser Straße").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Kagraner Brücke").
+sequence(1,0, "Neubau-Kreuzstetten Bahnhof").
 person(2).
-initlocation($p,"Gutraterplatz").
-initlocation($p,"Bauernfeldplatz").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Perntergasse").
-initlocation($p,"Stadiongasse/Parlament").
-initlocation($p,"Donauinsel").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Gutraterplatz").
-possiblemeetinglocations("Rustengasse").
-possiblemeetinglocations("Halteraugasse").
-possiblemeetinglocations("Sickenberggasse").
-possiblemeetinglocations("Wallensteinplatz").
-possiblemeetinglocations("Quellenstraße/Favoritenstraße").
-possiblemeetinglocations("Diesterweggasse").
-possiblemeetinglocations("Sommarugagasse").
-possiblemeetinglocations("Donauspital").
-restaurant("Großfeldsiedlung").
-restaurant("Stadlergasse").
-restaurant("Mistelbach Stadt").
-restaurant("Mayssengasse").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Höflein an der Donau Bahnhof").
-restaurant("Weidlingau Bahnhof").
-restaurant("Gußhausstraße").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Schleiergasse").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Autokaderstraße").
+initlocation(2,"Halteraugasse").
+initlocation(2,"Baumgasse").
+initlocation(2,"Herrengasse").
+initlocation(2,"Anschützgasse").
+sequence(2,0, "Neusiedl am See Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Guntherstraße").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Hardtgasse").
+restaurant("Grinzinger Straße").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Eichenstraße").
+restaurant("Hietzing").

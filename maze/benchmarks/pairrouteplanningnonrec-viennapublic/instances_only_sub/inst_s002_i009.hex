@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Hollabrunn Bahnhof").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+sequence(1,0, "Bisamberg Bahnhof").
 person(2).
-initlocation($p,"Jägerstraße").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Jägerstraße").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Alterlaa").
-restaurant("Währinger Straße-Volksoper").
-restaurant("Perfektastraße").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Unterradlberg Bahnhof").
+sequence(2,0, "Tscherttegasse").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+restaurant("Schlachthausgasse").
+restaurant("Sankt Marx").

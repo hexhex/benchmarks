@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Taborstraße").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Traisengasse").
-initlocation($p,"Hollabrunn Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+sequence(1,0, "Ober Sankt Veit").
 person(2).
-initlocation($p,"Brünner Straße").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Brünner Straße").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Donauinsel").
-restaurant("Viehofen Bahnhof").
-restaurant("Felixdorf Bahnhof").
-restaurant("Paasdorf Bahnhof").
-restaurant("Theresienfeld Bahnhof").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Donauinsel").
+sequence(2,0, "Hirschstetten").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+restaurant("Liesing").
+restaurant("Westbahnhof").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Stockerau Bahnhof").

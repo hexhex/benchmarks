@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Fernsprechamt Heiligenstadt").
-initlocation(1,"Museumsquartier").
-sequence(1,0, "Fernsprechamt Heiligenstadt").
+initlocation(1,"Möllersdorf Haltestelle").
+initlocation(1,"Husarenweg").
+sequence(1,0, "Möllersdorf Haltestelle").
 person(2).
-initlocation(2,"Geiereckstraße").
-initlocation(2,"Augasse").
-sequence(2,0, "Geiereckstraße").
-possiblemeetinglocations("Salmannsdorf").
-possiblemeetinglocations("Sagedergasse").
-restaurant("Möllersdorf Haltestelle").
-restaurant("Lange Gasse").
+initlocation(2,"Leopoldauer Platz").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+sequence(2,0, "Leopoldauer Platz").
+possiblemeetinglocations("Skraupstraße").
+possiblemeetinglocations("Resselgasse").
+restaurant("Cossmanngasse").
+restaurant("Rustengasse").

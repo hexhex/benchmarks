@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Gerstnerstraße/Westbhf").
-initlocation($p,"Strozzigasse").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Penzing").
-initlocation($p,"Gerstnerstraße/Westbhf").
+initlocation(1,"Albertgasse").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Valiergasse").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Gutraterplatz").
+initlocation(1,"Hauffgasse").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+sequence(1,0, "Albertgasse").
 person(2).
-initlocation($p,"Hetzgasse").
-initlocation($p,"Pötzleinsdorf").
-initlocation($p,"Prater, Hauptallee").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Unteres Belvedere").
-initlocation($p,"Oberfeldgasse/Spargelfeldstr").
-initlocation($p,"Stollgasse").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Hetzgasse").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Baumgarten").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Neuwaldegg").
-possiblemeetinglocations("Viehmarktgasse").
-possiblemeetinglocations("Hausfeldstraße").
-restaurant("Museumsquartier").
-restaurant("Aderklaaer Straße").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Unter Sankt Veit").
-restaurant("Trautmannsdorf/Leitha Bf").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Aspern, Oberdorfstraße").
-restaurant("Otto-Probst-Platz").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Heiligenstadt, 12-Februar-Pl").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Albertgasse").
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Süßenbrunn").
+sequence(2,0, "Ober Sankt Veit").
+possiblemeetinglocations("Unteres Belvedere").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Großjedlersdorf").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Oberlaa, Therme Wien").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+restaurant("Arthaberplatz").
+restaurant("Felixdorf Bahnhof").
+restaurant("Rosensteingasse").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Sollenau Bahnhof").
+restaurant("Leyserstraße").

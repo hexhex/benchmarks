@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Stadion").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Grillgasse").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Stadion").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Gasometer").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+sequence(1,0, "Retz Bahnhof").
 person(2).
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Wolf in der Au").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Penzing").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Zentralfriedhof").
-restaurant("Kritzendorf Bahnhof").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Hütteldorf").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Ebenfurth Bahnhof").
+sequence(2,0, "Matzleinsdorfer Platz").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Taborstraße").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Siebenhirten").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Rennbahnweg").

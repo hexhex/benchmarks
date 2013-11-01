@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Alsegger Straße").
-initlocation($p,"Stadlergasse").
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Franz-Asenbauer-Gasse").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Linzer Straße/Johnstraße").
+initlocation(1,"Marienbrücke").
+initlocation(1,"Unteroberndorf Bahnhof").
+sequence(1,0, "Hainburg/Donau Kulturfabrik Bf").
 person(2).
-initlocation($p,"Carminweg").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Donauinsel").
-initlocation($p,"Carminweg").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
-restaurant("Tscherttegasse").
-restaurant("Nordbrücke").
-restaurant("Otto-Probst-Platz").
-restaurant("Sillerplatz").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Teichgasse").
+initlocation(2,"Unteroberndorf Bahnhof").
+sequence(2,0, "Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Altes Landgut").
+restaurant("Reumannplatz").
+restaurant("Paulanergasse").
+restaurant("Schottenring").
+restaurant("Grinzinger Straße").

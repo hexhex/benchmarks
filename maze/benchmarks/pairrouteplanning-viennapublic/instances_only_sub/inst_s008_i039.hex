@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Praterkai").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Alser Straße").
+initlocation(1,"Traisengasse").
+initlocation(1,"Penzing").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+sequence(1,0, "St Pölten Traisenpark P+R Nord").
 person(2).
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Ottakring").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Rennweg").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Museumsquartier").
-restaurant("Gersthof").
-restaurant("Dürrwien Bahnhof").
-restaurant("Traismauer Bahnhof").
-restaurant("Haidestraße").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Mistelbach Bahnhof").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Kritzendorf Bahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+sequence(2,0, "Hardeggasse").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+restaurant("Stubentor").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Fischamend Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Gasometer").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Stadtpark").

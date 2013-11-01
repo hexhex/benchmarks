@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Litfaßstraße").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Litfaßstraße").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Gewerbepark Stadlau Mitte").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Wienerbergbrücke").
+sequence(1,0, "Dornbacher Straße").
 person(2).
-initlocation($p,"Geiereckstraße").
-initlocation($p,"Bernhardtstalgasse").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Valiergasse").
-initlocation($p,"Geiereckstraße").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Gaußplatz").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-restaurant("Florianigasse").
-restaurant("Blindengasse").
-restaurant("Josef-Baumann-Gasse").
-restaurant("Hintere Zollamtsstraße").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Alaudagasse").
+initlocation(2,"Johnstraße").
+sequence(2,0, "Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+restaurant("Staglgasse").
+restaurant("Gusenleithnergasse").
+restaurant("Schleiergasse").
+restaurant("Pfaffstätten Bahnhof").

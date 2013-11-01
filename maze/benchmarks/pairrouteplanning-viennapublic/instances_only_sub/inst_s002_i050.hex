@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Haidestraße").
+sequence(1,0, "Kagran").
 person(2).
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Dresdner Straße").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Felixdorf Bahnhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+sequence(2,0, "Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Brünner Straße").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Maria Anzbach Bahnhof").

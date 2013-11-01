@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Nordbahnstraße").
-initlocation($p,"Laurenzgasse").
+initlocation(1,"Lobau").
+initlocation(1,"Kraygasse").
+initlocation(1,"Vorgartenstraße").
+sequence(1,0, "Lobau").
 person(2).
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Seegasse").
-initlocation($p,"Unterradlberg Bahnhof").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Svetelskystraße").
-possiblemeetinglocations("Löwengasse").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Nordbrücke").
+initlocation(2,"Thaliastraße/Brunnengasse").
+sequence(2,0, "Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Teichgasse").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+restaurant("Hetzendorf").
+restaurant("Donauinsel").
+restaurant("Keplerplatz").

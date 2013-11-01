@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Leopoldau").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Leobersdorf Bahnhof").
+sequence(1,0, "Zeiselmauer-Königstetten Bf").
 person(2).
-initlocation($p,"Seestadt").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Seestadt").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Wolf in der Au").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Krottenbachstraße").
-restaurant("Korneuburg Bahnhof").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Hütteldorfer Straße").
+sequence(2,0, "Hennersdorf Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Kaiserebersdorf").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").

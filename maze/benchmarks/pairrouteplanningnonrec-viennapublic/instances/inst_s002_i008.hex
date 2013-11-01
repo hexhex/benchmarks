@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Regelsbrunn Bahnhof").
-initlocation(1,"Samptwandnergasse").
-sequence(1,0, "Regelsbrunn Bahnhof").
+initlocation(1,"Stiegergasse").
+initlocation(1,"Pelargonienweg").
+sequence(1,0, "Stiegergasse").
 person(2).
-initlocation(2,"Hackinger Straße").
-initlocation(2,"Grohnergasse").
-sequence(2,0, "Hackinger Straße").
-possiblemeetinglocations("Mergenthalerplatz").
-possiblemeetinglocations("Schönbrunn").
-restaurant("Götzendorf Bahnhof").
-restaurant("Südportalstraße").
+initlocation(2,"Südrandstraße").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+sequence(2,0, "Südrandstraße").
+possiblemeetinglocations("Resedaweg").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+restaurant("Simoningplatz").
+restaurant("Cottagegasse").

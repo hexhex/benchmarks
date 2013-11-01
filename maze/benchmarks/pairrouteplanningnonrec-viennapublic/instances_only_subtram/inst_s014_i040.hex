@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Kleistgasse").
-initlocation($p,"Rathausplatz/Burgtheater").
-initlocation($p,"Praterstern").
-initlocation($p,"Dr-Karl-Renner-Ring").
-initlocation($p,"Schloss Schönbrunn").
-initlocation($p,"Nußdorf").
-initlocation($p,"Svetelskystraße").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Höchstädtplatz").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Simonygasse").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Eckpergasse").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Rathausplatz/Burgtheater").
+initlocation(1,"Schottentor").
+initlocation(1,"Paradisgasse").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Absberggasse").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Braunhubergasse").
+initlocation(1,"Wienerbergbrücke").
+sequence(1,0, "Simonygasse").
 person(2).
-initlocation($p,"Siemensstraße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Alaudagasse").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Sensengasse").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Zieglergasse/Westbahnstraße").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Aspern, Oberdorfstraße").
-initlocation($p,"Gaußplatz").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Eichenstraße").
-initlocation($p,"Donauzentrum").
-initlocation($p,"Reinlgasse/Märzstraße").
-initlocation($p,"Siemensstraße").
-possiblemeetinglocations("Tesarekplatz").
-possiblemeetinglocations("Schleiergasse").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Fickeysstraße").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Schottenfeldgasse").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Eckpergasse").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Teichgasse").
-restaurant("Lainz, Wolkersbergenstraße").
-restaurant("Erlaaer Straße").
-restaurant("Gloriettegasse").
-restaurant("Bahnhofstraße").
-restaurant("Blumental").
-restaurant("Meidling Hauptstraße").
-restaurant("Johann-Nepomuk-Berger-Platz").
-restaurant("Bahnsteggasse").
-restaurant("Favoritenstraße/Troststraße").
-restaurant("Döblinger Bad").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Erdberg").
-restaurant("Donauzentrum").
-restaurant("Klosterneuburg-Kierling Bf").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Satzberggasse").
+initlocation(2,"Julius-Raab-Platz").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Beingasse").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+sequence(2,0, "Guntherstraße").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Atzgersdorfer Straße").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Stadiongasse/Parlament").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Stammersdorf").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Landesgerichtsstraße").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+restaurant("Sechskrügelgasse").
+restaurant("Bisamberg Bahnhof").
+restaurant("Antonigasse").
+restaurant("Lobau").
+restaurant("Rußbergstraße").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Tulln Bahnhof").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Nußdorfer Straße").
+restaurant("Aderklaaer Straße").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Weißenböckstraße").
+restaurant("Kottingbrunn Bahnhof").

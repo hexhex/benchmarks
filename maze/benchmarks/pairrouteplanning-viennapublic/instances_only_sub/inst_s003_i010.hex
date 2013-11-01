@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Schlachthausgasse").
+initlocation(1,"Siebenhirten (NÖ). Haltestelle").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+sequence(1,0, "Siebenhirten (NÖ). Haltestelle").
 person(2).
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Stubentor").
-initlocation($p,"Unter Sankt Veit").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Schottentor").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+sequence(2,0, "Kagraner Platz").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+restaurant("Donauinsel").
+restaurant("Reumannplatz").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").

@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Marienbrücke").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Döblinger Hauptstr/Gatterburgg").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Kraygasse").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Wienerbergbrücke").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Florianigasse").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Stiftgasse").
-initlocation($p,"Breitensee").
-initlocation($p,"Traisengasse").
-initlocation($p,"Marienbrücke").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Prater, Hauptallee").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Rodaun").
+initlocation(1,"Gersthof").
+initlocation(1,"Altes Landgut").
+initlocation(1,"Sensengasse").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Floridsdorfer Brücke").
+sequence(1,0, "Kendlerstraße").
 person(2).
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Empergergasse").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Schottentor").
-initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Liebknechtgasse").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Franzensbrücke").
-possiblemeetinglocations("Marienbrücke").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Stadlergasse").
-possiblemeetinglocations("Wienerbergbrücke").
-possiblemeetinglocations("Shuttleworthstraße").
-possiblemeetinglocations("Paulanergasse").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Leberberg").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Kraygasse").
-possiblemeetinglocations("Thaliastraße/Haberlgasse").
-possiblemeetinglocations("Plößlgasse").
-restaurant("Schottenring").
-restaurant("Hardeggasse").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Eckpergasse").
-restaurant("Sensengasse").
-restaurant("Wildgansplatz").
-restaurant("Börsegasse/Wipplingerstraße").
-restaurant("Dornbach, Güpferlingstraße").
-restaurant("Thaliastraße/Feßtgasse").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Jägerstraße").
-restaurant("Winckelmannstraße").
-restaurant("Mistelbach Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Rennweg").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Lainz, Wolkersbergenstraße").
+initlocation(2,"Antonigasse").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Hollabrunn Bahnhof").
+sequence(2,0, "Bisamberg Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Scheibenbergstraße").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Floridsdorfer Brücke").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Großjedlersdorf").
+possiblemeetinglocations("Hietzing").
+restaurant("Unter Sankt Veit").
+restaurant("Schönbrunn").
+restaurant("Penzinger Straße").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Neilreichgasse").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Marxergasse").
+restaurant("Simmering").
+restaurant("Museumsquartier").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Hernalser Gürtel").
+restaurant("Kagraner Brücke").
+restaurant("Längenfeldgasse").

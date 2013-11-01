@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Essling/Stadtgrenze").
-initlocation(1,"Kanalstraße").
-initlocation(1,"Rampengasse").
-sequence(1,0, "Essling/Stadtgrenze").
+initlocation(1,"Roschegasse").
+initlocation(1,"Arsenal").
+initlocation(1,"Max-Fleischer-Gasse").
+sequence(1,0, "Roschegasse").
 person(2).
-initlocation(2,"Inzersdorfer Str/Ettenreichg").
-initlocation(2,"In der Au").
-initlocation(2,"Südwestfriedhof 8Tor").
-sequence(2,0, "Inzersdorfer Str/Ettenreichg").
-possiblemeetinglocations("Wienerflurgasse").
-possiblemeetinglocations("Klimschgasse").
-possiblemeetinglocations("Elisabethwiese").
-restaurant("Südrandstraße").
-restaurant("Ulanenweg").
-restaurant("Pilotengasse").
+initlocation(2,"Margaretenpl/Schönbrunner Str").
+initlocation(2,"Zinnergasse").
+initlocation(2,"Twarochgasse").
+sequence(2,0, "Margaretenpl/Schönbrunner Str").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Dostgasse").
+possiblemeetinglocations("Finsterbuschstraße/Öllager").
+restaurant("Lieblgasse").
+restaurant("Hietzing").
+restaurant("Apostelgasse").

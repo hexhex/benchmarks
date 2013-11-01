@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Taborstraße").
-initlocation($p,"Taborstraße").
+initlocation(1,"Bad Vöslau Bahnhof").
+sequence(1,0, "Bad Vöslau Bahnhof").
 person(2).
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Schönborn Bahnhof").
-possiblemeetinglocations("Wr Neustadt Nord").
-restaurant("Matzleinsdorfer Platz").
+initlocation(2,"Rochusgasse").
+sequence(2,0, "Rochusgasse").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+restaurant("Aspernstraße").

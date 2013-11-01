@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Krieau").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Matzleinsdorfer Platz").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Forstnergasse").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Pokornygasse").
+sequence(1,0, "Landesgerichtsstraße").
 person(2).
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Saikogasse").
-initlocation($p,"Traismauer Bahnhof").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Kaiserstraße").
-possiblemeetinglocations("Schmerlingplatz").
-possiblemeetinglocations("Bernhardtstalgasse").
-possiblemeetinglocations("Fultonstraße").
-restaurant("Neulerchenfelder Str/Brunneng").
-restaurant("Liebknechtgasse").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Josef-Baumann-Gasse").
-restaurant("Stephansplatz").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Weihburggasse").
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Rochusgasse").
+sequence(2,0, "Hollabrunn Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Auerspergstraße").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Saikogasse").
+restaurant("Albertgasse").
+restaurant("Penzinger Straße").
+restaurant("Donaustadtbrücke").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Breitensee").

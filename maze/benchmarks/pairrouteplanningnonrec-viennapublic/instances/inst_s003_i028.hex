@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Atzenbrugg Bahnhof").
-initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
-initlocation(1,"Stadlauer Straße/Ostbahn").
-sequence(1,0, "Atzenbrugg Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Grundäckergasse").
+initlocation(1,"Reinprechtsdorfer Brücke").
+sequence(1,0, "Südtiroler Platz/Hauptbahnhof").
 person(2).
-initlocation(2,"Donauspital").
-initlocation(2,"Quartier Belvedere").
-initlocation(2,"Ameisgasse").
-sequence(2,0, "Donauspital").
-possiblemeetinglocations("Siebensterngasse").
-possiblemeetinglocations("Hasnerstraße").
-possiblemeetinglocations("Jungbauerweg").
-restaurant("Zentralfriedhof 3Tor").
-restaurant("Kollarzgasse").
-restaurant("Stephansplatz").
+initlocation(2,"Großmarktstraße").
+initlocation(2,"Ernst-Melchior-Gasse").
+initlocation(2,"Pokornygasse").
+sequence(2,0, "Großmarktstraße").
+possiblemeetinglocations("Lebingergasse").
+possiblemeetinglocations("Harkortstraße").
+possiblemeetinglocations("Forsthausgasse").
+restaurant("Haidersberggasse").
+restaurant("Löschniggasse").
+restaurant("Castelligasse").

@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Stadion").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+sequence(1,0, "Hainburg/Donau Personenbhf").
 person(2).
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Pilgramgasse").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Atzgersdorf").
-restaurant("Staatz Bahnhof").
-restaurant("Weidlingau Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Siebenhirten").
+sequence(2,0, "Schottenring").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+restaurant("Heiligenstadt").
+restaurant("Obersdorf Bahnhof").
+restaurant("Neue Donau").
+restaurant("Matzleinsdorfer Platz").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Tesarekplatz").
-initlocation($p,"Oberfeldgasse/Spargelfeldstr").
-initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation(1,"Antonigasse").
+initlocation(1,"Bauernfeldplatz").
+initlocation(1,"Landstraße-Wien Mitte").
+sequence(1,0, "Antonigasse").
 person(2).
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Spitalgasse/Währinger Straße").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("Laudongasse").
-restaurant("Spillern Bahnhof").
-restaurant("Fasangasse").
-restaurant("Matzleinsdorfer Platz").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Donaustadtstraße").
+sequence(2,0, "Neusiedl am See Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Maurer Lange Gasse").
+restaurant("Gredlerstraße").
+restaurant("Stubentor").
+restaurant("Erzherzog-Karl-Straße").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Hintere Zollamtsstraße").
-initlocation($p,"Dommayergasse").
-initlocation($p,"Blumengasse").
-initlocation($p,"Kardinal-Nagl-Platz").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Zentralfriedhof 2Tor").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Nußdorf").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+sequence(1,0, "Hörersdorf Bahnhof").
 person(2).
-initlocation($p,"Sensengasse").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Burgring").
-initlocation($p,"Sensengasse").
-possiblemeetinglocations("Salztorbrücke").
-possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Bauernfeldplatz").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Tesarekplatz").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-restaurant("Perfektastraße").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Süßenbrunner Str/Oberfeldgasse").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Leopoldau").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("St Pölten Hauptbahnhof").
-restaurant("Viehmarktgasse").
+initlocation(2,"Beingasse").
+initlocation(2,"Blindengasse").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Salztorbrücke").
+sequence(2,0, "Beingasse").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Praterkai").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Fischamend Bahnhof").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Stubentor").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Strozzigasse").
+restaurant("Löwengasse").

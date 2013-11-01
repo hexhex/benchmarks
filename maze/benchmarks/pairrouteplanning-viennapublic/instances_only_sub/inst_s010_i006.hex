@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Herrengasse").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Ottakring").
-initlocation($p,"Neue Donau").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Erdberg").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Traismauer Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+sequence(1,0, "Tulln Stadt Bahnhof").
 person(2).
-initlocation($p,"Hirschstetten").
-initlocation($p,"Blumental").
-initlocation($p,"Kagran").
-initlocation($p,"Taborstraße").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Hirschstetten").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Neue Donau").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Aspernstraße").
-restaurant("Jägerstraße").
-restaurant("Schönborn Bahnhof").
-restaurant("Herzogenburg Stadt").
-restaurant("Schleinbach Bahnhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Breitensee").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+sequence(2,0, "Kagraner Platz").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Alterlaa").
+restaurant("Krottenbachstraße").
+restaurant("Nestroyplatz").
+restaurant("Kagraner Platz").
+restaurant("Stubentor").
+restaurant("Sankt Marx").
+restaurant("Bisamberg Bahnhof").
+restaurant("Traismauer Bahnhof").
+restaurant("Penzing").
+restaurant("Taborstraße").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").

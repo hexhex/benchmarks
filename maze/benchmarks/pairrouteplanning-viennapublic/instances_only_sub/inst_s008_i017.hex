@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Taborstraße").
-initlocation($p,"Praterstern").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Gersthof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Zieglergasse").
+sequence(1,0, "Leobendorf-Burg Kreuzenstn Bf").
 person(2).
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Blumental").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Viehofen Bahnhof").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Fischamend Bahnhof").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Hetzendorf").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Langenlebarn Bahnhof").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Breitenwaida Bahnhof").
+sequence(2,0, "Reumannplatz").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Alte Donau").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Rochusgasse").
+restaurant("Neubaugasse").
+restaurant("Mannswörth Bahnhof").
+restaurant("Liesing").
+restaurant("Baden Bahnhof").
+restaurant("Zentralfriedhof").

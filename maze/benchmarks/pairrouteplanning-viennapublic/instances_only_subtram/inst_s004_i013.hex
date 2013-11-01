@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Siebertgasse").
-initlocation($p,"Aßmayergasse").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Unterradlberg Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Koloniestraße").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Hermesstraße").
+sequence(1,0, "Krieau").
 person(2).
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Rathaus").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Stiftgasse").
-initlocation($p,"Spitalgasse/Währinger Straße").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Kraygasse").
-possiblemeetinglocations("Hermesstraße").
-possiblemeetinglocations("Nordbrücke").
-restaurant("Unterradlberg Bahnhof").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Margaretengürtel").
-restaurant("Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Liesing").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Fischamend Bahnhof").
+sequence(2,0, "Liesing").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Perntergasse").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+restaurant("Döblinger Hauptstr/Gatterburgg").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Wr Neustadt Civitas Nova").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Wittelsbachstraße").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Atzgersdorfer Straße").
-initlocation($p,"Untereggendorf Bahnhof").
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Weihburggasse").
+initlocation(1,"Lerchenfelder Straße").
+initlocation(1,"Gaußplatz").
+sequence(1,0, "Fickeysstraße").
 person(2).
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Altes Landgut").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Neuwaldegg").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Hohe Warte").
-possiblemeetinglocations("Gottschalkgasse/Enkplatz").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Felixdorf Bahnhof").
-restaurant("Sarasdorf Bahnhof").
-restaurant("Gersthof").
-restaurant("Kaiserstraße").
-restaurant("Floridsdorfer Brücke").
+initlocation(2,"Schottenring").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Frauengasse").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Urban-Loritz-Platz").
+sequence(2,0, "Schottenring").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Frauengasse").
+possiblemeetinglocations("Autokaderstraße").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+restaurant("Keplerplatz").
+restaurant("Grinzinger Straße").
+restaurant("Mayerhofgasse").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Döblinger Bad").
+restaurant("Columbusplatz").

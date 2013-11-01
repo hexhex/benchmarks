@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Frödenplatz").
-initlocation($p,"Margaretengürtel/Arbeitergasse").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Sechskrügelgasse").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Alterlaa").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Silbergasse").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Dommayergasse").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Wallensteinplatz").
+sequence(1,0, "Donaustadtbrücke").
 person(2).
-initlocation($p,"Penzing").
-initlocation($p,"Dornbach, Güpferlingstraße").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Burgring").
-initlocation($p,"Gersthof").
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Penzing").
-possiblemeetinglocations("Wexstraße").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Hardtgasse").
-possiblemeetinglocations("Kranzgasse").
-possiblemeetinglocations("Svetelskystraße").
-possiblemeetinglocations("Helmahof Bahnhof").
-restaurant("Friedensbrücke").
-restaurant("Mistelbach Stadt").
-restaurant("Schönborn Bahnhof").
-restaurant("Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Grinzing").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Bauernfeldplatz").
+sequence(2,0, "Grinzing").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Alaudagasse").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+restaurant("Neulengbach Stadt Bahnhof").
 restaurant("Columbusplatz").
-restaurant("Ottakringer Straße/Wattgasse").
-restaurant("Otto-Probst-Straße").
-restaurant("Mistelbach Bahnhof").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Fasangasse").
+restaurant("Neuwaldegg").
+restaurant("Rankgasse").
+restaurant("Platt Bahnhof").
+restaurant("Achau Bahnhof").
+restaurant("Mayssengasse").
+restaurant("Koloniestraße").
+restaurant("Schloss Hetzendorf").
+restaurant("Lobau").

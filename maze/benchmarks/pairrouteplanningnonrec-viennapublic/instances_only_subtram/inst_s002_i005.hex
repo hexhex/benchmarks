@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Schottenring").
-initlocation($p,"Sahulkastraße").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Plößlgasse").
+sequence(1,0, "Zentralfriedhof").
 person(2).
-initlocation($p,"Vinzenzgasse").
-initlocation($p,"Kleistgasse").
-initlocation($p,"Vinzenzgasse").
-possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Döblinger Bad").
-restaurant("Längenfeldgasse").
-restaurant("Dürrwien Bahnhof").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Langenlebarn Bahnhof").
+sequence(2,0, "Hennersdorf Bahnhof").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Schweglerstraße").
+restaurant("Kettenbrückengasse").
+restaurant("Siebensterngasse").

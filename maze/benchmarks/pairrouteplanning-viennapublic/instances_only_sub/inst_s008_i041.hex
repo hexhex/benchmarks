@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Unter Sankt Veit").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+sequence(1,0, "Wr Neustadt Hauptbahnhof").
 person(2).
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Penzing").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Münchendorf Bahnhof").
-restaurant("Mödling Bahnhof").
-restaurant("Gasometer").
-restaurant("Breitensee").
-restaurant("Neue Donau").
-restaurant("Helmahof Bahnhof").
-restaurant("Michelhausen Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Stadlau").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Sollenau Bahnhof").
+sequence(2,0, "Trasdorf Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+restaurant("Süßenbrunn").
+restaurant("Siemensstraße").
+restaurant("Schlachthausgasse").
+restaurant("Dürrwien Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Fischamend Bahnhof").

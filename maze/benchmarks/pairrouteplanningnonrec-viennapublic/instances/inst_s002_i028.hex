@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Kammerergasse").
-initlocation(1,"Birostraße/Jochen-Rindt-Straße").
-sequence(1,0, "Kammerergasse").
+initlocation(1,"Schlachthammerstraße").
+initlocation(1,"Canisiusgasse").
+sequence(1,0, "Schlachthammerstraße").
 person(2).
-initlocation(2,"Atzgersdorf Friedhof").
-initlocation(2,"Silberwald Bahnhof").
-sequence(2,0, "Atzgersdorf Friedhof").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Großenzersdorf Stadtmauer").
-restaurant("Steinbrechergasse").
-restaurant("Scalagasse").
+initlocation(2,"Bauernfeldplatz").
+initlocation(2,"Selma-Lagerlöf-Gasse").
+sequence(2,0, "Bauernfeldplatz").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Kanalstraße").
+restaurant("Julius-Raab-Platz").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Hietzing").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Taborstraße").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Tscherttegasse").
+initlocation(1,"Stubentor").
+initlocation(1,"Liesing").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+sequence(1,0, "Stubentor").
 person(2).
-initlocation($p,"Siebenhirten").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Hietzing").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Breitensee").
-initlocation($p,"Siebenhirten").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Mistelbach Stadt").
-restaurant("Praterstern").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Breitensee").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Viehofen Bahnhof").
-restaurant("Hausfeldstraße").
-restaurant("Purkersdorf Sanatorium").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Breitensee").
+initlocation(2,"Enkplatz").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Großfeldsiedlung").
+sequence(2,0, "Messe-Prater").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+restaurant("Alterlaa").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Traismauer Bahnhof").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Schlachthausgasse").
+restaurant("Penzing").
+restaurant("Unter Sankt Veit").
+restaurant("Leopoldau").

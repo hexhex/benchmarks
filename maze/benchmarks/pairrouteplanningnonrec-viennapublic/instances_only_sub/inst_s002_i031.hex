@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Handelskai").
-initlocation($p,"Schweglerstraße").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Ulrichskirchen Bahnhof").
+sequence(1,0, "Hetzendorf").
 person(2).
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Schwedenplatz").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Kagraner Platz").
-restaurant("Weigelsdorf Bahnhof").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Jägerstraße").
+sequence(2,0, "Rekawinkel Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Obersdorf Bahnhof").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Ebenfurth Bahnhof").

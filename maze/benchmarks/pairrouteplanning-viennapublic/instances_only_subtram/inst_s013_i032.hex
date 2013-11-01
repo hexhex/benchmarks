@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Sieveringer Straße").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Bauernfeldplatz").
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Molitorgasse").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Satzberggasse").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Fasangasse").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Sieveringer Straße").
+initlocation(1,"Hopfengasse").
+initlocation(1,"Flughafen Wien (VIE). Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Stadtpark").
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Donauspital").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Troststraße/Neilreichgasse").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Am Heumarkt").
+sequence(1,0, "Hopfengasse").
 person(2).
-initlocation($p,"Rathausplatz/Burgtheater").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Laaer-Berg-Straße").
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Gloriettegasse").
-initlocation($p,"Halteraugasse").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Rathausplatz/Burgtheater").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-possiblemeetinglocations("Sensengasse").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
-possiblemeetinglocations("Rebhanngasse").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Felixdorf Bahnhof").
-restaurant("Floridsdorf").
-restaurant("Dornbacher Straße").
-restaurant("Friedensbrücke").
-restaurant("Resselgasse").
-restaurant("Zentralfriedhof 2Tor").
-restaurant("Silberwald Bahnhof").
-restaurant("Landesgerichtsstraße").
-restaurant("Lainz, Wolkersbergenstraße").
-restaurant("Hardeggasse").
-restaurant("Aspernstraße").
-restaurant("Bösendorferstraße").
-restaurant("Quellenstraße/Favoritenstraße").
-restaurant("Krankenhaus Hietzing").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Siebensterngasse").
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Koppstraße/Panikengasse").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(2,"Scheibenbergstraße").
+sequence(2,0, "Stiftgasse").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+restaurant("Shuttleworthstraße").
+restaurant("Zieglergasse").
+restaurant("Kaiser-Franz-Josef-Straße").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Donaustadtbrücke").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Liechtenwerder Platz").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Hetzendorf").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Absberggasse").
+restaurant("Kaiserstraße/Westbahnstraße").

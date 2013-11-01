@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Taborstraße").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Ottakring").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Stockerau Bahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+sequence(1,0, "Klosterneuburg-Kierling Bf").
 person(2).
-initlocation($p,"Praterkai").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Praterkai").
-possiblemeetinglocations("Stephansplatz").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Floridsdorf").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Bahnhof Meidling").
-restaurant("Schwedenplatz").
-restaurant("Krieau").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Gersthof").
-restaurant("Quartier Belvedere").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Praterkai").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+sequence(2,0, "Hetzendorf").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Siemensstraße").
+restaurant("Schottenring").

@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Margaretengürtel/Arbeitergasse").
-initlocation($p,"Alte Donau").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Camillo-Sitte-Gasse").
-initlocation($p,"Volkstheater").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Simonygasse").
-initlocation($p,"Oberfeldgasse").
-initlocation($p,"Unter St Veit, Hummelgasse").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Gußhausstraße").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Stadlau").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Johann-Strauß-Gasse").
+sequence(1,0, "Floridsdorfer Markt").
 person(2).
-initlocation($p,"Lobau").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Wienerfeldgasse").
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Quellenplatz").
-initlocation($p,"Lederergasse").
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Lobau").
-possiblemeetinglocations("Sechskrügelgasse").
-possiblemeetinglocations("Ameisgasse").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Schwarzspanierstraße").
-possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
-possiblemeetinglocations("Krottenbachstraße").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Alterlaa").
-restaurant("Prandaugasse").
-restaurant("Mühlfeldgasse").
-restaurant("Westbahnhof").
-restaurant("Mariahilfer Gürtel").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Donaumarina").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Blechturmgasse").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Favoritenstraße/Troststraße").
+sequence(2,0, "Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Mayerhofgasse").
+restaurant("Neue Donau").
+restaurant("Windtenstraße").
+restaurant("Donaustadtbrücke").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Schottenring").
+restaurant("Innstraße").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Josefstädter Straße").

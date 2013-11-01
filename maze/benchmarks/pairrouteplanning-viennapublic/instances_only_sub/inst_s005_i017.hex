@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Kagran").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Sierndorf Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Volkstheater").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Preyergasse/Speising").
+sequence(1,0, "Lobau").
 person(2).
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Gersthof").
-initlocation($p,"Viehofen Bahnhof").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+sequence(2,0, "Michelhausen Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Zippererstraße").
+restaurant("Traisengasse").
+restaurant("Obersdorf Bahnhof").
 restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Sierndorf Bahnhof").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Weigelsdorf Bahnhof").
+restaurant("Retz Bahnhof").
+restaurant("Atzgersdorf").

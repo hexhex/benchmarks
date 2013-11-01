@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Quartier Belvedere").
+initlocation(1,"Lobau").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+sequence(1,0, "Lobau").
 person(2).
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-restaurant("Stockerau Bahnhof").
-restaurant("Museumsquartier").
+initlocation(2,"Spittelau").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+sequence(2,0, "Spittelau").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+restaurant("Stadion").
+restaurant("Jägerstraße").

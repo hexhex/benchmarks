@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"An den langen Lüssen").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Rebhanngasse").
-initlocation($p,"Mistelbach Stadt").
+initlocation(1,"Aßmayergasse").
+initlocation(1,"Halteraugasse").
+initlocation(1,"Waidhausenstraße").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Versorgungsheimplatz").
+sequence(1,0, "Aßmayergasse").
 person(2).
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Wienerbergbrücke").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Krieau").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-possiblemeetinglocations("Gatterburggasse").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Hopfengasse").
-possiblemeetinglocations("Palffygasse").
-restaurant("Skodagasse").
-restaurant("Camillo-Sitte-Gasse").
-restaurant("Neuwaldegg").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Sahulkastraße").
-restaurant("Oberlaa, Therme Wien").
+initlocation(2,"Winkeläckerstraße").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Gußhausstraße").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Kettenbrückengasse").
+sequence(2,0, "Winkeläckerstraße").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+restaurant("Kendlerstraße").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Oberdöbling").
+restaurant("Braunhubergasse").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Marxergasse").
+restaurant("Molitorgasse").

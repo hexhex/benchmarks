@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Westbahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Penzing").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Westbahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+sequence(1,0, "Margaretengürtel").
 person(2).
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Simmering").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Herrengasse").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Penzing").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Kettenbrückengasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Hetzendorf").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Quartier Belvedere").
-restaurant("Vorgartenstraße").
-restaurant("Aspern Nord").
-restaurant("Spittelau").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Schwechat Bahnhof").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Donauinsel").
+initlocation(2,"Schottentor").
+initlocation(2,"Rathaus").
+sequence(2,0, "Meidling Hauptstraße").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Reumannplatz").
+restaurant("Haslau an der Donau Bahnhof").
 restaurant("Pressbaum Bahnhof").
+restaurant("Schottentor").
+restaurant("Ober Sankt Veit").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Schleinbach Bahnhof").

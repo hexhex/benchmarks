@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Krankenhaus Hietzing").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Wexstraße").
-initlocation($p,"Krankenhaus Hietzing").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Leberberg").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Nordbrücke").
+sequence(1,0, "Nußdorfer Str/Alserbachstraße").
 person(2).
-initlocation($p,"Donaumarina").
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Simonygasse").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Canisiusgasse").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Alterlaa").
-initlocation($p,"Donaumarina").
-possiblemeetinglocations("Stockholmer Platz").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Paulanergasse").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Alfred-Adler-Straße").
-restaurant("Breitenfurter St/Altmannsd Str").
-restaurant("Rothneusiedl").
-restaurant("Kutschkergasse").
-restaurant("Gersthof").
-restaurant("Alaudagasse").
-restaurant("Preyergasse/Speising").
-restaurant("Fultonstraße").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Hörersdorf Bahnhof").
+sequence(2,0, "Friedrich-Engels-Platz").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+restaurant("Hietzing").
+restaurant("Marxergasse").
+restaurant("Dommayergasse").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Eckpergasse").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Zentralfriedhof 1Tor").

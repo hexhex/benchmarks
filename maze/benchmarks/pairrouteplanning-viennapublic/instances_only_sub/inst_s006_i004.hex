@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Westbahnhof").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Westbahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+sequence(1,0, "Purkersdorf Zentrum Bahnhof").
 person(2).
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Platt Bahnhof").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Dürrwien Bahnhof").
-restaurant("Rochusgasse").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Heiligenstadt").
-restaurant("Aspern Nord").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Schönborn Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Taborstraße").
+sequence(2,0, "Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Johnstraße").
+restaurant("Kagran").
+restaurant("Seyring Bahnhof").
+restaurant("Praterstern").

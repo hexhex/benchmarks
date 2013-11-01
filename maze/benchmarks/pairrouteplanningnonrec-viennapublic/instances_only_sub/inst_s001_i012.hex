@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Michelbeuern-AKH").
+initlocation(1,"Wr Neustadt Nord").
+sequence(1,0, "Wr Neustadt Nord").
 person(2).
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Friedensbrücke").
-possiblemeetinglocations("Neue Donau").
-restaurant("St Pölten Hauptbahnhof").
+initlocation(2,"Rennbahnweg").
+sequence(2,0, "Rennbahnweg").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+restaurant("Korneuburg Bahnhof").

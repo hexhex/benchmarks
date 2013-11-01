@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Leberberg").
-initlocation($p,"Donaumarina").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Trasdorf Bahnhof").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Windtenstraße").
+initlocation(1,"Frättingsdorf Bahnhof").
+sequence(1,0, "Münchendorf Bahnhof").
 person(2).
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Plößlgasse").
-initlocation($p,"Rathaus").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Volkstheater").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Silbergasse").
-initlocation($p,"Ladendorf Bahnhof").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Am Spitz").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Albertgasse").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Troststraße/Neilreichgasse").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Langobardenstraße/Kapellenweg").
-restaurant("Braunschweiggasse").
-restaurant("Lazarettgasse").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Obere Donaustraße").
-restaurant("Heiligenstadt, 12-Februar-Pl").
-restaurant("Althanstraße").
+initlocation(2,"Maurer Lange Gasse").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Empergergasse").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Am Tabor").
+sequence(2,0, "Maurer Lange Gasse").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Stadiongasse/Parlament").
+restaurant("Stadtpark").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Simmering").
+restaurant("Viehmarktgasse").
+restaurant("Donauspital").
+restaurant("Anton-Schall-Gasse").

@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Dürrwien Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Aspern Nord").
+sequence(1,0, "Kagraner Platz").
 person(2).
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Wolkersdorf Bahnhof").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Retz Bahnhof").
-restaurant("Stephansplatz").
-restaurant("Helmahof Bahnhof").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Münchendorf Bahnhof").
-restaurant("Quartier Belvedere").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Jägerstraße").
+sequence(2,0, "Jedlersdorf").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Bisamberg Bahnhof").
+restaurant("Kagraner Platz").
+restaurant("Thaliastraße").
+restaurant("Hofstatt Bahnhof").

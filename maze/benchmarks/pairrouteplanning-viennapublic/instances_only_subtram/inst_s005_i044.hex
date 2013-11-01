@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Resselgasse").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Wilhelminenstraße/Wattgasse").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Verbindungsbahn").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Klosterneub Str/Wallensteinstr").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+sequence(1,0, "Helmahof Bahnhof").
 person(2).
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Schottentor").
-initlocation($p,"Perntergasse").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Leberberg").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Autokaderstraße").
-possiblemeetinglocations("Stubentor").
-restaurant("Schlickgasse").
-restaurant("Quellenstraße/Knöllgasse").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Wattmanngasse").
-restaurant("Quellenplatz").
+initlocation(2,"Stadlau").
+initlocation(2,"Breitenfurter Str/Liesingbr").
+initlocation(2,"Siebensterngasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Rampengasse").
+sequence(2,0, "Stadlau").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Kranzgasse").
+restaurant("Carminweg").
+restaurant("Braunhubergasse").
+restaurant("Polgarstraße").
+restaurant("Staglgasse").
+restaurant("Gumpendorfer Straße").

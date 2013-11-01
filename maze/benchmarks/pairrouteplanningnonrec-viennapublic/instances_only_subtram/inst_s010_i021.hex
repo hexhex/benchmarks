@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Sonnergasse").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Siebertgasse").
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Oberlaa, Therme Wien").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Sonnergasse").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Zentralfriedhof 3Tor").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Skodagasse").
+initlocation(1,"Grillgasse").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+sequence(1,0, "Wilhelminenstr/Sandleitengasse").
 person(2).
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Neue Donau").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Radetzkyplatz").
-initlocation($p,"Laurentiusplatz").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Hennersdorf Bahnhof").
-possiblemeetinglocations("Arminenstraße").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Schwarzenbergplatz").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Diesterweggasse").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Liechtenwerder Platz").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-restaurant("Guneschgasse").
-restaurant("Stadlau").
-restaurant("Wr Neustadt Nord").
-restaurant("Resselgasse").
-restaurant("Otto-Probst-Platz").
-restaurant("Schleiergasse").
-restaurant("Prater, Hauptallee").
-restaurant("Braunhubergasse").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Stephansplatz").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Lederergasse").
+initlocation(2,"Rothneusiedl").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Mariahilfer Gürtel").
+sequence(2,0, "Aspern, Oberdorfstraße").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Martinstraße").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Schöffelgasse").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Eichenstraße").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Scheibenbergstraße").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Lange Gasse").
+restaurant("Preyergasse/Speising").
+restaurant("Retz Bahnhof").
+restaurant("Liesing").
+restaurant("Stadion").

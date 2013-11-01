@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Oberer Reisenbergweg").
-initlocation(1,"Molkereistraße").
-sequence(1,0, "Oberer Reisenbergweg").
+initlocation(1,"Praterstern").
+initlocation(1,"Breitensee").
+sequence(1,0, "Praterstern").
 person(2).
-initlocation(2,"Percostraße/Wagramer Straße").
-initlocation(2,"Fichtnergasse").
-sequence(2,0, "Percostraße/Wagramer Straße").
-possiblemeetinglocations("Stephansplatz").
-possiblemeetinglocations("Hackinger Straße").
-restaurant("Großjedlersdorf").
-restaurant("Allerheiligengasse").
+initlocation(2,"Wienerflurgasse").
+initlocation(2,"Autobahn-Raststation Auhof").
+sequence(2,0, "Wienerflurgasse").
+possiblemeetinglocations("Rosasgasse").
+possiblemeetinglocations("Luzegasse").
+restaurant("Greinzgasse").
+restaurant("Carabelligasse").

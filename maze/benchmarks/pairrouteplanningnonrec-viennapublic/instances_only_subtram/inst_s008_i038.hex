@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Saikogasse").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Johnstraße").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Radetzkyplatz").
-initlocation($p,"Bauernfeldplatz").
-initlocation($p,"Saikogasse").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Polgarstraße").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Wilhelminenstraße/Wattgasse").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Huglgasse").
+sequence(1,0, "Ebenfurth Bahnhof").
 person(2).
-initlocation($p,"Alser Straße").
-initlocation($p,"Wexstraße").
-initlocation($p,"Spittelau").
-initlocation($p,"Atzgersdorfer Straße").
-initlocation($p,"Troststraße/Neilreichgasse").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Anton-Schall-Gasse").
-initlocation($p,"Stadiongasse/Parlament").
-initlocation($p,"Alser Straße").
-possiblemeetinglocations("Viehmarktgasse").
-possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Reinlgasse/Märzstraße").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Hetzgasse").
-possiblemeetinglocations("Oberlaa, Therme Wien").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Herzogenburg Stadt").
-restaurant("Quellenplatz").
-restaurant("Heinrich-Drimmel-Platz").
-restaurant("Türkenschanzplatz").
-restaurant("Alaudagasse").
-restaurant("Großjedlersdorf").
-restaurant("Brigittaplatz").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Gänserndorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Florianigasse").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Liebknechtgasse").
+initlocation(2,"Jägerstraße").
+sequence(2,0, "Bisamberg Bahnhof").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Blechturmgasse").
+restaurant("Weißenböckstraße").
+restaurant("Palffygasse").
+restaurant("Liesing").
+restaurant("Oberzellergasse").
+restaurant("Polgarstraße").
+restaurant("Schönborn Bahnhof").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Plößlgasse").

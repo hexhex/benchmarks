@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Nestroyplatz").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Althanstraße").
-initlocation($p,"Schottentor").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Nestroyplatz").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Kraygasse").
+initlocation(1,"Rennweg").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Wexstraße").
+sequence(1,0, "Geiselbergstraße").
 person(2).
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Rustengasse").
-initlocation($p,"Edmund-Hawranek-Platz").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Gerhardusgasse").
-possiblemeetinglocations("Am Spitz").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Valiergasse").
-possiblemeetinglocations("Radetzkyplatz").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Sensengasse").
-possiblemeetinglocations("Leopoldau").
-restaurant("Taubstummengasse").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Hütteldorfer Straße").
-restaurant("Herrengasse").
-restaurant("Blechturmgasse").
-restaurant("Tscherttegasse").
-restaurant("Huglgasse").
-restaurant("Wampersdorf Bahnhof").
+initlocation(2,"Lederergasse").
+initlocation(2,"Heiligenstadt, 12-Februar-Pl").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Klosterneub Str/Wallensteinstr").
+initlocation(2,"Schloss Schönbrunn").
+sequence(2,0, "Lederergasse").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Urban-Loritz-Platz").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Martinstraße").
+restaurant("Sankt Marx").
+restaurant("Rennbahnweg").
+restaurant("Versorgungsheimplatz").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Alaudagasse").

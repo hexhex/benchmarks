@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Liesing").
+sequence(1,0, "Retz Bahnhof").
 person(2).
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Westbahnhof").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Grillgasse").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+sequence(2,0, "Sollenau Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Korneuburg Bahnhof").

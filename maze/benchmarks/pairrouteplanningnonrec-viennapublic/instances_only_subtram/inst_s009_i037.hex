@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Thaliastraße/Brunnengasse").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Haidestraße").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Gutraterplatz").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Gellertplatz").
+sequence(1,0, "Pfaffstätten Bahnhof").
 person(2).
-initlocation($p,"Ungargasse/Neulinggasse").
-initlocation($p,"Lederergasse").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Seestadt").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Liechtenwerder Platz").
-initlocation($p,"Barawitzkagasse").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Ungargasse/Neulinggasse").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Stadlau").
-possiblemeetinglocations("Blechturmgasse").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Wenzgasse").
-possiblemeetinglocations("Himmelmutterweg").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Laxenburger Straße/Troststraße").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Scheibenbergstraße").
-restaurant("Erlaaer Straße").
-restaurant("Schwechat Bahnhof").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Kleistgasse").
+initlocation(2,"Unteres Belvedere").
+initlocation(2,"Wallensteinplatz").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Rothneusiedl").
+sequence(2,0, "Unteres Belvedere").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Hetzgasse").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+restaurant("Achau Bahnhof").
+restaurant("Glatzgasse").
+restaurant("Mannswörth Bahnhof").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Nußdorf").
+restaurant("Schwarzenbergplatz").
+restaurant("Strasshof Bahnhof").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Gerasdorf Bahnhof").

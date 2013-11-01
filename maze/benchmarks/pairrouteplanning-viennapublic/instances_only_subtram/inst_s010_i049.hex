@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Thaliastraße/Haberlgasse").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Redtenbachergasse").
-initlocation($p,"Wienerfeldgasse").
-initlocation($p,"Palffygasse").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Lazarettgasse").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Thaliastraße/Haberlgasse").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Frödenplatz").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Siebenhirten").
+sequence(1,0, "Braunschweiggasse").
 person(2).
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Svetelskystraße").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Franzensbrücke").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Innstraße").
-possiblemeetinglocations("Antonigasse").
-possiblemeetinglocations("Ameisgasse").
-possiblemeetinglocations("Hubertusdamm").
-possiblemeetinglocations("Simonygasse").
-possiblemeetinglocations("Gatterburggasse").
-possiblemeetinglocations("Schwarzenbergplatz").
-possiblemeetinglocations("Hetzgasse").
-possiblemeetinglocations("Retz Bahnhof").
-restaurant("Hohe Warte").
-restaurant("Schottentor").
-restaurant("Gerstnerstraße/Westbhf").
-restaurant("Wallensteinplatz").
-restaurant("Gemeinlebarn Bahnhof").
-restaurant("Stadion").
-restaurant("Heiligenstadt, 12-Februar-Pl").
-restaurant("Hofwiesengasse").
-restaurant("Fultonstraße").
-restaurant("Am Heidjöchl/Hausfeldstraße").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+initlocation(2,"Rußbergstraße").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Mühlfeldgasse").
+initlocation(2,"Höbersdorf Bahnhof").
+sequence(2,0, "Zippererstraße").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Stollgasse").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+restaurant("Kagraner Brücke").
+restaurant("Maurer Lange Gasse").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Schmerlingplatz").
+restaurant("Spillern Bahnhof").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Schweglerstraße").
+restaurant("Ameisgasse").
+restaurant("Kaisermühlen-VIC").

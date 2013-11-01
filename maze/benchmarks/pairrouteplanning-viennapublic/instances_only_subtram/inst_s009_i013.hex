@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Diesterweggasse").
-initlocation($p,"Schloss Hetzendorf").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Stockholmer Platz").
-initlocation($p,"Guneschgasse").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Diesterweggasse").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Favoritenstraße/Troststraße").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Gutraterplatz").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Hopfengasse").
+sequence(1,0, "Matthäus-Jiszda-Straße").
 person(2).
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Liesing").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Hintere Zollamtsstraße").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Marxergasse").
-initlocation($p,"Atzgersdorf").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Rustengasse").
-possiblemeetinglocations("Rosensteingasse").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Hauffgasse").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Johannes-Krawarik-Gasse").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Prater, Hauptallee").
-restaurant("Schöffelgasse").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Schottenring").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(2,"Alte Donau").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+sequence(2,0, "Obere Augartenstraße").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Bahnhofstraße").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Roßauer Lände").
+restaurant("Gutraterplatz").
+restaurant("Hohe Warte").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Floridsdorfer Brücke").
 restaurant("Museumsquartier").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Wienerfeldgasse").
-restaurant("Schönbrunn").
-restaurant("Thaliastraße").
-restaurant("Hennersdorf Bahnhof").
+restaurant("Götzendorf Bahnhof").
+restaurant("Obersdorf Bahnhof").
+restaurant("Burggasse-Stadthalle").
+restaurant("Margaretengürtel/Arbeitergasse").

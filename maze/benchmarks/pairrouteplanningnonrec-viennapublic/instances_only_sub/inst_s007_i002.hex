@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Alterlaa").
-initlocation($p,"Herrengasse").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Rennweg").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Alterlaa").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Rathaus").
+initlocation(1,"Gumpendorfer Straße").
+sequence(1,0, "Rekawinkel Bahnhof").
 person(2).
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Rathaus").
-restaurant("Kaiserebersdorf").
-restaurant("Platt Bahnhof").
-restaurant("Oberdöbling").
+initlocation(2,"Alte Donau").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Traisengasse").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Siemensstraße").
+sequence(2,0, "Alte Donau").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
 restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Felixdorf Bahnhof").
-restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Wr Neustadt Nord").
+restaurant("Nußdorfer Straße").
+restaurant("Friedensbrücke").

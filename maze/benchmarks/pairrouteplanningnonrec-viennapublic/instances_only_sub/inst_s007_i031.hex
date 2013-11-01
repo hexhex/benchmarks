@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Simmering").
-initlocation($p,"Unterradlberg Bahnhof").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Messe-Prater").
+sequence(1,0, "Kaiserebersdorf").
 person(2).
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Stadtpark").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Taborstraße").
-initlocation($p,"Braunschweiggasse").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Quartier Belvedere").
+initlocation(2,"Praterstern").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Hernals").
+initlocation(2,"Erdberg").
+sequence(2,0, "Praterstern").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
 possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-restaurant("Braunschweiggasse").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Michelbeuern-AKH").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Trasdorf Bahnhof").
-restaurant("Brünner Straße").
+possiblemeetinglocations("Paasdorf Bahnhof").
+restaurant("Aspern Nord").
+restaurant("Wolf in der Au").
+restaurant("Weidlingau Bahnhof").
+restaurant("Mannswörth Bahnhof").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Ladendorf Bahnhof").
+restaurant("Niederkreuzstetten Bahnhof").

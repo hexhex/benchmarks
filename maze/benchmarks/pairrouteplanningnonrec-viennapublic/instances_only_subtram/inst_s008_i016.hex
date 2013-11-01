@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Rebhanngasse").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Marxergasse").
-initlocation($p,"Alsegger Straße").
-initlocation($p,"Mistelbach Stadt").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Gutraterplatz").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Blindengasse").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Schwarzspanierstraße").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Canisiusgasse").
+sequence(1,0, "Donauzentrum").
 person(2).
-initlocation($p,"Wexstraße").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Wexstraße").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Floridsdorfer Markt").
-possiblemeetinglocations("Hofwiesengasse").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Strozzigasse").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Urban-Loritz-Platz").
-restaurant("Elterleinplatz").
-restaurant("Schwechat Bahnhof").
-restaurant("Kagran").
-restaurant("Yppengasse").
-restaurant("Quellenstraße/Favoritenstraße").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Spittelau").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Winkeläckerstraße").
+sequence(2,0, "Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Schlickgasse").
+restaurant("Hardtgasse").
+restaurant("Wolf in der Au").
+restaurant("Zentralfriedhof 2Tor").
+restaurant("Gumpendorfer Straße").
 restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Staatz Bahnhof").
+restaurant("Matzleinsdorfer Platz").

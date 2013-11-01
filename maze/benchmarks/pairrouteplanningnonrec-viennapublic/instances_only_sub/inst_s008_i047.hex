@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Thaliastraße").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Thaliastraße").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Donaumarina").
+initlocation(1,"Wolf in der Au").
+sequence(1,0, "Großfeldsiedlung").
 person(2).
-initlocation($p,"Hirschstetten").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Donauinsel").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Hirschstetten").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Münchendorf Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Kettenbrückengasse").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Seestadt").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Neue Donau").
+sequence(2,0, "Fischamend Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+restaurant("Blumental").
+restaurant("Unteroberndorf Bahnhof").
 restaurant("Langenzersdorf Bahnhof").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Sankt Marx").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Keplerplatz").
+restaurant("Bisamberg Bahnhof").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Gerasdorf Bahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Hardeggasse").
+sequence(1,0, "Braunschweiggasse").
 person(2).
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Donauspital").
-initlocation($p,"Kapellerfeld Bahnhof").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Volkstheater").
-restaurant("Ottakring").
-restaurant("Volkstheater").
-restaurant("Rekawinkel Bahnhof").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Hausfeldstraße").
+sequence(2,0, "Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Kledering Bahnhof").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Atzgersdorf").
+restaurant("Schönborn Bahnhof").

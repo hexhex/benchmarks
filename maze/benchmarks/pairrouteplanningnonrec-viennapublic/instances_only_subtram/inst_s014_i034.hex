@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Absberggasse").
-initlocation($p,"Teichgasse").
-initlocation($p,"Erndtgasse").
-initlocation($p,"Margaretengürtel/Arbeitergasse").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Donauspital").
-initlocation($p,"Blindengasse").
-initlocation($p,"Liebknechtgasse").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Taborstraße/Heinestraße").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Siebensterngasse").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Absberggasse").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Guneschgasse").
+sequence(1,0, "Michelhausen Bahnhof").
 person(2).
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Löwengasse").
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Am Heidjöchl/Hausfeldstraße").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Rußbergstraße").
-possiblemeetinglocations("Karmeliterplatz").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Forstnergasse").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Krankenhaus Hietzing").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Strasshof Bahnhof").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Neulerchenfelder Str/Haberlg").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Sonnergasse").
+initlocation(2,"Kaiserstraße").
+initlocation(2,"Camillo-Sitte-Gasse").
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Stadtpark").
+initlocation(2,"Lederergasse").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+sequence(2,0, "Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
 possiblemeetinglocations("Radetzkyplatz").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Traismauer Bahnhof").
-restaurant("Liebknechtgasse").
-restaurant("Prater, Hauptallee").
-restaurant("Hütteldorfer Straße").
-restaurant("Fultonstraße").
-restaurant("Michelhausen Bahnhof").
-restaurant("Mannswörth Bahnhof").
-restaurant("Am Heumarkt").
-restaurant("Brünnlbadgasse").
-restaurant("Bösendorferstraße").
-restaurant("Kaiserstraße/Neustiftgasse").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Ober Sankt Veit").
-restaurant("Neue Donau").
-restaurant("Kraygasse").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+restaurant("Gasometer").
+restaurant("Hetzendorf").
+restaurant("Seyring Bahnhof").
+restaurant("Brünner Straße").
+restaurant("Rankgasse").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Forstnergasse").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Neulerchenfelder Str/Haberlg").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Weidlingau Bahnhof").
+restaurant("Julius-Raab-Platz").
+restaurant("Donauspital").
+restaurant("Sonnergasse").

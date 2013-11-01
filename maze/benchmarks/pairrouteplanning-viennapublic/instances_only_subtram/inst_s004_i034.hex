@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Siebensterngasse").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Höchstädtplatz").
+initlocation(1,"Kottingbrunn Bahnhof").
+sequence(1,0, "Kottingneusiedl Bahnhof").
 person(2).
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Skodagasse").
-initlocation($p,"Van-Swieten-Kaserne").
-initlocation($p,"Palffygasse").
-initlocation($p,"Schwedenplatz").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Kaiserebersdorf").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Lerchenfelder Straße").
+sequence(2,0, "Troststraße/Neilreichgasse").
+possiblemeetinglocations("Maria Ellend Bahnhof").
 possiblemeetinglocations("Sieveringer Straße").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-restaurant("Eckpergasse").
-restaurant("Atzgersdorf").
-restaurant("Oberfeldgasse").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Großfeldsiedlung").
+restaurant("Donaustadtbrücke").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Gutraterplatz").
+restaurant("Radetzkyplatz").

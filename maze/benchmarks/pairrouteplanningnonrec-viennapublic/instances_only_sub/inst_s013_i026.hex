@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Spittelau").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Schottentor").
-initlocation($p,"Kagran").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Alser Straße").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Unter Sankt Veit").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Simmering").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Braunschweiggasse").
+sequence(1,0, "Baden Bahnhof").
 person(2).
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Penzing").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Donauinsel").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Schlachthausgasse").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Liesing").
+initlocation(2,"Enkplatz").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+sequence(2,0, "Enkplatz").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
 possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-restaurant("Margaretengürtel").
-restaurant("Kritzendorf Bahnhof").
-restaurant("Hütteldorf").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Geiselbergstraße").
-restaurant("Alser Straße").
-restaurant("Götzendorf Bahnhof").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Großfeldsiedlung").
-restaurant("Blumental").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Rennweg").
+restaurant("Hütteldorfer Straße").
+restaurant("Stadion").
+restaurant("Rennweg").
+restaurant("Baden Bahnhof").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Längenfeldgasse").
+restaurant("Hirschstetten").
+restaurant("Wolf in der Au").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Thaliastraße").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Gersthof").
+restaurant("Seestadt").

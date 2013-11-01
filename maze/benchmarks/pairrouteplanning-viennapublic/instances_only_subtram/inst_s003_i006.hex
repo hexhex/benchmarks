@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Winkeläckerstraße").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+sequence(1,0, "Hirschstetten").
 person(2).
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Pokornygasse").
-initlocation($p,"Erndtgasse").
-initlocation($p,"Elterleinplatz").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-restaurant("Siemensstraße").
-restaurant("Westbahnhof").
-restaurant("Aumannplatz").
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+sequence(2,0, "Wittelsbachstraße").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+restaurant("Oberfeldgasse").
+restaurant("Paasdorf Bahnhof").
+restaurant("Klosterneub Str/Wallensteinstr").

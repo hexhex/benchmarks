@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Paulanergasse").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Perntergasse").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Yppengasse").
+initlocation(1,"Polgarstraße").
+sequence(1,0, "Höflein an der Donau Bahnhof").
 person(2).
-initlocation($p,"Yppengasse").
-initlocation($p,"Plößlgasse").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Sieveringer Straße").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Yppengasse").
-possiblemeetinglocations("Johann-Strauß-Gasse").
-possiblemeetinglocations("Erndtgasse").
-possiblemeetinglocations("Hintere Zollamtsstraße").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Volkstheater").
-restaurant("Pantucekgasse/Widholzgasse").
-restaurant("Erdbergstr/Schlachthausgasse").
-restaurant("Eichenstraße").
-restaurant("Siemensstraße").
-restaurant("Mariahilfer Gürtel").
+initlocation(2,"Baumgarten").
+initlocation(2,"Zentralfriedhof 4Tor").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Alterlaa").
+initlocation(2,"Stefan-Fadinger-Platz").
+sequence(2,0, "Baumgarten").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Staglgasse").
+restaurant("Längenfeldgasse").
+restaurant("Strozzigasse").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Mistelbach Stadt").
+restaurant("Polgarstraße").

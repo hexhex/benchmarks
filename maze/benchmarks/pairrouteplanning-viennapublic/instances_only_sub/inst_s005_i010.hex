@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Schottentor").
-initlocation($p,"Tulln Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Seestadt").
+initlocation(1,"Erdberg").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Niederhofstraße").
+sequence(1,0, "Schweglerstraße").
 person(2).
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-restaurant("Strebersdorf").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Aspern Nord").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Preyergasse/Speising").
+initlocation(2,"Lobau").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+sequence(2,0, "Lobau").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Hetzendorf").
+restaurant("Viehofen Bahnhof").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Hollabrunn Bahnhof").

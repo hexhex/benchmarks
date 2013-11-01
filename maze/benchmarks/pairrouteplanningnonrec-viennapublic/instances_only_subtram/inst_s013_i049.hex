@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Fultonstraße").
-initlocation($p,"Stadlergasse").
-initlocation($p,"Staglgasse").
-initlocation($p,"Diesterweggasse").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Fasangasse").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Volkstheater").
-initlocation($p,"Floridsdorfer Markt").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Hetzgasse").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Frauengasse").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Fasangasse").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Paulanergasse").
+sequence(1,0, "Wilfleinsdorf Bahnhof").
 person(2).
-initlocation($p,"Breitenfurter St/Altmannsd Str").
-initlocation($p,"Lerchenfelder Straße").
-initlocation($p,"Edmund-Hawranek-Platz").
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Seestadt").
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Plößlgasse").
-initlocation($p,"Rothneusiedl").
-initlocation($p,"Kutschkergasse").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Staglgasse").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-possiblemeetinglocations("Siebertgasse").
-possiblemeetinglocations("Laurentiusplatz").
-possiblemeetinglocations("Quellenplatz").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Migerkastraße").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Kraygasse").
-restaurant("Am Heumarkt").
-restaurant("Aspern, Oberdorfstraße").
-restaurant("Obersdorf Bahnhof").
-restaurant("Matthäus-Jiszda-Straße").
-restaurant("Herbeckstraße").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Reumannplatz").
-restaurant("Traismauer Bahnhof").
-restaurant("Columbusplatz").
-restaurant("Kaiserebersdorf").
-restaurant("Dürrwien Bahnhof").
-restaurant("Haslau an der Donau Bahnhof").
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Teichgasse").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+sequence(2,0, "Schwarzspanierstraße").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Stiftgasse").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Gunoldstraße").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Rathaus").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Wienerfeldgasse").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Aspernstraße").
+restaurant("Donauspital").
+restaurant("Brünner Straße/Hanreitergasse").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Hernals").

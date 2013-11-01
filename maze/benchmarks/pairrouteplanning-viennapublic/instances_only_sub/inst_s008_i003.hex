@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Seyring Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Nußdorf").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+sequence(1,0, "Karlsplatz").
 person(2).
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Traisengasse").
-initlocation($p,"Praterkai").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-restaurant("Messe-Prater").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Floridsdorf").
-restaurant("Donauinsel").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Gersthof").
-restaurant("Hirschstetten").
-restaurant("Kritzendorf Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Erdberg").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+sequence(2,0, "Gersthof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+restaurant("Nußdorfer Straße").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Baden Bahnhof").
+restaurant("Reumannplatz").
+restaurant("Ladendorf Bahnhof").
+restaurant("Leopoldau").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Wolf in der Au").

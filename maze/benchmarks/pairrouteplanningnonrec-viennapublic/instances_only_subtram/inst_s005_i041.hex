@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Kranzgasse").
-initlocation($p,"Brünnlbadgasse").
-initlocation($p,"Fichtnergasse").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Brigittaplatz").
-initlocation($p,"Kranzgasse").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+sequence(1,0, "Wittelsbachstraße").
 person(2).
-initlocation($p,"Wallrißstraße").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Wallrißstraße").
-possiblemeetinglocations("Fasangasse").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Grinzinger Straße").
-restaurant("Am Heidjöchl/Hausfeldstraße").
-restaurant("Langobardenstraße/Kapellenweg").
-restaurant("Döblinger Bad").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Blumengasse").
+initlocation(2,"Favoritenstraße/Troststraße").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Absberggasse").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+sequence(2,0, "Favoritenstraße/Troststraße").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Rathaus").
+restaurant("Siebenhirten").
+restaurant("Winkeläckerstraße").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Korneuburg Bahnhof").

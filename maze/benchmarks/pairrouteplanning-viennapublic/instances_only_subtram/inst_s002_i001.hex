@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Linzer Straße/Zehetnergasse").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Linzer Straße/Zehetnergasse").
+initlocation(1,"Simonygasse").
+initlocation(1,"Michelhausen Bahnhof").
+sequence(1,0, "Simonygasse").
 person(2).
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Hauffgasse").
-initlocation($p,"Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
-possiblemeetinglocations("Van-Swieten-Kaserne").
-restaurant("Breitenfurter St/Altmannsd Str").
-restaurant("Oberzellergasse").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+sequence(2,0, "Ober Sankt Veit").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Arminenstraße").
+restaurant("Volkstheater").
+restaurant("Schleiergasse").

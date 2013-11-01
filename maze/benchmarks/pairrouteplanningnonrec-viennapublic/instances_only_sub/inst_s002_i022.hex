@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
+initlocation(1,"Haidestraße").
+initlocation(1,"Zentralfriedhof").
+sequence(1,0, "Haidestraße").
 person(2).
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Münchendorf Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Zippererstraße").

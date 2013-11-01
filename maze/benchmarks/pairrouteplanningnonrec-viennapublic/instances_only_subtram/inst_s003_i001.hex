@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"Rustengasse").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Alte Donau").
+sequence(1,0, "Ulrichskirchen Bahnhof").
 person(2).
-initlocation($p,"Gloriettegasse").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Taborstraße").
-initlocation($p,"Gloriettegasse").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Shuttleworthstraße").
-possiblemeetinglocations("Empergergasse").
-restaurant("Wallensteinplatz").
-restaurant("Bernhardtstalgasse").
-restaurant("Mödling Bahnhof").
+initlocation(2,"Albertgasse").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+sequence(2,0, "Albertgasse").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Resselgasse").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Unter Sankt Veit").
+restaurant("Hütteldorf").

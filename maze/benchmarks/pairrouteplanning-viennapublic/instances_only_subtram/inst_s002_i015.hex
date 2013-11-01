@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Herrengasse").
-initlocation($p,"Gutraterplatz").
-initlocation($p,"Herrengasse").
+initlocation(1,"Forstnergasse").
+initlocation(1,"Bad Vöslau Bahnhof").
+sequence(1,0, "Forstnergasse").
 person(2).
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Kagraner Brücke").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-restaurant("Landesgerichtsstraße").
-restaurant("Weinhauser Gasse").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Mödling Bahnhof").
+sequence(2,0, "Michelhausen Bahnhof").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Neuwaldegg").
+restaurant("Weihburggasse").
+restaurant("Otto-Probst-Platz").

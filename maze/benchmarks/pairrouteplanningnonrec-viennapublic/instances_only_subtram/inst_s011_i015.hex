@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Scheibenbergstraße").
-initlocation($p,"Antonigasse").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Empergergasse").
-initlocation($p,"Rankgasse").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Scheibenbergstraße").
+initlocation(1,"Krieau").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Hietzing").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Schöffelgasse").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+sequence(1,0, "Krieau").
 person(2).
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Am Heidjöchl/Hausfeldstraße").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Kölblgasse").
-initlocation($p,"Sensengasse").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-possiblemeetinglocations("Rankgasse").
-possiblemeetinglocations("Diesterweggasse").
-possiblemeetinglocations("Lazarettgasse").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-possiblemeetinglocations("Stiftgasse").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Scheibenbergstraße").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-possiblemeetinglocations("Viehmarktgasse").
-possiblemeetinglocations("Innstraße").
-restaurant("Staglgasse").
-restaurant("Großjedlersdorf").
-restaurant("Halteraugasse").
-restaurant("Kaiserebersdorf").
-restaurant("Spillern Bahnhof").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Kaiser-Franz-Josef-Straße").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Fasangasse").
-restaurant("Barawitzkagasse").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Alaudagasse").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Rothneusiedl").
+sequence(2,0, "Landesgerichtsstraße").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Barawitzkagasse").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Lerchenfelder Straße").
+restaurant("Zippererstraße").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Althanstraße").
+restaurant("Zieglergasse/Westbahnstraße").
+restaurant("Burggasse-Stadthalle").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Karmeliterplatz").
+restaurant("Enkplatz").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Siebertgasse").

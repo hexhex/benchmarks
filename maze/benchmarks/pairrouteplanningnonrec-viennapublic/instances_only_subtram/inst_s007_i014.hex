@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Wittelsbachstraße").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
-initlocation($p,"Neuwaldegg").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Gottschalkgasse/Enkplatz").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Paulanergasse").
+sequence(1,0, "Lazarettgasse").
 person(2).
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Dr-Karl-Renner-Ring").
-initlocation($p,"Geiereckstraße").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Floridsdorfer Markt").
-possiblemeetinglocations("Langobardenstraße/Kapellenweg").
-possiblemeetinglocations("Himmelmutterweg").
-possiblemeetinglocations("Gerhardusgasse").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Baumgarten").
-restaurant("Rankgasse").
-restaurant("Hirschstetten").
-restaurant("Eckpergasse").
+initlocation(2,"Erdbergstr/Schlachthausgasse").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Wallensteinplatz").
+initlocation(2,"Volkstheater").
+initlocation(2,"Kölblgasse").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Konstanziagasse").
+sequence(2,0, "Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Strozzigasse").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Spittelau").
+restaurant("Gatterburggasse").
+restaurant("Schwedenplatz").
+restaurant("Flughafen Wien (VIE). Bahnhof").
 restaurant("Vorgartenstraße").
-restaurant("Mannswörth Bahnhof").
-restaurant("Rosensteingasse").
-restaurant("Kettenbrückengasse").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Sommarugagasse").
+restaurant("Kledering Bahnhof").

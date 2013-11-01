@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Enkplatz").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Korneuburg Bahnhof").
+sequence(1,0, "Hollabrunn Bahnhof").
 person(2).
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Sollenau Bahnhof").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+sequence(2,0, "Herzogenburg Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
 possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-restaurant("Fischamend Bahnhof").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Jedlersdorf").
-restaurant("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Roßauer Lände").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+restaurant("Donaumarina").
+restaurant("Stadtpark").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Obersdorf Bahnhof").
 restaurant("Oberolberndorf Bahnhof").
-restaurant("Schottenring").
-restaurant("Gasometer").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Mistelbach Stadt").
+restaurant("Ebenfurth Bahnhof").

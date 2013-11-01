@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Penzing").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Lobau").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Penzing").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Alterlaa").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Haidestraße").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Guntersdorf Bahnhof").
+sequence(1,0, "Stockerau Bahnhof").
 person(2).
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Untertullnerbach Bahnhof").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Michelhausen Bahnhof").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Praterstern").
+sequence(2,0, "Schönborn Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Taborstraße").
 possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Nußdorfer Straße").
-restaurant("Schleinbach Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Gumpendorfer Straße").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Erzherzog-Karl-Straße").
 restaurant("Oberradlberg Bahnhof").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Schlachthausgasse").
-restaurant("Baden Bahnhof").
-restaurant("Stadlau").
-restaurant("Pilgramgasse").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Mannswörth Bahnhof").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Kapellerfeld Bahnhof").
-restaurant("Quartier Belvedere").
+restaurant("Handelskai").
+restaurant("Spillern Bahnhof").
+restaurant("Hofstatt Bahnhof").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Gaisruck Bahnhof").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Volkstheater").

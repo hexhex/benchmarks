@@ -12,6 +12,7 @@ edge(StopName1, StopName2, Cost, LineName) :-	platform(ID1, LineID, StopID1, Dir
 costsPerLine(Name, 2)			:-	line(ID, Name, Sequence, Realtime, "ptTrainS", Date).
 %costsPerLine(Name, 5)			:-	line(ID, Name, Sequence, Realtime, "ptBusNight", Date).
 %costsPerLine(Name, 3)			:-	line(ID, Name, Sequence, Realtime, "ptTram", Date).
+%costsPerLine(Name, 3)                   :-      line(ID, Name, Sequence, Realtime, "ptTramWLB", Date).
 costsPerLine(Name, 1)			:-	line(ID, Name, Sequence, Realtime, "ptMetro", Date).
 %costsPerLine(Name, 4)			:-	line(ID, Name, Sequence, Realtime, "ptBusCity", Date).
 

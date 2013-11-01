@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Praterkai").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Hadersdorf Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Hietzing").
+sequence(1,0, "Zippererstraße").
 person(2).
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Margaretengürtel").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Pottendorf-Landegg Bahnhof").
-restaurant("Preyergasse/Speising").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Guntersdorf Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Josefstädter Straße").
+sequence(2,0, "Himberg Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Siemensstraße").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Handelskai").

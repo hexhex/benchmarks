@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Saikogasse").
-initlocation($p,"Halteraugasse").
-initlocation($p,"Gusenleithnergasse").
-initlocation($p,"Floridsdorfer Brücke").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Saikogasse").
+initlocation(1,"Zentralfriedhof 2Tor").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Roßauer Lände").
+sequence(1,0, "Zentralfriedhof 2Tor").
 person(2).
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Halteraugasse").
-initlocation($p,"Rankgasse").
-initlocation($p,"Hintere Zollamtsstraße").
-initlocation($p,"Fickeysstraße").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Wattmanngasse").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Siemensstraße").
-restaurant("Aspernstraße").
-restaurant("Stockerau Bahnhof").
-restaurant("Helmahof Bahnhof").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Herbeckstraße").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Liechtenwerder Platz").
+sequence(2,0, "Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Sensengasse").
+restaurant("Frödenplatz").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Fultonstraße").
+restaurant("Hetzendorf").
+restaurant("Zellerndorf Bahnhof").

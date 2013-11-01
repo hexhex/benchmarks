@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Praterkai").
-initlocation($p,"Handelskai").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Korneuburg Bahnhof").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+sequence(1,0, "Platt Bahnhof").
 person(2).
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Höbersdorf Bahnhof").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-restaurant("Breitensee").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Blumental").
-restaurant("Aspernstraße").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Traisengasse").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Niederhofstraße").
+sequence(2,0, "Erzherzog-Karl-Straße").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Praterstern").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Gänserndorf Bahnhof").

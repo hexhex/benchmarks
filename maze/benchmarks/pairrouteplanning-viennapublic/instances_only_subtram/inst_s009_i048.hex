@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Laxenburger Straße/Troststraße").
-initlocation($p,"Simmering").
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Gusenleithnergasse").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Taborstraße/Heinestraße").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Laxenburger Straße/Troststraße").
+initlocation(1,"Hernals").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Haidestraße").
+initlocation(1,"Wallrißstraße").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Lerchenfelder Straße").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Hernals").
 person(2).
-initlocation($p,"Aumannplatz").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Gutraterplatz").
-initlocation($p,"Bahnhofstraße").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Resselgasse").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Aumannplatz").
-possiblemeetinglocations("Paulanergasse").
-possiblemeetinglocations("Kleistgasse").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Autokaderstraße").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Gußhausstraße").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Erndtgasse").
-restaurant("Wilhelminenstraße/Wattgasse").
-restaurant("Sieveringer Straße").
-restaurant("Liebknechtgasse").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Viehmarktgasse").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Bauernfeldplatz").
-restaurant("Pötzleinsdorf").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Weinhauser Gasse").
+sequence(2,0, "Margaretengürtel").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Sechskrügelgasse").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Kranzgasse").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Radetzkyplatz").
+restaurant("Geiselbergstraße").
+restaurant("Längenfeldgasse").
+restaurant("Spillern Bahnhof").
+restaurant("Prater, Hauptallee").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Seestadt").
+restaurant("Wexstraße").
+restaurant("Hermesstraße").
+restaurant("Regelsbrunn Bahnhof").

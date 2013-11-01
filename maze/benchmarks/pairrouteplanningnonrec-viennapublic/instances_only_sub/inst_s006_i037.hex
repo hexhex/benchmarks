@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Lobau").
-initlocation($p,"Hofstatt Bahnhof").
+initlocation(1,"Alterlaa").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Alte Donau").
+sequence(1,0, "Alterlaa").
 person(2).
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Dresdner Straße").
-restaurant("Hausfeldstraße").
-restaurant("Tulln Bahnhof").
-restaurant("Dürrwien Bahnhof").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Seyring Bahnhof").
+sequence(2,0, "Strebersdorf").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Neubaugasse").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Haslau an der Donau Bahnhof").

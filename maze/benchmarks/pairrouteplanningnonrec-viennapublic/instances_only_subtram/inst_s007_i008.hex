@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Wallensteinplatz").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Palffygasse").
-initlocation($p,"Polgarstraße").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Skodagasse").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+initlocation(1,"Donaumarina").
+initlocation(1,"Alterlaa").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Stadiongasse/Parlament").
+sequence(1,0, "Skodagasse").
 person(2).
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Aspern, Oberdorfstraße").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Donaumarina").
-initlocation($p,"Kendlerstraße").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Oberfeldgasse").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Marx-Meidlinger-Straße").
-possiblemeetinglocations("Brünner Straße/Hanreitergasse").
-possiblemeetinglocations("Dornbacher Straße").
-possiblemeetinglocations("Gellertplatz").
-restaurant("Karmeliterplatz").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Yppengasse").
-restaurant("Am Spitz").
-restaurant("Kledering Bahnhof").
-restaurant("Strasshof Bahnhof").
-restaurant("Bahnsteggasse").
+initlocation(2,"Rathaus").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Julius-Raab-Platz").
+initlocation(2,"Breitensee").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+sequence(2,0, "Rathaus").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+restaurant("Trondheimgasse").
+restaurant("Traisengasse").
+restaurant("Atzgersdorfer Straße").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Laurentiusplatz").
+restaurant("Römergasse").

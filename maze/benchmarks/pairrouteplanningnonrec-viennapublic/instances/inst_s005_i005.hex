@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Hildebrandgasse").
-initlocation(1,"Burggasse-Stadthalle").
-initlocation(1,"An den alten Schanzen").
-initlocation(1,"Josef-Meder-Gasse").
-initlocation(1,"Edelsteingasse").
-sequence(1,0, "Hildebrandgasse").
+initlocation(1,"Esterhazygasse").
+initlocation(1,"Schottentor").
+initlocation(1,"Simonygasse").
+initlocation(1,"Lehenstraße").
+initlocation(1,"Laurentiusplatz").
+sequence(1,0, "Esterhazygasse").
 person(2).
-initlocation(2,"Mistelbach Bahnhof").
-initlocation(2,"Ober Sankt Veit").
-initlocation(2,"Südwestfriedhof 8Tor").
-initlocation(2,"Schrebergasse").
-initlocation(2,"Edenstraße").
-sequence(2,0, "Mistelbach Bahnhof").
-possiblemeetinglocations("Engerthstraße/Traisengasse").
-possiblemeetinglocations("Sankt-Ulrichs-Platz").
-possiblemeetinglocations("Tribuswinkel-Josefsthal Bf").
-possiblemeetinglocations("Ultzmanngasse").
-possiblemeetinglocations("Maria Enzersdorf-Südstadt Bf").
-restaurant("Scheibenbergstraße").
-restaurant("Pumgasse").
-restaurant("Brunner Straße/Erlaaer Straße").
-restaurant("Breitensee").
-restaurant("Oberlaaer Platz").
+initlocation(2,"Anton-Stilling-Platz").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Ramperstorffergasse").
+initlocation(2,"Vivariumstraße").
+sequence(2,0, "Anton-Stilling-Platz").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Alberner Straße").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Mühlweg").
+restaurant("Krapfenwaldgasse").
+restaurant("Obergfellplatz").
+restaurant("Florian-Geyer-Gasse").
+restaurant("Possingergasse/Koppstraße").
+restaurant("Linzer Straße/Zehetnergasse").

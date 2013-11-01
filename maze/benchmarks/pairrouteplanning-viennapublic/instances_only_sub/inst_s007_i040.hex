@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Rennweg").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Herzogenburg Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+sequence(1,0, "Rennweg").
 person(2).
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Breitensee").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Korneuburg Bahnhof").
-restaurant("Donauinsel").
-restaurant("Margaretengürtel").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Museumsquartier").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Alterlaa").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+sequence(2,0, "Perfektastraße").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Wolf in der Au").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Perfektastraße").
+restaurant("Roßauer Lände").
+restaurant("Paasdorf Bahnhof").
+restaurant("Korneuburg Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").

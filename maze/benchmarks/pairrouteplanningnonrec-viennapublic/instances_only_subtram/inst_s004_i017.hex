@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Kranzgasse").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Stubentor").
-initlocation($p,"Kranzgasse").
+initlocation(1,"Migerkastraße").
+initlocation(1,"Gewerbepark Stadlau Mitte").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Ebreichsdorf Bahnhof").
+sequence(1,0, "Migerkastraße").
 person(2).
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Zieglergasse/Westbahnstraße").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Regelsbrunn Bahnhof").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Nordwestbahnstraße").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Aumannplatz").
-restaurant("Süßenbrunn").
-restaurant("Türkenschanzplatz").
-restaurant("Aderklaaer Straße").
-restaurant("Dürrwien Bahnhof").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Nußdorf").
+sequence(2,0, "Großjedlersdorf").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Alaudagasse").
+restaurant("Trasdorf Bahnhof").
+restaurant("Kaiserstraße").
+restaurant("Schweglerstraße").
+restaurant("Grinzinger Straße").

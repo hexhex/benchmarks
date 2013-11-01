@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Wolf in der Au").
+initlocation(1,"Simmering").
+sequence(1,0, "Simmering").
 person(2).
-initlocation($p,"Klosterneub Str/Wallensteinstr").
-initlocation($p,"Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Hardeggasse").
-restaurant("Schottenfeldgasse").
+initlocation(2,"Brünner Straße").
+sequence(2,0, "Brünner Straße").
+possiblemeetinglocations("Wienerbergbrücke").
+restaurant("Riedelgasse").

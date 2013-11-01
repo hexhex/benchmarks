@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Stadlau").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Alser Straße").
-initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Gemeinlebarn Bahnhof").
+sequence(1,0, "Stephansplatz").
 person(2).
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Krieau").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Perfektastraße").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Korneuburg Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Wildungsmauer Bahnhof").
+sequence(2,0, "Großfeldsiedlung").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Unter Sankt Veit").
+restaurant("Hardeggasse").
+restaurant("Klosterneuburg-Kierling Bf").

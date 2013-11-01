@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Mistelbach Stadt").
+initlocation(1,"Stadlau").
+initlocation(1,"Erdberg").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Kettenbrückengasse").
+sequence(1,0, "Stadlau").
 person(2).
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Michelbeuern-AKH").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+sequence(2,0, "Oberdöbling").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
 possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-restaurant("Schottentor").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Donauinsel").
-restaurant("St Pölten Hauptbahnhof").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Pressbaum Bahnhof").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Leopoldau").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Schöffelgasse").
-initlocation($p,"Arminenstraße").
-initlocation($p,"Fichtnergasse").
-initlocation($p,"Schöffelgasse").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Nußdorf, Beethovengang").
+sequence(1,0, "Reinlgasse/Märzstraße").
 person(2).
-initlocation($p,"Hernalser Gürtel").
-initlocation($p,"Augasse").
-initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
-initlocation($p,"Hernalser Gürtel").
-possiblemeetinglocations("Viehmarktgasse").
-possiblemeetinglocations("Zentralfriedhof 4Tor").
-possiblemeetinglocations("Siebenhirten").
-restaurant("Linzer Straße/Zehetnergasse").
-restaurant("Franz-Asenbauer-Gasse").
-restaurant("Carminweg").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Oberfeldgasse/Spargelfeldstr").
+initlocation(2,"Höflein an der Donau Bahnhof").
+sequence(2,0, "Helmahof Bahnhof").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+restaurant("Jedlersdorf").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Traisengasse").

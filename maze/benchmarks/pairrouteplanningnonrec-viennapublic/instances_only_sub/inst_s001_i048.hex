@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+sequence(1,0, "Untertullnerbach Bahnhof").
 person(2).
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Breitenwaida Bahnhof").
-possiblemeetinglocations("Taubstummengasse").
-restaurant("Traismauer Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+sequence(2,0, "Helmahof Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+restaurant("Rennbahnweg").

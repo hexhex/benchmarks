@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Breitenwaida Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Museumsquartier").
+sequence(1,0, "Herrengasse").
 person(2).
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Silberwald Bahnhof").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Blumental").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Westbahnhof").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Johnstraße").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Brünner Straße").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Währinger Straße-Volksoper").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Rennweg").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Seestadt").
+sequence(2,0, "Seyring Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+restaurant("Stockerau Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Traismauer Bahnhof").
+restaurant("Michelhausen Bahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Vorgartenstraße").
+restaurant("Seyring Bahnhof").
+restaurant("Josefstädter Straße").
+restaurant("Stadtpark").
+restaurant("Kettenbrückengasse").

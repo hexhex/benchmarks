@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Hernals").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Lobau").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Langenzersdorf Bahnhof").
+sequence(1,0, "Obersdorf Bahnhof").
 person(2).
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Bisamberg Bahnhof").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-restaurant("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Siemensstraße").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Erlaaer Straße").
-restaurant("Gaisruck Bahnhof").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Viehofen Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Michelbeuern-AKH").
+sequence(2,0, "Viehofen Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Siemensstraße").
+restaurant("Spittelau").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Traisengasse").
+restaurant("Messe-Prater").
+restaurant("Hainburg/Donau Personenbhf").

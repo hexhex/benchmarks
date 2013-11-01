@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Zieglergasse").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Donaumarina").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Zieglergasse").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Donauspital").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+sequence(1,0, "Kottingneusiedl Bahnhof").
 person(2).
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Stubentor").
-initlocation($p,"Praterkai").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Schottentor").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Atzgersdorf").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Paasdorf Bahnhof").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Rennweg").
-restaurant("Alterlaa").
-restaurant("Himberg Bahnhof").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Krieau").
-restaurant("Michelhausen Bahnhof").
-restaurant("Donaumarina").
-restaurant("Am Schöpfwerk").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Wolf in der Au").
+sequence(2,0, "Aspern Nord").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Wr Neustadt Nord").
+restaurant("Donauspital").
+restaurant("Bisamberg Bahnhof").
+restaurant("Rennbahnweg").
+restaurant("Münchendorf Bahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Sankt Marx").

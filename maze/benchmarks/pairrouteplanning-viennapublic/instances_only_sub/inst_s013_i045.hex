@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Spittelau").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Nußdorf").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Penzing").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Krieau").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Geiselbergstraße").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Messe-Prater").
+sequence(1,0, "Mannswörth Bahnhof").
 person(2).
-initlocation($p,"Lobau").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Praterkai").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Gersthof").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Lobau").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Stadlau").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Grillgasse").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Kendlerstraße").
-restaurant("Silberwald Bahnhof").
-restaurant("Felixdorf Bahnhof").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Sierndorf Bahnhof").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Münchendorf Bahnhof").
-restaurant("Hietzing").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Stadtpark").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Johnstraße").
+initlocation(2,"Rathaus").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+sequence(2,0, "Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Westbahnhof").
+restaurant("Götzendorf Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Jägerstraße").
+restaurant("Liesing").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Alser Straße").
+restaurant("Weidlingau Bahnhof").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("St Pölten Traisenpark P+R Nord").

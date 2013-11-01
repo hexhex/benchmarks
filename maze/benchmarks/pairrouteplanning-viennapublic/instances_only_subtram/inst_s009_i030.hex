@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Rankgasse").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Pötzleinsdorf").
-initlocation($p,"Rankgasse").
+initlocation(1,"Leopoldau").
+initlocation(1,"Siebenhirten (NÖ). Haltestelle").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Waidhausenstraße").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Schöffelgasse").
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+sequence(1,0, "Leopoldau").
 person(2).
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Glatzgasse").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Gunoldstraße").
-initlocation($p,"Ebenfurth Bahnhof").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Canisiusgasse").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Schleiergasse").
-possiblemeetinglocations("Fasangasse").
-possiblemeetinglocations("Otto-Probst-Platz").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Molitorgasse").
-restaurant("Brigittaplatz").
-restaurant("Migerkastraße").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Rankgasse").
-restaurant("Friedensbrücke").
-restaurant("Lerchenfelder Straße").
-restaurant("Friedrich-Engels-Platz").
-restaurant("Laxenburger Straße/Troststraße").
-restaurant("Valiergasse").
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Herbeckstraße").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Wienerfeldgasse").
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Burgring").
+initlocation(2,"Münchendorf Bahnhof").
+sequence(2,0, "Höchstädtplatz").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+restaurant("Julius-Raab-Platz").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Pressbaum Bahnhof").
+restaurant("Joachimsthalerplatz").
+restaurant("Hofwiesengasse").
+restaurant("Siebertgasse").
+restaurant("Alsegger Straße").
+restaurant("Sonnergasse").
+restaurant("Leyserstraße").

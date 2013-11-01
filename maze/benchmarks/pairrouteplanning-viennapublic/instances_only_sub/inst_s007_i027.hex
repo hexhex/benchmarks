@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Rathaus").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Rathaus").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Donauspital").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Rathaus").
+initlocation(1,"Blumental").
+sequence(1,0, "Thaliastraße").
 person(2).
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Bad Vöslau Bahnhof").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Donauspital").
-restaurant("Alser Straße").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Weidlingau Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Neubaugasse").
+sequence(2,0, "Zentralfriedhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+restaurant("Michelhausen Bahnhof").
+restaurant("Traisengasse").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Unter Kritzendorf Bahnhof").

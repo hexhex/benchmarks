@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Aßmayergasse").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Erndtgasse").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Aßmayergasse").
+initlocation(1,"Althanstraße").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Marxergasse").
+initlocation(1,"Herbeckstraße").
+initlocation(1,"Zentralfriedhof 2Tor").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Höbersdorf Bahnhof").
+sequence(1,0, "Althanstraße").
 person(2).
-initlocation($p,"Liesing").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Thaliastraße/Brunnengasse").
-initlocation($p,"Maurer Hauptplatz").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Liesing").
-possiblemeetinglocations("Rustengasse").
-possiblemeetinglocations("Baumgarten").
-possiblemeetinglocations("Paradisgasse").
-possiblemeetinglocations("Hetzgasse").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Blumengasse").
-possiblemeetinglocations("Pantucekgasse/Widholzgasse").
-possiblemeetinglocations("Knöllgasse/Davidgasse").
-restaurant("Floridsdorf").
-restaurant("Perfektastraße").
-restaurant("Wittelsbachstraße").
-restaurant("Jägerstraße").
-restaurant("Gersthof").
-restaurant("Linzer Straße/Hochsatzengasse").
-restaurant("Spillern Bahnhof").
-restaurant("Konstanziagasse").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Molitorgasse").
+initlocation(2,"Johann-Nepomuk-Berger-Platz").
+initlocation(2,"Ottakring").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Theresienfeld Bahnhof").
+sequence(2,0, "Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+restaurant("Nestroyplatz").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Michelbeuern-AKH").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Neue Donau").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Dresdner Straße").
+restaurant("Wenzgasse").

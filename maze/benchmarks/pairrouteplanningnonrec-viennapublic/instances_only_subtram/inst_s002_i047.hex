@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Bösendorferstraße").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Bösendorferstraße").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Hütteldorf, Bujattigasse").
+sequence(1,0, "Schleinbach Bahnhof").
 person(2).
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
-restaurant("Hermesstraße").
-restaurant("Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Hermesstraße").
+sequence(2,0, "Regelsbrunn Bahnhof").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Schleinbach Bahnhof").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Herzogenburg Stadt").

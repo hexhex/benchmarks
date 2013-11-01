@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Seestadt").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Alte Donau").
-initlocation($p,"Seestadt").
+initlocation(1,"Rathaus").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Ladendorf Bahnhof").
+sequence(1,0, "Rathaus").
 person(2).
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Rennbahnweg").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Blumental").
-restaurant("Thaliastraße").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Traismauer Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Donaumarina").
+sequence(2,0, "Krieau").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Seyring Bahnhof").
+restaurant("Atzgersdorf").
+restaurant("Klosterneuburg-Weidling Bf").

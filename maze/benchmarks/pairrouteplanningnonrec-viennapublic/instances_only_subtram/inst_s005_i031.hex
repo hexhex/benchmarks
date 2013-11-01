@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Troststraße/Neilreichgasse").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Alterlaa").
-initlocation($p,"Kaisermühlen-VIC").
+initlocation(1,"Haidestraße").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Carminweg").
+initlocation(1,"Van-Swieten-Kaserne").
+sequence(1,0, "Haidestraße").
 person(2).
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Krieau").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Wilhelminenstr/Sandleitengasse").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-possiblemeetinglocations("Fasangasse").
-possiblemeetinglocations("Prater, Hauptallee").
-possiblemeetinglocations("Kölblgasse").
-possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Franzensbrücke").
-restaurant("Lobau").
-restaurant("Löwengasse").
-restaurant("Guntherstraße").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Gumpendorfer Straße").
+initlocation(2,"Matthäus-Jiszda-Straße").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Alterlaa").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Althanstraße").
+sequence(2,0, "Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Yppengasse").
+restaurant("Strebersdorf").
+restaurant("Blechturmgasse").

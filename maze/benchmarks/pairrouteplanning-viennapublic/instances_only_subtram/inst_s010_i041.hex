@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Römergasse").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Kranzgasse").
-initlocation($p,"Hintere Zollamtsstraße").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Lobau").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Paradisgasse").
+initlocation(1,"Anschützgasse").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Marxergasse").
+initlocation(1,"Spillern Bahnhof").
+sequence(1,0, "Schmerlingplatz").
 person(2).
-initlocation($p,"Jägerstraße").
-initlocation($p,"Beingasse").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Anton-Schall-Gasse").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Palffygasse").
-initlocation($p,"Hopfengasse").
-initlocation($p,"Jägerstraße").
-possiblemeetinglocations("Koppstraße/Panikengasse").
-possiblemeetinglocations("Pantucekgasse/Widholzgasse").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Siebertgasse").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Ober Sankt Veit").
-restaurant("Innstraße").
-restaurant("Johnstraße").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Breitenfurter St/Altmannsd Str").
-restaurant("Pfaffstätten Bahnhof").
-restaurant("Rebhanngasse").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Börsegasse/Wipplingerstraße").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Wattmanngasse").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Heinrich-Drimmel-Platz").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Breitenfurter Str/Liesingbr").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Zentralfriedhof 1Tor").
+sequence(2,0, "Vinzenzgasse").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Praterstern").
+restaurant("Burgring").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Siebenhirten").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Guntherstraße").
+restaurant("Hausleiten Bahnhof").
+restaurant("Polkorabplatz").
+restaurant("Schuhmeierplatz").
+restaurant("Hirschstetten").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Florianigasse").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Fichtnergasse").
-initlocation($p,"Kagran").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Wattmanngasse").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Quellenstraße/Knöllgasse").
+sequence(1,0, "Wattmanngasse").
 person(2).
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Lazarettgasse").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Jedlersdorf").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Verbindungsbahn").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Barawitzkagasse").
-possiblemeetinglocations("Oberfeldgasse").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Bernhardtstalgasse").
-restaurant("Arthaberplatz").
-restaurant("Prinzgasse").
-restaurant("Hardtgasse").
-restaurant("Hennersdorf Bahnhof").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Carminweg").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Albertgasse").
+initlocation(2,"Volkstheater").
+initlocation(2,"Am Heumarkt").
+sequence(2,0, "Matzleinsdorfer Platz").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Rankgasse").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+possiblemeetinglocations("Canisiusgasse").
+restaurant("Stockholmer Platz").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Baden Bahnhof").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Absberggasse").
+restaurant("Frauengasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").

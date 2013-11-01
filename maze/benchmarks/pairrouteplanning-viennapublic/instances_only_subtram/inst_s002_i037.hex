@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Troststraße/Neilreichgasse").
-initlocation($p,"Unterradlberg Bahnhof").
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+initlocation(1,"Ebenfurth Bahnhof").
+sequence(1,0, "Kaiserebersdorf, Zinnergasse").
 person(2).
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Neubaugasse/Westbahnstraße").
-possiblemeetinglocations("Penzing").
-restaurant("Glatzgasse").
-restaurant("Zehetnerg/Pflegeh Baumgarten").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Johann-Strauß-Gasse").
+sequence(2,0, "Neilreichgasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Strebersdorf").

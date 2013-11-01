@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Haidestraße").
-initlocation($p,"Hietzing").
-initlocation($p,"Laxenburger Straße/Troststraße").
-initlocation($p,"Liesing").
-initlocation($p,"Haidestraße").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Siebensterngasse").
+sequence(1,0, "Burggasse-Stadthalle").
 person(2).
-initlocation($p,"Handelskai").
-initlocation($p,"Hohe Warte").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Handelskai").
-possiblemeetinglocations("Migerkastraße").
-possiblemeetinglocations("Florianigasse").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Staatz Bahnhof").
-restaurant("Linzer Straße/Hochsatzengasse").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Schöffelgasse").
-restaurant("Tesarekplatz").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Karmeliterplatz").
+sequence(2,0, "Guntherstraße").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Siebertgasse").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Traismauer Bahnhof").
+restaurant("Korneuburg Bahnhof").
+restaurant("Oberfeldgasse").

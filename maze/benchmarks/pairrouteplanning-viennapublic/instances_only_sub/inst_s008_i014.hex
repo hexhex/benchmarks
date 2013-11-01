@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Wr Neustadt Nord").
+initlocation(1,"Traisengasse").
+initlocation(1,"Stadion").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Herrengasse").
+sequence(1,0, "Traisengasse").
 person(2).
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Rennweg").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Roßauer Lände").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Herzogenburg Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Stadlau").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Hietzing").
+sequence(2,0, "Fischamend Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+restaurant("Dresdner Straße").
+restaurant("Niederhofstraße").
+restaurant("Mannswörth Bahnhof").
+restaurant("Mödling Bahnhof").
 restaurant("Münchendorf Bahnhof").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Gaisruck Bahnhof").
-restaurant("Ottakring").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Stadlau").
-restaurant("Zieglergasse").
-restaurant("Landstraße-Wien Mitte").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Ober Sankt Veit").

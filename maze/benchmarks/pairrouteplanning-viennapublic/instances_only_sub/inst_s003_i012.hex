@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Spillern Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Niederhofstraße").
+sequence(1,0, "Michelbeuern-AKH").
 person(2).
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Oberradlberg Bahnhof").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Vorgartenstraße").
-restaurant("Keplerplatz").
-restaurant("Erlaaer Straße").
-restaurant("Liesing").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Matzleinsdorfer Platz").
+sequence(2,0, "Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+restaurant("Felixdorf Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Donaumarina").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Neue Donau").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Fischamend Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Donauinsel").
+sequence(1,0, "Stephansplatz").
 person(2).
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Stadion").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Schottentor").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(2,0, "Sitzenberg-Reidling Bahnhof").
 possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-restaurant("Quartier Belvedere").
-restaurant("Retz Bahnhof").
-restaurant("Kaisermühlen-VIC").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Strasshof Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+restaurant("Aspernstraße").
+restaurant("Traisengasse").
+restaurant("Wolf in der Au").
+restaurant("Kendlerstraße").
+restaurant("Gumpoldskirchen Bahnhof").
 restaurant("Nußdorf").
+restaurant("Gaisruck Bahnhof").

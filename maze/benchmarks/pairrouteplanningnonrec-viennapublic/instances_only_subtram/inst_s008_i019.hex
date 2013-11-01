@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Rustengasse").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Stollgasse").
-initlocation($p,"Stubentor").
-initlocation($p,"Waidhausenstraße").
-initlocation($p,"Blumental").
-initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Donaustadtstraße").
+sequence(1,0, "Hörersdorf Bahnhof").
 person(2).
-initlocation($p,"Paulanergasse").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Stefan-Fadinger-Platz").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Paulanergasse").
-possiblemeetinglocations("Lazarettgasse").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Friedrich-Engels-Platz").
-possiblemeetinglocations("Satzberggasse").
-possiblemeetinglocations("Nußdorf, Beethovengang").
-possiblemeetinglocations("Traismauer Bahnhof").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Lederergasse").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Fasangasse").
+sequence(2,0, "Pokornygasse").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Obere Augartenstraße").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Prinzgasse").
 possiblemeetinglocations("Wenzgasse").
-possiblemeetinglocations("Liechtenwerder Platz").
-restaurant("Otto-Probst-Platz").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Krottenbachstraße").
-restaurant("Ottakring").
-restaurant("Verbindungsbahn").
-restaurant("Enkplatz").
-restaurant("Marx-Meidlinger-Straße").
-restaurant("Molitorgasse").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Am Spitz").
+restaurant("Donaumarina").
+restaurant("Viehofen Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Sierndorf Bahnhof").

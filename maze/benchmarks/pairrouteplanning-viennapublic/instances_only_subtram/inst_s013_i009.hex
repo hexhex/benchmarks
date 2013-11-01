@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Edmund-Hawranek-Platz").
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Nußdorf").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Troststraße/Neilreichgasse").
-initlocation($p,"Dornbacher Straße").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Rampengasse").
-initlocation($p,"Hermesstraße").
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Burggasse-Stadthalle").
+initlocation(1,"Seestadt").
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(1,"Glatzgasse").
+initlocation(1,"Skodagasse").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Ottakring").
+sequence(1,0, "Seestadt").
 person(2).
-initlocation($p,"Scheibenbergstraße").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Barawitzkagasse").
-initlocation($p,"Grillgasse").
-initlocation($p,"Teichgasse").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Vinzenzgasse").
-initlocation($p,"Camillo-Sitte-Gasse").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Johnstraße").
-initlocation($p,"Marxergasse").
-initlocation($p,"Scheibenbergstraße").
-possiblemeetinglocations("Taborstraße/Heinestraße").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Thaliastraße/Feßtgasse").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Höchstädtplatz").
-possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Unteres Belvedere").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Fasangasse").
-possiblemeetinglocations("Prater, Hauptallee").
-possiblemeetinglocations("Rauscherstraße").
-possiblemeetinglocations("Bahnsteggasse").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Dommayergasse").
-restaurant("Scheibenbergstraße").
-restaurant("Arthaberplatz").
-restaurant("Bahnhof Meidling").
-restaurant("Schwarzenbergplatz").
-restaurant("Barawitzkagasse").
-restaurant("Gatterburggasse").
-restaurant("Hubertusdamm").
-restaurant("Karlsplatz").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Bernhardtstalgasse").
-restaurant("Schleiergasse").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Alser Straße").
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Halteraugasse").
+initlocation(2,"Frauengasse").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+sequence(2,0, "Hautzendorf Bahnhof").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Yppengasse").
+possiblemeetinglocations("Geiselbergstraße").
+restaurant("Kleistgasse").
+restaurant("Trasdorf Bahnhof").
+restaurant("Hintere Zollamtsstraße").
+restaurant("Praterkai").
+restaurant("Weidlingau Bahnhof").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Strozzigasse").
+restaurant("Eckpergasse").
+restaurant("Halteraugasse").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Schlachthausgasse").
+restaurant("Mannswörth Bahnhof").
+restaurant("Am Tabor").

@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+sequence(1,0, "Unter Kritzendorf Bahnhof").
 person(2).
-initlocation($p,"Siemensstraße").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Alte Donau").
-initlocation($p,"Siemensstraße").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Strasshof Bahnhof").
-restaurant("Thaliastraße").
-restaurant("Dürrwien Bahnhof").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Schottentor").
-restaurant("Zippererstraße").
+initlocation(2,"Neue Donau").
+initlocation(2,"Stadlau").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Sollenau Bahnhof").
+sequence(2,0, "Neue Donau").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Neulengbach Bahnhof").
+restaurant("Niederhofstraße").
+restaurant("Strasshof Bahnhof").

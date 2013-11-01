@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Johnstraße").
-initlocation($p,"Donaumarina").
-initlocation($p,"Praterstern").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Johnstraße").
+initlocation(1,"Volkstheater").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Hofstatt Bahnhof").
+sequence(1,0, "Volkstheater").
 person(2).
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Süßenbrunn").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Gersthof").
-restaurant("Donauinsel").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Höflein an der Donau Bahnhof").
+sequence(2,0, "Achau Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Oberdöbling").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Brünner Straße").
+restaurant("St Pölten Hauptbahnhof").

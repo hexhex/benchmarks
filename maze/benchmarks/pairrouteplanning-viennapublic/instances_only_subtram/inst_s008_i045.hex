@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Hoßplatz").
-initlocation($p,"Himmelmutterweg").
-initlocation($p,"Leberberg").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Erdbergstr/Schlachthausgasse").
-initlocation($p,"Hoßplatz").
+initlocation(1,"Josef-Baumann-Gasse").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+initlocation(1,"Herrengasse").
+initlocation(1,"Hadersdorf Bahnhof").
+sequence(1,0, "Josef-Baumann-Gasse").
 person(2).
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Leberberg").
-initlocation($p,"Oberfeldgasse/Spargelfeldstr").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-possiblemeetinglocations("Sensengasse").
-possiblemeetinglocations("Breitenfurter Str/Liesingbr").
-possiblemeetinglocations("Lazarettgasse").
-possiblemeetinglocations("Johnstraße").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Burgring").
-restaurant("Maurer Lange Gasse").
-restaurant("Fasangasse").
-restaurant("Pötzleinsdorf").
-restaurant("Ungargasse/Neulinggasse").
-restaurant("Stubentor").
-restaurant("Glatzgasse").
+initlocation(2,"Siebertgasse").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Simonygasse").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Schottenring").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Rathausplatz/Burgtheater").
+sequence(2,0, "Siebertgasse").
+possiblemeetinglocations("Gaußplatz").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Eichenstraße").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Schloss Schönbrunn").
+restaurant("Prater, Hauptallee").
+restaurant("Heiligenstadt").
+restaurant("Bahnhof Meidling").
+restaurant("Hopfengasse").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Raxstraße/Rudolfshügelgasse").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Grinzing").
-initlocation($p,"Liesing").
-initlocation($p,"Langobardenstraße").
+initlocation(1,"Windtenstraße").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+sequence(1,0, "Windtenstraße").
 person(2).
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Altes Landgut").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Friedensbrücke").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Kagraner Platz").
-restaurant("Krankenhaus Hietzing").
-restaurant("Siebertgasse").
-restaurant("Brigittaplatz").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Stadion").
+initlocation(2,"Simmering").
+sequence(2,0, "Taubstummengasse").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+restaurant("Siebenhirten").
+restaurant("Guneschgasse").
+restaurant("Aumannplatz").

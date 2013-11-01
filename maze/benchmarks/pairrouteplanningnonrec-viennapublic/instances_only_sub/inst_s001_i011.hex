@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Haidestraße").
-initlocation($p,"Haidestraße").
+initlocation(1,"Bruck/Leitha Bahnhof").
+sequence(1,0, "Bruck/Leitha Bahnhof").
 person(2).
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Stockerau Bahnhof").
-possiblemeetinglocations("Stephansplatz").
-restaurant("Volkstheater").
+initlocation(2,"Hütteldorfer Straße").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Viehofen Bahnhof").
+restaurant("Praterstern").

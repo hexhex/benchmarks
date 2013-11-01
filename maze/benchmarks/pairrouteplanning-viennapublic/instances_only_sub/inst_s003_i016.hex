@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Haidestraße").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+sequence(1,0, "Haidestraße").
 person(2).
-initlocation($p,"Haidestraße").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Traisengasse").
-initlocation($p,"Haidestraße").
-possiblemeetinglocations("Tulln Bahnhof").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Pilgramgasse").
-restaurant("Wolf in der Au").
-restaurant("Krottenbachstraße").
-restaurant("St Andrä-Wördern Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Heiligenstadt").
+sequence(2,0, "Dresdner Straße").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Neue Donau").
+restaurant("Friedensbrücke").
+restaurant("Gasometer").
+restaurant("Hainburg/Donau Ungartor/B9").

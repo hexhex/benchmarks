@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Schottentor").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Praterstern").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Krieau").
+sequence(1,0, "Schwechat Bahnhof").
 person(2).
-initlocation($p,"Erdberg").
-initlocation($p,"Nußdorf").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Traisengasse").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Haidestraße").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Blumental").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Erdberg").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Penzing").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+sequence(2,0, "Preyergasse/Speising").
+possiblemeetinglocations("Jedlersdorf").
 possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Meidling Hauptstraße").
 possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Pilgramgasse").
-restaurant("Ladendorf Bahnhof").
-restaurant("Fischamend Bahnhof").
-restaurant("Stadtpark").
+restaurant("Rochusgasse").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Perfektastraße").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Hütteldorfer Straße").
 restaurant("Handelskai").
-restaurant("Schönbrunn").
-restaurant("Oberdöbling").
-restaurant("Münchendorf Bahnhof").
-restaurant("Wr Neustadt Nord").
-restaurant("Lobau").
-restaurant("Tulln Stadt Bahnhof").
-restaurant("Erlaaer Straße").
-restaurant("Roßauer Lände").
-restaurant("Krieau").
+restaurant("Jedlersdorf").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Obersdorf Bahnhof").
+restaurant("Siemensstraße").

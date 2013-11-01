@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Am Tabor").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Lerchenfelder Straße").
-initlocation($p,"Forstnergasse").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Am Tabor").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Gersthof").
+initlocation(1,"Längenfeldgasse/Flurschützstr").
+initlocation(1,"Migerkastraße").
+sequence(1,0, "Meidling Hauptstraße").
 person(2).
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Autokaderstraße").
-initlocation($p,"Ameisgasse").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Vinzenzgasse").
-possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Favoritenstraße/Troststraße").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Praterstern").
-restaurant("Hadersdorf Bahnhof").
-restaurant("An den langen Lüssen").
-restaurant("Weinhauser Gasse").
-restaurant("Svetelskystraße").
+initlocation(2,"Oberfeldgasse/Spargelfeldstr").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Wolf in der Au").
+sequence(2,0, "Oberfeldgasse/Spargelfeldstr").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Bernhardtstalgasse").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Kagraner Platz").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Taubstummengasse").
+restaurant("Kliebergasse").
+restaurant("Mayssengasse").

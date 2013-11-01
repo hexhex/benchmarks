@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+sequence(1,0, "Leobersdorf Bahnhof").
 person(2).
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Pfaffstätten Bahnhof").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Schönborn Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+sequence(2,0, "Tulln Stadt Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Hausfeldstraße").
+restaurant("Gersthof").
+restaurant("Petronell-Carnuntum Bahnhof").

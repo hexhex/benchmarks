@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
+initlocation(1,"Erdberg").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+sequence(1,0, "Erdberg").
 person(2).
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Weigelsdorf Bahnhof").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Nußdorfer Straße").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Alterlaa").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Herzogenburg Bahnhof").
+sequence(2,0, "Fischamend Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Ladendorf Bahnhof").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Siebenhirten").

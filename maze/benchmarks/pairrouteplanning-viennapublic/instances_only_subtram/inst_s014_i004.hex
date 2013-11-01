@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Resselgasse").
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Rodaun").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Silbergasse").
-initlocation($p,"Carminweg").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Taborstraße").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Innstraße").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Resselgasse").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Skodagasse").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Antonigasse").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Empergergasse").
+initlocation(1,"Pötzleinsdorf").
+sequence(1,0, "Börsegasse/Wipplingerstraße").
 person(2).
-initlocation($p,"Sieveringer Straße").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Martinstraße").
-initlocation($p,"Blumental").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Scheibenbergstraße").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"Valiergasse").
-initlocation($p,"Polkorabplatz").
-initlocation($p,"Sieveringer Straße").
-possiblemeetinglocations("Schottenfeldgasse").
-possiblemeetinglocations("Teichgasse").
-possiblemeetinglocations("Skodagasse").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Camillo-Sitte-Gasse").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Grinzing").
-possiblemeetinglocations("Römergasse").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Donauzentrum").
-possiblemeetinglocations("Palffygasse").
-possiblemeetinglocations("Reumannplatz").
-restaurant("Michelbeuern-AKH").
-restaurant("Redtenbachergasse").
-restaurant("Blindengasse").
-restaurant("Hermesstraße").
-restaurant("Brigittaplatz").
-restaurant("Simmering").
-restaurant("Perfektastraße").
-restaurant("Maurer Lange Gasse").
-restaurant("Sollenau Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Antonigasse").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Stadion").
+initlocation(2,"Nußdorf").
+initlocation(2,"Martinstraße").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Brünnlbadgasse").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Anschützgasse").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Oberfeldgasse/Spargelfeldstr").
+sequence(2,0, "Josefstädter Straße").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Rustengasse").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Praterstern").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Wallensteinplatz").
+restaurant("Hietzing").
+restaurant("Am Heumarkt").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Museumsquartier").
+restaurant("Zieglergasse/Westbahnstraße").
 restaurant("Zentralfriedhof 4Tor").
-restaurant("Tulln Stadt Bahnhof").
-restaurant("Oberfeldgasse/Spargelfeldstr").
-restaurant("Schloss Hetzendorf").
-restaurant("Kagraner Brücke").
+restaurant("Westbahnhof").
+restaurant("Schwechat Bahnhof").
+restaurant("Schottenring").
+restaurant("Sollenau Bahnhof").
+restaurant("Türkenschanzplatz").
+restaurant("Wallrißstraße").

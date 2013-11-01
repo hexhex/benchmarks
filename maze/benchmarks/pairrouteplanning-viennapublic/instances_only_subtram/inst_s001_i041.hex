@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Oberfeldgasse/Spargelfeldstr").
+sequence(1,0, "Oberfeldgasse/Spargelfeldstr").
 person(2).
-initlocation($p,"Haidestraße").
-initlocation($p,"Haidestraße").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-restaurant("Enkplatz").
+initlocation(2,"Unter St Veit, Hummelgasse").
+sequence(2,0, "Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Gumpendorfer Straße").
+restaurant("Breitenfurter St/Altmannsd Str").

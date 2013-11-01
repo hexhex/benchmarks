@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Donaumarina").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Maria Anzbach Bahnhof").
 person(2).
-initlocation($p,"Alte Donau").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Alte Donau").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Kendlerstraße").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Strasshof Bahnhof").
-restaurant("Süßenbrunn").
-restaurant("Herzogenburg Stadt").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Neue Donau").
+sequence(2,0, "Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+restaurant("Taborstraße").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Baden Bahnhof").

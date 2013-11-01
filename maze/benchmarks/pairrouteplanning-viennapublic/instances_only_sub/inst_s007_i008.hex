@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Pfaffstätten Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Brünner Straße").
+sequence(1,0, "Mödling Bahnhof").
 person(2).
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Alte Donau").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Gemeinlebarn Bahnhof").
+sequence(2,0, "Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Götzendorf Bahnhof").
 possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Zentralfriedhof").
-restaurant("Meidling Hauptstraße").
-restaurant("Haslau an der Donau Bahnhof").
-restaurant("Längenfeldgasse").
-restaurant("Bisamberg Bahnhof").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Schlachthausgasse").
-restaurant("Kagran").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Ladendorf Bahnhof").
+restaurant("Jedlersdorf").
+restaurant("Praterstern").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Ottakring").

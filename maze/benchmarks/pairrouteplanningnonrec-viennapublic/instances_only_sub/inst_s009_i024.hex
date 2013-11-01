@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Taborstraße").
-initlocation($p,"Strasshof Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Schlachthausgasse").
+sequence(1,0, "Hausfeldstraße").
 person(2).
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Hietzing").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Zippererstraße").
-restaurant("Rennbahnweg").
-restaurant("Zippererstraße").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Dürrwien Bahnhof").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Rochusgasse").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Nußdorfer Straße").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Ober Sankt Veit").
+sequence(2,0, "Jägerstraße").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+restaurant("Volkstheater").
+restaurant("Korneuburg Bahnhof").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Unter Sankt Veit").
+restaurant("Heiligenstadt").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").

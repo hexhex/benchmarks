@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Zentralfriedhof 3Tor").
-initlocation($p,"Schmerlingplatz").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Eckpergasse").
-initlocation($p,"Friedrich-Engels-Platz").
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Polkorabplatz").
-initlocation($p,"Obere Donaustraße").
-initlocation($p,"Julius-Raab-Platz").
-initlocation($p,"Laaer-Berg-Straße").
-initlocation($p,"Stadlergasse").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Zentralfriedhof 3Tor").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Thaliastraße/Haberlgasse").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Herrengasse").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Mayerhofgasse").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Salztorbrücke").
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Kaisermühlen-VIC").
+sequence(1,0, "Großfeldsiedlung").
 person(2).
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Bösendorferstraße").
-initlocation($p,"Rothneusiedl").
-initlocation($p,"Huglgasse").
-initlocation($p,"Schottenring").
-initlocation($p,"Innstraße").
-initlocation($p,"Knöllgasse/Davidgasse").
-initlocation($p,"Gunoldstraße").
-initlocation($p,"Nordbahnstraße").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Prater, Hauptallee").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Laudongasse").
-initlocation($p,"Mayerhofgasse").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Valiergasse").
-possiblemeetinglocations("Baumgarten").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Jagdschloßgasse").
-possiblemeetinglocations("Paradisgasse").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Innstraße").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Kaiserebersdorf, Zinnergasse").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Wienerbergbrücke").
-restaurant("Schloss Belvedere").
-restaurant("Bauernfeldplatz").
-restaurant("Quartier Belvedere").
-restaurant("Am Heumarkt").
-restaurant("Traismauer Bahnhof").
-restaurant("Satzberggasse").
-restaurant("Floridsdorfer Markt").
-restaurant("Linzer Straße/Lützowgasse").
-restaurant("Matthäus-Jiszda-Straße").
-restaurant("Petronell-Carnuntum Bahnhof").
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Marx-Meidlinger-Straße").
+initlocation(2,"Rennweg").
+initlocation(2,"Wildgansplatz").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Stadlau").
+initlocation(2,"Gußhausstraße").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"Rankgasse").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Praterstern").
+initlocation(2,"Gruschaplatz").
+sequence(2,0, "Hintere Zollamtsstraße").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Kaiserstraße").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Zentralfriedhof").
+restaurant("Penzinger Straße").
+restaurant("Sickenberggasse").
+restaurant("Florianigasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Platt Bahnhof").
+restaurant("Blechturmgasse").
+restaurant("Krankenhaus Hietzing").
+restaurant("Heiligenstadt").
+restaurant("Am Spitz").
+restaurant("Haslau an der Donau Bahnhof").

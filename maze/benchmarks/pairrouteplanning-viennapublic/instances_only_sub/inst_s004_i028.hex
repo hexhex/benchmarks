@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Unter Sankt Veit").
+sequence(1,0, "Margaretengürtel").
 person(2).
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Taborstraße").
-initlocation($p,"Göllersdorf Bahnhof").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-restaurant("Hollabrunn Bahnhof").
-restaurant("Kettenbrückengasse").
-restaurant("Oberdöbling").
-restaurant("Herzogenburg Stadt").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Simmering").
+sequence(2,0, "Platt Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Hietzing").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Erlaaer Straße").
+restaurant("Kagran").
+restaurant("Korneuburg Bahnhof").

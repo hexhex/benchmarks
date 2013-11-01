@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation(1,"Schweglerstraße").
+sequence(1,0, "Schweglerstraße").
 person(2).
-initlocation($p,"Breitensee").
-initlocation($p,"Breitensee").
-possiblemeetinglocations("Michelhausen Bahnhof").
-restaurant("Schwedenplatz").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+sequence(2,0, "Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+restaurant("Göllersdorf Bahnhof").

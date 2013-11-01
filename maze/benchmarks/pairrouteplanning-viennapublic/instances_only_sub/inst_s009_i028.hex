@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Praterkai").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Mödling Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Penzing").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Simmering").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Strebersdorf").
+sequence(1,0, "Rennweg").
 person(2).
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Volkstheater").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Schottenring").
-restaurant("Floridsdorf").
-restaurant("Aderklaaer Straße").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Alte Donau").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Landstraße-Wien Mitte").
+sequence(2,0, "Weigelsdorf Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Alterlaa").
+restaurant("Donaumarina").
+restaurant("Sierndorf Bahnhof").
+restaurant("Thaliastraße").
 restaurant("Westbahnhof").
-restaurant("Keplerplatz").
+restaurant("Rathaus").
+restaurant("Aspern Nord").
+restaurant("Donaustadtbrücke").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Kaiserebersdorf").

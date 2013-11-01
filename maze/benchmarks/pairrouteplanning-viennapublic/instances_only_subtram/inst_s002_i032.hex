@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Breitensee").
-initlocation($p,"Satzberggasse").
-initlocation($p,"Breitensee").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Silbergasse").
+sequence(1,0, "Michelbeuern-AKH").
 person(2).
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Shuttleworthstraße").
-initlocation($p,"Verbindungsbahn").
-possiblemeetinglocations("Burgring").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-restaurant("Tesarekplatz").
-restaurant("Schloss Belvedere").
+initlocation(2,"Sahulkastraße").
+initlocation(2,"Maria Anzbach Bahnhof").
+sequence(2,0, "Sahulkastraße").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Wexstraße").
+restaurant("Aderklaaer Straße").
+restaurant("Marx-Meidlinger-Straße").

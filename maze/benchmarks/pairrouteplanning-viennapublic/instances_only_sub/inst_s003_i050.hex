@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Heiligenstadt").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+sequence(1,0, "Neulengbach Stadt Bahnhof").
 person(2).
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-restaurant("Viehofen Bahnhof").
-restaurant("Westbahnhof").
-restaurant("Erzherzog-Karl-Straße").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Alterlaa").
+initlocation(2,"Höflein an der Donau Bahnhof").
+sequence(2,0, "Bad Vöslau Bahnhof").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Stadlau").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Jägerstraße").

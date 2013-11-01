@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Simmering").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Simmering").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Mannswörth Bahnhof").
+sequence(1,0, "Hirschstetten").
 person(2).
-initlocation($p,"Donauinsel").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Donauinsel").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Friedensbrücke").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Hollabrunn Bahnhof").
-restaurant("Gasometer").
-restaurant("Krieau").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Rochusgasse").
+sequence(2,0, "Atzenbrugg Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Ladendorf Bahnhof").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Eichgraben-Altlengbach Bahnhof").

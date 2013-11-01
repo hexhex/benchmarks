@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Hardtgasse").
-initlocation($p,"Seestadt").
-initlocation($p,"Lange Gasse").
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Johnstraße").
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Wilhelminenstraße/Wattgasse").
-initlocation($p,"Schloss Belvedere").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Hardtgasse").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Rathaus").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Haidestraße").
+initlocation(1,"Elterleinplatz").
+initlocation(1,"Hopfengasse").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Hütteldorf, Bujattigasse").
+initlocation(1,"Paradisgasse").
+sequence(1,0, "Zehetnerg/Pflegeh Baumgarten").
 person(2).
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Carminweg").
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Gruschaplatz").
-initlocation($p,"Rennweg").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Baumgasse").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Untertullnerbach Bahnhof").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Quellenplatz").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Kleistgasse").
+initlocation(2,"Hirschstetten").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Baumgarten").
+initlocation(2,"Siemensstraße").
+sequence(2,0, "Scheibenbergstraße").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Huglgasse").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Blumengasse").
 possiblemeetinglocations("Burgring").
-possiblemeetinglocations("Marxergasse").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Döblinger Bad").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Gottschalkgasse/Enkplatz").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Hetzgasse").
-restaurant("Langobardenstraße/Kapellenweg").
-restaurant("Pilgramgasse").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Mayerhofgasse").
-restaurant("Linzer Straße/Lützowgasse").
-restaurant("Stockholmer Platz").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Langobardenstraße").
+restaurant("Am Heidjöchl").
+restaurant("Kagraner Platz").
 restaurant("Tscherttegasse").
-restaurant("Bösendorferstraße").
-restaurant("Vinzenzgasse").
-restaurant("Schönborn Bahnhof").
-restaurant("Sommarugagasse").
-restaurant("Koppstraße/Panikengasse").
-restaurant("Favoritenstraße/Troststraße").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Frauengasse").
+restaurant("Pokornygasse").
+restaurant("Hetzgasse").
+restaurant("Wittelsbachstraße").
+restaurant("Shuttleworthstraße").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Schweglerstraße").
+restaurant("Siemensstraße").
+restaurant("Migerkastraße").

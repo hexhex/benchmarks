@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Hirschstetten").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Hirschstetten").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Haidestraße").
+initlocation(1,"Rathaus").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Stadion").
+sequence(1,0, "Kettenbrückengasse").
 person(2).
-initlocation($p,"Stephansplatz").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Schottenring").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Stephansplatz").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Donaumarina").
-restaurant("Hofstatt Bahnhof").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Blumental").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Kagraner Platz").
+initlocation(2,"Donauinsel").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+sequence(2,0, "Donauinsel").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Gersthof").
+restaurant("Westbahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Dürrwien Bahnhof").
+restaurant("Breitensee").

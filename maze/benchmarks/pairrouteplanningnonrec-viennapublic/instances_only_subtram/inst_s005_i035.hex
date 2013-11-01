@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Rustengasse").
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Sommarugagasse").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Penzing").
+sequence(1,0, "Gerhardusgasse").
 person(2).
-initlocation($p,"Konstanziagasse").
-initlocation($p,"Waidhausenstraße").
-initlocation($p,"Bauernfeldplatz").
-initlocation($p,"Hietzing").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Konstanziagasse").
-possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
-possiblemeetinglocations("Gatterburggasse").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Hildebrandgasse").
-possiblemeetinglocations("Donaustadtbrücke").
+initlocation(2,"Fasangasse").
+initlocation(2,"Rennweg").
+initlocation(2,"Anton-Krieger-Gasse").
+initlocation(2,"Hernals").
+initlocation(2,"Baumgarten").
+sequence(2,0, "Fasangasse").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Columbusplatz").
+restaurant("Kaisermühlen-VIC").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Mistelbach Bahnhof").
 restaurant("Am Heidjöchl").
-restaurant("Platt Bahnhof").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Hütteldorfer Str/Lützowgasse").
-restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Neilreichgasse").

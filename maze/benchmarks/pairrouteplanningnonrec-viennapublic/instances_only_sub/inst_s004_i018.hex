@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Tulln Stadt Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Hetzendorf").
+sequence(1,0, "Jedlersdorf").
 person(2).
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Landstraße-Wien Mitte").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Enkplatz").
-restaurant("Meidling Hauptstraße").
-restaurant("Kagraner Platz").
-restaurant("Tulln Bahnhof").
-restaurant("Wr Neustadt Nord").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Michelbeuern-AKH").
+sequence(2,0, "Josefstädter Straße").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+restaurant("Herrengasse").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("Fischamend Bahnhof").

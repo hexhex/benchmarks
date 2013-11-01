@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Wexstraße").
-initlocation($p,"Prater, Hauptallee").
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-initlocation($p,"Wexstraße").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "St Andrä-Wördern Bahnhof").
 person(2).
-initlocation($p,"Saikogasse").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Saikogasse").
-possiblemeetinglocations("Nordbrücke").
-possiblemeetinglocations("Rankgasse").
-possiblemeetinglocations("Liebknechtgasse").
-restaurant("Brünner Straße/Hanreitergasse").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Oberlaa, Therme Wien").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Forstnergasse").
+initlocation(2,"Skodagasse").
+sequence(2,0, "Siebenhirten").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Baden Bahnhof").
+restaurant("Gußhausstraße").
+restaurant("Tulln Bahnhof").
+restaurant("Spillern Bahnhof").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Gruschaplatz").
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Haidestraße").
-initlocation($p,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Hütteldorfer Str/Hochsatzeng").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Süßenbrunn").
+sequence(1,0, "Hoßplatz").
 person(2).
-initlocation($p,"Ungargasse/Neulinggasse").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Albertgasse").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Guneschgasse").
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Braunhubergasse").
-initlocation($p,"Ungargasse/Neulinggasse").
-possiblemeetinglocations("Schlickgasse").
-possiblemeetinglocations("Unter St Veit, Hummelgasse").
-possiblemeetinglocations("Leberberg").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Schwedenplatz").
-possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Pantucekgasse/Widholzgasse").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-restaurant("St Pölten Hauptbahnhof").
-restaurant("Hirschstetten").
-restaurant("Migerkastraße").
-restaurant("Enkplatz").
-restaurant("Rauscherstraße").
-restaurant("Langobardenstraße/Kapellenweg").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Michelhausen Bahnhof").
+initlocation(2,"Quellenstraße/Favoritenstraße").
+initlocation(2,"Julius-Raab-Platz").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Blumental").
+initlocation(2,"Nußdorf").
+initlocation(2,"Wr Neustadt Nord").
+sequence(2,0, "Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Schöffelgasse").
+restaurant("Burgring").
+restaurant("Bernhardtstalgasse").
+restaurant("Sahulkastraße").
+restaurant("Schwarzenbergplatz").
+restaurant("Hintere Zollamtsstraße").
+restaurant("Martinstraße").

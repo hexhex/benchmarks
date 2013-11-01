@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Radetzkyplatz").
-initlocation($p,"Canisiusgasse").
-initlocation($p,"Rosenhügelstraße").
+initlocation(1,"Fasangasse").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Erlaaer Straße").
+sequence(1,0, "Fasangasse").
 person(2).
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Grillgasse").
-initlocation($p,"Weinhauser Gasse").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Auerspergstraße").
-possiblemeetinglocations("Eichenstraße").
-restaurant("Saikogasse").
-restaurant("Leopoldau").
-restaurant("Mistelbach Stadt").
+initlocation(2,"Seestadt").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Ulrichskirchen Bahnhof").
+sequence(2,0, "Seestadt").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+restaurant("Guntherstraße").
+restaurant("Pilgramgasse").
+restaurant("Kaiserstraße/Neustiftgasse").

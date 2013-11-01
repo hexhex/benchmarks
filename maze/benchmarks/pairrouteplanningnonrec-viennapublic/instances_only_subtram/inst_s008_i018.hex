@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Schlickgasse").
-initlocation($p,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Bahnhofstraße").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Stubentor").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Krieau").
+sequence(1,0, "Rauscherstraße").
 person(2).
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Höchstädtplatz").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Innstraße").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Kritzendorf Bahnhof").
-possiblemeetinglocations("Antonigasse").
-possiblemeetinglocations("Wallrißstraße").
-possiblemeetinglocations("Schottenfeldgasse").
-possiblemeetinglocations("Liechtenwerder Platz").
-possiblemeetinglocations("Gutraterplatz").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Nordbrücke").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Teichgasse").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Bösendorferstraße").
+initlocation(2,"Floridsdorfer Brücke").
+sequence(2,0, "Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
 possiblemeetinglocations("Quellenplatz").
-restaurant("Pötzleinsdorf").
-restaurant("Laurenzgasse").
-restaurant("Hubertusdamm").
-restaurant("Erdberg").
-restaurant("Diesterweggasse").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Karmeliterplatz").
-restaurant("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Saikogasse").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Weißenböckstraße").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Donaustadtstraße").
+restaurant("Niederkreuzstetten Bahnhof").

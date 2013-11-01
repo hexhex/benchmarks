@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Rankgasse").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Radetzkyplatz").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Rankgasse").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Breitenfurter St/Altmannsd Str").
+initlocation(1,"Unter St Veit, Hummelgasse").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Reumannplatz").
+sequence(1,0, "Mühlfeldgasse").
 person(2).
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Rampengasse").
-initlocation($p,"Lainz, Wolkersbergenstraße").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Donauzentrum").
-initlocation($p,"Nestroyplatz").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
-restaurant("Oberdöbling").
-restaurant("Hubertusdamm").
-restaurant("Herbeckstraße").
-restaurant("Laxenburger Str/Gudrunstraße").
-restaurant("Kaiserebersdorf, Zinnergasse").
-restaurant("Maurer Hauptplatz").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Schottenfeldgasse").
+sequence(2,0, "Großfeldsiedlung").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Kaiserstraße").
+restaurant("Stadlergasse").
+restaurant("Erndtgasse").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Gutraterplatz").
+restaurant("Gredlerstraße").

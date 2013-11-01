@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Haidestraße").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Erlaaer Straße").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Hietzing").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Zentralfriedhof").
+sequence(1,0, "Münchendorf Bahnhof").
 person(2).
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Gasometer").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Stubentor").
-initlocation($p,"Am Schöpfwerk").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Dürrwien Bahnhof").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Rathaus").
-restaurant("Penzing").
-restaurant("Schönbrunn").
+initlocation(2,"Spittelau").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Heiligenstadt").
+sequence(2,0, "Spittelau").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Hetzendorf").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Stephansplatz").
+restaurant("Schwedenplatz").
+restaurant("Leopoldau").
+restaurant("Ebreichsdorf Bahnhof").
 restaurant("Nußdorf").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Kettenbrückengasse").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Unter Sankt Veit").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Erlaaer Straße").
+restaurant("Stubentor").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Hofstatt Bahnhof").
+restaurant("Josefstädter Straße").
+restaurant("Roßauer Lände").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Mannswörth Bahnhof").

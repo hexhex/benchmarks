@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Breitensee").
-initlocation($p,"Retz Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+sequence(1,0, "Wampersdorf Bahnhof").
 person(2).
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Hofstatt Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Baden Bahnhof").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Penzing").
-restaurant("Unter Sankt Veit").
-restaurant("Erdberg").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Wolf in der Au").
+sequence(2,0, "Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Haidestraße").
+restaurant("Donaustadtbrücke").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Aderklaaer Straße").
+restaurant("Kagraner Platz").

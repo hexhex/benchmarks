@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Handelskai").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Kottingbrunn Bahnhof").
+initlocation(1,"Stadion").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Alterlaa").
+sequence(1,0, "Stadion").
 person(2).
-initlocation($p,"Westbahnhof").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Nußdorf").
-initlocation($p,"Westbahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Leopoldau").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+sequence(2,0, "Langenlebarn Bahnhof").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
 possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Schönborn Bahnhof").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Guntramsdorf-Thallern").
-restaurant("Taborstraße").
-restaurant("Unterradlberg Bahnhof").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Enkplatz").
-restaurant("Grillgasse").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+restaurant("Rathaus").
+restaurant("Burggasse-Stadthalle").
+restaurant("Bahnhof Meidling").
+restaurant("Westbahnhof").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Hausfeldstraße").

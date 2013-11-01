@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Blumental").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+sequence(1,0, "Blumental").
 person(2).
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Penzing").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Erzherzog-Karl-Straße").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Gaisruck Bahnhof").
-restaurant("Schwedenplatz").
-restaurant("Gaisruck Bahnhof").
-restaurant("Brünner Straße").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Schwechat Bahnhof").
-restaurant("Gersthof").
-restaurant("Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Strebersdorf").
+sequence(2,0, "Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+restaurant("Trasdorf Bahnhof").
+restaurant("Oberdöbling").
+restaurant("Obersdorf Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Neulengbach Bahnhof").
+restaurant("Reumannplatz").
+restaurant("Donauinsel").

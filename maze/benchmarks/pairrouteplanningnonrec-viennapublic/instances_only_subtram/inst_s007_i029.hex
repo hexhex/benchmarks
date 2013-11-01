@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Handelskai").
-initlocation($p,"Weißenböckstraße").
-initlocation($p,"Antonigasse").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Burggasse-Stadthalle").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Neue Donau").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Am Heidjöchl").
+sequence(1,0, "Deutsch-Wagram Bahnhof").
 person(2).
-initlocation($p,"Alser Straße").
-initlocation($p,"Brünner Straße/Hanreitergasse").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Julius-Raab-Platz").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Troststraße/Neilreichgasse").
-initlocation($p,"Alser Straße").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
-possiblemeetinglocations("Mayssengasse").
-restaurant("Donaustadtbrücke").
-restaurant("Fickeysstraße").
-restaurant("Donaustadtstraße").
-restaurant("Ottakringer Str/Erdbrustgasse").
-restaurant("An den langen Lüssen").
-restaurant("Rennbahnweg").
-restaurant("Palffygasse").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Knöllgasse/Troststraße").
+initlocation(2,"Haidestraße").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Rustengasse").
+initlocation(2,"Laxenburger Straße/Troststraße").
+initlocation(2,"Herzogenburg Bahnhof").
+sequence(2,0, "Prandaugasse").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+restaurant("Rosensteingasse").
+restaurant("Paradisgasse").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Mariahilfer Gürtel").
+restaurant("Empergergasse").
+restaurant("Hardtgasse").
+restaurant("Hintere Zollamtsstraße").

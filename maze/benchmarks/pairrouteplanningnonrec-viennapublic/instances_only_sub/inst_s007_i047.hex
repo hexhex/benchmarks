@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Alterlaa").
-initlocation($p,"Sollenau Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+sequence(1,0, "Traismauer Bahnhof").
 person(2).
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Breitensee").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Landstraße-Wien Mitte").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Schottenring").
-restaurant("Meidling Hauptstraße").
-restaurant("Floridsdorf").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Kagraner Platz").
-restaurant("Donauspital").
-restaurant("Am Schöpfwerk").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Simmering").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Karlsplatz").
+sequence(2,0, "Gaisruck Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Siebenhirten").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Wolf in der Au").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Simmering").
+restaurant("Erdberg").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Stephansplatz").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Donaumarina").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Stephansplatz").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Stubentor").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Strebersdorf").
+sequence(1,0, "Gumpendorfer Straße").
 person(2).
-initlocation($p,"Spittelau").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Spittelau").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Breitenwaida Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Floridsdorf").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Mistelbach Bahnhof").
 possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Hirschstetten").
-restaurant("Pfaffstätten Bahnhof").
-restaurant("Sankt Marx").
-restaurant("Am Schöpfwerk").
-restaurant("Taubstummengasse").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Retz Bahnhof").
+restaurant("Thaliastraße").
+restaurant("Bahnhof Meidling").
+restaurant("Ottakring").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Baden Bahnhof").
+restaurant("Gumpoldskirchen Bahnhof").

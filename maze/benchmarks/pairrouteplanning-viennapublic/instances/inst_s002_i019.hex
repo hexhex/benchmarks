@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Leibenfrostgasse").
-initlocation(1,"Theergasse").
-sequence(1,0, "Leibenfrostgasse").
+initlocation(1,"Iberisweg").
+initlocation(1,"Castelligasse").
+sequence(1,0, "Iberisweg").
 person(2).
-initlocation(2,"Holbeingasse").
-initlocation(2,"Kliebergasse").
-sequence(2,0, "Holbeingasse").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-possiblemeetinglocations("Schrekergasse").
-restaurant("Süßenbrunn").
-restaurant("Mühlschüttel").
+initlocation(2,"Bahnhof Meidling/Schedifkaplatz").
+initlocation(2,"Liechtensteinstr/Schottentor").
+sequence(2,0, "Bahnhof Meidling/Schedifkaplatz").
+possiblemeetinglocations("Am Kanal").
+possiblemeetinglocations("Westbahnhof").
+restaurant("Albrechtskreithgasse").
+restaurant("Valiergasse").

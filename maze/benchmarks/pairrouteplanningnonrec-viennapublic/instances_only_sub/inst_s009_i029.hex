@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Rennweg").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Höbersdorf Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Volkstheater").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Bahnhof Meidling").
+sequence(1,0, "Hörersdorf Bahnhof").
 person(2).
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Schottentor").
-initlocation($p,"Schottenring").
-initlocation($p,"Strasshof Bahnhof").
-possiblemeetinglocations("Reumannplatz").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Währinger Straße-Volksoper").
+sequence(2,0, "Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
 possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Erdberg").
 possiblemeetinglocations("Stephansplatz").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Rennbahnweg").
-restaurant("St Pölten Traisenpark P+R Nord").
-restaurant("Leopoldau").
-restaurant("Dresdner Straße").
-restaurant("Blumental").
-restaurant("Schönborn Bahnhof").
-restaurant("Stephansplatz").
-restaurant("Hütteldorfer Straße").
-restaurant("Traisengasse").
-restaurant("Ladendorf Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Keplerplatz").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Neue Donau").
+restaurant("Sankt Marx").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Mistelbach Stadt").
+restaurant("Staatz Bahnhof").
+restaurant("Strebersdorf").
+restaurant("Floridsdorf").
+restaurant("Bad Vöslau Bahnhof").

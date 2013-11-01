@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Praterstern").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Praterstern").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+sequence(1,0, "Helmahof Bahnhof").
 person(2).
-initlocation($p,"Volkstheater").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Volkstheater").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-restaurant("Neubaugasse").
-restaurant("Landstraße-Wien Mitte").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+sequence(2,0, "Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Kledering Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Mistelbach Bahnhof").

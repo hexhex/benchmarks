@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Taborstraße").
-initlocation($p,"Taborstraße").
+initlocation(1,"Gerhardusgasse").
+sequence(1,0, "Gerhardusgasse").
 person(2).
-initlocation($p,"Krankenhaus Hietzing").
-initlocation($p,"Krankenhaus Hietzing").
-possiblemeetinglocations("Handelskai").
-restaurant("Frättingsdorf Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+sequence(2,0, "Untertullnerbach Bahnhof").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+restaurant("Barawitzkagasse").

@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Oberdöbling").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Rathaus").
-initlocation($p,"Oberdöbling").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Donauinsel").
+sequence(1,0, "St Andrä-Wördern Bahnhof").
 person(2).
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Blumental").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Hietzing").
-initlocation($p,"Liesing").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Hütteldorf").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Schottentor").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Matzleinsdorfer Platz").
+sequence(2,0, "Kottingbrunn Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Silberwald Bahnhof").
 possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Hirschstetten").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Gersthof").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Museumsquartier").
-restaurant("Höflein an der Donau Bahnhof").
-restaurant("Hietzing").
-restaurant("Ottakring").
-restaurant("Breitensee").
-restaurant("Hirschstetten").
-restaurant("Dürrwien Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+restaurant("Donauinsel").
+restaurant("Am Schöpfwerk").
+restaurant("Schwedenplatz").
+restaurant("Dresdner Straße").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Taborstraße").
+restaurant("Donaustadtbrücke").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Pressbaum Bahnhof").
+restaurant("Unterpurkersdorf Bahnhof").

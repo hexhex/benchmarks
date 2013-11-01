@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Aspern Nord").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Aspern Nord").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Yppengasse").
+initlocation(1,"Matzleinsdorfer Platz").
+sequence(1,0, "Reinlgasse/Märzstraße").
 person(2).
-initlocation($p,"Am Tabor").
-initlocation($p,"Haidestraße").
-initlocation($p,"Praterkai").
-initlocation($p,"Am Tabor").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Rodaun").
-restaurant("Kliebergasse").
-restaurant("Unter St Veit, Hummelgasse").
-restaurant("Aumannplatz").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Taborstraße/Heinestraße").
+initlocation(2,"Erzherzog-Karl-Straße").
+sequence(2,0, "Gunoldstraße").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Autokaderstraße").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Grinzing").
+restaurant("Antonigasse").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Rauscherstraße").
+initlocation(1,"Alte Donau").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Marx-Meidlinger-Straße").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+sequence(1,0, "Alte Donau").
 person(2).
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Alfred-Adler-Straße").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Rekawinkel Bahnhof").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Paulanergasse").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Meidling Hauptstraße").
-restaurant("Grinzinger Straße").
-restaurant("Höchstädtplatz").
-restaurant("Karmeliterplatz").
-restaurant("Carabelligasse").
-restaurant("Schleiergasse").
-restaurant("Johnstraße").
-restaurant("St Andrä-Wördern Bahnhof").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Bösendorferstraße").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Blindengasse").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Wienerbergbrücke").
+sequence(2,0, "Ungargasse/Neulinggasse").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+restaurant("Floridsdorfer Brücke").
+restaurant("Innstraße").
+restaurant("Bösendorferstraße").
+restaurant("Preyergasse/Speising").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Weinhauser Gasse").
+restaurant("Rochusgasse").

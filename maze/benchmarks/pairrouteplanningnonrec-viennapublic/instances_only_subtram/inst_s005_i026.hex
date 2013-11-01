@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Martinstraße").
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Weinheimergasse").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Martinstraße").
+initlocation(1,"Thaliastraße/Brunnengasse").
+initlocation(1,"Absberggasse").
+initlocation(1,"Urban-Loritz-Platz").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Gersthof").
+sequence(1,0, "Thaliastraße/Brunnengasse").
 person(2).
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"Weißenböckstraße").
-initlocation($p,"Grinzing").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-possiblemeetinglocations("Lobau").
-restaurant("Sillerplatz").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Empergergasse").
-restaurant("Viehmarktgasse").
-restaurant("Großjedlersdorf").
+initlocation(2,"Quellenplatz").
+initlocation(2,"Oberfeldgasse/Spargelfeldstr").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+initlocation(2,"Döblinger Hauptstr/Gatterburgg").
+initlocation(2,"Siebenhirten").
+sequence(2,0, "Quellenplatz").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Julius-Raab-Platz").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Glatzgasse").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Franz-Josefs-Bahnhof").

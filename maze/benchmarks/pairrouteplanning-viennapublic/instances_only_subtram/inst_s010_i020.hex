@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Windtenstraße").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Blumental").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Donauinsel").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Thaliastraße/Brunnengasse").
-initlocation($p,"Baumgarten").
-initlocation($p,"Windtenstraße").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Wienerbergbrücke").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Prater, Hauptallee").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Huglgasse").
+initlocation(1,"Canisiusgasse").
+initlocation(1,"Rothneusiedl").
+initlocation(1,"Donaustadtbrücke").
+sequence(1,0, "Erlaaer Straße").
 person(2).
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Weihburggasse").
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Schwarzenbergplatz").
-possiblemeetinglocations("Absberggasse").
-possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Radetzkyplatz").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Riedelgasse").
-possiblemeetinglocations("Kraygasse").
-possiblemeetinglocations("Baumgasse").
-restaurant("Schleiergasse").
-restaurant("Fasangasse").
-restaurant("Rodaun").
-restaurant("Hubertusdamm").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Spittelau").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Anton-Krieger-Gasse").
+sequence(2,0, "St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Hermesstraße").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Alterlaa").
+restaurant("Hermesstraße").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Salztorbrücke").
+restaurant("Frödenplatz").
+restaurant("Wr Neustadt Hauptbahnhof").
 restaurant("Kranzgasse").
-restaurant("Staglgasse").
-restaurant("Museumsquartier").
-restaurant("Thaliastraße/Haberlgasse").
-restaurant("Taborstraße/Heinestraße").
-restaurant("Favoritenstraße/Troststraße").
+restaurant("Schlachthausgasse").
+restaurant("Am Tabor").
+restaurant("Wr Neustadt Civitas Nova").

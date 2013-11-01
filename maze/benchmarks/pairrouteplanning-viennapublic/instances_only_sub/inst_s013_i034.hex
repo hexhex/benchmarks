@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Traisengasse").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Leopoldau").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Spittelau").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Traisengasse").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Praterstern").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Felixdorf Bahnhof").
+sequence(1,0, "Platt Bahnhof").
 person(2).
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Schwedenplatz").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Weidlingau Bahnhof").
-restaurant("Karlsplatz").
-restaurant("Hirschstetten").
-restaurant("Hietzing").
-restaurant("Seestadt").
-restaurant("Floridsdorf").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Götzendorf Bahnhof").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Traisengasse").
-restaurant("Burggasse-Stadthalle").
-restaurant("Schönbrunn").
-restaurant("Hütteldorfer Straße").
-restaurant("Josefstädter Straße").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Hetzendorf").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Kagran").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+sequence(2,0, "St Pölten Hauptbahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+restaurant("Schottentor").
+restaurant("Ladendorf Bahnhof").
+restaurant("Braunschweiggasse").
+restaurant("Siemensstraße").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Stadlau").
+restaurant("Silberwald Bahnhof").
+restaurant("Rathaus").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Volkstheater").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("St Pölten Hauptbahnhof").

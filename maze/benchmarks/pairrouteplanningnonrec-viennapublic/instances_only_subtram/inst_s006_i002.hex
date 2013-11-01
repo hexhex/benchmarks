@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Albertgasse").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Taborstraße").
-initlocation($p,"Traismauer Bahnhof").
+initlocation(1,"Erndtgasse").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Josef-Baumann-Gasse").
+initlocation(1,"Tesarekplatz").
+initlocation(1,"Blumengasse").
+initlocation(1,"Liebknechtgasse").
+sequence(1,0, "Erndtgasse").
 person(2).
-initlocation($p,"Florianigasse").
-initlocation($p,"Blumental").
-initlocation($p,"Rankgasse").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Ottakring").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Florianigasse").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Valiergasse").
-possiblemeetinglocations("Nußdorfer Straße").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Volkstheater").
-restaurant("Hofwiesengasse").
-restaurant("Simmering").
-restaurant("Rathausplatz/Burgtheater").
-restaurant("Anton-Schall-Gasse").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Polgarstraße").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Baumgarten").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+sequence(2,0, "Brünner Straße").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Eichenstraße").
+possiblemeetinglocations("Strozzigasse").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Spittelau").
+restaurant("Marx-Meidlinger-Straße").
+restaurant("Dommayergasse").
+restaurant("Bahnhofstraße").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Vorgartenstraße").

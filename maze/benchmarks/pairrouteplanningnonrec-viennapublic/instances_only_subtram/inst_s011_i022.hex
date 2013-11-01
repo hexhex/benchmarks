@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Nordbrücke").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Linzer Straße/Johnstraße").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Stadtpark").
-initlocation($p,"Wattmanngasse").
-initlocation($p,"Donauspital").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Nordbrücke").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Volkstheater").
+initlocation(1,"Schuhmeierplatz").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Perfektastraße").
+sequence(1,0, "Viehmarktgasse").
 person(2).
-initlocation($p,"Löwengasse").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Aspern, Oberdorfstraße").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Alte Donau").
-initlocation($p,"Antonigasse").
-initlocation($p,"Obere Augartenstraße").
-initlocation($p,"Scheibenbergstraße").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Löwengasse").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Schöffelgasse").
-possiblemeetinglocations("Huglgasse").
-possiblemeetinglocations("Weinhauser Gasse").
-possiblemeetinglocations("Grinzinger Straße").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Kölblgasse").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Atzgersdorf").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Gaußplatz").
-restaurant("Barawitzkagasse").
-restaurant("Valiergasse").
-restaurant("Oberfeldgasse/Spargelfeldstr").
+initlocation(2,"Gasometer").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Oberfeldgasse").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Empergergasse").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Staglgasse").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+sequence(2,0, "Gasometer").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Wallrißstraße").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Lerchenfelder Straße").
+restaurant("Molitorgasse").
+restaurant("Floridsdorfer Brücke").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Arminenstraße").
+restaurant("Lederergasse").
+restaurant("Schottenring").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Strozzigasse").
+restaurant("Alaudagasse").
+restaurant("Eichgraben-Altlengbach Bahnhof").
 restaurant("Stammersdorf").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Vorgartenstraße").
-restaurant("Frödenplatz").
-restaurant("Camillo-Sitte-Gasse").

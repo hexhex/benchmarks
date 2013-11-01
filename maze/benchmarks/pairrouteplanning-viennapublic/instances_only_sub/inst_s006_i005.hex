@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Seestadt").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Meidling Hauptstraße").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Spittelau").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+sequence(1,0, "Zellerndorf Bahnhof").
 person(2).
-initlocation($p,"Messe-Prater").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Messe-Prater").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-restaurant("Schleinbach Bahnhof").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Liesing").
-restaurant("Haidestraße").
-restaurant("Sankt Marx").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Haidestraße").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Stadlau").
+sequence(2,0, "Thaliastraße").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+restaurant("Alser Straße").
+restaurant("Stephansplatz").
+restaurant("Praterkai").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Siebenhirten").

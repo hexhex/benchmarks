@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Jägerstraße").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Jägerstraße").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Schottenring").
+sequence(1,0, "Donaustadtbrücke").
 person(2).
-initlocation($p,"Spittelau").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Spittelau").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Fischamend Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Weidlingau Bahnhof").
-restaurant("Penzing").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+sequence(2,0, "Michelbeuern-AKH").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Staatz Bahnhof").
+restaurant("Herzogenburg Stadt").
+restaurant("Bad Vöslau Bahnhof").

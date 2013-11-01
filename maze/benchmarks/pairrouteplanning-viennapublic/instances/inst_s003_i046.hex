@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Geiereckstraße").
-initlocation(1,"Polgarstraße").
-initlocation(1,"Winckelmannstraße").
-sequence(1,0, "Geiereckstraße").
+initlocation(1,"Leberweg").
+initlocation(1,"Seegasse").
+initlocation(1,"Klimschgasse").
+sequence(1,0, "Leberweg").
 person(2).
-initlocation(2,"Skraupstraße").
-initlocation(2,"Schöberweg").
-initlocation(2,"Gußriegelstraße").
-sequence(2,0, "Skraupstraße").
-possiblemeetinglocations("Arztgasse").
-possiblemeetinglocations("Wassermanngasse").
-possiblemeetinglocations("Trabrennstraße").
-restaurant("Häußlergasse").
-restaurant("Winkeläckerstraße").
-restaurant("Lannesstraße").
+initlocation(2,"Inzersdorf Personenbahnhof").
+initlocation(2,"Siebenbrunnenfeldgasse").
+initlocation(2,"Helmahof Bahnhof").
+sequence(2,0, "Inzersdorf Personenbahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Hohenfelsplatz").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+restaurant("Maculangasse/Wagramer Straße").
+restaurant("Vinzenzgasse").
+restaurant("Rußbergstraße").

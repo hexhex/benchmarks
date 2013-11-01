@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Quellenstraße/Favoritenstraße").
-initlocation($p,"Edmund-Hawranek-Platz").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Kliebergasse").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Josef-Baumann-Gasse").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+sequence(1,0, "Ameisgasse").
 person(2).
-initlocation($p,"Aspern Nord").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Josef-Baumann-Gasse").
-initlocation($p,"Hernals").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Aspern Nord").
-possiblemeetinglocations("Glatzgasse").
-possiblemeetinglocations("Schloss Hetzendorf").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Stadiongasse/Parlament").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
-restaurant("Krottenbachstraße").
-restaurant("Frauengasse").
-restaurant("Weinhauser Gasse").
-restaurant("Brünner Straße").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Hohe Warte").
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Columbusplatz").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Siebensterngasse").
+sequence(2,0, "Auerspergstraße").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+possiblemeetinglocations("Himmelmutterweg").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Jagdschloßgasse").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+restaurant("Mayssengasse").
+restaurant("Laurenzgasse").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Schleinbach Bahnhof").

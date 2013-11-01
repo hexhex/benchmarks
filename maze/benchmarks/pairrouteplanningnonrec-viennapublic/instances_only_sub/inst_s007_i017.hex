@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Ottakring").
-initlocation($p,"Breitenwaida Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Schottentor").
+initlocation(1,"Baden Bahnhof").
+sequence(1,0, "Keplerplatz").
 person(2).
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Grillgasse").
-initlocation($p,"Gumpendorfer Straße").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Meidling Hauptstraße").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Ebenfurth Bahnhof").
+sequence(2,0, "Kottingneusiedl Bahnhof").
 possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Hardeggasse").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Simmering").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Heiligenstadt").
-restaurant("Götzendorf Bahnhof").
-restaurant("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Reumannplatz").
+restaurant("Weidlingau Bahnhof").
+restaurant("Neue Donau").
+restaurant("Perfektastraße").
+restaurant("Messe-Prater").
+restaurant("Neubaugasse").
+restaurant("Münchendorf Bahnhof").
+restaurant("Herzogenburg Bahnhof").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Guntherstraße").
-initlocation($p,"Geiereckstraße").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Ameisgasse").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Guntherstraße").
+initlocation(1,"Stollgasse").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Gruschaplatz").
+sequence(1,0, "Stollgasse").
 person(2).
-initlocation($p,"Bernhardtstalgasse").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Donauzentrum").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Frödenplatz").
-initlocation($p,"Bernhardtstalgasse").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Josef-Baumann-Gasse").
-possiblemeetinglocations("Konstanziagasse").
-possiblemeetinglocations("Rankgasse").
-possiblemeetinglocations("Am Tabor").
-restaurant("Rennbahnweg").
-restaurant("Siebenhirten").
-restaurant("Kagran").
-restaurant("Heiligenstadt, 12-Februar-Pl").
-restaurant("Rauscherstraße").
-restaurant("Svetelskystraße").
-restaurant("Weigelsdorf Bahnhof").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Thaliastraße/Feßtgasse").
+sequence(2,0, "Perfektastraße").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+restaurant("Forstnergasse").
+restaurant("Winkeläckerstraße").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Staglgasse").
+restaurant("Erlaaer Straße").
+restaurant("Mistelbach Bahnhof").
+restaurant("Riedelgasse").

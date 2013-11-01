@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Rebhanngasse").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Donauinsel").
-initlocation($p,"Oberfeldgasse").
-initlocation($p,"Bauernfeldplatz").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Augasse").
-initlocation($p,"Alterlaa").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Obere Augartenstraße").
-initlocation($p,"Rebhanngasse").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Stefan-Fadinger-Platz").
+initlocation(1,"Valiergasse").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Rathaus").
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Koppstraße/Panikengasse").
+sequence(1,0, "Kottingneusiedl Bahnhof").
 person(2).
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Windtenstraße").
-initlocation($p,"Breitenfurter St/Altmannsd Str").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Lobau").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Hoßplatz").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Schottenring").
-initlocation($p,"Margaretengürtel").
-possiblemeetinglocations("Svetelskystraße").
-possiblemeetinglocations("Liechtenwerder Platz").
-possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
-possiblemeetinglocations("Laxenburger Straße/Troststraße").
-possiblemeetinglocations("Obere Donaustraße").
-possiblemeetinglocations("Hermesstraße").
-possiblemeetinglocations("Pötzleinsdorf").
-possiblemeetinglocations("Laurenzgasse").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Großjedlersdorf").
-possiblemeetinglocations("Ameisgasse").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Lobau").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Längenfeldgasse/Flurschützstr").
-restaurant("Seyring Bahnhof").
-restaurant("Litfaßstraße").
-restaurant("Friedensbrücke").
-restaurant("Aderklaaer Straße").
-restaurant("Nußdorfer Straße").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Spillern Bahnhof").
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Fickeysstraße").
+initlocation(2,"Stadion").
+initlocation(2,"Stammersdorf").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Nordbrücke").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Am Heidjöchl").
+initlocation(2,"Breitenwaida Bahnhof").
+sequence(2,0, "Obere Donaustraße").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+restaurant("Obere Donaustraße").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Wildgansplatz").
+restaurant("Keplerplatz").
+restaurant("Altes Landgut").
+restaurant("Gasometer").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Stephansplatz").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Trasdorf Bahnhof").
+restaurant("Windtenstraße").

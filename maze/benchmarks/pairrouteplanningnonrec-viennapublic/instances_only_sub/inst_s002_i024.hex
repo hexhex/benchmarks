@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Museumsquartier").
+sequence(1,0, "Mödling Bahnhof").
 person(2).
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Viehofen Bahnhof").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-restaurant("Hausleiten Bahnhof").
-restaurant("Oberdöbling").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+sequence(2,0, "Breitenwaida Bahnhof").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Hofstatt Bahnhof").
+restaurant("Spillern Bahnhof").
+restaurant("Nußdorfer Straße").

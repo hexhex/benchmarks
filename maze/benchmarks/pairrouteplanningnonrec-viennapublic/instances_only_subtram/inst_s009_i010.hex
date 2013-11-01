@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Heinrich-Drimmel-Platz").
-initlocation($p,"Quellenstraße/Knöllgasse").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Troststraße/Neilreichgasse").
-initlocation($p,"Nordbrücke").
-initlocation($p,"Donaumarina").
-initlocation($p,"Laaer-Berg-Straße").
-initlocation($p,"Verbindungsbahn").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Kölblgasse").
+initlocation(1,"Obere Donaustraße").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Alaudagasse").
+sequence(1,0, "Purkersdorf Sanatorium").
 person(2).
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Beingasse").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Teichgasse").
-initlocation($p,"Dornbach, Güpferlingstraße").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Am Spitz").
-initlocation($p,"Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Gusenleithnergasse").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
-possiblemeetinglocations("Hofwiesengasse").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+initlocation(2,"Zentralfriedhof 2Tor").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+initlocation(2,"Mariahilfer Gürtel").
+sequence(2,0, "Zentralfriedhof 2Tor").
+possiblemeetinglocations("Rekawinkel Bahnhof").
 possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Martinstraße").
+restaurant("Schottentor").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Vorgartenstraße").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Oberdöbling").
+restaurant("Empergergasse").
 restaurant("Erzherzog-Karl-Straße").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Canisiusgasse").
-restaurant("Beingasse").
-restaurant("Rebhanngasse").
-restaurant("Plößlgasse").
-restaurant("Radetzkyplatz").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Gerhardusgasse").
+restaurant("Leberberg").

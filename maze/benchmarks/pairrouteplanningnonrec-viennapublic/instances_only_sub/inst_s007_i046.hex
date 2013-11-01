@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Taborstraße").
-initlocation($p,"Alser Straße").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Rathaus").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Kaisermühlen-VIC").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Neue Donau").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Rathaus").
+sequence(1,0, "Himberg Bahnhof").
 person(2).
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Erdberg").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Tulln Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Schottenring").
-restaurant("Stadlau").
-restaurant("Tscherttegasse").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Schottenring").
-restaurant("Haidestraße").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Stadlau").
+initlocation(2,"Mistelbach Stadt").
+sequence(2,0, "Leopoldau").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Aderklaaer Straße").
+restaurant("Keplerplatz").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Alser Straße").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Quartier Belvedere").
+restaurant("Sitzenberg-Reidling Bahnhof").

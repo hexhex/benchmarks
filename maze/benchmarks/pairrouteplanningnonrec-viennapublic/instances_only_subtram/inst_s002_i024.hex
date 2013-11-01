@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Eckpergasse").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Eckpergasse").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+sequence(1,0, "Stadlergasse").
 person(2).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Kagraner Platz").
-possiblemeetinglocations("Scheibenbergstraße").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-restaurant("Kleistgasse").
-restaurant("Rustengasse").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+initlocation(2,"Atzenbrugg Bahnhof").
+sequence(2,0, "Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Bernhardtstalgasse").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Favoritenstraße/Troststraße").

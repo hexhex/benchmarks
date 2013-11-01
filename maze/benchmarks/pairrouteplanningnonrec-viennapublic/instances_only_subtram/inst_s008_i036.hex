@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Floridsdorf").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Koloniestraße").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Floridsdorf").
+initlocation(1,"Albertgasse").
+initlocation(1,"Prinzgasse").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Palffygasse").
+initlocation(1,"Hildebrandgasse").
+initlocation(1,"Hietzing").
+initlocation(1,"Pantucekgasse/Widholzgasse").
+initlocation(1,"Rosensteingasse").
+sequence(1,0, "Albertgasse").
 person(2).
-initlocation($p,"Staglgasse").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Nordbrücke").
-initlocation($p,"Reinlgasse/Märzstraße").
-initlocation($p,"Linzer Straße/Zehetnergasse").
-initlocation($p,"Florianigasse").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Staglgasse").
-possiblemeetinglocations("Frödenplatz").
-possiblemeetinglocations("Brünner Straße/Hanreitergasse").
-possiblemeetinglocations("Plößlgasse").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Blumental").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Obere Donaustraße").
-restaurant("Ameisgasse").
-restaurant("Bisamberg Bahnhof").
-restaurant("Wr Neustadt Nord").
-restaurant("Strozzigasse").
-restaurant("Gutraterplatz").
+initlocation(2,"Antonigasse").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Anschützgasse").
+initlocation(2,"Satzberggasse").
+initlocation(2,"Gasometer").
+initlocation(2,"Siebertgasse").
+initlocation(2,"Zentralfriedhof 1Tor").
+sequence(2,0, "Antonigasse").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Neilreichgasse").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Franzensbrücke").
+restaurant("Rebhanngasse").
+restaurant("Kledering Bahnhof").
+restaurant("Neulerchenfelder Str/Brunneng").
+restaurant("Römergasse").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Mühlfeldgasse").

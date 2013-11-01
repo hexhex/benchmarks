@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Stephansplatz").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Liesing").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Stephansplatz").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Strasshof Bahnhof").
+sequence(1,0, "Ebreichsdorf Bahnhof").
 person(2).
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Schottentor").
-restaurant("Floridsdorf").
-restaurant("Reumannplatz").
-restaurant("Margaretengürtel").
-restaurant("Hütteldorfer Straße").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Baden Bahnhof").
-restaurant("Erdberg").
-restaurant("Maria Anzbach Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Alterlaa").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Hausfeldstraße").
+sequence(2,0, "Helmahof Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Obersdorf Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Braunschweiggasse").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Aspernstraße").
+restaurant("Ladendorf Bahnhof").

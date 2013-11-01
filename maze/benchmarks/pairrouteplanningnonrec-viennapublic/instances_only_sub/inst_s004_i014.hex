@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Strebersdorf").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Seestadt").
-initlocation($p,"Strebersdorf").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Theresienfeld Bahnhof").
+sequence(1,0, "Kottingneusiedl Bahnhof").
 person(2).
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-restaurant("Stephansplatz").
-restaurant("Geiselbergstraße").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Oberradlberg Bahnhof").
+initlocation(2,"Kagran").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Zentralfriedhof").
+sequence(2,0, "Kagran").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Handelskai").
+restaurant("Keplerplatz").
+restaurant("Gerasdorf Bahnhof").

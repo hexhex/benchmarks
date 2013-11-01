@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Thaliastraße").
-initlocation($p,"Wienerfeldgasse").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Zentralfriedhof 3Tor").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Wenzgasse").
-initlocation($p,"Thaliastraße").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Sollenau Bahnhof").
+sequence(1,0, "Karmeliterplatz").
 person(2).
-initlocation($p,"Weinheimergasse").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Alterlaa").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Ottakring").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Weinheimergasse").
-possiblemeetinglocations("Bernhardtstalgasse").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Otto-Probst-Platz").
-possiblemeetinglocations("Hauffgasse").
-possiblemeetinglocations("Knöllgasse/Davidgasse").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Donaustadtbrücke").
-restaurant("Erlaaer Straße").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Valiergasse").
-restaurant("Neulerchenfelder Str/Brunneng").
-restaurant("Dresdner Straße").
-restaurant("Taubstummengasse").
-restaurant("Leopoldau").
-restaurant("Am Heumarkt").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Neue Donau").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Albertgasse").
+initlocation(2,"Bauernfeldplatz").
+initlocation(2,"Am Spitz").
+sequence(2,0, "Bahnsteggasse").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Hauptbahnhof Ost").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Penzinger Straße").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Leberberg").
+restaurant("Matthäus-Jiszda-Straße").
+restaurant("Albertgasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Autokaderstraße").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Lobau").

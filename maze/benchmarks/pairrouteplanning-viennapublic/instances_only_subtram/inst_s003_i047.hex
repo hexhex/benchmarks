@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Aßmayergasse").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Rennweg").
+sequence(1,0, "Greifenstein-Altenberg Bahnhof").
 person(2).
-initlocation($p,"Lainz, Wolkersbergenstraße").
-initlocation($p,"Thaliastraße/Haberlgasse").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Lainz, Wolkersbergenstraße").
-possiblemeetinglocations("Waidhausenstraße").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
-restaurant("Hubertusdamm").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Göllersdorf Bahnhof").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Alsegger Straße").
+initlocation(2,"Dornbach, Güpferlingstraße").
+sequence(2,0, "Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Maurer Lange Gasse").
+restaurant("Anton-Schall-Gasse").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Thaliastraße").

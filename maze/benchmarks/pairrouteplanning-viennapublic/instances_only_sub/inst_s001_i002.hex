@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Schottentor").
+sequence(1,0, "Schottentor").
 person(2).
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Korneuburg Bahnhof").
-restaurant("Traisengasse").
+initlocation(2,"Hütteldorfer Straße").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Wr Neustadt Nord").
+restaurant("Absdorf-Hippersdorf Bahnhof").

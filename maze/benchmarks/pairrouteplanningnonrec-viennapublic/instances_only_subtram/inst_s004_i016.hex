@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Stadtpark").
-initlocation($p,"Kranzgasse").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Stadtpark").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Korneuburg Bahnhof").
+sequence(1,0, "Breitenwaida Bahnhof").
 person(2).
-initlocation($p,"Herrengasse").
-initlocation($p,"Donauzentrum").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Alfred-Adler-Straße").
-initlocation($p,"Herrengasse").
-possiblemeetinglocations("Staglgasse").
-possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
-possiblemeetinglocations("Dornbach, Güpferlingstraße").
-possiblemeetinglocations("Gewerbepark Stadlau Mitte").
-restaurant("Teichgasse").
-restaurant("Kaisermühlen-VIC").
-restaurant("Prinzgasse").
-restaurant("Gellertplatz").
+initlocation(2,"Baumgasse").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Eckpergasse").
+sequence(2,0, "Baumgasse").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Gellertplatz").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Hofwiesengasse").
+restaurant("Am Heidjöchl/Hausfeldstraße").

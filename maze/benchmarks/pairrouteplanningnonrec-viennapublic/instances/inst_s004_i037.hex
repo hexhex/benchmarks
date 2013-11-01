@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Margaretenplatz").
-initlocation(1,"Karmeliterplatz").
-initlocation(1,"Kranzgasse").
-initlocation(1,"Trondheimgasse").
-sequence(1,0, "Margaretenplatz").
+initlocation(1,"Spargelfeldstraße/Rautenweg").
+initlocation(1,"Himmelmutterweg").
+initlocation(1,"Hietzing").
+initlocation(1,"Eslarngasse").
+sequence(1,0, "Spargelfeldstraße/Rautenweg").
 person(2).
-initlocation(2,"Leberberg").
-initlocation(2,"Aspern, Oberdorfstraße").
-initlocation(2,"Stollgasse").
-initlocation(2,"Kundmanngasse").
-sequence(2,0, "Leberberg").
-possiblemeetinglocations("Saarplatz").
-possiblemeetinglocations("Pfarrwiesenstraße").
-possiblemeetinglocations("Elderschplatz").
-possiblemeetinglocations("Erndtgasse").
-restaurant("Kapellergasse").
-restaurant("Thonetgasse").
-restaurant("Starhemberg-Kaserne").
-restaurant("Magdalenenstraße").
+initlocation(2,"Fernkorngasse").
+initlocation(2,"Jägerwaldsiedlung").
+initlocation(2,"Hadersdorfer Hauptstraße").
+initlocation(2,"Zippererstraße").
+sequence(2,0, "Fernkorngasse").
+possiblemeetinglocations("Baumgarten").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Merkurweg").
+possiblemeetinglocations("Wr Neudorf Griesfeld").
+restaurant("Hillerstraße").
+restaurant("Rosentalgasse").
+restaurant("Kolletschkagasse").
+restaurant("Saarplatz").

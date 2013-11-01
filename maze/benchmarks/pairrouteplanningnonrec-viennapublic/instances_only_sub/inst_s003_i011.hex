@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Herzogenburg Bahnhof").
+sequence(1,0, "Getzersdorf/Traisen Bahnhof").
 person(2).
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Schottentor").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Aderklaaer Straße").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-restaurant("Donauinsel").
-restaurant("Jägerstraße").
-restaurant("Maria Anzbach Bahnhof").
+initlocation(2,"Kagran").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Taubstummengasse").
+sequence(2,0, "Kagran").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Reumannplatz").
+restaurant("Großfeldsiedlung").
+restaurant("Lobau").
+restaurant("Strasshof Bahnhof").

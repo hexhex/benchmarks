@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Sillerplatz").
-initlocation($p,"Hopfengasse").
-initlocation($p,"Hildebrandgasse").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Rothneusiedl").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Waidhausenstraße").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Antonigasse").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Rustengasse").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+sequence(1,0, "Kettenbrückengasse").
 person(2).
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Fasangasse").
-initlocation($p,"Neulerchenfelder Str/Haberlg").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-possiblemeetinglocations("Wittelsbachstraße").
-possiblemeetinglocations("Schwarzenbergplatz").
-possiblemeetinglocations("Konstanziagasse").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Albertgasse").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Saikogasse").
-restaurant("Quartier Belvedere").
-restaurant("Großfeldsiedlung").
-restaurant("Obersdorf Bahnhof").
-restaurant("Johnstraße").
-restaurant("Fasangasse").
-restaurant("Lobau").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Oberolberndorf Bahnhof").
+initlocation(2,"Sickenberggasse").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Quellenstraße/Favoritenstraße").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Seestadt").
+initlocation(2,"Blumental").
+sequence(2,0, "Sickenberggasse").
+possiblemeetinglocations("Empergergasse").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Sillerplatz").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Linzer Straße/Reinlgasse").
+restaurant("Stadlergasse").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Polkorabplatz").
+restaurant("Rebhanngasse").
+restaurant("Gusenleithnergasse").
+restaurant("Weißenböckstraße").

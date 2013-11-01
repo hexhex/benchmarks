@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-initlocation($p,"Donauspital").
-initlocation($p,"Liebknechtgasse").
-initlocation($p,"Aspern, Oberdorfstraße").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Koloniestraße").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Perntergasse").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Huglgasse").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Lobau").
+initlocation(1,"Römergasse").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Verbindungsbahn").
+sequence(1,0, "Svetelskystraße").
 person(2).
-initlocation($p,"Rebhanngasse").
-initlocation($p,"Gersthof").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Absberggasse").
-initlocation($p,"Lobau").
-initlocation($p,"Sillerplatz").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Praterstern").
-initlocation($p,"Rebhanngasse").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Gaußplatz").
-possiblemeetinglocations("Thaliastraße/Feßtgasse").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Zentralfriedhof 2Tor").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Forstnergasse").
-possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
-possiblemeetinglocations("Wildgansplatz").
-restaurant("Perntergasse").
-restaurant("Wilhelminenstr/Sandleitengasse").
-restaurant("Gersthofer Str/Scheibenbergstr").
-restaurant("Carminweg").
-restaurant("Herbeckstraße").
-restaurant("Gloriettegasse").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Laxenburger Str/Gudrunstraße").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Donauinsel").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Schloss Schönbrunn").
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Döblinger Hauptstr/Gatterburgg").
+initlocation(2,"Silbergasse").
+initlocation(2,"Hetzendorf").
+sequence(2,0, "Winckelmannstraße").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+restaurant("Praterkai").
+restaurant("Donaumarina").
+restaurant("Tscherttegasse").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Sahulkastraße").
+restaurant("Atzgersdorf").
+restaurant("Neulengbach Bahnhof").
+restaurant("Braunschweiggasse").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Reumannplatz").

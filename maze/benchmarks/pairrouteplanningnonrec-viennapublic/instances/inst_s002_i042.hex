@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Kohlgasse").
-initlocation(1,"Riedstraße").
-sequence(1,0, "Kohlgasse").
+initlocation(1,"Bellgasse").
+initlocation(1,"Strandbad Stadlau").
+sequence(1,0, "Bellgasse").
 person(2).
-initlocation(2,"Zeleborgasse").
-initlocation(2,"Strebersdorf").
-sequence(2,0, "Zeleborgasse").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Karmeliterplatz").
-restaurant("Möllersdorf Haltestelle").
-restaurant("Hohe Warte").
+initlocation(2,"Neusteinhof").
+initlocation(2,"Wagner-Schönkirch-Gasse").
+sequence(2,0, "Neusteinhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Fuchsenzeile").
+restaurant("Dreimarkstein").
+restaurant("Wr Neudorf Bahnhof").

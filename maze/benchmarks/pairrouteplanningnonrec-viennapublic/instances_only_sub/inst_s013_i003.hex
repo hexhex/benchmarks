@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Simmering").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Stadlau").
-initlocation($p,"Lobau").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Theresienfeld Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Volkstheater").
+initlocation(1,"Stadlau").
+sequence(1,0, "Schottenring").
 person(2).
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Johnstraße").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Aspernstraße").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Liesing").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Schönborn Bahnhof").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Bisamberg Bahnhof").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Kagran").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Am Schöpfwerk").
+sequence(2,0, "Reumannplatz").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Nußdorfer Straße").
 possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Braunschweiggasse").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-restaurant("Weidlingau Bahnhof").
-restaurant("Haidestraße").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Atzgersdorf").
+restaurant("Handelskai").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Himberg Bahnhof").
+restaurant("Hausfeldstraße").
+restaurant("Aspern Nord").
 restaurant("Sankt Marx").
-restaurant("Schweglerstraße").
-restaurant("Zentralfriedhof").
-restaurant("Neulengbach Bahnhof").
-restaurant("Alser Straße").
-restaurant("Taubstummengasse").
-restaurant("Staatz Bahnhof").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Jägerstraße").
-restaurant("Johnstraße").
-restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Unter Kritzendorf Bahnhof").

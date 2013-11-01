@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Hauptbahnhof Ost").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Palffygasse").
-initlocation($p,"Stockholmer Platz").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Kaiserstraße/Burggasse").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Tesarekplatz").
+initlocation(1,"Jagdschloßgasse").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Hernals").
+sequence(1,0, "Eichgraben-Altlengbach Bahnhof").
 person(2).
-initlocation($p,"Rampengasse").
-initlocation($p,"Rothneusiedl").
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Hernalser Gürtel").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Rampengasse").
-possiblemeetinglocations("Troststraße/Neilreichgasse").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Mühlfeldgasse").
-possiblemeetinglocations("Huglgasse").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Antonigasse").
-possiblemeetinglocations("Hütteldorfer Straße").
-restaurant("Preyergasse/Speising").
-restaurant("Knöllgasse/Troststraße").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Quellenstraße/Favoritenstraße").
-restaurant("Liechtenwerder Platz").
-restaurant("Aderklaaer Straße").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Laurentiusplatz").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Gersthof").
+initlocation(2,"Raxstraße/Rudolfshügelgasse").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Quellenstraße/Favoritenstraße").
+initlocation(2,"Döblinger Hauptstr/Gatterburgg").
+initlocation(2,"Mistelbach Bahnhof").
+sequence(2,0, "Gänserndorf Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Floridsdorfer Markt").
+restaurant("Rennweg").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Prater, Hauptallee").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Siebenhirten").
+restaurant("Praterkai").
+restaurant("Am Heumarkt").

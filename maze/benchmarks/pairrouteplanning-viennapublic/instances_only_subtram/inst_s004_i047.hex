@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Eichenstraße").
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Halteraugasse").
+initlocation(1,"Florianigasse").
+initlocation(1,"Aspern, Oberdorfstraße").
+initlocation(1,"Mühlfeldgasse").
+sequence(1,0, "Halteraugasse").
 person(2).
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Glatzgasse").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Konstanziagasse").
-possiblemeetinglocations("Taborstraße").
-restaurant("Gumpendorfer Straße").
-restaurant("Hernalser Gürtel").
-restaurant("Neuwaldegg").
-restaurant("An den langen Lüssen").
+initlocation(2,"Stammersdorf").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Rodaun").
+initlocation(2,"Fischamend Bahnhof").
+sequence(2,0, "Stammersdorf").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Pilgramgasse").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Donauinsel").

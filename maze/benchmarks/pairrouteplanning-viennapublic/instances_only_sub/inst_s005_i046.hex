@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Schottenring").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Taborstraße").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Aspernstraße").
+sequence(1,0, "Taborstraße").
 person(2).
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Mannswörth Bahnhof").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Neubaugasse").
-restaurant("Blumental").
-restaurant("Neulengbach Stadt Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Längenfeldgasse").
+sequence(2,0, "Guntersdorf Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Praterstern").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Gersthof").
+restaurant("Silberwald Bahnhof").

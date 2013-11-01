@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Hernals").
-initlocation($p,"Herzogenburg Stadt").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+sequence(1,0, "Sankt Marx").
 person(2).
-initlocation($p,"Breitensee").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Breitensee").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Klosterneuburg-Kierling Bf").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+restaurant("Liesing").
+restaurant("Aderklaaer Straße").
+restaurant("Enkplatz").

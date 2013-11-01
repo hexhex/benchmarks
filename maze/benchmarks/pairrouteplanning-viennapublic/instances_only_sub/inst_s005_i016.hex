@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Unteroberndorf Bahnhof").
+sequence(1,0, "Zippererstraße").
 person(2).
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Gersthof").
-initlocation($p,"Gänserndorf Bahnhof").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-restaurant("Krieau").
-restaurant("Trautmannsdorf/Leitha Bf").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Hirschstetten").
-restaurant("Obereggendorf Bahnhof").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Praterstern").
+initlocation(2,"Praterkai").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Erlaaer Straße").
+sequence(2,0, "Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+restaurant("Stockerau Bahnhof").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Blumental").

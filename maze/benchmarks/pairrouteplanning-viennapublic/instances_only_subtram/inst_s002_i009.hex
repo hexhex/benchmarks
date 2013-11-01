@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Blindengasse").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Blindengasse").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Schottenring").
+sequence(1,0, "Joachimsthalerplatz").
 person(2).
-initlocation($p,"Kaiserebersdorf, Zinnergasse").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Kaiserebersdorf, Zinnergasse").
-possiblemeetinglocations("Pötzleinsdorf").
-possiblemeetinglocations("Strebersdorf").
-restaurant("Gredlerstraße").
-restaurant("Frättingsdorf Bahnhof").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Eckpergasse").
+sequence(2,0, "Neilreichgasse").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Hauptbahnhof Ost").
+restaurant("Blindengasse").
+restaurant("Siemensstraße").

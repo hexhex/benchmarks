@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Gaußplatz").
-initlocation($p,"Haidestraße").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Löwengasse").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Anton-Krieger-Gasse").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Elterleinplatz").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Hubertusdamm").
+initlocation(1,"Wattmanngasse").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Heinrich-Drimmel-Platz").
+sequence(1,0, "Kranzgasse").
 person(2).
-initlocation($p,"Dommayergasse").
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Hopfengasse").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Eichenstraße").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Rothneusiedl").
-initlocation($p,"Antonigasse").
-initlocation($p,"Dommayergasse").
-possiblemeetinglocations("Joachimsthalerplatz").
-possiblemeetinglocations("Schlickgasse").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Wattmanngasse").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Sensengasse").
-possiblemeetinglocations("Verbindungsbahn").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-restaurant("Kaiserebersdorf").
-restaurant("Radetzkyplatz").
-restaurant("Gruschaplatz").
-restaurant("Siemensstraße").
-restaurant("Arthaberplatz").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Sierndorf Bahnhof").
-restaurant("Oberzellergasse").
-restaurant("Taubstummengasse").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Wexstraße").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Edmund-Hawranek-Platz").
+initlocation(2,"Ameisgasse").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Dornbacher Straße").
+sequence(2,0, "Zentralfriedhof 3Tor").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Burgring").
+restaurant("Teichgasse").
+restaurant("Gaisruck Bahnhof").
+restaurant("Kliebergasse").
+restaurant("Empergergasse").
+restaurant("Paradisgasse").
+restaurant("Wienerfeldgasse").
+restaurant("Fichtnergasse").
+restaurant("Matthäus-Jiszda-Straße").
+restaurant("Hintere Zollamtsstraße").

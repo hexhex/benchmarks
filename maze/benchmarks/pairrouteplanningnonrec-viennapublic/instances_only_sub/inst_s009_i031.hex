@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Stadtpark").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Floridsdorf").
+sequence(1,0, "Hütteldorf").
 person(2).
-initlocation($p,"Erdberg").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Volkstheater").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Seestadt").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Erdberg").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Hernals").
+sequence(2,0, "Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Donaumarina").
 possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Pressbaum Bahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Süßenbrunn").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Praterstern").
-restaurant("Jägerstraße").
-restaurant("Schottenring").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Mannswörth Bahnhof").
-restaurant("Hadersdorf Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Tulln Bahnhof").
+restaurant("Zippererstraße").
+restaurant("Donauinsel").
+restaurant("Herzogenburg Stadt").
+restaurant("Nestroyplatz").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Nußdorfer Straße").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Retz Bahnhof").

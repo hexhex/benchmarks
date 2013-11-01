@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Stubentor").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Hernals").
-initlocation($p,"Breitensee").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Oberradlberg Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Maria Anzbach Bahnhof").
+sequence(1,0, "Herrengasse").
 person(2).
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Alterlaa").
-initlocation($p,"Herrengasse").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Fischamend Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Gersthof").
+initlocation(2,"Viehofen Bahnhof").
+sequence(2,0, "Maria Ellend Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
 possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-restaurant("St Pölten Traisenpark P+R Nord").
-restaurant("Thaliastraße").
-restaurant("Donauspital").
-restaurant("Haidestraße").
-restaurant("Viehofen Bahnhof").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Rochusgasse").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Meidling Hauptstraße").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+restaurant("Erdberg").
+restaurant("Friedensbrücke").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Jedlersdorf").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Strebersdorf").
 restaurant("Messe-Prater").
+restaurant("Blumental").
+restaurant("Siebenhirten (NÖ). Haltestelle").

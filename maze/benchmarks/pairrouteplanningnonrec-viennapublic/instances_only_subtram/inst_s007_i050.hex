@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Herbeckstraße").
+initlocation(1,"Ottakringer Straße/Wattgasse").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Unteres Belvedere").
+sequence(1,0, "Ottakringer Straße/Wattgasse").
 person(2).
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Gerstnerstraße/Westbhf").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Unteres Belvedere").
-initlocation($p,"Autokaderstraße").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Resselgasse").
-initlocation($p,"Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Siebensterngasse").
-possiblemeetinglocations("Laudongasse").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Krottenbachstraße").
-restaurant("Wenzgasse").
-restaurant("Ebreichsdorf Bahnhof").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Anton-Schall-Gasse").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Neue Donau").
+initlocation(2,"Höbersdorf Bahnhof").
+sequence(2,0, "Krottenbachstraße").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Nordbrücke").
+restaurant("Westbahnhof").
+restaurant("Otto-Probst-Straße").
+restaurant("Kettenbrückengasse").
+restaurant("Eichgraben-Altlengbach Bahnhof").
 restaurant("Hetzendorf").
-restaurant("Oberfeldgasse").
-restaurant("Matthäus-Jiszda-Straße").
-restaurant("Hietzing").
-restaurant("Hütteldorfer Straße").
+restaurant("Donauspital").
+restaurant("Schloss Hetzendorf").

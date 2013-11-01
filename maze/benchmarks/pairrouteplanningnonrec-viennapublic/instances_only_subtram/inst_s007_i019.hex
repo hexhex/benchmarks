@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Anton-Schall-Gasse").
-initlocation($p,"Wattmanngasse").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Skodagasse").
-initlocation($p,"Silbergasse").
-initlocation($p,"Anton-Schall-Gasse").
+initlocation(1,"Hietzing").
+initlocation(1,"Augasse").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Wallrißstraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+sequence(1,0, "Hietzing").
 person(2).
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Stubentor").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Antonigasse").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Am Spitz").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Rosenhügelstraße").
-possiblemeetinglocations("Salztorbrücke").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Baumgarten").
-possiblemeetinglocations("Hauffgasse").
-possiblemeetinglocations("Marx-Meidlinger-Straße").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Strasshof Bahnhof").
-restaurant("Zentralfriedhof 3Tor").
-restaurant("Hardtgasse").
-restaurant("Lobau").
-restaurant("Grillgasse").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Hoßplatz").
-restaurant("Wildgansplatz").
+initlocation(2,"Unter St Veit, Hummelgasse").
+initlocation(2,"Martinstraße").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Joachimsthalerplatz").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+sequence(2,0, "Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Lobau").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Rauscherstraße").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("Wallensteinplatz").
+restaurant("Ober Sankt Veit").
+restaurant("Thaliastraße/Haberlgasse").

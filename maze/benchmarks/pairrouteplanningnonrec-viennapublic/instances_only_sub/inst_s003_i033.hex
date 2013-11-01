@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Hernals").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+sequence(1,0, "Frättingsdorf Bahnhof").
 person(2).
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Michelhausen Bahnhof").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Nußdorfer Straße").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Getzersdorf/Traisen Bahnhof").
-restaurant("Deutsch-Wagram Bahnhof").
+initlocation(2,"Schottentor").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+sequence(2,0, "Schottentor").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+restaurant("Am Schöpfwerk").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Margaretengürtel").

@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Spittelau").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Neusiedl am See Bahnhof").
+sequence(1,0, "Dürrwien Bahnhof").
 person(2).
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Münchendorf Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Traisengasse").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Lobau").
-restaurant("Neubaugasse").
-restaurant("Preyergasse/Speising").
-restaurant("St Andrä-Wördern Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Schottentor").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+sequence(2,0, "Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Niederhofstraße").
+restaurant("Pressbaum Bahnhof").
+restaurant("Mannswörth Bahnhof").
+restaurant("Hardeggasse").
+restaurant("Herzogenburg Stadt").
+restaurant("Geiselbergstraße").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Hofwiesengasse").
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Praterstern").
-initlocation($p,"Hofwiesengasse").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+sequence(1,0, "Achau Bahnhof").
 person(2).
-initlocation($p,"Am Tabor").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Am Tabor").
-possiblemeetinglocations("Absberggasse").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Grinzing").
-restaurant("St Pölten Traisenpark P+R Nord").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Börsegasse/Wipplingerstraße").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Gerhardusgasse").
+sequence(2,0, "Taubstummengasse").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Wallrißstraße").
+restaurant("Grillgasse").
+restaurant("Stockerau Bahnhof").
+restaurant("Matzleinsdorfer Platz").

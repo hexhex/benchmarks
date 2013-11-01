@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Laxenburger Straße/Troststraße").
-initlocation($p,"Seestadt").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Laxenburger Straße/Troststraße").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+sequence(1,0, "Johann-Nepomuk-Berger-Platz").
 person(2).
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Althanstraße").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Sechskrügelgasse").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
-possiblemeetinglocations("Götzendorf Bahnhof").
-restaurant("Nordbahnstraße").
-restaurant("Kliebergasse").
-restaurant("Volkstheater").
+initlocation(2,"Zentralfriedhof 1Tor").
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+initlocation(2,"Kottingbrunn Bahnhof").
+sequence(2,0, "Zentralfriedhof 1Tor").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+restaurant("Kagraner Brücke").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Unteroberndorf Bahnhof").

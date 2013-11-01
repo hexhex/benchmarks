@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Seestadt").
-initlocation($p,"Nußdorf").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Spittelau").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+sequence(1,0, "Johnstraße").
 person(2).
-initlocation($p,"Zippererstraße").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Zippererstraße").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-restaurant("Schwedenplatz").
-restaurant("Lobau").
-restaurant("Schönborn Bahnhof").
-restaurant("Schottentor").
-restaurant("Stadion").
-restaurant("Schlachthausgasse").
-restaurant("Niederhofstraße").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+sequence(2,0, "Hautzendorf Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Rathaus").
+restaurant("Mistelbach Stadt").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Haidestraße").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Obersdorf Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Kaiserebersdorf").

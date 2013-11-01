@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"Spittelau").
-initlocation($p,"Praterkai").
-initlocation($p,"Laudongasse").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Linzer Straße/Zehetnergasse").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Kaiserebersdorf, Zinnergasse").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Staglgasse").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+sequence(1,0, "Zellerndorf Bahnhof").
 person(2).
-initlocation($p,"Laudongasse").
-initlocation($p,"Hetzgasse").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Fasangasse").
-initlocation($p,"Taborstraße/Heinestraße").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Laudongasse").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
-possiblemeetinglocations("Schleiergasse").
-possiblemeetinglocations("Hauptbahnhof Ost").
-possiblemeetinglocations("Linzer Straße/Reinlgasse").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Silbergasse").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Favoritenstraße/Troststraße").
-possiblemeetinglocations("Schleinbach Bahnhof").
-restaurant("Rathausplatz/Burgtheater").
-restaurant("Lazarettgasse").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Favoritenstraße/Troststraße").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Bernhardtstalgasse").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Mayerhofgasse").
+initlocation(2,"Kapellerfeld Bahnhof").
+sequence(2,0, "Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Lerchenfelder Straße").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
 restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Otto-Probst-Platz").
-restaurant("Handelskai").
-restaurant("Autokaderstraße").
-restaurant("Wattmanngasse").
-restaurant("Museumsquartier").
-restaurant("Wenzgasse").
-restaurant("Skodagasse").
-restaurant("Strozzigasse").
+restaurant("Blumengasse").
+restaurant("Tulln Bahnhof").
+restaurant("Gatterburggasse").
+restaurant("Friedensbrücke").
+restaurant("Stefan-Fadinger-Platz").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Reumannplatz").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Gumpendorfer Straße").
+restaurant("Unter St Veit, Hummelgasse").

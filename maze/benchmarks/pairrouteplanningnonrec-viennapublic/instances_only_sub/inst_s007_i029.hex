@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Neue Donau").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Stadion").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Platt Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Donauspital").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Felixdorf Bahnhof").
+sequence(1,0, "Traisengasse").
 person(2).
-initlocation($p,"Spittelau").
-initlocation($p,"Taborstraße").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Spittelau").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Viehofen Bahnhof").
-restaurant("Tscherttegasse").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Simmering").
-restaurant("Nußdorf").
-restaurant("Weidlingau Bahnhof").
-restaurant("Krieau").
-restaurant("Langenzersdorf Bahnhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Herrengasse").
+sequence(2,0, "Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Simmering").
+restaurant("Erlaaer Straße").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Kaisermühlen-VIC").
+restaurant("Stadtpark").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Schottentor").

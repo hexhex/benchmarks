@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Bahnhof Meidling").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Krottenbachstraße").
+sequence(1,0, "Hautzendorf Bahnhof").
 person(2).
-initlocation($p,"Sankt Marx").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Leopoldau").
-initlocation($p,"Praterstern").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Sankt Marx").
-possiblemeetinglocations("Simmering").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Hausfeldstraße").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Sankt Marx").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+sequence(2,0, "Tulln Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
 possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Stadion").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Sierndorf Bahnhof").
-restaurant("Roßauer Lände").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+restaurant("Hetzendorf").
+restaurant("Helmahof Bahnhof").
+restaurant("Längenfeldgasse").
+restaurant("Praterstern").
+restaurant("Niederhofstraße").
+restaurant("Wampersdorf Bahnhof").

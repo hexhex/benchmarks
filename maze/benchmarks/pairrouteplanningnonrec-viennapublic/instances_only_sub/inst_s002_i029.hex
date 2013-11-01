@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+sequence(1,0, "Rekawinkel Bahnhof").
 person(2).
-initlocation($p,"Stadlau").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Stadlau").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Wr Neustadt Hauptbahnhof").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Hadersdorf Bahnhof").
+sequence(2,0, "Braunschweiggasse").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Trasdorf Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Landstraße-Wien Mitte").

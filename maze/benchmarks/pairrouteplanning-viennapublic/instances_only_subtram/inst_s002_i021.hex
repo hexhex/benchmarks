@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Resselgasse").
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Resselgasse").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+initlocation(1,"Dornbach, Güpferlingstraße").
+sequence(1,0, "Quellenstraße/Favoritenstraße").
 person(2).
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Josef-Baumann-Gasse").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Migerkastraße").
-possiblemeetinglocations("Molitorgasse").
-restaurant("Vinzenzgasse").
-restaurant("Wildungsmauer Bahnhof").
+initlocation(2,"Gerstnerstraße/Westbhf").
+initlocation(2,"Stefan-Fadinger-Platz").
+sequence(2,0, "Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+restaurant("Althanstraße").
+restaurant("Hopfengasse").

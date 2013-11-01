@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Beingasse").
-initlocation($p,"Huglgasse").
-initlocation($p,"Fichtnergasse").
-initlocation($p,"Sillerplatz").
-initlocation($p,"Pantucekgasse/Widholzgasse").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Hietzing").
-initlocation($p,"Anton-Schall-Gasse").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Süßenbrunn").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Hohe Warte").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Augasse").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Urban-Loritz-Platz").
+initlocation(1,"Albertgasse").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Hütteldorfer Straße").
+sequence(1,0, "Sierndorf Bahnhof").
 person(2).
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Obere Donaustraße").
-initlocation($p,"Krieau").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Praterkai").
-initlocation($p,"Hildebrandgasse").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Konstanziagasse").
-initlocation($p,"Rustengasse").
-initlocation($p,"Stadlau").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Frättingsdorf Bahnhof").
-possiblemeetinglocations("Verbindungsbahn").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Leyserstraße").
-possiblemeetinglocations("Pokornygasse").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Riedelgasse").
-possiblemeetinglocations("Pötzleinsdorf").
-possiblemeetinglocations("Jagdschloßgasse").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Rodaun").
-possiblemeetinglocations("Hardtgasse").
-possiblemeetinglocations("Frödenplatz").
-possiblemeetinglocations("Baumgarten").
-restaurant("Franzensbrücke").
-restaurant("Sensengasse").
-restaurant("Ottakring").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Karmeliterplatz").
-restaurant("Silberwald Bahnhof").
-restaurant("Gusenleithnergasse").
-restaurant("Prandaugasse").
-restaurant("Dommayergasse").
-restaurant("Erdbergstr/Schlachthausgasse").
-restaurant("Friedrich-Engels-Platz").
-restaurant("Dr-Karl-Renner-Ring").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Marxergasse").
+initlocation(2,"Aumannplatz").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Herrengasse").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Taborstraße/Heinestraße").
+sequence(2,0, "Helmahof Bahnhof").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Baumgasse").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Ameisgasse").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Unteres Belvedere").
+possiblemeetinglocations("Sickenberggasse").
+restaurant("Bahnhofstraße").
+restaurant("Neue Donau").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Lederergasse").
+restaurant("Seegasse").
+restaurant("Wallensteinplatz").
+restaurant("Quartier Belvedere").
+restaurant("Aspern Nord").
+restaurant("Maurer Hauptplatz").
+restaurant("Oberzellergasse").
+restaurant("Stockholmer Platz").
+restaurant("Teichgasse").
+restaurant("Wr Neustadt Nord").

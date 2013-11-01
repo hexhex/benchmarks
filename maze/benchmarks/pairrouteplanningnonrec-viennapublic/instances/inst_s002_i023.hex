@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Oberfeldgasse/Spargelfeldstr").
-initlocation(1,"Dörmanngasse").
-sequence(1,0, "Oberfeldgasse/Spargelfeldstr").
+initlocation(1,"Inzersdorf, Zetschegasse").
+initlocation(1,"Leesdorf Bahnhof").
+sequence(1,0, "Inzersdorf, Zetschegasse").
 person(2).
-initlocation(2,"Sobotagasse").
-initlocation(2,"Alser Straße").
-sequence(2,0, "Sobotagasse").
-possiblemeetinglocations("Schöpfwerk").
-possiblemeetinglocations("Brünner Straße/Hanreitergasse").
-restaurant("Wienerflurgasse").
-restaurant("Liesing Friedhof").
+initlocation(2,"Hüttergasse").
+initlocation(2,"Bezirksamt Donaustadt").
+sequence(2,0, "Hüttergasse").
+possiblemeetinglocations("Leesdorf Bahnhof").
+possiblemeetinglocations("Stadlergasse").
+restaurant("Börnergasse").
+restaurant("Steinbrechergasse").

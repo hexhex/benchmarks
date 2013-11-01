@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Rathaus").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Gumpendorfer Straße").
+initlocation(1,"Herrengasse").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Haidestraße").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+sequence(1,0, "Herrengasse").
 person(2).
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Ottakring").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Donaustadtbrücke").
-restaurant("Mannswörth Bahnhof").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Dürrwien Bahnhof").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Gemeinlebarn Bahnhof").
-restaurant("Taubstummengasse").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Stadlau").
+initlocation(2,"Ottakring").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"St Pölten Hauptbahnhof").
+sequence(2,0, "St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+restaurant("Retz Bahnhof").
+restaurant("Hütteldorf").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Hietzing").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Brünner Straße").
+restaurant("Handelskai").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Silberwald Bahnhof").

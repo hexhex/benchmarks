@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Schottentor").
-initlocation($p,"Heiligenstadt").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Michelhausen Bahnhof").
+sequence(1,0, "Hütteldorfer Straße").
 person(2).
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Herrengasse").
-initlocation($p,"Herzogenburg Bahnhof").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-restaurant("Nestroyplatz").
-restaurant("Spittelau").
-restaurant("Simmering").
-restaurant("Landstraße-Wien Mitte").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Neue Donau").
+initlocation(2,"Kardinal-Nagl-Platz").
+sequence(2,0, "Brünner Straße").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Krottenbachstraße").
+restaurant("Ottakring").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Stockerau Bahnhof").

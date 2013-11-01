@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Siebenhirten").
+sequence(1,0, "Parndorf Ort Bahnhof").
 person(2).
-initlocation($p,"Gewerbepark Stadlau Mitte").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Hermesstraße").
-initlocation($p,"Gewerbepark Stadlau Mitte").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Alfred-Adler-Straße").
-possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Perfektastraße").
-restaurant("Ober Sankt Veit").
-restaurant("Radetzkyplatz").
-restaurant("Fichtnergasse").
-restaurant("Keplerplatz").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Oberfeldgasse").
+initlocation(2,"Schottentor").
+initlocation(2,"Jedlersdorf").
+sequence(2,0, "Wolkersdorf Bahnhof").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Gatterburggasse").
+restaurant("Weidlingau Bahnhof").
+restaurant("Mannswörth Bahnhof").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Stefan-Fadinger-Platz").

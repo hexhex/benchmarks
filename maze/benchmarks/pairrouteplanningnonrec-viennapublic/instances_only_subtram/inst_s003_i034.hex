@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Türkenschanzplatz").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Achau Bahnhof").
+sequence(1,0, "Spitalgasse/Währinger Straße").
 person(2).
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Grinzing").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Leobersdorf Bahnhof").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Rennweg").
-restaurant("Gumpendorfer Straße").
-restaurant("Silberwald Bahnhof").
-restaurant("Barawitzkagasse").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Sensengasse").
+initlocation(2,"Tscherttegasse").
+sequence(2,0, "Ungargasse/Neulinggasse").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+restaurant("Kettenbrückengasse").
+restaurant("Laurentiusplatz").
+restaurant("Altes Landgut").

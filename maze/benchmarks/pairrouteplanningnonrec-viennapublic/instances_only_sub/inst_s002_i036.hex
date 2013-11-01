@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Wampersdorf Bahnhof").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Kaiserebersdorf").
+sequence(1,0, "Donaustadtbrücke").
 person(2).
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Neue Donau").
-restaurant("Gaisruck Bahnhof").
-restaurant("Wampersdorf Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Hietzing").
+sequence(2,0, "Spillern Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Strebersdorf").

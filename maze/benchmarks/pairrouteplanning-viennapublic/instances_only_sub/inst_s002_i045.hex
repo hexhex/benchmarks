@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Alser Straße").
+sequence(1,0, "Korneuburg Bahnhof").
 person(2).
-initlocation($p,"Gasometer").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Gasometer").
-possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("Wolf in der Au").
-restaurant("Stubentor").
-restaurant("Zeiselmauer-Königstetten Bf").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Donauspital").
+sequence(2,0, "Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Kledering Bahnhof").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Wilfleinsdorf Bahnhof").

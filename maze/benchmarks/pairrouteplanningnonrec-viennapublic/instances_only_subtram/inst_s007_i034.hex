@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Hofwiesengasse").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Lerchenfelder Straße").
-initlocation($p,"Weihburggasse").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Donaumarina").
-initlocation($p,"Schlickgasse").
-initlocation($p,"Hofwiesengasse").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Elterleinplatz").
+initlocation(1,"Seestadt").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Sieveringer Straße").
+sequence(1,0, "Camillo-Sitte-Gasse").
 person(2).
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Taborstraße/Heinestraße").
-initlocation($p,"Liebknechtgasse").
-initlocation($p,"Zieglergasse/Westbahnstraße").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Tulln Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Lainz, Wolkersbergenstraße").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
-possiblemeetinglocations("Gusenleithnergasse").
-restaurant("Südtiroler Platz/Hauptbahnhof").
-restaurant("Hildebrandgasse").
-restaurant("Krankenhaus Hietzing").
-restaurant("Arthaberplatz").
-restaurant("Pötzleinsdorf").
-restaurant("Schuhmeierplatz").
-restaurant("Baumgarten").
+initlocation(2,"Stadion").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Hopfengasse").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+sequence(2,0, "Stadion").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Bahnhofstraße").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Hintere Zollamtsstraße").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Hauffgasse").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Laudongasse").
+restaurant("Gutraterplatz").
+restaurant("Parndorf Ort Bahnhof").

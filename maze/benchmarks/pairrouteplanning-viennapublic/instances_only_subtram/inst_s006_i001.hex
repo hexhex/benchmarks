@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Kranzgasse").
-initlocation($p,"Glatzgasse").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Schlachthausgasse").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Purkersdorf Sanatorium").
+sequence(1,0, "Eichenstraße").
 person(2).
-initlocation($p,"Riedelgasse").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Quellenstraße/Favoritenstraße").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Braunhubergasse").
-initlocation($p,"Riedelgasse").
-possiblemeetinglocations("Satzberggasse").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Bösendorferstraße").
-possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
-possiblemeetinglocations("Schottenring").
-restaurant("Alte Donau").
-restaurant("Migerkastraße").
-restaurant("Johann-Nepomuk-Berger-Platz").
-restaurant("Preyergasse/Speising").
-restaurant("Herzogenburg Stadt").
-restaurant("Floridsdorfer Markt").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Schloss Schönbrunn").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Otto-Probst-Platz").
+sequence(2,0, "Bad Vöslau Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Karmeliterplatz").
+restaurant("Arminenstraße").
+restaurant("Schöffelgasse").
+restaurant("Brünner Straße").
+restaurant("Quellenplatz").
+restaurant("Donaustadtbrücke").
+restaurant("Sommarugagasse").

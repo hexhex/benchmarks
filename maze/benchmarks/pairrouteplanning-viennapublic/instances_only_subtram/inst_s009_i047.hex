@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Zieglergasse").
-initlocation($p,"Rathaus").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Frauengasse").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Zieglergasse").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Liesing").
+initlocation(1,"Stammersdorf").
+initlocation(1,"Florianigasse").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Migerkastraße").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Althanstraße").
+initlocation(1,"Krankenhaus Hietzing").
+sequence(1,0, "Höbersdorf Bahnhof").
 person(2).
-initlocation($p,"Marienbrücke").
-initlocation($p,"Zieglergasse/Westbahnstraße").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Valiergasse").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Gewerbepark Stadlau Mitte").
-initlocation($p,"Baumgarten").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Stadion").
-initlocation($p,"Marienbrücke").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Koloniestraße").
-possiblemeetinglocations("Hintere Zollamtsstraße").
-possiblemeetinglocations("Florianigasse").
-restaurant("Glatzgasse").
-restaurant("Baden Bahnhof").
-restaurant("Roßauer Lände").
-restaurant("Stollgasse").
-restaurant("Winckelmannstraße").
-restaurant("Winkeläckerstraße").
-restaurant("Fichtnergasse").
-restaurant("Anton-Krieger-Gasse").
-restaurant("Hollabrunn Bahnhof").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Winkeläckerstraße").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Langobardenstraße").
+sequence(2,0, "Mariahilfer Gürtel").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Bahnsteggasse").
+restaurant("Mayerhofgasse").
+restaurant("Gumpendorfer Straße").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Antonigasse").
+restaurant("Strasshof Bahnhof").
+restaurant("Grinzinger Straße").
+restaurant("Trondheimgasse").

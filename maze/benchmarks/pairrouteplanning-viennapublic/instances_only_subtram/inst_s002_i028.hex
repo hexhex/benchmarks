@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Saikogasse").
+initlocation(1,"Gredlerstraße").
+sequence(1,0, "Saikogasse").
 person(2).
-initlocation($p,"Neue Donau").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Neue Donau").
-possiblemeetinglocations("Sickenberggasse").
-possiblemeetinglocations("Josefstädter Straße").
-restaurant("Oberlaa, Therme Wien").
-restaurant("Pressbaum Bahnhof").
+initlocation(2,"Marxergasse").
+initlocation(2,"Lange Gasse").
+sequence(2,0, "Marxergasse").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+restaurant("Donaustadtstraße").
+restaurant("Weinhauser Gasse").

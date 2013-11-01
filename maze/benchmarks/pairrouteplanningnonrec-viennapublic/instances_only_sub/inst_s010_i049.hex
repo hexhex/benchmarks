@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Enkplatz").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Kagran").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Enkplatz").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Rekawinkel Bahnhof").
+sequence(1,0, "Burggasse-Stadthalle").
 person(2).
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Stadtpark").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Schottentor").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Traisengasse").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Museumsquartier").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Zieglergasse").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Süßenbrunn").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Währinger Straße-Volksoper").
-restaurant("Neulengbach Stadt Bahnhof").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Leopoldau").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Donauspital").
+sequence(2,0, "Breitenwaida Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+restaurant("Götzendorf Bahnhof").
+restaurant("Felixdorf Bahnhof").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Alte Donau").
+restaurant("Nußdorf").
+restaurant("Strasshof Bahnhof").
+restaurant("Nußdorfer Straße").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Korneuburg Bahnhof").

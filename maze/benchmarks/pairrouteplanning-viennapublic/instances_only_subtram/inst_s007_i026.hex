@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Schmerlingplatz").
-initlocation($p,"Beingasse").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Kranzgasse").
-initlocation($p,"Hoßplatz").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Altes Landgut").
-initlocation($p,"Schmerlingplatz").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Linzer Straße/Reinlgasse").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Fasangasse").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Langobardenstraße").
+sequence(1,0, "Pötzleinsdorf").
 person(2).
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Lange Gasse").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Am Schöpfwerk").
-restaurant("Pfaffstätten Bahnhof").
-restaurant("Gasometer").
-restaurant("Döblinger Bad").
-restaurant("Wallrißstraße").
-restaurant("Volkstheater").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Breitensee").
+initlocation(2,"Quellenstraße/Favoritenstraße").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Grinzing").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+sequence(2,0, "Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Skodagasse").
+possiblemeetinglocations("Grinzinger Straße").
+restaurant("Erndtgasse").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Franzensbrücke").
+restaurant("Glatzgasse").
+restaurant("Prandaugasse").

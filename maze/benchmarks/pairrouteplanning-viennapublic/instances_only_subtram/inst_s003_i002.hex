@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Gusenleithnergasse").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Alterlaa").
-initlocation($p,"Gusenleithnergasse").
+initlocation(1,"Weißenböckstraße").
+initlocation(1,"Leopoldau").
+initlocation(1,"Erndtgasse").
+sequence(1,0, "Weißenböckstraße").
 person(2).
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-initlocation($p,"Laudongasse").
-initlocation($p,"Pantucekgasse/Widholzgasse").
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-restaurant("Platt Bahnhof").
-restaurant("Hetzendorf").
-restaurant("Marx-Meidlinger-Straße").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Blumental").
+initlocation(2,"Ebreichsdorf Bahnhof").
+sequence(2,0, "Stockholmer Platz").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+restaurant("Döblinger Hauptstr/Gatterburgg").
+restaurant("Dornbacher Straße").
+restaurant("Neubaugasse/Westbahnstraße").

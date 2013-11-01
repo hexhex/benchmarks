@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Liesing").
-initlocation($p,"Hohe Warte").
-initlocation($p,"Prandaugasse").
-initlocation($p,"Pantucekgasse/Widholzgasse").
-initlocation($p,"Burgring").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Döblinger Hauptstr/Gatterburgg").
-initlocation($p,"Absberggasse").
-initlocation($p,"Liesing").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Aumannplatz").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Donaumarina").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+sequence(1,0, "Unter Kritzendorf Bahnhof").
 person(2).
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Wallrißstraße").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Kölblgasse").
-initlocation($p,"Sahulkastraße").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Otto-Probst-Platz").
-possiblemeetinglocations("Thaliastraße/Haberlgasse").
-possiblemeetinglocations("Canisiusgasse").
-possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Strasshof Bahnhof").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Jägerstraße").
-restaurant("Münchendorf Bahnhof").
-restaurant("Preyergasse/Speising").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Neubaugasse/Westbahnstraße").
-restaurant("Marienbrücke").
-restaurant("Wr Neustadt Nord").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Lederergasse").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Erndtgasse").
+initlocation(2,"Mistelbach Stadt").
+sequence(2,0, "Schlachthausgasse").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Lerchenfelder Straße").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Löwengasse").
+restaurant("Winckelmannstraße").
+restaurant("Wienerfeldgasse").
+restaurant("Hubertusdamm").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Frättingsdorf Bahnhof").

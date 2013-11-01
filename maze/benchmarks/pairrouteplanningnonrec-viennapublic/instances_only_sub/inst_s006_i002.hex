@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Stubentor").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Rennweg").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Sierndorf Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Wolfsthal Bahnhof").
+sequence(1,0, "Hetzendorf").
 person(2).
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-restaurant("Großfeldsiedlung").
+initlocation(2,"Herrengasse").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Kagran").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Traismauer Bahnhof").
+sequence(2,0, "Herrengasse").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Sollenau Bahnhof").
 restaurant("Kendlerstraße").
-restaurant("Spittelau").
-restaurant("Friedensbrücke").
-restaurant("Platt Bahnhof").
-restaurant("Aspern Nord").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Himberg Bahnhof").
+restaurant("Am Schöpfwerk").

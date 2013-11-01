@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"Hermesstraße").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Winkeläckerstraße").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Bahnsteggasse").
+initlocation(1,"Beingasse").
+initlocation(1,"Kagran").
+initlocation(1,"Taborstraße").
+initlocation(1,"Linzer Straße/Johnstraße").
+initlocation(1,"Shuttleworthstraße").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Grillgasse").
+sequence(1,0, "Weinheimergasse").
 person(2).
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Dornbacher Straße").
-initlocation($p,"Julius-Raab-Platz").
-initlocation($p,"Seestadt").
-initlocation($p,"Krieau").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Thaliastraße/Brunnengasse").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Rennweg").
-initlocation($p,"Friedensbrücke").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-possiblemeetinglocations("Weinheimergasse").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Kleistgasse").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Döblinger Bad").
-restaurant("Schönbrunn").
-restaurant("Hopfengasse").
-restaurant("Josefstädter Straße").
-restaurant("Ameisgasse").
-restaurant("Obere Augartenstraße").
-restaurant("Platt Bahnhof").
-restaurant("Tesarekplatz").
-restaurant("Mannswörth Bahnhof").
-restaurant("Regelsbrunn Bahnhof").
-restaurant("Kaiserstraße").
+initlocation(2,"Plößlgasse").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+initlocation(2,"Forstnergasse").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Alterlaa").
+initlocation(2,"Oberfeldgasse").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Hermesstraße").
+initlocation(2,"Frödenplatz").
+sequence(2,0, "Plößlgasse").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+possiblemeetinglocations("Koloniestraße").
+restaurant("Hoßplatz").
+restaurant("Floridsdorf").
+restaurant("Julius-Raab-Platz").
+restaurant("Mistelbach Bahnhof").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Brünner Straße").
+restaurant("Neilreichgasse").
+restaurant("Bahnhof Meidling").
+restaurant("Traisengasse").
+restaurant("Tscherttegasse").

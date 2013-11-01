@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Spittelau").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Rathaus").
-initlocation($p,"Schottentor").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Jedlersdorf").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Frättingsdorf Bahnhof").
+sequence(1,0, "Ebenfurth Bahnhof").
 person(2).
-initlocation($p,"Hütteldorf").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Hütteldorf").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Enkplatz").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Seyring Bahnhof").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Braunschweiggasse").
-restaurant("Hirschstetten").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Hadersdorf Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+sequence(2,0, "Seyring Bahnhof").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+restaurant("Gasometer").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Quartier Belvedere").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Neubaugasse").
+restaurant("Kaiserebersdorf").
+restaurant("Hietzing").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Diesterweggasse").
-initlocation($p,"Rußbergstraße").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Lainz, Wolkersbergenstraße").
+initlocation(1,"Leopoldau").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Arthaberplatz").
+sequence(1,0, "Laaer-Berg-Straße").
 person(2).
-initlocation($p,"Baumgasse").
-initlocation($p,"Kutschkergasse").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Paulanergasse").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Baumgasse").
-possiblemeetinglocations("Dommayergasse").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Stadlau").
+initlocation(2,"Gasometer").
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Hietzing").
+initlocation(2,"Gersthof").
+initlocation(2,"Zentralfriedhof 2Tor").
+sequence(2,0, "Gasometer").
 possiblemeetinglocations("Carabelligasse").
-possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Molitorgasse").
-restaurant("Aßmayergasse").
-restaurant("Nordbahnstraße").
-restaurant("Schleinbach Bahnhof").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Oberdöbling").
+restaurant("Hauffgasse").
+restaurant("Donaumarina").
+restaurant("Hardeggasse").
+restaurant("Paasdorf Bahnhof").
+restaurant("Saikogasse").
+restaurant("Stadlergasse").

@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Vinzenzgasse").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Laxenburger Straße/Troststraße").
-initlocation($p,"Vinzenzgasse").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Liesing").
+initlocation(1,"Donaumarina").
+initlocation(1,"Saikogasse").
+sequence(1,0, "Wallensteinplatz").
 person(2).
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Sickenberggasse").
-possiblemeetinglocations("Karmeliterplatz").
-possiblemeetinglocations("Windtenstraße").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Laaer-Berg-Straße").
-restaurant("Mariahilfer Gürtel").
-restaurant("Prandaugasse").
-restaurant("Rebhanngasse").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Donauzentrum").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Himberg Bahnhof").
+sequence(2,0, "Oberolberndorf Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Praterstern").
+restaurant("Alfred-Adler-Straße").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Obersdorf Bahnhof").
+restaurant("Paradisgasse").

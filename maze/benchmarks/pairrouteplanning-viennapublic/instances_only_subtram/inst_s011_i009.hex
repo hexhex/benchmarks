@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Resselgasse").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Stadiongasse/Parlament").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Polkorabplatz").
-initlocation($p,"Grinzing").
-initlocation($p,"Neulerchenfelder Str/Haberlg").
-initlocation($p,"Wienerbergbrücke").
-initlocation($p,"Resselgasse").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Linzer Straße/Zehetnergasse").
+initlocation(1,"Donaustadtstraße").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Wildgansplatz").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Gewerbepark Stadlau Mitte").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Urban-Loritz-Platz").
+initlocation(1,"Molitorgasse").
+sequence(1,0, "Aspernstraße").
 person(2).
-initlocation($p,"Hoßplatz").
-initlocation($p,"Bahnsteggasse").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Albertgasse").
-initlocation($p,"Scheibenbergstraße").
-initlocation($p,"Seestadt").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Siebertgasse").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Unteres Belvedere").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Hoßplatz").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Donauzentrum").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Nordbahnstraße").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Hofwiesengasse").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Ladendorf Bahnhof").
-restaurant("Reumannplatz").
-restaurant("Sommarugagasse").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Bauernfeldplatz").
-restaurant("Anton-Krieger-Gasse").
-restaurant("Süßenbrunner Str/Oberfeldgasse").
-restaurant("Baumgasse").
-restaurant("Floridsdorfer Markt").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Weihburggasse").
+initlocation(2,"Huglgasse").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Hütteldorf, Bujattigasse").
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Perntergasse").
+initlocation(2,"Bahnhofstraße").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Karlsplatz").
+sequence(2,0, "Huglgasse").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Lerchenfelder Straße").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Marienbrücke").
+restaurant("Sickenberggasse").
+restaurant("Schweglerstraße").
+restaurant("Fasangasse").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Laaer-Berg-Straße").
+restaurant("Längenfeldgasse").
+restaurant("Ottakring").
+restaurant("Vinzenzgasse").
+restaurant("Versorgungsheimplatz").
+restaurant("Gasometer").
+restaurant("Grillgasse").

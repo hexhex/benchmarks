@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Hietzing").
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Gatterburggasse").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Koppstraße/Panikengasse").
+initlocation(1,"Lobau").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Hernalser Gürtel").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Heiligenstadt, 12-Februar-Pl").
+initlocation(1,"Rosenhügelstraße").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Innstraße").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Mistelbach Bahnhof").
+sequence(1,0, "Lobau").
 person(2).
-initlocation($p,"Scheibenbergstraße").
-initlocation($p,"Palffygasse").
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Shuttleworthstraße").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Lazarettgasse").
-initlocation($p,"Perntergasse").
-initlocation($p,"Quellenstraße/Favoritenstraße").
-initlocation($p,"Stubentor").
-initlocation($p,"Empergergasse").
-initlocation($p,"Maurer Hauptplatz").
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Scheibenbergstraße").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
-possiblemeetinglocations("Brünner Straße/Hanreitergasse").
-possiblemeetinglocations("Hetzgasse").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Anton-Schall-Gasse").
-possiblemeetinglocations("Laaer-Berg-Straße").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Rodaun").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Baumgarten").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Palffygasse").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Kölblgasse").
+sequence(2,0, "Kapellerfeld Bahnhof").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Nordbahnstraße").
 possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
-possiblemeetinglocations("Guneschgasse").
-possiblemeetinglocations("Stadiongasse/Parlament").
-possiblemeetinglocations("Saikogasse").
-restaurant("Kärntner Ring/Oper").
-restaurant("Rußbergstraße").
-restaurant("Linzer Straße/Zehetnergasse").
-restaurant("Gutraterplatz").
-restaurant("Gumpendorfer Straße").
-restaurant("Helmahof Bahnhof").
-restaurant("Troststraße/Neilreichgasse").
-restaurant("Linzer Straße/Reinlgasse").
-restaurant("Julius-Raab-Platz").
-restaurant("Johannes-Krawarik-Gasse").
-restaurant("Längenfeldgasse/Flurschützstr").
-restaurant("Wienerfeldgasse").
-restaurant("Wienerbergbrücke").
-restaurant("Karlsplatz").
+possiblemeetinglocations("Baumgasse").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Donauinsel").
+restaurant("Langobardenstraße").
+restaurant("Ladendorf Bahnhof").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Himberg Bahnhof").
+restaurant("Mühlfeldgasse").
+restaurant("Stefan-Fadinger-Platz").
+restaurant("Löwengasse").
+restaurant("Lerchenfelder Straße").
+restaurant("Anton-Schall-Gasse").
+restaurant("Jägerstraße").
+restaurant("Floridsdorfer Markt").
+restaurant("Süßenbrunner Str/Oberfeldgasse").

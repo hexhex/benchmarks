@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Floridsdorf").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Floridsdorf").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Hausleiten Bahnhof").
+sequence(1,0, "Seyring Bahnhof").
 person(2).
-initlocation($p,"Donaumarina").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Donaumarina").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Donauspital").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Getzersdorf/Traisen Bahnhof").
-restaurant("Hautzendorf Bahnhof").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+sequence(2,0, "Reumannplatz").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Simmering").
+restaurant("Hirschstetten").

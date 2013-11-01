@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Gänserndorf Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Stadion").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Geiselbergstraße").
+sequence(1,0, "Wolkersdorf Bahnhof").
 person(2).
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Hietzing").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Herzogenburg Stadt").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-restaurant("Währinger Straße-Volksoper").
-restaurant("Donaustadtbrücke").
-restaurant("Schweglerstraße").
-restaurant("Sankt Marx").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Matzleinsdorfer Platz").
+sequence(2,0, "Mannswörth Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Grillgasse").
+restaurant("Reumannplatz").

@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-initlocation($p,"Neue Donau").
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(1,"Frauengasse").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+sequence(1,0, "Frauengasse").
 person(2).
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Canisiusgasse").
-restaurant("Thaliastraße/Haberlgasse").
-restaurant("Hautzendorf Bahnhof").
+initlocation(2,"Sensengasse").
+initlocation(2,"Stubentor").
+sequence(2,0, "Sensengasse").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Windtenstraße").
+restaurant("Wilhelminenstr/Sandleitengasse").
+restaurant("Nordbahnstraße").

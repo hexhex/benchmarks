@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Kettenbrückengasse").
+initlocation(1,"Erlaaer Straße").
+sequence(1,0, "Erlaaer Straße").
 person(2).
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Friedensbrücke").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Taborstraße").
+sequence(2,0, "Taborstraße").
+possiblemeetinglocations("Schwechat Bahnhof").
+restaurant("Herzogenburg Stadt").

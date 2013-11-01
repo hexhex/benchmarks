@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Hildebrandgasse").
-initlocation(1,"Grenzgasse").
-initlocation(1,"Burgenlandgasse").
-initlocation(1,"Floridsdorfer Brücke").
-sequence(1,0, "Hildebrandgasse").
+initlocation(1,"Carabelligasse/Ruthnergasse").
+initlocation(1,"Süßenbrunner Straße").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Otto-Wagner-Spital").
+sequence(1,0, "Carabelligasse/Ruthnergasse").
 person(2).
-initlocation(2,"Gewerbepark Stadlau Süd").
-initlocation(2,"Aspern Nord").
-initlocation(2,"Dumreichergasse").
-initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
-sequence(2,0, "Gewerbepark Stadlau Süd").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Dumreichergasse").
-possiblemeetinglocations("Simoningplatz").
-possiblemeetinglocations("Richard-Strauss-Straße").
-restaurant("Geistingergasse").
-restaurant("Neubaugasse").
-restaurant("Rudolf-Zeller-Gasse").
-restaurant("Cottagegasse").
+initlocation(2,"Egon-Friedell-Gasse").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Merkurweg").
+initlocation(2,"Molkereistraße").
+sequence(2,0, "Egon-Friedell-Gasse").
+possiblemeetinglocations("Flötzersteigbrücke").
+possiblemeetinglocations("Burgenlandgasse").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Anton-Böck-Gasse").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Südrandstraße").
+restaurant("Eigenheimsiedlung Haltestelle").
+restaurant("Neubaugasse/Neustiftgasse").

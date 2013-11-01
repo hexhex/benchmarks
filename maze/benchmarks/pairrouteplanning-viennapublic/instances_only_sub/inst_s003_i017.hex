@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Stadtpark").
+sequence(1,0, "Viehofen Bahnhof").
 person(2).
-initlocation($p,"Praterkai").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Praterkai").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Trasdorf Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Ebreichsdorf Bahnhof").
+sequence(2,0, "Leobersdorf Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Währinger Straße-Volksoper").
 restaurant("Stephansplatz").
-restaurant("Großfeldsiedlung").
-restaurant("Frättingsdorf Bahnhof").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Deutsch-Wagram Bahnhof").

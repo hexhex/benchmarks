@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Aumannplatz").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Auerspergstraße").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Braunhubergasse").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Gasometer").
-initlocation($p,"Aumannplatz").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Laurentiusplatz").
+initlocation(1,"Siebensterngasse").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Neilreichgasse").
+sequence(1,0, "Matzleinsdorfer Platz").
 person(2).
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Johnstraße").
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"Liesing").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Breitenfurter Str/Liesingbr").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Herbeckstraße").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Rosensteingasse").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
-possiblemeetinglocations("Gaußplatz").
-possiblemeetinglocations("Wolf in der Au").
-restaurant("Autokaderstraße").
-restaurant("Hietzing").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Michelhausen Bahnhof").
-restaurant("Skodagasse").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Stadion").
-restaurant("Ottakringer Str/Erdbrustgasse").
+initlocation(2,"Eichenstraße").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Kraygasse").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+sequence(2,0, "Eichenstraße").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Kaiserebersdorf").
+restaurant("Platt Bahnhof").
+restaurant("Silberwald Bahnhof").
+restaurant("Weinhauser Gasse").
+restaurant("Erndtgasse").
+restaurant("Laudongasse").
+restaurant("Pokornygasse").
+restaurant("Fichtnergasse").
+restaurant("Grinzing").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Hietzing").
-initlocation($p,"Simonygasse").
-initlocation($p,"Schleiergasse").
-initlocation($p,"Hietzing").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Bahnhofstraße").
+sequence(1,0, "Joachimsthalerplatz").
 person(2).
-initlocation($p,"Teichgasse").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Liechtenwerder Platz").
-initlocation($p,"Teichgasse").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Valiergasse").
-restaurant("Winckelmannstraße").
-restaurant("Stephansplatz").
-restaurant("Lederergasse").
+initlocation(2,"Alterlaa").
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Carminweg").
+sequence(2,0, "Alterlaa").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Schönborn Bahnhof").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Am Schöpfwerk").

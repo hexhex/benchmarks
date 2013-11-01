@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Aspern Nord").
-initlocation($p,"Laudongasse").
-initlocation($p,"Frauengasse").
-initlocation($p,"Ottakring").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Gersthof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Aspern Nord").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Sonnergasse").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Aßmayergasse").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Skodagasse").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Traisengasse").
+initlocation(1,"Obere Augartenstraße").
+sequence(1,0, "Obereggendorf Bahnhof").
 person(2).
-initlocation($p,"Dr-Karl-Renner-Ring").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Satzberggasse").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Haidestraße").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Hermesstraße").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Marx-Meidlinger-Straße").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Hetzgasse").
-possiblemeetinglocations("Sommarugagasse").
-possiblemeetinglocations("Autokaderstraße").
-possiblemeetinglocations("Burggasse-Stadthalle").
-restaurant("Krieau").
-restaurant("St Pölten Traisenpark P+R Nord").
-restaurant("Jagdschloßgasse").
-restaurant("Burgring").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Rennweg").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Konstanziagasse").
-restaurant("Wittelsbachstraße").
-restaurant("Satzberggasse").
-restaurant("Schottenring").
-restaurant("Kagraner Platz").
-restaurant("Brigittaplatz").
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Blechturmgasse").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Sillerplatz").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Breitenfurter Str/Liesingbr").
+initlocation(2,"Preyergasse/Speising").
+sequence(2,0, "Schmerlingplatz").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Baumgasse").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Neuwaldegg").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Migerkastraße").
+restaurant("Pilgramgasse").
+restaurant("Blindengasse").
+restaurant("Seyring Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Mariahilfer Gürtel").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Donauinsel").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Römergasse").

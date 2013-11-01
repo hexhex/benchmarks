@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Konstanziagasse").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Althanstraße").
-initlocation($p,"Palffygasse").
-initlocation($p,"Kaiserebersdorf, Zinnergasse").
-initlocation($p,"Gersthof").
-initlocation($p,"Martinstraße").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Konstanziagasse").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Taborstraße").
+initlocation(1,"Heinrich-Drimmel-Platz").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Stiftgasse").
+initlocation(1,"Teichgasse").
+initlocation(1,"Floridsdorfer Markt").
+sequence(1,0, "Langobardenstraße").
 person(2).
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Seegasse").
-initlocation($p,"Schottentor").
-initlocation($p,"Wilhelminenstraße/Wattgasse").
-initlocation($p,"Donauzentrum").
-initlocation($p,"Huglgasse").
-initlocation($p,"Strasshof Bahnhof").
-possiblemeetinglocations("Knöllgasse/Troststraße").
-possiblemeetinglocations("Lerchenfelder Straße").
-possiblemeetinglocations("Stockholmer Platz").
-possiblemeetinglocations("Rauscherstraße").
-possiblemeetinglocations("Knöllgasse/Davidgasse").
-possiblemeetinglocations("Kölblgasse").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Neubaugasse").
-restaurant("Siemensstraße").
-restaurant("Paradisgasse").
-restaurant("Währinger Straße-Volksoper").
-restaurant("Litfaßstraße").
-restaurant("Bahnhofstraße").
-restaurant("Dr-Karl-Renner-Ring").
-restaurant("Seegasse").
-restaurant("Zentralfriedhof 2Tor").
+initlocation(2,"Hetzgasse").
+initlocation(2,"Troststraße/Neilreichgasse").
+initlocation(2,"Bernhardtstalgasse").
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Yppengasse").
+initlocation(2,"Paradisgasse").
+initlocation(2,"Plößlgasse").
+initlocation(2,"Weidlingau Bahnhof").
+sequence(2,0, "Hetzgasse").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Kranzgasse").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Burggasse-Stadthalle").
+restaurant("Wildgansplatz").
+restaurant("Ladendorf Bahnhof").
+restaurant("Quartier Belvedere").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Prandaugasse").
+restaurant("Mödling Bahnhof").
+restaurant("Zellerndorf Bahnhof").

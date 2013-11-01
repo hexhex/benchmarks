@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Neulerchenfelder Str/Haberlg").
-initlocation($p,"Laurentiusplatz").
-initlocation($p,"Teichgasse").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Blumengasse").
-initlocation($p,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Johnstraße").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Donaustadtbrücke").
+sequence(1,0, "Johnstraße").
 person(2).
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Grillgasse").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Baumgasse").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Alfred-Adler-Straße").
-possiblemeetinglocations("Laurentiusplatz").
-possiblemeetinglocations("Schloss Hetzendorf").
-possiblemeetinglocations("Siebertgasse").
-possiblemeetinglocations("Salztorbrücke").
-restaurant("Schottenring").
-restaurant("Donaustadtstraße").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Schloss Hetzendorf").
-restaurant("Alfred-Adler-Straße").
-restaurant("Raxstraße/Rudolfshügelgasse").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Kagran").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"Praterkai").
+sequence(2,0, "Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Pokornygasse").
+restaurant("Leyserstraße").
+restaurant("Zippererstraße").
+restaurant("Wenzgasse").
+restaurant("Schweglerstraße").
+restaurant("Zieglergasse/Westbahnstraße").
+restaurant("Friedensbrücke").

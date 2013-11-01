@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Hietzing").
-initlocation($p,"Rampengasse").
-initlocation($p,"Rebhanngasse").
-initlocation($p,"Wolkersdorf Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Herrengasse").
+initlocation(1,"Albertgasse").
+sequence(1,0, "Krieau").
 person(2).
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Leberberg").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Wilhelminenstraße/Wattgasse").
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"Erdberg").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Ober Sankt Veit").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("Windtenstraße").
-possiblemeetinglocations("Johannes-Krawarik-Gasse").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Hernalser Gürtel").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-restaurant("Niederhofstraße").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Korneuburg Bahnhof").
-restaurant("Plößlgasse").
-restaurant("Rathaus").
-restaurant("Baumgarten").
-restaurant("Grinzing").
-restaurant("Valiergasse").
-restaurant("Johannes-Krawarik-Gasse").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Perntergasse").
+sequence(2,0, "Mannswörth Bahnhof").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Viehmarktgasse").
+restaurant("Trasdorf Bahnhof").
+restaurant("Scheibenbergstraße").
+restaurant("Wildgansplatz").
+restaurant("Paradisgasse").
+restaurant("Neulengbach Bahnhof").
+restaurant("Paulanergasse").
+restaurant("Am Heumarkt").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Quartier Belvedere").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Hetzendorf").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Hetzendorf").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Bahnhof Meidling").
+sequence(1,0, "Untertullnerbach Bahnhof").
 person(2).
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Alte Donau").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Bahnhof Meidling").
-restaurant("Siebenhirten").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Retz Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+sequence(2,0, "Josefstädter Straße").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+restaurant("Schönbrunn").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Penzing").

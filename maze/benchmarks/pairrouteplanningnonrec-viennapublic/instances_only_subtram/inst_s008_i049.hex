@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Döblinger Hauptstr/Gatterburgg").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Maurer Hauptplatz").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Neuwaldegg").
+initlocation(1,"Altes Landgut").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Gredlerstraße").
+sequence(1,0, "Altes Landgut").
 person(2).
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Stammersdorf").
-initlocation($p,"Am Heidjöchl").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Saikogasse").
-initlocation($p,"Blechturmgasse").
-possiblemeetinglocations("Wallensteinplatz").
-possiblemeetinglocations("Frauengasse").
-possiblemeetinglocations("Marx-Meidlinger-Straße").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Windtenstraße").
-possiblemeetinglocations("Johannes-Krawarik-Gasse").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Schlickgasse").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Mistelbach Stadt").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Unter Sankt Veit").
-restaurant("Hütteldorfer Str/Lützowgasse").
-restaurant("Kagran").
-restaurant("Salztorbrücke").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Spittelau").
+initlocation(2,"Haidestraße").
+initlocation(2,"Brünnlbadgasse").
+sequence(2,0, "Zieglergasse").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+possiblemeetinglocations("Mariahilfer Gürtel").
+possiblemeetinglocations("Hetzgasse").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Donaumarina").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Stadiongasse/Parlament").
+restaurant("Zentralfriedhof 3Tor").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Fichtnergasse").
+restaurant("Floridsdorfer Markt").

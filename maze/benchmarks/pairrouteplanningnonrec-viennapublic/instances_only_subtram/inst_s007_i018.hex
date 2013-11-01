@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Atzgersdorfer Straße").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Atzgersdorfer Straße").
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Waidhausenstraße").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Atzenbrugg Bahnhof").
+sequence(1,0, "Liechtenwerder Platz").
 person(2).
-initlocation($p,"Van-Swieten-Kaserne").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Innstraße").
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Carminweg").
-initlocation($p,"Stollgasse").
-initlocation($p,"Van-Swieten-Kaserne").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Sickenberggasse").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Neubaugasse/Westbahnstraße").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Am Heumarkt").
-restaurant("Litfaßstraße").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Kagraner Brücke").
-restaurant("Antonigasse").
-restaurant("Süßenbrunn").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Wildgansplatz").
+initlocation(2,"Ameisgasse").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Hernalser Gürtel").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+sequence(2,0, "Ameisgasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Seyring Bahnhof").
+restaurant("Aspernstraße").
+restaurant("Marx-Meidlinger-Straße").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Gellertplatz").
+restaurant("Forstnergasse").

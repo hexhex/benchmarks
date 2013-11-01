@@ -1,52 +1,52 @@
 person(1).
-initlocation($p,"Krieau").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Donauinsel").
-initlocation($p,"Gasometer").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Alser Straße").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Krieau").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Volkstheater").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Penzing").
+initlocation(1,"Schottenring").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Donauinsel").
+sequence(1,0, "Lanzendorf-Rannersdorf Bahnhof").
 person(2).
-initlocation($p,"Spittelau").
-initlocation($p,"Krieau").
-initlocation($p,"Neue Donau").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Hernals").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Spittelau").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Siebenhirten").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Kagraner Platz").
+sequence(2,0, "Retz Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
 possiblemeetinglocations("Floridsdorf").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Perfektastraße").
-restaurant("Museumsquartier").
-restaurant("Stadtpark").
-restaurant("Praterkai").
-restaurant("Bisamberg Bahnhof").
-restaurant("Stadion").
-restaurant("Unter Sankt Veit").
-restaurant("Leopoldau").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Atzgersdorf").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+restaurant("Götzendorf Bahnhof").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Braunschweiggasse").
+restaurant("Ottakring").
+restaurant("Schönbrunn").
+restaurant("Kendlerstraße").
+restaurant("Fischamend Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Nestroyplatz").

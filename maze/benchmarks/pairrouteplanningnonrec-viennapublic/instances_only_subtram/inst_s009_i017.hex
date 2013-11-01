@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Forstnergasse").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Oberlaa, Therme Wien").
-initlocation($p,"Johann-Strauß-Gasse").
+initlocation(1,"Florianigasse").
+initlocation(1,"Leberberg").
+initlocation(1,"Baumgasse").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Bernhardtstalgasse").
+sequence(1,0, "Florianigasse").
 person(2).
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Knöllgasse/Davidgasse").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Langenzersdorf Bahnhof").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Sommarugagasse").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Wienerbergbrücke").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Silbergasse").
-restaurant("Kaiserebersdorf, Zinnergasse").
-restaurant("Windtenstraße").
-restaurant("Meidling Hauptstraße").
-restaurant("Gaisruck Bahnhof").
-restaurant("Sollenau Bahnhof").
-restaurant("Rankgasse").
-restaurant("Börsegasse/Wipplingerstraße").
-restaurant("Simmering").
-restaurant("Prandaugasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Traismauer Bahnhof").
+sequence(2,0, "Pötzleinsdorf").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Paradisgasse").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Stockholmer Platz").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Langobardenstraße").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Plößlgasse").
+restaurant("Hofstatt Bahnhof").
+restaurant("Jedlersdorf").

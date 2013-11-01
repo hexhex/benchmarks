@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Braunhubergasse").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Leberberg").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Braunhubergasse").
+initlocation(1,"Türkenschanzplatz").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Laaer-Berg-Straße").
+sequence(1,0, "Türkenschanzplatz").
 person(2).
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Floridsdorfer Brücke").
-initlocation($p,"Staglgasse").
-initlocation($p,"Hofwiesengasse").
-initlocation($p,"Hollabrunn Bahnhof").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Riedelgasse").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Weinheimergasse").
-restaurant("Hernalser Gürtel").
-restaurant("Otto-Probst-Platz").
-restaurant("Helmahof Bahnhof").
-restaurant("Herbeckstraße").
-restaurant("Nordbrücke").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Valiergasse").
+initlocation(2,"Himmelmutterweg").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Kleistgasse").
+sequence(2,0, "Gusenleithnergasse").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Tesarekplatz").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Stadiongasse/Parlament").
+restaurant("Mödling Bahnhof").

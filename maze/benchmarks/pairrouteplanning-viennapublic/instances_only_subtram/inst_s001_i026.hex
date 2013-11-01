@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Gerstnerstraße/Westbhf").
+sequence(1,0, "Gerstnerstraße/Westbhf").
 person(2).
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Schleinbach Bahnhof").
-possiblemeetinglocations("Atzgersdorf").
-restaurant("Kettenbrückengasse").
+initlocation(2,"Braunschweiggasse").
+sequence(2,0, "Braunschweiggasse").
+possiblemeetinglocations("Sommarugagasse").
+restaurant("Höbersdorf Bahnhof").

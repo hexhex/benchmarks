@@ -1,52 +1,52 @@
 person(1).
-initlocation($p,"Heinrich-Drimmel-Platz").
-initlocation($p,"Anton-Krieger-Gasse").
-initlocation($p,"Innstraße").
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Schloss Belvedere").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Enkplatz").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Taborstraße").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Gaußplatz").
-initlocation($p,"Am Tabor").
-initlocation($p,"Heinrich-Drimmel-Platz").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Penzing").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Gusenleithnergasse").
+initlocation(1,"Hütteldorfer Str/Hochsatzeng").
+initlocation(1,"Ottakring").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Augasse").
+sequence(1,0, "Hintere Zollamtsstraße").
 person(2).
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Gatterburggasse").
-initlocation($p,"Brünnlbadgasse").
-initlocation($p,"Liesing").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Knöllgasse/Troststraße").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Schwarzspanierstraße").
-initlocation($p,"Hohe Warte").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-possiblemeetinglocations("Kleistgasse").
-possiblemeetinglocations("Wittelsbachstraße").
-possiblemeetinglocations("Stefan-Fadinger-Platz").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Altes Landgut").
-possiblemeetinglocations("Liechtenwerder Platz").
-possiblemeetinglocations("Versorgungsheimplatz").
-possiblemeetinglocations("Nordwestbahnstraße").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Diesterweggasse").
-restaurant("Breitensee").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Schuhmeierplatz").
-restaurant("Wexstraße").
-restaurant("Fultonstraße").
-restaurant("Sahulkastraße").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Erndtgasse").
-restaurant("Columbusplatz").
-restaurant("Sonnergasse").
-restaurant("Konstanziagasse").
-restaurant("Wallrißstraße").
+initlocation(2,"Wattmanngasse").
+initlocation(2,"Knöllgasse/Troststraße").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Stubentor").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Knöllgasse/Davidgasse").
+initlocation(2,"Tesarekplatz").
+initlocation(2,"Bahnsteggasse").
+sequence(2,0, "Wattmanngasse").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Sonnergasse").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Schottenfeldgasse").
+restaurant("Karmeliterplatz").
+restaurant("Winkeläckerstraße").
+restaurant("Rosensteingasse").
+restaurant("Kraygasse").
+restaurant("Hofstatt Bahnhof").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Jedlersdorf").
+restaurant("Floridsdorfer Markt").
+restaurant("Gellertplatz").
+restaurant("Josefstädter Straße").
+restaurant("Mistelbach Bahnhof").
+restaurant("Siebertgasse").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Enkplatz").
+sequence(1,0, "Hütteldorf").
 person(2).
-initlocation($p,"Museumsquartier").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Museumsquartier").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Trasdorf Bahnhof").
-restaurant("Zentralfriedhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+sequence(2,0, "Höbersdorf Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+restaurant("Kaisermühlen-VIC").
+restaurant("Braunschweiggasse").
+restaurant("Stadlau").

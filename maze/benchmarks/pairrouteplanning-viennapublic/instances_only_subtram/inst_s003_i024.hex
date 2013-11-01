@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Alsegger Straße").
-initlocation($p,"Gruschaplatz").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Alsegger Straße").
+initlocation(1,"Carabelligasse").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+sequence(1,0, "Carabelligasse").
 person(2).
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Ebenfurth Bahnhof").
-possiblemeetinglocations("Höchstädtplatz").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
-restaurant("Krottenbachstraße").
-restaurant("Wallrißstraße").
-restaurant("Keplerplatz").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Nordwestbahnstraße").
+initlocation(2,"Anton-Schall-Gasse").
+sequence(2,0, "Winckelmannstraße").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Bösendorferstraße").
+restaurant("Erndtgasse").
+restaurant("Canisiusgasse").
+restaurant("Penzing").

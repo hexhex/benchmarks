@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Rathausplatz/Burgtheater").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Sechskrügelgasse").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Baumgasse").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Aspernstraße").
+sequence(1,0, "Rekawinkel Bahnhof").
 person(2).
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Stadion").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Karmeliterplatz").
-possiblemeetinglocations("Am Tabor").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-restaurant("Zehetnerg/Pflegeh Baumgarten").
-restaurant("Guntramsdorf-Thallern").
-restaurant("Kleistgasse").
-restaurant("Josefstädter Straße").
-restaurant("Saikogasse").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"Neue Donau").
+initlocation(2,"Gaußplatz").
+initlocation(2,"Schöffelgasse").
+sequence(2,0, "Floridsdorf").
+possiblemeetinglocations("Eichenstraße").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Margaretengürtel").
+restaurant("Lange Gasse").
+restaurant("Messe-Prater").
+restaurant("Gruschaplatz").
+restaurant("Laaer-Berg-Straße").
+restaurant("Zieglergasse").

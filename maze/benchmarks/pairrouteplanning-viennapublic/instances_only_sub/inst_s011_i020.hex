@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Johnstraße").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Volkstheater").
-initlocation($p,"Bisamberg Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Atzenbrugg Bahnhof").
+sequence(1,0, "Unterradlberg Bahnhof").
 person(2).
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Krieau").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Praterkai").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Erdberg").
-initlocation($p,"Mistelbach Stadt").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Stadlau").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Traisengasse").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Sankt Marx").
-restaurant("Leopoldau").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Gersthof").
+sequence(2,0, "Tulln Stadt Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+restaurant("Moosbierbaum-Heiligeneich Bf").
 restaurant("St Pölten Hauptbahnhof").
-restaurant("Herrengasse").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Mannswörth Bahnhof").
-restaurant("Guntramsdorf-Thallern").
+restaurant("Rennbahnweg").
+restaurant("Strasshof Bahnhof").
+restaurant("Museumsquartier").
+restaurant("Münchendorf Bahnhof").
+restaurant("Siemensstraße").
+restaurant("Herzogenburg Stadt").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Aspern Nord").
+restaurant("Reumannplatz").

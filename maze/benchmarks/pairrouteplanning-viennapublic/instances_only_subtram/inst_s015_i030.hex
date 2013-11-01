@@ -1,64 +1,64 @@
 person(1).
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Grillgasse").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Herrengasse").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Donauzentrum").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Gerhardusgasse").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Prater, Hauptallee").
+initlocation(1,"Elterleinplatz").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Carminweg").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Strozzigasse").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Dresdner Straße").
+sequence(1,0, "Trautmannsdorf/Leitha Bf").
 person(2).
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Strozzigasse").
-initlocation($p,"Bahnsteggasse").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Schottenring").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Hauptbahnhof Ost").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Liesing").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Bösendorferstraße").
-initlocation($p,"Frauengasse").
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Traisengasse").
-initlocation($p,"Rekawinkel Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Pokornygasse").
-possiblemeetinglocations("Augasse").
-possiblemeetinglocations("Schöffelgasse").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Arminenstraße").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Floridsdorfer Markt").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Quellenstraße/Knöllgasse").
-restaurant("Unter Sankt Veit").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Florianigasse").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Schuhmeierplatz").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Leberberg").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Unteres Belvedere").
+sequence(2,0, "Trondheimgasse").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Penzing").
 restaurant("Heinrich-Drimmel-Platz").
-restaurant("Florianigasse").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Thaliastraße/Brunnengasse").
-restaurant("Am Schöpfwerk").
-restaurant("Stockerau Bahnhof").
-restaurant("Pötzleinsdorf").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Dornbach, Güpferlingstraße").
-restaurant("Laurenzgasse").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Meidling Hauptstraße").
-restaurant("Friedensbrücke").
-restaurant("Schleiergasse").
+restaurant("Rosensteingasse").
+restaurant("Burggasse-Stadthalle").
+restaurant("Anton-Schall-Gasse").
+restaurant("Bahnhof Meidling").
+restaurant("Radetzkyplatz").
+restaurant("Löwengasse").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Stiftgasse").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Mannswörth Bahnhof").
+restaurant("Autokaderstraße").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Hetzgasse").
+restaurant("Alterlaa").

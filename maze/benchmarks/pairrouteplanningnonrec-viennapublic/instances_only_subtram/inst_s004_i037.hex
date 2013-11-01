@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Oberlaa, Therme Wien").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Gatterburggasse").
+sequence(1,0, "Neulengbach Stadt Bahnhof").
 person(2).
-initlocation($p,"Heinrich-Drimmel-Platz").
-initlocation($p,"Thaliastraße/Haberlgasse").
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Bernhardtstalgasse").
+initlocation(2,"Traisengasse").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Obere Donaustraße").
+sequence(2,0, "Traisengasse").
+possiblemeetinglocations("Saikogasse").
 possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Koloniestraße").
-restaurant("Dornbach, Güpferlingstraße").
-restaurant("Donauinsel").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Bahnhofstraße").
+restaurant("Elterleinplatz").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Klosterneub Str/Wallensteinstr").

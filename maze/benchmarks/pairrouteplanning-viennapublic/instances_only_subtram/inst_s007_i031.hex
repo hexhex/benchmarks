@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Sieveringer Straße").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Oberfeldgasse").
-initlocation($p,"Koloniestraße").
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Beingasse").
-initlocation($p,"Wittelsbachstraße").
-initlocation($p,"Sieveringer Straße").
+initlocation(1,"Gutraterplatz").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Erdberg").
+initlocation(1,"Rampengasse").
+sequence(1,0, "Gutraterplatz").
 person(2).
-initlocation($p,"Hardtgasse").
-initlocation($p,"Svetelskystraße").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Fultonstraße").
-initlocation($p,"Wattmanngasse").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Hardtgasse").
-possiblemeetinglocations("Braunhubergasse").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Simonygasse").
-possiblemeetinglocations("Laxenburger Straße/Troststraße").
-restaurant("Stiftgasse").
-restaurant("Zentralfriedhof 4Tor").
-restaurant("Carabelligasse").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Schmerlingplatz").
-restaurant("Oberdöbling").
-restaurant("Hopfengasse").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Anschützgasse").
+initlocation(2,"Grinzing").
+initlocation(2,"Wildgansplatz").
+sequence(2,0, "Döblinger Bad").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Rustengasse").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Stadiongasse/Parlament").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Scheibenbergstraße").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").

@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Herzogenburg Stadt").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Stephansplatz").
+sequence(1,0, "Keplerplatz").
 person(2).
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Hietzing").
-restaurant("Kaisermühlen-VIC").
-restaurant("Regelsbrunn Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Stubentor").
+sequence(2,0, "Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Nußdorfer Straße").
+restaurant("Zentralfriedhof").
+restaurant("Kledering Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Herrengasse").
+restaurant("Nestroyplatz").
+restaurant("Kottingneusiedl Bahnhof").
 restaurant("Sankt Marx").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Siebenhirten").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Jägerstraße").
-restaurant("Hetzendorf").
-restaurant("Gasometer").
+restaurant("Karlsplatz").
+restaurant("Getzersdorf/Traisen Bahnhof").

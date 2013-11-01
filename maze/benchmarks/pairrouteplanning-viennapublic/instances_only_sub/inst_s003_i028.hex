@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Blumental").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Blumental").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Neusiedl am See Bahnhof").
+sequence(1,0, "Franz-Josefs-Bahnhof").
 person(2).
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Blumental").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-restaurant("Retz Bahnhof").
-restaurant("Zieglergasse").
-restaurant("Ebenfurth Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+sequence(2,0, "Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+restaurant("Messe-Prater").
+restaurant("Donauinsel").
+restaurant("Götzendorf Bahnhof").

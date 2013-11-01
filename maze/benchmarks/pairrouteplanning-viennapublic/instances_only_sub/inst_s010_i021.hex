@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Spittelau").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Mistelbach Stadt").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Gänserndorf Bahnhof").
+sequence(1,0, "Purkersdorf Zentrum Bahnhof").
 person(2).
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Praterstern").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Blumental").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Guntramsdorf-Thallern").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Schönbrunn").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Hietzing").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Stadion").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+sequence(2,0, "Obereggendorf Bahnhof").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Hetzendorf").
 possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Rennbahnweg").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Baden Bahnhof").
-restaurant("Vorgartenstraße").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Nestroyplatz").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Nußdorf").
+restaurant("Schwedenplatz").
+restaurant("Rennweg").
+restaurant("Hirschstetten").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Neue Donau").
+restaurant("Gumpendorfer Straße").
+restaurant("Strebersdorf").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Burggasse-Stadthalle").
+restaurant("Gumpoldskirchen Bahnhof").

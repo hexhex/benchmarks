@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Hauffgasse").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Hauffgasse").
+initlocation(1,"Alser Straße").
+initlocation(1,"Laurentiusplatz").
+sequence(1,0, "Alser Straße").
 person(2).
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Nußdorf").
-initlocation($p,"Türkenschanzplatz").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Gußhausstraße").
-restaurant("Grillgasse").
-restaurant("Fischamend Bahnhof").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Frödenplatz").
+sequence(2,0, "Thaliastraße").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Obere Donaustraße").
+restaurant("Wolf in der Au").
+restaurant("Migerkastraße").

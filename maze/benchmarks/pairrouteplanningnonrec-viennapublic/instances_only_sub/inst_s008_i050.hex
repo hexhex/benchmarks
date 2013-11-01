@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Alser Straße").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Großfeldsiedlung").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Handelskai").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Alser Straße").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Donauinsel").
+initlocation(1,"Gemeinlebarn Bahnhof").
+sequence(1,0, "Aderklaaer Straße").
 person(2).
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Herrengasse").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Stubentor").
-initlocation($p,"Friedensbrücke").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Kledering Bahnhof").
-restaurant("Strasshof Bahnhof").
-restaurant("Sollenau Bahnhof").
-restaurant("Vorgartenstraße").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Retz Bahnhof").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Neulengbach Bahnhof").
-restaurant("Museumsquartier").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+sequence(2,0, "Reumannplatz").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Michelbeuern-AKH").
+restaurant("Breitensee").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("Erlaaer Straße").
+restaurant("Schottenring").
+restaurant("Bisamberg Bahnhof").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Schottenring").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Praterkai").
-initlocation($p,"Geiselbergstraße").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Hernals").
+sequence(1,0, "Wolf in der Au").
 person(2).
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Korneuburg Bahnhof").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Penzing").
-restaurant("Tscherttegasse").
-restaurant("Korneuburg Bahnhof").
-restaurant("Haslau an der Donau Bahnhof").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Donaumarina").
-restaurant("Gumpoldskirchen Bahnhof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Gersthof").
+sequence(2,0, "Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+restaurant("Hardeggasse").
+restaurant("Strasshof Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Krieau").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Braunschweiggasse").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Unterradlberg Bahnhof").

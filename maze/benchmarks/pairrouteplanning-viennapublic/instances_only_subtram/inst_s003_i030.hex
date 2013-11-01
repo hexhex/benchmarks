@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Volkstheater").
-initlocation($p,"Lerchenfelder Straße").
-initlocation($p,"Satzberggasse").
-initlocation($p,"Volkstheater").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Zellerndorf Bahnhof").
+sequence(1,0, "Herzogenburg Stadt").
 person(2).
-initlocation($p,"Unteres Belvedere").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Lerchenfelder Straße").
-initlocation($p,"Unteres Belvedere").
-possiblemeetinglocations("Wallensteinplatz").
-possiblemeetinglocations("Rathausplatz/Burgtheater").
-possiblemeetinglocations("Tulln Bahnhof").
-restaurant("Pötzleinsdorf").
-restaurant("Museumsquartier").
-restaurant("Forstnergasse").
+initlocation(2,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(2,"Erdbergstr/Schlachthausgasse").
+initlocation(2,"Matthäus-Jiszda-Straße").
+sequence(2,0, "Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Römergasse").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Aspern Nord").
+restaurant("Hausleiten Bahnhof").

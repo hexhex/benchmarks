@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Migerkastraße").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Floridsdorfer Brücke").
-initlocation($p,"Wexstraße").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Migerkastraße").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Donauspital").
+initlocation(1,"Nordwestbahnstraße").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Perntergasse").
+initlocation(1,"Koloniestraße").
+sequence(1,0, "Rosensteingasse").
 person(2).
-initlocation($p,"Kliebergasse").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Nußdorf, Beethovengang").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Kliebergasse").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Gloriettegasse").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-restaurant("Knöllgasse/Davidgasse").
-restaurant("Glatzgasse").
-restaurant("Seestadt").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Hautzendorf Bahnhof").
-restaurant("Elterleinplatz").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Floridsdorfer Brücke").
+initlocation(2,"Alterlaa").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Simonygasse").
+sequence(2,0, "Westbahnhof").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+restaurant("Polgarstraße").
 restaurant("Hernals").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Carabelligasse").
+restaurant("Zentralfriedhof").
+restaurant("Schöffelgasse").
+restaurant("Fasangasse").

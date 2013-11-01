@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Yppengasse").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Schloss Schönbrunn").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Stadtpark").
+initlocation(1,"Windtenstraße").
+initlocation(1,"Valiergasse").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Kliebergasse").
+initlocation(1,"Rampengasse").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+sequence(1,0, "Stadtpark").
 person(2).
-initlocation($p,"Barawitzkagasse").
-initlocation($p,"Wienerbergbrücke").
-initlocation($p,"Prater, Hauptallee").
-initlocation($p,"Leopoldau").
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Frauengasse").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Linzer Straße/Zehetnergasse").
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Barawitzkagasse").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Simmering").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Hubertusdamm").
-possiblemeetinglocations("Van-Swieten-Kaserne").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Dornbacher Straße").
-restaurant("Michelhausen Bahnhof").
-restaurant("Baden Bahnhof").
-restaurant("Aspern Nord").
-restaurant("Linzer Straße/Zehetnergasse").
-restaurant("Dr-Karl-Renner-Ring").
-restaurant("Roßauer Lände").
-restaurant("Michelbeuern-AKH").
-restaurant("Erdberg").
-restaurant("Landstraße-Wien Mitte").
+initlocation(2,"Penzing").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Donauzentrum").
+initlocation(2,"Schwarzenbergplatz").
+initlocation(2,"Erndtgasse").
+sequence(2,0, "Penzing").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Himmelmutterweg").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+restaurant("Konstanziagasse").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Alser Straße").
+restaurant("Gusenleithnergasse").
+restaurant("Mayssengasse").
+restaurant("Bisamberg Bahnhof").
+restaurant("Friedensbrücke").
+restaurant("Wienerbergbrücke").

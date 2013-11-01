@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Seestadt").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Neulengbach Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+sequence(1,0, "Maria Ellend Bahnhof").
 person(2).
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Spillern Bahnhof").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-restaurant("Zeiselmauer-Königstetten Bf").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Kaiserebersdorf").
-restaurant("Atzenbrugg Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+sequence(2,0, "Großfeldsiedlung").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+restaurant("Stadlau").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Pilgramgasse").
+restaurant("Neue Donau").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Hütteldorfer Straße").

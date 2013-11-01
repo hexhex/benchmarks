@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Percostraße").
-initlocation(1,"Kahlenberg").
-initlocation(1,"Jägermaiszufahrt").
-sequence(1,0, "Percostraße").
+initlocation(1,"Dietmayrgasse").
+initlocation(1,"Leyserstraße").
+initlocation(1,"Harrachgasse").
+sequence(1,0, "Dietmayrgasse").
 person(2).
-initlocation(2,"Gewerbepark Stadlau Nord").
-initlocation(2,"Alberner Hafenzufahrtsstraße").
-initlocation(2,"Troststraße/Neilreichgasse").
-sequence(2,0, "Gewerbepark Stadlau Nord").
-possiblemeetinglocations("Kaiserebersdorf Münnichplatz").
-possiblemeetinglocations("Eibesbrunnergasse").
-possiblemeetinglocations("Neuwaldegger Straße").
-restaurant("Franz-Pletersky-Weg").
-restaurant("Silbergasse").
-restaurant("Kornblumenweg").
+initlocation(2,"Spitalgasse/Währinger Straße").
+initlocation(2,"Liesing Friedhof").
+initlocation(2,"Haengasse").
+sequence(2,0, "Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Mariahilfer Straße/Stiftgasse").
+possiblemeetinglocations("Nußdorf").
+restaurant("Albertgasse").
+restaurant("Weinheimergasse").
+restaurant("Schwenkgasse").

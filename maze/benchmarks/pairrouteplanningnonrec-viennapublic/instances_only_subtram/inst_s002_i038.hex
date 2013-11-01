@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Schlickgasse").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Schlickgasse").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Nußdorf").
+sequence(1,0, "Kaisermühlen-VIC").
 person(2).
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Oberfeldgasse/Spargelfeldstr").
-initlocation($p,"Tulln Stadt Bahnhof").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Gasometer").
-restaurant("Messe-Prater").
-restaurant("Tullnerfeld Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+sequence(2,0, "Götzendorf Bahnhof").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Purkersdorf Sanatorium").

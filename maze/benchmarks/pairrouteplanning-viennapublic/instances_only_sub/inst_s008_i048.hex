@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Ottakring").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Strasshof Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Brünner Straße").
+sequence(1,0, "Obereggendorf Bahnhof").
 person(2).
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Lobau").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Alser Straße").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Wr Neustadt Nord").
-restaurant("Franz-Josefs-Bahnhof").
-restaurant("Grillgasse").
-restaurant("Leobersdorf Bahnhof").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Praterstern").
-restaurant("Paasdorf Bahnhof").
-restaurant("Hernals").
+initlocation(2,"Rathaus").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Schottentor").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Vorgartenstraße").
+sequence(2,0, "Rathaus").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+restaurant("Hofstatt Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Längenfeldgasse").
+restaurant("Atzgersdorf").
+restaurant("Reumannplatz").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Rennbahnweg").

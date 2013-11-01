@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Wilhelminenstr/Sandleitengasse").
-initlocation($p,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+sequence(1,0, "Klosterneuburg-Kierling Bf").
 person(2).
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Wolfsthal Bahnhof").
-possiblemeetinglocations("Diesterweggasse").
-restaurant("Pötzleinsdorf").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+sequence(2,0, "Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Alsegger Straße").
+restaurant("Oberolberndorf Bahnhof").

@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Prater, Hauptallee").
-initlocation($p,"Aumannplatz").
-initlocation($p,"Quellenstraße/Favoritenstraße").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Währinger Straße-Volksoper").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Gottschalkgasse/Enkplatz").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+sequence(1,0, "Gunoldstraße").
 person(2).
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Wienerbergbrücke").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Nestroyplatz").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Alser Straße").
-restaurant("Atzgersdorf").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Schuhmeierplatz").
-restaurant("Kaiserstraße/Neustiftgasse").
+initlocation(2,"Rothneusiedl").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Neulerchenfelder Str/Haberlg").
+sequence(2,0, "Rothneusiedl").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Brünner Straße").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Baumgarten").
+restaurant("Fasangasse").
+restaurant("Schloss Hetzendorf").
+restaurant("Herzogenburg Bahnhof").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Hauptbahnhof Ost").
-initlocation($p,"Arminenstraße").
-initlocation($p,"Strozzigasse").
-initlocation($p,"Litfaßstraße").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Hauptbahnhof Ost").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Rothneusiedl").
+initlocation(1,"Teichgasse").
+initlocation(1,"Sahulkastraße").
+initlocation(1,"Rodaun").
+initlocation(1,"Rebhanngasse").
+sequence(1,0, "Himberg Bahnhof").
 person(2).
-initlocation($p,"Polgarstraße").
-initlocation($p,"Kölblgasse").
-initlocation($p,"Lainz, Wolkersbergenstraße").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Polgarstraße").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
-possiblemeetinglocations("Augasse").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Altes Landgut").
-possiblemeetinglocations("Camillo-Sitte-Gasse").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Thaliastraße/Maroltingergasse").
-restaurant("Traisengasse").
-restaurant("Sollenau Bahnhof").
-restaurant("Shuttleworthstraße").
-restaurant("Frättingsdorf Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Tesarekplatz").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Gußhausstraße").
+initlocation(2,"Oberdöbling").
+sequence(2,0, "Bad Vöslau Bahnhof").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Diesterweggasse").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Burggasse-Stadthalle").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Stollgasse").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Liechtenwerder Platz").

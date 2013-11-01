@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Göllersdorf Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Blumental").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+sequence(1,0, "Bruck/Leitha Bahnhof").
 person(2).
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Herrengasse").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Wr Neustadt Nord").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Haidestraße").
-restaurant("Erzherzog-Karl-Straße").
-restaurant("Sierndorf Bahnhof").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Museumsquartier").
-restaurant("Josefstädter Straße").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Neue Donau").
+sequence(2,0, "Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Aspernstraße").
+restaurant("Hadersdorf Bahnhof").

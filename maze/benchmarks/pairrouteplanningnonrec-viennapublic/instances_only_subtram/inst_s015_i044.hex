@@ -1,64 +1,64 @@
 person(1).
-initlocation($p,"Donauinsel").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Knöllgasse/Troststraße").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Am Heidjöchl").
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Dommayergasse").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Wattmanngasse").
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-initlocation($p,"Donauinsel").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Stollgasse").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Empergergasse").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Türkenschanzplatz").
+initlocation(1,"Donauspital").
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Friedensbrücke").
+sequence(1,0, "Trautmannsdorf/Leitha Bf").
 person(2).
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Hofwiesengasse").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"An den langen Lüssen").
-initlocation($p,"Beingasse").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Breitensee").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Empergergasse").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Matthäus-Jiszda-Straße").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Blindengasse").
-possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Palffygasse").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Aßmayergasse").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-restaurant("Mannswörth Bahnhof").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Raxstraße/Rudolfshügelgasse").
-restaurant("Erdberg").
-restaurant("Volkstheater").
-restaurant("Rampengasse").
-restaurant("Praterstern").
-restaurant("Kaiserstraße/Burggasse").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Blumengasse").
-restaurant("Tulln Bahnhof").
-restaurant("Margaretengürtel/Arbeitergasse").
-restaurant("Stadlergasse").
-restaurant("Hernalser Gürtel").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Frauengasse").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Hauffgasse").
+initlocation(2,"Neilreichgasse").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Camillo-Sitte-Gasse").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Silbergasse").
+initlocation(2,"Perfektastraße").
+initlocation(2,"Antonigasse").
+initlocation(2,"Diesterweggasse").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Hardeggasse").
+sequence(2,0, "Kutschkergasse").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+restaurant("Waidhausenstraße").
+restaurant("Satzberggasse").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Hermesstraße").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Liesing").
+restaurant("Siebenhirten").
+restaurant("Beingasse").
+restaurant("Konstanziagasse").
+restaurant("Rennbahnweg").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Seyring Bahnhof").
+restaurant("Gußhausstraße").
+restaurant("Braunschweiggasse").
+restaurant("Lederergasse").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Hernals").
-initlocation($p,"Stadlau").
-initlocation($p,"Stadion").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Roßauer Lände").
+sequence(1,0, "Bad Vöslau Bahnhof").
 person(2).
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Neue Donau").
-initlocation($p,"Wampersdorf Bahnhof").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-restaurant("Hausfeldstraße").
-restaurant("Unteroberndorf Bahnhof").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Hirschstetten").
-restaurant("Aspern Nord").
-restaurant("Herrengasse").
-restaurant("Kaisermühlen-VIC").
+initlocation(2,"Lobau").
+initlocation(2,"Donaumarina").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Jägerstraße").
+sequence(2,0, "Lobau").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Kaiserebersdorf").
+restaurant("Leopoldau").
+restaurant("Ladendorf Bahnhof").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Taubstummengasse").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Siebenhirten (NÖ). Haltestelle").
+sequence(1,0, "Süßenbrunn").
 person(2).
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Praterkai").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Helmahof Bahnhof").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Schottentor").
-restaurant("Stubentor").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Enkplatz").
+sequence(2,0, "Mannswörth Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Simmering").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Blumental").

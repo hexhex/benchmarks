@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Liechtenwerder Platz").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Herrengasse").
-initlocation($p,"Liechtenwerder Platz").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Franzensbrücke").
+initlocation(1,"Gersthof").
+sequence(1,0, "Pfaffstätten Bahnhof").
 person(2).
-initlocation($p,"Herrengasse").
-initlocation($p,"Wallrißstraße").
-initlocation($p,"Praterkai").
-initlocation($p,"Herrengasse").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-restaurant("Albertgasse").
-restaurant("Laxenburger Straße/Troststraße").
-restaurant("Regelsbrunn Bahnhof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Hennersdorf Bahnhof").
+sequence(2,0, "Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+restaurant("Himberg Bahnhof").
+restaurant("Taborstraße").
+restaurant("Hernals").

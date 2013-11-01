@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Großjedlersdorf").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Alser Straße").
+initlocation(1,"Aßmayergasse").
+sequence(1,0, "Hörersdorf Bahnhof").
 person(2).
-initlocation($p,"Seegasse").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Columbusplatz").
-initlocation($p,"Brünner Straße/Hanreitergasse").
-initlocation($p,"Seegasse").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Herbeckstraße").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Nordbrücke").
-possiblemeetinglocations("Schleiergasse").
-restaurant("Stubentor").
-restaurant("Nußdorfer Str/Alserbachstraße").
-restaurant("Glatzgasse").
-restaurant("Leopoldau").
-restaurant("Tscherttegasse").
-restaurant("Herzogenburg Bahnhof").
+initlocation(2,"Schloss Schönbrunn").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Nestroyplatz").
+sequence(2,0, "Schloss Schönbrunn").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Sickenberggasse").
+restaurant("Rankgasse").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Schloss Schönbrunn").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Troststraße/Neilreichgasse").
+restaurant("Südtiroler Platz/Hauptbahnhof").

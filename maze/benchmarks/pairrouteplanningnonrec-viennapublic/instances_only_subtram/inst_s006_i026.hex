@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Schwarzenbergplatz").
+initlocation(1,"Koloniestraße").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Sensengasse").
+initlocation(1,"Linzer Straße/Reinlgasse").
+initlocation(1,"Alser Straße").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+sequence(1,0, "Koloniestraße").
 person(2).
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Brigittaplatz").
-initlocation($p,"Thaliastraße/Brunnengasse").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Nußdorfer Straße").
-possiblemeetinglocations("Nordwestbahnstraße").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Grinzinger Straße").
-possiblemeetinglocations("Stefan-Fadinger-Platz").
-possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Sankt Marx").
-restaurant("Unter St Veit, Hummelgasse").
-restaurant("Perntergasse").
-restaurant("Johnstraße").
-restaurant("Dommayergasse").
+initlocation(2,"Erdberg").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Brigittaplatz").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Gersthofer Str/Scheibenbergstr").
+initlocation(2,"Rußbergstraße").
+sequence(2,0, "Erdberg").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Wallensteinplatz").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Oberdöbling").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Pressbaum Bahnhof").
+restaurant("Taborstraße").
+restaurant("Prater, Hauptallee").

@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Hietzing").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Hietzing").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+sequence(1,0, "Sitzenberg-Reidling Bahnhof").
 person(2).
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Penzing").
-restaurant("Kagran").
-restaurant("Gasometer").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+sequence(2,0, "Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+restaurant("Hütteldorfer Straße").
+restaurant("Floridsdorf").

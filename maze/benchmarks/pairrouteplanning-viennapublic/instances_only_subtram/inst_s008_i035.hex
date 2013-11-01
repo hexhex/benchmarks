@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Wilhelminenstr/Sandleitengasse").
-initlocation($p,"Alser Straße").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Satzberggasse").
-initlocation($p,"Laxenburger Straße/Troststraße").
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Großjedlersdorf").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Frauengasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Autokaderstraße").
+sequence(1,0, "Rußbergstraße").
 person(2).
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Salztorbrücke").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Staglgasse").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Höbersdorf Bahnhof").
-possiblemeetinglocations("Van-Swieten-Kaserne").
-possiblemeetinglocations("Knöllgasse/Troststraße").
-possiblemeetinglocations("Gußhausstraße").
-possiblemeetinglocations("Leberberg").
-possiblemeetinglocations("Oberlaa, Therme Wien").
-possiblemeetinglocations("Hernalser Gürtel").
-possiblemeetinglocations("Schöffelgasse").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-restaurant("Ottakring").
-restaurant("Atzgersdorf").
-restaurant("Schuhmeierplatz").
-restaurant("Wienerbergbrücke").
-restaurant("Siebenhirten").
-restaurant("Leyserstraße").
-restaurant("Praterstern").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Molitorgasse").
+initlocation(2,"Sahulkastraße").
+initlocation(2,"Aumannplatz").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Althanstraße").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+sequence(2,0, "Grinzinger Straße").
+possiblemeetinglocations("Eichenstraße").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
 restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Hohe Warte").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Sankt Marx").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Tamariskengasse").
-initlocation(1,"Laurenzgasse").
-sequence(1,0, "Tamariskengasse").
+initlocation(1,"Ottakring").
+initlocation(1,"Leberweg").
+sequence(1,0, "Ottakring").
 person(2).
-initlocation(2,"Sorgenthalgasse").
-initlocation(2,"Schönborn Bahnhof").
-sequence(2,0, "Sorgenthalgasse").
-possiblemeetinglocations("Aignerstraße").
-possiblemeetinglocations("Römergasse").
-restaurant("Zentralfriedhof").
-restaurant("Jungbauerweg").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Ruckergasse/Tivoligasse").
+sequence(2,0, "Guneschgasse").
+possiblemeetinglocations("Possingergasse").
+possiblemeetinglocations("Mühlhäufelgasse").
+restaurant("Campingplatz Kleehäufel").
+restaurant("Haidestraße").

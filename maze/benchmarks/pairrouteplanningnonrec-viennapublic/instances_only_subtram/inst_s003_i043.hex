@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Traisengasse").
-initlocation($p,"Schönborn Bahnhof").
+initlocation(1,"Dommayergasse").
+initlocation(1,"Gredlerstraße").
+initlocation(1,"Laurenzgasse").
+sequence(1,0, "Dommayergasse").
 person(2).
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Praterkai").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Stadlergasse").
-possiblemeetinglocations("Herbeckstraße").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-restaurant("Oberlaa, Therme Wien").
-restaurant("Gredlerstraße").
-restaurant("Ottakring").
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Frödenplatz").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+sequence(2,0, "Waidhausenstraße").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Hetzgasse").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+restaurant("Paradisgasse").
+restaurant("Wilhelminenstraße/Wattgasse").
+restaurant("Polkorabplatz").

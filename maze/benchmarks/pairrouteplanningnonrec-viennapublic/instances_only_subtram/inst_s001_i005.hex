@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Burgring").
-initlocation($p,"Burgring").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+sequence(1,0, "Neulerchenfelder Str/Brunneng").
 person(2).
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Rauscherstraße").
-possiblemeetinglocations("Schottenfeldgasse").
-restaurant("Oberradlberg Bahnhof").
+initlocation(2,"Rennweg").
+sequence(2,0, "Rennweg").
+possiblemeetinglocations("Laurentiusplatz").
+restaurant("Michelhausen Bahnhof").

@@ -1,52 +1,52 @@
 person(1).
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Volkstheater").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Heiligenstadt").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Schottentor").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Seestadt").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Atzenbrugg Bahnhof").
+sequence(1,0, "Zentralfriedhof").
 person(2).
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Praterkai").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Spillern Bahnhof").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Kledering Bahnhof").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+sequence(2,0, "Retz Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Theresienfeld Bahnhof").
 restaurant("Hardeggasse").
-restaurant("Zentralfriedhof").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Rathaus").
-restaurant("Guntramsdorf-Thallern").
-restaurant("Wolf in der Au").
-restaurant("Siebenhirten").
-restaurant("Roßauer Lände").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Floridsdorf").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Aderklaaer Straße").
+restaurant("Grillgasse").
+restaurant("Hetzendorf").
+restaurant("Neue Donau").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Niederhofstraße").
+restaurant("Unter Sankt Veit").
+restaurant("Hütteldorf").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Kledering Bahnhof").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Jedlersdorf").

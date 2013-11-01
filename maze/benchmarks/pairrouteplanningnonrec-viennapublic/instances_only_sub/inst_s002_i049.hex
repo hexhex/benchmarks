@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Hetzendorf").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Hetzendorf").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Handelskai").
+sequence(1,0, "Zellerndorf Bahnhof").
 person(2).
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Burggasse-Stadthalle").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Schottentor").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Hirschstetten").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Hetzendorf").
+sequence(2,0, "Karlsplatz").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+restaurant("Praterstern").
+restaurant("Atzenbrugg Bahnhof").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Schottentor").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Grillgasse").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+sequence(1,0, "Am Schöpfwerk").
 person(2).
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Erdberg").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Schottentor").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Achau Bahnhof").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Pressbaum Bahnhof").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Schwedenplatz").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Erlaaer Straße").
-restaurant("Gersthof").
-restaurant("Johnstraße").
-restaurant("Schottentor").
-restaurant("Tscherttegasse").
-restaurant("Blumental").
-restaurant("Simmering").
-restaurant("Mistelbach Bahnhof").
-restaurant("Hausfeldstraße").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Nußdorf").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Wildungsmauer Bahnhof").
+sequence(2,0, "Roßauer Lände").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Dürrwien Bahnhof").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Thaliastraße").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Kledering Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Ottakring").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Trasdorf Bahnhof").
+sequence(1,0, "Neulengbach Bahnhof").
 person(2).
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Neusiedl am See Bahnhof").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-restaurant("Getzersdorf/Traisen Bahnhof").
-restaurant("Floridsdorf").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Schönbrunn").
-restaurant("Gaisruck Bahnhof").
-restaurant("St Andrä-Wördern Bahnhof").
+initlocation(2,"Nußdorf").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+sequence(2,0, "Nußdorf").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Stadlau").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof").

@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Bahnsteggasse").
-initlocation(1,"Löwenthalgasse").
-initlocation(1,"Raimannstraße").
-initlocation(1,"Flötzersteig/Wilhelminenspital").
-initlocation(1,"Viehmarktgasse").
-initlocation(1,"Wachthausgasse").
-sequence(1,0, "Bahnsteggasse").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Pantucekgasse/Widholzgasse").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Antonsplatz").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+sequence(1,0, "Kaiser-Franz-Josef-Straße").
 person(2).
-initlocation(2,"Mayredergasse").
-initlocation(2,"Brandstätte").
-initlocation(2,"Windtenstraße").
-initlocation(2,"Donaustadtstraße/Lange Allee").
-initlocation(2,"Florian-Hedorfer-Straße").
-initlocation(2,"1 Haidequerstraße Mitte").
-sequence(2,0, "Mayredergasse").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Fabergasse").
-possiblemeetinglocations("Tinterstraße").
-possiblemeetinglocations("Eichbachgasse").
-possiblemeetinglocations("Jägermaiszufahrt").
-restaurant("Dampfkraftwerk Donaustadt").
-restaurant("Josef-Baumann-Gasse").
-restaurant("Donauzentrum").
-restaurant("Schottenring").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Purkytgasse").
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Korngoldgasse").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Kammerergasse").
+initlocation(2,"Esterhazygasse").
+initlocation(2,"Quellenstraße/Knöllgasse").
+sequence(2,0, "Schmerlingplatz").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Gernotgasse").
+possiblemeetinglocations("Daumegasse").
+possiblemeetinglocations("Kappgasse").
+possiblemeetinglocations("Herziggasse").
+possiblemeetinglocations("Josef-Ressel-Straße").
+restaurant("Finsterbuschstraße/Öllager").
+restaurant("Vösendorf-SCS").
+restaurant("Saarplatz").
+restaurant("Schmelzbrücke").
+restaurant("Rautenweg").
+restaurant("Hörersdorf Bahnhof").

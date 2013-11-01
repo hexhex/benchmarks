@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Brünner Straße").
+sequence(1,0, "Gaisruck Bahnhof").
 person(2).
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-restaurant("Hausfeldstraße").
-restaurant("Guntramsdorf-Thallern").
-restaurant("Dürrwien Bahnhof").
-restaurant("Jedlersdorf").
-restaurant("Franz-Josefs-Bahnhof").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Tulln Bahnhof").
+sequence(2,0, "Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+restaurant("Hernals").
+restaurant("Taubstummengasse").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Gasometer").
+restaurant("Aderklaaer Straße").

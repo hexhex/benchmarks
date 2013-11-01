@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Praterkai").
-initlocation($p,"Johnstraße").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Breitensee").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Praterkai").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Gersthof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Oberdöbling").
+sequence(1,0, "Hainburg/Donau Ungartor/B9").
 person(2).
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Blumental").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Rennweg").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Nußdorfer Straße").
-possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Kaisermühlen-VIC").
-restaurant("Korneuburg Bahnhof").
-restaurant("Zippererstraße").
-restaurant("Stadtpark").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Hetzendorf").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Schlachthausgasse").
-restaurant("Penzing").
-restaurant("Hausfeldstraße").
-restaurant("Alte Donau").
-restaurant("Regelsbrunn Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Grillgasse").
+initlocation(2,"Hernals").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Stockerau Bahnhof").
+sequence(2,0, "Pfaffstätten Bahnhof").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+restaurant("Aspernstraße").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Geiselbergstraße").
+restaurant("Mistelbach Stadt").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Sarasdorf Bahnhof").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Gasometer").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Ottakring").
+restaurant("Helmahof Bahnhof").

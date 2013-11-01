@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Leopoldau").
-initlocation($p,"Maurer Hauptplatz").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Friedrich-Engels-Platz").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Leopoldau").
+initlocation(1,"Gusenleithnergasse").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Grinzinger Straße").
+initlocation(1,"Tscherttegasse").
+sequence(1,0, "Gusenleithnergasse").
 person(2).
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Wolfsthal Bahnhof").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Litfaßstraße").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
-possiblemeetinglocations("Donaustadtbrücke").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Landesgerichtsstraße").
-restaurant("Svetelskystraße").
-restaurant("Längenfeldgasse").
-restaurant("Arthaberplatz").
+initlocation(2,"Alser Straße").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Linzer Straße/Johnstraße").
+sequence(2,0, "Alser Straße").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Kaiserstraße").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Karmeliterplatz").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Weißenböckstraße").
+restaurant("Lederergasse").
+restaurant("Höflein an der Donau Bahnhof").

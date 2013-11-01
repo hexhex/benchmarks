@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Braunhubergasse").
-initlocation($p,"Frauengasse").
-initlocation($p,"Klosterneub Str/Wallensteinstr").
-initlocation($p,"Braunschweiggasse").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+sequence(1,0, "Wr Neustadt Hauptbahnhof").
 person(2).
-initlocation($p,"Paulanergasse").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Stubentor").
-initlocation($p,"Wittelsbachstraße").
-initlocation($p,"Hildebrandgasse").
-initlocation($p,"Paulanergasse").
-possiblemeetinglocations("Schloss Hetzendorf").
-possiblemeetinglocations("Brünnlbadgasse").
-possiblemeetinglocations("Polkorabplatz").
-possiblemeetinglocations("Nordwestbahnstraße").
-possiblemeetinglocations("Niederhofstraße").
-restaurant("Reinlgasse/Märzstraße").
-restaurant("Kagraner Platz").
-restaurant("Lazarettgasse").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Carabelligasse").
+initlocation(2,"Gatterburggasse").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Laa an der Thaya Bahnhof").
+sequence(2,0, "Gatterburggasse").
+possiblemeetinglocations("Anschützgasse").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Stadtpark").
+restaurant("Skodagasse").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Molitorgasse").
+restaurant("Lange Gasse").
+restaurant("Zentralfriedhof 4Tor").

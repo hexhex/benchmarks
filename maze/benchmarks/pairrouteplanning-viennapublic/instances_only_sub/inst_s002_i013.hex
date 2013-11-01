@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Liesing").
-initlocation($p,"Höflein an der Donau Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Wolfsthal Bahnhof").
+sequence(1,0, "Hernals").
 person(2).
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Mistelbach Bahnhof").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-restaurant("Hetzendorf").
-restaurant("Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Seestadt").
+sequence(2,0, "St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Nestroyplatz").
+restaurant("Strasshof Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").

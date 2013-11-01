@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+sequence(1,0, "Gramatneusiedl Bahnhof").
 person(2).
-initlocation($p,"Stephansplatz").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Stephansplatz").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Neubaugasse").
-restaurant("Obersdorf Bahnhof").
-restaurant("Untertullnerbach Bahnhof").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+sequence(2,0, "Mödling Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Baden Bahnhof").
+restaurant("Heiligenstadt").
+restaurant("Braunschweiggasse").

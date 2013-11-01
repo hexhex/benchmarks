@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Museumsquartier").
+sequence(1,0, "Mistelbach Bahnhof").
 person(2).
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Spittelau").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Taubstummengasse").
-possiblemeetinglocations("Geiselbergstraße").
+initlocation(2,"Breitensee").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Hardeggasse").
+sequence(2,0, "Breitensee").
 possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Friedensbrücke").
-restaurant("Retz Bahnhof").
-restaurant("Götzendorf Bahnhof").
-restaurant("Kaisermühlen-VIC").
-restaurant("Schweglerstraße").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+restaurant("Baden Bahnhof").
+restaurant("Nußdorf").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Wildungsmauer Bahnhof").

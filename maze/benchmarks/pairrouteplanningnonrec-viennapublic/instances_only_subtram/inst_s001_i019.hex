@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Langenlebarn Bahnhof").
+initlocation(1,"Hausfeldstraße").
+sequence(1,0, "Hausfeldstraße").
 person(2).
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Kottingbrunn Bahnhof").
-possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
-restaurant("Antonigasse").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+sequence(2,0, "Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Floridsdorf").
+restaurant("Guneschgasse").

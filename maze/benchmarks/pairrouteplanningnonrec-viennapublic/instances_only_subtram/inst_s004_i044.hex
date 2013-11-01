@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Hermesstraße").
-initlocation($p,"Marienbrücke").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Hermesstraße").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+sequence(1,0, "Hütteldorfer Straße").
 person(2).
-initlocation($p,"Taborstraße").
-initlocation($p,"Friedrich-Engels-Platz").
-initlocation($p,"Heinrich-Drimmel-Platz").
-initlocation($p,"Alaudagasse").
-initlocation($p,"Taborstraße").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Schloss Belvedere").
-possiblemeetinglocations("Unter Sankt Veit").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Ober Sankt Veit").
-restaurant("Laxenburger Str/Gudrunstraße").
-restaurant("Arthaberplatz").
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Koppstraße/Panikengasse").
+sequence(2,0, "Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+restaurant("Lange Gasse").
+restaurant("Rebhanngasse").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Heiligenstadt, 12-Februar-Pl").

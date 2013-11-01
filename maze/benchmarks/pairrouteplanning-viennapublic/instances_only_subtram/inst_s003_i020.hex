@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Siebertgasse").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Siebertgasse").
+initlocation(1,"Rothneusiedl").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Hütteldorf, Bujattigasse").
+sequence(1,0, "Rothneusiedl").
 person(2).
-initlocation($p,"Thaliastraße").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Thaliastraße").
-possiblemeetinglocations("Seegasse").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Hütteldorfer Straße").
-restaurant("Zentralfriedhof 1Tor").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Zentralfriedhof 2Tor").
+initlocation(2,"Grinzinger Straße").
+sequence(2,0, "Schweglerstraße").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Gutraterplatz").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Polgarstraße").
+restaurant("Anton-Krieger-Gasse").

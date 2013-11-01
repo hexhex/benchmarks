@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Seestadt").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Kledering Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Flughafen Wien (VIE). Bahnhof").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Retz Bahnhof").
+sequence(1,0, "Am Schöpfwerk").
 person(2).
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Taborstraße").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Stephansplatz").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Museumsquartier").
-restaurant("Leopoldau").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Stephansplatz").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Stadtpark").
-restaurant("Dürrwien Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Gasometer").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Leopoldau").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Museumsquartier").
+sequence(2,0, "Korneuburg Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Oberdöbling").
+restaurant("Zippererstraße").
+restaurant("Volkstheater").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Hetzendorf").
+restaurant("Kledering Bahnhof").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Ottakring").

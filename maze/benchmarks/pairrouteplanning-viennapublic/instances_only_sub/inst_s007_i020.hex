@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Handelskai").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Stubentor").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Preyergasse/Speising").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Ottakring").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Zippererstraße").
+sequence(1,0, "Greifenstein-Altenberg Bahnhof").
 person(2).
-initlocation($p,"Handelskai").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Handelskai").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-restaurant("Gumpendorfer Straße").
-restaurant("Niederhofstraße").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Traisengasse").
-restaurant("Pottendorf-Landegg Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Krieau").
+sequence(2,0, "Friedensbrücke").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Michelbeuern-AKH").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Mannswörth Bahnhof").
 restaurant("Herzogenburg Bahnhof").
-restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Erdberg").
+restaurant("Stubentor").
+restaurant("Spillern Bahnhof").
+restaurant("Heiligenstadt").
+restaurant("Grillgasse").
+restaurant("Hofstatt Bahnhof").

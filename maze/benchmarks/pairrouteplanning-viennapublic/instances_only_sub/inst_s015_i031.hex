@@ -1,64 +1,64 @@
 person(1).
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Traisengasse").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Seyring Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Rathaus").
+initlocation(1,"Donauspital").
+sequence(1,0, "Muckendorf-Wipfing Bahnhof").
 person(2).
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Praterstern").
-initlocation($p,"Herrengasse").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Niederhofstraße").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Donauinsel").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Burggasse-Stadthalle").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Floridsdorf").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Rochusgasse").
-restaurant("Meidling Hauptstraße").
-restaurant("Taubstummengasse").
-restaurant("Praterstern").
-restaurant("Gaisruck Bahnhof").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Reumannplatz").
-restaurant("Erdberg").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Stadtpark").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Zellerndorf Bahnhof").
+sequence(2,0, "Mistelbach Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Michelbeuern-AKH").
+restaurant("Tscherttegasse").
+restaurant("Wr Neustadt Nord").
+restaurant("Siebenhirten").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Achau Bahnhof").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Mistelbach Bahnhof").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Friedensbrücke").
+restaurant("Stubentor").

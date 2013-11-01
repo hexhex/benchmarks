@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Maria Ellend Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+sequence(1,0, "Untertullnerbach Bahnhof").
 person(2).
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Haidestraße").
-initlocation($p,"Spittelau").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Hofstatt Bahnhof").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Krieau").
-restaurant("Kettenbrückengasse").
-restaurant("Niederhofstraße").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Felixdorf Bahnhof").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Kagran").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+sequence(2,0, "Stephansplatz").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+restaurant("Westbahnhof").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Donaumarina").
+restaurant("Pilgramgasse").
+restaurant("Hausleiten Bahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Platt Bahnhof").

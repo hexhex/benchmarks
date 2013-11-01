@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Kagran").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Hardeggasse").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Kagran").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Kaisermühlen-VIC").
+sequence(1,0, "Staatz Bahnhof").
 person(2).
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Mistelbach Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Gaisruck Bahnhof").
-restaurant("Michelhausen Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Zippererstraße").
+sequence(2,0, "Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Friedensbrücke").
+restaurant("Preyergasse/Speising").
+restaurant("Traisengasse").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Unterradlberg Bahnhof").

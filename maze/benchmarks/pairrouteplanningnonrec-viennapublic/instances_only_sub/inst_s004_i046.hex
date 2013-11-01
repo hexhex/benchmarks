@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Spittelau").
+initlocation(1,"Karlsplatz").
+sequence(1,0, "Enzersdorf bei Staatz Bahnhof").
 person(2).
-initlocation($p,"Stubentor").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Stubentor").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-restaurant("Strasshof Bahnhof").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Mistelbach Bahnhof").
-restaurant("Pfaffstätten Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Neue Donau").
+initlocation(2,"Donauinsel").
+sequence(2,0, "Donaumarina").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+restaurant("Schweglerstraße").
+restaurant("Längenfeldgasse").
+restaurant("Traisengasse").
+restaurant("Vorgartenstraße").

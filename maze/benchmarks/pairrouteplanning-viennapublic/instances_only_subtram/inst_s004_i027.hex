@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Hernals").
-initlocation($p,"Oberradlberg Bahnhof").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Paradisgasse").
+initlocation(1,"Meidling Hauptstraße").
+sequence(1,0, "Neubaugasse").
 person(2).
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Maurer Hauptplatz").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Neilreichgasse").
-possiblemeetinglocations("Radetzkyplatz").
-possiblemeetinglocations("Sillerplatz").
-possiblemeetinglocations("Troststraße/Neilreichgasse").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-restaurant("Stadtpark").
-restaurant("Wilhelminenstraße/Wattgasse").
-restaurant("Oberzellergasse").
-restaurant("Shuttleworthstraße").
+initlocation(2,"Huglgasse").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Alterlaa").
+initlocation(2,"Seestadt").
+sequence(2,0, "Huglgasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+restaurant("Schuhmeierplatz").
+restaurant("Linzer Straße/Reinlgasse").
+restaurant("Mannswörth Bahnhof").
+restaurant("Am Tabor").

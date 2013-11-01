@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Linzer Straße/Zehetnergasse").
-initlocation($p,"Shuttleworthstraße").
-initlocation($p,"Kutschkergasse").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Schlickgasse").
-initlocation($p,"Linzer Straße/Zehetnergasse").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Stefan-Fadinger-Platz").
+initlocation(1,"Bauernfeldplatz").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Glatzgasse").
+sequence(1,0, "Johannes-Krawarik-Gasse").
 person(2).
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Meidling Hauptstraße").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Koloniestraße").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Langobardenstraße").
-restaurant("Stadtpark").
-restaurant("Leberberg").
-restaurant("Oberfeldgasse/Spargelfeldstr").
-restaurant("Am Heidjöchl/Hausfeldstraße").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Aspernstraße").
+initlocation(2,"Litfaßstraße").
+initlocation(2,"Marxergasse").
+initlocation(2,"Wildgansplatz").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Autokaderstraße").
+sequence(2,0, "Litfaßstraße").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Nordbahnstraße").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Haidestraße").
+restaurant("Versorgungsheimplatz").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Winckelmannstraße").

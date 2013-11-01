@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Gersthof").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Sonnergasse").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Simmering").
+sequence(1,0, "Sonnergasse").
 person(2).
-initlocation($p,"Hauptbahnhof Ost").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Hauptbahnhof Ost").
-possiblemeetinglocations("Penzinger Straße").
-possiblemeetinglocations("Friedrich-Engels-Platz").
-possiblemeetinglocations("Am Spitz").
-restaurant("Michelbeuern-AKH").
-restaurant("Meidling Hauptstraße").
-restaurant("Stadlergasse").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+initlocation(2,"Göllersdorf Bahnhof").
+sequence(2,0, "Hardtgasse").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Neilreichgasse").
+restaurant("Himberg Bahnhof").
+restaurant("Am Heumarkt").
+restaurant("Am Heidjöchl").

@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Zentralfriedhof 4Tor").
-initlocation($p,"Maria Ellend Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Leopoldau").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Stadlau").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Troststraße/Neilreichgasse").
+sequence(1,0, "Trasdorf Bahnhof").
 person(2).
-initlocation($p,"Schottenring").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Kagran").
-initlocation($p,"Leyserstraße").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Wallrißstraße").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Silbergasse").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Schottenring").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Canisiusgasse").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Gewerbepark Stadlau Mitte").
-possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Fasangasse").
-restaurant("Bisamberg Bahnhof").
-restaurant("Linzer Straße/Hochsatzengasse").
-restaurant("Mistelbach Bahnhof").
-restaurant("Fickeysstraße").
-restaurant("Zeiselmauer-Königstetten Bf").
-restaurant("Leobersdorf Bahnhof").
-restaurant("Althanstraße").
-restaurant("Meidling Hauptstraße").
-restaurant("Anton-Schall-Gasse").
-restaurant("Augasse").
+initlocation(2,"Bahnhofstraße").
+initlocation(2,"Handelskai").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Donaustadtstraße").
+initlocation(2,"Kraygasse").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Braunhubergasse").
+sequence(2,0, "Bahnhofstraße").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Am Tabor").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+restaurant("Schöffelgasse").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Donaumarina").
+restaurant("Pokornygasse").
+restaurant("Am Schöpfwerk").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Donauzentrum").
+restaurant("Paradisgasse").

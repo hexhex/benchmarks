@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Windtenstraße").
-initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Martinstraße").
+initlocation(1,"Wilhelminenstraße/Wattgasse").
+initlocation(1,"Am Heidjöchl/Hausfeldstraße").
+initlocation(1,"Haidestraße").
+initlocation(1,"Alfred-Adler-Straße").
+sequence(1,0, "Martinstraße").
 person(2).
-initlocation($p,"Praterstern").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Baumgarten").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Praterstern").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Kleistgasse").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Resselgasse").
-restaurant("Carminweg").
-restaurant("Nordwestbahnstraße").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Kraygasse").
-restaurant("Heiligenstadt, 12-Februar-Pl").
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Gasometer").
+initlocation(2,"Rennweg").
+initlocation(2,"Margaretengürtel").
+sequence(2,0, "Schwarzspanierstraße").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Blindengasse").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Mayerhofgasse").
+restaurant("Kledering Bahnhof").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Diesterweggasse").

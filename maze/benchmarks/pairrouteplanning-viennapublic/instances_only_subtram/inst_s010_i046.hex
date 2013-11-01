@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Seestadt").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Wildgansplatz").
-initlocation($p,"Erdberg").
-initlocation($p,"Blumental").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Rennweg").
-initlocation($p,"Retz Bahnhof").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+initlocation(1,"Grinzing").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Erndtgasse").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Hernals").
+initlocation(1,"Zentralfriedhof 2Tor").
+initlocation(1,"Schloss Belvedere").
+sequence(1,0, "Quellenstraße/Favoritenstraße").
 person(2).
-initlocation($p,"Hopfengasse").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Skodagasse").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Hopfengasse").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Gruschaplatz").
-possiblemeetinglocations("Urban-Loritz-Platz").
-possiblemeetinglocations("Taborstraße/Heinestraße").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Rauscherstraße").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-restaurant("Winckelmannstraße").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Mayssengasse").
-restaurant("Sonnergasse").
-restaurant("Maurer Lange Gasse").
-restaurant("Hoßplatz").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Hütteldorfer Straße").
-restaurant("Bösendorferstraße").
-restaurant("Anton-Krieger-Gasse").
+initlocation(2,"Marxergasse").
+initlocation(2,"Sonnergasse").
+initlocation(2,"Klosterneub Str/Wallensteinstr").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Albertgasse").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Hernals").
+initlocation(2,"Kottingbrunn Bahnhof").
+sequence(2,0, "Marxergasse").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+possiblemeetinglocations("Großjedlersdorf").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Mistelbach Bahnhof").
+restaurant("Wildgansplatz").
+restaurant("Zieglergasse/Westbahnstraße").
+restaurant("Traisengasse").
+restaurant("Svetelskystraße").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Franzensbrücke").
+restaurant("Am Schöpfwerk").
+restaurant("Winkeläckerstraße").
+restaurant("Nordwestbahnstraße").
+restaurant("Ungargasse/Neulinggasse").

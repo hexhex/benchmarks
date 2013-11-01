@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Stephansplatz").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Stubentor").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Penzing").
-initlocation($p,"Stephansplatz").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+sequence(1,0, "Leobersdorf Bahnhof").
 person(2).
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Erzherzog-Karl-Straße").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Schwechat Bahnhof").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Gasometer").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Platt Bahnhof").
-restaurant("Untereggendorf Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Michelhausen Bahnhof").
+sequence(2,0, "Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Keplerplatz").
+restaurant("Pressbaum Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Spittelau").
+restaurant("Obersdorf Bahnhof").
+restaurant("Landstraße-Wien Mitte").

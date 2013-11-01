@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Praterkai").
+sequence(1,0, "Schwedenplatz").
 person(2).
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Schwedenplatz").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Nußdorf").
+initlocation(2,"Ottakring").
+initlocation(2,"Leobersdorf Bahnhof").
+sequence(2,0, "Atzgersdorf").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Brünner Straße").
+restaurant("Spillern Bahnhof").
+restaurant("Floridsdorf").
 restaurant("Hernals").
-restaurant("Atzgersdorf").
-restaurant("Handelskai").
-restaurant("Nußdorfer Straße").
-restaurant("Nestroyplatz").
-restaurant("Traismauer Bahnhof").
+restaurant("Oberradlberg Bahnhof").

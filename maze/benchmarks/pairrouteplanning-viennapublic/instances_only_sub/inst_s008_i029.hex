@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Süßenbrunn").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+sequence(1,0, "Hennersdorf Bahnhof").
 person(2).
-initlocation($p,"Hirschstetten").
-initlocation($p,"Hietzing").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Erdberg").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Hirschstetten").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-restaurant("Leopoldau").
-restaurant("Praterstern").
-restaurant("Münchendorf Bahnhof").
-restaurant("Simmering").
-restaurant("Seestadt").
-restaurant("Braunschweiggasse").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Maria Ellend Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Neue Donau").
+initlocation(2,"Alte Donau").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Alser Straße").
+sequence(2,0, "Krieau").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Spittelau").
+restaurant("Baden Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Messe-Prater").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Hietzing").
+restaurant("Langenzersdorf Bahnhof").

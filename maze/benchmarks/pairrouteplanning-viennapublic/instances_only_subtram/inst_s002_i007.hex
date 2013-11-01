@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Favoritenstraße/Troststraße").
+initlocation(1,"Krieau").
+initlocation(1,"Atzgersdorfer Straße").
+sequence(1,0, "Krieau").
 person(2).
-initlocation($p,"Unteres Belvedere").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Unteres Belvedere").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Stiftgasse").
-restaurant("Kaisermühlen-VIC").
-restaurant("An den langen Lüssen").
+initlocation(2,"Erdberg").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+sequence(2,0, "Erdberg").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Alaudagasse").
+restaurant("Mistelbach Bahnhof").
+restaurant("Stammersdorf").

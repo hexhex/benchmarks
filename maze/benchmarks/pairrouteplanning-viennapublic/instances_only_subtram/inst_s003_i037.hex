@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Bahnsteggasse").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Bahnsteggasse").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Skodagasse").
+sequence(1,0, "Joachimsthalerplatz").
 person(2).
-initlocation($p,"Weihburggasse").
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Weihburggasse").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Hintere Zollamtsstraße").
-possiblemeetinglocations("Perfektastraße").
-restaurant("Am Heidjöchl/Hausfeldstraße").
-restaurant("Schloss Belvedere").
-restaurant("Felixdorf Bahnhof").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Gasometer").
+initlocation(2,"Obere Augartenstraße").
+sequence(2,0, "Wampersdorf Bahnhof").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Resselgasse").
+restaurant("Neulerchenfelder Str/Haberlg").
+restaurant("Dürrwien Bahnhof").
+restaurant("Hopfengasse").

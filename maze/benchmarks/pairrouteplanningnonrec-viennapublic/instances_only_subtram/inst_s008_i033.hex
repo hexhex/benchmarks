@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Hauptbahnhof Ost").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+initlocation(1,"Haidestraße").
+initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(1,"Wallrißstraße").
+initlocation(1,"Atzgersdorfer Straße").
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Rennbahnweg").
+sequence(1,0, "Fickeysstraße").
 person(2).
-initlocation($p,"Nußdorf").
-initlocation($p,"Althanstraße").
-initlocation($p,"Rothneusiedl").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Floridsdorfer Brücke").
-initlocation($p,"Leopoldau").
-initlocation($p,"Schottentor").
-initlocation($p,"Nußdorf").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Keplerplatz").
+initlocation(2,"Baumgarten").
+initlocation(2,"Rosenhügelstraße").
+initlocation(2,"Hernalser Gürtel").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Stammersdorf").
+initlocation(2,"Sommarugagasse").
+initlocation(2,"Erlaaer Straße").
+sequence(2,0, "Baumgarten").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Schottenring").
 possiblemeetinglocations("Grinzinger Straße").
-possiblemeetinglocations("Arthaberplatz").
-restaurant("Marx-Meidlinger-Straße").
-restaurant("Hetzendorf").
-restaurant("Grinzinger Straße").
-restaurant("Brigittaplatz").
-restaurant("Arthaberplatz").
-restaurant("Zentralfriedhof 1Tor").
-restaurant("Herzogenburg Stadt").
-restaurant("Westbahnhof").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Skodagasse").
+restaurant("Riedelgasse").
+restaurant("Shuttleworthstraße").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Gunoldstraße").
+restaurant("Rampengasse").
+restaurant("Lederergasse").
+restaurant("Kaiserstraße").
+restaurant("Weinhauser Gasse").

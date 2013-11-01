@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Stadtpark").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Erzherzog-Karl-Straße").
+sequence(1,0, "Meidling Hauptstraße").
 person(2).
-initlocation($p,"Donaumarina").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Donaumarina").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Ottakring").
-restaurant("Hietzing").
-restaurant("Grillgasse").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+sequence(2,0, "Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Schottenring").
+restaurant("Siebenhirten").
+restaurant("Kottingbrunn Bahnhof").

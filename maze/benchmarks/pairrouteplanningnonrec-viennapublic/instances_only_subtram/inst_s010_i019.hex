@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Johnstraße").
-initlocation($p,"Dr-Karl-Renner-Ring").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Brünnlbadgasse").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Höbersdorf Bahnhof").
+initlocation(1,"Laurenzgasse").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Gerhardusgasse").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Alterlaa").
+initlocation(1,"Stubentor").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Stadiongasse/Parlament").
+initlocation(1,"Tesarekplatz").
+initlocation(1,"Döblinger Hauptstr/Gatterburgg").
+sequence(1,0, "Laurenzgasse").
 person(2).
-initlocation($p,"Braunhubergasse").
-initlocation($p,"Johnstraße").
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Grillgasse").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Scheibenbergstraße").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Braunhubergasse").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Hopfengasse").
-possiblemeetinglocations("Migerkastraße").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Pokornygasse").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Linzer Straße/Zehetnergasse").
-possiblemeetinglocations("Zieglergasse").
-restaurant("Linzer Straße/Johnstraße").
-restaurant("Simmering").
-restaurant("Trondheimgasse").
-restaurant("Floridsdorfer Markt").
-restaurant("Fickeysstraße").
-restaurant("Hermesstraße").
-restaurant("Neilreichgasse").
-restaurant("Gaußplatz").
-restaurant("Ottakringer Str/Erdbrustgasse").
-restaurant("Salztorbrücke").
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Neuwaldegg").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Empergergasse").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Zentralfriedhof 4Tor").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+sequence(2,0, "Van-Swieten-Kaserne").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Wienerfeldgasse").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Skodagasse").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Karmeliterplatz").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Rothneusiedl").
+restaurant("Johann-Strauß-Gasse").
+restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Museumsquartier").
+restaurant("Winkeläckerstraße").
+restaurant("Shuttleworthstraße").
+restaurant("Münchendorf Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Schuhmeierplatz").

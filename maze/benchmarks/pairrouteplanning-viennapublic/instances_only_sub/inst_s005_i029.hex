@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Schweglerstraße").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Herzogenburg Stadt").
+sequence(1,0, "Untertullnerbach Bahnhof").
 person(2).
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
-possiblemeetinglocations("Donauspital").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Schweglerstraße").
-restaurant("Pottendorf-Landegg Bahnhof").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Hernals").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Rennweg").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Achau Bahnhof").
+sequence(2,0, "Michelbeuern-AKH").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Handelskai").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Aspernstraße").
+restaurant("Donauspital").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Nestroyplatz").

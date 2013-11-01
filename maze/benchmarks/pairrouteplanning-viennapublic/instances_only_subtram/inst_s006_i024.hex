@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Neue Donau").
-initlocation($p,"Stollgasse").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Hopfengasse").
-initlocation($p,"Wittelsbachstraße").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Neue Donau").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Burgring").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Braunhubergasse").
+initlocation(1,"Donaumarina").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+sequence(1,0, "Mühlfeldgasse").
 person(2).
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Albertgasse").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Fultonstraße").
-initlocation($p,"Shuttleworthstraße").
-initlocation($p,"Gasometer").
-initlocation($p,"Landstraße-Wien Mitte").
-possiblemeetinglocations("Beingasse").
-possiblemeetinglocations("Gaußplatz").
-possiblemeetinglocations("Quellenstraße/Knöllgasse").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Wildgansplatz").
-possiblemeetinglocations("Kärntner Ring/Oper").
-restaurant("Praterstern").
-restaurant("Erndtgasse").
-restaurant("Gersthof").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Wolf in der Au").
-restaurant("Keplerplatz").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Hoßplatz").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Bahnhofstraße").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Siebertgasse").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Thaliastraße/Haberlgasse").
+restaurant("Gerasdorf Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Kagran").

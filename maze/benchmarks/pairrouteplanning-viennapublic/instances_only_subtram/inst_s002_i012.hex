@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Hernals").
-initlocation($p,"Sahulkastraße").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Geiselbergstraße").
+sequence(1,0, "Kaiserstraße").
 person(2).
-initlocation($p,"Zentralfriedhof 3Tor").
-initlocation($p,"Landesgerichtsstraße").
-initlocation($p,"Zentralfriedhof 3Tor").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Hildebrandgasse").
-restaurant("Autokaderstraße").
-restaurant("Carminweg").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Gemeinlebarn Bahnhof").
+sequence(2,0, "Parndorf Ort Bahnhof").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+restaurant("Schleiergasse").
+restaurant("Gußhausstraße").

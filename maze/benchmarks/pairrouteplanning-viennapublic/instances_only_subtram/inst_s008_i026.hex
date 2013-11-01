@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Halteraugasse").
-initlocation($p,"Kleistgasse").
-initlocation($p,"Bösendorferstraße").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Am Heidjöchl").
-initlocation($p,"Wallrißstraße").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Svetelskystraße").
-initlocation($p,"Halteraugasse").
+initlocation(1,"Altes Landgut").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Gußhausstraße").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Dommayergasse").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+sequence(1,0, "Altes Landgut").
 person(2).
-initlocation($p,"Donaumarina").
-initlocation($p,"Geiereckstraße").
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Donaumarina").
-possiblemeetinglocations("Sollenau Bahnhof").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+initlocation(2,"Viehmarktgasse").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Florianigasse").
+sequence(2,0, "Landesgerichtsstraße").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Geiereckstraße").
+possiblemeetinglocations("Van-Swieten-Kaserne").
 possiblemeetinglocations("Eckpergasse").
-possiblemeetinglocations("Obere Augartenstraße").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Diesterweggasse").
-restaurant("Breitensee").
-restaurant("Kagran").
-restaurant("Leyserstraße").
-restaurant("Herzogenburg Stadt").
-restaurant("Rothneusiedl").
-restaurant("Nordwestbahnstraße").
-restaurant("Dornbach, Güpferlingstraße").
-restaurant("Simmering").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
+restaurant("Johnstraße").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Marxergasse").
+restaurant("Friedensbrücke").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Litfaßstraße").
+restaurant("Sierndorf Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").

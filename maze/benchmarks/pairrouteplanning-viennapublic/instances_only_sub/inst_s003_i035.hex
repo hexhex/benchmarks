@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
+initlocation(1,"Blumental").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Ober Sankt Veit").
+sequence(1,0, "Blumental").
 person(2).
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Niederhofstraße").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-restaurant("Dresdner Straße").
-restaurant("Reumannplatz").
-restaurant("Leobersdorf Bahnhof").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Siemensstraße").
+sequence(2,0, "Siebenhirten").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Traisengasse").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Schönborn Bahnhof").

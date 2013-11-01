@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Rennweg").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Währinger Straße-Volksoper").
+initlocation(1,"Praterkai").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Leopoldau").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+sequence(1,0, "Praterkai").
 person(2).
-initlocation($p,"Neue Donau").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Neue Donau").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Korneuburg Bahnhof").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Schottentor").
-restaurant("Ober Sankt Veit").
-restaurant("Keplerplatz").
-restaurant("Baden Bahnhof").
-restaurant("Nußdorfer Straße").
-restaurant("Schönborn Bahnhof").
-restaurant("Grillgasse").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Unter Kritzendorf Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Erdberg").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+sequence(2,0, "Strebersdorf").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Nestroyplatz").
+restaurant("Aderklaaer Straße").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Gasometer").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Spittelau").
+restaurant("Breitenwaida Bahnhof").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Praterkai").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Enkplatz").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Praterkai").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Gasometer").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Gersthof").
+initlocation(1,"Breitensee").
+sequence(1,0, "Gumpoldskirchen Bahnhof").
 person(2).
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Hetzendorf").
-restaurant("Krottenbachstraße").
-restaurant("Messe-Prater").
-restaurant("Trasdorf Bahnhof").
-restaurant("Schönbrunn").
-restaurant("Mistelbach Stadt").
-restaurant("Mistelbach Bahnhof").
-restaurant("Oberolberndorf Bahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Penzing").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+restaurant("Heiligenstadt").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Donaumarina").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Wolf in der Au").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Reumannplatz").

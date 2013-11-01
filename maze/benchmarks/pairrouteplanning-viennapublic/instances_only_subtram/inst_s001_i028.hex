@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"Urban-Loritz-Platz").
+initlocation(1,"Oberradlberg Bahnhof").
+sequence(1,0, "Oberradlberg Bahnhof").
 person(2).
-initlocation($p,"Praterkai").
-initlocation($p,"Praterkai").
-possiblemeetinglocations("Zentralfriedhof 2Tor").
-restaurant("Leopoldau").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+sequence(2,0, "Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Hauptbahnhof Ost").
+restaurant("Neubau-Kreuzstetten Bahnhof").

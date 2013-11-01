@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Donaumarina").
-initlocation($p,"Burggasse-Stadthalle").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Hütteldorf, Bujattigasse").
+sequence(1,0, "Nußdorfer Straße").
 person(2).
-initlocation($p,"Aspern Nord").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Aspern Nord").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Donaumarina").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Zentralfriedhof 2Tor").
+sequence(2,0, "Verbindungsbahn").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+restaurant("Schloss Belvedere").
+restaurant("Weidlingau Bahnhof").

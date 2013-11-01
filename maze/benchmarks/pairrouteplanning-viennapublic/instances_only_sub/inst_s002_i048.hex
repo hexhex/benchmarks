@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Alser Straße").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Alser Straße").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Strebersdorf").
+sequence(1,0, "Perfektastraße").
 person(2).
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Rennbahnweg").
-restaurant("Schottentor").
-restaurant("Kagran").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Museumsquartier").
+sequence(2,0, "Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Krieau").

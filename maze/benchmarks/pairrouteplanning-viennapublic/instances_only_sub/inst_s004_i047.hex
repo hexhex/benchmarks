@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Johnstraße").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Alte Donau").
+sequence(1,0, "Aderklaaer Straße").
 person(2).
-initlocation($p,"Nußdorf").
-initlocation($p,"Rathaus").
-initlocation($p,"Simmering").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Nußdorf").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Atzgersdorf").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Hausleiten Bahnhof").
-restaurant("Pressbaum Bahnhof").
-restaurant("Rochusgasse").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Traisengasse").
+sequence(2,0, "Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Mistelbach Stadt").
+restaurant("Zippererstraße").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Pfaffstätten Bahnhof").

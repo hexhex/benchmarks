@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Simmering").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Simmering").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Hernals").
+initlocation(1,"Penzing").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+sequence(1,0, "Seyring Bahnhof").
 person(2).
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Herzogenburg Stadt").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Unteroberndorf Bahnhof").
+sequence(2,0, "Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Hausfeldstraße").
+restaurant("Pottendorf-Landegg Bahnhof").

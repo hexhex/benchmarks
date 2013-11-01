@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Leopoldau").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Leopoldau").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Liesing").
+initlocation(1,"Matzleinsdorfer Platz").
+sequence(1,0, "Quartier Belvedere").
 person(2).
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Vorgartenstraße").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-restaurant("Stadlau").
-restaurant("Donauspital").
-restaurant("Friedensbrücke").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Sankt Marx").
+sequence(2,0, "Untertullnerbach Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+restaurant("Nußdorf").
+restaurant("Preyergasse/Speising").
+restaurant("Hainburg/Donau Kulturfabrik Bf").

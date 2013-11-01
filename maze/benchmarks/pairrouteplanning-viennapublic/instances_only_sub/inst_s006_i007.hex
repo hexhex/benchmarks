@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Johnstraße").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Alterlaa").
-initlocation($p,"Praterkai").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Johnstraße").
+initlocation(1,"Kagran").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Breitenwaida Bahnhof").
+sequence(1,0, "Kagran").
 person(2).
-initlocation($p,"Hernals").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Grillgasse").
-initlocation($p,"Praterstern").
-initlocation($p,"Hernals").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-restaurant("Helmahof Bahnhof").
-restaurant("Nestroyplatz").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Breitensee").
-restaurant("Hausleiten Bahnhof").
-restaurant("Stockerau Bahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+sequence(2,0, "Donauinsel").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+restaurant("Fischamend Bahnhof").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Gumpendorfer Straße").
+restaurant("Großfeldsiedlung").

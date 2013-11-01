@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Hofwiesengasse").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Hofwiesengasse").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Arminenstraße").
+sequence(1,0, "Hernalser Hauptstr/Wattgasse").
 person(2).
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Blumental").
-initlocation($p,"Purkersdorf Sanatorium").
-possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
-possiblemeetinglocations("Otto-Probst-Straße").
-restaurant("Nestroyplatz").
-restaurant("Elterleinplatz").
+initlocation(2,"Frauengasse").
+initlocation(2,"Himberg Bahnhof").
+sequence(2,0, "Frauengasse").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+restaurant("Am Heidjöchl/Hausfeldstraße").
+restaurant("Purkersdorf Zentrum Bahnhof").

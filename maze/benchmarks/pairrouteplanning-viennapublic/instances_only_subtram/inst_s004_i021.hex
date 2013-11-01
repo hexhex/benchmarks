@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Stiftgasse").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Stiftgasse").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Geiselbergstraße").
+sequence(1,0, "Quellenstraße/Favoritenstraße").
 person(2).
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Marienbrücke").
-initlocation($p,"Kottingbrunn Bahnhof").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Albertgasse").
-restaurant("Wienerbergbrücke").
-restaurant("Weihburggasse").
-restaurant("Fickeysstraße").
-restaurant("Ober Sankt Veit").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Otto-Probst-Straße").
+initlocation(2,"Penzing").
+initlocation(2,"Matzleinsdorfer Platz").
+sequence(2,0, "Linzer Straße/Johnstraße").
+possiblemeetinglocations("Wallensteinplatz").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Nordbrücke").
+restaurant("Diesterweggasse").
+restaurant("Maurer Hauptplatz").
+restaurant("Schottenring").
+restaurant("Sieveringer Straße").

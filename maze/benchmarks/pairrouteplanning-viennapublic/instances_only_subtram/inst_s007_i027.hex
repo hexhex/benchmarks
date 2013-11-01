@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Guntherstraße").
+initlocation(1,"Schöffelgasse").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "Pokornygasse").
 person(2).
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Knöllgasse/Troststraße").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Unteres Belvedere").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Guntramsdorf-Thallern").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Marx-Meidlinger-Straße").
-possiblemeetinglocations("Favoritenstraße/Troststraße").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
-restaurant("Stadtpark").
-restaurant("Pantucekgasse/Widholzgasse").
-restaurant("Staatz Bahnhof").
-restaurant("Anschützgasse").
+initlocation(2,"Martinstraße").
+initlocation(2,"Absberggasse").
+initlocation(2,"Franzensbrücke").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Donauinsel").
+initlocation(2,"Ottakring").
+initlocation(2,"Sillerplatz").
+sequence(2,0, "Martinstraße").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+restaurant("Am Schöpfwerk").
+restaurant("Siebensterngasse").
+restaurant("Rochusgasse").
 restaurant("Prandaugasse").
-restaurant("Am Heidjöchl/Hausfeldstraße").
-restaurant("Obere Donaustraße").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Penzinger Straße").
+restaurant("Schönbrunn").

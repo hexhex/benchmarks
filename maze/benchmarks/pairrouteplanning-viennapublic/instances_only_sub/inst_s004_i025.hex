@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Retz Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Erdberg").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Tullnerfeld Bahnhof").
+sequence(1,0, "Tulln Stadt Bahnhof").
 person(2).
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Schönborn Bahnhof").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-restaurant("Gersthof").
-restaurant("Schlachthausgasse").
-restaurant("Gemeinlebarn Bahnhof").
-restaurant("Pfaffstätten Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Seestadt").
+sequence(2,0, "Kettenbrückengasse").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Aspernstraße").
+restaurant("Krottenbachstraße").
+restaurant("Lobau").
+restaurant("Burggasse-Stadthalle").
+restaurant("Kritzendorf Bahnhof").

@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Valiergasse").
-initlocation($p,"Matzleinsdorfer Platz").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Schloss Belvedere").
+sequence(1,0, "Brigittaplatz").
 person(2).
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Redtenbachergasse").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Winkeläckerstraße").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Koloniestraße").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Fasangasse").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Höflein an der Donau Bahnhof").
+sequence(2,0, "Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
 restaurant("Wallrißstraße").
-restaurant("Teichgasse").
-restaurant("Ladendorf Bahnhof").
-restaurant("Oberradlberg Bahnhof").
+restaurant("Stephansplatz").
+restaurant("Innstraße").
+restaurant("Pottendorf-Landegg Bahnhof").

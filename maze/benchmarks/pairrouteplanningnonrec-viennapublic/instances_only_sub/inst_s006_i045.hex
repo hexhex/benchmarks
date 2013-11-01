@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Donauinsel").
+initlocation(1,"Hernals").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+sequence(1,0, "Brünner Straße").
 person(2).
-initlocation($p,"Messe-Prater").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Messe-Prater").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Zentralfriedhof").
+sequence(2,0, "Erzherzog-Karl-Straße").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
 possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Haidestraße").
-restaurant("St Pölten Traisenpark P+R Nord").
-restaurant("Schwechat Bahnhof").
-restaurant("Rathaus").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Kettenbrückengasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+restaurant("Lobau").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Strasshof Bahnhof").

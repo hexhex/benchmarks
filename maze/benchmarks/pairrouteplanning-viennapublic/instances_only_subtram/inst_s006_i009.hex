@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Schwarzspanierstraße").
-initlocation($p,"Rathaus").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Bahnhofstraße").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Zentralfriedhof 2Tor").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Atzgersdorfer Straße").
+initlocation(1,"Jagdschloßgasse").
+sequence(1,0, "Pottendorf-Landegg Bahnhof").
 person(2).
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Haidestraße").
-initlocation($p,"Albertgasse").
-initlocation($p,"Theresienfeld Bahnhof").
-possiblemeetinglocations("Aspern, Oberdorfstraße").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Sieveringer Straße").
-restaurant("Stadlergasse").
-restaurant("Aspern Nord").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Nordbahnstraße").
-restaurant("Gußhausstraße").
-restaurant("Breitenfurter St/Altmannsd Str").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Silbergasse").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Martinstraße").
+initlocation(2,"Fickeysstraße").
+initlocation(2,"Hauptbahnhof Ost").
+sequence(2,0, "Heiligenstadt").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Taborstraße/Heinestraße").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+restaurant("Schottenring").
+restaurant("Urban-Loritz-Platz").
+restaurant("Obere Augartenstraße").
+restaurant("Floridsdorfer Brücke").
+restaurant("Keplerplatz").
+restaurant("Waidhausenstraße").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Schottentor").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Schottentor").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Rathaus").
+initlocation(1,"Stubentor").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+sequence(1,0, "Baden Bahnhof").
 person(2).
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Liesing").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Traisengasse").
-initlocation($p,"Michelhausen Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Oberdöbling").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Tulln Bahnhof").
-restaurant("Paasdorf Bahnhof").
-restaurant("Süßenbrunn").
-restaurant("Trasdorf Bahnhof").
-restaurant("Strasshof Bahnhof").
-restaurant("Geiselbergstraße").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Mistelbach Stadt").
+sequence(2,0, "Schwechat Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Dürrwien Bahnhof").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Schleinbach Bahnhof").
+restaurant("Blumental").
+restaurant("Tscherttegasse").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Sollenau Bahnhof").

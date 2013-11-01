@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Traisengasse").
-initlocation($p,"Retz Bahnhof").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Taubstummengasse").
+sequence(1,0, "Seyring Bahnhof").
 person(2).
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Hütteldorfer Straße").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Niederhofstraße").
-restaurant("Stubentor").
-restaurant("Enkplatz").
-restaurant("Gaisruck Bahnhof").
-restaurant("Thaliastraße").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Praterstern").
+sequence(2,0, "Meidling Hauptstraße").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Traismauer Bahnhof").
+restaurant("Michelbeuern-AKH").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Schweglerstraße").

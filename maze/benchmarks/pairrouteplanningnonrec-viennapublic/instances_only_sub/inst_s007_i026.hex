@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Aderklaaer Straße").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Grillgasse").
+initlocation(1,"Donaumarina").
+initlocation(1,"Laa an der Thaya Bahnhof").
+sequence(1,0, "Bisamberg Bahnhof").
 person(2).
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Donauinsel").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Leobersdorf Bahnhof").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-restaurant("Sollenau Bahnhof").
-restaurant("Mistelbach Stadt").
-restaurant("Seyring Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Aderklaaer Straße").
-restaurant("Keplerplatz").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Donauinsel").
+initlocation(2,"Guntersdorf Bahnhof").
+sequence(2,0, "Krottenbachstraße").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+restaurant("Sierndorf Bahnhof").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Jedlersdorf").
+restaurant("Stadtpark").

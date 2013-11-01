@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Doeltergasse").
-initlocation(1,"Wachthausgasse").
-sequence(1,0, "Doeltergasse").
+initlocation(1,"Finsterbuschstraße Nord").
+initlocation(1,"Innstraße").
+sequence(1,0, "Finsterbuschstraße Nord").
 person(2).
-initlocation(2,"Hohe Warte").
-initlocation(2,"Laaer-Berg-Straße").
-sequence(2,0, "Hohe Warte").
-possiblemeetinglocations("Inzersdorf Friedhof").
-possiblemeetinglocations("Rosensteingasse").
-restaurant("Lamezanstraße").
-restaurant("Gersthof").
+initlocation(2,"Pensionisten-Wohnhaus Prater").
+initlocation(2,"Keylwerthgasse").
+sequence(2,0, "Pensionisten-Wohnhaus Prater").
+possiblemeetinglocations("Aichholzgasse").
+possiblemeetinglocations("Hirschengasse").
+restaurant("Purkytgasse").
+restaurant("Raimannstraße").

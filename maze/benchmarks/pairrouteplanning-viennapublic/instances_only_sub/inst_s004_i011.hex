@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Blumental").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+sequence(1,0, "Nestroyplatz").
 person(2).
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Alterlaa").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Paasdorf Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Schweglerstraße").
-restaurant("Schwedenplatz").
-restaurant("Niederkreuzstetten Bahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Silberwald Bahnhof").
+sequence(2,0, "Leopoldau").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+restaurant("Leopoldau").
+restaurant("Jedlersdorf").
+restaurant("Zieglergasse").
+restaurant("Gumpendorfer Straße").

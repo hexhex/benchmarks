@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Anton-Krieger-Gasse").
-initlocation($p,"Anton-Krieger-Gasse").
+initlocation(1,"Tulln Stadt Bahnhof").
+sequence(1,0, "Tulln Stadt Bahnhof").
 person(2).
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Franzensbrücke").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-restaurant("Laurenzgasse").
+initlocation(2,"Landesgerichtsstraße").
+sequence(2,0, "Landesgerichtsstraße").
+possiblemeetinglocations("Kraygasse").
+restaurant("Josef-Baumann-Gasse").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Praterkai").
-initlocation($p,"Wallrißstraße").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Strozzigasse").
+initlocation(1,"Beingasse").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Nordbrücke").
+initlocation(1,"Winckelmannstraße").
+sequence(1,0, "Neulengbach Bahnhof").
 person(2).
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Krieau").
-initlocation($p,"Vinzenzgasse").
-initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-possiblemeetinglocations("Beingasse").
-possiblemeetinglocations("Fichtnergasse").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Valiergasse").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Heiligenstadt").
-restaurant("Siebertgasse").
-restaurant("Lobau").
-restaurant("Götzendorf Bahnhof").
-restaurant("Gaisruck Bahnhof").
-restaurant("Neilreichgasse").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Gloriettegasse").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Donauzentrum").
+initlocation(2,"Radetzkyplatz").
+sequence(2,0, "Erlaaer Straße").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Autokaderstraße").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Johnstraße").
+restaurant("Alaudagasse").
+restaurant("Wienerfeldgasse").
+restaurant("Messe-Prater").
+restaurant("Siemensstraße").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Schöffelgasse").

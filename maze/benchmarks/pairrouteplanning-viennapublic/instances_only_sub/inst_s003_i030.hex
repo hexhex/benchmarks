@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Alser Straße").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Alser Straße").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Floridsdorf").
+sequence(1,0, "Himberg Bahnhof").
 person(2).
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Kritzendorf Bahnhof").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Stephansplatz").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Felixdorf Bahnhof").
-restaurant("Matzleinsdorfer Platz").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Tscherttegasse").
+sequence(2,0, "Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Hofstatt Bahnhof").
+restaurant("Schönborn Bahnhof").

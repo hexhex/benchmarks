@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Zippererstraße").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Rodaun").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Zippererstraße").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Rekawinkel Bahnhof").
+sequence(1,0, "Diesterweggasse").
 person(2).
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Wildgansplatz").
-initlocation($p,"Redtenbachergasse").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Wolf in der Au").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Taborstraße").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Heiligenstadt, 12-Februar-Pl").
+initlocation(2,"Schwechat Bahnhof").
+sequence(2,0, "Himberg Bahnhof").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+possiblemeetinglocations("Rothneusiedl").
 possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Geiereckstraße").
-possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
-restaurant("Schottenfeldgasse").
-restaurant("Dommayergasse").
-restaurant("Michelhausen Bahnhof").
-restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Perntergasse").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Simonygasse").
-restaurant("Tscherttegasse").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Erndtgasse").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Sahulkastraße").
+restaurant("Martinstraße").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Großfeldsiedlung").
+restaurant("Florianigasse").
+restaurant("Aspernstraße").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Süßenbrunn").
+restaurant("Türkenschanzplatz").

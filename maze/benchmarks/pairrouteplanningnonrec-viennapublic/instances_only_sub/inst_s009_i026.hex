@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Gemeinlebarn Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Stadlau").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Donauinsel").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+sequence(1,0, "Hausfeldstraße").
 person(2).
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Enkplatz").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Friedensbrücke").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Paasdorf Bahnhof").
-restaurant("Seestadt").
-restaurant("Spittelau").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Guntramsdorf-Thallern").
-restaurant("Rennweg").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Thaliastraße").
-restaurant("Lobau").
-restaurant("Atzgersdorf").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Frättingsdorf Bahnhof").
+sequence(2,0, "Messe-Prater").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Thaliastraße").
+restaurant("Jedlersdorf").
+restaurant("Korneuburg Bahnhof").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Zentralfriedhof").
+restaurant("Nußdorfer Straße").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Michelbeuern-AKH").
+restaurant("Rathaus").
+restaurant("Oberradlberg Bahnhof").

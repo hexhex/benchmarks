@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Parndorf Ort Bahnhof").
+sequence(1,0, "Zieglergasse").
 person(2).
-initlocation($p,"Gasometer").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Alser Straße").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Gasometer").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Atzgersdorf").
-restaurant("Handelskai").
-restaurant("Staatz Bahnhof").
-restaurant("Reumannplatz").
-restaurant("Karlsplatz").
-restaurant("Münchendorf Bahnhof").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Oberradlberg Bahnhof").
+initlocation(2,"Haidestraße").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+sequence(2,0, "Haidestraße").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Haidestraße").
+restaurant("Achau Bahnhof").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Herrengasse").
+restaurant("Spillern Bahnhof").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Floridsdorf").
+restaurant("Strasshof Bahnhof").

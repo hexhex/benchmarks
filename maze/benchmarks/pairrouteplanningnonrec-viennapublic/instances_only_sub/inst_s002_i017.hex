@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Maria Ellend Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Karlsplatz").
+sequence(1,0, "Hautzendorf Bahnhof").
 person(2).
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Schwedenplatz").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Margaretengürtel").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Nußdorf").
+sequence(2,0, "Schleinbach Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Schlachthausgasse").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Schwedenplatz").

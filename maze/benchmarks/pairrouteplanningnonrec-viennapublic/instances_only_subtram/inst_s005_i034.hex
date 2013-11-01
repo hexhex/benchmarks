@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Karlsplatz").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Augasse").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Tesarekplatz").
-initlocation($p,"Karlsplatz").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Himmelmutterweg").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Althanstraße").
+sequence(1,0, "Fichtnergasse").
 person(2).
-initlocation($p,"Bernhardtstalgasse").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Praterkai").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Bernhardtstalgasse").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Polkorabplatz").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-restaurant("Pfaffstätten Bahnhof").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Laurenzgasse").
-restaurant("Heiligenstadt, 12-Februar-Pl").
-restaurant("Zieglergasse").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Absberggasse").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Auerspergstraße").
+sequence(2,0, "Radetzkyplatz").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Schottenfeldgasse").
+restaurant("Aderklaaer Straße").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Otto-Probst-Straße").
+restaurant("Praterkai").
+restaurant("Jagdschloßgasse").

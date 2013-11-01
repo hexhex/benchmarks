@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Guntersdorf Bahnhof").
-initlocation(1,"Glanzing").
-sequence(1,0, "Guntersdorf Bahnhof").
+initlocation(1,"Starhemberg-Kaserne").
+initlocation(1,"Michaelerplatz").
+sequence(1,0, "Starhemberg-Kaserne").
 person(2).
-initlocation(2,"Salmannsdorf").
-initlocation(2,"Haidestraße").
-sequence(2,0, "Salmannsdorf").
-possiblemeetinglocations("Arnikaweg/Breitenleer Straße").
-possiblemeetinglocations("Wolfganggasse").
-restaurant("Heiligenstadt").
-restaurant("Hartlebengasse").
+initlocation(2,"Apostelgasse").
+initlocation(2,"Zieglergasse/Neustiftgasse").
+sequence(2,0, "Apostelgasse").
+possiblemeetinglocations("Etrichstraße").
+possiblemeetinglocations("Siebenbürgerstraße").
+restaurant("Neubreitenlee").
+restaurant("Apostelgasse").

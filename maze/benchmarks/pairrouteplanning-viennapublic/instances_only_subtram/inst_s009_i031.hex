@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Penzinger Straße").
-initlocation($p,"Litfaßstraße").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Hollabrunn Bahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Hohe Warte").
+initlocation(1,"Alterlaa").
+initlocation(1,"Diesterweggasse").
+sequence(1,0, "Langenlebarn Bahnhof").
 person(2).
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Liechtenwerder Platz").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Neulerchenfelder Str/Haberlg").
-initlocation($p,"Marienbrücke").
-initlocation($p,"Albertgasse").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Breitensee").
-initlocation($p,"Bernhardtstalgasse").
-initlocation($p,"Hennersdorf Bahnhof").
-possiblemeetinglocations("Baumgasse").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Versorgungsheimplatz").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Paulanergasse").
-possiblemeetinglocations("Verbindungsbahn").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-restaurant("Aspern, Oberdorfstraße").
-restaurant("Schwedenplatz").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Alsegger Straße").
-restaurant("Stockerau Bahnhof").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Jedlersdorf").
-restaurant("Schloss Schönbrunn").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Nußdorfer Str/Alserbachstraße").
+initlocation(2,"Enkplatz").
+initlocation(2,"Josef-Baumann-Gasse").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Sommarugagasse").
+sequence(2,0, "Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Josef-Baumann-Gasse").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Landesgerichtsstraße").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+restaurant("Perntergasse").
+restaurant("Saikogasse").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Sommarugagasse").
+restaurant("Linzer Straße/Hochsatzengasse").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Hütteldorfer Straße").

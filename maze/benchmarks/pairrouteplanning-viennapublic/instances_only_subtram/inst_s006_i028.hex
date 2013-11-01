@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Van-Swieten-Kaserne").
-initlocation($p,"Skodagasse").
-initlocation($p,"Wildungsmauer Bahnhof").
+initlocation(1,"Handelskai").
+initlocation(1,"Alser Straße").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Seyring Bahnhof").
+sequence(1,0, "Handelskai").
 person(2).
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Krieau").
-initlocation($p,"Florianigasse").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Martinstraße").
-initlocation($p,"Spillern Bahnhof").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Maurer Hauptplatz").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Stockholmer Platz").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Am Heumarkt").
-restaurant("Wittelsbachstraße").
-restaurant("Neubaugasse").
-restaurant("Baumgarten").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Nordbrücke").
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Schleiergasse").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+sequence(2,0, "Taubstummengasse").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+restaurant("Leberberg").
+restaurant("Antonigasse").
+restaurant("Gatterburggasse").
+restaurant("Linzer Straße/Reinlgasse").
+restaurant("Jedlersdorf").
+restaurant("Regelsbrunn Bahnhof").

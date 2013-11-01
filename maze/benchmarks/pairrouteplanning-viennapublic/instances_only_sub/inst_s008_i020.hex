@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Seestadt").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Obersdorf Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Breitensee").
+initlocation(1,"Kendlerstraße").
+sequence(1,0, "Perchtoldsdorf Bahnhof").
 person(2).
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Mistelbach Bahnhof").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Süßenbrunn").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Braunschweiggasse").
-restaurant("Pottendorf-Landegg Bahnhof").
-restaurant("Korneuburg Bahnhof").
-restaurant("Gemeinlebarn Bahnhof").
+initlocation(2,"Alte Donau").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+sequence(2,0, "Alte Donau").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Schweglerstraße").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Silberwald Bahnhof").
 restaurant("Aspern Nord").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Atzgersdorf").

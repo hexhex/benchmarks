@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Knöllgasse/Davidgasse").
-initlocation($p,"Am Spitz").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Sierndorf Bahnhof").
+initlocation(1,"Antonigasse").
+initlocation(1,"Brünnlbadgasse").
+initlocation(1,"Kraygasse").
+initlocation(1,"Molitorgasse").
+initlocation(1,"Achau Bahnhof").
+sequence(1,0, "Antonigasse").
 person(2).
-initlocation($p,"Van-Swieten-Kaserne").
-initlocation($p,"Weinheimergasse").
-initlocation($p,"Marienbrücke").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Salztorbrücke").
-initlocation($p,"Van-Swieten-Kaserne").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Hermesstraße").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Verbindungsbahn").
-restaurant("Johann-Nepomuk-Berger-Platz").
-restaurant("Krankenhaus Hietzing").
-restaurant("Hohe Warte").
-restaurant("Kutschkergasse").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Baumgarten").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Stiftgasse").
+initlocation(2,"Paasdorf Bahnhof").
+sequence(2,0, "Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Hernalser Gürtel").
+restaurant("Brünner Straße").
+restaurant("Neue Donau").
+restaurant("Radetzkyplatz").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Reinlgasse/Märzstraße").

@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Seligmanngasse").
-initlocation(1,"Breiteneckergasse").
-initlocation(1,"Kaiser-Franz-Josef-Straße").
-initlocation(1,"Winkeläckerstraße").
-initlocation(1,"Zimbagasse").
-sequence(1,0, "Seligmanngasse").
+initlocation(1,"Griegstraße").
+initlocation(1,"Wagramer Straße/Ostbahn").
+initlocation(1,"Eslarngasse").
+initlocation(1,"Laxenburger Str/Sahulkastraße").
+initlocation(1,"Wulzendorfstraße").
+sequence(1,0, "Griegstraße").
 person(2).
-initlocation(2,"Thaliastraße/Haberlgasse").
-initlocation(2,"Simonsgasse").
-initlocation(2,"Wendstattgasse").
-initlocation(2,"Satzingerweg").
-initlocation(2,"Peter-Jordan-Straße").
-sequence(2,0, "Thaliastraße/Haberlgasse").
-possiblemeetinglocations("Ernst-Melchior-Gasse").
-possiblemeetinglocations("Gladiolenweg").
-possiblemeetinglocations("Bergmillergasse").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-possiblemeetinglocations("Himberger Straße").
-restaurant("Peter-Jordan-Straße").
-restaurant("Kaiserstraße/Westbahnstraße").
-restaurant("Pichlgasse").
-restaurant("Obere Waldandacht").
-restaurant("Freiheitsplatz").
+initlocation(2,"Gräßlplatz").
+initlocation(2,"Schwechat Wiener Straße").
+initlocation(2,"An der Niederhaid").
+initlocation(2,"Agrarweg").
+initlocation(2,"Hubert-Gsur-Gasse").
+sequence(2,0, "Gräßlplatz").
+possiblemeetinglocations("Flötzersteig/Wilhelminenspital").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Fabergasse").
+possiblemeetinglocations("Siemensstr/H-von-Buol-Gasse").
+restaurant("Simmering/Kaiserebersd Str").
+restaurant("Graffgasse").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Migerkastraße").
+restaurant("Margeritenweg").

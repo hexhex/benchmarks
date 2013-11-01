@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Neue Donau").
-initlocation($p,"Kagran").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Handelskai").
-initlocation($p,"Höbersdorf Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+sequence(1,0, "Stadlau").
 person(2).
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Simmering").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Rochusgasse").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Traisengasse").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Donaumarina").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Ottakring").
+initlocation(2,"Platt Bahnhof").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+sequence(2,0, "Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Siemensstraße").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Krieau").
+restaurant("Schwedenplatz").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Praterstern").
+restaurant("Hietzing").
+restaurant("Wolf in der Au").

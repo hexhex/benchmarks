@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Alte Donau").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Baden Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Praterkai").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"St Pölten Hauptbahnhof").
+sequence(1,0, "Burggasse-Stadthalle").
 person(2).
-initlocation($p,"Hetzendorf").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Penzing").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Hetzendorf").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Aderklaaer Straße").
-restaurant("Karlsplatz").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Hütteldorfer Straße").
-restaurant("Bad Vöslau Bahnhof").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Haslau an der Donau Bahnhof").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Bruck/Leitha Bahnhof").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Untereggendorf Bahnhof").
+sequence(2,0, "Krottenbachstraße").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Atzgersdorf").
+restaurant("Kledering Bahnhof").
+restaurant("Stadtpark").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Gerasdorf Bahnhof").

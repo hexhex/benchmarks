@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Götzendorf Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Hütteldorf").
+sequence(1,0, "Traisengasse").
 person(2).
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Platt Bahnhof").
-restaurant("Maria Ellend Bahnhof").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+sequence(2,0, "Gerasdorf Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+restaurant("Donaustadtbrücke").
+restaurant("Schottentor").
+restaurant("Niederkreuzstetten Bahnhof").

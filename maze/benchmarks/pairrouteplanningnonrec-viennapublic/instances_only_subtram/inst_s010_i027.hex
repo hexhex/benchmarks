@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Empergergasse").
-initlocation($p,"Koloniestraße").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Kagran").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Empergergasse").
+initlocation(1,"Baumgarten").
+initlocation(1,"Zentralfriedhof 1Tor").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Liechtenwerder Platz").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Stefan-Fadinger-Platz").
+sequence(1,0, "Baumgarten").
 person(2).
-initlocation($p,"Brünnlbadgasse").
-initlocation($p,"Hernals").
-initlocation($p,"Marxergasse").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Perntergasse").
-initlocation($p,"Brünnlbadgasse").
-possiblemeetinglocations("Weißenböckstraße").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
-possiblemeetinglocations("Leberberg").
-possiblemeetinglocations("Großjedlersdorf").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-restaurant("Vorgartenstraße").
-restaurant("Johnstraße").
-restaurant("Ottakringer Straße/Wattgasse").
-restaurant("Gredlerstraße").
-restaurant("Wienerfeldgasse").
-restaurant("Laxenburger Straße/Troststraße").
-restaurant("Himberg Bahnhof").
-restaurant("Gellertplatz").
-restaurant("Am Heumarkt").
-restaurant("Margaretengürtel/Arbeitergasse").
+initlocation(2,"Unter St Veit, Hummelgasse").
+initlocation(2,"Innstraße").
+initlocation(2,"Favoritenstraße/Troststraße").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Shuttleworthstraße").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+initlocation(2,"Kagran").
+sequence(2,0, "Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Rodaun").
+restaurant("Gaisruck Bahnhof").
+restaurant("Stiftgasse").
+restaurant("Schwarzspanierstraße").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Ober Sankt Veit").
+restaurant("Gumpendorfer Straße").
+restaurant("Laudongasse").
+restaurant("Rosensteingasse").
+restaurant("Breitenwaida Bahnhof").

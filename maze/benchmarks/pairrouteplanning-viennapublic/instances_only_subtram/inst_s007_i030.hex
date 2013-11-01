@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Lazarettgasse").
-initlocation($p,"Rebhanngasse").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Siebertgasse").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Lazarettgasse").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Eckpergasse").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
+sequence(1,0, "Unter Kritzendorf Bahnhof").
 person(2).
-initlocation($p,"Redtenbachergasse").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Laurentiusplatz").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Wilhelminenstr/Sandleitengasse").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Redtenbachergasse").
-possiblemeetinglocations("Kleistgasse").
-possiblemeetinglocations("Leyserstraße").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Schlickgasse").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Maurer Lange Gasse").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-restaurant("Josefstädter Straße").
-restaurant("Unter Sankt Veit").
-restaurant("Volkstheater").
-restaurant("Fasangasse").
-restaurant("Haslau an der Donau Bahnhof").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Traisengasse").
+initlocation(2,"Huglgasse").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Rathaus").
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Theresienfeld Bahnhof").
+sequence(2,0, "Huglgasse").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Baumgasse").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Enkplatz").
+restaurant("Laurentiusplatz").
+restaurant("Oberlaa, Therme Wien").
+restaurant("Dresdner Straße").

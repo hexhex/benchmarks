@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Atzgersdorfer Straße").
-initlocation($p,"Atzgersdorfer Straße").
+initlocation(1,"Pötzleinsdorf").
+sequence(1,0, "Pötzleinsdorf").
 person(2).
-initlocation($p,"Am Heidjöchl/Hausfeldstraße").
-initlocation($p,"Am Heidjöchl/Hausfeldstraße").
-possiblemeetinglocations("Koloniestraße").
-restaurant("Rosensteingasse").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+sequence(2,0, "Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+restaurant("Klosterneuburg-Weidling Bf").

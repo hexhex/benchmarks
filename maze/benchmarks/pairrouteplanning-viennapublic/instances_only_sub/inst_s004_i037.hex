@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Nußdorfer Straße").
+initlocation(1,"Leopoldau").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Hernals").
+sequence(1,0, "Leopoldau").
 person(2).
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Friedensbrücke").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Praterkai").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Zippererstraße").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Alterlaa").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Stephansplatz").
+sequence(2,0, "Meidling Hauptstraße").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Hetzendorf").
+restaurant("Nußdorfer Straße").
+restaurant("Hietzing").

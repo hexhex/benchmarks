@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Spittelau").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Arminenstraße").
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Spittelau").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Gersthof").
+initlocation(1,"Shuttleworthstraße").
+initlocation(1,"Johannes-Krawarik-Gasse").
+sequence(1,0, "Hermesstraße").
 person(2).
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Tullnerfeld Bahnhof").
-possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Neubaugasse/Westbahnstraße").
-possiblemeetinglocations("Blumengasse").
-restaurant("Gumpendorfer Straße").
-restaurant("Stadlau").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Kranzgasse").
+initlocation(2,"Marx-Meidlinger-Straße").
+initlocation(2,"Maurer Hauptplatz").
+initlocation(2,"Innstraße").
+initlocation(2,"Gemeinlebarn Bahnhof").
+sequence(2,0, "Marx-Meidlinger-Straße").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Hubertusdamm").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Liesing").
+restaurant("Eckpergasse").
+restaurant("Atzgersdorfer Straße").

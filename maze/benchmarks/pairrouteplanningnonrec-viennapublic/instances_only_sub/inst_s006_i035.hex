@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Taborstraße").
-initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Süßenbrunn").
+sequence(1,0, "Alser Straße").
 person(2).
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Lobau").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Wolkersdorf Bahnhof").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Felixdorf Bahnhof").
-restaurant("Schönborn Bahnhof").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Preyergasse/Speising").
-restaurant("Rennbahnweg").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Staatz Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Grillgasse").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Ebenfurth Bahnhof").
+sequence(2,0, "Zellerndorf Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Stubentor").
+restaurant("Siebenhirten (NÖ). Haltestelle").
+restaurant("Vorgartenstraße").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Nestroyplatz").
+restaurant("Zentralfriedhof").
+restaurant("Atzenbrugg Bahnhof").

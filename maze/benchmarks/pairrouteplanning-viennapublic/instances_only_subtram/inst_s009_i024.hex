@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Obere Donaustraße").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Glatzgasse").
-initlocation($p,"Teichgasse").
-initlocation($p,"Eckpergasse").
-initlocation($p,"Grinzinger Straße").
-initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Frödenplatz").
+initlocation(1,"Dommayergasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Althanstraße").
+initlocation(1,"Leberberg").
+sequence(1,0, "Camillo-Sitte-Gasse").
 person(2).
-initlocation($p,"Heinrich-Drimmel-Platz").
-initlocation($p,"Rathausplatz/Burgtheater").
-initlocation($p,"Augasse").
-initlocation($p,"Prater, Hauptallee").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Wenzgasse").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Rennweg").
-initlocation($p,"Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Reinlgasse/Märzstraße").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Krankenhaus Hietzing").
-possiblemeetinglocations("Nordwestbahnstraße").
-possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
-possiblemeetinglocations("Ladendorf Bahnhof").
-restaurant("Stockholmer Platz").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Gruschaplatz").
-restaurant("Winkeläckerstraße").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("An den langen Lüssen").
-restaurant("Geiereckstraße").
-restaurant("Silberwald Bahnhof").
-restaurant("Litfaßstraße").
+initlocation(2,"Neuwaldegg").
+initlocation(2,"Leyserstraße").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Hofwiesengasse").
+sequence(2,0, "Neuwaldegg").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Redtenbachergasse").
+possiblemeetinglocations("Traismauer Bahnhof").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Lederergasse").
+restaurant("Winckelmannstraße").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Valiergasse").
+restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Hausleiten Bahnhof").
+restaurant("Radetzkyplatz").

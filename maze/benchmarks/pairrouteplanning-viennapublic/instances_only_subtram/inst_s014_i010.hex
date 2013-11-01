@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Otto-Probst-Platz").
-initlocation($p,"Josef-Baumann-Gasse").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Taborstraße").
-initlocation($p,"Wittelsbachstraße").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Frödenplatz").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Sommarugagasse").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Seestadt").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Rampengasse").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Kölblgasse").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Alser Straße").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Valiergasse").
+initlocation(1,"Viehofen Bahnhof").
+sequence(1,0, "Ebreichsdorf Bahnhof").
 person(2).
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Rodaun").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Versorgungsheimplatz").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
-initlocation($p,"Praterstern").
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Sillerplatz").
-initlocation($p,"Gußhausstraße").
-possiblemeetinglocations("Siebertgasse").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Türkenschanzplatz").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Sommarugagasse").
-possiblemeetinglocations("Strozzigasse").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Yppengasse").
-possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Hauptbahnhof Ost").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Konstanziagasse").
-restaurant("Rustengasse").
-restaurant("Laurenzgasse").
-restaurant("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Fischamend Bahnhof").
-restaurant("Laudongasse").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Unter Sankt Veit").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Zeiselmauer-Königstetten Bf").
-restaurant("Matthäus-Jiszda-Straße").
-restaurant("Höchstädtplatz").
-restaurant("Kölblgasse").
-restaurant("Lange Gasse").
-restaurant("Hopfengasse").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Gellertplatz").
+initlocation(2,"Hermesstraße").
+initlocation(2,"Zentralfriedhof 1Tor").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Am Heidjöchl").
+initlocation(2,"Dresdner Straße").
+sequence(2,0, "Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Schloss Belvedere").
+possiblemeetinglocations("Huglgasse").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Donaumarina").
+restaurant("Weißenböckstraße").
+restaurant("Bisamberg Bahnhof").
+restaurant("Ober Sankt Veit").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Linzer Straße/Lützowgasse").
+restaurant("Herzogenburg Stadt").
+restaurant("Sommarugagasse").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Bahnhof Meidling/Eichenstraße").
+restaurant("Burggasse-Stadthalle").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Pressbaum Bahnhof").

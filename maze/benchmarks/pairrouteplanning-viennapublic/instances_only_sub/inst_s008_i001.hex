@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Donauinsel").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Kettenbrückengasse").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+sequence(1,0, "Felixdorf Bahnhof").
 person(2).
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Praterkai").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Langenzersdorf Bahnhof").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Pilgramgasse").
-restaurant("Praterstern").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Rennbahnweg").
-restaurant("Schwedenplatz").
-restaurant("Ober Sankt Veit").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Stadlau").
+initlocation(2,"Alterlaa").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Spittelau").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Heiligenstadt").
+sequence(2,0, "Alterlaa").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Aspernstraße").
+restaurant("Hirschstetten").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Grillgasse").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Volkstheater").
+restaurant("Zieglergasse").
+restaurant("Baden Bahnhof").

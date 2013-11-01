@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Donauspital").
-initlocation($p,"Niederhofstraße").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Zentralfriedhof 2Tor").
+initlocation(1,"Linzer Straße/Zehetnergasse").
+initlocation(1,"Zentralfriedhof 3Tor").
+initlocation(1,"Edmund-Hawranek-Platz").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+initlocation(1,"Arthaberplatz").
+sequence(1,0, "Unteres Belvedere").
 person(2).
-initlocation($p,"Blumengasse").
-initlocation($p,"Konstanziagasse").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Alsegger Straße").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Halteraugasse").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Wilhelminenstr/Sandleitengasse").
-initlocation($p,"Blumengasse").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Joachimsthalerplatz").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Van-Swieten-Kaserne").
-possiblemeetinglocations("Hofwiesengasse").
-possiblemeetinglocations("Schmerlingplatz").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Arminenstraße").
-restaurant("Kranzgasse").
-restaurant("Gaisruck Bahnhof").
-restaurant("Baumgarten").
-restaurant("Staglgasse").
-restaurant("Maurer Hauptplatz").
-restaurant("Mayerhofgasse").
-restaurant("Wexstraße").
+initlocation(2,"Leopoldau").
+initlocation(2,"Rosensteingasse").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Altes Landgut").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Florianigasse").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Erzherzog-Karl-Straße").
+sequence(2,0, "Leopoldau").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Neuwaldegg").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+restaurant("Arthaberplatz").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Bösendorferstraße").
+restaurant("Brigittaplatz").
+restaurant("Prinzgasse").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Stadlergasse").
+restaurant("Strozzigasse").
+restaurant("Polgarstraße").

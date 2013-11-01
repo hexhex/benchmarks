@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Haidestraße").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Burggasse-Stadthalle").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Weigelsdorf Bahnhof").
+sequence(1,0, "Michelbeuern-AKH").
 person(2).
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Traisengasse").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Regelsbrunn Bahnhof").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Hernals").
-restaurant("Baden Bahnhof").
-restaurant("Liesing").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Unter Sankt Veit").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Mödling Bahnhof").
+sequence(2,0, "Gumpendorfer Straße").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Herzogenburg Stadt").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Jedlersdorf").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Göllersdorf Bahnhof").

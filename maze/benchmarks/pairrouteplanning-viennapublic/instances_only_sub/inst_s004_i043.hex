@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Aspernstraße").
-initlocation($p,"Alser Straße").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Aspernstraße").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Penzing").
+sequence(1,0, "Rekawinkel Bahnhof").
 person(2).
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Vorgartenstraße").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-restaurant("Achau Bahnhof").
-restaurant("Gemeinlebarn Bahnhof").
-restaurant("Stockerau Bahnhof").
-restaurant("Niederkreuzstetten Bahnhof").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Rennweg").
+sequence(2,0, "Krottenbachstraße").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Neubaugasse").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Herrengasse").

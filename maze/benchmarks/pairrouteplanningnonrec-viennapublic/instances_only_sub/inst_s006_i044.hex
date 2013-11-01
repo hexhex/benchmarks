@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Regelsbrunn Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Dresdner Straße").
+sequence(1,0, "Hetzendorf").
 person(2).
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Herrengasse").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Oberdöbling").
-restaurant("Felixdorf Bahnhof").
-restaurant("Purkersdorf Sanatorium").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Theresienfeld Bahnhof").
+sequence(2,0, "Seyring Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Enkplatz").
+restaurant("Alte Donau").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Maria Ellend Bahnhof").
 restaurant("Kaisermühlen-VIC").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Gaisruck Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Atzenbrugg Bahnhof").

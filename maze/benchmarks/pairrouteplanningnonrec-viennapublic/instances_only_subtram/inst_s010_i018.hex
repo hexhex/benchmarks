@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Joachimsthalerplatz").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"An den langen Lüssen").
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Wittelsbachstraße").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Ottakringer Straße/Wattgasse").
+initlocation(1,"Maurer Lange Gasse").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Längenfeldgasse/Flurschützstr").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Erdberg").
+initlocation(1,"Friedrich-Engels-Platz").
+sequence(1,0, "Maurer Lange Gasse").
 person(2).
-initlocation($p,"Gasometer").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Bauernfeldplatz").
-initlocation($p,"Redtenbachergasse").
-initlocation($p,"Hopfengasse").
-initlocation($p,"Stadlau").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Yppengasse").
-initlocation($p,"Gasometer").
-possiblemeetinglocations("Rauscherstraße").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Bauernfeldplatz").
-possiblemeetinglocations("Oberfeldgasse").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Koloniestraße").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Guneschgasse").
-possiblemeetinglocations("Am Heumarkt").
-restaurant("Bahnhof Meidling").
-restaurant("Karlsplatz").
-restaurant("Dornbach, Güpferlingstraße").
-restaurant("Carabelligasse").
-restaurant("Ungargasse/Neulinggasse").
-restaurant("Erndtgasse").
-restaurant("Floridsdorfer Markt").
-restaurant("Wenzgasse").
-restaurant("Marx-Meidlinger-Straße").
-restaurant("Schuhmeierplatz").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Anschützgasse").
+initlocation(2,"Marx-Meidlinger-Straße").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Löwengasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Spitalgasse/Währinger Straße").
+initlocation(2,"Edmund-Hawranek-Platz").
+sequence(2,0, "Verbindungsbahn").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Schwarzspanierstraße").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Aspern Nord").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Süßenbrunn").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Sankt Marx").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Versorgungsheimplatz").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Alte Donau").
+restaurant("Breitenwaida Bahnhof").

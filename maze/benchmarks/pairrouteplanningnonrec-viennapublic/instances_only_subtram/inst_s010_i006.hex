@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Vinzenzgasse").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Quellenstraße/Favoritenstraße").
-initlocation($p,"Carminweg").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Shuttleworthstraße").
-initlocation($p,"Vinzenzgasse").
+initlocation(1,"Römergasse").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Gutraterplatz").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Schöffelgasse").
+initlocation(1,"Guntherstraße").
+initlocation(1,"Volkstheater").
+sequence(1,0, "Römergasse").
 person(2).
-initlocation($p,"Anton-Krieger-Gasse").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Absberggasse").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Strozzigasse").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Anton-Krieger-Gasse").
-possiblemeetinglocations("Glatzgasse").
-possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
-possiblemeetinglocations("Zentralfriedhof 4Tor").
-possiblemeetinglocations("Braunhubergasse").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Kraygasse").
-possiblemeetinglocations("Schloss Belvedere").
-possiblemeetinglocations("Donauzentrum").
-possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
-restaurant("Sillerplatz").
-restaurant("Breitenfurter Str/Liesingbr").
-restaurant("Linzer Straße/Lützowgasse").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Guntherstraße").
-restaurant("Helmahof Bahnhof").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Rebhanngasse").
-restaurant("Liechtenwerder Platz").
-restaurant("Leobersdorf Bahnhof").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Favoritenstraße/Troststraße").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Baumgarten").
+initlocation(2,"Nußdorf, Beethovengang").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Schloss Belvedere").
+sequence(2,0, "Kagraner Brücke").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Franzensbrücke").
+restaurant("Simonygasse").
+restaurant("Bösendorferstraße").
+restaurant("Schottentor").
+restaurant("Aspernstraße").
+restaurant("Retz Bahnhof").
+restaurant("Yppengasse").
+restaurant("Perfektastraße").
+restaurant("Hütteldorf, Bujattigasse").

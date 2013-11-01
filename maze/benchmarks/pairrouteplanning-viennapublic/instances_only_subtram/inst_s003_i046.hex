@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
+initlocation(1,"Margaretengürtel/Arbeitergasse").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+sequence(1,0, "Margaretengürtel/Arbeitergasse").
 person(2).
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Nußdorf").
-initlocation($p,"Donaustadtstraße").
-possiblemeetinglocations("Oberfeldgasse").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Winckelmannstraße").
-restaurant("Helmahof Bahnhof").
-restaurant("Hauptbahnhof Ost").
-restaurant("Längenfeldgasse/Flurschützstr").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Kranzgasse").
+sequence(2,0, "Guneschgasse").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Wallensteinplatz").
+possiblemeetinglocations("Columbusplatz").
+restaurant("Krieau").
+restaurant("Scheibenbergstraße").
+restaurant("Kaiserstraße/Neustiftgasse").

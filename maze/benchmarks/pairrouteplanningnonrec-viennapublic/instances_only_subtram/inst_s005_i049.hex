@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Staglgasse").
-initlocation($p,"Rodaun").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Erdberg").
+initlocation(1,"Shuttleworthstraße").
+initlocation(1,"Floridsdorfer Markt").
+sequence(1,0, "Aspern Nord").
 person(2).
-initlocation($p,"Johannes-Krawarik-Gasse").
-initlocation($p,"Wenzgasse").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Burgring").
-initlocation($p,"Auerspergstraße").
-initlocation($p,"Johannes-Krawarik-Gasse").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Laurenzgasse").
-possiblemeetinglocations("Vorgartenstraße").
-restaurant("Hermesstraße").
-restaurant("Guntramsdorf-Thallern").
-restaurant("Achau Bahnhof").
-restaurant("Hausfeldstraße").
-restaurant("Mühlfeldgasse").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Stiftgasse").
+sequence(2,0, "Matzleinsdorfer Platz").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Hopfengasse").
+restaurant("Burggasse-Stadthalle").
+restaurant("Volkstheater").
+restaurant("Elterleinplatz").
+restaurant("Alte Donau").
+restaurant("Brünner Straße/Hanreitergasse").

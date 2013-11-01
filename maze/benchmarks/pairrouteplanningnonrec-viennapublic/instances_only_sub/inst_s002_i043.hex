@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Sarasdorf Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Stubentor").
+sequence(1,0, "Hardeggasse").
 person(2).
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-restaurant("Gersthof").
-restaurant("Mistelbach Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Paasdorf Bahnhof").
+sequence(2,0, "Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+restaurant("Jägerstraße").
+restaurant("Hainburg/Donau Kulturfabrik Bf").

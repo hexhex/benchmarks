@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Stadlau").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Obereggendorf Bahnhof").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Meidling Hauptstraße").
+sequence(1,0, "Frättingsdorf Bahnhof").
 person(2).
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Traismauer Bahnhof").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
-possiblemeetinglocations("Stadlau").
-restaurant("Museumsquartier").
-restaurant("Hernals").
-restaurant("Stubentor").
-restaurant("Neubaugasse").
-restaurant("Viehofen Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+sequence(2,0, "Stockerau Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+restaurant("Hausfeldstraße").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Unterpurkersdorf Bahnhof").

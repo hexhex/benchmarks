@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Zentralfriedhof 4Tor").
-initlocation($p,"Alterlaa").
-initlocation($p,"Blumengasse").
-initlocation($p,"Stefan-Fadinger-Platz").
-initlocation($p,"Eckpergasse").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Zentralfriedhof 4Tor").
+initlocation(1,"Perntergasse").
+initlocation(1,"Bahnsteggasse").
+initlocation(1,"Absberggasse").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Hauptbahnhof Ost").
+sequence(1,0, "Perntergasse").
 person(2).
-initlocation($p,"Friedrich-Engels-Platz").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Gersthof").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Simmering").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Friedrich-Engels-Platz").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Kölblgasse").
-possiblemeetinglocations("Bahnsteggasse").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Aderklaaer Straße").
-restaurant("Am Heidjöchl").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Oberradlberg Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Josef-Baumann-Gasse").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Laurentiusplatz").
+sequence(2,0, "Maria Anzbach Bahnhof").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Radetzkyplatz").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Schwarzenbergplatz").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Kagraner Platz").
+restaurant("Siemensstraße").
+restaurant("Rodaun").
+restaurant("Bahnhofstraße").
+restaurant("Rekawinkel Bahnhof").

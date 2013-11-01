@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Lederergasse").
-initlocation($p,"Am Tabor").
-initlocation($p,"Pötzleinsdorf").
-initlocation($p,"Sieveringer Straße").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Liesing").
-initlocation($p,"Seestadt").
-initlocation($p,"Nußdorf").
-initlocation($p,"Lederergasse").
+initlocation(1,"Teichgasse").
+initlocation(1,"Spittelau").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Marxergasse").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Floridsdorf").
+sequence(1,0, "Teichgasse").
 person(2).
-initlocation($p,"Schlickgasse").
-initlocation($p,"Friedrich-Engels-Platz").
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Halteraugasse").
-initlocation($p,"Beingasse").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Schlickgasse").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Wittelsbachstraße").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Neubaugasse/Westbahnstraße").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Diesterweggasse").
-possiblemeetinglocations("Blechturmgasse").
-possiblemeetinglocations("Hausleiten Bahnhof").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Julius-Raab-Platz").
-restaurant("Breitenfurter St/Altmannsd Str").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Sechskrügelgasse").
-restaurant("Geiselbergstraße").
-restaurant("Dr-Karl-Renner-Ring").
-restaurant("Süßenbrunn").
+initlocation(2,"Sensengasse").
+initlocation(2,"Satzberggasse").
+initlocation(2,"Josef-Baumann-Gasse").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Linzer Straße/Zehetnergasse").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Heiligenstadt, 12-Februar-Pl").
+initlocation(2,"Seegasse").
+sequence(2,0, "Sensengasse").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Sensengasse").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+restaurant("Satzberggasse").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Fasangasse").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Schuhmeierplatz").
+restaurant("Jedlersdorf").
+restaurant("Aspernstraße").

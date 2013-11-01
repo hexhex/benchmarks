@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Zentralfriedhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Hernals").
+sequence(1,0, "Aspern Nord").
 person(2).
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Niederhofstraße").
-restaurant("Roßauer Lände").
-restaurant("Guntramsdorf-Thallern").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+sequence(2,0, "Mistelbach Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Wolkersdorf Bahnhof").

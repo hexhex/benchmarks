@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Handelskai").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Handelskai").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Grillgasse").
+sequence(1,0, "Neubaugasse").
 person(2).
-initlocation($p,"Oberdöbling").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Schottenring").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Haidestraße").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Oberdöbling").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Hausfeldstraße").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Praterstern").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Mistelbach Stadt").
+sequence(2,0, "Quartier Belvedere").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
 possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Geiselbergstraße").
-restaurant("Vorgartenstraße").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Stubentor").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Fischamend Bahnhof").
+restaurant("Süßenbrunn").
+restaurant("Neulengbach Bahnhof").
+restaurant("Jägerstraße").
+restaurant("Meidling Hauptstraße").
+restaurant("Praterkai").
+restaurant("Johnstraße").
+restaurant("Breitensee").
+restaurant("Lobau").
 restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Alser Straße").
-restaurant("Westbahnhof").
-restaurant("Margaretengürtel").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Atzgersdorf").

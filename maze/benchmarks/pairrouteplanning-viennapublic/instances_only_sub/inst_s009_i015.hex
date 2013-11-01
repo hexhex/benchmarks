@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Praterkai").
-initlocation($p,"Seyring Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Breitensee").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Handelskai").
+initlocation(1,"Keplerplatz").
+sequence(1,0, "Sierndorf Bahnhof").
 person(2).
-initlocation($p,"Hernals").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Handelskai").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Hernals").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Michelbeuern-AKH").
-restaurant("Spillern Bahnhof").
-restaurant("Stadlau").
-restaurant("Donaumarina").
-restaurant("Thaliastraße").
-restaurant("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Johnstraße").
-restaurant("Neulengbach Bahnhof").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Schottenring").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Wampersdorf Bahnhof").
+sequence(2,0, "Mistelbach Stadt").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+restaurant("Korneuburg Bahnhof").
+restaurant("Liesing").
+restaurant("Schottentor").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Großfeldsiedlung").
+restaurant("Hernals").
+restaurant("Wr Neustadt Nord").

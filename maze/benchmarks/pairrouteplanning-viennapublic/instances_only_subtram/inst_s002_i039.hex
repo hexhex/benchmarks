@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Arminenstraße").
+sequence(1,0, "Kendlerstraße").
 person(2).
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Koppstraße/Panikengasse").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Fultonstraße").
-restaurant("Schottenfeldgasse").
-restaurant("Dornbach, Güpferlingstraße").
+initlocation(2,"Alterlaa").
+initlocation(2,"Am Schöpfwerk").
+sequence(2,0, "Alterlaa").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+restaurant("Huglgasse").
+restaurant("Floridsdorfer Brücke").

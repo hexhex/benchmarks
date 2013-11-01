@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Vorgartenstraße").
+sequence(1,0, "Wampersdorf Bahnhof").
 person(2).
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Breitensee").
-initlocation($p,"Volkstheater").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Spillern Bahnhof").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Zentralfriedhof").
-restaurant("Brünner Straße").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Obereggendorf Bahnhof").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Stadion").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Hernals").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Brünner Straße").
+sequence(2,0, "Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Kledering Bahnhof").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Josefstädter Straße").

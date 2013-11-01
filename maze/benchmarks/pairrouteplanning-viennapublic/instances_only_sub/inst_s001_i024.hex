@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Maria Anzbach Bahnhof").
+initlocation(1,"Brünner Straße").
+sequence(1,0, "Brünner Straße").
 person(2).
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Wolfsthal Bahnhof").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-restaurant("Untertullnerbach Bahnhof").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+sequence(2,0, "Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+restaurant("Strasshof Bahnhof").

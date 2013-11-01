@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
+initlocation(1,"Retz Bahnhof").
+sequence(1,0, "Retz Bahnhof").
 person(2).
-initlocation($p,"Troststraße/Neilreichgasse").
-initlocation($p,"Troststraße/Neilreichgasse").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-restaurant("Zellerndorf Bahnhof").
+initlocation(2,"Enkplatz").
+sequence(2,0, "Enkplatz").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+restaurant("Eichenstraße").

@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Liesing").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Hernals").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
+initlocation(1,"Rennweg").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+sequence(1,0, "Rennweg").
 person(2).
-initlocation($p,"Brünner Straße").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Simmering").
-initlocation($p,"Praterkai").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Brünner Straße").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
-possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Simmering").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Schwechat Bahnhof").
-restaurant("Schönborn Bahnhof").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Alterlaa").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Kaisermühlen-VIC").
-restaurant("Praterkai").
-restaurant("Pilgramgasse").
-restaurant("Felixdorf Bahnhof").
-restaurant("Rennweg").
-restaurant("Hofstatt Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Seestadt").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Lobau").
+sequence(2,0, "Simmering").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Michelhausen Bahnhof").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Heiligenstadt").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Jägerstraße").
+restaurant("Schwedenplatz").
+restaurant("Obersdorf Bahnhof").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Götzendorf Bahnhof").
+restaurant("Tullnerfeld Bahnhof").

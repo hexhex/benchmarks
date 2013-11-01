@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Nordbahnstraße").
-initlocation($p,"Hildebrandgasse").
-initlocation($p,"Atzgersdorfer Straße").
-initlocation($p,"Schwarzspanierstraße").
-initlocation($p,"Römergasse").
-initlocation($p,"Nordbahnstraße").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Laudongasse").
+sequence(1,0, "Guneschgasse").
 person(2).
-initlocation($p,"Landesgerichtsstraße").
-initlocation($p,"Nußdorf").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Döblinger Bad").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Landesgerichtsstraße").
-possiblemeetinglocations("Lange Gasse").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
-possiblemeetinglocations("Schuhmeierplatz").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-restaurant("Johann-Strauß-Gasse").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Zentralfriedhof 3Tor").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Wexstraße").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Saikogasse").
+sequence(2,0, "Guntersdorf Bahnhof").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Linzer Straße/Reinlgasse").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Beingasse").
+restaurant("Sierndorf Bahnhof").
+restaurant("Arthaberplatz").
+restaurant("Konstanziagasse").

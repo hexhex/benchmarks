@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Johnstraße").
+sequence(1,0, "Donaustadtbrücke").
 person(2).
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Heiligenstadt").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-restaurant("Margaretengürtel/Arbeitergasse").
-restaurant("Wilhelminenstraße/Wattgasse").
+initlocation(2,"Grinzing").
+initlocation(2,"Neubaugasse").
+sequence(2,0, "Grinzing").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Wenzgasse").
+restaurant("Gunoldstraße").
+restaurant("Albertgasse").

@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Winkeläckerstraße").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Sankt Marx").
+sequence(1,0, "Trasdorf Bahnhof").
 person(2).
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Leberberg").
-initlocation($p,"Heiligenstadt").
-possiblemeetinglocations("Wenzgasse").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-restaurant("Sarasdorf Bahnhof").
-restaurant("Brünnlbadgasse").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Gerstnerstraße/Westbhf").
+sequence(2,0, "Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Erndtgasse").
+restaurant("Silberwald Bahnhof").
+restaurant("Spillern Bahnhof").

@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Herrengasse").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Stadion").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Herrengasse").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Braunschweiggasse").
+sequence(1,0, "Oberdöbling").
 person(2).
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Donauspital").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Süßenbrunn").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Gasometer").
-restaurant("Korneuburg Bahnhof").
-restaurant("Zeiselmauer-Königstetten Bf").
-restaurant("Breitensee").
-restaurant("Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Hetzendorf").
+sequence(2,0, "Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Hietzing").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Sankt Marx").
+restaurant("Erlaaer Straße").
+restaurant("Hausfeldstraße").

@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Kagraner Platz").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+sequence(1,0, "Wilfleinsdorf Bahnhof").
 person(2).
-initlocation($p,"Stadion").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Stadion").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-restaurant("Josefstädter Straße").
-restaurant("Handelskai").
+initlocation(2,"Krieau").
+initlocation(2,"Hütteldorf").
+sequence(2,0, "Krieau").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Stubentor").
+restaurant("Kaisermühlen-VIC").
+restaurant("Volkstheater").

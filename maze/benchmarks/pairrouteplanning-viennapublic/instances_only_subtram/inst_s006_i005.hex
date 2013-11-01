@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Kranzgasse").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Donauinsel").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Kranzgasse").
+initlocation(1,"Halteraugasse").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Schloss Schönbrunn").
+initlocation(1,"Sieveringer Straße").
+sequence(1,0, "Halteraugasse").
 person(2).
-initlocation($p,"Koloniestraße").
-initlocation($p,"Josef-Baumann-Gasse").
-initlocation($p,"Wallensteinplatz").
-initlocation($p,"Handelskai").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Kranzgasse").
-initlocation($p,"Koloniestraße").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-possiblemeetinglocations("Karmeliterplatz").
-possiblemeetinglocations("Leyserstraße").
-possiblemeetinglocations("Windtenstraße").
-possiblemeetinglocations("Laurenzgasse").
-possiblemeetinglocations("Frauengasse").
-restaurant("Volkstheater").
-restaurant("Herzogenburg Stadt").
-restaurant("Hubertusdamm").
-restaurant("Karlsplatz").
-restaurant("Niederhofstraße").
-restaurant("Sarasdorf Bahnhof").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Simonygasse").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Alterlaa").
+initlocation(2,"Polgarstraße").
+initlocation(2,"Hietzing").
+sequence(2,0, "Stefan-Fadinger-Platz").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+restaurant("Meidling Hauptstraße").
+restaurant("Neue Donau").
+restaurant("Marx-Meidlinger-Straße").
+restaurant("Halteraugasse").
+restaurant("Gellertplatz").
+restaurant("Weißenböckstraße").

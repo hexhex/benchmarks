@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Donauinsel").
-initlocation($p,"Hausleiten Bahnhof").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Heiligenstadt, 12-Februar-Pl").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Untereggendorf Bahnhof").
+sequence(1,0, "Hernalser Hauptstr/Wattgasse").
 person(2).
-initlocation($p,"Wittelsbachstraße").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Alfred-Adler-Straße").
-initlocation($p,"Grinzing").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Wittelsbachstraße").
-possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Hauptbahnhof Ost").
-possiblemeetinglocations("Wexstraße").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Sieveringer Straße").
-restaurant("Fischamend Bahnhof").
-restaurant("Stadlau").
-restaurant("Linzer Straße/Lützowgasse").
-restaurant("Koloniestraße").
-restaurant("Marienbrücke").
-restaurant("Strasshof Bahnhof").
+initlocation(2,"Döblinger Hauptstr/Gatterburgg").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Kölblgasse").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Oberlaa, Therme Wien").
+sequence(2,0, "Döblinger Hauptstr/Gatterburgg").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+restaurant("Neulerchenfelder Str/Brunneng").
+restaurant("Neubaugasse").
+restaurant("Anschützgasse").
+restaurant("Hofwiesengasse").
+restaurant("Taborstraße").
+restaurant("Weinheimergasse").

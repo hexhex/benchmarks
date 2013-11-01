@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Blumengasse").
-initlocation($p,"Alte Donau").
-initlocation($p,"Waidhausenstraße").
-initlocation($p,"Blumengasse").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Reinlgasse/Märzstraße").
+sequence(1,0, "Svetelskystraße").
 person(2).
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Litfaßstraße").
-initlocation($p,"Langobardenstraße/Kapellenweg").
-possiblemeetinglocations("Lazarettgasse").
-possiblemeetinglocations("Gerstnerstraße/Westbhf").
-possiblemeetinglocations("Hütteldorf").
-restaurant("Ottakring").
-restaurant("Bahnhofstraße").
-restaurant("Gatterburggasse").
+initlocation(2,"Breitensee").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+sequence(2,0, "Breitensee").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Breitensee").
+restaurant("Linzer Straße/Reinlgasse").
+restaurant("Jagdschloßgasse").
+restaurant("Sahulkastraße").

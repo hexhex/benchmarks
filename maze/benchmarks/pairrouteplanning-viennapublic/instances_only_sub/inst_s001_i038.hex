@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Tulln Stadt Bahnhof").
+sequence(1,0, "Tulln Stadt Bahnhof").
 person(2).
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-restaurant("Oberolberndorf Bahnhof").
+initlocation(2,"Hirschstetten").
+sequence(2,0, "Hirschstetten").
+possiblemeetinglocations("Kaisermühlen-VIC").
+restaurant("Thaliastraße").

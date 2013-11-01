@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Vinzenzgasse").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Paulanergasse").
-initlocation($p,"Fasangasse").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Vinzenzgasse").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Antonigasse").
+initlocation(1,"Seestadt").
+initlocation(1,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Shuttleworthstraße").
+initlocation(1,"Marxergasse").
+sequence(1,0, "Hauptbahnhof Ost").
 person(2).
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Am Spitz").
-initlocation($p,"Gruschaplatz").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Hermesstraße").
-initlocation($p,"Schloss Hetzendorf").
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Oberradlberg Bahnhof").
-possiblemeetinglocations("Stiftgasse").
-possiblemeetinglocations("Kranzgasse").
-possiblemeetinglocations("Teichgasse").
-possiblemeetinglocations("Guntherstraße").
-possiblemeetinglocations("Rebhanngasse").
-possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
-possiblemeetinglocations("Baden Bahnhof").
-restaurant("Schönborn Bahnhof").
-restaurant("Meidling Hauptstraße").
-restaurant("Gruschaplatz").
-restaurant("Rochusgasse").
-restaurant("Taborstraße").
-restaurant("Glatzgasse").
-restaurant("Langobardenstraße/Kapellenweg").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Redtenbachergasse").
+initlocation(2,"Laxenburger Straße/Troststraße").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Dresdner Straße").
+sequence(2,0, "Unter Sankt Veit").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Krottenbachstraße").
+restaurant("Frauengasse").
+restaurant("Donaustadtbrücke").
+restaurant("Zippererstraße").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Moosbierbaum-Heiligeneich Bf").

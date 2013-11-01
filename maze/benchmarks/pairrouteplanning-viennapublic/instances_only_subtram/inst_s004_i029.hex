@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Lederergasse").
-initlocation($p,"Oberfeldgasse/Spargelfeldstr").
-initlocation($p,"Maria Anzbach Bahnhof").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Silbergasse").
+initlocation(1,"Arthaberplatz").
+sequence(1,0, "Taborstraße/Heinestraße").
 person(2).
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Wolfsthal Bahnhof").
-possiblemeetinglocations("Hofwiesengasse").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-restaurant("Enkplatz").
-restaurant("Aspern Nord").
-restaurant("Kaiserstraße/Burggasse").
-restaurant("Preyergasse/Speising").
+initlocation(2,"Alser Straße").
+initlocation(2,"Neuwaldegg").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Johann-Strauß-Gasse").
+sequence(2,0, "Alser Straße").
+possiblemeetinglocations("Obere Donaustraße").
+possiblemeetinglocations("Tesarekplatz").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+restaurant("Jedlersdorf").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Donauspital").
+restaurant("Margaretengürtel").

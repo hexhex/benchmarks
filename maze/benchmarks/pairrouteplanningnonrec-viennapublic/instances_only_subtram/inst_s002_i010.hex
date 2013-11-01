@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Obereggendorf Bahnhof").
+initlocation(1,"Stefan-Fadinger-Platz").
+initlocation(1,"Pantucekgasse/Widholzgasse").
+sequence(1,0, "Stefan-Fadinger-Platz").
 person(2).
-initlocation($p,"Stockholmer Platz").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Stockholmer Platz").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Wittelsbachstraße").
-restaurant("Stockerau Bahnhof").
-restaurant("Dürrwien Bahnhof").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Sickenberggasse").
+sequence(2,0, "Radetzkyplatz").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Strasshof Bahnhof").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Verbindungsbahn").

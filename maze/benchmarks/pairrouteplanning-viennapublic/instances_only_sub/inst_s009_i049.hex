@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Nußdorf").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Nußdorf").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Stubentor").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Volkstheater").
+sequence(1,0, "Vorgartenstraße").
 person(2).
-initlocation($p,"Aspernstraße").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Aspernstraße").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Achau Bahnhof").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Roßauer Lände").
-restaurant("Josefstädter Straße").
-restaurant("Trasdorf Bahnhof").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Braunschweiggasse").
-restaurant("Kagran").
-restaurant("Perfektastraße").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Spittelau").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Pilgramgasse").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+restaurant("Stadtpark").
+restaurant("Michelbeuern-AKH").
+restaurant("Pressbaum Bahnhof").
+restaurant("Lobau").
+restaurant("Fischamend Bahnhof").
+restaurant("Rennweg").
+restaurant("Preyergasse/Speising").
+restaurant("Siebenhirten").
+restaurant("Viehofen Bahnhof").

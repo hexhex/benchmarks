@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Kutschkergasse").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Johannes-Krawarik-Gasse").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Baumgasse").
+initlocation(1,"Burgring").
+initlocation(1,"Glatzgasse").
+initlocation(1,"Elterleinplatz").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Schlickgasse").
+sequence(1,0, "Zippererstraße").
 person(2).
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Hermesstraße").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Gasometer").
-initlocation($p,"Sensengasse").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Blumental").
-initlocation($p,"Siebertgasse").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Hermesstraße").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Aspern, Oberdorfstraße").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Rankgasse").
-possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-restaurant("Zippererstraße").
-restaurant("Quellenstraße/Favoritenstraße").
-restaurant("Redtenbachergasse").
-restaurant("Schweglerstraße").
-restaurant("Gatterburggasse").
-restaurant("Konstanziagasse").
-restaurant("Stammersdorf").
-restaurant("Carminweg").
-restaurant("Nußdorf, Beethovengang").
-restaurant("Lainz, Wolkersbergenstraße").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Grillgasse").
+initlocation(2,"Valiergasse").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Krieau").
+initlocation(2,"Diesterweggasse").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+sequence(2,0, "Traismauer Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+restaurant("Hennersdorf Bahnhof").
+restaurant("Liesing").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Maurer Hauptplatz").
+restaurant("Zieglergasse").
+restaurant("Sechskrügelgasse").
+restaurant("Götzendorf Bahnhof").
+restaurant("Maurer Lange Gasse").
+restaurant("Weißenböckstraße").
+restaurant("Wilhelminenstraße/Wattgasse").

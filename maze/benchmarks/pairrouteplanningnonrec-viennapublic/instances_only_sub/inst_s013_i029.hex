@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Hernals").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Breitensee").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Seestadt").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Kettenbrückengasse").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Stadtpark").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Simmering").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Reumannplatz").
+sequence(1,0, "Kottingneusiedl Bahnhof").
 person(2).
-initlocation($p,"Reumannplatz").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Neue Donau").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Alte Donau").
-initlocation($p,"Spittelau").
-initlocation($p,"Reumannplatz").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Währinger Straße-Volksoper").
-restaurant("Seestadt").
-restaurant("Heiligenstadt").
-restaurant("Neulengbach Bahnhof").
-restaurant("Atzgersdorf").
-restaurant("Zippererstraße").
-restaurant("Kagraner Platz").
-restaurant("Hausleiten Bahnhof").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Zieglergasse").
-restaurant("Sierndorf Bahnhof").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Alterlaa").
+initlocation(2,"Haidestraße").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Schönbrunn").
+sequence(2,0, "Mannswörth Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+restaurant("Sankt Marx").
+restaurant("Gaisruck Bahnhof").
+restaurant("Penzing").
+restaurant("Schönborn Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Donauinsel").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Handelskai").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Ottakring").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Gemeinlebarn Bahnhof").

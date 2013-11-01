@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Simmering").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Hetzgasse").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Van-Swieten-Kaserne").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Florianigasse").
-initlocation($p,"Simmering").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Rennweg").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Friedensbrücke").
+sequence(1,0, "Langobardenstraße").
 person(2).
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Seegasse").
-initlocation($p,"Stadlergasse").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Dommayergasse").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Rußbergstraße").
-possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Franz-Asenbauer-Gasse").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Unteres Belvedere").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Koppstraße/Panikengasse").
-restaurant("Mistelbach Bahnhof").
-restaurant("Erzherzog-Karl-Straße").
-restaurant("Langobardenstraße/Kapellenweg").
-restaurant("Guneschgasse").
-restaurant("Siebenhirten").
-restaurant("Fultonstraße").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Gunoldstraße").
+initlocation(2,"Herbeckstraße").
+initlocation(2,"Anton-Krieger-Gasse").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Simmering").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Am Tabor").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Brünner Straße").
+sequence(2,0, "Herbeckstraße").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+restaurant("Wr Neustadt Nord").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Strebersdorf").
+restaurant("Polgarstraße").
+restaurant("Gellertplatz").
+restaurant("Gerhardusgasse").

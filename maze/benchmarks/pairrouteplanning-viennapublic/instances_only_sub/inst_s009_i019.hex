@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Donauinsel").
-initlocation($p,"Alte Donau").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Herrengasse").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Donauinsel").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Herzogenburg Bahnhof").
+sequence(1,0, "Hetzendorf").
 person(2).
-initlocation($p,"Oberdöbling").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Oberdöbling").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-restaurant("Schottentor").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Hardeggasse").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Hütteldorfer Straße").
-restaurant("Höflein an der Donau Bahnhof").
-restaurant("Sollenau Bahnhof").
-restaurant("Mödling Bahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+initlocation(2,"Haslau an der Donau Bahnhof").
+sequence(2,0, "Donauinsel").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+restaurant("Margaretengürtel").
+restaurant("Penzing").
+restaurant("Atzgersdorf").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Gersthof").
 restaurant("Sarasdorf Bahnhof").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Seestadt").

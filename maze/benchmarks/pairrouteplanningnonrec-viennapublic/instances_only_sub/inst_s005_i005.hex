@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Leopoldau").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Penzing").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Museumsquartier").
+sequence(1,0, "Perchtoldsdorf Bahnhof").
 person(2).
-initlocation($p,"Museumsquartier").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Museumsquartier").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Nestroyplatz").
-restaurant("Paasdorf Bahnhof").
-restaurant("Pilgramgasse").
-restaurant("Helmahof Bahnhof").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Atzgersdorf").
+initlocation(2,"Rathaus").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Lobau").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+sequence(2,0, "Rathaus").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Stubentor").
+restaurant("Nußdorf").
+restaurant("Trasdorf Bahnhof").
+restaurant("Krottenbachstraße").
+restaurant("Roßauer Lände").
+restaurant("Maria Ellend Bahnhof").

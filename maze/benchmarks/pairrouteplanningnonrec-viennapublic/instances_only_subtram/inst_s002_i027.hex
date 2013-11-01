@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Neulerchenfelder Str/Haberlg").
-initlocation($p,"Oberradlberg Bahnhof").
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Sierndorf Bahnhof").
+sequence(1,0, "Fickeysstraße").
 person(2).
-initlocation($p,"Karlsplatz").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Karlsplatz").
-possiblemeetinglocations("Taborstraße/Heinestraße").
-possiblemeetinglocations("Teichgasse").
-restaurant("Unteroberndorf Bahnhof").
-restaurant("Rustengasse").
+initlocation(2,"Lobau").
+initlocation(2,"Jedlersdorf").
+sequence(2,0, "Lobau").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Penzinger Straße").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Hohe Warte").

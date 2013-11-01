@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Lazarettgasse").
-initlocation($p,"Himmelmutterweg").
-initlocation($p,"Wallrißstraße").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Rampengasse").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Troststraße/Neilreichgasse").
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Blindengasse").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Wienerfeldgasse").
+initlocation(1,"Rennweg").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Gänserndorf Bahnhof").
+sequence(1,0, "Matthäus-Jiszda-Straße").
 person(2).
-initlocation($p,"Guntherstraße").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Stubentor").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Oberlaa, Therme Wien").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Guntherstraße").
-possiblemeetinglocations("Konstanziagasse").
-possiblemeetinglocations("Nußdorf, Beethovengang").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Donauzentrum").
-possiblemeetinglocations("Paulanergasse").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Gellertplatz").
-restaurant("Schmerlingplatz").
-restaurant("Raxstraße/Rudolfshügelgasse").
-restaurant("Braunhubergasse").
-restaurant("Otto-Probst-Platz").
-restaurant("Kliebergasse").
-restaurant("Neubaugasse").
-restaurant("Fasangasse").
-restaurant("Römergasse").
+initlocation(2,"Resselgasse").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Erdberg").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Traisengasse").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Hütteldorfer Str/Hochsatzeng").
+initlocation(2,"Sommarugagasse").
+sequence(2,0, "Resselgasse").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+restaurant("Alser Straße").
+restaurant("Wolf in der Au").
+restaurant("Herbeckstraße").
+restaurant("Schottenring").
+restaurant("Josefstädter Straße").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Hohe Warte").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Marienbrücke").
+restaurant("Prinzgasse").

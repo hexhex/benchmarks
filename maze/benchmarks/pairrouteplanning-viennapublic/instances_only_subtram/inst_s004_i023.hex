@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Seestadt").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Margaretengürtel").
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Guntherstraße").
+sequence(1,0, "Barawitzkagasse").
 person(2).
-initlocation($p,"Taborstraße/Heinestraße").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Rodaun").
-initlocation($p,"Taborstraße/Heinestraße").
-possiblemeetinglocations("Zentralfriedhof 2Tor").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Molitorgasse").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Schuhmeierplatz").
-restaurant("Molitorgasse").
-restaurant("Jagdschloßgasse").
+initlocation(2,"Seestadt").
+initlocation(2,"Donauspital").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Am Heidjöchl").
+sequence(2,0, "Seestadt").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Donauzentrum").
+restaurant("Gellertplatz").
+restaurant("Staatz Bahnhof").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Sommarugagasse").

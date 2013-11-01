@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Neue Donau").
-initlocation($p,"Wexstraße").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Paulanergasse").
-initlocation($p,"Am Heumarkt").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Kleistgasse").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Simonygasse").
+initlocation(1,"Aßmayergasse").
+initlocation(1,"Unteroberndorf Bahnhof").
+sequence(1,0, "Knöllgasse/Davidgasse").
 person(2).
-initlocation($p,"Taborstraße/Heinestraße").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Gruschaplatz").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Polgarstraße").
-initlocation($p,"Margaretengürtel/Arbeitergasse").
-initlocation($p,"Grillgasse").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Taborstraße/Heinestraße").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Hardtgasse").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Atzgersdorfer Straße").
-possiblemeetinglocations("Sillerplatz").
-possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-restaurant("Strozzigasse").
-restaurant("Tscherttegasse").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Pokornygasse").
-restaurant("Margaretengürtel").
-restaurant("Brünnlbadgasse").
-restaurant("Bahnhof Meidling").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Strasshof Bahnhof").
+initlocation(2,"Kleistgasse").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Sonnergasse").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Knöllgasse/Davidgasse").
+initlocation(2,"Joachimsthalerplatz").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Anton-Krieger-Gasse").
+sequence(2,0, "Kleistgasse").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Kranzgasse").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Mühlfeldgasse").
+restaurant("Helmahof Bahnhof").
+restaurant("Hernalser Gürtel").
+restaurant("Otto-Probst-Straße").
+restaurant("Plößlgasse").
+restaurant("Klosterneub Str/Wallensteinstr").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Hofwiesengasse").
+restaurant("Siemensstraße").
+restaurant("Am Tabor").

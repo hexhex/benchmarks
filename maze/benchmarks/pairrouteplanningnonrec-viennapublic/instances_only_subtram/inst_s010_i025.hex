@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Neubaugasse").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Salztorbrücke").
-initlocation($p,"Alterlaa").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Neulerchenfelder Str/Haberlg").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Neubaugasse").
+initlocation(1,"Baumgarten").
+initlocation(1,"Florianigasse").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Favoritenstraße/Troststraße").
+initlocation(1,"Krieau").
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Schloss Schönbrunn").
+sequence(1,0, "Baumgarten").
 person(2).
-initlocation($p,"Stockholmer Platz").
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Saikogasse").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Stockholmer Platz").
-possiblemeetinglocations("Schloss Belvedere").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Aspern, Oberdorfstraße").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Hubertusdamm").
-possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Anschützgasse").
-possiblemeetinglocations("Kaiserstraße").
-possiblemeetinglocations("Paradisgasse").
-possiblemeetinglocations("Wallrißstraße").
-restaurant("Michelbeuern-AKH").
-restaurant("Sarasdorf Bahnhof").
-restaurant("Prinzgasse").
-restaurant("Oberzellergasse").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Heiligenstadt, 12-Februar-Pl").
-restaurant("Erndtgasse").
-restaurant("Kliebergasse").
-restaurant("Staatz Bahnhof").
-restaurant("Am Tabor").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Leopoldau").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Oberlaa, Therme Wien").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Wienerfeldgasse").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Marx-Meidlinger-Straße").
+sequence(2,0, "Schloss Belvedere").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Kledering Bahnhof").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Fultonstraße").
+restaurant("Sechskrügelgasse").
+restaurant("Sonnergasse").
+restaurant("Rathaus").
+restaurant("Hausfeldstraße").
+restaurant("Gatterburggasse").
+restaurant("Preyergasse/Speising").
+restaurant("Strebersdorf").
+restaurant("Paradisgasse").

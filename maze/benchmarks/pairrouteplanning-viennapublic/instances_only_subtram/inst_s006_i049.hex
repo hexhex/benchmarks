@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Brünnlbadgasse").
-initlocation($p,"Van-Swieten-Kaserne").
-initlocation($p,"Wienerbergbrücke").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Brünnlbadgasse").
+initlocation(1,"Gusenleithnergasse").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Nordbrücke").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+initlocation(1,"Stubentor").
+initlocation(1,"Schweglerstraße").
+sequence(1,0, "Gusenleithnergasse").
 person(2).
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Skodagasse").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Landstraße-Wien Mitte").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Braunhubergasse").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Migerkastraße").
-restaurant("Weißenböckstraße").
-restaurant("Anton-Krieger-Gasse").
-restaurant("Quellenstraße/Favoritenstraße").
-restaurant("Saikogasse").
-restaurant("Wienerbergbrücke").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Joachimsthalerplatz").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Leyserstraße").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Unteres Belvedere").
+sequence(2,0, "Brünner Straße").
+possiblemeetinglocations("Beingasse").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Schöffelgasse").
+restaurant("Sickenberggasse").
+restaurant("Bernhardtstalgasse").
+restaurant("Blindengasse").
+restaurant("Wattmanngasse").
+restaurant("Trondheimgasse").
+restaurant("Otto-Probst-Straße").

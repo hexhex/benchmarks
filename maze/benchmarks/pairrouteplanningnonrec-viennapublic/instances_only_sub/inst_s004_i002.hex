@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Ottakring").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Ottakring").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Unterradlberg Bahnhof").
+sequence(1,0, "Parndorf Ort Bahnhof").
 person(2).
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Praterstern").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Traisengasse").
-initlocation($p,"Braunschweiggasse").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Simmering").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Tullnerfeld Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+sequence(2,0, "Burggasse-Stadthalle").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Braunschweiggasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("Josefstädter Straße").

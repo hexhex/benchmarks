@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Erdberg").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Siebenhirten").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Erdberg").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Breitensee").
+initlocation(1,"Johnstraße").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Rathaus").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Siebenhirten (NÖ). Haltestelle").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Trasdorf Bahnhof").
+sequence(1,0, "Kledering Bahnhof").
 person(2).
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Krieau").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Wolf in der Au").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-restaurant("Penzing").
-restaurant("Reumannplatz").
-restaurant("Museumsquartier").
-restaurant("Siebenhirten").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Stadion").
-restaurant("Nestroyplatz").
-restaurant("Alte Donau").
-restaurant("Kapellerfeld Bahnhof").
-restaurant("Brünner Straße").
-restaurant("Spittelau").
-restaurant("Messe-Prater").
-restaurant("Währinger Straße-Volksoper").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Neue Donau").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Kledering Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Achau Bahnhof").
+sequence(2,0, "Untertullnerbach Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Platt Bahnhof").
 restaurant("Gumpendorfer Straße").
+restaurant("Viehofen Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("Haidestraße").
+restaurant("Herzogenburg Stadt").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Neubaugasse").
+restaurant("Lobau").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Siebenhirten").
+restaurant("Eichgraben-Altlengbach Bahnhof").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Quellenplatz").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Maurer Lange Gasse").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Huglgasse").
+initlocation(1,"Rathaus").
+sequence(1,0, "Laa an der Thaya Bahnhof").
 person(2).
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Am Spitz").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-restaurant("Reinlgasse/Märzstraße").
-restaurant("Neulerchenfelder Str/Brunneng").
-restaurant("Schönbrunn").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Innstraße").
+sequence(2,0, "Gunoldstraße").
+possiblemeetinglocations("Troststraße/Neilreichgasse").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Baumgarten").
+restaurant("Am Spitz").
+restaurant("Unter Sankt Veit").
+restaurant("Sommarugagasse").

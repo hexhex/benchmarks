@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Wilhelminenstr/Sandleitengasse").
-initlocation($p,"Taborstraße").
-initlocation($p,"Mistelbach Stadt").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Brünner Straße/Hanreitergasse").
+sequence(1,0, "Svetelskystraße").
 person(2).
-initlocation($p,"Thaliastraße/Brunnengasse").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Krankenhaus Hietzing").
-initlocation($p,"Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Eckpergasse").
-possiblemeetinglocations("Roßauer Lände").
-restaurant("Oberzellergasse").
-restaurant("Kettenbrückengasse").
-restaurant("Kaiserstraße").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+initlocation(2,"Leobersdorf Bahnhof").
+sequence(2,0, "Neusiedl am See Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+possiblemeetinglocations("Grinzinger Straße").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Autokaderstraße").
+restaurant("Obersdorf Bahnhof").

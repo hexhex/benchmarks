@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Stockerau Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Taborstraße").
+sequence(1,0, "Strebersdorf").
 person(2).
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Unteroberndorf Bahnhof").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-restaurant("Rathaus").
-restaurant("Obersdorf Bahnhof").
-restaurant("Neue Donau").
-restaurant("Siebenhirten").
-restaurant("Spillern Bahnhof").
-restaurant("Höflein an der Donau Bahnhof").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Pilgramgasse").
+sequence(2,0, "Siebenhirten").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Gaisruck Bahnhof").
+restaurant("Floridsdorf").
+restaurant("Korneuburg Bahnhof").
+restaurant("Schleinbach Bahnhof").
+restaurant("Nestroyplatz").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Liesing").

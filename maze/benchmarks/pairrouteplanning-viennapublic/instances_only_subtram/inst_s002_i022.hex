@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Türkenschanzplatz").
+initlocation(1,"Blumengasse").
+initlocation(1,"Thaliastraße/Haberlgasse").
+sequence(1,0, "Blumengasse").
 person(2).
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Sahulkastraße").
-restaurant("Sickenberggasse").
-restaurant("Rebhanngasse").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"Spitalgasse/Währinger Straße").
+sequence(2,0, "Großjedlersdorf").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Zentralfriedhof").
+restaurant("Thaliastraße/Maroltingergasse").
+restaurant("Marx-Meidlinger-Straße").

@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Oberlaa, Therme Wien").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Guntersdorf Bahnhof").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Stollgasse").
+initlocation(1,"Spittelau").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Marienbrücke").
+sequence(1,0, "Kagraner Brücke").
 person(2).
-initlocation($p,"Prater, Hauptallee").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Alser Straße").
-initlocation($p,"Prater, Hauptallee").
-possiblemeetinglocations("Hausleiten Bahnhof").
+initlocation(2,"Blindengasse").
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Anton-Krieger-Gasse").
+initlocation(2,"Kleistgasse").
+sequence(2,0, "Blindengasse").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Guntherstraße").
 possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Althanstraße").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-restaurant("Braunschweiggasse").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Siebenhirten").
-restaurant("Nußdorfer Str/Alserbachstraße").
-restaurant("Josef-Baumann-Gasse").
+restaurant("Linzer Straße/Reinlgasse").
+restaurant("Tesarekplatz").
+restaurant("Siebensterngasse").
+restaurant("Fultonstraße").
+restaurant("Camillo-Sitte-Gasse").

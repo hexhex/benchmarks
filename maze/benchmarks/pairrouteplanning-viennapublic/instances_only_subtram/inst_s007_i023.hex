@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Stollgasse").
-initlocation($p,"Breitenfurter St/Altmannsd Str").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Michelbeuern-AKH").
+initlocation(1,"Linzer Straße/Johnstraße").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Höchstädtplatz").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Hetzendorf").
+sequence(1,0, "Linzer Straße/Johnstraße").
 person(2).
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Zentralfriedhof 4Tor").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Svetelskystraße").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Atzgersdorf").
-possiblemeetinglocations("Canisiusgasse").
-possiblemeetinglocations("Wildgansplatz").
-possiblemeetinglocations("Lainz, Wolkersbergenstraße").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Breitenfurter Str/Liesingbr").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-possiblemeetinglocations("Geiereckstraße").
-restaurant("Schottenring").
-restaurant("Canisiusgasse").
-restaurant("Unteres Belvedere").
-restaurant("Kleistgasse").
-restaurant("Schwechat Bahnhof").
-restaurant("Mistelbach Bahnhof").
-restaurant("Schleiergasse").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Alsegger Straße").
+initlocation(2,"Heinrich-Drimmel-Platz").
+initlocation(2,"Molitorgasse").
+sequence(2,0, "An den langen Lüssen").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Spittelau").
+restaurant("Penzing").
+restaurant("Paradisgasse").
+restaurant("Gloriettegasse").
+restaurant("Aderklaaer Straße").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Atzgersdorfer Straße").
+restaurant("Altes Landgut").

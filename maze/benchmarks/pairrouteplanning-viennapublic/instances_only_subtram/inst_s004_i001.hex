@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Braunhubergasse").
-initlocation($p,"Gaisruck Bahnhof").
+initlocation(1,"Rodaun").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Kardinal-Nagl-Platz").
+sequence(1,0, "Rodaun").
 person(2).
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Autokaderstraße").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Höchstädtplatz").
-initlocation($p,"Marx-Meidlinger-Straße").
-possiblemeetinglocations("Gutraterplatz").
-possiblemeetinglocations("Joachimsthalerplatz").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-restaurant("Floridsdorfer Markt").
-restaurant("Aspern, Oberdorfstraße").
-restaurant("Lerchenfelder Straße").
-restaurant("Neulerchenfelder Str/Brunneng").
+initlocation(2,"Kölblgasse").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Nordwestbahnstraße").
+initlocation(2,"Höbersdorf Bahnhof").
+sequence(2,0, "Kölblgasse").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Laurenzgasse").
+restaurant("Unteres Belvedere").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Siebertgasse").

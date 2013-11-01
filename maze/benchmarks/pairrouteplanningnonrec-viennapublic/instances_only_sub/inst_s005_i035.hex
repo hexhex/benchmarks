@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Herzogenburg Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Seyring Bahnhof").
+sequence(1,0, "Stephansplatz").
 person(2).
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Münchendorf Bahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Tscherttegasse").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Stadion").
-restaurant("Lobau").
-restaurant("Friedensbrücke").
-restaurant("Grillgasse").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+sequence(2,0, "Hausleiten Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+restaurant("Hietzing").
+restaurant("Seestadt").
+restaurant("Retz Bahnhof").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Großfeldsiedlung").

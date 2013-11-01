@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Oberlaa, Therme Wien").
-initlocation($p,"Hopfengasse").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Döblinger Bad").
-initlocation($p,"Schönborn Bahnhof").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Quellenstraße/Knöllgasse").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Landstraße-Wien Mitte").
+sequence(1,0, "Dornbacher Straße").
 person(2).
-initlocation($p,"Stammersdorf").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Canisiusgasse").
-initlocation($p,"Stadlergasse").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Stammersdorf").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Stubentor").
-restaurant("Friedensbrücke").
-restaurant("Absberggasse").
-restaurant("Pilgramgasse").
-restaurant("Gutraterplatz").
-restaurant("Neulerchenfelder Str/Haberlg").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Johannes-Krawarik-Gasse").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Carminweg").
+initlocation(2,"Joachimsthalerplatz").
+initlocation(2,"Otto-Probst-Straße").
+initlocation(2,"Simonygasse").
+sequence(2,0, "Untereggendorf Bahnhof").
+possiblemeetinglocations("Rosensteingasse").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+restaurant("Viehofen Bahnhof").
+restaurant("Dresdner Straße").
+restaurant("Koppstraße/Panikengasse").
+restaurant("Rampengasse").
+restaurant("Praterkai").
+restaurant("Donauinsel").
+restaurant("Josef-Baumann-Gasse").

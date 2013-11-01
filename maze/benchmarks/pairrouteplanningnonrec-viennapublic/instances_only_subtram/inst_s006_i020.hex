@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Van-Swieten-Kaserne").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Van-Swieten-Kaserne").
+initlocation(1,"Alser Straße").
+initlocation(1,"Mayerhofgasse").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Kaiserstraße/Westbahnstraße").
+initlocation(1,"Quartier Belvedere").
+sequence(1,0, "Alser Straße").
 person(2).
-initlocation($p,"Siebenhirten").
-initlocation($p,"Columbusplatz").
-initlocation($p,"Hohe Warte").
-initlocation($p,"Sillerplatz").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Shuttleworthstraße").
-initlocation($p,"Siebenhirten").
-possiblemeetinglocations("Hildebrandgasse").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Versorgungsheimplatz").
-possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Josefstädter Straße").
-restaurant("Molitorgasse").
-restaurant("Plößlgasse").
-restaurant("Theresienfeld Bahnhof").
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Thaliastraße/Feßtgasse").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Rothneusiedl").
+sequence(2,0, "Kaiserstraße/Burggasse").
+possiblemeetinglocations("Stammersdorf").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Aßmayergasse").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Yppengasse").
+possiblemeetinglocations("Siebensterngasse").
+restaurant("Oberdöbling").
+restaurant("Wienerfeldgasse").
+restaurant("Brünner Straße").
+restaurant("Penzinger Straße").
+restaurant("Simmering").
+restaurant("Nordwestbahnstraße").

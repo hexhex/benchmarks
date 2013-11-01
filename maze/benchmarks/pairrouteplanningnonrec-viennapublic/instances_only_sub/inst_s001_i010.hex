@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Schleinbach Bahnhof").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+sequence(1,0, "Pottendorf-Landegg Bahnhof").
 person(2).
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Karlsplatz").
-restaurant("Ebenfurth Bahnhof").
+initlocation(2,"Schönborn Bahnhof").
+sequence(2,0, "Schönborn Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Hofstatt Bahnhof").

@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Leopoldau").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Unter Sankt Veit").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Stadlau").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Strebersdorf").
+sequence(1,0, "Ulrichskirchen Bahnhof").
 person(2).
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Haidestraße").
-initlocation($p,"Hernals").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Hadersdorf Bahnhof").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Braunschweiggasse").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-restaurant("Josefstädter Straße").
-restaurant("Donauspital").
-restaurant("Münchendorf Bahnhof").
-restaurant("Penzing").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Reumannplatz").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Schönborn Bahnhof").
-restaurant("Höflein an der Donau Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+sequence(2,0, "Rennweg").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Margaretengürtel").
+restaurant("Zippererstraße").
+restaurant("Kaiserebersdorf").
+restaurant("Mistelbach Bahnhof").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Donauinsel").
+restaurant("Atzgersdorf").
+restaurant("Schwechat Bahnhof").

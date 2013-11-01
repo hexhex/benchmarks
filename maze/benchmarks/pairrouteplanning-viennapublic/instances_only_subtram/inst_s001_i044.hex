@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Blindengasse").
-initlocation($p,"Blindengasse").
+initlocation(1,"Alterlaa").
+sequence(1,0, "Alterlaa").
 person(2).
-initlocation($p,"Erndtgasse").
-initlocation($p,"Erndtgasse").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-restaurant("Weigelsdorf Bahnhof").
+initlocation(2,"Schloss Belvedere").
+sequence(2,0, "Schloss Belvedere").
+possiblemeetinglocations("Maurer Hauptplatz").
+restaurant("Sechskrügelgasse").

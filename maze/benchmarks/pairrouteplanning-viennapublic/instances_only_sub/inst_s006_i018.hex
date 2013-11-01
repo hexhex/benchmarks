@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Längenfeldgasse").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+sequence(1,0, "Himberg Bahnhof").
 person(2).
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Pilgramgasse").
-possiblemeetinglocations("Roßauer Lände").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Roßauer Lände").
+sequence(2,0, "Wampersdorf Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
 possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Gaisruck Bahnhof").
-restaurant("Burggasse-Stadthalle").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Tulln Stadt Bahnhof").
-restaurant("Oberolberndorf Bahnhof").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Kaiserebersdorf").
+restaurant("Krottenbachstraße").
+restaurant("Handelskai").
+restaurant("Hofstatt Bahnhof").
+restaurant("Mödling Bahnhof").

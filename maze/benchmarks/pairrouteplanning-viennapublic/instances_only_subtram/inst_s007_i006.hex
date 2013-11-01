@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Schottentor").
-initlocation($p,"Hoßplatz").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Marienbrücke").
-initlocation($p,"Gerasdorf Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Kagraner Brücke").
+initlocation(1,"Schuhmeierplatz").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+sequence(1,0, "Südtiroler Platz/Hauptbahnhof").
 person(2).
-initlocation($p,"Beingasse").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Sieveringer Straße").
-initlocation($p,"Beingasse").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Mayerhofgasse").
-possiblemeetinglocations("Thaliastraße/Feßtgasse").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Hauffgasse").
-possiblemeetinglocations("Johann-Strauß-Gasse").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Anschützgasse").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Blumengasse").
-restaurant("Erndtgasse").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Satzberggasse").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Alterlaa").
+initlocation(2,"Donauinsel").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Guntherstraße").
+sequence(2,0, "Dürrwien Bahnhof").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Stadiongasse/Parlament").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Stadtpark").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Laudongasse").
+restaurant("Zippererstraße").
+restaurant("Verbindungsbahn").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Schönbrunn").

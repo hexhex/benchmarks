@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Empergergasse").
+initlocation(1,"An den langen Lüssen").
+sequence(1,0, "Empergergasse").
 person(2).
-initlocation($p,"Mayssengasse").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Mayssengasse").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Karlsplatz").
-restaurant("Liesing").
-restaurant("Otto-Probst-Straße").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+sequence(2,0, "Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+restaurant("Gerhardusgasse").
+restaurant("Meidling Hauptstraße").

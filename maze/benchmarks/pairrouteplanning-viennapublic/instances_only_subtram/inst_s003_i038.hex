@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Atzgersdorfer Straße").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Ulrichskirchen Bahnhof").
+initlocation(1,"Thaliastraße/Haberlgasse").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Baumgarten").
+sequence(1,0, "Thaliastraße/Haberlgasse").
 person(2).
-initlocation($p,"Schleiergasse").
-initlocation($p,"Döblinger Hauptstr/Gatterburgg").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Schleiergasse").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Wenzgasse").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Untereggendorf Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Stollgasse").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+sequence(2,0, "Gersthof").
+possiblemeetinglocations("Schloss Belvedere").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Taubstummengasse").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Ungargasse/Neulinggasse").
+restaurant("Höchstädtplatz").

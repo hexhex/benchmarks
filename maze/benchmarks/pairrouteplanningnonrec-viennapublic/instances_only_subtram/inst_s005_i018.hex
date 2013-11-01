@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Gatterburggasse").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Wattmanngasse").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Karmeliterplatz").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Hoßplatz").
+sequence(1,0, "Siebenhirten").
 person(2).
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Rodaun").
-initlocation($p,"Margaretengürtel/Arbeitergasse").
-initlocation($p,"Münchendorf Bahnhof").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Zentralfriedhof").
-restaurant("Erzherzog-Karl-Straße").
-restaurant("Donaumarina").
-restaurant("Carabelligasse").
-restaurant("Frödenplatz").
-restaurant("Ebenfurth Bahnhof").
+initlocation(2,"Löwengasse").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Alsegger Straße").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Seegasse").
+sequence(2,0, "Löwengasse").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Weinheimergasse").
+restaurant("Neubaugasse").
+restaurant("Münchendorf Bahnhof").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Neue Donau").
+restaurant("Paasdorf Bahnhof").

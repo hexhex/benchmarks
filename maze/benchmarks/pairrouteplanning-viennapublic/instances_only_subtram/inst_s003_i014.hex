@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Maurer Hauptplatz").
-initlocation($p,"Sechskrügelgasse").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Johnstraße").
+sequence(1,0, "Gemeinlebarn Bahnhof").
 person(2).
-initlocation($p,"Hintere Zollamtsstraße").
-initlocation($p,"Himmelmutterweg").
-initlocation($p,"Gewerbepark Stadlau Mitte").
-initlocation($p,"Hintere Zollamtsstraße").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Römergasse").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-restaurant("Seestadt").
-restaurant("Schottenring").
-restaurant("Thaliastraße/Feßtgasse").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Heinrich-Drimmel-Platz").
+sequence(2,0, "Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Litfaßstraße").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Schönborn Bahnhof").
+restaurant("Römergasse").
+restaurant("Paasdorf Bahnhof").
+restaurant("Rennbahnweg").

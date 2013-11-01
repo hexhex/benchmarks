@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Döblinger Bad").
-initlocation($p,"Döblinger Bad").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+sequence(1,0, "Thaliastraße/Maroltingergasse").
 person(2).
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-possiblemeetinglocations("Neuwaldegg").
-restaurant("Obersdorf Bahnhof").
+initlocation(2,"Favoritenstraße/Troststraße").
+sequence(2,0, "Favoritenstraße/Troststraße").
+possiblemeetinglocations("Zippererstraße").
+restaurant("Leopoldau").

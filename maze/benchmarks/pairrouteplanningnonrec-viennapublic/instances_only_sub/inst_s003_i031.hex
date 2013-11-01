@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Keplerplatz").
+sequence(1,0, "Muckendorf-Wipfing Bahnhof").
 person(2).
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-possiblemeetinglocations("Fischamend Bahnhof").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Hietzing").
-restaurant("Trasdorf Bahnhof").
-restaurant("Museumsquartier").
-restaurant("Preyergasse/Speising").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+sequence(2,0, "Schwechat Bahnhof").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Blumental").
+restaurant("Schleinbach Bahnhof").
+restaurant("Hütteldorfer Straße").
+restaurant("Aspernstraße").

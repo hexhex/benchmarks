@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Erdberg").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Pfaffstätten Bahnhof").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Zentralfriedhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+sequence(1,0, "Silberwald Bahnhof").
 person(2).
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Stadion").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Mistelbach Stadt").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-restaurant("Enkplatz").
-restaurant("Paasdorf Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Mödling Bahnhof").
-restaurant("Pottendorf-Landegg Bahnhof").
-restaurant("Strebersdorf").
+initlocation(2,"Nußdorf").
+initlocation(2,"Handelskai").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+sequence(2,0, "Nußdorf").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Penzing").
+restaurant("Unter Sankt Veit").
+restaurant("Perfektastraße").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Gasometer").

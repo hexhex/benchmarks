@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Absberggasse").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+sequence(1,0, "Kärntner Ring/Oper").
 person(2).
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Canisiusgasse").
-initlocation($p,"Schweglerstraße").
-possiblemeetinglocations("Simmering").
-possiblemeetinglocations("Donauzentrum").
-possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-restaurant("Bernhardtstalgasse").
-restaurant("Stadlergasse").
-restaurant("Fichtnergasse").
-restaurant("Marx-Meidlinger-Straße").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Rampengasse").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Versorgungsheimplatz").
+sequence(2,0, "Mannswörth Bahnhof").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Lederergasse").
+restaurant("Atzgersdorfer Straße").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Alser Straße").
+restaurant("Gaußplatz").

@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Stadlau").
-initlocation($p,"Ebenfurth Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Burggasse-Stadthalle").
 person(2).
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Rochusgasse").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Bruck/Leitha Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Helmahof Bahnhof").
+sequence(2,0, "Liesing").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Seestadt").

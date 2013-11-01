@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Grillgasse").
-initlocation($p,"Ebenfurth Bahnhof").
+initlocation(1,"Windtenstraße").
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Heinrich-Drimmel-Platz").
+initlocation(1,"Sonnergasse").
+initlocation(1,"Paradisgasse").
+initlocation(1,"Langenlebarn Bahnhof").
+sequence(1,0, "Windtenstraße").
 person(2).
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Lerchenfelder Straße").
-initlocation($p,"Halteraugasse").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Redtenbachergasse").
-initlocation($p,"Edmund-Hawranek-Platz").
-initlocation($p,"Silberwald Bahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
-possiblemeetinglocations("Weihburggasse").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Fultonstraße").
-restaurant("Brünner Straße").
-restaurant("Leopoldau").
-restaurant("Geiselbergstraße").
-restaurant("Versorgungsheimplatz").
-restaurant("Empergergasse").
+initlocation(2,"Siebertgasse").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Leopoldau").
+sequence(2,0, "Siebertgasse").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Donaustadtstraße").
+possiblemeetinglocations("Pokornygasse").
+restaurant("Brünnlbadgasse").
+restaurant("Burgring").
+restaurant("Gutraterplatz").
+restaurant("Schuhmeierplatz").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Heiligenstadt").
+restaurant("Polkorabplatz").

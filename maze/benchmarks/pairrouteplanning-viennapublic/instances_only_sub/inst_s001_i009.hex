@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Hausfeldstraße").
+sequence(1,0, "Hausfeldstraße").
 person(2).
-initlocation($p,"Keplerplatz").
-initlocation($p,"Keplerplatz").
-possiblemeetinglocations("Sollenau Bahnhof").
-restaurant("Floridsdorf").
+initlocation(2,"Baden Bahnhof").
+sequence(2,0, "Baden Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+restaurant("Platt Bahnhof").

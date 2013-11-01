@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Währinger Straße-Volksoper").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Siemensstraße").
+sequence(1,0, "Traismauer Bahnhof").
 person(2).
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Oberdöbling").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Schottentor").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Nußdorfer Straße").
+sequence(2,0, "Hirschstetten").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Großfeldsiedlung").
+restaurant("Wr Neustadt Nord").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Hardeggasse").
+restaurant("Eichgraben-Altlengbach Bahnhof").

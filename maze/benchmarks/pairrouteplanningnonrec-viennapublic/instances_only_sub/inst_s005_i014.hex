@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Staatz Bahnhof").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Tulln Bahnhof").
+sequence(1,0, "Messe-Prater").
 person(2).
-initlocation($p,"Erdberg").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Erdberg").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Alterlaa").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Krottenbachstraße").
-restaurant("Siebenhirten").
-restaurant("Schleinbach Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Ulrichskirchen Bahnhof").
+sequence(2,0, "Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+restaurant("Spittelau").
+restaurant("Seestadt").
+restaurant("Hütteldorfer Straße").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Wr Neustadt Hauptbahnhof").

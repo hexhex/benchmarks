@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Grinzinger Straße").
-initlocation($p,"Schleiergasse").
-initlocation($p,"Tesarekplatz").
-initlocation($p,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Wittelsbachstraße").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+sequence(1,0, "Plößlgasse").
 person(2).
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Langenlebarn Bahnhof").
-possiblemeetinglocations("Am Heumarkt").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Skodagasse").
-restaurant("Schlachthausgasse").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Hollabrunn Bahnhof").
-restaurant("Am Heumarkt").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Arthaberplatz").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Neulerchenfelder Str/Haberlg").
+initlocation(2,"Hollabrunn Bahnhof").
+sequence(2,0, "Prandaugasse").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Otto-Probst-Platz").
+restaurant("Burggasse-Stadthalle").
+restaurant("Sollenau Bahnhof").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Wexstraße").

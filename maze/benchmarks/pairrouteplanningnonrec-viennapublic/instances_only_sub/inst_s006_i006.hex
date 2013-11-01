@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Kagran").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Kagran").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Grillgasse").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+sequence(1,0, "Weigelsdorf Bahnhof").
 person(2).
-initlocation($p,"Lobau").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Stadtpark").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Lobau").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("Zieglergasse").
-restaurant("Zieglergasse").
-restaurant("Pfaffstätten Bahnhof").
-restaurant("Hausfeldstraße").
-restaurant("Himberg Bahnhof").
-restaurant("Franz-Josefs-Bahnhof").
-restaurant("Roßauer Lände").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Neue Donau").
+sequence(2,0, "Kottingbrunn Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Josefstädter Straße").
+restaurant("Schlachthausgasse").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Stadion").
+restaurant("Schottenring").

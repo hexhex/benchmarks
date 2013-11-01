@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Hütteldorf").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Hütteldorf").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+sequence(1,0, "Sarasdorf Bahnhof").
 person(2).
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Wolkersdorf Bahnhof").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-restaurant("Platt Bahnhof").
-restaurant("Tulln Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Gersthof").
+sequence(2,0, "Zentralfriedhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Neulengbach Bahnhof").
+restaurant("Sankt Marx").
+restaurant("Wolkersdorf Bahnhof").

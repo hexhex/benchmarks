@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Sierndorf Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Johnstraße").
+sequence(1,0, "Enkplatz").
 person(2).
-initlocation($p,"Rathaus").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Rathaus").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-restaurant("Hollabrunn Bahnhof").
-restaurant("Bahnhof Meidling").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Hetzendorf").
+sequence(2,0, "Währinger Straße-Volksoper").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+restaurant("Spittelau").
+restaurant("Unterpurkersdorf Bahnhof").

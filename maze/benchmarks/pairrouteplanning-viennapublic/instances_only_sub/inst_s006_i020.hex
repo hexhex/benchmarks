@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Hetzendorf").
-initlocation($p,"Donauinsel").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Hetzendorf").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Rathaus").
+initlocation(1,"Kledering Bahnhof").
+sequence(1,0, "Karlsplatz").
 person(2).
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Taubstummengasse").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Strebersdorf").
-possiblemeetinglocations("Siebenhirten").
-restaurant("Floridsdorf").
-restaurant("Thaliastraße").
-restaurant("Platt Bahnhof").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Michelhausen Bahnhof").
-restaurant("Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Niederhofstraße").
+sequence(2,0, "Weidlingau Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Keplerplatz").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Josefstädter Straße").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Franz-Josefs-Bahnhof").

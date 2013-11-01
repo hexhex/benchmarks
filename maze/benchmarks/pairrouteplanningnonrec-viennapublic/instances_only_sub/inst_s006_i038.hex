@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Enkplatz").
-initlocation($p,"Hietzing").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+sequence(1,0, "Krottenbachstraße").
 person(2).
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Seestadt").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Alterlaa").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Donauinsel").
+initlocation(2,"Johnstraße").
+initlocation(2,"Nußdorf").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+sequence(2,0, "Johnstraße").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Stephansplatz").
 possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-restaurant("Hollabrunn Bahnhof").
-restaurant("Stadion").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Preyergasse/Speising").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Alte Donau").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Rathaus").
+restaurant("Karlsplatz").
+restaurant("Oberdöbling").
+restaurant("Jedlersdorf").
+restaurant("Kottingbrunn Bahnhof").

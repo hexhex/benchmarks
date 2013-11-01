@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Schloss Belvedere").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Frättingsdorf Bahnhof").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Wittelsbachstraße").
+sequence(1,0, "Klosterneuburg-Kierling Bf").
 person(2).
-initlocation($p,"Linzer Straße/Zehetnergasse").
-initlocation($p,"Stadlau").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Linzer Straße/Zehetnergasse").
-possiblemeetinglocations("Herbeckstraße").
-possiblemeetinglocations("Marienbrücke").
-possiblemeetinglocations("Alterlaa").
-restaurant("Vorgartenstraße").
-restaurant("Leobersdorf Bahnhof").
-restaurant("Sarasdorf Bahnhof").
+initlocation(2,"Sonnergasse").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+sequence(2,0, "Sonnergasse").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Knöllgasse/Troststraße").
+restaurant("Laaer-Berg-Straße").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Rosenhügelstraße").

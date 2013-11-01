@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Baumgarten").
-initlocation($p,"Nußdorf, Beethovengang").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Baumgarten").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Traisengasse").
+sequence(1,0, "Donauzentrum").
 person(2).
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Siebertgasse").
-initlocation($p,"Linzer Straße/Zehetnergasse").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Tulln Stadt Bahnhof").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
-possiblemeetinglocations("Baumgasse").
-possiblemeetinglocations("Dornbacher Straße").
-restaurant("Yppengasse").
-restaurant("Nußdorf").
-restaurant("Stadiongasse/Parlament").
-restaurant("Aspern Nord").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Schwarzenbergplatz").
+sequence(2,0, "Lerchenfelder Straße").
+possiblemeetinglocations("Stadiongasse/Parlament").
+possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
+possiblemeetinglocations("Otto-Probst-Platz").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+restaurant("Obere Donaustraße").
+restaurant("Schwedenplatz").
+restaurant("Hofstatt Bahnhof").
+restaurant("Roßauer Lände").

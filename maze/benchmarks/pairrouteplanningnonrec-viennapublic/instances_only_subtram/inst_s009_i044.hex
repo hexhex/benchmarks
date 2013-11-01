@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Leberberg").
-initlocation($p,"Heinrich-Drimmel-Platz").
-initlocation($p,"Strozzigasse").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Unter St Veit, Hummelgasse").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Stollgasse").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Stephansplatz").
+sequence(1,0, "Bisamberg Bahnhof").
 person(2).
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Alser Straße").
-initlocation($p,"Schmerlingplatz").
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Lazarettgasse").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Nestroyplatz").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Wallensteinplatz").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Rosensteingasse").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Guntherstraße").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Salztorbrücke").
-restaurant("Herrengasse").
-restaurant("Staglgasse").
-restaurant("Kranzgasse").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Guntramsdorf-Thallern").
-restaurant("Paradisgasse").
-restaurant("Dürrwien Bahnhof").
-restaurant("Siebertgasse").
-restaurant("Schottenring").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+initlocation(2,"Penzing").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Blumengasse").
+initlocation(2,"Lederergasse").
+initlocation(2,"Leyserstraße").
+initlocation(2,"Am Spitz").
+initlocation(2,"Tscherttegasse").
+sequence(2,0, "Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+restaurant("Brünnlbadgasse").
+restaurant("Traismauer Bahnhof").
+restaurant("Lederergasse").
+restaurant("Dresdner Straße").
+restaurant("Radetzkyplatz").
+restaurant("Prandaugasse").
+restaurant("Kaiserstraße/Burggasse").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Matthäus-Jiszda-Straße").

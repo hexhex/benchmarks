@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Wr Neustadt Nord").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Schottenring").
+sequence(1,0, "Wr Neustadt Hauptbahnhof").
 person(2).
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Krottenbachstraße").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Geiselbergstraße").
-restaurant("Tulln Bahnhof").
-restaurant("Parndorf Ort Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Neusiedl am See Bahnhof").
+sequence(2,0, "Guntramsdorf-Thallern").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Langenzersdorf Bahnhof").

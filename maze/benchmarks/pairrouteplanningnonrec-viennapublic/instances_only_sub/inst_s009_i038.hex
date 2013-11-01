@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Kaisermühlen-VIC").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Michelhausen Bahnhof").
+sequence(1,0, "Sitzenberg-Reidling Bahnhof").
 person(2).
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Ottakring").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Kettenbrückengasse").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-restaurant("Westbahnhof").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Penzing").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Süßenbrunn").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Trautmannsdorf/Leitha Bf").
-restaurant("Kottingneusiedl Bahnhof").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Haidestraße").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+sequence(2,0, "Wampersdorf Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Aspern Nord").
+restaurant("Roßauer Lände").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Hausleiten Bahnhof").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Weidlingau Bahnhof").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Klosterneuburg-Kierling Bf").

@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Hernals").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Hernals").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Schloss Schönbrunn").
+sequence(1,0, "Aspernstraße").
 person(2).
-initlocation($p,"Valiergasse").
-initlocation($p,"Aspern, Oberdorfstraße").
-initlocation($p,"Valiergasse").
-possiblemeetinglocations("Gredlerstraße").
-possiblemeetinglocations("Fickeysstraße").
-restaurant("Schloss Hetzendorf").
-restaurant("Hermesstraße").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Schuhmeierplatz").
+sequence(2,0, "Leobersdorf Bahnhof").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Anton-Krieger-Gasse").

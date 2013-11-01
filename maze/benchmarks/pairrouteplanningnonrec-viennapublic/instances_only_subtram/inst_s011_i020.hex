@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Nordwestbahnstraße").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Rathausplatz/Burgtheater").
-initlocation($p,"Julius-Raab-Platz").
-initlocation($p,"Svetelskystraße").
-initlocation($p,"Molitorgasse").
-initlocation($p,"Dresdner Straße").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Wexstraße").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Sonnergasse").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+sequence(1,0, "Sitzenberg-Reidling Bahnhof").
 person(2).
-initlocation($p,"Zieglergasse").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
-initlocation($p,"Döblinger Bad").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Halteraugasse").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Zieglergasse").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Kagraner Brücke").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Vinzenzgasse").
-possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
-possiblemeetinglocations("Hohe Warte").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Neilreichgasse").
-restaurant("Herrengasse").
-restaurant("Volkstheater").
-restaurant("Braunschweiggasse").
-restaurant("Hirschstetten").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Gunoldstraße").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Rodaun").
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Gersthof").
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Johann-Nepomuk-Berger-Platz").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Wienerfeldgasse").
+initlocation(2,"Josef-Baumann-Gasse").
+sequence(2,0, "Regelsbrunn Bahnhof").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Huglgasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Schottenfeldgasse").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Spillern Bahnhof").
+restaurant("Zentralfriedhof 1Tor").
+restaurant("Tesarekplatz").
+restaurant("Hütteldorfer Straße").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Julius-Raab-Platz").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Fickeysstraße").
 restaurant("Weinhauser Gasse").
-restaurant("Linzer Straße/Reinlgasse").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Gaußplatz").
-restaurant("Gumpendorfer Straße").

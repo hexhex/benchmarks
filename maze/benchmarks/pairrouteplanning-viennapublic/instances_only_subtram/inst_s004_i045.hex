@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Donauzentrum").
-initlocation($p,"Taborstraße").
-initlocation($p,"Baumgarten").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Donauzentrum").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Traismauer Bahnhof").
+sequence(1,0, "Josefstädter Straße").
 person(2).
-initlocation($p,"Leopoldau").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Oberfeldgasse/Spargelfeldstr").
-initlocation($p,"Leopoldau").
-possiblemeetinglocations("Gusenleithnergasse").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Löwengasse").
-possiblemeetinglocations("Hernals").
-restaurant("Am Spitz").
-restaurant("Staatz Bahnhof").
-restaurant("Teichgasse").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Fasangasse").
+initlocation(2,"Skodagasse").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+sequence(2,0, "Zieglergasse").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+restaurant("Michelbeuern-AKH").
+restaurant("Raxstraße/Rudolfshügelgasse").
 restaurant("Stubentor").
+restaurant("Zehetnerg/Pflegeh Baumgarten").

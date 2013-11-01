@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Donaustadtbrücke").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Stadiongasse/Parlament").
+sequence(1,0, "Eichgraben-Altlengbach Bahnhof").
 person(2).
-initlocation($p,"Praterkai").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Praterkai").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Innstraße").
-possiblemeetinglocations("Wienerfeldgasse").
-restaurant("Praterstern").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Gunoldstraße").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Joachimsthalerplatz").
+initlocation(2,"Gersthof").
+sequence(2,0, "Guntersdorf Bahnhof").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+restaurant("Kaiserstraße/Westbahnstraße").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Schönbrunn").

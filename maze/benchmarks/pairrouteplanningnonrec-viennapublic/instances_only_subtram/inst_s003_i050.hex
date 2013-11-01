@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Bahnsteggasse").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Bahnsteggasse").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Stollgasse").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+sequence(1,0, "Parndorf Ort Bahnhof").
 person(2).
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Sickenberggasse").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Reinlgasse/Märzstraße").
-possiblemeetinglocations("Friedensbrücke").
-restaurant("Hollabrunn Bahnhof").
-restaurant("Höchstädtplatz").
-restaurant("Am Schöpfwerk").
+initlocation(2,"Praterstern").
+initlocation(2,"Wallensteinplatz").
+initlocation(2,"Rennbahnweg").
+sequence(2,0, "Praterstern").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+restaurant("Sieveringer Straße").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Breitenfurter Str/Liesingbr").

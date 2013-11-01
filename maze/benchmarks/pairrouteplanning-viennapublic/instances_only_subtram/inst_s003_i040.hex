@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Bauernfeldplatz").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Bauernfeldplatz").
+initlocation(1,"Am Tabor").
+initlocation(1,"Prinzgasse").
+initlocation(1,"Wolf in der Au").
+sequence(1,0, "Am Tabor").
 person(2).
-initlocation($p,"Van-Swieten-Kaserne").
-initlocation($p,"Lerchenfelder Straße").
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Van-Swieten-Kaserne").
-possiblemeetinglocations("Alsegger Straße").
-possiblemeetinglocations("Dommayergasse").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-restaurant("Jagdschloßgasse").
-restaurant("Aßmayergasse").
-restaurant("Quartier Belvedere").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Innstraße").
+sequence(2,0, "Floridsdorfer Markt").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+restaurant("Aumannplatz").
+restaurant("Stadion").
+restaurant("Kraygasse").

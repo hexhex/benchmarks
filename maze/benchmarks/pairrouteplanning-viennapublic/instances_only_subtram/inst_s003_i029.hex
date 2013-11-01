@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Donaustadtbrücke").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Hernals").
+initlocation(1,"Mödling Bahnhof").
+sequence(1,0, "Langobardenstraße").
 person(2).
-initlocation($p,"Valiergasse").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Am Spitz").
-initlocation($p,"Valiergasse").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Langobardenstraße/Kapellenweg").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-restaurant("Hietzing").
-restaurant("Althanstraße").
-restaurant("Obereggendorf Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Beingasse").
+initlocation(2,"Schwedenplatz").
+sequence(2,0, "Josefstädter Straße").
+possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Nordbahnstraße").
+restaurant("Zentralfriedhof").

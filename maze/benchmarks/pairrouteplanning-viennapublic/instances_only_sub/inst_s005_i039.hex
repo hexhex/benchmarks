@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Herzogenburg Bahnhof").
+initlocation(1,"Stadion").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+sequence(1,0, "Stadion").
 person(2).
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Volkstheater").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Sarasdorf Bahnhof").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-restaurant("Schwedenplatz").
-restaurant("Handelskai").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Simmering").
-restaurant("Westbahnhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Stadtpark").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Sierndorf Bahnhof").
+sequence(2,0, "Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+restaurant("Paasdorf Bahnhof").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Mannswörth Bahnhof").
+restaurant("Hietzing").

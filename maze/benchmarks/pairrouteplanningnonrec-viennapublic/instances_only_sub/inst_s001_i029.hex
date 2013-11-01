@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Bisamberg Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+sequence(1,0, "Helmahof Bahnhof").
 person(2).
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-restaurant("Gasometer").
+initlocation(2,"Schwechat Bahnhof").
+sequence(2,0, "Schwechat Bahnhof").
+possiblemeetinglocations("Retz Bahnhof").
+restaurant("Braunschweiggasse").

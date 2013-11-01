@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Am Tabor").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Obere Donaustraße").
-initlocation($p,"Erlaaer Straße").
+initlocation(1,"Marienbrücke").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Molitorgasse").
+sequence(1,0, "Marienbrücke").
 person(2).
-initlocation($p,"Rennweg").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Sonnergasse").
-initlocation($p,"Albertgasse").
-initlocation($p,"Volkstheater").
-initlocation($p,"Rennweg").
-possiblemeetinglocations("Gusenleithnergasse").
-possiblemeetinglocations("Koloniestraße").
-possiblemeetinglocations("Frödenplatz").
-possiblemeetinglocations("Johann-Strauß-Gasse").
-possiblemeetinglocations("Absberggasse").
-restaurant("Kutschkergasse").
-restaurant("Seyring Bahnhof").
-restaurant("Herrengasse").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Satzberggasse").
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Praterstern").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Schlachthausgasse").
+sequence(2,0, "Auerspergstraße").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Krieau").
+restaurant("Bad Vöslau Bahnhof").
+restaurant("Valiergasse").
+restaurant("Skodagasse").
+restaurant("Hohe Warte").
+restaurant("Litfaßstraße").

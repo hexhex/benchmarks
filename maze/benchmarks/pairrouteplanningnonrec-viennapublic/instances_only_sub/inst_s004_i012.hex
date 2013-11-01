@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Guntramsdorf-Thallern").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Museumsquartier").
+sequence(1,0, "Schleinbach Bahnhof").
 person(2).
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Rennbahnweg").
-possiblemeetinglocations("Blumental").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Gramatneusiedl Bahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Neubaugasse").
+sequence(2,0, "Höbersdorf Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Trasdorf Bahnhof").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Strozzigasse").
-initlocation($p,"Baumgarten").
-initlocation($p,"Salztorbrücke").
-initlocation($p,"Hopfengasse").
-initlocation($p,"Langenzersdorf Bahnhof").
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Baumgasse").
+initlocation(1,"Aumannplatz").
+sequence(1,0, "Rebhanngasse").
 person(2).
-initlocation($p,"Sillerplatz").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Marienbrücke").
-initlocation($p,"Aspern, Oberdorfstraße").
-initlocation($p,"Gasometer").
-initlocation($p,"Donauinsel").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Sillerplatz").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Schmerlingplatz").
-possiblemeetinglocations("Blechturmgasse").
-possiblemeetinglocations("Otto-Probst-Straße").
-possiblemeetinglocations("Karmeliterplatz").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Dresdner Straße").
-restaurant("Himmelmutterweg").
-restaurant("Wilhelminenstraße/Wattgasse").
-restaurant("Pressbaum Bahnhof").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Süßenbrunn").
-restaurant("Konstanziagasse").
-restaurant("Wexstraße").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Hopfengasse").
+sequence(2,0, "Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Lange Gasse").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+restaurant("Mistelbach Bahnhof").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Wr Neustadt Nord").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Landesgerichtsstraße").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Obere Augartenstraße").

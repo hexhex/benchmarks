@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Baumgarten").
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Rampengasse").
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Kranzgasse").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Knöllgasse/Davidgasse").
+initlocation(1,"Stefan-Fadinger-Platz").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Prinzgasse").
+initlocation(1,"Rothneusiedl").
+sequence(1,0, "Linzer Straße/Lützowgasse").
 person(2).
-initlocation($p,"Jägerstraße").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Stollgasse").
-initlocation($p,"Stockholmer Platz").
-initlocation($p,"Zieglergasse/Westbahnstraße").
-initlocation($p,"Hohe Warte").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Jägerstraße").
-possiblemeetinglocations("Bahnsteggasse").
-possiblemeetinglocations("Huglgasse").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Viehmarktgasse").
-possiblemeetinglocations("Siebensterngasse").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Carabelligasse").
-possiblemeetinglocations("Guntherstraße").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Unteres Belvedere").
-restaurant("Wr Neustadt Nord").
-restaurant("Neubaugasse/Westbahnstraße").
-restaurant("Rodaun").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Floridsdorfer Markt").
-restaurant("Perfektastraße").
-restaurant("Gewerbepark Stadlau Mitte").
-restaurant("Knöllgasse/Davidgasse").
-restaurant("Hauptbahnhof Ost").
-restaurant("Weißenböckstraße").
-restaurant("Untereggendorf Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Jagdschloßgasse").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Weihburggasse").
+initlocation(2,"Marxergasse").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Sensengasse").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Rustengasse").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+sequence(2,0, "Strasshof Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Stadiongasse/Parlament").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Wildgansplatz").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+restaurant("Neilreichgasse").
+restaurant("Schloss Schönbrunn").
+restaurant("Sensengasse").
+restaurant("Jedlersdorf").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Erdbergstr/Schlachthausgasse").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Ober Sankt Veit").
+restaurant("Löwengasse").
+restaurant("Traismauer Bahnhof").
+restaurant("Siebensterngasse").

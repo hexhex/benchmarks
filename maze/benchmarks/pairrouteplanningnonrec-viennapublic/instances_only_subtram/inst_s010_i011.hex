@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Friedrich-Engels-Platz").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Albertgasse").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Schloss Schönbrunn").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Obere Augartenstraße").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Friedrich-Engels-Platz").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Marienbrücke").
+initlocation(1,"Flughafen Wien (VIE). Bahnhof").
+initlocation(1,"Stiftgasse").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Perntergasse").
+initlocation(1,"Gatterburggasse").
+initlocation(1,"Simonygasse").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+sequence(1,0, "Wr Neustadt Civitas Nova").
 person(2).
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Perntergasse").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Wienerfeldgasse").
-initlocation($p,"Mödling Bahnhof").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Waidhausenstraße").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Migerkastraße").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Am Tabor").
-possiblemeetinglocations("Rampengasse").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-restaurant("Siebensterngasse").
-restaurant("Börsegasse/Wipplingerstraße").
-restaurant("Lerchenfelder Straße").
-restaurant("Julius-Raab-Platz").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Sonnergasse").
+initlocation(2,"Thaliastraße/Brunnengasse").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Litfaßstraße").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Kaiserstraße").
+initlocation(2,"Gredlerstraße").
+initlocation(2,"Waidhausenstraße").
+sequence(2,0, "Sechskrügelgasse").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Erlaaer Straße").
+restaurant("Strozzigasse").
+restaurant("Geiselbergstraße").
+restaurant("Trondheimgasse").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Krieau").
+restaurant("Rennbahnweg").
+restaurant("Nestroyplatz").
 restaurant("Josefstädter Straße").
-restaurant("Großfeldsiedlung").
-restaurant("Rothneusiedl").
-restaurant("Hardeggasse").
-restaurant("Ottakringer Straße/Wattgasse").
-restaurant("Urban-Loritz-Platz").
+restaurant("Hauffgasse").
+restaurant("Wilfleinsdorf Bahnhof").

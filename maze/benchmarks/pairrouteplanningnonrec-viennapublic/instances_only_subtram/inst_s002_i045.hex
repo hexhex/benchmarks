@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Svetelskystraße").
-initlocation($p,"Stefan-Fadinger-Platz").
-initlocation($p,"Svetelskystraße").
+initlocation(1,"Praterstern").
+initlocation(1,"Pilgramgasse").
+sequence(1,0, "Praterstern").
 person(2).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Linzer Straße/Johnstraße").
-initlocation($p,"Kagraner Platz").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Sickenberggasse").
-restaurant("Hardtgasse").
-restaurant("Haidestraße").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Albertgasse").
+sequence(2,0, "Tulln Bahnhof").
+possiblemeetinglocations("Unteres Belvedere").
+possiblemeetinglocations("Alte Donau").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Schwedenplatz").

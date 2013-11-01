@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Stiftgasse").
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Krieau").
-initlocation($p,"Sieveringer Straße").
-initlocation($p,"Stiftgasse").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Polgarstraße").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Absberggasse").
+initlocation(1,"Braunhubergasse").
+initlocation(1,"Wilhelminenstraße/Wattgasse").
+sequence(1,0, "Columbusplatz").
 person(2).
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Altes Landgut").
-initlocation($p,"Handelskai").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Zentralfriedhof").
-possiblemeetinglocations("Donauzentrum").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Brigittaplatz").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Altes Landgut").
-restaurant("Blechturmgasse").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Joachimsthalerplatz").
-restaurant("Platt Bahnhof").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Dornbacher Straße").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Hubertusdamm").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Jagdschloßgasse").
+initlocation(2,"Huglgasse").
+sequence(2,0, "Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Kettenbrückengasse").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Gutraterplatz").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Hermesstraße").
+restaurant("Liechtenwerder Platz").
+restaurant("Weinheimergasse").
+restaurant("Westbahnhof").
+restaurant("Margaretengürtel").
+restaurant("Krottenbachstraße").

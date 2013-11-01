@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Leopoldau").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Gersthof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Wolfsthal Bahnhof").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Simmering").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Seestadt").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+sequence(1,0, "Bisamberg Bahnhof").
 person(2).
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Johnstraße").
-initlocation($p,"Traisengasse").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Langenlebarn Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Schottenring").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Volkstheater").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Taborstraße").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Ober Sankt Veit").
+sequence(2,0, "Vorgartenstraße").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
 possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Brünner Straße").
 possiblemeetinglocations("Obersdorf Bahnhof").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Weidlingau Bahnhof").
-restaurant("Ottakring").
-restaurant("Kendlerstraße").
-restaurant("St Pölten Hauptbahnhof").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Gumpendorfer Straße").
-restaurant("Viehofen Bahnhof").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Roßauer Lände").
-restaurant("Kettenbrückengasse").
-restaurant("Matzleinsdorfer Platz").
+possiblemeetinglocations("Alte Donau").
+restaurant("Rathaus").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Erlaaer Straße").
+restaurant("Erdberg").
+restaurant("Schweglerstraße").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Unter Sankt Veit").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Praterstern").
+restaurant("Karlsplatz").
+restaurant("Frättingsdorf Bahnhof").

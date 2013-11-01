@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+sequence(1,0, "Sarasdorf Bahnhof").
 person(2).
-initlocation($p,"Handelskai").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Krieau").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Stadlau").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Handelskai").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-restaurant("Trautmannsdorf/Leitha Bf").
-restaurant("Strebersdorf").
-restaurant("Silberwald Bahnhof").
-restaurant("Hausfeldstraße").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Museumsquartier").
-restaurant("Stephansplatz").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Siebenhirten").
-restaurant("Leobersdorf Bahnhof").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Alte Donau").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Grillgasse").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Aspern Nord").
+sequence(2,0, "Sollenau Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Josefstädter Straße").
+restaurant("Hütteldorfer Straße").
+restaurant("Spittelau").
+restaurant("Wolf in der Au").
+restaurant("Am Schöpfwerk").
+restaurant("Staatz Bahnhof").
+restaurant("Hetzendorf").
+restaurant("Strasshof Bahnhof").
+restaurant("Tscherttegasse").
+restaurant("Neulengbach Bahnhof").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Höflein an der Donau Bahnhof").

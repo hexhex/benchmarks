@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Unteres Belvedere").
-initlocation($p,"Absberggasse").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Carminweg").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-initlocation($p,"Unteres Belvedere").
+initlocation(1,"Sechskrügelgasse").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Baumgasse").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Skodagasse").
+sequence(1,0, "Sechskrügelgasse").
 person(2).
-initlocation($p,"Quellenstraße/Knöllgasse").
-initlocation($p,"Wallrißstraße").
-initlocation($p,"Bösendorferstraße").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Laaer-Berg-Straße").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Schloss Hetzendorf").
-initlocation($p,"Quellenstraße/Knöllgasse").
-possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Bahnhofstraße").
-possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Molitorgasse").
-possiblemeetinglocations("Scheibenbergstraße").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Wildgansplatz").
-restaurant("Seyring Bahnhof").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Schleinbach Bahnhof").
-restaurant("Zentralfriedhof").
-restaurant("Regelsbrunn Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Laudongasse").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Simonygasse").
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Krottenbachstraße").
+sequence(2,0, "Guntramsdorf-Thallern").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Haidestraße").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Gerhardusgasse").
+restaurant("Hopfengasse").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Seestadt").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Linzer Straße/Hochsatzengasse").

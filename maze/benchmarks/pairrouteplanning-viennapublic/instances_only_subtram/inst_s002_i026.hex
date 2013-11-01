@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Alsegger Straße").
-initlocation($p,"Stubentor").
-initlocation($p,"Alsegger Straße").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Wittelsbachstraße").
+sequence(1,0, "Weinhauser Gasse").
 person(2).
-initlocation($p,"Stubentor").
-initlocation($p,"Kagran").
-initlocation($p,"Stubentor").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Breitenfurter Str/Liesingbr").
-restaurant("Grinzing").
-restaurant("Herrengasse").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Wolkersdorf Bahnhof").
+sequence(2,0, "Zentralfriedhof").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Urban-Loritz-Platz").
+restaurant("Schleiergasse").
+restaurant("Wienerfeldgasse").

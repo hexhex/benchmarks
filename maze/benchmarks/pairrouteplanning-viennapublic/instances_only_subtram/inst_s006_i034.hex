@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Migerkastraße").
-initlocation($p,"Augasse").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Pokornygasse").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Migerkastraße").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Franzensbrücke").
+initlocation(1,"Währinger Straße-Volksoper").
+sequence(1,0, "Jägerstraße").
 person(2).
-initlocation($p,"Thaliastraße").
-initlocation($p,"Brigittaplatz").
-initlocation($p,"Augasse").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Bernhardtstalgasse").
-initlocation($p,"Thaliastraße").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Marx-Meidlinger-Straße").
-possiblemeetinglocations("Anschützgasse").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Rußbergstraße").
-restaurant("Simmering").
-restaurant("Julius-Raab-Platz").
-restaurant("Kagraner Brücke").
-restaurant("Camillo-Sitte-Gasse").
-restaurant("Meidling Hauptstraße").
-restaurant("Grinzing").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Julius-Raab-Platz").
+initlocation(2,"Urban-Loritz-Platz").
+initlocation(2,"Anton-Schall-Gasse").
+sequence(2,0, "St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Rothneusiedl").
+possiblemeetinglocations("Forstnergasse").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Liechtenwerder Platz").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Zippererstraße").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Polgarstraße").
+restaurant("Helmahof Bahnhof").
+restaurant("Bauernfeldplatz").

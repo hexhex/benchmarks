@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Krankenhaus Hietzing").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Fultonstraße").
-initlocation($p,"Konstanziagasse").
-initlocation($p,"Viehmarktgasse").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Stollgasse").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Kraygasse").
+initlocation(1,"Wolkersdorf Bahnhof").
+sequence(1,0, "Mayssengasse").
 person(2).
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Koloniestraße").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Hernals").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Paulanergasse").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Palffygasse").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Atzgersdorfer Straße").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Süßenbrunner Str/Oberfeldgasse").
-restaurant("Friedrich-Engels-Platz").
-restaurant("Südtiroler Platz/Hauptbahnhof").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Niederhofstraße").
-restaurant("Franz-Asenbauer-Gasse").
+initlocation(2,"Hoßplatz").
+initlocation(2,"Gutraterplatz").
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Krieau").
+initlocation(2,"Schuhmeierplatz").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Hofstatt Bahnhof").
+sequence(2,0, "Hoßplatz").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Teichgasse").
+possiblemeetinglocations("Mariahilfer Gürtel").
+restaurant("Franzensbrücke").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Wallensteinplatz").
+restaurant("Hildebrandgasse").
+restaurant("Tulln Bahnhof").
+restaurant("Hütteldorf").
+restaurant("Jagdschloßgasse").
+restaurant("Burgring").

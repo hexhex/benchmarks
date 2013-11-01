@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Stadlergasse").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Rodaun").
-initlocation($p,"Rustengasse").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Nordwestbahnstraße").
-initlocation($p,"Sonnergasse").
-initlocation($p,"Retz Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Silbergasse").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Absberggasse").
+initlocation(1,"Rosenhügelstraße").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Otto-Probst-Platz").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Wienerbergbrücke").
+sequence(1,0, "Wildungsmauer Bahnhof").
 person(2).
-initlocation($p,"Erndtgasse").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Donaumarina").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Anton-Schall-Gasse").
-initlocation($p,"Dornbach, Güpferlingstraße").
-initlocation($p,"Altes Landgut").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Erndtgasse").
-possiblemeetinglocations("Sonnergasse").
-possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
-possiblemeetinglocations("Troststraße/Neilreichgasse").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Stadlergasse").
-possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
-possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Sieveringer Straße").
-restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Michelbeuern-AKH").
-restaurant("Wr Neustadt Nord").
-restaurant("Dornbacher Straße").
-restaurant("An den langen Lüssen").
-restaurant("Mayssengasse").
-restaurant("Hubertusdamm").
-restaurant("Zehetnerg/Pflegeh Baumgarten").
-restaurant("Hopfengasse").
-restaurant("Marienbrücke").
+initlocation(2,"Anton-Schall-Gasse").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Litfaßstraße").
+sequence(2,0, "Anton-Schall-Gasse").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Alfred-Adler-Straße").
+restaurant("Weinhauser Gasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Brünner Straße/Hanreitergasse").
+restaurant("Mistelbach Stadt").
+restaurant("Pantucekgasse/Widholzgasse").
+restaurant("Volkstheater").
+restaurant("Nußdorfer Straße").
+restaurant("Salztorbrücke").
+restaurant("Münchendorf Bahnhof").
+restaurant("Yppengasse").

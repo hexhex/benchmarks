@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Tesarekplatz").
-initlocation($p,"Platt Bahnhof").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Pokornygasse").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Am Tabor").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Polgarstraße").
+sequence(1,0, "Neubaugasse").
 person(2).
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Stadiongasse/Parlament").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Gruschaplatz").
-initlocation($p,"Molitorgasse").
-initlocation($p,"Am Spitz").
-initlocation($p,"Neulerchenfelder Str/Haberlg").
-initlocation($p,"Obereggendorf Bahnhof").
-possiblemeetinglocations("Migerkastraße").
-possiblemeetinglocations("Schloss Belvedere").
-possiblemeetinglocations("Antonigasse").
-possiblemeetinglocations("Gruschaplatz").
-possiblemeetinglocations("Martinstraße").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Schönborn Bahnhof").
-restaurant("Grinzinger Straße").
-restaurant("Friedensbrücke").
-restaurant("Laudongasse").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Baumgarten").
-restaurant("Großfeldsiedlung").
-restaurant("Marxergasse").
-restaurant("Gerasdorf Bahnhof").
+initlocation(2,"Molitorgasse").
+initlocation(2,"Hohe Warte").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Gaußplatz").
+initlocation(2,"Quellenplatz").
+initlocation(2,"Spittelau").
+initlocation(2,"Hirschstetten").
+sequence(2,0, "Molitorgasse").
+possiblemeetinglocations("Kraygasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Versorgungsheimplatz").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Frödenplatz").
+restaurant("Stephansplatz").
+restaurant("Wr Neustadt Nord").
+restaurant("Plößlgasse").
+restaurant("Julius-Raab-Platz").
+restaurant("Knöllgasse/Troststraße").
+restaurant("Hütteldorfer Straße").

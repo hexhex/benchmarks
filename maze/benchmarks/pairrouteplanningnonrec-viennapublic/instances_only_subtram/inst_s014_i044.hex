@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Herrengasse").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Am Heidjöchl").
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Aßmayergasse").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Wexstraße").
-initlocation($p,"Paradisgasse").
-initlocation($p,"Seegasse").
-initlocation($p,"Korneuburg Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Braunhubergasse").
+initlocation(1,"Wallensteinplatz").
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Migerkastraße").
+initlocation(1,"Dommayergasse").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Leberberg").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Kettenbrückengasse").
+sequence(1,0, "Rochusgasse").
 person(2).
-initlocation($p,"Sensengasse").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Auerspergstraße").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Weihburggasse").
-initlocation($p,"Rankgasse").
-initlocation($p,"Himmelmutterweg").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Alfred-Adler-Straße").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Sensengasse").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Stadiongasse/Parlament").
-possiblemeetinglocations("Valiergasse").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Maurer Lange Gasse").
-possiblemeetinglocations("Rathausplatz/Burgtheater").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Rebhanngasse").
-possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Kleistgasse").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-restaurant("Nestroyplatz").
-restaurant("Fickeysstraße").
-restaurant("Baumgarten").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Unteroberndorf Bahnhof").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Achau Bahnhof").
-restaurant("Atzgersdorf").
-restaurant("Schloss Hetzendorf").
-restaurant("Atzgersdorfer Straße").
-restaurant("Wolf in der Au").
-restaurant("Schloss Schönbrunn").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Roßauer Lände").
+initlocation(2,"Hernalser Gürtel").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Kleistgasse").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Herrengasse").
+initlocation(2,"Maurer Lange Gasse").
+initlocation(2,"Anton-Krieger-Gasse").
+sequence(2,0, "Hernalser Gürtel").
+possiblemeetinglocations("Gloriettegasse").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Schottentor").
+restaurant("Wildgansplatz").
+restaurant("Lederergasse").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Stockholmer Platz").
+restaurant("Schleinbach Bahnhof").
+restaurant("Altes Landgut").
+restaurant("Frauengasse").
+restaurant("Schlachthausgasse").
+restaurant("Gruschaplatz").
+restaurant("Windtenstraße").
+restaurant("Sollenau Bahnhof").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Nußdorfer Str/Alserbachstraße").

@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Hetzgasse").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Erdberg").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Dornbach, Güpferlingstraße").
-initlocation($p,"Althanstraße").
-initlocation($p,"Schottentor").
-initlocation($p,"Camillo-Sitte-Gasse").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Brünnlbadgasse").
-initlocation($p,"Hetzgasse").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Zentralfriedhof 4Tor").
+initlocation(1,"Rathausplatz/Burgtheater").
+initlocation(1,"Schleiergasse").
+sequence(1,0, "St Pölten Hauptbahnhof").
 person(2).
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Pokornygasse").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Julius-Raab-Platz").
-initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Klosterneub Str/Wallensteinstr").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Rosensteingasse").
-possiblemeetinglocations("Wenzgasse").
-possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
-possiblemeetinglocations("Vinzenzgasse").
-possiblemeetinglocations("Dommayergasse").
-possiblemeetinglocations("Florianigasse").
-possiblemeetinglocations("Schottentor").
-restaurant("Friedrich-Engels-Platz").
-restaurant("Landesgerichtsstraße").
-restaurant("Gersthofer Str/Scheibenbergstr").
-restaurant("Arminenstraße").
-restaurant("Traismauer Bahnhof").
-restaurant("Marx-Meidlinger-Straße").
-restaurant("Koppstraße/Panikengasse").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Rothneusiedl").
-restaurant("Spitalgasse/Währinger Straße").
+initlocation(2,"Bernhardtstalgasse").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Schuhmeierplatz").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Kraygasse").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Zentralfriedhof 2Tor").
+initlocation(2,"Handelskai").
+initlocation(2,"Jägerstraße").
+sequence(2,0, "Bernhardtstalgasse").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Schwechat Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Marxergasse").
+restaurant("Donaustadtbrücke").
+restaurant("Floridsdorf").
+restaurant("Wienerbergbrücke").
+restaurant("Atzgersdorfer Straße").
+restaurant("Bahnhof Meidling").
+restaurant("Sechskrügelgasse").
+restaurant("Hardeggasse").
+restaurant("Zippererstraße").
+restaurant("Türkenschanzplatz").
+restaurant("Hirschstetten").

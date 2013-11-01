@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Weißenböckstraße").
-initlocation($p,"Obere Donaustraße").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Litfaßstraße").
-initlocation($p,"Hofstatt Bahnhof").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Alte Donau").
+initlocation(1,"Türkenschanzplatz").
+sequence(1,0, "Schwarzenbergplatz").
 person(2).
-initlocation($p,"Migerkastraße").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Johannes-Krawarik-Gasse").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Migerkastraße").
-possiblemeetinglocations("Hermesstraße").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Alaudagasse").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Haslau an der Donau Bahnhof").
-restaurant("Volkstheater").
-restaurant("Pottendorf-Landegg Bahnhof").
-restaurant("Lederergasse").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Vorgartenstraße").
+sequence(2,0, "Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+restaurant("Spittelau").
+restaurant("Schönborn Bahnhof").
+restaurant("Döblinger Hauptstr/Gatterburgg").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Mariahilfer Gürtel").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Sollenau Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Stephansplatz").
+sequence(1,0, "Hainburg/Donau Kulturfabrik Bf").
 person(2).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Kagraner Platz").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-restaurant("Helmahof Bahnhof").
-restaurant("Kagraner Platz").
-restaurant("Korneuburg Bahnhof").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Michelbeuern-AKH").
+sequence(2,0, "Heiligenstadt").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Stadtpark").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Hainburg/Donau Personenbhf").

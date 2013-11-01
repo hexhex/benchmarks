@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Alser Straße").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+sequence(1,0, "Aderklaaer Straße").
 person(2).
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Stubentor").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Hernals").
-initlocation($p,"Taborstraße").
-initlocation($p,"Unterradlberg Bahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Wolf in der Au").
-restaurant("Neubaugasse").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+sequence(2,0, "Dürrwien Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Viehofen Bahnhof").
 restaurant("Obersdorf Bahnhof").
-restaurant("Blumental").
-restaurant("Hausleiten Bahnhof").
-restaurant("Erzherzog-Karl-Straße").
-restaurant("Rennbahnweg").
+restaurant("Josefstädter Straße").
+restaurant("Lobau").
+restaurant("Mannswörth Bahnhof").
+restaurant("Zippererstraße").
+restaurant("Hardeggasse").

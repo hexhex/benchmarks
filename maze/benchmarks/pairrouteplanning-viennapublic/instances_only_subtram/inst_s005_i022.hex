@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Siebertgasse").
-initlocation($p,"Albertgasse").
-initlocation($p,"Laurentiusplatz").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Roßauer Lände").
+initlocation(1,"Hildebrandgasse").
+initlocation(1,"Karmeliterplatz").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Sollenau Bahnhof").
+sequence(1,0, "Hildebrandgasse").
 person(2).
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Sillerplatz").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Stiftgasse").
-initlocation($p,"Antonigasse").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Julius-Raab-Platz").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Pilgramgasse").
-restaurant("Südtiroler Platz/Hauptbahnhof").
-restaurant("Schottentor").
-restaurant("Oberdöbling").
-restaurant("Van-Swieten-Kaserne").
-restaurant("Konstanziagasse").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Resselgasse").
+initlocation(2,"Mayssengasse").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Dresdner Straße").
+sequence(2,0, "Regelsbrunn Bahnhof").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Liechtenwerder Platz").
+restaurant("Döblinger Hauptstr/Gatterburgg").
+restaurant("Seegasse").
+restaurant("Langobardenstraße/Kapellenweg").
+restaurant("Zentralfriedhof").
+restaurant("Staatz Bahnhof").

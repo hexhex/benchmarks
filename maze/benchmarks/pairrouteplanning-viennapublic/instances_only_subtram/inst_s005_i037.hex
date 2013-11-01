@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Laxenburger Straße/Troststraße").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Laxenburger Straße/Troststraße").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Laurenzgasse").
+initlocation(1,"Julius-Raab-Platz").
+initlocation(1,"Huglgasse").
+initlocation(1,"Innstraße").
+sequence(1,0, "Hennersdorf Bahnhof").
 person(2).
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Sechskrügelgasse").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Kraygasse").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-restaurant("Sensengasse").
-restaurant("Brünner Straße").
-restaurant("Glatzgasse").
-restaurant("Roßauer Lände").
-restaurant("Aspernstraße").
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Guntherstraße").
+initlocation(2,"Gusenleithnergasse").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Messe-Prater").
+sequence(2,0, "Reinlgasse/Märzstraße").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Gumpendorfer Straße").
+restaurant("Schwarzenbergplatz").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Messe-Prater").
+restaurant("Bösendorferstraße").
+restaurant("Schöffelgasse").

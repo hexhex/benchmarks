@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Wenzgasse").
-initlocation($p,"Erdbergstr/Schlachthausgasse").
-initlocation($p,"Oberfeldgasse/Spargelfeldstr").
-initlocation($p,"Wittelsbachstraße").
-initlocation($p,"Seestadt").
-initlocation($p,"Schottenring").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Dornbach, Güpferlingstraße").
-initlocation($p,"Sahulkastraße").
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Leberberg").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Am Heidjöchl").
+initlocation(1,"Windtenstraße").
+sequence(1,0, "Mariahilfer Gürtel").
 person(2).
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Breitensee").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Haidestraße").
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Taborstraße").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Rebhanngasse").
-initlocation($p,"Rosenhügelstraße").
-possiblemeetinglocations("Hernalser Gürtel").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Fickeysstraße").
-possiblemeetinglocations("Bahnsteggasse").
-possiblemeetinglocations("Hermesstraße").
-possiblemeetinglocations("Römergasse").
-possiblemeetinglocations("Hopfengasse").
-possiblemeetinglocations("Kagraner Brücke").
-possiblemeetinglocations("Perntergasse").
-possiblemeetinglocations("Hardeggasse").
-restaurant("Floridsdorfer Brücke").
-restaurant("Atzgersdorfer Straße").
-restaurant("Camillo-Sitte-Gasse").
-restaurant("Friedensbrücke").
-restaurant("Erzherzog-Karl-Straße").
-restaurant("Heiligenstadt, 12-Februar-Pl").
-restaurant("Riedelgasse").
-restaurant("Neue Donau").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Zentralfriedhof 4Tor").
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Hofwiesengasse").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Rankgasse").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Haidestraße").
+initlocation(2,"Hirschstetten").
+sequence(2,0, "Van-Swieten-Kaserne").
+possiblemeetinglocations("Rustengasse").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Leberberg").
+possiblemeetinglocations("Oberlaa, Therme Wien").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+restaurant("Aspern, Oberdorfstraße").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Auerspergstraße").
+restaurant("Wildgansplatz").
+restaurant("Hubertusdamm").
+restaurant("Penzing").
+restaurant("Carabelligasse").
+restaurant("Preyergasse/Speising").
+restaurant("Oberdöbling").
+restaurant("Schmerlingplatz").

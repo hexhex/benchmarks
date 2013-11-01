@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Aßmayergasse").
-initlocation($p,"Salztorbrücke").
-initlocation($p,"Quellenplatz").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Hietzing").
-initlocation($p,"Dornbach, Güpferlingstraße").
-initlocation($p,"Sonnergasse").
-initlocation($p,"Trasdorf Bahnhof").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Breitensee").
+initlocation(1,"Alfred-Adler-Straße").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Thaliastraße/Brunnengasse").
+initlocation(1,"Stadiongasse/Parlament").
+initlocation(1,"Stadlau").
+initlocation(1,"Gerstnerstraße/Westbhf").
+initlocation(1,"Linzer Straße/Hochsatzengasse").
+sequence(1,0, "Winkeläckerstraße").
 person(2).
-initlocation($p,"Gaußplatz").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Frauengasse").
-initlocation($p,"Blindengasse").
-initlocation($p,"Gaußplatz").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Kliebergasse").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Yppengasse").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Otto-Probst-Platz").
-possiblemeetinglocations("Diesterweggasse").
-possiblemeetinglocations("Columbusplatz").
-possiblemeetinglocations("Löwengasse").
-possiblemeetinglocations("Börsegasse/Wipplingerstraße").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Brünnlbadgasse").
-restaurant("Gutraterplatz").
-restaurant("Lerchenfelder Straße").
-restaurant("Kagraner Brücke").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Linzer Straße/Johnstraße").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Praterstern").
-restaurant("Vinzenzgasse").
-restaurant("Breitenfurter Str/Liesingbr").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Staglgasse").
+initlocation(2,"Klosterneub Str/Wallensteinstr").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Westbahnhof").
+sequence(2,0, "Korneuburg Bahnhof").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Gredlerstraße").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Donaustadtbrücke").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Gersthof").
+restaurant("Obere Augartenstraße").
+restaurant("Columbusplatz").
+restaurant("Tesarekplatz").
+restaurant("Ameisgasse").
+restaurant("Spitalgasse/Währinger Straße").

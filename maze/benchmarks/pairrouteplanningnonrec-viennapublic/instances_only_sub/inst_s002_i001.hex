@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Westbahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Westbahnhof").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Bad Vöslau Bahnhof").
+sequence(1,0, "Währinger Straße-Volksoper").
 person(2).
-initlocation($p,"Donaumarina").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Donaumarina").
-possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-restaurant("Pilgramgasse").
-restaurant("Herrengasse").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+sequence(2,0, "Trasdorf Bahnhof").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Neubaugasse").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Gemeinlebarn Bahnhof").

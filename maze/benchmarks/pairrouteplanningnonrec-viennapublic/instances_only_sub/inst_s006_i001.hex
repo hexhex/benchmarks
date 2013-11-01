@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Lobau").
-initlocation($p,"Nußdorf").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Purkersdorf Sanatorium").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Siebenhirten (NÖ). Haltestelle").
+sequence(1,0, "Ebenfurth Bahnhof").
 person(2).
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Krieau").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Johnstraße").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-restaurant("Grillgasse").
-restaurant("Niederhofstraße").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Zeiselmauer-Königstetten Bf").
-restaurant("Kaisermühlen-VIC").
-restaurant("Sankt Marx").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Herrengasse").
+sequence(2,0, "Retz Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Zippererstraße").
+restaurant("Perfektastraße").
+restaurant("Michelbeuern-AKH").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("Schlachthausgasse").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Neue Donau").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Alaudagasse").
-initlocation($p,"Prandaugasse").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Neue Donau").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Tesarekplatz").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+initlocation(1,"Marxergasse").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Haslau an der Donau Bahnhof").
+sequence(1,0, "Kaiserebersdorf").
 person(2).
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Guneschgasse").
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Skodagasse").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Michelbeuern-AKH").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Troststraße/Neilreichgasse").
-possiblemeetinglocations("Nordbrücke").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Empergergasse").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Stammersdorf").
-possiblemeetinglocations("Hietzing").
-restaurant("Liechtenwerder Platz").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Hubertusdamm").
-restaurant("Neulerchenfelder Str/Haberlg").
-restaurant("Michelbeuern-AKH").
-restaurant("Kagran").
-restaurant("Stadion").
-restaurant("Großjedlersdorf").
+initlocation(2,"Aspern, Oberdorfstraße").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Hauffgasse").
+initlocation(2,"Otto-Probst-Platz").
+sequence(2,0, "Aspern, Oberdorfstraße").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Forstnergasse").
+restaurant("Weinhauser Gasse").
+restaurant("Rathaus").
+restaurant("Aderklaaer Straße").
+restaurant("Diesterweggasse").
+restaurant("Koppstraße/Panikengasse").
+restaurant("Liebknechtgasse").
+restaurant("Maria Anzbach Bahnhof").

@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+sequence(1,0, "Trasdorf Bahnhof").
 person(2).
-initlocation($p,"Donauinsel").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Donauinsel").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-possiblemeetinglocations("Pilgramgasse").
-restaurant("St Pölten Traisenpark P+R Nord").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Pressbaum Bahnhof").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Quartier Belvedere").
+sequence(2,0, "Untertullnerbach Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Schottentor").
+restaurant("Trasdorf Bahnhof").

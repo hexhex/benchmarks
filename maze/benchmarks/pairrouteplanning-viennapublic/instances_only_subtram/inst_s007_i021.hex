@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Dornbacher Straße").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Yppengasse").
-initlocation($p,"Paulanergasse").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Dornbacher Straße").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Hofwiesengasse").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Autokaderstraße").
+initlocation(1,"Siebensterngasse").
+sequence(1,0, "Tulln Bahnhof").
 person(2).
-initlocation($p,"Lederergasse").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Blindengasse").
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Anton-Schall-Gasse").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Lederergasse").
-possiblemeetinglocations("Kagraner Brücke").
-possiblemeetinglocations("Josef-Baumann-Gasse").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Linzer Straße/Zehetnergasse").
-possiblemeetinglocations("Gruschaplatz").
-possiblemeetinglocations("Alterlaa").
-restaurant("Beingasse").
-restaurant("Jägerstraße").
-restaurant("Gasometer").
-restaurant("Himmelmutterweg").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Liesing").
-restaurant("Untertullnerbach Bahnhof").
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Donauzentrum").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Heiligenstadt, 12-Februar-Pl").
+initlocation(2,"Thaliastraße/Brunnengasse").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Brünner Straße").
+sequence(2,0, "Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Braunhubergasse").
+possiblemeetinglocations("Fischamend Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Mannswörth Bahnhof").
+restaurant("Siebenhirten (NÖ). Haltestelle").
+restaurant("Münchendorf Bahnhof").
+restaurant("Martinstraße").
+restaurant("Nordwestbahnstraße").
+restaurant("Scheibenbergstraße").

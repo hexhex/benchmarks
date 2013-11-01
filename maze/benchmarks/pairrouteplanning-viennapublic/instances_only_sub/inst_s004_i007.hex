@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Erdberg").
-initlocation($p,"Traisengasse").
-initlocation($p,"Stubentor").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Erdberg").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+sequence(1,0, "Atzenbrugg Bahnhof").
 person(2).
-initlocation($p,"Museumsquartier").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Hernals").
-initlocation($p,"Rennweg").
-initlocation($p,"Museumsquartier").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Donauinsel").
-restaurant("Neulengbach Bahnhof").
-restaurant("Großfeldsiedlung").
-restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Felixdorf Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Nußdorf").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Sierndorf Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Götzendorf Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Mistelbach Stadt").
+restaurant("Rennweg").
+restaurant("Ottakring").

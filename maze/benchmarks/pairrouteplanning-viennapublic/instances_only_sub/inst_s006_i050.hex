@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Liesing").
-initlocation($p,"Untertullnerbach Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Handelskai").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Paasdorf Bahnhof").
+sequence(1,0, "Leopoldau").
 person(2).
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-restaurant("Kaiserebersdorf").
-restaurant("Währinger Straße-Volksoper").
-restaurant("Krottenbachstraße").
-restaurant("Pilgramgasse").
-restaurant("Handelskai").
-restaurant("Enkplatz").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Stadlau").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(2,0, "Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Margaretengürtel").
+restaurant("Brünner Straße").
+restaurant("Zippererstraße").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Haidestraße").
+restaurant("Donauspital").

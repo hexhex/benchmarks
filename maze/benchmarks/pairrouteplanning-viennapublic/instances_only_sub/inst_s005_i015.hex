@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
+initlocation(1,"Hernals").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+sequence(1,0, "Hernals").
 person(2).
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Handelskai").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Obersdorf Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Stephansplatz").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Mistelbach Bahnhof").
-restaurant("Leopoldau").
-restaurant("Atzgersdorf").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Thaliastraße").
-restaurant("Unter Kritzendorf Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Herrengasse").
+sequence(2,0, "Zentralfriedhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Obersdorf Bahnhof").
+restaurant("Ottakring").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Schottenring").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Höbersdorf Bahnhof").

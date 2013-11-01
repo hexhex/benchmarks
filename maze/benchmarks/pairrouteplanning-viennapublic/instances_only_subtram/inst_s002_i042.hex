@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Carminweg").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Carminweg").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Rosenhügelstraße").
+sequence(1,0, "Ober Sankt Veit").
 person(2).
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Rennbahnweg").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-restaurant("Rochusgasse").
-restaurant("Bernhardtstalgasse").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Braunschweiggasse").
+sequence(2,0, "Guntersdorf Bahnhof").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Winckelmannstraße").
+restaurant("Stadiongasse/Parlament").
+restaurant("Kraygasse").

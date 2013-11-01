@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Erdberg").
-initlocation($p,"Michelbeuern-AKH").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Rennweg").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Keplerplatz").
+sequence(1,0, "Schwedenplatz").
 person(2).
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Volkstheater").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Quartier Belvedere").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Messe-Prater").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Hofstatt Bahnhof").
-restaurant("Alte Donau").
+initlocation(2,"Simmering").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Ober Sankt Veit").
+sequence(2,0, "Simmering").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Baden Bahnhof").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Traisengasse").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Maria Ellend Bahnhof").

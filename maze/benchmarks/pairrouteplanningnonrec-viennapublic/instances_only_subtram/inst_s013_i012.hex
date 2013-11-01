@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Fichtnergasse").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Praterstern").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Lazarettgasse").
-initlocation($p,"Spittelau").
-initlocation($p,"Geiereckstraße").
-initlocation($p,"Otto-Probst-Platz").
-initlocation($p,"Dornbacher Straße").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Achau Bahnhof").
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Lerchenfelder Straße").
+initlocation(1,"Rathausplatz/Burgtheater").
+initlocation(1,"Breitenfurter St/Altmannsd Str").
+initlocation(1,"Empergergasse").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Wienerbergbrücke").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Aspern Nord").
+sequence(1,0, "Obere Augartenstraße").
 person(2).
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Donauzentrum").
-initlocation($p,"Schmerlingplatz").
-initlocation($p,"Bahnsteggasse").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Florianigasse").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Edmund-Hawranek-Platz").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-possiblemeetinglocations("Laurentiusplatz").
-possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
-possiblemeetinglocations("Gottschalkgasse/Enkplatz").
-possiblemeetinglocations("Favoritenstraße/Troststraße").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-possiblemeetinglocations("Pressbaum Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Absberggasse").
-possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
-possiblemeetinglocations("Diesterweggasse").
-restaurant("Kaiserstraße").
-restaurant("Gußhausstraße").
-restaurant("Wilhelminenstraße/Wattgasse").
-restaurant("Empergergasse").
-restaurant("Linzer Straße/Lützowgasse").
-restaurant("Rennweg").
-restaurant("Winkeläckerstraße").
-restaurant("Lobau").
-restaurant("Praterstern").
-restaurant("Oberlaa, Therme Wien").
-restaurant("Nußdorf, Beethovengang").
-restaurant("Volkstheater").
-restaurant("Höflein an der Donau Bahnhof").
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Praterkai").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Krieau").
+initlocation(2,"Hermesstraße").
+initlocation(2,"Schwarzspanierstraße").
+initlocation(2,"Sommarugagasse").
+initlocation(2,"Hohe Warte").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Schottentor").
+initlocation(2,"Konstanziagasse").
+sequence(2,0, "Auerspergstraße").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Eichenstraße").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Seegasse").
+restaurant("Brünnlbadgasse").
+restaurant("Mühlfeldgasse").
+restaurant("Burggasse-Stadthalle").
+restaurant("Blumengasse").
+restaurant("Polkorabplatz").
+restaurant("Paradisgasse").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Zentralfriedhof 2Tor").
+restaurant("Pilgramgasse").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Resselgasse").
+restaurant("Pressbaum Bahnhof").

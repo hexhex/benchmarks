@@ -10,7 +10,7 @@ st=$(echo "
 for ((p=1; p<=2; p++))
 do
 	echo "person($p)."
-	inst=$(echo -e "$st" | sed 's/st(/initlocation($p,/g' | sort -R | head -n $1)
+	inst=$(echo -e "$st" | sed "s/st(/initlocation($p,/g" | sort -R | head -n $1)
 	echo -e "$inst"
 	echo -e "$inst" | head -n 1 | sed "s/initlocation($p,/sequence($p,0, /"
 done

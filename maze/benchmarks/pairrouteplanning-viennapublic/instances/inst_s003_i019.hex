@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Kaisermühlenstraße").
-initlocation(1,"Halteraugasse").
-initlocation(1,"Theergasse").
-sequence(1,0, "Kaisermühlenstraße").
+initlocation(1,"Stollgasse").
+initlocation(1,"Theodor-Körner-Gasse").
+initlocation(1,"Lichtblaustraße").
+sequence(1,0, "Stollgasse").
 person(2).
-initlocation(2,"Burggasse-Stadthalle").
-initlocation(2,"Josefstädter Straße").
-initlocation(2,"Taglieberstraße").
-sequence(2,0, "Burggasse-Stadthalle").
-possiblemeetinglocations("Gregorygasse").
-possiblemeetinglocations("Hirschengasse").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-restaurant("Rallenweg").
-restaurant("Nordwestbahnstraße").
-restaurant("Kinskygasse/Rossakgasse").
+initlocation(2,"Khleslplatz").
+initlocation(2,"Gadnergasse").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+sequence(2,0, "Khleslplatz").
+possiblemeetinglocations("Nauheimergasse").
+possiblemeetinglocations("Pfalzgasse").
+possiblemeetinglocations("Hasnerstraße").
+restaurant("Sulzengasse").
+restaurant("Maurer Hauptplatz").
+restaurant("Hollergasse").

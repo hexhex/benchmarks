@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Leopoldau").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Himberg Bahnhof").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Alterlaa").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Gaisruck Bahnhof").
+sequence(1,0, "Pfaffstätten Bahnhof").
 person(2).
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Leopoldau").
-initlocation($p,"Seestadt").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Gasometer").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Kaiserebersdorf").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Götzendorf Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Neue Donau").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Wr Neustadt Civitas Nova").
+sequence(2,0, "Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
 possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Schönborn Bahnhof").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Stubentor").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Aspernstraße").
-restaurant("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Schwedenplatz").
-restaurant("Unteroberndorf Bahnhof").
-restaurant("Perfektastraße").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Kagran").
-restaurant("Mistelbach Bahnhof").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Atzgersdorf").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("Trasdorf Bahnhof").
+restaurant("Geiselbergstraße").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Rathaus").
+restaurant("Nußdorfer Straße").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Heiligenstadt").
+restaurant("Kagraner Platz").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Praterstern").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Rochusgasse").

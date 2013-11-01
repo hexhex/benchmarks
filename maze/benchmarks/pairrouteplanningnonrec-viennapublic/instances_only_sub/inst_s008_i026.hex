@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Grillgasse").
-initlocation($p,"Rathaus").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Grillgasse").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Siebenhirten (NÖ). Haltestelle").
+initlocation(1,"Süßenbrunn").
+sequence(1,0, "Rennbahnweg").
 person(2).
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Trasdorf Bahnhof").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Braunschweiggasse").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Floridsdorf").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Reumannplatz").
-restaurant("Donauspital").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Volkstheater").
-restaurant("Taubstummengasse").
-restaurant("Neubaugasse").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Hernals").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+sequence(2,0, "Mannswörth Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+restaurant("Enkplatz").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Donaumarina").
+restaurant("Mannswörth Bahnhof").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Haidestraße").
+restaurant("Donauinsel").

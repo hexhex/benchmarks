@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Mistelbach Stadt").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Wr Neustadt Nord").
+sequence(1,0, "Seyring Bahnhof").
 person(2).
-initlocation($p,"Rochusgasse").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Rochusgasse").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-restaurant("Kapellerfeld Bahnhof").
-restaurant("Guntramsdorf-Thallern").
+initlocation(2,"Hietzing").
+initlocation(2,"Sollenau Bahnhof").
+sequence(2,0, "Hietzing").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Floridsdorf").
+restaurant("Obersdorf Bahnhof").
+restaurant("Unter Kritzendorf Bahnhof").

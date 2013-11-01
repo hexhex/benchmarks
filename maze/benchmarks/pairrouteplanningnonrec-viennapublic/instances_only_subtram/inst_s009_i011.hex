@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Schottenring").
-initlocation($p,"Penzinger Straße").
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Lederergasse").
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Schottenring").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Bahnhofstraße").
+initlocation(1,"Krieau").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Schönborn Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Ebenfurth Bahnhof").
+sequence(1,0, "Stockerau Bahnhof").
 person(2).
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Marienbrücke").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Hauffgasse").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Breitensee").
-initlocation($p,"Simmering").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Braunhubergasse").
-possiblemeetinglocations("Obereggendorf Bahnhof").
-possiblemeetinglocations("Maurer Lange Gasse").
-possiblemeetinglocations("Gellertplatz").
+initlocation(2,"Gredlerstraße").
+initlocation(2,"Alte Donau").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Heiligenstadt, 12-Februar-Pl").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+sequence(2,0, "Gredlerstraße").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Satzberggasse").
 possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Höchstädtplatz").
-possiblemeetinglocations("Stefan-Fadinger-Platz").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Neilreichgasse").
-restaurant("Joachimsthalerplatz").
-restaurant("Rosenhügelstraße").
-restaurant("Julius-Raab-Platz").
-restaurant("Stiftgasse").
-restaurant("Ottakring").
-restaurant("Liesing").
-restaurant("Hernalser Hauptstr/Wattgasse").
-restaurant("Krieau").
-restaurant("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Landesgerichtsstraße").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Weinhauser Gasse").
+restaurant("Ladendorf Bahnhof").
+restaurant("Hauptbahnhof Ost").
+restaurant("Kutschkergasse").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("Kaiserebersdorf").
+restaurant("Arminenstraße").

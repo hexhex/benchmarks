@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Stadiongasse/Parlament").
-initlocation($p,"Seestadt").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Penzinger Straße").
-initlocation($p,"Ottakring").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Kranzgasse").
-initlocation($p,"Stadiongasse/Parlament").
+initlocation(1,"Donaumarina").
+initlocation(1,"Fultonstraße").
+initlocation(1,"Breitensee").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Zentralfriedhof 4Tor").
+initlocation(1,"Rathaus").
+initlocation(1,"Grinzing").
+sequence(1,0, "Donaumarina").
 person(2).
-initlocation($p,"Sillerplatz").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Aspern, Oberdorfstraße").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Sillerplatz").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Kölblgasse").
-possiblemeetinglocations("Quellenplatz").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Lange Gasse").
-restaurant("Siemensstraße").
-restaurant("Otto-Probst-Straße").
-restaurant("Praterstern").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Quellenstraße/Knöllgasse").
-restaurant("Schloss Belvedere").
-restaurant("Augasse").
-restaurant("Pottendorf-Landegg Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Strozzigasse").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Museumsquartier").
+sequence(2,0, "Neubaugasse").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Sierndorf Bahnhof").
+restaurant("Siebensterngasse").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Satzberggasse").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Grillgasse").
+restaurant("Maurer Lange Gasse").

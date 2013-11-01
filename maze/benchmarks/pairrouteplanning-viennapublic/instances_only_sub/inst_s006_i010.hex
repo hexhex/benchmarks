@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Felixdorf Bahnhof").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Friedensbrücke").
+sequence(1,0, "Guntersdorf Bahnhof").
 person(2).
-initlocation($p,"Donauinsel").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Seestadt").
-initlocation($p,"Simmering").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Donauinsel").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Gaisruck Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Schlachthausgasse").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Mistelbach Bahnhof").
-restaurant("Schleinbach Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+sequence(2,0, "Kapellerfeld Bahnhof").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+restaurant("Oberdöbling").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Retz Bahnhof").
+restaurant("Stockerau Bahnhof").
+restaurant("Lobau").
+restaurant("Obereggendorf Bahnhof").

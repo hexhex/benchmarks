@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Gredlerstraße").
+initlocation(1,"Beingasse").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Forstnergasse").
+initlocation(1,"Langenzersdorf Bahnhof").
+sequence(1,0, "Beingasse").
 person(2).
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Spillern Bahnhof").
-restaurant("Hirschstetten").
-restaurant("Maurer Hauptplatz").
-restaurant("Heinrich-Drimmel-Platz").
-restaurant("Klosterneuburg-Kierling Bf").
+initlocation(2,"Versorgungsheimplatz").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Sankt Marx").
+sequence(2,0, "Versorgungsheimplatz").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Teichgasse").
+restaurant("Wolf in der Au").
+restaurant("Paulanergasse").
+restaurant("Friedensbrücke").
+restaurant("Thaliastraße").

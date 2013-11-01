@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Reumannplatz").
-initlocation($p,"Johnstraße").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Kagran").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Reumannplatz").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Seestadt").
+initlocation(1,"Penzing").
+initlocation(1,"Atzenbrugg Bahnhof").
+sequence(1,0, "Jägerstraße").
 person(2).
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Felixdorf Bahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Schottenring").
-restaurant("Götzendorf Bahnhof").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Staatz Bahnhof").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Keplerplatz").
-restaurant("Rekawinkel Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Jägerstraße").
+sequence(2,0, "Erlaaer Straße").
+possiblemeetinglocations("Josefstädter Straße").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Gersthof").
+restaurant("Haidestraße").
+restaurant("Längenfeldgasse").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Unteroberndorf Bahnhof").
+restaurant("Thaliastraße").
+restaurant("Erdberg").

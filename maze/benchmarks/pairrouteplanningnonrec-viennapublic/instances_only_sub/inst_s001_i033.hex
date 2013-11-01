@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Kaisermühlen-VIC").
+initlocation(1,"Aspernstraße").
+sequence(1,0, "Aspernstraße").
 person(2).
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-restaurant("Leobersdorf Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+sequence(2,0, "Obereggendorf Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+restaurant("Breitenwaida Bahnhof").

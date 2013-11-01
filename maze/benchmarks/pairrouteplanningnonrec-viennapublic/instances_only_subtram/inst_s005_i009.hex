@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Empergergasse").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Barawitzkagasse").
-initlocation($p,"Vinzenzgasse").
-initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
-initlocation($p,"Empergergasse").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Dommayergasse").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+sequence(1,0, "Oberradlberg Bahnhof").
 person(2).
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Stockholmer Platz").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Schuhmeierplatz").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Maurer Lange Gasse").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-possiblemeetinglocations("Grillgasse").
-restaurant("Migerkastraße").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Riedelgasse").
+sequence(2,0, "Schwedenplatz").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Kutschkergasse").
+restaurant("Taborstraße/Heinestraße").
 restaurant("Tullnerfeld Bahnhof").
-restaurant("Konstanziagasse").
-restaurant("Leyserstraße").
-restaurant("Schönbrunn").
+restaurant("Am Heumarkt").
+restaurant("Wr Neustadt Nord").
+restaurant("Sickenberggasse").

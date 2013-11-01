@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Quellenstraße/Knöllgasse").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Bahnhofstraße").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Aspern, Oberdorfstraße").
-initlocation($p,"Quellenstraße/Knöllgasse").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Viehmarktgasse").
+initlocation(1,"Lainz, Wolkersbergenstraße").
+initlocation(1,"Skodagasse").
+initlocation(1,"Kaiserstraße/Burggasse").
+sequence(1,0, "Siemensstraße").
 person(2).
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Laxenburger Straße/Troststraße").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Schloss Schönbrunn").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Arthaberplatz").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-restaurant("Schuhmeierplatz").
-restaurant("Braunschweiggasse").
-restaurant("Albertgasse").
-restaurant("St Pölten Hauptbahnhof").
-restaurant("Gasometer").
-restaurant("Wr Neustadt Civitas Nova").
+initlocation(2,"Sahulkastraße").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Silbergasse").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Mayerhofgasse").
+sequence(2,0, "Sahulkastraße").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Karmeliterplatz").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Paradisgasse").
+restaurant("Museumsquartier").
+restaurant("Bernhardtstalgasse").
+restaurant("Wexstraße").
+restaurant("Obere Donaustraße").

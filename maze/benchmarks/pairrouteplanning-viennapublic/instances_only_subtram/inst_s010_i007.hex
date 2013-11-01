@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Tesarekplatz").
-initlocation($p,"Weißenböckstraße").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Blumengasse").
-initlocation($p,"Knöllgasse/Troststraße").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Versorgungsheimplatz").
-initlocation($p,"Tesarekplatz").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Baumgasse").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Brünner Straße").
+sequence(1,0, "Quellenplatz").
 person(2).
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Liebknechtgasse").
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Strozzigasse").
-initlocation($p,"Auerspergstraße").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Unter Sankt Veit").
-possiblemeetinglocations("Sechskrügelgasse").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Stadlergasse").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Siebertgasse").
-restaurant("Helmahof Bahnhof").
-restaurant("Perntergasse").
-restaurant("Sierndorf Bahnhof").
-restaurant("Retz Bahnhof").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Diesterweggasse").
-restaurant("Aspern, Oberdorfstraße").
-restaurant("Kaiserstraße/Westbahnstraße").
+initlocation(2,"Siebenhirten").
+initlocation(2,"Joachimsthalerplatz").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Svetelskystraße").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Rußbergstraße").
+initlocation(2,"Rochusgasse").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Satzberggasse").
+sequence(2,0, "Siebenhirten").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Fickeysstraße").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Großjedlersdorf").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Marxergasse").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Polgarstraße").
+restaurant("Beingasse").
+restaurant("Staatz Bahnhof").
+restaurant("Floridsdorf").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Grinzinger Straße").
+restaurant("Anschützgasse").
+restaurant("Linzer Straße/Reinlgasse").
+restaurant("Stockholmer Platz").

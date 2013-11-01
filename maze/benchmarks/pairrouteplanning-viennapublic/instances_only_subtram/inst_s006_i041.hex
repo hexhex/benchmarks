@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Gusenleithnergasse").
-initlocation($p,"Sieveringer Straße").
-initlocation($p,"Pötzleinsdorf").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Gusenleithnergasse").
+initlocation(1,"Brigittaplatz").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Wienerbergbrücke").
+initlocation(1,"Parndorf Ort Bahnhof").
+sequence(1,0, "Brigittaplatz").
 person(2).
-initlocation($p,"Hütteldorf").
-initlocation($p,"Gewerbepark Stadlau Mitte").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Gutraterplatz").
-initlocation($p,"Staglgasse").
-initlocation($p,"Hütteldorf").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Wittelsbachstraße").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Althanstraße").
-restaurant("Michelbeuern-AKH").
-restaurant("Pötzleinsdorf").
-restaurant("Silberwald Bahnhof").
-restaurant("Sonnergasse").
-restaurant("Scheibenbergstraße").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Elterleinplatz").
+sequence(2,0, "Viehofen Bahnhof").
+possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Ebenfurth Bahnhof").
 restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Schwechat Bahnhof").
+restaurant("Quellenplatz").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Kaiserstraße").
+restaurant("Breitensee").

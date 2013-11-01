@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Viehofen Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Nestroyplatz").
+sequence(1,0, "Zellerndorf Bahnhof").
 person(2).
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Hausfeldstraße").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Erdberg").
-restaurant("Thaliastraße").
-restaurant("Herrengasse").
-restaurant("Unteroberndorf Bahnhof").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+sequence(2,0, "Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Hütteldorf").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Krottenbachstraße").

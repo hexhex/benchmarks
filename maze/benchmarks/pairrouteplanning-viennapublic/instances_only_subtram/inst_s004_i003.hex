@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Dresdner Straße").
+initlocation(1,"Löwengasse").
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Oberlaa, Therme Wien").
+initlocation(1,"Braunschweiggasse").
+sequence(1,0, "Löwengasse").
 person(2).
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-initlocation($p,"Lederergasse").
-initlocation($p,"Penzing").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-possiblemeetinglocations("Knöllgasse/Troststraße").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Langobardenstraße").
-restaurant("Aßmayergasse").
-restaurant("Reumannplatz").
-restaurant("Camillo-Sitte-Gasse").
-restaurant("Columbusplatz").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Handelskai").
+initlocation(2,"Alfred-Adler-Straße").
+sequence(2,0, "Viehofen Bahnhof").
+possiblemeetinglocations("Glatzgasse").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Rebhanngasse").
+restaurant("Franz-Asenbauer-Gasse").
+restaurant("Lerchenfelder Straße").
+restaurant("Shuttleworthstraße").
+restaurant("Staglgasse").

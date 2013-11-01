@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Schloss Schönbrunn").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Leberberg").
-initlocation($p,"Siebertgasse").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Resselgasse").
-initlocation($p,"Rennweg").
-initlocation($p,"Marienbrücke").
-initlocation($p,"Erdbergstr/Schlachthausgasse").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Satzberggasse").
-initlocation($p,"Maurer Lange Gasse").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Windtenstraße").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Rodaun").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Hardtgasse").
+initlocation(1,"Oberfeldgasse/Spargelfeldstr").
+initlocation(1,"Stollgasse").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Nußdorf").
+initlocation(1,"Scheibenbergstraße").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Linzer Straße/Hochsatzengasse").
+sequence(1,0, "Trondheimgasse").
 person(2).
-initlocation($p,"Rampengasse").
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Konstanziagasse").
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Knöllgasse/Davidgasse").
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Zentralfriedhof 4Tor").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Bahnsteggasse").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Rampengasse").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Nußdorf, Beethovengang").
-possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Josef-Baumann-Gasse").
-possiblemeetinglocations("Mühlfeldgasse").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Grinzing").
-possiblemeetinglocations("Schwarzenbergplatz").
-possiblemeetinglocations("Friedrich-Engels-Platz").
-possiblemeetinglocations("Krankenhaus Hietzing").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Oberfeldgasse").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-restaurant("Pottendorf-Landegg Bahnhof").
-restaurant("Josefstädter Straße").
-restaurant("Winckelmannstraße").
-restaurant("Sankt Marx").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Wildgansplatz").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Perfektastraße").
-restaurant("Huglgasse").
-restaurant("Nordbrücke").
-restaurant("Maurer Hauptplatz").
-restaurant("Sickenberggasse").
-restaurant("Carminweg").
-restaurant("Göllersdorf Bahnhof").
+initlocation(2,"Obere Augartenstraße").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Erndtgasse").
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Fichtnergasse").
+initlocation(2,"Löwengasse").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Empergergasse").
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Grinzing").
+initlocation(2,"Erlaaer Straße").
+sequence(2,0, "Obere Augartenstraße").
+possiblemeetinglocations("Maria Ellend Bahnhof").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Kaiserstraße").
+restaurant("Martinstraße").
+restaurant("Wallrißstraße").
+restaurant("Stadtpark").
+restaurant("Seegasse").
+restaurant("Prater, Hauptallee").
+restaurant("Autokaderstraße").
+restaurant("Kutschkergasse").
+restaurant("Lobau").
+restaurant("Schloss Hetzendorf").
+restaurant("Mistelbach Bahnhof").
+restaurant("Sensengasse").
+restaurant("Zentralfriedhof 2Tor").
+restaurant("Friedensbrücke").
+restaurant("Stubentor").

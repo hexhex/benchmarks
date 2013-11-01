@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Leyserstraße").
-initlocation($p,"Gusenleithnergasse").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Molitorgasse").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Zentralfriedhof 3Tor").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Leyserstraße").
+initlocation(1,"Linzer Straße/Johnstraße").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Handelskai").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Nordwestbahnstraße").
+initlocation(1,"Bahnhof Meidling").
+sequence(1,0, "Linzer Straße/Johnstraße").
 person(2).
-initlocation($p,"Leyserstraße").
-initlocation($p,"Stadion").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Breitenfurter St/Altmannsd Str").
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Linzer Straße/Zehetnergasse").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Leyserstraße").
-possiblemeetinglocations("Obere Augartenstraße").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Teichgasse").
-possiblemeetinglocations("Hopfengasse").
-possiblemeetinglocations("Rothneusiedl").
-possiblemeetinglocations("Hubertusdamm").
-possiblemeetinglocations("Quellenstraße/Knöllgasse").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Schloss Belvedere").
-restaurant("Zehetnerg/Pflegeh Baumgarten").
-restaurant("Empergergasse").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Michelbeuern-AKH").
-restaurant("Jägerstraße").
-restaurant("Johannes-Krawarik-Gasse").
-restaurant("Bernhardtstalgasse").
-restaurant("Tulln Stadt Bahnhof").
-restaurant("Breitensee").
+initlocation(2,"Schloss Hetzendorf").
+initlocation(2,"Laurentiusplatz").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Salztorbrücke").
+initlocation(2,"Donauinsel").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Carabelligasse").
+sequence(2,0, "Schloss Hetzendorf").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Elterleinplatz").
+possiblemeetinglocations("Stollgasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+restaurant("Linzer Straße/Lützowgasse").
+restaurant("Schwarzspanierstraße").
+restaurant("Johann-Strauß-Gasse").
+restaurant("Sieveringer Straße").
+restaurant("Arminenstraße").
+restaurant("Aspernstraße").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Bahnhofstraße").
+restaurant("Wittelsbachstraße").

@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Rathaus").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Thaliastraße/Haberlgasse").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Göllersdorf Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Schönborn Bahnhof").
+sequence(1,0, "Regelsbrunn Bahnhof").
 person(2).
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Stubentor").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Großjedlersdorf").
-possiblemeetinglocations("Paradisgasse").
-possiblemeetinglocations("Lange Gasse").
-possiblemeetinglocations("Kraygasse").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
-restaurant("Jedlersdorf").
-restaurant("Nußdorf").
-restaurant("An den langen Lüssen").
-restaurant("Baden Bahnhof").
-restaurant("Schmerlingplatz").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Rosensteingasse").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Columbusplatz").
+sequence(2,0, "Landesgerichtsstraße").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Rosenhügelstraße").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Rußbergstraße").
+restaurant("Gasometer").
+restaurant("Neue Donau").
+restaurant("Staatz Bahnhof").
+restaurant("Herbeckstraße").
+restaurant("Perfektastraße").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Johannes-Krawarik-Gasse").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Hoßplatz").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Schöffelgasse").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Gänserndorf Bahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Vinzenzgasse").
+initlocation(1,"Kliebergasse").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Rustengasse").
+sequence(1,0, "Purkersdorf Zentrum Bahnhof").
 person(2).
-initlocation($p,"Haidestraße").
-initlocation($p,"Prandaugasse").
-initlocation($p,"Am Spitz").
-initlocation($p,"Hohe Warte").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Haidestraße").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Siebertgasse").
-restaurant("Laaer-Berg-Straße").
-restaurant("Erndtgasse").
-restaurant("Yppengasse").
-restaurant("Seyring Bahnhof").
-restaurant("Otto-Probst-Straße").
-restaurant("Stadtpark").
-restaurant("Antonigasse").
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Ameisgasse").
+initlocation(2,"Brünnlbadgasse").
+initlocation(2,"Am Spitz").
+initlocation(2,"Kledering Bahnhof").
+sequence(2,0, "Barawitzkagasse").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Penzinger Straße").
+restaurant("Museumsquartier").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Längenfeldgasse").
+restaurant("Hetzgasse").
+restaurant("Paradisgasse").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Kagraner Brücke").

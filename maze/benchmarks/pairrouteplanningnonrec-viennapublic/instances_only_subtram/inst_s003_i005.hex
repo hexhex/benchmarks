@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Weihburggasse").
-initlocation($p,"Liechtenwerder Platz").
-initlocation($p,"Barawitzkagasse").
-initlocation($p,"Weihburggasse").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Forstnergasse").
+initlocation(1,"Linzer Straße/Johnstraße").
+sequence(1,0, "Gänserndorf Bahnhof").
 person(2).
-initlocation($p,"Breitensee").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Stadiongasse/Parlament").
-initlocation($p,"Breitensee").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Oberdöbling").
-restaurant("Ober Sankt Veit").
+initlocation(2,"Leberberg").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Lainz, Wolkersbergenstraße").
+sequence(2,0, "Leberberg").
+possiblemeetinglocations("Siebertgasse").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Halteraugasse").
+restaurant("Krottenbachstraße").
+restaurant("Gasometer").
+restaurant("Anschützgasse").

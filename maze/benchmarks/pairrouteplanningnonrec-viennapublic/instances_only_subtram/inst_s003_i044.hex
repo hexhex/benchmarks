@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Obere Augartenstraße").
-initlocation($p,"Johnstraße").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Obere Augartenstraße").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Prater, Hauptallee").
+sequence(1,0, "Gemeinlebarn Bahnhof").
 person(2).
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Heinrich-Drimmel-Platz").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Kaiserstraße").
-possiblemeetinglocations("Pantucekgasse/Widholzgasse").
-possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Weidlingau Bahnhof").
-restaurant("Unteres Belvedere").
-restaurant("Alsegger Straße").
-restaurant("Stefan-Fadinger-Platz").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Haslau an der Donau Bahnhof").
+sequence(2,0, "Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Tulln Bahnhof").
+restaurant("Nordbrücke").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Schottentor").

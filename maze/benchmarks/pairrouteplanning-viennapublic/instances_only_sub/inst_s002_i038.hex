@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Perfektastraße").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Perfektastraße").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Achau Bahnhof").
+sequence(1,0, "Langenzersdorf Bahnhof").
 person(2).
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Aspern Nord").
-restaurant("Kagraner Platz").
-restaurant("Praterstern").
+initlocation(2,"Haslau an der Donau Bahnhof").
+initlocation(2,"Taubstummengasse").
+sequence(2,0, "Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Donauspital").

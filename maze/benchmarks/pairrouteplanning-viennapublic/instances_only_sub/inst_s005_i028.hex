@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Aderklaaer Straße").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Parndorf Ort Bahnhof").
+sequence(1,0, "Himberg Bahnhof").
 person(2).
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Guntramsdorf-Thallern").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Quartier Belvedere").
-restaurant("Messe-Prater").
-restaurant("Lobau").
-restaurant("Taborstraße").
-restaurant("Kagraner Platz").
-restaurant("Kritzendorf Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Stadion").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Stubentor").
+initlocation(2,"Herzogenburg Stadt").
+sequence(2,0, "Weigelsdorf Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Schleinbach Bahnhof").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Stadlau").
+restaurant("Aspernstraße").
+restaurant("Göllersdorf Bahnhof").

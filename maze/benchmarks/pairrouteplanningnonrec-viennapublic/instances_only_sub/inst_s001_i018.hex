@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+sequence(1,0, "Mistelbach Bahnhof").
 person(2).
-initlocation($p,"Schottenring").
-initlocation($p,"Schottenring").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-restaurant("Regelsbrunn Bahnhof").
+initlocation(2,"Frättingsdorf Bahnhof").
+sequence(2,0, "Frättingsdorf Bahnhof").
+possiblemeetinglocations("Penzing").
+restaurant("Jägerstraße").

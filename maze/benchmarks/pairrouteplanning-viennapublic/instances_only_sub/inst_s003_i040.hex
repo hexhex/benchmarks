@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Kagran").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Rennbahnweg").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Schottenring").
+sequence(1,0, "Tullnerfeld Bahnhof").
 person(2).
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Grillgasse").
-restaurant("Aspern Nord").
-restaurant("Krottenbachstraße").
-restaurant("Sollenau Bahnhof").
+initlocation(2,"Taborstraße").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+sequence(2,0, "Taborstraße").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Unter Sankt Veit").
+restaurant("Gänserndorf Bahnhof").

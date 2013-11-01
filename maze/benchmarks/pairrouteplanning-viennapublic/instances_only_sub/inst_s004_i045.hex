@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Schottentor").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Unter Sankt Veit").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Gersthof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Westbahnhof").
+sequence(1,0, "Stephansplatz").
 person(2).
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Johnstraße").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Wolf in der Au").
-restaurant("Mistelbach Stadt").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Gersthof").
-restaurant("Stubentor").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Spittelau").
+initlocation(2,"Grillgasse").
+sequence(2,0, "Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Aspern Nord").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("Neusiedl am See Bahnhof").

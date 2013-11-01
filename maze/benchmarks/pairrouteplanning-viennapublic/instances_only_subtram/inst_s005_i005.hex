@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Florianigasse").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Scheibenbergstraße").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Siebenhirten (NÖ). Haltestelle").
+initlocation(1,"Canisiusgasse").
+initlocation(1,"Sahulkastraße").
+sequence(1,0, "Scheibenbergstraße").
 person(2).
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Siebertgasse").
-initlocation($p,"Gaußplatz").
-initlocation($p,"Aspern, Oberdorfstraße").
-initlocation($p,"Schleiergasse").
-initlocation($p,"Unteroberndorf Bahnhof").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Salztorbrücke").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Schloss Belvedere").
-possiblemeetinglocations("Dresdner Straße").
-restaurant("Schloss Belvedere").
-restaurant("Stubentor").
-restaurant("Rathausplatz/Burgtheater").
-restaurant("Anton-Krieger-Gasse").
-restaurant("Hütteldorfer Str/Hochsatzeng").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Floridsdorf").
+sequence(2,0, "Türkenschanzplatz").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Rothneusiedl").
+restaurant("Saikogasse").
+restaurant("Rankgasse").
+restaurant("Strozzigasse").
+restaurant("Kaisermühlen-VIC").
+restaurant("Wr Neustadt Civitas Nova").

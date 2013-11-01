@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Alte Donau").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Seestadt").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Johnstraße").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Gersthof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+sequence(1,0, "Seestadt").
 person(2).
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Hernals").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-restaurant("Geiselbergstraße").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Taubstummengasse").
-restaurant("Donaustadtbrücke").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Hetzendorf").
+initlocation(2,"Praterstern").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Liesing").
+initlocation(2,"Donauinsel").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Hainburg/Donau Personenbhf").
+sequence(2,0, "Praterstern").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Weidlingau Bahnhof").
+restaurant("Alterlaa").
+restaurant("Mistelbach Bahnhof").
+restaurant("Praterkai").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Siebenhirten (NÖ). Haltestelle").

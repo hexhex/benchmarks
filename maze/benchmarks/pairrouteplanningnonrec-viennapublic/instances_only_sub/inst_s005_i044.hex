@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Breitensee").
-initlocation($p,"Hainburg/Donau Personenbhf").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Margaretengürtel").
+sequence(1,0, "Frättingsdorf Bahnhof").
 person(2).
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Untereggendorf Bahnhof").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-restaurant("Gaisruck Bahnhof").
-restaurant("Wr Neustadt Nord").
-restaurant("Stadtpark").
-restaurant("Staatz Bahnhof").
-restaurant("Floridsdorf").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Kagran").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Schottenring").
+initlocation(2,"Bad Vöslau Bahnhof").
+sequence(2,0, "Höbersdorf Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+restaurant("Bisamberg Bahnhof").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Gumpendorfer Straße").

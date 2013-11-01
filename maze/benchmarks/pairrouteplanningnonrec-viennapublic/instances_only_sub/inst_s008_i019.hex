@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Haidestraße").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Zippererstraße").
+sequence(1,0, "Pottendorf-Landegg Bahnhof").
 person(2).
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Liesing").
-restaurant("Zentralfriedhof").
-restaurant("Längenfeldgasse").
-restaurant("Nestroyplatz").
-restaurant("Westbahnhof").
-restaurant("Gemeinlebarn Bahnhof").
-restaurant("Wr Neustadt Nord").
-restaurant("Taborstraße").
-restaurant("Schwechat Bahnhof").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Reumannplatz").
+sequence(2,0, "Brünner Straße").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Atzgersdorf").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Alterlaa").
+restaurant("Braunschweiggasse").

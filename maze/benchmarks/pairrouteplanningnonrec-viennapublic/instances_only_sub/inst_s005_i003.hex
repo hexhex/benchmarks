@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Herrengasse").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Lobau").
-initlocation($p,"Herrengasse").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+sequence(1,0, "Perfektastraße").
 person(2).
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Leopoldau").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-restaurant("Meidling Hauptstraße").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Simmering").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Maria Ellend Bahnhof").
+sequence(2,0, "Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Traismauer Bahnhof").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Sollenau Bahnhof").
+restaurant("Am Schöpfwerk").
 restaurant("Erlaaer Straße").
-restaurant("Leopoldau").
-restaurant("St Pölten Hauptbahnhof").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").

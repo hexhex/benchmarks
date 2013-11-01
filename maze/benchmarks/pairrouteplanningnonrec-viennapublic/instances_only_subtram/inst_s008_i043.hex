@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Nußdorf, Beethovengang").
-initlocation($p,"Krankenhaus Hietzing").
-initlocation($p,"Teichgasse").
-initlocation($p,"Joachimsthalerplatz").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Florianigasse").
-initlocation($p,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Radetzkyplatz").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Hauffgasse").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Fultonstraße").
+initlocation(1,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Martinstraße").
+initlocation(1,"Zieglergasse").
+sequence(1,0, "Radetzkyplatz").
 person(2).
-initlocation($p,"Tesarekplatz").
-initlocation($p,"Dornbacher Straße").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Breitenfurter St/Altmannsd Str").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Tesarekplatz").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Friedrich-Engels-Platz").
-possiblemeetinglocations("Schuhmeierplatz").
-possiblemeetinglocations("Wenzgasse").
-possiblemeetinglocations("Gerhardusgasse").
-possiblemeetinglocations("Glatzgasse").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Wildgansplatz").
-restaurant("Svetelskystraße").
-restaurant("Sankt Marx").
-restaurant("Stammersdorf").
-restaurant("Quellenplatz").
-restaurant("Altes Landgut").
-restaurant("Zeiselmauer-Königstetten Bf").
-restaurant("Strozzigasse").
-restaurant("Thaliastraße/Haberlgasse").
+initlocation(2,"Johnstraße").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Marxergasse").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Gersthof").
+sequence(2,0, "Johnstraße").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Kärntner Ring/Oper").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Plößlgasse").
+restaurant("Viehmarktgasse").
+restaurant("Achau Bahnhof").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Koloniestraße").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Landesgerichtsstraße").
+restaurant("Hildebrandgasse").
+restaurant("Polkorabplatz").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Nordbahnstraße").
-initlocation($p,"Radetzkyplatz").
-initlocation($p,"Laurenzgasse").
+initlocation(1,"Laaer-Berg-Straße").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Gerstnerstraße/Westbhf").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Marxergasse").
+sequence(1,0, "Laaer-Berg-Straße").
 person(2).
-initlocation($p,"Paradisgasse").
-initlocation($p,"Wattmanngasse").
-initlocation($p,"Konstanziagasse").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Paradisgasse").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Marxergasse").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Hetzendorf").
-restaurant("Hütteldorfer Str/Lützowgasse").
-restaurant("Hetzendorf").
-restaurant("Fultonstraße").
-restaurant("Laxenburger Straße/Troststraße").
-restaurant("Pilgramgasse").
-restaurant("Kagraner Platz").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Nordwestbahnstraße").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Litfaßstraße").
+sequence(2,0, "Westbahnhof").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Stiftgasse").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Himberg Bahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Schwarzenbergplatz").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Kaiserstraße").
+restaurant("Greifenstein-Altenberg Bahnhof").

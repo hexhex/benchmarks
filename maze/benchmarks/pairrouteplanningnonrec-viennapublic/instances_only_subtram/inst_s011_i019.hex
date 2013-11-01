@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Breitensee").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Stubentor").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Atzgersdorf").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Alaudagasse").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Siebertgasse").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Praterkai").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Kaiserebersdorf").
+sequence(1,0, "Friedensbrücke").
 person(2).
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Himmelmutterweg").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Autokaderstraße").
-initlocation($p,"Stadlergasse").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Wilhelminenstr/Sandleitengasse").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Jedlersdorf").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Matthäus-Jiszda-Straße").
-possiblemeetinglocations("Stadiongasse/Parlament").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Schwarzenbergplatz").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Perfektastraße").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Wexstraße").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Herbeckstraße").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Lobau").
+initlocation(2,"Schleinbach Bahnhof").
+sequence(2,0, "Zellerndorf Bahnhof").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Radetzkyplatz").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
 possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Franz-Asenbauer-Gasse").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Kaiserstraße/Burggasse").
-restaurant("Julius-Raab-Platz").
-restaurant("Anschützgasse").
-restaurant("Pokornygasse").
-restaurant("Mistelbach Bahnhof").
-restaurant("Matthäus-Jiszda-Straße").
-restaurant("Kaiserebersdorf").
-restaurant("Molitorgasse").
-restaurant("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+restaurant("Mühlfeldgasse").
+restaurant("Mayssengasse").
+restaurant("Nußdorfer Straße").
+restaurant("Felixdorf Bahnhof").
+restaurant("Bahnhofstraße").
+restaurant("Klosterneub Str/Wallensteinstr").
+restaurant("Münchendorf Bahnhof").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Wienerbergbrücke").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Per-Albin-Hansson-Siedlung Ost").

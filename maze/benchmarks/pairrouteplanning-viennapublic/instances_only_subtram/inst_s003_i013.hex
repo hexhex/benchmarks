@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Innstraße").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Oberolberndorf Bahnhof").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Palffygasse").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Deutsch-Wagram Bahnhof").
 person(2).
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-restaurant("Schwarzspanierstraße").
-restaurant("Silbergasse").
-restaurant("Eichenstraße").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Spittelau").
+sequence(2,0, "Konstanziagasse").
+possiblemeetinglocations("Hohe Warte").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Alterlaa").
+restaurant("Himberg Bahnhof").
+restaurant("Fultonstraße").
+restaurant("Gerasdorf Bahnhof").

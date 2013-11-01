@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Jägermaiszufahrt").
-initlocation(1,"Kohlgasse").
-initlocation(1,"Wienflußaufsicht").
-sequence(1,0, "Jägermaiszufahrt").
+initlocation(1,"Wildpretstraße").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Pretschgasse").
+sequence(1,0, "Wildpretstraße").
 person(2).
-initlocation(2,"Jagdschloßgasse").
-initlocation(2,"Praterkai").
-initlocation(2,"Possingergasse/Koppstraße").
-sequence(2,0, "Jagdschloßgasse").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Weißenböckstraße").
-possiblemeetinglocations("Adolf-Unger-Gasse").
-restaurant("Ehrenpreisgasse").
-restaurant("Riedstraße").
-restaurant("Altes Landgut").
+initlocation(2,"Kollarzgasse").
+initlocation(2,"Englisch-Feld-Gasse").
+initlocation(2,"Rautenweg/Hermann-Gebauer-Str").
+sequence(2,0, "Kollarzgasse").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Zschokkegasse").
+possiblemeetinglocations("Rosasgasse").
+restaurant("Kiefernplatz").
+restaurant("Illgasse").
+restaurant("Wolfersberggasse").

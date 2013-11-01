@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Strebersdorf").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Volkstheater").
-initlocation($p,"Strebersdorf").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Enkplatz").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Kettenbrückengasse").
+sequence(1,0, "Heiligenstadt").
 person(2).
-initlocation($p,"Haidestraße").
-initlocation($p,"Donauspital").
-initlocation($p,"Rennweg").
-initlocation($p,"Hietzing").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Haidestraße").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Seestadt").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Gersthof").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Johnstraße").
+initlocation(2,"Hietzing").
+initlocation(2,"Traismauer Bahnhof").
+sequence(2,0, "Seyring Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Taborstraße").
 possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Schönbrunn").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Kaiserebersdorf").
-restaurant("Mistelbach Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+restaurant("Stadion").
 restaurant("Liesing").
-restaurant("Schleinbach Bahnhof").
-restaurant("Haslau an der Donau Bahnhof").
-restaurant("Donaumarina").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Niederhofstraße").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Gasometer").
+restaurant("Purkersdorf Sanatorium").

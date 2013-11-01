@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Herrengasse").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+sequence(1,0, "Mödling Bahnhof").
 person(2).
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Haidestraße").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Stadtpark").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Margaretengürtel").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Braunschweiggasse").
-possiblemeetinglocations("Währinger Straße-Volksoper").
-possiblemeetinglocations("Hausleiten Bahnhof").
-restaurant("Meidling Hauptstraße").
-restaurant("Alterlaa").
-restaurant("Friedensbrücke").
-restaurant("Ober Sankt Veit").
-restaurant("Rochusgasse").
-restaurant("Stockerau Bahnhof").
-restaurant("Süßenbrunn").
-restaurant("Schönborn Bahnhof").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Strebersdorf").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Nußdorf").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Gasometer").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Handelskai").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+sequence(2,0, "Kardinal-Nagl-Platz").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Leopoldau").
+restaurant("Hetzendorf").
+restaurant("Münchendorf Bahnhof").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Bisamberg Bahnhof").
+restaurant("Niederhofstraße").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Retz Bahnhof").
+restaurant("Westbahnhof").
+restaurant("Quartier Belvedere").
+restaurant("Klosterneuburg-Kierling Bf").

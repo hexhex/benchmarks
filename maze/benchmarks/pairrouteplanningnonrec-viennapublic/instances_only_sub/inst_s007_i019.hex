@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Josefstädter Straße").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Stadion").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Taubstummengasse").
+sequence(1,0, "Gramatneusiedl Bahnhof").
 person(2).
-initlocation($p,"Brünner Straße").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Brünner Straße").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Pressbaum Bahnhof").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Johnstraße").
-restaurant("Simmering").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+sequence(2,0, "Seyring Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Wr Neustadt Nord").
+restaurant("Kagran").
+restaurant("Korneuburg Bahnhof").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Herrengasse").
+restaurant("Perchtoldsdorf Bahnhof").
 restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Platt Bahnhof").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Deutsch-Wagram Bahnhof").
-restaurant("Münchendorf Bahnhof").
-restaurant("Donauspital").
+restaurant("Erzherzog-Karl-Straße").

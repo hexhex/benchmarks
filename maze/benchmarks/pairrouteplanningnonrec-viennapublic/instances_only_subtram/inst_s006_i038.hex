@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Joachimsthalerplatz").
-initlocation($p,"Dommayergasse").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Unteres Belvedere").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Joachimsthalerplatz").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Gerasdorf Bahnhof").
+sequence(1,0, "Bahnhof Meidling/Eichenstraße").
 person(2).
-initlocation($p,"Resselgasse").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Svetelskystraße").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Resselgasse").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-possiblemeetinglocations("Hildebrandgasse").
-possiblemeetinglocations("Sankt Marx").
-restaurant("Kagran").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Großfeldsiedlung").
-restaurant("Wallrißstraße").
-restaurant("Rosensteingasse").
-restaurant("Süßenbrunn").
+initlocation(2,"Laudongasse").
+initlocation(2,"Johnstraße").
+initlocation(2,"Alterlaa").
+initlocation(2,"Waidhausenstraße").
+initlocation(2,"Sensengasse").
+initlocation(2,"Tesarekplatz").
+sequence(2,0, "Laudongasse").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Thaliastraße/Feßtgasse").
+possiblemeetinglocations("Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Schloss Schönbrunn").
+possiblemeetinglocations("Burggasse-Stadthalle").
+restaurant("Huglgasse").
+restaurant("Bauernfeldplatz").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Rennbahnweg").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Ebreichsdorf Bahnhof").

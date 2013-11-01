@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Siebenhirten").
+sequence(1,0, "St Andrä-Wördern Bahnhof").
 person(2).
-initlocation($p,"Blumental").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Stadtpark").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Blumental").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Oberdöbling").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Seyring Bahnhof").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Nußdorfer Straße").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Gasometer").
+sequence(2,0, "Brünner Straße").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Hausfeldstraße").
+restaurant("Kettenbrückengasse").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Parndorf Ort Bahnhof").

@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Saikogasse").
-initlocation($p,"Zentralfriedhof 3Tor").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Redtenbachergasse").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Enkplatz").
-initlocation($p,"Bahnhof Meidling").
+initlocation(1,"Liebknechtgasse").
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+initlocation(1,"Römergasse").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+sequence(1,0, "Liebknechtgasse").
 person(2).
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Wallrißstraße").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Oberradlberg Bahnhof").
-possiblemeetinglocations("Oberlaa, Therme Wien").
-possiblemeetinglocations("Brigittaplatz").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Polgarstraße").
-possiblemeetinglocations("Kaiserstraße/Neustiftgasse").
-possiblemeetinglocations("Leyserstraße").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Scheibenbergstraße").
-possiblemeetinglocations("Augasse").
-restaurant("Karmeliterplatz").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Margaretengürtel").
-restaurant("Hütteldorfer Straße").
-restaurant("An den langen Lüssen").
-restaurant("Resselgasse").
-restaurant("Anton-Schall-Gasse").
-restaurant("Liebknechtgasse").
-restaurant("Hernalser Hauptstr/Wattgasse").
+initlocation(2,"Blumental").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Sommarugagasse").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Radetzkyplatz").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Friedensbrücke").
+sequence(2,0, "Blumental").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Zieglergasse/Westbahnstraße").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+restaurant("Waidhausenstraße").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Zentralfriedhof 2Tor").
+restaurant("Obere Augartenstraße").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Josefstädter Straße").
+restaurant("Eichgraben-Altlengbach Bahnhof").

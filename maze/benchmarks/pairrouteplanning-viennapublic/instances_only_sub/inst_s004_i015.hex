@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Donauinsel").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Quartier Belvedere").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Schottenring").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Kagran").
+sequence(1,0, "Schweglerstraße").
 person(2).
-initlocation($p,"Reumannplatz").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Penzing").
-initlocation($p,"Reumannplatz").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-restaurant("Donaumarina").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Westbahnhof").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Handelskai").
+sequence(2,0, "Aspernstraße").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Siebenhirten").
+restaurant("Paasdorf Bahnhof").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Schlachthausgasse").
+restaurant("Zeiselmauer-Königstetten Bf").

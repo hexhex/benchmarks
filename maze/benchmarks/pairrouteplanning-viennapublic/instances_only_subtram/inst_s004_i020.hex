@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Unteres Belvedere").
-initlocation($p,"Silbergasse").
-initlocation($p,"Liesing").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Unteres Belvedere").
+initlocation(1,"Stammersdorf").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Linzer Straße/Reinlgasse").
+sequence(1,0, "Stammersdorf").
 person(2).
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Liesing").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-restaurant("Südtiroler Platz/Hauptbahnhof").
-restaurant("Molitorgasse").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Hardeggasse").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Gaußplatz").
+initlocation(2,"Türkenschanzplatz").
+sequence(2,0, "Wolf in der Au").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Hauptbahnhof Ost").
+restaurant("Forstnergasse").
+restaurant("Arminenstraße").
+restaurant("Haidestraße").
+restaurant("Preyergasse/Speising").

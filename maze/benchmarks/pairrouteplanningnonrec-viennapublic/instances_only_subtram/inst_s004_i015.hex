@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Stadiongasse/Parlament").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Erlaaer Straße").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Rampengasse").
+initlocation(1,"Schloss Hetzendorf").
+initlocation(1,"Währinger Straße-Volksoper").
+sequence(1,0, "Schmerlingplatz").
 person(2).
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Neilreichgasse").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Kölblgasse").
-possiblemeetinglocations("Silberwald Bahnhof").
-possiblemeetinglocations("Schwarzenbergplatz").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Johann-Nepomuk-Berger-Platz").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Weihburggasse").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Kölblgasse").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+sequence(2,0, "Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Taborstraße").
+restaurant("Hütteldorfer Str/Lützowgasse").
+restaurant("Praterstern").
+restaurant("Strozzigasse").
+restaurant("Enkplatz").

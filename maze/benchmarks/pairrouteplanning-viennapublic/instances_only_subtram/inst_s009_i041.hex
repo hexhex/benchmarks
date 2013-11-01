@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Huglgasse").
-initlocation($p,"Schottenfeldgasse").
-initlocation($p,"Arminenstraße").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Valiergasse").
-initlocation($p,"Unterradlberg Bahnhof").
+initlocation(1,"Simonygasse").
+initlocation(1,"Grinzing").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Sahulkastraße").
+initlocation(1,"Windtenstraße").
+sequence(1,0, "Simonygasse").
 person(2).
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Handelskai").
-initlocation($p,"Perntergasse").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Schleiergasse").
-initlocation($p,"Römergasse").
-initlocation($p,"Stadlau").
-initlocation($p,"Herbeckstraße").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Quellenstraße/Favoritenstraße").
-possiblemeetinglocations("An den langen Lüssen").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Leyserstraße").
-possiblemeetinglocations("Otto-Probst-Straße").
-restaurant("Hohe Warte").
-restaurant("Hernals").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Unter Sankt Veit").
-restaurant("Sickenberggasse").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Oberzellergasse").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Aßmayergasse").
+initlocation(2,"Baumgasse").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Oberfeldgasse").
+initlocation(2,"Kraygasse").
+initlocation(2,"Siebertgasse").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Liebknechtgasse").
+sequence(2,0, "Winckelmannstraße").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Rustengasse").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Viehmarktgasse").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Himmelmutterweg").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Strebersdorf").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Bahnhof Meidling/Eichenstraße").
 restaurant("Hörersdorf Bahnhof").
+restaurant("Diesterweggasse").
+restaurant("Schönborn Bahnhof").

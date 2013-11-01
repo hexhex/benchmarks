@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Perfektastraße").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Hernals").
-initlocation($p,"Perfektastraße").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Hardeggasse").
+sequence(1,0, "Maria Ellend Bahnhof").
 person(2).
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Nußdorfer Straße").
-possiblemeetinglocations("Hetzendorf").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Zippererstraße").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Penzing").
+sequence(2,0, "Bahnhof Meidling").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Leopoldau").

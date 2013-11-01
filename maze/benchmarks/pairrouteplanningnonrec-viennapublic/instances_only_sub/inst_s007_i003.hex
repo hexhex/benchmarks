@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Taborstraße").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Taborstraße").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Alterlaa").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Stadion").
+sequence(1,0, "Oberdöbling").
 person(2).
-initlocation($p,"Leopoldau").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Leopoldau").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-restaurant("Trasdorf Bahnhof").
-restaurant("Dürrwien Bahnhof").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Oberradlberg Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Gasometer").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+sequence(2,0, "Hausfeldstraße").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Taubstummengasse").
+restaurant("Hausleiten Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Gaisruck Bahnhof").
+restaurant("Karlsplatz").
+restaurant("Schweglerstraße").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Franz-Josefs-Bahnhof").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Enkplatz").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Krieau").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Donauinsel").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Michelbeuern-AKH").
+sequence(1,0, "Rochusgasse").
 person(2).
-initlocation($p,"Haidestraße").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Haidestraße").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-restaurant("Keplerplatz").
-restaurant("Jedlersdorf").
-restaurant("Kettenbrückengasse").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Strasshof Bahnhof").
-restaurant("Mödling Bahnhof").
-restaurant("Lobau").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+sequence(2,0, "Heiligenstadt").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Friedensbrücke").
+restaurant("Krottenbachstraße").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Schönborn Bahnhof").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Zieglergasse").

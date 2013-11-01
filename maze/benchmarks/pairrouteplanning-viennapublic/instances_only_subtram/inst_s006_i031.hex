@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Baumgasse").
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Stiftgasse").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Kledering Bahnhof").
+initlocation(1,"Leberberg").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Guneschgasse").
+sequence(1,0, "Leberberg").
 person(2).
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Kranzgasse").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Marx-Meidlinger-Straße").
-possiblemeetinglocations("Diesterweggasse").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Siebertgasse").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Blumengasse").
-possiblemeetinglocations("Alsegger Straße").
-restaurant("Stadlergasse").
-restaurant("Erdberg").
-restaurant("Fultonstraße").
-restaurant("Gatterburggasse").
-restaurant("Siebertgasse").
-restaurant("Carminweg").
+initlocation(2,"Raxstraße/Rudolfshügelgasse").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Rennweg").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Yppengasse").
+sequence(2,0, "Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Joachimsthalerplatz").
+restaurant("Kledering Bahnhof").
+restaurant("Redtenbachergasse").
+restaurant("Gusenleithnergasse").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Guntramsdorf-Thallern").

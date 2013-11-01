@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Strebersdorf").
-initlocation($p,"Breitensee").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Strebersdorf").
+initlocation(1,"Stadlau").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+sequence(1,0, "Stadlau").
 person(2).
-initlocation($p,"Zieglergasse").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Stubentor").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Zieglergasse").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Schwedenplatz").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Penzing").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Neubaugasse").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Stadlau").
+initlocation(2,"Krottenbachstraße").
+initlocation(2,"Spittelau").
+initlocation(2,"Donauspital").
+sequence(2,0, "Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Liesing").
+restaurant("Lobau").
+restaurant("Münchendorf Bahnhof").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Rennbahnweg").

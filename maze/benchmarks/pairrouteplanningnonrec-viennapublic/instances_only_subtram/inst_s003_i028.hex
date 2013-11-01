@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Stubentor").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Staatz Bahnhof").
+initlocation(1,"Kutschkergasse").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Hubertusdamm").
+sequence(1,0, "Kutschkergasse").
 person(2).
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Nordbrücke").
-initlocation($p,"Gaußplatz").
-initlocation($p,"Tscherttegasse").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Franzensbrücke").
-restaurant("Döblinger Hauptstr/Gatterburgg").
-restaurant("Döblinger Bad").
-restaurant("Ottakringer Str/Erdbrustgasse").
+initlocation(2,"Redtenbachergasse").
+initlocation(2,"Seestadt").
+initlocation(2,"Josefstädter Straße").
+sequence(2,0, "Redtenbachergasse").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Auerspergstraße").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Staatz Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Frättingsdorf Bahnhof").

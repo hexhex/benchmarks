@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Unteroberndorf Bahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Siebenhirten").
+sequence(1,0, "Purkersdorf Zentrum Bahnhof").
 person(2).
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Zentralfriedhof").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Thaliastraße").
-restaurant("Braunschweiggasse").
-restaurant("Erlaaer Straße").
-restaurant("Rennbahnweg").
-restaurant("Höflein an der Donau Bahnhof").
-restaurant("Himberg Bahnhof").
-restaurant("Geiselbergstraße").
-restaurant("Dresdner Straße").
+initlocation(2,"Schönbrunn").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Hietzing").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Rennweg").
+initlocation(2,"Schweglerstraße").
+sequence(2,0, "Schönbrunn").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Zippererstraße").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Guntersdorf Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+restaurant("Traismauer Bahnhof").
+restaurant("Tulln Bahnhof").
+restaurant("Krottenbachstraße").
+restaurant("Liesing").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Hütteldorfer Straße").
+restaurant("Zeiselmauer-Königstetten Bf").

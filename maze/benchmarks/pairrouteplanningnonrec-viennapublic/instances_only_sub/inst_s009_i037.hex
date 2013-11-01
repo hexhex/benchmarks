@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Hirschstetten").
-initlocation($p,"Gersthof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Simmering").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Herrengasse").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Hirschstetten").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Atzenbrugg Bahnhof").
+sequence(1,0, "Gramatneusiedl Bahnhof").
 person(2).
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Keplerplatz").
-restaurant("Viehofen Bahnhof").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Hautzendorf Bahnhof").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Pottendorf-Landegg Bahnhof").
-restaurant("Kapellerfeld Bahnhof").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Petronell-Carnuntum Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Sarasdorf Bahnhof").
+sequence(2,0, "Stubentor").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Taborstraße").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Westbahnhof").
+restaurant("Niederhofstraße").
+restaurant("Großfeldsiedlung").
+restaurant("Stadtpark").
+restaurant("Krieau").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Stubentor").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Weigelsdorf Bahnhof").

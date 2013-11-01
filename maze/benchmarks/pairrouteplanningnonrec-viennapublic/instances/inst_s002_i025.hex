@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Wolfsthal Bahnhof").
-initlocation(1,"Puchgasse").
-sequence(1,0, "Wolfsthal Bahnhof").
+initlocation(1,"Neuwaldegger Straße").
+initlocation(1,"Donaustadtstraße").
+sequence(1,0, "Neuwaldegger Straße").
 person(2).
-initlocation(2,"Kaiserebersdorfer Friedhof").
-initlocation(2,"Johann-Friedl-Gasse").
-sequence(2,0, "Kaiserebersdorfer Friedhof").
-possiblemeetinglocations("Kagraner Friedhof").
-possiblemeetinglocations("Arztgasse").
-restaurant("Liesing Schulzentrum").
-restaurant("Rathaus").
+initlocation(2,"Oskar-Simony-Straße").
+initlocation(2,"Silberwald Bahnhof").
+sequence(2,0, "Oskar-Simony-Straße").
+possiblemeetinglocations("Liechtensteinstr/Schottentor").
+possiblemeetinglocations("Siedlung Blumental").
+restaurant("Rautenweg").
+restaurant("Pottendorf-Landegg Bahnhof").

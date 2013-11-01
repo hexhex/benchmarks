@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Schönbrunn").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Schönbrunn").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Stadlau").
+initlocation(1,"Mödling Bahnhof").
+sequence(1,0, "Haslau an der Donau Bahnhof").
 person(2).
-initlocation($p,"Alser Straße").
-initlocation($p,"Seestadt").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Alser Straße").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Herrengasse").
-restaurant("Atzgersdorf").
-restaurant("Hütteldorf").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Blumental").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Währinger Straße-Volksoper").
+sequence(2,0, "Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Michelbeuern-AKH").
+restaurant("Handelskai").
+restaurant("Strasshof Bahnhof").

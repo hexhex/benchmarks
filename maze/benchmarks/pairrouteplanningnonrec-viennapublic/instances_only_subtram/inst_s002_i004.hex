@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Brünner Straße/Hanreitergasse").
-initlocation($p,"Molitorgasse").
-initlocation($p,"Brünner Straße/Hanreitergasse").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+initlocation(1,"Weigelsdorf Bahnhof").
+sequence(1,0, "Ottakringer Str/Erdbrustgasse").
 person(2).
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-restaurant("Lazarettgasse").
-restaurant("Perchtoldsdorf Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Obere Augartenstraße").
+sequence(2,0, "Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Forstnergasse").
+restaurant("Reumannplatz").
+restaurant("Krieau").

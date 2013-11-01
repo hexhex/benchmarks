@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Herrengasse").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Hietzing").
-initlocation($p,"Ottakring").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Herrengasse").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Simmering").
+sequence(1,0, "Achau Bahnhof").
 person(2).
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-restaurant("Viehofen Bahnhof").
-restaurant("Längenfeldgasse").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Tulln Stadt Bahnhof").
-restaurant("Kapellerfeld Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Rathaus").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Erdberg").
+initlocation(2,"Stadlau").
+initlocation(2,"Rennweg").
+initlocation(2,"Unterradlberg Bahnhof").
+sequence(2,0, "Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Hietzing").
+restaurant("Seyring Bahnhof").
+restaurant("Perfektastraße").
+restaurant("Platt Bahnhof").
+restaurant("Westbahnhof").
+restaurant("Jägerstraße").
 restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Regelsbrunn Bahnhof").

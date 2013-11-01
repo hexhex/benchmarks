@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Herrengasse").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Herrengasse").
+initlocation(1,"Alte Donau").
+initlocation(1,"Schottenring").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+sequence(1,0, "Alte Donau").
 person(2).
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Achau Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Großfeldsiedlung").
-restaurant("Kettenbrückengasse").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Blumental").
-restaurant("Taborstraße").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Mödling Bahnhof").
+sequence(2,0, "Paasdorf Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Schleinbach Bahnhof").
+restaurant("Grillgasse").
+restaurant("Oberdöbling").
+restaurant("Jägerstraße").
+restaurant("Neubau-Kreuzstetten Bahnhof").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Schwechat B10/Hauptplatz").
-initlocation(1,"Leopoldauer Platz").
-initlocation(1,"Montecuccoliplatz").
-initlocation(1,"Bahnhof Meidling").
-sequence(1,0, "Schwechat B10/Hauptplatz").
+initlocation(1,"Allissen").
+initlocation(1,"Reinholdgasse").
+initlocation(1,"Haidersberggasse").
+initlocation(1,"Mühlwasserstraße").
+sequence(1,0, "Allissen").
 person(2).
-initlocation(2,"Langenzersdorf Bahnhof").
-initlocation(2,"Althanstraße").
-initlocation(2,"Felixdorf Bahnhof").
-initlocation(2,"Landesgerichtsstraße").
-sequence(2,0, "Langenzersdorf Bahnhof").
-possiblemeetinglocations("Mommsengasse").
-possiblemeetinglocations("Neu-Kagran").
-possiblemeetinglocations("Simmeringer Haide").
-possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
-restaurant("Alser Straße").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Zieglergasse/Neustiftgasse").
-restaurant("Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Hirschengasse").
+initlocation(2,"Edmund-Hawranek-Platz").
+initlocation(2,"Floridsdorfer Brücke").
+sequence(2,0, "Laaer-Berg-Straße").
+possiblemeetinglocations("Zeleborgasse").
+possiblemeetinglocations("Ultzmanngasse").
+possiblemeetinglocations("Eßling Schule").
+possiblemeetinglocations("Verbindungsbahn").
+restaurant("Neustifter Friedhof 3Tor").
+restaurant("Siemensstraße").
+restaurant("Lorenz-Müller-Gasse").
+restaurant("Bischoffgasse").

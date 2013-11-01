@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Schloss Belvedere").
-initlocation($p,"Absberggasse").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Rathaus").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Bahnhofstraße").
-initlocation($p,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Skodagasse").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Herbeckstraße").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Am Heidjöchl").
+sequence(1,0, "Skodagasse").
 person(2).
-initlocation($p,"Rebhanngasse").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Anton-Schall-Gasse").
-initlocation($p,"Grinzinger Straße").
-initlocation($p,"Bahnsteggasse").
-initlocation($p,"Kraygasse").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Hopfengasse").
-initlocation($p,"Rebhanngasse").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Gewerbepark Stadlau Mitte").
-possiblemeetinglocations("Aßmayergasse").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Gloriettegasse").
-possiblemeetinglocations("Riedelgasse").
-possiblemeetinglocations("Liechtenwerder Platz").
-restaurant("Lainz, Wolkersbergenstraße").
-restaurant("Am Heidjöchl").
-restaurant("Raxstraße/Rudolfshügelgasse").
-restaurant("Floridsdorf").
-restaurant("Volkstheater").
-restaurant("Kagran").
-restaurant("Wittelsbachstraße").
-restaurant("Mannswörth Bahnhof").
-restaurant("Konstanziagasse").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Rosensteingasse").
+initlocation(2,"Autokaderstraße").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Halteraugasse").
+sequence(2,0, "Mödling Bahnhof").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Himmelmutterweg").
+possiblemeetinglocations("Stiftgasse").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Wr Neustadt Nord").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Paulanergasse").
+restaurant("Schwechat Bahnhof").
+restaurant("Oberlaa, Therme Wien").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Retz Bahnhof").
+restaurant("Hoßplatz").
+restaurant("Brünnlbadgasse").
+restaurant("Neubau-Kreuzstetten Bahnhof").

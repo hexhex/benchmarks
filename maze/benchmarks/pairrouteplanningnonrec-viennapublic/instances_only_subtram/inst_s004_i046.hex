@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Alfred-Adler-Straße").
-initlocation($p,"Bahnhof Meidling").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Ulrichskirchen Bahnhof").
+sequence(1,0, "Plößlgasse").
 person(2).
-initlocation($p,"Am Tabor").
-initlocation($p,"Gunoldstraße").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Am Tabor").
-possiblemeetinglocations("Stefan-Fadinger-Platz").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-restaurant("Kaisermühlen-VIC").
-restaurant("Stefan-Fadinger-Platz").
-restaurant("Blumengasse").
-restaurant("Martinstraße").
+initlocation(2,"Donaustadtstraße").
+initlocation(2,"Columbusplatz").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+sequence(2,0, "Donaustadtstraße").
+possiblemeetinglocations("Hohe Warte").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+restaurant("Breitenfurter St/Altmannsd Str").
+restaurant("Heiligenstadt, 12-Februar-Pl").
+restaurant("Strebersdorf").
+restaurant("Bad Vöslau Bahnhof").

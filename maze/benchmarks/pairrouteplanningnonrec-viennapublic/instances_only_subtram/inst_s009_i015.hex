@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Gerstnerstraße/Westbhf").
-initlocation($p,"Grinzing").
-initlocation($p,"Sillerplatz").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Stadtpark").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Schwarzspanierstraße").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Hernalser Gürtel").
-initlocation($p,"Gerstnerstraße/Westbhf").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Arthaberplatz").
+initlocation(1,"Zentralfriedhof 4Tor").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Gottschalkgasse/Enkplatz").
+initlocation(1,"Dornbacher Straße").
+sequence(1,0, "Währinger Straße-Volksoper").
 person(2).
-initlocation($p,"Siebertgasse").
-initlocation($p,"Barawitzkagasse").
-initlocation($p,"Dornbach, Güpferlingstraße").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Floridsdorfer Brücke").
-initlocation($p,"Johannes-Krawarik-Gasse").
-initlocation($p,"Siebertgasse").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Zentralfriedhof 4Tor").
-possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
-possiblemeetinglocations("Thaliastraße/Feßtgasse").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-possiblemeetinglocations("Mayerhofgasse").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Bösendorferstraße").
-possiblemeetinglocations("Korneuburg Bahnhof").
-restaurant("Floridsdorfer Brücke").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Scheibenbergstraße").
-restaurant("Brünner Straße/Hanreitergasse").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Bahnhofstraße").
-restaurant("Herzogenburg Stadt").
-restaurant("Schmerlingplatz").
-restaurant("Längenfeldgasse/Flurschützstr").
+initlocation(2,"Quellenstraße/Favoritenstraße").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Ottakring").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Quartier Belvedere").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+sequence(2,0, "Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Valiergasse").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+restaurant("Schönbrunn").
+restaurant("Krieau").
+restaurant("Tulln Bahnhof").
+restaurant("Quartier Belvedere").
+restaurant("Achau Bahnhof").
+restaurant("Rosensteingasse").
+restaurant("Anschützgasse").
+restaurant("Thaliastraße/Brunnengasse").
+restaurant("Burgring").

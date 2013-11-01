@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Quellenstraße/Knöllgasse").
-initlocation($p,"Gruschaplatz").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Schöffelgasse").
-initlocation($p,"Tulln Stadt Bahnhof").
+initlocation(1,"Zentralfriedhof 4Tor").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Schloss Belvedere").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Lederergasse").
+sequence(1,0, "Zentralfriedhof 4Tor").
 person(2).
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Radetzkyplatz").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Aßmayergasse").
-initlocation($p,"Forstnergasse").
-initlocation($p,"Staatz Bahnhof").
-possiblemeetinglocations("Urban-Loritz-Platz").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Schöffelgasse").
-possiblemeetinglocations("Favoritenstraße/Troststraße").
-possiblemeetinglocations("Resselgasse").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Floridsdorf").
-restaurant("Gottschalkgasse/Enkplatz").
-restaurant("Traisengasse").
-restaurant("Simmering").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+initlocation(2,"Hütteldorfer Str/Lützowgasse").
+initlocation(2,"Redtenbachergasse").
+initlocation(2,"Alfred-Adler-Straße").
+initlocation(2,"Radetzkyplatz").
+sequence(2,0, "Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Prandaugasse").
+possiblemeetinglocations("Weinheimergasse").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+restaurant("Haidestraße").
+restaurant("Klosterneub Str/Wallensteinstr").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Schwarzenbergplatz").
+restaurant("St Andrä-Wördern Bahnhof").

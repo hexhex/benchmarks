@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Handelskai").
-initlocation($p,"Herzogenburg Stadt").
+initlocation(1,"Donaustadtbrücke").
+initlocation(1,"Enkplatz").
+initlocation(1,"Ober Sankt Veit").
+sequence(1,0, "Donaustadtbrücke").
 person(2).
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Platt Bahnhof").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Rochusgasse").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Leopoldau").
+initlocation(2,"Erdberg").
+sequence(2,0, "Schweglerstraße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Neulengbach Bahnhof").
+restaurant("Siemensstraße").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Wr Neustadt Nord").

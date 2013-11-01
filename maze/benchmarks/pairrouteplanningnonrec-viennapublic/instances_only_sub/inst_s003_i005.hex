@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Donauinsel").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Donauinsel").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Götzendorf Bahnhof").
+sequence(1,0, "Münchendorf Bahnhof").
 person(2).
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Herrengasse").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Stockerau Bahnhof").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Hirschstetten").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Josefstädter Straße").
-restaurant("Westbahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Krieau").
+initlocation(2,"Haslau an der Donau Bahnhof").
+sequence(2,0, "Leopoldau").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+restaurant("Heiligenstadt").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Langenlebarn Bahnhof").

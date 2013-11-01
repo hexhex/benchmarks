@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Herrengasse").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Herrengasse").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+sequence(1,0, "Petronell-Carnuntum Bahnhof").
 person(2).
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Kledering Bahnhof").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Hernals").
-restaurant("Museumsquartier").
+initlocation(2,"Leopoldau").
+initlocation(2,"Ottakring").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Rekawinkel Bahnhof").
+sequence(2,0, "Leopoldau").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Weidlingau Bahnhof").
+restaurant("Neubaugasse").
+restaurant("Atzgersdorf").
+restaurant("Pilgramgasse").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Kagraner Platz").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Kagraner Platz").
+sequence(1,0, "Schlachthausgasse").
 person(2).
-initlocation($p,"Haidestraße").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Haidestraße").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-restaurant("Schwechat Bahnhof").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Kottingbrunn Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(2,0, "Langenzersdorf Bahnhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Seestadt").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Spittelau").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Herrengasse").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Atzgersdorf").
+sequence(1,0, "Herrengasse").
 person(2).
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Gasometer").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Johnstraße").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Heiligenstadt").
-restaurant("Johnstraße").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Zeiselmauer-Königstetten Bf").
-restaurant("Karlsplatz").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Praterkai").
+sequence(2,0, "Maria Anzbach Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Atzgersdorf").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Strasshof Bahnhof").
+restaurant("Kaiserebersdorf").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Wolfsthal Bahnhof").

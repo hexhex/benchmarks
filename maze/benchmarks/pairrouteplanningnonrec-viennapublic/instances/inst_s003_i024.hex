@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Stallarngasse").
-initlocation(1,"Donaustadtstraße").
-initlocation(1,"Auspitzgasse").
-sequence(1,0, "Stallarngasse").
+initlocation(1,"Triester Straße/Computerstraße").
+initlocation(1,"Haschafeld").
+initlocation(1,"Satzberggasse").
+sequence(1,0, "Triester Straße/Computerstraße").
 person(2).
-initlocation(2,"Geiereckstraße").
-initlocation(2,"Memlinggasse").
-initlocation(2,"Anton-Stilling-Platz").
-sequence(2,0, "Geiereckstraße").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Hagedornweg").
-possiblemeetinglocations("Diesterweggasse").
-restaurant("Michelhausen Bahnhof").
-restaurant("Berlepschgasse").
-restaurant("Göllersdorf Bahnhof").
+initlocation(2,"Haengasse").
+initlocation(2,"Schwechat Ehrenbrunngasse").
+initlocation(2,"Quellenstraße/Favoritenstraße").
+sequence(2,0, "Haengasse").
+possiblemeetinglocations("Schwechat Ehrenbrunngasse").
+possiblemeetinglocations("Cumberlandstraße").
+possiblemeetinglocations("Schukowitzgasse").
+restaurant("Neuwaldegger Straße").
+restaurant("Uranusweg").
+restaurant("An der Bien").

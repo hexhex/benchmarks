@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Rankgasse").
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Rußbergstraße").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Baumgasse").
+initlocation(1,"Silbergasse").
+initlocation(1,"Gerstnerstraße/Westbhf").
+sequence(1,0, "Museumsquartier").
 person(2).
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Pantucekgasse/Widholzgasse").
-initlocation($p,"Alser Straße").
-initlocation($p,"Margaretengürtel").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Kagraner Brücke").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Schuhmeierplatz").
-restaurant("Regelsbrunn Bahnhof").
-restaurant("Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Wattmanngasse").
+initlocation(2,"Rothneusiedl").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Taborstraße").
+sequence(2,0, "Wattmanngasse").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Paulanergasse").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+restaurant("Kaiserstraße/Burggasse").
+restaurant("Hütteldorfer Straße").
+restaurant("Frättingsdorf Bahnhof").
+restaurant("Wittelsbachstraße").

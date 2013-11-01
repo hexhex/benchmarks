@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Taborstraße").
-initlocation($p,"Gunoldstraße").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Plößlgasse").
-initlocation($p,"Taborstraße").
+initlocation(1,"Sechskrügelgasse").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Göllersdorf Bahnhof").
+sequence(1,0, "Sechskrügelgasse").
 person(2).
-initlocation($p,"Museumsquartier").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Hermesstraße").
-initlocation($p,"Museumsquartier").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
-possiblemeetinglocations("Gersthof").
-restaurant("Canisiusgasse").
-restaurant("Wildgansplatz").
-restaurant("Carabelligasse").
-restaurant("Redtenbachergasse").
+initlocation(2,"Maurer Hauptplatz").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Resselgasse").
+sequence(2,0, "Maurer Hauptplatz").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Wallensteinplatz").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+restaurant("Helmahof Bahnhof").
+restaurant("Braunhubergasse").
+restaurant("Praterkai").
+restaurant("Burggasse-Stadthalle").

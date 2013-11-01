@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Baumgarten").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Brünner Straße/Hanreitergasse").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Polgarstraße").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Baumgarten").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Gußhausstraße").
+initlocation(1,"Julius-Raab-Platz").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Shuttleworthstraße").
+initlocation(1,"Gersthofer Str/Scheibenbergstr").
+sequence(1,0, "Greifenstein-Altenberg Bahnhof").
 person(2).
-initlocation($p,"Kölblgasse").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Lederergasse").
-initlocation($p,"Grinzinger Straße").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Kölblgasse").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Otto-Probst-Straße").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Stadlau").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Altes Landgut").
-restaurant("Westbahnhof").
-restaurant("Baumgasse").
-restaurant("Schönborn Bahnhof").
-restaurant("Hernals").
-restaurant("Autokaderstraße").
-restaurant("Fischamend Bahnhof").
-restaurant("Donauinsel").
-restaurant("Thaliastraße/Maroltingergasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Taborstraße/Heinestraße").
+initlocation(2,"Saikogasse").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Leopoldau").
+sequence(2,0, "Pötzleinsdorf").
+possiblemeetinglocations("Matthäus-Jiszda-Straße").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Fultonstraße").
+possiblemeetinglocations("Siebenhirten").
+possiblemeetinglocations("Leberberg").
+restaurant("Klosterneub Str/Wallensteinstr").
+restaurant("Donauzentrum").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Vorgartenstraße").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Römergasse").

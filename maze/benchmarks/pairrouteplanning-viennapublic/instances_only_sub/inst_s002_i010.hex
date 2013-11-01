@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Leobersdorf Bahnhof").
+sequence(1,0, "Praterkai").
 person(2).
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Unter Sankt Veit").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-restaurant("Alterlaa").
-restaurant("Nestroyplatz").
+initlocation(2,"Breitensee").
+initlocation(2,"Krottenbachstraße").
+sequence(2,0, "Breitensee").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Breitensee").

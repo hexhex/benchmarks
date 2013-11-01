@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Penzinger Straße").
-initlocation($p,"Stollgasse").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Rennweg").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Donaumarina").
-initlocation($p,"Molitorgasse").
-initlocation($p,"Alfred-Adler-Straße").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Penzinger Straße").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Nordbrücke").
+initlocation(1,"Rothneusiedl").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Urban-Loritz-Platz").
+initlocation(1,"Prinzgasse").
+initlocation(1,"Herbeckstraße").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Konstanziagasse").
+sequence(1,0, "Langobardenstraße").
 person(2).
-initlocation($p,"Arminenstraße").
-initlocation($p,"Zentralfriedhof 4Tor").
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Weißenböckstraße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
-initlocation($p,"Arminenstraße").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Windtenstraße").
-possiblemeetinglocations("Arminenstraße").
-possiblemeetinglocations("Heiligenstadt, 12-Februar-Pl").
-possiblemeetinglocations("Troststraße/Neilreichgasse").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Pantucekgasse/Widholzgasse").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-restaurant("Schottenfeldgasse").
-restaurant("Prandaugasse").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Blechturmgasse").
-restaurant("Hardeggasse").
-restaurant("Oberfeldgasse/Spargelfeldstr").
-restaurant("Johnstraße").
+initlocation(2,"Stammersdorf").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+initlocation(2,"Baumgarten").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Salztorbrücke").
+sequence(2,0, "Stammersdorf").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Linzer Straße/Zehetnergasse").
+possiblemeetinglocations("Satzberggasse").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+restaurant("Radetzkyplatz").
+restaurant("Zentralfriedhof 2Tor").
+restaurant("Prater, Hauptallee").
+restaurant("Am Heumarkt").
+restaurant("Sechskrügelgasse").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Schweglerstraße").
+restaurant("Dommayergasse").

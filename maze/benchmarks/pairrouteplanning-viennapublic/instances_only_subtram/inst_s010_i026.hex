@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Kaiserebersdorf, Zinnergasse").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Am Heidjöchl/Hausfeldstraße").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Blumengasse").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Seegasse").
-initlocation($p,"Kärntner Ring/Oper").
+initlocation(1,"Urban-Loritz-Platz").
+initlocation(1,"Am Tabor").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Baumgarten").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+sequence(1,0, "Urban-Loritz-Platz").
 person(2).
-initlocation($p,"Zentralfriedhof 4Tor").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Laaer-Berg-Straße").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Yppengasse").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Penzinger Straße").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Zentralfriedhof 4Tor").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Arminenstraße").
-possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
-possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
-possiblemeetinglocations("Obere Augartenstraße").
-possiblemeetinglocations("Gatterburggasse").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-restaurant("Kutschkergasse").
-restaurant("Plößlgasse").
-restaurant("Mayerhofgasse").
-restaurant("Simonygasse").
-restaurant("Penzing").
-restaurant("Fichtnergasse").
-restaurant("Taborstraße/Heinestraße").
-restaurant("Winkeläckerstraße").
-restaurant("Wolf in der Au").
-restaurant("Hoßplatz").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Matthäus-Jiszda-Straße").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Perntergasse").
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+sequence(2,0, "Kagraner Platz").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Rathaus").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+restaurant("Julius-Raab-Platz").
+restaurant("Albertgasse").
+restaurant("Silberwald Bahnhof").
+restaurant("Meidling Hauptstraße").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Thaliastraße").
+restaurant("Kottingneusiedl Bahnhof").
+restaurant("Glatzgasse").
+restaurant("Süßenbrunn").
+restaurant("Atzenbrugg Bahnhof").

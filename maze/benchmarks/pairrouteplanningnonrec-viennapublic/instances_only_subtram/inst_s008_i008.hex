@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Linzer Straße/Zehetnergasse").
-initlocation($p,"Lerchenfelder Straße").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Tscherttegasse").
+initlocation(1,"Elterleinplatz").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Zentralfriedhof 4Tor").
+initlocation(1,"Saikogasse").
+initlocation(1,"Friedrich-Engels-Platz").
+sequence(1,0, "Elterleinplatz").
 person(2).
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Brigittaplatz").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Rampengasse").
-initlocation($p,"Rosensteingasse").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Valiergasse").
-possiblemeetinglocations("Oberlaa, Therme Wien").
-possiblemeetinglocations("Wallensteinplatz").
-possiblemeetinglocations("Troststraße/Neilreichgasse").
-possiblemeetinglocations("Urban-Loritz-Platz").
-possiblemeetinglocations("Volkstheater").
-restaurant("Wildgansplatz").
-restaurant("Mayerhofgasse").
-restaurant("Leopoldau").
-restaurant("Gatterburggasse").
-restaurant("Prinzgasse").
-restaurant("Bösendorferstraße").
-restaurant("Helmahof Bahnhof").
-restaurant("Börsegasse/Wipplingerstraße").
+initlocation(2,"Herbeckstraße").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Augasse").
+initlocation(2,"Rodaun").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Parndorf Ort Bahnhof").
+sequence(2,0, "Herbeckstraße").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Süßenbrunn").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Empergergasse").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Wittelsbachstraße").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Gußhausstraße").
+restaurant("Albertgasse").
+restaurant("Bernhardtstalgasse").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Strasshof Bahnhof").
+restaurant("Thaliastraße/Haberlgasse").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Hardeggasse").
+restaurant("Redtenbachergasse").

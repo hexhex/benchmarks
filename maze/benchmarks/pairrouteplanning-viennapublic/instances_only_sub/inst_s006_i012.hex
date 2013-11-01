@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Traisengasse").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Bisamberg Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Siebenhirten (NÖ). Haltestelle").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Göllersdorf Bahnhof").
+sequence(1,0, "Jedlersdorf").
 person(2).
-initlocation($p,"Volkstheater").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Spittelau").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Volkstheater").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Margaretengürtel").
-restaurant("Hardeggasse").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Schwedenplatz").
-restaurant("Karlsplatz").
-restaurant("Nußdorf").
+initlocation(2,"Stadtpark").
+initlocation(2,"Alterlaa").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Meidling Hauptstraße").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Keplerplatz").
+restaurant("Siebenhirten (NÖ). Haltestelle").
+restaurant("Jägerstraße").
+restaurant("Perfektastraße").
+restaurant("Schönborn Bahnhof").
+restaurant("Schönbrunn").
+restaurant("Dresdner Straße").

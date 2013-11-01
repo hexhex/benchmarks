@@ -1,52 +1,52 @@
 person(1).
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Praterkai").
-initlocation($p,"Sommarugagasse").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Wexstraße").
+initlocation(1,"Gatterburggasse").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Albertgasse").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Krankenhaus Hietzing").
+sequence(1,0, "Sitzenberg-Reidling Bahnhof").
 person(2).
-initlocation($p,"Florianigasse").
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Radetzkyplatz").
-initlocation($p,"Breitenfurter St/Altmannsd Str").
-initlocation($p,"Rodaun").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Kraygasse").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Oberfeldgasse").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Fasangasse").
-initlocation($p,"Florianigasse").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Alaudagasse").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Währinger Straße-Volksoper").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Stollgasse").
+initlocation(2,"Pokornygasse").
+initlocation(2,"Nordbrücke").
+sequence(2,0, "Verbindungsbahn").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Regelsbrunn Bahnhof").
+possiblemeetinglocations("Lazarettgasse").
 possiblemeetinglocations("Silbergasse").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Kutschkergasse").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Rustengasse").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Unter St Veit, Hummelgasse").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Althanstraße").
-possiblemeetinglocations("Wexstraße").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("Stadion").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Breitensee").
-restaurant("Arminenstraße").
-restaurant("Siebensterngasse").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Tulln Stadt Bahnhof").
-restaurant("Römergasse").
-restaurant("Reumannplatz").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Schwarzenbergplatz").
-restaurant("Scheibenbergstraße").
-restaurant("Unteres Belvedere").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Pötzleinsdorf").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Staglgasse").
+restaurant("Hetzgasse").
+restaurant("Linzer Straße/Lützowgasse").
+restaurant("Neuwaldegg").
+restaurant("Hausleiten Bahnhof").
+restaurant("Leberberg").
+restaurant("Laudongasse").
+restaurant("Wittelsbachstraße").
+restaurant("Hubertusdamm").
+restaurant("Burgring").
+restaurant("Schweglerstraße").
+restaurant("Stiftgasse").
+restaurant("Matzleinsdorfer Platz").

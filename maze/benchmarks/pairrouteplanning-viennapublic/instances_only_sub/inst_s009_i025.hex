@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Johnstraße").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Gumpendorfer Straße").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Schottentor").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+sequence(1,0, "Paasdorf Bahnhof").
 person(2).
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Erdberg").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Breitensee").
-initlocation($p,"Margaretengürtel").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Johnstraße").
-restaurant("Seestadt").
-restaurant("Pilgramgasse").
-restaurant("Zieglergasse").
-restaurant("Blumental").
-restaurant("Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Hirschstetten").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Nußdorfer Straße").
+sequence(2,0, "Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
 restaurant("Breitensee").
-restaurant("Friedensbrücke").
-restaurant("Regelsbrunn Bahnhof").
-restaurant("Perfektastraße").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Gasometer").
+restaurant("Schweglerstraße").
+restaurant("Gersthof").
+restaurant("Burggasse-Stadthalle").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Johnstraße").

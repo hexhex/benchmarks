@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Grinzing").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Yppengasse").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Molitorgasse").
-initlocation($p,"Grinzing").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Simonygasse").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+sequence(1,0, "Sarasdorf Bahnhof").
 person(2).
-initlocation($p,"Thaliastraße").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"Praterstern").
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Braunhubergasse").
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Thaliastraße").
-possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
-possiblemeetinglocations("Verbindungsbahn").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Stockholmer Platz").
-possiblemeetinglocations("Vinzenzgasse").
-possiblemeetinglocations("Siebertgasse").
-restaurant("Am Spitz").
-restaurant("Burgring").
-restaurant("Hintere Zollamtsstraße").
-restaurant("Hütteldorf").
-restaurant("Achau Bahnhof").
-restaurant("Löwengasse").
-restaurant("Laurenzgasse").
-restaurant("Kettenbrückengasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Halteraugasse").
+initlocation(2,"Taborstraße").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Stockholmer Platz").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Mariahilfer Gürtel").
+sequence(2,0, "Silbergasse").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Gerhardusgasse").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Stadtpark").
+restaurant("Quartier Belvedere").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Jägerstraße").
+restaurant("Maurer Hauptplatz").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Unteres Belvedere").
+restaurant("Gasometer").

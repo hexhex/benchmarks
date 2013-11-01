@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Alterlaa").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Alterlaa").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+sequence(1,0, "Reumannplatz").
 person(2).
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Kottingbrunn Bahnhof").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-restaurant("Stadion").
-restaurant("Praterkai").
-restaurant("Oberdöbling").
-restaurant("Kapellerfeld Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Kagraner Platz").
+sequence(2,0, "Donaumarina").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Karlsplatz").
+restaurant("Pressbaum Bahnhof").
+restaurant("Kottingneusiedl Bahnhof").

@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Handelskai").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Matzleinsdorfer Platz").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Heiligenstadt").
+sequence(1,0, "Zellerndorf Bahnhof").
 person(2).
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Achau Bahnhof").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Mistelbach Bahnhof").
-restaurant("Siebenhirten").
-restaurant("Lobau").
-restaurant("Stubentor").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Längenfeldgasse").
-restaurant("Kendlerstraße").
-restaurant("Hirschstetten").
-restaurant("Mistelbach Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Stadlau").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Baden Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+sequence(2,0, "Unter Sankt Veit").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+restaurant("Quartier Belvedere").
+restaurant("Rochusgasse").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Baden Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Meidling Hauptstraße").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Mannswörth Bahnhof").
+restaurant("Johnstraße").

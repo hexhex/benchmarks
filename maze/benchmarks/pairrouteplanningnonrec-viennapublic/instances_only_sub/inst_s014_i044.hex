@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Simmering").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Wr Neustadt Nord").
+initlocation(1,"Alte Donau").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+initlocation(1,"Gersthof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Alterlaa").
+initlocation(1,"Nestroyplatz").
+sequence(1,0, "Alte Donau").
 person(2).
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Enkplatz").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Kagran").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Dresdner Straße").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Schwedenplatz").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Praterkai").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Oberdöbling").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Simmering").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Grillgasse").
-restaurant("Kaiserebersdorf").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Seyring Bahnhof").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Aderklaaer Straße").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Mödling Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Perfektastraße").
+sequence(2,0, "Pressbaum Bahnhof").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Alte Donau").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Bahnhof Meidling").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Hausleiten Bahnhof").
+restaurant("Tscherttegasse").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Blumental").
+restaurant("Erdberg").
+restaurant("Enkplatz").
+restaurant("Schönbrunn").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Spittelau").
+restaurant("Zeiselmauer-Königstetten Bf").

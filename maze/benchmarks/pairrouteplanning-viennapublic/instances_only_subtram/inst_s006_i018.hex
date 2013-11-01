@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Innstraße").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Huglgasse").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Resselgasse").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Innstraße").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Simonygasse").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Stollgasse").
+sequence(1,0, "Paasdorf Bahnhof").
 person(2).
-initlocation($p,"Handelskai").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Neue Donau").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Handelskai").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Kaiserstraße").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Versorgungsheimplatz").
-restaurant("Fischamend Bahnhof").
-restaurant("Troststraße/Neilreichgasse").
-restaurant("Carminweg").
-restaurant("Langobardenstraße/Kapellenweg").
-restaurant("Auerspergstraße").
-restaurant("Marx-Meidlinger-Straße").
+initlocation(2,"Zentralfriedhof 3Tor").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Teichgasse").
+sequence(2,0, "Zentralfriedhof 3Tor").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+restaurant("Wexstraße").
+restaurant("Nordbrücke").
+restaurant("Margaretengürtel/Arbeitergasse").
+restaurant("Atzgersdorf").
+restaurant("Stiftgasse").
+restaurant("Linzer Straße/Lützowgasse").

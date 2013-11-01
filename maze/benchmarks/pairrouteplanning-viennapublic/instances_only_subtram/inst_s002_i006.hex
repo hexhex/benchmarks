@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Seegasse").
-initlocation($p,"Paradisgasse").
-initlocation($p,"Seegasse").
+initlocation(1,"Lainz, Wolkersbergenstraße").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+sequence(1,0, "Lainz, Wolkersbergenstraße").
 person(2).
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Sieveringer Straße").
-initlocation($p,"Hofstatt Bahnhof").
-possiblemeetinglocations("Trondheimgasse").
-possiblemeetinglocations("Zentralfriedhof").
-restaurant("Van-Swieten-Kaserne").
-restaurant("Kagran").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Plößlgasse").
+sequence(2,0, "Kagraner Platz").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Zippererstraße").
+restaurant("Fickeysstraße").
+restaurant("Braunschweiggasse").

@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Gewerbepark Stadlau Mitte").
-initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Kleistgasse").
+sequence(1,0, "Anton-Krieger-Gasse").
 person(2).
-initlocation($p,"Burgring").
-initlocation($p,"Taborstraße").
-initlocation($p,"Burgring").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-possiblemeetinglocations("Eichenstraße").
-restaurant("An den langen Lüssen").
-restaurant("Siebensterngasse").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Langenlebarn Bahnhof").
+sequence(2,0, "Karlsplatz").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Rennbahnweg").

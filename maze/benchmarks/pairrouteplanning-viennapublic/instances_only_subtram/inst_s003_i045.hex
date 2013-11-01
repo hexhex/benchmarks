@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Thaliastraße/Haberlgasse").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Stadiongasse/Parlament").
-initlocation($p,"Thaliastraße/Haberlgasse").
+initlocation(1,"Sillerplatz").
+initlocation(1,"Alterlaa").
+initlocation(1,"Nußdorfer Straße").
+sequence(1,0, "Sillerplatz").
 person(2).
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Salztorbrücke").
-initlocation($p,"Mühlfeldgasse").
-possiblemeetinglocations("Waidhausenstraße").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Hernalser Gürtel").
-restaurant("Mayssengasse").
-restaurant("Schweglerstraße").
-restaurant("Hietzing").
+initlocation(2,"Josef-Baumann-Gasse").
+initlocation(2,"Krieau").
+initlocation(2,"Hütteldorfer Straße").
+sequence(2,0, "Josef-Baumann-Gasse").
+possiblemeetinglocations("Silbergasse").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Schloss Belvedere").
+restaurant("Spillern Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Marienbrücke").

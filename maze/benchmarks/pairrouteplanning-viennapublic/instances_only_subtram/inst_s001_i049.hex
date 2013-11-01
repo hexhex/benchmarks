@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Mistelbach Bahnhof").
+initlocation(1,"Unter St Veit, Hummelgasse").
+sequence(1,0, "Unter St Veit, Hummelgasse").
 person(2).
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Unter St Veit, Hummelgasse").
-possiblemeetinglocations("Riedelgasse").
-restaurant("Konstanziagasse").
+initlocation(2,"Penzing").
+sequence(2,0, "Penzing").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+restaurant("Oberfeldgasse/Spargelfeldstr").

@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Zippererstraße").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Donauzentrum").
-initlocation($p,"Brünner Straße/Hanreitergasse").
-initlocation($p,"Gasometer").
-initlocation($p,"Wildgansplatz").
-initlocation($p,"Hernals").
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Zippererstraße").
+initlocation(1,"Guntherstraße").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Pantucekgasse/Widholzgasse").
+initlocation(1,"Kölblgasse").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Julius-Raab-Platz").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Pilgramgasse").
+sequence(1,0, "Guntherstraße").
 person(2).
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Augasse").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Döblinger Hauptstr/Gatterburgg").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Mödling Bahnhof").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Hohe Warte").
-possiblemeetinglocations("Laxenburger Straße/Troststraße").
-possiblemeetinglocations("Blechturmgasse").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-restaurant("Unteroberndorf Bahnhof").
-restaurant("Silberwald Bahnhof").
-restaurant("Koppstraße/Panikengasse").
-restaurant("Perntergasse").
-restaurant("Absberggasse").
-restaurant("Süßenbrunner Str/Oberfeldgasse").
-restaurant("Knöllgasse/Troststraße").
-restaurant("Siemensstraße").
-restaurant("Hardeggasse").
+initlocation(2,"Gruschaplatz").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Favoritenstraße/Troststraße").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Matthäus-Jiszda-Straße").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Saikogasse").
+initlocation(2,"Huglgasse").
+initlocation(2,"Gusenleithnergasse").
+sequence(2,0, "Gruschaplatz").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Bernhardtstalgasse").
+restaurant("Gusenleithnergasse").
+restaurant("Strasshof Bahnhof").
+restaurant("Pötzleinsdorf").
+restaurant("Sensengasse").
+restaurant("Am Heidjöchl").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Rampengasse").
+restaurant("Landesgerichtsstraße").
+restaurant("Wenzgasse").

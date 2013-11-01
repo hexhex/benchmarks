@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Erdbergstr/Schlachthausgasse").
-initlocation(1,"Van-Swieten-Kaserne").
-initlocation(1,"Brünner Straße").
-initlocation(1,"Stipcakgasse").
-initlocation(1,"Gerasdorf Bahnhof").
-sequence(1,0, "Erdbergstr/Schlachthausgasse").
+initlocation(1,"Brandstätte").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Donaustadtstraße/Lange Allee").
+sequence(1,0, "Brandstätte").
 person(2).
-initlocation(2,"Michelhausen Bahnhof").
-initlocation(2,"Kappgasse").
-initlocation(2,"Siedlung Einigkeit").
-initlocation(2,"Reumannplatz").
-initlocation(2,"Fabergasse").
-sequence(2,0, "Michelhausen Bahnhof").
-possiblemeetinglocations("Eslarngasse").
-possiblemeetinglocations("Mauthausgasse").
-possiblemeetinglocations("Otto-Probst-Platz").
-possiblemeetinglocations("Korngoldgasse").
-possiblemeetinglocations("Neilreichgasse").
-restaurant("Exelbergstraße/Marswiese").
-restaurant("Hänflingweg").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Joachimsthalerplatz").
-restaurant("Flötzersteig").
+initlocation(2,"Daumegasse").
+initlocation(2,"Lichtentaler Gasse").
+initlocation(2,"Pretschgasse").
+initlocation(2,"Quellenplatz").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+sequence(2,0, "Daumegasse").
+possiblemeetinglocations("Hirschstetten Ort").
+possiblemeetinglocations("Albertinaplatz").
+possiblemeetinglocations("Theodor-Kramer-Straße").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Dornbacher Straße").
+restaurant("Mühlbreiten").
+restaurant("Silberwald Bahnhof").
+restaurant("Ernst-Happel-Stadion").
+restaurant("Albertinaplatz").

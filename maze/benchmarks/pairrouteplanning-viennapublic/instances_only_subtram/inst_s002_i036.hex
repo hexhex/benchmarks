@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Julius-Raab-Platz").
-initlocation($p,"Löwengasse").
-initlocation($p,"Julius-Raab-Platz").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Wr Neustadt Civitas Nova").
+sequence(1,0, "Rußbergstraße").
 person(2).
-initlocation($p,"Quellenstraße/Knöllgasse").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Quellenstraße/Knöllgasse").
-possiblemeetinglocations("Schwarzenbergplatz").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Thaliastraße/Brunnengasse").
+sequence(2,0, "Hardeggasse").
+possiblemeetinglocations("Ungargasse/Neulinggasse").
 possiblemeetinglocations("Floridsdorfer Markt").
-restaurant("Lederergasse").
-restaurant("Hirschstetten").
+restaurant("Gutraterplatz").
+restaurant("Prandaugasse").

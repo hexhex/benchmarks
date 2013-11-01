@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Hirschstetten").
-initlocation($p,"Hernals").
-initlocation($p,"Alser Straße").
-initlocation($p,"Hirschstetten").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Nußdorfer Straße").
+sequence(1,0, "Franz-Josefs-Bahnhof").
 person(2).
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Hietzing").
-restaurant("Alte Donau").
+initlocation(2,"Handelskai").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Kaiserebersdorf").
+sequence(2,0, "Handelskai").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+restaurant("Grillgasse").
+restaurant("Lobau").
+restaurant("Helmahof Bahnhof").

@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Prater, Hauptallee").
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Prater, Hauptallee").
+initlocation(1,"Fasangasse").
+initlocation(1,"Rampengasse").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Wr Neustadt Nord").
+sequence(1,0, "Fasangasse").
 person(2).
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Höchstädtplatz").
-initlocation($p,"Dommayergasse").
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-restaurant("Paasdorf Bahnhof").
-restaurant("Kliebergasse").
-restaurant("Gerstnerstraße/Westbhf").
-restaurant("Obere Augartenstraße").
+initlocation(2,"Schwarzenbergplatz").
+initlocation(2,"Strozzigasse").
+initlocation(2,"Thaliastraße/Brunnengasse").
+initlocation(2,"Kaiserstraße/Westbahnstraße").
+sequence(2,0, "Schwarzenbergplatz").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Keplerplatz").
+restaurant("Sechskrügelgasse").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Stephansplatz").
+restaurant("Unterpurkersdorf Bahnhof").

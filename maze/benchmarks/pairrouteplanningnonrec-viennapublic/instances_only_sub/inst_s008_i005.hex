@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Wr Neustadt Nord").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+sequence(1,0, "Frättingsdorf Bahnhof").
 person(2).
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Neue Donau").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Johnstraße").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Weidlingau Bahnhof").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Schwedenplatz").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-restaurant("Perchtoldsdorf Bahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Hietzing").
+initlocation(2,"Donauinsel").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+sequence(2,0, "Oberolberndorf Bahnhof").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
 restaurant("Ladendorf Bahnhof").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Felixdorf Bahnhof").
+restaurant("Jedlersdorf").
+restaurant("Götzendorf Bahnhof").
+restaurant("Johnstraße").
+restaurant("Margaretengürtel").
+restaurant("Donaustadtbrücke").
+restaurant("Stadtpark").
+restaurant("Ebenfurth Bahnhof").

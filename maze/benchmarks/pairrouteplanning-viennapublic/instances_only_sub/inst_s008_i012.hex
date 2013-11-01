@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Donauspital").
-initlocation($p,"Blumental").
-initlocation($p,"Gersthof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Stubentor").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Donauspital").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Braunschweiggasse").
+sequence(1,0, "Südtiroler Platz/Hauptbahnhof").
 person(2).
-initlocation($p,"Hardeggasse").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Hardeggasse").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Atzgersdorf").
-restaurant("Wolf in der Au").
-restaurant("Heiligenstadt").
-restaurant("Tullnerfeld Bahnhof").
-restaurant("Krieau").
-restaurant("Stadtpark").
-restaurant("Trautmannsdorf/Leitha Bf").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Tscherttegasse").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Nußdorf").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Taborstraße").
+sequence(2,0, "Brünner Straße").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Silberwald Bahnhof").
+restaurant("Schlachthausgasse").
+restaurant("Praterstern").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Praterkai").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Währinger Straße-Volksoper").

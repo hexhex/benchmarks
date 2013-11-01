@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Erdberg").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+sequence(1,0, "Pfaffstätten Bahnhof").
 person(2).
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Traismauer Bahnhof").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Schwedenplatz").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Stephansplatz").
-possiblemeetinglocations("Alser Straße").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Nußdorfer Straße").
-restaurant("Kagran").
-restaurant("Simmering").
-restaurant("Messe-Prater").
-restaurant("Regelsbrunn Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Josefstädter Straße").
+sequence(2,0, "Seyring Bahnhof").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Gumpendorfer Straße").
+restaurant("Taubstummengasse").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Atzgersdorf").
+restaurant("Haidestraße").
+restaurant("Krottenbachstraße").

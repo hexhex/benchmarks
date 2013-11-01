@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Hildebrandgasse").
-initlocation($p,"Stadiongasse/Parlament").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Leopoldau").
-initlocation($p,"Krankenhaus Hietzing").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Alaudagasse").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Linzer Straße/Zehetnergasse").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Valiergasse").
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Hildebrandgasse").
+initlocation(1,"Praterkai").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Rothneusiedl").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Gellertplatz").
+initlocation(1,"Kölblgasse").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Fichtnergasse").
+initlocation(1,"Van-Swieten-Kaserne").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Liebknechtgasse").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+sequence(1,0, "Praterkai").
 person(2).
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Josef-Baumann-Gasse").
-initlocation($p,"Yppengasse").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Fasangasse").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Lainz, Wolkersbergenstraße").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Dommayergasse").
-possiblemeetinglocations("Schloss Schönbrunn").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Stollgasse").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-restaurant("Grillgasse").
-restaurant("Paasdorf Bahnhof").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Kagran").
-restaurant("Weidlingau Bahnhof").
-restaurant("Sierndorf Bahnhof").
-restaurant("Unteres Belvedere").
-restaurant("Seyring Bahnhof").
-restaurant("Nußdorf").
-restaurant("Börsegasse/Wipplingerstraße").
-restaurant("Tesarekplatz").
-restaurant("Hardeggasse").
-restaurant("Perfektastraße").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Rathaus").
+initlocation(2,"Neue Donau").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Enkplatz").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+sequence(2,0, "Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Maurer Hauptplatz").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Aumannplatz").
+possiblemeetinglocations("Stefan-Fadinger-Platz").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Stadlergasse").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Pressbaum Bahnhof").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Hopfengasse").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Seegasse").
+restaurant("Dresdner Straße").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Resselgasse").
+restaurant("Mühlfeldgasse").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Althanstraße").
+restaurant("Pfaffstätten Bahnhof").

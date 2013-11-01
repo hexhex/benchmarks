@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Kardinal-Nagl-Platz").
+initlocation(1,"Kottingbrunn Bahnhof").
+sequence(1,0, "Kottingbrunn Bahnhof").
 person(2).
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-restaurant("Stadtpark").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+sequence(2,0, "Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Neubau-Kreuzstetten Bahnhof").

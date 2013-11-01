@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Donauspital").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Krieau").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Jägerstraße").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Blumental").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Trasdorf Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Obersdorf Bahnhof").
+sequence(1,0, "Quartier Belvedere").
 person(2).
-initlocation($p,"Schönbrunn").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Schönbrunn").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Perfektastraße").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Nußdorf").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Obereggendorf Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Bruck/Leitha Bahnhof").
+sequence(2,0, "Hörersdorf Bahnhof").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Donauinsel").
 possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Traisengasse").
-restaurant("Brünner Straße").
-restaurant("Schönborn Bahnhof").
-restaurant("Neubaugasse").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Schleinbach Bahnhof").
-restaurant("Dürrwien Bahnhof").
-restaurant("Großfeldsiedlung").
-restaurant("Floridsdorf").
-restaurant("Moosbierbaum-Heiligeneich Bf").
-restaurant("Jedlersdorf").
-restaurant("Preyergasse/Speising").
-restaurant("Alser Straße").
-restaurant("Traismauer Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Geiselbergstraße").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Gumpendorfer Straße").
+restaurant("Kaisermühlen-VIC").
+restaurant("Seestadt").
+restaurant("Nußdorfer Straße").
+restaurant("Johnstraße").
+restaurant("Paasdorf Bahnhof").
+restaurant("Korneuburg Bahnhof").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Niederhofstraße").

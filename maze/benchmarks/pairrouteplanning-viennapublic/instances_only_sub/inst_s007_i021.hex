@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Rathaus").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Rathaus").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Gersthof").
+initlocation(1,"Nestroyplatz").
+sequence(1,0, "Mistelbach Stadt").
 person(2).
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Ottakring").
-initlocation($p,"Stadlau").
-initlocation($p,"Donaumarina").
-initlocation($p,"Dresdner Straße").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Sankt Marx").
-restaurant("Sierndorf Bahnhof").
-restaurant("Stockerau Bahnhof").
-restaurant("Krottenbachstraße").
-restaurant("Mödling Bahnhof").
-restaurant("Aderklaaer Straße").
-restaurant("Simmering").
-restaurant("Langenlebarn Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Haidestraße").
+sequence(2,0, "Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Süßenbrunn").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Erdberg").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Baden Bahnhof").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Bruck/Leitha Bahnhof").

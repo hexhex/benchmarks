@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Museumsquartier").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Handelskai").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Museumsquartier").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+sequence(1,0, "Lanzendorf-Rannersdorf Bahnhof").
 person(2).
-initlocation($p,"Volkstheater").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Kagran").
-initlocation($p,"Taborstraße").
-initlocation($p,"Liesing").
-initlocation($p,"Volkstheater").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Platt Bahnhof").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Meidling Hauptstraße").
-restaurant("Gumpendorfer Straße").
-restaurant("Retz Bahnhof").
-restaurant("Alte Donau").
-restaurant("Hernals").
-restaurant("Donauspital").
-restaurant("Schwedenplatz").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Donaumarina").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Hausfeldstraße").
+sequence(2,0, "Strasshof Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Mödling Bahnhof").
+restaurant("Neubau-Kreuzstetten Bahnhof").
+restaurant("Götzendorf Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Perfektastraße").
+restaurant("Thaliastraße").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Hietzing").

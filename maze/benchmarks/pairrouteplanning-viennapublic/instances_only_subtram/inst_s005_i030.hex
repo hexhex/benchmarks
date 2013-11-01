@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Erndtgasse").
-initlocation($p,"Arminenstraße").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Seyring Bahnhof").
+initlocation(1,"Quellenplatz").
+initlocation(1,"Molitorgasse").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Handelskai").
+sequence(1,0, "Quellenplatz").
 person(2).
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Absberggasse").
-initlocation($p,"Am Tabor").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Matzleinsdorfer Platz").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Gewerbepark Stadlau Mitte").
-possiblemeetinglocations("Absberggasse").
-possiblemeetinglocations("Weinhauser Gasse").
-possiblemeetinglocations("Sieveringer Straße").
-restaurant("Mannswörth Bahnhof").
-restaurant("Kagran").
-restaurant("Nordbrücke").
-restaurant("Baumgarten").
-restaurant("Penzing").
+initlocation(2,"Donaustadtstraße").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Burgring").
+sequence(2,0, "Donaustadtstraße").
+possiblemeetinglocations("Wilfleinsdorf Bahnhof").
+possiblemeetinglocations("Wallensteinplatz").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Herrengasse").
+restaurant("Lederergasse").
+restaurant("Schönbrunn").
+restaurant("Hernals").
+restaurant("Donaustadtstraße").
+restaurant("Mühlfeldgasse").

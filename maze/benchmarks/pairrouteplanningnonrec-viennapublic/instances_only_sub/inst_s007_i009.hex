@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Alte Donau").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Geiselbergstraße").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Hausfeldstraße").
+sequence(1,0, "Getzersdorf/Traisen Bahnhof").
 person(2).
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Helmahof Bahnhof").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Sierndorf Bahnhof").
-restaurant("Johnstraße").
-restaurant("Himberg Bahnhof").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Lobau").
+initlocation(2,"Alser Straße").
+sequence(2,0, "Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Korneuburg Bahnhof").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Mistelbach Stadt").
+restaurant("Floridsdorf").

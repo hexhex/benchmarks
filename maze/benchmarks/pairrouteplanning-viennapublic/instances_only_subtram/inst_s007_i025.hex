@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Guneschgasse").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Plößlgasse").
-initlocation($p,"Rodaun").
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Weinheimergasse").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Guneschgasse").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Weißenböckstraße").
+initlocation(1,"Valiergasse").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Marienbrücke").
+sequence(1,0, "Spitalgasse/Währinger Straße").
 person(2).
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Penzing").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Laurentiusplatz").
-initlocation($p,"Empergergasse").
-initlocation($p,"Autokaderstraße").
-initlocation($p,"Jedlersdorf").
-possiblemeetinglocations("Ottakringer Straße/Wattgasse").
-possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Johannes-Krawarik-Gasse").
-possiblemeetinglocations("Blechturmgasse").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-possiblemeetinglocations("Simmering").
-restaurant("Carminweg").
-restaurant("Unter Sankt Veit").
-restaurant("Waidhausenstraße").
-restaurant("Rußbergstraße").
-restaurant("Brünner Straße").
-restaurant("Himmelmutterweg").
-restaurant("Siemensstraße").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Neue Donau").
+initlocation(2,"Türkenschanzplatz").
+initlocation(2,"Hopfengasse").
+initlocation(2,"Nußdorf").
+initlocation(2,"Mühlfeldgasse").
+sequence(2,0, "Scheibenbergstraße").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+restaurant("Achau Bahnhof").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Dommayergasse").
+restaurant("Hauptbahnhof Ost").
+restaurant("Ameisgasse").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Bauernfeldplatz").

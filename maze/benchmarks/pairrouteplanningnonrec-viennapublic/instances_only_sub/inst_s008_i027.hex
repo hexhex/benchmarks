@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Leopoldau").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Kagran").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Leopoldau").
+initlocation(1,"Wr Neustadt Civitas Nova").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Siemensstraße").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Penzing").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+sequence(1,0, "Wr Neustadt Civitas Nova").
 person(2).
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Ottakring").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Grillgasse").
-initlocation($p,"Sollenau Bahnhof").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Spittelau").
+initlocation(2,"Alte Donau").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Mistelbach Stadt").
+sequence(2,0, "Schönbrunn").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Hetzendorf").
 possiblemeetinglocations("Felixdorf Bahnhof").
-possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Meidling Hauptstraße").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Gemeinlebarn Bahnhof").
-restaurant("Herrengasse").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Oberdöbling").
-restaurant("Rennweg").
-restaurant("Stadlau").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+restaurant("Schleinbach Bahnhof").
+restaurant("Schönbrunn").
+restaurant("Hietzing").
+restaurant("Strasshof Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Strebersdorf").
+restaurant("Blumental").

@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Karmeliterplatz").
+initlocation(1,"Prater, Hauptallee").
+initlocation(1,"Höchstädtplatz").
+sequence(1,0, "Prater, Hauptallee").
 person(2).
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Höchstädtplatz").
-restaurant("Löwengasse").
-restaurant("Barawitzkagasse").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Stiftgasse").
+sequence(2,0, "Regelsbrunn Bahnhof").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+restaurant("Fasangasse").
+restaurant("Innstraße").

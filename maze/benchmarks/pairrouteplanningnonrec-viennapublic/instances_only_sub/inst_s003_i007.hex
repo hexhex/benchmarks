@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Rathaus").
-initlocation($p,"Herrengasse").
-initlocation($p,"Bisamberg Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+sequence(1,0, "Gemeinlebarn Bahnhof").
 person(2).
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Stadtpark").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Guntramsdorf-Thallern").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Haslau an der Donau Bahnhof").
-restaurant("Michelbeuern-AKH").
-restaurant("Liesing").
-restaurant("Sarasdorf Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Donauspital").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Oberradlberg Bahnhof").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Staatz Bahnhof").
-initlocation(1,"Strebersdorfer Platz").
-initlocation(1,"Schleiergasse").
-initlocation(1,"Grillgasse").
-sequence(1,0, "Staatz Bahnhof").
+initlocation(1,"Gerstnerstraße/Westbhf").
+initlocation(1,"Schwechat B10/Rathausplatz").
+initlocation(1,"Alser Straße").
+initlocation(1,"Binsenweg").
+sequence(1,0, "Gerstnerstraße/Westbhf").
 person(2).
-initlocation(2,"Gatterburggasse").
-initlocation(2,"Herbeckstraße").
-initlocation(2,"Süßenbrunner Platz").
-initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
-sequence(2,0, "Gatterburggasse").
-possiblemeetinglocations("Schwechat B10/Hauptplatz").
-possiblemeetinglocations("Richard-Neutra-Gasse").
-possiblemeetinglocations("Triester Str/Altdorferstraße").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-restaurant("Puchgasse").
-restaurant("Akademietheater").
-restaurant("Montecuccoliplatz").
-restaurant("Gymnasiumstraße").
+initlocation(2,"Yppengasse").
+initlocation(2,"Löwenthalgasse").
+initlocation(2,"Adamovichgasse").
+initlocation(2,"Hofwiesengasse").
+sequence(2,0, "Yppengasse").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Weyrgasse").
+possiblemeetinglocations("Schukowitzgasse").
+possiblemeetinglocations("Thaliastraße").
+restaurant("Graffgasse").
+restaurant("Mannswörther Straße").
+restaurant("Süßenbr Str/Breitenleer Str").
+restaurant("Jedlersdorfer Str/Hanreiterg").

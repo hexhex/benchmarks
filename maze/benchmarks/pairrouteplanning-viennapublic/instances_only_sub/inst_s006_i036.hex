@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Taborstraße").
-initlocation($p,"Donauspital").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Taborstraße").
+initlocation(1,"Taborstraße").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Neubaugasse").
+sequence(1,0, "Taborstraße").
 person(2).
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Hietzing").
-restaurant("Liesing").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Guntramsdorf-Thallern").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Alte Donau").
-restaurant("Theresienfeld Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Aspern Nord").
+sequence(2,0, "Seyring Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Dresdner Straße").
+restaurant("Pressbaum Bahnhof").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Hennersdorf Bahnhof").

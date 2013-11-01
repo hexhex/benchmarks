@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Neusiedl am See Bahnhof").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Felixdorf Bahnhof").
+sequence(1,0, "Münchendorf Bahnhof").
 person(2).
-initlocation($p,"Rochusgasse").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Rochusgasse").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Münchendorf Bahnhof").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Unterradlberg Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+sequence(2,0, "Himberg Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Ebenfurth Bahnhof").
 restaurant("Silberwald Bahnhof").
+restaurant("Ladendorf Bahnhof").

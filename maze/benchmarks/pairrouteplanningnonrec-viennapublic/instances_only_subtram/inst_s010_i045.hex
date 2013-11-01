@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Landesgerichtsstraße").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Thaliastraße/Brunnengasse").
-initlocation($p,"Rampengasse").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Kaisermühlen-VIC").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Neubaugasse/Westbahnstraße").
+initlocation(1,"Volkstheater").
+initlocation(1,"Palffygasse").
+initlocation(1,"Hernalser Gürtel").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Alte Donau").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Donauspital").
+initlocation(1,"Geiselbergstraße").
+sequence(1,0, "Sankt Marx").
 person(2).
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Herrengasse").
-initlocation($p,"Carminweg").
-initlocation($p,"Alte Donau").
-initlocation($p,"Teichgasse").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Stiftgasse").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Gersthof").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Margaretengürtel").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Altes Landgut").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Pokornygasse").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Oberfeldgasse").
-possiblemeetinglocations("Kendlerstraße").
-restaurant("Resselgasse").
-restaurant("Hardtgasse").
-restaurant("Enkplatz").
-restaurant("Koppstraße/Panikengasse").
-restaurant("Längenfeldgasse").
-restaurant("Polkorabplatz").
-restaurant("Taubstummengasse").
-restaurant("Empergergasse").
-restaurant("Achau Bahnhof").
-restaurant("Hernals").
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Kutschkergasse").
+initlocation(2,"Hopfengasse").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Krankenhaus Hietzing").
+sequence(2,0, "Johann-Strauß-Gasse").
+possiblemeetinglocations("Wittelsbachstraße").
+possiblemeetinglocations("Erndtgasse").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Weihburggasse").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Trondheimgasse").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Brigittaplatz").
+restaurant("Hermesstraße").
+restaurant("Joachimsthalerplatz").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Eckpergasse").
+restaurant("Waidhausenstraße").
+restaurant("Weinhauser Gasse").
+restaurant("Weigelsdorf Bahnhof").

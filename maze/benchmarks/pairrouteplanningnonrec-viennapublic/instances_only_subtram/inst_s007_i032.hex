@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Lobau").
-initlocation($p,"Kagraner Platz").
+initlocation(1,"Obere Donaustraße").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Unter St Veit, Hummelgasse").
+initlocation(1,"Blumental").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Schloss Hetzendorf").
+sequence(1,0, "Obere Donaustraße").
 person(2).
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Neubaugasse/Westbahnstraße").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Kledering Bahnhof").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Lange Gasse").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Eichenstraße").
-restaurant("Paasdorf Bahnhof").
-restaurant("Valiergasse").
-restaurant("Schöffelgasse").
-restaurant("Thaliastraße/Feßtgasse").
-restaurant("Geiereckstraße").
-restaurant("Leberberg").
-restaurant("Laaer-Berg-Straße").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Kärntner Ring/Oper").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Empergergasse").
+initlocation(2,"Thaliastraße/Brunnengasse").
+initlocation(2,"Windtenstraße").
+sequence(2,0, "Hetzendorf").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Auerspergstraße").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+restaurant("Alfred-Adler-Straße").
+restaurant("Barawitzkagasse").
+restaurant("Litfaßstraße").
+restaurant("Taubstummengasse").
+restaurant("Laxenburger Straße/Troststraße").
+restaurant("Empergergasse").
+restaurant("Gerstnerstraße/Westbhf").

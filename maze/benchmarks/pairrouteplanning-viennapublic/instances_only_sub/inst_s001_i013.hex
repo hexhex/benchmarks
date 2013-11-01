@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Zippererstraße").
-initlocation($p,"Zippererstraße").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+sequence(1,0, "Absdorf-Hippersdorf Bahnhof").
 person(2).
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-restaurant("Unterpurkersdorf Bahnhof").
+initlocation(2,"Strebersdorf").
+sequence(2,0, "Strebersdorf").
+possiblemeetinglocations("Bisamberg Bahnhof").
+restaurant("Nestroyplatz").

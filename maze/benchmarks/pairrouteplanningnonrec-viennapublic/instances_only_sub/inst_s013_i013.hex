@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Rathaus").
-initlocation($p,"Donaumarina").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Handelskai").
-initlocation($p,"Gersthof").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Mistelbach Bahnhof").
+sequence(1,0, "Neulengbach Bahnhof").
 person(2).
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Krieau").
-initlocation($p,"Traisengasse").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Stadlau").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Praterstern").
-initlocation($p,"Simmering").
-initlocation($p,"Wr Neustadt Nord").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Wolkersdorf Bahnhof").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Liesing").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Taborstraße").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Unterradlberg Bahnhof").
+sequence(2,0, "Dresdner Straße").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
 possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Tulln Bahnhof").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Aspernstraße").
-restaurant("Schwechat Bahnhof").
-restaurant("Schleinbach Bahnhof").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Aspern Nord").
-restaurant("Grillgasse").
-restaurant("Erlaaer Straße").
-restaurant("Gemeinlebarn Bahnhof").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Breitenwaida Bahnhof").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+restaurant("Heiligenstadt").
+restaurant("Alterlaa").
+restaurant("Enkplatz").
+restaurant("Keplerplatz").
 restaurant("Stadtpark").
-restaurant("Pfaffstätten Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Kendlerstraße").
+restaurant("Hetzendorf").
+restaurant("Erdberg").
+restaurant("Spittelau").
+restaurant("Erlaaer Straße").
+restaurant("Gasometer").
+restaurant("Zeiselmauer-Königstetten Bf").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Camillo-Sitte-Gasse").
-initlocation($p,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Wenzgasse").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Verbindungsbahn").
+sequence(1,0, "Wenzgasse").
 person(2).
-initlocation($p,"Hildebrandgasse").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Koloniestraße").
-initlocation($p,"Nordbahnstraße").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Hildebrandgasse").
-possiblemeetinglocations("Arminenstraße").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Brünner Straße/Hanreitergasse").
-possiblemeetinglocations("Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
-restaurant("Gewerbepark Stadlau Mitte").
-restaurant("Schlachthausgasse").
-restaurant("Zentralfriedhof 1Tor").
-restaurant("Rußbergstraße").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Staglgasse").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Liechtenwerder Platz").
+initlocation(2,"Rodaun").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Fickeysstraße").
+sequence(2,0, "Carabelligasse").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Römergasse").
+restaurant("Burggasse-Stadthalle").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Ladendorf Bahnhof").
+restaurant("Sankt Marx").

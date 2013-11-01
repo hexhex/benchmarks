@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Radetzkyplatz").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Radetzkyplatz").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+sequence(1,0, "Silberwald Bahnhof").
 person(2).
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Johnstraße").
-initlocation($p,"Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Friedensbrücke").
-restaurant("Brünnlbadgasse").
-restaurant("Johnstraße").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Neilreichgasse").
+sequence(2,0, "Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Hofwiesengasse").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Hetzendorf").

@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Praterstern").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Schlachthausgasse").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Glatzgasse").
+initlocation(1,"Hardtgasse").
+sequence(1,0, "Johann-Nepomuk-Berger-Platz").
 person(2).
-initlocation($p,"Auerspergstraße").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Stubentor").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Auerspergstraße").
-possiblemeetinglocations("Gottschalkgasse/Enkplatz").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Fickeysstraße").
-restaurant("Polgarstraße").
-restaurant("Simmering").
-restaurant("Taborstraße").
-restaurant("Hofstatt Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Zentralfriedhof 2Tor").
+initlocation(2,"Althanstraße").
+sequence(2,0, "Erzherzog-Karl-Straße").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Knöllgasse/Davidgasse").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+restaurant("Messe-Prater").
+restaurant("Salztorbrücke").
+restaurant("Unteres Belvedere").
+restaurant("Hardeggasse").

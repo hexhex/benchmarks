@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Kagraner Platz").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Strebersdorf").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Simmering").
+sequence(1,0, "Wildungsmauer Bahnhof").
 person(2).
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Retz Bahnhof").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Erlaaer Straße").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Josefstädter Straße").
+initlocation(2,"Hausfeldstraße").
+sequence(2,0, "Langenlebarn Bahnhof").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
 possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Landstraße-Wien Mitte").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Preyergasse/Speising").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Pilgramgasse").
-restaurant("Donauspital").
-restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Sierndorf Bahnhof").
-restaurant("Siebenhirten").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Hernals").
+restaurant("Hausfeldstraße").
+restaurant("Helmahof Bahnhof").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Messe-Prater").
+restaurant("Bahnhof Meidling").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Süßenbrunn").

@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Johnstraße").
-initlocation($p,"Alte Donau").
-initlocation($p,"Pilgramgasse").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Wampersdorf Bahnhof").
+initlocation(1,"Gerasdorf Bahnhof").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Aspernstraße").
+sequence(1,0, "Stephansplatz").
 person(2).
-initlocation($p,"Reumannplatz").
-initlocation($p,"Handelskai").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Schottentor").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Reumannplatz").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Praterkai").
-restaurant("Am Schöpfwerk").
-restaurant("Enkplatz").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Bahnhof Meidling").
-restaurant("Nestroyplatz").
-restaurant("Südtiroler Platz/Hauptbahnhof").
-restaurant("Götzendorf Bahnhof").
-restaurant("Roßauer Lände").
-restaurant("Bad Vöslau Bahnhof").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Heiligenstadt").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Hardeggasse").
+sequence(2,0, "Göllersdorf Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Ladendorf Bahnhof").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Donaustadtbrücke").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Hadersdorf Bahnhof").
+restaurant("Schweglerstraße").
+restaurant("Kaiserebersdorf").
+restaurant("Klosterneuburg-Weidling Bf").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Stephansplatz").

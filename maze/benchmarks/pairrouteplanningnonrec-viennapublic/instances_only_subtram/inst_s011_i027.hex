@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Simonygasse").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Yppengasse").
-initlocation($p,"Nordwestbahnstraße").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Forstnergasse").
-initlocation($p,"Schloss Hetzendorf").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Bahnsteggasse").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Neuwaldegg").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Sommarugagasse").
+initlocation(1,"Dornbach, Güpferlingstraße").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Forstnergasse").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Alaudagasse").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Stammersdorf").
+sequence(1,0, "Höbersdorf Bahnhof").
 person(2).
-initlocation($p,"Wallrißstraße").
-initlocation($p,"Bösendorferstraße").
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Hermesstraße").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Wallrißstraße").
-possiblemeetinglocations("Diesterweggasse").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Hofwiesengasse").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Simmering").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Fasangasse").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Elterleinplatz").
-possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
-restaurant("Himberg Bahnhof").
-restaurant("Döblinger Bad").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Lange Gasse").
-restaurant("Grinzing").
-restaurant("Rothneusiedl").
-restaurant("Brünner Straße").
-restaurant("Skodagasse").
-restaurant("Favoritenstraße/Troststraße").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Landstraße-Wien Mitte").
+initlocation(2,"Hauptbahnhof Ost").
+initlocation(2,"Baumgarten").
+initlocation(2,"Schottenfeldgasse").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Am Spitz").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Unter St Veit, Hummelgasse").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Floridsdorfer Markt").
+sequence(2,0, "Hauptbahnhof Ost").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
+possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
+possiblemeetinglocations("Empergergasse").
+possiblemeetinglocations("Frödenplatz").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+restaurant("Autokaderstraße").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Stubentor").
+restaurant("Schottentor").
+restaurant("Floridsdorfer Markt").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("An den langen Lüssen").
+restaurant("Stefan-Fadinger-Platz").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Franzensbrücke").

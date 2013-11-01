@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Hausfeldstraße").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Stadlau").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Ottakring").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Erdberg").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Theresienfeld Bahnhof").
+sequence(1,0, "Bad Vöslau Bahnhof").
 person(2).
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Haidestraße").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Zieglergasse").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-possiblemeetinglocations("Oberradlberg Bahnhof").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Pressbaum Bahnhof").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Alterlaa").
-restaurant("Sierndorf Bahnhof").
-restaurant("Stubentor").
-restaurant("Lobau").
-restaurant("Gersthof").
-restaurant("Tulln Bahnhof").
-restaurant("Hirschstetten").
-restaurant("Erdberg").
-restaurant("Retz Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Baden Bahnhof").
+sequence(2,0, "Sierndorf Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Rennbahnweg").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Oberdöbling").
+restaurant("Handelskai").
+restaurant("Längenfeldgasse").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Kledering Bahnhof").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Alte Donau").
+restaurant("Messe-Prater").

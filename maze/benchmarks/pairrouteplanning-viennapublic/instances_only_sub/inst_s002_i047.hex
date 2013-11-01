@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Donauinsel").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Donauinsel").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Pressbaum Bahnhof").
+sequence(1,0, "Kardinal-Nagl-Platz").
 person(2).
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Praterstern").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Baden Bahnhof").
+sequence(2,0, "Erlaaer Straße").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+restaurant("Stubentor").
+restaurant("Guntramsdorf-Thallern").

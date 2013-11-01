@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Spittelau").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Alser Straße").
-initlocation($p,"Spittelau").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Pfaffstätten Bahnhof").
+sequence(1,0, "Kaisermühlen-VIC").
 person(2).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Kagraner Platz").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Erlaaer Straße").
-restaurant("Silberwald Bahnhof").
-restaurant("Alte Donau").
-restaurant("Roßauer Lände").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Grillgasse").
+sequence(2,0, "Fischamend Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Traismauer Bahnhof").
+restaurant("Theresienfeld Bahnhof").

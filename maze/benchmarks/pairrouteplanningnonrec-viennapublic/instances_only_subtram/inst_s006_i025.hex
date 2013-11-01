@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Rebhanngasse").
-initlocation($p,"Schmerlingplatz").
-initlocation($p,"Schöffelgasse").
-initlocation($p,"Höbersdorf Bahnhof").
+initlocation(1,"Rathausplatz/Burgtheater").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Favoritenstraße/Troststraße").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Althanstraße").
+sequence(1,0, "Rathausplatz/Burgtheater").
 person(2).
-initlocation($p,"Seegasse").
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Windtenstraße").
-initlocation($p,"Seegasse").
-possiblemeetinglocations("Herbeckstraße").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Schottenfeldgasse").
-possiblemeetinglocations("Guneschgasse").
-possiblemeetinglocations("Resselgasse").
-restaurant("Winckelmannstraße").
-restaurant("Hernalser Hauptstr/Wattgasse").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Molitorgasse").
-restaurant("Unteroberndorf Bahnhof").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Lainz, Wolkersbergenstraße").
+initlocation(2,"Josef-Baumann-Gasse").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Laudongasse").
+sequence(2,0, "Gänserndorf Bahnhof").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Verbindungsbahn").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Stollgasse").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+restaurant("Wildgansplatz").
+restaurant("Carminweg").
+restaurant("Aderklaaer Straße").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Döblinger Bad").

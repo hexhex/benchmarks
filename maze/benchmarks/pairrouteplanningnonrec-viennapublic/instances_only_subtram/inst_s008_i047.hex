@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Burgring").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Pokornygasse").
-initlocation($p,"Schleiergasse").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Krottenbachstraße").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Linzer Straße/Hochsatzengasse").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Carabelligasse").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Stockholmer Platz").
+sequence(1,0, "Herzogenburg Bahnhof").
 person(2).
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Stefan-Fadinger-Platz").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Siebertgasse").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Martinstraße").
-initlocation($p,"Altes Landgut").
-initlocation($p,"Rußbergstraße").
-possiblemeetinglocations("Forstnergasse").
-possiblemeetinglocations("Gerstnerstraße/Westbhf").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Altes Landgut").
-possiblemeetinglocations("Linzer Straße/Zehetnergasse").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Am Spitz").
-possiblemeetinglocations("Huglgasse").
-restaurant("Friedrich-Engels-Platz").
-restaurant("Rothneusiedl").
-restaurant("Svetelskystraße").
-restaurant("Blechturmgasse").
-restaurant("Troststraße/Neilreichgasse").
-restaurant("Römergasse").
-restaurant("Wilhelminenstr/Sandleitengasse").
-restaurant("Hetzgasse").
+initlocation(2,"Alser Straße").
+initlocation(2,"Weißenböckstraße").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Marxergasse").
+initlocation(2,"Gerstnerstraße/Westbhf").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(2,"Gaisruck Bahnhof").
+sequence(2,0, "Alser Straße").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Anton-Krieger-Gasse").
+possiblemeetinglocations("Hetzendorf").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Nußdorf, Beethovengang").
+restaurant("Nordbahnstraße").
+restaurant("Spillern Bahnhof").
+restaurant("Messe-Prater").
+restaurant("Hütteldorf").
+restaurant("Siebensterngasse").
+restaurant("Linzer Straße/Johnstraße").

@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Elterleinplatz").
+initlocation(1,"Sommarugagasse").
+sequence(1,0, "Sommarugagasse").
 person(2).
-initlocation($p,"Oberdöbling").
-initlocation($p,"Oberdöbling").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-restaurant("Laaer-Berg-Straße").
+initlocation(2,"Ungargasse/Neulinggasse").
+sequence(2,0, "Ungargasse/Neulinggasse").
+possiblemeetinglocations("Hirschstetten").
+restaurant("Lobau").

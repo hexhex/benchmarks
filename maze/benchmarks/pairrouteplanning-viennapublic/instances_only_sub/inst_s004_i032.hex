@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Stadlau").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Schottenring").
-initlocation($p,"Volkstheater").
-initlocation($p,"Stadlau").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Hietzing").
+initlocation(1,"Traisengasse").
+initlocation(1,"Gerasdorf Bahnhof").
+sequence(1,0, "Hadersdorf Bahnhof").
 person(2).
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-restaurant("Tulln Bahnhof").
-restaurant("Alterlaa").
-restaurant("Blumental").
-restaurant("Hütteldorf").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Höbersdorf Bahnhof").
+sequence(2,0, "Felixdorf Bahnhof").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Hardeggasse").
+restaurant("Silberwald Bahnhof").

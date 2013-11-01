@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Hütteldorf").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"Burgring").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Sensengasse").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Autokaderstraße").
-initlocation($p,"An den langen Lüssen").
-initlocation($p,"Obere Augartenstraße").
-initlocation($p,"Hütteldorf").
+initlocation(1,"Althanstraße").
+initlocation(1,"Lainz, Wolkersbergenstraße").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Großjedlersdorf").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Klosterneub Str/Wallensteinstr").
+initlocation(1,"Skodagasse").
+initlocation(1,"Bauernfeldplatz").
+initlocation(1,"Lobau").
+sequence(1,0, "Althanstraße").
 person(2).
-initlocation($p,"Floridsdorf").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Am Heidjöchl").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Gaußplatz").
-initlocation($p,"Floridsdorf").
-possiblemeetinglocations("Zentralfriedhof 2Tor").
-possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-possiblemeetinglocations("Hoßplatz").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Thaliastraße/Feßtgasse").
-restaurant("Schwarzenbergplatz").
-restaurant("Seegasse").
-restaurant("Knöllgasse/Davidgasse").
-restaurant("Achau Bahnhof").
-restaurant("Jägerstraße").
-restaurant("Pottendorf-Landegg Bahnhof").
-restaurant("Krieau").
-restaurant("Bahnhof Meidling/Eichenstraße").
-restaurant("Sickenberggasse").
-restaurant("Regelsbrunn Bahnhof").
+initlocation(2,"Handelskai").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Scheibenbergstraße").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Resselgasse").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Donauinsel").
+sequence(2,0, "Handelskai").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Oberlaa, Therme Wien").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+restaurant("Urban-Loritz-Platz").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Längenfeldgasse").
+restaurant("Rothneusiedl").
+restaurant("Hütteldorfer Straße").
+restaurant("Paulanergasse").
+restaurant("Schwechat Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Kottingneusiedl Bahnhof").

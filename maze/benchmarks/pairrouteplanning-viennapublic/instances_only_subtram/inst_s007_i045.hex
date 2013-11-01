@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Handelskai").
-initlocation($p,"Leberberg").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Handelskai").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Rankgasse").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Großjedlersdorf").
+initlocation(1,"Gasometer").
+initlocation(1,"Nordbrücke").
+initlocation(1,"Nußdorfer Str/Alserbachstraße").
+sequence(1,0, "Kapellerfeld Bahnhof").
 person(2).
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Nordbahnstraße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Döblinger Bad").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Auerspergstraße").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Favoritenstraße/Troststraße").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Sieveringer Straße").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Fasangasse").
-possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
-possiblemeetinglocations("Valiergasse").
-restaurant("Kaiserebersdorf").
-restaurant("Silbergasse").
-restaurant("Neilreichgasse").
-restaurant("Atzgersdorfer Straße").
-restaurant("Hernalser Hauptstr/Wattgasse").
-restaurant("Bad Vöslau Bahnhof").
-restaurant("Skodagasse").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Johann-Strauß-Gasse").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Yppengasse").
+initlocation(2,"Jedlersdorf").
+sequence(2,0, "Wr Neustadt Nord").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Schmerlingplatz").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Laaer-Berg-Straße").
+restaurant("Türkenschanzplatz").
+restaurant("Jägerstraße").
+restaurant("Bahnhof Meidling").
+restaurant("Resselgasse").
+restaurant("Polkorabplatz").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Kaiserebersdorf, Zinnergasse").

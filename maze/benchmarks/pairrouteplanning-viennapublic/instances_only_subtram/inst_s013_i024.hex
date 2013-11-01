@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Simonygasse").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Rennweg").
-initlocation($p,"Staglgasse").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Bauernfeldplatz").
-initlocation($p,"Waidhausenstraße").
-initlocation($p,"Brigittaplatz").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Viehofen Bahnhof").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Schloss Schönbrunn").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Kleistgasse").
+initlocation(1,"Gersthofer Str/Scheibenbergstr").
+initlocation(1,"Lazarettgasse").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Zieglergasse/Westbahnstraße").
+initlocation(1,"Aßmayergasse").
+initlocation(1,"Frödenplatz").
+initlocation(1,"Alser Straße").
+sequence(1,0, "Aspernstraße").
 person(2).
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Vinzenzgasse").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Lange Gasse").
-initlocation($p,"Svetelskystraße").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Grillgasse").
-initlocation($p,"Döblinger Bad").
-initlocation($p,"Tesarekplatz").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Glatzgasse").
-initlocation($p,"Kagraner Brücke").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
-possiblemeetinglocations("Wittelsbachstraße").
-possiblemeetinglocations("Gerstnerstraße/Westbhf").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Kranzgasse").
-possiblemeetinglocations("Siebertgasse").
-possiblemeetinglocations("Am Tabor").
-possiblemeetinglocations("Fickeysstraße").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-restaurant("Albertgasse").
-restaurant("Oberzellergasse").
-restaurant("Strasshof Bahnhof").
-restaurant("Aspern, Oberdorfstraße").
-restaurant("Van-Swieten-Kaserne").
-restaurant("Schloss Hetzendorf").
-restaurant("Salztorbrücke").
-restaurant("Glatzgasse").
-restaurant("Hietzing").
-restaurant("Raxstraße/Rudolfshügelgasse").
-restaurant("Columbusplatz").
-restaurant("Südtiroler Platz/Hauptbahnhof").
-restaurant("Weidlingau Bahnhof").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Schleiergasse").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Burgring").
+initlocation(2,"Fultonstraße").
+initlocation(2,"Dornbacher Straße").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Breitenfurter Str/Liesingbr").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+sequence(2,0, "Schwedenplatz").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Kaiserstraße").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+restaurant("Herrengasse").
+restaurant("Frödenplatz").
+restaurant("Paradisgasse").
+restaurant("Mühlfeldgasse").
+restaurant("Perntergasse").
+restaurant("Kutschkergasse").
+restaurant("Canisiusgasse").
+restaurant("Hetzgasse").
+restaurant("Aumannplatz").
+restaurant("Laurenzgasse").
+restaurant("Hausfeldstraße").
+restaurant("Sollenau Bahnhof").
+restaurant("Gramatneusiedl Bahnhof").

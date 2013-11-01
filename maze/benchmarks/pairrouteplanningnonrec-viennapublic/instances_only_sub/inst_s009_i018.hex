@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Felixdorf Bahnhof").
+initlocation(1,"Langenlebarn Bahnhof").
+initlocation(1,"Donauinsel").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+sequence(1,0, "Langenlebarn Bahnhof").
 person(2).
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Rekawinkel Bahnhof").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Götzendorf Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+sequence(2,0, "Pilgramgasse").
+possiblemeetinglocations("Jedlersdorf").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
 possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-restaurant("Michelhausen Bahnhof").
-restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Alte Donau").
-restaurant("Hofstatt Bahnhof").
-restaurant("Stephansplatz").
-restaurant("Volkstheater").
-restaurant("Stockerau Bahnhof").
-restaurant("Kaisermühlen-VIC").
+restaurant("Leopoldau").
+restaurant("Ottakring").
+restaurant("Quartier Belvedere").
+restaurant("Wolf in der Au").
+restaurant("Süßenbrunn").
+restaurant("Niederhofstraße").
+restaurant("Unter Kritzendorf Bahnhof").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Breitenwaida Bahnhof").

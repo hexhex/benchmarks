@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Laudongasse").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Alterlaa").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Sahulkastraße").
+initlocation(1,"Althanstraße").
+initlocation(1,"Ottakring").
+initlocation(1,"Rustengasse").
+initlocation(1,"Ungargasse/Neulinggasse").
+initlocation(1,"Rodaun").
+initlocation(1,"Rathaus").
+initlocation(1,"Mayerhofgasse").
+initlocation(1,"Julius-Raab-Platz").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+sequence(1,0, "Althanstraße").
 person(2).
-initlocation($p,"Krieau").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Zentralfriedhof 3Tor").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Arminenstraße").
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Leopoldau").
-initlocation($p,"Grinzing").
-initlocation($p,"Krieau").
-possiblemeetinglocations("Gaußplatz").
-possiblemeetinglocations("Winkeläckerstraße").
-possiblemeetinglocations("Schwedenplatz").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Salztorbrücke").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Prater, Hauptallee").
-possiblemeetinglocations("Laaer-Berg-Straße").
-restaurant("Johannes-Krawarik-Gasse").
-restaurant("Nußdorf, Beethovengang").
-restaurant("Rosenhügelstraße").
-restaurant("Gewerbepark Stadlau Mitte").
-restaurant("Silberwald Bahnhof").
-restaurant("Rathausplatz/Burgtheater").
-restaurant("Stiftgasse").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Rampengasse").
+initlocation(2,"Linzer Straße/Lützowgasse").
+initlocation(2,"Sankt Marx").
+initlocation(2,"Ottakring").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Lobau").
+initlocation(2,"Barawitzkagasse").
+sequence(2,0, "Linzer Straße/Lützowgasse").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Diesterweggasse").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Winckelmannstraße").
+possiblemeetinglocations("Augasse").
+restaurant("Seyring Bahnhof").
+restaurant("Alte Donau").
+restaurant("Donaustadtstraße").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Jägerstraße").
+restaurant("Quellenstraße/Favoritenstraße").
+restaurant("Schottenring").
+restaurant("Rennweg").
+restaurant("Wienerbergbrücke").

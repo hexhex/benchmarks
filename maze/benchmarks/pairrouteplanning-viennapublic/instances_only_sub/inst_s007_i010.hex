@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Tscherttegasse").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Donauspital").
+initlocation(1,"Schottenring").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Stadlau").
+sequence(1,0, "Purkersdorf Zentrum Bahnhof").
 person(2).
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Taborstraße").
-initlocation($p,"Herrengasse").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Quartier Belvedere").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Herzogenburg Stadt").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Ottakring").
-restaurant("Gerasdorf Bahnhof").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Kaiserebersdorf").
-restaurant("Gaisruck Bahnhof").
-restaurant("Spittelau").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Hadersdorf Bahnhof").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Sierndorf Bahnhof").
+sequence(2,0, "Staatz Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Stubentor").
+restaurant("Geiselbergstraße").
+restaurant("Pressbaum Bahnhof").
+restaurant("Thaliastraße").
+restaurant("Karlsplatz").
+restaurant("Platt Bahnhof").
+restaurant("Hernals").
+restaurant("Ladendorf Bahnhof").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Anton-Schall-Gasse").
-initlocation($p,"Otto-Probst-Platz").
-initlocation($p,"Kagran").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Rampengasse").
-initlocation($p,"Langobardenstraße/Kapellenweg").
+initlocation(1,"Fasangasse").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Blumengasse").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Glatzgasse").
+sequence(1,0, "Fasangasse").
 person(2).
-initlocation($p,"Nordbrücke").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Maurer Hauptplatz").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Kaiserebersdorf, Zinnergasse").
-initlocation($p,"Nordbrücke").
-possiblemeetinglocations("Rosenhügelstraße").
-possiblemeetinglocations("Sieveringer Straße").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Kaiserstraße").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Hoßplatz").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Siemensstraße").
-restaurant("Kaiserstraße/Burggasse").
-restaurant("Mariahilfer Gürtel").
-restaurant("Leberberg").
-restaurant("Schönbrunn").
+initlocation(2,"Urban-Loritz-Platz").
+initlocation(2,"Eckpergasse").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Migerkastraße").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+sequence(2,0, "Urban-Loritz-Platz").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Marienbrücke").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Bernhardtstalgasse").
+possiblemeetinglocations("Ladendorf Bahnhof").
+restaurant("Bauernfeldplatz").
+restaurant("Hirschstetten").
+restaurant("Donauspital").
+restaurant("Liebknechtgasse").
+restaurant("Trasdorf Bahnhof").
+restaurant("Radetzkyplatz").

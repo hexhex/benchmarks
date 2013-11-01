@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Simonygasse").
-initlocation($p,"Hermesstraße").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Gasometer").
-initlocation($p,"Grillgasse").
-initlocation($p,"Simonygasse").
+initlocation(1,"Gatterburggasse").
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Donauzentrum").
+initlocation(1,"Viehofen Bahnhof").
+sequence(1,0, "Gatterburggasse").
 person(2).
-initlocation($p,"Traisengasse").
-initlocation($p,"Hildebrandgasse").
-initlocation($p,"Halteraugasse").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Schottentor").
-initlocation($p,"Traisengasse").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Schwarzspanierstraße").
-possiblemeetinglocations("Obere Augartenstraße").
-restaurant("Stadlau").
-restaurant("Rankgasse").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Ottakringer Straße/Wattgasse").
-restaurant("Baden Bahnhof").
+initlocation(2,"Floridsdorfer Markt").
+initlocation(2,"Jagdschloßgasse").
+initlocation(2,"Molitorgasse").
+initlocation(2,"Trondheimgasse").
+initlocation(2,"Sechskrügelgasse").
+sequence(2,0, "Floridsdorfer Markt").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Innstraße").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Bisamberg Bahnhof").
+restaurant("Schloss Belvedere").
+restaurant("Schwarzenbergplatz").
+restaurant("Moosbierbaum-Heiligeneich Bf").

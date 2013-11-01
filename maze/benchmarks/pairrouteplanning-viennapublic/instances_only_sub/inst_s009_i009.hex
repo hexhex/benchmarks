@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Rathaus").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Rennweg").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
+initlocation(1,"Gasometer").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Margaretengürtel").
+sequence(1,0, "Gasometer").
 person(2).
-initlocation($p,"Donauinsel").
-initlocation($p,"Donauspital").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Simmering").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Donauinsel").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Mannswörth Bahnhof").
-restaurant("Reumannplatz").
-restaurant("Unteroberndorf Bahnhof").
-restaurant("Hirschstetten").
-restaurant("Leopoldau").
-restaurant("Rennweg").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Trasdorf Bahnhof").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Stockerau Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Praterkai").
+initlocation(2,"Alser Straße").
+initlocation(2,"Lobau").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Bad Vöslau Bahnhof").
+sequence(2,0, "Margaretengürtel").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Schottentor").
+restaurant("Grillgasse").
+restaurant("Silberwald Bahnhof").
+restaurant("Korneuburg Bahnhof").
+restaurant("Schottenring").
+restaurant("Michelbeuern-AKH").
+restaurant("Stadlau").
+restaurant("Braunschweiggasse").

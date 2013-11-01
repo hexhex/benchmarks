@@ -1,64 +1,64 @@
 person(1).
-initlocation($p,"Versorgungsheimplatz").
-initlocation($p,"Kaiser-Franz-Josef-Straße").
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Palffygasse").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Wienerfeldgasse").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Stadtpark").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Empergergasse").
-initlocation($p,"Am Spitz").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Versorgungsheimplatz").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Gellertplatz").
+initlocation(1,"Seegasse").
+initlocation(1,"Brünner Straße/Hanreitergasse").
+initlocation(1,"Stadtpark").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Sechskrügelgasse").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Hohe Warte").
+initlocation(1,"Lobau").
+initlocation(1,"Obere Donaustraße").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+sequence(1,0, "Matzleinsdorfer Platz").
 person(2).
-initlocation($p,"Penzing").
-initlocation($p,"Koloniestraße").
-initlocation($p,"Krieau").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Gaußplatz").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Resselgasse").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Empergergasse").
-initlocation($p,"Penzing").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Koppstraße/Panikengasse").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Marxergasse").
-possiblemeetinglocations("Stadiongasse/Parlament").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Hauptbahnhof Ost").
-possiblemeetinglocations("Dornbacher Straße").
-restaurant("Aspernstraße").
-restaurant("Nordwestbahnstraße").
-restaurant("Versorgungsheimplatz").
-restaurant("Innstraße").
-restaurant("Julius-Raab-Platz").
-restaurant("Achau Bahnhof").
-restaurant("Kaiserstraße/Neustiftgasse").
-restaurant("Heiligenstadt, 12-Februar-Pl").
-restaurant("Seegasse").
-restaurant("Auerspergstraße").
-restaurant("Schwechat Bahnhof").
-restaurant("Schleinbach Bahnhof").
-restaurant("Ameisgasse").
-restaurant("Sensengasse").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Wallensteinplatz").
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Wienerbergbrücke").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Johannes-Krawarik-Gasse").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Am Spitz").
+sequence(2,0, "Stephansplatz").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Strozzigasse").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Schwechat Bahnhof").
+restaurant("Silberwald Bahnhof").
+restaurant("Autokaderstraße").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Beingasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Siebensterngasse").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Margaretengürtel").
+restaurant("Himmelmutterweg").
+restaurant("Dommayergasse").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Dr-Karl-Renner-Ring").
+restaurant("Quartier Belvedere").

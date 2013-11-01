@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Unterradlberg Bahnhof").
+initlocation(1,"Kendlerstraße").
+sequence(1,0, "Kendlerstraße").
 person(2).
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-restaurant("Wilfleinsdorf Bahnhof").
+initlocation(2,"Götzendorf Bahnhof").
+sequence(2,0, "Götzendorf Bahnhof").
+possiblemeetinglocations("Erdberg").
+restaurant("Kardinal-Nagl-Platz").

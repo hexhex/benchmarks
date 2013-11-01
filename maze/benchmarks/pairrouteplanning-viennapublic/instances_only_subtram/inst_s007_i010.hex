@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Rankgasse").
-initlocation($p,"Penzinger Straße").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Pötzleinsdorf").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Rankgasse").
+initlocation(1,"Erndtgasse").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Hopfengasse").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Aderklaaer Straße").
+initlocation(1,"Stadlergasse").
+sequence(1,0, "Erndtgasse").
 person(2).
-initlocation($p,"Penzing").
-initlocation($p,"Nußdorf, Beethovengang").
-initlocation($p,"Fichtnergasse").
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Rathausplatz/Burgtheater").
-initlocation($p,"Obere Augartenstraße").
-initlocation($p,"Rustengasse").
-initlocation($p,"Penzing").
-possiblemeetinglocations("Bauernfeldplatz").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Weinhauser Gasse").
-possiblemeetinglocations("Stollgasse").
-possiblemeetinglocations("Braunhubergasse").
-possiblemeetinglocations("Gusenleithnergasse").
-possiblemeetinglocations("Rampengasse").
-restaurant("Taborstraße/Heinestraße").
-restaurant("Troststraße/Neilreichgasse").
-restaurant("Prandaugasse").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Wr Neustadt Nord").
-restaurant("Leberberg").
-restaurant("Burggasse-Stadthalle").
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Löwengasse").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Kagran").
+sequence(2,0, "Geiereckstraße").
+possiblemeetinglocations("Gatterburggasse").
+possiblemeetinglocations("Saikogasse").
+possiblemeetinglocations("Brünner Straße/Hanreitergasse").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Stadion").
+possiblemeetinglocations("Wattmanngasse").
+possiblemeetinglocations("Hubertusdamm").
+restaurant("Sommarugagasse").
+restaurant("Anton-Schall-Gasse").
+restaurant("Zieglergasse").
+restaurant("Hauffgasse").
+restaurant("Kaisermühlen-VIC").
+restaurant("Fischamend Bahnhof").
+restaurant("Ungargasse/Neulinggasse").

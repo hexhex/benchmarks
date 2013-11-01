@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Hainburg/Donau Personenbhf").
+sequence(1,0, "Rosensteingasse").
 person(2).
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Taborstraße").
-initlocation($p,"Hubertusdamm").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Bernhardtstalgasse").
-possiblemeetinglocations("Herbeckstraße").
-restaurant("Florianigasse").
-restaurant("Viehmarktgasse").
-restaurant("Albertgasse").
+initlocation(2,"Wexstraße").
+initlocation(2,"Gasometer").
+initlocation(2,"Paradisgasse").
+sequence(2,0, "Wexstraße").
+possiblemeetinglocations("Am Tabor").
+possiblemeetinglocations("Stadtpark").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+restaurant("Saikogasse").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Fickeysstraße").

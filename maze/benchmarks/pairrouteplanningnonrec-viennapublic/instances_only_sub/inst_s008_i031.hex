@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Enkplatz").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Lobau").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Gasometer").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Sollenau Bahnhof").
+sequence(1,0, "Lanzendorf-Rannersdorf Bahnhof").
 person(2).
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Obereggendorf Bahnhof").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Staatz Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-restaurant("Sankt Marx").
-restaurant("Krieau").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Götzendorf Bahnhof").
-restaurant("Leobersdorf Bahnhof").
-restaurant("Michelbeuern-AKH").
-restaurant("Donauinsel").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Alterlaa").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Am Schöpfwerk").
+sequence(2,0, "Gumpendorfer Straße").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Korneuburg Bahnhof").
+restaurant("Simmering").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Jedlersdorf").
+restaurant("Gaisruck Bahnhof").
+restaurant("Floridsdorf").
+restaurant("Obereggendorf Bahnhof").

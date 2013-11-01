@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Spittelau").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Hainburg/Donau Ungartor/B9").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+initlocation(1,"Baden Bahnhof").
+sequence(1,0, "Viehofen Bahnhof").
 person(2).
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Herrengasse").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Pressbaum Bahnhof").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Strasshof Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+sequence(2,0, "Oberradlberg Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
 possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Mannswörth Bahnhof").
-possiblemeetinglocations("Atzgersdorf").
-restaurant("Alterlaa").
-restaurant("Staatz Bahnhof").
-restaurant("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Thaliastraße").
+restaurant("Platt Bahnhof").
 restaurant("Regelsbrunn Bahnhof").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Donaumarina").
-restaurant("Dresdner Straße").
-restaurant("Oberradlberg Bahnhof").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Simmering").
+restaurant("Heiligenstadt").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Josefstädter Straße").

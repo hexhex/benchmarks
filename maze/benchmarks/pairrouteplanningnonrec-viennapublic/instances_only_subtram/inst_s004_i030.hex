@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Kagran").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Kagran").
+initlocation(1,"Herrengasse").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Ottakring").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+sequence(1,0, "Herrengasse").
 person(2).
-initlocation($p,"Klosterneub Str/Wallensteinstr").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Saikogasse").
-initlocation($p,"Klosterneub Str/Wallensteinstr").
-possiblemeetinglocations("Mühlfeldgasse").
-possiblemeetinglocations("Absberggasse").
-possiblemeetinglocations("Nordbrücke").
-possiblemeetinglocations("Jedlersdorf").
-restaurant("Laurenzgasse").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Herzogenburg Stadt").
-restaurant("Gellertplatz").
+initlocation(2,"Hernals").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Molitorgasse").
+initlocation(2,"Paasdorf Bahnhof").
+sequence(2,0, "Hernals").
+possiblemeetinglocations("Braunschweiggasse").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Rennbahnweg").
+restaurant("Grillgasse").
+restaurant("Otto-Probst-Platz").
+restaurant("Reumannplatz").
+restaurant("Teichgasse").

@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
+initlocation(1,"Rennbahnweg").
+sequence(1,0, "Rennbahnweg").
 person(2).
-initlocation($p,"Aspern Nord").
-initlocation($p,"Aspern Nord").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-restaurant("Kardinal-Nagl-Platz").
+initlocation(2,"Hausleiten Bahnhof").
+sequence(2,0, "Hausleiten Bahnhof").
+possiblemeetinglocations("Liesing").
+restaurant("Währinger Straße-Volksoper").

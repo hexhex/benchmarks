@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Lobau").
-initlocation($p,"Grillgasse").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Fischamend Bahnhof").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Hennersdorf Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "Herzogenburg Stadt").
 person(2).
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Alte Donau").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Schönborn Bahnhof").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-restaurant("Volkstheater").
-restaurant("Quartier Belvedere").
-restaurant("Petronell-Carnuntum Bahnhof").
-restaurant("Schweglerstraße").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Götzendorf Bahnhof").
-restaurant("Bad Vöslau Bahnhof").
-restaurant("Stadlau").
-restaurant("Hausfeldstraße").
-restaurant("Münchendorf Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Hütteldorf").
+sequence(2,0, "Grillgasse").
+possiblemeetinglocations("Karlsplatz").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Hofstatt Bahnhof").
+restaurant("Alte Donau").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Penzing").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Kaisermühlen-VIC").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Nußdorfer Straße").
+restaurant("Spittelau").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").

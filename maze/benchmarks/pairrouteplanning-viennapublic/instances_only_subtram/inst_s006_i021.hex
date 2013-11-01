@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Guntherstraße").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Erdbergstr/Schlachthausgasse").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Guntherstraße").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Penzinger Straße").
+initlocation(1,"Zentralfriedhof 4Tor").
+initlocation(1,"Breitenwaida Bahnhof").
+sequence(1,0, "Felixdorf Bahnhof").
 person(2).
-initlocation($p,"Keplerplatz").
-initlocation($p,"Camillo-Sitte-Gasse").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Fultonstraße").
-initlocation($p,"Keplerplatz").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Zieglergasse").
-restaurant("Schlachthausgasse").
-restaurant("Stockholmer Platz").
-restaurant("Sahulkastraße").
-restaurant("Kaiser-Franz-Josef-Straße").
-restaurant("Frödenplatz").
-restaurant("Gemeinlebarn Bahnhof").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Nordbahnstraße").
+initlocation(2,"Blechturmgasse").
+initlocation(2,"Gänserndorf Bahnhof").
+initlocation(2,"Yppengasse").
+initlocation(2,"Arminenstraße").
+sequence(2,0, "Linzer Straße/Johnstraße").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Frauengasse").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Seestadt").
+restaurant("Fichtnergasse").
+restaurant("Liechtenwerder Platz").
+restaurant("Meidling Hauptstraße").
+restaurant("Forstnergasse").

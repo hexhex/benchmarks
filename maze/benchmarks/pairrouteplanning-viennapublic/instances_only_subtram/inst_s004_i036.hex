@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Aspern Nord").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Aspern Nord").
+initlocation(1,"Nordbahnstraße").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Baumgarten").
+sequence(1,0, "Nordbahnstraße").
 person(2).
-initlocation($p,"Maurer Hauptplatz").
-initlocation($p,"Josef-Baumann-Gasse").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Maurer Hauptplatz").
-possiblemeetinglocations("Lederergasse").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Otto-Probst-Platz").
-possiblemeetinglocations("Erlaaer Straße").
-restaurant("Längenfeldgasse/Flurschützstr").
-restaurant("Albertgasse").
-restaurant("Hardeggasse").
-restaurant("Stadion").
+initlocation(2,"Saikogasse").
+initlocation(2,"Raxstraße/Rudolfshügelgasse").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Herrengasse").
+sequence(2,0, "Saikogasse").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Columbusplatz").
+restaurant("Rothneusiedl").
+restaurant("Guneschgasse").
+restaurant("Sierndorf Bahnhof").
+restaurant("Zeiselmauer-Königstetten Bf").

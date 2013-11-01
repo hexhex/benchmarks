@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Weinheimergasse").
-initlocation($p,"Hütteldorf, Bujattigasse").
+initlocation(1,"Bahnhof Meidling/Eichenstraße").
+initlocation(1,"Mariahilfer Gürtel").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Römergasse").
+initlocation(1,"Großjedlersdorf").
+initlocation(1,"Alser Straße").
+sequence(1,0, "Bahnhof Meidling/Eichenstraße").
 person(2).
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Ameisgasse").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Pressbaum Bahnhof").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Sickenberggasse").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-restaurant("Zentralfriedhof 1Tor").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Resselgasse").
-restaurant("Troststraße/Neilreichgasse").
-restaurant("Am Heumarkt").
-restaurant("Waidhausenstraße").
+initlocation(2,"Enkplatz").
+initlocation(2,"Kärntner Ring/Oper").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Haidestraße").
+initlocation(2,"Hoßplatz").
+initlocation(2,"Kagraner Platz").
+sequence(2,0, "Enkplatz").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Polkorabplatz").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+restaurant("Gasometer").
+restaurant("Zentralfriedhof 4Tor").
+restaurant("Maurer Lange Gasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Gredlerstraße").
+restaurant("Koppstraße/Panikengasse").

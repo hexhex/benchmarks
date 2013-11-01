@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Gramatneusiedl Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Pilgramgasse").
+initlocation(1,"Gaisruck Bahnhof").
+sequence(1,0, "Mödling Bahnhof").
 person(2).
-initlocation($p,"Stadtpark").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Schottentor").
-initlocation($p,"Hietzing").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Stadtpark").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Trasdorf Bahnhof").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-restaurant("Bisamberg Bahnhof").
-restaurant("Bad Vöslau Bahnhof").
-restaurant("Taubstummengasse").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Blumental").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Purkersdorf Sanatorium").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Stadlau").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Alser Straße").
+sequence(2,0, "Hütteldorfer Straße").
+possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Höbersdorf Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+restaurant("Grillgasse").
+restaurant("Weidlingau Bahnhof").
+restaurant("Braunschweiggasse").
+restaurant("Nußdorf").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Staatz Bahnhof").

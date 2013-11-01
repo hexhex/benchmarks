@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Weidlingau Bahnhof").
+sequence(1,0, "Hetzendorf").
 person(2).
-initlocation($p,"Stubentor").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Stubentor").
-possiblemeetinglocations("Donauspital").
+initlocation(2,"Schwedenplatz").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Ottakring").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Praterkai").
+sequence(2,0, "Schwedenplatz").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Oberdöbling").
 possiblemeetinglocations("Simmering").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Guntersdorf Bahnhof").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Himberg Bahnhof").
-restaurant("Unteroberndorf Bahnhof").
-restaurant("Kaiserebersdorf").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Perfektastraße").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Langenlebarn Bahnhof").
+restaurant("Grillgasse").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Strebersdorf").
+restaurant("Kaisermühlen-VIC").
+restaurant("Obersdorf Bahnhof").
+restaurant("Vorgartenstraße").

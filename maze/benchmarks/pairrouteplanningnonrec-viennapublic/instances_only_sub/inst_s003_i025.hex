@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Traisengasse").
-initlocation($p,"Kardinal-Nagl-Platz").
+initlocation(1,"Ladendorf Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Münchendorf Bahnhof").
+sequence(1,0, "Ladendorf Bahnhof").
 person(2).
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Zentralfriedhof").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Stadtpark").
-restaurant("Höbersdorf Bahnhof").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Simmering").
+sequence(2,0, "Sarasdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Messe-Prater").
+restaurant("Schwechat Bahnhof").

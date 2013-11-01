@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Weinhauser Gasse").
-initlocation($p,"Alfred-Adler-Straße").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Weißenböckstraße").
-initlocation($p,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Friedrich-Engels-Platz").
+initlocation(1,"Palffygasse").
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Kaiserstraße").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Schlachthausgasse").
+sequence(1,0, "Friedrich-Engels-Platz").
 person(2).
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Redtenbachergasse").
-initlocation($p,"Brünner Straße/Hanreitergasse").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Saikogasse").
-initlocation($p,"Höchstädtplatz").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Floridsdorfer Markt").
-possiblemeetinglocations("Windtenstraße").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Geiselbergstraße").
-possiblemeetinglocations("Rathaus").
-restaurant("Langobardenstraße").
-restaurant("Johann-Nepomuk-Berger-Platz").
-restaurant("Reinlgasse/Märzstraße").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Autokaderstraße").
-restaurant("Am Heumarkt").
+initlocation(2,"Winckelmannstraße").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+initlocation(2,"Hietzing").
+sequence(2,0, "Winckelmannstraße").
+possiblemeetinglocations("Hildebrandgasse").
+possiblemeetinglocations("Halteraugasse").
+possiblemeetinglocations("Kagraner Platz").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Rebhanngasse").
+restaurant("Donauzentrum").
+restaurant("Glatzgasse").
+restaurant("Lazarettgasse").
+restaurant("Laudongasse").
+restaurant("Josefstädter Straße").
+restaurant("Hirschstetten").

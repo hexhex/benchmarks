@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Breitensee").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Schottenring").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Margaretengürtel").
+initlocation(1,"Am Schöpfwerk").
+initlocation(1,"Schlachthausgasse").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+sequence(1,0, "Am Schöpfwerk").
 person(2).
-initlocation($p,"Alterlaa").
-initlocation($p,"Praterstern").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Alterlaa").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Ottakring").
-restaurant("Tscherttegasse").
-restaurant("Zieglergasse").
-restaurant("Sarasdorf Bahnhof").
-restaurant("Breitensee").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Alte Donau").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Siemensstraße").
+sequence(2,0, "Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Schweglerstraße").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Taborstraße").
+restaurant("Am Schöpfwerk").
+restaurant("Längenfeldgasse").
+restaurant("Schwechat Bahnhof").
+restaurant("Simmering").

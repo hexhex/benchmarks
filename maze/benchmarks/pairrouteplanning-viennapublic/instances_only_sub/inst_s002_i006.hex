@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Handelskai").
-initlocation($p,"Langenlebarn Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Kritzendorf Bahnhof").
+sequence(1,0, "Petronell-Carnuntum Bahnhof").
 person(2).
-initlocation($p,"Blumental").
-initlocation($p,"Donauinsel").
-initlocation($p,"Blumental").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Süßenbrunn").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Ebenfurth Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+sequence(2,0, "Donaustadtbrücke").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+restaurant("Grillgasse").
+restaurant("Gerasdorf Bahnhof").

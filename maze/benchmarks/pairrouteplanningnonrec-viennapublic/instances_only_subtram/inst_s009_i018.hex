@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Zippererstraße").
-initlocation($p,"Kaiserstraße/Neustiftgasse").
-initlocation($p,"Ottakring").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Breitenfurter St/Altmannsd Str").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Schwarzspanierstraße").
-initlocation($p,"Schottenfeldgasse").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Zippererstraße").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Himmelmutterweg").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Skodagasse").
+initlocation(1,"Döblinger Bad").
+sequence(1,0, "Unterradlberg Bahnhof").
 person(2).
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Kutschkergasse").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Neilreichgasse").
-possiblemeetinglocations("Halteraugasse").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Innstraße").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Matthäus-Jiszda-Straße").
-possiblemeetinglocations("Hoßplatz").
-restaurant("Hardeggasse").
-restaurant("Handelskai").
-restaurant("Sankt Marx").
-restaurant("Neulerchenfelder Str/Brunneng").
-restaurant("Paulanergasse").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Atzgersdorf").
-restaurant("Quellenplatz").
-restaurant("Linzer Straße/Lützowgasse").
+initlocation(2,"Oberfeldgasse").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Silbergasse").
+initlocation(2,"Floridsdorfer Brücke").
+initlocation(2,"Mayerhofgasse").
+initlocation(2,"Schottentor").
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Polgarstraße").
+sequence(2,0, "Oberfeldgasse").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Niederhofstraße").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Mühlfeldgasse").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("An den langen Lüssen").
+restaurant("Resselgasse").
+restaurant("Schloss Belvedere").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Wexstraße").
+restaurant("Sensengasse").
+restaurant("Margaretengürtel").
+restaurant("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Felixdorf Bahnhof").
+restaurant("Rauscherstraße").

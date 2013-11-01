@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Altes Landgut").
-initlocation($p,"Leyserstraße").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Thaliastraße/Brunnengasse").
-initlocation($p,"Haidestraße").
-initlocation($p,"Altes Landgut").
+initlocation(1,"Altes Landgut").
+initlocation(1,"Blindengasse").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Winkeläckerstraße").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Hetzendorf").
+sequence(1,0, "Altes Landgut").
 person(2).
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Arminenstraße").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Am Heidjöchl").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
-possiblemeetinglocations("Linzer Straße/Reinlgasse").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Molitorgasse").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Lederergasse").
-possiblemeetinglocations("Spitalgasse/Währinger Straße").
-restaurant("Yppengasse").
-restaurant("Dornbacher Straße").
-restaurant("Herbeckstraße").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Carminweg").
-restaurant("Kölblgasse").
+initlocation(2,"Gersthof").
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Gottschalkgasse/Enkplatz").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Stadion").
+initlocation(2,"Süßenbrunner Str/Oberfeldgasse").
+sequence(2,0, "Gersthof").
+possiblemeetinglocations("Pantucekgasse/Widholzgasse").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+restaurant("Polkorabplatz").
+restaurant("Hausleiten Bahnhof").
+restaurant("Brigittaplatz").
+restaurant("Karmeliterplatz").
+restaurant("Penzinger Straße").
+restaurant("Am Heidjöchl").

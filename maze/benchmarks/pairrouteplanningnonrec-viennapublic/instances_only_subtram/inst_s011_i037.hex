@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Schloss Hetzendorf").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Alfred-Adler-Straße").
-initlocation($p,"Aumannplatz").
-initlocation($p,"Handelskai").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Sonnergasse").
-initlocation($p,"Gumpendorfer Straße").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Hubertusdamm").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Windtenstraße").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+sequence(1,0, "Kranzgasse").
 person(2).
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Schloss Belvedere").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Lainz, Wolkersbergenstraße").
-initlocation($p,"Grinzinger Straße").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Paulanergasse").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Laudongasse").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Kagraner Brücke").
-possiblemeetinglocations("Siebensterngasse").
-possiblemeetinglocations("Knöllgasse/Davidgasse").
-possiblemeetinglocations("Koloniestraße").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Teichgasse").
-possiblemeetinglocations("Theresienfeld Bahnhof").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Schöffelgasse").
-possiblemeetinglocations("Carminweg").
-restaurant("Neulerchenfelder Str/Haberlg").
-restaurant("Türkenschanzplatz").
-restaurant("Gottschalkgasse/Enkplatz").
-restaurant("Prinzgasse").
-restaurant("Hautzendorf Bahnhof").
-restaurant("Fultonstraße").
-restaurant("Mödling Bahnhof").
-restaurant("Trasdorf Bahnhof").
-restaurant("Skodagasse").
-restaurant("Geiselbergstraße").
-restaurant("Hintere Zollamtsstraße").
+initlocation(2,"Kagran").
+initlocation(2,"Hofwiesengasse").
+initlocation(2,"Bösendorferstraße").
+initlocation(2,"Redtenbachergasse").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Braunhubergasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Erdbergstr/Schlachthausgasse").
+sequence(2,0, "Kagran").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Migerkastraße").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Lazarettgasse").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+restaurant("Leyserstraße").
+restaurant("Sensengasse").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Konstanziagasse").
+restaurant("Börsegasse/Wipplingerstraße").
+restaurant("Münchendorf Bahnhof").
+restaurant("Schottentor").
+restaurant("Hietzing").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Redtenbachergasse").
+restaurant("Joachimsthalerplatz").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Hietzing").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Hietzing").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Enkplatz").
+sequence(1,0, "Untereggendorf Bahnhof").
 person(2).
-initlocation($p,"Krieau").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Seestadt").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Krieau").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-restaurant("Felixdorf Bahnhof").
-restaurant("Stadlau").
-restaurant("Alser Straße").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Hollabrunn Bahnhof").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Leopoldau").
+sequence(2,0, "Karlsplatz").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+restaurant("Nußdorfer Straße").
 restaurant("Handelskai").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Südtiroler Platz/Hauptbahnhof").
-restaurant("Langenlebarn Bahnhof").
+restaurant("Gumpendorfer Straße").
+restaurant("Wr Neustadt Nord").
+restaurant("Haidestraße").
+restaurant("Jedlersdorf").
+restaurant("Kapellerfeld Bahnhof").

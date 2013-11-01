@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Max-Winter-Platz").
-initlocation(1,"Scheffelstraße").
-initlocation(1,"Preßgasse").
-initlocation(1,"Hintzerstraße").
-sequence(1,0, "Max-Winter-Platz").
+initlocation(1,"Kinskygasse/Rossakgasse").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Wulzendorfstraße").
+initlocation(1,"Haspingerplatz").
+sequence(1,0, "Kinskygasse/Rossakgasse").
 person(2).
-initlocation(2,"Doeltergasse").
-initlocation(2,"Am Bahnhof").
-initlocation(2,"Aspern Sportplatz").
-initlocation(2,"Tulln Bahnhof").
-sequence(2,0, "Doeltergasse").
-possiblemeetinglocations("Linke Wienzeile/Brückengasse").
-possiblemeetinglocations("Pantucekgasse/Widholzgasse").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Langfeldgasse").
-restaurant("Unter Sankt Veit").
-restaurant("Nemethgasse").
-restaurant("Fabianistraße").
-restaurant("Eslarngasse").
+initlocation(2,"Otto-Probst-Platz").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Atzgersdorf Kirchenplatz").
+initlocation(2,"Königsklostergasse").
+sequence(2,0, "Otto-Probst-Platz").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Schemmerlstraße").
+possiblemeetinglocations("Sebastian-Kohl-Gasse").
+possiblemeetinglocations("Sobotagasse").
+restaurant("Himmelstraße").
+restaurant("Weinhauser Gasse").
+restaurant("Laxenburger Str/Heizwerkstr").
+restaurant("Reinprechtsdorfer Brücke").

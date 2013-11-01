@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Blumental").
+initlocation(1,"Wolf in der Au").
+initlocation(1,"Ottakring").
+sequence(1,0, "Blumental").
 person(2).
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Stockerau Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Paasdorf Bahnhof").
-possiblemeetinglocations("Stockerau Bahnhof").
-restaurant("Krottenbachstraße").
-restaurant("Retz Bahnhof").
-restaurant("Gumpendorfer Straße").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Langenlebarn Bahnhof").
+sequence(2,0, "Dürrwien Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Stadlau").
+restaurant("Helmahof Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Laa an der Thaya Bahnhof").

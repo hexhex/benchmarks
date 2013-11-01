@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Haidestraße").
-initlocation($p,"Barawitzkagasse").
-initlocation($p,"Stadlau").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Leyserstraße").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"An den langen Lüssen").
-initlocation($p,"Traismauer Bahnhof").
+initlocation(1,"Stockholmer Platz").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Sensengasse").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Innstraße").
+initlocation(1,"Landesgerichtsstraße").
+initlocation(1,"Hütteldorfer Str/Hochsatzeng").
+sequence(1,0, "Stockholmer Platz").
 person(2).
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Valiergasse").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Donauinsel").
-initlocation($p,"Pötzleinsdorf").
-initlocation($p,"Friedrich-Engels-Platz").
-initlocation($p,"Rustengasse").
-initlocation($p,"Wienerfeldgasse").
-initlocation($p,"Türkenschanzplatz").
-possiblemeetinglocations("Linzer Straße/Zehetnergasse").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Camillo-Sitte-Gasse").
-possiblemeetinglocations("Radetzkyplatz").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Svetelskystraße").
-restaurant("Schweglerstraße").
-restaurant("Jedlersdorf").
-restaurant("Stadion").
-restaurant("Rosenhügelstraße").
-restaurant("Kölblgasse").
-restaurant("Schleiergasse").
-restaurant("Otto-Probst-Platz").
-restaurant("Radetzkyplatz").
+initlocation(2,"Kranzgasse").
+initlocation(2,"Winkeläckerstraße").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Neilreichgasse").
+sequence(2,0, "Kranzgasse").
+possiblemeetinglocations("Erndtgasse").
+possiblemeetinglocations("Sommarugagasse").
+possiblemeetinglocations("Neubaugasse/Westbahnstraße").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Huglgasse").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Braunschweiggasse").
+restaurant("Gewerbepark Stadlau Mitte").
+restaurant("Herrengasse").
+restaurant("Rochusgasse").
+restaurant("Praterkai").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Johann-Strauß-Gasse").

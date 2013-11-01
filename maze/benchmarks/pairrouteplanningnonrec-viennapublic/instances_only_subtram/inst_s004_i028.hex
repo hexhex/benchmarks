@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Breitenfurter St/Altmannsd Str").
-initlocation($p,"Paradisgasse").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Hintere Zollamtsstraße").
+initlocation(1,"Laxenburger Straße/Troststraße").
+initlocation(1,"Spittelau").
+sequence(1,0, "Schwechat Bahnhof").
 person(2).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Donaumarina").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Wilhelminenstraße/Wattgasse").
-initlocation($p,"Kagraner Platz").
-possiblemeetinglocations("Skodagasse").
-possiblemeetinglocations("Lederergasse").
-possiblemeetinglocations("Bösendorferstraße").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-restaurant("Enkplatz").
-restaurant("Paradisgasse").
-restaurant("Hetzgasse").
-restaurant("Koloniestraße").
+initlocation(2,"Rothneusiedl").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Weißenböckstraße").
+initlocation(2,"Lederergasse").
+sequence(2,0, "Rothneusiedl").
+possiblemeetinglocations("Wallensteinplatz").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Rennweg").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Schleiergasse").
+restaurant("Am Tabor").
+restaurant("Wildgansplatz").

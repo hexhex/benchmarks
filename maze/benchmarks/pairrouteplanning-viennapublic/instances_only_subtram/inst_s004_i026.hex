@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Joachimsthalerplatz").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Empergergasse").
+initlocation(1,"Gersthof").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Thaliastraße").
+sequence(1,0, "Empergergasse").
 person(2).
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Satzberggasse").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Hofstatt Bahnhof").
-possiblemeetinglocations("Staglgasse").
-possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Alaudagasse").
-possiblemeetinglocations("Empergergasse").
-restaurant("Quellenstraße/Knöllgasse").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Maria Anzbach Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Linzer Straße/Johnstraße").
+initlocation(2,"Rennweg").
+initlocation(2,"Maurer Lange Gasse").
+sequence(2,0, "Himberg Bahnhof").
+possiblemeetinglocations("Koloniestraße").
+possiblemeetinglocations("Schuhmeierplatz").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Florianigasse").
+restaurant("Hütteldorfer Straße").
+restaurant("Zentralfriedhof 4Tor").
+restaurant("Gutraterplatz").
+restaurant("Rustengasse").

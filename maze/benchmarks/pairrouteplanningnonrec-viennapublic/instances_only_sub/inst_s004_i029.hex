@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Bad Vöslau Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Helmahof Bahnhof").
+sequence(1,0, "Wildungsmauer Bahnhof").
 person(2).
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Neue Donau").
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Platt Bahnhof").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-restaurant("Friedensbrücke").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Petronell-Carnuntum Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Hörersdorf Bahnhof").
+sequence(2,0, "Gaisruck Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Spittelau").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Wr Neustadt Civitas Nova").
+restaurant("Zieglergasse").
+restaurant("Guntramsdorf-Thallern").

@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Laaer-Berg-Straße").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Franz-Josefs-Bahnhof").
+initlocation(1,"Gloriettegasse").
+initlocation(1,"Erdbergstr/Schlachthausgasse").
+initlocation(1,"Volkstheater").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+sequence(1,0, "Gloriettegasse").
 person(2).
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Unteres Belvedere").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Nordwestbahnstraße").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-restaurant("Erndtgasse").
-restaurant("Am Heidjöchl/Hausfeldstraße").
-restaurant("Kardinal-Nagl-Platz").
-restaurant("Paradisgasse").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Hardtgasse").
+sequence(2,0, "Zieglergasse").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Unter Kritzendorf Bahnhof").
+possiblemeetinglocations("Neilreichgasse").
+restaurant("Am Spitz").
+restaurant("Pötzleinsdorf").
+restaurant("Schwarzenbergplatz").
+restaurant("Ungargasse/Neulinggasse").

@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Althanstraße").
-initlocation($p,"Wenzgasse").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Kraygasse").
-initlocation($p,"Althanstraße").
+initlocation(1,"Tulln Bahnhof").
+initlocation(1,"Traismauer Bahnhof").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+sequence(1,0, "Tulln Bahnhof").
 person(2).
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Ladendorf Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Schönbrunn").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Raxstraße/Rudolfshügelgasse").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Jägerstraße").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Thaliastraße/Haberlgasse").
+sequence(2,0, "Koloniestraße").
+possiblemeetinglocations("Unter St Veit, Hummelgasse").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Lazarettgasse").
+restaurant("Resselgasse").
+restaurant("Guneschgasse").
+restaurant("Schöffelgasse").
+restaurant("Gemeinlebarn Bahnhof").

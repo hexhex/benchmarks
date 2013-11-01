@@ -1,52 +1,52 @@
 person(1).
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Blindengasse").
-initlocation($p,"Krieau").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Bahnhofstraße").
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Zentralfriedhof 4Tor").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Simmering").
-initlocation($p,"Quartier Belvedere").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Donaumarina").
+initlocation(1,"Kaiser-Franz-Josef-Straße").
+initlocation(1,"Absberggasse").
+initlocation(1,"Van-Swieten-Kaserne").
+initlocation(1,"Polkorabplatz").
+initlocation(1,"Gatterburggasse").
+initlocation(1,"Donauspital").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+sequence(1,0, "Paulanergasse").
 person(2).
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Johannes-Krawarik-Gasse").
-initlocation($p,"Valiergasse").
-initlocation($p,"Lange Gasse").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Alser Straße").
-initlocation($p,"Albertgasse").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Rathausplatz/Burgtheater").
-initlocation($p,"Wilhelminenstr/Sandleitengasse").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Schuhmeierplatz").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Laurentiusplatz").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Döblinger Hauptstr/Gatterburgg").
-possiblemeetinglocations("Rennbahnweg").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-possiblemeetinglocations("Penzinger Straße").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-restaurant("Börsegasse/Wipplingerstraße").
-restaurant("Paasdorf Bahnhof").
-restaurant("Diesterweggasse").
-restaurant("Prater, Hauptallee").
-restaurant("Neubaugasse").
-restaurant("Bernhardtstalgasse").
-restaurant("Florianigasse").
-restaurant("Zieglergasse").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Bahnhofstraße").
-restaurant("Mühlfeldgasse").
-restaurant("Polkorabplatz").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+initlocation(2,"Hildebrandgasse").
+initlocation(2,"Kranzgasse").
+initlocation(2,"Hütteldorf, Bujattigasse").
+initlocation(2,"Grillgasse").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Maria Ellend Bahnhof").
+sequence(2,0, "Gewerbepark Stadlau Mitte").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Rebhanngasse").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Thaliastraße").
+possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
+possiblemeetinglocations("Höchstädtplatz").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Oberzellergasse").
+restaurant("Kärntner Ring/Oper").
+restaurant("Otto-Probst-Straße").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Molitorgasse").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Himberg Bahnhof").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Siebensterngasse").
+restaurant("Laurenzgasse").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Brünner Straße/Hanreitergasse").

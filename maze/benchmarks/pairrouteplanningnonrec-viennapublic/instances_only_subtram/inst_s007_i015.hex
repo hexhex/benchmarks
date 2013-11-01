@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Grinzing").
-initlocation($p,"Wilhelminenstraße/Wattgasse").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Hauffgasse").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
+initlocation(1,"Strozzigasse").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Staglgasse").
+initlocation(1,"Simonygasse").
+initlocation(1,"Stadtpark").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Sarasdorf Bahnhof").
+sequence(1,0, "Strozzigasse").
 person(2).
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Leberberg").
-initlocation($p,"Rothneusiedl").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Sommarugagasse").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Stiftgasse").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Nußdorf, Beethovengang").
-restaurant("Frauengasse").
-restaurant("Weinhauser Gasse").
-restaurant("Donauzentrum").
-restaurant("Traismauer Bahnhof").
-restaurant("Enkplatz").
-restaurant("Stockholmer Platz").
-restaurant("Großfeldsiedlung").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Sahulkastraße").
+sequence(2,0, "Erzherzog-Karl-Straße").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Altes Landgut").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Rathausplatz/Burgtheater").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Aderklaaer Straße").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Kaiserstraße/Burggasse").
+restaurant("Wittelsbachstraße").
+restaurant("Schmerlingplatz").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Matzleinsdorfer Platz").
+restaurant("Währinger Straße-Volksoper").

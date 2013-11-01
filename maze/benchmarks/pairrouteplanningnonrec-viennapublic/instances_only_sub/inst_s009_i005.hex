@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Stadion").
-initlocation($p,"Donauspital").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Johnstraße").
-initlocation($p,"Kendlerstraße").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Karlsplatz").
+sequence(1,0, "Perchtoldsdorf Bahnhof").
 person(2).
-initlocation($p,"Zieglergasse").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Alterlaa").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Zieglergasse").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Perfektastraße").
-restaurant("Leopoldau").
-restaurant("Museumsquartier").
+initlocation(2,"Siemensstraße").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Krieau").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Hausfeldstraße").
+sequence(2,0, "Siemensstraße").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Nestroyplatz").
+possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Haidestraße").
+restaurant("Alte Donau").
+restaurant("Felixdorf Bahnhof").
+restaurant("Bahnhof Meidling").
+restaurant("Johnstraße").
+restaurant("Korneuburg Bahnhof").
 restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Sankt Marx").
-restaurant("Hetzendorf").
-restaurant("Bisamberg Bahnhof").
-restaurant("Traismauer Bahnhof").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Weidlingau Bahnhof").
+restaurant("Fischamend Bahnhof").

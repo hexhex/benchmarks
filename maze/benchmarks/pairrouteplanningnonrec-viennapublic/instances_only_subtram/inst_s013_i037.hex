@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Zieglergasse").
-initlocation($p,"Friedrich-Engels-Platz").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Donauspital").
-initlocation($p,"Julius-Raab-Platz").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Stadlau").
-initlocation($p,"Hernalser Gürtel").
-initlocation($p,"Neue Donau").
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Zieglergasse").
+initlocation(1,"Stubentor").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Fasangasse").
+initlocation(1,"Auerspergstraße").
+initlocation(1,"Alte Donau").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Columbusplatz").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Teichgasse").
+initlocation(1,"Seestadt").
+initlocation(1,"Radetzkyplatz").
+initlocation(1,"Schottentor").
+sequence(1,0, "Stubentor").
 person(2).
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Alte Donau").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Himmelmutterweg").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Schlickgasse").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Erdberg").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Rebhanngasse").
-initlocation($p,"Johann-Strauß-Gasse").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Hohe Warte").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Herbeckstraße").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Koppstraße/Panikengasse").
-possiblemeetinglocations("Schloss Schönbrunn").
-possiblemeetinglocations("Gredlerstraße").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Rodaun").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-restaurant("Tesarekplatz").
-restaurant("Seyring Bahnhof").
-restaurant("Münchendorf Bahnhof").
-restaurant("Zentralfriedhof").
-restaurant("Stiftgasse").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Rauscherstraße").
-restaurant("Schwechat Bahnhof").
-restaurant("Mayerhofgasse").
-restaurant("Seestadt").
-restaurant("Beingasse").
-restaurant("Guntramsdorf-Thallern").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Großfeldsiedlung").
+initlocation(2,"Halteraugasse").
+initlocation(2,"Landesgerichtsstraße").
+initlocation(2,"Taborstraße").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Siebenhirten").
+sequence(2,0, "Matzleinsdorfer Platz").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Otto-Probst-Platz").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Donauinsel").
+possiblemeetinglocations("Kranzgasse").
+possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
+possiblemeetinglocations("Valiergasse").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Jedlersdorf").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Hubertusdamm").
+restaurant("Schottenfeldgasse").
+restaurant("Großfeldsiedlung").
+restaurant("Viehofen Bahnhof").
+restaurant("Stubentor").
+restaurant("Quellenstraße/Knöllgasse").
+restaurant("Oberlaa, Therme Wien").
+restaurant("Hernalser Hauptstr/Wattgasse").
+restaurant("Diesterweggasse").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Seegasse").
+restaurant("Haidestraße").

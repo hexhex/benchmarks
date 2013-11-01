@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Shuttleworthstraße").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-initlocation($p,"Atzgersdorfer Straße").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Joachimsthalerplatz").
+initlocation(1,"Fickeysstraße").
+initlocation(1,"Lainz, Wolkersbergenstraße").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Unteres Belvedere").
+initlocation(1,"Grillgasse").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Ebreichsdorf Bahnhof").
+sequence(1,0, "Joachimsthalerplatz").
 person(2).
-initlocation($p,"Weißenböckstraße").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Alsegger Straße").
-initlocation($p,"An den langen Lüssen").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Seegasse").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Wienerfeldgasse").
-initlocation($p,"Weißenböckstraße").
-possiblemeetinglocations("Carminweg").
-possiblemeetinglocations("Höchstädtplatz").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
-possiblemeetinglocations("Leberberg").
-possiblemeetinglocations("Wildgansplatz").
-possiblemeetinglocations("Mayerhofgasse").
-possiblemeetinglocations("Simonygasse").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-restaurant("Augasse").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Marxergasse").
-restaurant("Gaisruck Bahnhof").
-restaurant("Koppstraße/Panikengasse").
-restaurant("Helmahof Bahnhof").
-restaurant("Zentralfriedhof 2Tor").
-restaurant("Döblinger Bad").
-restaurant("Alser Straße").
+initlocation(2,"Rauscherstraße").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Schottentor").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Donauzentrum").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Sahulkastraße").
+sequence(2,0, "Rauscherstraße").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Bahnhofstraße").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Großjedlersdorf").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+possiblemeetinglocations("Spitalgasse/Währinger Straße").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Stadlergasse").
+restaurant("Münchendorf Bahnhof").
+restaurant("Spittelau").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Sankt Marx").
+restaurant("Shuttleworthstraße").
+restaurant("Schwedenplatz").
+restaurant("Empergergasse").
+restaurant("Marienbrücke").
+restaurant("Arthaberplatz").

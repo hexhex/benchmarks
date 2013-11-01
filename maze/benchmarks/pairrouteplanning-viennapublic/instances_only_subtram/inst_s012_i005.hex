@@ -1,52 +1,52 @@
 person(1).
-initlocation($p,"Wienerfeldgasse").
-initlocation($p,"Krankenhaus Hietzing").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Karmeliterplatz").
-initlocation($p,"Arminenstraße").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Stollgasse").
-initlocation($p,"Am Spitz").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Dommayergasse").
-initlocation($p,"Wienerfeldgasse").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Lederergasse").
+initlocation(1,"Kettenbrückengasse").
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Polgarstraße").
+initlocation(1,"Siebenhirten (NÖ). Haltestelle").
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Otto-Probst-Straße").
+sequence(1,0, "Krankenhaus Hietzing").
 person(2).
-initlocation($p,"Alsegger Straße").
-initlocation($p,"Dornbach, Güpferlingstraße").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Burgring").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Knöllgasse/Troststraße").
-initlocation($p,"Van-Swieten-Kaserne").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Alsegger Straße").
-possiblemeetinglocations("Löwengasse").
-possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
-possiblemeetinglocations("Schleinbach Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Wildgansplatz").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Thaliastraße/Maroltingergasse").
+initlocation(2,"Staglgasse").
+initlocation(2,"Saikogasse").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Blumengasse").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Laudongasse").
+sequence(2,0, "Deutsch-Wagram Bahnhof").
 possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Franz-Asenbauer-Gasse").
-possiblemeetinglocations("Alfred-Adler-Straße").
-possiblemeetinglocations("Hauffgasse").
-possiblemeetinglocations("Quellenstraße/Favoritenstraße").
-possiblemeetinglocations("Braunschweiggasse").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-restaurant("Neulerchenfelder Str/Brunneng").
-restaurant("Geiselbergstraße").
-restaurant("Stubentor").
-restaurant("Parndorf Ort Bahnhof").
-restaurant("Stammersdorf").
-restaurant("Sarasdorf Bahnhof").
-restaurant("Kliebergasse").
-restaurant("Albertgasse").
-restaurant("Pötzleinsdorf").
-restaurant("Alaudagasse").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Rathaus").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Autokaderstraße").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Gellertplatz").
+restaurant("Schleiergasse").
+restaurant("Felixdorf Bahnhof").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Anton-Schall-Gasse").
+restaurant("Schwechat Bahnhof").
+restaurant("Huglgasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Laaer-Berg-Straße").
+restaurant("Obere Augartenstraße").
+restaurant("Oberlaa, Therme Wien").
+restaurant("Löwengasse").
+restaurant("Stefan-Fadinger-Platz").

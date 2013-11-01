@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Baden Bahnhof").
+sequence(1,0, "Hausleiten Bahnhof").
 person(2).
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Donauspital").
-initlocation($p,"Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-restaurant("Aspern Nord").
-restaurant("Schottentor").
-restaurant("Rathaus").
-restaurant("Kritzendorf Bahnhof").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+sequence(2,0, "Oberdöbling").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Bahnhof Meidling").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Lobau").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Klosterneuburg-Kierling Bf").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Hildebrandgasse").
-initlocation($p,"Stammersdorf").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Sensengasse").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Bösendorferstraße").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Urban-Loritz-Platz").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+initlocation(1,"Hohe Warte").
+sequence(1,0, "Ober Sankt Veit").
 person(2).
-initlocation($p,"Althanstraße").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Diesterweggasse").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Otto-Probst-Platz").
-initlocation($p,"Althanstraße").
-possiblemeetinglocations("Am Spitz").
-possiblemeetinglocations("Bernhardtstalgasse").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Laudongasse").
-possiblemeetinglocations("Friedensbrücke").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Wienerfeldgasse").
-restaurant("Neulengbach Stadt Bahnhof").
-restaurant("Blindengasse").
-restaurant("Gellertplatz").
-restaurant("Mistelbach Bahnhof").
-restaurant("Geiselbergstraße").
-restaurant("Stockholmer Platz").
-restaurant("Schmerlingplatz").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Ulrichskirchen Bahnhof").
+initlocation(2,"Windtenstraße").
+initlocation(2,"Edmund-Hawranek-Platz").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Friedrich-Engels-Platz").
+initlocation(2,"Gewerbepark Stadlau Mitte").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+sequence(2,0, "Rathausplatz/Burgtheater").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Hermesstraße").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Zentralfriedhof 2Tor").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Lobau").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Franzensbrücke").
+restaurant("Leopoldau").
+restaurant("Guneschgasse").
+restaurant("Rauscherstraße").
+restaurant("Zellerndorf Bahnhof").
+restaurant("Hainburg/Donau Personenbhf").
+restaurant("Florianigasse").

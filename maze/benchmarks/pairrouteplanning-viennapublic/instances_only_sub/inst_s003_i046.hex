@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Praterkai").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Praterkai").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Margaretengürtel").
+sequence(1,0, "Hausleiten Bahnhof").
 person(2).
-initlocation($p,"Herrengasse").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Herrengasse").
-possiblemeetinglocations("Pressbaum Bahnhof").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Blumental").
-restaurant("Geiselbergstraße").
-restaurant("Praterkai").
-restaurant("Rennbahnweg").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Matzleinsdorfer Platz").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+sequence(2,0, "Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Alser Straße").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Gumpendorfer Straße").
+restaurant("Langenlebarn Bahnhof").

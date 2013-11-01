@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Handelskai").
-initlocation($p,"Himberg Bahnhof").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Simmering").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Kottingneusiedl Bahnhof").
+sequence(1,0, "Großfeldsiedlung").
 person(2).
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Handelskai").
-initlocation($p,"Donauinsel").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Dürrwien Bahnhof").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Neue Donau").
-restaurant("Hirschstetten").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Seestadt").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Paasdorf Bahnhof").
+initlocation(2,"Regelsbrunn Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+sequence(2,0, "Trasdorf Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Praterkai").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Grillgasse").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Ladendorf Bahnhof").
+restaurant("Baden Bahnhof").

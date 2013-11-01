@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Stubentor").
-initlocation($p,"Leyserstraße").
-initlocation($p,"Stubentor").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Kettenbrückengasse").
+sequence(1,0, "Gänserndorf Bahnhof").
 person(2).
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Quellenstraße/Favoritenstraße").
-initlocation($p,"Unterradlberg Bahnhof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-restaurant("Stadlergasse").
-restaurant("Praterstern").
+initlocation(2,"Liebknechtgasse").
+initlocation(2,"Stiftgasse").
+sequence(2,0, "Liebknechtgasse").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
+restaurant("Kagraner Brücke").
+restaurant("Tullnerfeld Bahnhof").

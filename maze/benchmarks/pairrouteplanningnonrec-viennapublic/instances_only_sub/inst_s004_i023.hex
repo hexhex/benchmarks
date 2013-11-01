@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Alte Donau").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+sequence(1,0, "Weidlingau Bahnhof").
 person(2).
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Grillgasse").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Großfeldsiedlung").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Siebenhirten").
-restaurant("Zippererstraße").
-restaurant("Simmering").
+initlocation(2,"Trasdorf Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Volkstheater").
+sequence(2,0, "Trasdorf Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Ebreichsdorf Bahnhof").

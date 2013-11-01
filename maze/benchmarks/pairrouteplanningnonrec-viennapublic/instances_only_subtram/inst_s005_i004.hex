@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Neulerchenfelder Str/Brunneng").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Quellenstraße/Knöllgasse").
-initlocation($p,"Joachimsthalerplatz").
-initlocation($p,"Mariahilfer Gürtel").
+initlocation(1,"Schottentor").
+initlocation(1,"Martinstraße").
+initlocation(1,"Langobardenstraße").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Praterstern").
+sequence(1,0, "Schottentor").
 person(2).
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Bahnhofstraße").
-initlocation($p,"Obere Augartenstraße").
-initlocation($p,"Am Heumarkt").
-possiblemeetinglocations("Laaer-Berg-Straße").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Rauscherstraße").
+initlocation(2,"Gußhausstraße").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Volkstheater").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Linzer Straße/Hochsatzengasse").
+sequence(2,0, "Gußhausstraße").
+possiblemeetinglocations("Hausfeldstraße").
 possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Gaisruck Bahnhof").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Wexstraße").
-restaurant("Wienerfeldgasse").
-restaurant("Hubertusdamm").
-restaurant("Radetzkyplatz").
+possiblemeetinglocations("Oberlaa, Therme Wien").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Leyserstraße").
+restaurant("Nußdorfer Str/Alserbachstraße").
+restaurant("Guntherstraße").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Koloniestraße").

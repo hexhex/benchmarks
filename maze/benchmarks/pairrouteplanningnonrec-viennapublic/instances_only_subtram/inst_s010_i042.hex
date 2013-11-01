@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Empergergasse").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Erndtgasse").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Aspern, Oberdorfstraße").
-initlocation($p,"Süßenbrunn").
+initlocation(1,"Hubertusdamm").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Koppstraße/Panikengasse").
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Alsegger Straße").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Langenzersdorf Bahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+sequence(1,0, "Hubertusdamm").
 person(2).
-initlocation($p,"Innstraße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Palffygasse").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Grinzinger Straße").
-initlocation($p,"Wilhelminenstraße/Wattgasse").
-initlocation($p,"Gerstnerstraße/Westbhf").
-initlocation($p,"Nordbrücke").
-initlocation($p,"Simonygasse").
-initlocation($p,"Innstraße").
-possiblemeetinglocations("Rochusgasse").
-possiblemeetinglocations("Otto-Probst-Platz").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Mayerhofgasse").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Rebhanngasse").
-possiblemeetinglocations("Riedelgasse").
-possiblemeetinglocations("Unteres Belvedere").
-restaurant("Sechskrügelgasse").
-restaurant("Rennweg").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Gußhausstraße").
+initlocation(2,"Polgarstraße").
+initlocation(2,"Stammersdorf").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Zentralfriedhof 1Tor").
+initlocation(2,"Rennweg").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+sequence(2,0, "Polgarstraße").
+possiblemeetinglocations("Süßenbrunner Str/Oberfeldgasse").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+possiblemeetinglocations("Burgring").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Stadiongasse/Parlament").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Ottakring").
+restaurant("Herrengasse").
 restaurant("Kapellerfeld Bahnhof").
-restaurant("Gloriettegasse").
-restaurant("Vorgartenstraße").
-restaurant("Kaiserstraße/Burggasse").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Otto-Probst-Straße").
+restaurant("Lainz, Wolkersbergenstraße").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Zieglergasse").
+restaurant("Gänserndorf Bahnhof").
+restaurant("Schloss Belvedere").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Taubstummengasse").

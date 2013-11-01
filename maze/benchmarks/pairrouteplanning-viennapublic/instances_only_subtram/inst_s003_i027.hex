@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Floridsdorfer Brücke").
-initlocation($p,"Donauzentrum").
-initlocation($p,"Regelsbrunn Bahnhof").
+initlocation(1,"Grinzing").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Seestadt").
+sequence(1,0, "Grinzing").
 person(2).
-initlocation($p,"Donauzentrum").
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Molitorgasse").
-initlocation($p,"Donauzentrum").
-possiblemeetinglocations("Rußbergstraße").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Roßauer Lände").
-restaurant("Keplerplatz").
-restaurant("Hernals").
-restaurant("Heiligenstadt").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Hoßplatz").
+initlocation(2,"Neulerchenfelder Str/Brunneng").
+sequence(2,0, "Sierndorf Bahnhof").
+possiblemeetinglocations("Preyergasse/Speising").
+possiblemeetinglocations("Rodaun").
+possiblemeetinglocations("Traisengasse").
+restaurant("Stockerau Bahnhof").
+restaurant("Dornbach, Güpferlingstraße").
+restaurant("Krottenbachstraße").

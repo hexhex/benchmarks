@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Taborstraße").
-initlocation($p,"Stadlau").
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Wolf in der Au").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Kledering Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Grillgasse").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+sequence(1,0, "Stephansplatz").
 person(2).
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Mistelbach Stadt").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Wr Neustadt Nord").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Simmering").
-possiblemeetinglocations("Krieau").
-possiblemeetinglocations("Taborstraße").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Donauinsel").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Neue Donau").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Alterlaa").
+initlocation(2,"Unter Kritzendorf Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Praterstern").
+sequence(2,0, "Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
 possiblemeetinglocations("Hausfeldstraße").
-restaurant("Achau Bahnhof").
-restaurant("Gemeinlebarn Bahnhof").
-restaurant("Praterkai").
-restaurant("Silberwald Bahnhof").
-restaurant("Stadion").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Pilgramgasse").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Strasshof Bahnhof").
-restaurant("Karlsplatz").
-restaurant("Neue Donau").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Längenfeldgasse").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Erzherzog-Karl-Straße").
+possiblemeetinglocations("Hernals").
+restaurant("Kledering Bahnhof").
+restaurant("Gersthof").
+restaurant("Nußdorf").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Liesing").
+restaurant("Platt Bahnhof").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Alser Straße").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Keplerplatz").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Retz Bahnhof").

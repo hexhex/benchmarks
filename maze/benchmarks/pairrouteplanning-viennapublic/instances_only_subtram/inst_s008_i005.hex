@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Liesing").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"Dornbacher Straße").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Valiergasse").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Hintere Zollamtsstraße").
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Liesing").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Alsegger Straße").
+initlocation(1,"Stadlergasse").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Halteraugasse").
+sequence(1,0, "Redtenbachergasse").
 person(2).
-initlocation($p,"Spittelau").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Laudongasse").
-initlocation($p,"Spittelau").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Satzberggasse").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Schöffelgasse").
-possiblemeetinglocations("Brigittaplatz").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Blechturmgasse").
-restaurant("Empergergasse").
-restaurant("Westbahnhof").
-restaurant("Bahnsteggasse").
-restaurant("Fultonstraße").
-restaurant("Langobardenstraße").
-restaurant("Carabelligasse").
-restaurant("Arminenstraße").
-restaurant("Urban-Loritz-Platz").
+initlocation(2,"Lange Gasse").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Blumental").
+initlocation(2,"Zentralfriedhof 4Tor").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Lobau").
+initlocation(2,"Liesing").
+sequence(2,0, "Lange Gasse").
+possiblemeetinglocations("Columbusplatz").
+possiblemeetinglocations("Roßauer Lände").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Stockholmer Platz").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+restaurant("Baden Bahnhof").
+restaurant("Stubentor").
+restaurant("Nordbrücke").
+restaurant("Kaiserstraße/Neustiftgasse").
+restaurant("Silbergasse").
+restaurant("Oberzellergasse").
+restaurant("Nordwestbahnstraße").
+restaurant("Laaer-Berg-Straße").

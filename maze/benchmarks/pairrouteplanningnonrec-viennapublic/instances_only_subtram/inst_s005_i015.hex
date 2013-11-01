@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Albertgasse").
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Knöllgasse/Davidgasse").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Floridsdorfer Brücke").
-initlocation($p,"Albertgasse").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Hernalser Gürtel").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Zentralfriedhof 1Tor").
+sequence(1,0, "Mühlfeldgasse").
 person(2).
-initlocation($p,"Zieglergasse").
-initlocation($p,"Stubentor").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Edmund-Hawranek-Platz").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Zieglergasse").
-possiblemeetinglocations("Marxergasse").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Sechskrügelgasse").
-possiblemeetinglocations("Simonygasse").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Favoritenstraße/Troststraße").
-restaurant("Mistelbach Bahnhof").
-restaurant("Stadlau").
-restaurant("Dommayergasse").
+initlocation(2,"Thaliastraße/Haberlgasse").
+initlocation(2,"Landstraße-Wien Mitte").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Wallrißstraße").
+sequence(2,0, "Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Floridsdorfer Brücke").
+possiblemeetinglocations("Laurentiusplatz").
+possiblemeetinglocations("Anton-Schall-Gasse").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("Siebenhirten (NÖ). Haltestelle").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Penzinger Straße").
+restaurant("Ottakringer Straße/Wattgasse").

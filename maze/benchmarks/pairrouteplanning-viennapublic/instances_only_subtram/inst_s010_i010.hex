@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Ungargasse/Neulinggasse").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Weinheimergasse").
-initlocation($p,"Diesterweggasse").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Floridsdorfer Markt").
+initlocation(1,"Zippererstraße").
+initlocation(1,"Shuttleworthstraße").
+initlocation(1,"Hernals").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Taborstraße/Heinestraße").
+initlocation(1,"Nordwestbahnstraße").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Hernalser Gürtel").
+initlocation(1,"Neulerchenfelder Str/Haberlg").
+initlocation(1,"Klosterneuburg-Kierling Bf").
+sequence(1,0, "Zippererstraße").
 person(2).
-initlocation($p,"Baumgarten").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Rampengasse").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Hintere Zollamtsstraße").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Joachimsthalerplatz").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Zentralfriedhof 3Tor").
-initlocation($p,"Baumgarten").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Autokaderstraße").
-possiblemeetinglocations("Viehmarktgasse").
-possiblemeetinglocations("Gerhardusgasse").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Thaliastraße/Haberlgasse").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-restaurant("Karlsplatz").
-restaurant("Aspernstraße").
-restaurant("Seegasse").
-restaurant("Obersdorf Bahnhof").
-restaurant("Thaliastraße/Brunnengasse").
-restaurant("Gaußplatz").
-restaurant("Hildebrandgasse").
-restaurant("Rustengasse").
-restaurant("Neuwaldegg").
-restaurant("Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Rustengasse").
+initlocation(2,"Mariahilfer Gürtel").
+initlocation(2,"Oberfeldgasse/Spargelfeldstr").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Stadlergasse").
+initlocation(2,"Zentralfriedhof 4Tor").
+initlocation(2,"Anton-Krieger-Gasse").
+initlocation(2,"Hopfengasse").
+sequence(2,0, "Neubaugasse").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Diesterweggasse").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Stiftgasse").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Joachimsthalerplatz").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+restaurant("Paradisgasse").
+restaurant("Marienbrücke").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Anton-Schall-Gasse").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Redtenbachergasse").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Eichenstraße").
+restaurant("Liebknechtgasse").
+restaurant("Laudongasse").

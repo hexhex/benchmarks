@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Stephansplatz").
-initlocation($p,"Grillgasse").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Stephansplatz").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+sequence(1,0, "Muckendorf-Wipfing Bahnhof").
 person(2).
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Pressbaum Bahnhof").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Praterkai").
-possiblemeetinglocations("Gasometer").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Preyergasse/Speising").
-restaurant("Gaisruck Bahnhof").
+initlocation(2,"Haidestraße").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+sequence(2,0, "Haidestraße").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Hausfeldstraße").

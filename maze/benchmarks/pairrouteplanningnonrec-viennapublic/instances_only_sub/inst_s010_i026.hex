@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Quartier Belvedere").
+initlocation(1,"Michelbeuern-AKH").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Jägerstraße").
+sequence(1,0, "Michelbeuern-AKH").
 person(2).
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Alte Donau").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Spittelau").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Atzgersdorf").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Traismauer Bahnhof").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Kettenbrückengasse").
-possiblemeetinglocations("Schwechat Bahnhof").
-possiblemeetinglocations("Langenzersdorf Bahnhof").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Simmering").
-restaurant("Simmering").
-restaurant("Alser Straße").
-restaurant("Felixdorf Bahnhof").
-restaurant("Hernals").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Blumental").
+initlocation(2,"Enzersdorf bei Staatz Bahnhof").
+initlocation(2,"Schottentor").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Seestadt").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Kritzendorf Bahnhof").
+sequence(2,0, "Schweglerstraße").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Jägerstraße").
+restaurant("Frättingsdorf Bahnhof").
 restaurant("Schottentor").
-restaurant("Silberwald Bahnhof").
-restaurant("Erdberg").
-restaurant("Mödling Bahnhof").
-restaurant("Obereggendorf Bahnhof").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Oberradlberg Bahnhof").
 restaurant("Ottakring").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Neubaugasse").
+restaurant("Maria Anzbach Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Tscherttegasse").

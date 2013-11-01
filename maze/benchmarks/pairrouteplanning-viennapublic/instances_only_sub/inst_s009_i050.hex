@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Mistelbach Bahnhof").
+sequence(1,0, "Zieglergasse").
 person(2).
-initlocation($p,"Sankt Marx").
-initlocation($p,"Penzing").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Sankt Marx").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Schwedenplatz").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Michelhausen Bahnhof").
-restaurant("Himberg Bahnhof").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Krottenbachstraße").
-restaurant("Tscherttegasse").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Weigelsdorf Bahnhof").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Johnstraße").
+sequence(2,0, "Hörersdorf Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+restaurant("Handelskai").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Paasdorf Bahnhof").
+restaurant("Siemensstraße").
+restaurant("Greifenstein-Altenberg Bahnhof").
 restaurant("Am Schöpfwerk").
-restaurant("Bisamberg Bahnhof").
-restaurant("Kaisermühlen-VIC").
+restaurant("Platt Bahnhof").
 restaurant("Hainburg/Donau Personenbhf").
-restaurant("Siebenhirten").
+restaurant("Gemeinlebarn Bahnhof").

@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Blindengasse").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Sonnergasse").
-initlocation($p,"Schloss Schönbrunn").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Absberggasse").
-initlocation($p,"Alte Donau").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Blindengasse").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Fultonstraße").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Nordwestbahnstraße").
+initlocation(1,"Frättingsdorf Bahnhof").
+initlocation(1,"Polgarstraße").
+initlocation(1,"Fasangasse").
+sequence(1,0, "Reinlgasse/Märzstraße").
 person(2).
-initlocation($p,"Blumental").
-initlocation($p,"Aßmayergasse").
-initlocation($p,"Arminenstraße").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Versorgungsheimplatz").
-initlocation($p,"Blumental").
-possiblemeetinglocations("Nestroyplatz").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-restaurant("Hardtgasse").
-restaurant("Versorgungsheimplatz").
-restaurant("Taborstraße/Heinestraße").
-restaurant("Diesterweggasse").
-restaurant("Wienerfeldgasse").
-restaurant("Grillgasse").
-restaurant("Plößlgasse").
-restaurant("Oberzellergasse").
-restaurant("Gasometer").
+initlocation(2,"Breitenfurter St/Altmannsd Str").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Kraygasse").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Wienerfeldgasse").
+initlocation(2,"Hofwiesengasse").
+initlocation(2,"Dornbach, Güpferlingstraße").
+sequence(2,0, "Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Schwarzenbergplatz").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Augasse").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Jagdschloßgasse").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Oberfeldgasse/Spargelfeldstr").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Zieglergasse").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Franzensbrücke").
+restaurant("Canisiusgasse").
+restaurant("Favoritenstraße/Troststraße").
+restaurant("Stadlergasse").

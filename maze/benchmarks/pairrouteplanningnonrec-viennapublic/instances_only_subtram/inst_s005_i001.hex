@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Kleistgasse").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Frödenplatz").
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Hohe Warte").
-initlocation($p,"Kleistgasse").
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Scheibenbergstraße").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Hausleiten Bahnhof").
+sequence(1,0, "Knöllgasse/Troststraße").
 person(2).
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Nordbrücke").
-initlocation($p,"Gruschaplatz").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Kagran").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Sechskrügelgasse").
-possiblemeetinglocations("Viehmarktgasse").
-possiblemeetinglocations("Schwarzspanierstraße").
-possiblemeetinglocations("Oberzellergasse").
-possiblemeetinglocations("Niederhofstraße").
-restaurant("Weigelsdorf Bahnhof").
+initlocation(2,"Rustengasse").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Weißenböckstraße").
+initlocation(2,"Franz-Asenbauer-Gasse").
+initlocation(2,"Paasdorf Bahnhof").
+sequence(2,0, "Rustengasse").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Antonigasse").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Sillerplatz").
+restaurant("Kutschkergasse").
+restaurant("Breitensee").
 restaurant("Göllersdorf Bahnhof").
-restaurant("Gunoldstraße").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Bahnhofstraße").
+restaurant("Gußhausstraße").
+restaurant("Ladendorf Bahnhof").

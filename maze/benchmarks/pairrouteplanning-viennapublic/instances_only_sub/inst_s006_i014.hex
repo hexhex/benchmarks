@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Alterlaa").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Penzing").
-initlocation($p,"Schottentor").
-initlocation($p,"Alterlaa").
+initlocation(1,"Klosterneuburg-Weidling Bf").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Perchtoldsdorf Bahnhof").
+sequence(1,0, "Klosterneuburg-Weidling Bf").
 person(2).
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Wildungsmauer Bahnhof").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-restaurant("Sankt Marx").
-restaurant("Schottentor").
-restaurant("Zieglergasse").
-restaurant("Erdberg").
-restaurant("Aderklaaer Straße").
-restaurant("Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Stadion").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+sequence(2,0, "Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Michelbeuern-AKH").
+restaurant("Floridsdorf").
+restaurant("Braunschweiggasse").
+restaurant("Wr Neustadt Hauptbahnhof").
+restaurant("Michelhausen Bahnhof").

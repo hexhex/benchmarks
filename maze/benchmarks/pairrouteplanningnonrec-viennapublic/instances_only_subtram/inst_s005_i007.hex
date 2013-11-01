@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Fultonstraße").
-initlocation($p,"Bahnsteggasse").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Sieveringer Straße").
-initlocation($p,"Leyserstraße").
-initlocation($p,"Fultonstraße").
+initlocation(1,"Oberzellergasse").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Verbindungsbahn").
+sequence(1,0, "Oberzellergasse").
 person(2).
-initlocation($p,"Koloniestraße").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Eichenstraße").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Koloniestraße").
-possiblemeetinglocations("Arthaberplatz").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Camillo-Sitte-Gasse").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-restaurant("Margaretengürtel/Arbeitergasse").
-restaurant("Rathausplatz/Burgtheater").
-restaurant("Blumengasse").
-restaurant("Siebenhirten").
-restaurant("Höbersdorf Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Zentralfriedhof 1Tor").
+initlocation(2,"Absdorf-Hippersdorf Bahnhof").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Grinzing").
+sequence(2,0, "Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Simonygasse").
+possiblemeetinglocations("Mühlfeldgasse").
+possiblemeetinglocations("Staglgasse").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Mannswörth Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Vorgartenstraße").
+restaurant("Neuwaldegg").

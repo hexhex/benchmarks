@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Gruschaplatz").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(1,"Leyserstraße").
+initlocation(1,"Weißenböckstraße").
+initlocation(1,"Alser Straße").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Floridsdorfer Markt").
+sequence(1,0, "Leyserstraße").
 person(2).
-initlocation($p,"Donauzentrum").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Lederergasse").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Donauzentrum").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Langobardenstraße").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Eckpergasse").
-possiblemeetinglocations("Schottentor").
-restaurant("Krankenhaus Hietzing").
-restaurant("Gußhausstraße").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Gloriettegasse").
-restaurant("Mannswörth Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Gerhardusgasse").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Schloss Schönbrunn").
+sequence(2,0, "Guntersdorf Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Am Heidjöchl").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Mayssengasse").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Karmeliterplatz").
+restaurant("Litfaßstraße").
+restaurant("Braunhubergasse").
+restaurant("Paulanergasse").
+restaurant("Weinhauser Gasse").

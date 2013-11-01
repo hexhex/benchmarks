@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Deutsch-Wagram Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+sequence(1,0, "Schottenring").
 person(2).
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Gersthof").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Bad Vöslau Bahnhof").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Zippererstraße").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Seestadt").
-restaurant("Bahnhof Meidling").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Krieau").
-restaurant("Unter Kritzendorf Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(2,"Theresienfeld Bahnhof").
+initlocation(2,"Stubentor").
+sequence(2,0, "Schwechat Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Nestroyplatz").
+restaurant("Stubentor").
+restaurant("Stockerau Bahnhof").
+restaurant("Herzogenburg Bahnhof").
+restaurant("Untertullnerbach Bahnhof").

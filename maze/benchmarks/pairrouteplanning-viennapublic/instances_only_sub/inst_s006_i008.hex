@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Zieglergasse").
-initlocation($p,"Blumental").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Zieglergasse").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Leopoldau").
+initlocation(1,"Krieau").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+sequence(1,0, "Höbersdorf Bahnhof").
 person(2).
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Simmering").
-possiblemeetinglocations("Meidling Hauptstraße").
-possiblemeetinglocations("Handelskai").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Wampersdorf Bahnhof").
+sequence(2,0, "Frättingsdorf Bahnhof").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Unteroberndorf Bahnhof").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Landstraße-Wien Mitte").
+restaurant("Kaiserebersdorf").
+restaurant("Hadersdorf Bahnhof").
 restaurant("Zellerndorf Bahnhof").
-restaurant("Rathaus").
-restaurant("Brunn-Maria Enzersdorf Bahnhof").
-restaurant("Schönborn Bahnhof").
-restaurant("Kritzendorf Bahnhof").
-restaurant("Stadion").
+restaurant("Münchendorf Bahnhof").
+restaurant("Höflein an der Donau Bahnhof").
+restaurant("Gemeinlebarn Bahnhof").

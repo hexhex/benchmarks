@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
+initlocation(1,"Gemeinlebarn Bahnhof").
+initlocation(1,"Mistelbach Stadt").
+sequence(1,0, "Gemeinlebarn Bahnhof").
 person(2).
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Grillgasse").
-initlocation($p,"Gaisruck Bahnhof").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Mannswörth Bahnhof").
+sequence(2,0, "Tscherttegasse").
 possiblemeetinglocations("Ottakring").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-restaurant("Erdberg").
-restaurant("Rochusgasse").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Baden Bahnhof").
+restaurant("Münchendorf Bahnhof").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Penzinger Straße").
-initlocation($p,"Gutraterplatz").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Pantucekgasse/Widholzgasse").
-initlocation($p,"Gunoldstraße").
-initlocation($p,"Linzer Straße/Reinlgasse").
+initlocation(1,"Hernals").
+initlocation(1,"Längenfeldgasse/Flurschützstr").
+initlocation(1,"Perntergasse").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Per-Albin-Hansson-Siedlung Ost").
+sequence(1,0, "Hernals").
 person(2).
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Staglgasse").
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Kaiserstraße").
-possiblemeetinglocations("St Pölten Hauptbahnhof").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Himmelmutterweg").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-possiblemeetinglocations("Jägerstraße").
-restaurant("Fickeysstraße").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Lainz, Wolkersbergenstraße").
-restaurant("Palffygasse").
-restaurant("Quartier Belvedere").
-restaurant("Redtenbachergasse").
+initlocation(2,"Hetzendorf").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Längenfeldgasse/Flurschützstr").
+initlocation(2,"Zentralfriedhof 3Tor").
+sequence(2,0, "Hetzendorf").
+possiblemeetinglocations("Mühlfeldgasse").
+possiblemeetinglocations("Landesgerichtsstraße").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Alsegger Straße").
+possiblemeetinglocations("Löwengasse").
+possiblemeetinglocations("Michelbeuern-AKH").
+restaurant("Silberwald Bahnhof").
+restaurant("Brunn-Maria Enzersdorf Bahnhof").
+restaurant("Fultonstraße").
+restaurant("Donauzentrum").
+restaurant("Leyserstraße").
+restaurant("Guneschgasse").

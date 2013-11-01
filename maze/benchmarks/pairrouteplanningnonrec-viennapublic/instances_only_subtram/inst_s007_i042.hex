@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Am Heidjöchl/Hausfeldstraße").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Gredlerstraße").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Guntherstraße").
+initlocation(1,"Arthaberplatz").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+sequence(1,0, "Bisamberg Bahnhof").
 person(2).
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Alser Straße").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Brünnlbadgasse").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Schottenring").
-initlocation($p,"Sahulkastraße").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Niederkreuzstetten Bahnhof").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Schwarzspanierstraße").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Stollgasse").
-possiblemeetinglocations("Helmahof Bahnhof").
-restaurant("Westbahnhof").
-restaurant("Kapellerfeld Bahnhof").
-restaurant("Neue Donau").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Grinzing").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Geiselbergstraße").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Erndtgasse").
+initlocation(2,"Thaliastraße").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Weidlingau Bahnhof").
+sequence(2,0, "Kaiserebersdorf").
+possiblemeetinglocations("Zentralfriedhof 1Tor").
+possiblemeetinglocations("Carabelligasse").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Hauffgasse").
+possiblemeetinglocations("Schönborn Bahnhof").
+possiblemeetinglocations("Empergergasse").
+restaurant("Silberwald Bahnhof").
+restaurant("Trondheimgasse").
+restaurant("Quellenplatz").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Simmering").
+restaurant("Oberfeldgasse/Spargelfeldstr").
+restaurant("Liebknechtgasse").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Museumsquartier").
-initlocation($p,"Paulanergasse").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Museumsquartier").
+initlocation(1,"Helmahof Bahnhof").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Forstnergasse").
+sequence(1,0, "Helmahof Bahnhof").
 person(2).
-initlocation($p,"Thaliastraße/Brunnengasse").
-initlocation($p,"Ottakring").
-initlocation($p,"Sonnergasse").
-initlocation($p,"Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Migerkastraße").
-possiblemeetinglocations("Perfektastraße").
-possiblemeetinglocations("Sechskrügelgasse").
-restaurant("Sollenau Bahnhof").
-restaurant("Zentralfriedhof").
-restaurant("Landesgerichtsstraße").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Joachimsthalerplatz").
+initlocation(2,"Sonnergasse").
+sequence(2,0, "Stockerau Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Tscherttegasse").
+restaurant("Alser Straße").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Lobau").

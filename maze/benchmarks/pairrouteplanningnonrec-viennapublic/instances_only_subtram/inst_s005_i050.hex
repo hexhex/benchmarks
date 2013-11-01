@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Laudongasse").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Altes Landgut").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Laudongasse").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Knöllgasse/Troststraße").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Rampengasse").
+initlocation(1,"Diesterweggasse").
+sequence(1,0, "Franz-Asenbauer-Gasse").
 person(2).
-initlocation($p,"Gersthof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Nordwestbahnstraße").
-initlocation($p,"Hernalser Gürtel").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Gersthof").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Guntherstraße").
-possiblemeetinglocations("Laxenburger Straße/Troststraße").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Neulengbach Bahnhof").
-restaurant("Diesterweggasse").
-restaurant("Riedelgasse").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Johnstraße").
-restaurant("Stockerau Bahnhof").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Höchstädtplatz").
+initlocation(2,"Börsegasse/Wipplingerstraße").
+initlocation(2,"Am Schöpfwerk").
+sequence(2,0, "Schloss Belvedere").
+possiblemeetinglocations("Johnstraße").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Floridsdorfer Markt").
+possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+restaurant("Neulengbach Stadt Bahnhof").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Lederergasse").
+restaurant("Wienerfeldgasse").

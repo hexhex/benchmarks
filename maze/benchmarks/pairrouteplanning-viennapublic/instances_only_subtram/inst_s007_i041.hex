@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Troststraße/Neilreichgasse").
-initlocation($p,"Rustengasse").
-initlocation($p,"Lerchenfelder Straße").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Alaudagasse").
-initlocation($p,"Troststraße/Neilreichgasse").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Hetzgasse").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Landstraße-Wien Mitte").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Kagraner Platz").
+initlocation(1,"Wallrißstraße").
+sequence(1,0, "Preyergasse/Speising").
 person(2).
-initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Gottschalkgasse/Enkplatz").
-initlocation($p,"An den langen Lüssen").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Prinzgasse").
-initlocation($p,"Schottenfeldgasse").
-initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Mühlfeldgasse").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Gellertplatz").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Linzer Straße/Reinlgasse").
-possiblemeetinglocations("Siebensterngasse").
-restaurant("Mayssengasse").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Karlsplatz").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Hofwiesengasse").
-restaurant("Viehmarktgasse").
-restaurant("Roßauer Lände").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Mayssengasse").
+initlocation(2,"Rosenhügelstraße").
+initlocation(2,"Blindengasse").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Liebknechtgasse").
+initlocation(2,"Windtenstraße").
+sequence(2,0, "Achau Bahnhof").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Nordbrücke").
+possiblemeetinglocations("Kleistgasse").
+possiblemeetinglocations("Neilreichgasse").
+possiblemeetinglocations("Spittelau").
+restaurant("Liesing").
+restaurant("Blechturmgasse").
+restaurant("Palffygasse").
+restaurant("Sickenberggasse").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Neuwaldegg").
+restaurant("Matthäus-Jiszda-Straße").

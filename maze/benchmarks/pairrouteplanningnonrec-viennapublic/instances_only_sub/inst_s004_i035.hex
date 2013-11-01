@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Strebersdorf").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Strebersdorf").
+initlocation(1,"Liesing").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Meidling Hauptstraße").
+initlocation(1,"Thaliastraße").
+sequence(1,0, "Liesing").
 person(2).
-initlocation($p,"Schottentor").
-initlocation($p,"Donaumarina").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Schottentor").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Margaretengürtel").
-restaurant("Wolf in der Au").
-restaurant("Seestadt").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Pilgramgasse").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Langenlebarn Bahnhof").
+sequence(2,0, "Ladendorf Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+restaurant("Kledering Bahnhof").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Wilfleinsdorf Bahnhof").

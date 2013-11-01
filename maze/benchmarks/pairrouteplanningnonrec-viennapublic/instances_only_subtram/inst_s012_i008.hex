@@ -1,52 +1,52 @@
 person(1).
-initlocation($p,"Plößlgasse").
-initlocation($p,"Halteraugasse").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Empergergasse").
-initlocation($p,"Leyserstraße").
-initlocation($p,"Breitensee").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Schwarzspanierstraße").
-initlocation($p,"Kutschkergasse").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Forstnergasse").
-initlocation($p,"Plößlgasse").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Breitenfurter Str/Liesingbr").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Erdberg").
+initlocation(1,"Gersthofer Str/Scheibenbergstr").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Seegasse").
+initlocation(1,"Pfaffstätten Bahnhof").
+sequence(1,0, "Gänserndorf Bahnhof").
 person(2).
-initlocation($p,"Döblinger Bad").
-initlocation($p,"Quellenstraße/Knöllgasse").
-initlocation($p,"Skodagasse").
-initlocation($p,"Schleiergasse").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Guneschgasse").
-initlocation($p,"Johannes-Krawarik-Gasse").
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Valiergasse").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Rampengasse").
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Döblinger Bad").
-possiblemeetinglocations("Rosenhügelstraße").
-possiblemeetinglocations("Sankt Marx").
-possiblemeetinglocations("Innstraße").
-possiblemeetinglocations("Marx-Meidlinger-Straße").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Anton-Krieger-Gasse").
-possiblemeetinglocations("Rankgasse").
-possiblemeetinglocations("Hopfengasse").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Geiereckstraße").
-restaurant("Großfeldsiedlung").
-restaurant("Mariahilfer Gürtel").
-restaurant("Liebknechtgasse").
-restaurant("Pilgramgasse").
-restaurant("Handelskai").
-restaurant("Unterradlberg Bahnhof").
-restaurant("Leberberg").
-restaurant("Tesarekplatz").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Saikogasse").
-restaurant("Krottenbachstraße").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Knöllgasse/Davidgasse").
+initlocation(2,"Stefan-Fadinger-Platz").
+initlocation(2,"Svetelskystraße").
+initlocation(2,"Strozzigasse").
+initlocation(2,"Penzing").
+initlocation(2,"Blumental").
+initlocation(2,"Unteres Belvedere").
+initlocation(2,"Hopfengasse").
+initlocation(2,"Hernalser Hauptstr/Wattgasse").
+initlocation(2,"Aspern, Oberdorfstraße").
+sequence(2,0, "Stockerau Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Althanstraße").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Wilhelminenstraße/Wattgasse").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Anschützgasse").
+restaurant("Stammersdorf").
+restaurant("Schlachthausgasse").
+restaurant("Stadlergasse").
+restaurant("Himmelmutterweg").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Verbindungsbahn").
+restaurant("Stadtpark").
+restaurant("Gersthof").
+restaurant("Strozzigasse").
+restaurant("Urban-Loritz-Platz").
+restaurant("Kagran").

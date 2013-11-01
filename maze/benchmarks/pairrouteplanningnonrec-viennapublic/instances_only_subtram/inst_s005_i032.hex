@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Schmerlingplatz").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Preyergasse/Speising").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Hermesstraße").
+initlocation(1,"Mayerhofgasse").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"Bahnsteggasse").
+sequence(1,0, "Vorgartenstraße").
 person(2).
-initlocation($p,"Volkstheater").
-initlocation($p,"Guntherstraße").
-initlocation($p,"Staglgasse").
-initlocation($p,"Shuttleworthstraße").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Volkstheater").
-possiblemeetinglocations("Tscherttegasse").
-possiblemeetinglocations("Hoßplatz").
-possiblemeetinglocations("Verbindungsbahn").
-possiblemeetinglocations("Quellenplatz").
-possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
-restaurant("Anton-Krieger-Gasse").
-restaurant("Johann-Nepomuk-Berger-Platz").
-restaurant("Salztorbrücke").
-restaurant("Fasangasse").
-restaurant("Carminweg").
+initlocation(2,"Bahnhofstraße").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Weinheimergasse").
+initlocation(2,"Alterlaa").
+initlocation(2,"Stadiongasse/Parlament").
+sequence(2,0, "Bahnhofstraße").
+possiblemeetinglocations("Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Skodagasse").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Ottakringer Straße/Wattgasse").
+possiblemeetinglocations("Sensengasse").
+restaurant("Simmering").
+restaurant("Leberberg").
+restaurant("Wittelsbachstraße").
+restaurant("Guntherstraße").
+restaurant("Trondheimgasse").

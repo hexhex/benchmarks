@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Schönborn Bahnhof").
+initlocation(1,"Handelskai").
+initlocation(1,"Herzogenburg Stadt").
+sequence(1,0, "Handelskai").
 person(2).
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Spittelau").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-restaurant("Simmering").
-restaurant("Strebersdorf").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Kagran").
+sequence(2,0, "Jägerstraße").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+restaurant("Ober Sankt Veit").
+restaurant("Göllersdorf Bahnhof").

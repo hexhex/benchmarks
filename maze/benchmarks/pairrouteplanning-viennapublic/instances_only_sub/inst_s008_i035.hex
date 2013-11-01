@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Kottingneusiedl Bahnhof").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Stadion").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Schönborn Bahnhof").
+sequence(1,0, "Sankt Marx").
 person(2).
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Thaliastraße").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Quartier Belvedere").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Taborstraße").
-restaurant("Am Schöpfwerk").
-restaurant("Hirschstetten").
-restaurant("Strebersdorf").
-restaurant("Lobau").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Messe-Prater").
-restaurant("Tulln Stadt Bahnhof").
-restaurant("Taubstummengasse").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Maria Anzbach Bahnhof").
+sequence(2,0, "Museumsquartier").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Hörersdorf Bahnhof").
+possiblemeetinglocations("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+restaurant("Aspernstraße").
+restaurant("Obersdorf Bahnhof").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Alser Straße").
+restaurant("Schwedenplatz").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Stubentor").
+restaurant("Kottingneusiedl Bahnhof").

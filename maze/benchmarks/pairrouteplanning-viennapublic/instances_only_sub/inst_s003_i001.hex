@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Schleinbach Bahnhof").
+sequence(1,0, "Dürrwien Bahnhof").
 person(2).
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Bad Vöslau Bahnhof").
-possiblemeetinglocations("Höbersdorf Bahnhof").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-restaurant("Westbahnhof").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Tscherttegasse").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Rochusgasse").
+sequence(2,0, "Guntramsdorf-Thallern").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Roßauer Lände").
+restaurant("Hernals").

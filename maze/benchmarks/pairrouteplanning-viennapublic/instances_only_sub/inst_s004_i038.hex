@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Ebreichsdorf Bahnhof").
+initlocation(1,"Alterlaa").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Enkplatz").
+initlocation(1,"Sollenau Bahnhof").
+sequence(1,0, "Alterlaa").
 person(2).
-initlocation($p,"Leopoldau").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Leopoldau").
-possiblemeetinglocations("Breitenwaida Bahnhof").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Ottakring").
-restaurant("Kendlerstraße").
-restaurant("Frättingsdorf Bahnhof").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Donauspital").
+initlocation(2,"Pilgramgasse").
+sequence(2,0, "Hennersdorf Bahnhof").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Atzenbrugg Bahnhof").
+restaurant("Heiligenstadt").
+restaurant("Alser Straße").
+restaurant("Gumpendorfer Straße").
+restaurant("Laa an der Thaya Bahnhof").

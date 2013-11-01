@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Rosenhügelstraße").
-initlocation($p,"Kutschkergasse").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Alser Straße").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Albertgasse").
-initlocation($p,"Nordwestbahnstraße").
-initlocation($p,"Matzleinsdorfer Platz").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Baumgasse").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Thaliastraße/Brunnengasse").
+initlocation(1,"Rustengasse").
+initlocation(1,"Arminenstraße").
+initlocation(1,"Am Heidjöchl/Hausfeldstraße").
+sequence(1,0, "Lange Gasse").
 person(2).
-initlocation($p,"Radetzkyplatz").
-initlocation($p,"Augasse").
-initlocation($p,"Quellenstraße/Favoritenstraße").
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Krieau").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Radetzkyplatz").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Franz-Asenbauer-Gasse").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Sickenberggasse").
-possiblemeetinglocations("Donauspital").
-possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
-possiblemeetinglocations("Floridsdorfer Brücke").
-possiblemeetinglocations("An den langen Lüssen").
-possiblemeetinglocations("Florianigasse").
-restaurant("Hofwiesengasse").
-restaurant("Mühlfeldgasse").
-restaurant("Kaiserebersdorf").
-restaurant("Schönborn Bahnhof").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Götzendorf Bahnhof").
-restaurant("Sierndorf Bahnhof").
-restaurant("Silberwald Bahnhof").
-restaurant("Hadersdorf Bahnhof").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Resselgasse").
+initlocation(2,"Burgring").
+initlocation(2,"Polgarstraße").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Dornbach, Güpferlingstraße").
+initlocation(2,"Liebknechtgasse").
+initlocation(2,"Mühlfeldgasse").
+initlocation(2,"Am Heidjöchl/Hausfeldstraße").
+sequence(2,0, "Parndorf Ort Bahnhof").
+possiblemeetinglocations("Quellenplatz").
+possiblemeetinglocations("Maurer Lange Gasse").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+restaurant("Penzinger Straße").
+restaurant("Riedelgasse").
+restaurant("Josef-Baumann-Gasse").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Plößlgasse").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Kagraner Brücke").
+restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Reinlgasse/Märzstraße").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Hausfeldstraße").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Neulengbach Bahnhof").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Schottentor").
+initlocation(1,"Hausleiten Bahnhof").
+sequence(1,0, "Stockerau Bahnhof").
 person(2).
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Breitensee").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Gerasdorf Bahnhof").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-restaurant("Getzersdorf/Traisen Bahnhof").
-restaurant("Hofstatt Bahnhof").
-restaurant("Neusiedl am See Bahnhof").
-restaurant("Hausfeldstraße").
-restaurant("Oberolberndorf Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Siebenhirten").
+sequence(2,0, "Fischamend Bahnhof").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Vorgartenstraße").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+restaurant("Donauspital").
+restaurant("Gasometer").
+restaurant("Aspernstraße").
 restaurant("Quartier Belvedere").
+restaurant("Erdberg").
+restaurant("Alterlaa").

@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Theresienfeld Bahnhof").
+initlocation(1,"Schottentor").
+initlocation(1,"Gerasdorf Bahnhof").
+sequence(1,0, "Krieau").
 person(2).
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Meidling Hauptstraße").
-restaurant("Neubaugasse").
-restaurant("Handelskai").
-restaurant("Trautmannsdorf/Leitha Bf").
-restaurant("Getzersdorf/Traisen Bahnhof").
-restaurant("Traismauer Bahnhof").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Stadion").
+sequence(2,0, "Hörersdorf Bahnhof").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Bahnhof Meidling").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Enkplatz").
+restaurant("Messe-Prater").
+restaurant("Wolfsthal Bahnhof").
+restaurant("Penzing").

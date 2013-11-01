@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Perntergasse").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Taborstraße").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Grillgasse").
-initlocation($p,"Gloriettegasse").
-initlocation($p,"Perntergasse").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Sickenberggasse").
+initlocation(1,"Anton-Krieger-Gasse").
+initlocation(1,"Mayerhofgasse").
+initlocation(1,"Mayssengasse").
+initlocation(1,"Rebhanngasse").
+initlocation(1,"Handelskai").
+initlocation(1,"Fichtnergasse").
+sequence(1,0, "Krottenbachstraße").
 person(2).
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Stadion").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Barawitzkagasse").
-initlocation($p,"Gasometer").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Glatzgasse").
-initlocation($p,"Himberg Bahnhof").
-possiblemeetinglocations("Neusiedl am See Bahnhof").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
-possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-restaurant("Hütteldorf").
-restaurant("Taubstummengasse").
-restaurant("Schmerlingplatz").
-restaurant("Sankt Marx").
-restaurant("Pilgramgasse").
-restaurant("St Pölten Hauptbahnhof").
-restaurant("Alser Straße").
-restaurant("Hetzendorf").
+initlocation(2,"Großjedlersdorf").
+initlocation(2,"Skodagasse").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Kranzgasse").
+initlocation(2,"Valiergasse").
+initlocation(2,"Taborstraße").
+initlocation(2,"Bahnhofstraße").
+initlocation(2,"Hardtgasse").
+sequence(2,0, "Großjedlersdorf").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Alaudagasse").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Alte Donau").
+possiblemeetinglocations("Schlickgasse").
+restaurant("Wolf in der Au").
+restaurant("Viehmarktgasse").
+restaurant("Trasdorf Bahnhof").
+restaurant("Franzensbrücke").
+restaurant("Kaiserebersdorf, Zinnergasse").
+restaurant("Polgarstraße").
+restaurant("Urban-Loritz-Platz").
+restaurant("Neusiedl am See Bahnhof").

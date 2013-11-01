@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Gutraterplatz").
-initlocation($p,"Bahnhof Meidling").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Stadlau").
+sequence(1,0, "Spitalgasse/Währinger Straße").
 person(2).
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Höchstädtplatz").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Landstraße-Wien Mitte").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Nußdorf, Beethovengang").
-possiblemeetinglocations("Pressbaum Bahnhof").
-restaurant("Halteraugasse").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Kraygasse").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+sequence(2,0, "Atzenbrugg Bahnhof").
+possiblemeetinglocations("Julius-Raab-Platz").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Herbeckstraße").
+restaurant("Antonigasse").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Sieveringer Straße").

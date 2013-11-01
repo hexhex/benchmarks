@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Penzinger Straße").
-initlocation($p,"Wildgansplatz").
-initlocation($p,"Unter St Veit, Hummelgasse").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Traisengasse").
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Schottentor").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Laurentiusplatz").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Penzinger Straße").
+initlocation(1,"Flughafen Wien (VIE). Bahnhof").
+initlocation(1,"Döblinger Hauptstr/Gatterburgg").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"Augasse").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Gersthof").
+initlocation(1,"Börsegasse/Wipplingerstraße").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Platt Bahnhof").
+initlocation(1,"Döblinger Bad").
+initlocation(1,"Nordwestbahnstraße").
+sequence(1,0, "Flughafen Wien (VIE). Bahnhof").
 person(2).
-initlocation($p,"Wattmanngasse").
-initlocation($p,"Donauinsel").
-initlocation($p,"Erndtgasse").
-initlocation($p,"Kaiserstraße/Burggasse").
-initlocation($p,"Maurer Hauptplatz").
-initlocation($p,"Himmelmutterweg").
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Teichgasse").
-initlocation($p,"Stockholmer Platz").
-initlocation($p,"Erdbergstr/Schlachthausgasse").
-initlocation($p,"Brünnlbadgasse").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Wattmanngasse").
-possiblemeetinglocations("Waidhausenstraße").
-possiblemeetinglocations("Fichtnergasse").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Burgring").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Wenzgasse").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-possiblemeetinglocations("Per-Albin-Hansson-Siedlung Ost").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Strozzigasse").
-possiblemeetinglocations("Braunhubergasse").
-possiblemeetinglocations("Burggasse-Stadthalle").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-restaurant("Rathaus").
-restaurant("Margaretengürtel").
-restaurant("Hardtgasse").
-restaurant("Halteraugasse").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Knöllgasse/Davidgasse").
-restaurant("Laxenburger Straße/Troststraße").
-restaurant("Teichgasse").
-restaurant("Rankgasse").
-restaurant("Ulrichskirchen Bahnhof").
-restaurant("Wildgansplatz").
-restaurant("Jägerstraße").
-restaurant("Hohe Warte").
-restaurant("Messe-Prater").
+initlocation(2,"Brigittaplatz").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Ebreichsdorf Bahnhof").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Lange Gasse").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Seyring Bahnhof").
+initlocation(2,"Zippererstraße").
+initlocation(2,"Versorgungsheimplatz").
+initlocation(2,"Weißenböckstraße").
+initlocation(2,"Gatterburggasse").
+sequence(2,0, "Brigittaplatz").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Albertgasse").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Neubaugasse").
+possiblemeetinglocations("Gaußplatz").
+possiblemeetinglocations("Gottschalkgasse/Enkplatz").
+possiblemeetinglocations("Barawitzkagasse").
+possiblemeetinglocations("Redtenbachergasse").
+possiblemeetinglocations("Kettenbrückengasse").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Mistelbach Bahnhof").
+restaurant("Guneschgasse").
+restaurant("Altes Landgut").
+restaurant("Nußdorf").
+restaurant("Wexstraße").
+restaurant("Eichenstraße").
+restaurant("Schloss Hetzendorf").
+restaurant("Hütteldorf, Bujattigasse").
+restaurant("Heiligenstadt").
+restaurant("Kliebergasse").
+restaurant("Fultonstraße").
+restaurant("Kleistgasse").
+restaurant("Laurenzgasse").

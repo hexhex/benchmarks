@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Gerstnerstraße/Westbhf").
-initlocation($p,"Perntergasse").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Ungargasse/Neulinggasse").
-initlocation($p,"Laaer-Berg-Straße").
-initlocation($p,"Unter Sankt Veit").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Raxstraße/Rudolfshügelgasse").
+initlocation(1,"Sensengasse").
+initlocation(1,"Maurer Lange Gasse").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Lobau").
+initlocation(1,"Donauspital").
+sequence(1,0, "Weidlingau Bahnhof").
 person(2).
-initlocation($p,"Hauptbahnhof Ost").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Schwarzspanierstraße").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Nußdorf").
-initlocation($p,"Hauptbahnhof Ost").
-possiblemeetinglocations("Maurer Lange Gasse").
-possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Gruschaplatz").
-possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
-possiblemeetinglocations("Redtenbachergasse").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-possiblemeetinglocations("Siebenhirten").
-restaurant("Längenfeldgasse").
-restaurant("Blindengasse").
-restaurant("Edmund-Hawranek-Platz").
-restaurant("Vinzenzgasse").
-restaurant("Mödling Bahnhof").
-restaurant("Hetzendorf").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Floridsdorfer Markt").
-restaurant("Rodaun").
+initlocation(2,"Skodagasse").
+initlocation(2,"Gloriettegasse").
+initlocation(2,"Wenzgasse").
+initlocation(2,"Hohe Warte").
+initlocation(2,"Hardtgasse").
+initlocation(2,"Pantucekgasse/Widholzgasse").
+initlocation(2,"Diesterweggasse").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Fasangasse").
+sequence(2,0, "Skodagasse").
+possiblemeetinglocations("Canisiusgasse").
+possiblemeetinglocations("Heinrich-Drimmel-Platz").
+possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("Nordwestbahnstraße").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
+restaurant("Sensengasse").
+restaurant("Elterleinplatz").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Schlachthausgasse").
+restaurant("Hernals").
+restaurant("Alfred-Adler-Straße").
+restaurant("Rathausplatz/Burgtheater").
+restaurant("Molitorgasse").
+restaurant("Mistelbach Bahnhof").

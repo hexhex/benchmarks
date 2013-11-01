@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Schleinbach Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Kottingneusiedl Bahnhof").
+initlocation(1,"Göllersdorf Bahnhof").
+initlocation(1,"Zieglergasse").
+sequence(1,0, "Sitzenberg-Reidling Bahnhof").
 person(2).
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Kritzendorf Bahnhof").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Guntersdorf Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Längenfeldgasse").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Erlaaer Straße").
+sequence(2,0, "Guntersdorf Bahnhof").
 possiblemeetinglocations("Erlaaer Straße").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-restaurant("Bahnhof Meidling").
-restaurant("Rochusgasse").
-restaurant("Retz Bahnhof").
-restaurant("Hollabrunn Bahnhof").
-restaurant("Nußdorfer Straße").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Breitensee").
+restaurant("Taubstummengasse").
+restaurant("Perfektastraße").
+restaurant("Taborstraße").

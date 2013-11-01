@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Brünner Straße").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Brünner Straße").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Floridsdorf").
+sequence(1,0, "Sitzenberg-Reidling Bahnhof").
 person(2).
-initlocation($p,"Oberdöbling").
-initlocation($p,"Nußdorf").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Oberdöbling").
-possiblemeetinglocations("Rennweg").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Hernals").
-restaurant("Zeiselmauer-Königstetten Bf").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Blumental").
+initlocation(2,"Schottentor").
+initlocation(2,"Kettenbrückengasse").
+sequence(2,0, "Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
 restaurant("Großfeldsiedlung").
-restaurant("Westbahnhof").
-restaurant("Münchendorf Bahnhof").
-restaurant("Gaisruck Bahnhof").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Enkplatz").
+restaurant("Hirschstetten").
+restaurant("Gramatneusiedl Bahnhof").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Donauspital").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Taborstraße").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Floridsdorf").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Atzgersdorf").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Johnstraße").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Trasdorf Bahnhof").
+sequence(1,0, "Hautzendorf Bahnhof").
 person(2).
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Alte Donau").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Haidestraße").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Erlaaer Straße").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Seyring Bahnhof").
-restaurant("Hirschstetten").
-restaurant("Liesing").
-restaurant("Zentralfriedhof").
-restaurant("Schleinbach Bahnhof").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Erdberg").
+initlocation(2,"Enkplatz").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Bruck/Leitha Bahnhof").
+sequence(2,0, "Wr Neustadt Nord").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Kendlerstraße").
+restaurant("Kettenbrückengasse").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Wolf in der Au").
+restaurant("Göllersdorf Bahnhof").
+restaurant("Wildungsmauer Bahnhof").
+restaurant("Haslau an der Donau Bahnhof").
+restaurant("Hietzing").

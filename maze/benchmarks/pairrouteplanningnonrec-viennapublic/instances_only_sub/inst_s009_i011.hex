@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Neue Donau").
-initlocation($p,"Göllersdorf Bahnhof").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Jedlersdorf").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Neue Donau").
+initlocation(1,"Spillern Bahnhof").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Neue Donau").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Floridsdorf").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Praterkai").
+initlocation(1,"Kledering Bahnhof").
+sequence(1,0, "Spillern Bahnhof").
 person(2).
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Breitenwaida Bahnhof").
-possiblemeetinglocations("Volkstheater").
+initlocation(2,"Ottakring").
+initlocation(2,"Neue Donau").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Gemeinlebarn Bahnhof").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Michelbeuern-AKH").
+initlocation(2,"Franz-Josefs-Bahnhof").
+sequence(2,0, "Ottakring").
+possiblemeetinglocations("Gänserndorf Bahnhof").
 possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Langenlebarn Bahnhof").
-possiblemeetinglocations("Leopoldau").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Simmering").
-restaurant("Helmahof Bahnhof").
-restaurant("Alterlaa").
-restaurant("Aspern Nord").
-restaurant("Eichgraben-Altlengbach Bahnhof").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Schweglerstraße").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Rennweg").
-restaurant("Oberolberndorf Bahnhof").
+possiblemeetinglocations("Fischamend Bahnhof").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Aderklaaer Straße").
+restaurant("Spittelau").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Donauspital").
+restaurant("Ebenfurth Bahnhof").
+restaurant("Wolf in der Au").
+restaurant("Tulln Bahnhof").
+restaurant("Retz Bahnhof").

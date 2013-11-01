@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Dresdner Straße").
+sequence(1,0, "Retz Bahnhof").
 person(2).
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Ottakring").
-initlocation($p,"Hadersdorf Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-restaurant("Donaustadtbrücke").
-restaurant("Schleinbach Bahnhof").
+initlocation(2,"Enkplatz").
+initlocation(2,"Erdberg").
+sequence(2,0, "Enkplatz").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Neue Donau").
+restaurant("Hietzing").
+restaurant("Ottakring").

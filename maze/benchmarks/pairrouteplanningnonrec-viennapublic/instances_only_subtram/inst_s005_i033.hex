@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Hernals").
-initlocation($p,"Oberfeldgasse/Spargelfeldstr").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Tesarekplatz").
-initlocation($p,"Sahulkastraße").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Traisengasse").
+initlocation(1,"Wexstraße").
+initlocation(1,"Autokaderstraße").
+initlocation(1,"Ameisgasse").
+sequence(1,0, "Mistelbach Stadt").
 person(2).
-initlocation($p,"Josef-Baumann-Gasse").
-initlocation($p,"Frauengasse").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Stammersdorf").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Josef-Baumann-Gasse").
-possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Obere Augartenstraße").
-possiblemeetinglocations("Blindengasse").
-possiblemeetinglocations("Paradisgasse").
-restaurant("Hintere Zollamtsstraße").
-restaurant("Alfred-Adler-Straße").
-restaurant("Staglgasse").
-restaurant("Gellertplatz").
-restaurant("Simonygasse").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Winkeläckerstraße").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Laaer-Berg-Straße").
+sequence(2,0, "Oberolberndorf Bahnhof").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Heiligenstadt").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Schuhmeierplatz").
+restaurant("Diesterweggasse").
+restaurant("Tesarekplatz").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Hubertusdamm").
+restaurant("Siebenhirten (NÖ). Haltestelle").

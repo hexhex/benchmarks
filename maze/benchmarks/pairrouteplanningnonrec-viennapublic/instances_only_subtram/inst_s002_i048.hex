@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Hopfengasse").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Hopfengasse").
+initlocation(1,"Winckelmannstraße").
+initlocation(1,"Anschützgasse").
+sequence(1,0, "Winckelmannstraße").
 person(2).
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Halteraugasse").
-restaurant("Liesing").
-restaurant("Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Ungargasse/Neulinggasse").
+initlocation(2,"Kaiserstraße/Neustiftgasse").
+sequence(2,0, "Ungargasse/Neulinggasse").
+possiblemeetinglocations("Diesterweggasse").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Hopfengasse").

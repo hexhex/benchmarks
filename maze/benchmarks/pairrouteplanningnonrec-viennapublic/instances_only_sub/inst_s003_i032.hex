@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Kendlerstraße").
-initlocation($p,"Kagraner Platz").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+sequence(1,0, "Hütteldorfer Straße").
 person(2).
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Nußdorfer Straße").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Johnstraße").
-restaurant("Platt Bahnhof").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Messe-Prater").
+initlocation(2,"Handelskai").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Sierndorf Bahnhof").
+sequence(2,0, "Handelskai").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Rennbahnweg").
+restaurant("Stubentor").

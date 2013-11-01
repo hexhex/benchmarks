@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Erlaaer Straße").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Margaretengürtel").
+initlocation(1,"Seestadt").
+initlocation(1,"Rathaus").
+initlocation(1,"Untereggendorf Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Kagran").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Ladendorf Bahnhof").
+sequence(1,0, "Rekawinkel Bahnhof").
 person(2).
-initlocation($p,"Nußdorf").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Donaumarina").
-initlocation($p,"Gasometer").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Nußdorf").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Roßauer Lände").
+initlocation(2,"Stubentor").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+sequence(2,0, "Untereggendorf Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Josefstädter Straße").
 possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Reumannplatz").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Mödling Bahnhof").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Wildungsmauer Bahnhof").
-restaurant("Schleinbach Bahnhof").
-restaurant("Praterstern").
-restaurant("Stockerau Bahnhof").
-restaurant("Strasshof Bahnhof").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Friedensbrücke").
-restaurant("Felixdorf Bahnhof").
+possiblemeetinglocations("Gersthof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Neue Donau").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Stadlau").
 restaurant("Mödling Bahnhof").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Quartier Belvedere").
+restaurant("Lanzendorf-Rannersdorf Bahnhof").
+restaurant("Zieglergasse").
+restaurant("Alser Straße").
+restaurant("Ober Sankt Veit").
+restaurant("Gramatneusiedl Bahnhof").

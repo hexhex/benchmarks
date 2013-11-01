@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Handelskai").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Handelskai").
+initlocation(1,"Ottakring").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Mistelbach Stadt").
+initlocation(1,"Stadion").
+initlocation(1,"Kagran").
+initlocation(1,"Lobau").
+initlocation(1,"Josefstädter Straße").
+sequence(1,0, "Ottakring").
 person(2).
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Stadlau").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
+initlocation(2,"Rennweg").
+initlocation(2,"Flughafen Wien (VIE). Bahnhof").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Spittelau").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Hadersdorf Bahnhof").
+sequence(2,0, "Rennweg").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Süßenbrunn").
 possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Blumental").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-restaurant("Pilgramgasse").
-restaurant("Hütteldorfer Straße").
-restaurant("Maria Ellend Bahnhof").
-restaurant("Taborstraße").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Spillern Bahnhof").
-restaurant("Volkstheater").
-restaurant("Floridsdorf").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Rennweg").
+possiblemeetinglocations("Gramatneusiedl Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Rochusgasse").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Atzenbrugg Bahnhof").
+restaurant("Platt Bahnhof").
+restaurant("Donauspital").
+restaurant("Wr Neustadt Nord").

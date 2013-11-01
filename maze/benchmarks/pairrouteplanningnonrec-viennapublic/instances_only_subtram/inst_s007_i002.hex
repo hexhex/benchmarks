@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Van-Swieten-Kaserne").
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Waidhausenstraße").
-initlocation($p,"Pantucekgasse/Widholzgasse").
-initlocation($p,"Friedrich-Engels-Platz").
-initlocation($p,"Obere Augartenstraße").
-initlocation($p,"Perchtoldsdorf Bahnhof").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Simonygasse").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Neue Donau").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Am Tabor").
+initlocation(1,"Jedlersdorf").
+sequence(1,0, "Neubau-Kreuzstetten Bahnhof").
 person(2).
-initlocation($p,"Nußdorf").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Absberggasse").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Am Tabor").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Ungargasse/Neulinggasse").
-initlocation($p,"Nußdorf").
-possiblemeetinglocations("Sonnergasse").
-possiblemeetinglocations("Rothneusiedl").
-possiblemeetinglocations("Gottschalkgasse/Enkplatz").
-possiblemeetinglocations("Tesarekplatz").
-possiblemeetinglocations("Palffygasse").
-possiblemeetinglocations("Schöffelgasse").
-possiblemeetinglocations("Schönborn Bahnhof").
-restaurant("Kendlerstraße").
-restaurant("Alfred-Adler-Straße").
-restaurant("Enkplatz").
-restaurant("Kaiserebersdorf, Zinnergasse").
-restaurant("Elterleinplatz").
-restaurant("Hainburg/Donau Personenbhf").
-restaurant("Schlachthausgasse").
+initlocation(2,"Anschützgasse").
+initlocation(2,"Auerspergstraße").
+initlocation(2,"Absberggasse").
+initlocation(2,"Perntergasse").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Halteraugasse").
+sequence(2,0, "Anschützgasse").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Arthaberplatz").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Gerhardusgasse").
+restaurant("Siebenhirten").
+restaurant("Geiselbergstraße").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Hetzendorf").
+restaurant("Sickenberggasse").
+restaurant("Strebersdorf").
+restaurant("Stadtpark").

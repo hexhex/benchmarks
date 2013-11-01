@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Moosbierbaum-Heiligeneich Bf").
+initlocation(1,"Alterlaa").
+sequence(1,0, "Moosbierbaum-Heiligeneich Bf").
 person(2).
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Parndorf Ort Bahnhof").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Krottenbachstraße").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Klosterneuburg-Weidling Bf").
+initlocation(2,"Erdberg").
+initlocation(2,"Siemensstraße").
+sequence(2,0, "Erdberg").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+restaurant("Seyring Bahnhof").
+restaurant("Alser Straße").

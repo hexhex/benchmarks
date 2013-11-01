@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Praterbrücke").
-initlocation(1,"Martin-Luther-King-Park").
-initlocation(1,"Nußdorfer Str/Alserbachstraße").
-sequence(1,0, "Praterbrücke").
+initlocation(1,"Hillerstraße").
+initlocation(1,"Gadnergasse/Hasenleitengasse").
+initlocation(1,"Hawlicekgasse").
+sequence(1,0, "Hillerstraße").
 person(2).
-initlocation(2,"Bad Vöslau Bahnhof").
-initlocation(2,"Oskar-Simony-Straße").
-initlocation(2,"Mitterfeldgasse").
-sequence(2,0, "Bad Vöslau Bahnhof").
-possiblemeetinglocations("Schottenfeldgasse").
-possiblemeetinglocations("Schrekergasse").
-possiblemeetinglocations("Van-Swieten-Kaserne").
-restaurant("Cottagegasse").
-restaurant("Löwengasse").
-restaurant("Jungstraße").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Skodagasse").
+initlocation(2,"Oberradlberg Bahnhof").
+sequence(2,0, "Schöffelgasse").
+possiblemeetinglocations("Stiegergasse").
+possiblemeetinglocations("Breitenlee Ort").
+possiblemeetinglocations("Kagraner Friedhof").
+restaurant("Wagramer Straße/Ostbahn").
+restaurant("Franz-Josefs-Bahnhof").
+restaurant("Erlachplatz").

@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Donaustadtstraße/Deinleingasse").
-initlocation(1,"Neustifter Friedhof 2Tor").
-sequence(1,0, "Donaustadtstraße/Deinleingasse").
+initlocation(1,"Breitenlee Friedhof").
+initlocation(1,"Kaposigasse").
+sequence(1,0, "Breitenlee Friedhof").
 person(2).
-initlocation(2,"Weißenböckstraße").
-initlocation(2,"Campingplatz Kleehäufel").
-sequence(2,0, "Weißenböckstraße").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Atzgersdorf Kirchenplatz").
-restaurant("Hausfeldstraße").
-restaurant("Weyrgasse").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Zieglergasse").
+sequence(2,0, "Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Pantucekgasse").
+possiblemeetinglocations("Gesundheitszentrum Süd").
+restaurant("Hollergasse").
+restaurant("Krankenhaus Hietzing").

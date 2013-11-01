@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Stadlau").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
+initlocation(1,"Wildungsmauer Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Geiselbergstraße").
+sequence(1,0, "Wildungsmauer Bahnhof").
 person(2).
-initlocation($p,"Rochusgasse").
-initlocation($p,"Lanzendorf-Rannersdorf Bahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Rochusgasse").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Zieglergasse").
-restaurant("Hausleiten Bahnhof").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Breitensee").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Siebenhirten").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Blumental").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Pressbaum Bahnhof").
+initlocation(2,"Atzgersdorf").
+sequence(2,0, "Stockerau Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Keplerplatz").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Gaisruck Bahnhof").
+restaurant("Silberwald Bahnhof").
+restaurant("Tulln Stadt Bahnhof").
+restaurant("Atzgersdorf").

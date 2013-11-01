@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Volkstheater").
-initlocation($p,"Schwarzspanierstraße").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Schottenfeldgasse").
-initlocation($p,"Salztorbrücke").
-initlocation($p,"Brigittaplatz").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Reinlgasse/Märzstraße").
-initlocation($p,"Volkstheater").
+initlocation(1,"Höchstädtplatz").
+initlocation(1,"Aumannplatz").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Taborstraße").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+sequence(1,0, "Höchstädtplatz").
 person(2).
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Saikogasse").
-initlocation($p,"Strebersdorf").
-initlocation($p,"Fultonstraße").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Huglgasse").
-initlocation($p,"Am Tabor").
-initlocation($p,"Spillern Bahnhof").
-possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Hetzgasse").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Dommayergasse").
-possiblemeetinglocations("Weigelsdorf Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Muckendorf-Wipfing Bahnhof").
-restaurant("Felixdorf Bahnhof").
-restaurant("Götzendorf Bahnhof").
-restaurant("Aspern, Oberdorfstraße").
-restaurant("Mayerhofgasse").
-restaurant("Krottenbachstraße").
-restaurant("Hernals").
-restaurant("Gruschaplatz").
-restaurant("Schloss Schönbrunn").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Eichenstraße").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Hernals").
+initlocation(2,"Elterleinplatz").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Skodagasse").
+sequence(2,0, "Korneuburg Bahnhof").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Trondheimgasse").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Römergasse").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Gerstnerstraße/Westbhf").
+possiblemeetinglocations("Baumgasse").
+restaurant("Münchendorf Bahnhof").
+restaurant("Martinstraße").
+restaurant("Hirschstetten").
+restaurant("Rothneusiedl").
+restaurant("Salztorbrücke").
+restaurant("Meidling Hauptstraße").
+restaurant("Zentralfriedhof").
+restaurant("Fickeysstraße").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Salztorbrücke").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Dornbacher Straße").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Salztorbrücke").
+initlocation(1,"Perntergasse").
+initlocation(1,"Tullnerfeld Bahnhof").
+initlocation(1,"Absberggasse").
+initlocation(1,"Maurer Lange Gasse").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Tulln Stadt Bahnhof").
+sequence(1,0, "Perntergasse").
 person(2).
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-initlocation($p,"Praterstern").
-initlocation($p,"Alsegger Straße").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Bösendorferstraße").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Sommarugagasse").
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-possiblemeetinglocations("Gredlerstraße").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Paradisgasse").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Van-Swieten-Kaserne").
+initlocation(2,"Neusiedl am See Bahnhof").
+initlocation(2,"Zentralfriedhof 4Tor").
+initlocation(2,"Rennweg").
+initlocation(2,"Wattmanngasse").
+initlocation(2,"Kaiserstraße").
+sequence(2,0, "Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Quartier Belvedere").
 possiblemeetinglocations("Empergergasse").
-restaurant("Anton-Krieger-Gasse").
-restaurant("Obere Donaustraße").
-restaurant("Lainz, Wolkersbergenstraße").
-restaurant("Wittelsbachstraße").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Gumpendorfer Straße").
-restaurant("Yppengasse").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Wampersdorf Bahnhof").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("Schlickgasse").
+possiblemeetinglocations("Simmering").
+restaurant("Prinzgasse").
+restaurant("Gersthofer Str/Scheibenbergstr").
+restaurant("Neilreichgasse").
+restaurant("Döblinger Bad").
+restaurant("Wienerfeldgasse").
+restaurant("Kleistgasse").
+restaurant("Schönborn Bahnhof").

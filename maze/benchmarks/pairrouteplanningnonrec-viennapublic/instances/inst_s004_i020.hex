@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Paradisgasse").
-initlocation(1,"Lisztstraße").
-initlocation(1,"Bauernfeldplatz").
-initlocation(1,"Margaretengürtel/Arbeitergasse").
-sequence(1,0, "Paradisgasse").
+initlocation(1,"Troststraße/Neilreichgasse").
+initlocation(1,"Friedjunggasse").
+initlocation(1,"Reichsbrücke").
+initlocation(1,"Panozzalacke").
+sequence(1,0, "Troststraße/Neilreichgasse").
 person(2).
-initlocation(2,"Hardeggasse").
-initlocation(2,"Otto-Wagner-Spital").
-initlocation(2,"Wattmanngasse").
-initlocation(2,"Stiegergasse").
-sequence(2,0, "Hardeggasse").
-possiblemeetinglocations("Lerchenfelder Straße").
-possiblemeetinglocations("Linneplatz").
-possiblemeetinglocations("Gutheil-Schoder-Gasse").
-possiblemeetinglocations("Baumgartner Friedhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Memlinggasse").
-restaurant("Industriestraße/Lange Allee").
-restaurant("Fischergrund").
+initlocation(2,"Siedlung Sonnheim").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Steigenteschgasse").
+initlocation(2,"Penzing").
+sequence(2,0, "Siedlung Sonnheim").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Brünner Straße").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Höhenstraße/Rohrerwiese").
+restaurant("Himmelstraße").
+restaurant("Grundäckergasse").
+restaurant("Auhof Umspannwerk").
+restaurant("Sechshauser Gürtel").

@@ -1,20 +1,20 @@
 person(1).
-initlocation(1,"Messe-Prater").
-initlocation(1,"Fischamend Bahnhof").
-initlocation(1,"Ziegelofengasse").
-initlocation(1,"Simonygasse").
-sequence(1,0, "Messe-Prater").
+initlocation(1,"Nestroyplatz/Praterstraße").
+initlocation(1,"Martin-Gaunersdorfer-Gasse").
+initlocation(1,"An den alten Schanzen").
+initlocation(1,"Concordiaplatz").
+sequence(1,0, "Nestroyplatz/Praterstraße").
 person(2).
-initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Draugasse").
+initlocation(2,"Daringergasse").
 initlocation(2,"Traismauer Bahnhof").
-initlocation(2,"Lindenbauergasse").
-initlocation(2,"Hetzendorf").
-sequence(2,0, "Purkersdorf Sanatorium").
-possiblemeetinglocations("Breitenleer Str/Ziegelhofstr").
-possiblemeetinglocations("Erlachplatz").
-possiblemeetinglocations("Sebaldgasse").
-possiblemeetinglocations("Hüttergasse").
-restaurant("Erdberg").
-restaurant("Warneckestraße").
-restaurant("Häußlergasse").
-restaurant("Anschützgasse").
+initlocation(2,"Blechturmgasse").
+sequence(2,0, "Draugasse").
+possiblemeetinglocations("Schöberweg").
+possiblemeetinglocations("Siebeneichengasse").
+possiblemeetinglocations("Leopoldigasse").
+possiblemeetinglocations("Obere Augartenstraße").
+restaurant("Hintzerstraße").
+restaurant("Johannes-Krawarik-Gasse").
+restaurant("Nikolaus-Pytty-Gasse").
+restaurant("Pichlgasse").

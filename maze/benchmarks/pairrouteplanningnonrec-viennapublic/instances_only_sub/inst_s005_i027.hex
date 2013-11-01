@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Blumental").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Strebersdorf").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Gänserndorf Bahnhof").
+initlocation(1,"Zellerndorf Bahnhof").
+initlocation(1,"Erdberg").
+sequence(1,0, "Greifenstein-Altenberg Bahnhof").
 person(2).
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Gumpendorfer Straße").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Hirschstetten").
-restaurant("Preyergasse/Speising").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Baden Bahnhof").
-restaurant("Donauinsel").
-restaurant("Kritzendorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Taborstraße").
+initlocation(2,"Kaisermühlen-VIC").
+initlocation(2,"Aspernstraße").
+sequence(2,0, "Bisamberg Bahnhof").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Trasdorf Bahnhof").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Traisengasse").
+restaurant("Platt Bahnhof").
+restaurant("Wr Neustadt Nord").
+restaurant("Meidling Hauptstraße").

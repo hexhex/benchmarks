@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Grillgasse").
-initlocation($p,"Klosterneub Str/Wallensteinstr").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Am Heidjöchl/Hausfeldstraße").
-initlocation($p,"Gutraterplatz").
-initlocation($p,"Lobau").
-initlocation($p,"Stefan-Fadinger-Platz").
-initlocation($p,"Guntramsdorf-Thallern").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Grillgasse").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Radetzkyplatz").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Simmering").
+initlocation(1,"Windtenstraße").
+initlocation(1,"Kagran").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Reinlgasse/Märzstraße").
+initlocation(1,"Baumgarten").
+sequence(1,0, "Braunschweiggasse").
 person(2).
-initlocation($p,"Huglgasse").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Reinlgasse/Märzstraße").
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Wr Neustadt Civitas Nova").
-initlocation($p,"Huglgasse").
-possiblemeetinglocations("Langobardenstraße/Kapellenweg").
-possiblemeetinglocations("Michelhausen Bahnhof").
-possiblemeetinglocations("Weinhauser Gasse").
-possiblemeetinglocations("Siebertgasse").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Zentralfriedhof 1Tor").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Unter St Veit, Hummelgasse").
-possiblemeetinglocations("Fichtnergasse").
-restaurant("Floridsdorfer Markt").
-restaurant("Diesterweggasse").
-restaurant("Kaisermühlen-VIC").
-restaurant("Saikogasse").
-restaurant("Süßenbrunner Str/Oberfeldgasse").
-restaurant("Riedelgasse").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Strebersdorf").
-restaurant("Joachimsthalerplatz").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Staglgasse").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Weihburggasse").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Ottakringer Straße/Wattgasse").
+initlocation(2,"Perntergasse").
+initlocation(2,"Mannswörth Bahnhof").
+sequence(2,0, "Oberradlberg Bahnhof").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Gellertplatz").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Ebreichsdorf Bahnhof").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Schloss Schönbrunn").
+restaurant("Leopoldau").
+restaurant("Thaliastraße/Haberlgasse").
+restaurant("Ottakringer Str/Erdbrustgasse").
+restaurant("Stefan-Fadinger-Platz").
+restaurant("Friedensbrücke").
+restaurant("Sechskrügelgasse").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Radetzkyplatz").

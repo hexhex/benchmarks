@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Leopoldau").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Leopoldau").
+initlocation(1,"Hainburg/Donau Kulturfabrik Bf").
+initlocation(1,"Nußdorf").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Praterkai").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Krottenbachstraße").
+sequence(1,0, "Hainburg/Donau Kulturfabrik Bf").
 person(2).
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Donauinsel").
-initlocation($p,"Leopoldau").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Unteroberndorf Bahnhof").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Taubstummengasse").
-possiblemeetinglocations("Donaumarina").
-restaurant("Frättingsdorf Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+sequence(2,0, "Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Nußdorfer Straße").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Friedensbrücke").
+restaurant("Atzgersdorf").
+restaurant("Neue Donau").
+restaurant("Südtiroler Platz/Hauptbahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Gaisruck Bahnhof").
 restaurant("Weidlingau Bahnhof").
-restaurant("Niederhofstraße").
-restaurant("Stephansplatz").
-restaurant("Ober Sankt Veit").
-restaurant("Perfektastraße").
-restaurant("Krieau").
+restaurant("Sitzenberg-Reidling Bahnhof").

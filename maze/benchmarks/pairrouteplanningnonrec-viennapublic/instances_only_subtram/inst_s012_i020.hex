@@ -1,52 +1,52 @@
 person(1).
-initlocation($p,"Leyserstraße").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Pokornygasse").
-initlocation($p,"Resselgasse").
-initlocation($p,"Fichtnergasse").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Bauernfeldplatz").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Leyserstraße").
+initlocation(1,"Zieglergasse").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Neilreichgasse").
+initlocation(1,"Herbeckstraße").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Maurer Hauptplatz").
+initlocation(1,"Kraygasse").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Linzer Straße/Reinlgasse").
+initlocation(1,"Ober Sankt Veit").
+initlocation(1,"Lainz, Wolkersbergenstraße").
+initlocation(1,"Alsegger Straße").
+sequence(1,0, "Zieglergasse").
 person(2).
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Litfaßstraße").
-initlocation($p,"Carminweg").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Schottenring").
-initlocation($p,"Augasse").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Am Heumarkt").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Pilgramgasse").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Ottakringer Straße/Wattgasse").
-possiblemeetinglocations("Hubertusdamm").
-possiblemeetinglocations("Herrengasse").
-possiblemeetinglocations("Bahnhofstraße").
-possiblemeetinglocations("Perchtoldsdorf Bahnhof").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Tesarekplatz").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Breitenfurter Str/Liesingbr").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Huglgasse").
-restaurant("Krieau").
-restaurant("Am Heumarkt").
-restaurant("Oberfeldgasse").
-restaurant("Trondheimgasse").
-restaurant("Döblinger Hauptstr/Gatterburgg").
-restaurant("Hardeggasse").
-restaurant("Fultonstraße").
-restaurant("Verbindungsbahn").
-restaurant("Stadlau").
-restaurant("Margaretengürtel/Arbeitergasse").
-restaurant("Heinrich-Drimmel-Platz").
-restaurant("Gutraterplatz").
+initlocation(2,"Lainz, Wolkersbergenstraße").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Handelskai").
+initlocation(2,"Schlickgasse").
+initlocation(2,"Canisiusgasse").
+initlocation(2,"Anton-Schall-Gasse").
+initlocation(2,"Strozzigasse").
+initlocation(2,"Taborstraße/Heinestraße").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Dresdner Straße").
+initlocation(2,"Bahnhof Meidling/Eichenstraße").
+sequence(2,0, "Lainz, Wolkersbergenstraße").
+possiblemeetinglocations("Gunoldstraße").
+possiblemeetinglocations("Hopfengasse").
+possiblemeetinglocations("Kendlerstraße").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Urban-Loritz-Platz").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Ulrichskirchen Bahnhof").
+possiblemeetinglocations("Zentralfriedhof 3Tor").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Palffygasse").
+possiblemeetinglocations("Teichgasse").
+restaurant("Wenzgasse").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Schottenfeldgasse").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("An den langen Lüssen").
+restaurant("Schleiergasse").
+restaurant("Unter Sankt Veit").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Lerchenfelder Straße").
+restaurant("Klosterneub Str/Wallensteinstr").
+restaurant("Ebreichsdorf Bahnhof").
+restaurant("Hausfeldstraße").

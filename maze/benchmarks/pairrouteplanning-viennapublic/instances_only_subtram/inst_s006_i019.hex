@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Hopfengasse").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Wilhelminenstraße/Wattgasse").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Hopfengasse").
+initlocation(1,"Gewerbepark Stadlau Mitte").
+initlocation(1,"Stiftgasse").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Josef-Baumann-Gasse").
+initlocation(1,"Simonygasse").
+initlocation(1,"Rosenhügelstraße").
+sequence(1,0, "Gewerbepark Stadlau Mitte").
 person(2).
-initlocation($p,"Quellenplatz").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Wr Neustadt Hauptbahnhof").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Anton-Krieger-Gasse").
-initlocation($p,"Quellenplatz").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Carabelligasse").
-possiblemeetinglocations("Rustengasse").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Reumannplatz").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Mistelbach Bahnhof").
-restaurant("Viehmarktgasse").
-restaurant("Wilfleinsdorf Bahnhof").
-restaurant("Dresdner Straße").
-restaurant("Wr Neustadt Hauptbahnhof").
+initlocation(2,"Wienerbergbrücke").
+initlocation(2,"Koloniestraße").
+initlocation(2,"Edmund-Hawranek-Platz").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Ladendorf Bahnhof").
+sequence(2,0, "Wienerbergbrücke").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+possiblemeetinglocations("Hütteldorf, Bujattigasse").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Liesing").
+restaurant("Konstanziagasse").
+restaurant("Satzberggasse").
+restaurant("Gerstnerstraße/Westbhf").
+restaurant("Absberggasse").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Sieveringer Straße").

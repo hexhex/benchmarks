@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Maurer Berg").
-initlocation(1,"Hüttelberg").
-sequence(1,0, "Maurer Berg").
+initlocation(1,"Cottagegasse").
+initlocation(1,"Marx-Meidlinger-Straße").
+sequence(1,0, "Cottagegasse").
 person(2).
-initlocation(2,"Am Bahnhof").
-initlocation(2,"Otto-Weber-Gasse").
-sequence(2,0, "Am Bahnhof").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Jungstraße").
-restaurant("Hernalser Friedhof").
-restaurant("Kirschenallee").
+initlocation(2,"Neubaugasse/Neustiftgasse").
+initlocation(2,"Jochbergengasse").
+sequence(2,0, "Neubaugasse/Neustiftgasse").
+possiblemeetinglocations("Urselbrunnengasse").
+possiblemeetinglocations("Strasshof Bahnhof").
+restaurant("Arztgasse").
+restaurant("Schloss Belvedere").

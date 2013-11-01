@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Rennweg").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Götzendorf Bahnhof").
+initlocation(1,"Stadlau").
+sequence(1,0, "Höbersdorf Bahnhof").
 person(2).
-initlocation($p,"Perfektastraße").
-initlocation($p,"Alser Straße").
-initlocation($p,"Volkstheater").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Perfektastraße").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Schottenring").
-possiblemeetinglocations("Stadlau").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Zieglergasse").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Kritzendorf Bahnhof").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Penzing").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Handelskai").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Viehofen Bahnhof").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Korneuburg Bahnhof").
+sequence(2,0, "Bad Vöslau Bahnhof").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Jägerstraße").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Donauspital").
+restaurant("Seestadt").
 restaurant("Stadtpark").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Sollenau Bahnhof").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Nestroyplatz").
+restaurant("Felixdorf Bahnhof").
+restaurant("Burggasse-Stadthalle").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Gumpendorfer Straße").
+restaurant("Niederhofstraße").
+restaurant("Siebenhirten (NÖ). Haltestelle").

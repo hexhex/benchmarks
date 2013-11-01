@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Stadion").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Stadion").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Blumental").
+initlocation(1,"Tscherttegasse").
+sequence(1,0, "Brunn-Maria Enzersdorf Bahnhof").
 person(2).
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Rennweg").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Wampersdorf Bahnhof").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Tullnerfeld Bahnhof").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-restaurant("Reumannplatz").
-restaurant("Perfektastraße").
-restaurant("Schottenring").
-restaurant("Gasometer").
-restaurant("Kledering Bahnhof").
+initlocation(2,"Haidestraße").
+initlocation(2,"Kagran").
+initlocation(2,"Breitensee").
+initlocation(2,"Krieau").
+initlocation(2,"Pfaffstätten Bahnhof").
+sequence(2,0, "Haidestraße").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Unter Sankt Veit").
+restaurant("Staatz Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Helmahof Bahnhof").
+restaurant("Schwechat Bahnhof").

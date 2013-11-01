@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Fichtnergasse").
-initlocation($p,"Plößlgasse").
-initlocation($p,"Schloss Belvedere").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Althanstraße").
-initlocation($p,"Schloss Hetzendorf").
-initlocation($p,"Döblinger Bad").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Schottentor").
-initlocation($p,"Leyserstraße").
-initlocation($p,"Absberggasse").
-initlocation($p,"Versorgungsheimplatz").
-initlocation($p,"Atzgersdorfer Straße").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Fichtnergasse").
+initlocation(1,"Hautzendorf Bahnhof").
+initlocation(1,"Anschützgasse").
+initlocation(1,"Siebertgasse").
+initlocation(1,"Am Tabor").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Dr-Karl-Renner-Ring").
+initlocation(1,"Versorgungsheimplatz").
+initlocation(1,"Brünner Straße/Hanreitergasse").
+initlocation(1,"Pantucekgasse/Widholzgasse").
+initlocation(1,"Kärntner Ring/Oper").
+initlocation(1,"Stubentor").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Nußdorf, Beethovengang").
+initlocation(1,"Untereggendorf Bahnhof").
+sequence(1,0, "Hautzendorf Bahnhof").
 person(2).
-initlocation($p,"Spittelau").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Langobardenstraße/Kapellenweg").
-initlocation($p,"Matthäus-Jiszda-Straße").
-initlocation($p,"Breitenfurter St/Altmannsd Str").
-initlocation($p,"Herrengasse").
-initlocation($p,"Zieglergasse/Westbahnstraße").
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Hietzing").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Höchstädtplatz").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Spittelau").
-possiblemeetinglocations("Nußdorfer Str/Alserbachstraße").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Jagdschloßgasse").
-possiblemeetinglocations("Otto-Probst-Straße").
-possiblemeetinglocations("Sechskrügelgasse").
-possiblemeetinglocations("Alaudagasse").
-possiblemeetinglocations("Gasometer").
-possiblemeetinglocations("Sonnergasse").
-possiblemeetinglocations("Rennbahnweg").
-possiblemeetinglocations("Schmerlingplatz").
-possiblemeetinglocations("Oberfeldgasse").
-possiblemeetinglocations("Zieglergasse/Westbahnstraße").
-possiblemeetinglocations("Guntherstraße").
-restaurant("Lange Gasse").
-restaurant("Wr Neustadt Civitas Nova").
-restaurant("Guntherstraße").
-restaurant("Tscherttegasse").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Stadiongasse/Parlament").
-restaurant("Shuttleworthstraße").
-restaurant("Taubstummengasse").
-restaurant("Gußhausstraße").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Liebknechtgasse").
-restaurant("Sieveringer Straße").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Römergasse").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+initlocation(2,"Dr-Karl-Renner-Ring").
+initlocation(2,"Stadion").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Blumental").
+initlocation(2,"Donauspital").
+initlocation(2,"Columbusplatz").
+initlocation(2,"Laudongasse").
+initlocation(2,"Autokaderstraße").
+initlocation(2,"Migerkastraße").
+initlocation(2,"Quellenstraße/Knöllgasse").
+initlocation(2,"Am Schöpfwerk").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Hadersdorf Bahnhof").
+sequence(2,0, "Kaiserebersdorf, Zinnergasse").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Ladendorf Bahnhof").
+possiblemeetinglocations("Michelhausen Bahnhof").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Autokaderstraße").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Tesarekplatz").
+restaurant("Trondheimgasse").
+restaurant("Hoßplatz").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Gusenleithnergasse").
+restaurant("Stadion").
+restaurant("Glatzgasse").
+restaurant("Alte Donau").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Kölblgasse").
+restaurant("Grinzing").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Rekawinkel Bahnhof").
+restaurant("Schwedenplatz").
+restaurant("Redtenbachergasse").

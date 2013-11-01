@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Krieau").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Stadlau").
+initlocation(1,"Grillgasse").
+initlocation(1,"Braunschweiggasse").
+sequence(1,0, "Stadlau").
 person(2).
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Mannswörth Bahnhof").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Keplerplatz").
-restaurant("Obereggendorf Bahnhof").
-restaurant("Oberdöbling").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Taborstraße").
+initlocation(2,"Staatz Bahnhof").
+sequence(2,0, "Messe-Prater").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Hernals").
+restaurant("Gaisruck Bahnhof").
+restaurant("Nußdorfer Straße").
+restaurant("Muckendorf-Wipfing Bahnhof").

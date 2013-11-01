@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Hadersdorf Bahnhof").
+sequence(1,0, "Absdorf-Hippersdorf Bahnhof").
 person(2).
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Hadersdorf Bahnhof").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Unterradlberg Bahnhof").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Fischamend Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
-restaurant("Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Ottakring").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Pfaffstätten Bahnhof").
+sequence(2,0, "Ottakring").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
+possiblemeetinglocations("Donaumarina").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Spillern Bahnhof").
+restaurant("Himberg Bahnhof").
+restaurant("Schleinbach Bahnhof").
+restaurant("Alser Straße").
+restaurant("Rochusgasse").
+restaurant("Wr Neustadt Hauptbahnhof").

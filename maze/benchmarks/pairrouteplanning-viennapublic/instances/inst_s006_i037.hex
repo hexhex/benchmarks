@@ -1,28 +1,28 @@
 person(1).
-initlocation(1,"Widholzgasse").
-initlocation(1,"Männertreugasse").
-initlocation(1,"Nauheimergasse").
-initlocation(1,"Donauinsel").
-initlocation(1,"Sensengasse").
-initlocation(1,"Pottendorf-Landegg Bahnhof").
-sequence(1,0, "Widholzgasse").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Römergasse").
+initlocation(1,"Klebindergraben").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Donaustadtstraße/Deinleingasse").
+sequence(1,0, "Verbindungsbahn").
 person(2).
-initlocation(2,"Südwestfriedhof 8Tor").
-initlocation(2,"Knotzenbachgasse").
-initlocation(2,"Aderklaaer Straße").
-initlocation(2,"Hosnedlgasse/Lieblgasse").
-initlocation(2,"Kärntner Straße").
-initlocation(2,"Gesundheitszentrum Süd").
-sequence(2,0, "Südwestfriedhof 8Tor").
-possiblemeetinglocations("Weinheimergasse").
-possiblemeetinglocations("Augasse").
-possiblemeetinglocations("Wexstraße").
-possiblemeetinglocations("Linzer Straße/Zehetnergasse").
-possiblemeetinglocations("Lazarettgasse").
-possiblemeetinglocations("Wolfgang-Pauli-Gasse").
-restaurant("Guneschgasse").
-restaurant("Berzeliusgasse").
-restaurant("Raffineriestr/Biberhaufenweg").
-restaurant("Triester Straße/Rossakgasse").
-restaurant("Leibenfrostgasse").
-restaurant("Döblinger Bad").
+initlocation(2,"Montleartstraße").
+initlocation(2,"Donaustadtstraße").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Otto-Weber-Gasse").
+initlocation(2,"Schwenkgasse/Tivoligasse").
+initlocation(2,"Spinnerin am Kreuz").
+sequence(2,0, "Montleartstraße").
+possiblemeetinglocations("Ziegelofengasse").
+possiblemeetinglocations("Grinzinger Straße").
+possiblemeetinglocations("Giefinggasse").
+possiblemeetinglocations("Pfarrwiesenstraße").
+possiblemeetinglocations("Taglieberstraße").
+possiblemeetinglocations("Niederhofstraße").
+restaurant("Lorenz-Böhler-Unfallkrankenh").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Flotowgasse").
+restaurant("Max-Hegele-Weg").
+restaurant("Willergasse/Liesingbrücke").
+restaurant("Barichgasse").

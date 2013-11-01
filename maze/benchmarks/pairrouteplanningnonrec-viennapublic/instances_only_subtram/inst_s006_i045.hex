@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Zentralfriedhof 3Tor").
-initlocation($p,"Quellenplatz").
-initlocation($p,"Spitalgasse/Währinger Straße").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Zentralfriedhof 3Tor").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Gersthof").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Antonigasse").
+initlocation(1,"Hetzendorf").
+initlocation(1,"Grillgasse").
+sequence(1,0, "Laa an der Thaya Bahnhof").
 person(2).
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Döblinger Bad").
-initlocation($p,"Laurentiusplatz").
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Krankenhaus Hietzing").
-initlocation($p,"Bauernfeldplatz").
-initlocation($p,"Unterradlberg Bahnhof").
-possiblemeetinglocations("Thaliastraße/Maroltingergasse").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Schwarzenbergplatz").
-possiblemeetinglocations("Otto-Probst-Platz").
-possiblemeetinglocations("Althanstraße").
-restaurant("Atzgersdorf").
-restaurant("Obere Augartenstraße").
-restaurant("Dornbacher Straße").
-restaurant("Mödling Bahnhof").
-restaurant("Stadtpark").
-restaurant("Thaliastraße/Feßtgasse").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Kapellerfeld Bahnhof").
+initlocation(2,"Rodaun").
+initlocation(2,"Wienerfeldgasse").
+initlocation(2,"Antonigasse").
+initlocation(2,"Augasse").
+sequence(2,0, "Kliebergasse").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Winkeläckerstraße").
+possiblemeetinglocations("Dürrwien Bahnhof").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Am Heidjöchl").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Aumannplatz").
+restaurant("Landesgerichtsstraße").
+restaurant("Gaußplatz").
+restaurant("Redtenbachergasse").
+restaurant("Moosbierbaum-Heiligeneich Bf").

@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Großjedlersdorf").
+initlocation(1,"Eckpergasse").
+initlocation(1,"Marxergasse").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+sequence(1,0, "Eckpergasse").
 person(2).
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Franzensbrücke").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-restaurant("Forstnergasse").
-restaurant("Johann-Nepomuk-Berger-Platz").
-restaurant("Schottenfeldgasse").
+initlocation(2,"Keplerplatz").
+initlocation(2,"An den langen Lüssen").
+initlocation(2,"Pfaffstätten Bahnhof").
+sequence(2,0, "Keplerplatz").
+possiblemeetinglocations("Quellenstraße/Knöllgasse").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+restaurant("Schwechat Bahnhof").
+restaurant("An den langen Lüssen").
+restaurant("Jagdschloßgasse").

@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+sequence(1,0, "Paasdorf Bahnhof").
 person(2).
-initlocation($p,"Nordbahnstraße").
-initlocation($p,"Nordbahnstraße").
-possiblemeetinglocations("Forstnergasse").
-restaurant("Kaiser-Franz-Josef-Straße").
+initlocation(2,"Laurentiusplatz").
+sequence(2,0, "Laurentiusplatz").
+possiblemeetinglocations("Versorgungsheimplatz").
+restaurant("Pötzleinsdorf").

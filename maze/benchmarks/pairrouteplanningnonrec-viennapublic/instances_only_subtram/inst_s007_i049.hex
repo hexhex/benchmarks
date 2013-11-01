@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Gellertplatz").
-initlocation($p,"Obere Donaustraße").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Forstnergasse").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Quellenplatz").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Stadtpark").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Kleistgasse").
+initlocation(1,"Arminenstraße").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Wienerfeldgasse").
+sequence(1,0, "Stadtpark").
 person(2).
-initlocation($p,"Rochusgasse").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Stadion").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Hütteldorfer Str/Hochsatzeng").
-initlocation($p,"Seestadt").
-initlocation($p,"Langobardenstraße").
-initlocation($p,"Rochusgasse").
-possiblemeetinglocations("Blumengasse").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Pokornygasse").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Maurer Lange Gasse").
-possiblemeetinglocations("Gerstnerstraße/Westbhf").
-possiblemeetinglocations("Kritzendorf Bahnhof").
-restaurant("Oberfeldgasse/Spargelfeldstr").
-restaurant("Diesterweggasse").
-restaurant("Seyring Bahnhof").
-restaurant("Schweglerstraße").
-restaurant("Burgring").
-restaurant("Sonnergasse").
-restaurant("Leberberg").
+initlocation(2,"Molitorgasse").
+initlocation(2,"Rennweg").
+initlocation(2,"Innstraße").
+initlocation(2,"Guneschgasse").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Langobardenstraße/Kapellenweg").
+initlocation(2,"Yppengasse").
+sequence(2,0, "Molitorgasse").
+possiblemeetinglocations("Hernalser Gürtel").
+possiblemeetinglocations("Kraygasse").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Neulerchenfelder Str/Haberlg").
+possiblemeetinglocations("Guneschgasse").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+restaurant("Sieveringer Straße").
+restaurant("Joachimsthalerplatz").
+restaurant("Volkstheater").
+restaurant("Untereggendorf Bahnhof").
+restaurant("Greifenstein-Altenberg Bahnhof").
+restaurant("Anschützgasse").
+restaurant("Koloniestraße").

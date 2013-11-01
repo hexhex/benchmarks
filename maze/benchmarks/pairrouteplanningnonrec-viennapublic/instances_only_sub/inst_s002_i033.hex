@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Friedensbrücke").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Untertullnerbach Bahnhof").
+sequence(1,0, "Mistelbach Bahnhof").
 person(2).
-initlocation($p,"Johnstraße").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Johnstraße").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-possiblemeetinglocations("Taubstummengasse").
-restaurant("Bisamberg Bahnhof").
-restaurant("Hirschstetten").
+initlocation(2,"Schweglerstraße").
+initlocation(2,"Mistelbach Stadt").
+sequence(2,0, "Schweglerstraße").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+possiblemeetinglocations("Neue Donau").
+restaurant("Kendlerstraße").
+restaurant("Volkstheater").

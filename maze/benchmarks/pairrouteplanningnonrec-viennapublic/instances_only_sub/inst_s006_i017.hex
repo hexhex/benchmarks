@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Rekawinkel Bahnhof").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Liesing").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Brünner Straße").
+initlocation(1,"Quartier Belvedere").
+sequence(1,0, "Dürrwien Bahnhof").
 person(2).
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Pilgramgasse").
-possiblemeetinglocations("Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Margaretengürtel").
-restaurant("Gersthof").
-restaurant("Spittelau").
-restaurant("Pfaffstätten Bahnhof").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Rathaus").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Mödling Bahnhof").
+sequence(2,0, "Margaretengürtel").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Meidling Hauptstraße").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+restaurant("Aderklaaer Straße").
+restaurant("Keplerplatz").
+restaurant("Haidestraße").
+restaurant("Sollenau Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Großfeldsiedlung").

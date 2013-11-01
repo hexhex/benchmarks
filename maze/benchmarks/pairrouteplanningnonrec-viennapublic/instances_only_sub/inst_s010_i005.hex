@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Rennweg").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Bruck/Leitha Bahnhof").
+initlocation(1,"Greifenstein-Altenberg Bahnhof").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Hernals").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Kritzendorf Bahnhof").
+sequence(1,0, "Greifenstein-Altenberg Bahnhof").
 person(2).
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Simmering").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Enkplatz").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Pressbaum Bahnhof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Taborstraße").
+sequence(2,0, "Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
 possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Hernals").
-possiblemeetinglocations("Göllersdorf Bahnhof").
-restaurant("Jedlersdorf").
-restaurant("Getzersdorf/Traisen Bahnhof").
-restaurant("Kottingbrunn Bahnhof").
-restaurant("Ottakring").
-restaurant("Sankt Marx").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Süßenbrunn").
-restaurant("Michelbeuern-AKH").
-restaurant("Spittelau").
-restaurant("Ober Sankt Veit").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Erdberg").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Stubentor").
+possiblemeetinglocations("Unter Sankt Veit").
+restaurant("Erdberg").
+restaurant("Höbersdorf Bahnhof").
+restaurant("Neulengbach Bahnhof").
+restaurant("Geiselbergstraße").
+restaurant("Tulln Bahnhof").
+restaurant("Deutsch-Wagram Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Obereggendorf Bahnhof").
+restaurant("Hirschstetten").
+restaurant("Neubau-Kreuzstetten Bahnhof").

@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Nußdorf").
-initlocation($p,"Nußdorf").
+initlocation(1,"Kottingneusiedl Bahnhof").
+sequence(1,0, "Kottingneusiedl Bahnhof").
 person(2).
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Michelbeuern-AKH").
-possiblemeetinglocations("Unter Sankt Veit").
-restaurant("Baden Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+sequence(2,0, "Bahnhof Meidling").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+restaurant("Seyring Bahnhof").

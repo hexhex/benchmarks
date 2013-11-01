@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Paradisgasse").
-initlocation($p,"Quellenstraße/Favoritenstraße").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Pokornygasse").
-initlocation($p,"Litfaßstraße").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Paradisgasse").
+initlocation(1,"Nußdorf").
+initlocation(1,"Riedelgasse").
+initlocation(1,"Gerstnerstraße/Westbhf").
+initlocation(1,"Baumgarten").
+initlocation(1,"Bahnhof Meidling").
+initlocation(1,"Siebenhirten").
+sequence(1,0, "Nußdorf").
 person(2).
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Ungargasse/Neulinggasse").
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Gerstnerstraße/Westbhf").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Donaustadtstraße").
-possiblemeetinglocations("Empergergasse").
-possiblemeetinglocations("Margaretengürtel/Arbeitergasse").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Hintere Zollamtsstraße").
-possiblemeetinglocations("Pilgramgasse").
-restaurant("Himmelmutterweg").
-restaurant("Kölblgasse").
-restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Kettenbrückengasse").
-restaurant("Scheibenbergstraße").
-restaurant("Bad Vöslau Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Otto-Probst-Platz").
+initlocation(2,"Kagran").
+initlocation(2,"Urban-Loritz-Platz").
+initlocation(2,"Karmeliterplatz").
+initlocation(2,"Wolfsthal Bahnhof").
+sequence(2,0, "Gersthof").
+possiblemeetinglocations("Franzensbrücke").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Hofwiesengasse").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Krankenhaus Hietzing").
+possiblemeetinglocations("Längenfeldgasse").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Großjedlersdorf").
+restaurant("Volkstheater").
+restaurant("Römergasse").

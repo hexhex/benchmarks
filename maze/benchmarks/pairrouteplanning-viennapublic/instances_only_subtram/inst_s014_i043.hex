@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Türkenschanzplatz").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Beingasse").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Canisiusgasse").
-initlocation($p,"Grillgasse").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Joachimsthalerplatz").
-initlocation($p,"Hintere Zollamtsstraße").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Türkenschanzplatz").
+initlocation(1,"Alser Straße").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Oberdöbling").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Praterstern").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Arthaberplatz").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Ottakringer Str/Erdbrustgasse").
+sequence(1,0, "Alser Straße").
 person(2).
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Erndtgasse").
-initlocation($p,"Alsegger Straße").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Kaiserebersdorf, Zinnergasse").
-initlocation($p,"Stockholmer Platz").
-initlocation($p,"Tesarekplatz").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Schmerlingplatz").
-initlocation($p,"Achau Bahnhof").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Hietzing").
-initlocation($p,"Oberzellergasse").
-possiblemeetinglocations("Wienerfeldgasse").
-possiblemeetinglocations("Hütteldorf, Bujattigasse").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Windtenstraße").
-possiblemeetinglocations("Guntherstraße").
-possiblemeetinglocations("Schloss Schönbrunn").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Forstnergasse").
-possiblemeetinglocations("Salztorbrücke").
-possiblemeetinglocations("Sahulkastraße").
-possiblemeetinglocations("Svetelskystraße").
-restaurant("Molitorgasse").
-restaurant("Donauzentrum").
-restaurant("Ebreichsdorf Bahnhof").
-restaurant("Rekawinkel Bahnhof").
-restaurant("Rochusgasse").
-restaurant("Wilhelminenstr/Sandleitengasse").
-restaurant("Martinstraße").
-restaurant("Zentralfriedhof 1Tor").
-restaurant("Albertgasse").
-restaurant("Untertullnerbach Bahnhof").
-restaurant("Redtenbachergasse").
-restaurant("Hausfeldstraße").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Ottakring").
+initlocation(2,"Stadion").
+initlocation(2,"Johann-Nepomuk-Berger-Platz").
+initlocation(2,"Sillerplatz").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Quellenplatz").
+initlocation(2,"Wr Neustadt Hauptbahnhof").
+initlocation(2,"Kaiser-Franz-Josef-Straße").
+initlocation(2,"Kritzendorf Bahnhof").
+initlocation(2,"Kottingneusiedl Bahnhof").
+initlocation(2,"Donaumarina").
+initlocation(2,"Rathaus").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Columbusplatz").
+sequence(2,0, "Stadion").
+possiblemeetinglocations("Leopoldau").
+possiblemeetinglocations("Gaußplatz").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Weigelsdorf Bahnhof").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Blechturmgasse").
+possiblemeetinglocations("Bahnhofstraße").
+possiblemeetinglocations("Fichtnergasse").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Gusenleithnergasse").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Weinhauser Gasse").
+restaurant("Rußbergstraße").
+restaurant("Absberggasse").
+restaurant("Hauffgasse").
+restaurant("Schweglerstraße").
+restaurant("Wr Neustadt Nord").
+restaurant("Prater, Hauptallee").
+restaurant("Schuhmeierplatz").
+restaurant("Versorgungsheimplatz").
+restaurant("Achau Bahnhof").
+restaurant("Schmerlingplatz").
+restaurant("Schönbrunn").
+restaurant("Mariahilfer Gürtel").
+restaurant("Van-Swieten-Kaserne").
+restaurant("Ottakringer Straße/Wattgasse").

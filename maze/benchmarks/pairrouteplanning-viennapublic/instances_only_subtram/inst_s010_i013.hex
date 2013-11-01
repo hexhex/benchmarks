@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Schottentor").
-initlocation($p,"Spittelau").
-initlocation($p,"Sensengasse").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Palffygasse").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Schottentor").
+initlocation(1,"Wolfsthal Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Gutraterplatz").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Aumannplatz").
+initlocation(1,"Resselgasse").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Weigelsdorf Bahnhof").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Teichgasse").
+sequence(1,0, "Wolfsthal Bahnhof").
 person(2).
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Skodagasse").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Eckpergasse").
-initlocation($p,"Langenzersdorf Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Bahnsteggasse").
-possiblemeetinglocations("Rosenhügelstraße").
-possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Hauffgasse").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Marxergasse").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
-possiblemeetinglocations("Ungargasse/Neulinggasse").
-possiblemeetinglocations("Gewerbepark Stadlau Mitte").
-restaurant("Kagraner Platz").
-restaurant("Bahnhof Meidling").
-restaurant("Sierndorf Bahnhof").
-restaurant("Grinzing").
-restaurant("Winkeläckerstraße").
-restaurant("Hainburg/Donau Ungartor/B9").
-restaurant("Staatz Bahnhof").
-restaurant("Süßenbrunner Str/Oberfeldgasse").
-restaurant("Stubentor").
-restaurant("Grillgasse").
+initlocation(2,"Taborstraße").
+initlocation(2,"Wildgansplatz").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Zieglergasse/Westbahnstraße").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Dürrwien Bahnhof").
+initlocation(2,"Gußhausstraße").
+initlocation(2,"Sensengasse").
+initlocation(2,"Breitensee").
+initlocation(2,"Rennbahnweg").
+sequence(2,0, "Taborstraße").
+possiblemeetinglocations("Gruschaplatz").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
+possiblemeetinglocations("Florianigasse").
+possiblemeetinglocations("Svetelskystraße").
+possiblemeetinglocations("Pfaffstätten Bahnhof").
+possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
+possiblemeetinglocations("Stammersdorf").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Redtenbachergasse").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Svetelskystraße").
+restaurant("Laudongasse").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Tscherttegasse").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Stockerau Bahnhof").
+restaurant("Zentralfriedhof 4Tor").
+restaurant("Redtenbachergasse").
+restaurant("Enzersdorf bei Staatz Bahnhof").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Ulrichskirchen Bahnhof").
-initlocation($p,"Wexstraße").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Resselgasse").
-initlocation($p,"Palffygasse").
-initlocation($p,"Hausleiten Bahnhof").
+initlocation(1,"Pötzleinsdorf").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Guneschgasse").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Hetzgasse").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Gatterburggasse").
+sequence(1,0, "Pötzleinsdorf").
 person(2).
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Weihburggasse").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Schwedenplatz").
-initlocation($p,"Absberggasse").
-initlocation($p,"Maurer Lange Gasse").
-initlocation($p,"Wr Neustadt Nord").
-possiblemeetinglocations("Strasshof Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Lederergasse").
-possiblemeetinglocations("Jedlersdorf").
-possiblemeetinglocations("Wattmanngasse").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Rebhanngasse").
+initlocation(2,"Rustengasse").
+initlocation(2,"Lederergasse").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Helmahof Bahnhof").
+initlocation(2,"Schönbrunn").
+initlocation(2,"Retz Bahnhof").
+sequence(2,0, "Zentralfriedhof").
+possiblemeetinglocations("Laurenzgasse").
+possiblemeetinglocations("Riedelgasse").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
 possiblemeetinglocations("Elterleinplatz").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Kranzgasse").
-restaurant("Redtenbachergasse").
-restaurant("Penzinger Straße").
-restaurant("Bahnhof Meidling/Eichenstraße").
-restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Versorgungsheimplatz").
-restaurant("Regelsbrunn Bahnhof").
-restaurant("Guntherstraße").
-restaurant("Schottenfeldgasse").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+restaurant("Längenfeldgasse").
+restaurant("Eckpergasse").
+restaurant("Pressbaum Bahnhof").
+restaurant("Shuttleworthstraße").
+restaurant("Wienerfeldgasse").
+restaurant("Litfaßstraße").
+restaurant("Margaretengürtel").
+restaurant("Empergergasse").

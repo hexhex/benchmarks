@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Oberolberndorf Bahnhof").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Stadlau").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Rennweg").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Oberolberndorf Bahnhof").
+initlocation(1,"Pressbaum Bahnhof").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Gasometer").
+initlocation(1,"Herrengasse").
+initlocation(1,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Stadion").
+sequence(1,0, "Pressbaum Bahnhof").
 person(2).
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Ottakring").
-initlocation($p,"Herrengasse").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Volkstheater").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Landstraße-Wien Mitte").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Ebreichsdorf Bahnhof").
-possiblemeetinglocations("Schönborn Bahnhof").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Guntramsdorf-Thallern").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Sierndorf Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Donaustadtbrücke").
+sequence(2,0, "Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Wolkersdorf Bahnhof").
 possiblemeetinglocations("Donaustadtbrücke").
-restaurant("Kagran").
-restaurant("Langenlebarn Bahnhof").
-restaurant("Helmahof Bahnhof").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Museumsquartier").
-restaurant("Paasdorf Bahnhof").
-restaurant("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Guntramsdorf-Thallern").
+possiblemeetinglocations("Ebenfurth Bahnhof").
+restaurant("Münchendorf Bahnhof").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Trautmannsdorf/Leitha Bf").
+restaurant("Hardeggasse").
+restaurant("Unterpurkersdorf Bahnhof").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Wampersdorf Bahnhof").

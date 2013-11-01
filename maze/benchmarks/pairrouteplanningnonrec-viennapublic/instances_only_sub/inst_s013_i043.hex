@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Taborstraße").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Atzgersdorf").
-initlocation($p,"Donauinsel").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Neusiedl am See Bahnhof").
+initlocation(1,"Weidlingau Bahnhof").
+initlocation(1,"Praterstern").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Breitensee").
+initlocation(1,"Viehofen Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Laa an der Thaya Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+sequence(1,0, "Weidlingau Bahnhof").
 person(2).
-initlocation($p,"Seestadt").
-initlocation($p,"Traismauer Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Traisengasse").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Seestadt").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Roßauer Lände").
-possiblemeetinglocations("Maria Ellend Bahnhof").
-possiblemeetinglocations("Münchendorf Bahnhof").
+initlocation(2,"Stadtpark").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"St Pölten Traisenpark P+R Nord").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Süßenbrunn").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Alser Straße").
+initlocation(2,"Krieau").
+initlocation(2,"Guntramsdorf-Thallern").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Keplerplatz").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Mistelbach Bahnhof").
+possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
 possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Oberdöbling").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Zieglergasse").
-restaurant("Hardeggasse").
-restaurant("Museumsquartier").
-restaurant("Muckendorf-Wipfing Bahnhof").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Meidling Hauptstraße").
-restaurant("Ottakring").
-restaurant("Kottingneusiedl Bahnhof").
-restaurant("Alte Donau").
-restaurant("Wolkersdorf Bahnhof").
-restaurant("Stadtpark").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Hofstatt Bahnhof").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Stephansplatz").
+possiblemeetinglocations("Wolfsthal Bahnhof").
+restaurant("Kottingbrunn Bahnhof").
+restaurant("Hörersdorf Bahnhof").
+restaurant("Viehofen Bahnhof").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Wilfleinsdorf Bahnhof").
+restaurant("Preyergasse/Speising").
+restaurant("Flughafen Wien (VIE). Bahnhof").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Roßauer Lände").
+restaurant("Gersthof").
+restaurant("Laa an der Thaya Bahnhof").

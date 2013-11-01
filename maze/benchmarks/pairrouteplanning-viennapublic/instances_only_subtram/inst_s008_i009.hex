@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Schloss Schönbrunn").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Schloss Schönbrunn").
+initlocation(1,"Guntersdorf Bahnhof").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Gusenleithnergasse").
+initlocation(1,"Palffygasse").
+initlocation(1,"Saikogasse").
+initlocation(1,"Laudongasse").
+initlocation(1,"Arminenstraße").
+sequence(1,0, "Guntersdorf Bahnhof").
 person(2).
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Kranzgasse").
-initlocation($p,"Linzer Straße/Johnstraße").
-initlocation($p,"Alaudagasse").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Forstnergasse").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Prandaugasse").
-possiblemeetinglocations("Hernalser Gürtel").
+initlocation(2,"Polkorabplatz").
+initlocation(2,"Arminenstraße").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Jedlersdorf").
+initlocation(2,"Knöllgasse/Troststraße").
+initlocation(2,"Alaudagasse").
+initlocation(2,"Reinlgasse/Märzstraße").
+initlocation(2,"Mödling Bahnhof").
+sequence(2,0, "Polkorabplatz").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Leyserstraße").
+possiblemeetinglocations("Guntherstraße").
+possiblemeetinglocations("Oberdöbling").
+possiblemeetinglocations("Neuwaldegg").
 possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Stadlau").
-restaurant("Spillern Bahnhof").
-restaurant("Hütteldorfer Straße").
-restaurant("Platt Bahnhof").
-restaurant("Franz-Josefs-Bahnhof").
-restaurant("Trondheimgasse").
-restaurant("Kaiserebersdorf").
+possiblemeetinglocations("Palffygasse").
+restaurant("Lederergasse").
+restaurant("Hetzendorf").
+restaurant("Zehetnerg/Pflegeh Baumgarten").
+restaurant("Petronell-Carnuntum Bahnhof").
+restaurant("Mayerhofgasse").
+restaurant("Trasdorf Bahnhof").
 restaurant("Linzer Straße/Zehetnergasse").
-restaurant("St Andrä-Wördern Bahnhof").
+restaurant("Innstraße").

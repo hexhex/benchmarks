@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Wattmanngasse").
-initlocation($p,"Alterlaa").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Haidestraße").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Prater, Hauptallee").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Wattmanngasse").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Hoßplatz").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Blumental").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Alaudagasse").
+initlocation(1,"Sarasdorf Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+sequence(1,0, "Paulanergasse").
 person(2).
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Brünner Straße/Hanreitergasse").
-initlocation($p,"Enkplatz").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"Ottakringer Straße/Wattgasse").
-initlocation($p,"Wampersdorf Bahnhof").
-possiblemeetinglocations("Pokornygasse").
-possiblemeetinglocations("Unteres Belvedere").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
-possiblemeetinglocations("Am Heidjöchl/Hausfeldstraße").
-possiblemeetinglocations("Aßmayergasse").
-possiblemeetinglocations("Krottenbachstraße").
-restaurant("Viehofen Bahnhof").
-restaurant("Hetzmannsdorf-Wullersdorf Bf").
-restaurant("Eichenstraße").
+initlocation(2,"Lobau").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Matthäus-Jiszda-Straße").
+initlocation(2,"Empergergasse").
+initlocation(2,"Zellerndorf Bahnhof").
+initlocation(2,"Hausfeldstraße").
+sequence(2,0, "Lobau").
+possiblemeetinglocations("Gutraterplatz").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Polgarstraße").
+possiblemeetinglocations("Nordbahnstraße").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Sarasdorf Bahnhof").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+restaurant("Friedrich-Engels-Platz").
+restaurant("Seegasse").
 restaurant("Rebhanngasse").
-restaurant("Martinstraße").
-restaurant("Dürrwien Bahnhof").
-restaurant("Hermesstraße").
-restaurant("Hietzing").
+restaurant("Maurer Lange Gasse").
+restaurant("Svetelskystraße").
+restaurant("Stadiongasse/Parlament").
+restaurant("Fultonstraße").
+restaurant("Ulrichskirchen Bahnhof").

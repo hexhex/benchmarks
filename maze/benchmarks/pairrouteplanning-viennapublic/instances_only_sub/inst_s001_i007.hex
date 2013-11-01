@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
+initlocation(1,"Keplerplatz").
+sequence(1,0, "Keplerplatz").
 person(2).
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Dürrwien Bahnhof").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
+initlocation(2,"Schottenring").
+sequence(2,0, "Schottenring").
+possiblemeetinglocations("Alte Donau").
+restaurant("Hausleiten Bahnhof").

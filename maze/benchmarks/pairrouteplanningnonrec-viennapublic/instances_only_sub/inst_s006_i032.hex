@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Längenfeldgasse").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Aspern Nord").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+initlocation(1,"Flughafen Wien (VIE). Bahnhof").
+initlocation(1,"Stubentor").
+sequence(1,0, "Wolkersdorf Bahnhof").
 person(2).
-initlocation($p,"Siemensstraße").
-initlocation($p,"Schönbrunn").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Sollenau Bahnhof").
-initlocation($p,"Donauspital").
-initlocation($p,"Siemensstraße").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Dürrwien Bahnhof").
-possiblemeetinglocations("Grillgasse").
-possiblemeetinglocations("Schlachthausgasse").
-restaurant("Silberwald Bahnhof").
-restaurant("Burggasse-Stadthalle").
-restaurant("Taubstummengasse").
-restaurant("Nußdorfer Straße").
-restaurant("Himberg Bahnhof").
-restaurant("Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Hainburg/Donau Personenbhf").
+initlocation(2,"Volkstheater").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Gasometer").
+initlocation(2,"Donauspital").
+sequence(2,0, "Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Baden Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Weidlingau Bahnhof").
+possiblemeetinglocations("Schottenring").
+restaurant("Schottentor").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Alser Straße").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Seyring Bahnhof").
+restaurant("Donaustadtbrücke").

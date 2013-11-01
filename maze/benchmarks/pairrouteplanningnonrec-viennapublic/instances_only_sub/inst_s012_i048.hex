@@ -1,52 +1,52 @@
 person(1).
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Tulln Bahnhof").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Haidestraße").
-initlocation($p,"Schottenring").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Wampersdorf Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Gasometer").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(1,"Simmering").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Traisengasse").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Viehofen Bahnhof").
+sequence(1,0, "Himberg Bahnhof").
 person(2).
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Landstraße-Wien Mitte").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Volkstheater").
-initlocation($p,"Perchtoldsdorf Bahnhof").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Alte Donau").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Paasdorf Bahnhof").
-possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Karlsplatz").
-possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
-possiblemeetinglocations("Kagran").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Mistelbach Stadt").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Pfaffstätten Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Preyergasse/Speising").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Nestroyplatz").
+sequence(2,0, "Mistelbach Stadt").
+possiblemeetinglocations("Schwedenplatz").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
 possiblemeetinglocations("Hernals").
-restaurant("Korneuburg Bahnhof").
-restaurant("Spittelau").
-restaurant("Johnstraße").
-restaurant("Seestadt").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Donauinsel").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Hadersdorf Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Schönborn Bahnhof").
 restaurant("Südtiroler Platz/Hauptbahnhof").
-restaurant("Bahnhof Meidling").
-restaurant("Schönbrunn").
-restaurant("Hütteldorfer Straße").
-restaurant("Oberolberndorf Bahnhof").
-restaurant("Kaisermühlen-VIC").
+restaurant("Krottenbachstraße").
+restaurant("Ober Sankt Veit").
+restaurant("Achau Bahnhof").
+restaurant("Kledering Bahnhof").
+restaurant("Floridsdorf").
+restaurant("Breitensee").
+restaurant("Herzogenburg Stadt").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Michelbeuern-AKH").
+restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Unter Kritzendorf Bahnhof").

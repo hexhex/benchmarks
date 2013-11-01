@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Fichtnergasse").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Siemensstraße").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Am Heidjöchl").
-initlocation($p,"Nordwestbahnstraße").
-initlocation($p,"Ottakring").
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Fichtnergasse").
+initlocation(1,"Lederergasse").
+initlocation(1,"Simonygasse").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Schottenring").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Ameisgasse").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Johann-Nepomuk-Berger-Platz").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+sequence(1,0, "Lederergasse").
 person(2).
-initlocation($p,"Gusenleithnergasse").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Hernalser Gürtel").
-initlocation($p,"Heiligenstadt, 12-Februar-Pl").
-initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Seestadt").
-initlocation($p,"Anschützgasse").
-initlocation($p,"Gusenleithnergasse").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Sonnergasse").
-possiblemeetinglocations("Gerstnerstraße/Westbhf").
-possiblemeetinglocations("Marienbrücke").
-possiblemeetinglocations("Frödenplatz").
-possiblemeetinglocations("Bösendorferstraße").
-possiblemeetinglocations("Laa an der Thaya Bahnhof").
-possiblemeetinglocations("Donauspital").
-restaurant("Rebhanngasse").
-restaurant("Lederergasse").
-restaurant("Zieglergasse").
-restaurant("Großfeldsiedlung").
-restaurant("Museumsquartier").
-restaurant("Jägerstraße").
-restaurant("Grinzing").
-restaurant("Joachimsthalerplatz").
-restaurant("Rennbahnweg").
-restaurant("Taborstraße").
+initlocation(2,"Sechskrügelgasse").
+initlocation(2,"Rathaus").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Am Spitz").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Döblinger Bad").
+initlocation(2,"Hernalser Gürtel").
+initlocation(2,"Camillo-Sitte-Gasse").
+sequence(2,0, "Sechskrügelgasse").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Kutschkergasse").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("Otto-Probst-Straße").
+possiblemeetinglocations("An den langen Lüssen").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+restaurant("Verbindungsbahn").
+restaurant("Franzensbrücke").
+restaurant("Schleiergasse").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Erlaaer Straße").
+restaurant("Aspernstraße").
+restaurant("Unteres Belvedere").
+restaurant("Aumannplatz").
+restaurant("Baumgasse").
+restaurant("Untertullnerbach Bahnhof").

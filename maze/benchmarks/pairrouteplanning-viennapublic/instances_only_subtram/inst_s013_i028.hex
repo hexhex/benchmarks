@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Hirschstetten").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Blumental").
-initlocation($p,"Aspernstraße").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Absberggasse").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Hirschstetten").
+initlocation(1,"Zentralfriedhof 1Tor").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Michelhausen Bahnhof").
+initlocation(1,"Wilhelminenstr/Sandleitengasse").
+initlocation(1,"Mannswörth Bahnhof").
+initlocation(1,"Am Spitz").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Stefan-Fadinger-Platz").
+initlocation(1,"Hausfeldstraße").
+initlocation(1,"Grillgasse").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Burgring").
+sequence(1,0, "Zentralfriedhof 1Tor").
 person(2).
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Am Heidjöchl").
-initlocation($p,"Pötzleinsdorf").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Baumgasse").
-initlocation($p,"Lainz, Wolkersbergenstraße").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Gaußplatz").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Maria Anzbach Bahnhof").
-possiblemeetinglocations("Viehmarktgasse").
-possiblemeetinglocations("Kaiserstraße/Burggasse").
-possiblemeetinglocations("Rekawinkel Bahnhof").
-possiblemeetinglocations("Kraygasse").
+initlocation(2,"Taborstraße/Heinestraße").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Aspernstraße").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Wienerfeldgasse").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Perntergasse").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Kranzgasse").
+initlocation(2,"Weinhauser Gasse").
+initlocation(2,"Hopfengasse").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Marienbrücke").
+sequence(2,0, "Taborstraße/Heinestraße").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Paradisgasse").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Langobardenstraße/Kapellenweg").
+possiblemeetinglocations("Großfeldsiedlung").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Erdberg").
 possiblemeetinglocations("Neilreichgasse").
-possiblemeetinglocations("Wienerbergbrücke").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Saikogasse").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Kaiser-Franz-Josef-Straße").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-possiblemeetinglocations("Unter St Veit, Hummelgasse").
-possiblemeetinglocations("Ladendorf Bahnhof").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Schwarzenbergplatz").
-restaurant("Weinhauser Gasse").
-restaurant("Erzherzog-Karl-Straße").
-restaurant("Satzberggasse").
-restaurant("Ameisgasse").
-restaurant("Penzing").
-restaurant("Leobendorf-Burg Kreuzenstn Bf").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Fultonstraße").
-restaurant("Mariahilfer Gürtel").
-restaurant("Taubstummengasse").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Sahulkastraße").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Kaiserebersdorf, Zinnergasse").
+restaurant("Pokornygasse").
+restaurant("Seyring Bahnhof").
+restaurant("Süßenbrunner Str/Oberfeldgasse").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Karmeliterplatz").
+restaurant("Gusenleithnergasse").
+restaurant("Mistelbach Stadt").
+restaurant("Neulengbach Bahnhof").
+restaurant("Columbusplatz").
+restaurant("Barawitzkagasse").
+restaurant("Am Tabor").
+restaurant("Riedelgasse").

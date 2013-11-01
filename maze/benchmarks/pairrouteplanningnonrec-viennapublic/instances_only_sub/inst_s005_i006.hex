@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Traisengasse").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Zeiselmauer-Königstetten Bf").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Traisengasse").
+initlocation(1,"Franz-Josefs-Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Vorgartenstraße").
+sequence(1,0, "Franz-Josefs-Bahnhof").
 person(2).
-initlocation($p,"Seestadt").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Weidlingau Bahnhof").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Seestadt").
-possiblemeetinglocations("Gänserndorf Bahnhof").
-possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
-possiblemeetinglocations("Mistelbach Bahnhof").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Am Schöpfwerk").
+initlocation(2,"Pottendorf-Landegg Bahnhof").
+initlocation(2,"Mistelbach Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+initlocation(2,"Pilgramgasse").
+sequence(2,0, "Pottendorf-Landegg Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("St Pölten Hauptbahnhof").
+possiblemeetinglocations("Haidestraße").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Seestadt").
+restaurant("Enzersdorf bei Staatz Bahnhof").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Flughafen Wien (VIE). Bahnhof").
 restaurant("Heiligenstadt").
-restaurant("Unterpurkersdorf Bahnhof").
-restaurant("Preyergasse/Speising").
-restaurant("Museumsquartier").
-restaurant("Kendlerstraße").
+restaurant("Matzleinsdorfer Platz").

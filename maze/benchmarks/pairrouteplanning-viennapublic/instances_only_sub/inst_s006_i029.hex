@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Messe-Prater").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Absdorf-Hippersdorf Bahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Messe-Prater").
+initlocation(1,"Rathaus").
+initlocation(1,"Aspernstraße").
+initlocation(1,"Hainburg/Donau Ungartor/B9").
+initlocation(1,"Friedensbrücke").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Weigelsdorf Bahnhof").
+sequence(1,0, "Rathaus").
 person(2).
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Herzogenburg Stadt").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Krottenbachstraße").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
+initlocation(2,"Bahnhof Meidling").
+initlocation(2,"Rathaus").
+initlocation(2,"Geiselbergstraße").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Rochusgasse").
+initlocation(2,"Purkersdorf Sanatorium").
+sequence(2,0, "Bahnhof Meidling").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Seestadt").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Preyergasse/Speising").
 restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Am Schöpfwerk").
-restaurant("Längenfeldgasse").
-restaurant("Lanzendorf-Rannersdorf Bahnhof").
-restaurant("Mistelbach Stadt").
-restaurant("Pressbaum Bahnhof").
+restaurant("Taborstraße").
+restaurant("Siemensstraße").
+restaurant("Hütteldorf").
+restaurant("St Pölten Hauptbahnhof").
+restaurant("Hofstatt Bahnhof").

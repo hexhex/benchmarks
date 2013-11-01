@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Quellenplatz").
-initlocation($p,"Lobau").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Quellenplatz").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Thaliastraße/Feßtgasse").
+sequence(1,0, "Kranzgasse").
 person(2).
-initlocation($p,"Frauengasse").
-initlocation($p,"Diesterweggasse").
-initlocation($p,"Wallensteinplatz").
-initlocation($p,"Frauengasse").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Baumgarten").
-possiblemeetinglocations("Rathausplatz/Burgtheater").
-restaurant("Halteraugasse").
-restaurant("Viehmarktgasse").
-restaurant("Muckendorf-Wipfing Bahnhof").
+initlocation(2,"Meidling Hauptstraße").
+initlocation(2,"Laxenburger Str/Gudrunstraße").
+initlocation(2,"Alsegger Straße").
+sequence(2,0, "Meidling Hauptstraße").
+possiblemeetinglocations("Tullnerfeld Bahnhof").
+possiblemeetinglocations("Am Heumarkt").
+possiblemeetinglocations("Schleinbach Bahnhof").
+restaurant("Gutraterplatz").
+restaurant("Rebhanngasse").
+restaurant("Haidestraße").

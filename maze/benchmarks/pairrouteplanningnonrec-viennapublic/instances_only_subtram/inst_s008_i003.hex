@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Oberlaa, Therme Wien").
-initlocation($p,"Dornbacher Straße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Floridsdorfer Brücke").
-initlocation($p,"Winkeläckerstraße").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Schloss Hetzendorf").
-initlocation($p,"Oberlaa, Therme Wien").
+initlocation(1,"Resselgasse").
+initlocation(1,"Bösendorferstraße").
+initlocation(1,"Carabelligasse").
+initlocation(1,"Molitorgasse").
+initlocation(1,"Matzleinsdorfer Platz").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Arthaberplatz").
+initlocation(1,"Edmund-Hawranek-Platz").
+sequence(1,0, "Resselgasse").
 person(2).
-initlocation($p,"Gusenleithnergasse").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Hainburg/Donau Kulturfabrik Bf").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Gusenleithnergasse").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Nordbahnstraße").
-possiblemeetinglocations("Rustengasse").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Erdbergstr/Schlachthausgasse").
-possiblemeetinglocations("Donaumarina").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Hietzing").
-restaurant("Wenzgasse").
-restaurant("Burgring").
-restaurant("Erdbergstr/Schlachthausgasse").
-restaurant("Kledering Bahnhof").
-restaurant("Taborstraße").
-restaurant("Urban-Loritz-Platz").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Atzenbrugg Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Alfred-Adler-Straße").
+initlocation(2,"Retz Bahnhof").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Edmund-Hawranek-Platz").
+sequence(2,0, "Rathausplatz/Burgtheater").
+possiblemeetinglocations("Linzer Straße/Hochsatzengasse").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+restaurant("Stadlergasse").
+restaurant("Blindengasse").
+restaurant("Pötzleinsdorf").
+restaurant("Grinzing").
+restaurant("Mühlfeldgasse").
+restaurant("Preyergasse/Speising").
+restaurant("Linzer Straße/Johnstraße").
+restaurant("Schwarzenbergplatz").

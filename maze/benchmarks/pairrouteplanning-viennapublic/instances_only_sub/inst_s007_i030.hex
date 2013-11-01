@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Hütteldorf").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Hütteldorf").
+initlocation(1,"Wolkersdorf Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Bahnhof Meidling").
+sequence(1,0, "Wolkersdorf Bahnhof").
 person(2).
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Bahnhof Meidling").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Hütteldorf").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Spillern Bahnhof").
-possiblemeetinglocations("Lobau").
-restaurant("Franz-Josefs-Bahnhof").
-restaurant("Erlaaer Straße").
-restaurant("Tscherttegasse").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Zellerndorf Bahnhof").
-restaurant("Viehofen Bahnhof").
-restaurant("Grillgasse").
+initlocation(2,"Neulengbach Stadt Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Mannswörth Bahnhof").
+initlocation(2,"Sollenau Bahnhof").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Parndorf Ort Bahnhof").
+sequence(2,0, "Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Herrengasse").
+possiblemeetinglocations("Gumpendorfer Straße").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Friedensbrücke").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Seestadt").
+restaurant("Perfektastraße").
+restaurant("Korneuburg Bahnhof").
+restaurant("Weidlingau Bahnhof").
+restaurant("Breitenwaida Bahnhof").
+restaurant("Stadtpark").
+restaurant("Hietzing").
+restaurant("Hennersdorf Bahnhof").

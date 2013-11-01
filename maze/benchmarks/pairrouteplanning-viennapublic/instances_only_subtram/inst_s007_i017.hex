@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Absberggasse").
-initlocation($p,"Keplerplatz").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Hofwiesengasse").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Marienbrücke").
-initlocation($p,"Sarasdorf Bahnhof").
+initlocation(1,"Am Spitz").
+initlocation(1,"Plößlgasse").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Strozzigasse").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Johnstraße").
+sequence(1,0, "Am Spitz").
 person(2).
-initlocation($p,"Hintere Zollamtsstraße").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Brünnlbadgasse").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Grinzing").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Hintere Zollamtsstraße").
-possiblemeetinglocations("Lerchenfelder Straße").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Siebertgasse").
-possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+initlocation(2,"Perntergasse").
+initlocation(2,"Langenlebarn Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Fischamend Bahnhof").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Laaer-Berg-Straße").
+initlocation(2,"Gruschaplatz").
+sequence(2,0, "Perntergasse").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Molitorgasse").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Mistelbach Stadt").
+possiblemeetinglocations("Bahnsteggasse").
+possiblemeetinglocations("Fichtnergasse").
 possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Kaiserstraße/Westbahnstraße").
-possiblemeetinglocations("Yppengasse").
-restaurant("Troststraße/Neilreichgasse").
-restaurant("Gutraterplatz").
-restaurant("Molitorgasse").
-restaurant("Strozzigasse").
-restaurant("Hopfengasse").
-restaurant("Valiergasse").
-restaurant("Eichgraben-Altlengbach Bahnhof").
+restaurant("Sahulkastraße").
+restaurant("Johnstraße").
+restaurant("Dornbacher Straße").
+restaurant("Hintere Zollamtsstraße").
+restaurant("Laurentiusplatz").
+restaurant("Taborstraße/Heinestraße").
+restaurant("Mühlfeldgasse").

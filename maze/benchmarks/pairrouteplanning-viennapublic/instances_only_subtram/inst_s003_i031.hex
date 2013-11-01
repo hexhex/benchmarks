@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Löwengasse").
-initlocation($p,"Per-Albin-Hansson-Siedlung Ost").
-initlocation($p,"Himmelmutterweg").
-initlocation($p,"Löwengasse").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Bernhardtstalgasse").
+initlocation(1,"Guneschgasse").
+sequence(1,0, "Unterradlberg Bahnhof").
 person(2).
-initlocation($p,"Hofwiesengasse").
-initlocation($p,"Kärntner Ring/Oper").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Hofwiesengasse").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Hohe Warte").
-possiblemeetinglocations("Kleistgasse").
-restaurant("Stadiongasse/Parlament").
-restaurant("Handelskai").
-restaurant("Prater, Hauptallee").
+initlocation(2,"Penzing").
+initlocation(2,"Schottentor").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+sequence(2,0, "Penzing").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Ottakring").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+restaurant("Heinrich-Drimmel-Platz").
+restaurant("Bösendorferstraße").
+restaurant("Bahnhofstraße").

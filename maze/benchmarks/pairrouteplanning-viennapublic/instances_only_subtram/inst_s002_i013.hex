@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Matzleinsdorfer Platz").
+initlocation(1,"Pottendorf-Landegg Bahnhof").
+initlocation(1,"Kaiserebersdorf").
+sequence(1,0, "Pottendorf-Landegg Bahnhof").
 person(2).
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Niederhofstraße").
-possiblemeetinglocations("Pressbaum Bahnhof").
-possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
-restaurant("Maurer Hauptplatz").
-restaurant("Bahnhof Meidling/Eichenstraße").
+initlocation(2,"Klosterneub Str/Wallensteinstr").
+initlocation(2,"Alsegger Straße").
+sequence(2,0, "Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("Trondheimgasse").
+possiblemeetinglocations("Arminenstraße").
+restaurant("Leopoldau").
+restaurant("Hütteldorfer Straße").

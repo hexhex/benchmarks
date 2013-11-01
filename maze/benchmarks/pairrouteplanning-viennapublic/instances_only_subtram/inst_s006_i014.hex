@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Wenzgasse").
-initlocation($p,"Großjedlersdorf").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Laurenzgasse").
+initlocation(1,"Rankgasse").
+initlocation(1,"Weinheimergasse").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Verbindungsbahn").
+initlocation(1,"Mühlfeldgasse").
+initlocation(1,"Sillerplatz").
+sequence(1,0, "Rankgasse").
 person(2).
-initlocation($p,"Rustengasse").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Neuwaldegg").
-initlocation($p,"Althanstraße").
-initlocation($p,"Antonigasse").
-initlocation($p,"Floridsdorfer Brücke").
-initlocation($p,"Rustengasse").
-possiblemeetinglocations("Sommarugagasse").
-possiblemeetinglocations("Wampersdorf Bahnhof").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-restaurant("Seegasse").
-restaurant("Gatterburggasse").
-restaurant("Friedensbrücke").
-restaurant("Zehetnerg/Pflegeh Baumgarten").
-restaurant("Perntergasse").
-restaurant("Museumsquartier").
+initlocation(2,"Kendlerstraße").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Silberwald Bahnhof").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Rebhanngasse").
+sequence(2,0, "Kendlerstraße").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Hütteldorfer Str/Lützowgasse").
+restaurant("Schuhmeierplatz").
+restaurant("Kendlerstraße").
+restaurant("Felixdorf Bahnhof").
+restaurant("Guneschgasse").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Blumental").

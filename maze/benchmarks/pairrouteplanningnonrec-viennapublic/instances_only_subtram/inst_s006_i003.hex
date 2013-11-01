@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Dornbacher Straße").
-initlocation($p,"Börsegasse/Wipplingerstraße").
-initlocation($p,"Süßenbrunn").
-initlocation($p,"Spittelau").
-initlocation($p,"Fasangasse").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Dornbacher Straße").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Wildgansplatz").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Frödenplatz").
+initlocation(1,"Römergasse").
+sequence(1,0, "Thaliastraße").
 person(2).
-initlocation($p,"Sickenberggasse").
-initlocation($p,"Perntergasse").
-initlocation($p,"Elterleinplatz").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Mühlfeldgasse").
-initlocation($p,"Rampengasse").
-initlocation($p,"Sickenberggasse").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Tulln Stadt Bahnhof").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Gusenleithnergasse").
-possiblemeetinglocations("Wr Neustadt Nord").
-restaurant("Skodagasse").
-restaurant("Weigelsdorf Bahnhof").
-restaurant("Leyserstraße").
-restaurant("Perntergasse").
-restaurant("Paasdorf Bahnhof").
-restaurant("Johann-Strauß-Gasse").
+initlocation(2,"Kagraner Brücke").
+initlocation(2,"Klosterneuburg-Weidling Bf").
+initlocation(2,"Hütteldorfer Str/Lützowgasse").
+initlocation(2,"Tulln Stadt Bahnhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Trasdorf Bahnhof").
+sequence(2,0, "Kagraner Brücke").
+possiblemeetinglocations("Deutsch-Wagram Bahnhof").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Sickenberggasse").
+possiblemeetinglocations("Kölblgasse").
+possiblemeetinglocations("Schloss Hetzendorf").
+possiblemeetinglocations("Gewerbepark Stadlau Mitte").
+restaurant("Huglgasse").
+restaurant("Gaußplatz").
+restaurant("Schloss Belvedere").
+restaurant("Prandaugasse").
+restaurant("Schottenring").
+restaurant("Hermesstraße").

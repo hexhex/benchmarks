@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Zippererstraße").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Zippererstraße").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Großfeldsiedlung").
+initlocation(1,"Atzenbrugg Bahnhof").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Breitensee").
+sequence(1,0, "Siebenhirten").
 person(2).
-initlocation($p,"Perfektastraße").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Kagran").
-initlocation($p,"Perfektastraße").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Kledering Bahnhof").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Hennersdorf Bahnhof").
-possiblemeetinglocations("Trautmannsdorf/Leitha Bf").
-restaurant("Stephansplatz").
-restaurant("Stubentor").
-restaurant("Matzleinsdorfer Platz").
-restaurant("Kritzendorf Bahnhof").
-restaurant("Schweglerstraße").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Jedlersdorf").
+sequence(2,0, "Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Himberg Bahnhof").
+possiblemeetinglocations("Sollenau Bahnhof").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Parndorf Ort Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+restaurant("Staatz Bahnhof").
+restaurant("Herzogenburg Stadt").
+restaurant("Quartier Belvedere").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Franz-Josefs-Bahnhof").

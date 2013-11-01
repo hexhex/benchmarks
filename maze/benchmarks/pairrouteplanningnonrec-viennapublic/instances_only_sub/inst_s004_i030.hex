@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Grillgasse").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Schottenring").
-initlocation($p,"Grillgasse").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Tulln Bahnhof").
+sequence(1,0, "Jedlersdorf").
 person(2).
-initlocation($p,"Oberdöbling").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Seestadt").
-initlocation($p,"Oberdöbling").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Bruck/Leitha Bahnhof").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Strebersdorf").
-restaurant("Hütteldorfer Straße").
-restaurant("Siebenhirten (NÖ). Haltestelle").
-restaurant("Baden Bahnhof").
-restaurant("Vorgartenstraße").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Neue Donau").
+initlocation(2,"Kagran").
+sequence(2,0, "Hardeggasse").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+restaurant("Strasshof Bahnhof").
+restaurant("Neue Donau").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Parndorf Ort Bahnhof").

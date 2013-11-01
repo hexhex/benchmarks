@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Grillgasse").
-initlocation($p,"Liesing").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Stadion").
-initlocation($p,"Südtiroler Platz/Hauptbahnhof").
-initlocation($p,"Burggasse-Stadthalle").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Kaisermühlen-VIC").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Aspernstraße").
+sequence(1,0, "Oberolberndorf Bahnhof").
 person(2).
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Gumpendorfer Straße").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Alser Straße").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Bisamberg Bahnhof").
-initlocation($p,"Währinger Straße-Volksoper").
-possiblemeetinglocations("Westbahnhof").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Hütteldorfer Straße").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-restaurant("Felixdorf Bahnhof").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Niederhofstraße").
-restaurant("Theresienfeld Bahnhof").
-restaurant("Weidlingau Bahnhof").
-restaurant("Schweglerstraße").
-restaurant("Süßenbrunn").
-restaurant("Haslau an der Donau Bahnhof").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Hernals").
+initlocation(2,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Guntersdorf Bahnhof").
+sequence(2,0, "Aspern Nord").
+possiblemeetinglocations("Schlachthausgasse").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Gerasdorf Bahnhof").
+restaurant("Kaiserebersdorf").
+restaurant("Gumpoldskirchen Bahnhof").
+restaurant("Atzgersdorf").
+restaurant("Rennbahnweg").
+restaurant("Stadion").
+restaurant("Muckendorf-Wipfing Bahnhof").
+restaurant("Heiligenstadt").
+restaurant("Volkstheater").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Wilhelminenstr/Sandleitengasse").
-initlocation($p,"Obere Donaustraße").
-initlocation($p,"Quellenstraße/Knöllgasse").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Gerasdorf Bahnhof").
+initlocation(1,"Albertgasse").
+initlocation(1,"Schottentor").
+initlocation(1,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Margaretengürtel").
+sequence(1,0, "Albertgasse").
 person(2).
-initlocation($p,"Blumengasse").
-initlocation($p,"Quellenstraße/Favoritenstraße").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Wampersdorf Bahnhof").
-initlocation($p,"Hildebrandgasse").
-initlocation($p,"Mannswörth Bahnhof").
-initlocation($p,"Blumengasse").
-possiblemeetinglocations("Bösendorferstraße").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Zellerndorf Bahnhof").
-possiblemeetinglocations("Antonigasse").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-restaurant("Perchtoldsdorf Bahnhof").
-restaurant("Purkersdorf Zentrum Bahnhof").
-restaurant("Atzgersdorfer Straße").
-restaurant("Alfred-Adler-Straße").
-restaurant("Geiereckstraße").
-restaurant("Unterpurkersdorf Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Grinzinger Straße").
+initlocation(2,"Schmerlingplatz").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Rosensteingasse").
+sequence(2,0, "Hausfeldstraße").
+possiblemeetinglocations("Alser Straße").
+possiblemeetinglocations("Ottakringer Str/Erdbrustgasse").
+possiblemeetinglocations("Viehofen Bahnhof").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Bruck/Leitha Bahnhof").
+possiblemeetinglocations("Kliebergasse").
+restaurant("Schlickgasse").
+restaurant("Absberggasse").
+restaurant("Urban-Loritz-Platz").
+restaurant("Gruschaplatz").
+restaurant("Längenfeldgasse").
+restaurant("Satzberggasse").

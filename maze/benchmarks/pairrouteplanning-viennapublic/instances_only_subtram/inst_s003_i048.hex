@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Canisiusgasse").
-initlocation($p,"Waidhausenstraße").
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Canisiusgasse").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Thaliastraße/Haberlgasse").
+sequence(1,0, "Zehetnerg/Pflegeh Baumgarten").
 person(2).
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-possiblemeetinglocations("Braunschweiggasse").
-possiblemeetinglocations("Matzleinsdorfer Platz").
-possiblemeetinglocations("Untereggendorf Bahnhof").
-restaurant("Columbusplatz").
-restaurant("Sahulkastraße").
-restaurant("Antonigasse").
+initlocation(2,"Absberggasse").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Kranzgasse").
+sequence(2,0, "Absberggasse").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Kagran").
+possiblemeetinglocations("Friedrich-Engels-Platz").
+restaurant("Kagraner Platz").
+restaurant("Pötzleinsdorf").
+restaurant("Sechskrügelgasse").

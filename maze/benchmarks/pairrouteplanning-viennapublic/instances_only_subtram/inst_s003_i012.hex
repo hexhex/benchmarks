@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Rankgasse").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Erzherzog-Karl-Straße").
+initlocation(1,"Enkplatz").
+initlocation(1,"Camillo-Sitte-Gasse").
+initlocation(1,"Klosterneub Str/Wallensteinstr").
+sequence(1,0, "Enkplatz").
 person(2).
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Diesterweggasse").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Breitenwaida Bahnhof").
-possiblemeetinglocations("Mariahilfer Gürtel").
-possiblemeetinglocations("Canisiusgasse").
-possiblemeetinglocations("Nordbrücke").
-restaurant("Waidhausenstraße").
-restaurant("Pilgramgasse").
-restaurant("Troststraße/Neilreichgasse").
+initlocation(2,"Kraygasse").
+initlocation(2,"Oberzellergasse").
+initlocation(2,"Retz Bahnhof").
+sequence(2,0, "Kraygasse").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Neue Donau").
+possiblemeetinglocations("Wexstraße").
+restaurant("Hetzendorf").
+restaurant("Untertullnerbach Bahnhof").
+restaurant("Traismauer Bahnhof").

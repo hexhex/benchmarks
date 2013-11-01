@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Burggasse-Stadthalle").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Kagraner Brücke").
-initlocation($p,"Lobau").
-initlocation($p,"Zentralfriedhof 1Tor").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Linzer Straße/Lützowgasse").
+initlocation(1,"Kaiserstraße/Neustiftgasse").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Korneuburg Bahnhof").
+initlocation(1,"Diesterweggasse").
+initlocation(1,"Lange Gasse").
+initlocation(1,"Thaliastraße").
+initlocation(1,"Paulanergasse").
+initlocation(1,"Flughafen Wien (VIE). Bahnhof").
+initlocation(1,"Mannswörth Bahnhof").
+sequence(1,0, "Kaiserstraße/Neustiftgasse").
 person(2).
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Rampengasse").
-initlocation($p,"Skodagasse").
-initlocation($p,"Getzersdorf/Traisen Bahnhof").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Migerkastraße").
-initlocation($p,"Höchstädtplatz").
-initlocation($p,"Kettenbrückengasse").
-possiblemeetinglocations("Viehofen Bahnhof").
-possiblemeetinglocations("Salztorbrücke").
-possiblemeetinglocations("Baden Bahnhof").
-possiblemeetinglocations("Koppstraße/Panikengasse").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Schloss Hetzendorf").
-possiblemeetinglocations("Hardeggasse").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Unter Kritzendorf Bahnhof").
-restaurant("Favoritenstraße/Troststraße").
-restaurant("Wilhelminenstr/Sandleitengasse").
-restaurant("Gußhausstraße").
-restaurant("Bruck/Leitha Bahnhof").
-restaurant("Blindengasse").
-restaurant("Nußdorfer Straße").
-restaurant("Trasdorf Bahnhof").
-restaurant("Ottakring").
-restaurant("Laa an der Thaya Bahnhof").
+initlocation(2,"Karlsplatz").
+initlocation(2,"Beingasse").
+initlocation(2,"Donauspital").
+initlocation(2,"Stubentor").
+initlocation(2,"Wolf in der Au").
+initlocation(2,"Hütteldorfer Straße").
+initlocation(2,"Schöffelgasse").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Neulerchenfelder Str/Haberlg").
+sequence(2,0, "Karlsplatz").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+possiblemeetinglocations("Untertullnerbach Bahnhof").
+possiblemeetinglocations("Reinlgasse/Märzstraße").
+possiblemeetinglocations("Rußbergstraße").
+possiblemeetinglocations("Laudongasse").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Lobau").
+possiblemeetinglocations("Gredlerstraße").
+possiblemeetinglocations("Donauinsel").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Carminweg").
+restaurant("Alser Straße").
+restaurant("Althanstraße").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Columbusplatz").
+restaurant("Geiereckstraße").
+restaurant("Neubaugasse/Westbahnstraße").
+restaurant("Sieveringer Straße").

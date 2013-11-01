@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Taborstraße").
-initlocation($p,"Taborstraße").
+initlocation(1,"Rathaus").
+sequence(1,0, "Rathaus").
 person(2).
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-restaurant("Handelskai").
+initlocation(2,"Herrengasse").
+sequence(2,0, "Herrengasse").
+possiblemeetinglocations("Schönbrunn").
+restaurant("Unterradlberg Bahnhof").

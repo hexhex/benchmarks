@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Oberlaa, Therme Wien").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Forstnergasse").
-initlocation($p,"Enzersdorf bei Staatz Bahnhof").
-initlocation($p,"Grinzinger Straße").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Oberlaa, Therme Wien").
+initlocation(1,"Stadiongasse/Parlament").
+initlocation(1,"Linzer Straße/Johnstraße").
+initlocation(1,"Erzherzog-Karl-Straße").
+initlocation(1,"Beingasse").
+initlocation(1,"Krankenhaus Hietzing").
+initlocation(1,"Enkplatz").
+initlocation(1,"Paasdorf Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+initlocation(1,"Kleistgasse").
+sequence(1,0, "Stadiongasse/Parlament").
 person(2).
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Baden Bahnhof").
-initlocation($p,"Greifenstein-Altenberg Bahnhof").
-initlocation($p,"Stadion").
-initlocation($p,"Gunoldstraße").
-initlocation($p,"Schottenfeldgasse").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Hernals").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-possiblemeetinglocations("Kardinal-Nagl-Platz").
-possiblemeetinglocations("Leobersdorf Bahnhof").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Johann-Strauß-Gasse").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Rußbergstraße").
-possiblemeetinglocations("Schleinbach Bahnhof").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Anschützgasse").
-restaurant("Rodaun").
+initlocation(2,"Sillerplatz").
+initlocation(2,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(2,"Halteraugasse").
+initlocation(2,"Rodaun").
+initlocation(2,"Carabelligasse").
+initlocation(2,"Moosbierbaum-Heiligeneich Bf").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Gellertplatz").
+initlocation(2,"Scheibenbergstraße").
+sequence(2,0, "Sillerplatz").
+possiblemeetinglocations("Fasangasse").
+possiblemeetinglocations("Dornbacher Straße").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Franz-Asenbauer-Gasse").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Strebersdorf").
+possiblemeetinglocations("Thaliastraße/Haberlgasse").
+possiblemeetinglocations("Prater, Hauptallee").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Hubertusdamm").
 restaurant("Penzinger Straße").
-restaurant("Nordbrücke").
-restaurant("Julius-Raab-Platz").
-restaurant("Anton-Schall-Gasse").
-restaurant("Oberradlberg Bahnhof").
-restaurant("Mayssengasse").
-restaurant("Enkplatz").
-restaurant("Carabelligasse").
+restaurant("Ottakring").
+restaurant("Hausleiten Bahnhof").
+restaurant("Baumgarten").
+restaurant("Michelbeuern-AKH").
+restaurant("Glatzgasse").
+restaurant("Messe-Prater").

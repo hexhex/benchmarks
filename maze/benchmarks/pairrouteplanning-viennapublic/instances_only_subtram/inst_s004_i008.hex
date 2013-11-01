@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Resselgasse").
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Schlickgasse").
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"Resselgasse").
+initlocation(1,"Erlaaer Straße").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Handelskai").
+initlocation(1,"Michelhausen Bahnhof").
+sequence(1,0, "Erlaaer Straße").
 person(2).
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-initlocation($p,"Alte Donau").
-initlocation($p,"Eichenstraße").
-initlocation($p,"Oberlaa, Therme Wien").
-initlocation($p,"Linzer Straße/Hochsatzengasse").
-possiblemeetinglocations("Albertgasse").
-possiblemeetinglocations("Liechtenwerder Platz").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-restaurant("Antonigasse").
-restaurant("Fichtnergasse").
-restaurant("Riedelgasse").
-restaurant("Johannes-Krawarik-Gasse").
+initlocation(2,"Göllersdorf Bahnhof").
+initlocation(2,"Krieau").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Schönbrunn").
+sequence(2,0, "Göllersdorf Bahnhof").
+possiblemeetinglocations("Längenfeldgasse/Flurschützstr").
+possiblemeetinglocations("Skodagasse").
+possiblemeetinglocations("Geiselbergstraße").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+restaurant("Polgarstraße").
+restaurant("Brünner Straße/Hanreitergasse").
+restaurant("Längenfeldgasse/Flurschützstr").
+restaurant("Römergasse").

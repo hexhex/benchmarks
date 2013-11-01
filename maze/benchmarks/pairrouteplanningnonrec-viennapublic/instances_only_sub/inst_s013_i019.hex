@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Neusiedl am See Bahnhof").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Taborstraße").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Neusiedl am See Bahnhof").
+initlocation(1,"Strasshof Bahnhof").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Stubentor").
+initlocation(1,"Seyring Bahnhof").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Alser Straße").
+initlocation(1,"Unter Kritzendorf Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Tscherttegasse").
+sequence(1,0, "Strasshof Bahnhof").
 person(2).
-initlocation($p,"Grillgasse").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Nußdorf").
-initlocation($p,"Neulengbach Bahnhof").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Gersthof").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Breitensee").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Untereggendorf Bahnhof").
-initlocation($p,"Grillgasse").
-possiblemeetinglocations("Neue Donau").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Siemensstraße").
-possiblemeetinglocations("Josefstädter Straße").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Aderklaaer Straße").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
-possiblemeetinglocations("Siebenhirten").
-possiblemeetinglocations("Höflein an der Donau Bahnhof").
-possiblemeetinglocations("Dresdner Straße").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Silberwald Bahnhof").
-restaurant("Rennbahnweg").
-restaurant("Gersthof").
-restaurant("Göllersdorf Bahnhof").
-restaurant("Donaustadtbrücke").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Aderklaaer Straße").
-restaurant("Kagran").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Paasdorf Bahnhof").
-restaurant("Baden Bahnhof").
-restaurant("Zippererstraße").
+initlocation(2,"Untereggendorf Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Achau Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Guntramsdorf-Thallern").
+initlocation(2,"Vorgartenstraße").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Erzherzog-Karl-Straße").
+initlocation(2,"Hausfeldstraße").
+sequence(2,0, "Untereggendorf Bahnhof").
+possiblemeetinglocations("Hausfeldstraße").
+possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
+possiblemeetinglocations("Bahnhof Meidling").
+possiblemeetinglocations("Kaiserebersdorf").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Nußdorf").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").
+restaurant("Messe-Prater").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Haidestraße").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Donaumarina").
+restaurant("Westbahnhof").
+restaurant("Neue Donau").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Ober Sankt Veit").
+restaurant("Stadion").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Kottingneusiedl Bahnhof").

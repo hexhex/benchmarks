@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Kardinal-Nagl-Platz").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Blumental").
-initlocation($p,"Fischamend Bahnhof").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Dürrwien Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Schönbrunn").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Gaisruck Bahnhof").
+initlocation(1,"Tscherttegasse").
+initlocation(1,"Dürrwien Bahnhof").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Gramatneusiedl Bahnhof").
+sequence(1,0, "Kapellerfeld Bahnhof").
 person(2).
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Volkstheater").
-initlocation($p,"Hetzmannsdorf-Wullersdorf Bf").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Zellerndorf Bahnhof").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Hausleiten Bahnhof").
-possiblemeetinglocations("Franz-Josefs-Bahnhof").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-possiblemeetinglocations("Herzogenburg Bahnhof").
-possiblemeetinglocations("Stadtpark").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Tullnerbach-Pressbaum Bahnhof").
-possiblemeetinglocations("Gaisruck Bahnhof").
-restaurant("Floridsdorf").
-restaurant("Donauinsel").
-restaurant("Kagraner Platz").
-restaurant("Nestroyplatz").
-restaurant("Stadlau").
-restaurant("Schwechat Bahnhof").
-restaurant("Krottenbachstraße").
-restaurant("Hadersdorf Bahnhof").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Siebenhirten (NÖ). Haltestelle").
+initlocation(2,"Traismauer Bahnhof").
+initlocation(2,"Herzogenburg Bahnhof").
+initlocation(2,"Oberolberndorf Bahnhof").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Tulln Bahnhof").
+initlocation(2,"Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Alte Donau").
+sequence(2,0, "Siebenhirten (NÖ). Haltestelle").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Wr Neustadt Civitas Nova").
+possiblemeetinglocations("Praterstern").
+possiblemeetinglocations("Götzendorf Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Perchtoldsdorf Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Herrengasse").
+restaurant("Kledering Bahnhof").
+restaurant("Erdberg").
+restaurant("Stadion").
+restaurant("Neubaugasse").
+restaurant("Donauspital").
+restaurant("Achau Bahnhof").
+restaurant("Kaiserebersdorf").
+restaurant("Siemensstraße").
+restaurant("Enzersdorf bei Staatz Bahnhof").

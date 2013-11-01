@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Regelsbrunn Bahnhof").
+initlocation(1,"Julius-Raab-Platz").
+initlocation(1,"Gruschaplatz").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Gumpoldskirchen Bahnhof").
+sequence(1,0, "Julius-Raab-Platz").
 person(2).
-initlocation($p,"Ottakring").
-initlocation($p,"Alfred-Adler-Straße").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Ottakring").
-possiblemeetinglocations("Zentralfriedhof 4Tor").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Dr-Karl-Renner-Ring").
-restaurant("Schloss Schönbrunn").
-restaurant("Börsegasse/Wipplingerstraße").
-restaurant("Mühlfeldgasse").
-restaurant("Staglgasse").
+initlocation(2,"Oberfeldgasse/Spargelfeldstr").
+initlocation(2,"Ober Sankt Veit").
+initlocation(2,"Joachimsthalerplatz").
+initlocation(2,"Mayssengasse").
+sequence(2,0, "Oberfeldgasse/Spargelfeldstr").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Donauzentrum").
+possiblemeetinglocations("Hennersdorf Bahnhof").
+possiblemeetinglocations("Neusiedl am See Bahnhof").
+restaurant("Bernhardtstalgasse").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Enkplatz").
+restaurant("Hirschstetten").

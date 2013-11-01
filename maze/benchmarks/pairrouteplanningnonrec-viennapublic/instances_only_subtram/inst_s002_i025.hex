@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Wolfsthal Bahnhof").
-initlocation($p,"Dürrwien Bahnhof").
+initlocation(1,"Kottingbrunn Bahnhof").
+initlocation(1,"Löwengasse").
+sequence(1,0, "Kottingbrunn Bahnhof").
 person(2).
-initlocation($p,"Braunhubergasse").
-initlocation($p,"Guntherstraße").
-initlocation($p,"Braunhubergasse").
-possiblemeetinglocations("Gaisruck Bahnhof").
-possiblemeetinglocations("Silbergasse").
-restaurant("Gunoldstraße").
-restaurant("Eichgraben-Altlengbach Bahnhof").
+initlocation(2,"Langenzersdorf Bahnhof").
+initlocation(2,"Kaiserstraße").
+sequence(2,0, "Langenzersdorf Bahnhof").
+possiblemeetinglocations("Türkenschanzplatz").
+possiblemeetinglocations("Elterleinplatz").
+restaurant("Gellertplatz").
+restaurant("Albertgasse").

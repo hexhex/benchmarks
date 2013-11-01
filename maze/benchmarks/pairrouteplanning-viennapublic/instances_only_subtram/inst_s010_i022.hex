@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Brünnlbadgasse").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Leobersdorf Bahnhof").
-initlocation($p,"Am Heidjöchl/Hausfeldstraße").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Ottakringer Str/Erdbrustgasse").
-initlocation($p,"Kottingbrunn Bahnhof").
+initlocation(1,"Albertgasse").
+initlocation(1,"Roßauer Lände").
+initlocation(1,"Satzberggasse").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+initlocation(1,"Unter Sankt Veit").
+initlocation(1,"Kölblgasse").
+initlocation(1,"Schlickgasse").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Thaliastraße/Feßtgasse").
+sequence(1,0, "Albertgasse").
 person(2).
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Blechturmgasse").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Floridsdorfer Markt").
-initlocation($p,"Hernalser Hauptstr/Wattgasse").
-initlocation($p,"Am Tabor").
-initlocation($p,"Pilgramgasse").
-initlocation($p,"Winckelmannstraße").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Deutsch-Wagram Bahnhof").
-possiblemeetinglocations("Hofwiesengasse").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Ameisgasse").
-possiblemeetinglocations("Perntergasse").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Brigittaplatz").
-possiblemeetinglocations("Wr Neustadt Nord").
-restaurant("Gersthofer Str/Scheibenbergstr").
-restaurant("St Andrä-Wördern Bahnhof").
-restaurant("Nußdorfer Str/Alserbachstraße").
-restaurant("Leberberg").
-restaurant("Karlsplatz").
-restaurant("Arminenstraße").
-restaurant("Weihburggasse").
-restaurant("Gellertplatz").
-restaurant("Ladendorf Bahnhof").
-restaurant("Sickenberggasse").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Lerchenfelder Straße").
+initlocation(2,"Franzensbrücke").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Wattmanngasse").
+initlocation(2,"Oberlaa, Therme Wien").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+sequence(2,0, "Wallrißstraße").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Arminenstraße").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Kaiserstraße/Burggasse").
+possiblemeetinglocations("Nußdorf, Beethovengang").
+possiblemeetinglocations("Brünnlbadgasse").
+possiblemeetinglocations("Bad Vöslau Bahnhof").
+restaurant("Anton-Schall-Gasse").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Unterradlberg Bahnhof").
+restaurant("Blechturmgasse").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Siemensstraße").
+restaurant("Nußdorfer Straße").
+restaurant("Ottakringer Straße/Wattgasse").
+restaurant("Molitorgasse").
+restaurant("Rodaun").

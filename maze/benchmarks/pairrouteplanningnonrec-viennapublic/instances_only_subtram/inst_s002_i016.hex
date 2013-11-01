@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Sierndorf Bahnhof").
-initlocation($p,"Stefan-Fadinger-Platz").
-initlocation($p,"Sierndorf Bahnhof").
+initlocation(1,"Obere Augartenstraße").
+initlocation(1,"Göllersdorf Bahnhof").
+sequence(1,0, "Obere Augartenstraße").
 person(2).
-initlocation($p,"Baumgasse").
-initlocation($p,"Penzinger Straße").
-initlocation($p,"Baumgasse").
-possiblemeetinglocations("Zentralfriedhof 2Tor").
-possiblemeetinglocations("Kagraner Platz").
-restaurant("Liechtenwerder Platz").
-restaurant("Sillerplatz").
+initlocation(2,"Alterlaa").
+initlocation(2,"Dr-Karl-Renner-Ring").
+sequence(2,0, "Alterlaa").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Rennbahnweg").
+restaurant("Theresienfeld Bahnhof").
+restaurant("Gunoldstraße").

@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Plößlgasse").
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Erndtgasse").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Plößlgasse").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Hütteldorfer Straße").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Guntherstraße").
+initlocation(1,"Himmelmutterweg").
+sequence(1,0, "Bisamberg Bahnhof").
 person(2).
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Blindengasse").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Eichenstraße").
-initlocation($p,"Münchendorf Bahnhof").
-possiblemeetinglocations("Liebknechtgasse").
-possiblemeetinglocations("Koppstraße/Panikengasse").
-possiblemeetinglocations("Bahnhof Meidling").
-possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-restaurant("Kaiserstraße").
-restaurant("Mayerhofgasse").
-restaurant("Herrengasse").
-restaurant("Schleinbach Bahnhof").
-restaurant("Hintere Zollamtsstraße").
+initlocation(2,"Raxstraße/Rudolfshügelgasse").
+initlocation(2,"Breitensee").
+initlocation(2,"Thaliastraße/Brunnengasse").
+initlocation(2,"Ameisgasse").
+initlocation(2,"Albertgasse").
+sequence(2,0, "Raxstraße/Rudolfshügelgasse").
+possiblemeetinglocations("Absberggasse").
+possiblemeetinglocations("Prinzgasse").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Rampengasse").
+possiblemeetinglocations("Mödling Bahnhof").
+restaurant("Kardinal-Nagl-Platz").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Schloss Belvedere").
+restaurant("Beingasse").
+restaurant("Kagran").

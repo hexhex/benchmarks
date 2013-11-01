@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Alser Straße").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Wolf in der Au").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Enzersdorf bei Staatz Bahnhof").
+initlocation(1,"Kaiserebersdorf").
+initlocation(1,"Fischamend Bahnhof").
+sequence(1,0, "Nestroyplatz").
 person(2).
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Ladendorf Bahnhof").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Quartier Belvedere").
-restaurant("Nußdorfer Straße").
-restaurant("Burggasse-Stadthalle").
-restaurant("Retz Bahnhof").
-restaurant("Alser Straße").
+initlocation(2,"Praterstern").
+initlocation(2,"Unter Sankt Veit").
+initlocation(2,"Wolkersdorf Bahnhof").
+initlocation(2,"Liesing").
+sequence(2,0, "Praterstern").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Rochusgasse").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+restaurant("Absdorf-Hippersdorf Bahnhof").
+restaurant("Mödling Bahnhof").
+restaurant("Pilgramgasse").
+restaurant("Moosbierbaum-Heiligeneich Bf").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Margaretengürtel/Arbeitergasse").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Dresdner Straße").
+initlocation(1,"Enkplatz").
+initlocation(1,"Währinger Straße-Volksoper").
+initlocation(1,"Stadion").
+initlocation(1,"Rennweg").
+initlocation(1,"Höbersdorf Bahnhof").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Vinzenzgasse").
+sequence(1,0, "Enkplatz").
 person(2).
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Haidestraße").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Donauzentrum").
-initlocation($p,"Carabelligasse").
-initlocation($p,"Klosterneub Str/Wallensteinstr").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-possiblemeetinglocations("Brünner Straße").
-possiblemeetinglocations("Stefan-Fadinger-Platz").
-possiblemeetinglocations("Otto-Probst-Straße").
-possiblemeetinglocations("Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Wallensteinplatz").
-possiblemeetinglocations("Gellertplatz").
-restaurant("Huglgasse").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Dommayergasse").
-restaurant("Hermesstraße").
-restaurant("Pfaffstätten Bahnhof").
-restaurant("Gunoldstraße").
-restaurant("Breitenfurter Str/Liesingbr").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Laurenzgasse").
+initlocation(2,"St Andrä-Wördern Bahnhof").
+initlocation(2,"Stadiongasse/Parlament").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Brigittaplatz").
+sequence(2,0, "Verbindungsbahn").
+possiblemeetinglocations("Eckpergasse").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+possiblemeetinglocations("Herzogenburg Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Bösendorferstraße").
+possiblemeetinglocations("Tulln Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+restaurant("Alser Straße").
+restaurant("Guntherstraße").
+restaurant("Windtenstraße").
+restaurant("Gemeinlebarn Bahnhof").
+restaurant("Marxergasse").
+restaurant("Johann-Strauß-Gasse").
+restaurant("Silbergasse").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Johnstraße").
-initlocation($p,"Gänserndorf Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Museumsquartier").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Obereggendorf Bahnhof").
-initlocation($p,"Johnstraße").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Taubstummengasse").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Rathaus").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Maria Ellend Bahnhof").
+sequence(1,0, "Sitzenberg-Reidling Bahnhof").
 person(2).
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Reumannplatz").
-initlocation($p,"Vorgartenstraße").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Deutsch-Wagram Bahnhof").
-initlocation($p,"Unterradlberg Bahnhof").
-initlocation($p,"Hütteldorf").
-initlocation($p,"Kapellerfeld Bahnhof").
-possiblemeetinglocations("Heiligenstadt").
-possiblemeetinglocations("Johnstraße").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Schottentor").
-possiblemeetinglocations("Sierndorf Bahnhof").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Erdberg").
-restaurant("Kapellerfeld Bahnhof").
-restaurant("Dürrwien Bahnhof").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Neubaugasse").
-restaurant("Pottendorf-Landegg Bahnhof").
-restaurant("Michelbeuern-AKH").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Donauspital").
+initlocation(2,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Maria Ellend Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Messe-Prater").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Leobersdorf Bahnhof").
+sequence(2,0, "Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Hietzing").
+possiblemeetinglocations("Platt Bahnhof").
+possiblemeetinglocations("Stadlau").
+possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Gemeinlebarn Bahnhof").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Obersdorf Bahnhof").
+restaurant("Sitzenberg-Reidling Bahnhof").
+restaurant("Keplerplatz").
+restaurant("Dresdner Straße").
+restaurant("Zeiselmauer-Königstetten Bf").
+restaurant("Kaisermühlen-VIC").
+restaurant("Quartier Belvedere").
+restaurant("Moosbierbaum-Heiligeneich Bf").
+restaurant("Neusiedl am See Bahnhof").

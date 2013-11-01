@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Anton-Krieger-Gasse").
-initlocation($p,"Franz-Asenbauer-Gasse").
-initlocation($p,"Thaliastraße/Haberlgasse").
-initlocation($p,"Anton-Krieger-Gasse").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Redtenbachergasse").
+initlocation(1,"Maurer Hauptplatz").
+sequence(1,0, "Unterradlberg Bahnhof").
 person(2).
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Hohe Warte").
-initlocation($p,"Schlachthausgasse").
-possiblemeetinglocations("Bösendorferstraße").
-possiblemeetinglocations("Thaliastraße/Maroltingergasse").
-possiblemeetinglocations("Leopoldau").
-restaurant("Oberzellergasse").
-restaurant("Camillo-Sitte-Gasse").
-restaurant("Untereggendorf Bahnhof").
+initlocation(2,"Stubentor").
+initlocation(2,"Prinzgasse").
+initlocation(2,"Haslau an der Donau Bahnhof").
+sequence(2,0, "Stubentor").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Silberwald Bahnhof").
+possiblemeetinglocations("Wenzgasse").
+restaurant("Stollgasse").
+restaurant("Kutschkergasse").
+restaurant("Alterlaa").

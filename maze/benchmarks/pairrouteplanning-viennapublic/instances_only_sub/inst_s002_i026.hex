@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Hollabrunn Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Donauinsel").
+sequence(1,0, "Muckendorf-Wipfing Bahnhof").
 person(2).
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Bruck/Leitha Bahnhof").
-initlocation($p,"Schwechat Bahnhof").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Seyring Bahnhof").
-restaurant("Ebenfurth Bahnhof").
-restaurant("Hirschstetten").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Ober Sankt Veit").
+sequence(2,0, "Niederhofstraße").
+possiblemeetinglocations("Hütteldorfer Straße").
+possiblemeetinglocations("Sierndorf Bahnhof").
+restaurant("Tscherttegasse").
+restaurant("Wr Neustadt Civitas Nova").

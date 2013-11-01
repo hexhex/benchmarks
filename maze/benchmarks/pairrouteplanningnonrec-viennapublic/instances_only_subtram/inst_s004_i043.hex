@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Saikogasse").
-initlocation($p,"Langenlebarn Bahnhof").
-initlocation($p,"Otto-Probst-Platz").
-initlocation($p,"Rauscherstraße").
+initlocation(1,"Johannes-Krawarik-Gasse").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Heinrich-Drimmel-Platz").
+initlocation(1,"Trautmannsdorf/Leitha Bf").
+sequence(1,0, "Johannes-Krawarik-Gasse").
 person(2).
-initlocation($p,"Vinzenzgasse").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Edmund-Hawranek-Platz").
-initlocation($p,"Vinzenzgasse").
-possiblemeetinglocations("Fultonstraße").
-possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Migerkastraße").
-restaurant("Schlickgasse").
-restaurant("Heinrich-Drimmel-Platz").
-restaurant("Ameisgasse").
-restaurant("Sonnergasse").
+initlocation(2,"Maurer Lange Gasse").
+initlocation(2,"Prater, Hauptallee").
+initlocation(2,"Wolfsthal Bahnhof").
+initlocation(2,"Süßenbrunn").
+sequence(2,0, "Maurer Lange Gasse").
+possiblemeetinglocations("Kliebergasse").
+possiblemeetinglocations("Dommayergasse").
+possiblemeetinglocations("Lerchenfelder Straße").
+possiblemeetinglocations("Gloriettegasse").
+restaurant("Edmund-Hawranek-Platz").
+restaurant("Hintere Zollamtsstraße").
+restaurant("Neuwaldegg").
+restaurant("Thaliastraße").

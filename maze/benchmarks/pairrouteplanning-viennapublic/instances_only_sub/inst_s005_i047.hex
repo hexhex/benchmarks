@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Guntersdorf Bahnhof").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Margaretengürtel").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Donauinsel").
-initlocation($p,"Guntersdorf Bahnhof").
+initlocation(1,"Siebenhirten").
+initlocation(1,"Hirschstetten").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Guntramsdorf-Thallern").
+initlocation(1,"Aspernstraße").
+sequence(1,0, "Siebenhirten").
 person(2).
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Ober Sankt Veit").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Rathaus").
-possiblemeetinglocations("Volkstheater").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Achau Bahnhof").
-restaurant("Grillgasse").
-restaurant("Hennersdorf Bahnhof").
-restaurant("Margaretengürtel").
-restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Siemensstraße").
+initlocation(2,"Spillern Bahnhof").
+initlocation(2,"Schottenring").
+initlocation(2,"Schleinbach Bahnhof").
+initlocation(2,"Margaretengürtel").
+initlocation(2,"Südtiroler Platz/Hauptbahnhof").
+sequence(2,0, "Spillern Bahnhof").
+possiblemeetinglocations("Schottenring").
+possiblemeetinglocations("Bisamberg Bahnhof").
+possiblemeetinglocations("Perfektastraße").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Donaustadtbrücke").
+restaurant("Viehofen Bahnhof").
+restaurant("Herrengasse").
+restaurant("Traismauer Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Tscherttegasse").

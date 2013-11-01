@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Saikogasse").
-initlocation($p,"Längenfeldgasse/Flurschützstr").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"Nußdorfer Str/Alserbachstraße").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Otto-Probst-Platz").
-initlocation($p,"Nußdorf, Beethovengang").
-initlocation($p,"Seestadt").
-initlocation($p,"Saikogasse").
+initlocation(1,"Stadiongasse/Parlament").
+initlocation(1,"Untertullnerbach Bahnhof").
+initlocation(1,"Hörersdorf Bahnhof").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Rampengasse").
+initlocation(1,"Perntergasse").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Herrengasse").
+initlocation(1,"Stammersdorf").
+sequence(1,0, "Stadiongasse/Parlament").
 person(2).
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Kölblgasse").
-initlocation($p,"Brigittaplatz").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Grillgasse").
-initlocation($p,"Wexstraße").
-initlocation($p,"Zieglergasse/Westbahnstraße").
-initlocation($p,"Donaustadtstraße").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Purkersdorf Sanatorium").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Museumsquartier").
-possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Obere Augartenstraße").
-possiblemeetinglocations("Grinzinger Straße").
-possiblemeetinglocations("Kutschkergasse").
-restaurant("Winckelmannstraße").
-restaurant("Am Tabor").
-restaurant("Windtenstraße").
-restaurant("Lerchenfelder Straße").
-restaurant("Schwedenplatz").
-restaurant("Pokornygasse").
-restaurant("Albertgasse").
-restaurant("Nußdorfer Str/Alserbachstraße").
-restaurant("Nußdorf").
+initlocation(2,"Breitenwaida Bahnhof").
+initlocation(2,"Neubaugasse/Westbahnstraße").
+initlocation(2,"Alaudagasse").
+initlocation(2,"Weißenböckstraße").
+initlocation(2,"Kettenbrückengasse").
+initlocation(2,"Prandaugasse").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Kölblgasse").
+initlocation(2,"Litfaßstraße").
+sequence(2,0, "Breitenwaida Bahnhof").
+possiblemeetinglocations("Börsegasse/Wipplingerstraße").
+possiblemeetinglocations("Schottenfeldgasse").
+possiblemeetinglocations("Vinzenzgasse").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Grillgasse").
+possiblemeetinglocations("Hoßplatz").
+possiblemeetinglocations("Klosterneub Str/Wallensteinstr").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Bösendorferstraße").
+restaurant("Blumental").
+restaurant("Leberberg").
+restaurant("Messe-Prater").
+restaurant("Urban-Loritz-Platz").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Geiereckstraße").
+restaurant("Pötzleinsdorf").
+restaurant("Halteraugasse").
+restaurant("Perfektastraße").

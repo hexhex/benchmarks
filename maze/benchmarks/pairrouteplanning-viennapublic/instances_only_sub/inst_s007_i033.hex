@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Schönborn Bahnhof").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Stubentor").
-initlocation($p,"Bad Deutsch-Altenburg Bahnhof").
-initlocation($p,"Herzogenburg Bahnhof").
-initlocation($p,"Leopoldau").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Schönborn Bahnhof").
+initlocation(1,"Liesing").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Taborstraße").
+initlocation(1,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(1,"Praterstern").
+sequence(1,0, "Liesing").
 person(2).
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Schottentor").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Rennweg").
-initlocation($p,"Wolf in der Au").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Guntramsdorf-Thallern").
-possiblemeetinglocations("Zieglergasse").
-possiblemeetinglocations("Handelskai").
-possiblemeetinglocations("Bisamberg Bahnhof").
-possiblemeetinglocations("Preyergasse/Speising").
-possiblemeetinglocations("Oberolberndorf Bahnhof").
-possiblemeetinglocations("Traisengasse").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Tullnerbach-Pressbaum Bahnhof").
-restaurant("Trasdorf Bahnhof").
-restaurant("Johnstraße").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Weidlingau Bahnhof").
-restaurant("Spillern Bahnhof").
+initlocation(2,"Schwechat Bahnhof").
+initlocation(2,"Frättingsdorf Bahnhof").
+initlocation(2,"Neulengbach Bahnhof").
+initlocation(2,"Hetzmannsdorf-Wullersdorf Bf").
+initlocation(2,"Oberradlberg Bahnhof").
+initlocation(2,"Hörersdorf Bahnhof").
+initlocation(2,"Unter Sankt Veit").
+sequence(2,0, "Schwechat Bahnhof").
+possiblemeetinglocations("Stockerau Bahnhof").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Alterlaa").
+possiblemeetinglocations("Donaustadtbrücke").
+possiblemeetinglocations("Dürrwien Bahnhof").
+restaurant("Dürrwien Bahnhof").
+restaurant("Tulln Bahnhof").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Kagran").
+restaurant("Sollenau Bahnhof").
+restaurant("Hütteldorf").
+restaurant("Laa an der Thaya Bahnhof").

@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Blumental").
-initlocation($p,"Saikogasse").
-initlocation($p,"Wexstraße").
-initlocation($p,"Gredlerstraße").
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"Stadtpark").
-initlocation($p,"Kettenbrückengasse").
-initlocation($p,"Blumental").
+initlocation(1,"Fultonstraße").
+initlocation(1,"Geiereckstraße").
+initlocation(1,"Hütteldorf, Bujattigasse").
+initlocation(1,"Preyergasse/Speising").
+initlocation(1,"Salztorbrücke").
+initlocation(1,"Perfektastraße").
+initlocation(1,"Floridsdorfer Markt").
+initlocation(1,"Altes Landgut").
+sequence(1,0, "Fultonstraße").
 person(2).
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Klosterneub Str/Wallensteinstr").
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Lerchenfelder Straße").
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-possiblemeetinglocations("Burgring").
-possiblemeetinglocations("Linzer Straße/Johnstraße").
-possiblemeetinglocations("Vinzenzgasse").
-possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
+initlocation(2,"Schloss Belvedere").
+initlocation(2,"Zentralfriedhof").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Brünner Straße/Hanreitergasse").
+initlocation(2,"Untertullnerbach Bahnhof").
+initlocation(2,"Lange Gasse").
+initlocation(2,"Wallensteinplatz").
+sequence(2,0, "Schloss Belvedere").
+possiblemeetinglocations("Staatz Bahnhof").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Korneuburg Bahnhof").
 possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-restaurant("Bad Vöslau Bahnhof").
-restaurant("Rodaun").
-restaurant("Neulengbach Bahnhof").
-restaurant("Arthaberplatz").
-restaurant("Siebenhirten").
-restaurant("Korneuburg Bahnhof").
-restaurant("Donaustadtstraße").
-restaurant("Knöllgasse/Troststraße").
+possiblemeetinglocations("Johann-Strauß-Gasse").
+possiblemeetinglocations("Bauernfeldplatz").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Elterleinplatz").
+restaurant("Thaliastraße/Maroltingergasse").
+restaurant("Rauscherstraße").
+restaurant("Eckpergasse").
+restaurant("Pötzleinsdorf").
+restaurant("Martinstraße").
+restaurant("Kritzendorf Bahnhof").
+restaurant("Tulln Bahnhof").
+restaurant("Glatzgasse").

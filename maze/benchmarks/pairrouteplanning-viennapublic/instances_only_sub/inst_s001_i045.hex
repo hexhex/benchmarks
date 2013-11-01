@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Erzherzog-Karl-Straße").
+initlocation(1,"Museumsquartier").
+sequence(1,0, "Museumsquartier").
 person(2).
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-possiblemeetinglocations("Neubau-Kreuzstetten Bahnhof").
-restaurant("Himberg Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+sequence(2,0, "Hausleiten Bahnhof").
+possiblemeetinglocations("Blumental").
+restaurant("Oberradlberg Bahnhof").

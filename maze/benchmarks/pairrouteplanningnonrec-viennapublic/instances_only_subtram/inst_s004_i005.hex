@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Schlickgasse").
-initlocation($p,"Hoßplatz").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Schlickgasse").
+initlocation(1,"Gunoldstraße").
+initlocation(1,"Althanstraße").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Unterpurkersdorf Bahnhof").
+sequence(1,0, "Gunoldstraße").
 person(2).
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Strozzigasse").
-initlocation($p,"Schlachthausgasse").
-possiblemeetinglocations("Am Heidjöchl").
-possiblemeetinglocations("Stadion").
-possiblemeetinglocations("Hintere Zollamtsstraße").
-possiblemeetinglocations("Schönborn Bahnhof").
-restaurant("Reinlgasse/Märzstraße").
-restaurant("Krieau").
-restaurant("Fichtnergasse").
-restaurant("Hohe Warte").
+initlocation(2,"Gunoldstraße").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Riedelgasse").
+initlocation(2,"Purkersdorf Zentrum Bahnhof").
+sequence(2,0, "Gunoldstraße").
+possiblemeetinglocations("Bahnhofstraße").
+possiblemeetinglocations("Linzer Straße/Johnstraße").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Prandaugasse").
+restaurant("Schottentor").
+restaurant("Hetzgasse").
+restaurant("Gerhardusgasse").
+restaurant("Kaisermühlen-VIC").

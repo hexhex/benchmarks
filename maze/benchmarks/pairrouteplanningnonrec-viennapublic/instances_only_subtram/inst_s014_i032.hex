@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Lobau").
-initlocation($p,"Johannes-Krawarik-Gasse").
-initlocation($p,"Canisiusgasse").
-initlocation($p,"Herrengasse").
-initlocation($p,"Volkstheater").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Gerasdorf Bahnhof").
-initlocation($p,"Brünner Straße/Hanreitergasse").
-initlocation($p,"Gasometer").
-initlocation($p,"Pottendorf-Landegg Bahnhof").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Aumannplatz").
-initlocation($p,"Viehmarktgasse").
+initlocation(1,"Ebenfurth Bahnhof").
+initlocation(1,"Wattmanngasse").
+initlocation(1,"Quellenstraße/Favoritenstraße").
+initlocation(1,"An den langen Lüssen").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Krieau").
+initlocation(1,"Edmund-Hawranek-Platz").
+initlocation(1,"Höchstädtplatz").
+initlocation(1,"Johann-Strauß-Gasse").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Neubau-Kreuzstetten Bahnhof").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Resselgasse").
+initlocation(1,"Hütteldorfer Straße").
+sequence(1,0, "Ebenfurth Bahnhof").
 person(2).
-initlocation($p,"Gusenleithnergasse").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Brigittaplatz").
-initlocation($p,"Paulanergasse").
-initlocation($p,"Silberwald Bahnhof").
-initlocation($p,"Hernalser Gürtel").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Geiereckstraße").
-initlocation($p,"Gusenleithnergasse").
-possiblemeetinglocations("Bösendorferstraße").
-possiblemeetinglocations("Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Wolfsthal Bahnhof").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Atzgersdorfer Straße").
-possiblemeetinglocations("Waidhausenstraße").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Süßenbrunn").
-possiblemeetinglocations("Taborstraße/Heinestraße").
-possiblemeetinglocations("Glatzgasse").
+initlocation(2,"Oberfeldgasse").
+initlocation(2,"Beingasse").
+initlocation(2,"Alterlaa").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Breitensee").
+initlocation(2,"Quellenstraße/Favoritenstraße").
+initlocation(2,"Sensengasse").
+initlocation(2,"Himmelmutterweg").
+initlocation(2,"Tullnerfeld Bahnhof").
+initlocation(2,"Konstanziagasse").
+initlocation(2,"Rußbergstraße").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Siebertgasse").
+initlocation(2,"Schönbrunn").
+sequence(2,0, "Oberfeldgasse").
+possiblemeetinglocations("Breitensee").
+possiblemeetinglocations("Gutraterplatz").
+possiblemeetinglocations("Krieau").
 possiblemeetinglocations("Rustengasse").
-possiblemeetinglocations("Ulrichskirchen Bahnhof").
-possiblemeetinglocations("Weihburggasse").
-possiblemeetinglocations("Preyergasse/Speising").
-restaurant("Münchendorf Bahnhof").
-restaurant("Rosenhügelstraße").
-restaurant("Glatzgasse").
-restaurant("Seegasse").
-restaurant("Thaliastraße/Maroltingergasse").
-restaurant("Rankgasse").
-restaurant("Schöffelgasse").
-restaurant("Enkplatz").
-restaurant("Längenfeldgasse").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Fichtnergasse").
-restaurant("Leyserstraße").
-restaurant("Dommayergasse").
-restaurant("Oberlaa, Therme Wien").
+possiblemeetinglocations("Lederergasse").
+possiblemeetinglocations("Hainburg/Donau Personenbhf").
+possiblemeetinglocations("Mayerhofgasse").
+possiblemeetinglocations("Koppstraße/Panikengasse").
+possiblemeetinglocations("Anton-Schall-Gasse").
+possiblemeetinglocations("Kagraner Brücke").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Wilhelminenstr/Sandleitengasse").
+possiblemeetinglocations("Margaretengürtel").
+possiblemeetinglocations("Hohe Warte").
+restaurant("Otto-Probst-Straße").
+restaurant("Kleistgasse").
+restaurant("Verbindungsbahn").
+restaurant("Wienerfeldgasse").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Donaustadtbrücke").
+restaurant("Aumannplatz").
+restaurant("Schloss Belvedere").
+restaurant("Thaliastraße/Feßtgasse").
+restaurant("Rennbahnweg").
+restaurant("Thaliastraße/Brunnengasse").
+restaurant("Hubertusdamm").
+restaurant("Josefstädter Straße").

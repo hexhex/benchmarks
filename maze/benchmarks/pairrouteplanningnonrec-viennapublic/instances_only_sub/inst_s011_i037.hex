@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Rathaus").
-initlocation($p,"Dresdner Straße").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Praterstern").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Laa an der Thaya Bahnhof").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Hietzing").
-initlocation($p,"St Pölten Hauptbahnhof").
-initlocation($p,"Niederhofstraße").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Rathaus").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Burggasse-Stadthalle").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Sitzenberg-Reidling Bahnhof").
+initlocation(1,"Oberolberndorf Bahnhof").
+initlocation(1,"Retz Bahnhof").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Volkstheater").
+initlocation(1,"Hautzendorf Bahnhof").
+sequence(1,0, "Kritzendorf Bahnhof").
 person(2).
-initlocation($p,"Neubaugasse").
-initlocation($p,"Ottakring").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Wr Neustadt Nord").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Kottingbrunn Bahnhof").
-initlocation($p,"Lobau").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Neubaugasse").
-possiblemeetinglocations("Wr Neustadt Civitas Nova").
-possiblemeetinglocations("Götzendorf Bahnhof").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Liesing").
-possiblemeetinglocations("Hörersdorf Bahnhof").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Himberg Bahnhof").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Wr Neustadt Nord").
-restaurant("Volkstheater").
-restaurant("Aspern Nord").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Aspernstraße").
-restaurant("Alterlaa").
-restaurant("Tulln Stadt Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Nußdorfer Straße").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Deutsch-Wagram Bahnhof").
+initlocation(2,"Jägerstraße").
+initlocation(2,"Hütteldorf").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+sequence(2,0, "Neubaugasse").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Obersdorf Bahnhof").
+possiblemeetinglocations("Breitenwaida Bahnhof").
+possiblemeetinglocations("Atzgersdorf").
+possiblemeetinglocations("Rekawinkel Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Pressbaum Bahnhof").
+possiblemeetinglocations("Blumental").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+possiblemeetinglocations("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Schottentor").
+restaurant("Maria Ellend Bahnhof").
+restaurant("Bad Deutsch-Altenburg Bahnhof").
+restaurant("Neusiedl am See Bahnhof").
+restaurant("Karlsplatz").
+restaurant("Strebersdorf").
+restaurant("Neubaugasse").
+restaurant("Währinger Straße-Volksoper").
+restaurant("Unterradlberg Bahnhof").
 restaurant("Ulrichskirchen Bahnhof").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Mistelbach Stadt").
-restaurant("Quartier Belvedere").
-restaurant("Gumpendorfer Straße").
+restaurant("Flughafen Wien (VIE). Bahnhof").

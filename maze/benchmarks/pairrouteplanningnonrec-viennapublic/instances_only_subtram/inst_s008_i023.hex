@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Stadlergasse").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Frauengasse").
-initlocation($p,"Am Heidjöchl/Hausfeldstraße").
-initlocation($p,"Braunhubergasse").
-initlocation($p,"Skodagasse").
-initlocation($p,"Ladendorf Bahnhof").
-initlocation($p,"Kagran").
-initlocation($p,"Stadlergasse").
+initlocation(1,"Blumental").
+initlocation(1,"Enkplatz").
+initlocation(1,"Rosensteingasse").
+initlocation(1,"Unter St Veit, Hummelgasse").
+initlocation(1,"Floridsdorfer Brücke").
+initlocation(1,"Quartier Belvedere").
+initlocation(1,"Unterradlberg Bahnhof").
+initlocation(1,"Prandaugasse").
+sequence(1,0, "Blumental").
 person(2).
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-initlocation($p,"Fickeysstraße").
-initlocation($p,"Höbersdorf Bahnhof").
-initlocation($p,"Josefstädter Straße").
-initlocation($p,"Geiselbergstraße").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Erndtgasse").
-initlocation($p,"Gasometer").
-initlocation($p,"Gersthofer Str/Scheibenbergstr").
-possiblemeetinglocations("Greifenstein-Altenberg Bahnhof").
-possiblemeetinglocations("Otto-Probst-Platz").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Winckelmannstraße").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Langobardenstraße").
-possiblemeetinglocations("Siebertgasse").
-possiblemeetinglocations("Gumpendorfer Straße").
-restaurant("Meidling Hauptstraße").
-restaurant("Rosenhügelstraße").
-restaurant("Hetzgasse").
-restaurant("Brünner Straße").
+initlocation(2,"Seegasse").
+initlocation(2,"Oberlaa, Therme Wien").
+initlocation(2,"Rathaus").
+initlocation(2,"Kliebergasse").
+initlocation(2,"Alsegger Straße").
+initlocation(2,"Oberdöbling").
+initlocation(2,"Mayssengasse").
+initlocation(2,"Weißenböckstraße").
+sequence(2,0, "Seegasse").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Strozzigasse").
+possiblemeetinglocations("Neulengbach Bahnhof").
+possiblemeetinglocations("Weißenböckstraße").
+possiblemeetinglocations("Kledering Bahnhof").
+possiblemeetinglocations("Rauscherstraße").
+possiblemeetinglocations("Johannes-Krawarik-Gasse").
+possiblemeetinglocations("Trasdorf Bahnhof").
+restaurant("Krottenbachstraße").
+restaurant("Am Heidjöchl/Hausfeldstraße").
 restaurant("Reumannplatz").
-restaurant("Grinzing").
-restaurant("Winckelmannstraße").
-restaurant("An den langen Lüssen").
+restaurant("Marxergasse").
+restaurant("Columbusplatz").
+restaurant("Herzogenburg Stadt").
+restaurant("Marienbrücke").
+restaurant("Westbahnhof").

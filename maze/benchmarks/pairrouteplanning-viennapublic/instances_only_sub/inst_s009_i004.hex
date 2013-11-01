@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Taborstraße").
-initlocation($p,"Kapellerfeld Bahnhof").
-initlocation($p,"Messe-Prater").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Hofstatt Bahnhof").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Rathaus").
-initlocation($p,"Taborstraße").
+initlocation(1,"Spittelau").
+initlocation(1,"Höflein an der Donau Bahnhof").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Hietzing").
+initlocation(1,"Maria Ellend Bahnhof").
+initlocation(1,"Neubaugasse").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Thaliastraße").
+sequence(1,0, "Spittelau").
 person(2).
-initlocation($p,"Platt Bahnhof").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Dürrwien Bahnhof").
-initlocation($p,"Nußdorf").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Kagran").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Platt Bahnhof").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
-possiblemeetinglocations("Spittelau").
-possiblemeetinglocations("Alterlaa").
-possiblemeetinglocations("Regelsbrunn Bahnhof").
-possiblemeetinglocations("Donauinsel").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Hirschstetten").
-possiblemeetinglocations("Keplerplatz").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-restaurant("Gerasdorf Bahnhof").
-restaurant("Zeiselmauer-Königstetten Bf").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Zippererstraße").
-restaurant("Untereggendorf Bahnhof").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Quartier Belvedere").
-restaurant("Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Erlaaer Straße").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Rennbahnweg").
+initlocation(2,"Reumannplatz").
+initlocation(2,"Ebenfurth Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Unterradlberg Bahnhof").
+initlocation(2,"Kagran").
+sequence(2,0, "Erlaaer Straße").
+possiblemeetinglocations("Kottingbrunn Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Kulturfabrik Bf").
+possiblemeetinglocations("Zentralfriedhof").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Kaisermühlen-VIC").
+possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Theresienfeld Bahnhof").
+possiblemeetinglocations("Wr Neustadt Nord").
+restaurant("Längenfeldgasse").
+restaurant("Parndorf Ort Bahnhof").
+restaurant("Tscherttegasse").
+restaurant("Kledering Bahnhof").
+restaurant("Kapellerfeld Bahnhof").
+restaurant("Kendlerstraße").
+restaurant("Mödling Bahnhof").
+restaurant("Traisengasse").
+restaurant("Bad Vöslau Bahnhof").

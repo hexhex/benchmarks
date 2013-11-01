@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Wallensteinplatz").
-initlocation($p,"Auerspergstraße").
-initlocation($p,"Linzer Straße/Lützowgasse").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Wallensteinplatz").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Herzogenburg Bahnhof").
+initlocation(1,"Mödling Bahnhof").
+initlocation(1,"Taborstraße/Heinestraße").
+sequence(1,0, "Eichenstraße").
 person(2).
-initlocation($p,"Leopoldau").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Zippererstraße").
-initlocation($p,"Oberdöbling").
-initlocation($p,"Leopoldau").
-possiblemeetinglocations("Gloriettegasse").
-possiblemeetinglocations("Lazarettgasse").
-possiblemeetinglocations("Rosenhügelstraße").
-possiblemeetinglocations("Dornbacher Straße").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Friedrich-Engels-Platz").
-restaurant("Siebenhirten").
-restaurant("Neubaugasse/Westbahnstraße").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Wexstraße").
+initlocation(2,"Marxergasse").
+sequence(2,0, "Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Getzersdorf/Traisen Bahnhof").
+possiblemeetinglocations("Blumengasse").
+possiblemeetinglocations("Münchendorf Bahnhof").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+restaurant("Karmeliterplatz").
+restaurant("Aumannplatz").
+restaurant("Messe-Prater").
+restaurant("Ulrichskirchen Bahnhof").

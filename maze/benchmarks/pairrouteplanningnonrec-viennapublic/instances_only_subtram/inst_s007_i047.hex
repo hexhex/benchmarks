@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Anton-Krieger-Gasse").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Tulln Stadt Bahnhof").
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Wexstraße").
-initlocation($p,"Liesing").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Anton-Krieger-Gasse").
+initlocation(1,"Weinhauser Gasse").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Glatzgasse").
+initlocation(1,"Kraygasse").
+initlocation(1,"Obersdorf Bahnhof").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Langobardenstraße/Kapellenweg").
+sequence(1,0, "Weinhauser Gasse").
 person(2).
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Hintere Zollamtsstraße").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Taborstraße").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Gramatneusiedl Bahnhof").
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Zentralfriedhof").
-possiblemeetinglocations("Neulerchenfelder Str/Brunneng").
-possiblemeetinglocations("Stubentor").
-possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
-possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
-possiblemeetinglocations("Laurentiusplatz").
-possiblemeetinglocations("Neulengbach Stadt Bahnhof").
+initlocation(2,"Wilfleinsdorf Bahnhof").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Liesing").
+initlocation(2,"Baumgarten").
+initlocation(2,"Marx-Meidlinger-Straße").
+initlocation(2,"Wallrißstraße").
+initlocation(2,"Margaretengürtel/Arbeitergasse").
+sequence(2,0, "Wilfleinsdorf Bahnhof").
 possiblemeetinglocations("Heinrich-Drimmel-Platz").
-restaurant("Maurer Lange Gasse").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Neulengbach Bahnhof").
-restaurant("Hautzendorf Bahnhof").
-restaurant("Quartier Belvedere").
-restaurant("Waidhausenstraße").
-restaurant("Kledering Bahnhof").
+possiblemeetinglocations("Innstraße").
+possiblemeetinglocations("Kapellerfeld Bahnhof").
+possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
+possiblemeetinglocations("Sillerplatz").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Kliebergasse").
+restaurant("Winkeläckerstraße").
+restaurant("Lederergasse").
+restaurant("Prinzgasse").
+restaurant("Knöllgasse/Davidgasse").
+restaurant("Am Heidjöchl").
+restaurant("Joachimsthalerplatz").
+restaurant("Unterpurkersdorf Bahnhof").

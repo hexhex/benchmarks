@@ -1,48 +1,48 @@
 person(1).
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Taborstraße").
-initlocation($p,"Siebertgasse").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Geiereckstraße").
-initlocation($p,"Hubertusdamm").
-initlocation($p,"Hollabrunn Bahnhof").
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Rathaus").
-initlocation($p,"Althanstraße").
-initlocation($p,"Alte Donau").
-initlocation($p,"Friedensbrücke").
+initlocation(1,"Grillgasse").
+initlocation(1,"Blechturmgasse").
+initlocation(1,"Wr Neustadt Nord").
+initlocation(1,"Rußbergstraße").
+initlocation(1,"Zentralfriedhof 3Tor").
+initlocation(1,"Schwarzenbergplatz").
+initlocation(1,"Bisamberg Bahnhof").
+initlocation(1,"Linzer Straße/Lützowgasse").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Huglgasse").
+sequence(1,0, "Grillgasse").
 person(2).
-initlocation($p,"Quellenstraße/Knöllgasse").
-initlocation($p,"Staglgasse").
-initlocation($p,"Joachimsthalerplatz").
-initlocation($p,"Sankt Marx").
-initlocation($p,"Hadersdorf Bahnhof").
-initlocation($p,"Ungargasse/Neulinggasse").
-initlocation($p,"Hainburg/Donau Personenbhf").
-initlocation($p,"Wolkersdorf Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Frättingsdorf Bahnhof").
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Quellenstraße/Knöllgasse").
-possiblemeetinglocations("Breitensee").
-possiblemeetinglocations("Nordbahnstraße").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Lobau").
-possiblemeetinglocations("Großfeldsiedlung").
-possiblemeetinglocations("Obere Donaustraße").
-possiblemeetinglocations("Himmelmutterweg").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Donaustadtbrücke").
-possiblemeetinglocations("Langobardenstraße/Kapellenweg").
-restaurant("Laurentiusplatz").
-restaurant("Carabelligasse").
-restaurant("Purkersdorf Sanatorium").
-restaurant("Niederhofstraße").
-restaurant("Gerstnerstraße/Westbhf").
-restaurant("Ober Sankt Veit").
-restaurant("Grinzing").
-restaurant("Palffygasse").
-restaurant("Gredlerstraße").
-restaurant("Resselgasse").
-restaurant("Lerchenfelder Straße").
+initlocation(2,"Ladendorf Bahnhof").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Nestroyplatz").
+initlocation(2,"Quellenplatz").
+initlocation(2,"Niederhofstraße").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Westbahnhof").
+initlocation(2,"Beingasse").
+initlocation(2,"Obere Donaustraße").
+initlocation(2,"Kaiserstraße/Burggasse").
+initlocation(2,"Marxergasse").
+sequence(2,0, "Ladendorf Bahnhof").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Barawitzkagasse").
+possiblemeetinglocations("Viehmarktgasse").
+possiblemeetinglocations("Laaer-Berg-Straße").
+possiblemeetinglocations("Windtenstraße").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Leobersdorf Bahnhof").
+possiblemeetinglocations("Oberfeldgasse").
+possiblemeetinglocations("Tulln Stadt Bahnhof").
+possiblemeetinglocations("Grillgasse").
+restaurant("Eichenstraße").
+restaurant("Weinheimergasse").
+restaurant("Schlickgasse").
+restaurant("Schloss Schönbrunn").
+restaurant("Götzendorf Bahnhof").
+restaurant("Zentralfriedhof 2Tor").
+restaurant("Rennbahnweg").
+restaurant("Sommarugagasse").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Laurenzgasse").
+restaurant("Kaiserstraße/Neustiftgasse").

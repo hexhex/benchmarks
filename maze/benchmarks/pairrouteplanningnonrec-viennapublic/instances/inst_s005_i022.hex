@@ -1,24 +1,24 @@
 person(1).
-initlocation(1,"Otto-Wagner-Spital").
-initlocation(1,"Erlachplatz").
-initlocation(1,"Stiegergasse").
-initlocation(1,"Dückegasse").
-initlocation(1,"Großmarktstraße").
-sequence(1,0, "Otto-Wagner-Spital").
+initlocation(1,"Nauheimergasse").
+initlocation(1,"Haengasse").
+initlocation(1,"Süßenbrunner Str/Oberfeldgasse").
+initlocation(1,"Grimmgasse").
+initlocation(1,"Maurer Hauptplatz").
+sequence(1,0, "Nauheimergasse").
 person(2).
-initlocation(2,"Arndtstraße").
-initlocation(2,"Donauspital").
-initlocation(2,"Finsterbuschstraße Mitte").
-initlocation(2,"Am Fasangarten").
-initlocation(2,"Im Gestockert").
-sequence(2,0, "Arndtstraße").
-possiblemeetinglocations("Schlickgasse").
-possiblemeetinglocations("Türkenschanzplatz").
-possiblemeetinglocations("Kornauthgasse").
-possiblemeetinglocations("Am Krautgarten").
-possiblemeetinglocations("Schmelzbrücke").
-restaurant("Ruckergasse/Pohlgasse").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Artillerieplatz").
-restaurant("Seidelbastgasse").
-restaurant("Johnstraße/Märzstraße").
+initlocation(2,"Brunner Straße/Erlaaer Straße").
+initlocation(2,"Friedensbrücke").
+initlocation(2,"Rathaus").
+initlocation(2,"Linzer Straße/Hochsatzengasse").
+initlocation(2,"Otto-Wagner-Spital").
+sequence(2,0, "Brunner Straße/Erlaaer Straße").
+possiblemeetinglocations("Kärntner Straße").
+possiblemeetinglocations("Pokornygasse").
+possiblemeetinglocations("Johnstraße/Märzstraße").
+possiblemeetinglocations("Spillern Bahnhof").
+possiblemeetinglocations("Sulzwiese").
+restaurant("Am Kanal").
+restaurant("Bacherplatz").
+restaurant("Benatzkygasse").
+restaurant("Dampfkraftwerk Donaustadt").
+restaurant("Erdberg").

@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Wienerbergbrücke").
-initlocation($p,"Bahnhofstraße").
-initlocation($p,"Frauengasse").
-initlocation($p,"Wildungsmauer Bahnhof").
-initlocation($p,"Rothneusiedl").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Otto-Probst-Straße").
+initlocation(1,"Oberlaa, Therme Wien").
+initlocation(1,"Barawitzkagasse").
+initlocation(1,"Stiftgasse").
+initlocation(1,"Martinstraße").
+initlocation(1,"Messe-Prater").
+initlocation(1,"Marx-Meidlinger-Straße").
+initlocation(1,"Großfeldsiedlung").
+sequence(1,0, "Oberlaa, Therme Wien").
 person(2).
-initlocation($p,"Linzer Straße/Reinlgasse").
-initlocation($p,"Absberggasse").
-initlocation($p,"Maria Anzbach Bahnhof").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Valiergasse").
-initlocation($p,"Heinrich-Drimmel-Platz").
-initlocation($p,"Linzer Straße/Reinlgasse").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Frättingsdorf Bahnhof").
-possiblemeetinglocations("Zentralfriedhof 3Tor").
-possiblemeetinglocations("Laxenburger Straße/Troststraße").
-possiblemeetinglocations("Raxstraße/Rudolfshügelgasse").
-possiblemeetinglocations("Blumengasse").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-restaurant("Schwarzenbergplatz").
-restaurant("Burgring").
-restaurant("Sieveringer Straße").
+initlocation(2,"Rathausplatz/Burgtheater").
+initlocation(2,"Gruschaplatz").
+initlocation(2,"Per-Albin-Hansson-Siedlung Ost").
+initlocation(2,"Getzersdorf/Traisen Bahnhof").
+initlocation(2,"Obersdorf Bahnhof").
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Otto-Probst-Straße").
+sequence(2,0, "Rathausplatz/Burgtheater").
+possiblemeetinglocations("Aspernstraße").
+possiblemeetinglocations("Hardeggasse").
+possiblemeetinglocations("Hollabrunn Bahnhof").
+possiblemeetinglocations("Camillo-Sitte-Gasse").
+possiblemeetinglocations("Quellenstraße/Favoritenstraße").
+possiblemeetinglocations("Liebknechtgasse").
+possiblemeetinglocations("Breitenfurter Str/Liesingbr").
+restaurant("Löwengasse").
+restaurant("Nußdorfer Str/Alserbachstraße").
+restaurant("Altes Landgut").
+restaurant("Oberlaa, Therme Wien").
+restaurant("Baumgasse").
+restaurant("Weidlingau Bahnhof").
 restaurant("Obersdorf Bahnhof").
-restaurant("Kagraner Platz").
-restaurant("Ottakringer Str/Erdbrustgasse").
-restaurant("Traismauer Bahnhof").

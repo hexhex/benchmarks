@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Donaustadtbrücke").
-initlocation($p,"Stubentor").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Kagraner Platz").
+initlocation(1,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Nestroyplatz").
+initlocation(1,"Südtiroler Platz/Hauptbahnhof").
+sequence(1,0, "Niederkreuzstetten Bahnhof").
 person(2).
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Westbahnhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Unterpurkersdorf Bahnhof").
-initlocation($p,"Nußdorfer Straße").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Gersthof").
-possiblemeetinglocations("Donauspital").
-restaurant("Volkstheater").
-restaurant("Vorgartenstraße").
-restaurant("Roßauer Lände").
-restaurant("Währinger Straße-Volksoper").
+initlocation(2,"Michelhausen Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Kendlerstraße").
+sequence(2,0, "Michelhausen Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Obereggendorf Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Oberolberndorf Bahnhof").
+restaurant("Braunschweiggasse").
+restaurant("Rochusgasse").

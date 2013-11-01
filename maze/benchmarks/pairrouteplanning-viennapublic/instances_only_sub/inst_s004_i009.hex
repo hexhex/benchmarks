@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Herrengasse").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Spittelau").
-initlocation($p,"Krieau").
-initlocation($p,"Herrengasse").
+initlocation(1,"Wr Neustadt Hauptbahnhof").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Maria Ellend Bahnhof").
+sequence(1,0, "Wr Neustadt Hauptbahnhof").
 person(2).
-initlocation($p,"Viehofen Bahnhof").
-initlocation($p,"Erlaaer Straße").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Viehofen Bahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-possiblemeetinglocations("Kagraner Platz").
-possiblemeetinglocations("Stockerau Bahnhof").
-possiblemeetinglocations("Schottentor").
-restaurant("Meidling Hauptstraße").
-restaurant("Klosterneuburg-Kierling Bf").
-restaurant("Strasshof Bahnhof").
-restaurant("Maria Anzbach Bahnhof").
+initlocation(2,"Breitensee").
+initlocation(2,"Gerasdorf Bahnhof").
+initlocation(2,"Lobau").
+initlocation(2,"Ebenfurth Bahnhof").
+sequence(2,0, "Breitensee").
+possiblemeetinglocations("Gasometer").
+possiblemeetinglocations("Krieau").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Helmahof Bahnhof").
+restaurant("Neulengbach Bahnhof").
+restaurant("Herzogenburg Stadt").
+restaurant("Schweglerstraße").
+restaurant("Hollabrunn Bahnhof").

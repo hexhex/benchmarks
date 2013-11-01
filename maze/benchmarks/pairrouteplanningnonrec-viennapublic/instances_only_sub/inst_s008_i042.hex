@@ -1,36 +1,36 @@
 person(1).
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Jägerstraße").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Rathaus").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Kledering Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Felixdorf Bahnhof").
+initlocation(1,"Baden Bahnhof").
+initlocation(1,"Bad Vöslau Bahnhof").
+initlocation(1,"Schweglerstraße").
+initlocation(1,"Vorgartenstraße").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Achau Bahnhof").
+sequence(1,0, "Muckendorf-Wipfing Bahnhof").
 person(2).
-initlocation($p,"Gumpoldskirchen Bahnhof").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Hardeggasse").
-initlocation($p,"Rekawinkel Bahnhof").
-initlocation($p,"Alte Donau").
-initlocation($p,"Stadtpark").
-initlocation($p,"Schottentor").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Gumpoldskirchen Bahnhof").
-possiblemeetinglocations("Vorgartenstraße").
-possiblemeetinglocations("Wolf in der Au").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Wr Neustadt Hauptbahnhof").
-possiblemeetinglocations("Hainburg/Donau Personenbhf").
-possiblemeetinglocations("Niederhofstraße").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Unteroberndorf Bahnhof").
-restaurant("Stockerau Bahnhof").
-restaurant("Kagran").
-restaurant("Krieau").
-restaurant("Großfeldsiedlung").
-restaurant("Herzogenburg Bahnhof").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Alte Donau").
-restaurant("Kottingbrunn Bahnhof").
+initlocation(2,"Rathaus").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Hennersdorf Bahnhof").
+initlocation(2,"Hautzendorf Bahnhof").
+initlocation(2,"Gasometer").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Schottentor").
+initlocation(2,"Seyring Bahnhof").
+sequence(2,0, "Rathaus").
+possiblemeetinglocations("Mödling Bahnhof").
+possiblemeetinglocations("Mannswörth Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Retz Bahnhof").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Matzleinsdorfer Platz").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Traismauer Bahnhof").
+restaurant("Gerasdorf Bahnhof").
+restaurant("Helmahof Bahnhof").
+restaurant("Donauspital").
+restaurant("Kaiserebersdorf").
+restaurant("Klosterneuburg-Kierling Bf").
+restaurant("Meidling Hauptstraße").

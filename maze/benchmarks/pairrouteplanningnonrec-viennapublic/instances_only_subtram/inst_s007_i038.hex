@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Rauscherstraße").
-initlocation($p,"Zehetnerg/Pflegeh Baumgarten").
-initlocation($p,"Wallensteinplatz").
-initlocation($p,"Brünner Straße/Hanreitergasse").
-initlocation($p,"Gemeinlebarn Bahnhof").
-initlocation($p,"Sahulkastraße").
-initlocation($p,"Urban-Loritz-Platz").
-initlocation($p,"Rauscherstraße").
+initlocation(1,"Gumpendorfer Straße").
+initlocation(1,"Eichenstraße").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Kaiserstraße/Burggasse").
+initlocation(1,"Sensengasse").
+initlocation(1,"Reumannplatz").
+initlocation(1,"Neulengbach Stadt Bahnhof").
+sequence(1,0, "Gumpendorfer Straße").
 person(2).
-initlocation($p,"Schwarzenbergplatz").
-initlocation($p,"Stadlau").
-initlocation($p,"Schwarzspanierstraße").
-initlocation($p,"Shuttleworthstraße").
-initlocation($p,"Sensengasse").
-initlocation($p,"Lazarettgasse").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Schwarzenbergplatz").
-possiblemeetinglocations("Linzer Straße/Lützowgasse").
-possiblemeetinglocations("Johann-Strauß-Gasse").
-possiblemeetinglocations("Eichenstraße").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Laudongasse").
-possiblemeetinglocations("Parndorf Ort Bahnhof").
-possiblemeetinglocations("Trondheimgasse").
-restaurant("Burggasse-Stadthalle").
-restaurant("Hohe Warte").
-restaurant("Kagran").
-restaurant("Maria Ellend Bahnhof").
+initlocation(2,"Diesterweggasse").
+initlocation(2,"Leobersdorf Bahnhof").
+initlocation(2,"Anton-Schall-Gasse").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Hardeggasse").
+initlocation(2,"Zeiselmauer-Königstetten Bf").
+initlocation(2,"Floridsdorf").
+sequence(2,0, "Diesterweggasse").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Hautzendorf Bahnhof").
+possiblemeetinglocations("Hetzendorf").
+possiblemeetinglocations("Laxenburger Str/Gudrunstraße").
+possiblemeetinglocations("Laxenburger Straße/Troststraße").
+possiblemeetinglocations("Am Spitz").
+possiblemeetinglocations("Alterlaa").
+restaurant("Wr Neustadt Nord").
 restaurant("Seegasse").
-restaurant("Vinzenzgasse").
-restaurant("Mayerhofgasse").
+restaurant("Laxenburger Str/Gudrunstraße").
+restaurant("Sechskrügelgasse").
+restaurant("Gaußplatz").
+restaurant("Camillo-Sitte-Gasse").
+restaurant("Klosterneub Str/Wallensteinstr").

@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Stadtpark").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Neubaugasse").
-initlocation($p,"Litfaßstraße").
-initlocation($p,"Wienerbergbrücke").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Konstanziagasse").
-initlocation($p,"Trondheimgasse").
-initlocation($p,"Resselgasse").
-initlocation($p,"Siebensterngasse").
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Huglgasse").
-initlocation($p,"Stadtpark").
+initlocation(1,"Kritzendorf Bahnhof").
+initlocation(1,"Ottakringer Straße/Wattgasse").
+initlocation(1,"Maria Anzbach Bahnhof").
+initlocation(1,"Türkenschanzplatz").
+initlocation(1,"St Pölten Hauptbahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Kranzgasse").
+initlocation(1,"Saikogasse").
+initlocation(1,"Hadersdorf Bahnhof").
+initlocation(1,"Münchendorf Bahnhof").
+initlocation(1,"Rauscherstraße").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Döblinger Bad").
+sequence(1,0, "Kritzendorf Bahnhof").
 person(2).
-initlocation($p,"Hörersdorf Bahnhof").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Döblinger Hauptstr/Gatterburgg").
-initlocation($p,"Guneschgasse").
-initlocation($p,"Staglgasse").
-initlocation($p,"Spillern Bahnhof").
-initlocation($p,"Am Schöpfwerk").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Hopfengasse").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Hörersdorf Bahnhof").
-possiblemeetinglocations("Mayssengasse").
-possiblemeetinglocations("Absberggasse").
-possiblemeetinglocations("Schwarzspanierstraße").
-possiblemeetinglocations("Untertullnerbach Bahnhof").
-possiblemeetinglocations("Sieveringer Straße").
-possiblemeetinglocations("Molitorgasse").
-possiblemeetinglocations("Bernhardtstalgasse").
-possiblemeetinglocations("Grinzing").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Praterstern").
-possiblemeetinglocations("Gunoldstraße").
-possiblemeetinglocations("Lederergasse").
-possiblemeetinglocations("Alte Donau").
-restaurant("Westbahnhof").
-restaurant("Spitalgasse/Währinger Straße").
-restaurant("Hardtgasse").
-restaurant("Museumsquartier").
-restaurant("Thaliastraße/Maroltingergasse").
-restaurant("Götzendorf Bahnhof").
-restaurant("Schönbrunn").
-restaurant("Baden Bahnhof").
-restaurant("Sieveringer Straße").
-restaurant("Gutraterplatz").
-restaurant("Seyring Bahnhof").
-restaurant("Erlaaer Straße").
-restaurant("Tesarekplatz").
+initlocation(2,"Am Heidjöchl").
+initlocation(2,"Weidlingau Bahnhof").
+initlocation(2,"Rankgasse").
+initlocation(2,"Gersthof").
+initlocation(2,"Albertgasse").
+initlocation(2,"Niederkreuzstetten Bahnhof").
+initlocation(2,"Wildungsmauer Bahnhof").
+initlocation(2,"Verbindungsbahn").
+initlocation(2,"Breitenfurter Str/Liesingbr").
+initlocation(2,"Laxenburger Str/Gudrunstraße").
+initlocation(2,"Rosenhügelstraße").
+initlocation(2,"Sonnergasse").
+initlocation(2,"Knöllgasse/Davidgasse").
+sequence(2,0, "Am Heidjöchl").
+possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
+possiblemeetinglocations("Gersthofer Str/Scheibenbergstr").
+possiblemeetinglocations("Achau Bahnhof").
+possiblemeetinglocations("Zellerndorf Bahnhof").
+possiblemeetinglocations("Gußhausstraße").
+possiblemeetinglocations("Reumannplatz").
+possiblemeetinglocations("Taubstummengasse").
+possiblemeetinglocations("Alfred-Adler-Straße").
+possiblemeetinglocations("Wenzgasse").
+possiblemeetinglocations("Paasdorf Bahnhof").
+possiblemeetinglocations("Gaisruck Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Paulanergasse").
+restaurant("Fichtnergasse").
+restaurant("Siebenhirten").
+restaurant("Langenzersdorf Bahnhof").
+restaurant("Rebhanngasse").
+restaurant("Mödling Bahnhof").
+restaurant("Stadlau").
+restaurant("Döblinger Bad").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Polgarstraße").
+restaurant("Riedelgasse").
+restaurant("Ulrichskirchen Bahnhof").
+restaurant("Rampengasse").
+restaurant("Längenfeldgasse/Flurschützstr").

@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Leberberg").
-initlocation($p,"Konstanziagasse").
-initlocation($p,"Troststraße/Neilreichgasse").
-initlocation($p,"Donaustadtstraße").
+initlocation(1,"Althanstraße").
+initlocation(1,"Hauptbahnhof Ost").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Bruck/Leitha Bahnhof").
+sequence(1,0, "Althanstraße").
 person(2).
-initlocation($p,"Oberradlberg Bahnhof").
-initlocation($p,"Thaliastraße/Maroltingergasse").
-initlocation($p,"Herbeckstraße").
-initlocation($p,"Ober Sankt Veit").
-initlocation($p,"Oberradlberg Bahnhof").
-possiblemeetinglocations("Marxergasse").
-possiblemeetinglocations("Diesterweggasse").
-possiblemeetinglocations("Fultonstraße").
-possiblemeetinglocations("Friedensbrücke").
-restaurant("Laxenburger Str/Gudrunstraße").
-restaurant("Pötzleinsdorf").
-restaurant("Klosterneuburg-Weidling Bf").
-restaurant("Leyserstraße").
+initlocation(2,"Ottakring").
+initlocation(2,"Hietzing").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Gruschaplatz").
+sequence(2,0, "Ottakring").
+possiblemeetinglocations("Favoritenstraße/Troststraße").
+possiblemeetinglocations("Plößlgasse").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Siemensstraße").
+restaurant("Nußdorfer Str/Alserbachstraße").
+restaurant("Schloss Hetzendorf").
+restaurant("Baumgasse").
+restaurant("Südtiroler Platz/Hauptbahnhof").

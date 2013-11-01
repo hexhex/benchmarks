@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Laurenzgasse").
-initlocation($p,"Liesing").
-initlocation($p,"Ungargasse/Neulinggasse").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Waidhausenstraße").
-initlocation($p,"Laurenzgasse").
+initlocation(1,"Gersthofer Str/Scheibenbergstr").
+initlocation(1,"Guntherstraße").
+initlocation(1,"Kardinal-Nagl-Platz").
+initlocation(1,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Leobersdorf Bahnhof").
+initlocation(1,"Hirschstetten").
+sequence(1,0, "Gersthofer Str/Scheibenbergstr").
 person(2).
-initlocation($p,"Währinger Straße-Volksoper").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Marx-Meidlinger-Straße").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Gaußplatz").
-initlocation($p,"Kaiserstraße/Westbahnstraße").
-initlocation($p,"Währinger Straße-Volksoper").
-possiblemeetinglocations("Kaisermühlen-VIC").
-possiblemeetinglocations("Schmerlingplatz").
-possiblemeetinglocations("Hütteldorfer Str/Hochsatzeng").
-possiblemeetinglocations("Zentralfriedhof").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Aumannplatz").
-restaurant("Verbindungsbahn").
-restaurant("Rustengasse").
-restaurant("Unter St Veit, Hummelgasse").
-restaurant("Friedensbrücke").
-restaurant("Strasshof Bahnhof").
-restaurant("Gaisruck Bahnhof").
+initlocation(2,"Joachimsthalerplatz").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Unteroberndorf Bahnhof").
+initlocation(2,"Wilhelminenstraße/Wattgasse").
+initlocation(2,"Wildgansplatz").
+initlocation(2,"Hauffgasse").
+sequence(2,0, "Joachimsthalerplatz").
+possiblemeetinglocations("Thaliastraße/Maroltingergasse").
+possiblemeetinglocations("Dornbach, Güpferlingstraße").
+possiblemeetinglocations("Zentralfriedhof 4Tor").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Grinzing").
+possiblemeetinglocations("Wexstraße").
+restaurant("Mariahilfer Gürtel").
+restaurant("Perntergasse").
+restaurant("Plößlgasse").
+restaurant("Pokornygasse").
+restaurant("Donauzentrum").
+restaurant("Seestadt").

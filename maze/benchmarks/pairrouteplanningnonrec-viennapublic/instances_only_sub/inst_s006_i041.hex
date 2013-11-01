@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Aspern Nord").
-initlocation($p,"Nußdorfer Straße").
-initlocation($p,"Kaisermühlen-VIC").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Theresienfeld Bahnhof").
+initlocation(1,"Gramatneusiedl Bahnhof").
+initlocation(1,"Ulrichskirchen Bahnhof").
+initlocation(1,"Braunschweiggasse").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Himberg Bahnhof").
+initlocation(1,"Petronell-Carnuntum Bahnhof").
+sequence(1,0, "Gramatneusiedl Bahnhof").
 person(2).
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Götzendorf Bahnhof").
-initlocation($p,"Haslau an der Donau Bahnhof").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Ober Sankt Veit").
-possiblemeetinglocations("Hautzendorf Bahnhof").
-possiblemeetinglocations("Siebenhirten (NÖ). Haltestelle").
-possiblemeetinglocations("Retz Bahnhof").
-possiblemeetinglocations("Rennweg").
-restaurant("Hörersdorf Bahnhof").
-restaurant("Hofstatt Bahnhof").
-restaurant("Simmering").
-restaurant("Pfaffstätten Bahnhof").
-restaurant("Ladendorf Bahnhof").
-restaurant("Niederhofstraße").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Petronell-Carnuntum Bahnhof").
+initlocation(2,"Enkplatz").
+initlocation(2,"Perchtoldsdorf Bahnhof").
+initlocation(2,"Zieglergasse").
+initlocation(2,"Guntramsdorf-Thallern").
+sequence(2,0, "Hainburg/Donau Ungartor/B9").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Münchendorf Bahnhof").
+restaurant("Unter Sankt Veit").
+restaurant("Hütteldorfer Straße").
+restaurant("Tullnerbach-Pressbaum Bahnhof").
+restaurant("Mistelbach Stadt").

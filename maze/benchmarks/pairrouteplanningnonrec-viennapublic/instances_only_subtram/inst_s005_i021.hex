@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Siemensstraße").
-initlocation($p,"Traisengasse").
-initlocation($p,"Guntherstraße").
-initlocation($p,"Kledering Bahnhof").
-initlocation($p,"Quartier Belvedere").
-initlocation($p,"Siemensstraße").
+initlocation(1,"Teichgasse").
+initlocation(1,"Trondheimgasse").
+initlocation(1,"Penzing").
+initlocation(1,"Alser Straße").
+initlocation(1,"Strozzigasse").
+sequence(1,0, "Teichgasse").
 person(2).
-initlocation($p,"Huglgasse").
-initlocation($p,"Breitenfurter Str/Liesingbr").
-initlocation($p,"Gewerbepark Stadlau Mitte").
-initlocation($p,"Baumgasse").
-initlocation($p,"Lainz, Wolkersbergenstraße").
-initlocation($p,"Huglgasse").
-possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Gredlerstraße").
-possiblemeetinglocations("Nordbahnstraße").
-possiblemeetinglocations("Beingasse").
-restaurant("Bad Vöslau Bahnhof").
-restaurant("Mariahilfer Gürtel").
-restaurant("Rathausplatz/Burgtheater").
-restaurant("Wolfsthal Bahnhof").
-restaurant("Wolf in der Au").
+initlocation(2,"Rekawinkel Bahnhof").
+initlocation(2,"Wittelsbachstraße").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Kledering Bahnhof").
+sequence(2,0, "Rekawinkel Bahnhof").
+possiblemeetinglocations("Weinhauser Gasse").
+possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
+possiblemeetinglocations("Wienerbergbrücke").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Aspern Nord").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Sankt Marx").
+restaurant("Linzer Straße/Zehetnergasse").
+restaurant("Lange Gasse").
+restaurant("Silberwald Bahnhof").

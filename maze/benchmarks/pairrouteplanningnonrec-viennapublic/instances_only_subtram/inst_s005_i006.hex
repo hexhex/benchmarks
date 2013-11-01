@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Heinrich-Drimmel-Platz").
-initlocation($p,"Schwarzspanierstraße").
-initlocation($p,"Camillo-Sitte-Gasse").
-initlocation($p,"Herzogenburg Stadt").
-initlocation($p,"Weigelsdorf Bahnhof").
-initlocation($p,"Heinrich-Drimmel-Platz").
+initlocation(1,"Anton-Schall-Gasse").
+initlocation(1,"Spitalgasse/Währinger Straße").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Neulerchenfelder Str/Brunneng").
+initlocation(1,"Penzing").
+sequence(1,0, "Anton-Schall-Gasse").
 person(2).
-initlocation($p,"Gloriettegasse").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Nestroyplatz").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Gloriettegasse").
-possiblemeetinglocations("Bad Vöslau Bahnhof").
-possiblemeetinglocations("Nußdorf").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Alte Donau").
-possiblemeetinglocations("Hollabrunn Bahnhof").
-restaurant("Gloriettegasse").
-restaurant("Hainburg/Donau Kulturfabrik Bf").
-restaurant("Lerchenfelder Straße").
-restaurant("Nußdorf, Beethovengang").
-restaurant("St Andrä-Wördern Bahnhof").
+initlocation(2,"Maurer Hauptplatz").
+initlocation(2,"Penzinger Straße").
+initlocation(2,"Lazarettgasse").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Aspern Nord").
+sequence(2,0, "Maurer Hauptplatz").
+possiblemeetinglocations("Karmeliterplatz").
+possiblemeetinglocations("Seegasse").
+possiblemeetinglocations("Johann-Nepomuk-Berger-Platz").
+possiblemeetinglocations("Van-Swieten-Kaserne").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+restaurant("Blumengasse").
+restaurant("Reinlgasse/Märzstraße").
+restaurant("Neilreichgasse").
+restaurant("Laurenzgasse").
+restaurant("Mistelbach Stadt").

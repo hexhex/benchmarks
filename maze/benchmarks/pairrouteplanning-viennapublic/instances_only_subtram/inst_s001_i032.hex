@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Roßauer Lände").
-initlocation($p,"Roßauer Lände").
+initlocation(1,"Münchendorf Bahnhof").
+sequence(1,0, "Münchendorf Bahnhof").
 person(2).
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Unter Sankt Veit").
-possiblemeetinglocations("Baumgasse").
-restaurant("Wildgansplatz").
+initlocation(2,"Gaußplatz").
+sequence(2,0, "Gaußplatz").
+possiblemeetinglocations("Fichtnergasse").
+restaurant("Roßauer Lände").

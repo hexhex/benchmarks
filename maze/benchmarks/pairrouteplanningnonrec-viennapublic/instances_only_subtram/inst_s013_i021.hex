@@ -1,56 +1,56 @@
 person(1).
-initlocation($p,"Herrengasse").
-initlocation($p,"Römergasse").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Gußhausstraße").
-initlocation($p,"Breitensee").
-initlocation($p,"Gatterburggasse").
-initlocation($p,"Mariahilfer Gürtel").
-initlocation($p,"Moosbierbaum-Heiligeneich Bf").
-initlocation($p,"Untertullnerbach Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Franzensbrücke").
-initlocation($p,"Johann-Nepomuk-Berger-Platz").
-initlocation($p,"Herrengasse").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Gußhausstraße").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Hollabrunn Bahnhof").
+initlocation(1,"Kölblgasse").
+initlocation(1,"Ottakringer Straße/Wattgasse").
+initlocation(1,"Herbeckstraße").
+initlocation(1,"Zehetnerg/Pflegeh Baumgarten").
+initlocation(1,"Radetzkyplatz").
+initlocation(1,"Huglgasse").
+initlocation(1,"Julius-Raab-Platz").
+initlocation(1,"Matthäus-Jiszda-Straße").
+initlocation(1,"Nordbahnstraße").
+sequence(1,0, "Rennbahnweg").
 person(2).
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Verbindungsbahn").
-initlocation($p,"Alfred-Adler-Straße").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Gerhardusgasse").
-initlocation($p,"Leyserstraße").
-initlocation($p,"Otto-Probst-Straße").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Ameisgasse").
-initlocation($p,"Oberfeldgasse").
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Marxergasse").
-initlocation($p,"Kliebergasse").
-initlocation($p,"Mistelbach Stadt").
-possiblemeetinglocations("Heinrich-Drimmel-Platz").
-possiblemeetinglocations("Paulanergasse").
-possiblemeetinglocations("Weidlingau Bahnhof").
-possiblemeetinglocations("Breitenfurter St/Altmannsd Str").
-possiblemeetinglocations("Joachimsthalerplatz").
-possiblemeetinglocations("Hofstatt Bahnhof").
-possiblemeetinglocations("Albertgasse").
-possiblemeetinglocations("Mühlfeldgasse").
-possiblemeetinglocations("Messe-Prater").
-possiblemeetinglocations("Aumannplatz").
-possiblemeetinglocations("Schlachthausgasse").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Unterpurkersdorf Bahnhof").
-restaurant("Weinheimergasse").
-restaurant("Oberfeldgasse").
-restaurant("Zentralfriedhof 3Tor").
-restaurant("Aspern, Oberdorfstraße").
-restaurant("Rosenhügelstraße").
-restaurant("Auerspergstraße").
-restaurant("Rankgasse").
-restaurant("Landesgerichtsstraße").
-restaurant("Burggasse-Stadthalle").
-restaurant("Fischamend Bahnhof").
-restaurant("Absberggasse").
-restaurant("Van-Swieten-Kaserne").
-restaurant("Alte Donau").
+initlocation(2,"Stadtpark").
+initlocation(2,"Barawitzkagasse").
+initlocation(2,"Langobardenstraße").
+initlocation(2,"Hintere Zollamtsstraße").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Parndorf Ort Bahnhof").
+initlocation(2,"Laxenburger Str/Gudrunstraße").
+initlocation(2,"Tullnerbach-Pressbaum Bahnhof").
+initlocation(2,"Sarasdorf Bahnhof").
+initlocation(2,"Hausleiten Bahnhof").
+initlocation(2,"Zentralfriedhof 2Tor").
+initlocation(2,"Linzer Straße/Reinlgasse").
+initlocation(2,"Redtenbachergasse").
+sequence(2,0, "Stadtpark").
+possiblemeetinglocations("Tscherttegasse").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Marxergasse").
+possiblemeetinglocations("Brigittaplatz").
+possiblemeetinglocations("Stollgasse").
+possiblemeetinglocations("Edmund-Hawranek-Platz").
+possiblemeetinglocations("Wexstraße").
+possiblemeetinglocations("Göllersdorf Bahnhof").
+possiblemeetinglocations("Schleiergasse").
+possiblemeetinglocations("Neue Donau").
+restaurant("Reumannplatz").
+restaurant("Anton-Krieger-Gasse").
+restaurant("Wienerfeldgasse").
+restaurant("Erndtgasse").
+restaurant("Autokaderstraße").
+restaurant("Jedlersdorf").
+restaurant("Donauzentrum").
+restaurant("Schwarzenbergplatz").
+restaurant("Weigelsdorf Bahnhof").
+restaurant("Karmeliterplatz").
+restaurant("Türkenschanzplatz").
+restaurant("Längenfeldgasse").
+restaurant("Prandaugasse").

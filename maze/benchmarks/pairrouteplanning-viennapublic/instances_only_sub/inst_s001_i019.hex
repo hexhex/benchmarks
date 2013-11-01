@@ -1,8 +1,8 @@
 person(1).
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
-initlocation($p,"Brunn-Maria Enzersdorf Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+sequence(1,0, "Kapellerfeld Bahnhof").
 person(2).
-initlocation($p,"Neue Donau").
-initlocation($p,"Neue Donau").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
-restaurant("Nestroyplatz").
+initlocation(2,"Niederhofstraße").
+sequence(2,0, "Niederhofstraße").
+possiblemeetinglocations("Wr Neustadt Nord").
+restaurant("Karlsplatz").

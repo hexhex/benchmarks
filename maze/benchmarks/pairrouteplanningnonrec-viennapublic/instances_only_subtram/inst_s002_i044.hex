@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Jagdschloßgasse").
-initlocation($p,"Rosensteingasse").
-initlocation($p,"Jagdschloßgasse").
+initlocation(1,"Himmelmutterweg").
+initlocation(1,"Seegasse").
+sequence(1,0, "Himmelmutterweg").
 person(2).
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-initlocation($p,"Alser Straße").
-initlocation($p,"St Pölten Traisenpark P+R Nord").
-possiblemeetinglocations("Hernalser Hauptstr/Wattgasse").
-possiblemeetinglocations("Wildungsmauer Bahnhof").
-restaurant("Glatzgasse").
-restaurant("Marxergasse").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Fasangasse").
+sequence(2,0, "Schlachthausgasse").
+possiblemeetinglocations("Herzogenburg Stadt").
+possiblemeetinglocations("Silberwald Bahnhof").
+restaurant("Dommayergasse").
+restaurant("Johann-Nepomuk-Berger-Platz").

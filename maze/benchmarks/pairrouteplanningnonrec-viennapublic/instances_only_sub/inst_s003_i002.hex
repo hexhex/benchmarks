@@ -1,16 +1,16 @@
 person(1).
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Regelsbrunn Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"St Andrä-Wördern Bahnhof").
+initlocation(1,"Ebreichsdorf Bahnhof").
+sequence(1,0, "Kapellerfeld Bahnhof").
 person(2).
-initlocation($p,"Hütteldorf").
-initlocation($p,"Eichgraben-Altlengbach Bahnhof").
-initlocation($p,"St Andrä-Wördern Bahnhof").
-initlocation($p,"Hütteldorf").
-possiblemeetinglocations("Kottingneusiedl Bahnhof").
-possiblemeetinglocations("Enkplatz").
-possiblemeetinglocations("Meidling Hauptstraße").
-restaurant("Wr Neustadt Hauptbahnhof").
-restaurant("Stockerau Bahnhof").
-restaurant("Silberwald Bahnhof").
+initlocation(2,"Wampersdorf Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Neusiedl am See Bahnhof").
+sequence(2,0, "Wampersdorf Bahnhof").
+possiblemeetinglocations("Trasdorf Bahnhof").
+possiblemeetinglocations("Dresdner Straße").
+possiblemeetinglocations("Hietzing").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Hetzmannsdorf-Wullersdorf Bf").
+restaurant("Matzleinsdorfer Platz").

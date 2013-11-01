@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Johnstraße").
-initlocation($p,"Höflein an der Donau Bahnhof").
-initlocation($p,"Purkersdorf Zentrum Bahnhof").
-initlocation($p,"Schlachthausgasse").
+initlocation(1,"Süßenbrunn").
+initlocation(1,"Tulln Stadt Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Dresdner Straße").
+initlocation(1,"Silberwald Bahnhof").
+initlocation(1,"Obereggendorf Bahnhof").
+initlocation(1,"Oberradlberg Bahnhof").
+sequence(1,0, "Süßenbrunn").
 person(2).
-initlocation($p,"Stadtpark").
-initlocation($p,"Taubstummengasse").
-initlocation($p,"Meidling Hauptstraße").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Gaisruck Bahnhof").
-initlocation($p,"Trasdorf Bahnhof").
-initlocation($p,"Stadtpark").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Quartier Belvedere").
-possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
-possiblemeetinglocations("Erzherzog-Karl-Straße").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Schweglerstraße").
-possiblemeetinglocations("Korneuburg Bahnhof").
-restaurant("Schönborn Bahnhof").
-restaurant("Hietzing").
-restaurant("Guntramsdorf-Thallern").
-restaurant("Erdberg").
-restaurant("Zieglergasse").
-restaurant("Gänserndorf Bahnhof").
-restaurant("Sitzenberg-Reidling Bahnhof").
+initlocation(2,"Stephansplatz").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Lanzendorf-Rannersdorf Bahnhof").
+initlocation(2,"Hofstatt Bahnhof").
+initlocation(2,"Braunschweiggasse").
+initlocation(2,"Bruck/Leitha Bahnhof").
+initlocation(2,"Schottentor").
+sequence(2,0, "Stephansplatz").
+possiblemeetinglocations("Frättingsdorf Bahnhof").
+possiblemeetinglocations("Felixdorf Bahnhof").
+possiblemeetinglocations("Kottingneusiedl Bahnhof").
+possiblemeetinglocations("St Andrä-Wördern Bahnhof").
+possiblemeetinglocations("Wildungsmauer Bahnhof").
+possiblemeetinglocations("Wolf in der Au").
+possiblemeetinglocations("Taubstummengasse").
+restaurant("Josefstädter Straße").
+restaurant("Kagraner Platz").
+restaurant("Münchendorf Bahnhof").
+restaurant("Nestroyplatz").
+restaurant("Langenlebarn Bahnhof").
+restaurant("Kettenbrückengasse").
+restaurant("Kapellerfeld Bahnhof").

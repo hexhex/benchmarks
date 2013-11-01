@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Stadlergasse").
-initlocation($p,"Hütteldorf, Bujattigasse").
-initlocation($p,"Neilreichgasse").
-initlocation($p,"Hütteldorfer Str/Lützowgasse").
+initlocation(1,"Niederhofstraße").
+initlocation(1,"Seegasse").
+initlocation(1,"Staatz Bahnhof").
+initlocation(1,"Leobendorf-Burg Kreuzenstn Bf").
+initlocation(1,"Mistelbach Stadt").
+sequence(1,0, "Niederhofstraße").
 person(2).
-initlocation($p,"Nordbrücke").
-initlocation($p,"Hetzendorf").
-initlocation($p,"Scheibenbergstraße").
-initlocation($p,"Pfaffstätten Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Nordbrücke").
-possiblemeetinglocations("Eichgraben-Altlengbach Bahnhof").
-possiblemeetinglocations("Haidestraße").
-possiblemeetinglocations("Thaliastraße/Maroltingergasse").
-possiblemeetinglocations("Marx-Meidlinger-Straße").
-possiblemeetinglocations("Herzogenburg Stadt").
-restaurant("Eichenstraße").
-restaurant("Atzgersdorfer Straße").
-restaurant("Oberfeldgasse/Spargelfeldstr").
-restaurant("Zentralfriedhof 1Tor").
-restaurant("Bauernfeldplatz").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Höflein an der Donau Bahnhof").
+initlocation(2,"Felixdorf Bahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Hofwiesengasse").
+sequence(2,0, "Unterpurkersdorf Bahnhof").
+possiblemeetinglocations("Zieglergasse").
+possiblemeetinglocations("Am Schöpfwerk").
+possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
+possiblemeetinglocations("Schleinbach Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Weidling Bf").
+restaurant("Längenfeldgasse").
+restaurant("Gutraterplatz").
+restaurant("Spitalgasse/Währinger Straße").
+restaurant("St Pölten Traisenpark P+R Nord").
+restaurant("Leberberg").

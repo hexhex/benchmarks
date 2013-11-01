@@ -1,12 +1,12 @@
 person(1).
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Handelskai").
-initlocation($p,"Purkersdorf Sanatorium").
+initlocation(1,"Sankt Marx").
+initlocation(1,"Zeiselmauer-Königstetten Bf").
+sequence(1,0, "Sankt Marx").
 person(2).
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Stubentor").
-initlocation($p,"Zentralfriedhof").
-possiblemeetinglocations("Stadlau").
-possiblemeetinglocations("Rochusgasse").
-restaurant("Unter Kritzendorf Bahnhof").
-restaurant("Unterradlberg Bahnhof").
+initlocation(2,"Grillgasse").
+initlocation(2,"Kaisermühlen-VIC").
+sequence(2,0, "Grillgasse").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+restaurant("Zippererstraße").
+restaurant("Achau Bahnhof").

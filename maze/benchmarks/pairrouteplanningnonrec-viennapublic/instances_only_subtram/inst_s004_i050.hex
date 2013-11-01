@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Laudongasse").
-initlocation($p,"Donauspital").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Praterstern").
-initlocation($p,"Laudongasse").
+initlocation(1,"Dornbacher Straße").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Krottenbachstraße").
+initlocation(1,"Laurentiusplatz").
+sequence(1,0, "Dornbacher Straße").
 person(2).
-initlocation($p,"Kaiserstraße").
-initlocation($p,"Hardtgasse").
-initlocation($p,"Taborstraße").
-initlocation($p,"Oberzellergasse").
-initlocation($p,"Kaiserstraße").
-possiblemeetinglocations("Tulln Bahnhof").
-possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
-possiblemeetinglocations("Thaliastraße/Brunnengasse").
-possiblemeetinglocations("Innstraße").
-restaurant("Absberggasse").
-restaurant("Niederkreuzstetten Bahnhof").
-restaurant("Jägerstraße").
-restaurant("Antonigasse").
+initlocation(2,"Schottenfeldgasse").
+initlocation(2,"Pötzleinsdorf").
+initlocation(2,"Plößlgasse").
+initlocation(2,"Götzendorf Bahnhof").
+sequence(2,0, "Schottenfeldgasse").
+possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
+possiblemeetinglocations("Kranzgasse").
+possiblemeetinglocations("Autokaderstraße").
+possiblemeetinglocations("Hardtgasse").
+restaurant("Hütteldorfer Str/Hochsatzeng").
+restaurant("Wampersdorf Bahnhof").
+restaurant("Braunschweiggasse").
+restaurant("Perchtoldsdorf Bahnhof").

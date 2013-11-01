@@ -1,12 +1,12 @@
 person(1).
-initlocation(1,"Wiethestraße/Kirschenallee").
-initlocation(1,"Theater in der Josefstadt").
-sequence(1,0, "Wiethestraße/Kirschenallee").
+initlocation(1,"Schleiergasse").
+initlocation(1,"Ulanenweg").
+sequence(1,0, "Schleiergasse").
 person(2).
-initlocation(2,"Lazarettgasse").
-initlocation(2,"Hautzendorf Bahnhof").
-sequence(2,0, "Lazarettgasse").
-possiblemeetinglocations("Hetzmannsdorf-Wullersdorf Bf").
-possiblemeetinglocations("Frederick-Loewe-Weg").
-restaurant("Fickeysstraße").
-restaurant("Gredlerstraße").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Nordwestbahnstraße").
+sequence(2,0, "Franz-Josefs-Bahnhof").
+possiblemeetinglocations("Fischergrund").
+possiblemeetinglocations("Neuwaldegg").
+restaurant("Heustadelgasse/Schule").
+restaurant("Theergasse").

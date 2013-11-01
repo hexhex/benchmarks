@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Parndorf Ort Bahnhof").
-initlocation($p,"Donaumarina").
-initlocation($p,"Kagraner Platz").
-initlocation($p,"Unter Kritzendorf Bahnhof").
-initlocation($p,"Hausleiten Bahnhof").
-initlocation($p,"Klosterneuburg-Weidling Bf").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Siebenhirten (NÖ). Haltestelle").
-initlocation($p,"Tscherttegasse").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Parndorf Ort Bahnhof").
+initlocation(1,"Muckendorf-Wipfing Bahnhof").
+initlocation(1,"Neulengbach Bahnhof").
+initlocation(1,"Purkersdorf Zentrum Bahnhof").
+initlocation(1,"Pfaffstätten Bahnhof").
+initlocation(1,"Hardeggasse").
+initlocation(1,"Bruck/Leitha Bahnhof").
+initlocation(1,"Wilfleinsdorf Bahnhof").
+initlocation(1,"Rennbahnweg").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Eichgraben-Altlengbach Bahnhof").
+sequence(1,0, "Muckendorf-Wipfing Bahnhof").
 person(2).
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Rochusgasse").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Sitzenberg-Reidling Bahnhof").
-initlocation($p,"Atzenbrugg Bahnhof").
-initlocation($p,"Himberg Bahnhof").
-initlocation($p,"Donauinsel").
-initlocation($p,"Obersdorf Bahnhof").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-possiblemeetinglocations("Klosterneuburg-Kierling Bf").
-possiblemeetinglocations("Traisengasse").
-possiblemeetinglocations("Kendlerstraße").
-possiblemeetinglocations("Münchendorf Bahnhof").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Wilfleinsdorf Bahnhof").
-possiblemeetinglocations("Schönbrunn").
-possiblemeetinglocations("Pfaffstätten Bahnhof").
-possiblemeetinglocations("Taborstraße").
-possiblemeetinglocations("Sarasdorf Bahnhof").
-restaurant("Maria Anzbach Bahnhof").
-restaurant("Sankt Marx").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Taubstummengasse").
-restaurant("Stadtpark").
-restaurant("Enzersdorf bei Staatz Bahnhof").
-restaurant("Atzenbrugg Bahnhof").
-restaurant("Herzogenburg Stadt").
-restaurant("Kritzendorf Bahnhof").
-restaurant("Zentralfriedhof").
+initlocation(2,"Gramatneusiedl Bahnhof").
+initlocation(2,"Atzgersdorf").
+initlocation(2,"Bisamberg Bahnhof").
+initlocation(2,"Strebersdorf").
+initlocation(2,"Kagraner Platz").
+initlocation(2,"Schlachthausgasse").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Himberg Bahnhof").
+initlocation(2,"Gaisruck Bahnhof").
+initlocation(2,"Donaumarina").
+sequence(2,0, "Gramatneusiedl Bahnhof").
+possiblemeetinglocations("Unterradlberg Bahnhof").
+possiblemeetinglocations("St Pölten Traisenpark P+R Nord").
+possiblemeetinglocations("Hirschstetten").
+possiblemeetinglocations("Volkstheater").
+possiblemeetinglocations("Kardinal-Nagl-Platz").
+possiblemeetinglocations("Haslau an der Donau Bahnhof").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Höflein an der Donau Bahnhof").
+possiblemeetinglocations("Burggasse-Stadthalle").
+possiblemeetinglocations("Jedlersdorf").
+restaurant("Praterstern").
+restaurant("Sarasdorf Bahnhof").
+restaurant("Ladendorf Bahnhof").
+restaurant("Kagraner Platz").
+restaurant("Längenfeldgasse").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Floridsdorf").
+restaurant("Tullnerfeld Bahnhof").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Zippererstraße").

@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Schlachthausgasse").
-initlocation($p,"Perfektastraße").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Ebenfurth Bahnhof").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Schlachthausgasse").
+initlocation(1,"Sollenau Bahnhof").
+initlocation(1,"Karlsplatz").
+initlocation(1,"Rekawinkel Bahnhof").
+initlocation(1,"Breitenwaida Bahnhof").
+initlocation(1,"Schönbrunn").
+sequence(1,0, "Sollenau Bahnhof").
 person(2).
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Praterkai").
-initlocation($p,"Strasshof Bahnhof").
-initlocation($p,"Stadtpark").
-initlocation($p,"Kaiserebersdorf").
-possiblemeetinglocations("Petronell-Carnuntum Bahnhof").
-possiblemeetinglocations("Sollenau Bahnhof").
-possiblemeetinglocations("Gemeinlebarn Bahnhof").
-possiblemeetinglocations("Am Schöpfwerk").
-possiblemeetinglocations("Spillern Bahnhof").
-restaurant("Flughafen Wien (VIE). Bahnhof").
-restaurant("Thaliastraße").
-restaurant("Hausfeldstraße").
-restaurant("Absdorf-Hippersdorf Bahnhof").
-restaurant("Hausleiten Bahnhof").
+initlocation(2,"Münchendorf Bahnhof").
+initlocation(2,"Neubaugasse").
+initlocation(2,"Unterpurkersdorf Bahnhof").
+initlocation(2,"Floridsdorf").
+initlocation(2,"Gumpoldskirchen Bahnhof").
+sequence(2,0, "Münchendorf Bahnhof").
+possiblemeetinglocations("Moosbierbaum-Heiligeneich Bf").
+possiblemeetinglocations("Simmering").
+possiblemeetinglocations("Sierndorf Bahnhof").
+possiblemeetinglocations("Lanzendorf-Rannersdorf Bahnhof").
+possiblemeetinglocations("Mistelbach Bahnhof").
+restaurant("Sierndorf Bahnhof").
+restaurant("Strasshof Bahnhof").
+restaurant("Süßenbrunn").
+restaurant("Aspernstraße").
+restaurant("Gänserndorf Bahnhof").

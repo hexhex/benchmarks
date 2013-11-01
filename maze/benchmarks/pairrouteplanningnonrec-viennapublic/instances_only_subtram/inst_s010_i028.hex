@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Erzherzog-Karl-Straße").
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-initlocation($p,"Donaumarina").
-initlocation($p,"Sensengasse").
-initlocation($p,"Karlsplatz").
-initlocation($p,"Arthaberplatz").
-initlocation($p,"Koppstraße/Panikengasse").
-initlocation($p,"Sechskrügelgasse").
-initlocation($p,"Wilhelminenstraße/Wattgasse").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
+initlocation(1,"St Pölten Traisenpark P+R Nord").
+initlocation(1,"Prinzgasse").
+initlocation(1,"Schmerlingplatz").
+initlocation(1,"Kendlerstraße").
+initlocation(1,"Längenfeldgasse").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Rodaun").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Absdorf-Hippersdorf Bahnhof").
+initlocation(1,"Hetzmannsdorf-Wullersdorf Bf").
+sequence(1,0, "St Pölten Traisenpark P+R Nord").
 person(2).
-initlocation($p,"Zieglergasse").
-initlocation($p,"Radetzkyplatz").
-initlocation($p,"Unter Sankt Veit").
-initlocation($p,"Simmering").
-initlocation($p,"Thaliastraße/Feßtgasse").
-initlocation($p,"Rußbergstraße").
-initlocation($p,"Raxstraße/Rudolfshügelgasse").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Favoritenstraße/Troststraße").
-initlocation($p,"Bahnhof Meidling/Eichenstraße").
-initlocation($p,"Zieglergasse").
-possiblemeetinglocations("Seyring Bahnhof").
-possiblemeetinglocations("Hildebrandgasse").
-possiblemeetinglocations("Gloriettegasse").
-possiblemeetinglocations("Hermesstraße").
-possiblemeetinglocations("Hetzendorf").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Svetelskystraße").
-possiblemeetinglocations("Rebhanngasse").
-possiblemeetinglocations("Frauengasse").
-possiblemeetinglocations("Götzendorf Bahnhof").
-restaurant("Rennweg").
-restaurant("Anschützgasse").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Gellertplatz").
+initlocation(2,"Tscherttegasse").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Paulanergasse").
+initlocation(2,"Sieveringer Straße").
+initlocation(2,"Liesing").
+initlocation(2,"Vinzenzgasse").
+initlocation(2,"Friedensbrücke").
+sequence(2,0, "Pilgramgasse").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Sieveringer Straße").
+possiblemeetinglocations("Erlaaer Straße").
+possiblemeetinglocations("Marx-Meidlinger-Straße").
+possiblemeetinglocations("Floridsdorf").
+possiblemeetinglocations("Gumpoldskirchen Bahnhof").
+possiblemeetinglocations("Quartier Belvedere").
+possiblemeetinglocations("Hausleiten Bahnhof").
+possiblemeetinglocations("Pilgramgasse").
+possiblemeetinglocations("Thaliastraße/Brunnengasse").
+restaurant("Landstraße-Wien Mitte").
+restaurant("Wolkersdorf Bahnhof").
+restaurant("Himberg Bahnhof").
+restaurant("Großfeldsiedlung").
+restaurant("Schottenfeldgasse").
+restaurant("Sensengasse").
+restaurant("Messe-Prater").
+restaurant("Paradisgasse").
 restaurant("Platt Bahnhof").
-restaurant("Döblinger Hauptstr/Gatterburgg").
-restaurant("Frättingsdorf Bahnhof").
-restaurant("Wienerbergbrücke").
-restaurant("Dürrwien Bahnhof").
-restaurant("Tulln Stadt Bahnhof").
-restaurant("Gumpoldskirchen Bahnhof").
-restaurant("Purkersdorf Zentrum Bahnhof").
+restaurant("Gramatneusiedl Bahnhof").

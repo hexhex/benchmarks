@@ -1,44 +1,44 @@
 person(1).
-initlocation($p,"Staatz Bahnhof").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Gasometer").
-initlocation($p,"Hernals").
-initlocation($p,"Alser Straße").
-initlocation($p,"Braunschweiggasse").
-initlocation($p,"Krottenbachstraße").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Maria Ellend Bahnhof").
-initlocation($p,"Purkersdorf Sanatorium").
-initlocation($p,"Staatz Bahnhof").
+initlocation(1,"Josefstädter Straße").
+initlocation(1,"Taborstraße").
+initlocation(1,"Neusiedl am See Bahnhof").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Purkersdorf Sanatorium").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Regelsbrunn Bahnhof").
+initlocation(1,"Rochusgasse").
+initlocation(1,"Alterlaa").
+initlocation(1,"Kritzendorf Bahnhof").
+sequence(1,0, "Josefstädter Straße").
 person(2).
-initlocation($p,"Preyergasse/Speising").
-initlocation($p,"Retz Bahnhof").
-initlocation($p,"Seyring Bahnhof").
-initlocation($p,"Großfeldsiedlung").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Zentralfriedhof").
-initlocation($p,"Stadtpark").
-initlocation($p,"Grillgasse").
-initlocation($p,"Hütteldorfer Straße").
-initlocation($p,"Preyergasse/Speising").
-possiblemeetinglocations("Margaretengürtel").
-possiblemeetinglocations("Maria Anzbach Bahnhof").
-possiblemeetinglocations("Enzersdorf bei Staatz Bahnhof").
-possiblemeetinglocations("Obersdorf Bahnhof").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Kapellerfeld Bahnhof").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+initlocation(2,"Leopoldau").
+initlocation(2,"Pilgramgasse").
+initlocation(2,"Keplerplatz").
+initlocation(2,"Bad Deutsch-Altenburg Bahnhof").
+initlocation(2,"Praterkai").
+initlocation(2,"Höbersdorf Bahnhof").
+initlocation(2,"Wr Neustadt Civitas Nova").
+initlocation(2,"Hausfeldstraße").
+initlocation(2,"Erlaaer Straße").
+sequence(2,0, "Neubau-Kreuzstetten Bahnhof").
 possiblemeetinglocations("Alser Straße").
-possiblemeetinglocations("Thaliastraße").
-possiblemeetinglocations("Hausfeldstraße").
-possiblemeetinglocations("Schottentor").
-restaurant("Gersthof").
-restaurant("Herrengasse").
-restaurant("Spittelau").
-restaurant("Nestroyplatz").
-restaurant("Neue Donau").
-restaurant("Trasdorf Bahnhof").
-restaurant("Rennweg").
-restaurant("Blumental").
-restaurant("Heiligenstadt").
-restaurant("Enzersdorf bei Staatz Bahnhof").
+possiblemeetinglocations("Handelskai").
+possiblemeetinglocations("Brunn-Maria Enzersdorf Bahnhof").
+possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
+possiblemeetinglocations("Liesing").
+possiblemeetinglocations("Ober Sankt Veit").
+possiblemeetinglocations("Traisengasse").
+possiblemeetinglocations("Traismauer Bahnhof").
+possiblemeetinglocations("Währinger Straße-Volksoper").
+possiblemeetinglocations("Sollenau Bahnhof").
+restaurant("Grillgasse").
+restaurant("Ladendorf Bahnhof").
+restaurant("Perchtoldsdorf Bahnhof").
+restaurant("Pressbaum Bahnhof").
+restaurant("Guntersdorf Bahnhof").
+restaurant("Ottakring").
+restaurant("Getzersdorf/Traisen Bahnhof").
+restaurant("Felixdorf Bahnhof").
+restaurant("Regelsbrunn Bahnhof").
+restaurant("Strebersdorf").

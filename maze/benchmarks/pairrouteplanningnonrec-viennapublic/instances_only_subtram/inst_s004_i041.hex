@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Strozzigasse").
-initlocation($p,"Konstanziagasse").
-initlocation($p,"Lange Gasse").
-initlocation($p,"Halteraugasse").
-initlocation($p,"Strozzigasse").
+initlocation(1,"Thaliastraße/Feßtgasse").
+initlocation(1,"Stadtpark").
+initlocation(1,"Wexstraße").
+initlocation(1,"Gruschaplatz").
+sequence(1,0, "Thaliastraße/Feßtgasse").
 person(2).
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Viehmarktgasse").
-initlocation($p,"Resselgasse").
-initlocation($p,"Saikogasse").
-initlocation($p,"Schweglerstraße").
-possiblemeetinglocations("Taborstraße/Heinestraße").
-possiblemeetinglocations("Laurenzgasse").
-possiblemeetinglocations("Ebenfurth Bahnhof").
-possiblemeetinglocations("Simonygasse").
-restaurant("Wampersdorf Bahnhof").
-restaurant("Greifenstein-Altenberg Bahnhof").
-restaurant("Josefstädter Straße").
-restaurant("Hütteldorf, Bujattigasse").
+initlocation(2,"Quellenplatz").
+initlocation(2,"Kaiserebersdorf").
+initlocation(2,"Aspern Nord").
+initlocation(2,"Kaiserebersdorf, Zinnergasse").
+sequence(2,0, "Quellenplatz").
+possiblemeetinglocations("Empergergasse").
+possiblemeetinglocations("Oberzellergasse").
+possiblemeetinglocations("Aderklaaer Straße").
+possiblemeetinglocations("Erdberg").
+restaurant("Hausfeldstraße").
+restaurant("Rennbahnweg").
+restaurant("Laa an der Thaya Bahnhof").
+restaurant("Taubstummengasse").

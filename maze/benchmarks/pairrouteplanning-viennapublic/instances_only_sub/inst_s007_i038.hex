@@ -1,32 +1,32 @@
 person(1).
-initlocation($p,"Jägerstraße").
-initlocation($p,"Münchendorf Bahnhof").
-initlocation($p,"Siebenhirten").
-initlocation($p,"Erdberg").
-initlocation($p,"Hirschstetten").
-initlocation($p,"Friedensbrücke").
-initlocation($p,"Blumental").
-initlocation($p,"Jägerstraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Hofstatt Bahnhof").
+initlocation(1,"Hausleiten Bahnhof").
+initlocation(1,"Parndorf Ort Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+initlocation(1,"Fischamend Bahnhof").
+initlocation(1,"Schönborn Bahnhof").
+sequence(1,0, "Kapellerfeld Bahnhof").
 person(2).
-initlocation($p,"Neue Donau").
-initlocation($p,"Bad Vöslau Bahnhof").
-initlocation($p,"Leobendorf-Burg Kreuzenstn Bf").
-initlocation($p,"Schweglerstraße").
-initlocation($p,"Neulengbach Stadt Bahnhof").
-initlocation($p,"Johnstraße").
-initlocation($p,"Hennersdorf Bahnhof").
-initlocation($p,"Neue Donau").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Gramatneusiedl Bahnhof").
-possiblemeetinglocations("Penzing").
-possiblemeetinglocations("Aspernstraße").
-possiblemeetinglocations("Neubaugasse").
-possiblemeetinglocations("Neulengbach Bahnhof").
-possiblemeetinglocations("Schottentor").
-restaurant("St Pölten Hauptbahnhof").
-restaurant("Aderklaaer Straße").
-restaurant("Guntersdorf Bahnhof").
-restaurant("Stephansplatz").
-restaurant("Mödling Bahnhof").
-restaurant("Hardeggasse").
-restaurant("Herzogenburg Stadt").
+initlocation(2,"Guntersdorf Bahnhof").
+initlocation(2,"Gersthof").
+initlocation(2,"Hainburg/Donau Ungartor/B9").
+initlocation(2,"Brünner Straße").
+initlocation(2,"Gumpendorfer Straße").
+initlocation(2,"Stockerau Bahnhof").
+initlocation(2,"Theresienfeld Bahnhof").
+sequence(2,0, "Guntersdorf Bahnhof").
+possiblemeetinglocations("Laa an der Thaya Bahnhof").
+possiblemeetinglocations("Korneuburg Bahnhof").
+possiblemeetinglocations("Seyring Bahnhof").
+possiblemeetinglocations("Strasshof Bahnhof").
+possiblemeetinglocations("Unter Sankt Veit").
+possiblemeetinglocations("Schönbrunn").
+possiblemeetinglocations("Spillern Bahnhof").
+restaurant("Purkersdorf Sanatorium").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Gumpendorfer Straße").
+restaurant("Gramatneusiedl Bahnhof").
+restaurant("Erzherzog-Karl-Straße").
+restaurant("Pfaffstätten Bahnhof").
+restaurant("Dresdner Straße").

@@ -1,28 +1,28 @@
 person(1).
-initlocation($p,"Erdberg").
-initlocation($p,"Riedelgasse").
-initlocation($p,"Auerspergstraße").
-initlocation($p,"Wilfleinsdorf Bahnhof").
-initlocation($p,"Theresienfeld Bahnhof").
-initlocation($p,"Breitenwaida Bahnhof").
-initlocation($p,"Erdberg").
+initlocation(1,"Auerspergstraße").
+initlocation(1,"Stadlau").
+initlocation(1,"Rampengasse").
+initlocation(1,"Gatterburggasse").
+initlocation(1,"Unteroberndorf Bahnhof").
+initlocation(1,"Schwechat Bahnhof").
+sequence(1,0, "Auerspergstraße").
 person(2).
-initlocation($p,"Hautzendorf Bahnhof").
-initlocation($p,"Donaustadtstraße").
-initlocation($p,"Gerstnerstraße/Westbhf").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Winckelmannstraße").
-initlocation($p,"Hofwiesengasse").
-initlocation($p,"Hautzendorf Bahnhof").
-possiblemeetinglocations("Jägerstraße").
-possiblemeetinglocations("Stadlau").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Längenfeldgasse").
-possiblemeetinglocations("Aspern Nord").
-possiblemeetinglocations("Atzenbrugg Bahnhof").
-restaurant("Paasdorf Bahnhof").
-restaurant("Knöllgasse/Troststraße").
-restaurant("Geiereckstraße").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Rennweg").
-restaurant("Oberlaa, Therme Wien").
+initlocation(2,"Leopoldau").
+initlocation(2,"Wilhelminenstr/Sandleitengasse").
+initlocation(2,"Geiereckstraße").
+initlocation(2,"Florianigasse").
+initlocation(2,"Nußdorf, Beethovengang").
+initlocation(2,"Höflein an der Donau Bahnhof").
+sequence(2,0, "Leopoldau").
+possiblemeetinglocations("Hernals").
+possiblemeetinglocations("Liechtenwerder Platz").
+possiblemeetinglocations("Purkersdorf Sanatorium").
+possiblemeetinglocations("Dr-Karl-Renner-Ring").
+possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
+possiblemeetinglocations("Langenzersdorf Bahnhof").
+restaurant("Altes Landgut").
+restaurant("Albertgasse").
+restaurant("Weinhauser Gasse").
+restaurant("Nußdorf").
+restaurant("Unter St Veit, Hummelgasse").
+restaurant("Eichenstraße").

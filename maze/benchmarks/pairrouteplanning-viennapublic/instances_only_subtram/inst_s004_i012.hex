@@ -1,20 +1,20 @@
 person(1).
-initlocation($p,"Laxenburger Str/Gudrunstraße").
-initlocation($p,"Michelhausen Bahnhof").
-initlocation($p,"Schmerlingplatz").
-initlocation($p,"Carminweg").
-initlocation($p,"Laxenburger Str/Gudrunstraße").
+initlocation(1,"Kapellerfeld Bahnhof").
+initlocation(1,"Stadiongasse/Parlament").
+initlocation(1,"Otto-Probst-Straße").
+initlocation(1,"Sarasdorf Bahnhof").
+sequence(1,0, "Kapellerfeld Bahnhof").
 person(2).
-initlocation($p,"Kaiserebersdorf").
-initlocation($p,"Columbusplatz").
-initlocation($p,"Krieau").
-initlocation($p,"Gersthof").
-initlocation($p,"Kaiserebersdorf").
-possiblemeetinglocations("Hietzing").
-possiblemeetinglocations("Salztorbrücke").
-possiblemeetinglocations("Seestadt").
-possiblemeetinglocations("Schottenring").
-restaurant("Hopfengasse").
-restaurant("Kettenbrückengasse").
-restaurant("Per-Albin-Hansson-Siedlung Ost").
-restaurant("Grillgasse").
+initlocation(2,"Wr Neustadt Nord").
+initlocation(2,"Atzgersdorfer Straße").
+initlocation(2,"Bad Vöslau Bahnhof").
+initlocation(2,"Neubau-Kreuzstetten Bahnhof").
+sequence(2,0, "Wr Neustadt Nord").
+possiblemeetinglocations("Klosterneuburg-Kierling Bf").
+possiblemeetinglocations("Hardtgasse").
+possiblemeetinglocations("Resselgasse").
+possiblemeetinglocations("Schloss Schönbrunn").
+restaurant("Praterkai").
+restaurant("Hohe Warte").
+restaurant("Sankt Marx").
+restaurant("Mannswörth Bahnhof").

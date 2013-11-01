@@ -1,16 +1,16 @@
 person(1).
-initlocation(1,"Schlachthausgasse").
-initlocation(1,"Burgenlandgasse").
-initlocation(1,"Winkeläckerstraße").
-sequence(1,0, "Schlachthausgasse").
+initlocation(1,"Vinzenzgasse").
+initlocation(1,"Praterstern/Lassallestraße").
+initlocation(1,"Thaliastraße/Maroltingergasse").
+sequence(1,0, "Vinzenzgasse").
 person(2).
-initlocation(2,"Rustengasse").
-initlocation(2,"Neubaugasse/Westbahnstraße").
-initlocation(2,"Staatz Bahnhof").
-sequence(2,0, "Rustengasse").
-possiblemeetinglocations("Langobardenstraße").
-possiblemeetinglocations("Lederergasse").
-possiblemeetinglocations("Schloss Hetzendorf").
-restaurant("Max-Mauermann-Gasse").
-restaurant("Gerstnerstraße/Westbhf").
-restaurant("Mannswörth Bahnhof").
+initlocation(2,"Edenstraße").
+initlocation(2,"Rampengasse").
+initlocation(2,"Reglergasse").
+sequence(2,0, "Edenstraße").
+possiblemeetinglocations("Schwechat B10/Hauptplatz").
+possiblemeetinglocations("Ernanigasse").
+possiblemeetinglocations("Meidlinger Hauptstr/Pohlgasse").
+restaurant("Schottenfeldgasse").
+restaurant("Josef-Flandorfer-Straße").
+restaurant("Michaelerplatz").

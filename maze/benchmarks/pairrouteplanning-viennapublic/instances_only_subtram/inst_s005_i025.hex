@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Eckpergasse").
-initlocation($p,"Sarasdorf Bahnhof").
-initlocation($p,"Schlickgasse").
-initlocation($p,"Klosterneuburg-Kierling Bf").
-initlocation($p,"Wenzgasse").
-initlocation($p,"Eckpergasse").
+initlocation(1,"Geiselbergstraße").
+initlocation(1,"Grillgasse").
+initlocation(1,"Am Heumarkt").
+initlocation(1,"Konstanziagasse").
+initlocation(1,"Fasangasse").
+sequence(1,0, "Geiselbergstraße").
 person(2).
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Palffygasse").
-initlocation($p,"Johann-Strauß-Gasse").
-initlocation($p,"Gusenleithnergasse").
-initlocation($p,"Baumgarten").
-initlocation($p,"Paasdorf Bahnhof").
-possiblemeetinglocations("Satzberggasse").
-possiblemeetinglocations("Dornbacher Straße").
-possiblemeetinglocations("Carminweg").
-possiblemeetinglocations("Achau Bahnhof").
-possiblemeetinglocations("Hadersdorf Bahnhof").
-restaurant("Liechtenwerder Platz").
-restaurant("Hietzing").
-restaurant("Neulerchenfelder Str/Haberlg").
-restaurant("Karmeliterplatz").
-restaurant("Martinstraße").
+initlocation(2,"Alaudagasse").
+initlocation(2,"Simonygasse").
+initlocation(2,"St Pölten Hauptbahnhof").
+initlocation(2,"Burggasse-Stadthalle").
+initlocation(2,"Gumpendorfer Straße").
+sequence(2,0, "Alaudagasse").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Donauspital").
+possiblemeetinglocations("Südtiroler Platz/Hauptbahnhof").
+possiblemeetinglocations("Salztorbrücke").
+possiblemeetinglocations("Oberradlberg Bahnhof").
+restaurant("Elterleinplatz").
+restaurant("Niederkreuzstetten Bahnhof").
+restaurant("Hütteldorfer Straße").
+restaurant("Oberradlberg Bahnhof").
+restaurant("Sollenau Bahnhof").

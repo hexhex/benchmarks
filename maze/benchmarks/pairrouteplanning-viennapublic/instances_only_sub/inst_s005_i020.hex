@@ -1,24 +1,24 @@
 person(1).
-initlocation($p,"Rennbahnweg").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Michelbeuern-AKH").
-initlocation($p,"Mistelbach Bahnhof").
-initlocation($p,"Grillgasse").
-initlocation($p,"Rennbahnweg").
+initlocation(1,"Getzersdorf/Traisen Bahnhof").
+initlocation(1,"Sierndorf Bahnhof").
+initlocation(1,"Heiligenstadt").
+initlocation(1,"Hainburg/Donau Personenbhf").
+initlocation(1,"Tulln Bahnhof").
+sequence(1,0, "Getzersdorf/Traisen Bahnhof").
 person(2).
-initlocation($p,"Pressbaum Bahnhof").
-initlocation($p,"Mödling Bahnhof").
-initlocation($p,"Ebreichsdorf Bahnhof").
-initlocation($p,"Stockerau Bahnhof").
-initlocation($p,"Brünner Straße").
-initlocation($p,"Pressbaum Bahnhof").
-possiblemeetinglocations("Herzogenburg Stadt").
-possiblemeetinglocations("Michelbeuern-AKH").
-possiblemeetinglocations("Purkersdorf Zentrum Bahnhof").
-possiblemeetinglocations("Zeiselmauer-Königstetten Bf").
-possiblemeetinglocations("Donauspital").
-restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Laa an der Thaya Bahnhof").
-restaurant("Praterstern").
-restaurant("Himberg Bahnhof").
-restaurant("Stadtpark").
+initlocation(2,"Maria Anzbach Bahnhof").
+initlocation(2,"Donauspital").
+initlocation(2,"Staatz Bahnhof").
+initlocation(2,"Korneuburg Bahnhof").
+initlocation(2,"Tscherttegasse").
+sequence(2,0, "Maria Anzbach Bahnhof").
+possiblemeetinglocations("Niederkreuzstetten Bahnhof").
+possiblemeetinglocations("Maria Anzbach Bahnhof").
+possiblemeetinglocations("Sankt Marx").
+possiblemeetinglocations("Siemensstraße").
+possiblemeetinglocations("Taborstraße").
+restaurant("Blumental").
+restaurant("Guntramsdorf-Thallern").
+restaurant("Erdberg").
+restaurant("Leobersdorf Bahnhof").
+restaurant("Hütteldorfer Straße").

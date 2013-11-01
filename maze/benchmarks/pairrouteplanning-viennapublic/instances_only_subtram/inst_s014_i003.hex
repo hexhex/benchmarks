@@ -1,60 +1,60 @@
 person(1).
-initlocation($p,"Niederkreuzstetten Bahnhof").
-initlocation($p,"Mayssengasse").
-initlocation($p,"Neubau-Kreuzstetten Bahnhof").
-initlocation($p,"Petronell-Carnuntum Bahnhof").
-initlocation($p,"Traisengasse").
-initlocation($p,"Mayerhofgasse").
-initlocation($p,"Schuhmeierplatz").
-initlocation($p,"Enkplatz").
-initlocation($p,"Schloss Schönbrunn").
-initlocation($p,"Praterkai").
-initlocation($p,"Muckendorf-Wipfing Bahnhof").
-initlocation($p,"Felixdorf Bahnhof").
-initlocation($p,"Stadlergasse").
-initlocation($p,"Obere Donaustraße").
-initlocation($p,"Niederkreuzstetten Bahnhof").
+initlocation(1,"Museumsquartier").
+initlocation(1,"Erdberg").
+initlocation(1,"Franz-Asenbauer-Gasse").
+initlocation(1,"Keplerplatz").
+initlocation(1,"Schottenfeldgasse").
+initlocation(1,"Prater, Hauptallee").
+initlocation(1,"Stockerau Bahnhof").
+initlocation(1,"Svetelskystraße").
+initlocation(1,"Siebensterngasse").
+initlocation(1,"Stephansplatz").
+initlocation(1,"Mistelbach Bahnhof").
+initlocation(1,"Perntergasse").
+initlocation(1,"Jedlersdorf").
+initlocation(1,"Kaiserstraße/Burggasse").
+sequence(1,0, "Museumsquartier").
 person(2).
-initlocation($p,"Museumsquartier").
-initlocation($p,"Paasdorf Bahnhof").
-initlocation($p,"Weihburggasse").
-initlocation($p,"Schleiergasse").
-initlocation($p,"Aderklaaer Straße").
-initlocation($p,"Am Spitz").
-initlocation($p,"Klosterneub Str/Wallensteinstr").
-initlocation($p,"Stubentor").
-initlocation($p,"Franz-Josefs-Bahnhof").
-initlocation($p,"Zentralfriedhof 2Tor").
-initlocation($p,"Tullnerfeld Bahnhof").
-initlocation($p,"Döblinger Bad").
-initlocation($p,"Erdberg").
-initlocation($p,"Schwechat Bahnhof").
-initlocation($p,"Museumsquartier").
-possiblemeetinglocations("Erdberg").
-possiblemeetinglocations("Fasangasse").
-possiblemeetinglocations("Kottingbrunn Bahnhof").
-possiblemeetinglocations("Krankenhaus Hietzing").
-possiblemeetinglocations("Hintere Zollamtsstraße").
-possiblemeetinglocations("Kärntner Ring/Oper").
-possiblemeetinglocations("Zehetnerg/Pflegeh Baumgarten").
-possiblemeetinglocations("Mödling Bahnhof").
-possiblemeetinglocations("Korneuburg Bahnhof").
-possiblemeetinglocations("Flughafen Wien (VIE). Bahnhof").
-possiblemeetinglocations("Franzensbrücke").
-possiblemeetinglocations("Bahnhof Meidling/Eichenstraße").
-possiblemeetinglocations("Rennbahnweg").
-possiblemeetinglocations("Edmund-Hawranek-Platz").
-restaurant("Höbersdorf Bahnhof").
-restaurant("Kleistgasse").
-restaurant("Satzberggasse").
-restaurant("Gunoldstraße").
-restaurant("Gußhausstraße").
-restaurant("Börsegasse/Wipplingerstraße").
-restaurant("Gaisruck Bahnhof").
-restaurant("Rennbahnweg").
-restaurant("Gloriettegasse").
-restaurant("Anton-Schall-Gasse").
-restaurant("Stockerau Bahnhof").
+initlocation(2,"Trautmannsdorf/Leitha Bf").
+initlocation(2,"Bernhardtstalgasse").
+initlocation(2,"Aspernstraße").
+initlocation(2,"Museumsquartier").
+initlocation(2,"Kardinal-Nagl-Platz").
+initlocation(2,"Stollgasse").
+initlocation(2,"Klosterneuburg-Kierling Bf").
+initlocation(2,"Laa an der Thaya Bahnhof").
+initlocation(2,"Satzberggasse").
+initlocation(2,"Alser Straße").
+initlocation(2,"Alaudagasse").
+initlocation(2,"Bahnsteggasse").
+initlocation(2,"Purkersdorf Sanatorium").
+initlocation(2,"Römergasse").
+sequence(2,0, "Trautmannsdorf/Leitha Bf").
+possiblemeetinglocations("Penzing").
+possiblemeetinglocations("Krottenbachstraße").
+possiblemeetinglocations("Prater, Hauptallee").
+possiblemeetinglocations("Aspern, Oberdorfstraße").
+possiblemeetinglocations("Museumsquartier").
+possiblemeetinglocations("Enkplatz").
+possiblemeetinglocations("Carminweg").
+possiblemeetinglocations("Himmelmutterweg").
+possiblemeetinglocations("Konstanziagasse").
+possiblemeetinglocations("Westbahnhof").
+possiblemeetinglocations("Quellenplatz").
+possiblemeetinglocations("Herbeckstraße").
+possiblemeetinglocations("Schöffelgasse").
+possiblemeetinglocations("Blechturmgasse").
+restaurant("Taborstraße").
+restaurant("Schleinbach Bahnhof").
+restaurant("Glatzgasse").
+restaurant("Aspern Nord").
+restaurant("Schwechat Bahnhof").
+restaurant("Breitenfurter Str/Liesingbr").
 restaurant("Neubau-Kreuzstetten Bahnhof").
-restaurant("Tscherttegasse").
-restaurant("Schwedenplatz").
+restaurant("Großfeldsiedlung").
+restaurant("Otto-Probst-Straße").
+restaurant("Raxstraße/Rudolfshügelgasse").
+restaurant("Penzinger Straße").
+restaurant("Gutraterplatz").
+restaurant("Polgarstraße").
+restaurant("Redtenbachergasse").

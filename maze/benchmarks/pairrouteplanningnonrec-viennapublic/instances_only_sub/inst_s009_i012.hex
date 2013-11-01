@@ -1,40 +1,40 @@
 person(1).
-initlocation($p,"Siemensstraße").
-initlocation($p,"Heiligenstadt").
-initlocation($p,"Unteroberndorf Bahnhof").
-initlocation($p,"Flughafen Wien (VIE). Bahnhof").
-initlocation($p,"Rennweg").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Kottingneusiedl Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Alte Donau").
-initlocation($p,"Siemensstraße").
+initlocation(1,"Herzogenburg Stadt").
+initlocation(1,"Schwedenplatz").
+initlocation(1,"Achau Bahnhof").
+initlocation(1,"Westbahnhof").
+initlocation(1,"Hütteldorf").
+initlocation(1,"Schleinbach Bahnhof").
+initlocation(1,"Haslau an der Donau Bahnhof").
+initlocation(1,"Nußdorfer Straße").
+initlocation(1,"Unteroberndorf Bahnhof").
+sequence(1,0, "Herzogenburg Stadt").
 person(2).
-initlocation($p,"Helmahof Bahnhof").
-initlocation($p,"Tullnerbach-Pressbaum Bahnhof").
-initlocation($p,"Schleinbach Bahnhof").
-initlocation($p,"Mistelbach Stadt").
-initlocation($p,"Stadion").
-initlocation($p,"Matzleinsdorfer Platz").
-initlocation($p,"Korneuburg Bahnhof").
-initlocation($p,"Trautmannsdorf/Leitha Bf").
-initlocation($p,"Stephansplatz").
-initlocation($p,"Helmahof Bahnhof").
-possiblemeetinglocations("Braunschweiggasse").
-possiblemeetinglocations("Absdorf-Hippersdorf Bahnhof").
-possiblemeetinglocations("Atzgersdorf").
-possiblemeetinglocations("Kaiserebersdorf").
-possiblemeetinglocations("Gerasdorf Bahnhof").
-possiblemeetinglocations("Unter Sankt Veit").
-possiblemeetinglocations("Floridsdorf").
-possiblemeetinglocations("Hausleiten Bahnhof").
-possiblemeetinglocations("Zieglergasse").
-restaurant("Hetzendorf").
-restaurant("Breitenwaida Bahnhof").
-restaurant("Münchendorf Bahnhof").
-restaurant("Jägerstraße").
-restaurant("Gramatneusiedl Bahnhof").
-restaurant("Donauinsel").
-restaurant("Landstraße-Wien Mitte").
-restaurant("Langenzersdorf Bahnhof").
-restaurant("Längenfeldgasse").
+initlocation(2,"Spittelau").
+initlocation(2,"Schönborn Bahnhof").
+initlocation(2,"Herzogenburg Stadt").
+initlocation(2,"Hernals").
+initlocation(2,"Aderklaaer Straße").
+initlocation(2,"Franz-Josefs-Bahnhof").
+initlocation(2,"Taubstummengasse").
+initlocation(2,"Kottingbrunn Bahnhof").
+initlocation(2,"Liesing").
+sequence(2,0, "Spittelau").
+possiblemeetinglocations("Hütteldorf").
+possiblemeetinglocations("Schottentor").
+possiblemeetinglocations("Kritzendorf Bahnhof").
+possiblemeetinglocations("Leobendorf-Burg Kreuzenstn Bf").
+possiblemeetinglocations("Spittelau").
+possiblemeetinglocations("Sitzenberg-Reidling Bahnhof").
+possiblemeetinglocations("Untereggendorf Bahnhof").
+possiblemeetinglocations("Messe-Prater").
+possiblemeetinglocations("Gänserndorf Bahnhof").
+restaurant("Hainburg/Donau Kulturfabrik Bf").
+restaurant("Siebenhirten").
+restaurant("Bruck/Leitha Bahnhof").
+restaurant("Hollabrunn Bahnhof").
+restaurant("Ottakring").
+restaurant("Taubstummengasse").
+restaurant("Hautzendorf Bahnhof").
+restaurant("Pottendorf-Landegg Bahnhof").
+restaurant("Hainburg/Donau Ungartor/B9").
