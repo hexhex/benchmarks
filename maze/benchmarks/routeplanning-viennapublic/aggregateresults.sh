@@ -49,6 +49,26 @@ output <- merged
 odd <- seq(3,ncol(output),2)
 output[odd] <- round(output[odd],2)
 
+# fix path length columns
+output[,9] <- (output[,9] * output[,2]) / (output[,2] - output[,4])
+output[,19] <- (output[,19] * output[,2]) / (output[,2] - output[,14])
+output[,9] <- round(output[,9],2)
+output[,19] <- round(output[,19],2)
+output[,10] <- -1
+output[,20] <- -1
+
+# fix changes columns
+output[,11] <- (output[,11] * output[,2]) / (output[,2] - output[,4])
+output[,21] <- (output[,21] * output[,2]) / (output[,2] - output[,14])
+output[,11][which(output[,4] == output[,2])] <- NaN
+output[,21][which(output[,14] == output[,2])] <- NaN
+output[,11] <- (output[,11] - (output[,1] * 2 - 2))
+output[,21] <- (output[,21] - (output[,1] * 2 - 2))
+output[,11] <- round(output[,11],2)
+output[,21] <- round(output[,21],2)
+output[,12] <- -1
+output[,22] <- -1
+
 write.table(format(output, nsmall=2, scientific=FALSE), , , FALSE, , , , , FALSE, FALSE)
 "
 
@@ -69,7 +89,7 @@ done
 if [ $totex -ge 1 ]; then
 	# 1. encapsulate every second word in () and append &
 	# 2. replace & at the end of the line with \\
-	echo -e $file | Rscript <(echo "$aggregate") | sed "s/ *\(\S*\) *\(\S*\) */ \1 (\2) \& /g" | sed "s/\& *$/\\\\\\\\/g"
+	echo -e $file | Rscript <(echo "$aggregate") | sed "s/ -1[^ ]*//g" | sed "s/ *\(\S*\) *\(\S*\) */ \1 (\2) \& /g" | sed "s/\& *$/\\\\\\\\/g"
 else
-	echo -e $file | Rscript <(echo "$aggregate")
+	echo -e $file | Rscript <(echo "$aggregate") | sed "s/ -1[^ ]*//g"
 fi
