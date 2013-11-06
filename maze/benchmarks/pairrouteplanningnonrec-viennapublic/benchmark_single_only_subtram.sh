@@ -36,7 +36,7 @@ do
 	$($cmd 2>$dir/$instance.$i.verbose.dat >$dir/$instance.$i.out.dat)
 	ret=$?
 	cd instances
-	output=$(cat $dir/$instance.time.dat)
+	output=$(cat $dir/$instance.$i.time.dat)
 	if [[ $ret == 0 ]]; then
 		output=$(cat $dir/$instance.$i.time.dat)
 		groundertime=$(cat $dir/$instance.$i.verbose.dat | grep -a "HEX grounder time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
@@ -59,7 +59,7 @@ do
 	echo -ne "$output $groundertime $solvertime $pathlen $changes $restaurant"
 
 	cd $dir
-	rm $dir/$instance.time.dat
+	rm $dir/$instance.$i.time.dat
 	rm $dir/$instance.$i.out.dat
 	rm $dir/$instance.$i.verbose.dat
 	let i=i+1
