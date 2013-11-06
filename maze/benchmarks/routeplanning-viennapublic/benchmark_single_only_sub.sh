@@ -42,7 +42,7 @@ do
 		groundertime=$(cat $dir/$instance.$i.verbose.dat | grep -a "HEX grounder time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
 		solvertime=$(cat $dir/$instance.$i.verbose.dat | grep -a "HEX solver time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
 		pathlen=$(cat $dir/$instance.$i.out.dat | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^orderedpath(" | cut -d"," -f 4 | sed 's/^/.+/' | bc | tail -1)
-		pathlen=$(echo -e ".+$pathlen\n.+0" | bc | tail -1)
+		pathlen=$(echo -e "$pathlen\n.+0" | bc | tail -1)
 		changes=$(cat $dir/$instance.$i.out.dat | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^path(" | grep "change" | wc -l)
 		restaurant=$(cat $dir/$instance.$i.out.dat | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^needRestaurant" | wc -l)
 		pathlen=$(echo "$pathlen.00")
