@@ -51,23 +51,33 @@ output[odd] <- round(output[odd],2)
 
 # fix path length columns
 output[,9] <- (output[,9] * output[,2]) / (output[,2] - output[,4])
-output[,19] <- (output[,19] * output[,2]) / (output[,2] - output[,14])
+output[,21] <- (output[,21] * output[,2]) / (output[,2] - output[,16])
 output[,9] <- round(output[,9],2)
-output[,19] <- round(output[,19],2)
+output[,21] <- round(output[,21],2)
 output[,10] <- -1
-output[,20] <- -1
+output[,22] <- -1
 
 # fix changes columns
 output[,11] <- (output[,11] * output[,2]) / (output[,2] - output[,4])
-output[,21] <- (output[,21] * output[,2]) / (output[,2] - output[,14])
+output[,23] <- (output[,23] * output[,2]) / (output[,2] - output[,16])
 output[,11][which(output[,4] == output[,2])] <- NaN
-output[,21][which(output[,14] == output[,2])] <- NaN
+output[,23][which(output[,16] == output[,2])] <- NaN
 output[,11] <- (output[,11] - (output[,1] * 2 - 2))
-output[,21] <- (output[,21] - (output[,1] * 2 - 2))
+output[,23] <- (output[,23] - (output[,1] * 2 - 2))
 output[,11] <- round(output[,11],2)
-output[,21] <- round(output[,21],2)
+output[,23] <- round(output[,23],2)
 output[,12] <- -1
-output[,22] <- -1
+output[,24] <- -1
+
+# fix restaurant columns
+output[,13] <- (output[,13] * output[,2]) / (output[,2] - output[,4])
+output[,25] <- (output[,25] * output[,2]) / (output[,2] - output[,16])
+output[,13][which(output[,4] == output[,2])] <- NaN
+output[,25][which(output[,16] == output[,2])] <- NaN
+output[,13] <- round(output[,13],2)
+output[,25] <- round(output[,25],2)
+output[,14] <- output[,13] * 100
+output[,26] <- output[,25] * 100
 
 write.table(format(output, nsmall=2, scientific=FALSE), , , FALSE, , , , , FALSE, FALSE)
 "
@@ -82,7 +92,7 @@ do
 		else
 			array[0]="${array[0]} 1"
 		fi
-		line=$(echo ${array[@]} | grep -v "#" | sed "s/\ \([0-9]*\)\.\([0-9]*\)/ \1.\2 0/g" | sed "s/--- --- --- --- ---/$to 1 $to 1 0 0 0 0 0 0/g")
+		line=$(echo ${array[@]} | grep -v "#" | sed "s/\ \([0-9]*\)\.\([0-9]*\)/ \1.\2 0/g" | sed "s/--- --- --- --- --- ---/$to 1 $to 1 0 0 0 0 0 0 0 0/g")
 		file=$(echo "$file\n$line")
 	fi
 done
