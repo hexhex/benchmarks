@@ -49,35 +49,49 @@ output <- merged
 odd <- seq(3,ncol(output),2)
 output[odd] <- round(output[odd],2)
 
-# fix path length columns
-output[,9] <- (output[,9] * output[,2]) / (output[,2] - output[,4])
-output[,21] <- (output[,21] * output[,2]) / (output[,2] - output[,16])
+# Columns:
+#   1:size 2:to
+#   3:ss_wallclock 4:ss_wallclock_to 5:ss_grounding 6:ss_grounding_to 7:ss_solve 8:ss_solve_to
+#      9:ss_pathexists 10:ss_pathexists_to 11:ss_pathlen 12:ss_pathlen_to 13:ss_changes 14:ss_changes_to 15:ss_lunch 16:ss_lunch_to
+
+#   17:ls_wallclock 18:ls_wallclock_to 19:ls_grounding 20:ls_grounding_to 21:ls_solve 22:ls_solve_to
+#      23:ls_pathexists 24:ls_pathexists_to 25:ls_pathlen 26:ls_pathlen_to 27:ls_changes 28:ls_changes_to 29:ls_lunch 30:ls_lunch_to
+
+# fix pathexists columns
 output[,9] <- round(output[,9],2)
-output[,21] <- round(output[,21],2)
-output[,10] <- -1
-output[,22] <- -1
+output[,23] <- round(output[,23],2)
+output[,10] <- \"x\"
+output[,24] <- \"x\"
+
+# fix path length columns
+output[,11] <- (output[,11] * output[,2]) / output[,9]
+output[,25] <- (output[,25] * output[,2]) / output[,23]
+output[,11] <- round(output[,11],2)
+output[,25] <- round(output[,25],2)
+output[,12] <- \"x\"
+output[,26] <- \"x\"
 
 # fix changes columns
-output[,11] <- (output[,11] * output[,2]) / (output[,2] - output[,4])
-output[,23] <- (output[,23] * output[,2]) / (output[,2] - output[,16])
-output[,11][which(output[,4] == output[,2])] <- NaN
-output[,23][which(output[,16] == output[,2])] <- NaN
-output[,11] <- (output[,11] - (output[,1] * 2 - 2))
-output[,23] <- (output[,23] - (output[,1] * 2 - 2))
-output[,11] <- round(output[,11],2)
-output[,23] <- round(output[,23],2)
-output[,12] <- -1
-output[,24] <- -1
+output[,13] <- (output[,13] * output[,2]) / output[,9]
+output[,27] <- (output[,27] * output[,2]) / output[,23]
+output[,13][which(output[,4] == output[,2])] <- NaN
+output[,27][which(output[,16] == output[,2])] <- NaN
+output[,13] <- (output[,13] - (output[,1] * 2 - 2))
+output[,27] <- (output[,27] - (output[,1] * 2 - 2))
+output[,13] <- round(output[,13],2)
+output[,27] <- round(output[,27],2)
+output[,14] <- \"x\"
+output[,28] <- \"x\"
 
 # fix restaurant columns
-output[,13] <- (output[,13] * output[,2]) / (output[,2] - output[,4])
-output[,25] <- (output[,25] * output[,2]) / (output[,2] - output[,16])
-output[,13][which(output[,4] == output[,2])] <- NaN
-output[,25][which(output[,16] == output[,2])] <- NaN
-output[,13] <- round(output[,13],2)
-output[,25] <- round(output[,25],2)
-output[,14] <- output[,13] * 100
-output[,26] <- output[,25] * 100
+output[,15] <- (output[,15] * output[,2]) / output[,9]
+output[,29] <- (output[,29] * output[,2]) / output[,23]
+output[,15][which(output[,4] == output[,2])] <- NaN
+output[,29][which(output[,16] == output[,2])] <- NaN
+output[,15] <- round(100 * output[,15],2)
+output[,29] <- round(100 * output[,29],2)
+output[,16] <- \"x\"
+output[,30] <- \"x\"
 
 write.table(format(output, nsmall=2, scientific=FALSE), , , FALSE, , , , , FALSE, FALSE)
 "
@@ -92,7 +106,7 @@ do
 		else
 			array[0]="${array[0]} 1"
 		fi
-		line=$(echo ${array[@]} | grep -v "#" | sed "s/\ \([0-9]*\)\.\([0-9]*\)/ \1.\2 0/g" | sed "s/--- --- --- --- --- ---/$to 1 $to 1 0 0 0 0 0 0 0 0/g")
+		line=$(echo ${array[@]} | grep -v "#" | sed "s/\ \([0-9]*\)\.\([0-9]*\)/ \1.\2 0/g" | sed "s/--- --- --- --- --- --- ---/$to 1 $to 1 0 0 0 0 0 0 0 0 0 0/g")
 		file=$(echo "$file\n$line")
 	fi
 done

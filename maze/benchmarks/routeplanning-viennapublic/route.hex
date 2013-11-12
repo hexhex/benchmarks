@@ -18,7 +18,7 @@ location(X) :- initlocation(X).
 %sequence(0, "Taubstummengasse").
 
 % define reachable distance without getting more fuel
-limit(200).
+limit(300).
 
 % guess a sequence of locations
 sequence(I, L) v nsequence(I, L) :- location(L), #int(I), #int(C), C = #count{ N : initlocation(N) }, I < C2, C2 = C + 2.
