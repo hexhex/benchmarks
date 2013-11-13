@@ -58,22 +58,24 @@ output[odd] <- round(output[odd],2)
 #      23:ls_pathexists 24:ls_pathexists_to 25:ls_pathlen 26:ls_pathlen_to 27:ls_changes 28:ls_changes_to 29:ls_lunch 30:ls_lunch_to
 
 # fix pathexists columns
-output[,9] <- round(output[,2] * output[,9],2)
-output[,23] <- round(output[,2] * output[,23],2)
+output[,9] <- round(100 * output[,9],2)
+output[,23] <- round(100 * output[,23],2)
+output[,9][which(output[,9] == 0)] <- NaN
+output[,23][which(output[,23] == 0)] <- NaN
 output[,10] <- \"x\"
 output[,24] <- \"x\"
 
 # fix path length columns
-output[,11] <- (output[,11] * output[,2]) / output[,9]
-output[,25] <- (output[,25] * output[,2]) / output[,23]
+output[,11] <- (100 * output[,11]) / output[,9]
+output[,25] <- (100 * output[,25]) / output[,23]
 output[,11] <- round(output[,11],2)
 output[,25] <- round(output[,25],2)
 output[,12] <- \"x\"
 output[,26] <- \"x\"
 
 # fix changes columns
-output[,13] <- (output[,13] * output[,2]) / output[,9]
-output[,27] <- (output[,27] * output[,2]) / output[,23]
+output[,13] <- (output[,13] * 100) / output[,9]
+output[,27] <- (output[,27] * 100) / output[,23]
 output[,13][which(output[,9] == 0)] <- NaN
 output[,27][which(output[,23] == 0)] <- NaN
 output[,13] <- (output[,13] - (output[,1] * 2 - 2))
@@ -84,8 +86,8 @@ output[,14] <- \"x\"
 output[,28] <- \"x\"
 
 # fix restaurant columns
-output[,15] <- (output[,15] * output[,2]) / output[,9]
-output[,29] <- (output[,29] * output[,2]) / output[,23]
+output[,15] <- (output[,15] * 100) / output[,9]
+output[,29] <- (output[,29] * 100) / output[,23]
 output[,15][which(output[,9] == 0)] <- NaN
 output[,29][which(output[,23] == 0)] <- NaN
 output[,15] <- round(100 * output[,15],2)
