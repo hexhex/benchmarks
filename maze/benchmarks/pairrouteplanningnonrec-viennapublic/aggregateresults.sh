@@ -60,8 +60,6 @@ output[odd] <- round(output[odd],2)
 # fix pathexists columns
 output[,9] <- round(100 * output[,9],2)
 output[,23] <- round(100 * output[,23],2)
-output[,9][which(output[,9] == 0)] <- NaN
-output[,23][which(output[,23] == 0)] <- NaN
 output[,10] <- \"x\"
 output[,24] <- \"x\"
 
