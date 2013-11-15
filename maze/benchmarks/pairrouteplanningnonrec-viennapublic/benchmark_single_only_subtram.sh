@@ -32,11 +32,11 @@ do
 	echo -ne -e " "
 	dir=$PWD
 	cd ..
-	mc=$(echo "(${instance:6:3} * 1.5 + 0.5) / 1" | bc)	# computation of max changes
+	mc=$(echo "((${instance:6:3} + 1) * 1.5 + 0.5) / 1" | bc)	# computation of max changes
 	if [[ $mc == 0 ]]; then
 		echo "" > $dir/$instance.$i.mc.hex
 	else
-		echo "maxchanges($(echo "($mc + ${instance:6:3} * 2 - 2)" | bc ))." > $dir/$instance.$i.mc.hex
+		echo "maxchanges($(echo "($mc + (${instance:6:3} + 1) * 2 - 2)" | bc ))." > $dir/$instance.$i.mc.hex
 	fi
 	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 map_only_subtram.hex maxchanges.hex $dir/$instance.$i.mc.hex --aggregate-enable --aggregate-mode=simplify $dir/$instance --verbose=8 --silent"
 	$($cmd 2>$dir/$instance.$i.verbose.dat >$dir/$instance.$i.out.dat)

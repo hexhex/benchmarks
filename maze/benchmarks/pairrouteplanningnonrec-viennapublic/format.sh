@@ -1,7 +1,7 @@
 while read line
 do
 	out=$(echo $line | sed 's/{orderedpath(\([0-9]*\),/\1,/g' | sed 's/)}//g' | sed 's/),orderedpath(\([0-9]*\),/\n\1,/g' | sort -n)
-	persons=$(echo -e "$out" | cut -f1 -d"," | uniq)
+	persons=$(echo -e "$out" | cut -f1 -d"," | sort -n | uniq)
 	echo -e "$persons" | while read person
 	do
 		echo "Route for person $person"

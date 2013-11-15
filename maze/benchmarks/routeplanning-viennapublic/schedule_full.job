@@ -1,0 +1,16 @@
+
+		Executable = ./schedule_full.sh
+		Universe = vanilla
+		output = schedule_full.out
+		error = schedule_full.error
+		Log = schedule_full.log
+		Requirements = machine == "lion.kr.tuwien.ac.at"
+		request_memory = 8192
+		Initialdir = /mnt/lion/home/redl/dlvhex/benchmarks/maze/benchmarks
+		notification = never
+
+		# queue
+		request_cpus = 1 
+		Arguments = 
+		Queue 1
+	     
