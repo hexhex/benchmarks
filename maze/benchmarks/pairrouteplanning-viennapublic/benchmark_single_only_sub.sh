@@ -38,7 +38,7 @@ do
 	else
 		echo "maxchanges($(echo "($mc + (${instance:6:3} + 1) * 2 - 2)" | bc ))." > $dir/$instance.$i.mc.hex
 	fi
-	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 map_only_sub.hex $dir/$instance.$i.mc.hex --aggregate-enable --aggregate-mode=simplify $dir/$instance --verbose=8 --silent"
+	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 map_only_sub.hex $dir/$instance.$i.mc.hex $dir/$instance --verbose=8 --silent"
 	$($cmd 2>$dir/$instance.$i.verbose.dat >$dir/$instance.$i.out.dat)
 	ret=$?
 	cd instances

@@ -1,1 +1,1 @@
-:- maxchanges(M), person(P), #count{ L1, L2, X, Y, C : pathTmp(P, L1, L2, X, Y, C, change) } > M.
+:- maxchanges(M), person(P), C = #count{ L1, L2, X, Y, C : pathTmp(P, L1, L2, X, Y, C, change) }, C > M.

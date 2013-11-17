@@ -1,1 +1,1 @@
-:- maxchanges(M), #count{ L1, L2, X, Y, C : pathTmp(L1, L2, X, Y, C, change) } > M.
+:- maxchanges(M), C = #count{ L1, L2, X, Y, C : pathTmp(L1, L2, X, Y, C, change) }, C > M.
