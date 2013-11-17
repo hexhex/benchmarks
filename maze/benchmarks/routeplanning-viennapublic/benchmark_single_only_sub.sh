@@ -34,11 +34,11 @@ do
 	cd ..
 	mc=$(echo "(${instance:6:3} * 1.5 + 0.5) / 1" | bc)	# computation of max changes
 	if [[ $mc == 0 ]]; then
-		echo "" > $dir/$instance.$i.mc.hex
+		echo "" > $dir/$instance.$i.mc
 	else
-		echo "maxchanges($(echo "($mc + ${instance:6:3} * 2 - 2)" | bc ))." > $dir/$instance.$i.mc.hex
+		echo "maxchanges($(echo "($mc + ${instance:6:3} * 2 - 2)" | bc ))." > $dir/$instance.$i.mc
 	fi
-	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 map_only_sub.hex $dir/$instance.$i.mc.hex $dir/$instance --verbose=8 --silent"
+	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 map_only_sub.hex $dir/$instance.$i.mc $dir/$instance --verbose=8 --silent"
 	$($cmd 2>$dir/$instance.$i.verbose.dat >$dir/$instance.$i.out.dat)
 	ret=$?
 	cd instances
@@ -71,7 +71,7 @@ do
 	rm $dir/$instance.$i.time.dat
 	rm $dir/$instance.$i.out.dat
 	rm $dir/$instance.$i.verbose.dat
-	rm $dir/$instance.$i.mc.hex
+	rm $dir/$instance.$i.mc
 	let i=i+1
 done
 echo -e -ne "\n"
