@@ -8,7 +8,7 @@ fi
 
 reqirements=$(cat req 2> /dev/null)
 cd instances 
-for instance in *.argu
+for instance in *.asp
 do
 	echo "
 		Executable = ../benchmark_single.sh
