@@ -6,7 +6,6 @@ else
 	to=$1
 fi
 
-reqirements=$(cat req 2> /dev/null)
 cd instances 
 for instance in *.asp
 do
@@ -16,8 +15,9 @@ do
 		output = $instance.out
 		error = $instance.error
 		Log = $instance.log
-		$requirements
-		Initialdir = $PWD
+		Requirements = machine == \"lion.kr.tuwien.ac.at\"
+		request_memory = 4096 
+		Initialdir = $PWD/
 		notification = never
 
 		# queue

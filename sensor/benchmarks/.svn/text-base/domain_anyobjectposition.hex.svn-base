@@ -1,0 +1,118 @@
+%
+% sorts
+%
+
+% C+
+%:- sorts
+%  xcoo;
+%  ycoo;
+%  object;
+%  robot.
+%
+%:- objects
+%  1..maxx :: xcoo;
+%  1..maxy :: ycoo;
+%  a,b :: robot;
+%  u,v :: object.
+
+% instance specific sorts
+xcoo(X) :- #int(X), 1 <= X, X <= MX, maxx(MX).
+ycoo(Y) :- #int(Y), 1 <= Y, Y <= MY, maxy(MY).
+
+% fluents
+
+% C+
+%:- constants
+%  objectX(object) :: staticFluent(xcoo);
+%  objectY(object) :: staticFluent(ycoo);
+%  robotX(robot) :: inertialFluent(xcoo);
+%  robotY(robot) :: inertialFluent(ycoo);
+%  found(object) :: inertialFluent.
+
+% time (generic)
+
+step(S) :- #int(S), 0 <= S, S <= LS, laststep(LS).
+astep(S) :- #int(S), 0 <= S, S < LS, laststep(LS).
+nextstep(S,SPrime) :- astep(S), SPrime = S + 1.
+
+% generate all four possible moves
+move(R,X,Y1,T) v nmove(R,X,Y1,T) :- robotX(R,X,T), robotY(R,Y,T), astep(T), Y1=Y+1, ycoo(Y1).
+move(R,X,Y1,T) v nmove(R,X,Y1,T) :- robotX(R,X,T), robotY(R,Y,T), astep(T), Y1=Y-1, ycoo(Y1).
+move(R,X1,Y,T) v nmove(R,X1,Y,T) :- robotX(R,X,T), robotY(R,Y,T), astep(T), X1=X+1, xcoo(X1).
+move(R,X1,Y,T) v nmove(R,X1,Y,T) :- robotX(R,X,T), robotY(R,Y,T), astep(T), X1=X-1, xcoo(X1).
+% disallow moving to multiple places at once
+:- move(R,X1,Y1,T), move(R,X2,Y2,T), X1 < X2.
+:- move(R,X,Y1,T), move(R,X,Y2,T), Y1 < Y2.
+% disallow not moving
+moveexists(R,T) :- move(R,X,Y,T).
+:- astep(T), robot(R), not moveexists(R,T).
+
+% direct effect of moving
+robotX(R,X,TPlus1) :- move(R,X,Y,T), nextstep(T,TPlus1).
+robotY(R,Y,TPlus1) :- move(R,X,Y,T), nextstep(T,TPlus1).
+
+%%%% saturation checking part (the following commented block is our co-np check)
+%%%
+%%%% random initial situation for object position
+%%%objectX(O,X) v -objectX(O,X) :- object(O), xcoo(X).
+%%%objectY(O,Y) v -objectY(O,Y) :- object(O), ycoo(Y).
+%%%% disallow being in multiple places at once
+%%%:- objectX(O,X1), objectX(O,X2), X1 < X2.
+%%%:- objectY(O,Y1), objectY(O,Y2), Y1 < Y2.
+%%%% disallow being nowhere
+%%%objectexists(O) :- objectX(O,X), objectY(O,Y).
+%%%:- object(O), not objectexists(O).
+%%%
+%%%% ramification of moving
+%%%found(O) :- &senseObject[robotX,robotY,objectX,objectY,R](O), sensorrange(R).
+%%%:- object(O), not found(O).
+
+% saturation encoding (see Eiter Polleres "Automated Integration of Guess and Check ...")
+
+% order over objects
+before(O) :- object(O), object(O2), O2 < O.
+after(O) :- object(O), object(O2), O2 > O.
+between(O1,O2) :- object(O1), object(O2), object(O), O1 < O, O < O2.
+first(O) :- object(O), not before(O).
+last(O) :- object(O), not after(O).
+next(O1,O2) :- object(O1), object(O2), O1 < O2, not between(O1,O2).
+
+% guess (over which we will have head cycles)
+objectX(O,X) v nobjectX(O,X) :- object(O), xcoo(X).
+objectY(O,Y) v nobjectY(O,Y) :- object(O), ycoo(Y).
+
+% disallow being in multiple places at once
+spoil :- objectX(O,X1), objectX(O,X2), X1 < X2.
+spoil :- objectY(O,Y1), objectY(O,Y2), Y1 < Y2.
+
+% disallow object is nowhere
+objectHasNoXUpTo(O,1) :- nobjectX(O,1).
+objectHasNoXUpTo(O,X) :- objectHasNoXUpTo(O,XPrev), nobjectX(O,X), X=XPrev+1.
+spoil :- objectHasNoXUpTo(O,X), maxx(X).
+
+objectHasNoYUpTo(O,1) :- nobjectY(O,1).
+objectHasNoYUpTo(O,Y) :- objectHasNoYUpTo(O,YPrev), nobjectY(O,Y), Y=YPrev+1.
+spoil :- objectHasNoYUpTo(O,Y), maxy(Y).
+
+% disallow object is not sensed
+objectsOkUpTo(O) :- first(O), &senseObject[robotX,robotY,objectX,objectY,R,spoil,object](O), sensorrange(R).
+objectsOkUpTo(O) :- objectsOkUpTo(OPrev), next(OPrev,O), &senseObject[robotX,robotY,objectX,objectY,R,spoil,object](O), sensorrange(R).
+spoil :- objectsOkUpTo(O), last(O).
+
+objectX(O,X) :- object(O), xcoo(X), spoil.
+nobjectX(O,X) :- object(O), xcoo(X), spoil.
+objectY(O,Y) :- object(O), ycoo(Y), spoil.
+nobjectY(O,Y) :- object(O), ycoo(Y), spoil.
+objectsOkUpTo(O) :- object(O), spoil.
+objectHasNoXUpTo(O,X) :- object(O), xcoo(X), spoil.
+objectHasNoYUpTo(O,Y) :- object(O), ycoo(Y), spoil.
+
+% activate this for enforcing saturation
+:- not spoil.
+
+% preset infeasible plan (object at position X=4, Y=1 cannot be seen)
+%move(a,1,2,0).
+%move(b,4,3,0).
+%objectX(u,4).
+%objectY(u,1).
+
