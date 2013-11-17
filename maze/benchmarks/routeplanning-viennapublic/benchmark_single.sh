@@ -5,7 +5,7 @@ export LD_LIBRARY_PATH=$2
 instance=$3
 to=$4
 
-confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex maxchanges.hex"
+confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex;--liberalsafety route.hex maxchanges.hex"
 confstr2=$(cat ../conf)
 if [ $? == 0 ]; then
         confstr=$confstr2
