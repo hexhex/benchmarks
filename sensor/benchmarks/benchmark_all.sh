@@ -12,7 +12,6 @@ for instance in *.asp
 do
 	echo "
 		Executable = ../benchmark_single.sh
-		Universe = vanilla
 		output = $instance.out
 		error = $instance.error
 		Log = $instance.log
