@@ -5,7 +5,7 @@ export LD_LIBRARY_PATH=$2
 instance=$3
 to=$4
 
-confstr="route_strongsafety.hex vienna-publictransport.hex;--liberalsafety route.hex"
+confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex maxchanges.hex"
 confstr2=$(cat ../conf)
 if [ $? == 0 ]; then
         confstr=$confstr2
@@ -38,7 +38,7 @@ do
 	else
 		echo "maxchanges($(echo "($mc + ${instance:6:3} * 2 - 2)" | bc ))." > $dir/$instance.$i.mc.hex
 	fi
-	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 map.hex maxchanges.hex $dir/$instance.$i.mc.hex $dir/$instance --aggregate-enable --aggregate-mode=simplify --verbose=8 --silent"
+	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 map.hex $dir/$instance.$i.mc.hex $dir/$instance --aggregate-enable --aggregate-mode=simplify --verbose=8 --silent"
 	$($cmd 2>$dir/$instance.$i.verbose.dat >$dir/$instance.$i.out.dat)
 	ret=$?
 	cd instances

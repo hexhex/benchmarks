@@ -5,7 +5,7 @@ export LD_LIBRARY_PATH=$2
 instance=$3
 to=$4
 
-confstr="route_strongsafety.hex vienna-publictransport.hex;--liberalsafety route.hex"
+confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex maxchanges.hex"
 confstr2=$(cat ../conf)
 if [ $? == 0 ]; then
         confstr=$confstr2
@@ -38,7 +38,7 @@ do
 	else
 		echo "maxchanges($(echo "($mc + (${instance:6:3} + 1) * 2 - 2)" | bc ))." > $dir/$instance.$i.mc.hex
 	fi
-	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 map_only_sub.hex maxchanges.hex $dir/$instance.$i.mc.hex --aggregate-enable --aggregate-mode=simplify $dir/$instance --verbose=8 --silent"
+	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 $c --plugindir=../../src --extlearn --evalall -n=1 map_only_sub.hex $dir/$instance.$i.mc.hex --aggregate-enable --aggregate-mode=simplify $dir/$instance --verbose=8 --silent"
 	$($cmd 2>$dir/$instance.$i.verbose.dat >$dir/$instance.$i.out.dat)
 	ret=$?
 	cd instances
@@ -48,7 +48,7 @@ do
 		groundertime=$(cat $dir/$instance.$i.verbose.dat | grep -a "HEX grounder time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
 		solvertime=$(cat $dir/$instance.$i.verbose.dat | grep -a "HEX solver time:" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
 		pathexists=$(cat $dir/$instance.$i.out.dat | wc -l)
-		pathlen=$(cat $dir/$instance.$i.out.dat | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^orderedpath(" | cut -d"," -f 4 | sed 's/^/.+/' | bc | tail -1)
+		pathlen=$(cat $dir/$instance.$i.out.dat | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^orderedpath(" | cut -d"," -f 5 | sed 's/^/.+/' | bc | tail -1)
 		pathlen=$(echo -e "$pathlen\n.+0" | bc | tail -1)
 		changes=$(cat $dir/$instance.$i.out.dat | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^path(" | grep "change" | wc -l)
 		restaurant=$(cat $dir/$instance.$i.out.dat | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^needRestaurant" | wc -l)
