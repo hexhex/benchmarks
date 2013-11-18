@@ -49,49 +49,42 @@ output <- merged
 odd <- seq(3,ncol(output),2)
 output[odd] <- round(output[odd],2)
 
-# Columns:
+# Columns
+#
+#   General:
 #   1:size 2:to
-#   3:ss_wallclock 4:ss_wallclock_to 5:ss_grounding 6:ss_grounding_to 7:ss_solve 8:ss_solve_to
-#      9:ss_pathexists 10:ss_pathexists_to 11:ss_pathlen 12:ss_pathlen_to 13:ss_changes 14:ss_changes_to 15:ss_lunch 16:ss_lunch_to
+#
+#   For each configuration:
+#   1:wallclock 2:wallclock_to 3:grounding 4:grounding_to 5:solve 6:solve_to
+#      7:pathexists 8:pathexists_to 9:pathlen 10:pathlen_to 11:changes 12:changes_to 13:lunch 14:lunch_to
 
-#   17:ls_wallclock 18:ls_wallclock_to 19:ls_grounding 20:ls_grounding_to 21:ls_solve 22:ls_solve_to
-#      23:ls_pathexists 24:ls_pathexists_to 25:ls_pathlen 26:ls_pathlen_to 27:ls_changes 28:ls_changes_to 29:ls_lunch 30:ls_lunch_to
+confs <- (ncol(output) - 2) / 14
+for (c in 1:confs){
 
-# fix pathexists columns
-output[,9] <- round(100 * output[,9],2)
-output[,23] <- round(100 * output[,23],2)
-output[,10] <- \"x\"
-output[,24] <- \"x\"
+	offset <- 2 + (c-1) * 14
 
-# fix path length columns
-output[,11] <- (100 * output[,11]) / output[,9]
-output[,25] <- (100 * output[,25]) / output[,23]
-output[,11] <- round(output[,11],2)
-output[,25] <- round(output[,25],2)
-output[,12] <- \"x\"
-output[,26] <- \"x\"
+	# fix pathexists column
+	output[,offset+7] <- round(100 * output[,offset+7],2)
+	output[,offset+8] <- \"x\"
 
-# fix changes columns
-output[,13] <- (output[,13] * 100) / output[,9]
-output[,27] <- (output[,27] * 100) / output[,23]
-output[,13][which(output[,9] == 0)] <- NaN
-output[,27][which(output[,23] == 0)] <- NaN
-output[,13] <- (output[,13] - (output[,1] * 2 - 2))
-output[,27] <- (output[,27] - (output[,1] * 2 - 2))
-output[,13] <- round(output[,13],2)
-output[,27] <- round(output[,27],2)
-output[,14] <- \"x\"
-output[,28] <- \"x\"
+	# fix path length column
+	output[,offset+9] <- (100 * output[,offset+9]) / output[,offset+7]
+	output[,offset+9] <- round(output[,offset+9],2)
+	output[,offset+10] <- \"x\"
 
-# fix restaurant columns
-output[,15] <- (output[,15] * 100) / output[,9]
-output[,29] <- (output[,29] * 100) / output[,23]
-output[,15][which(output[,9] == 0)] <- NaN
-output[,29][which(output[,23] == 0)] <- NaN
-output[,15] <- round(100 * output[,15],2)
-output[,29] <- round(100 * output[,29],2)
-output[,16] <- \"x\"
-output[,30] <- \"x\"
+	# fix changes column
+	output[,offset+11] <- (output[,offset+11] * 100) / output[,offset+7]
+	output[,offset+11][which(output[,offset+7] == 0)] <- NaN
+	output[,offset+11] <- (output[,offset+11] - (output[,1] * 2 - 2))
+	output[,offset+11] <- round(output[,offset+11],2)
+	output[,offset+12] <- \"x\"
+
+	# fix restaurant column
+	output[,offset+13] <- (output[,offset+13] * 100) / output[,offset+7]
+	output[,offset+13][which(output[,offset+7] == 0)] <- NaN
+	output[,offset+13] <- round(100 * output[,offset+13],2)
+	output[,offset+14] <- \"x\"
+}
 
 write.table(format(output, nsmall=2, scientific=FALSE), , , FALSE, , , , , FALSE, FALSE)
 "
