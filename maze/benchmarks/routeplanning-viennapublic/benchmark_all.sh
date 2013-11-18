@@ -15,7 +15,7 @@ do
 		output = $instance.out
 		error = $instance.error
 		Log = $instance.log
-		$reqirements
+		$requirements
 		Initialdir = $PWD
 		notification = never
 
