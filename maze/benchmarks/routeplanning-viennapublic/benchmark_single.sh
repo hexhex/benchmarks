@@ -40,7 +40,7 @@ do
 		echo "maxchanges($(echo "($mc + ${instance:6:3} * 2 - 2)" | bc ))." > $dir/$instance.$i.mc
 	fi
 	cmd="timeout $to time -o $dir/$instance.$i.time.dat -f %e dlvhex2 --claspconfig=\"$frumpy\" $c --plugindir=../../src --extlearn --evalall -n=1 map.hex $dir/$instance.$i.mc $dir/$instance --verbose=8 --silent"
-	$($cmd 2>$dir/$instance.$i.verbose.dat >$dir/$instance.$i.out.dat)
+	eval "$cmd 2>$dir/$instance.$i.verbose.dat >$dir/$instance.$i.out.dat"
 	ret=$?
 	cd instances
 	output=$(cat $dir/$instance.$i.time.dat)
@@ -69,10 +69,10 @@ do
 	echo -ne "$output $groundertime $solvertime $pathexists $pathlen $changes $restaurant"
 
 	cd $dir
-	rm $dir/$instance.$i.time.dat
-	rm $dir/$instance.$i.out.dat
-	rm $dir/$instance.$i.verbose.dat
-	rm $dir/$instance.$i.mc
+#	rm $dir/$instance.$i.time.dat
+#	rm $dir/$instance.$i.out.dat
+#	rm $dir/$instance.$i.verbose.dat
+#	rm $dir/$instance.$i.mc
 	let i=i+1
 done
 echo -e -ne "\n"
