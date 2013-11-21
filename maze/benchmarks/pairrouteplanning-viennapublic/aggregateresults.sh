@@ -75,7 +75,7 @@ for (c in 1:confs){
 	# fix changes column
 	output[,offset+11] <- (output[,offset+11] * 100) / output[,offset+7]
 	output[,offset+11][which(output[,offset+7] == 0)] <- NaN
-	output[,offset+11] <- (output[,offset+11] - (output[,1] * 2 - 2))
+	output[,offset+11] <- (output[,offset+11] - 2 * ((output[,1] + 1) * 2 - 2))
 	output[,offset+11] <- round(output[,offset+11],2)
 	output[,offset+12] <- \"x\"
 
