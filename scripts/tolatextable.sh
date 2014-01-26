@@ -1,3 +1,17 @@
+# $1: LaTeX package to use for generating headers (currently supported: default, booktabs)
+if [[ $1 == "default" ]]; then
+	toprule="hline"
+	midrule="hline"
+	bottomrule="hline"
+elif [[ $1 == "booktabs" ]]; then
+	toprule="toprule"
+	midrule="midrule"
+	bottomrule="bottomrule"
+else
+	echo "LaTeX table package \"$1\" unknown, currently supported: default, booktabs"
+	exit 1
+fi
+
 first=1
 while read line
 do
@@ -24,6 +38,23 @@ do
 	fi
 done
 
+if [[ $# -ge 1 ]]; then
+	# generate header
+	echo -e "\\\\begin{table}[t]"
+	echo -e "\t\\\\scriptsize"
+	echo -e "\t\\\\centering"
+        echo -e "\t%\\\\rowcolors{2}{white}{gray!25}"
+	for (( c=1; c <= $cols / 2 - 1; c++ ))
+	do
+		coldef="${coldef}r"
+		colsep="$colsep & col$c"
+	done
+	echo -e "\t\\\\begin{tabular}[t]{r|$coldef}"
+	echo -e "\t\t\\\\$toprule"
+	echo -e "\t\tinstance$colsep \\\\\\\\"
+	echo -e "\t\t\\\\$midrule"
+fi
+
 echo -e "$file" | while read -r line
 do
 	out=$(echo -e "$line" | sed "s/ *\([^ ]*\) *\([^ ]*\) */\1 (\2) \& /g" | sed 's/& $/\\\\\\\\/')
@@ -41,6 +72,17 @@ do
 			out=$(echo $out | sed "s/(/~~(/$t")
 		done
 	done
-	echo -e "$out"
-
+	if [[ $# -ge 1 ]]; then
+		echo -e "\t\t$out"
+	else
+		echo -e "$out"
+	fi
 done
+
+if [[ $# -ge 1 ]]; then
+	echo -e "\t\t\\\\$bottomrule"
+	echo -e "\t\\\\end{tabular}"
+	echo -e "\t\\\\caption{Benchmark Results}"
+	echo -e "\t\\\\label{tab:benchmark}"
+	echo -e "\\\\end{table}"
+fi
