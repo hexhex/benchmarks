@@ -1,15 +1,17 @@
 # $1: LaTeX package to use for generating headers (currently supported: default, booktabs)
-if [[ $1 == "default" ]]; then
-	toprule="hline"
-	midrule="hline"
-	bottomrule="hline"
-elif [[ $1 == "booktabs" ]]; then
-	toprule="toprule"
-	midrule="midrule"
-	bottomrule="bottomrule"
-else
-	echo "LaTeX table package \"$1\" unknown, currently supported: default, booktabs"
-	exit 1
+if [[ $# -ge 1 ]]; then
+	if [[ $1 == "default" ]]; then
+		toprule="hline"
+		midrule="hline"
+		bottomrule="hline"
+	elif [[ $1 == "booktabs" ]]; then
+		toprule="toprule"
+		midrule="midrule"
+		bottomrule="bottomrule"
+	else
+		echo "LaTeX table package \"$1\" unknown, currently supported: default, booktabs"
+		exit 1
+	fi
 fi
 
 first=1
