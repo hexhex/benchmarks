@@ -1,16 +1,16 @@
+# The parameters specify the columns to select (index-origin 1)
 while read line
 do
-	line=$(echo $line | sed "s/\\\\//g")
-	IFSB=$IFS
-	IFS='&'
 	cols=($line)
-	IFS=$IFSB
 
-	echo -n "${cols[0]}"
+	# instance size and number of instances
+	echo -n "${cols[0]} ${cols[1]}"
 	
 	for (( i = 1 ; i <= $# ; i=$i+1 ));
 	do
-	        echo -n "&${cols[${!i}]}"
+		timeindex=$((2+(${!i}-1)*2))
+		toindex=$(($timeindex+1))
+	        echo -n " ${cols[$timeindex]} ${cols[$toindex]}"
 	done
-	echo "\\\\"
+	echo ""
 done

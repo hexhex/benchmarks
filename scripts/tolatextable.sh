@@ -1,4 +1,5 @@
 # $1: LaTeX package to use for generating headers (currently supported: default, booktabs)
+#     If $1 is missing, then only the body of the table is generated
 if [[ $# -ge 1 ]]; then
 	if [[ $1 == "default" ]]; then
 		toprule="hline"
@@ -19,7 +20,7 @@ while read line
 do
 	read -a array <<< "$line"
 
-	# the the max size of every timeout column
+	# compute the the max size of every timeout column
 	cols=$(echo $line | wc -w)
 	for (( c=2; c <= $cols; c=c+2 ))
 	do
@@ -31,7 +32,6 @@ do
 
 	if [[ $line != \#* ]]; then
 		fn=${array[0]}
-		line=$(echo ${array[@]} | grep -v "#")
 		if [[ $first == 0 ]]; then
 			file="$file\n"
 		fi

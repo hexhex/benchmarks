@@ -1,3 +1,4 @@
+# merged benchmark tables line-wise
 if [[ $# == 0 ]]
 then
 	exit 0
