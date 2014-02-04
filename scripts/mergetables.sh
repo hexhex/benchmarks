@@ -4,9 +4,9 @@ then
 	exit 0
 fi
 
-cmd="paste $1"
-for (( i=2; i<=$#; i++ ))
+cmd="paste -d ' '"
+for (( i=1; i<=$#; i++ ))
 do
-	cmd="$cmd <(cat ${!i} | cut -d\" \" -f3-)"
+	cmd="$cmd <(cat ${!i} | sed 's/^ *//g' | sed 's/ \+/ /g' | cut -d\" \" -f3-)"
 done
 eval $cmd
