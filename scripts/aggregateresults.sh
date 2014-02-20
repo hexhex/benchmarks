@@ -52,6 +52,10 @@ output[odd] <- round(output[odd],2)
 write.table(format(output, nsmall=2, scientific=FALSE), , , FALSE, , , , , FALSE, FALSE)
 "
 
+# add a trailing # in order to eliminate the last line if incomplete
+data=$(mktemp)
+cat > $data
+echo "#" >> $data
 while read line
 do
 	read -a array <<< "$line"
@@ -82,5 +86,6 @@ do
 	        line=$(echo ${array[@]} | grep -v "#" | sed "s/\ \([0-9]*\)\.\([0-9]*\)/ \1.\2 0/g" | sed "s/---/$to 1/g")
 		file=$(echo "$file\n$line")
 	fi
-done
+done < $data
 echo -e $file | Rscript <(echo "$aggregate")
+rm $data
