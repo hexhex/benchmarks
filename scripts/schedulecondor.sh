@@ -100,7 +100,7 @@ do
 			notification = never
 
 			# queue
-			Arguments = $PATH $LD_LIBRARY_PATH $instance $to
+			Arguments = "$PATH" "$LD_LIBRARY_PATH" $instance $to
 			Queue 1
 		     " | condor_submit
 	else
