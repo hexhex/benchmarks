@@ -110,8 +110,8 @@ else
 fi
 
 # print summary
-echo "=== Running benchmark \"$benchmarkname\""
-echo ""
+echo "=== Running benchmark \"$benchmarkname\"" 1>&2
+echo "" 1>&2
 echo "Loop:              $loop" 1>&2
 echo "Command:           $cmd" 1>&2
 echo "Working directory: $workingdir" 1>&2
