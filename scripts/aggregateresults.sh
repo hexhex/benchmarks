@@ -169,7 +169,7 @@ if [ $unknownvalues -gt 0 ]; then
 fi
 
 rerrfile=$(mktemp)
-echo -e $file | Rscript <(echo "$aggregate" | sed 's/\?\?\?/0') 2>$rerrfile
+echo -e $file | Rscript <(echo "$aggregate" | sed 's/\?\?\?/0/g') 2>$rerrfile
 if [[ $? -ne 0 ]]; then
 	echo "Aggregation failed, R yielded the following error:" >&2
 	cat $rerrfile
