@@ -158,7 +158,7 @@ do
 		dagman="${dagman}Job InstJob${instance} $outputdir/${instance}.job\n"
 		instjobs="$instjobs InstJob${instance}"
 	else
-		$workingdir/$cmd single "$instance" "$to" "$helperscriptdir" >$outputdir/$instance.out 2>$outputdir/$instance.error
+		$cmd single "$instance" "$to" "$helperscriptdir" >$outputdir/$instance.out 2>$outputdir/$instance.error
 		cat $outputdir/$instance.out
 		cat $outputdir/$instance.error >&2
 	fi

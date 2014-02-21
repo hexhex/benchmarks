@@ -71,6 +71,7 @@ fi
 
 # run instances
 mydir="$(dirname $0)"
+mydir=$(cd $mydir; pwd)
 if [[ $all -eq 1 ]]; then
 	# ============================================================
 	# Replace "instances/*.hex" in (1) by the loop condition
