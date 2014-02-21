@@ -1,0 +1,52 @@
+Benchmark Scripts README
+========================
+
+This folder contains scripts for benchmarking dlvhex.
+
+The following files are provided:
+(for details about their parameters call them without arguments to
+ get help output)
+
+(1) runinsts.sh
+    Implements a loop over instances and schedules them for execution.
+    This is done either sequentially or in parallel using Condor HT.
+    The parameters of the script control the loop condition
+    and the command used for executing a single instance.
+    This script will also call aggregate.sh after execution of all instance
+    to produce the final benchmark table.
+
+(2) run_template.sh (example for an implementation of run.sh)
+    Executes a single instance under various configurations.
+    The parameters are retrieved from runinsts.sh and specify
+    the current instance name and the timeout.
+
+(3) runconfs.sh
+    A helper script for the implementation of (2) for executing
+    a single instance under various configurations.
+    The parameters control the configurations to be compared
+    and the name of an output builder.
+
+(4) timeoutbuilder.sh and sgtimeoutbuilder.sh
+    Create the final (benchmark-relevant) output from the result
+    of an instance execution.
+    timeoutbuilder.sh extracts just the overall time, while
+    sgtimeoutbuilder.sh extracts the overall time, the grounding and the solving time.
+
+(5) aggregateresults.sh
+    Generates the final output of a benchmark as a table.
+
+For convenience, the run.sh script in (2) might not only be used to
+execute a single instance, but also as a wrapper for the overall workflow.
+Then (2) can be directly called by the used, which delegates the call to (1)
+and specifies appropriate parameters (this will result in back-calls of (2) for single instances).
+The run.sh script can distinct via its first parameter (all or single) whether it is called
+for single instances or for the whole benchmark.
+
+
+The typical workflow is as follows:
+                                                          ---------------------------------------------------------------------> aggregateresults.sh ------> table.dat
+                                                          |
+          User ---(all)---> (2) ./run.sh ------> (1) runinsts.sh ------> (3) runconfs.sh ------> (4) outputbuilder.sh
+                                   ^                                                                       |
+                                   |                                                                       |
+                                   ---------------------------------(single)--------------------------------
