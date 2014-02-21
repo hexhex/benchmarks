@@ -157,13 +157,19 @@ do
 		file=$(echo "$file\n$line")
 	fi
 done < $data
+
+# check results
 failedinstances=$(echo -e "$data" | grep "FAIL" | wc -l)
 if [ $failedinstances -gt 0 ]; then
 	echo "It seems that $failedinstances instances failed, will probably not be able to aggregate, but try it anyway." 2>&1
 fi
+unknownvalues=$(echo -e "$data" | grep "???" | wc -l)
+if [ $unknownvalues -gt 0 ]; then
+	echo "It seems that $unknownvalues measured values are unknown, will treat as 0." 2>&1
+fi
 
 rerrfile=$(mktemp)
-echo -e $file | Rscript <(echo "$aggregate") 2>$rerrfile
+echo -e $file | Rscript <(echo "$aggregate" | sed 's/???/0') 2>$rerrfile
 if [[ $? -ne 0 ]]; then
 	echo "Aggregation failed, R yielded the following error:" >&2
 	cat $rerrfile

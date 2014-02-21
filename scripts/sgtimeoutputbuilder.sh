@@ -35,12 +35,18 @@ else
 	haveSolvertime=$(echo -ne $solvertime | wc -l)
 	if [[ $haveGroundertime -eq 0 ]] || [[ $haveSolvertime -eq 0 ]]; then
 		echo "Instance did not provide grounder and solver time" >&2
-		exit 1
+		groundertime="???"
+		solvertime="???"
+	else
+		# extract grounding and solving time
+		groundertime=$(echo $groundertime | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
+		solvertime=$(echo $solvertime | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
+
+		# round to two digits
+		groundertime=$(echo "scale=2; $groundertime/1" | bc)
+		solvertime=$(echo "scale=2; $solvertime/1" | bc)
 	fi
 
-	# extract grounding and solving time
-	groundertime=$(echo $groundertime | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
-	solvertime=$(echo $solvertime | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
 	echo -ne "$time 0 $grundertime 0 $solvertime 0"
 	exit 0
 fi
