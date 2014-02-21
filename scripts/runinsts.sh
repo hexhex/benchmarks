@@ -3,9 +3,9 @@
 # $2: single benchmark command
 # $3: working directory
 # $4: timeout
-# $5: requirements file
-# $6: custom aggregation script
-# $7: Name of the benchmark
+# $5: custom aggregation script
+# $6: Name of the benchmark
+# $7: requirements file
 
 if [ $# -gt 6 ] || [ $# -eq 1 ] && [[ $1 == "?" ]]; then
 	echo "This script needs 0 to 5 parameters:" 1>&2
@@ -13,9 +13,9 @@ if [ $# -gt 6 ] || [ $# -eq 1 ] && [[ $1 == "?" ]]; then
         echo " \$2: (optional) Single benchmark command (default: ./run.sh)" 1>&2
         echo " \$3: (optional) Working directory (default: PWD)" 1>&2
 	echo " \$4: (optional) Timeout (default: 300)" 1>&2
-        echo " \$5: (optional) requirements file" 1>&2
-        echo " \$6: (optional) custom aggregation script (default: ./aggregateresults.sh)" 1>&2
-	echo " \$7: (optional) Name of the benchmark (default: name of the working directory)" 1>&2
+        echo " \$5: (optional) custom aggregation script (default: ./aggregateresults.sh)" 1>&2
+	echo " \$6: (optional) Name of the benchmark (default: name of the working directory)" 1>&2
+        echo " \$7: (optional) requirements file" 1>&2
 	echo "" 1>&2
 	echo "The script will pass 4 parameters to the single benchmark command:" 1>&2
 	echo " \$1: PATH variable" 1>&2
@@ -61,13 +61,13 @@ if [ $# -ge 4 ]; then
 else 
         to=300
 fi
-if [ $# -ge 6 ]; then
-        aggscript=$6
+if [ $# -ge 5 ]; then
+        aggscript=$5
 else 
         aggscript=$helperscriptdir/aggregateresults.sh
 fi
-if [ $# -ge 7 ]; then
-	benchmarkname=$7
+if [ $# -ge 6 ]; then
+	benchmarkname=$6
 else
 	benchmarkname=$(cd $workingdir; pwd)
 	benchmarkname=$(basename $benchmarkname)
@@ -82,15 +82,15 @@ if [ -e "$outputdir" ]; then
 		echo "Will NOT overwrite the existing directory. Aborting benchmark execution!"
 		exit 1
 	fi
+	rm -r $outputdir
 fi
-rm -r $outputdir
 mkdir -p $outputdir
 outputdir=$(cd $outputdir; pwd)
 
 # check if there is a requirements file
 # priorities: 1. command-line parameter, 2. directory of single benchmark script, 3. directory of this script
-if [ $# -ge 5 ]; then
-	reqfile=$5
+if [ $# -ge 6 ]; then
+	reqfile=$6
 	requirements=$(cat $reqfile 2> /dev/null)
 	if [ $? -ne 0 ]; then
 		echo "Error: Requirements file $reqfile invalid" 1>&2

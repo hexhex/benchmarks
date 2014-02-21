@@ -26,11 +26,11 @@ The following files are provided:
     The parameters control the configurations to be compared
     and the name of an output builder.
 
-(4) timeoutbuilder.sh and sgtimeoutbuilder.sh
+(4) timeoutbuilder.sh and gstimeoutbuilder.sh
     Create the final (benchmark-relevant) output from the result
     of an instance execution.
     timeoutbuilder.sh extracts just the overall time, while
-    sgtimeoutbuilder.sh extracts the overall time, the grounding and the solving time.
+    gstimeoutbuilder.sh extracts the overall time, the grounding and the solving time.
 
 (5) aggregateresults.sh
     Generates the final output of a benchmark as a table.

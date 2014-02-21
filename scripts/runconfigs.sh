@@ -63,14 +63,14 @@ do
 	output=$($outputbuilder $ret $timefile $stdoutfile $stderrfile)
 	obresult=$?
 	if [ $obresult -eq 0 ]; then
-		echo -ne $output
+		echo -ne "$output"
 	elif [ $obresult -eq 2 ]; then
 		echo "Error during execution of: \"$fullcommand\"" >&2
 		echo ">> Stdout:" >&2
 		cat $stdoutfile >&2
 		echo ">> Stderr:" >&2
 		cat $stderrfile >&2
-		echo -ne $output
+		echo -ne "$output"
 	else
 		echo "Output builder for command \"$fullcommand\" failed" >&2
 		exit 1

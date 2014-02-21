@@ -19,7 +19,7 @@ timefile=$2
 stdout=$3
 sterr=$4
 if [[ $ret == 124 ]]; then
-	echo -ne "--- 1 --- 1 --- 1"
+	echo -ne "--- 1 --- 0 --- 0"
 	exit 0
 elif [[ $ret != 0 ]]; then
 	echo -ne "FAIL x x x"
@@ -47,7 +47,7 @@ else
 		solvertime=$(echo "scale=2; $solvertime/1" | bc)
 	fi
 
-	echo -ne "$time 0 $grundertime 0 $solvertime 0"
+	echo -ne "$time 0 $groundertime 0 $solvertime 0"
 	exit 0
 fi
 exit 1
