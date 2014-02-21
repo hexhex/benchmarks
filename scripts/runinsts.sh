@@ -132,10 +132,13 @@ fi
 cd $workingdir
 for instance in $(eval "echo $loop")
 do
+	# make sure that the output directory exists
+	mkdir -p $outputdir/$instance
+	rmdir $outputdir/$instance
+
 	echo "Instance $instance:" 1>&2
 	echo "   cd $workingdir" 1>&2
 	echo "   $cmd single \"$instance\" \"$to\" \"$helperscriptdir\"" 1>&2
-	mkdir -p $outputdir/$instance
 	if [ $sequential -eq 0 ]; then
 		# prepare single jobs
 		echo "

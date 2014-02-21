@@ -38,7 +38,7 @@ done
 echo $header
 
 # do benchmark
-echo -ne "$instance"
+echo -ne "$instance 1"	# 1 because we want to count instances
 
 # for all configurations
 timefile=$(mktemp)
