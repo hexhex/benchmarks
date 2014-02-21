@@ -5,6 +5,7 @@
 # $4: timeout
 # $5: requirements file
 # $6: custom aggregation script
+# $7: Name of the benchmark
 
 if [ $# -gt 6 ] || [ $# -eq 1 ] && [[ $1 == "?" ]]; then
 	echo "This script needs 0 to 5 parameters:" 1>&2
@@ -14,6 +15,7 @@ if [ $# -gt 6 ] || [ $# -eq 1 ] && [[ $1 == "?" ]]; then
 	echo " \$4: (optional) Timeout (default: 300)" 1>&2
         echo " \$5: (optional) requirements file" 1>&2
         echo " \$6: (optional) custom aggregation script (default: ./aggregateresults.sh)" 1>&2
+	echo " \$7: (optional) Name of the benchmark (default: name of the working directory)" 1>&2
 	echo "" 1>&2
 	echo "The script will pass 4 parameters to the single benchmark command:" 1>&2
 	echo " \$1: PATH variable" 1>&2
@@ -53,6 +55,7 @@ if [ $# -ge 3 ]; then
 else
         workingdir=$PWD
 fi
+workingdir=$(cd $workingdir; pwd)
 if [ $# -ge 4 ]; then
         to=$4
 else 
@@ -63,6 +66,26 @@ if [ $# -ge 6 ]; then
 else 
         aggscript=$helperscriptdir/aggregateresults.sh
 fi
+if [ $# -ge 7 ]; then
+	benchmarkname=$7
+else
+	benchmarkname=$(cd $workingdir; pwd)
+	benchmarkname=$(basename $benchmarkname)
+fi
+
+# Make sure that the output directory exists
+outputdir="$workingdir/$benchmarkname.output"
+if [ -e "$outputdir" ]; then
+	echo "Output directory already exists, type \"del\" to confirm overwriting"
+	read inp
+	if [[ $inp != "del" ]]; then
+		echo "Will NOT overwrite the existing directory. Aborting benchmark execution!"
+		exit 1
+	fi
+fi
+rm -r $outputdir
+mkdir -p $outputdir
+outputdir=$(cd $outputdir; pwd)
 
 # check if there is a requirements file
 # priorities: 1. command-line parameter, 2. directory of single benchmark script, 3. directory of this script
@@ -87,6 +110,8 @@ else
 fi
 
 # print summary
+echo "=== Running benchmark \"$benchmarkname\""
+echo ""
 echo "Loop:              $loop" 1>&2
 echo "Command:           $cmd" 1>&2
 echo "Working directory: $workingdir" 1>&2
@@ -114,9 +139,9 @@ do
 		# prepare single jobs
 		echo "
 			Executable = $cmd
-			Output = $instance.out
-			Error = $instance.error
-			Log = $instance.log
+			Output = $outputdir/$instance.out
+			Error = $outputdir/$instance.error
+			Log = $outputdir/$instance.log
 			$requirements
 			Initialdir = $workingdir
 			Notification = never
@@ -125,24 +150,39 @@ do
 			# queue
 			Arguments = single $instance $to "$helperscriptdir"
 			Queue 1
-		     " > $instance.job
-		dagman="${dagman}Job ${instance} ${instance}.job\n"
-		alljobs="$alljobs ${instance}"
+		     " > $outputdir/$instance.job
+		dagman="${dagman}Job InstJob${instance} $outputdir/${instance}.job\n"
+		instjobs="$instjobs InstJob${instance}"
 	else
-		$workingdir/$cmd single $instance $to "$helperscriptdir" >$instance.out 2>$instance.error
-		cat $instance.out
-		cat $instance.error >&2
+		$workingdir/$cmd single $instance $to "$helperscriptdir" >$outputdir/$instance.out 2>$outputdir/$instance.error
+		cat $outputdir/$instance.out
+		cat $outputdir/$instance.error >&2
 	fi
-	resultfiles="$resultfiles $instance.out"
+	resultfiles="$resultfiles $outputdir/$instance.out"
 done
 if [ $sequential -eq 0 ]; then
+        echo -e "
+                        Executable = $(which cat)
+                        Output = $outputdir/allout.dat
+                        Error = $outputdir/allout.err
+                        Log = $outputdir/allout.log
+                        $requirements
+                        Initialdir = $outputdir
+                        Notification = never
+                        getenv = true
+
+                        # queue
+                        Arguments = $resultfiles 
+                        Queue 1
+                " > $outputdir/allout.job
+
 	# prepare a job for aggregation of the results
 	echo -e "
 			Executable = $aggscript
-			Output = results_$loop.dat
-			Error = results_$loop.err
-			Log = results_$loop.log
-			Input = $resultfiles
+			Output = $outputdir/$benchmarkname.dat
+			Error = $outputdir/$benchmarkname.err
+			Log = $outputdir/$benchmarkname.log
+			Input = $outputdir/allout.dat
 			$requirements
 			Initialdir = $workingdir
 			Notification = never
@@ -151,31 +191,40 @@ if [ $sequential -eq 0 ]; then
 			# queue
 			Arguments = $to
 			Queue 1
-		"
+		" > $outputdir/agg.job
 
 	# acutally submit them
 	echo -e "
 			$dagman
-			Job AggregationJob
-			PARENT $alljobs CHILD AggregationJob
-		" | condor_dagman 
+			Job AlloutJob $outputdir/allout.job
+			Job AggJob $outputdir/agg.job
+			PARENT $instjobs CHILD AlloutJob
+			PARENT AlloutJob CHILD AggJob
+		" > "$outputdir/$benchmarkname.dag"
+		condor_submit_dag $outputdir/$benchmarkname.dag
+	if [ $? -ne 0 ]; then
+		echo "Error while scheduling benchmark \"$benchmarkname\" for execution" >&2
+		exit 1
+	fi
+
+        echo "Benchmark \"$benchmarkname\" scheduled for execution" 1>&2
 else
 	# aggregate results
 	if [[ $resultfiles != "" ]]; then
-		echo "Aggregating results in file results_$loop.dat" 1>&2
+		echo "Aggregating results in file $outputdir/$benchmarkname.dat" 1>&2
 		rerrfile=$(mktemp)
-		echo "" > results_$loop.dat
-		cat $resultfiles | $aggscript >results_$loop.dat 2>results_$loop.err
+		echo "" > $outputdir/$benchmarkname.dat
+		cat $resultfiles | $aggscript >$outputdir/$benchmarkname.dat 2>$outputdir/$benchmarkname.err
 		if [[ $? -ne 0 ]]; then
-			echo "Aggregation failed" >> results_$loop.dat
-			echo "Input to R:" >> results_$loop.dat
-			echo $resultfiles >> results_$loop.dat
-			echo "Error output from R:" >> results_$loop.dat
-			echo results_$loop.err >> results_$loop.dat
+			echo "Aggregation failed" >> $outputdir/$benchmarkname.dat
+			echo "Input to R:" >> $outputdir/$benchmarkname.dat
+			echo $resultfiles >> $outputdir/$benchmarkname.dat
+			echo "Error output from R:" >> $outputdir/$benchmarkname.dat
+			echo $outputdir/$benchmarkname.err >> $outputdir/$benchmarkname.dat
 		fi
-		rm results_$loop.err
+		rm $rerrfile
 	else
-		echo "" > "results_$loop.dat"
+		echo "" > "$outputdir/$benchmarkname.dat"
 	fi
-	echo "Benchmark finished" 1>&2
+	echo "Benchmark \"$benchmarkname\" finished" 1>&2
 fi
