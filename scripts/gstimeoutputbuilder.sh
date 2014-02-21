@@ -23,7 +23,7 @@ if [[ $ret == 124 ]]; then
 	echo -ne "--- 1 --- 0 --- 0"
 	exit 0
 elif [[ $ret != 0 ]]; then
-	echo -ne "FAIL x x x"
+	echo -ne "FAIL x y x y x y"
 	exit 2
 else
 	# get overall time
