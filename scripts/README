@@ -1,4 +1,4 @@
-Benchmark Scripts README
+Benchmark Scripts Readme
 ========================
 
 This folder contains scripts for benchmarking dlvhex.
@@ -44,9 +44,13 @@ for single instances or for the whole benchmark.
 
 
 The typical workflow is as follows:
-                                                          ---------------------------------------------------------------------> aggregateresults.sh ------> table.dat
+
+          table.dat <------ (5) aggregateresults.sh -------
+                                                          |
                                                           |
           User ---(all)---> (2) ./run.sh ------> (1) runinsts.sh ------> (3) runconfs.sh ------> (4) outputbuilder.sh
                                    ^                                                                       |
                                    |                                                                       |
                                    ---------------------------------(single)--------------------------------
+
+Finally, the output of table.dat may be passed to the script tolatextable.sh to produce valid LaTeX code.
