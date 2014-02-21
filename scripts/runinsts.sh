@@ -94,7 +94,7 @@ echo "Timeout:           $to" 1>&2
 
 # check if we use condor
 req=$(cat $reqfile | sed '/^$/d')
-if [ $req != "sequential" ]; then  
+if [[ $req != "sequential" ]]; then  
 	echo "Requirements:      $reqfile" 1>&2
 	cat $reqfile | sed 's/^/                   /' 1>&2
 	sequential=0
