@@ -123,7 +123,7 @@ do
 			getenv = true
 
 			# queue
-			Arguments = $instance $to "$helperscriptdir"
+			Arguments = single $instance $to "$helperscriptdir"
 			Queue 1
 		     " > $instance.job
 		dagman="${dagman}Job ${instance} ${instance}.job\n"
@@ -142,7 +142,7 @@ if [ $sequential -eq 0 ]; then
 			Output = results_$loop.dat
 			Error = results_$loop.err
 			Log = results_$loop.log
-			Anput = $resultfiles
+			Input = $resultfiles
 			$requirements
 			Initialdir = $workingdir
 			Notification = never
