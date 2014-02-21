@@ -9,7 +9,7 @@ if [ $# -gt 5 ] || [ $# -eq 1 ] && [[ $1 == "?" ]]; then
 	echo "This script needs 0 to 5 parameters:" 1>&2
 	echo " \$1: Condor or sequential execution: 0 for sequential, !=0 for condor (default: 0)" 1>&2
 	echo " \$2: Instance loop condition (default: *.hex)" 1>&2
-        echo " \$3: Single benchmark command (default: ./benchmark_single.sh)" 1>&2
+        echo " \$3: Single benchmark command (default: ./run.sh)" 1>&2
         echo " \$4: Working directory (default: PWD)" 1>&2
 	echo " \$5: Timeout (default: 300)" 1>&2
         echo " \$6: (optional) requirements file" 1>&2
@@ -17,10 +17,11 @@ if [ $# -gt 5 ] || [ $# -eq 1 ] && [[ $1 == "?" ]]; then
 	echo "The script will pass 4 parameters to the single benchmark command:" 1>&2
 	echo " \$1: PATH variable" 1>&2
 	echo " \$2: LD_LIBRARY_PATH variable" 1>&2
-	echo " \$3: instance name" 1>&2
-	echo " \$4: timeout" 1>&2
+	echo " \$3: Instance name" 1>&2
+	echo " \$4: Timeout" 1>&2
+	echo " \$5: Directory which contains the benchmark helper scripts (directory of this script)" 1>&2
 	echo "" 1>&2
-	echo "Template for a benchmark_single.sh script:" 1>&2
+	echo "Template for a run.sh script:" 1>&2
 	echo "      ./runconfigs.sh \"dlvhex2 INST\"" "--solver=genuinegc;--solver=genuineii\" $3 $4" 1>&2
 	exit 1
 fi
@@ -42,7 +43,7 @@ fi
 if [ $# -ge 3 ]; then
         cmd=$3
 else
-        cmd="./benchmark_single.sh"
+        cmd="./run.sh"
 fi
 
 if [ $# -ge 4 ]; then
@@ -94,6 +95,7 @@ else
 fi
 
 # schedule all instances
+helperscriptdir="$(dirname $0)"
 cd $workingdir
 for instance in $(eval "echo $loop")
 do
@@ -111,12 +113,11 @@ do
 			notification = never
 
 			# queue
-			Arguments = "$PATH" "$LD_LIBRARY_PATH" $instance $to
+			Arguments = "$PATH" "$LD_LIBRARY_PATH" $instance $to "$helperscriptdir"
 			Queue 1
 		     " | condor_submit
 	else
-		$workingdir/$cmd "$PATH" "$LD_LIBRARY_PATH" $instance $to
+		$workingdir/$cmd "$PATH" "$LD_LIBRARY_PATH" $instance $to "$helperscriptdir"
 	fi
-	echo "" 1>&2
 done
 

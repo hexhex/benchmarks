@@ -1,19 +1,19 @@
 # This script generates output after execution of a given command under various configurations with timeout.
 
 if [ $# != 4 ] && [ $# != 5 ]; then
-	echo "This script expects 4 or 5 parameters"
-	echo " $1: Command for executing an instance, which may constain the constant CONF as a placeholder for options to be inserted and INST as a placeholder for the instance"
-	echo " $2: ;-separated configuration strings to be inserted for CONF in $1"
-	echo " $3: Instance to be inserted in the command string at position INST"
-	echo " $4: Timeout"
-	echo " $5: [optional] Custom output builder name of a script to build the output of a run, which gets the parameters"
-	echo "	$1: return value of command (0 if success, 124 if timeout, != 0 if failed)"
-	echo "	$2: file with stdout of command"
-	echo "	$3: file with stderr of command"
-	echo ""
-	echo " Return value:"
-	echo "	0 if execution of the script was successful (not necessarily the actual instance)"
-	echo "	1 if the benchmark script itself failed"
+	echo "This script expects 4 or 5 parameters" 1>&2
+	echo " $1: Command for executing an instance, which may constain the constant CONF as a placeholder for options to be inserted and INST as a placeholder for the instance" 1>&2
+	echo " $2: ;-separated configuration strings to be inserted for CONF in $1" 1>&2
+	echo " $3: Instance to be inserted in the command string at position INST" 1>&2
+	echo " $4: Timeout" 1>&2
+	echo " $5: [optional] Custom output builder name of a script to build the output of a run, which gets the parameters" 1>&2
+	echo "	$1: return value of command (0 if success, 124 if timeout, != 0 if failed)" 1>&2
+	echo "	$2: file with stdout of command" 1>&2
+	echo "	$3: file with stderr of command" 1>&2
+	echo "" 1>&2
+	echo " Return value:" 1>&2
+	echo "	0 if execution of the script was successful (not necessarily the actual instance)" 1>&2
+	echo "	1 if the benchmark script itself failed" 1>&2
 	exit 1
 fi
 
@@ -56,7 +56,7 @@ do
 	cmd="timeout $to time -o $timefile -f %e $fullcommand"
 
 	# execute
-	$($cmd >$stdoutfile 2>$stderrfile)
+	eval "$cmd >$stdoutfile 2>$stderrfile"
 	ret=$?
 
 	# build output
