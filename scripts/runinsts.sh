@@ -134,7 +134,8 @@ for instance in $(eval "echo $loop")
 do
 	echo "Instance $instance:" 1>&2
 	echo "   cd $workingdir" 1>&2
-	echo "   $cmd $PATH $LD_LIBRARY_PATH $instance $to" 1>&2
+	echo "   $cmd single \"$instance\" \"$to\" \"$helperscriptdir\"" 1>&2
+	mkdir -p $outputdir/$instance
 	if [ $sequential -eq 0 ]; then
 		# prepare single jobs
 		echo "
@@ -148,13 +149,13 @@ do
 			getenv = true
 
 			# queue
-			Arguments = single $instance $to "$helperscriptdir"
+			Arguments = single $instance $to $helperscriptdir
 			Queue 1
 		     " > $outputdir/$instance.job
 		dagman="${dagman}Job InstJob${instance} $outputdir/${instance}.job\n"
 		instjobs="$instjobs InstJob${instance}"
 	else
-		$workingdir/$cmd single $instance $to "$helperscriptdir" >$outputdir/$instance.out 2>$outputdir/$instance.error
+		$workingdir/$cmd single "$instance" "$to" "$helperscriptdir" >$outputdir/$instance.out 2>$outputdir/$instance.error
 		cat $outputdir/$instance.out
 		cat $outputdir/$instance.error >&2
 	fi
