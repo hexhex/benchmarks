@@ -1,3 +1,5 @@
+#!/bin/bash
+
 error=0
 if [ $# -le 0 ]; then
 	to="300.0"
@@ -54,8 +56,9 @@ if [ $error -eq 1 ]; then
 	echo " \$2, \$3:  (optional) Start position and length of instance size information in the instance filenames (index origin 1)," >&2
 	echo "                       or 0 0 for auto-detection. Default is auto-detection." >&2
 	echo " \$4 - \$7: (optional) Comma-separated lists of columns to compute means, maxima, minima and sums of, respectively." >&2
-	echo "                       Default: Means of first and second column." >&2
-	echo "                       Beginning from column 3, compute means of odd and sums of even columns (interpreted as times and timeouts, respectively)." >&2
+	echo "                       Default:" >&2
+	echo "                       Means of odd and sums of even columns (interpreted as times and timeouts, respectively)." >&2
+	echo "In the input, column 1 is interpreted as instance size and used as the aggregation column." >&2
 	exit 1
 fi
 

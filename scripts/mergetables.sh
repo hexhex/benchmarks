@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # merged benchmark tables line-wise
 if [[ $# == 0 ]]
 then

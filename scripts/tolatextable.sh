@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # $1: LaTeX package to use for generating headers (currently supported: default, booktabs)
 #     If $1 is missing, then only the body of the table is generated
 if [[ $# -ge 1 ]]; then

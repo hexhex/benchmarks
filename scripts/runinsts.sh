@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # $1: condor or sequential
 # $1: instance loop condition
 # $2: single benchmark command
@@ -158,6 +160,7 @@ do
 		dagman="${dagman}Job InstJob${instance} $outputdir/${instance}.job\n"
 		instjobs="$instjobs InstJob${instance}"
 	else
+		echo "Calling: $cmd single \"$instance\" \"$to\" \"$helperscriptdir\" >$outputdir/$instance.out 2>$outputdir/$instance.error"
 		$cmd single "$instance" "$to" "$helperscriptdir" >$outputdir/$instance.out 2>$outputdir/$instance.error
 		cat $outputdir/$instance.out
 		cat $outputdir/$instance.error >&2

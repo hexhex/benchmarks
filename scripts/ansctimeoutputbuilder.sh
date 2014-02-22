@@ -18,15 +18,16 @@ fi
 
 ret=$1
 timefile=$2
+stdoutfile=$3
 if [[ $ret == 124 ]]; then
-	echo -ne "--- 1"
+	echo -ne "--- 1 $(cat $stdoutfile | wc -l)"
 	exit 0
 elif [[ $ret != 0 ]]; then
-	echo -ne "FAIL x"
+	echo -ne "FAIL x y"
 	exit 2
 else
 	time=$(cat $timefile)
-	echo -ne "$time 0"
+	echo -ne "$time 0 $(cat $stdoutfile | wc -l)"
 	exit 0
 fi
 exit 1

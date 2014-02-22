@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # This script transforms the execution result of a single dlvhex command into a time string consisting of overall and separate grounding and solving time
 
 if [ $# != 4 ]; then

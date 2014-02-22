@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # This script generates output after execution of a given command under various configurations with timeout.
 
 if [ $# != 4 ] && [ $# != 5 ]; then

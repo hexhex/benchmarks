@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # The parameters specify the columns to select (index-origin 1)
 while read line
 do

@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # This file serves as a template for run scripts for new benchmarks.
 # Most of the script may be left unchanged. The parts which depend
@@ -6,9 +7,14 @@
 # If your PATH variable contains the path to a clone of
 # https://github.com/hexhex/benchmarks/scripts,
 # then the benchmarks can be started by calling
-#	./run
+#	./run.sh
 # Otherwise, you may explicitly specify the path by calling
-#	./run all 300 /path/to/benchmark/scripts
+#	./run.sh all 300
+#
+# In many cases, run scripts will be exactly like template until the
+# last if block. Thus they may simply include this part,
+# provided in file dlvhex_run_header.sh, by
+#	source dlvhex_run_header.sh
 #
 # Note: The scripts output some additional information to stderr,
 #       which should be redirected to /dev/null unless you are debugging.
@@ -53,25 +59,30 @@ if [[ $all -eq 1 ]]; then
 	fi
 	if [[ $# -ge 3 ]]; then
 		bmscripts=$3
-	else
-		runinstsdir=$(which runinsts.sh | head -n 1)
-		if [ -e "$runinstsdir" ]; then
-			bmscripts=$(dirname "$runinstsdir")
-		fi
 	fi
 else
 	instance=$2
 	to=$3
-	bmscripts=$4
+	if [[ $# -ge 4 ]]; then
+		bmscripts=$4
+	fi
+fi
+if [[ $bmscripts == "" ]]; then
+	runinstsdir=$(which runinsts.sh | head -n 1)
+	if [ -e "$runinstsdir" ]; then
+		bmscripts=$(dirname "$runinstsdir")
+	fi
 fi
 if ! [ -e "$bmscripts" ]; then
 	echo "Could not find benchmark scripts"
 	exit 1
 fi
 
-# run instances
+# get directory where this script is executed from
 mydir="$(dirname $0)"
 mydir=$(cd $mydir; pwd)
+
+# HERE THE BENCHMARK-SPECIFIC PART STARTS
 if [[ $all -eq 1 ]]; then
 	# ============================================================
 	# Replace "instances/*.hex" in (1) by the loop condition
