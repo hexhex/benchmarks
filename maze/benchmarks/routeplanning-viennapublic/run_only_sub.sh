@@ -11,7 +11,7 @@ source $runheader
 map="map_only_sub.hex"
 if [[ $all -eq 1 ]]; then
 	# run all instances using the benchmark script run insts
-	$bmscripts/runinsts.sh "instances/*.hex" "$mydir/run.sh" "$mydir" "$to" "" "" "$req"
+	$bmscripts/runinsts.sh "instances/*.hex" "$mydir/run.sh" "$mydir" "$to" "$mydir/aggregate.sh" "$map" "$req"
 else
 	# run single instance
 	confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex;--liberalsafety route.hex maxchanges.hex"
@@ -26,7 +26,7 @@ else
 		echo "maxchanges($(echo "($mc + ${instancefn:6:3} * 2 - 2)" | bc ))." > $instance.mc
 	fi
 
-	$bmscripts/runconfigs.sh "dlvhex2 --claspconfig=\"$frumpy\" $c --plugindir=../../src --extlearn --evalall -n=1 --verbose=8 --silent CONF $map $instance.mc INST" "$confstr" "$instance" "$to"
+	$bmscripts/runconfigs.sh "dlvhex2 --claspconfig=\"$frumpy\" $c --plugindir=../../src --extlearn --evalall -n=1 --verbose=8 --silent CONF $map $instance.mc" "$confstr" "$instance" "$to" "$mydir/outputbuilder.sh"
 
 	rm $instance.mc
 fi

@@ -19,11 +19,11 @@ else
 
 	# computation of max changes
 	instancefn=$(basename $instance)
-	mc=$(echo "(${instancefn:6:3} * 1.5 + 0.5) / 1" | bc)
+	mc=$(echo "((${instance:6:3} + 1) * 1.5 + 0.5) / 1" | bc)
 	if [[ $mc == 0 ]]; then
 		echo "" > $instance.mc
 	else
-		echo "maxchanges($(echo "($mc + ${instancefn:6:3} * 2 - 2)" | bc ))." > $instance.mc
+		echo "maxchanges($(echo "($mc + (${instancefn:6:3} + 1) * 2 - 2)" | bc ))." > $instance.mc
 	fi
 
 	$bmscripts/runconfigs.sh "dlvhex2 --claspconfig=\"$frumpy\" $c --plugindir=../../src --extlearn --evalall -n=1 --verbose=8 --silent CONF $map $instance.mc" "$confstr" "$instance" "$to" "$mydir/outputbuilder.sh"

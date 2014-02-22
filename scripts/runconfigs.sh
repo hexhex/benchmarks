@@ -58,6 +58,7 @@ do
 	cmd="timeout $to time -o $timefile -f %e $fullcommand"
 
 	# execute
+	echo "Executing $cmd >$stdoutfile 2>$stderrfile" >&2
 	eval "$cmd >$stdoutfile 2>$stderrfile"
 	ret=$?
 
