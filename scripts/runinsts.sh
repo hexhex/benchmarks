@@ -190,7 +190,7 @@ do
 		dagman="${dagman}Job InstJob${instance} $outputdir/${instance}.job\n"
 		instjobs="$instjobs InstJob${instance}"
 	else
-		echo "Calling: $cmd single \"$instance\" \"$to\" \"$helperscriptdir\" >$outputdir/$instance.out 2>$outputdir/$instance.error"
+		echo "Calling: $cmd single \"$instance\" \"$to\" \"$helperscriptdir\" >$outputdir/$instance.out 2>$outputdir/$instance.error" >&2
 		$cmd single "$instance" "$to" "$helperscriptdir" >$outputdir/$instance.out 2>$outputdir/$instance.error
 		cat $outputdir/$instance.out
 		cat $outputdir/$instance.error >&2
