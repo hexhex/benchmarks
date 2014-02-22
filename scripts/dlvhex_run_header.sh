@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# dlvhex_run_header.sh Version 1.0		Do not remove or change this line!
+#						This allows run scripts to detect that this is the proper run header file
+#						Only the minor version may be changed, a change in the major version
+#						makes existing scripts fail.
+
 # check input validity
 inputok=1
 if [[ $# -eq 0 ]]; then
