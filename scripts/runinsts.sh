@@ -125,6 +125,7 @@ if [[ $# -ge 7 ]] && [[ $7 != "" ]]; then
 else
 	# check working directory
 	reqfile=$workingdir/req
+        requirements=$(cat $reqfile 2> /dev/null)
 	if [ $? -ne 0 ]; then
 		# check bmscripts directory
 		reqfile=$(dirname $0)/req
