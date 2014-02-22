@@ -139,7 +139,7 @@ echo "Requirements file: $reqfile" 1>&2
 
 # check if we use condor
 requirements=$(cat "$reqfile" | sed '/^$/d')
-if [[ $req != "sequential" ]]; then  
+if [[ $requirements != "sequential" ]]; then  
 	echo -e "Requirements:" 1>&2
 	requirements=$(echo -e "$requirements" | sed 's/^/                   /')
 	echo -e "$requirements"
