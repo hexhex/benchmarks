@@ -18,7 +18,7 @@ else
 	extrlen=0
 fi
 
-if [ $# -ge 4 ]; then
+if [ $# -lt 4 ]; then
 	meanCols="if (ncol(input) >= 3) c(1, seq(3, ncol(input), 2)) else c(1)"
 	sumCols="if (ncol(input) >= 2) c(1, seq(2, ncol(input), 2)) else c(1)"
 	maxCols="c(1)"
@@ -52,12 +52,12 @@ fi
 
 if [ $error -eq 1 ]; then
 	echo "The aggregation script expects the following parameters:" >&2
-	echo " \$1:       (optional) Timeout" >&2
+	echo " \$1:      (optional) Timeout" >&2
 	echo " \$2, \$3:  (optional) Start position and length of instance size information in the instance filenames (index origin 1)," >&2
-	echo "                       or 0 0 for auto-detection. Default is auto-detection." >&2
+	echo "                     or 0 0 for auto-detection. Default is auto-detection." >&2
 	echo " \$4 - \$7: (optional) Comma-separated lists of columns to compute means, maxima, minima and sums of, respectively." >&2
-	echo "                       Default:" >&2
-	echo "                       Means of odd and sums of even columns (interpreted as times and timeouts, respectively)." >&2
+	echo "                     Default:" >&2
+	echo "                     Means of odd and sums of even columns (interpreted as times and timeouts, respectively)." >&2
 	echo "In the input, column 1 is interpreted as instance size and used as the aggregation column." >&2
 	exit 1
 fi
@@ -90,6 +90,14 @@ aggregate="
 	inputcomp[, 1] <- input[, 1] * 4
 	if ( !all( (meanInput + sumInput + maxInput + minInput) == inputcomp) ){
 		print(\"Error: There must be exactly one aggregation method specified for each column\");
+		print(\"Mean columns:\")
+		meanCols
+                print(\"Sum columns:\")
+                sumCols
+                print(\"Min columns:\")
+                minCols
+                print(\"Max columns:\")
+                maxCols
 		return(1)
 	}
 
@@ -172,7 +180,7 @@ if [ $unknownvalues -gt 0 ]; then
 fi
 
 rerrfile=$(mktemp)
-echo -e "$file" | Rscript <(echo "$aggregate" | sed 's/???/0/g') 2>$rerrfile
+echo -e "$file" | sed "s/---/$to/g" | sed 's/???/0/g' | Rscript <(echo "$aggregate") 2>$rerrfile
 if [[ $? -ne 0 ]]; then
 	echo "Aggregation failed, R yielded the following error:" >&2
 	cat $rerrfile
