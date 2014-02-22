@@ -42,8 +42,12 @@ and specifies appropriate parameters (this will result in back-calls of (2) for 
 The run.sh script can distinct via its first parameter (all or single) whether it is called
 for single instances or for the whole benchmark.
 
+Moreover, the beginnings of run.sh scripts are in many cases exactly
+like in run_template.sh. Thus this part can be directly imported by
+	source dlvhex_run_header.sh
+provided that the benchmark script directory is the PATH variable.
 
-The typical workflow is as follows:
+The typical workflow is summarized as follows:
 
           table.dat <------ (5) aggregateresults.sh -------
                                                           |
