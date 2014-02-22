@@ -83,7 +83,7 @@ fi
 # Make sure that the output directory exists
 outputdir="$workingdir/$benchmarkname.output"
 if [ -e "$outputdir" ]; then
-	echo "Output directory already exists, type \"del\" to confirm overwriting"
+	echo "Output directory $outputdir already exists, type \"del\" to confirm overwriting"
 	read inp
 	if [[ $inp != "del" ]]; then
 		echo "Will NOT overwrite the existing directory. Aborting benchmark execution!"
