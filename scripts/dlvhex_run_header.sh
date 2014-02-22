@@ -11,16 +11,20 @@ if [[ $# -eq 0 ]]; then
 	inputok=1
 elif [[ $# -gt 5 ]]; then
 	inputok=0
-elif [[ $1 != "all" ]] && [[ $1 != "single" ]]; then
+elif [[ $1 != "all" ]] && [[ $1 != "allseq" ]] && [[ $1 != "single" ]]; then
 	inputok=0
 fi
 if [[ $inputok -eq 0 ]]; then
 	echo "This script expects 0 to 5 parameters" >&2
-	echo "   \$1: (optional) \"all\" or \"single\", default is \"all\"" >&2
+	echo "   \$1: (optional) \"all\", \"allseq\" or \"single\", default is \"all\"" >&2
 	echo "   (a) If \$1=\"all\" then there are no further parameters" >&2
 	echo "       \$2: (optional) timeout, default is 300" >&2
 	echo "       \$3: (optional) directory with the benchmark scripts" >&2
-	echo "   (b) If \$1=\"single\" then" >&2
+	echo "   (b) If \$1=\"allseq\" then there are no further parameters" >&2
+	echo "       \$2: (optional) timeout, default is 300" >&2
+	echo "       \$3: (optional) directory with the benchmark scripts" >&2
+	echo "       This will execute all instances sequentially (Condor HT is not used)" >&2
+	echo "   (c) If \$1=\"single\" then" >&2
 	echo "       \$2: instance name" >&2
 	echo "       \$3: timeout in seconds" >&2
 	echo "       \$4: (optional) directory with the benchmark scripts" >&2
@@ -33,6 +37,9 @@ if [[ $# -eq 0 ]]; then
 	all=1
 elif [[ $1 == "all" ]]; then
 	all=1
+elif [[ $1 == "allseq" ]]; then
+	all=1
+	req="reqseq"
 else
 	all=0
 fi
