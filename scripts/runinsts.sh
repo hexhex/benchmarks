@@ -229,7 +229,7 @@ if [ $sequential -eq 0 ]; then
 
 	# prepare condor command according to desired notification behavior
 	if [[ $notification -eq 2 ]]; then
-        	condorcmd="condor_submit_dag"
+        	condorcmd="condor_submit_dag -notify never"	# we have an extended notification anyway
 
 	        echo -e "
         	                Executable = $(dirname $0)/sendnotification.sh 
