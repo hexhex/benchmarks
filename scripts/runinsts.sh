@@ -125,6 +125,7 @@ else
 		fi
 	fi
 fi
+nonotification=$(cat $req | grep -i "notification" | grep -i "never" | wc -l)
 
 # print summary
 echo "=== Running benchmark \"$benchmarkname\"" 1>&2
@@ -224,7 +225,13 @@ if [ $sequential -eq 0 ]; then
 			PARENT $instjobs CHILD AlloutJob
 			PARENT AlloutJob CHILD AggJob
 		" > "$outputdir/$benchmarkname.dag"
-		condor_submit_dag $outputdir/$benchmarkname.dag
+		if [ $nonotification -gt 0 ]; then
+                        condor_submit_dag $outputdir/$benchmarkname.dag
+			echo "Will send an e-mail notification when the benchmark completes (if configured)"
+		else
+			condor_submit_dag -notify never $outputdir/$benchmarkname.dag
+                        echo "Will NOT send an e-mail notification when the benchmark completes"
+		fi
 	if [ $? -ne 0 ]; then
 		echo "Error while scheduling benchmark \"$benchmarkname\" for execution" >&2
 		exit 1
