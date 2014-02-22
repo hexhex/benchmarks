@@ -37,10 +37,10 @@ fi
 if [[ $inputok -eq 0 ]]; then
 	echo "This script expects 0 to 5 parameters" >&2
 	echo "   \$1: (optional) \"all\", \"allseq\" or \"single\", default is \"all\"" >&2
-	echo "   (a) If \$1=\"all\" then there are no further parameters" >&2
+	echo "   (a) If \$1=\"all\" then there are no further mandatory parameters" >&2
 	echo "       \$2: (optional) timeout, default is 300" >&2
 	echo "       \$3: (optional) directory with the benchmark scripts" >&2
-	echo "   (b) If \$1=\"allseq\" then there are no further parameters" >&2
+	echo "   (b) If \$1=\"allseq\" then there are no further mandatory parameters" >&2
 	echo "       \$2: (optional) timeout, default is 300" >&2
 	echo "       \$3: (optional) directory with the benchmark scripts" >&2
 	echo "       This will execute all instances sequentially (Condor HT is not used)" >&2
