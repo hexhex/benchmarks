@@ -29,10 +29,12 @@ if [ $# -gt 6 ] || [ $# -eq 1 ] && [[ $1 == "?" ]]; then
 	echo "Template for a run.sh script:" 1>&2
 	echo "      ./runconfigs.sh \"dlvhex2 INST\"" "--solver=genuinegc;--solver=genuineii\" $3 $4" 1>&2
 	echo "" 1>&2
-	echo "Template for a req file:" 1>&2
+	echo "Template for a Condor HT req file (see req_template):" 1>&2
 	echo "      Universe = vanilla" 1>&2
 	echo "      Requirements = machine == \"lion.kr.tuwien.ac.at\"" 1>&2
 	echo "      request_memory = 8192" 1>&2
+	echo "If the req file contains only the string \"sequential\" (without quotes)," 1>&2
+	echo "then all instances will be executed in sequence (see reqseq)" 1>&2
 	echo "" 1>&2
 	echo "The script will execute all instances and aggregate their results" 1>&2
 	echo "in a table called \"results_$1.dat\"" 1>&2
