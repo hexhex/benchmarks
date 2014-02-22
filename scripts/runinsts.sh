@@ -9,11 +9,11 @@
 # $6: Name of the benchmark
 # $7: requirements file
 
-if [[ $# -gt 6 ]]; then
+if [[ $# -gt 7 ]]; then
 	error=1
 fi
 qm="?"
-if [[ $# -eq 1 ]] && [[ $1 == $qm ]]; then
+if [[ $# -eq 1 ]] && [ $1 == $qm ]; then
 	error=1
 fi
 
