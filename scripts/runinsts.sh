@@ -42,33 +42,33 @@ fi
 helperscriptdir="$(dirname $0)"
 
 # default parameters
-if [ $# -ge 1 ]; then
+if [[ $# -ge 1 ]] && [[ $1 != "" ]]; then
         loop=$1
 else
         loop="*.hex"
 fi
-if [ $# -ge 2 ]; then
+if [[ $# -ge 2 ]] && [[ $2 != "" ]]; then
         cmd=$2
 else
         cmd="./run.sh"
 fi
-if [ $# -ge 3 ]; then
+if [[ $# -ge 3 ]] && [[ $3 != "" ]]; then
         workingdir=$3
 else
         workingdir=$PWD
 fi
 workingdir=$(cd $workingdir; pwd)
-if [ $# -ge 4 ]; then
+if [[ $# -ge 4 ]] && [[ $4 != "" ]]; then
         to=$4
 else 
         to=300
 fi
-if [ $# -ge 5 ]; then
+if [[ $# -ge 5 ]] && [[ $5 != "" ]]; then
         aggscript=$5
 else 
         aggscript=$helperscriptdir/aggregateresults.sh
 fi
-if [ $# -ge 6 ]; then
+if [[ $# -ge 6 ]] && [[ $6 != "" ]]; then
 	benchmarkname=$6
 else
 	benchmarkname=$(cd $workingdir; pwd)
@@ -91,17 +91,30 @@ outputdir=$(cd $outputdir; pwd)
 
 # check if there is a requirements file
 # priorities: 1. command-line parameter, 2. directory of single benchmark script, 3. directory of this script
-if [ $# -ge 6 ]; then
-	reqfile=$6
+if [[ $# -ge 7 ]] && [[ $7 != "" ]]; then
+	# consider it as relative path wrt. the working directory
+	reqfile=$workingdir/$7
 	requirements=$(cat $reqfile 2> /dev/null)
 	if [ $? -ne 0 ]; then
-		echo "Error: Requirements file $reqfile invalid" 1>&2
-		exit 1
+		# consider it as relative path wrt. the bmscripts directory
+		reqfile=$(dirname $0)/$7
+		requirements=$(cat $reqfile 2> /dev/null)
+		if [ $? -ne 0 ]; then
+			# consider $7 as absolute path
+			reqfile=$7
+			requirements=$(cat $reqfile 2> /dev/null)
+			if [ $? -ne 0 ]; then
+				echo "Requirements file $reqfile not found" 1>&2
+				exit 1
+			fi
+		fi
 	fi
 else
-	reqfile=$(dirname $cmd)/req
+	# check working directory
+	reqfile=$workingdir/req
 	requirements=$(cat $reqfile 2> /dev/null)
 	if [ $? -ne 0 ]; then
+		# check bmscripts directory
 		reqfile=$(dirname $0)/req
 		requirements=$(cat $reqfile 2> /dev/null)
 		if [ $? -ne 0 ]; then
@@ -118,6 +131,7 @@ echo "Loop:              $loop" 1>&2
 echo "Command:           $cmd" 1>&2
 echo "Working directory: $workingdir" 1>&2
 echo "Timeout:           $to" 1>&2
+echo "Requirements:      $reqfile" 1>&2
 
 # check if we use condor
 req=$(cat $reqfile | sed '/^$/d')

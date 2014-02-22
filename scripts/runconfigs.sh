@@ -24,7 +24,7 @@ confstr=$2
 instance=$3
 to=$4
 outputbuilder="$(dirname $0)/timeoutputbuilder.sh"
-if [ $# == 5 ]; then
+if [[ $# == 5 ]] && [[ $5 != "" ]]; then
 	outputbuilder=$5
 fi
 

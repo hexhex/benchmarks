@@ -1,24 +1,24 @@
 #!/bin/bash
 
 error=0
-if [ $# -le 0 ]; then
-	to="300.0"
-else
+if [ $# -ge 1 ] && [[ $1 != "" ]]; then
 	to=$1
+else
+	to="300.0"
 fi
 
-if [ $# -le 1 ]; then
-	if [ $# -eq 2 ]; then
+if [ $# -ge 2 ] && [[ $2 != "" ]]; then
+        extrstart=$2
+	extrlen=$3
+else
+	if [ $# -eq 2 ] || [[ $3 == "" ]]; then
 		error=1
 	fi
 	extrstart=0
 	extrlen=0
-else
-        extrstart=$2
-	extrlen=$3
 fi
 
-if [ $# -le 3 ]; then
+if [ $# -ge 4 ]; then
 	meanCols="if (ncol(input) >= 3) c(1, seq(3, ncol(input), 2)) else c(1)"
 	sumCols="if (ncol(input) >= 2) c(1, seq(2, ncol(input), 2)) else c(1)"
 	maxCols="c(1)"

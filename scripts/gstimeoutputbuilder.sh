@@ -20,7 +20,6 @@ ret=$1
 timefile=$2
 instout=$3
 insterr=$4
-
 if [[ $ret == 124 ]]; then
 	echo -ne "--- 1 --- 0 --- 0"
 	exit 0

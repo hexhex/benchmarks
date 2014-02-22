@@ -13,8 +13,14 @@
 #
 # In many cases, run scripts will be exactly like template until the
 # last if block. Thus they may simply include this part,
-# provided in file dlvhex_run_header.sh, by
-#	source dlvhex_run_header.sh
+# provided in file dlvhex_run_header.sh, as follows:	
+#
+# 	runheader=$(which dlvhex_run_header.sh)
+# 	if [[ $runheader == "" ]] || [ $(cat $runheader | grep "dlvhex_run_header.sh Version 1." | wc -l) == 0 ]; then
+# 		echo "Could not find dlvhex_run_header.sh (version 1.x); make sure that the benchmarks/script directory is in your PATH"
+# 		exit 1
+# 	fi
+# 	source $runheader
 #
 # Note: The scripts output some additional information to stderr,
 #       which should be redirected to /dev/null unless you are debugging.
