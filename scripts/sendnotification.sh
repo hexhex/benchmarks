@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Sends an e-mail notification about a finished benchmark
 # $1: Name of the benchmark
 # $2: Receiver e-,ail address
