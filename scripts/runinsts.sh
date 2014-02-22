@@ -245,7 +245,7 @@ if [ $sequential -eq 0 ]; then
         	                getenv = true
 
                 	        # queue
-                        	Arguments = $benchmarkname $extnotification 0 Results 1 $outputdir/$benchmarkname.dat 0 Path 0 $outputdir
+                        	Arguments = $benchmarkname $extnotification 0 Results 1 $outputdir/$benchmarkname.dat 0 Path 0 $outputdir 0 Details 1 $outputdir/allout.dat
 	                        Queue 1
                 " > $outputdir/notify.job
 
