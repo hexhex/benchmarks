@@ -96,15 +96,15 @@ outputdir=$(cd $outputdir; pwd)
 if [[ $# -ge 7 ]] && [[ $7 != "" ]]; then
 	# consider it as relative path wrt. the working directory
 	reqfile=$workingdir/$7
-	requirements=$(cat $reqfile 2> /dev/null)
+        requirements=$(cat $reqfile 2> /dev/null)
 	if [ $? -ne 0 ]; then
 		# consider it as relative path wrt. the bmscripts directory
 		reqfile=$(dirname $0)/$7
-		requirements=$(cat $reqfile 2> /dev/null)
+                requirements=$(cat $reqfile 2> /dev/null)
 		if [ $? -ne 0 ]; then
 			# consider $7 as absolute path
 			reqfile=$7
-			requirements=$(cat $reqfile 2> /dev/null)
+	                requirements=$(cat $reqfile 2> /dev/null)
 			if [ $? -ne 0 ]; then
 				echo "Requirements file $reqfile not found" 1>&2
 				exit 1
@@ -114,7 +114,6 @@ if [[ $# -ge 7 ]] && [[ $7 != "" ]]; then
 else
 	# check working directory
 	reqfile=$workingdir/req
-	requirements=$(cat $reqfile 2> /dev/null)
 	if [ $? -ne 0 ]; then
 		# check bmscripts directory
 		reqfile=$(dirname $0)/req
@@ -125,7 +124,6 @@ else
 		fi
 	fi
 fi
-nonotification=$(cat $req | grep -i "notification" | grep -i "never" | wc -l)
 
 # print summary
 echo "=== Running benchmark \"$benchmarkname\"" 1>&2
@@ -134,14 +132,26 @@ echo "Loop:              $loop" 1>&2
 echo "Command:           $cmd" 1>&2
 echo "Working directory: $workingdir" 1>&2
 echo "Timeout:           $to" 1>&2
-echo "Requirements:      $reqfile" 1>&2
+echo "Requirements file: $reqfile" 1>&2
 
 # check if we use condor
-req=$(cat $reqfile | sed '/^$/d')
+requirements=$(cat "$reqfile" | sed '/^$/d')
 if [[ $req != "sequential" ]]; then  
-	echo "Requirements:      $reqfile" 1>&2
-	cat $reqfile | sed 's/^/                   /' 1>&2
+	echo -e "Requirements:" 1>&2
+	requirements=$(echo -e "$requirements" | sed 's/^/                   /')
+	echo -e "$requirements"
 	sequential=0
+
+	extnotification=$(echo -e "$requirements" | grep -i "extendednotification" | wc -l)
+	if [[ $extnotification -gt 0 ]]; then
+		notification=2
+		extnotification=$(echo -e "$requirements" | grep -i "extendednotification" | cut -d'=' -f2)
+		requirements=$(echo -e "$requirements" | grep -i -v "extendednotification")
+        elif [[ $(echo $requirements | grep -i "notification" | grep -i "never" | wc -l) -eq 1 ]]; then
+                notification=0
+	else
+		notification=1
+	fi
 else
 	echo "Sequential mode" 1>&2
 	sequential=1
@@ -217,6 +227,35 @@ if [ $sequential -eq 0 ]; then
 			Queue 1
 		" > $outputdir/agg.job
 
+	# prepare condor command according to desired notification behavior
+	if [[ $notification -eq 2 ]]; then
+        	condorcmd="condor_submit_dag"
+
+	        echo -e "
+        	                Executable = $(dirname $0)/sendnotification.sh 
+                	        Output = $outputdir/notify.stdout 
+                        	Error = $outputdir/notify.err
+	                        Log = $outputdir/notify.log
+                	        $requirements
+                        	Initialdir = $(dirname $0)
+	                        Notification = never
+        	                getenv = true
+
+                	        # queue
+                        	Arguments = $benchmarkname $extnotification 0 Results 1 $outputdir/$benchmarkname.dat 0 Path 0 $outputdir
+	                        Queue 1
+                " > $outputdir/notify.job
+
+                echo "Will send an EXTENDED e-mail notification including results when the benchmark completes (if mail is configured)"
+       	elif [[ $notification -eq 1 ]]; then
+        	condorcmd="condor_submit_dag"
+                echo "Will send an e-mail notification when the benchmark completes (if mail configured)"
+        else
+		condorcmd="condor_submit_dag -notify never"
+                echo "Will NOT send an e-mail notification when the benchmark completes"
+        fi
+
+
 	# acutally submit them
 	echo -e "
 			$dagman
@@ -225,13 +264,12 @@ if [ $sequential -eq 0 ]; then
 			PARENT $instjobs CHILD AlloutJob
 			PARENT AlloutJob CHILD AggJob
 		" > "$outputdir/$benchmarkname.dag"
-		if [ $nonotification -gt 0 ]; then
-                        condor_submit_dag $outputdir/$benchmarkname.dag
-			echo "Will send an e-mail notification when the benchmark completes (if configured)"
-		else
-			condor_submit_dag -notify never $outputdir/$benchmarkname.dag
-                        echo "Will NOT send an e-mail notification when the benchmark completes"
-		fi
+	if [[ $notification -eq 2 ]]; then
+		echo "	Job NotificationJob $outputdir/notify.job
+			PARENT AggJob CHILD NotificationJob
+			" >> "$outputdir/$benchmarkname.dag"
+	fi
+	$condorcmd $outputdir/$benchmarkname.dag
 	if [ $? -ne 0 ]; then
 		echo "Error while scheduling benchmark \"$benchmarkname\" for execution" >&2
 		exit 1
