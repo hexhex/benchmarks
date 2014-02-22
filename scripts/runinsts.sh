@@ -9,7 +9,15 @@
 # $6: Name of the benchmark
 # $7: requirements file
 
-if [ $# -gt 6 ] || [ $# -eq 1 ] && [[ $1 == "?" ]]; then
+if [[ $# -gt 6 ]]; then
+	error=1
+fi
+qm="?"
+if [[ $# -eq 1 ]] && [[ $1 == $qm ]]; then
+	error=1
+fi
+
+if [[ $error -eq 1 ]]; then
 	echo "This script needs 0 to 5 parameters:" 1>&2
 	echo " \$1: (optional) Instance loop condition (default: *.hex)" 1>&2
         echo " \$2: (optional) Single benchmark command (default: ./run.sh)" 1>&2
