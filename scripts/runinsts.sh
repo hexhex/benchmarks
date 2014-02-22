@@ -219,7 +219,6 @@ if [ $sequential -eq 0 ]; then
 	# acutally submit them
 	echo -e "
 			$dagman
-			$requirements
 			Job AlloutJob $outputdir/allout.job
 			Job AggJob $outputdir/agg.job
 			PARENT $instjobs CHILD AlloutJob
