@@ -26,7 +26,7 @@ else
 		echo "maxchanges($(echo "($mc + (${instancefn:6:3} + 1) * 2 - 2)" | bc ))." > $instance.mc
 	fi
 
-	$bmscripts/runconfigs.sh "dlvhex2 --claspconfig=\"$frumpy\" $c --plugindir=../../src --extlearn --evalall -n=1 --verbose=8 --silent CONF $map $instance.mc" "$confstr" "$instance" "$to" "$mydir/outputbuilder.sh"
+	$bmscripts/runconfigs.sh "dlvhex2 --claspconfig=\"$frumpy\" $c --plugindir=../../src --extlearn --evalall -n=1 --verbose=8 --silent CONF $map $instance.mc INST" "$confstr" "$instance" "$to" "$mydir/outputbuilder.sh"
 
 	rm $instance.mc
 fi
