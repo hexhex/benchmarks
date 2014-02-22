@@ -34,7 +34,10 @@ if [ $# -gt 6 ] || [ $# -eq 1 ] && [[ $1 == "?" ]]; then
 	echo "      Requirements = machine == \"lion.kr.tuwien.ac.at\"" 1>&2
 	echo "      request_memory = 8192" 1>&2
 	echo "If the req file contains only the string \"sequential\" (without quotes)," 1>&2
-	echo "then all instances will be executed in sequence (see reqseq)" 1>&2
+	echo "then all instances will be executed in sequence (see reqseq)." 1>&2
+	echo "If the req file contains a line of form" 1>&2
+	echo "	    ExtendedNotification = mail@address.com" 1>&2
+	echo "the benchmark results will be sent per mail to you (if mail is configured)" 1>&2
 	echo "" 1>&2
 	echo "The script will execute all instances and aggregate their results" 1>&2
 	echo "in a table called \"results_$1.dat\"" 1>&2
