@@ -212,13 +212,14 @@ if [ $sequential -eq 0 ]; then
 			getenv = true
 
 			# queue
-			Arguments = $to
+			Arguments = $to 0 0
 			Queue 1
 		" > $outputdir/agg.job
 
 	# acutally submit them
 	echo -e "
 			$dagman
+			$requirements
 			Job AlloutJob $outputdir/allout.job
 			Job AggJob $outputdir/agg.job
 			PARENT $instjobs CHILD AlloutJob
@@ -237,7 +238,7 @@ else
 		echo "Aggregating results in file $outputdir/$benchmarkname.dat" 1>&2
 		rerrfile=$(mktemp)
 		echo "" > $outputdir/$benchmarkname.dat
-		cat $resultfiles | $aggscript >$outputdir/$benchmarkname.dat 2>$outputdir/$benchmarkname.err
+		cat $resultfiles | $aggscript $to 0 0 >$outputdir/$benchmarkname.dat 2>$outputdir/$benchmarkname.err
 		if [[ $? -ne 0 ]]; then
 			echo "Aggregation failed" >> $outputdir/$benchmarkname.dat
 			echo "Input to R:" >> $outputdir/$benchmarkname.dat
