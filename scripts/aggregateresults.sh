@@ -115,8 +115,8 @@ aggregate="
 	# compute for each column if it is an integer column
 	outCols <- seq(1, ncol(output))
 	isIntCol <- sapply(outCols, function(x) { return(all(round(output[, x], 0)==output[, x])) } )
-	isNonIntCol <- sapply(outCols, function(x) { return(all(round(output[, x], 0)!=output[, x])) } )
-
+	isNonIntCol <- sapply(outCols, function(x) { return(!all(round(output[, x], 0)==output[, x])) } )
+	
 	# rounding and output formatting
 	outputformatted <- output
 
@@ -170,22 +170,33 @@ do
 done < $data
 
 # check results
-failedinstances=$(echo -e "$data" | grep "FAIL" | wc -l)
-if [ $failedinstances -gt 0 ]; then
-	echo "It seems that $failedinstances instances failed, will probably not be able to aggregate, but try it anyway." 2>&1
-fi
-unknownvalues=$(echo -e "$data" | grep "???" | wc -l)
-if [ $unknownvalues -gt 0 ]; then
-	echo "It seems that $unknownvalues measured values are unknown, will treat as 0." 2>&1
+failedinstances=$(echo -e "$file" | grep "FAIL" | wc -l)
+failedconfigurations=$(echo -e "$file" | grep -o "FAIL" | wc -l)
+file=$(echo -e "$file" | grep -v "FAIL")
+unknowninstances=$(echo -e "$file" | grep "???" | wc -l)
+unknownvalues=$(echo -e "$file" | grep -o "???" | wc -l)
+
+inputlines=$(echo -ne "$file" | wc -l)
+
+if [[ $inputlines -gt 0 ]]; then
+	rerrfile=$(mktemp)
+	echo -e "$file" | sed "s/---/$to/g" | sed 's/???/0/g' | Rscript <(echo "$aggregate") 2>$rerrfile
+	if [[ $? -ne 0 ]]; then
+		echo "Aggregation failed, R yielded the following error:" >&2
+		cat $rerrfile
+		ret=1
+	fi
+        rm $data
+        rm $rerrfile
 fi
 
-rerrfile=$(mktemp)
-echo -e "$file" | sed "s/---/$to/g" | sed 's/???/0/g' | Rscript <(echo "$aggregate") 2>$rerrfile
-if [[ $? -ne 0 ]]; then
-	echo "Aggregation failed, R yielded the following error:" >&2
-	cat $rerrfile
-	ret=1
+if [ $unknowninstances -gt 0 ]; then
+       	echo -e "# Warning: $unknownvalues measured values in $unknowninstances are unknown, they were treated as 0 for aggregation." 2>&1
 fi
-rm $data
-rm $rerrfile
+if [ $failedinstances -gt 0 ]; then
+        echo -e "# Warning: $failedconfigurations configurations in $failedinstances instances failed, table contains only the results of the successful instances!." 2>&1
+fi
+if [[ $inputlines -eq 0 ]]; then
+        echo -e "# Warning: There were no results of successful instances, therefore the aggregation output is empty"
+fi
 exit $ret

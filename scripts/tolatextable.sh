@@ -20,25 +20,28 @@ fi
 first=1
 while read line
 do
-	read -a array <<< "$line"
+	comment=$(echo -ne "$line" | grep "#" | wc -l)
+	if [[ $comment -eq 0 ]]; then
+		read -a array <<< "$line"
 
-	# compute the the max size of every timeout column
-	cols=$(echo $line | wc -w)
-	for (( c=2; c <= $cols; c=c+2 ))
-	do
-		len=$(echo $line | cut -d' ' -f$c | wc -c)
-		if [[ ${max[$c]} -lt $len ]]; then
-			max[$c]=$len
-		fi
-	done
+		# compute the the max size of every timeout column
+		cols=$(echo $line | wc -w)
+		for (( c=2; c <= $cols; c=c+2 ))
+		do
+			len=$(echo $line | cut -d' ' -f$c | wc -c)
+			if [[ ${max[$c]} -lt $len ]]; then
+				max[$c]=$len
+			fi
+		done
 
-	if [[ $line != \#* ]]; then
-		fn=${array[0]}
-		if [[ $first == 0 ]]; then
-			file="$file\n"
+		if [[ $line != \#* ]]; then
+			fn=${array[0]}
+			if [[ $first == 0 ]]; then
+				file="$file\n"
+			fi
+			first=0
+			file="$file$line"
 		fi
-		first=0
-		file="$file$line"
 	fi
 done
 

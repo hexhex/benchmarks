@@ -29,9 +29,9 @@
 inputok=1
 if [[ $# -eq 0 ]]; then
 	inputok=1
-elif [[ $# -gt 5 ]]; then
+elif [[ $1 == "" ]] && [[ $1 != "all" ]] && [[ $1 != "allseq" ]] && [[ $1 != "single" ]]; then
 	inputok=0
-elif [[ $1 != "all" ]] && [[ $1 != "allseq" ]] && [[ $1 != "single" ]]; then
+elif [[ $1 == "single" ]] && [[ $# -lt 3 ]]; then
 	inputok=0
 fi
 if [[ $inputok -eq 0 ]]; then
@@ -55,6 +55,8 @@ fi
 # and get location of benchmark scripts
 if [[ $# -eq 0 ]]; then
 	all=1
+elif [[ $1 == "" ]]; then
+        all=1
 elif [[ $1 == "all" ]]; then
 	all=1
 elif [[ $1 == "allseq" ]]; then

@@ -1,4 +1,8 @@
 #!/bin/bash
+if [[ $map == "" ]] || [[ $specificrun == "" ]]; then
+        echo "Do not run this script directly, use one of the specific run-files"
+        exit 1
+fi
 
 runheader=$(which dlvhex_run_header.sh)
 if [[ $runheader == "" ]] || [ $(cat $runheader | grep "dlvhex_run_header.sh Version 1." | wc -l) == 0 ]; then
@@ -8,10 +12,9 @@ fi
 source $runheader
 
 # run instances
-map="map.hex"
 if [[ $all -eq 1 ]]; then
 	# run all instances using the benchmark script run insts
-	$bmscripts/runinsts.sh "instances/*.hex" "$mydir/run.sh" "$mydir" "$to" "$mydir/aggregate.sh" "$map" "$req"
+	$bmscripts/runinsts.sh "instances/*.hex" "$mydir/$specificrun" "$mydir" "$to" "$mydir/aggregate.sh" "$map" "$req"
 else
 	# run single instance
 	confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex;--liberalsafety route.hex maxchanges.hex"
