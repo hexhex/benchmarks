@@ -207,8 +207,14 @@ do
 	resultfiles="$resultfiles $outputdir/$instance.out"
 done
 if [ $sequential -eq 0 ]; then
+	# prepare a script which outputs the benchmark name as a comment and eliminates duplicate comments from the out files
+	echo -e "	echo \"#Benchmark:$benchmarkname\"
+			cat \$* | grep \"#\" | uniq
+			cat \$* | grep -v \"#\"" > $outputdir/allout.sh
+			chmod a+x $outputdir/allout.sh
+	
         echo -e "
-                        Executable = $(which cat)
+                        Executable = $outputdir/allout.sh
                         Output = $outputdir/allout.dat
                         Error = $outputdir/allout.err
                         Log = $outputdir/allout.log

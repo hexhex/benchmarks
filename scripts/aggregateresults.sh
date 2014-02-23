@@ -178,6 +178,10 @@ unknownvalues=$(echo -e "$file" | grep -o "???" | wc -l)
 
 inputlines=$(echo -ne "$file" | wc -l)
 
+# keep comments
+cat $data | grep "#"
+
+# actual aggregation
 if [[ $inputlines -gt 0 ]]; then
 	rerrfile=$(mktemp)
 	echo -e "$file" | sed "s/---/$to/g" | sed 's/???/0/g' | Rscript <(echo "$aggregate") 2>$rerrfile
