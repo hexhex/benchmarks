@@ -55,7 +55,7 @@ do
 	# prepare command
 	fullcommand=${command/CONF/$c}
 	fullcommand=${fullcommand/INST/$instance}
-	cmd="timeout $to time -o $timefile -f %e $fullcommand"
+	cmd="timeout $to time --quiet -o $timefile -f %e $fullcommand"
 
 	# execute
 	echo "Executing $cmd >$stdoutfile 2>$stderrfile" >&2
