@@ -208,7 +208,7 @@ do
 done
 if [ $sequential -eq 0 ]; then
 	# prepare a script which outputs the benchmark name as a comment and eliminates duplicate comments from the out files
-	echo -e "	echo \"#Benchmark:$benchmarkname\"
+	echo -e "	echo \"# Benchmark:$benchmarkname\"
 			cat \$* | grep \"#\" | uniq
 			cat \$* | grep -v \"#\"" > $outputdir/allout.sh
 			chmod a+x $outputdir/allout.sh

@@ -30,7 +30,7 @@ fi
 
 # split configurations
 IFS=';' read -ra confs <<< "$confstr;"
-header="#Configuration:\"instance\""
+header="# Configuration:\"instance\""
 i=0
 for c in "${confs[@]}"
 do

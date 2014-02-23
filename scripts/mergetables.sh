@@ -10,9 +10,9 @@ cmd="paste -d ' '"
 for (( i=1; i<=$#; i++ ))
 do
 	if [[ $i -ge 2 ]]; then
-		cmd="$cmd <(cat ${!i} | sed 's/^ *//g' | sed 's/ \+/ /g' | cut -d\" \" -f3-)"
+		cmd="$cmd <(cat ${!i} | sed 's/\# *Benchmark\:.*//' | sed 's/\# *Configuration\: */;/' | sed 's/^ *//g' | sed 's/ \+/ /g')"
 	else
-                cmd="$cmd <(cat ${!i} | sed 's/^ *//g' | sed 's/ \+/ /g' | cut -d\" \" -f1-)"
+                cmd="$cmd <(cat ${!i} | sed 's/^ *//g' | sed 's/ \+/ /g')"
 	fi
 done
 eval $cmd

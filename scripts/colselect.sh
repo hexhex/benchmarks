@@ -1,18 +1,40 @@
 #!/bin/bash
 
-# The parameters specify the columns to select (index-origin 1)
+# The parameters specify the columns to select (index-origin 0)
 while read line
 do
-	cols=($line)
+	if [[ $line == \#* ]]; then
+		if [[ $line == \#*Configuration:* ]]; then
+	                conf=$(echo $line | cut -d':' -f2)
+        	        origIFS=$IFS
+                	IFS=';' read -a confs <<< "$conf"
+			echo -n "# Configuration:"
+			for (( i=1; i <=$#; i++ ))
+			do
+				if [[ $i -gt 1 ]]; then
+					echo -n ";"
+				fi
+				index=${!i}
+				let index=$index-1
+				echo -n "${confs[$index]}"
+			done
+			IFS=$origIFS
+			echo ""
+		else
+			echo $line
+		fi
+	else
+		cols=($line)
 
-	# instance size and number of instances
-	echo -n "${cols[0]} ${cols[1]}"
-	
-	for (( i = 1 ; i <= $# ; i=$i+1 ));
-	do
-		timeindex=$((2+(${!i}-1)*2))
-		toindex=$(($timeindex+1))
-	        echo -n " ${cols[$timeindex]} ${cols[$toindex]}"
-	done
-	echo ""
+		for (( i = 1 ; i <= $# ; i++ ));
+		do
+			index=${!i}
+			let index=$index-1
+			if [[ $i -gt 1 ]]; then
+				echo -n " "
+			fi
+	        	echo -n "${cols[$index]}"
+		done
+		echo ""
+	fi
 done
