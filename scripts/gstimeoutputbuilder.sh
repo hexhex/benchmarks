@@ -4,10 +4,10 @@
 
 if [ $# != 4 ]; then
 	echo "This script expects 4 parameters"
-	echo " $1: return value of command"
-	echo " $2: timefile"
-	echo " $3: stdout of command"
-	echo " $4: stderr of command"
+	echo " \$1: return value of command"
+	echo " \$2: timefile"
+	echo " \$3: stdout of command"
+	echo " \$4: stderr of command"
 	echo ""
 	echo " Return value:"
 	echo "	0 if output for successful instance was generated"
@@ -31,23 +31,25 @@ else
 	time=$(cat $timefile)
 
 	# check if there is a grounding and solving time (should be the case for successful instances)
-	groundertime=$(cat $insterr | grep -a "HEX grounder time:")
-	solvertime=$(cat $insterr | grep -a "HEX solver time:")
-	haveGroundertime=$(echo $groundertime | wc -l)
-	haveSolvertime=$(echo $solvertime | wc -l)
-
+	groundertime=$(cat $insterr | grep -a "HEX grounder time:" | tail -n 1)
+	solvertime=$(cat $insterr | grep -a "HEX solver time:" | tail -n 1)
+	if [[ $groundertime != "" ]]; then
+		haveGroundertime=1
+	fi
+	if [[ $solvertime != "" ]]; then
+		haveSolvertime=1
+	fi
 	if [[ $haveGroundertime -eq 0 ]] || [[ $haveSolvertime -eq 0 ]]; then
 		echo "Instance did not provide grounder and solver time" >&2
 		groundertime="???"
 		solvertime="???"
 	else
 		# extract grounding and solving time
-		groundertime=$(echo "$groundertime" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
-		solvertime=$(echo "$solvertime" | tail -n 1 | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
-
+		groundertime=$(echo "$groundertime" | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
+		solvertime=$(echo "$solvertime" | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
 		# round to two digits
-		groundertime=$(echo "scale=2; $groundertime/1" | bc | sed 's/^\./0\./')
-		solvertime=$(echo "scale=2; $solvertime/1" | bc | sed 's/^\./0\./')
+		groundertime=$(echo "scale=2; $groundertime/1" | bc | printf "%.2f")
+		solvertime=$(echo "scale=2; $solvertime/1" | bc | printf "%.2f")
 	fi
 
 	echo -ne "$time 0 $groundertime 0 $solvertime 0"

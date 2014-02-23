@@ -4,10 +4,10 @@
 
 if [ $# != 4 ]; then
 	echo "This script expects 4 parameters"
-	echo " $1: return value of command"
-	echo " $2: timefile"
-	echo " $3: stdout of command"
-	echo " $4: stderr of command"
+	echo " \$1: return value of command"
+	echo " \$2: timefile"
+	echo " \$3: stdout of command"
+	echo " \$4: stderr of command"
 	echo ""
 	echo " Return value:"
 	echo "	0 if output for successful instance was generated"
