@@ -15,4 +15,4 @@ do
                 cmd="$cmd <(cat ${!i} | sed 's/^ *//g' | sed 's/ \+/ /g')"
 	fi
 done
-eval $cmd
+eval $cmd | sed '/\# *Configuration\:/s/ \;/\;/g'
