@@ -68,7 +68,7 @@ git clone $repo/benchmarks --recursive
 # build
 echo "Building core"
 pushd core
-./bootstrap.sh && ./configure --enable-benchmark --prefix=$destination/install $configoptions && make $buildoptions
+./bootstrap.sh && ./configure --enable-benchmark --prefix=$destination/install $configoptions && make $buildoptions && make install
 popd
 
 echo "Building MCSIE"
