@@ -14,7 +14,7 @@ source $runheader
 # run instances
 if [[ $all -eq 1 ]]; then
 	# run all instances using the benchmark script run insts
-	$bmscripts/runinsts.sh "instances/*.hex" "$mydir/$specificrun" "$mydir" "$to" "$mydir/aggregate.sh" "$map" "$req"
+	$bmscripts/runinsts.sh "$instancedir/*.hex" "$mydir/$specificrun" "$mydir" "$to" "$mydir/aggregate.sh" "$map" "$req"
 else
 	# run single instance
 	confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex;--liberalsafety route.hex maxchanges.hex"
