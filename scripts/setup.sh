@@ -4,26 +4,32 @@
 
 repo=https://github.com/hexhex
 error=0
+a1=$(echo $1 | sed 's/^\"//' | sed 's/\"$//')
+a2=$(echo $2 | sed 's/^\"//' | sed 's/\"$//')
+a3=$(echo $3 | sed 's/^\"//' | sed 's/\"$//')
+a4=$(echo $4 | sed 's/^\"//' | sed 's/\"$//')
+a5=$(echo $5 | sed 's/^\"//' | sed 's/\"$//')
 if [[ $# -lt 1 ]] || [[ $# -gt 5 ]]; then
 	error=1
 fi
-if [[ $# -ge 2 ]] && [[ $2 != "" ]]; then
-	instancesource=$(echo $2 | sed 's/^\"//g' | sed 's/\"$//')
+if [[ $# -ge 2 ]] && [[ $a2 != "" ]]; then
+	instancesource=$a2
 else
 	instancesource=http://www.kr.tuwien.ac.at/staff/redl/aspext
 fi
-if [[ $# -ge 3 ]] && [[ $3 != "" ]]; then
-        configoptions=$(echo $3 | sed 's/^\"//g' | sed 's/\"$//')
+if [[ $# -ge 3 ]] && [[ $a3 != "" ]]; then
+        configoptions=$a3
 fi
-if [[ $# -ge 4 ]] && [[ $4 != "" ]]; then
-	buildoptions=$(echo $4 | sed 's/^\"//g' | sed 's/\"$//')
+if [[ $# -ge 4 ]] && [[ $a4 != "" ]]; then
+	buildoptions=$a4
 fi
-if [[ $# -ge 5 ]] && [[ $5 != "" ]]; then
+if [[ $# -ge 5 ]] && [[ $a5 != "" ]]; then
 	job=$(echo "	Executable = $(basename $0)
 			Output = $(basename $0).out
 			Error = $(basename $0).error
 			Log = $(basename $0).log
 			Initialdir = $(cd $(dirname $0); pwd)
+			getenv = true
 			$(cat $5)
 
 			Arguments = $1 \\\"$2\\\" \\\"$3\\\" \\\"$4\\\"
