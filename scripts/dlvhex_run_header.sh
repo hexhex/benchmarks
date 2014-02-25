@@ -20,6 +20,7 @@ if [[ $inputok -eq 0 ]]; then
 	echo "   (a) If \$1=\"all\" then there are no further mandatory parameters" >&2
 	echo "       \$2: (optional) timeout, default is 300" >&2
 	echo "       \$3: (optional) directory with the benchmark scripts" >&2
+        echo "       \$4: (optional) requirements file" >&2
 	echo "   (b) If \$1=\"allseq\" then there are no further mandatory parameters" >&2
 	echo "       \$2: (optional) timeout, default is 300" >&2
 	echo "       \$3: (optional) directory with the benchmark scripts" >&2
@@ -46,18 +47,21 @@ else
 	all=0
 fi
 if [[ $all -eq 1 ]]; then
-	if [[ $# -ge 2 ]]; then
+	if [[ $# -ge 2 ]] && [[ $2 != "" ]]; then
 		to=$2
 	else
 		to=300
 	fi
-	if [[ $# -ge 3 ]]; then
+	if [[ $# -ge 3 ]] && [[ $3 != "" ]]; then
 		bmscripts=$3
 	fi
+        if [[ $# -ge 4 ]]; then
+                req=$4
+        fi
 else
 	instance=$2
 	to=$3
-	if [[ $# -ge 4 ]]; then
+	if [[ $# -ge 4 ]] && [[ $4 != "" ]]; then
 		bmscripts=$4
 	fi
 fi

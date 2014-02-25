@@ -41,7 +41,7 @@ if [[ $error -eq 1 ]]; then
 	echo "      Universe = vanilla" 1>&2
 	echo "      Requirements = machine == \"lion.kr.tuwien.ac.at\"" 1>&2
 	echo "      request_memory = 8192" 1>&2
-	echo "If the req file contains only the string \"sequential\" (without quotes)," 1>&2
+	echo "If the req file contains the string \"sequential\" (without quotes)," 1>&2
 	echo "then all instances will be executed in sequence (see reqseq)." 1>&2
 	echo "If the req file contains a line of form" 1>&2
 	echo "	    ExtendedNotification = mail@address.com" 1>&2
@@ -88,20 +88,6 @@ else
 	benchmarkname=$(basename $benchmarkname)
 fi
 
-# Make sure that the output directory exists
-outputdir="$workingdir/$benchmarkname.output"
-if [ -e "$outputdir" ]; then
-	echo "Output directory $outputdir already exists, type \"del\" to confirm overwriting"
-	read inp
-	if [[ $inp != "del" ]]; then
-		echo "Will NOT overwrite the existing directory. Aborting benchmark execution!"
-		exit 1
-	fi
-	rm -r $outputdir
-fi
-mkdir -p $outputdir
-outputdir=$(cd $outputdir; pwd)
-
 # check if there is a requirements file
 # priorities: 1. command-line parameter, 2. directory of single benchmark script, 3. directory of this script
 if [[ $# -ge 7 ]] && [[ $7 != "" ]]; then
@@ -137,18 +123,11 @@ else
 	fi
 fi
 
-# print summary
+# interpret requirements
 echo "=== Running benchmark \"$benchmarkname\"" 1>&2
-echo "" 1>&2
-echo "Loop:              $loop" 1>&2
-echo "Command:           $cmd" 1>&2
-echo "Working directory: $workingdir" 1>&2
-echo "Timeout:           $to" 1>&2
-echo "Requirements file: $reqfile" 1>&2
-
-# check if we use condor
-requirements=$(cat "$reqfile" | sed '/^$/d')
-if [[ $requirements != "sequential" ]]; then  
+requirements=$(cat "$reqfile")
+sequential=$(echo $requirements | grep "sequential" | wc -l)
+if [[ $sequential -eq 0 ]]; then  
 	echo -e "Requirements:" 1>&2
 	requirements=$(echo -e "$requirements" | sed 's/^/                   /')
 	echo -e "$requirements"
@@ -158,16 +137,56 @@ if [[ $requirements != "sequential" ]]; then
 	if [[ $extnotification -gt 0 ]]; then
 		notification=2
 		extnotification=$(echo -e "$requirements" | grep -i "extendednotification" | cut -d'=' -f2)
-		requirements=$(echo -e "$requirements" | grep -i -v "extendednotification")
         elif [[ $(echo $requirements | grep -i "notification" | grep -i "never" | wc -l) -eq 1 ]]; then
                 notification=0
 	else
 		notification=1
 	fi
+
+	noexecution=0
+        noexecution=$(echo -e "$requirements" | grep -i "noexecution" | wc -l)
+        if [[ $noexecution -gt 0 ]]; then
+                noexecution=1
+        fi
 else
 	echo "Sequential mode" 1>&2
 	sequential=1
 fi
+forceoverwrite=0
+forceoverwrite=$(echo -e "$requirements" | grep -i "forceoverwrite" | wc -l)
+if [[ $forceoverwrite -gt 0 ]]; then
+	forceoverwrite=1
+fi
+outputdir=$(echo -e "$requirements" | grep -i "outputdir" | cut -d'=' -f2)
+if [[ $outputdir == "" ]]; then
+	outputdir="$workingdir/$benchmarkname.output"
+fi
+newbmname=$(echo -e "$requirements" | grep -i "benchmarkname" | cut -d'=' -f2)
+if [[ $newbmname != "" ]]; then
+	benchmarkname=$newbmname
+fi
+
+# print summary
+echo "" 1>&2
+echo "Loop:              $loop" 1>&2
+echo "Command:           $cmd" 1>&2
+echo "Working directory: $workingdir" 1>&2
+echo "Timeout:           $to" 1>&2
+echo "Requirements file: $reqfile" 1>&2
+echo "Output directory:  $outputdir" 1>&2
+
+# Make sure that the output directory exists
+if [ -e "$outputdir" ]; then
+        echo "Output directory $outputdir already exists, type \"del\" to confirm overwriting"
+        read inp
+        if [[ $inp != "del" ]]; then
+                echo "Will NOT overwrite the existing directory. Aborting benchmark execution!"
+                exit 1
+        fi
+        rm -r $outputdir
+fi
+mkdir -p $outputdir
+outputdir=$(cd $outputdir; pwd)
 
 # schedule all instances
 cd $workingdir
@@ -287,13 +306,16 @@ if [ $sequential -eq 0 ]; then
 			PARENT AggJob CHILD NotificationJob
 			" >> "$outputdir/$benchmarkname.dag"
 	fi
-	$condorcmd $outputdir/$benchmarkname.dag
-	if [ $? -ne 0 ]; then
-		echo "Error while scheduling benchmark \"$benchmarkname\" for execution" >&2
-		exit 1
+	if [[ $noexecution -eq 0 ]]; then
+		$condorcmd $outputdir/$benchmarkname.dag
+		if [ $? -ne 0 ]; then
+			echo "Error while scheduling benchmark \"$benchmarkname\" for execution" >&2
+			exit 1
+		fi
+	        echo "Benchmark \"$benchmarkname\" scheduled for execution" 1>&2
+	else
+		echo "Benchmark \"$benchmarkname\" prepared but not executed" >&2
 	fi
-
-        echo "Benchmark \"$benchmarkname\" scheduled for execution" 1>&2
 else
 	# aggregate results
 	if [[ $resultfiles != "" ]]; then
