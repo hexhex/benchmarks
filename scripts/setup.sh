@@ -4,30 +4,31 @@
 
 repo=https://github.com/hexhex
 error=0
-if [ $# -lt 1 ] || [ $# -gt 5 ]; then
+if [[ $# -lt 1 ]] || [[ $# -gt 5 ]]; then
 	error=1
 fi
-if [ $# -ge 2 ] && [ $2 != "" ]; then
+if [[ $# -ge 2 ]] && [[ $2 != "" ]]; then
 	instancesource=$2
 else
 	instancesource=http://www.kr.tuwien.ac.at/staff/redl/aspext
 fi
-if [ $# -ge 3 ] && [ $3 != "" ]; then
+if [[ $# -ge 3 ]] && [[ $3 != "" ]]; then
         configoptions=$3
 fi
-if [ $# -ge 4 ] && [ $4 != "" ]; then
+if [[ $# -ge 4 ]] && [[ $4 != "" ]]; then
 	buildoptions=$4
 fi
-if [ $# -ge 5 ] && [ $5 != "" ]; then
-	job=$(echo "	Executable = $0
-			Output = $0.out
-			Error = $0.error
-			Log = $0.log
-			Working = $(dirname $0)
+if [[ $# -ge 5 ]] && [[ $5 != "" ]]; then
+	job=$(echo "	Executable = $(basename $0)
+			Output = $(basename $0).out
+			Error = $(basename $0).error
+			Log = $(basename $0).log
+			Initialdir = $(cd $(dirname $0); pwd)
+			$(cat $5)
 
-			Queue = 1
-			Arguments = $1 $2 $3 $4
-			$(cat $4)")
+			Arguments = $1 \\\"$2\\\" \\\"$3\\\" \\\"$4\\\"
+			Queue 1
+			")
 	echo -e "Sending the following job to Condor HT:\n$job"
 	echo -e "$job" | condor_submit
 	exit 0
