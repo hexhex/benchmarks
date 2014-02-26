@@ -18,7 +18,8 @@ fi
 
 ret=$1
 timefile=$2
-errfile=$3
+outfile=$3
+errfile=$4
 if [[ $ret == 124 ]]; then
 	echo -ne "--- 1"
 	exit 0
