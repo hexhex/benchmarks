@@ -30,6 +30,7 @@ if [[ $# -ge 5 ]] && [[ $a5 != "" ]]; then
 			Log = $(basename $0).log
 			Initialdir = $(cd $(dirname $0); pwd)
 			getenv = true
+			Notification = never
 			$(cat $5)
 
 			Arguments = $1 \\\"$2\\\" \\\"$3\\\" \\\"$4\\\"
