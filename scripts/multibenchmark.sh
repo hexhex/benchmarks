@@ -1,21 +1,16 @@
 #! /bin/bash
 
 # A typical example call is
-# 	multibenchmark.sh benchmarks.def $PWD/140225 ../dlvhex/benchmarks/scripts/req $PWD/notifyme.sh
+# 	multibenchmark.sh benchmarks.def $PWD/140225 $PWD/req
 # where benchmarks.def contains
 # 	setminus=~/dlvhex/core/benchmarks/setminus/run.sh
 # 	argu=~/dlvhex/benchmarks/argu/benchmarks/ufs/run.sh
-# and notifyme.sh
-# 	mail="mail@address.com"
-# 	for (( i=1; i<=$#; i++ ))
-# 	do
-# 		echo "Copying reference file from ../old/${!i}/${!i}.dat to ${!i}/${!i}.ref"
-# 	        cp ../old/${!i}/${!i}.dat ${!i}/${!i}.ref
-# 	done
-# 	source compare.sh
 
-if [[ $# -ne 4 ]] || [ ! -e $1 ] || [ ! -e $3 ] || [ ! -e $4 ]; then
+if [[ $# -lt 3 ]] || [[ $# -gt 4 ]] || [ ! -e $1 ] || [ ! -e $3 ]; then
         error=1;
+fi
+if [[ $# -ge 4 ]] && [ ! -e $4 ]; then
+	error=1;
 fi
 
 if [[ $error -eq 1 ]]; then
@@ -27,7 +22,7 @@ if [[ $error -eq 1 ]]; then
 	echo "       and is expected to return 0 if there is no significant difference, 2 if there is a significant difference, and 1 on other errors." >&2
 	echo "  \$2: Output directory for the overall benchmark results; is expected to contain a requirements file called metareq" >&2
 	echo "  \$3: Requirements file" >&2
-	echo "  \$4: Either script to be executed after benchmarks have been finished; working directory will be \$2," >&2
+	echo "  \$4: (optional) Either script to be executed after benchmarks have been finished; working directory will be \$2," >&2
 	echo "       or directory with reference results" >&2
 	echo "After completion of all benchmarks, \$4 will be called (if existing); it gets the names of all benchmarks as parameters" >&2
 	exit 1
@@ -47,19 +42,21 @@ if [ -e $outputdir ]; then
 fi
 mkdir -p $outputdir
 # use default comparison script if required
-if [ -d $4 ]; then
-	mail=$(cat $req | grep -i "extendednotification" | cut -d'=' -f2)
-	echo "	mail=$mail
-		for (( i=1; i<=\$#; i++ ))
-		do
-        		echo \"Copying reference file from $4/\${!i}/\${!i}.dat to \${!i}/\${!i}.ref\"
-		cp $4/\${!i}/\${!i}.dat \${!i}/\${!i}.ref
-		done
-		source compare.sh" >> $outputdir/final.sh
-	chmod a+x $outputdir/final.sh
-	finalscript=$outputdir/final.sh
-else
-	finalscript=$4
+if [[ $# -ge 4 ]] && [[ $4 != "" ]]; then
+	if [ -d $4 ]; then
+		mail=$(cat $req | grep -i "extendednotification" | cut -d'=' -f2)
+		echo "	mail=$mail
+			for (( i=1; i<=\$#; i++ ))
+			do
+	        		echo \"Copying reference file from $4/\${!i}/\${!i}.dat to \${!i}/\${!i}.ref\"
+			cp $4/\${!i}/\${!i}.dat \${!i}/\${!i}.ref
+			done
+			source compare.sh" >> $outputdir/final.sh
+		chmod a+x $outputdir/final.sh
+		finalscript=$outputdir/final.sh
+	else
+		finalscript=$4
+	fi
 fi
 
 # prepare all benchmarks
@@ -87,26 +84,28 @@ do
 done < $specification
 
 # prepare final job
-cat $req > $outputdir/final.job
-echo "
-        Executable = $finalscript
-        Output = $outputdir/multibenchmark.out
-        Error = $outputdir/multibenchmark.error
-        Log = $outputdir/multibenchmark.log
-	Universe = vanilla
-        Initialdir = $outputdir
-        Notification = never
-        getenv = true
+if [[ $finalscript != "" ]]; then
+	cat $req > $outputdir/final.job
+	echo "
+        	Executable = $finalscript
+	        Output = $outputdir/multibenchmark.out
+        	Error = $outputdir/multibenchmark.error
+	        Log = $outputdir/multibenchmark.log
+		Universe = vanilla
+	        Initialdir = $outputdir
+        	Notification = never
+	        getenv = true
 
-        # queue
-        Arguments = $allbenchmarks
-        Queue 1
-	" >> $outputdir/final.job
+        	# queue
+	        Arguments = $allbenchmarks
+        	Queue 1
+		" >> $outputdir/final.job
 
-# final script after completion of all benchmarks
-echo "Job Final $outputdir/final.job
-	PARENT $allbenchmarks CHILD Final
-	" >> $outputdir/multibenchmark.dag
+	# final script after completion of all benchmarks
+	echo "Job Final $outputdir/final.job
+		PARENT $allbenchmarks CHILD Final
+		" >> $outputdir/multibenchmark.dag
+fi
 
 echo "Starting all benchmarks" >&2
 condor_submit_dag -notification never $outputdir/multibenchmark.dag
