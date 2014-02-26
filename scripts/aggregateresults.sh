@@ -184,7 +184,7 @@ cat $data | grep "#"
 # actual aggregation
 if [[ $inputlines -gt 0 ]]; then
 	rerrfile=$(mktemp)
-	echo -e "$file" | sed "s/---/$to/g" | sed 's/???/0/g' | Rscript <(echo "$aggregate") 2>$rerrfile
+	echo -e "$file" | sed "s/---/$to/g;s/===/$to/g" | sed 's/???/0/g' | Rscript <(echo "$aggregate") 2>$rerrfile
 	if [[ $? -ne 0 ]]; then
 		echo "Aggregation failed, R yielded the following error:" >&2
 		cat $rerrfile

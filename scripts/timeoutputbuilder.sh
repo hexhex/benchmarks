@@ -18,12 +18,19 @@ fi
 
 ret=$1
 timefile=$2
+errfile=$3
 if [[ $ret == 124 ]]; then
 	echo -ne "--- 1"
 	exit 0
 elif [[ $ret != 0 ]]; then
-	echo -ne "FAIL x"
-	exit 2
+	# check if it is a memout
+	if [ $(cat $errfile | grep "std::bad_alloc" | wc -l) -gt 0 ]; then
+		echo -ne "=== 1" 
+		exit 0
+	else
+		echo -ne "FAIL x"
+		exit 2
+	fi
 else
 	time=$(cat $timefile)
 	echo -ne "$time 0"

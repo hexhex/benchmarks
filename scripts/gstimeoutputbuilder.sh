@@ -24,8 +24,14 @@ if [[ $ret == 124 ]]; then
 	echo -ne "--- 1 --- 0 --- 0"
 	exit 0
 elif [[ $ret != 0 ]]; then
-	echo -ne "FAIL x y x y x y"
-	exit 2
+        # check if it is a memout
+        if [ $(cat $insterr | grep "std::bad_alloc" | wc -l) -gt 0 ]; then
+                echo -ne "=== 1 ??? 0 ??? 0"
+                exit 0
+        else
+                echo -ne "FAIL x y x y x y"
+                exit 2
+        fi
 else
 	# get overall time
 	time=$(cat $timefile)

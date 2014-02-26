@@ -19,12 +19,19 @@ fi
 ret=$1
 timefile=$2
 stdoutfile=$3
+stderrfile=$4
 if [[ $ret == 124 ]]; then
 	echo -ne "--- 1 $(cat $stdoutfile | wc -l)"
 	exit 0
 elif [[ $ret != 0 ]]; then
-	echo -ne "FAIL x y"
-	exit 2
+        # check if it is a memout
+        if [ $(cat $stderrfile | grep "std::bad_alloc" | wc -l) -gt 0 ]; then
+                echo -ne "=== 1 $(cat $stdoutfile | wc -l)"
+                exit 0
+        else
+                echo -ne "FAIL x y"
+                exit 2
+        fi
 else
 	time=$(cat $timefile)
 	echo -ne "$time 0 $(cat $stdoutfile | wc -l)"
