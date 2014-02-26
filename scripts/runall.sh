@@ -5,4 +5,4 @@ if [ ! -e $(dirname $0) ]; then
 	echo "Please prepare requirements file req" >&2
 	exit 1
 fi
-./multibenchmark.sh "$(dirname $0)/dlvhex_allbenchmarksdef" "$(dirname $0)/$date" "$(dirname $0)/req"
+./multibenchmark.sh "$(dirname $0)/dlvhex_allbenchmarksdef" "$(dirname $0)/$(date +%d%m%y-%H%M%S)" "$(dirname $0)/req"
