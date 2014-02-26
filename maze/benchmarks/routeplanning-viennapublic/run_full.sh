@@ -1,4 +1,4 @@
 map="map.hex"
 instancedir="instances"
 specificrun="run_full.sh"
-source run.sh
+source $(dirname $0)/run.sh
