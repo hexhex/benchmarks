@@ -73,22 +73,22 @@ popd
 
 echo "Building MCSIE"
 pushd mcsieplugin
-./bootstrap.sh && ./configure --enable-benchmark --prefix=$destination/install PKG_CONFIG_PATH=$destination/install/local/lib/pkgconfig/ CPPFLAGS=-DNDEBUG $configoptions && make $buildoptions
+./bootstrap.sh && ./configure --enable-benchmark --prefix=$destination/install PKG_CONFIG_PATH=$destination/install/lib/pkgconfig/ CPPFLAGS=-DNDEBUG $configoptions && make $buildoptions
 popd
 
 echo "Building argu"
 pushd benchmarks/argu
-./bootstrap.sh && ./configure --enable-benchmark --prefix=$destination/install PKG_CONFIG_PATH=$destination/install/local/lib/pkgconfig/ CPPFLAGS=-DNDEBUG $configoptions && make $buildoptions
+./bootstrap.sh && ./configure --enable-benchmark --prefix=$destination/install PKG_CONFIG_PATH=$destination/install/lib/pkgconfig/ CPPFLAGS=-DNDEBUG $configoptions && make $buildoptions
 popd
 
 echo "Building maze"
 pushd benchmarks/maze
-./bootstrap.sh && ./configure --enable-benchmark --prefix=$destination/install PKG_CONFIG_PATH=$destination/install/local/lib/pkgconfig/ CPPFLAGS=-DNDEBUG $configoptions && make $buildoptions
+./bootstrap.sh && ./configure --enable-benchmark --prefix=$destination/install PKG_CONFIG_PATH=$destination/install/lib/pkgconfig/ CPPFLAGS=-DNDEBUG $configoptions && make $buildoptions
 popd
 
 echo "Building sensor"
 pushd benchmarks/sensor
-./bootstrap.sh && ./configure --enable-benchmark --prefix=$destination/install PKG_CONFIG_PATH=$destination/install/local/lib/pkgconfig/ CPPFLAGS=-DNDEBUG $configoptions && make $buildoptions
+./bootstrap.sh && ./configure --enable-benchmark --prefix=$destination/install PKG_CONFIG_PATH=$destination/install/lib/pkgconfig/ CPPFLAGS=-DNDEBUG $configoptions && make $buildoptions
 popd
 
 # download instances
