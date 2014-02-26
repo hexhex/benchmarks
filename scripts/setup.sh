@@ -226,5 +226,7 @@ popd
 
 echo "Adopting benchmark definition script"
 pushd $destination/benchmarks/scripts
-cat dlvhex_allbenchmarksdef_template | sed 's/\~\/dlvhex/$prefix/' > dlvhex_allbenchmarksdef
+prefix=$destination
+templatecmd=$(cat dlvhex_allbenchmarksdef_template | cat dlvhex_allbenchmarksdef_template | sed 's/^/echo \"/;s/$/\"/')
+eval "$templatecmd" > dlvhex_allbenchmarksdef
 popd
