@@ -65,6 +65,7 @@ do
 	bmname=$(echo $line | cut -d'=' -f1)
 	runscript=$(echo $line | cut -d'=' -f2)
 	cat $req > $outputdir/metareq_$bmname
+	echo "getenv = true" >>$outputdir/metareq_$bmname
 	echo "# NoExecution" >>$outputdir/metareq_$bmname
 	echo "# OutputDir=$outputdir/$bmname" >> $outputdir/metareq_$bmname
 	echo "# BenchmarkName=$bmname" >> $outputdir/metareq_$bmname
