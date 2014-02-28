@@ -10,10 +10,10 @@ fi
 if [ $# -ge 2 ] && [[ $2 != "" ]]; then
         extrstart=$2
 	extrlen=$3
-else
 	if [ $# -eq 2 ] || [[ $3 == "" ]]; then
 		error=1
 	fi
+else
 	extrstart=0
 	extrlen=0
 fi
