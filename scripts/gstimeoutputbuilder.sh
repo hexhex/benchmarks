@@ -21,7 +21,7 @@ timefile=$2
 instout=$3
 insterr=$4
 if [[ $ret == 124 ]]; then
-	ret="--- 1"
+	time="--- 1"
 	ret=0
 elif [[ $ret != 0 ]]; then
         # check if it is a memout
@@ -29,7 +29,7 @@ elif [[ $ret != 0 ]]; then
 		time="=== 1"
                 ret=0
         else
-                ret="FAIL x"
+                time="FAIL x"
                 ret=2
         fi
 else
