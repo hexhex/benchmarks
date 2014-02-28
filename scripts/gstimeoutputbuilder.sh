@@ -57,9 +57,9 @@ else
 	solvertime=$(echo "$solvertime" | grep -P -o '[0-9]+\.[0-9]+s' | sed "s/s//")
 	# round to two digits
 	groundertime=$(echo "scale=2; $groundertime/1" | bc)
-	groundertime=$(printf "%.2f" $groundertime)
+	groundertime="$(printf "%.2f" $groundertime) 0"
 	solvertime=$(echo "scale=2; $solvertime/1" | bc)
-	solvertime=$(printf "%.2f" $solvertime)
+	solvertime="$(printf "%.2f" $solvertime) 0"
 fi
 
 echo -ne "$time $groundertime $solvertime"
