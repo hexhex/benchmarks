@@ -82,6 +82,6 @@ do
 	let i=i+1
 done
 echo -e -ne "\n"
-#rm $timefile
-#rm $stdoutfile
-#rm $stderrfile
+rm $timefile
+rm $stdoutfile
+rm $stderrfile
