@@ -34,7 +34,7 @@ elif [[ $ret != 0 ]]; then
         fi
 else
 	# get overall time
-	time=$(cat $timefile)
+	time="$(cat $timefile) 0"
 	ret=0
 fi
 
