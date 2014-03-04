@@ -7,6 +7,7 @@
 #include "config.h"
 #endif /* HAVE_CONFIG_H */
 
+#include <dlvhex2/PlatformDefinitions.h>
 #include <dlvhex2/ExternalLearningHelper.h>
 #include <dlvhex2/PluginInterface.h>
 #include <dlvhex2/ProgramCtx.h>
@@ -553,6 +554,7 @@ IMPLEMENT_PLUGINABIVERSIONFUNCTION
 
 // return plain C type s.t. all compilers and linkers will like this code
 extern "C"
+DLVHEX_PLUGINEXPORT
 void * PLUGINIMPORTFUNCTION()
 {
 	return reinterpret_cast<void*>(&sensors::thePlugin);

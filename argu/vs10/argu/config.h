@@ -8,7 +8,7 @@
 /* #undef DLVDBPATH */
 
 /* Version number of DLVHEX_ABI */
-#define DLVHEX_ABI_VERSION 7.3.0
+#define DLVHEX_ABI_VERSION 7.0.0
 
 /* Major version number of DLVHEX_ABI */
 #define DLVHEX_ABI_VERSION_MAJOR 7
@@ -17,25 +17,13 @@
 #define DLVHEX_ABI_VERSION_MICRO 0
 
 /* Minor version number of DLVHEX_ABI */
-#define DLVHEX_ABI_VERSION_MINOR 3
+#define DLVHEX_ABI_VERSION_MINOR 0
 
 /* Turns on benchmarking timers and counters */
 #define DLVHEX_BENCHMARK /**/
 
-/* Version number of DLVHEX */
-#define DLVHEX_VERSION 2.3.0
-
-/* Major version number of DLVHEX */
-#define DLVHEX_VERSION_MAJOR 2
-
-/* Micro version number of DLVHEX */
-#define DLVHEX_VERSION_MICRO 0
-
-/* Minor version number of DLVHEX */
-#define DLVHEX_VERSION_MINOR 3
-
 /* Path of DLV executable */
-//#define DLVPATH "dlv"
+#define DLVPATH "dlv.exe"
 
 /* Define to 1 if you have the `argz_add' function. */
 #define HAVE_ARGZ_ADD 1
@@ -108,7 +96,7 @@
 /* #undef HAVE_DECL_CYGWIN_CONV_PATH */
 
 /* Define to 1 if you have the <dirent.h> header file. */
-#define HAVE_DIRENT_H 1
+//#define HAVE_DIRENT_H 1
 
 /* Define if you have the GNU dld library. */
 /* #undef HAVE_DLD */
@@ -123,7 +111,7 @@
 #define HAVE_DLFCN_H 1
 
 /* Defined if we found dlv. */
-//#define HAVE_DLV 1
+#define HAVE_DLV 1
 
 /* Defined if we found dlvdb. */
 /* #undef HAVE_DLVDB */
@@ -366,6 +354,13 @@
 
 /* Define to a type to use for `error_t' if it is not otherwise available. */
 /* #undef error_t */
+
+// #define POSIX 1
+#define WIN32 1
+#define DLLIMPORT 1
+#define DLVHEXPLUGIN 1
+// #define HAVE_MLP 1
+// #define POSIX 1
 
 #define PACKAGE_TARNAME "Argu"
 #define ARGUPLUGIN_VERSION_MAJOR 2
