@@ -51,6 +51,8 @@ BOOST_SMART_PTR
 BOOST_STRING_ALGO
 BOOST_TOKENIZER
 
+AC_DEFINE([POSIX], [1], [Defined on POSIX systems.])
+
 # where the plugin will be installed by default.
 # running configure will take sysplugindir from dlvhex.pc,
 # running configure --enable-userinstall will take homeplugindir.
