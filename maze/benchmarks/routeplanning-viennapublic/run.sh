@@ -19,7 +19,7 @@ if [[ $all -eq 1 ]]; then
 else
 	# run single instance
 	confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex;--liberalsafety route.hex maxchanges.hex"
-	frumpy="--restarts=x,100,1.5 --deletion=1,75 --del-init-r=200,40000 --del-max=400000 --del-algo=basic --contraction=250 --loops=common --save-p=180 --del-grow=1.1 --strengthen=local"
+	frumpy="frumpy"
 
 	# computation of max changes
 	instancefn=$(basename $instance)

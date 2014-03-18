@@ -4,7 +4,7 @@ export PATH=$1
 export LD_LIBRARY_PATH=$2
 instance=$3
 to=$4
-frumpy="--restarts=x,100,1.5 --deletion=1,75 --del-init-r=200,40000 --del-max=400000 --del-algo=basic --contraction=250 --loops=common --save-p=180 --del-grow=1.1 --strengthen=local"
+frumpy="frumpy"
 
 confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex;--liberalsafety route.hex maxchanges.hex"
 confstr2=$(cat ../conf)
