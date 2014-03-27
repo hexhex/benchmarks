@@ -20,7 +20,7 @@ ret=$1
 timefile=$2
 instout=$3
 insterr=$4
-if [[ $ret == 124 ]]; then
+if [[ $ret == 124 ]] || [[ $ret == 137 ]]; then
 	time="--- 1"
 	ret=0
 elif [[ $ret != 0 ]]; then

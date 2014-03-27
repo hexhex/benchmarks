@@ -20,7 +20,7 @@ ret=$1
 timefile=$2
 stdoutfile=$3
 stderrfile=$4
-if [[ $ret == 124 ]]; then
+if [[ $ret == 124 ]] || [[ $ret == 137 ]]; then
 	echo -ne "--- 1 $(cat $stdoutfile | wc -l)"
 	exit 0
 elif [[ $ret != 0 ]]; then
