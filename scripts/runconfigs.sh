@@ -55,11 +55,11 @@ do
 	# prepare command
 	fullcommand=${command/CONF/$c}
 	fullcommand=${fullcommand/INST/$instance}
-	cmd="time --quiet -o $timefile -f %e timeout --kill-after=5s $to bash -c \"$fullcommand >$stdoutfile 2>$stderrfile\""
+	cmd="time --quiet -o $timefile -f %e timeout --kill-after=5s $to $fullcommand"
 
 	# execute
-	echo "Executing $cmd" >&2
-	$cmd
+	echo "Executing $cmd >$stdoutfile 2>$stderrfile" >&2
+	$cmd >$stdoutfile 2>$stderrfile
 	ret=$?
 
 	# build output
