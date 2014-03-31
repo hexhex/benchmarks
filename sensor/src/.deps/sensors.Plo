@@ -1,7 +1,6 @@
 sensors.lo: sensors.cpp config.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ExternalLearningHelper.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/PlatformDefinitions.h \
- /mnt/lion/home/redl/boost_1_47_0/boost/cstdint.hpp \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/PlatformDefinitions.h \
+ config.h /mnt/lion/home/redl/boost_1_47_0/boost/cstdint.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/config.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/config/user.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/config/select_compiler_config.hpp \
@@ -48,7 +47,8 @@ sensors.lo: sensors.cpp config.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/config/suffix.hpp \
  /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/fwd.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ExternalLearningHelper.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/fwd.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/shared_ptr.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/smart_ptr/shared_ptr.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/config/no_tr1/memory.hpp \
@@ -104,8 +104,8 @@ sensors.lo: sensors.cpp config.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/smart_ptr/detail/operator_bool.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ProgramCtx.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Configuration.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ProgramCtx.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Configuration.h \
  /usr/include/c++/4.6/string /usr/include/c++/4.6/bits/char_traits.h \
  /usr/include/c++/4.6/bits/localefwd.h \
  /usr/include/c++/4.6/x86_64-linux-gnu/./bits/c++locale.h \
@@ -126,9 +126,9 @@ sensors.lo: sensors.cpp config.h \
  /usr/include/c++/4.6/bits/vector.tcc /usr/include/c++/4.6/map \
  /usr/include/c++/4.6/bits/stl_tree.h /usr/include/c++/4.6/bits/stl_map.h \
  /usr/include/c++/4.6/bits/stl_multimap.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ASPSolverManager.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ID.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Printhelpers.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ASPSolverManager.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ID.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Printhelpers.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/range/iterator_range.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/range/iterator_range_core.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/iterator/iterator_traits.hpp \
@@ -499,11 +499,11 @@ sensors.lo: sensors.cpp config.h \
  /usr/include/c++/4.6/bits/sstream.tcc /usr/include/c++/4.6/set \
  /usr/include/c++/4.6/bits/stl_set.h \
  /usr/include/c++/4.6/bits/stl_multiset.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/OrdinaryASPProgram.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/AnswerSet.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Interpretation.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ModelGenerator.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Logger.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/OrdinaryASPProgram.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/AnswerSet.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Interpretation.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ModelGenerator.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Logger.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/thread/mutex.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/thread/detail/platform.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/config/requires_threads.hpp \
@@ -592,10 +592,10 @@ sensors.lo: sensors.cpp config.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/thread/detail/thread_heap_alloc.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/thread/pthread/thread_heap_alloc.hpp \
  /usr/include/c++/4.6/iomanip \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Registry.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/TermTable.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Term.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Table.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Registry.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/TermTable.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Term.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Table.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index_container.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/detail/allocator_utilities.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/mpl/at.hpp \
@@ -871,19 +871,19 @@ sensors.lo: sensors.cpp config.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/detail/rnd_index_ptr_array.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/random_access_index_fwd.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/detail/rnd_index_loader.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/PredicateTable.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Predicate.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/OrdinaryAtomTable.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Atoms.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/PredicateMask.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ExtSourceProperties.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/PredicateTable.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Predicate.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/OrdinaryAtomTable.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Atoms.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/PredicateMask.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ExtSourceProperties.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/weak_ptr.hpp \
  /usr/include/c++/4.6/list /usr/include/c++/4.6/bits/stl_list.h \
  /usr/include/c++/4.6/bits/list.tcc \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/mem_fun.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/BuiltinAtomTable.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/AggregateAtomTable.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ExternalAtomTable.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/BuiltinAtomTable.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/AggregateAtomTable.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ExternalAtomTable.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/ordered_index.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/detail/bidir_node_iterator.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/detail/ord_index_node.hpp \
@@ -892,41 +892,41 @@ sensors.lo: sensors.cpp config.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/detail/unbounded.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/detail/value_compare.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/detail/duplicates_iterator.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ModuleAtomTable.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ModuleAtomTable.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/composite_key.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/functional/hash_fwd.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/preprocessor/list/at.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/preprocessor/list/rest_n.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/RuleTable.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Rule.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ModuleTable.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Module.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/RuleTable.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Rule.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ModuleTable.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Module.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/scoped_ptr.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/smart_ptr/scoped_ptr.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bm.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmconst.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmdef.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmfwd.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmfunc.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bm.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmconst.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmdef.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmfwd.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmfunc.h \
  /usr/include/memory.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmutil.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/encoding.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmalloc.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmblocks.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmundef.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Error.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ConcurrentMessageQueueOwning.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmutil.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/encoding.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmalloc.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmblocks.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmundef.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Error.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ConcurrentMessageQueueOwning.h \
  /usr/include/c++/4.6/queue /usr/include/c++/4.6/deque \
  /usr/include/c++/4.6/bits/stl_deque.h \
  /usr/include/c++/4.6/bits/deque.tcc \
  /usr/include/c++/4.6/bits/stl_queue.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/InputProvider.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/PluginContainer.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/PluginInterface.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/CDNLSolver.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/InputProvider.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/PluginContainer.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/PluginInterface.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/CDNLSolver.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/foreach.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/foreach_fwd.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Set.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Set.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/unordered_map.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/unordered/unordered_map.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/unordered/unordered_map_fwd.hpp \
@@ -943,7 +943,7 @@ sensors.lo: sensors.cpp config.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/unordered/detail/extract_key.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/unordered/detail/unique.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/unordered/detail/move.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/DynamicVector.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/DynamicVector.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/numeric/ublas/vector.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/numeric/ublas/storage.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/serialization/array.hpp \
@@ -994,10 +994,10 @@ sensors.lo: sensors.cpp config.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/numeric/ublas/expression_types.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/numeric/ublas/functional.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/numeric/ublas/detail/vector_assign.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Nogood.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/SATSolver.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ComponentGraph.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/DependencyGraph.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Nogood.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/SATSolver.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ComponentGraph.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/DependencyGraph.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/graph/graph_traits.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/pending/property.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/pending/detail/property.hpp \
@@ -1026,11 +1026,12 @@ sensors.lo: sensors.cpp config.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/pending/container_traits.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/graph/detail/adj_list_edge_iterator.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/graph/adjacency_iterator.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/FinalEvalGraph.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/EvalGraph.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/GraphvizHelpers.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/EvalHeuristicBase.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/EvalGraphBuilder.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ExternalAtomEvaluationHeuristicsInterface.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/FinalEvalGraph.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/EvalGraph.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/GraphvizHelpers.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/EvalHeuristicBase.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/EvalGraphBuilder.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/graph/filtered_graph.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/graph/detail/set_adaptor.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/iterator/filter_iterator.hpp \
@@ -1112,17 +1113,17 @@ sensors.lo: sensors.cpp config.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/bimap/detail/non_unique_views_helper.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/bimap/views/unordered_multiset_view.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/bimap/container_adaptor/unordered_multiset_adaptor.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ExternalAtomEvaluationHeuristics.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/UnfoundedSetCheckHeuristics.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ModelBuilder.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/EvalGraph.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ModelGraph.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/UnfoundedSetCheckHeuristics.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/AnnotatedGroundProgram.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ModelBuilder.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/EvalGraph.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ModelGraph.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/functional/factory.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/pointee.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/detail/is_incrementable.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/non_type.hpp \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Printer.h \
- /mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Benchmarking.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Printer.h \
+ /mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Benchmarking.h \
  /mnt/lion/home/redl/boost_1_47_0/boost/scope_exit.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/typeof/incr_registration_group.hpp \
  /mnt/lion/home/redl/boost_1_47_0/boost/date_time/posix_time/posix_time.hpp \
@@ -1553,9 +1554,9 @@ sensors.lo: sensors.cpp config.h \
 
 config.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ExternalLearningHelper.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/PlatformDefinitions.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/PlatformDefinitions.h:
+config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/cstdint.hpp:
 
@@ -1673,7 +1674,9 @@ config.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/fwd.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ExternalLearningHelper.h:
+
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/fwd.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/shared_ptr.hpp:
 
@@ -1807,9 +1810,9 @@ config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/smart_ptr/detail/operator_bool.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ProgramCtx.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ProgramCtx.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Configuration.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Configuration.h:
 
 /usr/include/c++/4.6/string:
 
@@ -1867,11 +1870,11 @@ config.h:
 
 /usr/include/c++/4.6/bits/stl_multimap.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ASPSolverManager.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ASPSolverManager.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ID.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ID.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Printhelpers.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Printhelpers.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/range/iterator_range.hpp:
 
@@ -2631,15 +2634,15 @@ config.h:
 
 /usr/include/c++/4.6/bits/stl_multiset.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/OrdinaryASPProgram.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/OrdinaryASPProgram.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/AnswerSet.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/AnswerSet.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Interpretation.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Interpretation.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ModelGenerator.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ModelGenerator.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Logger.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Logger.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/thread/mutex.hpp:
 
@@ -2825,13 +2828,13 @@ config.h:
 
 /usr/include/c++/4.6/iomanip:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Registry.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Registry.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/TermTable.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/TermTable.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Term.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Term.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Table.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Table.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/multi_index_container.hpp:
 
@@ -3383,17 +3386,17 @@ config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/detail/rnd_index_loader.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/PredicateTable.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/PredicateTable.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Predicate.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Predicate.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/OrdinaryAtomTable.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/OrdinaryAtomTable.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Atoms.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Atoms.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/PredicateMask.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/PredicateMask.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ExtSourceProperties.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ExtSourceProperties.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/weak_ptr.hpp:
 
@@ -3405,11 +3408,11 @@ config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/mem_fun.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/BuiltinAtomTable.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/BuiltinAtomTable.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/AggregateAtomTable.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/AggregateAtomTable.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ExternalAtomTable.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ExternalAtomTable.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/ordered_index.hpp:
 
@@ -3427,7 +3430,7 @@ config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/detail/duplicates_iterator.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ModuleAtomTable.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ModuleAtomTable.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/multi_index/composite_key.hpp:
 
@@ -3437,43 +3440,43 @@ config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/preprocessor/list/rest_n.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/RuleTable.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/RuleTable.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Rule.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Rule.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ModuleTable.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ModuleTable.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Module.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Module.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/scoped_ptr.hpp:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/smart_ptr/scoped_ptr.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bm.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bm.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmconst.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmconst.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmdef.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmdef.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmfwd.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmfwd.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmfunc.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmfunc.h:
 
 /usr/include/memory.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmutil.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmutil.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/encoding.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/encoding.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmalloc.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmalloc.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmblocks.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmblocks.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/bm3.7.0/bm/bmundef.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/bm3.7.0/bm/bmundef.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Error.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Error.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ConcurrentMessageQueueOwning.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ConcurrentMessageQueueOwning.h:
 
 /usr/include/c++/4.6/queue:
 
@@ -3485,19 +3488,19 @@ config.h:
 
 /usr/include/c++/4.6/bits/stl_queue.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/InputProvider.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/InputProvider.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/PluginContainer.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/PluginContainer.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/PluginInterface.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/PluginInterface.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/CDNLSolver.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/CDNLSolver.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/foreach.hpp:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/foreach_fwd.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Set.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Set.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/unordered_map.hpp:
 
@@ -3531,7 +3534,7 @@ config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/unordered/detail/move.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/DynamicVector.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/DynamicVector.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/numeric/ublas/vector.hpp:
 
@@ -3633,13 +3636,13 @@ config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/numeric/ublas/detail/vector_assign.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Nogood.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Nogood.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/SATSolver.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/SATSolver.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ComponentGraph.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ComponentGraph.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/DependencyGraph.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/DependencyGraph.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/graph/graph_traits.hpp:
 
@@ -3697,15 +3700,17 @@ config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/graph/adjacency_iterator.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/FinalEvalGraph.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ExternalAtomEvaluationHeuristicsInterface.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/EvalGraph.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/FinalEvalGraph.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/GraphvizHelpers.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/EvalGraph.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/EvalHeuristicBase.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/GraphvizHelpers.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/EvalGraphBuilder.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/EvalHeuristicBase.h:
+
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/EvalGraphBuilder.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/graph/filtered_graph.hpp:
 
@@ -3869,15 +3874,15 @@ config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/bimap/container_adaptor/unordered_multiset_adaptor.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ExternalAtomEvaluationHeuristics.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/UnfoundedSetCheckHeuristics.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/UnfoundedSetCheckHeuristics.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/AnnotatedGroundProgram.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ModelBuilder.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ModelBuilder.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/EvalGraph.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/EvalGraph.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/ModelGraph.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/ModelGraph.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/functional/factory.hpp:
 
@@ -3887,9 +3892,9 @@ config.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/non_type.hpp:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Printer.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Printer.h:
 
-/mnt/lion/home/redl/test_dlvhexbm_node2/install/include/dlvhex2/Benchmarking.h:
+/mnt/lion/home/redl/test_dlvhexbm/install/include/dlvhex2/Benchmarking.h:
 
 /mnt/lion/home/redl/boost_1_47_0/boost/scope_exit.hpp:
 
