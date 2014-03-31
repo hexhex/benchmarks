@@ -62,6 +62,13 @@ do
 	$cmd >$stdoutfile 2>$stderrfile
 	ret=$?
 
+	# log output
+	echo ">> Return value: $ret" >&2
+	echo ">> Stdout:" >&2
+	cat $stdoutfile >&2
+        echo ">> Stderr:" >&2
+        cat $stderrfile >&2
+
 	# build output
 	output=$($outputbuilder $ret $timefile $stdoutfile $stderrfile)
 	obresult=$?
@@ -69,10 +76,6 @@ do
 		echo -ne "$output"
 	elif [ $obresult -eq 2 ]; then
 		echo "Error during execution of: \"$fullcommand\"" >&2
-		echo ">> Stdout:" >&2
-		cat $stdoutfile >&2
-		echo ">> Stderr:" >&2
-		cat $stderrfile >&2
 		echo -ne "$output"
 	else
 		echo "Output builder for command \"$fullcommand\" failed" >&2
@@ -85,3 +88,4 @@ echo -e -ne "\n"
 rm $timefile
 rm $stdoutfile
 rm $stderrfile
+
