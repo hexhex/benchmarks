@@ -19,7 +19,6 @@ if [[ $all -eq 1 ]]; then
 else
 	# run single instance
 	confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex;--liberalsafety route.hex maxchanges.hex"
-	frumpy="frumpy"
 
 	# computation of max changes
 	instancefn=$(basename $instance)
@@ -30,7 +29,7 @@ else
 		echo "maxchanges($(echo "($mc + ${instancefn:6:3} * 2 - 2)" | bc ))." > $instance.mc
 	fi
 
-	$bmscripts/runconfigs.sh "dlvhex2 --claspconfig=\"$frumpy\" $c --plugindir=../../src --extlearn --evalall -n=1 --verbose=8 --silent CONF $map $instance.mc INST" "$confstr" "$instance" "$to" "$mydir/outputbuilder.sh"
+	$bmscripts/runconfigs.sh "dlvhex2 --claspconfig=frumpy $c --plugindir=../../src --extlearn --evalall -n=1 --verbose=8 --silent CONF $map $instance.mc INST" "$confstr" "$instance" "$to" "$mydir/outputbuilder.sh"
 
 	rm $instance.mc
 fi
