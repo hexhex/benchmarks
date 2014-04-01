@@ -24,8 +24,13 @@ if [[ $ret == 124 ]] || [[ $ret == 137 ]]; then
 	echo -ne "--- 1 --- --- ??? ??? ??? ???"
 	exit 0
 elif [[ $ret != 0 ]]; then
-	echo -ne "FAIL x y x a b c d"
-	exit 2
+	if [ $(cat $stderrfile | grep "std::bad_alloc" | wc -l) -gt 0 ]; then
+		echo -ne "=== 1 === === ??? ??? ??? ???" 
+		exit 0
+	else
+		echo -ne "FAIL x y x a b c d"
+		exit 2
+	fi
 else
 	# extract timeing information
 	time=$(cat $timefile)

@@ -24,8 +24,13 @@ if [[ $ret == 124 ]] || [[ $ret == 137 ]]; then
 	echo -ne "--- 1 --- --- ??? ??? ??? ???"
 	exit 0
 elif [[ $ret != 0 ]]; then
-	echo -ne "FAIL x y x a b c d"
-	exit 2
+	if [ $(cat $stderrfile | grep "std::bad_alloc" | wc -l) -gt 0 ]; then
+		echo -ne "=== 1 === === ??? ??? ??? ???" 
+		exit 0
+	else
+		echo -ne "FAIL x y x a b c d"
+		exit 2
+	fi
 else
 	# extract timeing information
 	time=$(cat $timefile)
@@ -49,7 +54,8 @@ else
 	fi
 
 	# benchmark-specific information
-	pathlen=$(cat $stdoutfile | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^orderedpath(" | cut -d"," -f 5 | sed 's/^/.+/' | bc | tail -1)
+	pathexists=$(cat $stdoutfile | wc -l)
+	pathlen=$(cat $stdoutfile | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^orderedpath(" | cut -d"," -f 4 | sed 's/^/.+/' | bc | tail -1)
 	pathlen=$(echo -e "$pathlen\n.+0" | bc | tail -1)
 	changes=$(cat $stdoutfile | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^path(" | grep "change" | wc -l)
 	restaurant=$(cat $stdoutfile | sed 's/{//' | sed 's/}//' | sed 's/),/),\n/g' | grep "^needRestaurant" | wc -l)
