@@ -147,17 +147,17 @@ do
 		start=$(echo $fn | egrep "[0-9]*" -bo | head -n 1 | cut -f1 -d':')
 		len=$(echo $fn | egrep "[0-9]*" -bo | head -n 1 | cut -f2 -d':')
 		len=${#len}
-		if [[ $extrstart -eq 0 ]] && [[ $extrlen -eq 0 ]]; then
+#		if [[ $extrstart -eq 0 ]] && [[ $extrlen -eq 0 ]]; then
 			extrstart=$start
 			extrlen=$len
-		else
-			if [[ $# -le 2 ]]; then
-				if [[ $start -ne $extrstart ]] || [[ $len -ne $extrlen ]]; then
-					echo "Could not extract instance size due to inconsistent naming; please specify start and length of size within the filename manually"
-					exit 1
-				fi
-			fi
-		fi
+#		else
+#			if [[ $# -le 2 ]]; then
+#				if [[ $start -ne $extrstart ]] || [[ $len -ne $extrlen ]]; then
+#					echo "Could not extract instance size due to inconsistent naming; please specify start and length of size within the filename manually"
+#					exit 1
+#				fi
+#			fi
+#		fi
 
 		if [ $extrlen -ge 1 ]; then
 			array[0]="${fn:$extrstart:$extrlen}"
@@ -195,7 +195,7 @@ if [[ $inputlines -gt 0 ]]; then
 fi
 
 if [ $unknowninstances -gt 0 ]; then
-       	echo -e "# Warning: $unknownvalues measured values in $unknowninstances are unknown, they were treated as 0 for aggregation." 2>&1
+       	echo -e "# Warning: $unknownvalues measured values in $unknowninstances instances are unknown, they were treated as 0 for aggregation." 2>&1
 fi
 if [ $failedinstances -gt 0 ]; then
         echo -e "# Warning: $failedconfigurations configurations in $failedinstances instances failed, table contains only the results of the successful instances!." 2>&1
