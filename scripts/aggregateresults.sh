@@ -195,7 +195,7 @@ if [[ $inputlines -gt 0 ]]; then
 fi
 
 if [ $unknowninstances -gt 0 ]; then
-       	echo -e "# Warning: $unknownvalues measured values in $unknowninstances are unknown, they were treated as 0 for aggregation." 2>&1
+       	echo -e "# Warning: $unknownvalues measured values in $unknowninstances instances are unknown, they were treated as 0 for aggregation." 2>&1
 fi
 if [ $failedinstances -gt 0 ]; then
         echo -e "# Warning: $failedconfigurations configurations in $failedinstances instances failed, table contains only the results of the successful instances!." 2>&1
