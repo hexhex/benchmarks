@@ -160,7 +160,7 @@ echo "Downloading argu instances"
 mkdir $destination/benchmarks/argu/benchmarks/wjflp/instances
 pushd $destination/benchmarks/argu/benchmarks/wjflp/instances
 wget $instancesource/arguwjflp.tar.gz
-tar xfv argu.tar.gz
+tar xfv arguwjflp.tar.gz
 popd
 
 echo "Downloading routeplanning instances"
