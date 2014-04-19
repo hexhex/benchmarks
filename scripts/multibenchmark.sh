@@ -109,5 +109,5 @@ if [[ $finalscript != "" ]]; then
 fi
 
 echo "Starting all benchmarks" >&2
-condor_submit_dag -notification never $outputdir/multibenchmark.dag
+condor_submit_dag -maxjobs 10 -maxidle 50 -notification never $outputdir/multibenchmark.dag
 

@@ -266,7 +266,7 @@ if [ $sequential -eq 0 ]; then
 
 	# prepare condor command according to desired notification behavior
 	if [[ $notification -eq 2 ]]; then
-        	condorcmd="condor_submit_dag -autorescue 1 -maxjobs 50 -maxidle 100 -notify never"	# we have an extended notification anyway
+        	condorcmd="condor_submit_dag -autorescue 1 -maxjobs 10 -maxidle 50 -notify never"	# we have an extended notification anyway
 
 	        echo -e "
         	                Executable = $(dirname $0)/sendnotification.sh 
@@ -285,10 +285,10 @@ if [ $sequential -eq 0 ]; then
 
                 echo "Will send an EXTENDED e-mail notification including results when the benchmark completes (if mail is configured)"
        	elif [[ $notification -eq 1 ]]; then
-        	condorcmd="condor_submit_dag -autorescue 1 -maxjobs 50 -maxidle 100"
+        	condorcmd="condor_submit_dag -autorescue 1 -maxjobs 10 -maxidle 50"
                 echo "Will send an e-mail notification when the benchmark completes (if mail configured)"
         else
-		condorcmd="condor_submit_dag -autorescue 1 -maxjobs 50 -maxidle 100 -notify never"
+		condorcmd="condor_submit_dag -autorescue 1 -maxjobs 10 -maxidle 50 -notify never"
                 echo "Will NOT send an e-mail notification when the benchmark completes"
         fi
 
