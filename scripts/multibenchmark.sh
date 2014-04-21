@@ -82,6 +82,9 @@ do
 	echo "" >> $outputdir/multibenchmark.dag
 	echo "SUBDAG EXTERNAL $bmname $outputdir/$bmname/$bmname.dag" >> $outputdir/multibenchmark.dag
 	allbenchmarks="$allbenchmarks $bmname"
+
+	# set parameters
+	condor_submit_dag -no_submit -maxjobs 10 -maxidle 50 -notification never $outputdir/$bmname/$bmname.dag
 done < $specification
 
 # prepare final job
@@ -109,5 +112,5 @@ if [[ $finalscript != "" ]]; then
 fi
 
 echo "Starting all benchmarks" >&2
-condor_submit_dag -force -no_recurse -maxjobs 10 -maxidle 50 -notification never $outputdir/multibenchmark.dag
+condor_submit_dag -maxjobs 10 -maxidle 50 -notification never $outputdir/multibenchmark.dag
 
