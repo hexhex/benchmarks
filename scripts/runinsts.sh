@@ -44,7 +44,7 @@ if [[ $error -eq 1 ]]; then
 	echo "If the req file contains the string \"sequential\" (without quotes)," 1>&2
 	echo "then all instances will be executed in sequence (see reqseq)." 1>&2
 	echo "If the req file contains a line of form" 1>&2
-	echo "	    ExtendedNotification = mail@address.com" 1>&2
+	echo "#	    ExtendedNotification = mail@address.com" 1>&2
 	echo "the benchmark results will be sent per mail to you (if mail is configured)" 1>&2
 	echo "" 1>&2
 	echo "The script will execute all instances and aggregate their results" 1>&2
