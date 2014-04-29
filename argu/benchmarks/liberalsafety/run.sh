@@ -17,6 +17,6 @@ else
 
 	# make sure that the encodings are found
 	cd ../../src
-	$bmscripts/runconfigs.sh "dlvhex2 --plugindir=. --argumode=idealset CONF $mydir/INST" "$confstr" "$instance" "$to"
+	$bmscripts/runconfigs.sh "dlvhex2 --plugindir=. --argumode=idealset CONF $mydir/INST" "$confstr" "$instance" "$to" "$bmscripts/gstimeoutputbuilder.sh"
 fi
 
