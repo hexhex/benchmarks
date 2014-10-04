@@ -2,7 +2,17 @@ import dlvhex
 
 import re
 
-# wget https://pypi.python.org/packages/source/s/selenium/selenium-2.43.0.tar.gz
+# This benchmark requires the selenium package for Python.
+# 
+# Install:
+#   wget https://pypi.python.org/packages/source/s/selenium/selenium-2.43.0.tar.gz
+#   tar -zxvf selenium-2.43.0.tar.gz
+#   cd selenium-2.43.0
+#   sudo python setup.py install
+# 
+# Run:
+#   dlvhex2 --pythonplugin=flightplan.py flightplan.hex instance1.hex
+# 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
