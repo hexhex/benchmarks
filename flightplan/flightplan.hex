@@ -1,0 +1,12 @@
+visit(L, I) v nvisit(L, I) :- location(L, D), #int(I).
+visited(L) :- visit(L, I).
+visited(I) :- visit(L, I).
+:- location(L, D), not visited(L).
+:- #int(I1), #int(I2), #int(I3), visited(I1), visited(I2), I3 > I1, I3 < I2, not visited(I3).
+:- visit(L, I1), visit(L, I2), I1 != I2, I1 != 0, I2 != 0.
+:- visit(L1, I), visit(L2, I), L1 != L2.
+
+query(I1, L1, L2, 2015, 7, D) :- visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 = 0, start(D).
+query(I1, L1, L2, 2015, 7, D) :- visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 > 0, query(Prev, X, Y, Year, Month, PrevDay), Prev = I1 - 1, D = PrevDay + Duration, location(L1, Duration).
+
+costs(C) :- &cost[query](C).
