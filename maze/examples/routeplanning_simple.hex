@@ -1,0 +1,21 @@
+#maxint=20.
+
+edge(a,b,10). edge(b,c,5). edge(a,g,2). edge(g,b,2).
+destinations(a). destinations(b). destinations(c).
+
+locations(N) :- destinations(N).
+visit(N, I) v not_visit(N, I) :- locations(N), #int(I).
+visited(N) :- visit(N, I).												% visit all nodes
+visitedAt(I) :- visit(N, I).
+:- locations(N), not visited(N).
+:- visit(N, I1), visit(N, I2), I1 != I2.								% visit each node once
+:- visit(N1, I), visit(N2, I), N1 != N2.								% visit one node at a time
+:- visit(N1, I1), #int(I), I < I1, not visitedAt(I).							% consecutive sequence
+
+% consecutive nodes must be connected by edges
+edge(N1, N2) :- edge(N1, N2, C).
+:- visit(N1, I1), visit(N2, I2), I2 = I1 + 1, not edge(N1, N2).
+
+% under certain conditions we generate an additional node
+locations(g) :- &needFuel[visit, edge]().
+locations(g) v do_not_need_fuel.
