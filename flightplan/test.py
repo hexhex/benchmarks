@@ -16,7 +16,8 @@ def getPrice(query):
 	wd.get("http://www.kayak.de/flights" + q)
 	
 	# Wait for the dynamically loaded elements to show up
-	
+	#WebDriverWait(wd, 1000).until(EC.title_contains("von"))
+
 	# And grab the page HTML source
 	html_page = wd.page_source
 	wd.quit()
