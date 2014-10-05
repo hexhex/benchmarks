@@ -6,7 +6,22 @@ visited(I) :- visit(L, I).
 :- visit(L, I1), visit(L, I2), I1 != I2, I1 != 0, I2 != 0.
 :- visit(L1, I), visit(L2, I), L1 != L2.
 
-query(I1, L1, L2, 2015, 7, D) :- visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 = 0, start(D).
-query(I1, L1, L2, 2015, 7, D) :- visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 > 0, query(Prev, X, Y, Year, Month, PrevDay), Prev = I1 - 1, D = PrevDay + Duration, location(L1, Duration).
+exploitTwoWayTicket v notExploitTwoWayTicket.
 
-costs(C) :- &cost[query](C).
+% Strategy 1: multi-stop flight
+query(I1, L1, L2, 2015, 7, D) :- notExploitTwoWayTicket, visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 = 0, start(D).
+query(I1, L1, L2, 2015, 7, D) :- notExploitTwoWayTicket, visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 > 0, query(Prev, X, Y, Year, Month, PrevDay), Prev = I1 - 1, D = PrevDay + Duration, location(L1, Duration).
+%costs(C) :- &cost[query](C).
+
+% Strategy 2: two-way ticket to one of the locations, multi-stop flight to visit the rest
+queryTW(0, L1, L2, 2015, 7, D) :- exploitTwoWayTicket, visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 = 0, start(D).
+queryTW(1, L2, L1, 2015, 7, D) :- exploitTwoWayTicket, visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 = 0, back(D).
+
+queryMS(1, L1, L2, 2015, 7, DD) :- exploitTwoWayTicket, visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 = 1, start(D), location(L1, Duration), DD = D + Duration.
+queryMS(I1, L1, L2, 2015, 7, D) :- exploitTwoWayTicket, visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 > 0, queryMS(Prev, X, Y, Year, Month, PrevDay), Prev = I1 - 1, D = PrevDay + Duration, location(L1, Duration), visit(StartLocation, 0), L2 != StartLocation.
+queryMS(I1, L1, FirstLocation, 2015, 7, D) :- exploitTwoWayTicket, visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 > 0, queryMS(Prev, X, Y, Year, Month, PrevDay), Prev = I1 - 1, D = PrevDay + Duration, location(L1, Duration), visit(StartLocation, 0), L2 = StartLocation, queryTW(0, StartLocation, FirstLocation, Year, Month, Day).
+back(D) :- exploitTwoWayTicket, visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 > 0, queryMS(Prev, X, Y, Year, Month, PrevDay), Prev = I1 - 1, D = PrevDay + Duration, location(L1, Duration), visit(StartLocation, 0), L2 = StartLocation.
+queryMSR(IR, L1, L2, Y, M, D) :- queryMS(I, L1, L2, Y, M, D), IR = I - 1.
+costs(C) :- &cost[queryTW](C1), &cost[queryMSR](C2), C = C1 + C2.
+
+exploitTwoWayTicket.
