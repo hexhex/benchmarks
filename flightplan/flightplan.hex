@@ -23,5 +23,3 @@ queryMS(I1, L1, FirstLocation, 2015, 7, D) :- exploitTwoWayTicket, visit(L1, I1)
 back(D) :- exploitTwoWayTicket, visit(L1, I1), visit(L2, I2), I2 = I1 + 1, I1 > 0, queryMS(Prev, X, Y, Year, Month, PrevDay), Prev = I1 - 1, D = PrevDay + Duration, location(L1, Duration), visit(StartLocation, 0), L2 = StartLocation.
 queryMSR(IR, L1, L2, Y, M, D) :- queryMS(I, L1, L2, Y, M, D), IR = I - 1.
 costs(C) :- &cost[queryTW](C1), &cost[queryMSR](C2), C = C1 + C2.
-
-exploitTwoWayTicket.
