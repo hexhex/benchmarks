@@ -103,7 +103,7 @@ if [[ $all -eq 1 ]]; then
 	# to be used for iterating over the instances
 	# ============================================================
 
-	# run all instances using the benchmark script run insts
+	# run all instances using the benchmark script runinsts.sh
 	$bmscripts/runinsts.sh "instances/*.hex" "$mydir/run.sh" "$mydir" "$to"	# (1)
 else
 	# ============================================================
