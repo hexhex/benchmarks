@@ -45,7 +45,7 @@ if [[ $error -eq 1 ]]; then
 	echo "                 (pairs of columns are put in the same LaTeX table with even columns being interpreted as times" >&2
 	echo "                  and odd ones as timeouts which are put in parantheses)" >&2
 	echo " \$3: (optional) subst" >&2
-	echo "			for a more convenient syntax for \$2: \${val[i]} and \${fill[i]} can be written as val[i] and fill[i], respectively" >&2
+	echo "                 for a more convenient syntax for \$2: \${val[i]} and \${fill[i]} can be written as val[i] and fill[i], respectively" >&2
 	exit 1
 fi
 
