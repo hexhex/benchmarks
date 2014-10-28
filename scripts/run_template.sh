@@ -9,10 +9,10 @@
 # then the benchmarks can be started by calling
 #	./run.sh
 # Otherwise, you may explicitly specify the path by calling
-#	./run.sh all 300
+#	./run.sh all 300 PATH_TO_BENCHMARK_SCRIPTS
 #
-# In many cases, run scripts will be exactly like template until the
-# last if block. Thus they may simply include this part,
+# In many cases, run scripts will be exactly like this template until the
+# very last if block. Thus they may simply include this part,
 # provided in file dlvhex_run_header.sh, as follows:	
 #
 # 	runheader=$(which dlvhex_run_header.sh)
