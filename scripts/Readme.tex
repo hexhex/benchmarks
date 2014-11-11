@@ -121,7 +121,7 @@ positioning,fit,calc,decorations.text,shadows%
 		\item[(1)] The loop condition which iterates over the instances of the benchmark needs to be configured.
 			Usually this condition will iterate over files, but sometimes also an iteration in a certain range can be useful.
 		\item[(2)] Here the \dlvhex{} configurations to be compared should be entered in a semicolon-separated list.
-		\item[(3)] Here the actual command-line, without configuration-specific options, needs to be inserted.
+		\item[(3)] Here the actual command-line needs to be inserted (without configuration-specific options).
 			The tokens {\tt INST} and {\tt CONF} will be substituted by the instance name and the current configuration, respectively.
 		\end{enumerate}
 		
@@ -419,7 +419,7 @@ positioning,fit,calc,decorations.text,shadows%
 				\item[{\tt \$1}:] (optional) \LaTeX{} package to use for creating table header \\
 					Valid values: {\tt none}, {\tt standard}, {\tt booktabs}, default is {\tt none} (only table body)
 				\item[{\tt \$2}:] (optional) Pattern how to format each line (without final {\tt \textbackslash\textbackslash}) \\
-					The string may consists of constant parts and expressions of form
+					The string needs to consist of constant parts and expressions of form
 					{\tt \$\{val[i]\}} to refer to the value of the $i$-th colum
 					or {\tt \$\{fill[i]\}} to refer to a sequence of double-tile ($\sim\sim$) required to align this column. \\
 					Default: \\
