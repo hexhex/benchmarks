@@ -143,13 +143,8 @@ positioning,fit,calc,decorations.text,shadows%
 			
 	\section{Architecture of the Benchmark System}
 	\label{sec:architecture}
-			
-		The following subsections describe the existing files of the benchmark system.
-		Note that except for {\tt run\_template.sh}, which serves as an example
-		for writing a benchmark-specific file {\tt run.sh}, none of these files need
-		to be modified by the user.
 
-		The architecture is visualized in Figure~\ref{fig:architecture}.
+		The basic system architecture is visualized in Figure~\ref{fig:architecture}.
 		There is a single benchmark-specific file {\tt run.sh}, which is usually stored
 		in the benchmark's directory (different from the {\tt benchmarks/scripts} directory).
 		This file can be used for scheduling all instances and for evaluating a single instance
@@ -238,7 +233,13 @@ positioning,fit,calc,decorations.text,shadows%
 		\caption{Benchmark System Architecture}
 		\label{fig:architecture}
 		\end{figure}
-		
+
+		The following subsections describe the scripts of the benchmark system
+		in more detail.
+		Note that except for {\tt run\_template.sh}, which serves as an example
+		for writing a benchmark-specific file {\tt run.sh}, none of these files need
+		to be modified by the user.
+
 		\subsection{\tt run\_template.sh}
 		\label{sec:architecture:run}
 		
