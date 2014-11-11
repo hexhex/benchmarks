@@ -41,9 +41,9 @@ if [[ $error -eq 1 ]]; then
 	echo "                 or" >&2
 	echo "                   \${fill[i]}" >&2
 	echo "                 to refer to a sequence of double-tile (~~) required to align this column" >&2
-	echo "                 Default value: \${val[0]} \${fill[1]}(${val[1]}) & \${val[2]} \$fill[3](\$val[3]} & ..." >&2
+	echo "                 Default value: \${val[0]} \${fill[1]}(${val[1]}) & \${val[2]} \${fill[3]}(\${val[3]}) & ..." >&2
 	echo "                 (pairs of columns are put in the same LaTeX table with even columns being interpreted as times" >&2
-	echo "                  and odd ones as timeouts which are put in parantheses)" >&2
+	echo "                  and odd ones as timeouts which are put in parentheses)" >&2
 	echo " \$3: (optional) subst" >&2
 	echo "                 for a more convenient syntax for \$2: \${val[i]} and \${fill[i]} can be written as val[i] and fill[i], respectively" >&2
 	exit 1

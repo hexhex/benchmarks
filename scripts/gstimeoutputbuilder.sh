@@ -26,7 +26,7 @@ if [[ $ret == 124 ]] || [[ $ret == 137 ]]; then
 elif [[ $ret != 0 ]]; then
         # check if it is a memout
         if [ $(cat $insterr | grep "std::bad_alloc" | wc -l) -gt 0 ]; then
-		time="=== 1"
+                time="=== 1"
                 ret=0
         else
                 time="FAIL x"

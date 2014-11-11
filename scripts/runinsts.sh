@@ -28,11 +28,10 @@ if [[ $error -eq 1 ]]; then
         echo " \$7: (optional) requirements file" 1>&2
 	echo "" 1>&2
 	echo "The script will pass 4 parameters to the single benchmark command:" 1>&2
-	echo " \$1: PATH variable" 1>&2
-	echo " \$2: LD_LIBRARY_PATH variable" 1>&2
-	echo " \$3: Instance name" 1>&2
-	echo " \$4: Timeout" 1>&2
-	echo " \$5: Directory which contains the benchmark helper scripts (directory of this script)" 1>&2
+	echo " \$1: single" 1>&2
+	echo " \$2: Instance name" 1>&2
+	echo " \$3: Timeout" 1>&2
+	echo " \$4: Directory which contains the benchmark scripts (directory of this script)" 1>&2
 	echo "" 1>&2
 	echo "Template for a run.sh script:" 1>&2
 	echo "      ./runconfigs.sh \"dlvhex2 INST\"" "--solver=genuinegc;--solver=genuineii\" $3 $4" 1>&2

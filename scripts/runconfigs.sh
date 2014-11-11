@@ -64,10 +64,6 @@ do
 
 	# log output
 	echo ">> Return value: $ret" >&2
-#	echo ">> Stdout:" >&2
-#	cat $stdoutfile >&2
-#	echo ">> Stderr:" >&2
-#	cat $stderrfile >&2
 
 	# build output
 	output=$($outputbuilder $ret $timefile $stdoutfile $stderrfile)

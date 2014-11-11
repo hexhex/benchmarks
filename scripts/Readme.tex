@@ -1,0 +1,434 @@
+\documentclass[a4paper]{article}
+
+\newif\ifdraft\drafttrue
+\newif\ifinlineref\inlinereffalse
+\newif\iffinal\finalfalse
+\newif\ifextended\extendedfalse
+\newif\ifdotikz\dotikzfalse
+\newif\ifmakeallproofsinline\makeallproofsinlinefalse
+
+% remove for inline references
+%\inlinereftrue
+% remove for submission and final version
+\draftfalse
+% remove for final version
+\finaltrue
+% remove for extended version
+%\extendedtrue
+% activate to show all proofs inline
+% deactivate to show proofs where they are "located" (see macros below)
+%\makeallproofsinlinetrue
+
+% deactivate this to not compute in-line graphics
+%\dotikztrue
+%
+% activate above line and use the following to recompute in-line graphics
+%   for j in $(egrep 'beginpgfgraphicnamed\{[^\{\}]*\}' Readme.tex | tr \{\} ' ' | awk '{print $2;}'); do pdflatex --jobname=$j Readme.tex ; mv $j.pdf figures/ ; done
+%
+
+\usepackage{color}
+\usepackage{url}
+
+\usepackage{tikz}
+\pgfrealjobname{Readme}
+\usetikzlibrary{shapes,arrows,backgrounds,chains,%
+matrix,patterns,arrows,decorations.pathmorphing,decorations.pathreplacing,%
+positioning,fit,calc,decorations.text,shadows,plotmarks%
+}
+
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+
+\ifdotikz
+\usepackage{tikz}
+\pgfrealjobname{hexcdcl}
+\usetikzlibrary{shapes,arrows,backgrounds,chains,%
+matrix,patterns,arrows,decorations.pathmorphing,decorations.pathreplacing,%
+positioning,fit,calc,decorations.text,shadows%
+}
+\else
+\long\def\beginpgfgraphicnamed#1#2\endpgfgraphicnamed{\includegraphics{#1}}
+\fi
+
+\makeatletter
+\pgfdeclareshape{document}{
+	\inheritsavedanchors[from=rectangle] % this is nearly a rectangle
+	\inheritanchorborder[from=rectangle]
+	\inheritanchor[from=rectangle]{center}
+	\inheritanchor[from=rectangle]{north}
+	\inheritanchor[from=rectangle]{south}
+	\inheritanchor[from=rectangle]{west}
+	\inheritanchor[from=rectangle]{east}
+	% ... and possibly more
+	\backgroundpath{% this is new
+		% store lower right in xa/ya and upper right in xb/yb
+		\southwest \pgf@xa=\pgf@x \pgf@ya=\pgf@y
+		\northeast \pgf@xb=\pgf@x \pgf@yb=\pgf@y
+		% compute corner of flipped page
+		\pgf@xc=\pgf@xb \advance\pgf@xc by-10pt % this should be a parameter
+		\pgf@yc=\pgf@yb \advance\pgf@yc by-10pt
+		% construct main path
+		\pgfpathmoveto{\pgfpoint{\pgf@xa}{\pgf@ya}}
+		\pgfpathlineto{\pgfpoint{\pgf@xa}{\pgf@yb}}
+		\pgfpathlineto{\pgfpoint{\pgf@xc}{\pgf@yb}}
+		\pgfpathlineto{\pgfpoint{\pgf@xb}{\pgf@yc}}
+		\pgfpathlineto{\pgfpoint{\pgf@xb}{\pgf@ya}}
+		\pgfpathclose
+		% add little corner
+		\pgfpathmoveto{\pgfpoint{\pgf@xc}{\pgf@yb}}
+		\pgfpathlineto{\pgfpoint{\pgf@xc}{\pgf@yc}}
+		\pgfpathlineto{\pgfpoint{\pgf@xb}{\pgf@yc}}
+		\pgfpathlineto{\pgfpoint{\pgf@xc}{\pgf@yc}}
+	}
+}
+\makeatother
+
+\newcommand{\dlvhex}{{\sc dlvhex}}
+\newcommand{\hex}{{\sc hex}}
+
+\begin{document}
+	
+	\title{The \dlvhex{} Benchmark System}
+	\author{Christoph Redl}
+	\maketitle
+	
+	\section{Introduction}
+	\label{sec:introduction}
+		
+		This repository contains scripts for benchmarking the \hex-program reasoner \dlvhex.
+		The script system is designed to be easy to use yet customizable.
+		The user is required to provide no more than one script for each benchmark problem,
+		which essentially specifies problem-specific parameters and then delegates the call
+		to generic scripts provided by this repository.
+		
+		The system
+		is intended to run benchmark instances with multiple \dlvhex{} configurations
+		and extract benchmark parameters (such as grounding and solving time, number of answer sets) for each.
+		It supports automated scheduling of instances, parameter extraction,
+		aggregating the parameters,
+		generating a table in text or \LaTeX{} format,
+		and comparison of the results with previous runs.
+			
+	\section{Using the System}
+	\label{sec:usage}
+			
+		In order to use the benchmark system for a concrete benchmark problem,
+		the file {\tt run\_template.sh} from the {\tt benchmarks/scripts} directory
+		should be copied to {\tt run.sh} within the benchmark problem's directory.
+		The file needs then to be adopted to the problem by modifying the lines
+		marked with (1), (2) and (3) as follows.
+		\begin{enumerate}
+		\item[(1)] The loop condition which iterates over the instances of the benchmark needs to be configured.
+			Usually this condition will iterate over files, but sometimes also an iteration in a certain range can be useful.
+		\item[(2)] Here the \dlvhex{} configurations to be compared should be entered in a semicolon-separated list.
+		\item[(3)] Here the actual command-line, without configuration-specific options, needs to be inserted.
+			The tokens {\tt INST} and {\tt CONF} will be substituted by the instance name and the current configuration, respectively.
+		\end{enumerate}
+		
+		Note that the scripts {\tt runinsts.sh} and {\tt runconfs.sh} support more
+		parameters than shown in {\tt run\_template.sh}.
+		However, the default values are good for most benchmarks.
+		If the aggregation of the results or
+		the extraction of benchmark parameters from the runs needs to be customized,
+		then Section~\ref{sec:architecture} is a good starting point to learn about the parameters.
+		
+		It is convenient to add the path to the {\tt benchmarks/scripts} directory to the {\tt PATH} variable.
+		In this case, scheduling the benchmark instances is possible by simply calling {\tt ./run.sh}.
+		
+		Moreover, the beginnings of {\tt run.sh} scripts are in many cases exactly
+		like in {\tt run\_template.sh}. Thus this part can be directly imported by
+		\begin{center}
+			{\tt source dlvhex\_run\_header.sh}
+		\end{center}
+		provided that the benchmark script directory is the {\tt PATH} variable.
+			
+	\section{Architecture of the Benchmark System}
+	\label{sec:architecture}
+			
+		The following subsections describe the existing files of the benchmark system.
+		Note that except for {\tt run\_template.sh}, which serves as an example
+		for writing a benchmark-specific file {\tt run.sh}, none of these files need
+		to be modified by the user.
+		The architecture is visualized in Figure~\ref{fig:architecture}.
+		
+		\begin{figure}
+			\centering
+			\beginpgfgraphicnamed{architecture}
+			\begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=1.0cm,semithick]
+				\matrix(m)[matrix of nodes,row sep=0.5cm,column sep=2cm,
+					nodes={draw, % General options for all nodes
+					  line width=1.0pt,
+					  anchor=center, 
+					  text centered,
+					  minimum width=4.0cm
+					},
+					script/.style={
+						line width=1.25pt,
+						text width=3.5cm, 
+						minimum height=9mm
+					},
+					user/.style={
+						draw=none
+					}
+				]{
+					|[user]| User & |[document]| table.dat \\
+					|[script]| \tt run.sh (all) & \\
+					|[script]| \tt runinsts.sh & |[script]| \tt aggregateresults.sh \\
+					|[script]| \tt runconfs.sh & |[document]| inst.out \\
+					|[script]| \tt run.sh (single) & |[script]| \tt outputbuilder.sh \\
+				};
+			
+				\path[draw,->] (m-1-1) -- node {} (m-2-1);
+				\path[draw,->] (m-2-1) -- node {} (m-3-1);
+				\path[draw,->] (m-3-1) -- node {} (m-4-1);
+				\path[draw,->] (m-4-1) -- node {} (m-5-1);
+				\path[draw,->] (m-5-1) -- node {}  (m-5-2);
+				\path[draw,->,dashed] (m-5-2) -- node {} (m-4-2);
+				\path[draw,->,dashed] (m-4-2) -- node {} (m-3-2);
+				\path[draw,->,dashed] (m-3-2) -- node {} (m-1-2);
+				\path[draw,->] (m-3-1) -- node {} (m-3-2);
+			\end{tikzpicture}
+		\endpgfgraphicnamed
+			
+		\caption{Benchmark System Architecture}
+		\label{fig:architecture}
+		\end{figure}
+		
+		\subsection{\tt run\_template.sh}
+		
+			This file is an example for an implementation of {\tt run.sh}.
+		    It specifies how to execute a single instance under various configurations
+		    and how to iterate over the instances of the benchmark.
+		    
+		    The parameters mainly specify whether to execute all instances
+		    of the benchmark (using further scripts from the benchmark system)
+		    or a single instance.
+		    Note that this script is (indirectly) recursively called:
+		    usually, the first call is to evaluate all instances, which internally
+		    calls {\tt runinsts.sh}, which in turn makes another call of {\tt run.sh}
+		    for evaluating every single instance.
+		
+		    However, this recursion is managed by the benchmark system.
+		    The use only needs to adopt {\tt run.sh} as described in Section~\ref{sec:usage}.
+		
+		    \medskip\noindent{\bf Parameters:}
+		    \begin{itemize}
+				\item[{\tt \$1}:] (optional) {\tt "all"}, {\tt "allseq"} or {\tt "single"}, default is {\tt "all"}
+					\begin {itemize}
+						\item If {\tt \$1} is {\tt "all"} then there are no further mandatory parameters
+							\begin{itemize}
+								\item[{\tt \$2}:] (optional) timeout, default is $300$
+								\item[{\tt \$3}:] (optional) directory with the benchmark scripts
+							\end{itemize}
+						\item If {\tt \$1} is {\tt "allseq"} then there are no further mandatory parameters
+							\begin{itemize}
+								\item[{\tt \$2}:] (optional) timeout, default is $300$
+								\item[{\tt \$3}:] (optional) directory with the benchmark scripts
+							\end{itemize}
+						\item If {\tt \$1} is {\tt "single"} then
+							\begin{itemize}
+								\item[{\tt \$2}:] instance name
+								\item[{\tt \$3}:] timeout in seconds
+								\item[{\tt \$4}:] (optional) directory with the benchmark scripts
+							\end{itemize}
+					\end{itemize}
+		    \end{itemize}
+				
+		\subsection{\tt runinsts.sh}
+		
+		    This script implements a loop over instances and schedules them for execution,
+		    which is done either sequentially or in parallel using Condor HT.
+		    It is usually called from {\tt run.sh} of a concrete benchmark problem.
+		    
+		    The parameters of the script control the loop condition
+		    and the command used for executing a single instance.
+		    This script will also call aggregate.sh after execution of all instance
+		    to produce the final benchmark table.
+				
+		    \medskip\noindent{\bf Parameters:}
+		    \begin{itemize}
+				\item[{\tt \$1}:] (optional) Instance loop condition, default is {\tt *.hex}
+				\item[{\tt \$2}:] (optional) Single benchmark command, default is {\tt ./run.sh}
+				\item[{\tt \$3}:] (optional) Working directory, default is {\tt \$PWD}
+				\item[{\tt \$4}:] (optional) Timeout, default is {\tt $300$}
+				\item[{\tt \$5}:] (optional) Custom aggregation script, default is {\tt aggregateresults.sh}
+					in the benchmark scripts directory
+				\item[{\tt \$6}:] (optional) Name of the benchmark, default is the name of the working directory
+				\item[{\tt \$7}:] (optional) requirements file (cf. Section~\ref{sec:reqfile})
+		    \end{itemize}
+		 
+		 	When the script makes a call for executing a single benchmark instance
+		 	as specified by {\tt \$2}, it will run
+		 	\begin{center}
+		 		{\tt \$2 single INST TO SCRIPTS},
+		 	\end{center}
+		 	where {\tt INST} is the current instance (an element of the loop specified in {\tt \$1}),
+		 	{\tt TO} is the timeout specified in {\tt \$4}
+		 	and {\tt SCRIPTS} is the path of the benchmark scripts directly.
+				
+		\subsection{\tt runconfs.sh}
+		
+		    This script implements the evaluation of
+		    a single instance under various configurations.
+		    It is usually called from {\tt run.sh} of a concrete benchmark problem
+		    that needs to evaluate a single instance.
+		
+		    The parameters control the configurations to be compared
+		    and the name of an output builder.
+		
+		    \medskip\noindent{\bf Parameters:}
+		    \begin{itemize}
+				\item[{\tt \$1}:] Command for executing an instance, which may contain the constant {\tt CONF} as a placeholder
+					for options to be inserted and {\tt INST} as a placeholder for the instance
+				\item[{\tt \$2}:] A semicolon-separated list of configuration strings to be substituted for {\tt CONF} in {\tt \$1}
+				\item[{\tt \$3}:] Instance to be inserted in the command string in {\tt \$1} for {\tt INST}
+				\item[{\tt \$4}:] Timeout
+				\item[{\tt \$5}:] (optional) Custom output builder name of a script to build the output of a run, which gets the parameters, default is {\tt timeoutputbuilder.sh}
+					in the benchmark scripts directory. A custom output builder needs to behave as described in Section~\ref{sec:outputbuilder}.
+		    \end{itemize}
+				
+		\subsection{\tt aggregateresults.sh}
+		
+		    Generates the final output of a benchmark as a table in text format.
+		    As standard input the file gets the concatenation of the outputs for all instances produced by the output builder (cf. Section~\ref{sec:outputbuilder}).
+		
+		    \medskip\noindent{\bf Parameters:}
+		    \begin{itemize}
+				\item[{\tt \$1}:] (optional) Timeout value to be used for {\tt ---} and {\tt ===} instances
+				\item[{\tt \$2},{\tt \$3}:] (optional) Start position and length of instance size information in the instance filenames (index origin $1$),
+					or $0$ and $0$ for auto-detection, default is auto-detection
+				\item[{\tt \$4}:] (optional) Comma-separated lists of column indices to compute means
+				\item[{\tt \$5}:] (optional) Comma-separated lists of column indices to compute maxima
+				\item[{\tt \$6}:] (optional) Comma-separated lists of column indices to minima
+				\item[{\tt \$7}:] (optional) Comma-separated lists of column indices to sums
+		    \end{itemize}
+		
+			In the input, column 1 is interpreted as instance size and used as the aggregation column.
+		
+			The default for {\tt \$4-\$7}
+			is to compute means of odd and sums of even columns (interpreted as times and timeouts, respectively).
+			
+	\section{Requirements File}
+	\label{sec:reqfile}
+			
+		The requirements file specifies the hardware resources to be allocated
+		for the benchmark run.
+		
+		The file is roughly a resource specification to be added to
+		HTCondor job files\footnote{\url{http://research.cs.wisc.edu/htcondor/}}.
+		In addition, the following specification may be part of a resource file:
+		\begin{itemize}
+		\item {\tt \# sequential} \\
+			Evaluate all instances in sequence (not using HTCondor).
+		\item {\tt \# ExtendedNotification = mail@address.com} \\
+			 Send the benchmark results by e-mail. 
+		\end{itemize}
+
+	
+	\section{Output Builders}
+	\label{sec:outputbuilder}
+			
+		An output builder is a script which extracts the actual benchmark parameters
+		from a run. This is the information the user is interest in. Usually it
+		includes timing information (e.g. grounding and solving time), the number of answer sets, etc.
+		
+		An output builder gets the following parameters:
+		    \begin{itemize}
+				\item[{\tt \$1}:] Return value of the reasoner call ($0$ if success, $124$ if timeout, $\not= 0$ if failed)
+				\item[{\tt \$2}:] file with the overall runtime of the reasoner call
+				\item[{\tt \$3}:] file with standard output of the reasoner call
+				\item[{\tt \$4}:] file with standard error of the reasoner call
+		    \end{itemize}
+		
+		The output builder needs to return $0$ if the output builder succeeded (note that the output builder can succeed in extracting information even if the reasoner failed!)
+		and $\not=0$ if the output builder itself failed.
+		
+		It further needs to write a space-separated list of the actual benchmark parameters to standard output.
+		This is usually a list of numbers to represent timing information, timeouts, number of answer sets, etc. For time values,
+		the special values {\tt ---} and {\tt ===} for representing timeouts and memory outs, respectively, are supported.
+		If the {\tt ---} or {\tt ===} is produced for some columns, the output builder can still return $0$, i.e.,
+		output building counts as succeeded.
+		In contrast, if the output builder completely fails to extract some information, it should output {\tt FAIL} for the according column
+		and return $\not=0$; detailed error descriptions are allowed on standard error.
+		
+		The benchmark script directory provides the following predefined output builders:
+				
+		\begin{itemize}
+		    \item {\tt timeoutbuilder.sh} extracts the overall time (one time column and a column $0/1$ for tagging successful/timeout instances)
+		    \item {\tt gstimeoutbuilder.sh} extracts the overall time, the grounding and the solving time (each accompanied by a column $0/1$ for tagging successful/timeout instances).
+		    \item {\tt ansctimeoutputbuilder} extracts the overall time (accompanied by a column $0/1$ for tagging successful/timeout instances) and the number of answer sets.
+		\end{itemize}
+			
+	\section{Advanced Features}
+	\label{sec:advanced}
+			
+		\subsection{Running Multiple Benchmarks}
+		\label{sec:advanced:multiple}
+					
+			The system supports to run multiple benchmarks and running a final script with a single call.
+			To this end, the script {\tt multibenchmark.sh} should be used.
+			
+			    \medskip\noindent{\bf Parameters:}
+			    \begin{itemize}
+					\item[{\tt \$1}:] A file which defines the benchmarks to be executed.
+						Each line of this file is of form
+						\begin{center}
+							{\tt BENCHMARKNAME=PATH},
+						\end{center}
+						where {\tt PATH} needs to point to the {\tt run.sh} script of the according benchmark.
+					\item[{\tt \$2}:] Output directory for the overall benchmark results
+					\item[{\tt \$3}:] Requirements file to be used for all benchmarks (cf. Section~\ref{reqfile})
+					\item[{\tt \$4}:] (optional) Either script to be executed after benchmarks have been finished; working directory will be {\tt \$2},
+					    or directory with reference benchmark results
+			    \end{itemize}
+			
+				After completion of all benchmarks, {\tt \$4} will be called (if existing); it gets the names of all benchmarks as parameters
+				and is intended to compare the new results to reference results.
+					
+		\subsection{Comparison with Previous Results}
+					
+			The benchmark system supports to compare benchmark results
+			to previous runs.
+			To this end, {\tt multibenchmark.sh}
+			supports to specify in {\tt \$4} a directory with reference output.
+			It is expected that for each benchmark with name {\tt BM},
+			there is a reference output in {\tt \$4/BM/BM.dat}.
+			
+			By default, the comparison procedure checks if there is an
+			instance and configuration with a difference in runtime of more than $5$ seconds and more than $10\%$.
+			However, this behavior can be overridden for each benchmark
+			by providing a custom comparison file {\tt compare.sh}
+			in the same directory as the {\tt run.sh} file of the according benchmark.
+			
+			Script {\tt compare.sh} gets as parameters:
+			    \begin{itemize}
+					\item[{\tt \$1}:] File (table) with the current benchmark results
+					\item[{\tt \$1}:] File (table) with the reference benchmark results
+			    \end{itemize}
+			
+			It is expected to return $0$ if there were no significant changes,
+			$1$ if comparison failed, and $2$ if there were significant changes.
+					
+		\subsection{Generating \LaTeX-Tables}
+					
+			The output of a benchmark table {\tt table.dat} in text format
+			may be passed to the script {\tt tolatextable.sh} to produce valid \LaTeX{} code.
+
+			\medskip\noindent{\bf Parameters:}
+		    \begin{itemize}
+				\item[{\tt \$1}:] (optional) \LaTeX{} package to use for creating table header \\
+					Valid values: {\tt none}, {\tt standard}, {\tt booktabs}, default is {\tt none} (only table body)
+				\item[{\tt \$2}:] (optional) Pattern how to format each line (without final {\tt \textbackslash\textbackslash}) \\
+					The string may consists of constant parts and expressions of form
+					{\tt \$\{val[i]\}} to refer to the value of the $i$-th colum
+					or {\tt \$\{fill[i]\}} to refer to a sequence of double-tile ($\sim\sim$) required to align this column. \\
+					Default: \\
+					{\tt \$\{val[0]\} \$\{fill[1]\}(\$\{val[1]\}) \& \\
+					 \$\{val[2]\} \$\{fill[3]\}(\$\{val[3]\}) \& \ldots} \\
+					(pairs of columns are put in the same LaTeX table with even columns being interpreted as times
+					and odd ones as timeouts which are put in parentheses)
+				\item[{\tt \$3}:] (optional) {\tt subst} \\
+					for a more convenient syntax for {\tt \$2}: {\tt \$\{val[i]\}} and {\tt \$\{fill[i]\}} can be written as {\tt val[i]} and {\tt fill[i]}, respectively
+		    \end{itemize}
+
+\end{document}
