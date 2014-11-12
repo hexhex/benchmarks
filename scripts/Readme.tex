@@ -114,7 +114,7 @@ positioning,fit,calc,decorations.text,shadows%
 		\item[(1)] The loop condition which iterates over the instances of the benchmark needs to be configured.
 			Usually this condition will iterate over files, but sometimes also an iteration in a certain range can be useful.
 		\item[(2)] Here the \dlvhex{} configurations to be compared should be entered in a semicolon-separated list.
-		\item[(3)] Here the actual command-line needs to be inserted (without configuration-specific options).
+		\item[(3)] Here the actual shell command for a reasoner call needs to be inserted (without configuration-specific options).
 			The tokens {\tt INST} and {\tt CONF} will be substituted by the instance name and the current configuration, respectively.
 		\end{enumerate}
 		
@@ -126,8 +126,10 @@ positioning,fit,calc,decorations.text,shadows%
 		then Section~\ref{sec:architecture} is a good starting point to learn about the parameters.
 		
 		It is convenient to add the path to the {\tt benchmarks/scripts} directory to the {\tt PATH} variable.
-		In this case, scheduling the benchmark instances is possible by simply calling {\tt ./run.sh}.
-		
+		In this case, scheduling the benchmark instances is possible by simply calling {\tt ./run.sh},
+		otherwise the path to this directory needs to be passed as parameter to {\tt run.sh}
+		(cf. Section~\ref{sec:architecture:run}).
+
 		Moreover, the beginnings of {\tt run.sh} scripts are in many cases exactly
 		like in {\tt run\_template.sh}. Thus this part can be directly imported by
 		\begin{center}

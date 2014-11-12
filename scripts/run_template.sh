@@ -32,7 +32,7 @@
 inputok=1
 if [[ $# -eq 0 ]]; then
 	inputok=1
-elif [[ $1 == "" ]] && [[ $1 != "all" ]] && [[ $1 != "allseq" ]] && [[ $1 != "single" ]]; then
+elif [[ $1 != "" ]] && [[ $1 != "all" ]] && [[ $1 != "allseq" ]] && [[ $1 != "single" ]]; then
 	inputok=0
 elif [[ $1 == "single" ]] && [[ $# -lt 3 ]]; then
 	inputok=0
@@ -69,7 +69,7 @@ else
 	all=0
 fi
 if [[ $all -eq 1 ]]; then
-	if [[ $# -ge 2 ]]; then
+	if [[ $# -ge 2 ]] && [[ $2 != "" ]]; then
 		to=$2
 	else
 		to=300
