@@ -12,8 +12,9 @@
 #	./run.sh all 300 PATH_TO_BENCHMARK_SCRIPTS
 #
 # In many cases, run scripts will be exactly like this template until the
-# very last if block. Thus they may simply include this part,
-# provided in file dlvhex_run_header.sh, as follows:	
+# very last if block (*). Thus they may simply include this part,
+# provided in file dlvhex_run_header.sh and continue with
+# an adopted version of block (*), as follows:	
 #
 # 	runheader=$(which dlvhex_run_header.sh)
 # 	if [[ $runheader == "" ]] || [ $(cat $runheader | grep "dlvhex_run_header.sh Version 1." | wc -l) == 0 ]; then
@@ -21,6 +22,8 @@
 # 		exit 1
 # 	fi
 # 	source $runheader
+#
+#	[adopted block (*)]
 #
 # Note: The scripts output some additional information to stderr,
 #       which should be redirected to /dev/null unless you are debugging.
@@ -96,6 +99,9 @@ fi
 mydir="$(dirname $0)"
 mydir=$(cd $mydir; pwd)
 
+#
+# (*)
+# 
 # HERE THE BENCHMARK-SPECIFIC PART STARTS
 if [[ $all -eq 1 ]]; then
 	# ============================================================
@@ -104,7 +110,11 @@ if [[ $all -eq 1 ]]; then
 	# ============================================================
 
 	# run all instances using the benchmark script runinsts.sh
-	$bmscripts/runinsts.sh "instances/*.hex" "$mydir/run.sh" "$mydir" "$to"	# (1)
+	$bmscripts/runinsts.sh "instances/*.hex" "$mydir/run.sh" "$mydir" "$to"                             # (1)
+
+	# In order to use a custom aggregation script "myagg.sh" (in the same directory as run.sh)
+	# and/or a custom benchmark name "bmname", use:
+	# $bmscripts/runinsts.sh "instances/*.hex" "$mydir/run.sh" "$mydir" "$to" "$mydir/agg.sh" "bmname"  # (1 [alternative])
 else
 	# ============================================================
 	# Define the variable "confstr" in (2) as a semicolon-
@@ -116,7 +126,10 @@ else
 	# ============================================================
 
 	# run single instance
-	confstr="--solver=genuinegc;--solver=genuineii" # (2)
-	$bmscripts/runconfigs.sh "dlvhex2 --plugindir=../../src INST CONF" "$confstr" "$instance" "$to" # (3)
+	confstr="--solver=genuinegc;--solver=genuineii"                                                                    # (2)
+	$bmscripts/runconfigs.sh "dlvhex2 --plugindir=../../src INST CONF" "$confstr" "$instance" "$to"                    # (3)
+
+	# In order to use a custom output builder "myob.sh" (in the same directory as run.sh), use:
+	# $bmscripts/runconfigs.sh "dlvhex2 --plugindir=../../src INST CONF" "$confstr" "$instance" "$to" "$mydir/myob.sh" # (3 [alternative])
 fi
 

@@ -9,9 +9,9 @@ if [ $# != 4 ] && [ $# != 5 ]; then
 	echo " $3: Instance to be inserted in the command string at position INST" 1>&2
 	echo " $4: Timeout" 1>&2
 	echo " $5: [optional] Custom output builder name of a script to build the output of a run, which gets the parameters" 1>&2
-	echo "	  $1: return value of command (0 if success, 124 if timeout, != 0 if failed)" 1>&2
-	echo "	  $2: file with stdout of command" 1>&2
-	echo "	  $3: file with stderr of command" 1>&2
+	echo "	  $1: Return value of command (0 if success, 124 if timeout, != 0 if failed)" 1>&2
+	echo "	  $2: File with stdout of command" 1>&2
+	echo "	  $3: File with stderr of command" 1>&2
 	echo "" 1>&2
 	echo " Return value:" 1>&2
 	echo "	0 if execution of the script was successful (not necessarily the actual instance)" 1>&2

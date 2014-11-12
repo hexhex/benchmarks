@@ -139,7 +139,7 @@ positioning,fit,calc,decorations.text,shadows%
 		if {\tt \$1="single"}, and
 		{\tt all=1}, {\tt to=\$2}, {\tt bmscripts=\$3} otherwise (cf. Section~\ref{sec:architecture:run}).
 		Moreover, {\tt mydir} will be set to the absolute path of the directory where
-		the current {\tt run.sh} script is located.
+		the current {\tt run.sh} script is located and {\tt req} to the requirements file to be used.
 			
 	\section{Architecture of the Benchmark System}
 	\label{sec:architecture}
@@ -154,6 +154,8 @@ positioning,fit,calc,decorations.text,shadows%
 		({\tt runinsts.sh} and {\tt runconfs.sh}; those are not benchmark-specific) to schedule all instances for all \dlvhex{} configurations
 		which are to be compared. Those scripts will make callbacks to {\tt run.sh} for evaluating single instances
 		(approprate parameters make this script run a single instance rather than all instances in the initial call).
+		Note that the two {\tt run.sh} nodes in Figure~\ref{fig:architecture} refer
+		to a single physical file.
 		
 		For each finished instance, the script system will call an {\tt outputbuilder.sh}
 		which extracts the actual benchmark parameters the user is interested in,
@@ -264,19 +266,19 @@ positioning,fit,calc,decorations.text,shadows%
 					\begin {itemize}
 						\item If {\tt \$1} is {\tt "all"} then the instances are evaluated in parallel using HTCondor. There are no further mandatory parameters.
 							\begin{itemize}
-								\item[{\tt \$2}:] (optional) Timeout, default is $300$
-								\item[{\tt \$3}:] (optional) Directory with the benchmark scripts
+								\item[{\tt \$2}:] (optional) Timeout, default is $300$.
+								\item[{\tt \$3}:] (optional) Directory with the benchmark scripts.
 							\end{itemize}
 						\item If {\tt \$1} is {\tt "allseq"} then the instances are evaluated sequentially. There are no further mandatory parameters.
 							\begin{itemize}
-								\item[{\tt \$2}:] (optional) Timeout, default is $300$
-								\item[{\tt \$3}:] (optional) Directory with the benchmark scripts
+								\item[{\tt \$2}:] (optional) Timeout, default is $300$.
+								\item[{\tt \$3}:] (optional) Directory with the benchmark scripts.
 							\end{itemize}
 						\item If {\tt \$1} is {\tt "single"} then a single instance is evaluated. There are three more mandatory parameters:
 							\begin{itemize}
-								\item[{\tt \$2}:] Instance name
-								\item[{\tt \$3}:] Timeout in seconds
-								\item[{\tt \$4}:] (optional) Directory with the benchmark scripts
+								\item[{\tt \$2}:] Instance name.
+								\item[{\tt \$3}:] Timeout in seconds.
+								\item[{\tt \$4}:] (optional) Directory with the benchmark scripts.
 							\end{itemize}
 					\end{itemize}
 		    \end{itemize}
@@ -295,14 +297,14 @@ positioning,fit,calc,decorations.text,shadows%
 				
 		    \medskip\noindent{\bf Parameters:}
 		    \begin{itemize}
-				\item[{\tt \$1}:] (optional) Instance loop condition, default is {\tt *.hex}
-				\item[{\tt \$2}:] (optional) Single benchmark command, default is {\tt ./run.sh}
-				\item[{\tt \$3}:] (optional) Working directory, default is {\tt \$PWD}
-				\item[{\tt \$4}:] (optional) Timeout, default is {\tt $300$}
+				\item[{\tt \$1}:] (optional) Instance loop condition, default is {\tt *.hex}.
+				\item[{\tt \$2}:] (optional) Single benchmark command, default is {\tt ./run.sh}.
+				\item[{\tt \$3}:] (optional) Working directory, default is {\tt \$PWD}.
+				\item[{\tt \$4}:] (optional) Timeout, default is {\tt $300$}.
 				\item[{\tt \$5}:] (optional) Custom aggregation script, default is {\tt aggregateresults.sh}
-					in the benchmark scripts directory
-				\item[{\tt \$6}:] (optional) Name of the benchmark, default is the name of the working directory
-				\item[{\tt \$7}:] (optional) requirements file (cf. Section~\ref{sec:reqfile})
+					in the benchmark scripts directory.
+				\item[{\tt \$6}:] (optional) Name of the benchmark, default is the name of the working directory.
+				\item[{\tt \$7}:] (optional) requirements file (cf. Section~\ref{sec:reqfile}).
 		    \end{itemize}
 		 
 		 	When the script makes a call for executing a single benchmark instance
@@ -328,10 +330,10 @@ positioning,fit,calc,decorations.text,shadows%
 		    \medskip\noindent{\bf Parameters:}
 		    \begin{itemize}
 				\item[{\tt \$1}:] Command for executing an instance, which may contain the constant {\tt CONF} as a placeholder
-					for options to be inserted and {\tt INST} as a placeholder for the instance
-				\item[{\tt \$2}:] A semicolon-separated list of configuration strings to be substituted for {\tt CONF} in {\tt \$1}
-				\item[{\tt \$3}:] Instance to be inserted in the command string in {\tt \$1} for {\tt INST}
-				\item[{\tt \$4}:] Timeout
+					for options to be inserted and {\tt INST} as a placeholder for the instance.
+				\item[{\tt \$2}:] A semicolon-separated list of configuration strings to be substituted for {\tt CONF} in {\tt \$1}.
+				\item[{\tt \$3}:] Instance to be inserted in the command string in {\tt \$1} for {\tt INST}.
+				\item[{\tt \$4}:] Timeout.
 				\item[{\tt \$5}:] (optional) Custom output builder name of a script to build the output of a run, which gets the parameters, default is {\tt timeoutputbuilder.sh}
 					in the benchmark scripts directory. A custom output builder needs to behave as described in Section~\ref{sec:outputbuilder}.
 		    \end{itemize}
@@ -344,13 +346,13 @@ positioning,fit,calc,decorations.text,shadows%
 
 		    \medskip\noindent{\bf Parameters:}
 		    \begin{itemize}
-				\item[{\tt \$1}:] (optional) Timeout value to be used for {\tt ---} and {\tt ===} instances
+				\item[{\tt \$1}:] (optional) Timeout value to be used for {\tt ---} and {\tt ===} instances.
 				\item[{\tt \$2},{\tt \$3}:] (optional) Start position and length of instance size information in the instance filenames (index origin $1$),
-					or $0$ and $0$ for auto-detection, default is auto-detection
-				\item[{\tt \$4}:] (optional) Comma-separated lists of column indices to compute means
-				\item[{\tt \$5}:] (optional) Comma-separated lists of column indices to compute maxima
-				\item[{\tt \$6}:] (optional) Comma-separated lists of column indices to minima
-				\item[{\tt \$7}:] (optional) Comma-separated lists of column indices to sums
+					or $0$ and $0$ for auto-detection, default is auto-detection.
+				\item[{\tt \$4}:] (optional) Comma-separated lists of column indices to compute means.
+				\item[{\tt \$5}:] (optional) Comma-separated lists of column indices to compute maxima.
+				\item[{\tt \$6}:] (optional) Comma-separated lists of column indices to minima.
+				\item[{\tt \$7}:] (optional) Comma-separated lists of column indices to sums.
 		    \end{itemize}
 
 			In the input, column 1 is interpreted as instance size and used as the aggregation column.
@@ -366,16 +368,24 @@ positioning,fit,calc,decorations.text,shadows%
 			
 		The requirements file specifies the hardware resources to be allocated
 		for the benchmark run.
+		An example is available in {\tt req\_template}.
 		
 		The file is roughly a resource specification to be added to
 		HTCondor job files\footnote{\url{http://research.cs.wisc.edu/htcondor/}}.
 		In addition, the following specification may be part of a resource file:
 		\begin{itemize}
-		\item {\tt \# sequential} \\
-			Evaluate all instances in sequence (not using HTCondor).
-		\item {\tt \# ExtendedNotification = mail@address.com} \\
-			 Send the benchmark results by e-mail. 
+			\item {\tt \# sequential} \\
+				Evaluate all instances in sequence (not using HTCondor).
+			\item {\tt \# ExtendedNotification = mail@address.com} \\
+				 Send the benchmark results by e-mail. 
 		\end{itemize}
+
+		The script system will use as requirements file the first one of the following which exists:
+		\begin{enumerate}
+			\item The file passed as argument {\tt \$7} to {\tt runinsts.sh}.
+			\item The file {\tt req} in the same directory as the {\tt run.sh} script.
+			\item The file {\tt req} in the {\tt benchmarks/scripts} directory.
+		\end{enumerate}
 
 	
 	\section{Output Builders}
@@ -387,10 +397,10 @@ positioning,fit,calc,decorations.text,shadows%
 		
 		An output builder gets the following parameters:
 		    \begin{itemize}
-				\item[{\tt \$1}:] Return value of the reasoner call ($0$ if success, $124$ if timeout, $\not= 0$ if failed)
-				\item[{\tt \$2}:] file with the overall runtime of the reasoner call
-				\item[{\tt \$3}:] file with standard output of the reasoner call
-				\item[{\tt \$4}:] file with standard error of the reasoner call
+				\item[{\tt \$1}:] Return value of the reasoner call ($0$ if success, $124$ if timeout, $\not= 0$ if failed).
+				\item[{\tt \$2}:] file with the overall runtime of the reasoner call.
+				\item[{\tt \$3}:] file with standard output of the reasoner call.
+				\item[{\tt \$4}:] file with standard error of the reasoner call.
 		    \end{itemize}
 		
 		The output builder needs to return $0$ if the output builder succeeded (note that the output builder can succeed in extracting information even if the reasoner failed!)
@@ -407,36 +417,83 @@ positioning,fit,calc,decorations.text,shadows%
 		The benchmark script directory provides the following predefined output builders:
 				
 		\begin{itemize}
-		    \item {\tt timeoutbuilder.sh} extracts the overall time (one time column and a column $0/1$ for tagging successful/timeout instances)
+		    \item {\tt timeoutbuilder.sh} extracts the overall time (one time column and a column $0/1$ for tagging successful/timeout instances).
 		    \item {\tt gstimeoutbuilder.sh} extracts the overall time, the grounding and the solving time (each accompanied by a column $0/1$ for tagging successful/timeout instances).
-		    \item {\tt ansctimeoutputbuilder} extracts the overall time (accompanied by a column $0/1$ for tagging successful/timeout instances) and the number of answer sets.
+		    \item {\tt ansctimeoutputbuilder.sh} extracts the overall time (accompanied by a column $0/1$ for tagging successful/timeout instances) and the number of answer sets.
 		\end{itemize}
 			
 	\section{Advanced Features}
 	\label{sec:advanced}
-			
+
+		This section discusses the advanced features of the benchmark system,
+		which are needed for table formatting and comparison of multiple benchmark runs.
+
+		\subsection{Table Editing}
+
+			Multiple tables generated by the benchmark system can be merged by calling
+			\begin{center}
+				{\tt mergetables.sh table1.dat table2.dat \ldots},
+			\end{center}
+			where {\tt table1.dat}, {\tt table2.dat}, \ldots are tables
+			with the same number of rows. Each row of the resulting table will be the
+			concatenation of the respective rows of the input tables, keeping the order of the tables
+			specified in the call.
+
+			A table {\tt table.dat} (which can also be a merged or previously projected table) can be projected
+			to certain columns by calling
+			\begin{center}
+				{\tt cat table.dat | colselect.sh i1 i2 \ldots},
+			\end{center}
+			where {\tt i1}, {\tt i2}, \ldots are $1$-based column indices
+			which specify the columns to select. The same index can occur multiple times.
+			The order of the output columns corresponds to the order specified on the command line.
+
+		\subsection{Generating \LaTeX-Tables}
+
+			A benchmark table {\tt table.dat} in text format
+			may be passed to the script {\tt tolatextable.sh} to produce valid \LaTeX{} code.
+			The script can produce the table header using different \LaTeX{} packages or the table body only.
+
+			\medskip\noindent{\bf Parameters:}
+			\begin{itemize}
+				\item[{\tt \$1}:] (optional) \LaTeX{} package to use for creating table header. \\
+					Valid values: {\tt none}, {\tt standard}, {\tt booktabs}, default is {\tt none} (only table body)
+				\item[{\tt \$2}:] (optional) Pattern how to format each line \\
+					The string needs to consist of constant parts and expressions of form
+					{\tt \$\{val[i]\}} to refer to the value of the $i$-th colum
+					or {\tt \$\{fill[i]\}} to refer to a sequence of double-tile ($\sim\sim$) required to align this column. \\
+					Default: \\
+					{\tt \$\{val[0]\} \$\{fill[1]\}(\$\{val[1]\}) \& \\
+					 \$\{val[2]\} \$\{fill[3]\}(\$\{val[3]\}) \& \ldots} \\
+					(pairs of columns are put in the same cell with even columns being interpreted as times
+					and odd ones as timeouts which are put in parentheses) \\
+					The pattern needs to be specified without final {\tt \textbackslash\textbackslash}.
+				\item[{\tt \$3}:] (optional) {\tt subst} (as a constant string) \\
+					If specified, then {\tt \$2} supports a more convenient syntax: {\tt \$\{val[i]\}} and {\tt \$\{fill[i]\}} can be written as {\tt val[i]} and {\tt fill[i]}, respectively.
+			\end{itemize}
+
 		\subsection{Running Multiple Benchmarks}
 		\label{sec:advanced:multiple}
 					
 			The system supports to run multiple benchmarks and running a final script with a single call.
 			To this end, the script {\tt multibenchmark.sh} should be used.
+
+			\medskip\noindent{\bf Parameters:}
+			\begin{itemize}
+				\item[{\tt \$1}:] A file which defines the benchmarks to be executed.
+					Each line of this file is of form
+					\begin{center}
+						{\tt BENCHMARKNAME=PATH},
+					\end{center}
+					where {\tt PATH} needs to point to the {\tt run.sh} script of the according benchmark.
+				\item[{\tt \$2}:] Output directory for the overall benchmark results.
+				\item[{\tt \$3}:] Requirements file to be used for all benchmarks (cf. Section~\ref{sec:reqfile}).
+				\item[{\tt \$4}:] (optional) Either script to be executed after benchmarks have been finished; working directory will be {\tt \$2},
+				    or directory with reference benchmark results.
+			\end{itemize}
 			
-			    \medskip\noindent{\bf Parameters:}
-			    \begin{itemize}
-					\item[{\tt \$1}:] A file which defines the benchmarks to be executed.
-						Each line of this file is of form
-						\begin{center}
-							{\tt BENCHMARKNAME=PATH},
-						\end{center}
-						where {\tt PATH} needs to point to the {\tt run.sh} script of the according benchmark.
-					\item[{\tt \$2}:] Output directory for the overall benchmark results
-					\item[{\tt \$3}:] Requirements file to be used for all benchmarks (cf. Section~\ref{sec:reqfile})
-					\item[{\tt \$4}:] (optional) Either script to be executed after benchmarks have been finished; working directory will be {\tt \$2},
-					    or directory with reference benchmark results
-			    \end{itemize}
-			
-				After completion of all benchmarks, {\tt \$4} will be called (if existing); it gets the names of all benchmarks as parameters
-				and is intended to compare the new results to reference results.
+			After completion of all benchmarks, {\tt \$4} will be called (if existing); it gets the names of all benchmarks as parameters
+			and is intended to compare the new results to reference results.
 					
 		\subsection{Comparison to Previous Results}
 					
@@ -455,33 +512,11 @@ positioning,fit,calc,decorations.text,shadows%
 			
 			Script {\tt compare.sh} gets as parameters:
 			    \begin{itemize}
-					\item[{\tt \$1}:] File (table) with the current benchmark results
-					\item[{\tt \$2}:] File (table) with the reference benchmark results
+					\item[{\tt \$1}:] File (table) with the current benchmark results.
+					\item[{\tt \$2}:] File (table) with the reference benchmark results.
 			    \end{itemize}
 			
 			It is expected to return $0$ if there were no significant changes,
 			$1$ if comparison failed, and $2$ if there were significant changes.
-					
-		\subsection{Generating \LaTeX-Tables}
-					
-			The output of a benchmark table {\tt table.dat} in text format
-			may be passed to the script {\tt tolatextable.sh} to produce valid \LaTeX{} code.
-
-			\medskip\noindent{\bf Parameters:}
-		    \begin{itemize}
-				\item[{\tt \$1}:] (optional) \LaTeX{} package to use for creating table header \\
-					Valid values: {\tt none}, {\tt standard}, {\tt booktabs}, default is {\tt none} (only table body)
-				\item[{\tt \$2}:] (optional) Pattern how to format each line (without final {\tt \textbackslash\textbackslash}) \\
-					The string needs to consist of constant parts and expressions of form
-					{\tt \$\{val[i]\}} to refer to the value of the $i$-th colum
-					or {\tt \$\{fill[i]\}} to refer to a sequence of double-tile ($\sim\sim$) required to align this column. \\
-					Default: \\
-					{\tt \$\{val[0]\} \$\{fill[1]\}(\$\{val[1]\}) \& \\
-					 \$\{val[2]\} \$\{fill[3]\}(\$\{val[3]\}) \& \ldots} \\
-					(pairs of columns are put in the same LaTeX table with even columns being interpreted as times
-					and odd ones as timeouts which are put in parentheses)
-				\item[{\tt \$3}:] (optional) {\tt subst} \\
-					for a more convenient syntax for {\tt \$2}: {\tt \$\{val[i]\}} and {\tt \$\{fill[i]\}} can be written as {\tt val[i]} and {\tt fill[i]}, respectively
-		    \end{itemize}
 
 \end{document}

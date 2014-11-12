@@ -23,9 +23,9 @@ if [[ $error -eq 1 ]]; then
         echo " \$2: (optional) Single benchmark command (default: ./run.sh)" 1>&2
         echo " \$3: (optional) Working directory (default: PWD)" 1>&2
 	echo " \$4: (optional) Timeout (default: 300)" 1>&2
-        echo " \$5: (optional) custom aggregation script (default: ./aggregateresults.sh)" 1>&2
+        echo " \$5: (optional) Custom aggregation script (default: ./aggregateresults.sh)" 1>&2
 	echo " \$6: (optional) Name of the benchmark (default: name of the working directory)" 1>&2
-        echo " \$7: (optional) requirements file" 1>&2
+        echo " \$7: (optional) Requirements file" 1>&2
 	echo "" 1>&2
 	echo "The script will pass 4 parameters to the single benchmark command:" 1>&2
 	echo " \$1: single" 1>&2
