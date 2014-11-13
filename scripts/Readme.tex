@@ -167,9 +167,9 @@ positioning,fit,calc,decorations.text,shadows%
 		which extracts the actual benchmark parameters the user is interested in,
 		e.g.~time information and number of answer sets,
 		from the reasoner output (standard output and standard error).
-		The result is stored in a separate file {\tt inst-n.out} for each instance {\tt n}.
+		The result is stored in a separate result file for each instance.
 		When all instances have finished, the script system further calls an \emph{aggregation script},
-		which generates the final benchmark table {\tt table.dat} from the instance outputs {\tt inst-n.out}.
+		which generates the final benchmark table from the results of individual instances.
 		The script system provides a standard output builder {\tt outputbuilder.sh} and a standard aggregation script {\tt aggregateresults.sh},
 		which are good for many benchmark problems, but customization is possible by providing alternative scripts
 		(which need to be specifid within {\tt run.sh} as described in Sections~\ref{sec:architecture:runinsts} and~\ref{sec:architecture:runconfs}).
@@ -214,10 +214,10 @@ positioning,fit,calc,decorations.text,shadows%
 						draw=none
 					}
 				]{
-					|[user]| User & |[document]| \tt table.dat \\
+					|[user]| User & |[document]| Final Benchmark Table \\
 					|[empty]| \tt run.sh (all) & \\
 					|[staticscript]| \tt runinsts.sh & |[customizeablescript]| Aggregation Script \\
-					|[empty]| \tt run.sh (single) & |[document,copy shadow,fill=white]| \tt inst-n.out \\
+					|[empty]| \tt run.sh (single) & |[document,copy shadow,fill=white]| Instance Results \\
 					|[staticscript]| \tt runconfs.sh & |[customizeablescript]| Output Builder \\
 					|[staticscript]| Reasoner ({\sc dlvhex}) & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Output \\ and Return Value\end{tabular} \\
 				};
@@ -401,8 +401,8 @@ positioning,fit,calc,decorations.text,shadows%
 	
 			An aggregation script
 		    generates the final output of a benchmark as a table in text format,
-		    given the outputs of individual instances.
-		    As standard input the file gets the concatenation of the outputs for all instances produced by the output builder (cf. Section~\ref{sec:architecture:outputbuilder}).
+		    given the results of individual instances.
+		    As standard input the file gets the concatenation of the results for all instances produced by the output builder (cf. Section~\ref{sec:architecture:outputbuilder}).
 	
 			In the input, column 1 is interpreted as instance size. The script is expected to aggregate
 			over all instances of the same size and to output a single row for each instances size.
