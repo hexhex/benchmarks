@@ -542,4 +542,32 @@ positioning,fit,calc,decorations.text,shadows%
 			It is expected to return $0$ if there were no significant changes,
 			$1$ if comparison failed, and $2$ if there were significant changes.
 
+		\subsection{Running the Standard Benchmarks}
+
+			The script {\tt runall.sh} allows for
+			running all standard benchmarks which are currently available,
+			provided that the {\sc dlvhex} core and all required plugins are installed.
+
+			To prepare this process, the script {\tt setup.sh} downloads and installs all required {\sc dlvhex} software packages
+			from scratch.
+
+			\medskip\noindent{\bf Parameters:}
+			\begin{itemize}
+				\item[{\tt \$1}:] Destination directory where all software packages are built and installed and where benchmark results are stored.
+				\item[{\tt \$2}:] (optional) URL of the benchmark instances, default is a webserver at Vienna University of Technology.
+				\item[{\tt \$3}:] (optional) Custom options for configuring {\sc dlvhex} and its plugins.
+				\item[{\tt \$4}:] (optional) Custom options for building {\sc dlvhex} and its plugins.
+				\item[{\tt \$5}:] (optional) Custom requirements file, cf. Section~\ref{sec:architecture:reqfile}.				
+			\end{itemize}
+
+			The whole process from checkout to the final benchmark tables can therefore be automated by calling
+			\begin{center}
+				{\tt setup.sh PATH}
+			\end{center}
+			for some {\tt PATH} to prepare the benchmarks, and then calling
+			\begin{center}
+				{\tt PATH/benchmarks/scripts/runall.sh}
+			\end{center}
+			to run them.
+
 \end{document}
