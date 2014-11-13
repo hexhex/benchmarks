@@ -217,8 +217,8 @@ positioning,fit,calc,decorations.text,shadows%
 					|[user]| User & |[document]| \tt table.dat \\
 					|[empty]| \tt run.sh (all) & \\
 					|[staticscript]| \tt runinsts.sh & |[customizeablescript]| Aggregation Script \\
-					|[staticscript]| \tt runconfs.sh & |[document,copy shadow,fill=white]| \tt inst-n.out \\
-					|[empty]| \tt run.sh (single) & |[customizeablescript]| Output Builder \\
+					|[empty]| \tt run.sh (single) & |[document,copy shadow,fill=white]| \tt inst-n.out \\
+					|[staticscript]| \tt runconfs.sh & |[customizeablescript]| Output Builder \\
 					|[staticscript]| Reasoner ({\sc dlvhex}) & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Output \\ and Return Value\end{tabular} \\
 				};
 
@@ -247,7 +247,7 @@ positioning,fit,calc,decorations.text,shadows%
 				\path[draw,->,dashed] (m-6-1) -- node {} (m-6-2);
 
 				\begin{pgfonlayer}{background}
-					\path[draw,fill=green!20,-,line width=1.0pt] (m-2-1.south east) -- (m-2-1.north east) -- ($(m-2-1.north west) - (1cm,0)$) -- ($(m-5-1.south west) - (1cm,0)$) -- (m-5-1.south east) -- (m-5-1.north east) -- ($(m-5-1.north west) - (0.5cm,0)$) -- ($(m-2-1.south west) - (0.5cm,0)$) -- (m-2-1.south east) -- (m-2-1.north east);
+					\path[draw,fill=green!20,-,line width=1.0pt] (m-2-1.south east) -- (m-2-1.north east) -- ($(m-2-1.north west) - (1cm,0)$) -- ($(m-4-1.south west) - (1cm,0)$) -- (m-4-1.south east) -- (m-4-1.north east) -- ($(m-4-1.north west) - (0.5cm,0)$) -- ($(m-2-1.south west) - (0.5cm,0)$) -- (m-2-1.south east) -- (m-2-1.north east);
 				\end{pgfonlayer}
 			\end{tikzpicture}
 		\endpgfgraphicnamed
@@ -274,11 +274,13 @@ positioning,fit,calc,decorations.text,shadows%
 		    or a single instance.
 		    Note that this script is (indirectly) recursively called:
 		    usually, the first call is to evaluate all instances, which internally
-		    calls {\tt runinsts.sh}, which in turn makes another call of {\tt run.sh}
+		    calls {\tt runinsts.sh}, which in turn makes another (recursive) call of {\tt run.sh}
 		    for evaluating every single instance.
-		
+		    A single instance is then usually evaluated under a number of configurations,
+		    for which the script {\tt runconfs.sh} is available.
+
 		    However, this recursion is managed by the benchmark system.
-		    The use only needs to adopt {\tt run.sh} as described in Section~\ref{sec:usage}.
+		    The user only needs to adopt {\tt run.sh} as described in Section~\ref{sec:usage}.
 		
 		    \medskip\noindent{\bf Parameters:}
 		    \begin{itemize}
@@ -312,7 +314,8 @@ positioning,fit,calc,decorations.text,shadows%
 		    
 		    The parameters of the script control the loop condition
 		    and the command used for executing a single instance.
-		    This script will also call aggregate.sh after execution of all instance
+		    This script will also call the aggregation script (cf. Section~\ref{sec:architecture:aggregate})
+		    after execution of all instance
 		    to produce the final benchmark table.
 				
 		    \medskip\noindent{\bf Parameters:}
