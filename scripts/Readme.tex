@@ -218,9 +218,9 @@ positioning,fit,calc,decorations.text,shadows%
 
 				{
 				\tiny
-        		\node[draw,fill=green!20,below=2.5cm of m-5-1,minimum width=2.5cm,anchor=west] (lbsc) {benchmark-specific};
-        		\node[draw,fill=blue!20,below of=lbsc,minimum width=2.5cm] (lcs) {customizable default};
-        		\node[draw,fill=black!20,below of=lcs,minimum width=2.5cm] (lss) {static};
+        		\node[draw,fill=green!20,below=2.5cm of m-5-1,minimum width=3.0cm,anchor=west] (lbsc) {benchmark-specific};
+        		\node[draw,fill=blue!20,below of=lbsc,minimum width=3.0cm] (lcs) {optional customization};
+        		\node[draw,fill=black!20,below of=lcs,minimum width=3.0cm] (lss) {static};
         		\node[right=1.5cm of lbsc] (ls1) {}; \node[right of=ls1] (ls2) {}; \node[right of=ls2] (ls3) {control flow};
         		\path[draw,->] (ls1) -- node {} (ls2);
         		\node[below of=ls1] (ld1) {}; \node[right of=ld1] (ld2) {}; \node[right of=ld2] (ld3) {data flow};
