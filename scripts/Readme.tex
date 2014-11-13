@@ -105,8 +105,8 @@ positioning,fit,calc,decorations.text,shadows%
 		and comparison of the results with previous runs.
 		For scheduling benchmark instances, the system supports sequential runs using shell scripts only,
 		or the HTCondor system\footnote{\url{http://research.cs.wisc.edu/htcondor/}}.
-			
-	\section{Using the System}
+
+	\section{Basic Usage of the System}
 	\label{sec:usage}
 			
 		In order to use the benchmark system for a concrete benchmark problem,
@@ -486,8 +486,8 @@ positioning,fit,calc,decorations.text,shadows%
 					{\tt \$\{val[i]\}} to refer to the value of the $i$-th colum
 					or {\tt \$\{fill[i]\}} to refer to a sequence of double-tile ($\sim\sim$) required to align this column. \\
 					Default: \\
-					{\tt \$\{val[0]\} \$\{fill[1]\}(\$\{val[1]\}) \& \\
-					 \$\{val[2]\} \$\{fill[3]\}(\$\{val[3]\}) \& \ldots} \\
+					{\tt \$\{val[0]\} \$\{fill[1]\}(\$\{val[1]\}) \& $~~~~~~~~~~~~~~~~~~\hookleftarrow$ \\
+					$~~~~~~$\$\{val[2]\} \$\{fill[3]\}(\$\{val[3]\}) \& \ldots} \\
 					(pairs of columns are put in the same cell with even columns being interpreted as times
 					and odd ones as timeouts which are put in parentheses) \\
 					The pattern needs to be specified without final line break ({\tt \textbackslash\textbackslash}).
