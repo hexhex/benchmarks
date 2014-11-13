@@ -138,7 +138,7 @@ positioning,fit,calc,decorations.text,shadows%
 		provided that the benchmark script directory is the {\tt PATH} variable.
 		This also defines the aliases
 		{\tt all=$0$}, {\tt instance=\$2}, {\tt to=\$3}, {\tt bmscripts=\$4}
-		if {\tt \$1="single"}, and
+		if {\tt \$1=single}, and
 		{\tt all=1}, {\tt to=\$2}, {\tt bmscripts=\$3} otherwise (cf. Section~\ref{sec:architecture:run}).
 		Moreover, {\tt mydir} will be set to the absolute path of the directory where
 		the current {\tt run.sh} script is located and {\tt req} to the requirements file to be used.
@@ -265,19 +265,19 @@ positioning,fit,calc,decorations.text,shadows%
 		
 		    \medskip\noindent{\bf Parameters:}
 		    \begin{itemize}
-				\item[{\tt \$1}:] (optional) {\tt "all"}, {\tt "allseq"} or {\tt "single"}, default is {\tt "all"}
+				\item[{\tt \$1}:] (optional) {\tt all}, {\tt allseq} or {\tt single}, default is {\tt all}
 					\begin {itemize}
-						\item If {\tt \$1} is {\tt "all"} then the instances are evaluated in parallel using HTCondor. There are no further mandatory parameters.
+						\item If {\tt \$1} is {\tt all} then the instances are evaluated in parallel using HTCondor. There are no further mandatory parameters.
 							\begin{itemize}
 								\item[{\tt \$2}:] (optional) Timeout, default is $300$.
 								\item[{\tt \$3}:] (optional) Directory with the benchmark scripts.
 							\end{itemize}
-						\item If {\tt \$1} is {\tt "allseq"} then the instances are evaluated sequentially. There are no further mandatory parameters.
+						\item If {\tt \$1} is {\tt allseq} then the instances are evaluated sequentially. There are no further mandatory parameters.
 							\begin{itemize}
 								\item[{\tt \$2}:] (optional) Timeout, default is $300$.
 								\item[{\tt \$3}:] (optional) Directory with the benchmark scripts.
 							\end{itemize}
-						\item If {\tt \$1} is {\tt "single"} then a single instance is evaluated. There are three more mandatory parameters:
+						\item If {\tt \$1} is {\tt single} then a single instance is evaluated. There are three more mandatory parameters:
 							\begin{itemize}
 								\item[{\tt \$2}:] Instance name.
 								\item[{\tt \$3}:] Timeout in seconds.
