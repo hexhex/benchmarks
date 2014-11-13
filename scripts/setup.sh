@@ -46,7 +46,7 @@ if [ $error -eq 1 ]; then
 	echo "  \$1: destination directory" >&2
 	echo "  \$2: (optional) web source of instances" >&2
 	echo "  \$3: (optional) config options" >&2
-        echo "  \$4: (optional) build options" >&2
+	echo "  \$4: (optional) build options" >&2
 	echo "  \$5: (optional) condor req file to execute this script using Condor HT" >&2
 	exit 1
 fi
