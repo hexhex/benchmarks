@@ -160,8 +160,8 @@ positioning,fit,calc,decorations.text,shadows%
 		({\tt runinsts.sh} and {\tt runconfs.sh}; those are not benchmark-specific) to schedule all instances for all \dlvhex{} configurations
 		which are to be compared. Those scripts will make callbacks to {\tt run.sh} for evaluating single instances
 		(approprate parameters make this script run a single instance rather than all instances in the initial call).
-		Note that the two {\tt run.sh} nodes in Figure~\ref{fig:architecture} refer
-		to a single physical file.
+		Note that the two {\tt run.sh} occurrences in Figure~\ref{fig:architecture} refer
+		to a single physical file (symbolized by their connection).
 		
 		For each finished instance, the script system will call an \emph{output builder}
 		which extracts the actual benchmark parameters the user is interested in,
@@ -186,6 +186,12 @@ positioning,fit,calc,decorations.text,shadows%
 					  minimum width=4.0cm,
 					  minimum height=9mm
 					},
+					empty/.style={
+						line width=1.25pt,
+						text width=3.5cm, 
+						minimum height=9mm,
+						draw=none
+					},
 					bmspecificscript/.style={
 						line width=1.25pt,
 						text width=3.5cm, 
@@ -193,13 +199,13 @@ positioning,fit,calc,decorations.text,shadows%
 						fill=green!20
 					},
 					staticscript/.style={
-						line width=1.25pt,
+						line width=1.0pt,
 						text width=3.5cm, 
 						minimum height=9mm,
 						fill=black!20
 					},
 					customizeablescript/.style={
-						line width=1.25pt,
+						line width=1.0pt,
 						text width=3.5cm, 
 						minimum height=9mm,
 						fill=blue!20
@@ -209,22 +215,22 @@ positioning,fit,calc,decorations.text,shadows%
 					}
 				]{
 					|[user]| User & |[document]| \tt table.dat \\
-					|[bmspecificscript]| \tt run.sh (all) & \\
+					|[empty]| \tt run.sh (all) & \\
 					|[staticscript]| \tt runinsts.sh & |[customizeablescript]| Aggregation Script \\
 					|[staticscript]| \tt runconfs.sh & |[document,copy shadow,fill=white]| \tt inst-n.out \\
-					|[bmspecificscript]| \tt run.sh (single) & |[customizeablescript]| Output Builder \\
-					|[staticscript]| Reasoner & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Output \\ and Return Value\end{tabular} \\
+					|[empty]| \tt run.sh (single) & |[customizeablescript]| Output Builder \\
+					|[staticscript]| Reasoner ({\sc dlvhex}) & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Output \\ and Return Value\end{tabular} \\
 				};
 
 				{
-				\tiny
-        		\node[draw,fill=green!20,below=2.5cm of m-5-1,minimum width=3.0cm,anchor=west] (lbsc) {benchmark-specific};
-        		\node[draw,fill=blue!20,below of=lbsc,minimum width=3.0cm] (lcs) {optional customization};
-        		\node[draw,fill=black!20,below of=lcs,minimum width=3.0cm] (lss) {static};
-        		\node[right=1.5cm of lbsc] (ls1) {}; \node[right of=ls1] (ls2) {}; \node[right of=ls2] (ls3) {control flow};
-        		\path[draw,->] (ls1) -- node {} (ls2);
-        		\node[below of=ls1] (ld1) {}; \node[right of=ld1] (ld2) {}; \node[right of=ld2] (ld3) {data flow};
-        		\path[draw,->,dashed] (ld1) -- node {} (ld2);
+					\tiny
+	        		\node[draw,fill=green!20,below=2.5cm of m-5-1,minimum width=3.0cm,anchor=west] (lbsc) {benchmark-specific};
+	        		\node[draw,fill=blue!20,below of=lbsc,minimum width=3.0cm] (lcs) {optional customization};
+	        		\node[draw,fill=black!20,below of=lcs,minimum width=3.0cm] (lss) {static};
+	        		\node[right=1.5cm of lbsc] (ls1) {}; \node[right of=ls1] (ls2) {}; \node[right of=ls2] (ls3) {control flow};
+	        		\path[draw,->] (ls1) -- node {} (ls2);
+	        		\node[below of=ls1] (ld1) {}; \node[right of=ld1] (ld2) {}; \node[right of=ld2] (ld3) {data flow};
+	        		\path[draw,->,dashed] (ld1) -- node {} (ld2);
 				}
 
 				\path[draw,->] (m-1-1) -- node {} (m-2-1);
@@ -239,7 +245,10 @@ positioning,fit,calc,decorations.text,shadows%
 				\path[draw,->,dashed] (m-6-2) -- node {} (m-5-2);
 				\path[draw,->] (m-5-1) -- node {} (m-6-1);
 				\path[draw,->,dashed] (m-6-1) -- node {} (m-6-2);
-				
+
+				\begin{pgfonlayer}{background}
+					\path[draw,fill=green!20,-,line width=1.0pt] (m-2-1.south east) -- (m-2-1.north east) -- ($(m-2-1.north west) - (1cm,0)$) -- ($(m-5-1.south west) - (1cm,0)$) -- (m-5-1.south east) -- (m-5-1.north east) -- ($(m-5-1.north west) - (0.5cm,0)$) -- ($(m-2-1.south west) - (0.5cm,0)$) -- (m-2-1.south east) -- (m-2-1.north east);
+				\end{pgfonlayer}
 			\end{tikzpicture}
 		\endpgfgraphicnamed
 			
