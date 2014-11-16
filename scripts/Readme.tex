@@ -219,7 +219,7 @@ positioning,fit,calc,decorations.text,shadows%
 					|[staticscript]| \tt runinsts.sh & |[customizeablescript]| Aggregation Script \\
 					|[empty]| \tt run.sh (single) & |[document,copy shadow,fill=white]| Instance Results \\
 					|[staticscript]| \tt runconfs.sh & |[customizeablescript]| Output Builder \\
-					|[staticscript]| Reasoner ({\sc dlvhex}) & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Output \\ and Return Value\end{tabular} \\
+					|[staticscript]| Reasoner ({\sc dlvhex}) & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Outputs \\ and Return Values\end{tabular} \\
 				};
 
 				{
@@ -325,7 +325,7 @@ positioning,fit,calc,decorations.text,shadows%
 				\item[{\tt \$3}:] (optional) Working directory, default is {\tt \$PWD}.
 				\item[{\tt \$4}:] (optional) Timeout, default is {\tt $300$}.
 				\item[{\tt \$5}:] (optional) Custom aggregation script, default is {\tt aggregateresults.sh}
-					in the benchmark scripts directory.
+					in the {\tt benchmarks/scripts} directory.
 					Custom aggregation scripts need to behave as described in Section~\ref{sec:architecture:aggregate}.
 				\item[{\tt \$6}:] (optional) Name of the benchmark, default is the name of the working directory.
 				\item[{\tt \$7}:] (optional) Requirements file (cf. Section~\ref{sec:architecture:reqfile}).
@@ -359,7 +359,7 @@ positioning,fit,calc,decorations.text,shadows%
 				\item[{\tt \$3}:] Instance to be inserted in the command string in {\tt \$1} for {\tt INST}.
 				\item[{\tt \$4}:] Timeout.
 				\item[{\tt \$5}:] (optional) Custom output builder name of a script to build the output of a run, which gets the parameters, default is {\tt timeoutputbuilder.sh}
-					in the benchmark scripts directory. A custom output builder needs to behave as described in Section~\ref{sec:architecture:outputbuilder}.
+					in the {\tt benchmarks/scripts} directory. A custom output builder needs to behave as described in Section~\ref{sec:architecture:outputbuilder}.
 		    \end{itemize}
 	
 		\subsection{Output Builders}
