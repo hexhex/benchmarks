@@ -288,12 +288,12 @@ positioning,fit,calc,decorations.text,shadows%
 					\begin {itemize}
 						\item If {\tt \$1} is {\tt all} then the instances are evaluated in parallel using HTCondor. There are no further mandatory parameters.
 							\begin{itemize}
-								\item[{\tt \$2}:] (optional) Timeout, default is $300$.
+								\item[{\tt \$2}:] (optional) Timeout in seconds, default is $300$.
 								\item[{\tt \$3}:] (optional) Directory with the benchmark scripts.
 							\end{itemize}
 						\item If {\tt \$1} is {\tt allseq} then the instances are evaluated sequentially. There are no further mandatory parameters.
 							\begin{itemize}
-								\item[{\tt \$2}:] (optional) Timeout, default is $300$.
+								\item[{\tt \$2}:] (optional) Timeout in seconds, default is $300$.
 								\item[{\tt \$3}:] (optional) Directory with the benchmark scripts.
 							\end{itemize}
 						\item If {\tt \$1} is {\tt single} then a single instance is evaluated. There are three more mandatory parameters:
@@ -323,7 +323,7 @@ positioning,fit,calc,decorations.text,shadows%
 				\item[{\tt \$1}:] (optional) Instance loop condition, default is {\tt *.hex}.
 				\item[{\tt \$2}:] (optional) Single benchmark command, default is {\tt ./run.sh}.
 				\item[{\tt \$3}:] (optional) Working directory, default is {\tt \$PWD}.
-				\item[{\tt \$4}:] (optional) Timeout, default is {\tt $300$}.
+				\item[{\tt \$4}:] (optional) Timeout in seconds, default is {\tt $300$}.
 				\item[{\tt \$5}:] (optional) Custom aggregation script, default is {\tt aggregateresults.sh}
 					in the {\tt benchmarks/scripts} directory.
 					Custom aggregation scripts need to behave as described in Section~\ref{sec:architecture:aggregate}.
@@ -357,7 +357,7 @@ positioning,fit,calc,decorations.text,shadows%
 					for options to be inserted and {\tt INST} as a placeholder for the instance.
 				\item[{\tt \$2}:] A semicolon-separated list of configuration strings to be substituted for {\tt CONF} in {\tt \$1}.
 				\item[{\tt \$3}:] Instance to be inserted in the command string in {\tt \$1} for {\tt INST}.
-				\item[{\tt \$4}:] Timeout.
+				\item[{\tt \$4}:] Timeout in seconds.
 				\item[{\tt \$5}:] (optional) Custom output builder name of a script to build the output of a run, which gets the parameters, default is {\tt timeoutputbuilder.sh}
 					in the {\tt benchmarks/scripts} directory. A custom output builder needs to behave as described in Section~\ref{sec:architecture:outputbuilder}.
 		    \end{itemize}
@@ -416,7 +416,7 @@ positioning,fit,calc,decorations.text,shadows%
 	
 		    \medskip\noindent{\bf Parameters:}
 		    \begin{itemize}
-				\item[{\tt \$1}:] (optional) Timeout value to be used for {\tt ---} and {\tt ===} instances.
+				\item[{\tt \$1}:] (optional) Timeout value (in seconds) to be used for {\tt ---} and {\tt ===} instances.
 				\item[{\tt \$2},{\tt \$3}:] (optional) Start position and length of instance size information in the instance filenames (index origin $1$),
 					or $0$ and $0$ for auto-detection, default is auto-detection.
 				\item[{\tt \$4}:] (optional) Comma-separated lists of column indexes to compute means.
