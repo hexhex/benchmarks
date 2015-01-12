@@ -53,8 +53,8 @@ do
 	echo -ne -e " "
 
 	# prepare command
-	fullcommand=${command/CONF/$c}
-	fullcommand=${fullcommand/INST/$instance}
+	fullcommand=${command//CONF/$c}
+	fullcommand=${fullcommand//INST/$instance}
 	cmd="time --quiet -o $timefile -f %e timeout --kill-after=5s $to $fullcommand"
 
 	# execute
