@@ -219,7 +219,7 @@ positioning,fit,calc,decorations.text,shadows%
 					|[staticscript]| \tt runinsts.sh & |[customizeablescript]| Aggregation Script \\
 					|[empty]| \tt run.sh (single) & |[document,copy shadow,fill=white]| Instance Results \\
 					|[staticscript]| \tt runconfs.sh & |[customizeablescript]| Output Builder \\
-					|[staticscript]| Reasoner ({\sc dlvhex}) & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Output \\ and Return Value\end{tabular} \\
+					|[staticscript]| Reasoner ({\sc dlvhex}) & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Outputs \\ and Return Values\end{tabular} \\
 				};
 
 				{
@@ -284,16 +284,16 @@ positioning,fit,calc,decorations.text,shadows%
 		
 		    \medskip\noindent{\bf Parameters:}
 		    \begin{itemize}
-				\item[{\tt \$1}:] (optional) {\tt all}, {\tt allseq} or {\tt single}, default is {\tt all}
+				\item[{\tt \$1}:] (optional) {\tt all}, {\tt allseq} or {\tt single}, default is {\tt all}.
 					\begin {itemize}
 						\item If {\tt \$1} is {\tt all} then the instances are evaluated in parallel using HTCondor. There are no further mandatory parameters.
 							\begin{itemize}
-								\item[{\tt \$2}:] (optional) Timeout, default is $300$.
+								\item[{\tt \$2}:] (optional) Timeout in seconds, default is $300$.
 								\item[{\tt \$3}:] (optional) Directory with the benchmark scripts.
 							\end{itemize}
 						\item If {\tt \$1} is {\tt allseq} then the instances are evaluated sequentially. There are no further mandatory parameters.
 							\begin{itemize}
-								\item[{\tt \$2}:] (optional) Timeout, default is $300$.
+								\item[{\tt \$2}:] (optional) Timeout in seconds, default is $300$.
 								\item[{\tt \$3}:] (optional) Directory with the benchmark scripts.
 							\end{itemize}
 						\item If {\tt \$1} is {\tt single} then a single instance is evaluated. There are three more mandatory parameters:
@@ -323,9 +323,9 @@ positioning,fit,calc,decorations.text,shadows%
 				\item[{\tt \$1}:] (optional) Instance loop condition, default is {\tt *.hex}.
 				\item[{\tt \$2}:] (optional) Single benchmark command, default is {\tt ./run.sh}.
 				\item[{\tt \$3}:] (optional) Working directory, default is {\tt \$PWD}.
-				\item[{\tt \$4}:] (optional) Timeout, default is {\tt $300$}.
+				\item[{\tt \$4}:] (optional) Timeout in seconds, default is {\tt $300$}.
 				\item[{\tt \$5}:] (optional) Custom aggregation script, default is {\tt aggregateresults.sh}
-					in the benchmark scripts directory.
+					in the {\tt benchmarks/scripts} directory.
 					Custom aggregation scripts need to behave as described in Section~\ref{sec:architecture:aggregate}.
 				\item[{\tt \$6}:] (optional) Name of the benchmark, default is the name of the working directory.
 				\item[{\tt \$7}:] (optional) Requirements file (cf. Section~\ref{sec:architecture:reqfile}).
@@ -357,9 +357,9 @@ positioning,fit,calc,decorations.text,shadows%
 					for options to be inserted and {\tt INST} as a placeholder for the instance.
 				\item[{\tt \$2}:] A semicolon-separated list of configuration strings to be substituted for {\tt CONF} in {\tt \$1}.
 				\item[{\tt \$3}:] Instance to be inserted in the command string in {\tt \$1} for {\tt INST}.
-				\item[{\tt \$4}:] Timeout.
+				\item[{\tt \$4}:] Timeout in seconds.
 				\item[{\tt \$5}:] (optional) Custom output builder name of a script to build the output of a run, which gets the parameters, default is {\tt timeoutputbuilder.sh}
-					in the benchmark scripts directory. A custom output builder needs to behave as described in Section~\ref{sec:architecture:outputbuilder}.
+					in the {\tt benchmarks/scripts} directory. A custom output builder needs to behave as described in Section~\ref{sec:architecture:outputbuilder}.
 		    \end{itemize}
 	
 		\subsection{Output Builders}
@@ -377,7 +377,7 @@ positioning,fit,calc,decorations.text,shadows%
 					\item[{\tt \$4}:] File with standard error of the reasoner call.
 			    \end{itemize}
 			
-			The output builder needs to return $0$ if the output builder succeeded (note that the output builder can succeed in extracting information even if the reasoner failed!)
+			The output builder needs to return $0$ if it succeeded (note that the output builder can succeed in extracting information even if the reasoner failed!)
 			and $\not=0$ if the output builder itself failed.
 			
 			It further needs to write a space-separated list of the actual benchmark parameters to standard output.
@@ -416,7 +416,7 @@ positioning,fit,calc,decorations.text,shadows%
 	
 		    \medskip\noindent{\bf Parameters:}
 		    \begin{itemize}
-				\item[{\tt \$1}:] (optional) Timeout value to be used for {\tt ---} and {\tt ===} instances.
+				\item[{\tt \$1}:] (optional) Timeout value (in seconds) to be used for {\tt ---} and {\tt ===} instances.
 				\item[{\tt \$2},{\tt \$3}:] (optional) Start position and length of instance size information in the instance filenames (index origin $1$),
 					or $0$ and $0$ for auto-detection, default is auto-detection.
 				\item[{\tt \$4}:] (optional) Comma-separated lists of column indexes to compute means.
@@ -496,7 +496,7 @@ positioning,fit,calc,decorations.text,shadows%
 				\item[{\tt \$2}:] (optional) Pattern how to format each line \\
 					The string needs to consist of constant parts and expressions of form
 					{\tt \$\{val[i]\}} to refer to the value of the $i$-th colum
-					or {\tt \$\{fill[i]\}} to refer to a sequence of double-tile ($\sim\sim$) required to align this column. \\
+					or {\tt \$\{fill[i]\}} to refer to a sequence of double-tilde ($\sim\sim$) required to align this column. \\
 					Default: \\
 					{\tt \$\{val[0]\} \$\{fill[1]\}(\$\{val[1]\}) \& $~~~~~~~~~~~~~~~~~~\hookleftarrow$ \\
 					$~~~~~~$\$\{val[2]\} \$\{fill[3]\}(\$\{val[3]\}) \& \ldots} \\
