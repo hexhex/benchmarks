@@ -55,7 +55,7 @@ fi
 if [ $error -eq 1 ]; then
 	echo "The aggregation script expects the following parameters:" >&2
 	echo " \$1:      (optional) Timeout" >&2
-	echo " \$2, \$3:  (optional) Start position and length of instance size information in the instance filenames (index origin 1)," >&2
+	echo " \$2, \$3:  (optional) Start position and length of instance size information in the instance filenames (index origin 0)," >&2
 	echo "                     or 0 0 for auto-detection. Default is auto-detection." >&2
 	echo " \$4 - \$7: (optional) Comma-separated lists of columns to compute means, maxima, minima and sums of, respectively." >&2
 	echo "                     Default:" >&2
