@@ -88,9 +88,8 @@ aggregate="
 	maxInput[, maxCols] <- input[, maxCols]
 	minInput[, minCols] <- input[, minCols]
 
-	inputcomp <- input
-	inputcomp[, 1] <- input[, 1] * 4
-	if ( !all( (meanInput + sumInput + maxInput + minInput) == inputcomp) ){
+	inputcomp <- input[,-1]
+	if ( !all( (meanInput[,-1] + sumInput[,-1] + maxInput[,-1] + minInput[,-1]) == inputcomp) ){
 		print(\"Error: There must be exactly one aggregation method specified for each column\");
 		print(\"Mean columns:\")
 		meanCols
@@ -111,13 +110,25 @@ aggregate="
 	minResult <- summaryBy(.~V1, data=minInput, FUN=min)
 
 	# assemble the final result
-	output <- meanResult + maxResult + minResult + sumResult
-	output[, 1] <- meanResult[, 1]
+	output <- meanResult
+	output[,-1] <- output[,-1] + maxResult[,-1] + minResult[,-1] + sumResult[,-1]
 
 	# compute for each column if it is an integer column
 	outCols <- seq(1, ncol(output))
-	isIntCol <- sapply(outCols, function(x) { return(all(round(output[, x], 0)==output[, x])) } )
-	isNonIntCol <- sapply(outCols, function(x) { return(!all(round(output[, x], 0)==output[, x])) } )
+	isIntCol <- sapply(outCols,	function(x){
+									return
+									if (x == 1)
+										FALSE
+									else
+										(all(round(output[, x], 0) == output[, x]))
+								} )
+	isNonIntCol <- sapply(outCols,	function(x){
+										return
+										if (x == 1)
+											FALSE
+										else
+											(!all(round(output[, x], 0) == output[, x]))
+									} )
 	
 	# rounding and output formatting
 	outputformatted <- output
