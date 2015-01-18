@@ -166,10 +166,11 @@ do
 				extrlen=$len
 			else
 				if [[ $# -le 2 ]]; then
-					if [[ $start -ne $extrstart ]] || [[ $len -ne $extrlen ]]; then
+					if [[ $start -ne $extrstart ]]; then
 						echo "Could not extract instance size due to inconsistent naming; please specify start and length of size within the filename manually"
 						exit 1
 					fi
+					extrlen=$len
 				fi
 			fi
 		fi
