@@ -88,16 +88,21 @@ positioning,fit,calc,decorations.text,shadows%
 	\section{Introduction}
 	\label{sec:introduction}
 
-		The repository \url{https://github.com/hexhex/benchmarks}
-		contains a directory {\tt scripts} for benchmarking the \hex-program reasoner \dlvhex;
-		subsequently we refer to this directory by {\tt benchmarks/scripts}.
+		This readme file describes the benchmark system
+		in the repository \url{https://github.com/hexhex/benchmarks}.
+		The repository contains a directory {\tt scripts} for benchmarking, i.e.,
+		comparing systems or system configurations to each other.
+		In the following we refer to this directory by {\tt benchmarks/scripts}.
+		
+		Although the scripts have been developed for the \hex-program reasoner \dlvhex{}
+		they can be used for experiments with other systems as well.
 		The script system is designed to be easy to use yet customizable.
 		The user is required to provide no more than one script for each benchmark problem,
 		which essentially specifies problem-specific parameters and then delegates the call
 		to generic scripts provided by this repository.
 		
 		The system
-		is intended to run benchmark instances with multiple \dlvhex{} configurations
+		is intended to run benchmark instances with multiple system configurations
 		and extract benchmark parameters (such as grounding and solving time, number of answer sets) for each.
 		It supports automated scheduling of instances, parameter extraction,
 		aggregating the parameters,
@@ -117,9 +122,15 @@ positioning,fit,calc,decorations.text,shadows%
 		\begin{enumerate}
 		\item[(1)] The loop condition which iterates over the instances of the benchmark needs to be configured.
 			Usually this condition will iterate over files, but sometimes also an iteration in a certain range can be useful.
-		\item[(2)] Here the \dlvhex{} configurations to be compared should be entered in a semicolon-separated list.
-		\item[(3)] Here the actual shell command for a reasoner call needs to be inserted (without configuration-specific options).
+		\item[(2)] Here, the configurations (of \dlvhex{} or another software system) to be compared should be entered in a semicolon-separated list.
+		\item[(3)] Here, the static part of the actual shell command for a reasoner call needs to be inserted (i.e.,~without configuration-specific options).
 			The tokens {\tt INST} and {\tt CONF} will be substituted by the instance name and the current configuration, respectively.
+			\footnote{Comparing entirely different systems (and not only different configurations of the same system) can be realized as follows.
+				The `configurations' specified at (2) should contain the \emph{full} command strings using the variable {\tt \$instance}
+				for the instance name.
+				The string at (3) should be {\tt "CONF"}; since {\tt CONF} in (3)
+				will be substituted by the elements from the configuration string before executing the command, this will
+				insert complete reasoner calls.}
 		\end{enumerate}
 		
 		Note that the scripts {\tt runinsts.sh} and {\tt runconfs.sh} support more
@@ -157,9 +168,9 @@ positioning,fit,calc,decorations.text,shadows%
 		(controlled by parameters). Normally, the user calls this file without any parameters,
 		which schedules all instances (due to the default values for the parameters).
 		Internally, {\tt run.sh} uses scripts from the benchmark scripts directory
-		({\tt runinsts.sh} and {\tt runconfs.sh}; those are not benchmark-specific) to schedule all instances for all \dlvhex{} configurations
+		({\tt runinsts.sh} and {\tt runconfs.sh}; those are not benchmark-specific) to schedule all instances for all configurations
 		which are to be compared. Those scripts will make callbacks to {\tt run.sh} for evaluating single instances
-		(approprate parameters make this script run a single instance rather than all instances in the initial call).
+		(appropriate parameters make this script run a single instance rather than all instances in the initial call).
 		Note that the two {\tt run.sh} occurrences in Figure~\ref{fig:architecture} refer
 		to a single physical file (symbolized by their connection).
 		
@@ -172,7 +183,7 @@ positioning,fit,calc,decorations.text,shadows%
 		which generates the final benchmark table from the results of individual instances.
 		The script system provides a standard output builder {\tt outputbuilder.sh} and a standard aggregation script {\tt aggregateresults.sh},
 		which are good for many benchmark problems, but customization is possible by providing alternative scripts
-		(which need to be specifid within {\tt run.sh} as described in Sections~\ref{sec:architecture:runinsts} and~\ref{sec:architecture:runconfs}).
+		(which need to be specified within {\tt run.sh} as described in Sections~\ref{sec:architecture:runinsts} and~\ref{sec:architecture:runconfs}).
 
 		\begin{figure}
 			\centering
@@ -219,7 +230,7 @@ positioning,fit,calc,decorations.text,shadows%
 					|[staticscript]| \tt runinsts.sh & |[customizeablescript]| Aggregation Script \\
 					|[empty]| \tt run.sh (single) & |[document,copy shadow,fill=white]| Instance Results \\
 					|[staticscript]| \tt runconfs.sh & |[customizeablescript]| Output Builder \\
-					|[staticscript]| Reasoner ({\sc dlvhex}) & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Outputs \\ and Return Values\end{tabular} \\
+					|[staticscript]| Reasoner (e.g.~{\sc dlvhex}) & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Outputs \\ and Return Values\end{tabular} \\
 				};
 
 				{
@@ -510,7 +521,7 @@ positioning,fit,calc,decorations.text,shadows%
 		\subsection{Running Multiple Benchmarks}
 		\label{sec:advanced:multiple}
 					
-			The system supports to run multiple benchmarks and a final script for postprocessing with a single call.
+			The system supports to run multiple benchmarks and a final script for post-processing with a single call.
 			To this end, the script {\tt multibenchmark.sh} should be used.
 
 			\medskip\noindent{\bf Parameters:}
@@ -554,7 +565,7 @@ positioning,fit,calc,decorations.text,shadows%
 			It is expected to return $0$ if there were no significant changes,
 			$1$ if comparison failed, and $2$ if there were significant changes.
 
-		\subsection{Running the Standard Benchmarks}
+		\subsection{Running the \dlvhex{} Standard Benchmarks}
 
 			The script {\tt runall.sh} allows for
 			running all standard benchmarks which are currently available,
@@ -566,7 +577,7 @@ positioning,fit,calc,decorations.text,shadows%
 			\medskip\noindent{\bf Parameters:}
 			\begin{itemize}
 				\item[{\tt \$1}:] Destination directory where all software packages are built and installed and where benchmark results are stored.
-				\item[{\tt \$2}:] (optional) URL of the benchmark instances, default is a webserver at Vienna University of Technology.
+				\item[{\tt \$2}:] (optional) URL of the benchmark instances, default is a Web server at Vienna University of Technology.
 				\item[{\tt \$3}:] (optional) Custom options for configuring {\sc dlvhex} and its plugins.
 				\item[{\tt \$4}:] (optional) Custom options for building {\sc dlvhex} and its plugins.
 				\item[{\tt \$5}:] (optional) Custom requirements file, cf. Section~\ref{sec:architecture:reqfile}.				
