@@ -122,15 +122,73 @@ positioning,fit,calc,decorations.text,shadows%
 		\begin{enumerate}
 		\item[(1)] The loop condition which iterates over the instances of the benchmark needs to be configured.
 			Usually this condition will iterate over files, but sometimes also an iteration in a certain range can be useful.
-		\item[(2)] Here, the configurations (of \dlvhex{} or another software system) to be compared should be entered in a semicolon-separated list.
+
+			\begin{tabbing}
+				\textbf{Example: } \= {\tt "instances/*.hex"} \\
+				\> iterates over all {\tt .hex} files in directory {\tt instances}.
+			\end{tabbing}
+
+			\begin{tabbing}
+				\textbf{Example: } \= {\tt "\{1..20\}"} \\
+				\> iterates over the integers from $1$ to $20$.
+			\end{tabbing}
+		\item[(2)] Here, the commands (e.g.~calls of \dlvhex{} or another software systems) to be compared should be entered in a semicolon-separated list.
+
+			When comparing entirely different systems,
+			the configurations specified at (2) should contain the command strings \emph{including} the executable name and all options.
+
+			\begin{tabbing}
+				\textbf{Example: } \= {\tt "dlv;clasp;dlv -n=1;clasp -n=1"} \\
+				\> compares {\sc DLV} and {\sc clasp} runs for computing \\
+				\> all and the first ({\tt -n=1}) answer set, respectively.
+			\end{tabbing}
+
+			If all configurations compare the same system (e.g.~\dlvhex{}) but with different options,
+			then as a shortcut the static part can (but does not need to) be part of the string at
+			(3) (see below), while (2) may contain only the changing parts of the command.
+
+			\begin{tabbing}
+				\textbf{Example: } \= {\tt "flpcheck=explicit;--flpcheck=ufs"} \\
+				\> compares two \dlvhex{} configurations, where the actual \\
+				\> reasoner call is specified at (3) (see below).
+			\end{tabbing}
+
 		\item[(3)] Here, the static part of the actual shell command for a reasoner call needs to be inserted (i.e.,~without configuration-specific options).
-			The tokens {\tt INST} and {\tt CONF} will be substituted by the instance name and the current configuration, respectively.
-			\footnote{Comparing entirely different systems (and not only different configurations of the same system) can be realized as follows.
-				The `configurations' specified at (2) should contain the \emph{full} command strings using the variable {\tt \$instance}
-				for the instance name.
-				The string at (3) should be {\tt "CONF"}; since {\tt CONF} in (3)
-				will be substituted by the elements from the configuration string before executing the command, this will
-				insert complete reasoner calls.}
+
+			The tokens {\tt INST} and {\tt CONF}\footnote{
+			Alternatively to {\tt INST} and {\tt CONF}, the meta-variables {\tt \textbackslash\$instance} and {\tt \textbackslash\$config}
+			within the command string can be used (e.g.~{\tt dlvhex2 -n=1 \textbackslash\$config \textbackslash\$instance});
+			note the backslash in front of the {\$} characters which makes sure that the variables are not immediately resolved but
+			are part of the string and are to be resolved later when an individual instance and configuration is to be inserted.}
+			will be substituted by the instance name and the current configuration, respectively.
+
+			If the string at (2) contains full commands, then
+			the string at (3) should be {\tt "CONF INST"}. Since {\tt CONF} in (3)
+			will be substituted by the elements from the configuration string before executing the command, this will
+			produce complete reasoner calls.
+
+			\begin{tabbing}
+				\textbf{Example: } \= Let {\tt "dlv;clasp;dlv -n=1;clasp -n=1"} be the \\
+				\> configuration string at (2). \\
+				\> Then the string {\tt "CONF INST"} at (3) will evaluate: \\
+				\> \ \ \ {\tt dlv INST} \\
+				\> \ \ \ {\tt clasp INST} \\
+				\> \ \ \ {\tt dlv -n=1 INST} \\
+				\> \ \ \ {\tt clasp -n=1 INST} \\
+				\> for all instances {\tt INST}.
+			\end{tabbing}
+
+			If the string at (2) contains only the changing part of the command,
+			then the static part must contained in the string at (3).
+
+			\begin{tabbing}
+				\textbf{Example: } \= Let {\tt "flpcheck=explicit;--flpcheck=ufs"} be the \\
+				\> configuration string at (2). \\
+				\> Then the string {\tt "dlvhex2 -n=1 CONF INST"} at (3) will evaluate: \\
+				\> \ \ \ {\tt dlvhex2 -n=1 --flpcheck=explitit INST} \\
+				\> \ \ \ {\tt dlvhex2 -n=1 --flpcheck=ufs INST} \\
+				\> for all instances {\tt INST}.
+			\end{tabbing}
 		\end{enumerate}
 		
 		Note that the scripts {\tt runinsts.sh} and {\tt runconfs.sh} support more

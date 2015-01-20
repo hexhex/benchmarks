@@ -32,9 +32,9 @@ fi
 IFS=';' read -ra confs <<< "$confstr;"
 header="# Configuration:\"instance\""
 i=0
-for c in "${confs[@]}"
+for config in "${confs[@]}"
 do
-	header="$header;\"$c\""
+	header="$header;\"$config\""
 	let i=i+1
 done
 echo $header
@@ -48,13 +48,14 @@ stdoutfile=$(mktemp)
 stderrfile=$(mktemp)
 i=0
 
-for c in "${confs[@]}"
+for config in "${confs[@]}"
 do
 	echo -ne -e " "
 
 	# prepare command
-	fullcommand=${command//CONF/$c}
+	fullcommand=${command//CONF/$config}
 	fullcommand=${fullcommand//INST/$instance}
+	fullcommand=$(eval "echo $fullcommand") # resolve variables in the command string
 	cmd="time --quiet -o $timefile -f %e timeout --kill-after=5s $to $fullcommand"
 
 	# execute
