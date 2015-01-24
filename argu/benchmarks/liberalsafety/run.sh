@@ -13,7 +13,7 @@ if [[ $all -eq 1 ]]; then
 	$bmscripts/runinsts.sh "instances/*.argu" "$mydir/run.sh" "$mydir" "$to" "" "" "$req"
 else
 	# run single instance
-	confstr="--extlearn --flpcheck=aufs --heuristics=monolithic --liberalsafety;--extlearn --flpcheck=aufs --heuristics=greedy --liberalsafety"
+	confstr="--extlearn --flpcheck=aufs --ufslearn=none --heuristics=monolithic --liberalsafety;--extlearn --flpcheck=aufs --ufslearn=none --heuristics=greedy --liberalsafety"
 
 	# make sure that the encodings are found
 	cd ../../src
