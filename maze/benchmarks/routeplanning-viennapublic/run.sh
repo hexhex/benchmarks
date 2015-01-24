@@ -18,7 +18,7 @@ if [[ $all -eq 1 ]]; then
 	$bmscripts/runinsts.sh "$instancedir/*.hex" "$mydir/$specificrun" "$mydir" "$to" "$mydir/aggregate.sh" "$map" "$req"
 else
 	# run single instance
-	confstr="route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex;--liberalsafety route.hex maxchanges.hex"
+	confstr="--strongsafety route_strongsafety.hex vienna-publictransport.hex maxchanges.hex;--liberalsafety route.hex;--liberalsafety route.hex maxchanges.hex"
 
 	# computation of max changes
 	instancefn=$(basename $instance)
