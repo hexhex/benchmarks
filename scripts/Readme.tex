@@ -201,7 +201,7 @@ positioning,fit,calc,decorations.text,shadows%
 		It is convenient to add the path to the {\tt benchmarks/scripts} directory to the {\tt PATH} variable.
 		In this case, scheduling the benchmark instances is possible by simply calling {\tt ./run.sh},
 		otherwise the path to this directory needs to be passed as parameter to {\tt run.sh}
-		(cf. Section~\ref{sec:architecture:run}).
+		(cf.~Section~\ref{sec:architecture:run}).
 
 		Moreover, the beginnings of {\tt run.sh} scripts are in many cases exactly
 		like in {\tt run\_template.sh}. Thus this part can be directly imported by
@@ -212,7 +212,7 @@ positioning,fit,calc,decorations.text,shadows%
 		This also defines the aliases
 		{\tt all=$0$}, {\tt instance=\$2}, {\tt to=\$3}, {\tt bmscripts=\$4}
 		if {\tt \$1} is {\tt single}, and
-		{\tt all=1}, {\tt to=\$2}, {\tt bmscripts=\$3} otherwise (cf. Section~\ref{sec:architecture:run}).
+		{\tt all=1}, {\tt to=\$2}, {\tt bmscripts=\$3} otherwise (cf.~Section~\ref{sec:architecture:run}).
 		Moreover, {\tt mydir} will be set to the absolute path of the directory where
 		the current {\tt run.sh} script is located and {\tt req} to the requirements file to be used.
 			
@@ -383,7 +383,7 @@ positioning,fit,calc,decorations.text,shadows%
 		    
 		    The parameters of the script control the loop condition
 		    and the command used for executing a single instance.
-		    This script will also call the aggregation script (cf. Section~\ref{sec:architecture:aggregate})
+		    This script will also call the aggregation script (cf.~Section~\ref{sec:architecture:aggregate})
 		    after execution of all instance
 		    to produce the final benchmark table.
 				
@@ -397,7 +397,7 @@ positioning,fit,calc,decorations.text,shadows%
 					in the {\tt benchmarks/scripts} directory.
 					Custom aggregation scripts need to behave as described in Section~\ref{sec:architecture:aggregate}.
 				\item[{\tt \$6}:] (optional) Name of the benchmark, default is the name of the working directory.
-				\item[{\tt \$7}:] (optional) Requirements file (cf. Section~\ref{sec:architecture:reqfile}).
+				\item[{\tt \$7}:] (optional) Requirements file (cf.~Section~\ref{sec:architecture:reqfile}).
 		    \end{itemize}
 		 
 		 	When the script makes a call for executing a single benchmark instance
@@ -471,7 +471,7 @@ positioning,fit,calc,decorations.text,shadows%
 			An aggregation script
 		    generates the final output of a benchmark as a table in text format,
 		    given the results of individual instances.
-		    As standard input the file gets the concatenation of the results for all instances produced by the output builder (cf. Section~\ref{sec:architecture:outputbuilder}).
+		    As standard input the file gets the concatenation of the results for all instances produced by the output builder (cf.~Section~\ref{sec:architecture:outputbuilder}).
 	
 			In the input, column 1 is interpreted as instance size. The script is expected to aggregate
 			over all instances of the same size and to output a single row for each instances size.
@@ -497,7 +497,7 @@ positioning,fit,calc,decorations.text,shadows%
 			The default for {\tt \$4-\$7}
 			is to compute means of odd and sums of even columns (interpreted as times and timeouts, respectively).
 	
-			If a customized aggregation script is specified in the call of {\tt runinsts.sh} (cf. Section~\ref{sec:architecture:runinsts}),
+			If a customized aggregation script is specified in the call of {\tt runinsts.sh} (cf.~Section~\ref{sec:architecture:runinsts}),
 			then this script can delegate the call to the default script {\tt aggregateresults.sh} with appropriate parameters.
 	
 		\subsection{Requirements File}
@@ -591,7 +591,7 @@ positioning,fit,calc,decorations.text,shadows%
 					\end{center}
 					where {\tt PATH} needs to point to the {\tt run.sh} script of the according benchmark.
 				\item[{\tt \$2}:] Output directory for the overall benchmark results.
-				\item[{\tt \$3}:] Requirements file to be used for all benchmarks (cf. Section~\ref{sec:architecture:reqfile}).
+				\item[{\tt \$3}:] Requirements file to be used for all benchmarks (cf.~Section~\ref{sec:architecture:reqfile}).
 				\item[{\tt \$4}:] (optional) Either script to be executed after benchmarks have been finished (working directory will be {\tt \$2}),
 				    or a directory with reference benchmark results.
 			\end{itemize}
@@ -638,7 +638,7 @@ positioning,fit,calc,decorations.text,shadows%
 				\item[{\tt \$2}:] (optional) URL of the benchmark instances, default is a Web server at Vienna University of Technology.
 				\item[{\tt \$3}:] (optional) Custom options for configuring {\sc dlvhex} and its plugins.
 				\item[{\tt \$4}:] (optional) Custom options for building {\sc dlvhex} and its plugins.
-				\item[{\tt \$5}:] (optional) Custom requirements file, cf. Section~\ref{sec:architecture:reqfile}.				
+				\item[{\tt \$5}:] (optional) Custom requirements file, cf.~Section~\ref{sec:architecture:reqfile}.				
 			\end{itemize}
 
 			The whole process from checkout to the final benchmark tables can therefore be automated by calling
