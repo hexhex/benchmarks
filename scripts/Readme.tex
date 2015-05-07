@@ -191,7 +191,7 @@ positioning,fit,calc,decorations.text,shadows%
 			\end{tabbing}
 		\end{enumerate}
 		
-		Note that the scripts {\tt runinsts.sh} and {\tt runconfs.sh} support more
+		Note that the scripts {\tt runinsts.sh} and {\tt runconfigs.sh} support more
 		parameters than shown in {\tt run\_template.sh}.
 		However, the default values are good for most benchmarks.
 		If the aggregation of the results or
@@ -226,7 +226,7 @@ positioning,fit,calc,decorations.text,shadows%
 		(controlled by parameters). Normally, the user calls this file without any parameters,
 		which schedules all instances (due to the default values for the parameters).
 		Internally, {\tt run.sh} uses scripts from the benchmark scripts directory
-		({\tt runinsts.sh} and {\tt runconfs.sh}; those are not benchmark-specific) to schedule all instances for all configurations
+		({\tt runinsts.sh} and {\tt runconfigs.sh}; those are not benchmark-specific) to schedule all instances for all configurations
 		which are to be compared. Those scripts will make callbacks to {\tt run.sh} for evaluating single instances
 		(appropriate parameters make this script run a single instance rather than all instances in the initial call).
 		Note that the two {\tt run.sh} occurrences in Figure~\ref{fig:architecture} refer
@@ -241,7 +241,7 @@ positioning,fit,calc,decorations.text,shadows%
 		which generates the final benchmark table from the results of individual instances.
 		The script system provides a standard output builder {\tt outputbuilder.sh} and a standard aggregation script {\tt aggregateresults.sh},
 		which are good for many benchmark problems, but customization is possible by providing alternative scripts
-		(which need to be specified within {\tt run.sh} as described in Sections~\ref{sec:architecture:runinsts} and~\ref{sec:architecture:runconfs}).
+		(which need to be specified within {\tt run.sh} as described in Sections~\ref{sec:architecture:runinsts} and~\ref{sec:architecture:runconfigs}).
 
 		\begin{figure}
 			\centering
@@ -287,7 +287,7 @@ positioning,fit,calc,decorations.text,shadows%
 					|[empty]| \tt run.sh (all) & \\
 					|[staticscript]| \tt runinsts.sh & |[customizeablescript]| Aggregation Script \\
 					|[empty]| \tt run.sh (single) & |[document,copy shadow,fill=white]| Instance Results \\
-					|[staticscript]| \tt runconfs.sh & |[customizeablescript]| Output Builder \\
+					|[staticscript]| \tt runconfigs.sh & |[customizeablescript]| Output Builder \\
 					|[staticscript]| Reasoner (e.g.~{\sc dlvhex}) & |[document,copy shadow,fill=white]| \begin{tabular}{c}Reasoner Outputs \\ and Return Values\end{tabular} \\
 				};
 
@@ -346,7 +346,7 @@ positioning,fit,calc,decorations.text,shadows%
 		    calls {\tt runinsts.sh}, which in turn makes another (recursive) call of {\tt run.sh}
 		    for evaluating every single instance.
 		    A single instance is then usually evaluated under a number of configurations,
-		    for which the script {\tt runconfs.sh} is available.
+		    for which the script {\tt runconfigs.sh} is available.
 
 		    However, this recursion is managed by the benchmark system.
 		    The user only needs to adopt {\tt run.sh} as described in Section~\ref{sec:usage}.
@@ -409,8 +409,8 @@ positioning,fit,calc,decorations.text,shadows%
 		 	{\tt TO} is the timeout specified in {\tt \$4}
 		 	and {\tt SCRIPTS} is the path of the benchmark scripts directly.
 				
-		\subsection{\tt runconfs.sh}
-		\label{sec:architecture:runconfs}
+		\subsection{\tt runconfigs.sh}
+		\label{sec:architecture:runconfigs}
 		
 		    This script implements the evaluation of
 		    a single instance under various configurations.
