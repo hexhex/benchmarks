@@ -7,7 +7,7 @@ assigned(X) :- assign(X,C).
 in(X) v out(X) :- node(X).
 
 %:- not in(1). :- not in(2). :- not in(3). :- in(4). :- in(5).
-assign(1,black). assign(2,black). assign(5,black). assign(3,white). assign(4,black).
+%assign(1,black). assign(2,black). assign(5,black). assign(3,white). assign(4,black).
 
 % each guess must satisfy one of the below conditions
 :- not saturate.
