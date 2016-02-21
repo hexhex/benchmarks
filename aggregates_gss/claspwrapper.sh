@@ -1,0 +1,2 @@
+clasp $@
+exit 0
