@@ -9,11 +9,10 @@ in(X) v out(X) :- node(X).
 %in(1). in(2). in(3). out(4). out(5).
 %out(1). out(2). in(3). in(4). out(5).
 %:- not in(1). :- not in(2). :- not in(3). :- in(4). :- in(5).
-assign(1,white). assign(2,black). assign(5,black). assign(3,black). assign(4,white).
+%assign(1,white). assign(2,black). assign(5,black). assign(3,black). assign(4,white).
 
 %in(X) :- node(X).
 %out(X) :- node(X).
-
 
 % each guess must satisfy one of the below conditions
 %:- not saturate.
@@ -21,18 +20,19 @@ in(X) :- node(X), saturate.
 out(X) :- node(X), saturate.
 
 % guessed set is not a clique
-saturate1 :- in(X), in(Y), X != Y, not link(X,Y).
+saturate :- in(X), in(Y), X != Y, not link(X,Y).
 
 % there is a node X which is not in the clique but connected to all nodes in the clique (=> clique is not maximal)
+s(1,s,X) :- node(X).
 s(1,Y,X) :- link(X,Y), in(Y), node(X).
 s(m,Y,X) :- in(Y), X != Y, node(X).
 %s(N2,sat,X) :- N=#count{ Y : node(Y) }, N2=N*2, node(X), #int(N).
 s(5,sat,X) :- node(X), saturate.
-%saturate :- #sum{ V,Y : s(V,Y,X)  } >= 1, out(X).
-saturate2 :- &pos[s,X](), out(X).
+saturate :- #sum{ V,Y : s(V,Y,X)  } >= 1, out(X).
+%saturate :- &pos[s,X](), out(X).
 
 % clique uses two colours
-saturate3 :- in(X), in(Y), assign(X,CX), assign(Y,CY), CX != CY.
+saturate :- in(X), in(Y), assign(X,CX), assign(Y,CY), CX != CY.
 link(X,Y) :- link(Y,X).
 
 
