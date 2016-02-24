@@ -40,8 +40,9 @@ saturate :- in(X), in(Y), X != Y, not link(X,Y).
 saturate :- #sum{ m,Y,X : in(Y), X != Y, node(X); 1,s,X : node(X); 1,Y,X : link(X,Y), in(Y), node(X); 5,sat,X : node(X), saturate  } >= 1, out(X).
 
 % clique uses two colours
-%saturate :- in(X), in(Y), assign(X,CX), assign(Y,CY), CX != CY.
-%link(X,Y) :- link(Y,X).
+saturate :- in(X), in(Y), assign(X,CX), assign(Y,CY), CX != CY.
+link(X,Y) :- link(Y,X).
+
 %
 %node(X) :- link(X,Y).
 %node(Y) :- link(X,Y).
