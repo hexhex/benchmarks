@@ -15,7 +15,7 @@ else
 	# run single instance
 	ci="disjunctionencoding/$(basename $instance)"
 	hi="original/$(basename $instance)"
-	confstr="clasp $ci;clasp -n 0 $ci;dlvhex2 --aggregate-mode=extbl --eaevalheuristics=always --claspdefernprop=0 --ngminimization=always -n=1 hex/kcc.hex $hi;dlvhex2 --aggregate-mode=extbl --eaevalheuristics=always --claspdefernprop=0 --ngminimization=always hex/kcc.hex $hi"
+	confstr="./claspwrapper.sh $ci;./claspwrapper.sh -n 0 $ci;dlvhex2 --aggregate-mode=extbl --eaevalheuristics=always --claspdefernprop=0 --ngminimization=always -n=1 hex/kcc.hex $hi;dlvhex2 --aggregate-mode=extbl --eaevalheuristics=always --claspdefernprop=0 --ngminimization=always hex/kcc.hex $hi"
 
 	$bmscripts/runconfigs.sh "CONF" "$confstr" "" "$to"
 fi

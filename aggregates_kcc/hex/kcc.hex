@@ -24,39 +24,38 @@ saturate :- in(X), in(Y), X != Y, not link(X,Y).
 
 % there is a node X which is not in the clique but connected to all nodes in the clique (=> clique is not maximal)
 %s(1,s,X,a) :- node(X).
-%	node(X) :- s(1,s,X,a).
+%       node(X) :- s(1,s,X,a).
 %s(1,Y,X,b) :- link(X,Y), in(Y), node(X).
-%	link(X,Y) :- s(1,Y,X,b).
-%	in(Y) :- s(1,Y,X,b).
-%	node(X) :- s(1,Y,X,b).
+%       link(X,Y) :- s(1,Y,X,b).
+%       in(Y) :- s(1,Y,X,b).
+%       node(X) :- s(1,Y,X,b).
 %s(m,Y,X,c) :- in(Y), X != Y, node(X).
-%	in(Y) :- s(m,Y,X,c).
-%	node(X) :- s(m,Y,X,c).
+%       in(Y) :- s(m,Y,X,c).
+%       node(X) :- s(m,Y,X,c).
 %s(5,sat,X,d) :- node(X), saturate.
-%	node(X) :- s(5,sat,X,d).
-%	saturate :- s(5,sat,X,d).
+%       node(X) :- s(5,sat,X,d).
+%       saturate :- s(5,sat,X,d).
 %saturate :- &pos[s,X](), out(X).
 
-saturate :- #sum{ m,Y,X : in(Y), X != Y, node(X); 1,s,X : node(X); 1,Y,X : link(X,Y), in(Y), node(X); 5,sat,X : node(X), saturate  } >= 1, out(X).
+saturate :- #sum{ m,Y,X : in(Y), X != Y, node(X); 1,s,X : node(X); 1,Y,X : link(X,Y), in(Y), node(X); C,sat,X : node(X), saturate  } >= 1, out(X), nodecnt(C).
+nodecnt(200).
 
 % clique uses two colours
 saturate :- in(X), in(Y), assign(X,CX), assign(Y,CY), CX != CY.
 link(X,Y) :- link(Y,X).
 
-
-
-node(X) :- link(X,Y).
-node(Y) :- link(X,Y).
-
-link(1,2).
-link(1,3).
-link(2,3).
-link(3,4).
-link(3,5).
-link(4,5).
-
-colour(black).
-colour(white).
-
+%
+%node(X) :- link(X,Y).
+%node(Y) :- link(X,Y).
+%
+%link(1,2).
+%link(1,3).
+%link(2,3).
+%link(3,4).
+%link(3,5).
+%link(4,5).
+%
+%colour(black).
+%colour(white).
+%
 % 18 stable models
-
