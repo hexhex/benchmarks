@@ -1,21 +1,21 @@
-%assign(X,C) v -assign(X,C) :- node(X), colour(C).
-%:- assign(X,C1), assign(X,C2), C1 != C2.
-%assigned(X) :- assign(X,C).
-%:- node(X), not assigned(X).
+assign(X,C) v -assign(X,C) :- node(X), colour(C).
+:- assign(X,C1), assign(X,C2), C1 != C2.
+assigned(X) :- assign(X,C).
+:- node(X), not assigned(X).
 
 % guess clique
 in(X) v out(X) :- node(X).
 
-%in(1). in(2). in(3). out(4). out(5).
+%in(1). in(2). out(3). out(4). out(5).
 %out(1). out(2). in(3). in(4). out(5).
 %:- not in(1). :- not in(2). :- not in(3). :- in(4). :- in(5).
-%assign(1,white). assign(2,black). assign(5,black). assign(3,black). assign(4,white).
+%assign(1,white). assign(2,white). assign(5,black). assign(3,black). assign(4,black).
 
 %in(X) :- node(X).
 %out(X) :- node(X).
 
 % each guess must satisfy one of the below conditions
-%:- not saturate.
+:- not saturate.
 in(X) :- node(X), saturate.
 out(X) :- node(X), saturate.
 
@@ -23,13 +23,21 @@ out(X) :- node(X), saturate.
 saturate :- in(X), in(Y), X != Y, not link(X,Y).
 
 % there is a node X which is not in the clique but connected to all nodes in the clique (=> clique is not maximal)
-s(1,s,X) :- node(X).
-s(1,Y,X) :- link(X,Y), in(Y), node(X).
-s(m,Y,X) :- in(Y), X != Y, node(X).
-%s(N2,sat,X) :- N=#count{ Y : node(Y) }, N2=N*2, node(X), #int(N).
-s(5,sat,X) :- node(X), saturate.
-saturate :- #sum{ V,Y : s(V,Y,X)  } >= 1, out(X).
+%s(1,s,X,a) :- node(X).
+%	node(X) :- s(1,s,X,a).
+%s(1,Y,X,b) :- link(X,Y), in(Y), node(X).
+%	link(X,Y) :- s(1,Y,X,b).
+%	in(Y) :- s(1,Y,X,b).
+%	node(X) :- s(1,Y,X,b).
+%s(m,Y,X,c) :- in(Y), X != Y, node(X).
+%	in(Y) :- s(m,Y,X,c).
+%	node(X) :- s(m,Y,X,c).
+%s(5,sat,X,d) :- node(X), saturate.
+%	node(X) :- s(5,sat,X,d).
+%	saturate :- s(5,sat,X,d).
 %saturate :- &pos[s,X](), out(X).
+
+saturate :- #sum{ m,Y,X : in(Y), X != Y, node(X); 1,s,X : node(X); 1,Y,X : link(X,Y), in(Y), node(X); 5,sat,X : node(X), saturate  } >= 1, out(X).
 
 % clique uses two colours
 saturate :- in(X), in(Y), assign(X,CX), assign(Y,CY), CX != CY.
