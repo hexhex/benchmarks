@@ -1,0 +1,3 @@
+#maxint=40.
+p(X) :- #int(X).
+s(X) :- #sum{ m : s(X); 1 : s(X)} >= 0, p(X).
