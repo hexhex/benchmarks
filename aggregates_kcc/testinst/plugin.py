@@ -22,7 +22,20 @@ def pos(p,x):
 	elif (max >= 0):
 		dlvhex.outputUnknown(())
 
+def id2(p,x):
+	y=1
+	for a in dlvhex.getTrueInputAtoms():
+		y=y+1
+#		a.tuple()
+#		dlvhex.output((a.tuple()[1],))
+#		dlvhex.output((y,))
+
 def register():
 	prop = dlvhex.ExtSourceProperties()
 	prop.setProvidesPartialAnswer(True)
 	dlvhex.addAtom("pos", (dlvhex.PREDICATE, dlvhex.CONSTANT), 0, prop)
+
+	prop = dlvhex.ExtSourceProperties()
+	prop.addMonotonicInputPredicate(0)
+#	prop.setAtomlevellinear(True)
+	dlvhex.addAtom("id2", (dlvhex.PREDICATE, dlvhex.CONSTANT), 1, prop)

@@ -2,8 +2,8 @@
 p(X) :- #int(X).
 
 aux(X) :- #sum{ 1:s(X); 1:sf(X) } >= 1, p(X).
-	%aux(X) :- s(X), p(X).
-	%aux(X) :- sf(X), p(X).
+	aux(X) :- s(X), p(X).
+	aux(X) :- sf(X), p(X).
 s(X) :- aux(X).
 
 sf(X) :- not s(X), p(X).
