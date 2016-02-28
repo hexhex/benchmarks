@@ -17,6 +17,6 @@ else
 	hi="hex/$(basename $instance)"
 	confstr="./claspwrapper.sh $ci;./claspwrapper.sh -n 0 $ci;dlvhex2 --aggregate-mode=extbl --ngminimization=always -n=1 hex/gss.hex $hi;dlvhex2 --aggregate-mode=extbl --ngminimization=always hex/gss.hex $hi;dlvhex2 --aggregate-mode=extbl --ngminimization=always --eaevalheuristics=always --claspdefernprop=0 hex/gss.hex $hi"
 
-	$bmscripts/runconfigs.sh "CONF" "$confstr" "" "$to"
+	$bmscripts/runconfigs.sh "CONF" "$confstr" "$ci" "$to"
 fi
 
