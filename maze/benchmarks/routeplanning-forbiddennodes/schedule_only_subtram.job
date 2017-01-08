@@ -1,0 +1,16 @@
+
+		Executable = ./schedule_only_subtram.sh
+		Universe = vanilla
+		output = schedule_only_subtram.out
+		error = schedule_only_subtram.error
+		Log = schedule_only_subtram.log
+		Requirements = machine == "lion.kr.tuwien.ac.at"
+		request_memory = 8192
+		Initialdir = /mnt/lion/home/redl/dlvhex/benchmarks/maze/benchmarks/routeplanning-viennapublic
+		notification = never
+
+		# queue
+		request_cpus = 1 
+		Arguments = 
+		Queue 1
+	     

@@ -1,0 +1,35 @@
+#maxint=50.
+
+% define the locations we want to visit
+initlocation("Heiligenstadt").
+initlocation("Westbahnhof").
+initlocation("Karlsplatz").
+initlocation("Kagraner Platz").
+
+location(X) :- initlocation(X).
+
+% start node of our tour
+sequence(0, "Heiligenstadt").
+
+% guess a sequence of locations
+sequence(I, L) v nsequence(I, L) :- location(L), #int(I), #int(C), C = #count{ N : initlocation(N) }, I < C2, C2 = C + 2.
+:- sequence(I1, L), sequence(I2, L), I1 != I2.
+:- sequence(I, L1), sequence(I, L2), L1 != L2.
+haveSequence(L) :- sequence(I, L).
+:- location(L), not haveSequence(L).
+haveLocation(I) :- sequence(I, L).
+:- sequence(I, L), I1 < I, #int(I1), not haveLocation(I1).
+
+% plan the tour
+pathTmp(L1, L2, X, Y, C, Type) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, map(M), &path[M, edgeline, L1, L2](X, Y, C, Type).
+path(X, Y, C, Type) :- pathTmp(L1, L2, X, Y, C, Type).
+pathExists(L1, L2) :- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, pathTmp(L1, L2, X, Y, C, Type).
+:- sequence(Nr, L1), sequence(NrNext, L2), NrNext = Nr + 1, not pathExists(L1, L2).
+
+% we do not want to visit Schwedenplatz
+:- path("Schwedenplatz (U4)", Y, C, T).
+
+orderedpathTmp(0, L1, L2, X, Y, C, Type) :- sequence(0, X), pathTmp(L1, L2, X, Y, C, Type).
+orderedpathTmp(S, L1, L2, Y, Z, C2, Type2) :- orderedpathTmp(P, L1, L2, X, Y, C, Type), pathTmp(L1, L2, Y, Z, C2, Type2), S = P + 1, #int(S).
+orderedpathTmp(S, Y, L3, Y, Z, C2, Type2) :- orderedpathTmp(P, L1, Y, X, Y, C, Type), pathTmp(Y, L3, Y, Z, C2, Type2), S = P + 1, #int(S).
+orderedpath(S, X, Y, C, Type) :- orderedpathTmp(S, L1, L2, X, Y, C, Type).

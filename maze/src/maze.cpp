@@ -453,7 +453,7 @@ public:
 	}
 
 	virtual void
-	retrieve(const Query& query, Answer& answer, ProgramCtx* ctx, NogoodContainerPtr nogoods) throw (PluginError)
+	retrieve(const Query& query, Answer& answer, NogoodContainerPtr nogoods) throw (PluginError)
 	{
 		assert(query.input.size() == 3 || query.input.size() == 4);
 
@@ -659,7 +659,7 @@ protected:
 		bm::bvector<>::enumerator en = edb->getStorage().first();
 		bm::bvector<>::enumerator en_end = edb->getStorage().end();
 		while (en < en_end){
-			const OrdinaryAtom& ogatom = getRegistry()->ogatoms.getByAddress(*en);
+			const OrdinaryAtom& ogatom = query.interpretation->getRegistry()->ogatoms.getByAddress(*en);
 			if (query.input[1].address == ogatom.tuple[0].address){
 				if (ogatom.tuple.size() < 2) throw PluginError("First parameter of path atom must be a predicate oft arity >= 2");
 
@@ -711,14 +711,10 @@ public:
 	}
 
 	virtual void
-	retrieve(const Query& query, Answer& answer) throw (PluginError)
+	retrieve(const Query& query, Answer& answer, NogoodContainerPtr nogoods) throw (PluginError)
 	{
 		RegistryPtr reg = query.interpretation->getRegistry();
-/*
-using namespace std;
-clock_t begin = clock();
-static double sum = 0.0;
-*/
+
 		// read map (if not already in cache)
 		if (maps.find(reg->terms.getByID(query.input[0]).getUnquotedString()) == maps.end()){
 			InputProviderPtr ip(new InputProvider());
